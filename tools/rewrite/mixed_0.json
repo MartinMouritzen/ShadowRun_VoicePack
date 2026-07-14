@@ -1,0 +1,625 @@
+[
+ {
+  "owner": "Jessica Watts",
+  "base": "519d49c7303031ec15004919_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "519d49c7303031ec15004919_0~g0",
+    "bucket": "narrator",
+    "raw": "Jessica appears to be in the throes of a violent trance or mild seizure. A manic state brought on by the terrible energies she is attempting to conduct.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "519d49c7303031ec15004919_0",
+    "bucket": "name_jessicawatts",
+    "raw": "$(l.name), stop!  The Queen... approaches!  The vessel... The summoning... We... cannot... be... disturbed!",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Jessica appears to be in the throes of a violent trance or mild seizure. A manic state brought on by the terrible energies she is attempting to conduct.{{/GM}}\n\n$(l.name), stop!  The Queen... approaches!  The vessel... The summoning... We... cannot... be... disturbed!"
+ },
+ {
+  "owner": "Jessica Watts",
+  "base": "51a25bb1303031740f006849_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51a25bb1303031740f006849_0~g0",
+    "bucket": "narrator",
+    "raw": "Jessica looks at you, pleading.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a25bb1303031740f006849_0",
+    "bucket": "name_jessicawatts",
+    "raw": "Please, $(l.name). Don’t let them... don’t let them eat me!",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Jessica looks at you, pleading.{{/GM}}\n\nPlease, $(l.name). Don’t let them... don’t let them eat me!"
+ },
+ {
+  "owner": "Jessica Watts",
+  "base": "51ae5da2303031e014007184_17",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51ae5da2303031e014007184_17~g0",
+    "bucket": "narrator",
+    "raw": "Jessica composes herself, and in a breath, the mask is back in place.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51ae5da2303031e014007184_17",
+    "bucket": "name_jessicawatts",
+    "raw": "Listen to me, $(l.name). You seem like a decent person. But I’m trying to move on with my life. Our mother killed herself last year and Sam... Well, Sam was Sam. You know? I’ve worked so hard to put my family issues behind me. I don't want to see this drag on.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Jessica composes herself, and in a breath, the mask is back in place.{{/GM}}\n\nListen to me, $(l.name). You seem like a decent person. But I’m trying to move on with my life. Our mother killed herself last year and Sam... Well, Sam was Sam. You know? I’ve worked so hard to put my family issues behind me. I don't want to see this drag on."
+ },
+ {
+  "owner": "Coyote",
+  "base": "519a6506306434d0170045f4_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "519a6506306434d0170045f4_0~g0",
+    "bucket": "narrator",
+    "raw": "Coyote’s face is pale and her voice is low, shaky.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "519a6506306434d0170045f4_0",
+    "bucket": "name_coyote",
+    "raw": "What the hell was that back there, $(l.man)? Just what the frag was that?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Coyote’s face is pale and her voice is low, shaky.{{/GM}}\n\nWhat the hell was that back there, $(l.man)? Just what the frag was that?"
+ },
+ {
+  "owner": "Coyote",
+  "base": "51ae8290303031980d006758_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51ae8290303031980d006758_0~g0",
+    "bucket": "narrator",
+    "raw": "When Coyote sees you, her eyes glisten with gratitude.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51ae8290303031980d006758_0",
+    "bucket": "name_coyote",
+    "raw": "There $(l.he) is - the $(l.man) of the hour.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}When Coyote sees you, her eyes glisten with gratitude.{{/GM}}\n\nThere $(l.he) is - the $(l.man) of the hour."
+ },
+ {
+  "owner": "Coyote",
+  "base": "51ae8290303031980d006758_10",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51ae8290303031980d006758_10~g0",
+    "bucket": "narrator",
+    "raw": "When Coyote sees you, her eyes glisten with gratitude.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51ae8290303031980d006758_10",
+    "bucket": "name_coyote",
+    "raw": "There $(l.he) is - the $(l.race) of the hour.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}When Coyote sees you, her eyes glisten with gratitude.{{/GM}}\n\nThere $(l.he) is - the $(l.race) of the hour."
+ },
+ {
+  "owner": "Coyote",
+  "base": "51d1b811623331f01b0054df_1",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d1b811623331f01b0054df_1~g0",
+    "bucket": "narrator",
+    "raw": "Coyote looks tense.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d1b811623331f01b0054df_1",
+    "bucket": "name_coyote",
+    "raw": "Hoi, $(l.name). You in the middle of something?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Coyote looks tense.{{/GM}}\n\nHoi, $(l.name). You in the middle of something?"
+ },
+ {
+  "owner": "Coyote",
+  "base": "51d1b811623331f01b0054df_9",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d1b811623331f01b0054df_9~g0",
+    "bucket": "narrator",
+    "raw": "Her face falls.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d1b811623331f01b0054df_9",
+    "bucket": "name_coyote",
+    "raw": "I got nothing, $(l.man). Call it a favor?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Her face falls.{{/GM}}\n\nI got nothing, $(l.man). Call it a favor?"
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "51c0a796623331f01b000735_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51c0a796623331f01b000735_0~g0",
+    "bucket": "narrator",
+    "raw": "The former runner stands near the door, appraising her bar. She appears worried in a way you haven’t seen before.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51c0a796623331f01b000735_0",
+    "bucket": "name_mrskubota",
+    "raw": "Konbanwa, $(l.name).",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}The former runner stands near the door, appraising her bar. She appears worried in a way you haven’t seen before.{{/GM}}\n\nKonbanwa, $(l.name)."
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "51c0a796623331f01b000735_9",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51c0a796623331f01b000735_9~g0",
+    "bucket": "narrator",
+    "raw": "She smiles at your use of Japanese.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51c0a796623331f01b000735_9",
+    "bucket": "name_mrskubota",
+    "raw": "You are a good $(l.man), omae, and a friend of the Seamstresses Union. It is unfortunate that we do not have more friends like you.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}She smiles at your use of Japanese.{{/GM}}\n\nYou are a good $(l.man), omae, and a friend of the Seamstresses Union. It is unfortunate that we do not have more friends like you."
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "51d2ff29623331b00f000753_16",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d2ff29623331b00f000753_16~g0",
+    "bucket": "narrator",
+    "raw": "Mrs. Kubota raises her hand and the conversation stops.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d2ff29623331b00f000753_16",
+    "bucket": "name_mrskubota",
+    "raw": "Wait. Before you go, there is one thing you did not tell us, $(l.name). Where is the Emerald City Ripper now?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Mrs. Kubota raises her hand and the conversation stops.{{/GM}}\n\nWait. Before you go, there is one thing you did not tell us, $(l.name). Where is the Emerald City Ripper now?"
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "57a2e124306434000d00432b_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "57a2e124306434000d00432b_0~g0",
+    "bucket": "narrator",
+    "raw": "$(s.name) watches you cross the room, sizing you up as you approach. As you get closer, you can see that she’s of mixed race - African and Japanese. Her demeanor says, “This is my house, mess with it at your peril.” but her eyes twinkle with a playful light when she speaks.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_0",
+    "bucket": "name_mrskubota",
+    "raw": "Konbanwa! Good evening!",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}$(s.name) watches you cross the room, sizing you up as you approach. As you get closer, you can see that she’s of mixed race - African and Japanese. Her demeanor says, “This is my house, mess with it at your peril.” but her eyes twinkle with a playful light when she speaks.{{/GM}}\n\nKonbanwa! Good evening! "
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "57a2e124306434000d00432b_1",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_1~c0",
+    "bucket": "name_mrskubota",
+    "raw": "My but aren’t you a big, powerful $(l.Race). Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "57a2e124306434000d00432b_1~g0",
+    "bucket": "narrator",
+    "raw": "She eyes you closely.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_1~c1",
+    "bucket": "name_mrskubota",
+    "raw": "Or is this business?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "My but aren’t you a big, powerful $(l.Race). Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy. \n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?\n\n"
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "57a2e124306434000d00432b_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_2~c0",
+    "bucket": "name_mrskubota",
+    "raw": "My, but aren’t you the pretty elf! Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "57a2e124306434000d00432b_2~g0",
+    "bucket": "narrator",
+    "raw": "She eyes you closely.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_2~c1",
+    "bucket": "name_mrskubota",
+    "raw": "Or is this business?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "My, but aren’t you the pretty elf! Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.\n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?"
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "57a2e124306434000d00432b_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_3~c0",
+    "bucket": "name_mrskubota",
+    "raw": "It is true what they say: \"Good things come in small packages!\" Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "57a2e124306434000d00432b_3~g0",
+    "bucket": "narrator",
+    "raw": "She eyes you closely.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_3~c1",
+    "bucket": "name_mrskubota",
+    "raw": "Or is this business?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "It is true what they say: \"Good things come in small packages!\" Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.\n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?"
+ },
+ {
+  "owner": "Mrs. Kubota",
+  "base": "57a2e124306434000d00432b_4",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_4~c0",
+    "bucket": "name_mrskubota",
+    "raw": "Konbanwa! Good evening! Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "57a2e124306434000d00432b_4~g0",
+    "bucket": "narrator",
+    "raw": "She eyes you closely.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "57a2e124306434000d00432b_4~c1",
+    "bucket": "name_mrskubota",
+    "raw": "Or is this business?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "Konbanwa! Good evening! Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.\n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?"
+ },
+ {
+  "owner": "Dresden",
+  "base": "51bf9d856233310c0a004576_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51bf9d856233310c0a004576_0~g0",
+    "bucket": "narrator",
+    "raw": "The little coroner is surprised to see you but he can’t hide his delight.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bf9d856233310c0a004576_0",
+    "bucket": "name_dresden",
+    "raw": "Hey, $(l.name). I was wondering if I was going to see you again! I guess I shouldn’t be surprised to find you here.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}The little coroner is surprised to see you but he can’t hide his delight.{{/GM}}\n\nHey, $(l.name). I was wondering if I was going to see you again! I guess I shouldn’t be surprised to find you here."
+ },
+ {
+  "owner": "Dresden",
+  "base": "6084d83b6233317c16000072_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "6084d83b6233317c16000072_0~c0",
+    "bucket": "name_dresden",
+    "raw": "$(l.name)! Still working for the dead man?",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "6084d83b6233317c16000072_0~g0",
+    "bucket": "narrator",
+    "raw": "He chuckles.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "6084d83b6233317c16000072_0~c1",
+    "bucket": "name_dresden",
+    "raw": "As you can see... we've got another Ripper victim on our hands.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "$(l.name)! Still working for the dead man? {{GM}}He chuckles.{{/GM}}\n\nAs you can see... we've got another Ripper victim on our hands."
+ },
+ {
+  "owner": "Dresden",
+  "base": "6084d83b6233317c16000072_8",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "6084d83b6233317c16000072_8~g0",
+    "bucket": "narrator",
+    "raw": "He grins from ear to ear.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "6084d83b6233317c16000072_8",
+    "bucket": "name_dresden",
+    "raw": "Do you have any idea how much this job pays these days, $(l.sir)? I don't think Aguirre's officer's salary is going to do much to seduce me into helping him.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He grins from ear to ear.{{/GM}}\n\nDo you have any idea how much this job pays these days, $(l.sir)? I don't think Aguirre's officer's salary is going to do much to seduce me into helping him."
+ },
+ {
+  "owner": "Johnny Clean",
+  "base": "51d2ff29623331b00f000753_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d2ff29623331b00f000753_0~g0",
+    "bucket": "narrator",
+    "raw": "Johnny Clean is talking with Cherry Bomb and Mrs. Kubota when you walk up.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d2ff29623331b00f000753_0",
+    "bucket": "name_johnnyclean",
+    "raw": "We were just talking about you, $(l.name).",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Johnny Clean is talking with Cherry Bomb and Mrs. Kubota when you walk up.{{/GM}}\n\nWe were just talking about you, $(l.name)."
+ },
+ {
+  "owner": "Harlequin",
+  "base": "51a7b5663561644c0e006fd9_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51a7b5663561644c0e006fd9_3~c0",
+    "bucket": "name_harlequin",
+    "raw": "Hans dear, I love you but you could babble on forever and I believe time is of the essence.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "51a7b5663561644c0e006fd9_3~g0",
+    "bucket": "narrator",
+    "raw": "The painted elf addresses you.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a7b5663561644c0e006fd9_3~c1",
+    "bucket": "name_harlequin",
+    "raw": "$(l.name), is it? Delighted. The bug you fought was not merely a magically-Awakened animal like a wyvern or hydra or anything else in the Sixth World. In fact, it isn’t from *this* world at all. It’s the physical embodiment of an insect spirit from another plane of existence.",
+    "edited": true,
+    "user_edit": "And you. Delighted to meet you. The bug you fought was not merely a magically-Awakened animal like a wyvern or hydra or anything else in the Sixth World. In fact, it isn’t from *this* world at all. It’s the physical embodiment of an insect spirit from another plane of existence."
+   }
+  ],
+  "original_full": "Hans dear, I love you but you could babble on forever and I believe time is of the essence. \n\n{{GM}}The painted elf addresses you.{{/GM}}\n\n$(l.name), is it? Delighted. The bug you fought was not merely a magically-Awakened animal like a wyvern or hydra or anything else in the Sixth World. In fact, it isn’t from *this* world at all. It’s the physical embodiment of an insect spirit from another plane of existence. "
+ },
+ {
+  "owner": "Cherry Bomb",
+  "base": "51ae5007303031e01400702a_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51ae5007303031e01400702a_0~g0",
+    "bucket": "narrator",
+    "raw": "Cherry Bomb flags you down as you walk through the door.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51ae5007303031e01400702a_0",
+    "bucket": "name_cherrybomb",
+    "raw": "Hey, $(l.name)! There’s a woman looking for you - Jessica something. She’s waiting for you by the stage. Bellevue type. Wouldn’t order anything. Won’t touch anything. I think she’s afraid of diseases or something.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Cherry Bomb flags you down as you walk through the door.{{/GM}}\n\nHey, $(l.name)! There’s a woman looking for you - Jessica something. She’s waiting for you by the stage. Bellevue type. Wouldn’t order anything. Won’t touch anything. I think she’s afraid of diseases or something."
+ },
+ {
+  "owner": "Cherry Bomb",
+  "base": "51b68442623331ec0000301f_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51b68442623331ec0000301f_0~g0",
+    "bucket": "narrator",
+    "raw": "Cherry Bomb is swamped with customers but when she catches a glimpse of you, she gets up on her tiptoes to talk to you over their heads.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51b68442623331ec0000301f_0",
+    "bucket": "name_cherrybomb",
+    "raw": "Hey there, $(l.name)! What’s going on?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Cherry Bomb is swamped with customers but when she catches a glimpse of you, she gets up on her tiptoes to talk to you over their heads.{{/GM}}\n\nHey there, $(l.name)! What’s going on?"
+ },
+ {
+  "owner": "Cherry Bomb",
+  "base": "51b68442623331ec0000301f_3",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51b68442623331ec0000301f_3~g0",
+    "bucket": "narrator",
+    "raw": "She looks you in the eye.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51b68442623331ec0000301f_3",
+    "bucket": "name_cherrybomb",
+    "raw": "Just tell it to me straight, $(l.name). I’m a Barrens girl.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}She looks you in the eye.{{/GM}}\n\nJust tell it to me straight, $(l.name). I’m a Barrens girl."
+ },
+ {
+  "owner": "Cherry Bomb",
+  "base": "51d0afca623331241400450b_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d0afca623331241400450b_0~g0",
+    "bucket": "narrator",
+    "raw": "When Cherry Bomb sees you, her eyes light up.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d0afca623331241400450b_0",
+    "bucket": "name_cherrybomb",
+    "raw": "Hey, $(l.name). What's going on?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}When Cherry Bomb sees you, her eyes light up.{{/GM}}\n\nHey, $(l.name). What's going on?"
+ }
+]

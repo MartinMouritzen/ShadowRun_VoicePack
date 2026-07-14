@@ -1,0 +1,5227 @@
+{
+ "name_jessicawatts": {
+  "bio": "Sam's estranged sister and the public face of the Universal Brotherhood - polished, magnetic, and rotten underneath.",
+  "direction": "Warm, cultured messiah with a cold fanatic core; should sound trustworthy until you listen closely.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_361",
+    "name": "Olivia Roberts",
+    "why": "Sinister and eloquent, this villainous voice is wickedly calculated, cruel, and calm—perfe"
+   },
+   {
+    "voice_id": "mag_44",
+    "name": "Chloe Bennett",
+    "why": "Middle-aged American female voice, calm and soothing. Perfect for narrations requiring a c"
+   },
+   {
+    "voice_id": "mag_179",
+    "name": "Grace O'Neil",
+    "why": "Measured and calm female voice with an Irish accent."
+   },
+   {
+    "voice_id": "mag_528",
+    "name": "Lilith Vexmoor",
+    "why": "Calm, clever, and dangerously composed. This female voice drips with sarcasm and intellige"
+   },
+   {
+    "voice_id": "mag_334",
+    "name": "Madison Taylor",
+    "why": "Relaxed and soothing, this 30-40-year-old African American female voice has a calm, pleasa"
+   },
+   {
+    "voice_id": "mag_503",
+    "name": "Rachel Monroe",
+    "why": "Grounded and Professional, this middle-aged female voice is ideal for conversational forma"
+   },
+   {
+    "voice_id": "mag_631",
+    "name": "Rhea Sterling",
+    "why": "A soft, graceful voice that blends intimacy with refinement. Rhea’s calm and expressive to"
+   },
+   {
+    "voice_id": "mag_161",
+    "name": "Riley Monroe",
+    "why": "Middle-aged African American female with a Southern accent. Great for storytelling with au"
+   }
+  ]
+ },
+ "name_coyote": {
+  "bio": "Street kid Sam pulled out of the gutter; tends bar and runs shadows to keep the grief at bay.",
+  "direction": "Young, rough-edged, guarded; sarcasm as armor over real hurt.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_802",
+    "name": "Ada Okafor",
+    "why": "A young, gentle and conversational Nigerian voice with effortless natural cadence and auth"
+   },
+   {
+    "voice_id": "mag_613",
+    "name": "Amber Hayes",
+    "why": "Energetic and youthful British voice, perfect for narrations and storytelling. Engaging, n"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrations needing clarity,"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for YouTube videos, social "
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation and self-reflection,"
+   },
+   {
+    "voice_id": "mag_504",
+    "name": "Brielle Carter",
+    "why": "Youthful and Authentic, this young female voice is ideal for relatable narration. It also "
+   },
+   {
+    "voice_id": "mag_283",
+    "name": "Charlotte Taylor",
+    "why": "Upbeat and energetic, this young American female voice is ideal for social media content. "
+   }
+  ]
+ },
+ "name_baronsamedi": {
+  "bio": "Ghoul crime lord running Seattle's organ-legging trade from the shadows, dressed in loa theatrics.",
+  "direction": "Caribbean-flavored, theatrical menace: playful cadence, predator underneath.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_796",
+    "name": "Winston Brown",
+    "why": "An authentic Jamaican voice with a raspy, edgy character and unmistakable Caribbean island"
+   },
+   {
+    "voice_id": "mag_339",
+    "name": "Infernal Colossus",
+    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
+   },
+   {
+    "voice_id": "mag_520",
+    "name": "Mortimer Nocturne",
+    "why": "Deep male voice with an Eastern European accent, ideal for gothic horror, vampire narratio"
+   },
+   {
+    "voice_id": "mag_441",
+    "name": "Noah Reed",
+    "why": "Deep, resonant, slightly husky with a pleasant rasp. Standard American accent with a contr"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
+   },
+   {
+    "voice_id": "mag_519",
+    "name": "Basil Thornecroft",
+    "why": "Deep, cultured baritone laced with sharp cynicism and dry wit. This voice cuts through pre"
+   },
+   {
+    "voice_id": "mag_447",
+    "name": "Caleb Morgan",
+    "why": "Deep, rich, warm, and confident. Smooth and reassuring with quiet strength—great for podca"
+   },
+   {
+    "voice_id": "mag_597",
+    "name": "Charles Haversham",
+    "why": "Charles Haversham is a distinguished British male voice with a deep, commanding tone and i"
+   }
+  ]
+ },
+ "name_mrskubota": {
+  "bio": "Iron-willed matriarch of the Seamstresses Union - keeps her girls safe and her secrets safer.",
+  "direction": "Older, dignified, unshockable; velvet manners over steel.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_241",
+    "name": "Charlotte Grace",
+    "why": "Professional voice with a Transatlantic/mid-Atlantic accent, blending American and British"
+   },
+   {
+    "voice_id": "mag_261",
+    "name": "Harper Olivia",
+    "why": "Velvety smooth voice exuding charm and sophistication. Playful yet wise, it captivates lis"
+   },
+   {
+    "voice_id": "mag_165",
+    "name": "Lila Winters",
+    "why": "Soothing and calm British female voice, ideal for audiobooks, narration, and videos."
+   },
+   {
+    "voice_id": "mag_532",
+    "name": "Nyra- Robot Voice",
+    "why": "Calm and precise female voice, designed for AI assistants, GPS systems, virtual helpers, a"
+   },
+   {
+    "voice_id": "mag_364",
+    "name": "Sophia Morgan",
+    "why": "Reflective and velvety, this calm, somber voice with mid-deep tones is ideal for poetry, m"
+   },
+   {
+    "voice_id": "mag_158",
+    "name": "Taylor Morgan",
+    "why": "Young female with a soft, calming tone. Perfect for storytelling or ASMR, providing a sens"
+   },
+   {
+    "voice_id": "mag_163",
+    "name": "Vivian Lane",
+    "why": "Soothing and calm British female voice, ideal for audiobooks, narration, and videos."
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation and self-reflection,"
+   }
+  ]
+ },
+ "name_dresden": {
+  "bio": "Dwarf coroner at the city morgue; has seen every way a body can stop working and jokes about most of them.",
+  "direction": "Dry gallows humor, precise diction, unbothered by anything.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "Factual and clear, this mature adult male voice is objective and authoritative, perfect fo"
+   },
+   {
+    "voice_id": "mag_685",
+    "name": "Dusty Baxter",
+    "why": "Gruff, overly confident, and always wrong but never in doubt. A comedic disaster of mispla"
+   },
+   {
+    "voice_id": "mag_385",
+    "name": "Ethan Fraser",
+    "why": "With a soft and refined Australian accent, this 40-year-old male voice carries warmth and "
+   },
+   {
+    "voice_id": "mag_544",
+    "name": "Jack Riker",
+    "why": "A gruff, energetic voice with the grit of a middle-aged character—perfect for high-intensi"
+   },
+   {
+    "voice_id": "mag_183",
+    "name": "Oliver Hayes",
+    "why": "Mature and resonant Canadian male voice, suited for podcasts, narration, and news."
+   },
+   {
+    "voice_id": "mag_231",
+    "name": "Thabo Peterson",
+    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
+   },
+   {
+    "voice_id": "mag_519",
+    "name": "Basil Thornecroft",
+    "why": "Deep, cultured baritone laced with sharp cynicism and dry wit. This voice cuts through pre"
+   },
+   {
+    "voice_id": "mag_264",
+    "name": "Caleb Ryan",
+    "why": "Clear and precise young American male voice, ideal for tech news broadcasting."
+   }
+  ]
+ },
+ "name_johnnyclean": {
+  "bio": "Legendary decker avatar who haunts the Matrix - all signal, no meat.",
+  "direction": "Slick late-night-radio cool with a digital sheen; never hurried.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
+   },
+   {
+    "voice_id": "mag_585",
+    "name": "Brad Spinner",
+    "why": "A classic FM disc jockey voice inspired by 1950s–1980s American radio. Energetic, nostalgi"
+   },
+   {
+    "voice_id": "mag_588",
+    "name": "Chad Waters",
+    "why": "The ultimate laid-back surfer voice, radiating sun-soaked stoke, carefree energy, and beac"
+   },
+   {
+    "voice_id": "mag_516",
+    "name": "Dominic Blaze",
+    "why": "Smug and Theatrical, this middle-aged male voice is ideal for villainous characters. It al"
+   },
+   {
+    "voice_id": "mag_206",
+    "name": "Henry Carter",
+    "why": "Smooth and polished New Zealand English accent, great for storytelling."
+   },
+   {
+    "voice_id": "mag_307",
+    "name": "Henry Fletcher",
+    "why": "Deep and textured, this mature British male voice carries a subtle roughness while remaini"
+   },
+   {
+    "voice_id": "mag_31",
+    "name": "Jake Morrison",
+    "why": "Middle-aged male voice with a classic, radio-friendly quality. Ideal for radio broadcasts "
+   },
+   {
+    "voice_id": "mag_440",
+    "name": "Liam Hayes",
+    "why": "Deep and velvety, this baritone voice blends classical richness with modern clarity. Comma"
+   }
+  ]
+ },
+ "name_harlequin": {
+  "bio": "An immortal elf wearing motley and mockery; older than nations and hiding it behind punchlines.",
+  "direction": "Theatrical trickster: quicksilver comedy that can drop into ancient, chilling weight mid-sentence.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_516",
+    "name": "Dominic Blaze",
+    "why": "Smug and Theatrical, this middle-aged male voice is ideal for villainous characters. It al"
+   },
+   {
+    "voice_id": "mag_523",
+    "name": "Viremont LeNoir",
+    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
+   },
+   {
+    "voice_id": "mag_589",
+    "name": "Skryth the Withered",
+    "why": "A haunting, Gollum-like voice blending feral madness with childlike vulnerability. Featuri"
+   },
+   {
+    "voice_id": "mag_535",
+    "name": "Walter Briggs",
+    "why": "A classic, spirited male voice with the theatrical charm or vintage radio. Upbeat, punchy,"
+   },
+   {
+    "voice_id": "mag_440",
+    "name": "Liam Hayes",
+    "why": "Deep and velvety, this baritone voice blends classical richness with modern clarity. Comma"
+   },
+   {
+    "voice_id": "mag_520",
+    "name": "Mortimer Nocturne",
+    "why": "Deep male voice with an Eastern European accent, ideal for gothic horror, vampire narratio"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect for informative and na"
+   },
+   {
+    "voice_id": "mag_294",
+    "name": "Alexander Davis",
+    "why": "Warm and friendly, this middle-aged American male voice is ideal for conversational conten"
+   }
+  ]
+ },
+ "name_cherrybomb": {
+  "bio": "Elf performer holding court at the club - all glitter, gossip and sharpened nails.",
+  "direction": "Flirty, playful, dangerous when crossed.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_513",
+    "name": "Lila Kim",
+    "why": "Cute and Energetic, this young female voice is ideal for anime-style content. It also brin"
+   },
+   {
+    "voice_id": "mag_531",
+    "name": "Vera Raze",
+    "why": "Bright, energetic female voice bursting with personality. Playful, expressive, and effortl"
+   },
+   {
+    "voice_id": "mag_261",
+    "name": "Harper Olivia",
+    "why": "Velvety smooth voice exuding charm and sophistication. Playful yet wise, it captivates lis"
+   },
+   {
+    "voice_id": "mag_505",
+    "name": "Lena Rivers",
+    "why": "Cute and Candid, this young female voice is ideal for charming narration. It also brings e"
+   },
+   {
+    "voice_id": "mag_542",
+    "name": "Selene Vex",
+    "why": "A female voice like dark velvet—low, sultry, and subtly dangerous. Ideal for villainous or"
+   },
+   {
+    "voice_id": "mag_156",
+    "name": "Sydney Brooks",
+    "why": "Playful valley girl voice. Great for short, fun videos, perfect for a youthful and carefre"
+   },
+   {
+    "voice_id": "mag_499",
+    "name": "Tessa Morgan",
+    "why": "Adorable and Upbeat, this young female voice is ideal for animated characters. It also bri"
+   },
+   {
+    "voice_id": "mag_613",
+    "name": "Amber Hayes",
+    "why": "Energetic and youthful British voice, perfect for narrations and storytelling. Engaging, n"
+   }
+  ]
+ },
+ "name_jamestelestrianiii": {
+  "bio": "Patriarch of Telestrian Industries, one of the most powerful elves in Seattle.",
+  "direction": "Aristocratic boardroom authority; every word measured, entitled, final.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_583",
+    "name": "Reginald Ashworth",
+    "why": "A posh British man from the Home Counties. Landed gentry style with classic Received Pronu"
+   },
+   {
+    "voice_id": "mag_597",
+    "name": "Charles Haversham",
+    "why": "Charles Haversham is a distinguished British male voice with a deep, commanding tone and i"
+   },
+   {
+    "voice_id": "mag_385",
+    "name": "Ethan Fraser",
+    "why": "With a soft and refined Australian accent, this 40-year-old male voice carries warmth and "
+   },
+   {
+    "voice_id": "mag_523",
+    "name": "Viremont LeNoir",
+    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
+   },
+   {
+    "voice_id": "mag_297",
+    "name": "Henry Whitaker",
+    "why": "A confident and authoritative middle-aged British male voice, perfectly suited for news pr"
+   },
+   {
+    "voice_id": "mag_840",
+    "name": "Daniel Koh",
+    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
+   },
+   {
+    "voice_id": "mag_350",
+    "name": "Henry Beckett",
+    "why": "Professional and well-spoken, this British narrator exudes intrigue and wonder. Perfect fo"
+   },
+   {
+    "voice_id": "mag_541",
+    "name": "Jack Thornhill",
+    "why": "British man with grit in his voice and weight in his words. His tone is rough, grounded, a"
+   }
+  ]
+ },
+ "name_mrkluwe": {
+  "bio": "Loudmouth troll with opinions on everything and the muscle to back most of them.",
+  "direction": "Big, brash, fast-talking; fun but genuinely imposing.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_286",
+    "name": "Benjamin Parker",
+    "why": "Intense and dynamic, this middle-aged American male voice is perfect for character work. I"
+   },
+   {
+    "voice_id": "mag_38",
+    "name": "Cole Anderson",
+    "why": "Upbeat, professional male voice with an energetic edge. Great for narrations that convey b"
+   },
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
+   },
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "Strong and engaging, this middle-aged male voice has a deep tone, making it well-suited fo"
+   },
+   {
+    "voice_id": "mag_186",
+    "name": "Ethan Clarke",
+    "why": "Energetic and lively male voice, ideal for bringing audiobooks to life."
+   },
+   {
+    "voice_id": "mag_292",
+    "name": "Ethan Miller",
+    "why": "Friendly and energetic, this young American male voice is perfect for social media content"
+   },
+   {
+    "voice_id": "mag_366",
+    "name": "Ethan Parker",
+    "why": "Powerful and expressive, this hyper-deep US narrator brings authority and charisma. Perfec"
+   },
+   {
+    "voice_id": "mag_35",
+    "name": "Grant Walker",
+    "why": "Deep American male voice, ideal for podcasts, advertisements, and narration."
+   }
+  ]
+ },
+ "name_mcklusky": {
+  "bio": "Ork boss working the docks - equal parts foreman, fixer and brawler.",
+  "direction": "Gravel and bluster; a voice that has shouted over machinery for decades.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_538",
+    "name": "Wade “Red” Dawson",
+    "why": "A deep, gravelly Texan voice with the soul of the South and the charm of a fireside storyt"
+   },
+   {
+    "voice_id": "mag_519",
+    "name": "Basil Thornecroft",
+    "why": "Deep, cultured baritone laced with sharp cynicism and dry wit. This voice cuts through pre"
+   },
+   {
+    "voice_id": "mag_307",
+    "name": "Henry Fletcher",
+    "why": "Deep and textured, this mature British male voice carries a subtle roughness while remaini"
+   },
+   {
+    "voice_id": "mag_511",
+    "name": "Dorian Malice",
+    "why": "A measured, elderly male voice with subtle menace. Slightly eccentric, calm yet unpredicta"
+   },
+   {
+    "voice_id": "mag_600",
+    "name": "Jack Rawlins",
+    "why": "Jack Rawlins is a thunderous American male voice with deep grit and cinematic power. His d"
+   },
+   {
+    "voice_id": "mag_359",
+    "name": "Jacob Harrison",
+    "why": "Deep and gritty, this American male Southern drawl channels a Western cowboy feel, similar"
+   },
+   {
+    "voice_id": "mag_37",
+    "name": "Logan West",
+    "why": "Middle-aged American male with a smooth, deep voice. Rich, smooth, and rugged tone, ideal "
+   },
+   {
+    "voice_id": "mag_524",
+    "name": "Lord Nytherion",
+    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
+   }
+  ]
+ },
+ "name_jakearmitage": {
+  "bio": "The courier from the SNES legend himself - a data-run gone wrong made him a street icon.",
+  "direction": "Laconic street-samurai cool: low, dry, economical. Every word costs him something.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_319",
+    "name": "Benjamin Walker",
+    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
+   },
+   {
+    "voice_id": "mag_37",
+    "name": "Logan West",
+    "why": "Middle-aged American male with a smooth, deep voice. Rich, smooth, and rugged tone, ideal "
+   },
+   {
+    "voice_id": "mag_524",
+    "name": "Lord Nytherion",
+    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
+   },
+   {
+    "voice_id": "mag_390",
+    "name": "James Carter",
+    "why": "Rugged and wise, this older American male voice carries the grit of a cowboy who’s lived a"
+   },
+   {
+    "voice_id": "mag_440",
+    "name": "Liam Hayes",
+    "why": "Deep and velvety, this baritone voice blends classical richness with modern clarity. Comma"
+   },
+   {
+    "voice_id": "mag_519",
+    "name": "Basil Thornecroft",
+    "why": "Deep, cultured baritone laced with sharp cynicism and dry wit. This voice cuts through pre"
+   },
+   {
+    "voice_id": "mag_337",
+    "name": "Jackson Cooper",
+    "why": "Rich and textured, this aged American male voice carries the gravel of countless tales and"
+   },
+   {
+    "voice_id": "mag_260",
+    "name": "Theodore William",
+    "why": "Deep, controlled British urban voice, ideal for adding authenticity and character to diver"
+   }
+  ]
+ },
+ "name_drsaracastle": {
+  "bio": "Sharp forensic doctor who helps unravel what really happened to Sam.",
+  "direction": "Competent, warm-professional, quietly wry.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_687",
+    "name": "Clara Devon",
+    "why": "Polished and approachable British voice, ideal for radio links, casual reads, TV promos, o"
+   },
+   {
+    "voice_id": "mag_258",
+    "name": "Sophia Elizabeth",
+    "why": "Elegant yet relaxed British female voice, warm and clear. Trustworthy and engaging, ideal "
+   },
+   {
+    "voice_id": "mag_503",
+    "name": "Rachel Monroe",
+    "why": "Grounded and Professional, this middle-aged female voice is ideal for conversational forma"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narration and storytelling"
+   },
+   {
+    "voice_id": "mag_290",
+    "name": "Charlotte Harrington",
+    "why": "Confident and articulate middle-aged British female voice, perfect for news delivery and f"
+   },
+   {
+    "voice_id": "mag_596",
+    "name": "Lauren Parker",
+    "why": "Lauren Parker is a professional American female voice that strikes the perfect balance bet"
+   },
+   {
+    "voice_id": "mag_34",
+    "name": "Mia Brooks",
+    "why": "Friendly, engaging female voice in her late twenties to thirties. Ideal for audiobooks and"
+   },
+   {
+    "voice_id": "mag_282",
+    "name": "Mia Wilson",
+    "why": "Soft and clear, this young American female voice is perfect for news content. Ideal for de"
+   }
+  ]
+ },
+ "name_tweaker": {
+  "bio": "Chip-fried informant vibrating between paranoia and salesmanship.",
+  "direction": "Twitchy, fast, pitch shifting; sounds like he's already three sentences ahead.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_686",
+    "name": "Terry Dobson",
+    "why": "Eccentric, husky-voiced Northerner with odd takes, sharp instincts, and charming contradic"
+   },
+   {
+    "voice_id": "mag_518",
+    "name": "Dr. Cosmo Fizzlebaum",
+    "why": "Lively and quirky, this voice bursts with character and charm. Ideal for oddball roles, wh"
+   },
+   {
+    "voice_id": "mag_533",
+    "name": "Zeke Rivers",
+    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
+   },
+   {
+    "voice_id": "mag_511",
+    "name": "Dorian Malice",
+    "why": "A measured, elderly male voice with subtle menace. Slightly eccentric, calm yet unpredicta"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style voice has a higher pi"
+   },
+   {
+    "voice_id": "mag_543",
+    "name": "Axel Virex",
+    "why": "An American male voice with a robotic edge, well-suited for science fiction and fantasy pr"
+   },
+   {
+    "voice_id": "mag_442",
+    "name": "Ben Watson",
+    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
+   }
+  ]
+ },
+ "name_aljernon": {
+  "bio": "Eccentric elf talismonger - part shopkeeper, part oracle, entirely odd.",
+  "direction": "Whimsical and sly, with genuine arcane depth beneath the patter.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_518",
+    "name": "Dr. Cosmo Fizzlebaum",
+    "why": "Lively and quirky, this voice bursts with character and charm. Ideal for oddball roles, wh"
+   },
+   {
+    "voice_id": "mag_686",
+    "name": "Terry Dobson",
+    "why": "Eccentric, husky-voiced Northerner with odd takes, sharp instincts, and charming contradic"
+   },
+   {
+    "voice_id": "mag_500",
+    "name": "Santa Claus",
+    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
+   },
+   {
+    "voice_id": "mag_535",
+    "name": "Walter Briggs",
+    "why": "A classic, spirited male voice with the theatrical charm or vintage radio. Upbeat, punchy,"
+   },
+   {
+    "voice_id": "mag_533",
+    "name": "Zeke Rivers",
+    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
+   },
+   {
+    "voice_id": "mag_516",
+    "name": "Dominic Blaze",
+    "why": "Smug and Theatrical, this middle-aged male voice is ideal for villainous characters. It al"
+   },
+   {
+    "voice_id": "mag_511",
+    "name": "Dorian Malice",
+    "why": "A measured, elderly male voice with subtle menace. Slightly eccentric, calm yet unpredicta"
+   },
+   {
+    "voice_id": "mag_523",
+    "name": "Viremont LeNoir",
+    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
+   }
+  ]
+ },
+ "name_fatherwillyhansen": {
+  "bio": "The Universal Brotherhood's beaming public preacher.",
+  "direction": "Televangelist warmth turned up to eleven; sincerity that feels one notch too smooth.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
+   },
+   {
+    "voice_id": "mag_176",
+    "name": "Connor Keane",
+    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
+   },
+   {
+    "voice_id": "mag_351",
+    "name": "Daniel Brooks",
+    "why": "Warm and nostalgic, this voice feels like listening to your grandpa tell bedtime stories b"
+   },
+   {
+    "voice_id": "mag_586",
+    "name": "Dexter Glitch",
+    "why": "A warm, expressive voice tailored for heartfelt oddballs, shy leads, lovable nerds, and so"
+   },
+   {
+    "voice_id": "mag_42",
+    "name": "Ryan Fox",
+    "why": "Smooth Australian male voice with warmth and confidence. Ideal for content requiring a con"
+   },
+   {
+    "voice_id": "mag_584",
+    "name": "Titan Steele",
+    "why": "A booming, larger-than-life American announcer voice, packed with excitement and adrenalin"
+   },
+   {
+    "voice_id": "mag_598",
+    "name": "Tom Spencer",
+    "why": "Tom Spencer is a British male voice with a clear, neutral tone and a subtle West Country a"
+   },
+   {
+    "voice_id": "mag_447",
+    "name": "Caleb Morgan",
+    "why": "Deep, rich, warm, and confident. Smooth and reassuring with quiet strength—great for podca"
+   }
+  ]
+ },
+ "name_paco": {
+  "bio": "Street kid and gang lookout who knows every alley in the Barrens.",
+  "direction": "Young, eager, streetwise; bravado covering nerves.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_40",
+    "name": "Dylan Scott",
+    "why": "Young American male voice, trained for movie recaps. Casual, youthful tone perfect for sum"
+   },
+   {
+    "voice_id": "mag_269",
+    "name": "Logan Christopher",
+    "why": "Youthful General American male baritone-tenor with a slight millennial fry. Energetic and "
+   },
+   {
+    "voice_id": "mag_502",
+    "name": "Logan Price",
+    "why": "Casual and Friendly, this young male voice is ideal for modern conversations. It also brin"
+   },
+   {
+    "voice_id": "mag_186",
+    "name": "Ethan Clarke",
+    "why": "Energetic and lively male voice, ideal for bringing audiobooks to life."
+   },
+   {
+    "voice_id": "mag_292",
+    "name": "Ethan Miller",
+    "why": "Friendly and energetic, this young American male voice is perfect for social media content"
+   },
+   {
+    "voice_id": "mag_41",
+    "name": "Chase Reed",
+    "why": "Young Australian male voice, natural and engaging. Great for narration, advertising, and s"
+   },
+   {
+    "voice_id": "mag_178",
+    "name": "Ciaran Walsh",
+    "why": "A young American male voice, clear and neutral, ideal for news or daily talk shows."
+   },
+   {
+    "voice_id": "mag_507",
+    "name": "Dylan Hayes",
+    "why": "Warm and Neutral, this young male voice is ideal for versatile audio projects. It also bri"
+   }
+  ]
+ },
+ "name_vangraas": {
+  "bio": "Doctor keeping a free clinic alive in a neighborhood that keeps trying to die.",
+  "direction": "Weary compassion; educated, gentle, permanently tired.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_841",
+    "name": "Walter Hansen",
+    "why": "A resonant, well-articulated voice with gentle Midwestern character, delivering narration "
+   },
+   {
+    "voice_id": "mag_342",
+    "name": "Christopher Sullivan",
+    "why": "Calm and introspective, this soothing voice is ideal for meditation and contemplation, pro"
+   },
+   {
+    "voice_id": "mag_184",
+    "name": "Nathan Brooks",
+    "why": "Gentle and soothing Canadian male voice, perfect for narration and storytelling."
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
+   },
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "Factual and clear, this mature adult male voice is objective and authoritative, perfect fo"
+   },
+   {
+    "voice_id": "mag_31",
+    "name": "Jake Morrison",
+    "why": "Middle-aged male voice with a classic, radio-friendly quality. Ideal for radio broadcasts "
+   },
+   {
+    "voice_id": "mag_183",
+    "name": "Oliver Hayes",
+    "why": "Mature and resonant Canadian male voice, suited for podcasts, narration, and news."
+   }
+  ]
+ },
+ "name_officeraguirre": {
+  "bio": "Lone Star beat cop - by the book, but the book still has a conscience.",
+  "direction": "Steady, procedural, decent; clipped cop cadence.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "Factual and clear, this mature adult male voice is objective and authoritative, perfect fo"
+   },
+   {
+    "voice_id": "mag_438",
+    "name": "Jake Miller",
+    "why": "Clear and steady, this middle-aged American male voice brings a natural tone and approacha"
+   },
+   {
+    "voice_id": "mag_446",
+    "name": "Logan Scott",
+    "why": "Clear, crisp, professional American voice with a broadcast news tone. Excellent for reader"
+   },
+   {
+    "voice_id": "mag_441",
+    "name": "Noah Reed",
+    "why": "Deep, resonant, slightly husky with a pleasant rasp. Standard American accent with a contr"
+   },
+   {
+    "voice_id": "mag_231",
+    "name": "Thabo Peterson",
+    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
+   },
+   {
+    "voice_id": "mag_598",
+    "name": "Tom Spencer",
+    "why": "Tom Spencer is a British male voice with a clear, neutral tone and a subtle West Country a"
+   },
+   {
+    "voice_id": "mag_244",
+    "name": "James Alexander",
+    "why": "A very clear and crisp voice with a slightly monotone delivery, perfect for tech video nar"
+   },
+   {
+    "voice_id": "mag_281",
+    "name": "Logan Anderson",
+    "why": "Confident and engaging, this middle-aged American male voice is ideal for social media con"
+   }
+  ]
+ },
+ "name_drholmes": {
+  "bio": "Elf body-shop surgeon with silk manners and flexible ethics.",
+  "direction": "Silky, reassuring, faintly predatory bedside manner.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   },
+   {
+    "voice_id": "mag_342",
+    "name": "Christopher Sullivan",
+    "why": "Calm and introspective, this soothing voice is ideal for meditation and contemplation, pro"
+   },
+   {
+    "voice_id": "mag_339",
+    "name": "Infernal Colossus",
+    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
+   },
+   {
+    "voice_id": "mag_583",
+    "name": "Reginald Ashworth",
+    "why": "A posh British man from the Home Counties. Landed gentry style with classic Received Pronu"
+   },
+   {
+    "voice_id": "mag_42",
+    "name": "Ryan Fox",
+    "why": "Smooth Australian male voice with warmth and confidence. Ideal for content requiring a con"
+   },
+   {
+    "voice_id": "mag_522",
+    "name": "Malgorn the Hollow",
+    "why": "Dark and Ancient, this deep male voice is ideal for monstrous or villainous characters. It"
+   },
+   {
+    "voice_id": "mag_333",
+    "name": "Matthew Reynolds",
+    "why": "Smooth and sultry, this young American male voice flows like molasses—slow, warm, and capt"
+   },
+   {
+    "voice_id": "mag_300",
+    "name": "Michael Johnson",
+    "why": "A young American male voice with a calm and soothing tone. Perfect for narrations, audiobo"
+   }
+  ]
+ },
+ "name_shannonhalfsky": {
+  "bio": "Salish shaman investigating the same darkness you are, from the spirit side.",
+  "direction": "Earnest and grounded with spiritual steel; calm conviction, not mysticism-fog.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_258",
+    "name": "Sophia Elizabeth",
+    "why": "Elegant yet relaxed British female voice, warm and clear. Trustworthy and engaging, ideal "
+   },
+   {
+    "voice_id": "mag_503",
+    "name": "Rachel Monroe",
+    "why": "Grounded and Professional, this middle-aged female voice is ideal for conversational forma"
+   },
+   {
+    "voice_id": "mag_347",
+    "name": "Eleanor Hastings",
+    "why": "Soft and gentle, this young British English storyteller with a London accent is perfect fo"
+   },
+   {
+    "voice_id": "mag_291",
+    "name": "Emma Johnson",
+    "why": "Friendly and approachable, this middle-aged American female voice is perfect for narration"
+   },
+   {
+    "voice_id": "mag_664",
+    "name": "Evelyn Vale",
+    "why": "Evelyn’s smooth British tone blends sophistication with inviting warmth. Ideal for convers"
+   },
+   {
+    "voice_id": "mag_303",
+    "name": "Isla Kensington",
+    "why": "A pleasant and cute voice, perfect for children's content. Ideal for cartoons, kids' shows"
+   },
+   {
+    "voice_id": "mag_839",
+    "name": "Isla MacKenzie",
+    "why": "A soft, animated Scottish voice with a natural, authentic Edinburgh accent — warm and expr"
+   },
+   {
+    "voice_id": "mag_587",
+    "name": "Luna Sprout",
+    "why": "A bright and bubbly animated voice bursting with warmth and curiosity. Luna brings storybo"
+   }
+  ]
+ },
+ "name_mrdelilah": {
+  "bio": "Impeccably dressed host of the Union's front-of-house - discretion for sale.",
+  "direction": "Suave underworld concierge; purrs, never raises his voice.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
+   },
+   {
+    "voice_id": "mag_350",
+    "name": "Henry Beckett",
+    "why": "Professional and well-spoken, this British narrator exudes intrigue and wonder. Perfect fo"
+   },
+   {
+    "voice_id": "mag_206",
+    "name": "Henry Carter",
+    "why": "Smooth and polished New Zealand English accent, great for storytelling."
+   },
+   {
+    "voice_id": "mag_333",
+    "name": "Matthew Reynolds",
+    "why": "Smooth and sultry, this young American male voice flows like molasses—slow, warm, and capt"
+   },
+   {
+    "voice_id": "mag_447",
+    "name": "Caleb Morgan",
+    "why": "Deep, rich, warm, and confident. Smooth and reassuring with quiet strength—great for podca"
+   },
+   {
+    "voice_id": "mag_307",
+    "name": "Henry Fletcher",
+    "why": "Deep and textured, this mature British male voice carries a subtle roughness while remaini"
+   },
+   {
+    "voice_id": "mag_37",
+    "name": "Logan West",
+    "why": "Middle-aged American male with a smooth, deep voice. Rich, smooth, and rugged tone, ideal "
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   }
+  ]
+ },
+ "name_tbgruberman": {
+  "bio": "Ork wheeler-dealer; if it fell off a truck, he knows the truck.",
+  "direction": "Gruff trader bark with a salesman's grin in it.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_685",
+    "name": "Dusty Baxter",
+    "why": "Gruff, overly confident, and always wrong but never in doubt. A comedic disaster of mispla"
+   },
+   {
+    "voice_id": "mag_544",
+    "name": "Jack Riker",
+    "why": "A gruff, energetic voice with the grit of a middle-aged character—perfect for high-intensi"
+   },
+   {
+    "voice_id": "mag_541",
+    "name": "Jack Thornhill",
+    "why": "British man with grit in his voice and weight in his words. His tone is rough, grounded, a"
+   },
+   {
+    "voice_id": "mag_538",
+    "name": "Wade “Red” Dawson",
+    "why": "A deep, gravelly Texan voice with the soul of the South and the charm of a fireside storyt"
+   },
+   {
+    "voice_id": "mag_796",
+    "name": "Winston Brown",
+    "why": "An authentic Jamaican voice with a raspy, edgy character and unmistakable Caribbean island"
+   },
+   {
+    "voice_id": "mag_511",
+    "name": "Dorian Malice",
+    "why": "A measured, elderly male voice with subtle menace. Slightly eccentric, calm yet unpredicta"
+   },
+   {
+    "voice_id": "mag_27",
+    "name": "Ethan Brooks",
+    "why": "American male voice with a slight rasp, mixing East Coast and Midwest accents. Perfect for"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   }
+  ]
+ },
+ "name_samwatts": {
+  "bio": "The dead man of Dead Man Switch - your old friend, speaking from recordings and memory.",
+  "direction": "Tired gravel with a good heart; a man who knew he was running out of road.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_538",
+    "name": "Wade “Red” Dawson",
+    "why": "A deep, gravelly Texan voice with the soul of the South and the charm of a fireside storyt"
+   },
+   {
+    "voice_id": "mag_270",
+    "name": "Henry Arthur",
+    "why": "Warm, deep young British English male voice, friendly and enthusiastic. Perfect for narrat"
+   },
+   {
+    "voice_id": "mag_447",
+    "name": "Caleb Morgan",
+    "why": "Deep, rich, warm, and confident. Smooth and reassuring with quiet strength—great for podca"
+   },
+   {
+    "voice_id": "mag_176",
+    "name": "Connor Keane",
+    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
+   },
+   {
+    "voice_id": "mag_351",
+    "name": "Daniel Brooks",
+    "why": "Warm and nostalgic, this voice feels like listening to your grandpa tell bedtime stories b"
+   },
+   {
+    "voice_id": "mag_586",
+    "name": "Dexter Glitch",
+    "why": "A warm, expressive voice tailored for heartfelt oddballs, shy leads, lovable nerds, and so"
+   },
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "Strong and engaging, this middle-aged male voice has a deep tone, making it well-suited fo"
+   },
+   {
+    "voice_id": "mag_366",
+    "name": "Ethan Parker",
+    "why": "Powerful and expressive, this hyper-deep US narrator brings authority and charisma. Perfec"
+   }
+  ]
+ },
+ "name_marielouise": {
+  "bio": "Telestrian's daughter - poised on the surface, something fragile and wrong beneath.",
+  "direction": "Refined, brittle porcelain; polite phrases stretched over dread.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_838",
+    "name": "Imogen Hartley",
+    "why": "A youthful British voice with elegant RP clarity and a sweet, rhythmic delivery that conve"
+   },
+   {
+    "voice_id": "mag_347",
+    "name": "Eleanor Hastings",
+    "why": "Soft and gentle, this young British English storyteller with a London accent is perfect fo"
+   },
+   {
+    "voice_id": "mag_839",
+    "name": "Isla MacKenzie",
+    "why": "A soft, animated Scottish voice with a natural, authentic Edinburgh accent — warm and expr"
+   },
+   {
+    "voice_id": "mag_282",
+    "name": "Mia Wilson",
+    "why": "Soft and clear, this young American female voice is perfect for news content. Ideal for de"
+   },
+   {
+    "voice_id": "mag_158",
+    "name": "Taylor Morgan",
+    "why": "Young female with a soft, calming tone. Perfect for storytelling or ASMR, providing a sens"
+   },
+   {
+    "voice_id": "mag_687",
+    "name": "Clara Devon",
+    "why": "Polished and approachable British voice, ideal for radio links, casual reads, TV promos, o"
+   },
+   {
+    "voice_id": "mag_631",
+    "name": "Rhea Sterling",
+    "why": "A soft, graceful voice that blends intimacy with refinement. Rhea’s calm and expressive to"
+   },
+   {
+    "voice_id": "mag_225",
+    "name": "Claire van der Merwe",
+    "why": "Young and expressive, this South African female voice is well-suited for narrations."
+   }
+  ]
+ },
+ "name_patrick": {
+  "bio": "Clergy of the old faith.",
+  "direction": "Soft liturgical calm.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
+   },
+   {
+    "voice_id": "mag_841",
+    "name": "Walter Hansen",
+    "why": "A resonant, well-articulated voice with gentle Midwestern character, delivering narration "
+   },
+   {
+    "voice_id": "mag_507",
+    "name": "Dylan Hayes",
+    "why": "Warm and Neutral, this young male voice is ideal for versatile audio projects. It also bri"
+   },
+   {
+    "voice_id": "mag_36",
+    "name": "Blake Hudson",
+    "why": "Warm and engaging grandpa voice. Ideal for telling adventurous stories and captivating tal"
+   },
+   {
+    "voice_id": "mag_545",
+    "name": "Elias Thornwell",
+    "why": "A seasoned storyteller with a rich, resonant voice that combines gravitas and warmth. Comm"
+   },
+   {
+    "voice_id": "mag_534",
+    "name": "Old Pip Quickroot",
+    "why": "A high-pitched, raspy British gnome voice with sharp comedic timing and surprising emotion"
+   },
+   {
+    "voice_id": "mag_276",
+    "name": "Sipho Dlamini",
+    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
+   }
+  ]
+ },
+ "name_janitor": {
+  "bio": "Brotherhood janitor who has mopped around things he refuses to think about.",
+  "direction": "Mumbly, nervous, keeps-his-head-down energy.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_501",
+    "name": "Noah Bailey",
+    "why": "Soft and Timid, this young male voice is ideal for emotional character work. It also bring"
+   },
+   {
+    "voice_id": "mag_436",
+    "name": "Jamie Clarke",
+    "why": "A pleasant voice of a young male. Great for Social Media, Narrative & Story and Informativ"
+   },
+   {
+    "voice_id": "mag_36",
+    "name": "Blake Hudson",
+    "why": "Warm and engaging grandpa voice. Ideal for telling adventurous stories and captivating tal"
+   },
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
+   },
+   {
+    "voice_id": "mag_545",
+    "name": "Elias Thornwell",
+    "why": "A seasoned storyteller with a rich, resonant voice that combines gravitas and warmth. Comm"
+   },
+   {
+    "voice_id": "mag_390",
+    "name": "James Carter",
+    "why": "Rugged and wise, this older American male voice carries the grit of a cowboy who’s lived a"
+   },
+   {
+    "voice_id": "mag_522",
+    "name": "Malgorn the Hollow",
+    "why": "Dark and Ancient, this deep male voice is ideal for monstrous or villainous characters. It"
+   },
+   {
+    "voice_id": "mag_534",
+    "name": "Old Pip Quickroot",
+    "why": "A high-pitched, raspy British gnome voice with sharp comedic timing and surprising emotion"
+   }
+  ]
+ },
+ "name_mentalpatient": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   },
+   {
+    "voice_id": "mag_388",
+    "name": "Michael Brooks",
+    "why": "Honest and direct, this conversational American adult male voice is centered and controlle"
+   },
+   {
+    "voice_id": "mag_252",
+    "name": "Noah Jackson",
+    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   },
+   {
+    "voice_id": "mag_47",
+    "name": "Tyler Quinn",
+    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
+   }
+  ]
+ },
+ "name_acolyte": {
+  "bio": "Clergy of the old faith.",
+  "direction": "Soft liturgical calm.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
+   },
+   {
+    "voice_id": "mag_841",
+    "name": "Walter Hansen",
+    "why": "A resonant, well-articulated voice with gentle Midwestern character, delivering narration "
+   },
+   {
+    "voice_id": "mag_507",
+    "name": "Dylan Hayes",
+    "why": "Warm and Neutral, this young male voice is ideal for versatile audio projects. It also bri"
+   },
+   {
+    "voice_id": "mag_500",
+    "name": "Santa Claus",
+    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
+   },
+   {
+    "voice_id": "mag_276",
+    "name": "Sipho Dlamini",
+    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
+   },
+   {
+    "voice_id": "mag_36",
+    "name": "Blake Hudson",
+    "why": "Warm and engaging grandpa voice. Ideal for telling adventurous stories and captivating tal"
+   },
+   {
+    "voice_id": "mag_545",
+    "name": "Elias Thornwell",
+    "why": "A seasoned storyteller with a rich, resonant voice that combines gravitas and warmth. Comm"
+   }
+  ]
+ },
+ "name_mrjohnson": {
+  "bio": "The anonymous corporate fixer every runner knows by this name.",
+  "direction": "Neutral professional menace; friendly words, no warmth.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_31",
+    "name": "Jake Morrison",
+    "why": "Middle-aged male voice with a classic, radio-friendly quality. Ideal for radio broadcasts "
+   },
+   {
+    "voice_id": "mag_231",
+    "name": "Thabo Peterson",
+    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect for informative and na"
+   },
+   {
+    "voice_id": "mag_38",
+    "name": "Cole Anderson",
+    "why": "Upbeat, professional male voice with an energetic edge. Great for narrations that convey b"
+   },
+   {
+    "voice_id": "mag_840",
+    "name": "Daniel Koh",
+    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
+   },
+   {
+    "voice_id": "mag_446",
+    "name": "Logan Scott",
+    "why": "Clear, crisp, professional American voice with a broadcast news tone. Excellent for reader"
+   },
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_507",
+    "name": "Dylan Hayes",
+    "why": "Warm and Neutral, this young male voice is ideal for versatile audio projects. It also bri"
+   }
+  ]
+ },
+ "name_computer": {
+  "bio": "A machine interface.",
+  "direction": "Clean synthetic voice; polite, inhuman.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_532",
+    "name": "Nyra- Robot Voice",
+    "why": "Calm and precise female voice, designed for AI assistants, GPS systems, virtual helpers, a"
+   },
+   {
+    "voice_id": "mag_543",
+    "name": "Axel Virex",
+    "why": "An American male voice with a robotic edge, well-suited for science fiction and fantasy pr"
+   },
+   {
+    "voice_id": "mag_437",
+    "name": "Emily Turner",
+    "why": "Natural and expressive, this female voice feels like a real conversation—complete with chu"
+   },
+   {
+    "voice_id": "mag_33",
+    "name": "Emma Monroe",
+    "why": "Young American girl's voice, ideal for social media and everyday storytelling. Sweet and a"
+   },
+   {
+    "voice_id": "mag_591",
+    "name": "Ethan Cole",
+    "why": "Cynical but romantic. Hurt but hopeful. A flawed character or emotional storyteller for al"
+   },
+   {
+    "voice_id": "mag_182",
+    "name": "Liam Parker",
+    "why": "Upbeat tone tailored for podcasts, radio, and advertisements."
+   },
+   {
+    "voice_id": "mag_527",
+    "name": "Lumi Pipetwirl",
+    "why": "A sweet, cheerful fairy voice, light and sparkly—perfect for charming elves, magical creat"
+   },
+   {
+    "voice_id": "mag_22",
+    "name": "Matt Carson",
+    "why": "Male American news narrator, polished and versatile. Great for health videos, AI & tech ne"
+   }
+  ]
+ },
+ "name_ryker": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_372",
+    "name": "William Anderson",
+    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   },
+   {
+    "voice_id": "mag_294",
+    "name": "Alexander Davis",
+    "why": "Warm and friendly, this middle-aged American male voice is ideal for conversational conten"
+   },
+   {
+    "voice_id": "mag_41",
+    "name": "Chase Reed",
+    "why": "Young Australian male voice, natural and engaging. Great for narration, advertising, and s"
+   }
+  ]
+ },
+ "name_marielouisetelestrian": {
+  "bio": "Same person as Marie-Louise - use the same voice for both entries.",
+  "direction": "Match the Marie-Louise casting exactly.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_838",
+    "name": "Imogen Hartley",
+    "why": "A youthful British voice with elegant RP clarity and a sweet, rhythmic delivery that conve"
+   },
+   {
+    "voice_id": "mag_347",
+    "name": "Eleanor Hastings",
+    "why": "Soft and gentle, this young British English storyteller with a London accent is perfect fo"
+   },
+   {
+    "voice_id": "mag_839",
+    "name": "Isla MacKenzie",
+    "why": "A soft, animated Scottish voice with a natural, authentic Edinburgh accent — warm and expr"
+   },
+   {
+    "voice_id": "mag_282",
+    "name": "Mia Wilson",
+    "why": "Soft and clear, this young American female voice is perfect for news content. Ideal for de"
+   },
+   {
+    "voice_id": "mag_158",
+    "name": "Taylor Morgan",
+    "why": "Young female with a soft, calming tone. Perfect for storytelling or ASMR, providing a sens"
+   },
+   {
+    "voice_id": "mag_536",
+    "name": "Dana Slate",
+    "why": "Dana’s voice oozes sarcasm with a slow, droll rhythm and impeccable timing. She’s the quee"
+   },
+   {
+    "voice_id": "mag_43",
+    "name": "Ella Morgan",
+    "why": "Young female with an Australian accent and Asian background. Ideal for bringing multicultu"
+   },
+   {
+    "voice_id": "mag_311",
+    "name": "Emily Carter",
+    "why": "Hope shines brightest, when embraced with an open heart."
+   }
+  ]
+ },
+ "name_davidfryii": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_40",
+    "name": "Dylan Scott",
+    "why": "Young American male voice, trained for movie recaps. Casual, youthful tone perfect for sum"
+   },
+   {
+    "voice_id": "mag_438",
+    "name": "Jake Miller",
+    "why": "Clear and steady, this middle-aged American male voice brings a natural tone and approacha"
+   },
+   {
+    "voice_id": "mag_502",
+    "name": "Logan Price",
+    "why": "Casual and Friendly, this young male voice is ideal for modern conversations. It also brin"
+   },
+   {
+    "voice_id": "mag_388",
+    "name": "Michael Brooks",
+    "why": "Honest and direct, this conversational American adult male voice is centered and controlle"
+   }
+  ]
+ },
+ "name_frank": {
+  "bio": "Pike Place fishmonger with opinions about everything crossing his stall.",
+  "direction": "Big market-caller voice; friendly bellow.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_256",
+    "name": "Mason Wyatt",
+    "why": "Energetic middle-aged male voice, great for social media posts or e-learning projects."
+   },
+   {
+    "voice_id": "mag_292",
+    "name": "Ethan Miller",
+    "why": "Friendly and energetic, this young American male voice is perfect for social media content"
+   },
+   {
+    "voice_id": "mag_585",
+    "name": "Brad Spinner",
+    "why": "A classic FM disc jockey voice inspired by 1950s–1980s American radio. Energetic, nostalgi"
+   },
+   {
+    "voice_id": "mag_38",
+    "name": "Cole Anderson",
+    "why": "Upbeat, professional male voice with an energetic edge. Great for narrations that convey b"
+   },
+   {
+    "voice_id": "mag_544",
+    "name": "Jack Riker",
+    "why": "A gruff, energetic voice with the grit of a middle-aged character—perfect for high-intensi"
+   },
+   {
+    "voice_id": "mag_598",
+    "name": "Tom Spencer",
+    "why": "Tom Spencer is a British male voice with a clear, neutral tone and a subtle West Country a"
+   },
+   {
+    "voice_id": "mag_270",
+    "name": "Henry Arthur",
+    "why": "Warm, deep young British English male voice, friendly and enthusiastic. Perfect for narrat"
+   },
+   {
+    "voice_id": "mag_269",
+    "name": "Logan Christopher",
+    "why": "Youthful General American male baritone-tenor with a slight millennial fry. Energetic and "
+   }
+  ]
+ },
+ "name_sadoldman": {
+  "bio": "A broken man in the Barrens with nothing left but the story of how.",
+  "direction": "Thin, cracked, heartbreaking.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_385",
+    "name": "Ethan Fraser",
+    "why": "With a soft and refined Australian accent, this 40-year-old male voice carries warmth and "
+   },
+   {
+    "voice_id": "mag_436",
+    "name": "Jamie Clarke",
+    "why": "A pleasant voice of a young male. Great for Social Media, Narrative & Story and Informativ"
+   },
+   {
+    "voice_id": "mag_589",
+    "name": "Skryth the Withered",
+    "why": "A haunting, Gollum-like voice blending feral madness with childlike vulnerability. Featuri"
+   },
+   {
+    "voice_id": "mag_262",
+    "name": "Elijah Thomas",
+    "why": "Vibrant, fun, and dynamic young adult American male voice. Perfect for social media videos"
+   },
+   {
+    "voice_id": "mag_390",
+    "name": "James Carter",
+    "why": "Rugged and wise, this older American male voice carries the grit of a cowboy who’s lived a"
+   },
+   {
+    "voice_id": "mag_522",
+    "name": "Malgorn the Hollow",
+    "why": "Dark and Ancient, this deep male voice is ideal for monstrous or villainous characters. It"
+   },
+   {
+    "voice_id": "mag_534",
+    "name": "Old Pip Quickroot",
+    "why": "A high-pitched, raspy British gnome voice with sharp comedic timing and surprising emotion"
+   },
+   {
+    "voice_id": "mag_500",
+    "name": "Santa Claus",
+    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
+   }
+  ]
+ },
+ "name_brotherchristopher": {
+  "bio": "Clergy of the old faith.",
+  "direction": "Soft liturgical calm.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
+   },
+   {
+    "voice_id": "mag_841",
+    "name": "Walter Hansen",
+    "why": "A resonant, well-articulated voice with gentle Midwestern character, delivering narration "
+   },
+   {
+    "voice_id": "mag_276",
+    "name": "Sipho Dlamini",
+    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
+   },
+   {
+    "voice_id": "mag_507",
+    "name": "Dylan Hayes",
+    "why": "Warm and Neutral, this young male voice is ideal for versatile audio projects. It also bri"
+   },
+   {
+    "voice_id": "mag_442",
+    "name": "Ben Watson",
+    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
+   },
+   {
+    "voice_id": "mag_300",
+    "name": "Michael Johnson",
+    "why": "A young American male voice with a calm and soothing tone. Perfect for narrations, audiobo"
+   },
+   {
+    "voice_id": "mag_184",
+    "name": "Nathan Brooks",
+    "why": "Gentle and soothing Canadian male voice, perfect for narration and storytelling."
+   }
+  ]
+ },
+ "name_headthug": {
+  "bio": "Gang muscle with just enough brains to be in charge of the other muscle.",
+  "direction": "Blunt-force confidence; talks with his chin out.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_296",
+    "name": "James Smith",
+    "why": "With a deep and resonant tone, this middle-aged American male voice is ideal for narration"
+   },
+   {
+    "voice_id": "mag_234",
+    "name": "Michael Botha",
+    "why": "Deep and clear, this middle-aged South African male voice carries a youthful yet professio"
+   },
+   {
+    "voice_id": "mag_35",
+    "name": "Grant Walker",
+    "why": "Deep American male voice, ideal for podcasts, advertisements, and narration."
+   },
+   {
+    "voice_id": "mag_600",
+    "name": "Jack Rawlins",
+    "why": "Jack Rawlins is a thunderous American male voice with deep grit and cinematic power. His d"
+   },
+   {
+    "voice_id": "mag_359",
+    "name": "Jacob Harrison",
+    "why": "Deep and gritty, this American male Southern drawl channels a Western cowboy feel, similar"
+   },
+   {
+    "voice_id": "mag_260",
+    "name": "Theodore William",
+    "why": "Deep, controlled British urban voice, ideal for adding authenticity and character to diver"
+   },
+   {
+    "voice_id": "mag_597",
+    "name": "Charles Haversham",
+    "why": "Charles Haversham is a distinguished British male voice with a deep, commanding tone and i"
+   },
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "Strong and engaging, this middle-aged male voice has a deep tone, making it well-suited fo"
+   }
+  ]
+ },
+ "name_dealer": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_252",
+    "name": "Noah Jackson",
+    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   },
+   {
+    "voice_id": "mag_47",
+    "name": "Tyler Quinn",
+    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
+   },
+   {
+    "voice_id": "mag_372",
+    "name": "William Anderson",
+    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   }
+  ]
+ },
+ "name_william": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_294",
+    "name": "Alexander Davis",
+    "why": "Warm and friendly, this middle-aged American male voice is ideal for conversational conten"
+   },
+   {
+    "voice_id": "mag_41",
+    "name": "Chase Reed",
+    "why": "Young Australian male voice, natural and engaging. Great for narration, advertising, and s"
+   },
+   {
+    "voice_id": "mag_840",
+    "name": "Daniel Koh",
+    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
+   },
+   {
+    "voice_id": "mag_40",
+    "name": "Dylan Scott",
+    "why": "Young American male voice, trained for movie recaps. Casual, youthful tone perfect for sum"
+   }
+  ]
+ },
+ "name_hansbrackhaus": {
+  "bio": "Urbane emissary with a German edge and resources that should worry you. (Those who know, know.)",
+  "direction": "Precise, faintly accented, quietly amused, bottomlessly powerful.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_520",
+    "name": "Mortimer Nocturne",
+    "why": "Deep male voice with an Eastern European accent, ideal for gothic horror, vampire narratio"
+   },
+   {
+    "voice_id": "mag_597",
+    "name": "Charles Haversham",
+    "why": "Charles Haversham is a distinguished British male voice with a deep, commanding tone and i"
+   },
+   {
+    "voice_id": "mag_385",
+    "name": "Ethan Fraser",
+    "why": "With a soft and refined Australian accent, this 40-year-old male voice carries warmth and "
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
+   },
+   {
+    "voice_id": "mag_27",
+    "name": "Ethan Brooks",
+    "why": "American male voice with a slight rasp, mixing East Coast and Midwest accents. Perfect for"
+   },
+   {
+    "voice_id": "mag_180",
+    "name": "Noah Rivers",
+    "why": "Unique young Māori accent from New Zealand, blending humor, wit, and charm, perfect for cr"
+   },
+   {
+    "voice_id": "mag_600",
+    "name": "Jack Rawlins",
+    "why": "Jack Rawlins is a thunderous American male voice with deep grit and cinematic power. His d"
+   },
+   {
+    "voice_id": "mag_524",
+    "name": "Lord Nytherion",
+    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
+   }
+  ]
+ },
+ "name_automatedsecuritycontrol": {
+  "bio": "A machine interface.",
+  "direction": "Clean synthetic voice; polite, inhuman.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_532",
+    "name": "Nyra- Robot Voice",
+    "why": "Calm and precise female voice, designed for AI assistants, GPS systems, virtual helpers, a"
+   },
+   {
+    "voice_id": "mag_543",
+    "name": "Axel Virex",
+    "why": "An American male voice with a robotic edge, well-suited for science fiction and fantasy pr"
+   },
+   {
+    "voice_id": "mag_316",
+    "name": "Merry Cooper",
+    "why": "Seductive and dangerous, this femme fatale voice oozes allure and menace. Ideal for video "
+   },
+   {
+    "voice_id": "mag_155",
+    "name": "Morgan Tate",
+    "why": "Young, vibrant female voice for celebrity news and hot topics. Ideal for entertainment, ce"
+   },
+   {
+    "voice_id": "mag_629",
+    "name": "Paige Turner",
+    "why": "An articulate and versatile American voice perfect for long-form narration. Paige combines"
+   },
+   {
+    "voice_id": "mag_267",
+    "name": "Sophia Grace",
+    "why": "Friendly, warm middle-aged female voice, perfect for apps, conversational content, and exp"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for YouTube videos, social "
+   },
+   {
+    "voice_id": "mag_319",
+    "name": "Benjamin Walker",
+    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
+   }
+  ]
+ },
+ "name_ghostofgrizzledveteran": {
+  "bio": "Easter-egg cameo: the ghost of Jordan Weisman, creator of Shadowrun, sitting unseen at the end of the Seamstresses' Union bar. Thanks the player for 'backing him' (a nod to the 2012 Kickstarter) and reminisces about inventing the Sixth World with Tom Dowd, Bob Charrette and Paul Hume.",
+  "direction": "Warm, wry, grandfatherly storyteller. Relaxed and nostalgic, faintly amused at his own afterlife. Not spooky or menacing - a kindly old designer spinning yarns. No ghost effect; play it straight.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_589",
+    "name": "Skryth the Withered",
+    "why": "A haunting, Gollum-like voice blending feral madness with childlike vulnerability. Featuri"
+   },
+   {
+    "voice_id": "mag_522",
+    "name": "Malgorn the Hollow",
+    "why": "Dark and Ancient, this deep male voice is ideal for monstrous or villainous characters. It"
+   },
+   {
+    "voice_id": "mag_520",
+    "name": "Mortimer Nocturne",
+    "why": "Deep male voice with an Eastern European accent, ideal for gothic horror, vampire narratio"
+   },
+   {
+    "voice_id": "mag_436",
+    "name": "Jamie Clarke",
+    "why": "A pleasant voice of a young male. Great for Social Media, Narrative & Story and Informativ"
+   },
+   {
+    "voice_id": "mag_796",
+    "name": "Winston Brown",
+    "why": "An authentic Jamaican voice with a raspy, edgy character and unmistakable Caribbean island"
+   },
+   {
+    "voice_id": "mag_262",
+    "name": "Elijah Thomas",
+    "why": "Vibrant, fun, and dynamic young adult American male voice. Perfect for social media videos"
+   },
+   {
+    "voice_id": "mag_36",
+    "name": "Blake Hudson",
+    "why": "Warm and engaging grandpa voice. Ideal for telling adventurous stories and captivating tal"
+   },
+   {
+    "voice_id": "mag_545",
+    "name": "Elias Thornwell",
+    "why": "A seasoned storyteller with a rich, resonant voice that combines gravitas and warmth. Comm"
+   }
+  ]
+ },
+ "name_spirit": {
+  "bio": "A being from the other side of the veil.",
+  "direction": "Otherworldly: layered, resonant, wrong in a beautiful way.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_339",
+    "name": "Infernal Colossus",
+    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
+   },
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
+   },
+   {
+    "voice_id": "mag_528",
+    "name": "Lilith Vexmoor",
+    "why": "Calm, clever, and dangerously composed. This female voice drips with sarcasm and intellige"
+   },
+   {
+    "voice_id": "mag_542",
+    "name": "Selene Vex",
+    "why": "A female voice like dark velvet—low, sultry, and subtly dangerous. Ideal for villainous or"
+   },
+   {
+    "voice_id": "mag_524",
+    "name": "Lord Nytherion",
+    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
+   },
+   {
+    "voice_id": "mag_589",
+    "name": "Skryth the Withered",
+    "why": "A haunting, Gollum-like voice blending feral madness with childlike vulnerability. Featuri"
+   },
+   {
+    "voice_id": "mag_523",
+    "name": "Viremont LeNoir",
+    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
+   },
+   {
+    "voice_id": "mag_159",
+    "name": "Avery Grant",
+    "why": "Deep and slightly sassy female voice. Perfect for bold and fun content, with a hint of att"
+   }
+  ]
+ },
+ "name_telestrianworker": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_438",
+    "name": "Jake Miller",
+    "why": "Clear and steady, this middle-aged American male voice brings a natural tone and approacha"
+   },
+   {
+    "voice_id": "mag_502",
+    "name": "Logan Price",
+    "why": "Casual and Friendly, this young male voice is ideal for modern conversations. It also brin"
+   },
+   {
+    "voice_id": "mag_388",
+    "name": "Michael Brooks",
+    "why": "Honest and direct, this conversational American adult male voice is centered and controlle"
+   },
+   {
+    "voice_id": "mag_252",
+    "name": "Noah Jackson",
+    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   },
+   {
+    "voice_id": "mag_47",
+    "name": "Tyler Quinn",
+    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
+   }
+  ]
+ },
+ "name_officerkuprik": {
+  "bio": "Law enforcement.",
+  "direction": "Procedural, clipped, unimpressed.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_297",
+    "name": "Henry Whitaker",
+    "why": "A confident and authoritative middle-aged British male voice, perfectly suited for news pr"
+   },
+   {
+    "voice_id": "mag_281",
+    "name": "Logan Anderson",
+    "why": "Confident and engaging, this middle-aged American male voice is ideal for social media con"
+   },
+   {
+    "voice_id": "mag_442",
+    "name": "Ben Watson",
+    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
+   },
+   {
+    "voice_id": "mag_441",
+    "name": "Noah Reed",
+    "why": "Deep, resonant, slightly husky with a pleasant rasp. Standard American accent with a contr"
+   },
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "Factual and clear, this mature adult male voice is objective and authoritative, perfect fo"
+   },
+   {
+    "voice_id": "mag_288",
+    "name": "Matthew Wilson",
+    "why": "Articulate and clear, this young American male voice is well-suited for narration. Perfect"
+   },
+   {
+    "voice_id": "mag_521",
+    "name": "Mike Rodent",
+    "why": "Zany and High-Energy, this young male voice is ideal for cartoon and comic characters. It "
+   },
+   {
+    "voice_id": "mag_24",
+    "name": "Patrick International",
+    "why": ""
+   }
+  ]
+ },
+ "name_jonbartlett": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_372",
+    "name": "William Anderson",
+    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
+   },
+   {
+    "voice_id": "mag_533",
+    "name": "Zeke Rivers",
+    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_294",
+    "name": "Alexander Davis",
+    "why": "Warm and friendly, this middle-aged American male voice is ideal for conversational conten"
+   }
+  ]
+ },
+ "name_telestrianaccountingterminal": {
+  "bio": "A machine interface.",
+  "direction": "Clean synthetic voice; polite, inhuman.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_532",
+    "name": "Nyra- Robot Voice",
+    "why": "Calm and precise female voice, designed for AI assistants, GPS systems, virtual helpers, a"
+   },
+   {
+    "voice_id": "mag_543",
+    "name": "Axel Virex",
+    "why": "An American male voice with a robotic edge, well-suited for science fiction and fantasy pr"
+   },
+   {
+    "voice_id": "mag_264",
+    "name": "Caleb Ryan",
+    "why": "Clear and precise young American male voice, ideal for tech news broadcasting."
+   },
+   {
+    "voice_id": "mag_588",
+    "name": "Chad Waters",
+    "why": "The ultimate laid-back surfer voice, radiating sun-soaked stoke, carefree energy, and beac"
+   },
+   {
+    "voice_id": "mag_178",
+    "name": "Ciaran Walsh",
+    "why": "A young American male voice, clear and neutral, ideal for news or daily talk shows."
+   },
+   {
+    "voice_id": "mag_225",
+    "name": "Claire van der Merwe",
+    "why": "Young and expressive, this South African female voice is well-suited for narrations."
+   },
+   {
+    "voice_id": "mag_437",
+    "name": "Emily Turner",
+    "why": "Natural and expressive, this female voice feels like a real conversation—complete with chu"
+   },
+   {
+    "voice_id": "mag_33",
+    "name": "Emma Monroe",
+    "why": "Young American girl's voice, ideal for social media and everyday storytelling. Sweet and a"
+   }
+  ]
+ },
+ "name_receptionist": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_41",
+    "name": "Chase Reed",
+    "why": "Young Australian male voice, natural and engaging. Great for narration, advertising, and s"
+   },
+   {
+    "voice_id": "mag_840",
+    "name": "Daniel Koh",
+    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
+   },
+   {
+    "voice_id": "mag_40",
+    "name": "Dylan Scott",
+    "why": "Young American male voice, trained for movie recaps. Casual, youthful tone perfect for sum"
+   },
+   {
+    "voice_id": "mag_438",
+    "name": "Jake Miller",
+    "why": "Clear and steady, this middle-aged American male voice brings a natural tone and approacha"
+   },
+   {
+    "voice_id": "mag_502",
+    "name": "Logan Price",
+    "why": "Casual and Friendly, this young male voice is ideal for modern conversations. It also brin"
+   },
+   {
+    "voice_id": "mag_388",
+    "name": "Michael Brooks",
+    "why": "Honest and direct, this conversational American adult male voice is centered and controlle"
+   },
+   {
+    "voice_id": "mag_252",
+    "name": "Noah Jackson",
+    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   }
+  ]
+ },
+ "name_doctor": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_231",
+    "name": "Thabo Peterson",
+    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
+   },
+   {
+    "voice_id": "mag_47",
+    "name": "Tyler Quinn",
+    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
+   },
+   {
+    "voice_id": "mag_372",
+    "name": "William Anderson",
+    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
+   },
+   {
+    "voice_id": "mag_533",
+    "name": "Zeke Rivers",
+    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   }
+  ]
+ },
+ "name_cook": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_154",
+    "name": "Lexi Parker",
+    "why": "Friendly, natural conversational voice of an American young adult female. Perfect for eLea"
+   },
+   {
+    "voice_id": "mag_795",
+    "name": "Zuri Bennett",
+    "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
+   },
+   {
+    "voice_id": "mag_802",
+    "name": "Ada Okafor",
+    "why": "A young, gentle and conversational Nigerian voice with effortless natural cadence and auth"
+   },
+   {
+    "voice_id": "mag_613",
+    "name": "Amber Hayes",
+    "why": "Energetic and youthful British voice, perfect for narrations and storytelling. Engaging, n"
+   },
+   {
+    "voice_id": "mag_293",
+    "name": "Olivia Smith",
+    "why": "Expressive and engaging, this young American female voice is ideal for conversational cont"
+   },
+   {
+    "voice_id": "mag_160",
+    "name": "Vanessa Hayes",
+    "why": "Young girl with a relaxed tone, casual and approachable. Ideal for informal conversations "
+   },
+   {
+    "voice_id": "mag_504",
+    "name": "Brielle Carter",
+    "why": "Youthful and Authentic, this young female voice is ideal for relatable narration. It also "
+   },
+   {
+    "voice_id": "mag_664",
+    "name": "Evelyn Vale",
+    "why": "Evelyn’s smooth British tone blends sophistication with inviting warmth. Ideal for convers"
+   }
+  ]
+ },
+ "name_saada": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_154",
+    "name": "Lexi Parker",
+    "why": "Friendly, natural conversational voice of an American young adult female. Perfect for eLea"
+   },
+   {
+    "voice_id": "mag_795",
+    "name": "Zuri Bennett",
+    "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
+   },
+   {
+    "voice_id": "mag_802",
+    "name": "Ada Okafor",
+    "why": "A young, gentle and conversational Nigerian voice with effortless natural cadence and auth"
+   },
+   {
+    "voice_id": "mag_613",
+    "name": "Amber Hayes",
+    "why": "Energetic and youthful British voice, perfect for narrations and storytelling. Engaging, n"
+   },
+   {
+    "voice_id": "mag_505",
+    "name": "Lena Rivers",
+    "why": "Cute and Candid, this young female voice is ideal for charming narration. It also brings e"
+   },
+   {
+    "voice_id": "mag_293",
+    "name": "Olivia Smith",
+    "why": "Expressive and engaging, this young American female voice is ideal for conversational cont"
+   },
+   {
+    "voice_id": "mag_267",
+    "name": "Sophia Grace",
+    "why": "Friendly, warm middle-aged female voice, perfect for apps, conversational content, and exp"
+   },
+   {
+    "voice_id": "mag_160",
+    "name": "Vanessa Hayes",
+    "why": "Young girl with a relaxed tone, casual and approachable. Ideal for informal conversations "
+   }
+  ]
+ },
+ "name_newlarry": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_294",
+    "name": "Alexander Davis",
+    "why": "Warm and friendly, this middle-aged American male voice is ideal for conversational conten"
+   },
+   {
+    "voice_id": "mag_597",
+    "name": "Charles Haversham",
+    "why": "Charles Haversham is a distinguished British male voice with a deep, commanding tone and i"
+   },
+   {
+    "voice_id": "mag_41",
+    "name": "Chase Reed",
+    "why": "Young Australian male voice, natural and engaging. Great for narration, advertising, and s"
+   },
+   {
+    "voice_id": "mag_840",
+    "name": "Daniel Koh",
+    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
+   },
+   {
+    "voice_id": "mag_40",
+    "name": "Dylan Scott",
+    "why": "Young American male voice, trained for movie recaps. Casual, youthful tone perfect for sum"
+   },
+   {
+    "voice_id": "mag_438",
+    "name": "Jake Miller",
+    "why": "Clear and steady, this middle-aged American male voice brings a natural tone and approacha"
+   }
+  ]
+ },
+ "name_manny": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_502",
+    "name": "Logan Price",
+    "why": "Casual and Friendly, this young male voice is ideal for modern conversations. It also brin"
+   },
+   {
+    "voice_id": "mag_388",
+    "name": "Michael Brooks",
+    "why": "Honest and direct, this conversational American adult male voice is centered and controlle"
+   },
+   {
+    "voice_id": "mag_252",
+    "name": "Noah Jackson",
+    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   },
+   {
+    "voice_id": "mag_231",
+    "name": "Thabo Peterson",
+    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
+   },
+   {
+    "voice_id": "mag_47",
+    "name": "Tyler Quinn",
+    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
+   },
+   {
+    "voice_id": "mag_372",
+    "name": "William Anderson",
+    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
+   },
+   {
+    "voice_id": "mag_533",
+    "name": "Zeke Rivers",
+    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
+   },
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   }
+  ]
+ },
+ "name_telestriansecurityguard": {
+  "bio": "Rank-and-file security.",
+  "direction": "Professional-bored with a hard edge on demand.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_442",
+    "name": "Ben Watson",
+    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style voice has a higher pi"
+   },
+   {
+    "voice_id": "mag_286",
+    "name": "Benjamin Parker",
+    "why": "Intense and dynamic, this middle-aged American male voice is perfect for character work. I"
+   },
+   {
+    "voice_id": "mag_591",
+    "name": "Ethan Cole",
+    "why": "Cynical but romantic. Hurt but hopeful. A flawed character or emotional storyteller for al"
+   },
+   {
+    "voice_id": "mag_337",
+    "name": "Jackson Cooper",
+    "why": "Rich and textured, this aged American male voice carries the gravel of countless tales and"
+   },
+   {
+    "voice_id": "mag_244",
+    "name": "James Alexander",
+    "why": "A very clear and crisp voice with a slightly monotone delivery, perfect for tech video nar"
+   },
+   {
+    "voice_id": "mag_296",
+    "name": "James Smith",
+    "why": "With a deep and resonant tone, this middle-aged American male voice is ideal for narration"
+   }
+  ]
+ },
+ "name_btlclocker": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_182",
+    "name": "Liam Parker",
+    "why": "Upbeat tone tailored for podcasts, radio, and advertisements."
+   },
+   {
+    "voice_id": "mag_256",
+    "name": "Mason Wyatt",
+    "why": "Energetic middle-aged male voice, great for social media posts or e-learning projects."
+   },
+   {
+    "voice_id": "mag_22",
+    "name": "Matt Carson",
+    "why": "Male American news narrator, polished and versatile. Great for health videos, AI & tech ne"
+   },
+   {
+    "voice_id": "mag_288",
+    "name": "Matthew Wilson",
+    "why": "Articulate and clear, this young American male voice is well-suited for narration. Perfect"
+   },
+   {
+    "voice_id": "mag_234",
+    "name": "Michael Botha",
+    "why": "Deep and clear, this middle-aged South African male voice carries a youthful yet professio"
+   },
+   {
+    "voice_id": "mag_521",
+    "name": "Mike Rodent",
+    "why": "Zany and High-Energy, this young male voice is ideal for cartoon and comic characters. It "
+   },
+   {
+    "voice_id": "mag_501",
+    "name": "Noah Bailey",
+    "why": "Soft and Timid, this young male voice is ideal for emotional character work. It also bring"
+   },
+   {
+    "voice_id": "mag_180",
+    "name": "Noah Rivers",
+    "why": "Unique young Māori accent from New Zealand, blending humor, wit, and charm, perfect for cr"
+   }
+  ]
+ },
+ "name_delilahmuscle": {
+  "bio": "Rank-and-file security.",
+  "direction": "Professional-bored with a hard edge on demand.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_442",
+    "name": "Ben Watson",
+    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
+   },
+   {
+    "voice_id": "mag_24",
+    "name": "Patrick International",
+    "why": ""
+   },
+   {
+    "voice_id": "mag_584",
+    "name": "Titan Steele",
+    "why": "A booming, larger-than-life American announcer voice, packed with excitement and adrenalin"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect for informative and na"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style voice has a higher pi"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
+   }
+  ]
+ },
+ "name_sally": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_154",
+    "name": "Lexi Parker",
+    "why": "Friendly, natural conversational voice of an American young adult female. Perfect for eLea"
+   },
+   {
+    "voice_id": "mag_795",
+    "name": "Zuri Bennett",
+    "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
+   },
+   {
+    "voice_id": "mag_802",
+    "name": "Ada Okafor",
+    "why": "A young, gentle and conversational Nigerian voice with effortless natural cadence and auth"
+   },
+   {
+    "voice_id": "mag_613",
+    "name": "Amber Hayes",
+    "why": "Energetic and youthful British voice, perfect for narrations and storytelling. Engaging, n"
+   },
+   {
+    "voice_id": "mag_504",
+    "name": "Brielle Carter",
+    "why": "Youthful and Authentic, this young female voice is ideal for relatable narration. It also "
+   },
+   {
+    "voice_id": "mag_687",
+    "name": "Clara Devon",
+    "why": "Polished and approachable British voice, ideal for radio links, casual reads, TV promos, o"
+   },
+   {
+    "voice_id": "mag_437",
+    "name": "Emily Turner",
+    "why": "Natural and expressive, this female voice feels like a real conversation—complete with chu"
+   },
+   {
+    "voice_id": "mag_664",
+    "name": "Evelyn Vale",
+    "why": "Evelyn’s smooth British tone blends sophistication with inviting warmth. Ideal for convers"
+   }
+  ]
+ },
+ "name_sisternancy": {
+  "bio": "A nun of the parish.",
+  "direction": "Kind, steady, quietly firm.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_162",
+    "name": "Sasha Monroe",
+    "why": "Sensual, seductive, gentle, and playful voice, perfect for ASMR, guided meditation, and hy"
+   },
+   {
+    "voice_id": "mag_44",
+    "name": "Chloe Bennett",
+    "why": "Middle-aged American female voice, calm and soothing. Perfect for narrations requiring a c"
+   },
+   {
+    "voice_id": "mag_179",
+    "name": "Grace O'Neil",
+    "why": "Measured and calm female voice with an Irish accent."
+   },
+   {
+    "voice_id": "mag_334",
+    "name": "Madison Taylor",
+    "why": "Relaxed and soothing, this 30-40-year-old African American female voice has a calm, pleasa"
+   },
+   {
+    "voice_id": "mag_361",
+    "name": "Olivia Roberts",
+    "why": "Sinister and eloquent, this villainous voice is wickedly calculated, cruel, and calm—perfe"
+   },
+   {
+    "voice_id": "mag_364",
+    "name": "Sophia Morgan",
+    "why": "Reflective and velvety, this calm, somber voice with mid-deep tones is ideal for poetry, m"
+   },
+   {
+    "voice_id": "mag_163",
+    "name": "Vivian Lane",
+    "why": "Soothing and calm British female voice, ideal for audiobooks, narration, and videos."
+   },
+   {
+    "voice_id": "mag_347",
+    "name": "Eleanor Hastings",
+    "why": "Soft and gentle, this young British English storyteller with a London accent is perfect fo"
+   }
+  ]
+ },
+ "name_statemedicalboard": {
+  "bio": "A machine interface.",
+  "direction": "Clean synthetic voice; polite, inhuman.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_532",
+    "name": "Nyra- Robot Voice",
+    "why": "Calm and precise female voice, designed for AI assistants, GPS systems, virtual helpers, a"
+   },
+   {
+    "voice_id": "mag_543",
+    "name": "Axel Virex",
+    "why": "An American male voice with a robotic edge, well-suited for science fiction and fantasy pr"
+   },
+   {
+    "voice_id": "mag_527",
+    "name": "Lumi Pipetwirl",
+    "why": "A sweet, cheerful fairy voice, light and sparkly—perfect for charming elves, magical creat"
+   },
+   {
+    "voice_id": "mag_316",
+    "name": "Merry Cooper",
+    "why": "Seductive and dangerous, this femme fatale voice oozes allure and menace. Ideal for video "
+   },
+   {
+    "voice_id": "mag_155",
+    "name": "Morgan Tate",
+    "why": "Young, vibrant female voice for celebrity news and hot topics. Ideal for entertainment, ce"
+   },
+   {
+    "voice_id": "mag_629",
+    "name": "Paige Turner",
+    "why": "An articulate and versatile American voice perfect for long-form narration. Paige combines"
+   },
+   {
+    "voice_id": "mag_161",
+    "name": "Riley Monroe",
+    "why": "Middle-aged African American female with a Southern accent. Great for storytelling with au"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for YouTube videos, social "
+   }
+  ]
+ },
+ "name_mrquoth": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_294",
+    "name": "Alexander Davis",
+    "why": "Warm and friendly, this middle-aged American male voice is ideal for conversational conten"
+   },
+   {
+    "voice_id": "mag_597",
+    "name": "Charles Haversham",
+    "why": "Charles Haversham is a distinguished British male voice with a deep, commanding tone and i"
+   },
+   {
+    "voice_id": "mag_41",
+    "name": "Chase Reed",
+    "why": "Young Australian male voice, natural and engaging. Great for narration, advertising, and s"
+   },
+   {
+    "voice_id": "mag_840",
+    "name": "Daniel Koh",
+    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
+   }
+  ]
+ },
+ "name_officerlanders": {
+  "bio": "Law enforcement.",
+  "direction": "Procedural, clipped, unimpressed.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_297",
+    "name": "Henry Whitaker",
+    "why": "A confident and authoritative middle-aged British male voice, perfectly suited for news pr"
+   },
+   {
+    "voice_id": "mag_281",
+    "name": "Logan Anderson",
+    "why": "Confident and engaging, this middle-aged American male voice is ideal for social media con"
+   },
+   {
+    "voice_id": "mag_441",
+    "name": "Noah Reed",
+    "why": "Deep, resonant, slightly husky with a pleasant rasp. Standard American accent with a contr"
+   },
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "Factual and clear, this mature adult male voice is objective and authoritative, perfect fo"
+   },
+   {
+    "voice_id": "mag_442",
+    "name": "Ben Watson",
+    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
+   },
+   {
+    "voice_id": "mag_286",
+    "name": "Benjamin Parker",
+    "why": "Intense and dynamic, this middle-aged American male voice is perfect for character work. I"
+   },
+   {
+    "voice_id": "mag_319",
+    "name": "Benjamin Walker",
+    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
+   },
+   {
+    "voice_id": "mag_585",
+    "name": "Brad Spinner",
+    "why": "A classic FM disc jockey voice inspired by 1950s–1980s American radio. Energetic, nostalgi"
+   }
+  ]
+ },
+ "name_sisterwilma": {
+  "bio": "A nun of the parish.",
+  "direction": "Kind, steady, quietly firm.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_162",
+    "name": "Sasha Monroe",
+    "why": "Sensual, seductive, gentle, and playful voice, perfect for ASMR, guided meditation, and hy"
+   },
+   {
+    "voice_id": "mag_158",
+    "name": "Taylor Morgan",
+    "why": "Young female with a soft, calming tone. Perfect for storytelling or ASMR, providing a sens"
+   },
+   {
+    "voice_id": "mag_157",
+    "name": "Kendra Blake",
+    "why": "Gentle yet confident young woman’s voice with an American accent. Suitable for a wide rang"
+   },
+   {
+    "voice_id": "mag_310",
+    "name": "Merry Thompson",
+    "why": "Sophisticated yet approachable, this young British female voice combines crisp articulatio"
+   },
+   {
+    "voice_id": "mag_670",
+    "name": "Serene Harper",
+    "why": "Serene’s voice flows with gentle confidence and authenticity, creating a deeply human conn"
+   },
+   {
+    "voice_id": "mag_308",
+    "name": "Sophia Mitchell",
+    "why": "Kindness given, returns as warmth in unexpected ways."
+   },
+   {
+    "voice_id": "mag_44",
+    "name": "Chloe Bennett",
+    "why": "Middle-aged American female voice, calm and soothing. Perfect for narrations requiring a c"
+   },
+   {
+    "voice_id": "mag_179",
+    "name": "Grace O'Neil",
+    "why": "Measured and calm female voice with an Irish accent."
+   }
+  ]
+ },
+ "name_slicksecurityguard": {
+  "bio": "Rank-and-file security.",
+  "direction": "Professional-bored with a hard edge on demand.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_264",
+    "name": "Caleb Ryan",
+    "why": "Clear and precise young American male voice, ideal for tech news broadcasting."
+   },
+   {
+    "voice_id": "mag_588",
+    "name": "Chad Waters",
+    "why": "The ultimate laid-back surfer voice, radiating sun-soaked stoke, carefree energy, and beac"
+   },
+   {
+    "voice_id": "mag_342",
+    "name": "Christopher Sullivan",
+    "why": "Calm and introspective, this soothing voice is ideal for meditation and contemplation, pro"
+   },
+   {
+    "voice_id": "mag_178",
+    "name": "Ciaran Walsh",
+    "why": "A young American male voice, clear and neutral, ideal for news or daily talk shows."
+   },
+   {
+    "voice_id": "mag_176",
+    "name": "Connor Keane",
+    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
+   },
+   {
+    "voice_id": "mag_351",
+    "name": "Daniel Brooks",
+    "why": "Warm and nostalgic, this voice feels like listening to your grandpa tell bedtime stories b"
+   },
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
+   },
+   {
+    "voice_id": "mag_586",
+    "name": "Dexter Glitch",
+    "why": "A warm, expressive voice tailored for heartfelt oddballs, shy leads, lovable nerds, and so"
+   }
+  ]
+ },
+ "name_worriedman": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_40",
+    "name": "Dylan Scott",
+    "why": "Young American male voice, trained for movie recaps. Casual, youthful tone perfect for sum"
+   },
+   {
+    "voice_id": "mag_438",
+    "name": "Jake Miller",
+    "why": "Clear and steady, this middle-aged American male voice brings a natural tone and approacha"
+   },
+   {
+    "voice_id": "mag_502",
+    "name": "Logan Price",
+    "why": "Casual and Friendly, this young male voice is ideal for modern conversations. It also brin"
+   },
+   {
+    "voice_id": "mag_388",
+    "name": "Michael Brooks",
+    "why": "Honest and direct, this conversational American adult male voice is centered and controlle"
+   },
+   {
+    "voice_id": "mag_252",
+    "name": "Noah Jackson",
+    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   },
+   {
+    "voice_id": "mag_231",
+    "name": "Thabo Peterson",
+    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
+   },
+   {
+    "voice_id": "mag_47",
+    "name": "Tyler Quinn",
+    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
+   },
+   {
+    "voice_id": "mag_372",
+    "name": "William Anderson",
+    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
+   }
+  ]
+ },
+ "name_vlad": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_533",
+    "name": "Zeke Rivers",
+    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
+   },
+   {
+    "voice_id": "mag_439",
+    "name": "Owen Parker",
+    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
+   },
+   {
+    "voice_id": "mag_518",
+    "name": "Dr. Cosmo Fizzlebaum",
+    "why": "Lively and quirky, this voice bursts with character and charm. Ideal for oddball roles, wh"
+   },
+   {
+    "voice_id": "mag_685",
+    "name": "Dusty Baxter",
+    "why": "Gruff, overly confident, and always wrong but never in doubt. A comedic disaster of mispla"
+   },
+   {
+    "voice_id": "mag_262",
+    "name": "Elijah Thomas",
+    "why": "Vibrant, fun, and dynamic young adult American male voice. Perfect for social media videos"
+   },
+   {
+    "voice_id": "mag_27",
+    "name": "Ethan Brooks",
+    "why": "American male voice with a slight rasp, mixing East Coast and Midwest accents. Perfect for"
+   },
+   {
+    "voice_id": "mag_186",
+    "name": "Ethan Clarke",
+    "why": "Energetic and lively male voice, ideal for bringing audiobooks to life."
+   },
+   {
+    "voice_id": "mag_591",
+    "name": "Ethan Cole",
+    "why": "Cynical but romantic. Hurt but hopeful. A flawed character or emotional storyteller for al"
+   }
+  ]
+ },
+ "name_telestriantechworker": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_366",
+    "name": "Ethan Parker",
+    "why": "Powerful and expressive, this hyper-deep US narrator brings authority and charisma. Perfec"
+   },
+   {
+    "voice_id": "mag_35",
+    "name": "Grant Walker",
+    "why": "Deep American male voice, ideal for podcasts, advertisements, and narration."
+   },
+   {
+    "voice_id": "mag_270",
+    "name": "Henry Arthur",
+    "why": "Warm, deep young British English male voice, friendly and enthusiastic. Perfect for narrat"
+   },
+   {
+    "voice_id": "mag_350",
+    "name": "Henry Beckett",
+    "why": "Professional and well-spoken, this British narrator exudes intrigue and wonder. Perfect fo"
+   },
+   {
+    "voice_id": "mag_206",
+    "name": "Henry Carter",
+    "why": "Smooth and polished New Zealand English accent, great for storytelling."
+   },
+   {
+    "voice_id": "mag_541",
+    "name": "Jack Thornhill",
+    "why": "British man with grit in his voice and weight in his words. His tone is rough, grounded, a"
+   },
+   {
+    "voice_id": "mag_337",
+    "name": "Jackson Cooper",
+    "why": "Rich and textured, this aged American male voice carries the gravel of countless tales and"
+   },
+   {
+    "voice_id": "mag_359",
+    "name": "Jacob Harrison",
+    "why": "Deep and gritty, this American male Southern drawl channels a Western cowboy feel, similar"
+   }
+  ]
+ },
+ "name_supervisor": {
+  "bio": "Rank-and-file security.",
+  "direction": "Professional-bored with a hard edge on demand.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_244",
+    "name": "James Alexander",
+    "why": "A very clear and crisp voice with a slightly monotone delivery, perfect for tech video nar"
+   },
+   {
+    "voice_id": "mag_296",
+    "name": "James Smith",
+    "why": "With a deep and resonant tone, this middle-aged American male voice is ideal for narration"
+   },
+   {
+    "voice_id": "mag_182",
+    "name": "Liam Parker",
+    "why": "Upbeat tone tailored for podcasts, radio, and advertisements."
+   },
+   {
+    "voice_id": "mag_269",
+    "name": "Logan Christopher",
+    "why": "Youthful General American male baritone-tenor with a slight millennial fry. Energetic and "
+   },
+   {
+    "voice_id": "mag_446",
+    "name": "Logan Scott",
+    "why": "Clear, crisp, professional American voice with a broadcast news tone. Excellent for reader"
+   },
+   {
+    "voice_id": "mag_256",
+    "name": "Mason Wyatt",
+    "why": "Energetic middle-aged male voice, great for social media posts or e-learning projects."
+   },
+   {
+    "voice_id": "mag_22",
+    "name": "Matt Carson",
+    "why": "Male American news narrator, polished and versatile. Great for health videos, AI & tech ne"
+   },
+   {
+    "voice_id": "mag_333",
+    "name": "Matthew Reynolds",
+    "why": "Smooth and sultry, this young American male voice flows like molasses—slow, warm, and capt"
+   }
+  ]
+ },
+ "name_tickler": {
+  "bio": "A sadistic BTL chip-cutter and simsense torturer. Works for a fixer (\"Mr. J\") alongside his crew Ryker and Zipper, hooking a \"recording rig\" to a victim to burn their suffering to chip. Casually cruel, greedy, and territorial about his work.",
+  "direction": "Human street criminal: oily, impatient, menacing. Enjoys his work and talks through it; snaps to threats when interrupted, then folds fast and flees when actually challenged.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_339",
+    "name": "Infernal Colossus",
+    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
+   },
+   {
+    "voice_id": "mag_528",
+    "name": "Lilith Vexmoor",
+    "why": "Calm, clever, and dangerously composed. This female voice drips with sarcasm and intellige"
+   },
+   {
+    "voice_id": "mag_542",
+    "name": "Selene Vex",
+    "why": "A female voice like dark velvet—low, sultry, and subtly dangerous. Ideal for villainous or"
+   },
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
+   },
+   {
+    "voice_id": "mag_684",
+    "name": "Avery Quinn",
+    "why": "An androgynous, poetic storyteller voice that blends theatrical depth with cinematic rhyth"
+   },
+   {
+    "voice_id": "mag_332",
+    "name": "Charlotte Winslow",
+    "why": "Versatile and engaging, this middle-aged British female voice is well-suited for character"
+   },
+   {
+    "voice_id": "mag_228",
+    "name": "Jenny Steyn",
+    "why": "With a formal and polished tone, this young South African female voice is perfect for audi"
+   },
+   {
+    "voice_id": "mag_48",
+    "name": "Lily Evans",
+    "why": "Bright, expressive young girl's voice. Radiates adventure and curiosity, perfect for captu"
+   }
+  ]
+ },
+ "name_concernedwoman": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_154",
+    "name": "Lexi Parker",
+    "why": "Friendly, natural conversational voice of an American young adult female. Perfect for eLea"
+   },
+   {
+    "voice_id": "mag_795",
+    "name": "Zuri Bennett",
+    "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
+   },
+   {
+    "voice_id": "mag_802",
+    "name": "Ada Okafor",
+    "why": "A young, gentle and conversational Nigerian voice with effortless natural cadence and auth"
+   },
+   {
+    "voice_id": "mag_613",
+    "name": "Amber Hayes",
+    "why": "Energetic and youthful British voice, perfect for narrations and storytelling. Engaging, n"
+   },
+   {
+    "voice_id": "mag_838",
+    "name": "Imogen Hartley",
+    "why": "A youthful British voice with elegant RP clarity and a sweet, rhythmic delivery that conve"
+   },
+   {
+    "voice_id": "mag_505",
+    "name": "Lena Rivers",
+    "why": "Cute and Candid, this young female voice is ideal for charming narration. It also brings e"
+   },
+   {
+    "voice_id": "mag_293",
+    "name": "Olivia Smith",
+    "why": "Expressive and engaging, this young American female voice is ideal for conversational cont"
+   },
+   {
+    "voice_id": "mag_267",
+    "name": "Sophia Grace",
+    "why": "Friendly, warm middle-aged female voice, perfect for apps, conversational content, and exp"
+   }
+  ]
+ },
+ "name_lawyer": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_288",
+    "name": "Matthew Wilson",
+    "why": "Articulate and clear, this young American male voice is well-suited for narration. Perfect"
+   },
+   {
+    "voice_id": "mag_234",
+    "name": "Michael Botha",
+    "why": "Deep and clear, this middle-aged South African male voice carries a youthful yet professio"
+   },
+   {
+    "voice_id": "mag_300",
+    "name": "Michael Johnson",
+    "why": "A young American male voice with a calm and soothing tone. Perfect for narrations, audiobo"
+   },
+   {
+    "voice_id": "mag_521",
+    "name": "Mike Rodent",
+    "why": "Zany and High-Energy, this young male voice is ideal for cartoon and comic characters. It "
+   },
+   {
+    "voice_id": "mag_184",
+    "name": "Nathan Brooks",
+    "why": "Gentle and soothing Canadian male voice, perfect for narration and storytelling."
+   },
+   {
+    "voice_id": "mag_501",
+    "name": "Noah Bailey",
+    "why": "Soft and Timid, this young male voice is ideal for emotional character work. It also bring"
+   },
+   {
+    "voice_id": "mag_180",
+    "name": "Noah Rivers",
+    "why": "Unique young Māori accent from New Zealand, blending humor, wit, and charm, perfect for cr"
+   },
+   {
+    "voice_id": "mag_183",
+    "name": "Oliver Hayes",
+    "why": "Mature and resonant Canadian male voice, suited for podcasts, narration, and news."
+   }
+  ]
+ },
+ "name_tirtairngireghost": {
+  "bio": "A being from the other side of the veil.",
+  "direction": "Otherworldly: layered, resonant, wrong in a beautiful way.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_339",
+    "name": "Infernal Colossus",
+    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
+   },
+   {
+    "voice_id": "mag_528",
+    "name": "Lilith Vexmoor",
+    "why": "Calm, clever, and dangerously composed. This female voice drips with sarcasm and intellige"
+   },
+   {
+    "voice_id": "mag_542",
+    "name": "Selene Vex",
+    "why": "A female voice like dark velvet—low, sultry, and subtly dangerous. Ideal for villainous or"
+   },
+   {
+    "voice_id": "mag_164",
+    "name": "Maya Collins",
+    "why": "Young to middle-aged female voice with a subtle British accent, perfect for engaging story"
+   },
+   {
+    "voice_id": "mag_668",
+    "name": "Nina Brooks",
+    "why": ""
+   },
+   {
+    "voice_id": "mag_309",
+    "name": "Olivia Bennett",
+    "why": "Every challenge, is a doorway to newfound strength."
+   },
+   {
+    "voice_id": "mag_265",
+    "name": "Pari Patel",
+    "why": "A vibrant Indian English accent, perfect for social media videos and audiobooks. Ideal for"
+   },
+   {
+    "voice_id": "mag_46",
+    "name": "Sophia Blake",
+    "why": "Fresh and lively young American female voice. Perfect for podcasts and social media, with "
+   }
+  ]
+ },
+ "name_sarah": {
+  "bio": "A Seattle citizen just trying to get by.",
+  "direction": "Everyday, natural, unpolished.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_154",
+    "name": "Lexi Parker",
+    "why": "Friendly, natural conversational voice of an American young adult female. Perfect for eLea"
+   },
+   {
+    "voice_id": "mag_795",
+    "name": "Zuri Bennett",
+    "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
+   },
+   {
+    "voice_id": "mag_802",
+    "name": "Ada Okafor",
+    "why": "A young, gentle and conversational Nigerian voice with effortless natural cadence and auth"
+   },
+   {
+    "voice_id": "mag_160",
+    "name": "Vanessa Hayes",
+    "why": "Young girl with a relaxed tone, casual and approachable. Ideal for informal conversations "
+   },
+   {
+    "voice_id": "mag_613",
+    "name": "Amber Hayes",
+    "why": "Energetic and youthful British voice, perfect for narrations and storytelling. Engaging, n"
+   },
+   {
+    "voice_id": "mag_504",
+    "name": "Brielle Carter",
+    "why": "Youthful and Authentic, this young female voice is ideal for relatable narration. It also "
+   },
+   {
+    "voice_id": "mag_687",
+    "name": "Clara Devon",
+    "why": "Polished and approachable British voice, ideal for radio links, casual reads, TV promos, o"
+   },
+   {
+    "voice_id": "mag_437",
+    "name": "Emily Turner",
+    "why": "Natural and expressive, this female voice feels like a real conversation—complete with chu"
+   }
+  ]
+ },
+ "name_coyoteugly": {
+  "bio": "Coyote before her healing - same person, rougher days. Use the same voice as Coyote.",
+  "direction": "Match the Coyote casting exactly.",
+  "gender": "female",
+  "suggestions": [
+   {
+    "voice_id": "mag_208",
+    "name": "Sophie Harper",
+    "why": "Youthful Irish female voice with a touch of raspiness, well-suited for podcasts and audiob"
+   },
+   {
+    "voice_id": "mag_445",
+    "name": "Sophie Walker",
+    "why": "Young, engaging, enchanting female voice. Expressive and compelling—perfect for storytelli"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrations needing clarity,"
+   },
+   {
+    "voice_id": "mag_283",
+    "name": "Charlotte Taylor",
+    "why": "Upbeat and energetic, this young American female voice is ideal for social media content. "
+   },
+   {
+    "voice_id": "mag_536",
+    "name": "Dana Slate",
+    "why": "Dana’s voice oozes sarcasm with a slow, droll rhythm and impeccable timing. She’s the quee"
+   },
+   {
+    "voice_id": "mag_43",
+    "name": "Ella Morgan",
+    "why": "Young female with an Australian accent and Asian background. Ideal for bringing multicultu"
+   },
+   {
+    "voice_id": "mag_311",
+    "name": "Emily Carter",
+    "why": "Hope shines brightest, when embraced with an open heart."
+   }
+  ]
+ },
+ "narrator": {
+  "bio": "The unseen game master. Reads every scene description, every consequence, every beat of atmosphere - the most heard voice in the game by far.",
+  "direction": "Noir gravitas without monotony: a storyteller who can go from dry wit to dread. Distinct from every cast voice.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_538",
+    "name": "Wade “Red” Dawson",
+    "why": "A deep, gravelly Texan voice with the soul of the South and the charm of a fireside storyt"
+   },
+   {
+    "voice_id": "mag_366",
+    "name": "Ethan Parker",
+    "why": "Powerful and expressive, this hyper-deep US narrator brings authority and charisma. Perfec"
+   },
+   {
+    "voice_id": "mag_524",
+    "name": "Lord Nytherion",
+    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
+   },
+   {
+    "voice_id": "mag_159",
+    "name": "Avery Grant",
+    "why": "Deep and slightly sassy female voice. Perfect for bold and fun content, with a hint of att"
+   },
+   {
+    "voice_id": "mag_364",
+    "name": "Sophia Morgan",
+    "why": "Reflective and velvety, this calm, somber voice with mid-deep tones is ideal for poetry, m"
+   },
+   {
+    "voice_id": "mag_260",
+    "name": "Theodore William",
+    "why": "Deep, controlled British urban voice, ideal for adding authenticity and character to diver"
+   },
+   {
+    "voice_id": "mag_597",
+    "name": "Charles Haversham",
+    "why": "Charles Haversham is a distinguished British male voice with a deep, commanding tone and i"
+   },
+   {
+    "voice_id": "mag_684",
+    "name": "Avery Quinn",
+    "why": "An androgynous, poetic storyteller voice that blends theatrical depth with cinematic rhyth"
+   }
+  ]
+ },
+ "name_sangoma": {
+  "suggestions": [
+   {
+    "voice_id": "mag_225",
+    "name": "Claire van der Merwe",
+    "why": "urban shaman, quiet & experienced (South African = sangoma)"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female"
+ },
+ "name_femalebunraku": {
+  "suggestions": [
+   {
+    "voice_id": "mag_261",
+    "name": "Harper Olivia",
+    "why": "programmed seductive puppet, velvety-flat"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Female sex-doll (bunraku), breathy and seductive with an artificial, programmed flatness. Girlish, coquettish, unsettling."
+ },
+ "name_mrsjames": {
+  "suggestions": [
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "warm older woman"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   },
+   {
+    "voice_id": "mag_159",
+    "name": "Avery Grant",
+    "why": "Deep and slightly sassy female voice. Perfect for bold and fun content"
+   }
+  ],
+  "gender": "female",
+  "direction": "Middle-aged female shopkeeper, grateful and weary, dignified under pressure. Warm, tired, sincere."
+ },
+ "name_hooker": {
+  "suggestions": [
+   {
+    "voice_id": "mag_536",
+    "name": "Dana Slate",
+    "why": "street-worn, sultry/sarcastic"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Female street sex worker, weary and transactional with a knowing tone. Jaded, casual, mid-range."
+ },
+ "name_sistermonica": {
+  "suggestions": [
+   {
+    "voice_id": "mag_179",
+    "name": "Grace O'Neil",
+    "why": "gentle, measured nun"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Female cult Sister, soft and demure, gently grateful. Serene, mild, young-mid."
+ },
+ "name_lynne": {
+  "suggestions": [
+   {
+    "voice_id": "mag_664",
+    "name": "Evelyn Vale",
+    "why": "poised elven aristocrat"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Female elf, elegant and composed cult leader, cool authority. Poised, refined, calm, commanding."
+ },
+ "name_lynnetelestrian": {
+  "suggestions": [
+   {
+    "voice_id": "mag_664",
+    "name": "Evelyn Vale",
+    "why": "poised elven aristocrat"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Female zealot in ecstatic self-sacrifice. Rising fanatical rapture, exalted and trembling; possessed fervor."
+ },
+ "name_dianeravenwood": {
+  "suggestions": [
+   {
+    "voice_id": "mag_290",
+    "name": "Charlotte Harrington",
+    "why": "confident corporate exec"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Female mission-briefing officer, professional and technical, clear military-brief delivery. Composed, authoritative, precise."
+ },
+ "name_mariamercurialfan": {
+  "suggestions": [
+   {
+    "voice_id": "mag_283",
+    "name": "Charlotte Taylor",
+    "why": "excited young fan"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Young concert-goer, bubbly and chatty, upbeat and easily deflated. Light, energetic, eager; young female."
+ },
+ "name_symp": {
+  "suggestions": [
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and fina"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a dist"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and r"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged m"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvet"
+   }
+  ],
+  "gender": "male",
+  "bio": "Panicked father pleading for his son (\"Please, Ryker, no. He's my son!\").",
+  "direction": "Middle-aged male father, desperate and pleading for his son. Anguished, terrified, breaking."
+ },
+ "name_eriksilverstar": {
+  "suggestions": [
+   {
+    "voice_id": "mag_519",
+    "name": "Basil Thornecroft",
+    "why": "cultured, cynical security director"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male corporate VP of Security, smug and self-important, jovial menace obsessed with his 'three key values.' Polished, theatrical, authoritative, middle-aged."
+ },
+ "name_fatheromalley": {
+  "suggestions": [
+   {
+    "voice_id": "mag_545",
+    "name": "Elias Thornwell",
+    "why": "old resonant priest"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Older male Catholic priest, warm and solemn with a gentle Irish lilt. Comforting funeral cadence. Soft, pastoral, reassuring."
+ },
+ "name_thomastelestrian": {
+  "suggestions": [
+   {
+    "voice_id": "mag_442",
+    "name": "Ben Watson",
+    "why": "young, distraught son"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Middle-aged male corporate executive reporting a disaster to his father, tense and businesslike. Controlled, professional."
+ },
+ "name_steviej": {
+  "suggestions": [
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "dark menacing gang boss"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male gang boss, arrogant and swaggering collapsing into a shocked dying gurgle. Cocky then broken, mid-range."
+ },
+ "name_samslawyer": {
+  "suggestions": [
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "weary professional"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perf"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male washed-up ex-lawyer, nervous and hesitant, stammering apologies. Anxious, sheepish, mid-age."
+ },
+ "name_ericmersmann": {
+  "suggestions": [
+   {
+    "voice_id": "mag_516",
+    "name": "Dominic Blaze",
+    "why": "smug salesman"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male street clothing/armor vendor, upbeat salesman patter. Friendly hustle, casual, energetic, mid-age."
+ },
+ "name_mersmann": {
+  "suggestions": [
+   {
+    "voice_id": "mag_516",
+    "name": "Dominic Blaze",
+    "why": "smug salesman"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male armor vendor, brief functional sales line. Casual, workmanlike, mid-range."
+ },
+ "name_danthedonutman": {
+  "suggestions": [
+   {
+    "voice_id": "mag_38",
+    "name": "Cole Anderson",
+    "why": "upbeat vendor"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male street vendor, middle-aged, gruff but folksy Barrens drawl. Cynical and world-weary. Warm undertone, mid-low, streetwise."
+ },
+ "name_shane": {
+  "suggestions": [
+   {
+    "voice_id": "mag_262",
+    "name": "Elijah Thomas",
+    "why": "urgent young man"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Young-adult male, earnest Universal Brotherhood convert, pleading and idealistic. Emotional, urgent, sincere."
+ },
+ "name_scrawnyguard": {
+  "suggestions": [
+   {
+    "voice_id": "mag_264",
+    "name": "Caleb Ryan",
+    "why": "nervous young guard"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male low-level guard, jittery and cowardly, stammering. Thin, cracking, nervous, young."
+ },
+ "name_lonestarguard": {
+  "suggestions": [
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "bored deep-voiced cop"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male Lone Star cop, bored and sadistic, sneering contempt that turns obsequious when intimidated. Hard, flat, mid-range."
+ },
+ "name_brotherhoodguard": {
+  "suggestions": [
+   {
+    "voice_id": "mag_186",
+    "name": "Ethan Clarke",
+    "why": "young cult guard"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male cult guard, controlled warning shifting to alarm. Firm, wary, mid-range."
+ },
+ "name_corporatemage": {
+  "suggestions": [
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "irritated corp mage"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male corporate mage, furious and incredulous. Arrogant, hostile, sharp, mid-range."
+ },
+ "name_alex": {
+  "suggestions": [
+   {
+    "voice_id": "mag_586",
+    "name": "Dexter Glitch",
+    "why": "creepy BTL dealer"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male ganger, cruel and taunting ('babydoll'), smug streetwise menace. Cocky, mid-range, mocking."
+ },
+ "name_halloweenersentry": {
+  "suggestions": [
+   {
+    "voice_id": "mag_262",
+    "name": "Elijah Thomas",
+    "why": "young gang punk"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Young male gang sentry, aggressive and taunting, gleeful about a bounty. Loud, cocky, street."
+ },
+ "name_johnpaul": {
+  "suggestions": [
+   {
+    "voice_id": "mag_262",
+    "name": "Elijah Thomas",
+    "why": "young Halloweener"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Young male gang leader (Halloweener) backing down fast, panicked appeasement. Nervous, ingratiating."
+ },
+ "name_bobby": {
+  "suggestions": [
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "street dealer"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perf"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male BTL/drug dealer, smooth fast-talking hustler. Slick, ingratiating, streetwise, mid-range."
+ },
+ "name_mercenarycaptain": {
+  "suggestions": [
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "gruff military"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Middle-aged male mercenary officer, dying and defiant. Strained, hard, professional, final."
+ },
+ "name_homelessman": {
+  "suggestions": [
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "gravelly old drifter"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Old male vagrant, cantankerous and paranoid, quickly cowed. Croaky, gruff, comic."
+ },
+ "name_telestrianguard": {
+  "suggestions": [
+   {
+    "voice_id": "mag_176",
+    "name": "Connor Keane",
+    "why": "corporate reception guard"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male corporate security guard, officious and condescending. Clipped, disapproving, by-the-book. Neutral corporate accent, cold and bureaucratic."
+ },
+ "name_junkie": {
+  "suggestions": [
+   {
+    "voice_id": "mag_586",
+    "name": "Dexter Glitch",
+    "why": "strung-out junkie"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male street addict, begging and twitchy. Wheedling, desperate, unsteady, young-mid."
+ },
+ "name_meticulouself": {
+  "suggestions": [
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "prissy, precise surgeon-elf"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male elf surgeon/butcher, cold and precise with a giggling cruelty. Fastidious, reedy, menacing."
+ },
+ "name_malebunraku": {
+  "suggestions": [
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "programmed puppet -> breakdown"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perf"
+   }
+  ],
+  "gender": "male"
+ },
+ "name_zipper": {
+  "suggestions": [
+   {
+    "voice_id": "mag_507",
+    "name": "Dylan Hayes",
+    "why": "weak, tortured victim"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Wounded youth, weak and coughing, frightened. Faint, pained, vulnerable."
+ },
+ "name_elf": {
+  "suggestions": [
+   {
+    "voice_id": "mag_518",
+    "name": "Dr. Cosmo Fizzlebaum",
+    "why": "ugly, giggly, unsettling elf"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male elf organ-harvester, unnervingly polite and formal with a high-pitched giggle. Undertaker's genteel menace. Reedy, sinister, refined."
+ },
+ "name_noog": {
+  "suggestions": [
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "mystical troll shaman"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male troll shaman, mad and mumbling, muttering to unseen entities before snapping into sudden lucidity. Deep, gravelly, unhinged."
+ },
+ "name_tranq": {
+  "suggestions": [
+   {
+    "voice_id": "mag_507",
+    "name": "Dylan Hayes",
+    "why": "BTL dealer"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male gang enforcer, 30s-40s, rough Barrens street accent. Casual menace laced with dark humor. Gravelly, cocky, mid-range."
+ },
+ "name_slovenlytroll": {
+  "suggestions": [
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "big, dim hospital orderly"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male troll orderly, dim and deferential to the doctor. Slow, dull, apologetic, deep."
+ },
+ "name_intercom": {
+  "suggestions": [
+   {
+    "voice_id": "mag_338",
+    "name": "Elijah Bennett",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and fina"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a dist"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and r"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged m"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvet"
+   }
+  ],
+  "gender": "male",
+  "bio": "Rude human doorman buzzing you in over the intercom.",
+  "direction": "Male voice over an intercom, gruff and hostile, slightly tinny/distorted. Rude, impatient, mid-range."
+ },
+ "name_btlsecurity": {
+  "suggestions": [
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "panicky thug"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, perfect fo"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, pe"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfec"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged medieval-style v"
+   }
+  ],
+  "gender": "male",
+  "direction": "Male thug panicking and squeaking in fear. High, frightened, cowardly."
+ },
+ "name_addict": {
+  "gender": "female",
+  "bio": "Strung-out female BTL addict, pleading and desperate.",
+  "suggestions": [
+   {
+    "voice_id": "mag_531",
+    "name": "Vera Raze",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal "
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great f"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ide"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for m"
+   }
+  ]
+ },
+ "name_charlie": {
+  "gender": "male",
+  "bio": "Bored ork chip-dealer with a milky eye; flat, droning monotone.",
+  "suggestions": [
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, "
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct "
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxi"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged mediev"
+   }
+  ],
+  "direction": "Male ork ticket-seller, utterly bored and monotone, droning rote patter. Flat, deadpan, gravelly, mid-low."
+ },
+ "name_gino": {
+  "gender": "male",
+  "bio": "Coyote's cousin, a chip-head who believed he was a god in the BTL; feral, then a tragic breakdown.",
+  "suggestions": [
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, "
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct "
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxi"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged mediev"
+   }
+  ],
+  "direction": "Male BTL addict violently detoxing, unhinged and volatile, swinging from rage to despair. Cracked, slurred, manic, desperate."
+ },
+ "name_jamal": {
+  "gender": "male",
+  "bio": "Emaciated, hungry chip-head dealer; feral snarl, Barrens attitude.",
+  "suggestions": [
+   {
+    "voice_id": "mag_262",
+    "name": "Elijah Thomas",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, "
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct "
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxi"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged mediev"
+   }
+  ],
+  "direction": "Male street chip-dealer, emaciated and hostile, aggressive Barrens slang. Raspy, feral, streetwise."
+ },
+ "name_btlpusher": {
+  "gender": "male",
+  "bio": "A BTL pusher speaking through heavy cyber-voice digitization; cold, menacing.",
+  "suggestions": [
+   {
+    "voice_id": "mag_543",
+    "name": "Axel Virex",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and finance, "
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a distinct "
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and relaxi"
+   },
+   {
+    "voice_id": "mag_859",
+    "name": "Archer Harrison",
+    "why": "Fine tuned for conversation and podcasts etc"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged mediev"
+   }
+  ],
+  "direction": "Male heavily-cybered Yakuza deck-jockey, calm and menacing through a digitized/vocoded filter. Cold, flat, robotic-tinged."
+ },
+ "name_newsnet": {
+  "gender": "male",
+  "bio": "Matrix news feed; neutral, factual anchor read.",
+  "suggestions": [
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and fina"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a dist"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and r"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged m"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvet"
+   }
+  ],
+  "direction": "News-anchor voice reading grim crime reports, neutral broadcast delivery, measured and professional. Polished, clear, mid-range."
+ },
+ "name_trueformworker": {
+  "gender": "male",
+  "bio": "A transformed creature; chittering, monstrous, inhuman.",
+  "suggestions": [
+   {
+    "voice_id": "mag_552",
+    "name": "Infernal Colossus",
+    "why": "recommended fit"
+   },
+   {
+    "voice_id": "mag_177",
+    "name": "Adam Hughes",
+    "why": "Professional tone with expertise in technology and fina"
+   },
+   {
+    "voice_id": "mag_174",
+    "name": "Aidan Doyle",
+    "why": "Rich, engaging 30-year-old Irish male voice with a dist"
+   },
+   {
+    "voice_id": "mag_266",
+    "name": "Aiden Samuel",
+    "why": "Gentle, warm middle-aged American voice, soothing and r"
+   },
+   {
+    "voice_id": "mag_378",
+    "name": "Arthur Kensington",
+    "why": "High-energy and expressive, this young to middle-aged m"
+   },
+   {
+    "voice_id": "mag_26",
+    "name": "Austin Lane",
+    "why": "Middle-aged British male voice with a laid-back, velvet"
+   }
+  ]
+ },
+ "name_ghoul": {
+  "direction": "Male runner/ally shouting a combat warning about incoming ghouls. Urgent, gruff, alert, mid-range."
+ }
+}

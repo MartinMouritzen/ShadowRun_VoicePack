@@ -1,0 +1,601 @@
+[
+ {
+  "owner": "James Telestrian III",
+  "base": "51a51c1f3561642414006fde_19",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51a51c1f3561642414006fde_19~g0",
+    "bucket": "narrator",
+    "raw": "He sighs.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a51c1f3561642414006fde_19",
+    "bucket": "name_jamestelestrianiii",
+    "raw": "Really $(l.sir), you are becoming tedious. I have matters to attend to. You may benefit from them or I will have McKlusky will feed you to something and bury the excretion. \n\nWhat do you believe Project Aegis does?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He sighs.{{/GM}}\n\nReally $(l.sir), you are becoming tedious. I have matters to attend to. You may benefit from them or I will have McKlusky will feed you to something and bury the excretion. \n\nWhat do you believe Project Aegis does?"
+ },
+ {
+  "owner": "James Telestrian III",
+  "base": "51a51c1f3561642414006fde_27",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51a51c1f3561642414006fde_27~g0",
+    "bucket": "narrator",
+    "raw": "Telestrian cuts in quickly.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a51c1f3561642414006fde_27",
+    "bucket": "name_jamestelestrianiii",
+    "raw": "Thank you, Marie-Louise. You have confirmed the identity of your rescuer and given me reason to forgive $(l.him) for $(l.hisher) trespasses against me.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Telestrian cuts in quickly.{{/GM}}\n\nThank you, Marie-Louise. You have confirmed the identity of your rescuer and given me reason to forgive $(l.him) for $(l.hisher) trespasses against me."
+ },
+ {
+  "owner": "James Telestrian III",
+  "base": "51a51c1f3561642414006fde_32",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51a51c1f3561642414006fde_32~g0",
+    "bucket": "narrator",
+    "raw": "The already cold exterior of James Telestrian III turns to ice.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a51c1f3561642414006fde_32",
+    "bucket": "name_jamestelestrianiii",
+    "raw": "I see. It was you and your crippled little friend who leaked Aegis to this $(l.man). We will speak of it later - in private.\n\nNow then, $(l.name), there are people I wish you to meet - the \"committee\" my daughter alluded to. This is a rare opportunity for a $(l.man) of the streets such as yourself. I urge you to behave. We will adjourn to the library.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}The already cold exterior of James Telestrian III turns to ice.{{/GM}}\n\nI see. It was you and your crippled little friend who leaked Aegis to this $(l.man). We will speak of it later - in private.\n\nNow then, $(l.name), there are people I wish you to meet - the \"committee\" my daughter alluded to. This is a rare opportunity for a $(l.man) of the streets such as yourself. I urge you to behave. We will adjourn to the library."
+ },
+ {
+  "owner": "James Telestrian III",
+  "base": "51bf90fb623331f411004d08_3",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51bf90fb623331f411004d08_3~g0",
+    "bucket": "narrator",
+    "raw": "James assesses you with a newfound respect.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bf90fb623331f411004d08_3",
+    "bucket": "name_jamestelestrianiii",
+    "raw": "Very clean. I believe our test of Project Aegis was a success, $(l.name). Herr Brackhaus is having it weaponized now for distribution to Knight Errant forces. The authorities are going to have a great many questions about this incident and I will need to provide details. The Universal Brotherhood has a great many chapter-houses and they must be dealt with immediately.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}James assesses you with a newfound respect.{{/GM}}\n\nVery clean. I believe our test of Project Aegis was a success, $(l.name). Herr Brackhaus is having it weaponized now for distribution to Knight Errant forces. The authorities are going to have a great many questions about this incident and I will need to provide details. The Universal Brotherhood has a great many chapter-houses and they must be dealt with immediately."
+ },
+ {
+  "owner": "James Telestrian III",
+  "base": "51bf90fb623331f411004d08_27",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51bf90fb623331f411004d08_27~g0",
+    "bucket": "narrator",
+    "raw": "Telestrian’s ice breaks - for a moment.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bf90fb623331f411004d08_27",
+    "bucket": "name_jamestelestrianiii",
+    "raw": "I do indeed - and I believe you have already undergone the required interview. Very well, $(l.name), report to work as Vice President of Telestrian Industries Corporation Security on Monday.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Telestrian’s ice breaks - for a moment.{{/GM}}\n\nI do indeed - and I believe you have already undergone the required interview. Very well, $(l.name), report to work as Vice President of Telestrian Industries Corporation Security on Monday."
+ },
+ {
+  "owner": "James Telestrian III",
+  "base": "51bf90fb623331f411004d08_29",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51bf90fb623331f411004d08_29~g0",
+    "bucket": "narrator",
+    "raw": "Telestrian regards you a moment - he seems to be choosing his words.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bf90fb623331f411004d08_29",
+    "bucket": "name_jamestelestrianiii",
+    "raw": "Unfortunately, a $(l.race) is not an appropriate fit for a Telestrian Industries Corporation executive. I’m sure you understand. However, I believe whomever fills the position would benefit from an Executive Consultant of your caliber. The position will pay quite handsomely, I assure you. Report to work on Monday.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Telestrian regards you a moment - he seems to be choosing his words.{{/GM}}\n\nUnfortunately, a $(l.race) is not an appropriate fit for a Telestrian Industries Corporation executive. I’m sure you understand. However, I believe whomever fills the position would benefit from an Executive Consultant of your caliber. The position will pay quite handsomely, I assure you. Report to work on Monday."
+ },
+ {
+  "owner": "McKlusky",
+  "base": "449469043064342809005bdf_13",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "449469043064342809005bdf_13~g0",
+    "bucket": "narrator",
+    "raw": "His face contorts in a hideous snarl.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "449469043064342809005bdf_13",
+    "bucket": "name_mcklusky",
+    "raw": "You're funny, $(l.race). Maybe, we’ll find another time to do a little dance later, you and me.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}His face contorts in a hideous snarl.{{/GM}} You're funny, $(l.race). Maybe, we’ll find another time to do a little dance later, you and me."
+ },
+ {
+  "owner": "Jake Armitage",
+  "base": "51d4c256623331ac180039b4_2",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d4c256623331ac180039b4_2~g0",
+    "bucket": "narrator",
+    "raw": "He scratches his mop of red hair.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d4c256623331ac180039b4_2",
+    "bucket": "name_jakearmitage",
+    "raw": "I guess that concludes the story of “$(l.name) and the Dead Man’s Switch”, huh? \n\nY’know, I’ve been thinking, maybe you should stay in Seattle awhile. There’s plenty of ways folks like us can get into trouble here - you only skimmed the surface.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He scratches his mop of red hair.{{/GM}}\n\nI guess that concludes the story of “$(l.name) and the Dead Man’s Switch”, huh? \n\nY’know, I’ve been thinking, maybe you should stay in Seattle awhile. There’s plenty of ways folks like us can get into trouble here - you only skimmed the surface. "
+ },
+ {
+  "owner": "Jake Armitage",
+  "base": "a45289676233311c0a003dd3_5",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "a45289676233311c0a003dd3_5~g0",
+    "bucket": "narrator",
+    "raw": "Jake yells towards the other side of the room.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "a45289676233311c0a003dd3_5",
+    "bucket": "name_jakearmitage",
+    "raw": "John! Is this $(l.guy) cool?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Jake yells towards the other side of the room.{{/GM}} John! Is this $(l.guy) cool?"
+ },
+ {
+  "owner": "Dr. Sara Castle",
+  "base": "51d08b363236646019001e5e_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d08b363236646019001e5e_0~g0",
+    "bucket": "narrator",
+    "raw": "Doc Castle looks to be better rested and in better spirits than the last time you saw her. She's also clearly had a shower and a change of clothes, maybe even some sleep. Her eyes are sharp when they turn up from her work to greet you.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d08b363236646019001e5e_0",
+    "bucket": "name_drsaracastle",
+    "raw": "Welcome back, $(l.name).",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Doc Castle looks to be better rested and in better spirits than the last time you saw her. She's also clearly had a shower and a change of clothes, maybe even some sleep. Her eyes are sharp when they turn up from her work to greet you.{{/GM}}\n\nWelcome back, $(l.name)."
+ },
+ {
+  "owner": "Dr. Sara Castle",
+  "base": "51d08b6e3236646019001e67_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51d08b6e3236646019001e67_0~g0",
+    "bucket": "narrator",
+    "raw": "For once, Dr. Castle is not utterly absorbed in her work. In fact, she seems to have set aside whatever she's doing to give you her full attention. Perhaps word has spread about what you've already faced and what is still to come.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51d08b6e3236646019001e67_0",
+    "bucket": "name_drsaracastle",
+    "raw": "I'm glad to see you're all right, $(l.name). I was afraid they'd be carting you back to me in pieces.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}For once, Dr. Castle is not utterly absorbed in her work. In fact, she seems to have set aside whatever she's doing to give you her full attention. Perhaps word has spread about what you've already faced and what is still to come.{{/GM}}\n\nI'm glad to see you're all right, $(l.name). I was afraid they'd be carting you back to me in pieces."
+ },
+ {
+  "owner": "Tweaker",
+  "base": "370b5bf6306434fc04000b13_1",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "370b5bf6306434fc04000b13_1~g0",
+    "bucket": "narrator",
+    "raw": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "370b5bf6306434fc04000b13_1",
+    "bucket": "name_tweaker",
+    "raw": "Watchoo lookin’ at, half-$(l.man)?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate.{{/GM}}\n\nWatchoo lookin’ at, half-$(l.man)?"
+ },
+ {
+  "owner": "Tweaker",
+  "base": "370b5bf6306434fc04000b13_2",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "370b5bf6306434fc04000b13_2~g0",
+    "bucket": "narrator",
+    "raw": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "370b5bf6306434fc04000b13_2",
+    "bucket": "name_tweaker",
+    "raw": "Watchoo lookin’ at, big-$(l.man)?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate.{{/GM}}\n\nWatchoo lookin’ at, big-$(l.man)?"
+ },
+ {
+  "owner": "Aljernon",
+  "base": "51a8bde6356164d017006e96_3",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51a8bde6356164d017006e96_3~g0",
+    "bucket": "narrator",
+    "raw": "His eyes widen at the question.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a8bde6356164d017006e96_3",
+    "bucket": "name_aljernon",
+    "raw": "You mistake your importance, $(l.name). No, I was not spying on you. Until Mr. Telestrian’s summons, you were beneath my notice. I saw only a customer.\n\nNow, do you require my magic?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}His eyes widen at the question.{{/GM}}\n\nYou mistake your importance, $(l.name). No, I was not spying on you. Until Mr. Telestrian’s summons, you were beneath my notice. I saw only a customer.\n\nNow, do you require my magic?"
+ },
+ {
+  "owner": "Aljernon",
+  "base": "51a8bde6356164d017006e96_4",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51a8bde6356164d017006e96_4~g0",
+    "bucket": "narrator",
+    "raw": "Aljernon's face takes on a dreamy expression.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a8bde6356164d017006e96_4",
+    "bucket": "name_aljernon",
+    "raw": "Are any of us? \n\nYes, $(l.name), I am here. And at the Seamstresses Union. And a myriad of other places. On to the work at hand. Do you require my magic?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Aljernon's face takes on a dreamy expression.{{/GM}}\n\nAre any of us? \n\nYes, $(l.name), I am here. And at the Seamstresses Union. And a myriad of other places. On to the work at hand. Do you require my magic?"
+ },
+ {
+  "owner": "Paco",
+  "base": "26ed5b3a306466b40a0018d7_4",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "26ed5b3a306466b40a0018d7_4~g0",
+    "bucket": "narrator",
+    "raw": "Echoing from down the hallway",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "26ed5b3a306466b40a0018d7_4",
+    "bucket": "name_paco",
+    "raw": "Hey, $(l.name), you're not leaving me down here!",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Echoing from down the hallway{{/GM}}\n\nHey, $(l.name), you're not leaving me down here!"
+ },
+ {
+  "owner": "Van Graas",
+  "base": "860024c7303031e4160044bd_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "860024c7303031e4160044bd_0~g0",
+    "bucket": "narrator",
+    "raw": "$(s.name) is busy talking on his commlink, checking his heads-up display, and motioning to a runner standing nearby - all at the same time. He's an intense little man. You get the sense that he likes to look busy.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_0",
+    "bucket": "name_vangraas",
+    "raw": "I'm $(s.name). Make it quick. Biz is good. \n\nTalk to me.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}$(s.name) is busy talking on his commlink, checking his heads-up display, and motioning to a runner standing nearby - all at the same time. He's an intense little man. You get the sense that he likes to look busy.{{/GM}}\n\nI'm $(s.name). Make it quick. Biz is good. \n\nTalk to me."
+ },
+ {
+  "owner": "Van Graas",
+  "base": "860024c7303031e4160044bd_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_2~c0",
+    "bucket": "name_vangraas",
+    "raw": "Oh, hey $(l.guy). One more thing.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "860024c7303031e4160044bd_2~g0",
+    "bucket": "narrator",
+    "raw": "He covers his commlink for a moment. Tilts his head your way but you can see he’s still staring at his HUD.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_2~c1",
+    "bucket": "name_vangraas",
+    "raw": "I'm a fence too. If you got anything you need to unload, come see me.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "Oh, hey $(l.guy). One more thing.\n\n{{GM}}He covers his commlink for a moment. Tilts his head your way but you can see he’s still staring at his HUD.{{/GM}}\n\nI'm a fence too. If you got anything you need to unload, come see me."
+ },
+ {
+  "owner": "Van Graas",
+  "base": "860024c7303031e4160044bd_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_3~c0",
+    "bucket": "name_vangraas",
+    "raw": "Hey $(l.guy)! Wait a minute.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "860024c7303031e4160044bd_3~g0",
+    "bucket": "narrator",
+    "raw": "He covers his commlink for a moment. Tilts his head your way but you can see he’s still staring at his HUD.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_3~c1",
+    "bucket": "name_vangraas",
+    "raw": "I'm a fence. If you got anything you need to unload, you come see me.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "Hey $(l.guy)! Wait a minute.\n\n{{GM}}He covers his commlink for a moment. Tilts his head your way but you can see he’s still staring at his HUD.{{/GM}}\n\nI'm a fence. If you got anything you need to unload, you come see me."
+ },
+ {
+  "owner": "Van Graas",
+  "base": "860024c7303031e4160044bd_5",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "860024c7303031e4160044bd_5~g0",
+    "bucket": "narrator",
+    "raw": "$(s.name) is busy talking on his commlink, checking his heads-up display, and motioning to a runner standing nearby - all at the same time. He's an intense little man. You get the sense that he likes to look busy.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_5",
+    "bucket": "name_vangraas",
+    "raw": "I'm $(s.name). Make it quick. Biz is good. \n\nTalk to me.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}$(s.name) is busy talking on his commlink, checking his heads-up display, and motioning to a runner standing nearby - all at the same time. He's an intense little man. You get the sense that he likes to look busy.{{/GM}}\n\nI'm $(s.name). Make it quick. Biz is good. \n\nTalk to me."
+ },
+ {
+  "owner": "Van Graas",
+  "base": "860024c7303031e4160044bd_6",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "860024c7303031e4160044bd_6~g0",
+    "bucket": "narrator",
+    "raw": "$(s.name) is fiddling with his cyber-eye while noodling on his PDA.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_6",
+    "bucket": "name_vangraas",
+    "raw": "You’re back. Still busy. What’s your story?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}$(s.name) is fiddling with his cyber-eye while noodling on his PDA.{{/GM}}\n\nYou’re back. Still busy. What’s your story?"
+ },
+ {
+  "owner": "Van Graas",
+  "base": "860024c7303031e4160044bd_9",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "860024c7303031e4160044bd_9~g0",
+    "bucket": "narrator",
+    "raw": "You hear the servos in $(s.name)’s cyber-eye whirr as a magnifying lens slips into position. He bends his head over the stones for two seconds. Maybe less.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_9",
+    "bucket": "name_vangraas",
+    "raw": "Hmph. Where'd you get this drek? A gumball machine? I’ll give you a thousand for them.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}You hear the servos in $(s.name)’s cyber-eye whirr as a magnifying lens slips into position. He bends his head over the stones for two seconds. Maybe less.{{/GM}}\n\nHmph. Where'd you get this drek? A gumball machine? I’ll give you a thousand for them."
+ },
+ {
+  "owner": "Van Graas",
+  "base": "860024c7303031e4160044bd_24",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "860024c7303031e4160044bd_24~g0",
+    "bucket": "narrator",
+    "raw": "$(s.name) nods. His cyber-eye whirrs.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "860024c7303031e4160044bd_24",
+    "bucket": "name_vangraas",
+    "raw": "Ready to unload those stones?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}$(s.name) nods. His cyber-eye whirrs.{{/GM}}\n\nReady to unload those stones?"
+ },
+ {
+  "owner": "Dr. Holmes",
+  "base": "51e06bac62333130140054df_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51e06bac62333130140054df_0~g0",
+    "bucket": "narrator",
+    "raw": "The nearby intercom speaker crackles to life. The voice of Dr. Holmes begins to blare from it.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51e06bac62333130140054df_0",
+    "bucket": "name_drholmes",
+    "raw": "Attention all personnel. We have a dangerous patient loose inside the facility. Subject is a $(l.sex) $(l.race), but may be coordinating with other violent offenders. Use all necessary force.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}The nearby intercom speaker crackles to life. The voice of Dr. Holmes begins to blare from it.{{/GM}}\n\nAttention all personnel. We have a dangerous patient loose inside the facility. Subject is a $(l.sex) $(l.race), but may be coordinating with other violent offenders. Use all necessary force."
+ },
+ {
+  "owner": "Mr. Delilah",
+  "base": "85499d2c3030316005004266_12",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_12~g0",
+    "bucket": "narrator",
+    "raw": "Mr. Delilah looks you up and down. Takes you all in.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "85499d2c3030316005004266_12",
+    "bucket": "name_mrdelilah",
+    "raw": "Listen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_12~g1",
+    "bucket": "narrator",
+    "raw": "He dismisses you with a wave.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.\n\n{{GM}}He dismisses you with a wave.{{/GM}}"
+ }
+]

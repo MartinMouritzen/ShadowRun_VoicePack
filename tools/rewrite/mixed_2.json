@@ -1,0 +1,633 @@
+[
+ {
+  "owner": "Mr. Delilah",
+  "base": "85499d2c3030316005004266_16",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_16~g0",
+    "bucket": "narrator",
+    "raw": "Mr. Delilah looks you up and down. Takes you all in.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "85499d2c3030316005004266_16",
+    "bucket": "name_mrdelilah",
+    "raw": "Listen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_16~g1",
+    "bucket": "narrator",
+    "raw": "He dismisses you with a wave.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.\n\n{{GM}}He dismisses you with a wave.{{/GM}}"
+ },
+ {
+  "owner": "Mr. Delilah",
+  "base": "85499d2c3030316005004266_24",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_24~g0",
+    "bucket": "narrator",
+    "raw": "Mr. Delilah looks you up and down. Takes you all in. Smiles to himself.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "85499d2c3030316005004266_24",
+    "bucket": "name_mrdelilah",
+    "raw": "Listen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_24~g1",
+    "bucket": "narrator",
+    "raw": "He dismisses you with a wave.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Mr. Delilah looks you up and down. Takes you all in. Smiles to himself.{{/GM}}\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.\n\n{{GM}}He dismisses you with a wave.{{/GM}}"
+ },
+ {
+  "owner": "Mr. Delilah",
+  "base": "85499d2c3030316005004266_35",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_35~g0",
+    "bucket": "narrator",
+    "raw": "Mr. Delilah looks you up and down. Takes you all in.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "85499d2c3030316005004266_35",
+    "bucket": "name_mrdelilah",
+    "raw": "Yeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nYeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up."
+ },
+ {
+  "owner": "Mr. Delilah",
+  "base": "85499d2c3030316005004266_37",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_37~g0",
+    "bucket": "narrator",
+    "raw": "Mr. Delilah looks you up and down. Takes you all in.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "85499d2c3030316005004266_37",
+    "bucket": "name_mrdelilah",
+    "raw": "Yeah, I bet she did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nYeah, I bet she did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up."
+ },
+ {
+  "owner": "Mr. Delilah",
+  "base": "85499d2c3030316005004266_38",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "85499d2c3030316005004266_38~g0",
+    "bucket": "narrator",
+    "raw": "Mr. Delilah looks you up and down. Takes you all in.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "85499d2c3030316005004266_38",
+    "bucket": "name_mrdelilah",
+    "raw": "Yeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nYeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up."
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "519d1e13356164b014007a5c_6",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "519d1e13356164b014007a5c_6",
+    "bucket": "name_samwatts",
+    "raw": "I don’t know, $(l.name).",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "519d1e13356164b014007a5c_6~g0",
+    "bucket": "narrator",
+    "raw": "Sam is a good guy and can hold his own in a fight but he’s been hitting the bottle pretty good lately. Never on a run - so far - but he needs watching.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "I don’t know, $(l.name).\n\n{{GM}}Sam is a good guy and can hold his own in a fight but he’s been hitting the bottle pretty good lately. Never on a run - so far - but he needs watching.{{/GM}}"
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "51abeca6356164f81000347a_5",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51abeca6356164f81000347a_5~g0",
+    "bucket": "narrator",
+    "raw": "Sam straightens up. Talks seriously. First time.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51abeca6356164f81000347a_5",
+    "bucket": "name_samwatts",
+    "raw": "Look, $(l.name)... I've led a drek life and I probably left a drek corpse. \n\nI’ve hurt people... hurt myself... I don’t know. Maybe I just want the last word. Maybe I just want someone to give a crap that I sucked air for awhile. \n\nWhat do you say?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Sam straightens up. Talks seriously. First time.{{/GM}}\n\nLook, $(l.name)... I've led a drek life and I probably left a drek corpse. \n\nI’ve hurt people... hurt myself... I don’t know. Maybe I just want the last word. Maybe I just want someone to give a crap that I sucked air for awhile. \n\nWhat do you say? "
+ },
+ {
+  "owner": "Patrick",
+  "base": "80c22f413064347c170054e2_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "80c22f413064347c170054e2_0~g0",
+    "bucket": "narrator",
+    "raw": "The handsome young man turns away from the crowd and fixes you with his full, completely undivided attention.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "80c22f413064347c170054e2_0",
+    "bucket": "name_patrick",
+    "raw": "$+(l.sir), you are a beautiful $(l.race) ... but you could be SO much MORE!",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}The handsome young man turns away from the crowd and fixes you with his full, completely undivided attention.{{/GM}}\n\n$+(l.sir), you are a beautiful $(l.race) ... but you could be SO much MORE!"
+ },
+ {
+  "owner": "Mr. Johnson",
+  "base": "51be4ebb396163480a001ad5_27",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51be4ebb396163480a001ad5_27~g0",
+    "bucket": "narrator",
+    "raw": "He quickly inspects the data.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51be4ebb396163480a001ad5_27",
+    "bucket": "name_mrjohnson",
+    "raw": "Damn, you lifted this out of the Raku system? I hired the right $(l.guy). Here's a bonus.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He quickly inspects the data.{{/GM}}\n\nDamn, you lifted this out of the Raku system? I hired the right $(l.guy). Here's a bonus."
+ },
+ {
+  "owner": "David Fry II",
+  "base": "7c31c5066233318415004310_16",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "7c31c5066233318415004310_16~c0",
+    "bucket": "name_davidfryii",
+    "raw": "No drek?",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "7c31c5066233318415004310_16~g0",
+    "bucket": "narrator",
+    "raw": "He turns to Johnny, excited.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "7c31c5066233318415004310_16~c1",
+    "bucket": "name_davidfryii",
+    "raw": "Wake up, Johnny-boy. You've got work to do. And $(l.name), if you need any gear, I'll be right here.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "No drek? \n\n{{GM}}He turns to Johnny, excited.{{/GM}}\n\nWake up, Johnny-boy. You've got work to do. And $(l.name), if you need any gear, I'll be right here."
+ },
+ {
+  "owner": "Dealer",
+  "base": "519a5984306434d0170043c6_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "519a5984306434d0170043c6_0~g0",
+    "bucket": "narrator",
+    "raw": "As you approach Buster you notice that he tenses up in a way far different from his usual at-attention posture.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "519a5984306434d0170043c6_0",
+    "bucket": "name_dealer",
+    "raw": "$(l.name)...",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}As you approach Buster you notice that he tenses up in a way far different from his usual at-attention posture.{{/GM}}\n\n$(l.name)..."
+ },
+ {
+  "owner": "Automated Security Control",
+  "base": "51bc9057633635e81000155b_11",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51bc9057633635e81000155b_11~g0",
+    "bucket": "narrator",
+    "raw": "You hear the clicking of a keyboard.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bc9057633635e81000155b_11",
+    "bucket": "name_automatedsecuritycontrol",
+    "raw": "Welcome to the Inner Sanctum $(scene.FatherMother) $(l.name).",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}You hear the clicking of a keyboard.{{/GM}}\n\nWelcome to the Inner Sanctum $(scene.FatherMother) $(l.name)."
+ },
+ {
+  "owner": "Ghost of Grizzled Veteran",
+  "base": "54aadf4e306434c412004448_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "54aadf4e306434c412004448_0~g0",
+    "bucket": "narrator",
+    "raw": "At the end of bar sits an old guy with a gray beard and deep circles under his eyes whom no one else seems to see or even notice that he exists. This is likely because he doesn’t, he’s been dead for almost 30 years. Besides you, the only person that seems to know he’s there is the bartender who keeps his frosty mug full of Hefeweizen beer.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "54aadf4e306434c412004448_0",
+    "bucket": "name_ghostofgrizzledveteran",
+    "raw": "Hey I know you. You're $(l.name). You backed me when I was alive. How can I repay the favor?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}At the end of bar sits an old guy with a gray beard and deep circles under his eyes whom no one else seems to see or even notice that he exists. This is likely because he doesn’t, he’s been dead for almost 30 years. Besides you, the only person that seems to know he’s there is the bartender who keeps his frosty mug full of Hefeweizen beer.{{/GM}}\n\nHey I know you. You're $(l.name). You backed me when I was alive. How can I repay the favor?"
+ },
+ {
+  "owner": "Jon Bartlett",
+  "base": "51ae7b4a303031980d0066bc_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51ae7b4a303031980d0066bc_0~g0",
+    "bucket": "narrator",
+    "raw": "Full of life with a quick smile, the man tilts his head and watches you approach.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51ae7b4a303031980d0066bc_0",
+    "bucket": "name_jonbartlett",
+    "raw": "Hey $(l.guy), what’s shakin’?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Full of life with a quick smile, the man tilts his head and watches you approach.{{/GM}}\n\nHey $(l.guy), what’s shakin’?"
+ },
+ {
+  "owner": "New Larry",
+  "base": "519d1e13356164b014007a5c_1",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "519d1e13356164b014007a5c_1~g0",
+    "bucket": "narrator",
+    "raw": "He shakes his head.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "519d1e13356164b014007a5c_1",
+    "bucket": "name_newlarry",
+    "raw": "I hate this fragging city, $(l.name)! It's wet and the rain feels like acid and I want out of here.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He shakes his head.{{/GM}} \n\nI hate this fragging city, $(l.name)! It's wet and the rain feels like acid and I want out of here."
+ },
+ {
+  "owner": "New Larry",
+  "base": "519d1e13356164b014007a5c_20",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "519d1e13356164b014007a5c_20~g0",
+    "bucket": "narrator",
+    "raw": "He stops and a smile slowly appears on his face.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "519d1e13356164b014007a5c_20",
+    "bucket": "name_newlarry",
+    "raw": "Looks that way. Sorry, $(l.name). I kinda like you. I just like money better.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He stops and a smile slowly appears on his face.{{/GM}} \n\nLooks that way. Sorry, $(l.name). I kinda like you. I just like money better."
+ },
+ {
+  "owner": "New Larry",
+  "base": "519d1e13356164b014007a5c_21",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "519d1e13356164b014007a5c_21~g0",
+    "bucket": "narrator",
+    "raw": "He stops and a smile slowly appears on his face.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "519d1e13356164b014007a5c_21",
+    "bucket": "name_newlarry",
+    "raw": "What? You gonna take my gun away, $(l.name)? You know I don’t need one.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He stops and a smile slowly appears on his face.{{/GM}} \n\nWhat? You gonna take my gun away, $(l.name)? You know I don’t need one."
+ },
+ {
+  "owner": "Sally",
+  "base": "a02c5265306434bc170014bd_1",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "a02c5265306434bc170014bd_1~g0",
+    "bucket": "narrator",
+    "raw": "He grunts.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "a02c5265306434bc170014bd_1",
+    "bucket": "name_sally",
+    "raw": "I hate this fragging city, $(l.name)! It's wet and the rain feels like acid and I want out.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}He grunts.{{/GM}}\n\nI hate this fragging city, $(l.name)! It's wet and the rain feels like acid and I want out."
+ },
+ {
+  "owner": "Worried Man",
+  "base": "62a19b283064340c1300028b_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "62a19b283064340c1300028b_0~g0",
+    "bucket": "narrator",
+    "raw": "The man before you appears well-mannered, but nervous.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "62a19b283064340c1300028b_0",
+    "bucket": "name_worriedman",
+    "raw": "Excuse me $(l.sir). I don’t know you... but you look like you can handle yourself in a fight, and we need some help.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}The man before you appears well-mannered, but nervous.{{/GM}} Excuse me $(l.sir). I don’t know you... but you look like you can handle yourself in a fight, and we need some help."
+ },
+ {
+  "owner": "Sister Sally",
+  "base": "51bcf721633635681e001824_6",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51bcf721633635681e001824_6~c0",
+    "bucket": "name_sistersally",
+    "raw": "Excuse me $(scene.BroSis), let me finish with Sister Monica here first.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "51bcf721633635681e001824_6~g0",
+    "bucket": "narrator",
+    "raw": "She turns to the other woman at the desk",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bcf721633635681e001824_6~c1",
+    "bucket": "name_sistersally",
+    "raw": "Sister Monica, you have to be more careful with your ID.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "51bcf721633635681e001824_6~g1",
+    "bucket": "narrator",
+    "raw": "She reaches down to a box on the floor",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bcf721633635681e001824_6~c2",
+    "bucket": "name_sistersally",
+    "raw": "Here is a blank keycard. Take it and your ruined card to Brother Christopher and he will let you into the office to program a new one.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "Excuse me $(scene.BroSis), let me finish with Sister Monica here first.\n\n{{GM}}She turns to the other woman at the desk{{/GM}}\nSister Monica, you have to be more careful with your ID. \n\n{{GM}}She reaches down to a box on the floor{{/GM}}\nHere is a blank keycard. Take it and your ruined card to Brother Christopher and he will let you into the office to program a new one."
+ },
+ {
+  "owner": "Player 1",
+  "base": "51c1e176623331441300491d_30",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51c1e176623331441300491d_30~g0",
+    "bucket": "narrator",
+    "raw": "Coyote whispers in your ear.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_30",
+    "bucket": "name_player1",
+    "raw": "We’ll wait outside for you, $(l.name). I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nWe’ll wait outside for you, $(l.name). I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one."
+ },
+ {
+  "owner": "Player 1",
+  "base": "51c1e176623331441300491d_31",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51c1e176623331441300491d_31~g0",
+    "bucket": "narrator",
+    "raw": "Coyote whispers in your ear.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_31",
+    "bucket": "name_player1",
+    "raw": "I’ll circle around the building and look for another way in, $(l.name). I’ll chirp you on your commlink if I find one.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nI’ll circle around the building and look for another way in, $(l.name). I’ll chirp you on your commlink if I find one."
+ },
+ {
+  "owner": "Sangoma",
+  "base": "51abe12b356164f810003188_0",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51abe12b356164f810003188_0~g0",
+    "bucket": "narrator",
+    "raw": "Sangoma is an urban shaman who proved her worth during a run against Fuchi last fall. She’s the quiet type - an experienced runner.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51abe12b356164f810003188_0",
+    "bucket": "name_sangoma",
+    "raw": "We’re out in the open here, $(l.name).",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}Sangoma is an urban shaman who proved her worth during a run against Fuchi last fall. She’s the quiet type - an experienced runner.{{/GM}}\n\nWe’re out in the open here, $(l.name)."
+ },
+ {
+  "owner": "Sam's Lawyer",
+  "base": "51bfa0bb6233310c0a004651_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51bfa0bb6233310c0a004651_2~c0",
+    "bucket": "name_samslawyer",
+    "raw": "Yeah?",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "gm",
+    "segKey": "51bfa0bb6233310c0a004651_2~g0",
+    "bucket": "narrator",
+    "raw": "He squints into the phone, and recognition slowly appears on his face.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51bfa0bb6233310c0a004651_2~c1",
+    "bucket": "name_samslawyer",
+    "raw": "Oh hey, it’s you... $(l.name), right? So... you got Sam’s killer, huh?",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "Yeah? \n\n{{GM}}He squints into the phone, and recognition slowly appears on his face.{{/GM}}\n\nOh hey, it’s you... $(l.name), right? So... you got Sam’s killer, huh?"
+ },
+ {
+  "owner": "Elf",
+  "base": "51a6aa56396163801100459a_3",
+  "parts": [
+   {
+    "who": "gm",
+    "segKey": "51a6aa56396163801100459a_3~g0",
+    "bucket": "narrator",
+    "raw": "The elf's smile doesn't flicker.",
+    "edited": false,
+    "user_edit": null
+   },
+   {
+    "who": "char",
+    "segKey": "51a6aa56396163801100459a_3",
+    "bucket": "name_elf",
+    "raw": "I'm sure there are a great many things you don't know, $(l.race). But never mind that. A good evening to you and your friend the coroner.",
+    "edited": false,
+    "user_edit": null
+   }
+  ],
+  "original_full": "{{GM}}The elf's smile doesn't flicker.{{/GM}} I'm sure there are a great many things you don't know, $(l.race). But never mind that. A good evening to you and your friend the coroner."
+ }
+]

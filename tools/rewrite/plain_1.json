@@ -1,0 +1,1074 @@
+[
+ {
+  "owner": "Paco",
+  "base": "519b9b416233311012002214_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "519b9b416233311012002214_0",
+    "bucket": "name_paco",
+    "raw": "Come on $(l.guy), let's go find Coyote.",
+    "edited": false
+   }
+  ],
+  "original_full": "Come on $(l.guy), let's go find Coyote.",
+  "current": "Come on, let's go find Coyote.",
+  "segKey": "519b9b416233311012002214_0"
+ },
+ {
+  "owner": "Paco",
+  "base": "51a7e86e623331b82a006dff_4",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51a7e86e623331b82a006dff_4",
+    "bucket": "name_paco",
+    "raw": "Jeez, $(l.guy). Do you really think this is the time?",
+    "edited": false
+   }
+  ],
+  "original_full": "Jeez, $(l.guy). Do you really think this is the time?",
+  "current": "Jeez, man. Do you really think this is the time?",
+  "segKey": "51a7e86e623331b82a006dff_4"
+ },
+ {
+  "owner": "Paco",
+  "base": "51a7e86e623331b82a006dff_16",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51a7e86e623331b82a006dff_16",
+    "bucket": "name_paco",
+    "raw": "$(l.name)! Can’t you see she’s in pain?",
+    "edited": false
+   }
+  ],
+  "original_full": "$(l.name)! Can’t you see she’s in pain?",
+  "current": "Hey! Can't you see she's in pain?",
+  "segKey": "51a7e86e623331b82a006dff_16"
+ },
+ {
+  "owner": "Paco",
+  "base": "80ca29c43064347c17005537_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "80ca29c43064347c17005537_2",
+    "bucket": "name_paco",
+    "raw": "Watch yourself, little $(l.man). What you want?",
+    "edited": false
+   }
+  ],
+  "original_full": "Watch yourself, little $(l.man). What you want?",
+  "current": "Watch yourself, little man. What you want?",
+  "segKey": "80ca29c43064347c17005537_2"
+ },
+ {
+  "owner": "Dr. Holmes",
+  "base": "51ac82e03236644c1f005fa8_13",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51ac82e03236644c1f005fa8_13",
+    "bucket": "name_drholmes",
+    "raw": "Beauty lies in the eyes of the beholder, $(l.sir).",
+    "edited": false
+   }
+  ],
+  "original_full": "Beauty lies in the eyes of the beholder, $(l.sir).",
+  "current": "Beauty lies in the eyes of the beholder.",
+  "segKey": "51ac82e03236644c1f005fa8_13"
+ },
+ {
+  "owner": "Shannon Half-Sky",
+  "base": "51d354f4323664842e004b1e_12",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51d354f4323664842e004b1e_12",
+    "bucket": "name_shannonhalfsky",
+    "raw": "Good luck to you, $(l.name). I hope you can find the same justice for your friend that I found for my brother.",
+    "edited": false
+   }
+  ],
+  "original_full": "Good luck to you, $(l.name). I hope you can find the same justice for your friend that I found for my brother.",
+  "current": "Good luck to you. I hope you can find the same justice for your friend that I found for my brother.",
+  "segKey": "51d354f4323664842e004b1e_12"
+ },
+ {
+  "owner": "T.B. Gruberman",
+  "base": "51d08d053236646019001fa5_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51d08d053236646019001fa5_2",
+    "bucket": "name_tbgruberman",
+    "raw": "After a fashion, yes, $(l.sir). Sergeant in the 31st California Militia. It's no longer a recognized unit, and there are those who would say we never were. But someone had to stand up to the Tir, and it fell to us.",
+    "edited": false
+   }
+  ],
+  "original_full": "After a fashion, yes, $(l.sir). Sergeant in the 31st California Militia. It's no longer a recognized unit, and there are those who would say we never were. But someone had to stand up to the Tir, and it fell to us.",
+  "current": "After a fashion, yes. Sergeant in the 31st California Militia. It's no longer a recognized unit, and there are those who would say we never were. But someone had to stand up to the Tir, and it fell to us.",
+  "segKey": "51d08d053236646019001fa5_2"
+ },
+ {
+  "owner": "T.B. Gruberman",
+  "base": "51d08d053236646019001fa5_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51d08d053236646019001fa5_3",
+    "bucket": "name_tbgruberman",
+    "raw": "Yes, $(l.sir). I was in CalFree when the elves came marching down from the north in '36. After the UCAS pulled their support, we had little in the ways of an organized defense. But what we did have was a stockpile of weapons and ammo down in Oakland.",
+    "edited": false
+   }
+  ],
+  "original_full": "Yes, $(l.sir). I was in CalFree when the elves came marching down from the north in '36. After the UCAS pulled their support, we had little in the ways of an organized defense. But what we did have was a stockpile of weapons and ammo down in Oakland.",
+  "current": "Yes. I was in CalFree when the elves came marching down from the north in '36. After the UCAS pulled their support, we had little in the ways of an organized defense. But what we did have was a stockpile of weapons and ammo down in Oakland.",
+  "segKey": "51d08d053236646019001fa5_3"
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "519d1e13356164b014007a5c_17",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "519d1e13356164b014007a5c_17",
+    "bucket": "name_samwatts",
+    "raw": "No, $(l.name). I didn't miss a beat. I was on my game the whole time. Remember, I was on point. New Larry was supposed to cover Dowd.",
+    "edited": false
+   }
+  ],
+  "original_full": "No, $(l.name). I didn't miss a beat. I was on my game the whole time. Remember, I was on point. New Larry was supposed to cover Dowd. ",
+  "current": "No. I didn't miss a beat. I was on my game the whole time. Remember, I was on point. New Larry was supposed to cover Dowd.",
+  "segKey": "519d1e13356164b014007a5c_17"
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "519d1e13356164b014007a5c_25",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "519d1e13356164b014007a5c_25",
+    "bucket": "name_samwatts",
+    "raw": "We should choose our friends more carefully, $(l.name).",
+    "edited": false
+   }
+  ],
+  "original_full": "We should choose our friends more carefully, $(l.name).",
+  "current": "We should choose our friends more carefully.",
+  "segKey": "519d1e13356164b014007a5c_25"
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "a0f075713064349c08004d39_4",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "a0f075713064349c08004d39_4",
+    "bucket": "name_samwatts",
+    "raw": "You were born for this gig, $(l.name). Me... not so much. \n\nI think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+    "edited": false
+   }
+  ],
+  "original_full": "You were born for this gig, $(l.name). Me... not so much. \n\nI think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "current": "You were born for this gig. Me... not so much. I think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "segKey": "a0f075713064349c08004d39_4"
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "a0f075713064349c08004d39_5",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "a0f075713064349c08004d39_5",
+    "bucket": "name_samwatts",
+    "raw": "You were born for this gig, $(l.name). Me... not so much. \n\nI think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+    "edited": false
+   }
+  ],
+  "original_full": "You were born for this gig, $(l.name). Me... not so much. \n\nI think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "current": "You were born for this gig. Me... not so much. I think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "segKey": "a0f075713064349c08004d39_5"
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "a0f075713064349c08004d39_6",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "a0f075713064349c08004d39_6",
+    "bucket": "name_samwatts",
+    "raw": "You were born for this gig, $(l.name). \n\nMe... not so much.",
+    "edited": false
+   }
+  ],
+  "original_full": "You were born for this gig, $(l.name). \n\nMe... not so much. ",
+  "current": "You were born for this gig. Me... not so much.",
+  "segKey": "a0f075713064349c08004d39_6"
+ },
+ {
+  "owner": "Sam Watts",
+  "base": "a0f075713064349c08004d39_9",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "a0f075713064349c08004d39_9",
+    "bucket": "name_samwatts",
+    "raw": "Better’n me? Sounds easy. Keep in touch, $(l.name). \n\nDon’t die a stranger.",
+    "edited": false
+   }
+  ],
+  "original_full": "Better’n me? Sounds easy. Keep in touch, $(l.name). \n\nDon’t die a stranger.",
+  "current": "Better’n me? Sounds easy. Keep in touch. Don’t die a stranger.",
+  "segKey": "a0f075713064349c08004d39_9"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_0",
+    "bucket": "name_patrick",
+    "raw": "Welcome $(scene.BroSis)! Are you ready to build a better tomorrow?",
+    "edited": false
+   }
+  ],
+  "original_full": "Welcome $(scene.BroSis)! Are you ready to build a better tomorrow?",
+  "current": "Welcome friend! Are you ready to build a better tomorrow?",
+  "segKey": "51c1e176623331441300491d_0"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_3",
+    "bucket": "name_patrick",
+    "raw": "Then go right in, $(scene.BroSis)! Someone from the Counseling Center would love to talk with you.",
+    "edited": false
+   }
+  ],
+  "original_full": "Then go right in, $(scene.BroSis)! Someone from the Counseling Center would love to talk with you.",
+  "current": "Then go right in, friend! Someone from the Counseling Center would love to talk with you.",
+  "segKey": "51c1e176623331441300491d_3"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_4",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_4",
+    "bucket": "name_patrick",
+    "raw": "Of course, $(scene.BroSis)! Go right ahead and ask.",
+    "edited": false
+   }
+  ],
+  "original_full": "Of course, $(scene.BroSis)! Go right ahead and ask.",
+  "current": "Of course, friend! Go right ahead and ask.",
+  "segKey": "51c1e176623331441300491d_4"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_7",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_7",
+    "bucket": "name_patrick",
+    "raw": "Yes, $(scene.BroSis)! We don’t try to hide that!",
+    "edited": false
+   }
+  ],
+  "original_full": "Yes, $(scene.BroSis)! We don’t try to hide that!",
+  "current": "Yes, friend! We don’t try to hide that!",
+  "segKey": "51c1e176623331441300491d_7"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_12",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_12",
+    "bucket": "name_patrick",
+    "raw": "That’s because it is, $(scene.BroSis)!",
+    "edited": false
+   }
+  ],
+  "original_full": "That’s because it is, $(scene.BroSis)!",
+  "current": "That’s because it is, friend!",
+  "segKey": "51c1e176623331441300491d_12"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_13",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_13",
+    "bucket": "name_patrick",
+    "raw": "You say that like it’s a bad thing, $(scene.BroSis)!",
+    "edited": false
+   }
+  ],
+  "original_full": "You say that like it’s a bad thing, $(scene.BroSis)!",
+  "current": "You say that like it’s a bad thing, friend!",
+  "segKey": "51c1e176623331441300491d_13"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_16",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_16",
+    "bucket": "name_patrick",
+    "raw": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it, $(scene.BroSis)?",
+    "edited": false
+   }
+  ],
+  "original_full": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it, $(scene.BroSis)?",
+  "current": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it, friend?",
+  "segKey": "51c1e176623331441300491d_16"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_17",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_17",
+    "bucket": "name_patrick",
+    "raw": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it? $+(l.race_plural) are especially welcome, $(scene.BroSis)!",
+    "edited": false
+   }
+  ],
+  "original_full": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it? $+(l.race_plural) are especially welcome, $(scene.BroSis)!",
+  "current": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it? $+(l.race_plural) are especially welcome, friend!",
+  "segKey": "51c1e176623331441300491d_17"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_22",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_22",
+    "bucket": "name_patrick",
+    "raw": "Absolutely, $(scene.BroSis)! In a world as cold as this one, what’s more important than Belonging? I can see you have some questions. Why don’t you ask them?",
+    "edited": false
+   }
+  ],
+  "original_full": "Absolutely, $(scene.BroSis)! In a world as cold as this one, what’s more important than Belonging? I can see you have some questions. Why don’t you ask them?",
+  "current": "Absolutely, friend! In a world as cold as this one, what’s more important than Belonging? I can see you have some questions. Why don’t you ask them?",
+  "segKey": "51c1e176623331441300491d_22"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_25",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_25",
+    "bucket": "name_patrick",
+    "raw": "How can I help you, $(scene.BroSis)?",
+    "edited": false
+   }
+  ],
+  "original_full": "How can I help you, $(scene.BroSis)?",
+  "current": "How can I help you, friend?",
+  "segKey": "51c1e176623331441300491d_25"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_27",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_27",
+    "bucket": "name_patrick",
+    "raw": "Oh, $(scene.BroSis) - I forgot to mention that everyone must enter the Universal Brotherhood alone.",
+    "edited": false
+   }
+  ],
+  "original_full": "Oh, $(scene.BroSis) - I forgot to mention that everyone must enter the Universal Brotherhood alone.",
+  "current": "Oh, friend - I forgot to mention that everyone must enter the Universal Brotherhood alone.",
+  "segKey": "51c1e176623331441300491d_27"
+ },
+ {
+  "owner": "Patrick",
+  "base": "51c1e176623331441300491d_35",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1e176623331441300491d_35",
+    "bucket": "name_patrick",
+    "raw": "Welcome $(scene.BroSis)! I hope you are ready to build a better tomorrow!\n\nI’m sorry but we do not allow groups. Everyone must enter the Universal Brotherhood alone.",
+    "edited": false
+   }
+  ],
+  "original_full": "Welcome $(scene.BroSis)! I hope you are ready to build a better tomorrow!\n\nI’m sorry but we do not allow groups. Everyone must enter the Universal Brotherhood alone.",
+  "current": "Welcome friend! I hope you are ready to build a better tomorrow! I’m sorry but we do not allow groups. Everyone must enter the Universal Brotherhood alone.",
+  "segKey": "51c1e176623331441300491d_35"
+ },
+ {
+  "owner": "Mental Patient",
+  "base": "1448d35062333184170018cd_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "1448d35062333184170018cd_0",
+    "bucket": "name_mentalpatient",
+    "raw": "Hey, $(l.guy), have you seen Josie?",
+    "edited": false
+   }
+  ],
+  "original_full": "Hey, $(l.guy), have you seen Josie?",
+  "current": "Hey, man, have you seen Josie?",
+  "segKey": "1448d35062333184170018cd_0"
+ },
+ {
+  "owner": "Ryker",
+  "base": "32b24e5d306466e406001b26_1",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "32b24e5d306466e406001b26_1",
+    "bucket": "name_ryker",
+    "raw": "This $(l.guy) here has... exotic tastes. $+(l.he) wants to help us out and is willing to pay for the privilege. That, and a copy of the recording.",
+    "edited": false
+   }
+  ],
+  "original_full": "This $(l.guy) here has... exotic tastes. $+(l.he) wants to help us out and is willing to pay for the privilege. That, and a copy of the recording.",
+  "current": "Our friend here has... exotic tastes. And wants to help us out, and is willing to pay for the privilege. That, and a copy of the recording.",
+  "segKey": "32b24e5d306466e406001b26_1"
+ },
+ {
+  "owner": "Ryker",
+  "base": "ff03fac93064668409005f20_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "ff03fac93064668409005f20_0",
+    "bucket": "name_ryker",
+    "raw": "Haven't seen you before $(l.guy). Lookin' to go somewhere special?",
+    "edited": false
+   }
+  ],
+  "original_full": "Haven't seen you before $(l.guy). Lookin' to go somewhere special?",
+  "current": "Haven't seen you before. Lookin' to go somewhere special?",
+  "segKey": "ff03fac93064668409005f20_0"
+ },
+ {
+  "owner": "Ryker",
+  "base": "ff03fac93064668409005f20_11",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "ff03fac93064668409005f20_11",
+    "bucket": "name_ryker",
+    "raw": "Listen $(l.guy), I'm too busy for your chit-chat. Buy something or get out.",
+    "edited": false
+   }
+  ],
+  "original_full": "Listen $(l.guy), I'm too busy for your chit-chat. Buy something or get out.",
+  "current": "Listen, I'm too busy for your chit-chat. Buy something or get out.",
+  "segKey": "ff03fac93064668409005f20_11"
+ },
+ {
+  "owner": "Marie-Louise Telestrian",
+  "base": "51a51c1f3561642414006fde_26",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51a51c1f3561642414006fde_26",
+    "bucket": "name_marielouisetelestrian",
+    "raw": "It’s you! You’re the $(l.man) who helped me escape from the Universal Brotherhood! How did you get here?",
+    "edited": false
+   }
+  ],
+  "original_full": "It’s you! You’re the $(l.man) who helped me escape from the Universal Brotherhood! How did you get here?",
+  "current": "It’s you! You’re the man who helped me escape from the Universal Brotherhood! How did you get here?",
+  "segKey": "51a51c1f3561642414006fde_26"
+ },
+ {
+  "owner": "Brother Christopher",
+  "base": "51b0eaa26336359408001add_20",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51b0eaa26336359408001add_20",
+    "bucket": "name_brotherchristopher",
+    "raw": "Yes, it is $(scene.BroSis). You can enter with your Home or Sanctuary access keycard.",
+    "edited": false
+   }
+  ],
+  "original_full": "Yes, it is $(scene.BroSis). You can enter with your Home or Sanctuary access keycard.",
+  "current": "Yes, it is friend. You can enter with your Home or Sanctuary access keycard.",
+  "segKey": "51b0eaa26336359408001add_20"
+ },
+ {
+  "owner": "Brother Christopher",
+  "base": "51b0eaa26336359408001add_23",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51b0eaa26336359408001add_23",
+    "bucket": "name_brotherchristopher",
+    "raw": "Yes, it is $(scene.BroSis). I would not expect a new face to have such high clearance already. Your key card will allow you access.",
+    "edited": false
+   }
+  ],
+  "original_full": "Yes, it is $(scene.BroSis). I would not expect a new face to have such high clearance already. Your key card will allow you access.",
+  "current": "Yes, it is friend. I would not expect a new face to have such high clearance already. Your key card will allow you access.",
+  "segKey": "51b0eaa26336359408001add_23"
+ },
+ {
+  "owner": "Head Thug",
+  "base": "aa3ffe88623331441b0031ac_21",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "aa3ffe88623331441b0031ac_21",
+    "bucket": "name_headthug",
+    "raw": "I knew you were just lookin' to cause static. Dash, ice this $(l.guy)!",
+    "edited": false
+   }
+  ],
+  "original_full": "I knew you were just lookin' to cause static. Dash, ice this $(l.guy)!",
+  "current": "I knew you were just lookin' to cause static. Dash, ice 'em!",
+  "segKey": "aa3ffe88623331441b0031ac_21"
+ },
+ {
+  "owner": "Ghost of Grizzled Veteran",
+  "base": "7b79697b623331c409007a5e_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "7b79697b623331c409007a5e_0",
+    "bucket": "name_ghostofgrizzledveteran",
+    "raw": "Hey $(l.race) welcome back, you're either up really early or really late.",
+    "edited": false
+   }
+  ],
+  "original_full": "Hey $(l.race) welcome back, you're either up really early or really late.",
+  "current": "Hey, welcome back. You're either up really early or really late.",
+  "segKey": "7b79697b623331c409007a5e_0"
+ },
+ {
+  "owner": "Ghost of Grizzled Veteran",
+  "base": "8b38b9e830303130150045b5_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "8b38b9e830303130150045b5_0",
+    "bucket": "name_ghostofgrizzledveteran",
+    "raw": "Hey, I know you. You’re... uh... $(l.Name)! Thanks again for your help back in 2012. What can I do for you today?",
+    "edited": false
+   }
+  ],
+  "original_full": "Hey, I know you. You’re... uh... $(l.Name)! Thanks again for your help back in 2012. What can I do for you today?",
+  "current": "Hey, I know you. You're... uh... that runner! Thanks again for your help back in 2012. What can I do for you today?",
+  "segKey": "8b38b9e830303130150045b5_0"
+ },
+ {
+  "owner": "Officer Kuprik",
+  "base": "6bccb631306434381500672c_8",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "6bccb631306434381500672c_8",
+    "bucket": "name_officerkuprik",
+    "raw": "Your client is the chalk line? That’s messed up $(l.man), but I respect it, ok, but don’t mess anything up. Not that anyone would likely notice because the forensics aren’t coming back.",
+    "edited": false
+   }
+  ],
+  "original_full": "Your client is the chalk line? That’s messed up $(l.man), but I respect it, ok, but don’t mess anything up. Not that anyone would likely notice because the forensics aren’t coming back. ",
+  "current": "Your client is the chalk line? That’s messed up man, but I respect it, ok, but don’t mess anything up. Not that anyone would likely notice because the forensics aren’t coming back.",
+  "segKey": "6bccb631306434381500672c_8"
+ },
+ {
+  "owner": "Jon Bartlett",
+  "base": "51ae7b4a303031980d0066bc_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51ae7b4a303031980d0066bc_3",
+    "bucket": "name_jonbartlett",
+    "raw": "You ever hear of the Nephilim Network? Of course you have. An in-the-know $(l.guy) like you has to have heard of *the* premier merc team out there.",
+    "edited": false
+   }
+  ],
+  "original_full": "You ever hear of the Nephilim Network? Of course you have. An in-the-know $(l.guy) like you has to have heard of *the* premier merc team out there.",
+  "current": "You ever hear of the Nephilim Network? Of course you have. Someone in-the-know like you has to have heard of THE premier merc team out there.",
+  "segKey": "51ae7b4a303031980d0066bc_3"
+ },
+ {
+  "owner": "Receptionist",
+  "base": "1448d35062333184170018cd_24",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "1448d35062333184170018cd_24",
+    "bucket": "name_receptionist",
+    "raw": "Attention. $(l.name), please report to the north hall to meet with the administrator.",
+    "edited": false
+   }
+  ],
+  "original_full": "Attention. $(l.name), please report to the north hall to meet with the administrator.",
+  "current": "Attention. Would our new arrival please report to the north hall to meet with the administrator.",
+  "segKey": "1448d35062333184170018cd_24"
+ },
+ {
+  "owner": "Receptionist",
+  "base": "f8cb2c6f623331780b0018c8_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "f8cb2c6f623331780b0018c8_0",
+    "bucket": "name_receptionist",
+    "raw": "Welcome, $(l.sir)! What business brings you to Mercy Mental Hospital?",
+    "edited": false
+   }
+  ],
+  "original_full": "Welcome, $(l.sir)! What business brings you to Mercy Mental Hospital?",
+  "current": "Welcome! What business brings you to Mercy Mental Hospital?",
+  "segKey": "f8cb2c6f623331780b0018c8_0"
+ },
+ {
+  "owner": "Cook",
+  "base": "51b0c78f6336359408001825_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51b0c78f6336359408001825_2",
+    "bucket": "name_cook",
+    "raw": "Yes $(scene.BroSis)? What can I do for you?",
+    "edited": false
+   }
+  ],
+  "original_full": "Yes $(scene.BroSis)? What can I do for you?",
+  "current": "Yes friend? What can I do for you?",
+  "segKey": "51b0c78f6336359408001825_2"
+ },
+ {
+  "owner": "Cook",
+  "base": "51b0c78f6336359408001825_5",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51b0c78f6336359408001825_5",
+    "bucket": "name_cook",
+    "raw": "I didn't think you $(l.guy)s were allowed to have friends outside of the Universal Brotherhood?",
+    "edited": false
+   }
+  ],
+  "original_full": "I didn't think you $(l.guy)s were allowed to have friends outside of the Universal Brotherhood?",
+  "current": "I didn't think you people were allowed to have friends outside of the Universal Brotherhood?",
+  "segKey": "51b0c78f6336359408001825_5"
+ },
+ {
+  "owner": "Saada",
+  "base": "51be3888623331200e003edf_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51be3888623331200e003edf_2",
+    "bucket": "name_saada",
+    "raw": "Then yes. YES! I’m $(s.name).",
+    "edited": false
+   }
+  ],
+  "original_full": "Then yes. YES! I’m $(s.name).",
+  "current": "Then yes. YES! That's me. I'm him.",
+  "segKey": "51be3888623331200e003edf_2"
+ },
+ {
+  "owner": "New Larry",
+  "base": "519d1e13356164b014007a5c_5",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "519d1e13356164b014007a5c_5",
+    "bucket": "name_newlarry",
+    "raw": "Sure, $(l.name), sure. Whatever you say.",
+    "edited": false
+   }
+  ],
+  "original_full": "Sure, $(l.name), sure. Whatever you say. ",
+  "current": "Sure, sure. Whatever you say.",
+  "segKey": "519d1e13356164b014007a5c_5"
+ },
+ {
+  "owner": "Delilah Muscle",
+  "base": "51ae8896303031c014003065_1",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51ae8896303031c014003065_1",
+    "bucket": "name_delilahmuscle",
+    "raw": "This is correct. You are a smart $(l.guy). What can I do for you, Smart $+(l.guy)?",
+    "edited": false
+   }
+  ],
+  "original_full": "This is correct. You are a smart $(l.guy). What can I do for you, Smart $+(l.guy)?",
+  "current": "This is correct. You are a smart one. What can I do for you, smart one?",
+  "segKey": "51ae8896303031c014003065_1"
+ },
+ {
+  "owner": "Sister Nancy",
+  "base": "ae9da30630643468170049ee_17",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "ae9da30630643468170049ee_17",
+    "bucket": "name_sisternancy",
+    "raw": "I know the perfect $(scene.BroSis) to speak with you, $(l.he) has a similar background and talks $(scene.TalkAbout). \n\nYou two would get along fabulously, but $(l.he) isn't in today and the rest of my counselor are currently booked.\n\nCould you come back tomorrow?",
+    "edited": false
+   }
+  ],
+  "original_full": "I know the perfect $(scene.BroSis) to speak with you, $(l.he) has a similar background and talks $(scene.TalkAbout). \n\nYou two would get along fabulously, but $(l.he) isn't in today and the rest of my counselor are currently booked.\n\nCould you come back tomorrow?",
+  "current": "I know the perfect counselor to speak with you. They have a similar background and you'd have plenty to talk about. You two would get along fabulously, but they aren't in today and the rest of my counselors are currently booked. Could you come back tomorrow?",
+  "segKey": "ae9da30630643468170049ee_17"
+ },
+ {
+  "owner": "Sister Wilma",
+  "base": "51aff6f9633635d4150081a2_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51aff6f9633635d4150081a2_0",
+    "bucket": "name_sisterwilma",
+    "raw": "Hello $(scene.BroSis), what can I help you with?",
+    "edited": false
+   }
+  ],
+  "original_full": "Hello $(scene.BroSis), what can I help you with?",
+  "current": "Hello friend, what can I help you with?",
+  "segKey": "51aff6f9633635d4150081a2_0"
+ },
+ {
+  "owner": "Slick Security Guard",
+  "base": "51c1f54a623331140b0010f3_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1f54a623331140b0010f3_2",
+    "bucket": "name_slicksecurityguard",
+    "raw": "Yes, $(l.sir). I work for Maria Mercurial. Something I can do for you?",
+    "edited": false
+   }
+  ],
+  "original_full": "Yes, $(l.sir). I work for Maria Mercurial. Something I can do for you?",
+  "current": "Yes. I work for Maria Mercurial. Something I can do for you?",
+  "segKey": "51c1f54a623331140b0010f3_2"
+ },
+ {
+  "owner": "Worried Man",
+  "base": "62a19b283064340c1300028b_5",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "62a19b283064340c1300028b_5",
+    "bucket": "name_worriedman",
+    "raw": "It's just down the street, $(l.sir). Please... our livelihoods depend on this market.",
+    "edited": false
+   }
+  ],
+  "original_full": "It's just down the street, $(l.sir). Please... our livelihoods depend on this market.",
+  "current": "It's just down the street. Please... our livelihoods depend on this market.",
+  "segKey": "62a19b283064340c1300028b_5"
+ },
+ {
+  "owner": "Worried Man",
+  "base": "62a19b283064340c1300028b_8",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "62a19b283064340c1300028b_8",
+    "bucket": "name_worriedman",
+    "raw": "$(l.sir), please... our livelihoods depend on this market. If you reconsider... it's just down the street.",
+    "edited": false
+   }
+  ],
+  "original_full": "$(l.sir), please... our livelihoods depend on this market. If you reconsider... it's just down the street.",
+  "current": "Please... our livelihoods depend on this market. If you reconsider... it's just down the street.",
+  "segKey": "62a19b283064340c1300028b_8"
+ },
+ {
+  "owner": "Worried Man",
+  "base": "62a19b283064340c1300028b_10",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "62a19b283064340c1300028b_10",
+    "bucket": "name_worriedman",
+    "raw": "Oh... thank you! It's just down the street, $(l.sir). Please... our livelihoods depend on this market.",
+    "edited": false
+   }
+  ],
+  "original_full": "Oh... thank you! It's just down the street, $(l.sir). Please... our livelihoods depend on this market.",
+  "current": "Oh... thank you! It's just down the street. Please... our livelihoods depend on this market.",
+  "segKey": "62a19b283064340c1300028b_10"
+ },
+ {
+  "owner": "Tickler",
+  "base": "32b24e5d306466e406001b26_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "32b24e5d306466e406001b26_3",
+    "bucket": "name_tickler",
+    "raw": "I think young Zipper here is just about spent. Now... just give me a moment to hook up a recording rig to our friend here and $(l.he)'ll have quite the BTL for $(l.his) personal collection.",
+    "edited": false
+   }
+  ],
+  "original_full": "I think young Zipper here is just about spent. Now... just give me a moment to hook up a recording rig to our friend here and $(l.he)'ll have quite the BTL for $(l.his) personal collection.",
+  "current": "I think young Zipper here is just about spent. Now... just give me a moment to hook up a recording rig to our friend here and they'll have quite the BTL for their personal collection.",
+  "segKey": "32b24e5d306466e406001b26_3"
+ },
+ {
+  "owner": "Tickler",
+  "base": "389f0314306466a80c005917_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "389f0314306466a80c005917_3",
+    "bucket": "name_tickler",
+    "raw": "Whoa, okay $(l.guy)! I'm gone!",
+    "edited": false
+   }
+  ],
+  "original_full": "Whoa, okay $(l.guy)! I'm gone!",
+  "current": "Whoa, okay, okay! I'm gone!",
+  "segKey": "389f0314306466a80c005917_3"
+ },
+ {
+  "owner": "Tickler",
+  "base": "389f0314306466a80c005917_5",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "389f0314306466a80c005917_5",
+    "bucket": "name_tickler",
+    "raw": "Whoa, okay $(l.guy)! I'm gone!",
+    "edited": false
+   }
+  ],
+  "original_full": "Whoa, okay $(l.guy)! I'm gone!",
+  "current": "Whoa, okay, okay! I'm gone!",
+  "segKey": "389f0314306466a80c005917_5"
+ },
+ {
+  "owner": "Jin Parks",
+  "base": "54c484e0306434c4120044e7_2",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "54c484e0306434c4120044e7_2",
+    "bucket": "name_jinparks",
+    "raw": "Hey $(l.guy), I'm discreet. I don’t talk about what my clients or what they buy. Bad for biz. \n\nHowever, I'm sure she would recommend me - IF she was a customer. Which I'm not saying she is.",
+    "edited": false
+   }
+  ],
+  "original_full": "Hey $(l.guy), I'm discreet. I don’t talk about what my clients or what they buy. Bad for biz. \n\nHowever, I'm sure she would recommend me - IF she was a customer. Which I'm not saying she is.",
+  "current": "Hey, I'm discreet. I don't talk about my clients or what they buy. Bad for biz. However, I'm sure she would recommend me... IF she was a customer. Which I'm not saying she is.",
+  "segKey": "54c484e0306434c4120044e7_2"
+ },
+ {
+  "owner": "Tranq",
+  "base": "51a568cc623331d023006df3_1",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51a568cc623331d023006df3_1",
+    "bucket": "name_tranq",
+    "raw": "Alright, $(l.man). Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. \n\nOh and you already brought some zebra meat glad you thought ahead. Shoulda seen what happened to the last guy. The hounds will tear you to pieces without it.",
+    "edited": false
+   }
+  ],
+  "original_full": "Alright, $(l.man). Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. \n\nOh and you already brought some zebra meat glad you thought ahead. Shoulda seen what happened to the last guy. The hounds will tear you to pieces without it.",
+  "current": "Alright, man. Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. Oh and you already brought some zebra meat glad you thought ahead. Shoulda seen what happened to the last guy. The hounds will tear you to pieces without it.",
+  "segKey": "51a568cc623331d023006df3_1"
+ },
+ {
+  "owner": "Tranq",
+  "base": "51a568cc623331d023006df3_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51a568cc623331d023006df3_3",
+    "bucket": "name_tranq",
+    "raw": "Alright, $(l.man). Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. \n\nOh and take this zebra meat with you. The hounds will tear you to pieces without it.",
+    "edited": false
+   }
+  ],
+  "original_full": "Alright, $(l.man). Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. \n\nOh and take this zebra meat with you. The hounds will tear you to pieces without it.",
+  "current": "Alright, man. Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. Oh and take this zebra meat with you. The hounds will tear you to pieces without it.",
+  "segKey": "51a568cc623331d023006df3_3"
+ },
+ {
+  "owner": "Erik Silverstar",
+  "base": "c64959403030316c05005e78_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "c64959403030316c05005e78_0",
+    "bucket": "name_eriksilverstar",
+    "raw": "Stop right there my friend, I don't know what your story is but I assure you, I will find out. Hold $(l.him).",
+    "edited": false
+   }
+  ],
+  "original_full": "Stop right there my friend, I don't know what your story is but I assure you, I will find out. Hold $(l.him).",
+  "current": "Stop right there my friend, I don't know what your story is but I assure you, I will find out. Hold them.",
+  "segKey": "c64959403030316c05005e78_0"
+ },
+ {
+  "owner": "Eric Mersmann",
+  "base": "51afea53623331981d00154b_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51afea53623331981d00154b_0",
+    "bucket": "name_ericmersmann",
+    "raw": "Hey $(l.guy). I got some extra outfits I'm trying to unload, you want first dibs?",
+    "edited": false
+   }
+  ],
+  "original_full": "Hey $(l.guy). I got some extra outfits I'm trying to unload, you want first dibs?",
+  "current": "Hey. I got some extra outfits I'm trying to unload, you want first dibs?",
+  "segKey": "51afea53623331981d00154b_0"
+ },
+ {
+  "owner": "Eric Mersmann",
+  "base": "51ba07f5623331c814004db8_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51ba07f5623331c814004db8_0",
+    "bucket": "name_ericmersmann",
+    "raw": "Hey $(l.guy), I got some armored clothing here if you're interested.",
+    "edited": false
+   }
+  ],
+  "original_full": "Hey $(l.guy), I got some armored clothing here if you're interested.",
+  "current": "Hey, I got some armored clothing here if you're interested.",
+  "segKey": "51ba07f5623331c814004db8_0"
+ },
+ {
+  "owner": "Scrawny Guard",
+  "base": "565f66506233314414005f55_3",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "565f66506233314414005f55_3",
+    "bucket": "name_scrawnyguard",
+    "raw": "Look $(l.guy), I didn't want to have to do this.",
+    "edited": false
+   }
+  ],
+  "original_full": "Look $(l.guy), I didn't want to have to do this.",
+  "current": "Look, man, I didn't want to have to do this.",
+  "segKey": "565f66506233314414005f55_3"
+ },
+ {
+  "owner": "Junkie",
+  "base": "51a6cf136233316c1f000767_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51a6cf136233316c1f000767_0",
+    "bucket": "name_junkie",
+    "raw": "Hey, $(l.guy), you have any extra nuyen? Just need some SucroZoom from the shack over there...",
+    "edited": false
+   }
+  ],
+  "original_full": "Hey, $(l.guy), you have any extra nuyen? Just need some SucroZoom from the shack over there...",
+  "current": "Hey, man, you have any extra nuyen? Just need some SucroZoom from the shack over there...",
+  "segKey": "51a6cf136233316c1f000767_0"
+ },
+ {
+  "owner": "Bobby",
+  "base": "51b62c74623331b0170063ce_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51b62c74623331b0170063ce_0",
+    "bucket": "name_bobby",
+    "raw": "Heyyyy, chummer. Got some tasty morsels for you. Just what every well-dressed shadowrunner should have in $(l.his) back pocket.",
+    "edited": false
+   }
+  ],
+  "original_full": "Heyyyy, chummer. Got some tasty morsels for you. Just what every well-dressed shadowrunner should have in $(l.his) back pocket.",
+  "current": "Heyyyy, chummer. Got some tasty morsels for you. Just what every well-dressed shadowrunner should have in their back pocket.",
+  "segKey": "51b62c74623331b0170063ce_0"
+ },
+ {
+  "owner": "Bobby",
+  "base": "51c1071c623331101e003c01_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51c1071c623331101e003c01_0",
+    "bucket": "name_bobby",
+    "raw": "Yo, $(l.guy). Have we met? You look familiar. \n\nI meet a lot of people. No problem. You need some brainbenders tonight? I got some of that merc stuff. Freakers, taxi drivers, you know.",
+    "edited": false
+   }
+  ],
+  "original_full": "Yo, $(l.guy). Have we met? You look familiar. \n\nI meet a lot of people. No problem. You need some brainbenders tonight? I got some of that merc stuff. Freakers, taxi drivers, you know.",
+  "current": "Yo. Have we met? You look familiar. I meet a lot of people. No problem. You need some brainbenders tonight? I got some of that merc stuff. Freakers, taxi drivers, you know.",
+  "segKey": "51c1071c623331101e003c01_0"
+ },
+ {
+  "owner": "Ghoul",
+  "base": "c72906643030316c05005efa_0",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "c72906643030316c05005efa_0",
+    "bucket": "name_ghoul",
+    "raw": "Looks like we woke up the neighbors. We've got ghouls incoming! \n\nHey $(l.name), maybe we can use this to our advantage.",
+    "edited": false
+   }
+  ],
+  "original_full": "Looks like we woke up the neighbors. We've got ghouls incoming! \n\nHey $(l.name), maybe we can use this to our advantage.",
+  "current": "Looks like we woke up the neighbors. We've got ghouls incoming! Hey, maybe we can use this to our advantage.",
+  "segKey": "c72906643030316c05005efa_0"
+ },
+ {
+  "owner": "Narrator",
+  "base": "51b12bc06336359408001f4f_29",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51b12bc06336359408001f4f_29",
+    "bucket": "narrator",
+    "raw": "Keycard printing for $(scene.BroSis) $(l.name) ... \n\nKeycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+    "edited": false
+   }
+  ],
+  "original_full": "Keycard printing for $(scene.BroSis) $(l.name) ... \n\nKeycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "current": "Keycard printing... Keycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "segKey": "51b12bc06336359408001f4f_29"
+ },
+ {
+  "owner": "Narrator",
+  "base": "51b12bc06336359408001f4f_30",
+  "parts": [
+   {
+    "who": "char",
+    "segKey": "51b12bc06336359408001f4f_30",
+    "bucket": "narrator",
+    "raw": "Keycard printing for $(scene.FatherMother) $(l.name) ... \n\nKeycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+    "edited": false
+   }
+  ],
+  "original_full": "Keycard printing for $(scene.FatherMother) $(l.name) ... \n\nKeycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "current": "Keycard printing... Keycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "segKey": "51b12bc06336359408001f4f_30"
+ }
+]

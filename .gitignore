@@ -1,0 +1,33 @@
+# --- secrets (NEVER commit) ---
+.elevenlabs.key
+.mcp_tokens.json
+.mcp_client.json
+*.key
+*.token
+
+# --- large audio working files (distributed via GitHub Release / Nexus, not git) ---
+app/audio/
+voicepack/clips/
+*.mp3
+*.ogg
+*.wav
+
+# --- build intermediates / caches ---
+__pycache__/
+*.pyc
+plugin/SRRVoices/bin/obj/
+tools/gen/
+tools/gen_results/
+tools/gen_slices/
+tools/__pycache__/
+
+# --- local backups / scratch ---
+*.bak
+app/data/characters.json.bak
+
+# --- game reference DLLs (copyright, NOT redistributable) + dist staging ---
+plugin/lib/
+dist/
+bepinex_dist/
+*.dll
+!plugin/SRRVoices/bin/SRRVoices.dll

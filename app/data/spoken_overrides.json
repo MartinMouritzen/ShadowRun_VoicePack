@@ -1,0 +1,1256 @@
+{
+ "5197aa26303031741500164a_13": {
+  "char": "Jessica Watts",
+  "original": "There is a new world coming, $(l.name)!  And it’s beautiful! \n\nOrdered. Safe. Unambiguous. A world where everyone knows their place.\n\nImagine it!  A world without chaos. Without selfishness, or any other human failings. No one to betray you or hurt you or--",
+  "spoken": "There is a new world coming! And it’s beautiful! Ordered. Safe. Unambiguous. A world where everyone knows their place. Imagine it! A world without chaos. Without selfishness, or any other human failings. No one to betray you or hurt you or--",
+  "source": "rules"
+ },
+ "5197b8d8303031741500177e_6": {
+  "char": "Jessica Watts",
+  "original": "How entertaining!\n\nI’m glad you weren’t killed at the cemetery, $(l.name). It will be much more fun to watch you die.",
+  "spoken": "How entertaining! I’m glad you weren’t killed at the cemetery. It will be much more fun to watch you die.",
+  "source": "rules"
+ },
+ "5197d1173030319417004db9_3": {
+  "char": "Jessica Watts",
+  "original": "Open your mind, $(l.name). They are so much more than you think.",
+  "spoken": "Open your mind. They are so much more than you think.",
+  "source": "rules"
+ },
+ "519d49c7303031ec15004919_0": {
+  "char": "Jessica Watts",
+  "original": "{{GM}}Jessica appears to be in the throes of a violent trance or mild seizure. A manic state brought on by the terrible energies she is attempting to conduct.{{/GM}}\n\n$(l.name), stop!  The Queen... approaches!  The vessel... The summoning... We... cannot... be... disturbed!",
+  "spoken": "stop! The Queen... approaches! The vessel... The summoning... We... cannot... be... disturbed!",
+  "source": "rules"
+ },
+ "51a25bb1303031740f006849_0": {
+  "char": "Jessica Watts",
+  "original": "{{GM}}Jessica looks at you, pleading.{{/GM}}\n\nPlease, $(l.name). Don’t let them... don’t let them eat me!",
+  "spoken": "Please. Don’t let them... don’t let them eat me!",
+  "source": "rules"
+ },
+ "51ae5da2303031e014007184_17": {
+  "char": "Jessica Watts",
+  "original": "{{GM}}Jessica composes herself, and in a breath, the mask is back in place.{{/GM}}\n\nListen to me, $(l.name). You seem like a decent person. But I’m trying to move on with my life. Our mother killed herself last year and Sam... Well, Sam was Sam. You know? I’ve worked so hard to put my family issues behind me. I don't want to see this drag on.",
+  "spoken": "Listen to me. You seem like a decent person. But I’m trying to move on with my life. Our mother killed herself last year and Sam... Well, Sam was Sam. You know? I’ve worked so hard to put my family issues behind me. I don't want to see this drag on.",
+  "source": "rules"
+ },
+ "51ae5da2303031e014007184_22": {
+  "char": "Jessica Watts",
+  "original": "Are we talking about the same man? My brother was worthless, $(l.name). Worthless. He used people. He...",
+  "spoken": "Are we talking about the same man? My brother was worthless. Worthless. He used people. He...",
+  "source": "rules"
+ },
+ "51ae5da2303031e014007184_58": {
+  "char": "Jessica Watts",
+  "original": "Goodbye, $(l.name). I hope you find what you're looking for. Stay safe.",
+  "spoken": "Goodbye. I hope you find what you're looking for. Stay safe.",
+  "source": "rules"
+ },
+ "d19d1d0d3030312c0c0072b3_1": {
+  "char": "Jessica Watts",
+  "original": "All right, what would you like to talk about, $(l.name)?",
+  "spoken": "All right, what would you like to talk about?",
+  "source": "rules"
+ },
+ "519a6506306434d0170045f4_0": {
+  "char": "Coyote",
+  "original": "{{GM}}Coyote’s face is pale and her voice is low, shaky.{{/GM}}\n\nWhat the hell was that back there, $(l.man)? Just what the frag was that?",
+  "spoken": "What the hell was that back there, man? Just what the frag was that?",
+  "source": "rules"
+ },
+ "51ae8290303031980d006758_0": {
+  "char": "Coyote",
+  "original": "{{GM}}When Coyote sees you, her eyes glisten with gratitude.{{/GM}}\n\nThere $(l.he) is - the $(l.man) of the hour.",
+  "spoken": "there they are - the man of the hour.",
+  "source": "rules"
+ },
+ "51ae8290303031980d006758_10": {
+  "char": "Coyote",
+  "original": "{{GM}}When Coyote sees you, her eyes glisten with gratitude.{{/GM}}\n\nThere $(l.he) is - the $(l.race) of the hour.",
+  "spoken": "There they are... the hero of the hour.",
+  "source": "hand"
+ },
+ "51ae8290303031980d006758_13": {
+  "char": "Coyote",
+  "original": "Listen, $(l.name). I don’t want to talk about what happened with Gino, okay? What’s done is done. Gino’s dead, I’m alive, and that’s all there is to it. \n\nIt’s the Barrens, right? Nothing more to do or say.",
+  "spoken": "Listen. I don’t want to talk about what happened with Gino, okay? What’s done is done. Gino’s dead, I’m alive, and that’s all there is to it. It’s the Barrens, right? Nothing more to do or say.",
+  "source": "rules"
+ },
+ "51d1b811623331f01b0054df_1": {
+  "char": "Coyote",
+  "original": "{{GM}}Coyote looks tense.{{/GM}}\n\nHoi, $(l.name). You in the middle of something?",
+  "spoken": "Hoi. You in the middle of something?",
+  "source": "rules"
+ },
+ "51d1b811623331f01b0054df_9": {
+  "char": "Coyote",
+  "original": "{{GM}}Her face falls.{{/GM}}\n\nI got nothing, $(l.man). Call it a favor?",
+  "spoken": "I got nothing, man. Call it a favor?",
+  "source": "rules"
+ },
+ "51d35b06623331dc10005c56_10": {
+  "char": "Coyote",
+  "original": "See you around, $(l.name). You’re quite a $(l.guy). I can honestly say, I’ve never met anyone quite like you.",
+  "spoken": "See you around. You’re really something. I can honestly say, I’ve never met anyone quite like you.",
+  "source": "rules"
+ },
+ "51d35b06623331dc10005c56_11": {
+  "char": "Coyote",
+  "original": "See you around, $(l.name). You’re quite a $(l.guy). I can honestly say, I’ve never met an $(l.race) quite like you.",
+  "spoken": "See you around. You're really something, you know that? I can honestly say, I've never met anyone quite like you.",
+  "source": "hand"
+ },
+ "51d35b06623331dc10005c56_12": {
+  "char": "Coyote",
+  "original": "See you around, $(l.name). You’re quite a $(l.guy). I can honestly say, I’ve never met a $(l.race) quite like you.",
+  "spoken": "See you around. You're really something, you know that? I can honestly say, I've never met anyone quite like you.",
+  "source": "hand"
+ },
+ "51e07b343963651821006dd2_3": {
+  "char": "Coyote",
+  "original": "$(l.name), don't attack any of the chip-heads! They don't know what they're doing, and you could hurt Gino. ",
+  "spoken": "don't attack any of the chip-heads! They don't know what they're doing, and you could hurt Gino.",
+  "source": "rules"
+ },
+ "51c0a796623331f01b000735_0": {
+  "char": "Mrs. Kubota",
+  "original": "{{GM}}The former runner stands near the door, appraising her bar. She appears worried in a way you haven’t seen before.{{/GM}}\n\nKonbanwa, $(l.name).",
+  "spoken": "Konbanwa.",
+  "source": "rules"
+ },
+ "51c0a796623331f01b000735_9": {
+  "char": "Mrs. Kubota",
+  "original": "{{GM}}She smiles at your use of Japanese.{{/GM}}\n\nYou are a good $(l.man), omae, and a friend of the Seamstresses Union. It is unfortunate that we do not have more friends like you.",
+  "spoken": "You are a good man, omae, and a friend of the Seamstresses Union. It is unfortunate that we do not have more friends like you.",
+  "source": "rules"
+ },
+ "51d2ff29623331b00f000753_14": {
+  "char": "Mrs. Kubota",
+  "original": "It is clear that you must go to the funeral and talk with Jessica Watts, $(l.name).",
+  "spoken": "It is clear that you must go to the funeral and talk with Jessica Watts.",
+  "source": "rules"
+ },
+ "51d2ff29623331b00f000753_16": {
+  "char": "Mrs. Kubota",
+  "original": "{{GM}}Mrs. Kubota raises her hand and the conversation stops.{{/GM}}\n\nWait. Before you go, there is one thing you did not tell us, $(l.name). Where is the Emerald City Ripper now?",
+  "spoken": "Wait. Before you go, there is one thing you did not tell us. Where is the Emerald City Ripper now?",
+  "source": "rules"
+ },
+ "57a2e124306434000d00432b_0": {
+  "char": "Mrs. Kubota",
+  "original": "{{GM}}$(s.name) watches you cross the room, sizing you up as you approach. As you get closer, you can see that she’s of mixed race - African and Japanese. Her demeanor says, “This is my house, mess with it at your peril.” but her eyes twinkle with a playful light when she speaks.{{/GM}}\n\nKonbanwa! Good evening! ",
+  "spoken": "Konbanwa! Good evening!",
+  "source": "rules"
+ },
+ "57a2e124306434000d00432b_1": {
+  "char": "Mrs. Kubota",
+  "original": "My but aren’t you a big, powerful $(l.Race). Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy. \n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?\n\n",
+  "spoken": "My, but aren't you a big, powerful creature. Are you enjoying the Seamstresses Union? There should be plenty for someone like you to enjoy. Or is this business?",
+  "source": "hand"
+ },
+ "57a2e124306434000d00432b_2": {
+  "char": "Mrs. Kubota",
+  "original": "My, but aren’t you the pretty elf! Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.\n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?",
+  "spoken": "My, but aren’t you the pretty elf! Are you enjoying the Seamstresses Union? There should be plenty for a man like you to enjoy. Or is this business?",
+  "source": "rules"
+ },
+ "57a2e124306434000d00432b_3": {
+  "char": "Mrs. Kubota",
+  "original": "It is true what they say: \"Good things come in small packages!\" Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.\n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?",
+  "spoken": "It is true what they say: \"Good things come in small packages!\" Are you enjoying the Seamstresses Union? There should be plenty for a man like you to enjoy. Or is this business?",
+  "source": "rules"
+ },
+ "57a2e124306434000d00432b_4": {
+  "char": "Mrs. Kubota",
+  "original": "Konbanwa! Good evening! Are you enjoying the Seamstresses Union? There should be plenty for a $(l.man) like you to enjoy.\n\n{{GM}}She eyes you closely.{{/GM}}\n\nOr is this business?",
+  "spoken": "Konbanwa! Good evening! Are you enjoying the Seamstresses Union? There should be plenty for a man like you to enjoy. Or is this business?",
+  "source": "rules"
+ },
+ "8101e5483030312011004211_1": {
+  "char": "Mrs. Kubota",
+  "original": "Domo arigato, $(l.Name). That girl is precious to me. \n\nIt is not often that we see acts like these in the Barrens. You have performed a great service for my little family and I welcome you into my home. Consider it yours while your work keeps you here. \n\nBut we both know that words are mere air. Beyond my thanks, I offer you this renumeration. Please take it as a show of respect.\n",
+  "spoken": "Domo arigato. That girl is precious to me. It is not often that we see acts like these in the Barrens. You have performed a great service for my little family and I welcome you into my home. Consider it yours while your work keeps you here. But we both know that words are mere air. Beyond my thanks, I offer you this renumeration. Please take it as a show of respect.",
+  "source": "rules"
+ },
+ "8101e5483030312011004211_3": {
+  "char": "Mrs. Kubota",
+  "original": "You will find more than a bunk, $(l.name). There is more to the Union then meets the eye.",
+  "spoken": "You will find more than a bunk. There is more to the Union then meets the eye.",
+  "source": "rules"
+ },
+ "254028ef306434dc1000129c_1": {
+  "char": "Dresden",
+  "original": "Sorry, didn't expect any visitors at this hour. And some asshole at corporate took my receptionist. What can I do for you, $(l.Sir)?",
+  "spoken": "Sorry, didn't expect any visitors at this hour. And some asshole at corporate took my receptionist. What can I do for you?",
+  "source": "rules"
+ },
+ "51ad36533030317805001abd_12": {
+  "char": "Dresden",
+  "original": "Hey, $(l.name). I gotta talk fast. Looks like the Ripper got another one. The victim worked at the NTSB investigation facility down on the docks.",
+  "spoken": "Hey. I gotta talk fast. Looks like the Ripper got another one. The victim worked at the NTSB investigation facility down on the docks.",
+  "source": "rules"
+ },
+ "51bf9d856233310c0a004576_0": {
+  "char": "Dresden",
+  "original": "{{GM}}The little coroner is surprised to see you but he can’t hide his delight.{{/GM}}\n\nHey, $(l.name). I was wondering if I was going to see you again! I guess I shouldn’t be surprised to find you here.",
+  "spoken": "Hey. I was wondering if I was going to see you again! I guess I shouldn’t be surprised to find you here.",
+  "source": "rules"
+ },
+ "51bf9d856233310c0a004576_10": {
+  "char": "Dresden",
+  "original": "Don’t mention it! Take care, $(l.name)!",
+  "spoken": "Don’t mention it! Take care!",
+  "source": "rules"
+ },
+ "51bf9d856233310c0a004576_11": {
+  "char": "Dresden",
+  "original": "Great. I’m sure there are other people you’ll want to talk to first. Take care, $(l.name)!",
+  "spoken": "Great. I’m sure there are other people you’ll want to talk to first. Take care!",
+  "source": "rules"
+ },
+ "51bf9d856233310c0a004576_12": {
+  "char": "Dresden",
+  "original": "I guess so! Take care, $(l.name)!",
+  "spoken": "I guess so! Take care!",
+  "source": "rules"
+ },
+ "6084d83b6233317c16000072_0": {
+  "char": "Dresden",
+  "original": "$(l.name)! Still working for the dead man? {{GM}}He chuckles.{{/GM}}\n\nAs you can see... we've got another Ripper victim on our hands.",
+  "spoken": "Well, look who it is! Still working for the dead man? As you can see... we've got another Ripper victim on our hands.",
+  "source": "hand"
+ },
+ "6084d83b6233317c16000072_8": {
+  "char": "Dresden",
+  "original": "{{GM}}He grins from ear to ear.{{/GM}}\n\nDo you have any idea how much this job pays these days, $(l.sir)? I don't think Aguirre's officer's salary is going to do much to seduce me into helping him.",
+  "spoken": "Do you have any idea how much this job pays these days? I don't think Aguirre's officer's salary is going to do much to seduce me into helping him.",
+  "source": "rules"
+ },
+ "a45289676233311c0a003dd3_6": {
+  "char": "Dresden",
+  "original": "Yeah, $(l.he)’s on the level. Working for Sam, believe it or not... some sort of dead man’s switch. I thought you could help $(l.him) out. *Maybe* even stop moping around the shop all day...",
+  "spoken": "Yeah, they’s on the level. Working for Sam, believe it or not... some sort of dead man’s switch. I thought you could help them out. *Maybe* even stop moping around the shop all day...",
+  "source": "rules"
+ },
+ "51be243c623331200e003b60_15": {
+  "char": "Johnny Clean",
+  "original": "Whatever it is you’ve gotten into, $(l.name)... you’re in it deep. From what I hear, the Brotherhood has members in high places - government, corps, law enforcement... you be careful, chummer.",
+  "spoken": "Whatever it is you’ve gotten into... you’re in it deep. From what I hear, the Brotherhood has members in high places - government, corps, law enforcement... you be careful, chummer.",
+  "source": "rules"
+ },
+ "51d2ff29623331b00f000753_0": {
+  "char": "Johnny Clean",
+  "original": "{{GM}}Johnny Clean is talking with Cherry Bomb and Mrs. Kubota when you walk up.{{/GM}}\n\nWe were just talking about you, $(l.name).",
+  "spoken": "We were just talking about you.",
+  "source": "rules"
+ },
+ "7c31c5066233318415004310_12": {
+  "char": "Johnny Clean",
+  "original": "$(l.name), when David gives me the sequence, I'll jack in and help you trace the blood sample back to its source.",
+  "spoken": "when David gives me the sequence, I'll jack in and help you trace the blood sample back to its source.",
+  "source": "rules"
+ },
+ "7c31c5066233318415004310_17": {
+  "char": "Johnny Clean",
+  "original": "I just got a second wind! Meet you at my rig, $(l.name).",
+  "spoken": "I just got a second wind! Meet you at my rig.",
+  "source": "rules"
+ },
+ "8a65af0b6233317009006df2_2": {
+  "char": "Johnny Clean",
+  "original": "We found an exact match for the DNA, but it was linked to a dead chop shop assistant by the name of Silas Forsberg. Now, I have my theories, but what do you think is going on here, $(l.name)?",
+  "spoken": "We found an exact match for the DNA, but it was linked to a dead chop shop assistant by the name of Silas Forsberg. Now, I have my theories, but what do you think is going on here?",
+  "source": "rules"
+ },
+ "51a7b5663561644c0e006fd9_3": {
+  "char": "Harlequin",
+  "original": "Hans dear, I love you but you could babble on forever and I believe time is of the essence. \n\n{{GM}}The painted elf addresses you.{{/GM}}\n\n$(l.name), is it? Delighted. The bug you fought was not merely a magically-Awakened animal like a wyvern or hydra or anything else in the Sixth World. In fact, it isn’t from *this* world at all. It’s the physical embodiment of an insect spirit from another plane of existence. ",
+  "spoken": "Hans dear, I love you but you could babble on forever and I believe time is of the essence. And you must be our runner. Delighted. The bug you fought was not merely a magically-Awakened animal like a wyvern or hydra or anything else in the Sixth World. In fact, it isn't from THIS world at all. It's the physical embodiment of an insect spirit from another plane of existence.",
+  "source": "hand"
+ },
+ "51a7b5663561644c0e006fd9_41": {
+  "char": "Harlequin",
+  "original": "Hey, don’t scare the kid, Hansel. We still need $(l.him) to go on the mission! \n\nBy the by, I’m coming with you, $(l.name). I wouldn’t mind seeing these creatures for myself. I missed ‘em last time. Telestrian will bankroll you so you can hire the rest of the team.",
+  "spoken": "Hey, don’t scare the kid, Hansel. We still need them to go on the mission! By the by, I’m coming with you. I wouldn’t mind seeing these creatures for myself. I missed ‘em last time. Telestrian will bankroll you so you can hire the rest of the team.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_0": {
+  "char": "Harlequin",
+  "original": " … and after we broke up the ritual, $(l.name) chased Jessica into a small chamber where she was cornered by a couple of buggers. Guess they weren’t impressed with her performance. They were about to eat her.",
+  "spoken": "... and after we broke up the ritual, our fearless runner here chased Jessica into a small chamber where she was cornered by a couple of buggers. Guess they weren't impressed with her performance. They were about to eat her.",
+  "source": "hand"
+ },
+ "51bf90fb623331f411004d08_2": {
+  "char": "Harlequin",
+  "original": "And $(l.he) let them. It was gruesome but I guess she had it coming. Still, I could do without all that crunching.\n\nSo, the nest has been cleaned out, the shaman is dead, and your cousin Lynne is being transported to a mental hospital for observation.",
+  "spoken": "And they let them. It was gruesome but I guess she had it coming. Still, I could do without all that crunching. So, the nest has been cleaned out, the shaman is dead, and your cousin Lynne is being transported to a mental hospital for observation.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_14": {
+  "char": "Harlequin",
+  "original": "This is simple accounting,  $(l.name). Business. I’m sure you can understand. Still, you were of service to the world, as you say. There can be no debate on that topic. A yeoman’s effort, to be sure and - regardless of your obvious flaws - you are deserving of a reward.",
+  "spoken": "This is simple accounting. Business. I’m sure you can understand. Still, you were of service to the world, as you say. There can be no debate on that topic. A yeoman’s effort, to be sure and - regardless of your obvious flaws - you are deserving of a reward.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_15": {
+  "char": "Harlequin",
+  "original": "Quite. This is simple accounting,  $(l.name). Business. I’m sure you can understand. Still, you were of service. There can be no debate on that topic. A yeoman’s effort, to be sure and - regardless of your obvious flaws - you are deserving of a reward.",
+  "spoken": "Quite. This is simple accounting. Business. I’m sure you can understand. Still, you were of service. There can be no debate on that topic. A yeoman’s effort, to be sure and - regardless of your obvious flaws - you are deserving of a reward.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_23": {
+  "char": "Harlequin",
+  "original": "And $(l.he) killed her before they could do it. Some sort of street justice, I suppose. I don’t know - I haven’t been following the story closely.\n\nSo, the nest has been cleaned out, the shaman is dead, and your cousin Lynne is being transported to a mental hospital for observation.",
+  "spoken": "And they killed her before they could do it. Some sort of street justice, I suppose. I don’t know - I haven’t been following the story closely. So, the nest has been cleaned out, the shaman is dead, and your cousin Lynne is being transported to a mental hospital for observation.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_24": {
+  "char": "Harlequin",
+  "original": "And $(l.name) says something like “I won’t let them eat you, Jessica. You’re coming with me. You’re going to pay for what you’ve done.” It was very dramatic.\n\nThen, we splattered the bugs and handed her over to the UCAS FBI. They’re going to want to have a long talk with her about the Universal Brotherhood. So, this nest is cleaned out and your cousin Lynne is being transported to a mental hospital for observation. ",
+  "spoken": "And our hero says something like \"I won't let them eat you, Jessica. You're coming with me. You're going to pay for what you've done.\" It was very dramatic. Then, we splattered the bugs and handed her over to the UCAS FBI. They're going to want to have a long talk with her about the Universal Brotherhood. So, this nest is cleaned out and your cousin Lynne is being transported to a mental hospital for observation.",
+  "source": "hand"
+ },
+ "51c26848303031d817000234_3": {
+  "char": "Harlequin",
+  "original": "That’s the spirit! I like a $(l.man) who rolls with the punches.",
+  "spoken": "That’s the spirit! I like a man who rolls with the punches.",
+  "source": "rules"
+ },
+ "51c26a64303031d81700025e_3": {
+  "char": "Harlequin",
+  "original": "That’s the spirit! I like a $(l.man) who rolls with the punches.",
+  "spoken": "That’s the spirit! I like a man who rolls with the punches.",
+  "source": "rules"
+ },
+ "51ae5007303031e01400702a_0": {
+  "char": "Cherry Bomb",
+  "original": "{{GM}}Cherry Bomb flags you down as you walk through the door.{{/GM}}\n\nHey, $(l.name)! There’s a woman looking for you - Jessica something. She’s waiting for you by the stage. Bellevue type. Wouldn’t order anything. Won’t touch anything. I think she’s afraid of diseases or something.",
+  "spoken": "Hey! There’s a woman looking for you - Jessica something. She’s waiting for you by the stage. Bellevue type. Wouldn’t order anything. Won’t touch anything. I think she’s afraid of diseases or something.",
+  "source": "rules"
+ },
+ "51b68442623331ec0000301f_0": {
+  "char": "Cherry Bomb",
+  "original": "{{GM}}Cherry Bomb is swamped with customers but when she catches a glimpse of you, she gets up on her tiptoes to talk to you over their heads.{{/GM}}\n\nHey there, $(l.name)! What’s going on?",
+  "spoken": "Hey there! What’s going on?",
+  "source": "rules"
+ },
+ "51b68442623331ec0000301f_2": {
+  "char": "Cherry Bomb",
+  "original": "Whatever you say, $(l.name). I’m swamped, so I’ve gotta get back.",
+  "spoken": "Whatever you say. I’m swamped, so I’ve gotta get back.",
+  "source": "rules"
+ },
+ "51b68442623331ec0000301f_3": {
+  "char": "Cherry Bomb",
+  "original": "{{GM}}She looks you in the eye.{{/GM}}\n\nJust tell it to me straight, $(l.name). I’m a Barrens girl.",
+  "spoken": "Just tell it to me straight. I’m a Barrens girl.",
+  "source": "rules"
+ },
+ "51b68442623331ec0000301f_13": {
+  "char": "Cherry Bomb",
+  "original": "Whatever you say, $(l.name). \n\nOh, before you go. Johnny Clean asked me to flag you down the minute I saw you. Said he’s got someone who wants to talk to you. He sounded a little freaked out about it. He’s waiting for you downstairs.",
+  "spoken": "Whatever you say. Oh, before you go. Johnny Clean asked me to flag you down the minute I saw you. Said he’s got someone who wants to talk to you. He sounded a little freaked out about it. He’s waiting for you downstairs.",
+  "source": "rules"
+ },
+ "51b68442623331ec0000301f_14": {
+  "char": "Cherry Bomb",
+  "original": "Hey there, $(l.name)! Johnny Clean asked me to flag you down the minute I saw you. Said he’s got someone who wants to talk to you. He sounded a little freaked out about it. He’s waiting for you downstairs.",
+  "spoken": "Hey there! Johnny Clean asked me to flag you down the minute I saw you. Said he’s got someone who wants to talk to you. He sounded a little freaked out about it. He’s waiting for you downstairs.",
+  "source": "rules"
+ },
+ "51d0afca623331241400450b_0": {
+  "char": "Cherry Bomb",
+  "original": "{{GM}}When Cherry Bomb sees you, her eyes light up.{{/GM}}\n\nHey, $(l.name). What's going on?",
+  "spoken": "Hey. What's going on?",
+  "source": "rules"
+ },
+ "51a51c1f3561642414006fde_2": {
+  "char": "James Telestrian III",
+  "original": "You have generated a considerable amount of damage to my office complex, killed or wounded many of my security personnel, and cost my Vice President of Security his job. \n\nIn 24 hours you have accumulated quite a bill with me, $(l.sir).",
+  "spoken": "You have generated a considerable amount of damage to my office complex, killed or wounded many of my security personnel, and cost my Vice President of Security his job. In 24 hours you have accumulated quite a bill with me.",
+  "source": "rules"
+ },
+ "51a51c1f3561642414006fde_19": {
+  "char": "James Telestrian III",
+  "original": "{{GM}}He sighs.{{/GM}}\n\nReally $(l.sir), you are becoming tedious. I have matters to attend to. You may benefit from them or I will have McKlusky will feed you to something and bury the excretion. \n\nWhat do you believe Project Aegis does?",
+  "spoken": "Really, you are becoming tedious. I have matters to attend to. You may benefit from them or I will have McKlusky feed you to something and bury the excretion. What do you believe Project Aegis does?",
+  "source": "hand"
+ },
+ "51a51c1f3561642414006fde_21": {
+  "char": "James Telestrian III",
+  "original": "You impress me, $(l.sir). My father’s bastards are intentionally not well known, even to themselves. Nevertheless, I fail to see the connection between this \"Sam Watt’s\" death and a raid on one of my office buildings. There is no connection between the research project and the dead man that I am aware of.",
+  "spoken": "You impress me. My father’s bastards are intentionally not well known, even to themselves. Nevertheless, I fail to see the connection between this \"Sam Watt’s\" death and a raid on one of my office buildings. There is no connection between the research project and the dead man that I am aware of.",
+  "source": "rules"
+ },
+ "51a51c1f3561642414006fde_27": {
+  "char": "James Telestrian III",
+  "original": "{{GM}}Telestrian cuts in quickly.{{/GM}}\n\nThank you, Marie-Louise. You have confirmed the identity of your rescuer and given me reason to forgive $(l.him) for $(l.hisher) trespasses against me.",
+  "spoken": "Thank you, Marie-Louise. You have confirmed the identity of your rescuer and given me reason to forgive them for their trespasses against me.",
+  "source": "rules"
+ },
+ "51a51c1f3561642414006fde_32": {
+  "char": "James Telestrian III",
+  "original": "{{GM}}The already cold exterior of James Telestrian III turns to ice.{{/GM}}\n\nI see. It was you and your crippled little friend who leaked Aegis to this $(l.man). We will speak of it later - in private.\n\nNow then, $(l.name), there are people I wish you to meet - the \"committee\" my daughter alluded to. This is a rare opportunity for a $(l.man) of the streets such as yourself. I urge you to behave. We will adjourn to the library.",
+  "spoken": "I see. It was you and your crippled little friend who leaked Aegis to this man. We will speak of it later - in private. Now then, there are people I wish you to meet - the \"committee\" my daughter alluded to. This is a rare opportunity for a man of the streets such as yourself. I urge you to behave. We will adjourn to the library.",
+  "source": "rules"
+ },
+ "51a7b5663561644c0e006fd9_0": {
+  "char": "James Telestrian III",
+  "original": "Lady and gentlemen this is... $(l.name). $+(l.he) is the $(l.race) who saved my daughter and the only one who has faced our common enemy in combat. \n\nHerr Brackhaus, what does the representative of the Great Dragon, Lofwyr, have to tell us about the magical insect this... shadowrunner uncovered?",
+  "spoken": "Lady and gentlemen, this is the runner who saved my daughter, and the only one who has faced our common enemy in combat. Herr Brackhaus, what does the representative of the Great Dragon, Lofwyr, have to tell us about the magical insect this... shadowrunner uncovered?",
+  "source": "hand"
+ },
+ "51a7b5663561644c0e006fd9_16": {
+  "char": "James Telestrian III",
+  "original": "This is not an infestation, $(l.name). \n\nIt is an invasion.",
+  "spoken": "This is not an infestation. It is an invasion.",
+  "source": "rules"
+ },
+ "51a7b5663561644c0e006fd9_30": {
+  "char": "James Telestrian III",
+  "original": "Enough. Are you willing to undergo this mission, $(l.name)?",
+  "spoken": "Enough. Are you willing to undergo this mission?",
+  "source": "rules"
+ },
+ "51a7b5663561644c0e006fd9_34": {
+  "char": "James Telestrian III",
+  "original": "Do not overplay your hand, $(l.sir). You could still be arrested for the attack on my office and, if my sources are correct, the justifiable but illegal death of Dr. Holmes. Alternately, I could simply eliminate you and find one of the mercenaries you hired to play your part.",
+  "spoken": "Do not overplay your hand. You could still be arrested for the attack on my office and, if my sources are correct, the justifiable but illegal death of Dr. Holmes. Alternately, I could simply eliminate you and find one of the mercenaries you hired to play your part.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_3": {
+  "char": "James Telestrian III",
+  "original": "{{GM}}James assesses you with a newfound respect.{{/GM}}\n\nVery clean. I believe our test of Project Aegis was a success, $(l.name). Herr Brackhaus is having it weaponized now for distribution to Knight Errant forces. The authorities are going to have a great many questions about this incident and I will need to provide details. The Universal Brotherhood has a great many chapter-houses and they must be dealt with immediately.",
+  "spoken": "Very clean. I believe our test of Project Aegis was a success. Herr Brackhaus is having it weaponized now for distribution to Knight Errant forces. The authorities are going to have a great many questions about this incident and I will need to provide details. The Universal Brotherhood has a great many chapter-houses and they must be dealt with immediately.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_10": {
+  "char": "James Telestrian III",
+  "original": "See that our hero gets $(l.his) reward. After deductions, of course.",
+  "spoken": "See that our hero gets their reward. After deductions, of course.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_20": {
+  "char": "James Telestrian III",
+  "original": "See that our hero gets $(l.his) reward. After deductions, of course.",
+  "spoken": "See that our hero gets their reward. After deductions, of course.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_27": {
+  "char": "James Telestrian III",
+  "original": "{{GM}}Telestrian’s ice breaks - for a moment.{{/GM}}\n\nI do indeed - and I believe you have already undergone the required interview. Very well, $(l.name), report to work as Vice President of Telestrian Industries Corporation Security on Monday.",
+  "spoken": "I do indeed - and I believe you have already undergone the required interview. Very well, report to work as Vice President of Telestrian Industries Corporation Security on Monday.",
+  "source": "rules"
+ },
+ "51bf90fb623331f411004d08_29": {
+  "char": "James Telestrian III",
+  "original": "{{GM}}Telestrian regards you a moment - he seems to be choosing his words.{{/GM}}\n\nUnfortunately, a $(l.race) is not an appropriate fit for a Telestrian Industries Corporation executive. I’m sure you understand. However, I believe whomever fills the position would benefit from an Executive Consultant of your caliber. The position will pay quite handsomely, I assure you. Report to work on Monday.",
+  "spoken": "Unfortunately, someone of your... background is not an appropriate fit for a Telestrian Industries Corporation executive. I'm sure you understand. However, I believe whomever fills the position would benefit from an Executive Consultant of your caliber. The position will pay quite handsomely, I assure you. Report to work on Monday.",
+  "source": "hand"
+ },
+ "51ccc8ac323664d82000140c_0": {
+  "char": "Mr. Kluwe",
+  "original": "Evening, $(l.sir).",
+  "spoken": "Evening.",
+  "source": "rules"
+ },
+ "51ccc8ac323664d82000140c_5": {
+  "char": "Mr. Kluwe",
+  "original": "I'll leave you to your business, $(l.sir).",
+  "spoken": "I'll leave you to your business.",
+  "source": "rules"
+ },
+ "51cd78f3323664d820001459_0": {
+  "char": "Mr. Kluwe",
+  "original": "Glad to see you well, $(l.name).",
+  "spoken": "Glad to see you well.",
+  "source": "rules"
+ },
+ "51cd7aba323664d8200014a2_0": {
+  "char": "Mr. Kluwe",
+  "original": "Welcome back, $(l.name).",
+  "spoken": "Welcome back.",
+  "source": "rules"
+ },
+ "51cd7aba323664d8200014a2_4": {
+  "char": "Mr. Kluwe",
+  "original": "And yet your shoulders are no more relaxed, and you still survey the room like a $(l.man) who has yet to return from war. This isn’t over, is it?",
+  "spoken": "And yet your shoulders are no more relaxed, and you still survey the room like a man who has yet to return from war. This isn’t over, is it?",
+  "source": "rules"
+ },
+ "51cd7aba323664d8200014a2_8": {
+  "char": "Mr. Kluwe",
+  "original": "Take care, $(l.name).",
+  "spoken": "Take care.",
+  "source": "rules"
+ },
+ "51cd7cd1323664d82000151c_0": {
+  "char": "Mr. Kluwe",
+  "original": "You all right, $(l.name)?",
+  "spoken": "You all right?",
+  "source": "rules"
+ },
+ "51cd7cd1323664d82000151c_9": {
+  "char": "Mr. Kluwe",
+  "original": "Go get ‘em, $(l.sir).",
+  "spoken": "Go get ‘em.",
+  "source": "rules"
+ },
+ "449469043064342809005bdf_13": {
+  "char": "McKlusky",
+  "original": "{{GM}}His face contorts in a hideous snarl.{{/GM}} You're funny, $(l.race). Maybe, we’ll find another time to do a little dance later, you and me.",
+  "spoken": "You're funny, runner. Maybe we'll find another time to do a little dance later, you and me.",
+  "source": "hand"
+ },
+ "449469043064342809005bdf_14": {
+  "char": "McKlusky",
+  "original": "The drek you were! \n\nYou get anywhere near my investigation and it will be YOU on the slab, $(l.race).",
+  "spoken": "The drek you were! You get anywhere near my investigation and it will be YOU on the slab, runner.",
+  "source": "hand"
+ },
+ "51a4ff4a3561642414006e82_1": {
+  "char": "McKlusky",
+  "original": "I suggest you keep your smart-ass remarks to yourself this time, $(l.race). \n\nMr. Telestrian isn’t some streetmeat you can impress or intimidate. He’s the brains behind the throne of Tir Tairngire and one of the richest men in Seattle. ",
+  "spoken": "I suggest you keep your smart-ass remarks to yourself this time. Mr. Telestrian isn't some streetmeat you can impress or intimidate. He's the brains behind the throne of Tir Tairngire and one of the richest men in Seattle.",
+  "source": "hand"
+ },
+ "5199765e62333104060047c2_3": {
+  "char": "Jake Armitage",
+  "original": "Hold on, $(l.name). Think about this.",
+  "spoken": "Hold on. Think about this.",
+  "source": "rules"
+ },
+ "51d4c256623331ac180039b4_2": {
+  "char": "Jake Armitage",
+  "original": "{{GM}}He scratches his mop of red hair.{{/GM}}\n\nI guess that concludes the story of “$(l.name) and the Dead Man’s Switch”, huh? \n\nY’know, I’ve been thinking, maybe you should stay in Seattle awhile. There’s plenty of ways folks like us can get into trouble here - you only skimmed the surface. ",
+  "spoken": "I guess that concludes the story of \"The Runner and the Dead Man's Switch\", huh? Y'know, I've been thinking, maybe you should stay in Seattle awhile. There's plenty of ways folks like us can get into trouble here... you only skimmed the surface.",
+  "source": "hand"
+ },
+ "51d4c256623331ac180039b4_11": {
+  "char": "Jake Armitage",
+  "original": "I heard Mitsuhama’s looking for a team and they specifically want $(l.race_plural). No idea what that’s about.",
+  "spoken": "I heard Mitsuhama's looking for a team and they specifically want people like you. No idea what that's about.",
+  "source": "hand"
+ },
+ "a45289676233311c0a003dd3_5": {
+  "char": "Jake Armitage",
+  "original": "{{GM}}Jake yells towards the other side of the room.{{/GM}} John! Is this $(l.guy) cool?",
+  "spoken": "John! Is this one cool?",
+  "source": "hand"
+ },
+ "51d08b363236646019001e5e_0": {
+  "char": "Dr. Sara Castle",
+  "original": "{{GM}}Doc Castle looks to be better rested and in better spirits than the last time you saw her. She's also clearly had a shower and a change of clothes, maybe even some sleep. Her eyes are sharp when they turn up from her work to greet you.{{/GM}}\n\nWelcome back, $(l.name).",
+  "spoken": "Welcome back.",
+  "source": "rules"
+ },
+ "51d08b6e3236646019001e67_0": {
+  "char": "Dr. Sara Castle",
+  "original": "{{GM}}For once, Dr. Castle is not utterly absorbed in her work. In fact, she seems to have set aside whatever she's doing to give you her full attention. Perhaps word has spread about what you've already faced and what is still to come.{{/GM}}\n\nI'm glad to see you're all right, $(l.name). I was afraid they'd be carting you back to me in pieces.",
+  "spoken": "I'm glad to see you're all right. I was afraid they'd be carting you back to me in pieces.",
+  "source": "rules"
+ },
+ "26bf5777306466ec210018c0_1": {
+  "char": "Tweaker",
+  "original": "I got nothing left to give, $(l.guy). It all goes to BTLs.\n\nEverything.\n\nPlease! Just a few nuyen.",
+  "spoken": "I got nothing left to give, man. It all goes to BTLs. Everything. Please! Just a few nuyen.",
+  "source": "hand"
+ },
+ "370b5bf6306434fc04000b13_1": {
+  "char": "Tweaker",
+  "original": "{{GM}}Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate.{{/GM}}\n\nWatchoo lookin’ at, half-$(l.man)?",
+  "spoken": "Watchoo lookin’ at, half-man?",
+  "source": "rules"
+ },
+ "370b5bf6306434fc04000b13_2": {
+  "char": "Tweaker",
+  "original": "{{GM}}Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate.{{/GM}}\n\nWatchoo lookin’ at, big-$(l.man)?",
+  "spoken": "Watchoo lookin’ at, big-man?",
+  "source": "rules"
+ },
+ "51d2149c3561648412000459_0": {
+  "char": "Tweaker",
+  "original": "Thanks for meeting us, $(l.name). I owe you one.",
+  "spoken": "Thanks for meeting us. I owe you one.",
+  "source": "rules"
+ },
+ "519a60ad306434d0170044ad_1": {
+  "char": "Aljernon",
+  "original": "Welcome, $(l.name). Is there anything I might provide to make your life easier, or perhaps make another’s more difficult?",
+  "spoken": "Welcome. Is there anything I might provide to make your life easier, or perhaps make another’s more difficult?",
+  "source": "rules"
+ },
+ "51a505913561642414006f72_1": {
+  "char": "Aljernon",
+  "original": "I do not “run” at all, $(l.name). I go where I am needed. I am needed here.",
+  "spoken": "I do not “run” at all. I go where I am needed. I am needed here.",
+  "source": "rules"
+ },
+ "51a505913561642414006f72_2": {
+  "char": "Aljernon",
+  "original": "I am doing what I do, $(l.name). Providing those in need with the tools they require.",
+  "spoken": "I am doing what I do. Providing those in need with the tools they require.",
+  "source": "rules"
+ },
+ "51a7b5663561644c0e006fd9_46": {
+  "char": "Aljernon",
+  "original": "I have been impressed with you for some time, $(l.name). It is good that you are here.",
+  "spoken": "I have been impressed with you for some time. It is good that you are here.",
+  "source": "rules"
+ },
+ "51a8bde6356164d017006e96_3": {
+  "char": "Aljernon",
+  "original": "{{GM}}His eyes widen at the question.{{/GM}}\n\nYou mistake your importance, $(l.name). No, I was not spying on you. Until Mr. Telestrian’s summons, you were beneath my notice. I saw only a customer.\n\nNow, do you require my magic?",
+  "spoken": "You mistake your importance. No, I was not spying on you. Until Mr. Telestrian’s summons, you were beneath my notice. I saw only a customer. Now, do you require my magic?",
+  "source": "rules"
+ },
+ "51a8bde6356164d017006e96_4": {
+  "char": "Aljernon",
+  "original": "{{GM}}Aljernon's face takes on a dreamy expression.{{/GM}}\n\nAre any of us? \n\nYes, $(l.name), I am here. And at the Seamstresses Union. And a myriad of other places. On to the work at hand. Do you require my magic?",
+  "spoken": "Are any of us? Yes, I am here. And at the Seamstresses Union. And a myriad of other places. On to the work at hand. Do you require my magic?",
+  "source": "rules"
+ },
+ "51d0575f3236646019001961_1": {
+  "char": "Aljernon",
+  "original": "Ah, $(l.name). I was watching your approach from the astral realm. So good of you to visit again.",
+  "spoken": "Ah. I was watching your approach from the astral realm. So good of you to visit again.",
+  "source": "rules"
+ },
+ "9035fd4c3030312816002a32_1": {
+  "char": "Aljernon",
+  "original": "Good evening, young $(l.Race) and welcome to this humble home that we call the Union. I am Aljernon Half-Dream.\n\nTo ease your way through the Sixth World, I offer you the best in magical foci, spells, and fetishes for the conjuring of spirits.",
+  "spoken": "Good evening, young one, and welcome to this humble home that we call the Union. I am Aljernon Half-Dream. To ease your way through the Sixth World, I offer you the best in magical foci, spells, and fetishes for the conjuring of spirits.",
+  "source": "hand"
+ },
+ "26ed5b3a306466b40a0018d7_1": {
+  "char": "Paco",
+  "original": "$(l.name), if we go up there, I'm not leaving until we find Coyote.",
+  "spoken": "if we go up there, I'm not leaving until we find Coyote.",
+  "source": "rules"
+ },
+ "26ed5b3a306466b40a0018d7_2": {
+  "char": "Paco",
+  "original": "$(l.name), if we go up there, I'm not leaving until we find Coyote.",
+  "spoken": "if we go up there, I'm not leaving until we find Coyote.",
+  "source": "rules"
+ },
+ "26ed5b3a306466b40a0018d7_3": {
+  "char": "Paco",
+  "original": "Hey, $(l.name), you're not leaving me down here!",
+  "spoken": "Hey, you're not leaving me down here!",
+  "source": "rules"
+ },
+ "26ed5b3a306466b40a0018d7_4": {
+  "char": "Paco",
+  "original": "{{GM}}Echoing from down the hallway{{/GM}}\n\nHey, $(l.name), you're not leaving me down here!",
+  "spoken": "Hey, you're not leaving me down here!",
+  "source": "rules"
+ },
+ "519b9b416233311012002214_0": {
+  "char": "Paco",
+  "original": "Come on $(l.guy), let's go find Coyote.",
+  "spoken": "Come on, let's go find Coyote.",
+  "source": "hand"
+ },
+ "51a7e86e623331b82a006dff_4": {
+  "char": "Paco",
+  "original": "Jeez, $(l.guy). Do you really think this is the time?",
+  "spoken": "Jeez, man. Do you really think this is the time?",
+  "source": "hand"
+ },
+ "51a7e86e623331b82a006dff_16": {
+  "char": "Paco",
+  "original": "$(l.name)! Can’t you see she’s in pain?",
+  "spoken": "Hey! Can't you see she's in pain?",
+  "source": "hand"
+ },
+ "80ca29c43064347c17005537_2": {
+  "char": "Paco",
+  "original": "Watch yourself, little $(l.man). What you want?",
+  "spoken": "Watch yourself, little man. What you want?",
+  "source": "rules"
+ },
+ "860024c7303031e4160044bd_0": {
+  "char": "Van Graas",
+  "original": "{{GM}}$(s.name) is busy talking on his commlink, checking his heads-up display, and motioning to a runner standing nearby - all at the same time. He's an intense little man. You get the sense that he likes to look busy.{{/GM}}\n\nI'm $(s.name). Make it quick. Biz is good. \n\nTalk to me.",
+  "spoken": "I'm Van Graas. Make it quick. Biz is good. Talk to me.",
+  "source": "hand"
+ },
+ "860024c7303031e4160044bd_2": {
+  "char": "Van Graas",
+  "original": "Oh, hey $(l.guy). One more thing.\n\n{{GM}}He covers his commlink for a moment. Tilts his head your way but you can see he’s still staring at his HUD.{{/GM}}\n\nI'm a fence too. If you got anything you need to unload, come see me.",
+  "spoken": "Oh, hey. One more thing. I'm a fence too. If you got anything you need to unload, come see me.",
+  "source": "hand"
+ },
+ "860024c7303031e4160044bd_3": {
+  "char": "Van Graas",
+  "original": "Hey $(l.guy)! Wait a minute.\n\n{{GM}}He covers his commlink for a moment. Tilts his head your way but you can see he’s still staring at his HUD.{{/GM}}\n\nI'm a fence. If you got anything you need to unload, you come see me.",
+  "spoken": "Hey! Wait a minute. I'm a fence. If you got anything you need to unload, you come see me.",
+  "source": "hand"
+ },
+ "860024c7303031e4160044bd_5": {
+  "char": "Van Graas",
+  "original": "{{GM}}$(s.name) is busy talking on his commlink, checking his heads-up display, and motioning to a runner standing nearby - all at the same time. He's an intense little man. You get the sense that he likes to look busy.{{/GM}}\n\nI'm $(s.name). Make it quick. Biz is good. \n\nTalk to me.",
+  "spoken": "I'm Van Graas. Make it quick. Biz is good. Talk to me.",
+  "source": "hand"
+ },
+ "860024c7303031e4160044bd_6": {
+  "char": "Van Graas",
+  "original": "{{GM}}$(s.name) is fiddling with his cyber-eye while noodling on his PDA.{{/GM}}\n\nYou’re back. Still busy. What’s your story?",
+  "spoken": "You’re back. Still busy. What’s your story?",
+  "source": "rules"
+ },
+ "860024c7303031e4160044bd_9": {
+  "char": "Van Graas",
+  "original": "{{GM}}You hear the servos in $(s.name)’s cyber-eye whirr as a magnifying lens slips into position. He bends his head over the stones for two seconds. Maybe less.{{/GM}}\n\nHmph. Where'd you get this drek? A gumball machine? I’ll give you a thousand for them.",
+  "spoken": "Hmph. Where'd you get this drek? A gumball machine? I’ll give you a thousand for them.",
+  "source": "rules"
+ },
+ "860024c7303031e4160044bd_24": {
+  "char": "Van Graas",
+  "original": "{{GM}}$(s.name) nods. His cyber-eye whirrs.{{/GM}}\n\nReady to unload those stones?",
+  "spoken": "Ready to unload those stones?",
+  "source": "rules"
+ },
+ "51ac82e03236644c1f005fa8_13": {
+  "char": "Dr. Holmes",
+  "original": "Beauty lies in the eyes of the beholder, $(l.sir).",
+  "spoken": "Beauty lies in the eyes of the beholder.",
+  "source": "rules"
+ },
+ "51e06bac62333130140054df_0": {
+  "char": "Dr. Holmes",
+  "original": "{{GM}}The nearby intercom speaker crackles to life. The voice of Dr. Holmes begins to blare from it.{{/GM}}\n\nAttention all personnel. We have a dangerous patient loose inside the facility. Subject is a $(l.sex) $(l.race), but may be coordinating with other violent offenders. Use all necessary force.",
+  "spoken": "Attention all personnel. We have a dangerous patient loose inside the facility. Subject may be coordinating with other violent offenders. Use all necessary force.",
+  "source": "hand"
+ },
+ "51d354f4323664842e004b1e_12": {
+  "char": "Shannon Half-Sky",
+  "original": "Good luck to you, $(l.name). I hope you can find the same justice for your friend that I found for my brother.",
+  "spoken": "Good luck to you. I hope you can find the same justice for your friend that I found for my brother.",
+  "source": "rules"
+ },
+ "85499d2c3030316005004266_12": {
+  "char": "Mr. Delilah",
+  "original": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.\n\n{{GM}}He dismisses you with a wave.{{/GM}}",
+  "spoken": "Listen, you look like the sort of man who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "source": "rules"
+ },
+ "85499d2c3030316005004266_16": {
+  "char": "Mr. Delilah",
+  "original": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.\n\n{{GM}}He dismisses you with a wave.{{/GM}}",
+  "spoken": "Listen, you look like the sort of man who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "source": "rules"
+ },
+ "85499d2c3030316005004266_24": {
+  "char": "Mr. Delilah",
+  "original": "{{GM}}Mr. Delilah looks you up and down. Takes you all in. Smiles to himself.{{/GM}}\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.\n\n{{GM}}He dismisses you with a wave.{{/GM}}",
+  "spoken": "Listen, you look like the sort of man who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "source": "rules"
+ },
+ "85499d2c3030316005004266_35": {
+  "char": "Mr. Delilah",
+  "original": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nYeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "spoken": "Yeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones. Listen, you look like the sort of man who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "source": "rules"
+ },
+ "85499d2c3030316005004266_37": {
+  "char": "Mr. Delilah",
+  "original": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nYeah, I bet she did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "spoken": "Yeah, I bet she did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones. Listen, you look like the sort of man who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "source": "rules"
+ },
+ "85499d2c3030316005004266_38": {
+  "char": "Mr. Delilah",
+  "original": "{{GM}}Mr. Delilah looks you up and down. Takes you all in.{{/GM}}\n\nYeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones.\n\nListen, you look like the sort of $(l.man) who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "spoken": "Yeah, I bet you did. Okay, tell Coyote no hard feelings. I'll have someone else get the stones. Listen, you look like the sort of man who might run a crew of your own one day. Might need a little talent. When that happens, you come to me. I'll set you up.",
+  "source": "rules"
+ },
+ "51d08d053236646019001fa5_2": {
+  "char": "T.B. Gruberman",
+  "original": "After a fashion, yes, $(l.sir). Sergeant in the 31st California Militia. It's no longer a recognized unit, and there are those who would say we never were. But someone had to stand up to the Tir, and it fell to us.",
+  "spoken": "After a fashion, yes. Sergeant in the 31st California Militia. It's no longer a recognized unit, and there are those who would say we never were. But someone had to stand up to the Tir, and it fell to us.",
+  "source": "rules"
+ },
+ "51d08d053236646019001fa5_3": {
+  "char": "T.B. Gruberman",
+  "original": "Yes, $(l.sir). I was in CalFree when the elves came marching down from the north in '36. After the UCAS pulled their support, we had little in the ways of an organized defense. But what we did have was a stockpile of weapons and ammo down in Oakland.",
+  "spoken": "Yes. I was in CalFree when the elves came marching down from the north in '36. After the UCAS pulled their support, we had little in the ways of an organized defense. But what we did have was a stockpile of weapons and ammo down in Oakland.",
+  "source": "rules"
+ },
+ "519d1e13356164b014007a5c_6": {
+  "char": "Sam Watts",
+  "original": "I don’t know, $(l.name).\n\n{{GM}}Sam is a good guy and can hold his own in a fight but he’s been hitting the bottle pretty good lately. Never on a run - so far - but he needs watching.{{/GM}}",
+  "spoken": "I don’t know.",
+  "source": "rules"
+ },
+ "519d1e13356164b014007a5c_17": {
+  "char": "Sam Watts",
+  "original": "No, $(l.name). I didn't miss a beat. I was on my game the whole time. Remember, I was on point. New Larry was supposed to cover Dowd. ",
+  "spoken": "No. I didn't miss a beat. I was on my game the whole time. Remember, I was on point. New Larry was supposed to cover Dowd.",
+  "source": "rules"
+ },
+ "519d1e13356164b014007a5c_25": {
+  "char": "Sam Watts",
+  "original": "We should choose our friends more carefully, $(l.name).",
+  "spoken": "We should choose our friends more carefully.",
+  "source": "rules"
+ },
+ "51abeca6356164f81000347a_5": {
+  "char": "Sam Watts",
+  "original": "{{GM}}Sam straightens up. Talks seriously. First time.{{/GM}}\n\nLook, $(l.name)... I've led a drek life and I probably left a drek corpse. \n\nI’ve hurt people... hurt myself... I don’t know. Maybe I just want the last word. Maybe I just want someone to give a crap that I sucked air for awhile. \n\nWhat do you say? ",
+  "spoken": "Look... I've led a drek life and I probably left a drek corpse. I’ve hurt people... hurt myself... I don’t know. Maybe I just want the last word. Maybe I just want someone to give a crap that I sucked air for awhile. What do you say?",
+  "source": "rules"
+ },
+ "a0f075713064349c08004d39_4": {
+  "char": "Sam Watts",
+  "original": "You were born for this gig, $(l.name). Me... not so much. \n\nI think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "spoken": "You were born for this gig. Me... not so much. I think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "source": "rules"
+ },
+ "a0f075713064349c08004d39_5": {
+  "char": "Sam Watts",
+  "original": "You were born for this gig, $(l.name). Me... not so much. \n\nI think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "spoken": "You were born for this gig. Me... not so much. I think I’m gonna hang it up - find a nice brothel somewhere. Stay drunk until I croak.",
+  "source": "rules"
+ },
+ "a0f075713064349c08004d39_6": {
+  "char": "Sam Watts",
+  "original": "You were born for this gig, $(l.name). \n\nMe... not so much. ",
+  "spoken": "You were born for this gig. Me... not so much.",
+  "source": "rules"
+ },
+ "a0f075713064349c08004d39_9": {
+  "char": "Sam Watts",
+  "original": "Better’n me? Sounds easy. Keep in touch, $(l.name). \n\nDon’t die a stranger.",
+  "spoken": "Better’n me? Sounds easy. Keep in touch. Don’t die a stranger.",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_0": {
+  "char": "Patrick",
+  "original": "Welcome $(scene.BroSis)! Are you ready to build a better tomorrow?",
+  "spoken": "Welcome friend! Are you ready to build a better tomorrow?",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_3": {
+  "char": "Patrick",
+  "original": "Then go right in, $(scene.BroSis)! Someone from the Counseling Center would love to talk with you.",
+  "spoken": "Then go right in, friend! Someone from the Counseling Center would love to talk with you.",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_4": {
+  "char": "Patrick",
+  "original": "Of course, $(scene.BroSis)! Go right ahead and ask.",
+  "spoken": "Of course, friend! Go right ahead and ask.",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_7": {
+  "char": "Patrick",
+  "original": "Yes, $(scene.BroSis)! We don’t try to hide that!",
+  "spoken": "Yes, friend! We don’t try to hide that!",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_12": {
+  "char": "Patrick",
+  "original": "That’s because it is, $(scene.BroSis)!",
+  "spoken": "That’s because it is, friend!",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_13": {
+  "char": "Patrick",
+  "original": "You say that like it’s a bad thing, $(scene.BroSis)!",
+  "spoken": "You say that like it’s a bad thing, friend!",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_16": {
+  "char": "Patrick",
+  "original": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it, $(scene.BroSis)?",
+  "spoken": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it, friend?",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_17": {
+  "char": "Patrick",
+  "original": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it? $+(l.race_plural) are especially welcome, $(scene.BroSis)!",
+  "spoken": "Why anyone, of course! It wouldn’t be very universal if we left anyone out, would it? $+(l.race_plural) are especially welcome, friend!",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_22": {
+  "char": "Patrick",
+  "original": "Absolutely, $(scene.BroSis)! In a world as cold as this one, what’s more important than Belonging? I can see you have some questions. Why don’t you ask them?",
+  "spoken": "Absolutely, friend! In a world as cold as this one, what’s more important than Belonging? I can see you have some questions. Why don’t you ask them?",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_25": {
+  "char": "Patrick",
+  "original": "How can I help you, $(scene.BroSis)?",
+  "spoken": "How can I help you, friend?",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_27": {
+  "char": "Patrick",
+  "original": "Oh, $(scene.BroSis) - I forgot to mention that everyone must enter the Universal Brotherhood alone.",
+  "spoken": "Oh, friend - I forgot to mention that everyone must enter the Universal Brotherhood alone.",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_35": {
+  "char": "Patrick",
+  "original": "Welcome $(scene.BroSis)! I hope you are ready to build a better tomorrow!\n\nI’m sorry but we do not allow groups. Everyone must enter the Universal Brotherhood alone.",
+  "spoken": "Welcome friend! I hope you are ready to build a better tomorrow! I’m sorry but we do not allow groups. Everyone must enter the Universal Brotherhood alone.",
+  "source": "rules"
+ },
+ "80c22f413064347c170054e2_0": {
+  "char": "Patrick",
+  "original": "{{GM}}The handsome young man turns away from the crowd and fixes you with his full, completely undivided attention.{{/GM}}\n\n$+(l.sir), you are a beautiful $(l.race) ... but you could be SO much MORE!",
+  "spoken": "My friend, you are a beautiful creature... but you could be SO much MORE!",
+  "source": "hand"
+ },
+ "1448d35062333184170018cd_0": {
+  "char": "Mental Patient",
+  "original": "Hey, $(l.guy), have you seen Josie?",
+  "spoken": "Hey, man, have you seen Josie?",
+  "source": "hand"
+ },
+ "51be4ebb396163480a001ad5_27": {
+  "char": "Mr. Johnson",
+  "original": "{{GM}}He quickly inspects the data.{{/GM}}\n\nDamn, you lifted this out of the Raku system? I hired the right $(l.guy). Here's a bonus.",
+  "spoken": "Damn, you lifted this out of the Raku system? I hired the right runner. Here's a bonus.",
+  "source": "hand"
+ },
+ "32b24e5d306466e406001b26_1": {
+  "char": "Ryker",
+  "original": "This $(l.guy) here has... exotic tastes. $+(l.he) wants to help us out and is willing to pay for the privilege. That, and a copy of the recording.",
+  "spoken": "Our friend here has... exotic tastes. And wants to help us out, and is willing to pay for the privilege. That, and a copy of the recording.",
+  "source": "hand"
+ },
+ "ff03fac93064668409005f20_0": {
+  "char": "Ryker",
+  "original": "Haven't seen you before $(l.guy). Lookin' to go somewhere special?",
+  "spoken": "Haven't seen you before. Lookin' to go somewhere special?",
+  "source": "hand"
+ },
+ "ff03fac93064668409005f20_11": {
+  "char": "Ryker",
+  "original": "Listen $(l.guy), I'm too busy for your chit-chat. Buy something or get out.",
+  "spoken": "Listen, I'm too busy for your chit-chat. Buy something or get out.",
+  "source": "hand"
+ },
+ "51a51c1f3561642414006fde_26": {
+  "char": "Marie-Louise Telestrian",
+  "original": "It’s you! You’re the $(l.man) who helped me escape from the Universal Brotherhood! How did you get here?",
+  "spoken": "It’s you! You’re the man who helped me escape from the Universal Brotherhood! How did you get here?",
+  "source": "rules"
+ },
+ "7c31c5066233318415004310_16": {
+  "char": "David Fry II",
+  "original": "No drek? \n\n{{GM}}He turns to Johnny, excited.{{/GM}}\n\nWake up, Johnny-boy. You've got work to do. And $(l.name), if you need any gear, I'll be right here.",
+  "spoken": "No drek? Wake up, Johnny-boy. You've got work to do. And you, if you need any gear, I'll be right here.",
+  "source": "hand"
+ },
+ "51b0eaa26336359408001add_20": {
+  "char": "Brother Christopher",
+  "original": "Yes, it is $(scene.BroSis). You can enter with your Home or Sanctuary access keycard.",
+  "spoken": "Yes, it is friend. You can enter with your Home or Sanctuary access keycard.",
+  "source": "rules"
+ },
+ "51b0eaa26336359408001add_23": {
+  "char": "Brother Christopher",
+  "original": "Yes, it is $(scene.BroSis). I would not expect a new face to have such high clearance already. Your key card will allow you access.",
+  "spoken": "Yes, it is friend. I would not expect a new face to have such high clearance already. Your key card will allow you access.",
+  "source": "rules"
+ },
+ "aa3ffe88623331441b0031ac_21": {
+  "char": "Head Thug",
+  "original": "I knew you were just lookin' to cause static. Dash, ice this $(l.guy)!",
+  "spoken": "I knew you were just lookin' to cause static. Dash, ice 'em!",
+  "source": "hand"
+ },
+ "519a5984306434d0170043c6_0": {
+  "char": "Dealer",
+  "original": "{{GM}}As you approach Buster you notice that he tenses up in a way far different from his usual at-attention posture.{{/GM}}\n\n$(l.name)...",
+  "spoken": "Well, well...",
+  "source": "hand"
+ },
+ "51bc9057633635e81000155b_11": {
+  "char": "Automated Security Control",
+  "original": "{{GM}}You hear the clicking of a keyboard.{{/GM}}\n\nWelcome to the Inner Sanctum $(scene.FatherMother) $(l.name).",
+  "spoken": "Welcome to the Inner Sanctum.",
+  "source": "hand"
+ },
+ "54aadf4e306434c412004448_0": {
+  "char": "Ghost of Grizzled Veteran",
+  "original": "{{GM}}At the end of bar sits an old guy with a gray beard and deep circles under his eyes whom no one else seems to see or even notice that he exists. This is likely because he doesn’t, he’s been dead for almost 30 years. Besides you, the only person that seems to know he’s there is the bartender who keeps his frosty mug full of Hefeweizen beer.{{/GM}}\n\nHey I know you. You're $(l.name). You backed me when I was alive. How can I repay the favor?",
+  "spoken": "Hey, I know you. You backed me when I was alive. How can I repay the favor?",
+  "source": "hand"
+ },
+ "7b79697b623331c409007a5e_0": {
+  "char": "Ghost of Grizzled Veteran",
+  "original": "Hey $(l.race) welcome back, you're either up really early or really late.",
+  "spoken": "Hey, welcome back. You're either up really early or really late.",
+  "source": "hand"
+ },
+ "8b38b9e830303130150045b5_0": {
+  "char": "Ghost of Grizzled Veteran",
+  "original": "Hey, I know you. You’re... uh... $(l.Name)! Thanks again for your help back in 2012. What can I do for you today?",
+  "spoken": "Hey, I know you. You're... uh... that runner! Thanks again for your help back in 2012. What can I do for you today?",
+  "source": "hand"
+ },
+ "6bccb631306434381500672c_8": {
+  "char": "Officer Kuprik",
+  "original": "Your client is the chalk line? That’s messed up $(l.man), but I respect it, ok, but don’t mess anything up. Not that anyone would likely notice because the forensics aren’t coming back. ",
+  "spoken": "Your client is the chalk line? That’s messed up man, but I respect it, ok, but don’t mess anything up. Not that anyone would likely notice because the forensics aren’t coming back.",
+  "source": "rules"
+ },
+ "51ae7b4a303031980d0066bc_0": {
+  "char": "Jon Bartlett",
+  "original": "{{GM}}Full of life with a quick smile, the man tilts his head and watches you approach.{{/GM}}\n\nHey $(l.guy), what’s shakin’?",
+  "spoken": "Hey there, what's shakin'?",
+  "source": "hand"
+ },
+ "51ae7b4a303031980d0066bc_3": {
+  "char": "Jon Bartlett",
+  "original": "You ever hear of the Nephilim Network? Of course you have. An in-the-know $(l.guy) like you has to have heard of *the* premier merc team out there.",
+  "spoken": "You ever hear of the Nephilim Network? Of course you have. Someone in-the-know like you has to have heard of THE premier merc team out there.",
+  "source": "hand"
+ },
+ "1448d35062333184170018cd_24": {
+  "char": "Receptionist",
+  "original": "Attention. $(l.name), please report to the north hall to meet with the administrator.",
+  "spoken": "Attention. Would our new arrival please report to the north hall to meet with the administrator.",
+  "source": "hand"
+ },
+ "f8cb2c6f623331780b0018c8_0": {
+  "char": "Receptionist",
+  "original": "Welcome, $(l.sir)! What business brings you to Mercy Mental Hospital?",
+  "spoken": "Welcome! What business brings you to Mercy Mental Hospital?",
+  "source": "rules"
+ },
+ "51b0c78f6336359408001825_2": {
+  "char": "Cook",
+  "original": "Yes $(scene.BroSis)? What can I do for you?",
+  "spoken": "Yes friend? What can I do for you?",
+  "source": "rules"
+ },
+ "51b0c78f6336359408001825_5": {
+  "char": "Cook",
+  "original": "I didn't think you $(l.guy)s were allowed to have friends outside of the Universal Brotherhood?",
+  "spoken": "I didn't think you people were allowed to have friends outside of the Universal Brotherhood?",
+  "source": "hand"
+ },
+ "51be3888623331200e003edf_2": {
+  "char": "Saada",
+  "original": "Then yes. YES! I’m $(s.name).",
+  "spoken": "Then yes. YES! That's me. I'm him.",
+  "source": "hand"
+ },
+ "519d1e13356164b014007a5c_1": {
+  "char": "New Larry",
+  "original": "{{GM}}He shakes his head.{{/GM}} \n\nI hate this fragging city, $(l.name)! It's wet and the rain feels like acid and I want out of here.",
+  "spoken": "I hate this fragging city! It's wet and the rain feels like acid and I want out of here.",
+  "source": "rules"
+ },
+ "519d1e13356164b014007a5c_5": {
+  "char": "New Larry",
+  "original": "Sure, $(l.name), sure. Whatever you say. ",
+  "spoken": "Sure, sure. Whatever you say.",
+  "source": "rules"
+ },
+ "519d1e13356164b014007a5c_20": {
+  "char": "New Larry",
+  "original": "{{GM}}He stops and a smile slowly appears on his face.{{/GM}} \n\nLooks that way. Sorry, $(l.name). I kinda like you. I just like money better.",
+  "spoken": "Looks that way. Sorry. I kinda like you. I just like money better.",
+  "source": "rules"
+ },
+ "519d1e13356164b014007a5c_21": {
+  "char": "New Larry",
+  "original": "{{GM}}He stops and a smile slowly appears on his face.{{/GM}} \n\nWhat? You gonna take my gun away, $(l.name)? You know I don’t need one.",
+  "spoken": "What? You gonna take my gun away? You know I don’t need one.",
+  "source": "rules"
+ },
+ "51ae8896303031c014003065_1": {
+  "char": "Delilah Muscle",
+  "original": "This is correct. You are a smart $(l.guy). What can I do for you, Smart $+(l.guy)?",
+  "spoken": "This is correct. You are a smart one. What can I do for you, smart one?",
+  "source": "hand"
+ },
+ "a02c5265306434bc170014bd_1": {
+  "char": "Sally",
+  "original": "{{GM}}He grunts.{{/GM}}\n\nI hate this fragging city, $(l.name)! It's wet and the rain feels like acid and I want out.",
+  "spoken": "I hate this fragging city! It's wet and the rain feels like acid and I want out.",
+  "source": "rules"
+ },
+ "ae9da30630643468170049ee_17": {
+  "char": "Sister Nancy",
+  "original": "I know the perfect $(scene.BroSis) to speak with you, $(l.he) has a similar background and talks $(scene.TalkAbout). \n\nYou two would get along fabulously, but $(l.he) isn't in today and the rest of my counselor are currently booked.\n\nCould you come back tomorrow?",
+  "spoken": "I know the perfect counselor to speak with you. They have a similar background and you'd have plenty to talk about. You two would get along fabulously, but they aren't in today and the rest of my counselors are currently booked. Could you come back tomorrow?",
+  "source": "hand"
+ },
+ "51aff6f9633635d4150081a2_0": {
+  "char": "Sister Wilma",
+  "original": "Hello $(scene.BroSis), what can I help you with?",
+  "spoken": "Hello friend, what can I help you with?",
+  "source": "rules"
+ },
+ "51c1f54a623331140b0010f3_2": {
+  "char": "Slick Security Guard",
+  "original": "Yes, $(l.sir). I work for Maria Mercurial. Something I can do for you?",
+  "spoken": "Yes. I work for Maria Mercurial. Something I can do for you?",
+  "source": "rules"
+ },
+ "62a19b283064340c1300028b_0": {
+  "char": "Worried Man",
+  "original": "{{GM}}The man before you appears well-mannered, but nervous.{{/GM}} Excuse me $(l.sir). I don’t know you... but you look like you can handle yourself in a fight, and we need some help.",
+  "spoken": "Excuse me. I don't know you... but you look like you can handle yourself in a fight, and we need some help.",
+  "source": "hand"
+ },
+ "62a19b283064340c1300028b_5": {
+  "char": "Worried Man",
+  "original": "It's just down the street, $(l.sir). Please... our livelihoods depend on this market.",
+  "spoken": "It's just down the street. Please... our livelihoods depend on this market.",
+  "source": "rules"
+ },
+ "62a19b283064340c1300028b_8": {
+  "char": "Worried Man",
+  "original": "$(l.sir), please... our livelihoods depend on this market. If you reconsider... it's just down the street.",
+  "spoken": "Please... our livelihoods depend on this market. If you reconsider... it's just down the street.",
+  "source": "hand"
+ },
+ "62a19b283064340c1300028b_10": {
+  "char": "Worried Man",
+  "original": "Oh... thank you! It's just down the street, $(l.sir). Please... our livelihoods depend on this market.",
+  "spoken": "Oh... thank you! It's just down the street. Please... our livelihoods depend on this market.",
+  "source": "rules"
+ },
+ "32b24e5d306466e406001b26_3": {
+  "char": "Tickler",
+  "original": "I think young Zipper here is just about spent. Now... just give me a moment to hook up a recording rig to our friend here and $(l.he)'ll have quite the BTL for $(l.his) personal collection.",
+  "spoken": "I think young Zipper here is just about spent. Now... just give me a moment to hook up a recording rig to our friend here and they'll have quite the BTL for their personal collection.",
+  "source": "rules"
+ },
+ "389f0314306466a80c005917_3": {
+  "char": "Tickler",
+  "original": "Whoa, okay $(l.guy)! I'm gone!",
+  "spoken": "Whoa, okay, okay! I'm gone!",
+  "source": "hand"
+ },
+ "389f0314306466a80c005917_5": {
+  "char": "Tickler",
+  "original": "Whoa, okay $(l.guy)! I'm gone!",
+  "spoken": "Whoa, okay, okay! I'm gone!",
+  "source": "hand"
+ },
+ "51bcf721633635681e001824_6": {
+  "char": "Sister Sally",
+  "original": "Excuse me $(scene.BroSis), let me finish with Sister Monica here first.\n\n{{GM}}She turns to the other woman at the desk{{/GM}}\nSister Monica, you have to be more careful with your ID. \n\n{{GM}}She reaches down to a box on the floor{{/GM}}\nHere is a blank keycard. Take it and your ruined card to Brother Christopher and he will let you into the office to program a new one.",
+  "spoken": "Excuse me friend, let me finish with Sister Monica here first. Sister Monica, you have to be more careful with your ID. Here is a blank keycard. Take it and your ruined card to Brother Christopher and he will let you into the office to program a new one.",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_30": {
+  "char": "Player 1",
+  "original": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nWe’ll wait outside for you, $(l.name). I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one.",
+  "spoken": "We’ll wait outside for you. I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one.",
+  "source": "rules"
+ },
+ "51c1e176623331441300491d_31": {
+  "char": "Player 1",
+  "original": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nI’ll circle around the building and look for another way in, $(l.name). I’ll chirp you on your commlink if I find one.",
+  "spoken": "I’ll circle around the building and look for another way in. I’ll chirp you on your commlink if I find one.",
+  "source": "rules"
+ },
+ "54c484e0306434c4120044e7_2": {
+  "char": "Jin Parks",
+  "original": "Hey $(l.guy), I'm discreet. I don’t talk about what my clients or what they buy. Bad for biz. \n\nHowever, I'm sure she would recommend me - IF she was a customer. Which I'm not saying she is.",
+  "spoken": "Hey, I'm discreet. I don't talk about my clients or what they buy. Bad for biz. However, I'm sure she would recommend me... IF she was a customer. Which I'm not saying she is.",
+  "source": "hand"
+ },
+ "51abe12b356164f810003188_0": {
+  "char": "Sangoma",
+  "original": "{{GM}}Sangoma is an urban shaman who proved her worth during a run against Fuchi last fall. She’s the quiet type - an experienced runner.{{/GM}}\n\nWe’re out in the open here, $(l.name).",
+  "spoken": "We’re out in the open here.",
+  "source": "rules"
+ },
+ "51a568cc623331d023006df3_1": {
+  "char": "Tranq",
+  "original": "Alright, $(l.man). Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. \n\nOh and you already brought some zebra meat glad you thought ahead. Shoulda seen what happened to the last guy. The hounds will tear you to pieces without it.",
+  "spoken": "Alright, man. Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. Oh and you already brought some zebra meat glad you thought ahead. Shoulda seen what happened to the last guy. The hounds will tear you to pieces without it.",
+  "source": "rules"
+ },
+ "51a568cc623331d023006df3_3": {
+  "char": "Tranq",
+  "original": "Alright, $(l.man). Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. \n\nOh and take this zebra meat with you. The hounds will tear you to pieces without it.",
+  "spoken": "Alright, man. Go down the hall and take a left and you will see the cell, you'll know it when you see it. We have been waiting for that chip, time to make an example out of that slitch. Oh and take this zebra meat with you. The hounds will tear you to pieces without it.",
+  "source": "rules"
+ },
+ "c64959403030316c05005e78_0": {
+  "char": "Erik Silverstar",
+  "original": "Stop right there my friend, I don't know what your story is but I assure you, I will find out. Hold $(l.him).",
+  "spoken": "Stop right there my friend, I don't know what your story is but I assure you, I will find out. Hold them.",
+  "source": "rules"
+ },
+ "51afea53623331981d00154b_0": {
+  "char": "Eric Mersmann",
+  "original": "Hey $(l.guy). I got some extra outfits I'm trying to unload, you want first dibs?",
+  "spoken": "Hey. I got some extra outfits I'm trying to unload, you want first dibs?",
+  "source": "hand"
+ },
+ "51ba07f5623331c814004db8_0": {
+  "char": "Eric Mersmann",
+  "original": "Hey $(l.guy), I got some armored clothing here if you're interested.",
+  "spoken": "Hey, I got some armored clothing here if you're interested.",
+  "source": "hand"
+ },
+ "51bfa0bb6233310c0a004651_2": {
+  "char": "Sam's Lawyer",
+  "original": "Yeah? \n\n{{GM}}He squints into the phone, and recognition slowly appears on his face.{{/GM}}\n\nOh hey, it’s you... $(l.name), right? So... you got Sam’s killer, huh?",
+  "spoken": "Yeah? Oh hey, it's you... Sam's runner friend, right? So... you got Sam's killer, huh?",
+  "source": "hand"
+ },
+ "565f66506233314414005f55_3": {
+  "char": "Scrawny Guard",
+  "original": "Look $(l.guy), I didn't want to have to do this.",
+  "spoken": "Look, man, I didn't want to have to do this.",
+  "source": "hand"
+ },
+ "51a6aa56396163801100459a_3": {
+  "char": "Elf",
+  "original": "{{GM}}The elf's smile doesn't flicker.{{/GM}} I'm sure there are a great many things you don't know, $(l.race). But never mind that. A good evening to you and your friend the coroner.",
+  "spoken": "I'm sure there are a great many things you don't know. But never mind that. A good evening to you and your friend the coroner.",
+  "source": "hand"
+ },
+ "51a6cf136233316c1f000767_0": {
+  "char": "Junkie",
+  "original": "Hey, $(l.guy), you have any extra nuyen? Just need some SucroZoom from the shack over there...",
+  "spoken": "Hey, man, you have any extra nuyen? Just need some SucroZoom from the shack over there...",
+  "source": "hand"
+ },
+ "51b62c74623331b0170063ce_0": {
+  "char": "Bobby",
+  "original": "Heyyyy, chummer. Got some tasty morsels for you. Just what every well-dressed shadowrunner should have in $(l.his) back pocket.",
+  "spoken": "Heyyyy, chummer. Got some tasty morsels for you. Just what every well-dressed shadowrunner should have in their back pocket.",
+  "source": "rules"
+ },
+ "51c1071c623331101e003c01_0": {
+  "char": "Bobby",
+  "original": "Yo, $(l.guy). Have we met? You look familiar. \n\nI meet a lot of people. No problem. You need some brainbenders tonight? I got some of that merc stuff. Freakers, taxi drivers, you know.",
+  "spoken": "Yo. Have we met? You look familiar. I meet a lot of people. No problem. You need some brainbenders tonight? I got some of that merc stuff. Freakers, taxi drivers, you know.",
+  "source": "hand"
+ },
+ "c72906643030316c05005efa_0": {
+  "char": "Ghoul",
+  "original": "Looks like we woke up the neighbors. We've got ghouls incoming! \n\nHey $(l.name), maybe we can use this to our advantage.",
+  "spoken": "Looks like we woke up the neighbors. We've got ghouls incoming! Hey, maybe we can use this to our advantage.",
+  "source": "hand"
+ },
+ "51b12bc06336359408001f4f_29": {
+  "char": "Narrator",
+  "original": "Keycard printing for $(scene.BroSis) $(l.name) ... \n\nKeycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "spoken": "Keycard printing... Keycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "source": "hand"
+ },
+ "51b12bc06336359408001f4f_30": {
+  "char": "Narrator",
+  "original": "Keycard printing for $(scene.FatherMother) $(l.name) ... \n\nKeycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "spoken": "Keycard printing... Keycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
+  "source": "hand"
+ }
+}

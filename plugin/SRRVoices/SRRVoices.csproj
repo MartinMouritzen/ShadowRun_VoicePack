@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Classic MSBuild project: net35 / x86 BepInEx plugin for Shadowrun Returns.
+     Reference DLLs live in ../lib (copied from the game's Managed dir + BepInEx core; not shipped).
+     Build with VS2022 MSBuild, or use ../build.sh for a csc.exe build that needs no targeting pack. -->
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SRRVoices</RootNamespace>
+    <AssemblyName>SRRVoices</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\</OutputPath>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx"><HintPath>..\lib\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>..\lib\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>..\lib\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>..\lib\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ShadowrunDTO"><HintPath>..\lib\ShadowrunDTO.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="protobuf-net"><HintPath>..\lib\protobuf-net.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Plugin.cs" />
+    <Compile Include="VoicePack.cs" />
+    <Compile Include="VoicePlayer.cs" />
+    <Compile Include="ConversationPatches.cs" />
+    <Compile Include="BorderlessWindow.cs" />
+    <Compile Include="InspectPatch.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

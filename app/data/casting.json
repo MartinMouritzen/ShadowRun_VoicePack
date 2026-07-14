@@ -1,0 +1,872 @@
+{
+ "narrator": {
+  "main": true,
+  "voices": [
+   {
+    "voiceId": 597,
+    "voiceName": "Charles Haversham",
+    "voiceDesc": "distinguished British baritone, theatrical gravitas"
+   },
+   {
+    "voiceId": 307,
+    "voiceName": "Henry Fletcher",
+    "voiceDesc": "deep textured British, subtle roughness"
+   },
+   {
+    "voiceId": 366,
+    "voiceName": "Ethan Parker",
+    "voiceDesc": "hyper-deep US narrator, commanding"
+   },
+   {
+    "voiceId": 545,
+    "voiceName": "Elias Thornwell",
+    "voiceDesc": "seasoned storyteller, gravitas + warmth"
+   },
+   {
+    "voiceId": 441,
+    "voiceName": "Noah Reed",
+    "voiceDesc": "deep, resonant, slightly husky"
+   }
+  ]
+ },
+ "name_jakearmitage": {
+  "main": true,
+  "voices": [
+   {
+    "voiceId": 319,
+    "voiceName": "Benjamin Walker",
+    "voiceDesc": "rugged intimate baritone, hard-lived"
+   },
+   {
+    "voiceId": 37,
+    "voiceName": "Logan West",
+    "voiceDesc": "smooth deep American, rugged"
+   },
+   {
+    "voiceId": 27,
+    "voiceName": "Ethan Brooks",
+    "voiceDesc": "American with slight rasp, authentic"
+   },
+   {
+    "voiceId": 440,
+    "voiceName": "Liam Hayes",
+    "voiceDesc": "deep velvety baritone, commanding clarity"
+   },
+   {
+    "voiceId": 296,
+    "voiceName": "James Smith",
+    "voiceDesc": "deep resonant authority"
+   }
+  ]
+ },
+ "name_coyote": {
+  "main": true,
+  "voices": [
+   {
+    "voiceId": 536,
+    "voiceName": "Dana Slate",
+    "voiceDesc": "droll sarcasm, deadpan queen"
+   },
+   {
+    "voiceId": 542,
+    "voiceName": "Selene Vex",
+    "voiceDesc": "dark velvet, low, subtly dangerous"
+   },
+   {
+    "voiceId": 159,
+    "voiceName": "Avery Grant",
+    "voiceDesc": "deep sassy, bold with attitude"
+   },
+   {
+    "voiceId": 287,
+    "voiceName": "Sophia Brown",
+    "voiceDesc": "confident bold American"
+   },
+   {
+    "voiceId": 316,
+    "voiceName": "Merry Cooper",
+    "voiceDesc": "femme fatale, allure + menace"
+   }
+  ]
+ },
+ "name_samwatts": {
+  "main": true,
+  "voices": [
+   {
+    "voiceId": 359,
+    "voiceName": "Jacob Harrison",
+    "voiceDesc": "deep gritty Southern drawl"
+   },
+   {
+    "voiceId": 538,
+    "voiceName": "Wade Red Dawson",
+    "voiceDesc": "deep gravelly Texan soul"
+   },
+   {
+    "voiceId": 541,
+    "voiceName": "Jack Thornhill",
+    "voiceDesc": "British grit, working-class edge"
+   },
+   {
+    "voiceId": 600,
+    "voiceName": "Jack Rawlins",
+    "voiceDesc": "thunderous, cinematic power"
+   },
+   {
+    "voiceId": 544,
+    "voiceName": "Jack Riker",
+    "voiceDesc": "gruff, high-intensity"
+   }
+  ]
+ },
+ "name_jessicawatts": {
+  "main": true,
+  "voices": [
+   {
+    "voiceId": 361,
+    "voiceName": "Olivia Roberts",
+    "voiceDesc": "sinister eloquent villainess, calculated"
+   },
+   {
+    "voiceId": 528,
+    "voiceName": "Lilith Vexmoor",
+    "voiceDesc": "calm, clever, dangerously composed"
+   },
+   {
+    "voiceId": 290,
+    "voiceName": "Charlotte Harrington",
+    "voiceDesc": "authoritative British female, polished"
+   },
+   {
+    "voiceId": 258,
+    "voiceName": "Sophia Elizabeth",
+    "voiceDesc": "elegant relaxed British, cold-capable"
+   },
+   {
+    "voiceId": 684,
+    "voiceName": "Avery Quinn",
+    "voiceDesc": "androgynous poetic, theatrical depth"
+   }
+  ]
+ },
+ "name_harlequin": {
+  "main": true,
+  "voices": [
+   {
+    "voiceId": 516,
+    "voiceName": "Dominic Blaze",
+    "voiceDesc": "smug theatrical, charismatic villain"
+   },
+   {
+    "voiceId": 523,
+    "voiceName": "Viremont LeNoir",
+    "voiceDesc": "aristocratic, sardonic, dark elegance"
+   },
+   {
+    "voiceId": 526,
+    "voiceName": "Eldros the Wise",
+    "voiceDesc": "ancient, mysterious, enchanted charisma"
+   },
+   {
+    "voiceId": 511,
+    "voiceName": "Dorian Malice",
+    "voiceDesc": "measured menace, psychologically complex"
+   },
+   {
+    "voiceId": 598,
+    "voiceName": "Tom Spencer",
+    "voiceDesc": "clear British warmth, trustworthy"
+   }
+  ]
+ },
+ "name_baronsamedi": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 796,
+    "voiceName": "Winston Brown",
+    "voiceDesc": "Jamaican raspy edge, street soul"
+   }
+  ]
+ },
+ "name_mrskubota": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 364,
+    "voiceName": "Sophia Morgan",
+    "voiceDesc": "reflective velvety calm, somber"
+   }
+  ]
+ },
+ "name_dresden": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 447,
+    "voiceName": "Caleb Morgan",
+    "voiceDesc": "deep rich warm confident"
+   }
+  ]
+ },
+ "name_johnnyclean": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 333,
+    "voiceName": "Matthew Reynolds",
+    "voiceDesc": "smooth sultry, molasses flow"
+   }
+  ]
+ },
+ "name_cherrybomb": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 261,
+    "voiceName": "Harper Olivia",
+    "voiceDesc": "velvety charm, playful-wise"
+   }
+  ]
+ },
+ "name_jamestelestrianiii": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 523,
+    "voiceName": "Viremont LeNoir",
+    "voiceDesc": "aristocratic, sardonic, dark elegance"
+   }
+  ]
+ },
+ "name_mrkluwe": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 686,
+    "voiceName": "Terry Dobson",
+    "voiceDesc": "eccentric husky Northerner"
+   }
+  ]
+ },
+ "name_mcklusky": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 544,
+    "voiceName": "Jack Riker",
+    "voiceDesc": "gruff, high-intensity"
+   }
+  ]
+ },
+ "name_drsaracastle": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 290,
+    "voiceName": "Charlotte Harrington",
+    "voiceDesc": "authoritative British female, polished"
+   }
+  ]
+ },
+ "name_tweaker": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 40,
+    "voiceName": "Chase Reed",
+    "voiceDesc": "young Australian, natural energy"
+   }
+  ]
+ },
+ "name_aljernon": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 518,
+    "voiceName": "Dr. Cosmo Fizzlebaum",
+    "voiceDesc": "lively quirky oddball charm"
+   }
+  ]
+ },
+ "name_fatherwillyhansen": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 841,
+    "voiceName": "Walter Hansen",
+    "voiceDesc": "resonant Midwestern elder, calm authority"
+   }
+  ]
+ },
+ "name_paco": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 269,
+    "voiceName": "Logan Christopher",
+    "voiceDesc": "youthful baritone, sarcastic energy"
+   }
+  ]
+ },
+ "name_vangraas": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 598,
+    "voiceName": "Tom Spencer",
+    "voiceDesc": "clear British warmth, trustworthy"
+   }
+  ]
+ },
+ "name_officeraguirre": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 359,
+    "voiceName": "Jacob Harrison",
+    "voiceDesc": "deep gritty Southern drawl"
+   }
+  ]
+ },
+ "name_drholmes": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 511,
+    "voiceName": "Dorian Malice",
+    "voiceDesc": "measured menace, psychologically complex"
+   }
+  ]
+ },
+ "name_shannonhalfsky": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 629,
+    "voiceName": "Paige Turner",
+    "voiceDesc": "articulate, warm, emotionally nuanced"
+   }
+  ]
+ },
+ "name_mrdelilah": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 516,
+    "voiceName": "Dominic Blaze",
+    "voiceDesc": "smug theatrical, charismatic villain"
+   }
+  ]
+ },
+ "name_tbgruberman": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 538,
+    "voiceName": "Wade Red Dawson",
+    "voiceDesc": "deep gravelly Texan soul"
+   }
+  ]
+ },
+ "name_marielouise": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 347,
+    "voiceName": "Eleanor Hastings",
+    "voiceDesc": "soft gentle British storyteller"
+   }
+  ]
+ },
+ "name_patrick": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 541,
+    "voiceName": "Jack Thornhill",
+    "voiceDesc": "British grit, working-class edge"
+   }
+  ]
+ },
+ "name_janitor": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 544,
+    "voiceName": "Jack Riker",
+    "voiceDesc": "gruff, high-intensity"
+   }
+  ]
+ },
+ "name_mentalpatient": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 27,
+    "voiceName": "Ethan Brooks",
+    "voiceDesc": "American with slight rasp, authentic"
+   }
+  ]
+ },
+ "name_acolyte": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 296,
+    "voiceName": "James Smith",
+    "voiceDesc": "deep resonant authority"
+   }
+  ]
+ },
+ "name_mrjohnson": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 447,
+    "voiceName": "Caleb Morgan",
+    "voiceDesc": "deep rich warm confident"
+   }
+  ]
+ },
+ "name_computer": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 532,
+    "voiceName": "Nyra Robot Voice",
+    "voiceDesc": "calm precise AI/computer voice"
+   }
+  ]
+ },
+ "name_ryker": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 543,
+    "voiceName": "Axel Virex",
+    "voiceDesc": "robotic edge, synthetic sci-fi"
+   }
+  ]
+ },
+ "name_marielouisetelestrian": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 291,
+    "voiceName": "Emma Johnson",
+    "voiceDesc": "friendly approachable American"
+   }
+  ]
+ },
+ "name_davidfryii": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 37,
+    "voiceName": "Logan West",
+    "voiceDesc": "smooth deep American, rugged"
+   }
+  ]
+ },
+ "name_frank": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 440,
+    "voiceName": "Liam Hayes",
+    "voiceDesc": "deep velvety baritone, commanding clarity"
+   }
+  ]
+ },
+ "name_sadoldman": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 36,
+    "voiceName": "Blake Hudson",
+    "voiceDesc": "warm engaging grandpa storyteller"
+   }
+  ]
+ },
+ "name_brotherchristopher": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 538,
+    "voiceName": "Wade Red Dawson",
+    "voiceDesc": "deep gravelly Texan soul"
+   }
+  ]
+ },
+ "name_headthug": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 600,
+    "voiceName": "Jack Rawlins",
+    "voiceDesc": "thunderous, cinematic power"
+   }
+  ]
+ },
+ "name_dealer": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 446,
+    "voiceName": "Logan Scott",
+    "voiceDesc": "crisp professional broadcast"
+   }
+  ]
+ },
+ "name_william": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 359,
+    "voiceName": "Jacob Harrison",
+    "voiceDesc": "deep gritty Southern drawl"
+   }
+  ]
+ },
+ "name_hansbrackhaus": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 541,
+    "voiceName": "Jack Thornhill",
+    "voiceDesc": "British grit, working-class edge"
+   }
+  ]
+ },
+ "name_automatedsecuritycontrol": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 532,
+    "voiceName": "Nyra Robot Voice",
+    "voiceDesc": "calm precise AI/computer voice"
+   }
+  ]
+ },
+ "name_ghostofgrizzledveteran": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 339,
+    "voiceName": "Infernal Colossus",
+    "voiceDesc": "dark menacing demon/monster"
+   }
+  ]
+ },
+ "name_spirit": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 589,
+    "voiceName": "Skryth the Withered",
+    "voiceDesc": "Gollum-like feral madness"
+   }
+  ]
+ },
+ "name_telestrianworker": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 544,
+    "voiceName": "Jack Riker",
+    "voiceDesc": "gruff, high-intensity"
+   }
+  ]
+ },
+ "name_officerkuprik": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 27,
+    "voiceName": "Ethan Brooks",
+    "voiceDesc": "American with slight rasp, authentic"
+   }
+  ]
+ },
+ "name_jonbartlett": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 296,
+    "voiceName": "James Smith",
+    "voiceDesc": "deep resonant authority"
+   }
+  ]
+ },
+ "name_telestrianaccountingterminal": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 532,
+    "voiceName": "Nyra Robot Voice",
+    "voiceDesc": "calm precise AI/computer voice"
+   }
+  ]
+ },
+ "name_receptionist": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 37,
+    "voiceName": "Logan West",
+    "voiceDesc": "smooth deep American, rugged"
+   }
+  ]
+ },
+ "name_doctor": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 390,
+    "voiceName": "James Carter",
+    "voiceDesc": "rugged wise old cowboy"
+   }
+  ]
+ },
+ "name_cook": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 334,
+    "voiceName": "Madison Taylor",
+    "voiceDesc": "relaxed soothing, calm and pleasant"
+   }
+  ]
+ },
+ "name_saada": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 440,
+    "voiceName": "Liam Hayes",
+    "voiceDesc": "deep velvety baritone, commanding clarity"
+   }
+  ]
+ },
+ "name_newlarry": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 47,
+    "voiceName": "Tyler Quinn",
+    "voiceDesc": "relaxed young adult, informal"
+   }
+  ]
+ },
+ "name_manny": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 538,
+    "voiceName": "Wade Red Dawson",
+    "voiceDesc": "deep gravelly Texan soul"
+   }
+  ]
+ },
+ "name_telestriansecurityguard": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 600,
+    "voiceName": "Jack Rawlins",
+    "voiceDesc": "thunderous, cinematic power"
+   }
+  ]
+ },
+ "name_btlclocker": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 359,
+    "voiceName": "Jacob Harrison",
+    "voiceDesc": "deep gritty Southern drawl"
+   }
+  ]
+ },
+ "name_delilahmuscle": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 541,
+    "voiceName": "Jack Thornhill",
+    "voiceDesc": "British grit, working-class edge"
+   }
+  ]
+ },
+ "name_sally": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 347,
+    "voiceName": "Eleanor Hastings",
+    "voiceDesc": "soft gentle British storyteller"
+   }
+  ]
+ },
+ "name_sisternancy": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 445,
+    "voiceName": "Sophie Walker",
+    "voiceDesc": "engaging expressive storyteller"
+   }
+  ]
+ },
+ "name_statemedicalboard": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 532,
+    "voiceName": "Nyra Robot Voice",
+    "voiceDesc": "calm precise AI/computer voice"
+   }
+  ]
+ },
+ "name_mrquoth": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 333,
+    "voiceName": "Matthew Reynolds",
+    "voiceDesc": "smooth sultry, molasses flow"
+   }
+  ]
+ },
+ "name_officerlanders": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 544,
+    "voiceName": "Jack Riker",
+    "voiceDesc": "gruff, high-intensity"
+   }
+  ]
+ },
+ "name_sisterwilma": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 293,
+    "voiceName": "Olivia Smith",
+    "voiceDesc": "expressive young American"
+   }
+  ]
+ },
+ "name_slicksecurityguard": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 27,
+    "voiceName": "Ethan Brooks",
+    "voiceDesc": "American with slight rasp, authentic"
+   }
+  ]
+ },
+ "name_worriedman": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 296,
+    "voiceName": "James Smith",
+    "voiceDesc": "deep resonant authority"
+   }
+  ]
+ },
+ "name_vlad": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 37,
+    "voiceName": "Logan West",
+    "voiceDesc": "smooth deep American, rugged"
+   }
+  ]
+ },
+ "name_telestriantechworker": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 440,
+    "voiceName": "Liam Hayes",
+    "voiceDesc": "deep velvety baritone, commanding clarity"
+   }
+  ]
+ },
+ "name_supervisor": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 538,
+    "voiceName": "Wade Red Dawson",
+    "voiceDesc": "deep gravelly Texan soul"
+   }
+  ]
+ },
+ "name_tickler": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 589,
+    "voiceName": "Skryth the Withered",
+    "voiceDesc": "Gollum-like feral madness"
+   }
+  ]
+ },
+ "name_concernedwoman": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 310,
+    "voiceName": "Merry Thompson",
+    "voiceDesc": "sophisticated young British"
+   }
+  ]
+ },
+ "name_lawyer": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 600,
+    "voiceName": "Jack Rawlins",
+    "voiceDesc": "thunderous, cinematic power"
+   }
+  ]
+ },
+ "name_tirtairngireghost": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 522,
+    "voiceName": "Malgorn the Hollow",
+    "voiceDesc": "ancient monstrous evil gravitas"
+   }
+  ]
+ },
+ "name_sarah": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 245,
+    "voiceName": "Ava Madison",
+    "voiceDesc": "clean easy young American"
+   }
+  ]
+ },
+ "name_coyoteugly": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 29,
+    "voiceName": "Ava Jordan",
+    "voiceDesc": "clear enthusiastic young British"
+   }
+  ]
+ }
+}
