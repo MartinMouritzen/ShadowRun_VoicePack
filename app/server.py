@@ -307,6 +307,24 @@ class Handler(SimpleHTTPRequestHandler):
     def log_message(self, fmt, *args):
         sys.stderr.write("%s - %s\n" % (self.address_string(), fmt % args))
 
+    def run_sync(self):
+        # Export current takes -> voicepack and install into the game (game restart still needed).
+        # Reachable via GET and POST so a cached lab can't hit a method mismatch.
+        import subprocess
+        script = os.path.join(ROOT, "..", "tools", "sync_to_game.sh")
+        try:
+            r = subprocess.run(["bash", script], capture_output=True, text=True, timeout=600)
+            out = (r.stdout + "\n" + r.stderr).strip()
+            status = ""
+            for line in out.splitlines():
+                if "SYNCED" in line or "NOT FOUND" in line:
+                    status = line.strip()
+            ok = r.returncode == 0 and "SYNCED" in out
+            return self.send_json({"ok": ok, "message": status or (out.splitlines()[-1] if out else ""),
+                                   "log": out[-2000:]})
+        except Exception as e:
+            return self.send_json({"error": str(e)}, 500)
+
     def send_json(self, obj, code=200):
         body = json.dumps(obj, ensure_ascii=False).encode()
         self.send_response(code)
@@ -320,6 +338,8 @@ class Handler(SimpleHTTPRequestHandler):
         return json.loads(self.rfile.read(n)) if n else {}
 
     def do_GET(self):
+        if self.path == "/api/sync":
+            return self.run_sync()
         if self.path == "/api/state":
             with STATE_LOCK:
                 self.ingest_mcp_results()
@@ -479,22 +499,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json({"ok": True})
 
         if self.path == "/api/sync":
-            # Export current takes -> voicepack and install into the game (game restart still needed).
-            import subprocess
-            script = os.path.join(ROOT, "..", "tools", "sync_to_game.sh")
-            try:
-                r = subprocess.run(["bash", script], capture_output=True, text=True, timeout=600)
-                out = (r.stdout + "\n" + r.stderr).strip()
-                # pull the meaningful status line (SYNCED / NOT FOUND), not stderr warnings
-                status = ""
-                for line in out.splitlines():
-                    if "SYNCED" in line or "NOT FOUND" in line:
-                        status = line.strip()
-                ok = r.returncode == 0 and "SYNCED" in out
-                return self.send_json({"ok": ok, "message": status or (out.splitlines()[-1] if out else ""),
-                                       "log": out[-2000:]})
-            except Exception as e:
-                return self.send_json({"error": str(e)}, 500)
+            return self.run_sync()
 
         if self.path == "/api/pick":
             with STATE_LOCK:
@@ -502,6 +507,38 @@ class Handler(SimpleHTTPRequestHandler):
                 picks[body["charId"]] = {"voiceId": body.get("voiceId"),
                                          "voiceName": body.get("voiceName")}
                 jsave(os.path.join(DATA, "picks.json"), picks)
+            return self.send_json({"ok": True})
+
+        if self.path == "/api/bark/pick":
+            # Assign a voice to a combat-bark SPEAKER (applies to all that speaker's barks).
+            with STATE_LOCK:
+                bp = jload(os.path.join(DATA, "bark_picks.json"), {})
+                bp[body["speaker"]] = {"voiceId": body.get("voiceId"),
+                                       "voiceName": body.get("voiceName")}
+                jsave(os.path.join(DATA, "bark_picks.json"), bp)
+            return self.send_json({"ok": True})
+
+        if self.path == "/api/seg/setvoice":
+            # Per-LINE voice override for a character segment (wins over the character's pick).
+            # Lets a mis-bucketed bucket (e.g. "Player Character 1") voice different lines differently.
+            with STATE_LOCK:
+                ov = jload(os.path.join(DATA, "seg_overrides.json"), {})
+                if body.get("voiceId"):
+                    ov[body["segKey"]] = {"voiceId": body["voiceId"], "voiceName": body.get("voiceName")}
+                else:
+                    ov.pop(body["segKey"], None)
+                jsave(os.path.join(DATA, "seg_overrides.json"), ov)
+            return self.send_json({"ok": True})
+
+        if self.path == "/api/bark/setvoice":
+            # Per-bark voice override (wins over the speaker voice). Pass voiceId=null to clear.
+            with STATE_LOCK:
+                ov = jload(os.path.join(DATA, "bark_overrides.json"), {})
+                if body.get("voiceId"):
+                    ov[body["barkKey"]] = {"voiceId": body["voiceId"], "voiceName": body.get("voiceName")}
+                else:
+                    ov.pop(body["barkKey"], None)
+                jsave(os.path.join(DATA, "bark_overrides.json"), ov)
             return self.send_json({"ok": True})
 
         if self.path == "/api/take/select":

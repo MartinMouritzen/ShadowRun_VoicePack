@@ -90,6 +90,15 @@ def main():
                 lines[key] = [sel]
                 stats["lines_voiced"] += 1; stats["segments_voiced"] += 1
 
+    # Combat barks: takes live under the "_barks" bucket keyed "bark_<md5(barkText)>". The plugin
+    # hashes the runtime bark text the same way (DisplayTextOverActor hook).
+    for key in list(takes.get("_barks", {}).keys()):
+        stats["lines_total"] += 1
+        sel = selected("_barks", key)
+        if sel and os.path.exists(os.path.join(AUDIO, *sel.split("/"))):
+            lines[key] = [sel]
+            stats["lines_voiced"] += 1; stats["segments_voiced"] += 1
+
     # Detect selected takes that no current line-segment references (stale keys from a previous
     # segmentation model — e.g. a line that became interleaved after the take was made). These are
     # NOT included (playing them would be wrong order); report so the user can regenerate.
@@ -102,6 +111,8 @@ def main():
                 reachable.add(("narrator", sk))
     for l in chars.get("narrator", {}).get("lines", []):
         reachable.add(("narrator", f'{l["c"]}_{l["n"]}'))
+    for k in takes.get("_barks", {}):
+        reachable.add(("_barks", k))                       # bark takes are intentionally reachable
     orphans = [(b, k) for b, lns in takes.items() for k, v in lns.items()
                if v.get("selected") and (b, k) not in reachable]
     if orphans:

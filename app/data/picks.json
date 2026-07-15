@@ -240,8 +240,8 @@
   "voiceName": "Adam Lefevre"
  },
  "name_officerlanders": {
-  "voiceId": "mag_297",
-  "voiceName": "Henry Whitaker"
+  "voiceId": "mag_159",
+  "voiceName": "Avery Grant"
  },
  "name_sisterwilma": {
   "voiceId": "mag_44",
@@ -338,5 +338,93 @@
  "name_malebunraku": {
   "voiceId": "mag_859",
   "voiceName": "Archer Harrison"
+ },
+ "name_tranq": {
+  "voiceId": "mag_144",
+  "voiceName": "Piotrek Grabowski"
+ },
+ "name_mariamercurialfan": {
+  "voiceId": "mag_269",
+  "voiceName": "Logan Christopher"
+ },
+ "name_danthedonutman": {
+  "voiceId": "mag_378",
+  "voiceName": "Arthur Kensington"
+ },
+ "name_telestrianguard": {
+  "voiceId": "mag_333",
+  "voiceName": "Matthew Reynolds"
+ },
+ "name_eriksilverstar": {
+  "voiceId": "mag_231",
+  "voiceName": "Thabo Peterson"
+ },
+ "name_fatheromalley": {
+  "voiceId": "mag_598",
+  "voiceName": "Tom Spencer"
+ },
+ "name_femalebunraku": {
+  "voiceId": "mag_316",
+  "voiceName": "Merry Cooper"
+ },
+ "name_ericmersmann": {
+  "voiceId": "mag_541",
+  "voiceName": "Jack Thornhill"
+ },
+ "name_samslawyer": {
+  "voiceId": "mag_183",
+  "voiceName": "Oliver Hayes"
+ },
+ "name_scrawnyguard": {
+  "voiceId": "mag_264",
+  "voiceName": "Caleb Ryan"
+ },
+ "name_lonestarguard": {
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson"
+ },
+ "name_alex": {
+  "voiceId": "mag_516",
+  "voiceName": "Dominic Blaze"
+ },
+ "name_mrsjames": {
+  "voiceId": "mag_664",
+  "voiceName": "Evelyn Vale"
+ },
+ "name_intercom": {
+  "voiceId": "mag_840",
+  "voiceName": "Daniel Koh"
+ },
+ "name_shane": {
+  "voiceId": "mag_182",
+  "voiceName": "Liam Parker"
+ },
+ "name_brotherhoodguard": {
+  "voiceId": "mag_47",
+  "voiceName": "Tyler Quinn"
+ },
+ "name_elf": {
+  "voiceId": "mag_518",
+  "voiceName": "Dr. Cosmo Fizzlebaum"
+ },
+ "name_slovenlytroll": {
+  "voiceId": "mag_338",
+  "voiceName": "Elijah Bennett"
+ },
+ "name_btlsecurity": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks"
+ },
+ "name_mersmann": {
+  "voiceId": "mag_296",
+  "voiceName": "James Smith"
+ },
+ "name_thomastelestrian": {
+  "voiceId": "mag_297",
+  "voiceName": "Henry Whitaker"
+ },
+ "name_johnpaul": {
+  "voiceId": "mag_545",
+  "voiceName": "Elias Thornwell"
  }
 }

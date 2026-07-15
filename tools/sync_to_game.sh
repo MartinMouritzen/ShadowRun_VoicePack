@@ -17,7 +17,9 @@ mkdir -p "$PLUG/voicepack/clips"
 # manifest (always) + plugin dll (if newer)
 cp -f voicepack/voicepack.index "$PLUG/voicepack/voicepack.index"
 cp -f voicepack/voicepack.json  "$PLUG/voicepack/voicepack.json" 2>/dev/null || true
-[ -f plugin/SRRVoices/bin/SRRVoices.dll ] && cp -u plugin/SRRVoices/bin/SRRVoices.dll "$PLUG/SRRVoices.dll" || true
+# cp -f (NOT -u): cp -u compares mtimes, which is unreliable across the WSL->NTFS boundary and
+# would silently skip installing a newer DLL. The DLL is tiny, so always overwrite.
+[ -f plugin/SRRVoices/bin/SRRVoices.dll ] && cp -f plugin/SRRVoices/bin/SRRVoices.dll "$PLUG/SRRVoices.dll" || true
 # clips: copy only ones not already present (hash-named, immutable)
 cp -rn voicepack/clips/. "$PLUG/voicepack/clips/" 2>/dev/null || true
 # prune clips no longer referenced by the manifest (keeps the install from growing unbounded)

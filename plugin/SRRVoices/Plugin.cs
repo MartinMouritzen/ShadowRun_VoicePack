@@ -24,6 +24,19 @@ namespace SRRVoices
         public static VoicePack Pack;
         public static VoicePlayer Player;
 
+        // Shared inspect debounce: an inspect can be shown via both handleInspectInteraction and the
+        // scene-script DisplayTextOverProp path in the same frame. Whichever fires first plays; the
+        // other is suppressed for a short window so the line isn't spoken twice.
+        static float _lastInspectTime = -10f;
+        static string _lastInspectKey = "";
+        public static bool InspectDebounced(string key)
+        {
+            float now = UnityEngine.Time.realtimeSinceStartup;
+            if (key == _lastInspectKey && (now - _lastInspectTime) < 0.8f) return true;
+            _lastInspectKey = key; _lastInspectTime = now;
+            return false;
+        }
+
         void Awake()
         {
             Instance = this;
@@ -52,15 +65,33 @@ namespace SRRVoices
             Player = go.AddComponent<VoicePlayer>();
             if (Pack != null) Player.SetRoot(Pack.Root);
 
+            var harmony = new Harmony(GUID);
             try
             {
-                var harmony = new Harmony(GUID);
                 harmony.PatchAll();
                 Log.LogInfo("Harmony patches applied (ShowNodeText / StartConversation / EndConversation).");
             }
             catch (Exception e)
             {
                 Log.LogError("Harmony PatchAll failed: " + e);
+            }
+            // Manual, isolated patch for the scene-script inspect path (computer / bank slip / etc.).
+            // Kept out of PatchAll so a missing method can't take down the core patches.
+            try
+            {
+                var post = new HarmonyMethod(typeof(Patch_FloatingText).GetMethod("Postfix"));
+                var methods = Patch_FloatingText.FindAll();
+                int n = 0;
+                foreach (var m in methods)
+                {
+                    try { harmony.CreateProcessor(m).AddPostfix(post).Patch(); n++; }
+                    catch (Exception e) { Log.LogWarning("FT patch skip " + m.DeclaringType.Name + "." + m.Name + ": " + e.Message); }
+                }
+                Log.LogInfo("Patched " + n + "/" + methods.Count + " floating-text methods (inline inspects).");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("Floating-text patch setup failed: " + e.Message);
             }
 
             if (CfgBorderless.Value)

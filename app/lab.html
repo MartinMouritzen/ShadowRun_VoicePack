@@ -15,7 +15,9 @@
   button:hover{background:#222b36}
   button:disabled{opacity:.4; cursor:default}
   input,select{font:inherit; background:var(--panel2); color:var(--txt); border:1px solid var(--edge); border-radius:8px; padding:5px 10px}
-  #side{width:300px; min-width:300px; border-right:1px solid var(--edge); overflow-y:auto; background:var(--panel)}
+  #side{width:300px; min-width:300px; border-right:1px solid var(--edge); overflow-y:auto; overflow-x:hidden; background:var(--panel)}
+  .barklink{display:block; margin:8px 12px 4px; padding:9px 12px; background:var(--panel2); border:1px solid var(--edge); border-radius:8px; color:var(--acc); text-decoration:none; font-weight:600; font-size:13px}
+  .barklink:hover{background:rgba(232,163,61,.12)}
   #side h2{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--dim); padding:14px 16px 6px}
   #quota{padding:10px 16px; font-size:12px; color:var(--dim); border-bottom:1px solid var(--edge)}
   .char{display:flex; align-items:center; gap:10px; padding:7px 14px; cursor:pointer}
@@ -44,6 +46,9 @@
   .take.selected{border-color:var(--good); color:var(--good)}
   .take button{border:0; background:none; padding:0 2px; font-size:13px; color:inherit}
   .gen{color:var(--acc2)}
+  .segv{font-size:12px; color:var(--dim); padding:5px 8px}
+  .segv.has{color:var(--acc); border-color:var(--acc)}
+  .vsep{position:sticky; top:0; margin:10px 0 4px; padding:6px 10px; font-size:11px; font-weight:700; letter-spacing:.06em; color:var(--bad); background:rgba(246,102,102,.12); border-radius:6px; text-align:center}
   .spin{display:inline-block; animation:sp 1s linear infinite}
   @keyframes sp{to{transform:rotate(360deg)}}
   /* voice picker modal */
@@ -113,7 +118,8 @@ async function api(path, body){
 }
 function toast(msg, ms=3000){ const t=$('toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none', ms); }
 
-let NOTES={}, SPOKEN={}, SEGS={}, DIRECTED={};
+let NOTES={}, SPOKEN={}, SEGS={}, DIRECTED={}, SEGOV={};
+let pickSeg=null;   // when the voice picker targets ONE line (per-line override) instead of the character
 const INFLIGHT=new Set();  // segKeys currently generating — survives re-renders so spinners persist
 function ttsText(id, l){
   const o=SPOKEN[`${l.c}_${l.n}`];
@@ -128,6 +134,7 @@ async function boot(){
   try{ NOTES=await (await fetch('data/char_notes.json',NS)).json(); }catch(e){}
   try{ SPOKEN=await (await fetch('data/spoken_overrides.json',NS)).json(); }catch(e){}
   try{ SEGS=await (await fetch('data/line_segments.json',NS)).json(); }catch(e){}
+  try{ SEGOV=await (await fetch('data/seg_overrides.json',NS)).json(); }catch(e){SEGOV={}}
   try{ DIRECTED=await (await fetch('data/directed.json',NS)).json(); }catch(e){}
   side();
   api('/api/quota').then(q=>{
@@ -159,7 +166,7 @@ function chars(){
 }
 function side(){
   const cs=chars();
-  let h=$('quota').outerHTML+'<h2>Cast</h2>';
+  let h=$('quota').outerHTML+'<a href="barks.html" class="barklink">⚔ Combat Barks →</a><h2>Cast</h2>';
   const arr=Object.values(cs).sort((a,b)=>(b.id==='narrator')-(a.id==='narrator') || (b.lines?.length||0)-(a.lines?.length||0));
   for(const c of arr){
     const t=S.takes[c.id]||{}; const done=Object.keys(t).length;
@@ -217,6 +224,7 @@ function show(id){
       const busy=INFLIGHT.has(sg.key);
       h+=`<div class="gmseg" id="L${sg.key.replace(/~/g,'-')}">
         <div class="gt" ${sg.who==='char'?'style="font-style:normal;color:var(--txt)"':''}><span class="who">${sg.who==='gm'?'Narrator':esc(c.name)}</span>${editable(sg.key, sg.t)}</div>
+        ${sg.who!=='gm'?`<button class="segv ${SEGOV[sg.key]?'has':''}" title="Give THIS line its own voice (for buckets that mix different speakers)" onclick='openPicker(${JSON.stringify(sg.key)})'>🎤${SEGOV[sg.key]?' '+esc(SEGOV[sg.key].voiceName.split(' -')[0].split(' (')[0].slice(0,14)):''}</button>${SEGOV[sg.key]?`<button class="segv" title="Revert to the character's voice" onclick='clearSegVoice(${JSON.stringify(sg.key)})'>↺</button>`:''}`:''}
         <button class="gen" ${busy?'disabled':''} onclick='genSegment(this,"${id}","${key}",${JSON.stringify(sg.key)},${sg.who==='gm'})'>${busy?'<span class="spin">◌</span> generating…':'🎙 '+(st&&st.takes.length?'Retake':'Generate')}</button>
         ${(st?st.takes:[]).map(tk=>takeChip(bucket,sg.key,st,tk)).join('')}</div>`;
     }
@@ -331,7 +339,7 @@ function takeChip(bucket,key,t,tk){
 async function genSegment(btn,id,lineKey,segKey,isGm){
   if(INFLIGHT.has(segKey)) return true;   // already generating this exact segment — ignore double-click
   const bucket=isGm?'narrator':id;
-  let pick=S.picks[bucket];
+  let pick=SEGOV[segKey]||S.picks[bucket];   // per-line override wins over the character's pick
   if(!pick){
     // No character pick (e.g. a mixed bucket like Player 1 where each line uses a different actor):
     // fall back to whatever voice already produced a take on THIS segment, so Retake reuses it.
@@ -391,12 +399,15 @@ function play(btn,file){
   if(curAudio){curAudio.pause();}
   curAudio=new Audio('audio/'+file); curAudio.play();
 }
-function openPicker(){
+function openPicker(segKey){
+  pickSeg=segKey||null;
   const c=chars()[cur], note=NOTES[cur]||{};
-  $('vchar').innerHTML=`${c.portraitFile?`<img src="portraits/${c.portraitFile}">`:`<div class="ph">${initials(c.name)}</div>`}
+  $('vchar').innerHTML= pickSeg
+    ? `<div><div class="vcname">Voice for ONE line</div><div class="vcbio">Overrides ${esc(c.name)}'s voice for just this line (use it when a bucket mixes different speakers). Generate/Retake the line to apply.</div></div>`
+    : `${c.portraitFile?`<img src="portraits/${c.portraitFile}">`:`<div class="ph">${initials(c.name)}</div>`}
     <div><div class="vcname">${esc(c.name)}</div>
     <div class="vcbio">${esc(note.bio||'')}${note.direction?'<br><b>Direction:</b> '+esc(note.direction):''}</div></div>`;
-  $('vgender').value = note.gender || '';
+  $('vgender').value = pickSeg ? '' : (note.gender || '');
   $('vmodal').classList.add('open'); renderVoices();
 }
 async function refreshVoices(){ toast('Refreshing catalog…'); const v=await api('/api/voices/refresh'); VOICES=v.voices||[]; renderVoices(); }
@@ -418,8 +429,10 @@ function renderVoices(){
     if(pid!==cur && p.voiceId) takenBy[p.voiceId]=cs[pid]?cs[pid].name:pid;
   }
   const myPick=(S.picks[cur]||{}).voiceId;
-  const list=VOICES.filter(v=>(!g||v.gender===g)&&(lang==='__any'||langOf(v)===lang)&&(!q||`${v.name} ${v.desc} ${v.accent} ${v.use} ${v.age}`.toLowerCase().includes(q)));
-  $('vlist').innerHTML=list.slice(0,200).map(v=>{
+  const matchQG=v=>(!g||v.gender===g)&&(!q||`${v.name} ${v.desc} ${v.accent} ${v.use} ${v.age}`.toLowerCase().includes(q));
+  const mags=VOICES.filter(v=>v.source==='magnific'&&matchQG(v)&&(lang==='__any'||langOf(v)===lang)).slice(0,200);
+  const els=VOICES.filter(v=>v.source!=='magnific'&&matchQG(v));   // my ElevenLabs voices: always shown, grouped at the bottom
+  const row=v=>{
     const taken=takenBy[v.voice_id];
     const isEL=v.source!=='magnific';                 // ElevenLabs account voice = metered quota
     const isPick=v.voice_id===myPick;
@@ -434,8 +447,10 @@ function renderVoices(){
     <div class="act">
       ${v.preview?`<button onclick='play(this,null);curAudio=new Audio(${JSON.stringify(v.preview)});curAudio.play()'>▶ preview</button>`:''}
       <button onclick='previewLine(this,${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)})' title="Generate this character's first line with this voice and play it">▶ first line</button>
-      <button ${taken?'title="Already cast as '+esc(taken)+' — click to use anyway (for the same character in another spot)"':''} onclick='pickVoice(${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)},${JSON.stringify(taken||"")})'>Cast as ${esc(cs[cur]?.name||'')}</button>
-    </div></div>`;}).join('') || '<div style="padding:20px;color:var(--dim)">No matches</div>';
+      <button ${(!pickSeg&&taken)?'title="Already cast as '+esc(taken)+' — click to use anyway"':''} onclick='${pickSeg?`setSegVoice(${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)})`:`pickVoice(${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)},${JSON.stringify(taken||"")})`}'>${pickSeg?'Use for this line':'Cast as '+esc(cs[cur]?.name||'')}</button>
+    </div></div>`;};
+  const sep=els.length?'<div class="vsep">↓ My ElevenLabs voices (metered quota) ↓</div>':'';
+  $('vlist').innerHTML=(mags.map(row).join('')+sep+els.map(row).join('')) || '<div style="padding:20px;color:var(--dim)">No matches</div>';
 }
 async function previewLine(btn, vid, vname){
   const c=chars()[cur]; if(!c||!c.lines||!c.lines.length) return;
@@ -451,6 +466,18 @@ async function previewLine(btn, vid, vname){
   }catch(e){ toast('preview failed: '+e.message, 8000); }
   btn.disabled=false; btn.textContent=old;
 }
+async function setSegVoice(vid,name){
+  // per-line override: this one segment generates with `vid` instead of the character's pick
+  try{
+    await api('/api/seg/setvoice',{segKey:pickSeg,voiceId:vid,voiceName:name});
+    SEGOV[pickSeg]={voiceId:vid,voiceName:name};
+    $('vmodal').classList.remove('open'); pickSeg=null; show(cur);
+    toast('This line → '+name+'. Hit Generate/Retake to apply.', 6000);
+  }catch(e){ toast('save failed: '+e.message, 6000); }
+}
+async function clearSegVoice(segKey){
+  await api('/api/seg/setvoice',{segKey,voiceId:null}); delete SEGOV[segKey]; show(cur); toast('reverted to character voice');
+}
 async function pickVoice(vid,name,takenBy){
   // takenBy = another character already using this voice; confirm before duplicating (e.g. twin
   // entries like Marie-Louise / Marie-Louise Telestrian that intentionally share one voice).
@@ -461,7 +488,7 @@ async function pickVoice(vid,name,takenBy){
 async function syncToGame(btn){
   const old=btn.textContent; btn.disabled=true; btn.textContent='⇩ Syncing…';
   try{
-    const r=await api('/api/sync');
+    const r=await api('/api/sync', {});   // MUST be POST — the /api/sync handler lives in do_POST
     if(r.ok){ toast('✓ '+r.message+'  (restart the game to hear changes)', 8000); }
     else{ toast('Sync problem: '+(r.message||r.error||'see server log'), 9000); }
   }catch(e){ toast('Sync failed: '+e.message, 9000); }

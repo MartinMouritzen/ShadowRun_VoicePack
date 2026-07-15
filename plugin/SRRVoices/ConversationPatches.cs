@@ -19,6 +19,12 @@ namespace SRRVoices
             if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
             if (Plugin.Pack == null || Plugin.Player == null || node == null) return;
 
+            // Phantom/sentinel nodes (index < 0) fire immediately AFTER the first real node when a
+            // conversation opens. Their "no VO" branch would call StopAll() and cut off the first
+            // node's audio a frame after it started (which is exactly why the opening line was silent
+            // on first display but played on navigate-back). Ignore them entirely.
+            if (node.index < 0) return;
+
             Conversation convo = ConvoField != null ? ConvoField.GetValue(__instance) as Conversation : null;
             if (convo == null && Patch_StartConversation.LastConvo != null)
                 convo = Patch_StartConversation.LastConvo;      // fallback if field read fails

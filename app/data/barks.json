@@ -1,0 +1,3845 @@
+{
+ "bark_5395dfa49572ed16": {
+  "text": "Leave the mage. Kill the others.",
+  "speaker": "Renraku Security",
+  "sheetId": "Lonestar_Lv1_Heavy_SMG",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c01-s1_3yearsago"
+  ],
+  "actorId": "8a9ad173306434ec10004839"
+ },
+ "bark_bc16ebc01d64d637": {
+  "text": "Where's the rest of them?",
+  "speaker": "New Larry",
+  "sheetId": "Lvl1_Human_Mage",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_JohnHolmes",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_40",
+  "voiceName": "Dylan Scott",
+  "castFrom": "name_newlarry",
+  "scenes": [
+   "c01-s1_3yearsago"
+  ],
+  "actorId": "8f9ead19306434d8160069c0"
+ },
+ "bark_1f1913b3cebebfc0": {
+  "text": "This is bad. They have a shaman.",
+  "speaker": "Sangoma",
+  "sheetId": "Lonestar_Lv1_Heavy_SMG",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_OrkFemale_Sangoma",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_815",
+  "voiceName": "Katerina Pavlidou",
+  "castFrom": "name_sangoma",
+  "scenes": [
+   "c01-s1_3yearsago"
+  ],
+  "actorId": "51abcaf7356164f810003088"
+ },
+ "bark_894b32920f4dcfa0": {
+  "text": "He had that coming.",
+  "speaker": "Sam Watts",
+  "sheetId": "Lonestar_Lv1_Heavy_SMG",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_HumanMale_SamWatts",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_538",
+  "voiceName": "Wade “Red” Dawson",
+  "castFrom": "name_samwatts",
+  "scenes": [
+   "c01-s1_3yearsago"
+  ],
+  "actorId": "8f9eb272306434d8160069c1"
+ },
+ "bark_ee158a513d5c1edd": {
+  "text": "I’m here about the new Ripper vic, Sam Watts.",
+  "speaker": "McKlusky",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_OrkMale_MacKlusky",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_511",
+  "voiceName": "Dorian Malice",
+  "castFrom": "name_mcklusky",
+  "scenes": [
+   "c02-s1_morgue"
+  ],
+  "actorId": "39295215306434f00f00681f"
+ },
+ "bark_96dcaf9f19dfe6dc": {
+  "text": "We can leave whenever you're ready.",
+  "speaker": "Jake Armitage",
+  "sheetId": "Story_Jake",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "NPC_HumanMale_JakeArmitage",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_524",
+  "voiceName": "Lord Nytherion",
+  "castFrom": "name_jakearmitage",
+  "scenes": [
+   "c02-s1_morgue"
+  ],
+  "actorId": "3941a85f306434f00f006a22"
+ },
+ "bark_f93ddce1dcffa657": {
+  "text": "My stash is just around the corner, in the alley.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": null
+ },
+ "bark_427c2dfa8d415942": {
+  "text": "Does the bus stop here?",
+  "speaker": "Old Guy",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "5c565f1a3064348815003a64"
+ },
+ "bark_e29a69507f31f59f": {
+  "text": "Looking for a date, honey?",
+  "speaker": "Hooker",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "5d950e3d306434701b0042bb"
+ },
+ "bark_061d2fe6836a0d22": {
+  "text": "Looking for a date? $+(l.race_plural) are my favorite...",
+  "speaker": "Hooker",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "5d950e3d306434701b0042bb"
+ },
+ "bark_62ceb9e58564a27e": {
+  "text": "Hand over the loot, bozos!",
+  "speaker": "Mugger",
+  "sheetId": "Lonestar_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "a9979870623331441b003060"
+ },
+ "bark_498cd895eb5a102c": {
+  "text": "Thank you!",
+  "speaker": "Worried Man",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_27",
+  "voiceName": "Ethan Brooks",
+  "castFrom": "name_worriedman",
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "5dbd19cc306434701b00434a"
+ },
+ "bark_e804726983f7bda6": {
+  "text": "Don’t go to the market.",
+  "speaker": "NPC5",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "62ef89683064348415000125"
+ },
+ "bark_cb680ebdadcb8f13": {
+  "text": "Don't hurt me...",
+  "speaker": "NPC5a",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "62f13d933064348415000126"
+ },
+ "bark_346713a4b80dac8b": {
+  "text": "Watch out for those gangers.",
+  "speaker": "NPC5b",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "62f162463064348415000127"
+ },
+ "bark_b568775b92e0b6ee": {
+  "text": "This is... *hic* the BEST place... *hic* to party.",
+  "speaker": "NPC15",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "6b7906f53064344810005a8e"
+ },
+ "bark_c2536ab0ce839781": {
+  "text": "Just... just need a fix...",
+  "speaker": "NPC16",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "6b79f0433064344810005a91"
+ },
+ "bark_e09a13317fad7f01": {
+  "text": "Look mate, just pay up!",
+  "speaker": "Mage Thug",
+  "sheetId": "Lonestar_Lv1_Human_Mage",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "ab2786df6233315c100056cd"
+ },
+ "bark_f3372c23e5b66cc9": {
+  "text": "But we barely have anything left!",
+  "speaker": "Mrs. James",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "69a95b41306434980b000128"
+ },
+ "bark_af43460bbd1dd5e8": {
+  "text": "Not my problem. Pay up by morning or else.",
+  "speaker": "Head Thug",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_RandyNickel_Snick",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_600",
+  "voiceName": "Jack Rawlins",
+  "castFrom": "name_headthug",
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "632a83763064348415000208"
+ },
+ "bark_af31cc5a9c4a78f2": {
+  "text": "Thanks chummer!",
+  "speaker": "Head Thug",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_RandyNickel_Snick",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_600",
+  "voiceName": "Jack Rawlins",
+  "castFrom": "name_headthug",
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "632a83763064348415000208"
+ },
+ "bark_812131c3dd95954c": {
+  "text": "You're fraggin' dead!",
+  "speaker": "Head Thug",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_RandyNickel_Snick",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_600",
+  "voiceName": "Jack Rawlins",
+  "castFrom": "name_headthug",
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "632a83763064348415000208"
+ },
+ "bark_3e21974d18168307": {
+  "text": "Pleasure doin' biz!",
+  "speaker": "Head Thug",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_RandyNickel_Snick",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_600",
+  "voiceName": "Jack Rawlins",
+  "castFrom": "name_headthug",
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "632a83763064348415000208"
+ },
+ "bark_9915e84b7889f3ee": {
+  "text": "You're dead, Jake! Dead!",
+  "speaker": "John Paul",
+  "sheetId": "Lonestar_Lv1_Heavy_SMG",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_TrollMale_JohnPaulSmith",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "5196e7eb623331141000428c"
+ },
+ "bark_7eb9ececeee97c88": {
+  "text": "This ends now, asshole.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": null
+ },
+ "bark_41810d528d548e8a": {
+  "text": "Oh, drek.",
+  "speaker": "John Paul",
+  "sheetId": "Lonestar_Lv1_Heavy_SMG",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_TrollMale_JohnPaulSmith",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c03-s1_barrens"
+  ],
+  "actorId": "5196e7eb623331141000428c"
+ },
+ "bark_e8c97ff6c5a39764": {
+  "text": "That’s not how Coyote does it.",
+  "speaker": "Guest01",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "406ee7a0306434d028005bcc"
+ },
+ "bark_d88dab71f25e1375": {
+  "text": "I’m not going alone.",
+  "speaker": "Guest02",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "40703625306434d028005bcd"
+ },
+ "bark_33e9ef7062e4feef": {
+  "text": "The Ripper is a lie!",
+  "speaker": "Guest03",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_JonathanBartlett_JonBartlett_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "40703c88306434d028005bce"
+ },
+ "bark_d135a111f2905ce0": {
+  "text": "Another round!",
+  "speaker": "Guest01",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 3,
+  "scenes": [
+   "c04-s1_seamstress",
+   "c07-s1_seamstress"
+  ],
+  "actorId": "406ee7a0306434d028005bcc"
+ },
+ "bark_9b656fef57eb4fd6": {
+  "text": "Sweeten the deal.",
+  "speaker": "Guest05",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "407285cb306434d028005bd1"
+ },
+ "bark_c9f829bb4b4e7fdb": {
+  "text": "Your reps don’t merit it.",
+  "speaker": "Guest06",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "40725285306434d028005bcf"
+ },
+ "bark_41734c7c3504f636": {
+  "text": "What could go wrong?",
+  "speaker": "Guest05",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "407285cb306434d028005bd1"
+ },
+ "bark_3c9884cdca656bbc": {
+  "text": "Do you have a love potion?",
+  "speaker": "Guest07",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "40757dbb306434d028005bd6"
+ },
+ "bark_953852c953798ec1": {
+  "text": "No gigs at the moment.",
+  "speaker": "Guest08",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "4073eef1306434d028005bd2"
+ },
+ "bark_a2f1a04c424b3d9c": {
+  "text": "Yeah!",
+  "speaker": "Guest09",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "4073f7d4306434d028005bd3"
+ },
+ "bark_125a99e3257092dc": {
+  "text": "Awesome!",
+  "speaker": "Guest10",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "40740079306434d028005bd4"
+ },
+ "bark_c177398ffc047893": {
+  "text": "I need more money...",
+  "speaker": "Guest10",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "40740079306434d028005bd4"
+ },
+ "bark_351afe6e75691d7b": {
+  "text": "Sweet.",
+  "speaker": "Guest11",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "407406a5306434d028005bd5"
+ },
+ "bark_8959c9413fc5263c": {
+  "text": "Don’t ask me.",
+  "speaker": "Guest11",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "407406a5306434d028005bd5"
+ },
+ "bark_732d90e862b1473b": {
+  "text": "Welcome, behave yourself.",
+  "speaker": "Mr. Kluwe",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_TrollMale_ChrisKluwe_Loate",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_796",
+  "voiceName": "Winston Brown",
+  "castFrom": "name_mrkluwe",
+  "scenes": [
+   "c04-s1_seamstress"
+  ],
+  "actorId": "54b62398306434c4120044e4"
+ },
+ "bark_be2b3bd4e91569ab": {
+  "text": "Hey, seen my friend around? Tall lady, dreads...",
+  "speaker": "Paco",
+  "sheetId": "Story_Paco",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "NPC_HumanMale_Paco",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "uLCvmeolFYSV8RxA07Mn",
+  "voiceName": "Male voice",
+  "castFrom": "name_paco",
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "808167a130643454080045c7"
+ },
+ "bark_8579c10e774c2e0d": {
+  "text": "Another Ripper murder!",
+  "speaker": "Spectator01",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8b8eba74306434d80c000903"
+ },
+ "bark_d777e0f77edfd05b": {
+  "text": "The Ripper took her eyes!",
+  "speaker": "Spectator03",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8b8ee60b306434d80c000904"
+ },
+ "bark_e87f36431f89f163": {
+  "text": "I’m leaving Seattle.",
+  "speaker": "Spectator02",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8b8ef5f3306434d80c000905"
+ },
+ "bark_594f5264cb053c9c": {
+  "text": "I’ve seen her at the Shack!",
+  "speaker": "Spectator04",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8b8f1c99306434d80c000906"
+ },
+ "bark_46372d60d815e5f2": {
+  "text": "It’s a Corp hit I’m sure.",
+  "speaker": "Spectator05",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8b8f28a2306434d80c000907"
+ },
+ "bark_4fbce14b2c07f7d5": {
+  "text": "Who is it?",
+  "speaker": "Spectator01",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8b8eba74306434d80c000903"
+ },
+ "bark_dff861a4078d90b0": {
+  "text": "I think I'm going to be sick...",
+  "speaker": "Spectator03",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8b8ee60b306434d80c000904"
+ },
+ "bark_d1d3c0c5faa3245f": {
+  "text": "Join us and change the world!",
+  "speaker": "NPC1",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c05-s2_pikeplace",
+   "c21-s0_pikeplaceconcert"
+  ],
+  "actorId": "80afa3da3064347c170054de"
+ },
+ "bark_467c34f8efa45d5c": {
+  "text": "Refurbished flowers for sale.",
+  "speaker": "NPC3",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "80c6dc633064347c17005531"
+ },
+ "bark_658cdd88a5aca2e7": {
+  "text": "Synthjuice for sale! Just fabbed today!",
+  "speaker": "NPC4",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "80c8c9913064347c17005534"
+ },
+ "bark_377c158791e4145d": {
+  "text": "I got dog on a stick here!",
+  "speaker": "NPC5",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "80d3f1523064347c17005642"
+ },
+ "bark_68d88ac35c2edf2d": {
+  "text": "Wanna buy some BTL?",
+  "speaker": "NPC16",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8bf145c9306434a80f00440f"
+ },
+ "bark_f010f2a970b38dd0": {
+  "text": "Glad there's no trolls around here...",
+  "speaker": "NPC17",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8bf17b8b306434a80f004410"
+ },
+ "bark_d1247905ad1db85e": {
+  "text": "Whoa, hey there big $(l.guy).",
+  "speaker": "NPC17",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8bf17b8b306434a80f004410"
+ },
+ "bark_889cece526dae137": {
+  "text": "No way, Blind Lucy?",
+  "speaker": "NPC18",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c05-s2_pikeplace"
+  ],
+  "actorId": "8bf1a24e306434a80f004411"
+ },
+ "bark_91c6851c052d209b": {
+  "text": "Pssst, hey you...",
+  "speaker": "Tweaker",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "26ba18b8306466ec210018bf"
+ },
+ "bark_5375f32f5a451078": {
+  "text": "Hmmm, more of 'em.",
+  "speaker": "Sad Old Man",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_534",
+  "voiceName": "Old Pip Quickroot",
+  "castFrom": "name_sadoldman",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "c3059fb6306466a41d001d97"
+ },
+ "bark_0171ceb3085cadcf": {
+  "text": "Oh god! Make it stop!",
+  "speaker": "Zipper",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "ff39a0e53064665c1600670e"
+ },
+ "bark_c6de1b6edaefcc72": {
+  "text": "Heh, heh. Not yet, kid.",
+  "speaker": "Tickler",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_37",
+  "voiceName": "Logan West",
+  "castFrom": "name_tickler",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "ff3b75913064665c1600670f"
+ },
+ "bark_4908d993858c39c6": {
+  "text": "Hey, stop nosin' around!",
+  "speaker": "Sad Old Man",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_534",
+  "voiceName": "Old Pip Quickroot",
+  "castFrom": "name_sadoldman",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "c3059fb6306466a41d001d97"
+ },
+ "bark_9029baf24278f682": {
+  "text": "Whoa! I gotta get help!",
+  "speaker": "Ryker",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_ThaddeusRyker",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_181",
+  "voiceName": "Lucas Bennett",
+  "castFrom": "name_ryker",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa36ebe8306466ac190013b0"
+ },
+ "bark_5f17a3d3791274c8": {
+  "text": "*bzzzz* Help! Help!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": null
+ },
+ "bark_db8967d14dca1212": {
+  "text": "Crap!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": null
+ },
+ "bark_b1b28346bd80788a": {
+  "text": "Hey, what are you doing here?",
+  "speaker": "Sad Old Woman",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa1a80c4306466ac190013a1"
+ },
+ "bark_a266948ee99e17f7": {
+  "text": "AAIEEEEE!",
+  "speaker": "Sad Old Woman",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": true,
+  "count": 1,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa1a80c4306466ac190013a1"
+ },
+ "bark_5bd4dc7efdbc0c41": {
+  "text": "RUN!",
+  "speaker": "Sad Old Woman",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa1a80c4306466ac190013a1"
+ },
+ "bark_b78ae0cb2b8b123f": {
+  "text": "You find a piece of paper with some numbers on it.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": null
+ },
+ "bark_c50ac476ad349c21": {
+  "text": "The drone would be out of range if it went upstairs.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": null
+ },
+ "bark_29e6792d0e385d24": {
+  "text": "The spirit would break your control if it went upstairs.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": null
+ },
+ "bark_4afff496eaf7755c": {
+  "text": "Ryker, you fool! Kill them!",
+  "speaker": "Tickler",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_37",
+  "voiceName": "Logan West",
+  "castFrom": "name_tickler",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "ff3b75913064665c1600670f"
+ },
+ "bark_e0e4a09fe67e03f9": {
+  "text": "I'm outta this.",
+  "speaker": "Ryker",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_ThaddeusRyker",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_181",
+  "voiceName": "Lucas Bennett",
+  "castFrom": "name_ryker",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa36ebe8306466ac190013b0"
+ },
+ "bark_4cbd55e6cc04f4aa": {
+  "text": "What the hell!",
+  "speaker": "Ryker",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_ThaddeusRyker",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_181",
+  "voiceName": "Lucas Bennett",
+  "castFrom": "name_ryker",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa36ebe8306466ac190013b0"
+ },
+ "bark_83033cd9488eb1e3": {
+  "text": "Aaiieee! I'm going for help!",
+  "speaker": "Tickler",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_37",
+  "voiceName": "Logan West",
+  "castFrom": "name_tickler",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "ff3b75913064665c1600670f"
+ },
+ "bark_fcc8b8e305b9bf08": {
+  "text": "Gotta tell Stevie...",
+  "speaker": "Ryker",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_ThaddeusRyker",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_181",
+  "voiceName": "Lucas Bennett",
+  "castFrom": "name_ryker",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa36ebe8306466ac190013b0"
+ },
+ "bark_2249369e2cf8d5d1": {
+  "text": "How rude.",
+  "speaker": "Sad Old Woman",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ],
+  "actorId": "fa1a80c4306466ac190013a1"
+ },
+ "bark_9361d72e216b2319": {
+  "text": "That looked like it hurt.",
+  "speaker": "Alex",
+  "sheetId": "Lonestar_Lv1_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "a41444d1306466a824004844"
+ },
+ "bark_ea222ec1677bf984": {
+  "text": "Coyote sways woozily, standing through sheer force of will.",
+  "speaker": "Coyote",
+  "sheetId": "Story_Coyote",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_CoyoteUgly",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+  "voiceName": "Gabby - Authentic, Raspy and Kind",
+  "castFrom": "name_coyote",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "7ba9143a3064665422005e16"
+ },
+ "bark_05f9220e6eb2044b": {
+  "text": "That'll keep her happy. Now move quick.",
+  "speaker": "Tranq",
+  "sheetId": "Lonestar_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_144",
+  "voiceName": "Piotrek Grabowski",
+  "castFrom": "name_tranq",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462fa7a1306466e82500199f"
+ },
+ "bark_74274938b46e811f": {
+  "text": "Stand back... Chile here has a wicked hot temper.",
+  "speaker": "Tranq",
+  "sheetId": "Lonestar_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_144",
+  "voiceName": "Piotrek Grabowski",
+  "castFrom": "name_tranq",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462fa7a1306466e82500199f"
+ },
+ "bark_64876d44f6013d51": {
+  "text": "Finally! I'll be along in a minute.",
+  "speaker": "Stevie J",
+  "sheetId": "Lonestar_Lv2_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_SteveJackson_EvilStevie",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462f7c7c306466e82500199c"
+ },
+ "bark_81b349d24f7fa7ff": {
+  "text": "'Bout time you showed up.",
+  "speaker": "Tranq",
+  "sheetId": "Lonestar_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_144",
+  "voiceName": "Piotrek Grabowski",
+  "castFrom": "name_tranq",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462fa7a1306466e82500199f"
+ },
+ "bark_975f8106066406aa": {
+  "text": "Show me that BTL, eh?",
+  "speaker": "Tranq",
+  "sheetId": "Lonestar_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_144",
+  "voiceName": "Piotrek Grabowski",
+  "castFrom": "name_tranq",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462fa7a1306466e82500199f"
+ },
+ "bark_7644bacab610d445": {
+  "text": "It's a trick... drek!",
+  "speaker": "Tranq",
+  "sheetId": "Lonestar_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_144",
+  "voiceName": "Piotrek Grabowski",
+  "castFrom": "name_tranq",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462fa7a1306466e82500199f"
+ },
+ "bark_bdc8917811477161": {
+  "text": "Hey, what the hell?!?",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_cea7fc042c52dbbd": {
+  "text": "How dare you?!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_2453da851adeac0e": {
+  "text": "What the? Hey!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_eb235931b8ea51fb": {
+  "text": "Help! Get over here!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_f53383338c26b7f8": {
+  "text": "Oh, you're gonna pay!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_21e669221eb11818": {
+  "text": "Hey! What are you doing up here!?!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_ae6922bd24b4d0fb": {
+  "text": "What are you doing here!?!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_f25f90c4f88b55a1": {
+  "text": "Hey! You don't belong here!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_c281868cf6530ae8": {
+  "text": "What the... who are you?",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_4b8a5bc73054d44b": {
+  "text": "What the? She's free!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_1c9e0af6cc2fc989": {
+  "text": "Help!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_0464c4d26faecbd3": {
+  "text": "We're under attack boys, get the big guns!",
+  "speaker": "Stevie J",
+  "sheetId": "Lonestar_Lv2_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_SteveJackson_EvilStevie",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462f7c7c306466e82500199c"
+ },
+ "bark_6b7acb280d88c7c5": {
+  "text": "There they are!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c06-s2_aptstopfloor",
+   "c21-s2_brotherhood-s"
+  ],
+  "actorId": "5196c2a83030313815005fb5"
+ },
+ "bark_cd7b707068ee4ff7": {
+  "text": "Help...",
+  "speaker": "Coyote",
+  "sheetId": "Story_Coyote",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_CoyoteUgly",
+  "nonverbal": false,
+  "count": 2,
+  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+  "voiceName": "Gabby - Authentic, Raspy and Kind",
+  "castFrom": "name_coyote",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "7ba9143a3064665422005e16"
+ },
+ "bark_7393436395d9a08a": {
+  "text": "Oh, we're just getting started.",
+  "speaker": "Alex",
+  "sheetId": "Lonestar_Lv1_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "a41444d1306466a824004844"
+ },
+ "bark_f22e792493b7c380": {
+  "text": "We have to hurry!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_bb731e08cf914a58": {
+  "text": "What the hell do you think you're doing?!?",
+  "speaker": "Krund",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "462f9072306466e82500199d"
+ },
+ "bark_ff21c6af899bbec6": {
+  "text": "The late Stevie J.'s pass-codes.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_d09455783b4f21a1": {
+  "text": "Okay, time for us to bolt.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_875a7e9190f25f9d": {
+  "text": "Take this, asshole!",
+  "speaker": "Coyote",
+  "sheetId": "Story_Coyote",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_CoyoteUgly",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+  "voiceName": "Gabby - Authentic, Raspy and Kind",
+  "castFrom": "name_coyote",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ],
+  "actorId": "7ba9143a3064665422005e16"
+ },
+ "bark_d8ceb2b10eaf15fa": {
+  "text": "Too heavy for me.",
+  "speaker": "Heavy Runner",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8b552f9b30303190090041be"
+ },
+ "bark_b7a7f575c008c7e7": {
+  "text": "So what did she say?",
+  "speaker": "DwarfAdept",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8b8a00a13030314c0c0041c4"
+ },
+ "bark_fe61bc21fb0fdea4": {
+  "text": "Looking for a date?",
+  "speaker": "Elf Prostitue",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "804701fb30303184100041c8"
+ },
+ "bark_0f31b8d457471d1f": {
+  "text": "I'm game.",
+  "speaker": "WealthTouristLady",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8045f29c30303184100041c7"
+ },
+ "bark_a9e3a6cc9cf46a41": {
+  "text": "Another beer!",
+  "speaker": "Patron",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "80c0a4f630303184100041d3"
+ },
+ "bark_cbc37982edda9f1c": {
+  "text": "When is your shift over?",
+  "speaker": "RunnerPatron",
+  "sheetId": "Lonestar_Lv1_Heavy_SMG",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "80b436ae30303184100041d0"
+ },
+ "bark_9f5b7a9c83c37ed2": {
+  "text": "My lord!",
+  "speaker": "Tourist2",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "80b4497e30303184100041d1"
+ },
+ "bark_6cc8f8fd4545bcc8": {
+  "text": "Welcome.",
+  "speaker": "HumanDeckerLady1",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8caa84423030315810000bb7"
+ },
+ "bark_72f2aa7edaec0986": {
+  "text": "No bunks available.",
+  "speaker": "HumanDeckerLady2",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8caae0fb3030315810000bb8"
+ },
+ "bark_dfaac4b24bef30e7": {
+  "text": "Score!",
+  "speaker": "OrkSam1",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8caf1e623030315810000bba"
+ },
+ "bark_b40f4b2fe6c80528": {
+  "text": "Whiz go Wolves!",
+  "speaker": "OrkSam2",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8caf00613030315810000bb9"
+ },
+ "bark_a9243d082fe04072": {
+  "text": "What do you mean, \"no credit?\"",
+  "speaker": "ElfRigger",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8ca471b13030315810000bb5"
+ },
+ "bark_64a3330697b86a3b": {
+  "text": "Give me another!",
+  "speaker": "Troll Mage Lady",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8c7e50273030313417004417"
+ },
+ "bark_be22228a940e0aff": {
+  "text": "Hey.",
+  "speaker": "DwarfSam",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": "8ca5f4d63030315810000bb6"
+ },
+ "bark_d91a41bd3d83bced": {
+  "text": "Fired.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c07-s1_seamstress"
+  ],
+  "actorId": null
+ },
+ "bark_30ec8c50643c5de0": {
+  "text": "Ey, that's mine!",
+  "speaker": "Homeless Man",
+  "sheetId": "Generic_Lv1_Human_Melee",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c08-s1_planeyard"
+  ],
+  "actorId": "8d80c32a623331442c00695e"
+ },
+ "bark_88d8c00cc30e0f24": {
+  "text": "Halt!",
+  "speaker": "Lonestar Guard",
+  "sheetId": "Lonestar_Lv2_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Generic_HumanMale_LoneStarGuard01",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson",
+  "castFrom": "name_lonestarguard",
+  "scenes": [
+   "c08-s1_planeyard"
+  ],
+  "actorId": "601fb7c3623331ec0c00192b"
+ },
+ "bark_718f0761c63d8136": {
+  "text": "That's a... big gun you have there.",
+  "speaker": "Streetwalker",
+  "sheetId": "Generic_Lv1_Human_Melee",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c08-s1_planeyard"
+  ],
+  "actorId": "6b191e3b623331ec1b004825"
+ },
+ "bark_60d2e49aeed29f90": {
+  "text": "Standard issue, ma'am.",
+  "speaker": "Lonestar Guard",
+  "sheetId": "Lonestar_Lv2_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Generic_HumanMale_LoneStarGuard01",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson",
+  "castFrom": "name_lonestarguard",
+  "scenes": [
+   "c08-s1_planeyard"
+  ],
+  "actorId": "601fb7c3623331ec0c00192b"
+ },
+ "bark_e592747a5de35410": {
+  "text": "Get out of here!",
+  "speaker": "Lonestar Guard",
+  "sheetId": "Lonestar_Lv2_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Generic_HumanMale_LoneStarGuard01",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson",
+  "castFrom": "name_lonestarguard",
+  "scenes": [
+   "c08-s1_planeyard"
+  ],
+  "actorId": "601fb7c3623331ec0c00192b"
+ },
+ "bark_81acf15988d1d64a": {
+  "text": "The lock panel easily comes unscrewed.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c08-s2_planeyard"
+  ],
+  "actorId": null
+ },
+ "bark_c4cd7c3a12a4a4c4": {
+  "text": "Alright everybody, let's go. Wrap it up.",
+  "speaker": "Officer Aguirre",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_AndresGuillermoAguirre",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_438",
+  "voiceName": "Jake Miller",
+  "castFrom": "name_officeraguirre",
+  "scenes": [
+   "c08-s2_planeyard"
+  ],
+  "actorId": "607fb7b36233317c16000071"
+ },
+ "bark_9fc48ad72ed030a9": {
+  "text": "You find a magnetic screwdriver.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c08-s2_planeyard"
+  ],
+  "actorId": null
+ },
+ "bark_454656c8278ba60c": {
+  "text": "Looks like an old diary.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c08-s2_planeyard"
+  ],
+  "actorId": null
+ },
+ "bark_760743c2d360a15f": {
+  "text": "Busy right now, $(l.name). Talk to Aguirre.",
+  "speaker": "Dresden",
+  "sheetId": "BaseTemplate",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_Coroner",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_286",
+  "voiceName": "Benjamin Parker",
+  "castFrom": "name_dresden",
+  "scenes": [
+   "c08-s2_planeyard"
+  ],
+  "actorId": "607f136c6233317c16000070"
+ },
+ "bark_5da3023c69e31478": {
+  "text": "You let that $(l.guy) in to a crime scene again, I'm calling internal affairs.",
+  "speaker": "McKlusky",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_OrkMale_MacKlusky",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_511",
+  "voiceName": "Dorian Malice",
+  "castFrom": "name_mcklusky",
+  "scenes": [
+   "c08-s2_planeyard"
+  ],
+  "actorId": "5f3d347c623331ac03004938"
+ },
+ "bark_576c0462c9adde0b": {
+  "text": "Internal affairs? I'm sure they'd love to talk to you.",
+  "speaker": "Officer Aguirre",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_AndresGuillermoAguirre",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_438",
+  "voiceName": "Jake Miller",
+  "castFrom": "name_officeraguirre",
+  "scenes": [
+   "c08-s2_planeyard"
+  ],
+  "actorId": "607fb7b36233317c16000071"
+ },
+ "bark_bb3b6a5f4f14d661": {
+  "text": "What's on special for happy hour?",
+  "speaker": "ElfRigger",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c08-s3_seamstress"
+  ],
+  "actorId": "8ca471b13030315810000bb5"
+ },
+ "bark_ee52ae99cfed8972": {
+  "text": "Dance for me!",
+  "speaker": "Yakuza Decker",
+  "sheetId": "Lvl2_Human_Decker",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51d34f4f3561642408000134"
+ },
+ "bark_c5be65462e29448e": {
+  "text": "Uh, uh... ohhrrrgg.",
+  "speaker": "Chiphead Woman",
+  "sheetId": "Lvl1_Human_Adept",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51d46408396365d81d00305f"
+ },
+ "bark_018070b03100ffe0": {
+  "text": "Grrrraaaahhh!",
+  "speaker": "Chiphead Man",
+  "sheetId": "Lvl1_Human_Adept",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": true,
+  "count": 2,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "5aeb9bfe306434cc0f004356"
+ },
+ "bark_4657a4b0e9b13d0d": {
+  "text": "Just a moment...",
+  "speaker": "BTL Operator",
+  "sheetId": "Lonestar_Lv2_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "5ad95d1b306434cc0f00434e"
+ },
+ "bark_bb9999c8f1074a92": {
+  "text": "Hey, it's those guys who took out Stevie J's place. Get 'em!",
+  "speaker": "BTL Security",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "5ae2c41d306434cc0f004351"
+ },
+ "bark_64a60013318008a3": {
+  "text": "Looks like Charlie didn't handle things... get 'em!",
+  "speaker": "BTL Operator",
+  "sheetId": "Lonestar_Lv2_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "5ad95d1b306434cc0f00434e"
+ },
+ "bark_22a7b7dba973c10e": {
+  "text": "Ha ha, there we go. Dance for me!",
+  "speaker": "Yakuza Decker",
+  "sheetId": "Lvl2_Human_Decker",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51d34f4f3561642408000134"
+ },
+ "bark_ce9ffcf53d78088b": {
+  "text": "They've turned these addicts into killing puppets. Don't hurt them, they don't know what they're doing!",
+  "speaker": "Coyote",
+  "sheetId": "Story_Coyote_Lv2",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_CoyoteHealed",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+  "voiceName": "Gabby - Authentic, Raspy and Kind",
+  "castFrom": "name_coyote",
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51c24dc8356164200d006df2"
+ },
+ "bark_8e4912334331c395": {
+  "text": "Heh, heh, that's right. Take that!",
+  "speaker": "Yakuza Decker",
+  "sheetId": "Lvl2_Human_Decker",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51d34f4f3561642408000134"
+ },
+ "bark_321a32a4bcadb945": {
+  "text": "No, no... yesssss!",
+  "speaker": "Chiphead Dwarf",
+  "sheetId": "Lvl1_Human_Adept",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "5aeeae8d306434cc0f004358"
+ },
+ "bark_fd0322dc35b21bd8": {
+  "text": "No, dammit!",
+  "speaker": "Coyote",
+  "sheetId": "Story_Coyote_Lv2",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_CoyoteHealed",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+  "voiceName": "Gabby - Authentic, Raspy and Kind",
+  "castFrom": "name_coyote",
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51c24dc8356164200d006df2"
+ },
+ "bark_dfd304678ea5bf89": {
+  "text": "What's goin' on out there?",
+  "speaker": "Elf Muscle",
+  "sheetId": "Lonestar_Lv3_Heavy_SMG",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "36e9a056306434fc04000a90"
+ },
+ "bark_88a42afe7dbaf2f3": {
+  "text": "Just mindin' my own bidness.",
+  "speaker": "Jamal",
+  "sheetId": "Lonestar_Lv2_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "3709dba2306434fc04000b12"
+ },
+ "bark_961b5983a317579a": {
+  "text": "Got trouble makers out here!",
+  "speaker": "Charlie",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51bcef44356164580b0016ec"
+ },
+ "bark_750158309fd112a0": {
+  "text": "Get to that BTL computer!",
+  "speaker": "Paco",
+  "sheetId": "Story_Paco_Lv2",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "NPC_HumanMale_Paco",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "uLCvmeolFYSV8RxA07Mn",
+  "voiceName": "Male voice",
+  "castFrom": "name_paco",
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51be13eb3561642817005d04"
+ },
+ "bark_fccb8fbfe71bbb32": {
+  "text": "You're in my domain now!",
+  "speaker": "Yakuza Decker",
+  "sheetId": "Lvl2_Human_Decker",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51d34f4f3561642408000134"
+ },
+ "bark_e31ea0b93b9ca200": {
+  "text": "They won't attack us anymore.",
+  "speaker": "Paco",
+  "sheetId": "Story_Paco_Lv2",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "NPC_HumanMale_Paco",
+  "nonverbal": false,
+  "count": 2,
+  "voiceId": "uLCvmeolFYSV8RxA07Mn",
+  "voiceName": "Male voice",
+  "castFrom": "name_paco",
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51be13eb3561642817005d04"
+ },
+ "bark_fa692d85f08c92a5": {
+  "text": "What happened?",
+  "speaker": "Chiphead Man",
+  "sheetId": "Lvl1_Human_Adept",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "5aeb9bfe306434cc0f004356"
+ },
+ "bark_9f6d5bab158136ff": {
+  "text": "I need to uhhhh, I...",
+  "speaker": "Chiphead Woman",
+  "sheetId": "Lvl1_Human_Adept",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51d46408396365d81d00305f"
+ },
+ "bark_00cf4630e6c4b6c8": {
+  "text": "My head!",
+  "speaker": "Chiphead Dwarf",
+  "sheetId": "Lvl1_Human_Adept",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "5aeeae8d306434cc0f004358"
+ },
+ "bark_057e8ec22200d3e6": {
+  "text": "Keep on moving, 'cross the bridge.",
+  "speaker": "Elf Muscle",
+  "sheetId": "Lonestar_Lv3_Heavy_SMG",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "36e9a056306434fc04000a90"
+ },
+ "bark_520eb32373e5f065": {
+  "text": "That's the last of 'em.",
+  "speaker": "Paco",
+  "sheetId": "Story_Paco_Lv2",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "NPC_HumanMale_Paco",
+  "nonverbal": false,
+  "count": 2,
+  "voiceId": "uLCvmeolFYSV8RxA07Mn",
+  "voiceName": "Male voice",
+  "castFrom": "name_paco",
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51be13eb3561642817005d04"
+ },
+ "bark_c602f4fc3f235a3d": {
+  "text": "Gino? Gino!",
+  "speaker": "Coyote",
+  "sheetId": "Story_Coyote_Lv2",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_CoyoteHealed",
+  "nonverbal": false,
+  "count": 4,
+  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+  "voiceName": "Gabby - Authentic, Raspy and Kind",
+  "castFrom": "name_coyote",
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51c24dc8356164200d006df2"
+ },
+ "bark_4a25f10e21eb96af": {
+  "text": "Those poor tweakers...",
+  "speaker": "Paco",
+  "sheetId": "Story_Paco_Lv2",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "NPC_HumanMale_Paco",
+  "nonverbal": false,
+  "count": 2,
+  "voiceId": "uLCvmeolFYSV8RxA07Mn",
+  "voiceName": "Male voice",
+  "castFrom": "name_paco",
+  "scenes": [
+   "c09-s1_tweakers"
+  ],
+  "actorId": "51be13eb3561642817005d04"
+ },
+ "bark_f3a243a7b852e302": {
+  "text": "Looks like it's the key to the warehouse.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c10-s1_planeyardreturn"
+  ],
+  "actorId": null
+ },
+ "bark_be84cb0bae6c4056": {
+  "text": "Huh?",
+  "speaker": "Scrawny Guard",
+  "sheetId": "Lonestar_Lv2_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_264",
+  "voiceName": "Caleb Ryan",
+  "castFrom": "name_scrawnyguard",
+  "scenes": [
+   "c10-s1_planeyardreturn"
+  ],
+  "actorId": "93ca407c623331a039005c98"
+ },
+ "bark_a2086e8dccb2c9f2": {
+  "text": "Fan out and secure the area!",
+  "speaker": "Shadowrunner",
+  "sheetId": "Lonestar_Lv2_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c10-s1_planeyardreturn"
+  ],
+  "actorId": "93c26a02623331a039005c89"
+ },
+ "bark_5f603715298ee65f": {
+  "text": "Find that data or we're dead meat!",
+  "speaker": "Shadowrunner",
+  "sheetId": "Lonestar_Lv3_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c10-s2_planeyardreturn"
+  ],
+  "actorId": "92f476946233312c2f006179"
+ },
+ "bark_3704d8b946ab86f5": {
+  "text": "We need to get rid of these guys before we can summon the spirit.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c10-s2_planeyardreturn"
+  ],
+  "actorId": null
+ },
+ "bark_2b2b6607e7bd9d99": {
+  "text": "That's the last one. Follow me!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c10-s2_planeyardreturn"
+  ],
+  "actorId": null
+ },
+ "bark_e77c49eaa47b13bf": {
+  "text": "I will now summon the spirit.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c10-s2_planeyardreturn"
+  ],
+  "actorId": null
+ },
+ "bark_13422faa0a4aa1ca": {
+  "text": "We were here first, assholes! This is OUR score.",
+  "speaker": "Shadowrunner",
+  "sheetId": "Lonestar_Lv3_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c10-s2_planeyardreturn"
+  ],
+  "actorId": "92f5f7cd6233312c2f00617d"
+ },
+ "bark_84c6948f89194403": {
+  "text": "Mrs. Kubota is in the back.",
+  "speaker": "Janitor",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_501",
+  "voiceName": "Noah Bailey",
+  "castFrom": "name_janitor",
+  "scenes": [
+   "c11-s1_seamstress"
+  ],
+  "actorId": "7b3b7e3b62333180150039b5"
+ },
+ "bark_f8960b45edd62fb5": {
+  "text": "Hey, I just swept there!",
+  "speaker": "Janitor",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_501",
+  "voiceName": "Noah Bailey",
+  "castFrom": "name_janitor",
+  "scenes": [
+   "c11-s1_seamstress"
+  ],
+  "actorId": "7b3b9ced62333180150039b6"
+ },
+ "bark_e05c86ae657e4644": {
+  "text": "What's in these sausages?",
+  "speaker": "Cherry Bomb",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_CherryBomb",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_293",
+  "voiceName": "Olivia Smith",
+  "castFrom": "name_cherrybomb",
+  "scenes": [
+   "c11-s1_seamstress"
+  ],
+  "actorId": "7b8a9d6e623331c409007ac3"
+ },
+ "bark_1aef43012a9b1259": {
+  "text": "Morning!",
+  "speaker": "Coyote Ugly",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_CoyoteUgly",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+  "voiceName": "Gabby",
+  "castFrom": "name_coyoteugly",
+  "scenes": [
+   "c11-s1_seamstress"
+  ],
+  "actorId": "7b8bfb54623331c409007ac4"
+ },
+ "bark_11cb7e01409d66f9": {
+  "text": "Hacked: News Article",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": null
+ },
+ "bark_4d693d994d3adae1": {
+  "text": "Hacked: DNA Database",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": null
+ },
+ "bark_598b35d49a8b2b22": {
+  "text": "Hacked: Autopsy Records",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": null
+ },
+ "bark_cb8ccbcefc7327db": {
+  "text": "Hacked: Patient Records",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": null
+ },
+ "bark_e69591149f03f475": {
+  "text": "100% match to a ... dead man? Let's keep looking.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_b8d79ea620278196": {
+  "text": "I've got two more hits on the name Silas Forsberg.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_671be0020a3aaebe": {
+  "text": "This just keeps getting weirder...",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_9eac78b1891981b1": {
+  "text": "Now that might be something we can go on. Let's regroup in meat space for a bit.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_81784b84b904a684": {
+  "text": "Got a name now - Dr. Holmes? Let's keep going and find out where he works.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_8f5aba5e16c4066b": {
+  "text": "Bingo. Back to meat-space again.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_34d0b1e1e06b8f20": {
+  "text": "Hacked: Employment Records",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": null
+ },
+ "bark_3248e57305880951": {
+  "text": "We're in.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_56177da97c7c2608": {
+  "text": "That arch will take us to the next node.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_14f2475f21080f9e": {
+  "text": "The data store ahead is defended by intrusion countermeasures.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_c5a596e6063ad09a": {
+  "text": "Watch out! That black IC could fry our brains and kill us!",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 2,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_5c9fd308ac62800e": {
+  "text": "The IC is down. Let's see if there's a match for this fingerprint.",
+  "speaker": "Johnny Clean",
+  "sheetId": "Story_JohnnyClean",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "fafbad9c623331341400482c"
+ },
+ "bark_dec74b41776b333b": {
+  "text": "There's a cockroach in my eggs!",
+  "speaker": "Runner",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "8b8f7dad62333170090070a6"
+ },
+ "bark_4a4914e3c97d931f": {
+  "text": "That's the protein boost.",
+  "speaker": "Mersmann",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_OrkMale_EricMersmann",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "8f5329766233318c24006e9f"
+ },
+ "bark_cfe2db6b651f77ca": {
+  "text": "I'll have the pancakes.",
+  "speaker": "Runner",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "8f52358a6233318c24006e9c"
+ },
+ "bark_0d631f1a29d99dc2": {
+  "text": "Change the damn channel.",
+  "speaker": "Runner",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "8f53a9786233318c24006ea2"
+ },
+ "bark_b55f50e234ee0779": {
+  "text": "After my soaps are over.",
+  "speaker": "Runner",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "8f53a9776233318c24006ea1"
+ },
+ "bark_7a2cb054257e8f6e": {
+  "text": "Shhh, still sleeping in there.",
+  "speaker": "Runner",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c11-s2_matrixrun"
+  ],
+  "actorId": "8f5b191c6233318c24006ea3"
+ },
+ "bark_a56cce3a9267cd49": {
+  "text": "He will be with you in a moment.",
+  "speaker": "Receptionist",
+  "sheetId": "BaseTemplate",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_JohnMaloney_JohnnyMaloney",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_41",
+  "voiceName": "Chase Reed",
+  "castFrom": "name_receptionist",
+  "scenes": [
+   "c12-s1_mercymental"
+  ],
+  "actorId": "cc0709aa623331a006006787"
+ },
+ "bark_bfd35b9e9758a13c": {
+  "text": "I'll be here.",
+  "speaker": "Lorraine",
+  "sheetId": "BaseTemplate",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s1_mercymental"
+  ],
+  "actorId": "19038f046233318c0a0069ea"
+ },
+ "bark_dfb4d999ee18b985": {
+  "text": "Please stay within the cafeteria.",
+  "speaker": "Hospital Guard",
+  "sheetId": "Lonestar_Lv3_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s1_mercymental"
+  ],
+  "actorId": "196d6d87623331f417001a37"
+ },
+ "bark_257aa49d69dcf775": {
+  "text": "On the ground, now!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s1_mercymental"
+  ],
+  "actorId": null
+ },
+ "bark_ef0924fcc0d941e1": {
+  "text": "Hacked: Bathroom Door Lock",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s1_mercymental"
+  ],
+  "actorId": null
+ },
+ "bark_8c52a2b62344caff": {
+  "text": "Hacked: Private Records Data-store",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s1_mercymental"
+  ],
+  "actorId": null
+ },
+ "bark_4bf7b5cee1dc687d": {
+  "text": "Sure, when are you on break?",
+  "speaker": "Hospital Guard",
+  "sheetId": "Lonestar_Lv3_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s1_mercymental"
+  ],
+  "actorId": "196d6d87623331f417001a37"
+ },
+ "bark_bde43892d6041df1": {
+  "text": "St... stay back...",
+  "speaker": "Violent Patient",
+  "sheetId": "Generic_Lv3_Human_Melee",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s2_mercymental"
+  ],
+  "actorId": "0401bc1f623331901a0018d9"
+ },
+ "bark_dd37375b93b15bda": {
+  "text": "Who opened the cells? They'll kill us all!",
+  "speaker": "Hospital Security",
+  "sheetId": "Lonestar_Lv3_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s2_mercymental"
+  ],
+  "actorId": "13aff4cf623331741b0018c1"
+ },
+ "bark_4672b1ba52b972bf": {
+  "text": "The surgical cart contains a gate key.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c12-s2_mercymental"
+  ],
+  "actorId": null
+ },
+ "bark_6a7d649c5f802c3a": {
+  "text": "There's an unlabeled trivid disc in the second drawer.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s2_mercymental"
+  ],
+  "actorId": null
+ },
+ "bark_4fd931174dad05b1": {
+  "text": "Can't you do anything right, Pitezel?",
+  "speaker": "Dr. Holmes",
+  "sheetId": "Boss_Holmes",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_ElfMale_Holmes",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_342",
+  "voiceName": "Christopher Sullivan",
+  "castFrom": "name_drholmes",
+  "scenes": [
+   "c12-s3_mercymental"
+  ],
+  "actorId": "3710970d623331981d004ae2"
+ },
+ "bark_3536c72e1e26eced": {
+  "text": "Found a key...",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c12-s3_mercymental"
+  ],
+  "actorId": null
+ },
+ "bark_52c1c0a4c6251183": {
+  "text": "Halt! This is a restricted area!",
+  "speaker": "Lonestar Guard",
+  "sheetId": "Lonestar_Lv5_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson",
+  "castFrom": "name_lonestarguard",
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ],
+  "actorId": "223344283030319c11001e0f"
+ },
+ "bark_6149a77fdef6eacf": {
+  "text": "Sound the alarm! Open fire!",
+  "speaker": "Lonestar Guard",
+  "sheetId": "Lonestar_Lv5_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson",
+  "castFrom": "name_lonestarguard",
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ],
+  "actorId": "22332d403030319c11001e0e"
+ },
+ "bark_ddfd26a541347da6": {
+  "text": "Call the Response Center! We need reinforcements!",
+  "speaker": "Lonestar Mage",
+  "sheetId": "Lonestar_Lv5_Human_Mage",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ],
+  "actorId": "288b47f5303031a0040018c5"
+ },
+ "bark_2e5b8bedc674923a": {
+  "text": "This position is compromised!",
+  "speaker": "Lonestar Mage",
+  "sheetId": "Lonestar_Lv5_Human_Mage",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ],
+  "actorId": "288b47f5303031a0040018c5"
+ },
+ "bark_990e656cc666468f": {
+  "text": "Fragging coward!",
+  "speaker": "Lonestar Mage",
+  "sheetId": "Lonestar_Lv5_Human_Mage",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ],
+  "actorId": "288b47f5303031a0040018c5"
+ },
+ "bark_136274186d0da4d7": {
+  "text": "Wait here and cover me.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ],
+  "actorId": null
+ },
+ "bark_3fe07dee5d5de07a": {
+  "text": "That's some serious hardware... let's see if we can go around 'em.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ],
+  "actorId": null
+ },
+ "bark_aa9bc8508ddca3fb": {
+  "text": "You place the cables and data chips around the terminal's casing.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c14-s3_daytelestrianoffice"
+  ],
+  "actorId": null
+ },
+ "bark_bb7b8d41a6ef6d53": {
+  "text": "You pick up the cigar.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c14-s4_daytelestriantopfloor"
+  ],
+  "actorId": null
+ },
+ "bark_a838841306153e2e": {
+  "text": "Hey, this is restricted area!",
+  "speaker": "Telestrian Worker",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_502",
+  "voiceName": "Logan Price",
+  "castFrom": "name_telestrianworker",
+  "scenes": [
+   "c14-s4_daytelestriantopfloor"
+  ],
+  "actorId": "ae81d0bc3030315004006df7"
+ },
+ "bark_19845155c2a188dc": {
+  "text": "You can't go in there!",
+  "speaker": "Telestrian Worker",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_502",
+  "voiceName": "Logan Price",
+  "castFrom": "name_telestrianworker",
+  "scenes": [
+   "c14-s4_daytelestriantopfloor"
+  ],
+  "actorId": "ae81c9643030315004006df6"
+ },
+ "bark_a71ab17d8fe6f060": {
+  "text": "Hoi! Gimme another!",
+  "speaker": "Patron",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c15-s1_seamstress"
+  ],
+  "actorId": "51be4201623331200e004037"
+ },
+ "bark_6ab288be1f9977cb": {
+  "text": "Cherry!",
+  "speaker": "Patron",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c15-s1_seamstress"
+  ],
+  "actorId": "51be4210623331200e004039"
+ },
+ "bark_8fc5c9408e0f19de": {
+  "text": "Again, really?",
+  "speaker": "ElfRigger",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c15-s1_seamstress"
+  ],
+  "actorId": "8ca471b13030315810000bb5"
+ },
+ "bark_47125ecff830e8c4": {
+  "text": "Credentials, please.",
+  "speaker": "Lonestar Guard",
+  "sheetId": "Lonestar_Lv5_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson",
+  "castFrom": "name_lonestarguard",
+  "scenes": [
+   "c15-s2_labrun"
+  ],
+  "actorId": "b60bf3e8623331c80e0026de"
+ },
+ "bark_7c544f5c82047792": {
+  "text": "Oh drek!",
+  "speaker": "Lonestar Guard",
+  "sheetId": "Lonestar_Lv5_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson",
+  "castFrom": "name_lonestarguard",
+  "scenes": [
+   "c15-s2_labrun"
+  ],
+  "actorId": "b60bf3e8623331c80e0026de"
+ },
+ "bark_306a9dfb9bccca43": {
+  "text": "A damn drone?!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c15-s2_labrun"
+  ],
+  "actorId": null
+ },
+ "bark_21e2742c2b111273": {
+  "text": "A basilisk? Why did it have to be a basilisk?",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c15-s2_labrun"
+  ],
+  "actorId": null
+ },
+ "bark_fef7dabc4e27d94e": {
+  "text": "Hacked: Auto Turret IFF System",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c15-s2_labrun"
+  ],
+  "actorId": null
+ },
+ "bark_a099ddeb2fd59cd2": {
+  "text": "There $(l.he) is!",
+  "speaker": "Johnny Clean",
+  "sheetId": "Lonestar_Lv1_Human_Mage",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_GregWilhelm_JohnnyClean_Tribute",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner",
+  "castFrom": "name_johnnyclean",
+  "scenes": [
+   "c17-s0_seamstress"
+  ],
+  "actorId": "8f322d3630303128160026ed"
+ },
+ "bark_d90e96fc8b6e430f": {
+  "text": "Ma'am, we received your code red!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c17-s1_funeral"
+  ],
+  "actorId": null
+ },
+ "bark_206cadf676b74c73": {
+  "text": "Only three? No problem.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c17-s1_funeral"
+  ],
+  "actorId": null
+ },
+ "bark_2f40a93aa700d8df": {
+  "text": "Team B, move in!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c17-s1_funeral"
+  ],
+  "actorId": null
+ },
+ "bark_57782d229ddb52dc": {
+  "text": "You heard the boss, get it done.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c17-s1_funeral"
+  ],
+  "actorId": null
+ },
+ "bark_fd4de36b45d14253": {
+  "text": "Oh hell, ghouls!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c17-s1_funeral"
+  ],
+  "actorId": null
+ },
+ "bark_10a7d3e18befcaf7": {
+  "text": "Maria Mercurial!",
+  "speaker": "NPC4",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s0_pikeplaceconcert"
+  ],
+  "actorId": "80c8c9913064347c17005534"
+ },
+ "bark_bcbeb3860d1f81c6": {
+  "text": "Is that her?",
+  "speaker": "Concert3",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s0_pikeplaceconcert"
+  ],
+  "actorId": "51c1eae3623331f014000f3f"
+ },
+ "bark_49b51e0e2d9175e6": {
+  "text": "Think she’ll play “Who Weeps?”",
+  "speaker": "Concert5",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s0_pikeplaceconcert"
+  ],
+  "actorId": "51c1eaf0623331f014000f41"
+ },
+ "bark_98c9047c61e2edd6": {
+  "text": "You see her at Underworld 93?",
+  "speaker": "NPC3",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s0_pikeplaceconcert"
+  ],
+  "actorId": "80c6dc633064347c17005531"
+ },
+ "bark_56e1babe1de0dd39": {
+  "text": "Damn SINless people making more work for me!",
+  "speaker": "Cook",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "Generic_OrkFemale_Drummer",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_567",
+  "voiceName": "Carmen Rosales",
+  "castFrom": "name_cook",
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "51afe3c5633635d415008041"
+ },
+ "bark_0bf932ca78ed5f0e": {
+  "text": "All my possessions?",
+  "speaker": "NPC",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "af504b36306434341600441e"
+ },
+ "bark_d111cbe92e6e8aab": {
+  "text": "They will be meaningless.",
+  "speaker": "Brother Shane",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "af18e51b306434e408004419"
+ },
+ "bark_ad429e3692acbd9d": {
+  "text": "You can be more than human.",
+  "speaker": "UBC4",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "51a813f8633635a828007085"
+ },
+ "bark_bdf7610a4d7c56d5": {
+  "text": "I already paid my surgeon to be so.",
+  "speaker": "C3",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "af515e11306434341600441f"
+ },
+ "bark_f68248ad84c48cd6": {
+  "text": "I've done bad things...",
+  "speaker": "C5",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "af4ec9dd306434341600441c"
+ },
+ "bark_58ece203aa855e93": {
+  "text": "Your past is irrelevant, it’s your future that counts.",
+  "speaker": "UBC 5",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "af18f2d0306434e40800441b"
+ },
+ "bark_257671a3a0f8c770": {
+  "text": "It sure is cold out here...",
+  "speaker": "Homey Wanderer",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "51c0ab7b323539d40d00399e"
+ },
+ "bark_611e6056947dbec7": {
+  "text": "Don't kill me! I only cook for the freaks!",
+  "speaker": "Cook",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "Generic_OrkFemale_Drummer",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_567",
+  "voiceName": "Carmen Rosales",
+  "castFrom": "name_cook",
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": "51afe3c5633635d415008041"
+ },
+ "bark_5f209015ff9fb940": {
+  "text": "This door must have locked when you let us in.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 3,
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator",
+  "castFrom": "narrator",
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ],
+  "actorId": null
+ },
+ "bark_3a7c8e09356c2c73": {
+  "text": "Stop them!",
+  "speaker": "Brotherhood Follower",
+  "sheetId": "Generic_Lv4_Human_Melee",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s2_brotherhood-s"
+  ],
+  "actorId": "5196c2b33030313815005fb7"
+ },
+ "bark_ebe734bab56f58bc": {
+  "text": "You're not supposed to be here!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c21-s2_brotherhood-s"
+  ],
+  "actorId": null
+ },
+ "bark_21349182e5208592": {
+  "text": "Hey! Get me out of here!",
+  "speaker": "Marie-Louise",
+  "sheetId": "BaseTemplate",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_MarieLouiseTelestrian",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_839",
+  "voiceName": "Isla MacKenzie",
+  "castFrom": "name_marielouise",
+  "scenes": [
+   "c21-s2_brotherhood-s"
+  ],
+  "actorId": "5196f656303031a812002ebf"
+ },
+ "bark_ae0ecdca4707bcc4": {
+  "text": "Please help!",
+  "speaker": "Marie-Louise",
+  "sheetId": "BaseTemplate",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_MarieLouiseTelestrian",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_839",
+  "voiceName": "Isla MacKenzie",
+  "castFrom": "name_marielouise",
+  "scenes": [
+   "c21-s2_brotherhood-s"
+  ],
+  "actorId": "5196f656303031a812002ebf"
+ },
+ "bark_5867437131c7dcdc": {
+  "text": "You will not escape!",
+  "speaker": "Jessica Watts",
+  "sheetId": "BaseTemplate",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_JessicaWattsUB",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+  "voiceName": "Lily - Velvety Actress",
+  "castFrom": "name_jessicawatts",
+  "scenes": [
+   "c21-s2_brotherhood-s"
+  ],
+  "actorId": "5196f964303031a812002f0a"
+ },
+ "bark_0678ad00da4781e7": {
+  "text": "You're not going anywhere.",
+  "speaker": "Lonestar Captain",
+  "sheetId": "Lonestar_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c22-s1_telestrianoffice"
+  ],
+  "actorId": "51c22042623331240d0001ec"
+ },
+ "bark_02174377bebf3a49": {
+  "text": "Fall back to the elevated one!",
+  "speaker": "Brotherhood Gunner",
+  "sheetId": "Brotherhood_Lv5_Gunner",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c25-s3_hive-1"
+  ],
+  "actorId": "a549431a3030318017004da6"
+ },
+ "bark_7dffa3dd3f9c7908": {
+  "text": "Glory to the elevated!",
+  "speaker": "Brotherhood Gunner",
+  "sheetId": "Brotherhood_Lv5_Gunner",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 2,
+  "scenes": [
+   "c25-s3_hive-1"
+  ],
+  "actorId": "a54948cc3030318017004da7"
+ },
+ "bark_88b5979986ae0fa0": {
+  "text": "\"She's drawing power from that... thing!\"",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "scenes": [
+   "c25-s5_hive-3"
+  ],
+  "actorId": null
+ },
+ "bark_a52247ac4251c55d": {
+  "text": "My normal attacks have been removed.",
+  "speaker": "Jessica Watts",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_JessicaWattsUB",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+  "voiceName": "Lily - Velvety Actress",
+  "castFrom": "name_jessicawatts",
+  "scenes": [
+   "c25-s5_hive-3"
+  ],
+  "actorId": "51991460303031f00700002b"
+ },
+ "bark_1f2f35e92b75ca31": {
+  "text": "You have ruined everything!",
+  "speaker": "Jessica Watts",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_JessicaWattsUB",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+  "voiceName": "Lily - Velvety Actress",
+  "castFrom": "name_jessicawatts",
+  "scenes": [
+   "c25-s5_hive-3"
+  ],
+  "actorId": "51991460303031f00700002b"
+ },
+ "bark_d40c7dda796209a2": {
+  "text": "*groan*",
+  "speaker": "McKlusky",
+  "sheetId": "Lonestar_Lv1_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_OrkMale_MacKlusky",
+  "nonverbal": false,
+  "count": 1,
+  "voiceId": "mag_511",
+  "voiceName": "Dorian Malice",
+  "castFrom": "name_mcklusky",
+  "scenes": [
+   "c26-s0_pikeplacefinale"
+  ],
+  "actorId": "51c10757616634ec17006181"
+ }
+}
