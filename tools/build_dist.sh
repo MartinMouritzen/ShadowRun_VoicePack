@@ -21,6 +21,14 @@ python3 tools/build_voicepack.py "$GAME_ID"
 rm -rf "$DIST"; mkdir -p "$DIST"
 # 1. BepInEx x86 loader (winhttp.dll, doorstop, BepInEx/core) — shared across games
 cp -r "$ROOT/bepinex_dist/." "$DIST/"
+# 1b. Vortex compatibility marker: a copy of the Doorstop proxy named dinput8.dll.
+# The GAME loads winhttp.dll (verified in its PE import table), which is what actually boots BepInEx;
+# dinput8.dll is NOT imported by the game, so it never loads and is completely inert in-game.
+# Its ONLY purpose is to trigger Vortex's built-in, game-agnostic "dinput" installer, which deploys
+# the whole archive to the GAME ROOT (copy-only: it never rewrites BepInEx.cfg and never renames the
+# mod). This makes the green "Mod Manager Download" button work in stock Vortex for anyone already
+# managing the game the normal way — no custom game extension and no PR required. Do not remove.
+cp "$DIST/winhttp.dll" "$DIST/dinput8.dll"
 # 2. Entrypoint config: per-game override (dist_template/<game>/BepInEx.cfg) if present, else shared
 mkdir -p "$DIST/BepInEx/config"
 if [ -f "$ROOT/dist_template/$GAME_ID/BepInEx.cfg" ]; then
