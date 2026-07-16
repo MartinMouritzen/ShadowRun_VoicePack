@@ -1,0 +1,1842 @@
+{
+ "bark_52ca66ee14ba4280": {
+  "text": "Movement!",
+  "speaker": "Duncan",
+  "sheetId": "Crew_Duncan_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "npc_orkMale_Wu",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_06152e30e5617b6d": {
+  "text": "[Shouting in Cantonese.]",
+  "speaker": "Tattooed Gunman",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_OrkMale_01",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_a047cb5c4071abc7": {
+  "text": "[More Cantonese. Too quick to catch.]",
+  "speaker": "Mage",
+  "sheetId": "Errant_Lv1_Human_Mage",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_725c20f65b6d39b9": {
+  "text": "Do you think those guys were triad?",
+  "speaker": "Carter",
+  "sheetId": "Crew_Sabot_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "Backer_ElfFemale_EricClough",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_e9f19588a2a710ea": {
+  "text": "Not sure. I don't recognize their tattoos.",
+  "speaker": "Duncan",
+  "sheetId": "Crew_Duncan_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "npc_orkMale_Wu",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_a0bc90c2881c9bc7": {
+  "text": "Get down! Now!",
+  "speaker": "Gobbet",
+  "sheetId": "Crew_Gobbet_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "npc_orkFemale_Gobbet",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_30acba316e21d11f": {
+  "text": "Snipers! Take cover!",
+  "speaker": "Shy Dwarf",
+  "sheetId": "Crew_Is0bel_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "npc_dwarfFemale_Is0bel",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5aede7d3464e6a46": {
+  "text": "CARTER!",
+  "speaker": "Duncan",
+  "sheetId": "Crew_Duncan_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "npc_orkMale_Wu",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_15f86a93fb1ffe33": {
+  "text": "That sniper means business! Stay in cover!",
+  "speaker": "Duncan",
+  "sheetId": "Crew_Duncan_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "npc_orkMale_Wu",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_3c1911147d955f35": {
+  "text": "I thought he was dead!",
+  "speaker": "Yellow Lotus Captain",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_ca9712df1f293ca1": {
+  "text": "Get him!",
+  "speaker": "Yellow Lotus Conjurer",
+  "sheetId": "Errant_Lv1_Elf_Shaman",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_cdddf88a0b06af5d": {
+  "text": "Step back, or you'll regret it.",
+  "speaker": "Yellow Lotus Guard",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_005c1979d3d0a336": {
+  "text": "They're here! Put 'em down!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_eb7dfe756ef0a525": {
+  "text": "Go on through.",
+  "speaker": "Yellow Lotus Captain",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9a43d1e69f7cc3b6": {
+  "text": "Over here... h- help...",
+  "speaker": "Bloodied Woman",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "Backer_HumanFemale_EstherZinn",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_50abc0095d4f9ea4": {
+  "text": "This one's mine. Step off.",
+  "speaker": "New Civilian",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2d89f3d31ceccd03": {
+  "text": "We should't be here when they come running.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2a60cc7e53afe1e6": {
+  "text": "Guns at the ready! We're going up.",
+  "speaker": "Security Officer",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_0897400967386741": {
+  "text": "Wait! It was just part of the drill!",
+  "speaker": "Wuxing Employee",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_78115a590c509d3f": {
+  "text": "Get in there and secure the body!",
+  "speaker": "Security Officer",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_bd452c22d5791272": {
+  "text": "Light and dark balance is key to maintain good Qi.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_aa7d5fbd1998dc9f": {
+  "text": "That doesn't sound good.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_052babe4058294dd": {
+  "text": "Yeah, that sounds like company.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_ade40288949efff4": {
+  "text": "Well, they look happy to see us...",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_e0dfd02880ab38e1": {
+  "text": "Why is it so cold in here?",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_a09954fee0b93336": {
+  "text": "I can see my breath.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_fba649cd7a2231ef": {
+  "text": "I'm sure you'll get the part. Your audition was excellent!",
+  "speaker": "New Actor",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c3568952df156263": {
+  "text": "That's wonderful! When will you get a call back?",
+  "speaker": "New Actor",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5e0160061acdb066": {
+  "text": "Did you hear he's half-Russian? It's no wonder he gets those overseas jobs.",
+  "speaker": "New Actor",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_17e17add819d2498": {
+  "text": "I'm gonna have to make it for three million less than my original budget.",
+  "speaker": "New Actor",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5e47cf2be0bd8af1": {
+  "text": "That party looks like it's really fancy. Who's throwing it?",
+  "speaker": "New Actor",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_7fe578a947ab8b72": {
+  "text": "I don't know, but I could swear I saw Penelope Wong in there.",
+  "speaker": "New Actor",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_b2d0ed677401eef2": {
+  "text": "Oh man. I'd love to meet her. She's so glamorous!",
+  "speaker": "New Actor",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_391b8f09e4009c0f": {
+  "text": "Yeah, ten orders! I'm having a party!",
+  "speaker": "New Civilian",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_3e694f229d592b0c": {
+  "text": "Sure, I can wait.",
+  "speaker": "New Civilian",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_f64b55a145e9d5b9": {
+  "text": "The boss is in the back. Go on through.",
+  "speaker": "Triad Blue Lantern",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_64a9225f90cf2f67": {
+  "text": "Buzz off.",
+  "speaker": "Triad Blue Lantern",
+  "sheetId": "Errant_Lv1_Human_Mage",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_54bcdb307b9c7017": {
+  "text": "Secure Mr. Lee!",
+  "speaker": "Corporate Bodyguard",
+  "sheetId": "Vanguard_Lv5_Mercenary",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c37444c15b47f11f": {
+  "text": "Code 12!",
+  "speaker": "Plastic-Faced Man",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_HumanMale_Extraction_PlasticFacedMan",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_bca157d6856f73da": {
+  "text": "Shadowrunners?!",
+  "speaker": "Corporate Bodyguard",
+  "sheetId": "Vanguard_Lv5_Mercenary",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6d5e24b0929678bb": {
+  "text": "Hey, there's a line!",
+  "speaker": "New Civilian",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_dd66ee20b282cdd7": {
+  "text": "Please, wait your turn.",
+  "speaker": "New Civilian",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_b259d9edcd9162f5": {
+  "text": "Get down! I'll radio HKPF.",
+  "speaker": "Corporate Bodyguard",
+  "sheetId": "Vanguard_Lv5_Mercenary",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_a97e6ebebcf8bed1": {
+  "text": "HKPF is inbound.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5b74b4ccf39621ea": {
+  "text": "Activate a drone to send into the vent.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 6
+ },
+ "bark_c595cdacdcc57e7c": {
+  "text": "I've picked my teeth with tougher bastards than you!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c645ea646ead8246": {
+  "text": "Raven sends his regards, asshole!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_d8d50e7580c85f8d": {
+  "text": "Guns are no match for my fists!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_4039cf5f6310e960": {
+  "text": "Target neutralized!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6b7acb280d88c7c5": {
+  "text": "There they are!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2d104d7e3403088a": {
+  "text": "Hostiles spotted.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_f40cab816f33123c": {
+  "text": "What the hell?",
+  "speaker": "Renraku Enforcer",
+  "sheetId": "Errant_Lv1_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_dd7299b798ff1e64": {
+  "text": "Ouch!",
+  "speaker": "Renraku Guard",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_8607b89c635218d0": {
+  "text": "I've got them on visual.",
+  "speaker": "Red Samurai Gunner",
+  "sheetId": "RedSamurai_Lv1_Heavy",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_fbfecfde0de9f2f3": {
+  "text": "It's him!",
+  "speaker": "Ishida",
+  "sheetId": "RedSamurai_Lv1_Captain",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "male",
+  "portrait": "NPC_HumanMale_GaichuTrust_SamuraiCaptain",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_16b6fd4a9b185204": {
+  "text": "Devil rats! Don't let them bite you!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_32f03a3dfbe49536": {
+  "text": "Another swarm! Kill it!",
+  "speaker": "$(scene.Global_Name_CompelledLocal1)",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_GobbetTrust_Kara",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_787ed4ed3da9ccdd": {
+  "text": "Got the bastards.",
+  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_GobbetTrust_Patrick",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_86c7f8a510fe6e02": {
+  "text": "Come join us by the fire and get warm.",
+  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_GobbetTrust_Patrick",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_660043ff54f08280": {
+  "text": "We don't want to do this, but we don't have a choice!",
+  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_GobbetTrust_Patrick",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_ef078e6e9d58b70f": {
+  "text": "It's just over here. Follow me.",
+  "speaker": "$(scene.Global_Name_CompelledLocal1)",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_GobbetTrust_Kara",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_292be986ce683a71": {
+  "text": "Incoming!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_57475e6ace008ee4": {
+  "text": "Let's keep going!",
+  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_GobbetTrust_Patrick",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_dd54c48dd9c691ee": {
+  "text": "Down you go!",
+  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_GobbetTrust_Patrick",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9a71021f1f1d2733": {
+  "text": "They're still coming!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_1f8e02ec0fed8bfb": {
+  "text": "<WE ARE IMMORTAL... UNENDING... LEGION...>",
+  "speaker": "The Rat King",
+  "sheetId": "RatKing_Lv1",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "NPC_Creature_02HK_Malvina",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6667471dc0969741": {
+  "text": "Hey, Malvina! I've got something of yours.",
+  "speaker": "Gobbet",
+  "sheetId": "Crew_Gobbet_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "npc_orkFemale_Gobbet",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_274bebcec9663206": {
+  "text": "<PAIN... WE WILL SHOW YOU PAIN...>",
+  "speaker": "The Rat King",
+  "sheetId": "RatKing_Lv1",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "NPC_Creature_02HK_Malvina",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_8e00640e7094d7c5": {
+  "text": "There's the Shiny Object! She must be feeding on the thing!",
+  "speaker": "Gobbet",
+  "sheetId": "Crew_Gobbet_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "female",
+  "portrait": "npc_orkFemale_Gobbet",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_af32d6d4a1a0394e": {
+  "text": "What the hell did I tell you?! Waste this idiot!",
+  "speaker": "Red Spear Ganger",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c2084e1c9898c21f": {
+  "text": "Let's get 'em!",
+  "speaker": "$(scene.Convention_DrunkTrollName)",
+  "sheetId": "Adept_Lv1_HtH",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_TrollFemale_Is0belTrust_DrunkTroll",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_7c3a94457d1fa5d0": {
+  "text": "That's got it, this way to the suites!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_39de327e8362016b": {
+  "text": "...Of course, this year's model will feature our new \"Lightningwire\" jack interface technology!",
+  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_955219f9feceb4e4": {
+  "text": "Does that mean that it won't be compatible with older jack interfaces?",
+  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_1ca460214af610d5": {
+  "text": "Unfortunately, we couldn't bring you the ultimate in datajack uplink speeds without redesigning the interface.",
+  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_7a41fb130f045ace": {
+  "text": "You *will* have to update your datajack to take advantage of these exciting new features. But I have these vouchers to help you with that...",
+  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_3da9380ed81a2b3c": {
+  "text": "Excuse me! A presentation is underway, please walk around.",
+  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9effc39d1ad14b2e": {
+  "text": "The food here is always drek. Why do we keep buying it?",
+  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_20b969707530501c": {
+  "text": "Because eating this is better than waiting in line to get back into the Con.",
+  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_97d110131dad5e13": {
+  "text": "Let's go, clear out of the server room.",
+  "speaker": "Hotel Security Guard",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_46b30e6ddb70de37": {
+  "text": "Hey! I said no entry. I need back up on the bottom floor!",
+  "speaker": "Convention Security Guard",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_Is0belTrust_SecurityGuard",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2119b4b8b9d48ee9": {
+  "text": "Hello?! Security! I had to flee to room 203. Quick get me out of here.",
+  "speaker": "Rhombus",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_HumanMale_Is0belTrust_Rhombus",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_0db0acdf9ddef6e1": {
+  "text": "We're in position and we've secured the target.",
+  "speaker": "HKPF Captain",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_559b3394af1c1f92": {
+  "text": "Oh boy.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_60ac90e9261a83d4": {
+  "text": "Interesting.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_cbaafdb41303212e": {
+  "text": "What the hell was that?",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_93a1e5edf254ec29": {
+  "text": "Watch out!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_a74fce5388301926": {
+  "text": "...Where did they go?",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_a08aed7f9c816a69": {
+  "text": "Buckle up.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 3
+ },
+ "bark_ceaed999ffdd6931": {
+  "text": "I thought we were through the worst of it.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_3e2f2069baca0bb0": {
+  "text": "Only a minor annoyance.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_85a18cfbbbb51823": {
+  "text": "Another roadblock. Of course.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_9fbd1ced6be9b26b": {
+  "text": "Here we go again.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2a095c04b89c99a7": {
+  "text": "More hostiles.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_b454c6226ce9168a": {
+  "text": "Do you see that?",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_654245a80dc28440": {
+  "text": "Chatty customers always killing my tips.",
+  "speaker": "Waitress",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_bb86fbfc55420978": {
+  "text": "Food Poisoning!",
+  "speaker": "Johnny \"The Talon\"",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_OrkMale_ShangriLa_Talon",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_4e2974eac256bbd8": {
+  "text": "It's open! Let's go!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_f9c844017c889cc0": {
+  "text": "Hey! Jackpoint over here!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_de5df95a8e40013e": {
+  "text": "That crab was truly amazing. I just wish I didn't have to wait an hour to get it.",
+  "speaker": "New Civilian",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_b8a1b4ba58364b4e": {
+  "text": "We're under attack, I said!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c14776ff7297deeb": {
+  "text": "Control, we're under attack!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_10ebbb97db411af2": {
+  "text": "I said there are intruders aboard!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_354f052dfb33748c": {
+  "text": "We've got intruders aboard!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9307ed946a6b7dfb": {
+  "text": "I said we're under attack!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_0e4bd8765b46a4cd": {
+  "text": "Raise the alarm, we're under attack!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_798ec61ec2f7dcff": {
+  "text": "Stop them before they raise the alarm!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_ce26725af1db0515": {
+  "text": "We're gonna have company soon.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_7b4d31b2ef3210bc": {
+  "text": "There's an emergency on C Deck!",
+  "speaker": "Security Enforcer",
+  "sheetId": "Errant_Lv1_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_7f3ed02865435bbe": {
+  "text": "Here they are! I've found the intruders!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9200e18861a6c731": {
+  "text": "We've got intruders aboard! Call for backup!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_051550d0201a6a3b": {
+  "text": "I think that's the last of them...",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_be9f4f9273968890": {
+  "text": "[In Cantonese] Give it now, or you die!",
+  "speaker": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_OrkFemale_Showdown_TriadRedPole",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_e34d7cba8741e87a": {
+  "text": "Need backup!",
+  "speaker": "Tsang Recon Commando",
+  "sheetId": "Errant_Lv6_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_0e749239185e6832": {
+  "text": "Lead the way!",
+  "speaker": "$(scene.Global_KuFeng_Name)",
+  "sheetId": "Vampire_Lv6_KuFeng",
+  "archetype": "gumbo_Mage",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_ExitStageLeft_KuFeng02",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_675151473653319b": {
+  "text": "So much for honor among theives!",
+  "speaker": "$(scene.OuterRing_LocalShaman_Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_MatthewDimalanta",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_b5fd8b32d5540927": {
+  "text": "STUNNED!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_b0b8f26b21ecb77a": {
+  "text": "Uhhh--- *groans*",
+  "speaker": "Kowloon Local",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": true,
+  "count": 1
+ },
+ "bark_0537f5c5c2962189": {
+  "text": "No. NO! Not the teeth. SO many teeth.",
+  "speaker": "Kowloon Local",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_db8f35056c8eef28": {
+  "text": "S--so many. They just. Claws. Wouldn't stop.",
+  "speaker": "Kowloon Local",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2ddbf101ecd19ba3": {
+  "text": "Can't. NO! WON'T take me. I refuse.",
+  "speaker": "Kowloon Local",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_22e21d7690db167a": {
+  "text": "Never. They listen; and now they are gone.",
+  "speaker": "Kowloon Local",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_4b7e0d4b14948ef4": {
+  "text": "All gone now. All gone.",
+  "speaker": "Kowloon Local",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9bfafe47d3e88b77": {
+  "text": "Stop right there!",
+  "speaker": "Yellow Lotus Soldier",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_810b9e7050871250": {
+  "text": "Move it, boys!",
+  "speaker": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_OrkFemale_Showdown_TriadRedPole",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_214acaed551fd7cf": {
+  "text": "Stop! Just stop, you can have it!",
+  "speaker": "$(scene.OuterRing_LocalShaman_Name)",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_MatthewDimalanta",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_ec38928a7d7f78bc": {
+  "text": "Got to be some way to get this door open.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_d367b51b321a5cac": {
+  "text": "Welcome to our domain, meat.",
+  "speaker": "Qian Ya",
+  "sheetId": "Boss_QianYachi_Astral",
+  "archetype": "gumbo_Mage",
+  "gender": "?",
+  "portrait": "NPC_Creature_02HK_QianYachi",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6cd6b42837f7c4b5": {
+  "text": "You're insane.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_0915c8b7b077374b": {
+  "text": "Stop this, now!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6d63da263de6d791": {
+  "text": "Bad move.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2
+ },
+ "bark_e940aafbc217ecac": {
+  "text": "We are going to have company!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6324000b8830c19c": {
+  "text": "Got them here! Send back up!",
+  "speaker": "Tsang Enforcer",
+  "sheetId": "Errant_Lv1_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_8c62b486da2e05da": {
+  "text": "You gots the uniforms on now, placeholder.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_15ba5a3bf2793640": {
+  "text": "Just drop it off in the back room and clear out.",
+  "speaker": "Tsang Captain",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_d45450774109f502": {
+  "text": "Just wait a few minutes and try not break anything!",
+  "speaker": "Tsang Captain",
+  "sheetId": "Errant_Lv1_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_119658e6d99b7e40": {
+  "text": "What the hell! Drop 'em!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c320365cf95dff3f": {
+  "text": "It's them! SECURITY!",
+  "speaker": "Receptionist",
+  "sheetId": "Adept_Lv1_HtH",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5cedec612e6df2a8": {
+  "text": "Intruders!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_3267c445a68dfc85": {
+  "text": "Intruders spotted, open fire!",
+  "speaker": "Tsang Enforcer",
+  "sheetId": "Errant_Lv1_Ork_Shotgun",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5d4f21bd572dc24a": {
+  "text": "Call for back up!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_1cdee6759f30552e": {
+  "text": "Oh Shit.",
+  "speaker": "Tsang Guard",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_7365e28e211a79fb": {
+  "text": "What the hell?!?! SECURITY!",
+  "speaker": "Tsang Research Mage",
+  "sheetId": "Errant_Lv1_Human_Mage",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_TsangTower_Mage",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9c871ad46676edda": {
+  "text": "Are you really...? Security!",
+  "speaker": "Tsang Research Mage",
+  "sheetId": "Errant_Lv1_Human_Mage",
+  "archetype": null,
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_TsangTower_Mage",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_4e53a59a36cf67f3": {
+  "text": "Engage hostiles!",
+  "speaker": "Tsang Guard",
+  "sheetId": "Errant_Lv1_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2d126f50d000dc35": {
+  "text": "Regrettable. SECURITY!",
+  "speaker": "Tsang VP",
+  "sheetId": "Errant_Lv1_Human_Mage",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_HumanMale_TsangTower_BusinessMan",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_638cad19f8f23403": {
+  "text": "Tell the second squad to fall back!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6f41779e37029263": {
+  "text": "No sign of cops.",
+  "speaker": "Duncan",
+  "sheetId": "Crew_Duncan_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "npc_orkMale_Wu_02",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_19f7eb86120b39b8": {
+  "text": "But I don't see a mahjong parlor.",
+  "speaker": "Duncan",
+  "sheetId": "Crew_Duncan_Lv1",
+  "archetype": "Guard - Protect",
+  "gender": "male",
+  "portrait": "npc_orkMale_Wu_02",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_75e9b4905f0d2045": {
+  "text": "Come in. We have a lot to talk about.",
+  "speaker": "Kindly Cheng",
+  "sheetId": "Auto_Lv1_Drone",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "female",
+  "portrait": "NPC_HumanFemale_KindlyCheng",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_bfb58671c668ebe7": {
+  "text": "Come on man, hurry up!",
+  "speaker": "Thrill Ganger",
+  "sheetId": "Errant_Lv7_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_4c1e9077724c18b8": {
+  "text": "Freeze!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_16b1ba7a83dabb3e": {
+  "text": "Stay where you are!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_61acc4191c616a30": {
+  "text": "(We will be safer here.)",
+  "speaker": "Resident",
+  "sheetId": "Adept_Lv1_HtH",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_957eefc1c277dbdd": {
+  "text": "(We can hide in the MTR tunnels!)",
+  "speaker": "New Actor",
+  "sheetId": "Adept_Lv1_HtH",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_70d80bdf41d8fbed": {
+  "text": "(Lets just hop a barricade.)",
+  "speaker": "New Actor",
+  "sheetId": "Adept_Lv1_HtH",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_31f2bb1bd571f8f0": {
+  "text": "(They can't be everywhere.)",
+  "speaker": "New Actor",
+  "sheetId": "Adept_Lv1_HtH",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_922fbaf00b2e8b34": {
+  "text": "SUNNY!",
+  "speaker": "Eddie \"Combat\" Pang",
+  "sheetId": "Errant_Lv7_Captain",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_Shadows_Peng",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_11afbfd953bc3082": {
+  "text": "Those must be the hostiles!",
+  "speaker": "HKPF Captain",
+  "sheetId": "Errant_Lv7_Captain",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_66ebe260c220d129": {
+  "text": "Take 'em out!",
+  "speaker": "HKPF Grenadier",
+  "sheetId": "Errant_Lv7_Heavy_Explosive",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_444f59b52e8e2326": {
+  "text": "INTRUDER DETECTED. MOVING TO INTERCEPT.",
+  "speaker": "Fuchi Drone",
+  "sheetId": "ClassB_Attack_Strato9 (Sniper)",
+  "archetype": "Player",
+  "gender": "?",
+  "portrait": "Generic_Drone_Strato9Sniper",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c89082e4fb5d2d73": {
+  "text": "LETHAL FORCE AUTHORIZED.",
+  "speaker": "Fuchi Drone",
+  "sheetId": "ClassA_Attack_SteelLynx (Base)",
+  "archetype": "Player",
+  "gender": "?",
+  "portrait": "Generic_Drone_SteelLynxPistol",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c655d125bae84a91": {
+  "text": "I can't believe this. Trapped in my own apartment building!",
+  "speaker": "Resident",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_127c5fcd760a58fa": {
+  "text": "They won't even tell us why the building's on lockdown!",
+  "speaker": "Resident",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_c6cb31bb38d6854c": {
+  "text": "RATS! RATS EVERWHERE!",
+  "speaker": "Civilian",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_95fad74ac36ca09a": {
+  "text": "Come back here, dammit!",
+  "speaker": "Fuchi Mage",
+  "sheetId": "Errant_Lv7_Human_Mage",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_f8e1d30f8f457b33": {
+  "text": "Thanks, come by in person I have something for you.",
+  "speaker": "Beaten Suspect",
+  "sheetId": "Adept_Lv1_HtH",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_f75f77dbd768222e": {
+  "text": "We have company!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_fe13741ffaf90a43": {
+  "text": "We got company!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2c895fe47fe53550": {
+  "text": "Perimeter secure sir.",
+  "speaker": "SDU Mage",
+  "sheetId": "Errant_Lv7_Human_Mage",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_2fa4ec0f9e5f098d": {
+  "text": "Very good.",
+  "speaker": "SDU Captain",
+  "sheetId": "Errant_Lv7_Captain_Stunner",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_3f6b770f1b6c25b0": {
+  "text": "Damn rain.",
+  "speaker": "SDU Shock Trooper",
+  "sheetId": "Errant_Lv7_Melee_Stunner",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5ccc6e05dcdbd9bf": {
+  "text": "Wait, is someone there?",
+  "speaker": "SDU Shock Trooper",
+  "sheetId": "Errant_Lv7_Melee_Stunner",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_9386f6df32e36c5e": {
+  "text": "Look, we will be here unitil Krait says otherwise!",
+  "speaker": "SDU Combat Mage",
+  "sheetId": "SDU_Lv7_Mage_Stunner",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_e1989269afbc7dd5": {
+  "text": "Ok sorry, jeez.",
+  "speaker": "SDU Captain",
+  "sheetId": "Errant_Lv7_Captain_Stunner",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_41c0832d2d3d5623": {
+  "text": "Ng? Is that you?",
+  "speaker": "SDU Captain",
+  "sheetId": "Errant_Lv7_Captain_Stunner",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_e46edc8540cd823b": {
+  "text": "...scorpyrine? I thought that was your wife!",
+  "speaker": "Knight Errant Guard",
+  "sheetId": "Errant_Lv7_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_b3889680a59e35d9": {
+  "text": "That was terrible.",
+  "speaker": "Knight Errant Mage",
+  "sheetId": "Errant_Lv7_Human_Mage",
+  "archetype": "Guard - Seek And Destroy",
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_5fabb598c2a623a0": {
+  "text": "Thanks.",
+  "speaker": "Knight Errant Guard",
+  "sheetId": "Errant_Lv7_Human_Pistol",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_743bbca7d2aed56e": {
+  "text": "Anyone got a light?",
+  "speaker": "SDU Captain",
+  "sheetId": "Errant_Lv7_Captain_Stunner",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "\n\u0000",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_d141a78ed66b3109": {
+  "text": "Careful now.",
+  "speaker": "Inspector Qiu",
+  "sheetId": "Story_Boss_InspectorFiona",
+  "archetype": "Player",
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_Shadows_Fiona",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_488949d193abd5bf": {
+  "text": "Check point up ahead.",
+  "speaker": "Inspector Qiu",
+  "sheetId": "Story_Boss_InspectorFiona",
+  "archetype": "Player",
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_Shadows_Fiona",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_6986c64297f6754a": {
+  "text": "Keep low, SDU.",
+  "speaker": "Inspector Qiu",
+  "sheetId": "Story_Boss_InspectorFiona",
+  "archetype": "Player",
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_Shadows_Fiona",
+  "nonverbal": false,
+  "count": 1
+ },
+ "bark_802c8206d102a71b": {
+  "text": "Hostiles ahead, careful.",
+  "speaker": "Inspector Qiu",
+  "sheetId": "Story_Boss_InspectorFiona",
+  "archetype": "Player",
+  "gender": "female",
+  "portrait": "NPC_ElfFemale_Shadows_Fiona",
+  "nonverbal": false,
+  "count": 1
+ }
+}
