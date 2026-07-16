@@ -34,16 +34,29 @@ function prepareForModding(discovery) {
 function main(context) {
   context.requireExtension('modtype-bepinex');
 
+  // Mirror the built-in extension exactly for everything that isn't the voice pack:
+  // mergeMods false (each content pack deploys to its own ContentPacks subfolder) and the
+  // Shadowrun Editor tool entry. Content-pack mods must behave identically to before.
   context.registerGame({
     id: GAME_ID,
     name: 'Shadowrun Returns',
-    mergeMods: true,
+    mergeMods: false,
     queryPath: findGame,
     queryModPath: () => CONTENTPACKS,   // default modType (content packs) — matches the built-in
     logo: 'gameart.jpg',
     executable: () => EXEC,
     requiredFiles: [EXEC],
     setup: prepareForModding,
+    supportedTools: [
+      {
+        id: 'shadowruneditor',
+        name: 'Editor',
+        logo: 'auto',
+        executable: () => 'ShadowrunEditor.exe',
+        requiredFiles: ['ShadowrunEditor.exe'],
+        relative: true,
+      },
+    ],
     environment: { SteamAPPId: STEAMAPP_ID },
     details: { steamAppId: parseInt(STEAMAPP_ID, 10) },
   });
