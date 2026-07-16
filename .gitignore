@@ -7,7 +7,7 @@
 
 # --- large audio working files (distributed via GitHub Release / Nexus, not git) ---
 app/audio/
-voicepack/clips/
+voicepack/*/clips/
 *.mp3
 *.ogg
 *.wav

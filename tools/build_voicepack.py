@@ -14,14 +14,23 @@ list order; the plugin just plays the list. Deterministic output (hash-named cli
 """
 import json, os, re, sys, hashlib, subprocess, shutil
 
+# Which game's pack to build (isolated per game). Usage: build_voicepack.py [dms|dragonfall|hk]
+GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
+if GAME not in ("dms", "dragonfall", "hk"):
+    print(f"ERROR: unknown game '{GAME}' (expected dms|dragonfall|hk)", file=sys.stderr); sys.exit(1)
+
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-DATA = os.path.join(ROOT, "app", "data")
-AUDIO = os.path.join(ROOT, "app", "audio")
-OUT = os.path.join(ROOT, "voicepack")
+DATA = os.path.join(ROOT, "app", "data", GAME)     # per-game content + takes
+AUDIO = os.path.join(ROOT, "app", "audio", GAME)   # per-game take audio
+OUT = os.path.join(ROOT, "voicepack", GAME)        # per-game output pack
 CLIPS = os.path.join(OUT, "clips")
 
 def jload(name):
     return json.load(open(os.path.join(DATA, name)))
+
+def jload_opt(name, default):
+    p = os.path.join(DATA, name)
+    return json.load(open(p)) if os.path.exists(p) else default
 
 def seg_keys(char_id, base_key, SEGS):
     """Ordered [(bucket, segKey), ...] for a line — mirrors lab.html segsFor() + take-key derivation.
@@ -44,8 +53,8 @@ def main():
     if not shutil.which("ffmpeg"):
         print("ERROR: ffmpeg not found on PATH", file=sys.stderr); sys.exit(1)
     chars = jload("characters.json")
-    SEGS = jload("line_segments.json")
-    takes = jload("takes.json")
+    SEGS = jload_opt("line_segments.json", {})   # DMS-only manual multi-char segmentation
+    takes = jload_opt("takes.json", {})          # empty until a game has generated takes
 
     def selected(bucket, seg_key):
         e = takes.get(bucket, {}).get(seg_key)
@@ -113,6 +122,9 @@ def main():
         reachable.add(("narrator", f'{l["c"]}_{l["n"]}'))
     for k in takes.get("_barks", {}):
         reachable.add(("_barks", k))                       # bark takes are intentionally reachable
+    if os.path.exists(inspect_path):                       # inspect takes live under narrator, keyed insp_<md5>
+        for k in json.load(open(inspect_path)):
+            reachable.add(("narrator", k))
     orphans = [(b, k) for b, lns in takes.items() for k, v in lns.items()
                if v.get("selected") and (b, k) not in reachable]
     if orphans:
@@ -147,7 +159,7 @@ def main():
     manifest_lines = {k: v for k, v in manifest_lines.items() if v}
 
     os.makedirs(OUT, exist_ok=True)
-    manifest = {"version": 1, "game": "srr-dms", "lines": manifest_lines}
+    manifest = {"version": 1, "game": f"srr-{GAME}", "lines": manifest_lines}
     with open(os.path.join(OUT, "voicepack.json"), "w") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
 

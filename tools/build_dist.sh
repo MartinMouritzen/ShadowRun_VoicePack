@@ -1,30 +1,42 @@
 #!/usr/bin/env bash
-# Assemble the installable distribution under dist/ : BepInEx x86 + Camera-entrypoint config +
-# the SRRVoices plugin + the current voicepack. Run tools/build_voicepack.py and plugin/build.sh first.
+# Assemble an installable, ISOLATED distribution for ONE game under dist/<game>/ :
+# BepInEx x86 + entrypoint config + the SRRVoices plugin + that game's voicepack.
+# Each game ships as its own release / Nexus mod. Run tools/build_voicepack.py <game> first
+# (this script calls it) and plugin/build.sh to (re)build the DLL.
+# Usage: build_dist.sh [dms|dragonfall|hk]   (default dms)
 set -e
 cd "$(dirname "$0")/.."
 ROOT="$(pwd)"
-DIST="$ROOT/dist"
+GAME_ID="${1:-dms}"
+case "$GAME_ID" in dms|dragonfall|hk) ;; *) echo "unknown game '$GAME_ID'"; exit 2 ;; esac
 
+DIST="$ROOT/dist/$GAME_ID"
+VP="$ROOT/voicepack/$GAME_ID"
 PLUGIN_DLL="$ROOT/plugin/SRRVoices/bin/SRRVoices.dll"
 [ -f "$PLUGIN_DLL" ] || { echo "ERROR: build the plugin first (plugin/build.sh)"; exit 1; }
-[ -f "$ROOT/voicepack/voicepack.index" ] || { echo "ERROR: build the voicepack first (tools/build_voicepack.py)"; exit 1; }
+
+# (re)build this game's voicepack so dist is always current
+python3 tools/build_voicepack.py "$GAME_ID"
 
 rm -rf "$DIST"; mkdir -p "$DIST"
-# 1. BepInEx x86 loader (winhttp.dll, doorstop, BepInEx/core)
+# 1. BepInEx x86 loader (winhttp.dll, doorstop, BepInEx/core) — shared across games
 cp -r "$ROOT/bepinex_dist/." "$DIST/"
-# 2. Camera-entrypoint config (pre-seeded)
+# 2. Entrypoint config: per-game override (dist_template/<game>/BepInEx.cfg) if present, else shared
 mkdir -p "$DIST/BepInEx/config"
-cp "$ROOT/dist_template/BepInEx.cfg" "$DIST/BepInEx/config/BepInEx.cfg"
-# 3. Plugin + voicepack
+if [ -f "$ROOT/dist_template/$GAME_ID/BepInEx.cfg" ]; then
+  cp "$ROOT/dist_template/$GAME_ID/BepInEx.cfg" "$DIST/BepInEx/config/BepInEx.cfg"
+else
+  cp "$ROOT/dist_template/BepInEx.cfg" "$DIST/BepInEx/config/BepInEx.cfg"
+fi
+# 3. Plugin + this game's voicepack
 mkdir -p "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips"
 cp "$PLUGIN_DLL" "$DIST/BepInEx/plugins/SRRVoices/SRRVoices.dll"
-cp "$ROOT/voicepack/voicepack.index" "$DIST/BepInEx/plugins/SRRVoices/voicepack/"
-cp "$ROOT/voicepack/voicepack.json"  "$DIST/BepInEx/plugins/SRRVoices/voicepack/" 2>/dev/null || true
-cp "$ROOT/voicepack/clips/"*.ogg "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips/" 2>/dev/null || true
+cp "$VP/voicepack.index" "$DIST/BepInEx/plugins/SRRVoices/voicepack/"
+cp "$VP/voicepack.json"  "$DIST/BepInEx/plugins/SRRVoices/voicepack/" 2>/dev/null || true
+cp "$VP/clips/"*.ogg "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips/" 2>/dev/null || true
 
 CLIPS=$(ls "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips/" 2>/dev/null | wc -l)
+NODES=$(grep -vc '^#' "$DIST/BepInEx/plugins/SRRVoices/voicepack/voicepack.index" 2>/dev/null || echo 0)
 SIZE=$(du -sh "$DIST" | cut -f1)
-echo "dist/ assembled: $CLIPS clips, $SIZE total"
-echo "  install by copying dist/* into the game root, or run tools/install.ps1"
-find "$DIST" -maxdepth 3 -type d | sed "s#$DIST#dist#" | sort
+echo "dist/$GAME_ID assembled: $NODES voiced nodes, $CLIPS clips, $SIZE total"
+echo "  install by copying dist/$GAME_ID/* into the game root, or zip it for a Nexus release"
