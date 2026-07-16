@@ -20799,6 +20799,14 @@
      "stability": 0,
      "chars": 72,
      "ts": 1783959908
+    },
+    {
+     "file": "name_mrskubota/takes/51ace200303031b413002718_2__mag802__1784187989.mp3",
+     "voiceId": "mag_802",
+     "voiceName": "Ada Okafor",
+     "stability": 0,
+     "chars": 81,
+     "ts": 1784187989
     }
    ]
   },
@@ -50268,6 +50276,27 @@
      "stability": 0,
      "chars": 23,
      "ts": 1784117034
+    }
+   ]
+  },
+  "bark_427c2dfa8d415942": {
+   "selected": "_barks/takes/bark_427c2dfa8d415942__mag534__1784188877.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_427c2dfa8d415942__mag534__1784188877.mp3",
+     "voiceId": "mag_534",
+     "voiceName": "Old Pip Quickroot",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1784188877
+    },
+    {
+     "file": "_barks/takes/bark_427c2dfa8d415942__mag534__1784188947.mp3",
+     "voiceId": "mag_534",
+     "voiceName": "Old Pip Quickroot",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1784188947
     }
    ]
   }

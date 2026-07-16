@@ -93,26 +93,16 @@
 <div id="main"><div style="color:var(--dim);margin-top:40px;text-align:center">Select a character</div></div>
 </div>
 
-<div id="vmodal"><div id="vbox">
-  <div id="vchar"></div>
-  <header>
-    <input id="vsearch" placeholder="Search voices (name, accent, vibe…)" style="flex:1">
-    <select id="vgender"><option value="">any gender</option><option>male</option><option>female</option><option>neutral</option></select>
-    <select id="vlang" title="Accent / language — defaults to English"></select>
-    <button onclick="refreshVoices()">↻ refresh catalog</button>
-    <button onclick="document.getElementById('vmodal').classList.remove('open')">✕</button>
-  </header>
-  <div id="vlist"></div>
-</div></div>
 <div id="toast"></div>
 <button id="syncbtn" onclick="syncToGame(this)" title="Export all current takes into the game's voicepack and install it. Restart the game afterwards to hear changes."
   style="position:fixed;bottom:16px;right:22px;padding:10px 18px;border-radius:10px;background:var(--acc);color:#161006;font-weight:700;border:0;cursor:pointer;font-size:13.5px;z-index:15">⇩ Sync to game</button>
 
 <script src="nav.js"></script>
+<script src="voicepicker.js"></script>
 <script>
 const GAME=currentGame();               // 'dms' | 'dragonfall' | 'hk' (from ?game=, default dms)
 renderNav('characters');
-let S={characters:{},takes:{},picks:{}}, VOICES=[], cur=null, stab=0, curAudio=null;
+let S={characters:{},takes:{},picks:{}}, VOICES=[], MAG=[], cur=null, stab=0, curAudio=null;
 const $=id=>document.getElementById(id);
 const gd=f=>`data/${GAME}/${f}`;        // per-game data file url
 const gaud=f=>`audio/${GAME}/${f}`;     // per-game audio file url
@@ -161,9 +151,9 @@ async function boot(){
     fetch('data/magnific_voices.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({voices:[]})),
     api('/api/voices').catch(()=>({voices:[]}))
   ]).then(([mag, el])=>{
+    MAG=mag.voices||[];
     const mine=(el.voices||[]).filter(v=>v.source==='mine'||v.source==='library'||v.category==='premade');
-    VOICES=[...(mag.voices||[]), ...mine];
-    populateLangs();
+    VOICES=[...MAG, ...mine];
     if(cur) show(cur);
   });
   const want=decodeURIComponent((location.hash||'').slice(1));
@@ -414,89 +404,50 @@ function play(btn,file){
 }
 function openPicker(segKey){
   pickSeg=segKey||null;
-  const c=chars()[cur], note=NOTES[cur]||{};
-  $('vchar').innerHTML= pickSeg
-    ? `<div><div class="vcname">Voice for ONE line</div><div class="vcbio">Overrides ${esc(c.name)}'s voice for just this line (use it when a bucket mixes different speakers). Generate/Retake the line to apply.</div></div>`
-    : `${c.portraitFile?`<img src="portraits/${c.portraitFile}">`:`<div class="ph">${initials(c.name)}</div>`}
-    <div><div class="vcname">${esc(c.name)}</div>
-    <div class="vcbio">${esc(note.bio||'')}${note.direction?'<br><b>Direction:</b> '+esc(note.direction):''}</div></div>`;
-  $('vgender').value = pickSeg ? '' : (note.gender || '');
-  $('vmodal').classList.add('open'); renderVoices();
-}
-async function refreshVoices(){ toast('Refreshing catalog…'); const v=await api('/api/voices/refresh'); VOICES=v.voices||[]; renderVoices(); }
-// ElevenLabs account voices get their own filter group (kept out of "English" — they're metered).
-const langOf=v=> v.source!=='magnific' ? 'my ElevenLabs' : (v.lang || 'English');
-function populateLangs(){
-  const counts={};
-  for(const v of VOICES){ const l=langOf(v); counts[l]=(counts[l]||0)+1; }
-  const order=Object.entries(counts).sort((a,b)=>(b[0]==='English')-(a[0]==='English')||b[1]-a[1]);
-  const sel=$('vlang'); const keep=sel.value;
-  sel.innerHTML='<option value="__any">any language</option>'+
-    order.map(([l,n])=>`<option value="${l}"${(keep?l===keep:l==='English')?' selected':''}>${l} (${n})</option>`).join('');
-}
-function renderVoices(){
-  const q=($('vsearch').value||'').toLowerCase(), g=$('vgender').value, lang=$('vlang').value||'English';
-  const cs=chars();
+  const c=chars()[cur], note=NOTES[cur]||{}, cs=chars();
   const takenBy={};  // voiceId -> other character name
-  for(const [pid,p] of Object.entries(S.picks||{})){
-    if(pid!==cur && p.voiceId) takenBy[p.voiceId]=cs[pid]?cs[pid].name:pid;
-  }
-  const myPick=(S.picks[cur]||{}).voiceId;
-  const matchQG=v=>(!g||v.gender===g)&&(!q||`${v.name} ${v.desc} ${v.accent} ${v.use} ${v.age}`.toLowerCase().includes(q));
-  const mags=VOICES.filter(v=>v.source==='magnific'&&matchQG(v)&&(lang==='__any'||langOf(v)===lang)).slice(0,200);
-  const els=VOICES.filter(v=>v.source!=='magnific'&&matchQG(v));   // my ElevenLabs voices: always shown, grouped at the bottom
-  const row=v=>{
-    const taken=takenBy[v.voice_id];
-    const isEL=v.source!=='magnific';                 // ElevenLabs account voice = metered quota
-    const isPick=v.voice_id===myPick;
-    const bg=isPick?'background:rgba(104,211,145,.16)'  // current pick: green whole row
-            :(isEL?'background:rgba(246,102,102,.09)':'');  // ElevenLabs: subtle red
-    return `<div class="voice ${taken?'taken':''}" style="${bg}">
-    <div><div class="vn">${esc(v.name||'?')}${v.source==='magnific'?'<span class="tag" style="color:var(--acc)">Magnific</span>':(v.source==='library'?'<span class="tag" style="color:var(--bad)">EL library · metered · adds on use</span>':'<span class="tag" style="color:var(--bad)">my ElevenLabs (metered)</span>')}
-      ${v.gender?`<span class="tag">${v.gender}</span>`:''}${v.age?`<span class="tag">${v.age}</span>`:''}${v.accent?`<span class="tag">${esc(v.accent)}</span>`:''}
-      ${v.voice_id===myPick?'<span class="tag" style="color:var(--good)">current pick</span>':''}
-      ${taken?`<span class="tag" style="color:var(--bad)">cast as ${esc(taken)}</span>`:''}</div>
-    <div class="vd">${esc(v.desc||'')}</div></div>
-    <div class="act">
-      ${v.preview?`<button onclick='play(this,null);curAudio=new Audio(${JSON.stringify(v.preview)});curAudio.play()'>▶ preview</button>`:''}
-      <button onclick='previewLine(this,${sq(v.voice_id)},${sq(v.name)})' title="Generate this character's first line with this voice and play it">▶ first line</button>
-      <button ${(!pickSeg&&taken)?'title="Already cast as '+esc(taken)+' — click to use anyway"':''} onclick='${pickSeg?`setSegVoice(${sq(v.voice_id)},${sq(v.name)})`:`pickVoice(${sq(v.voice_id)},${sq(v.name)},${sq(taken||"")})`}'>${pickSeg?'Use for this line':'Cast as '+esc(cs[cur]?.name||'')}</button>
-    </div></div>`;};
-  const sep=els.length?'<div class="vsep">↓ My ElevenLabs voices (metered quota) ↓</div>':'';
-  $('vlist').innerHTML=(mags.map(row).join('')+sep+els.map(row).join('')) || '<div style="padding:20px;color:var(--dim)">No matches</div>';
+  for(const [pid,p] of Object.entries(S.picks||{})){ if(pid!==cur && p.voiceId) takenBy[p.voiceId]=cs[pid]?cs[pid].name:pid; }
+  VoicePicker.open({
+    voices: VOICES,
+    header: pickSeg
+      ? `<div><div class="vcname">Voice for ONE line</div><div class="vcbio">Overrides ${esc(c.name)}'s voice for just this line (use it when a bucket mixes different speakers). Generate/Retake the line to apply.</div></div>`
+      : `<div style="display:flex;gap:12px;align-items:center">${c.portraitFile?`<img src="portraits/${c.portraitFile}" style="width:52px;aspect-ratio:212/278;border-radius:8px;object-fit:cover">`:`<div class="ph" style="width:52px;aspect-ratio:212/278">${initials(c.name)}</div>`}
+        <div><div class="vcname">${esc(c.name)}</div><div class="vcbio">${esc(note.bio||'')}${note.direction?'<br><b>Direction:</b> '+esc(note.direction):''}</div></div></div>`,
+    gender: pickSeg ? '' : (note.gender || ''),
+    taken: takenBy,
+    currentPickId: pickSeg ? (SEGOV[pickSeg]&&SEGOV[pickSeg].voiceId) : (S.picks[cur]||{}).voiceId,
+    primaryLabel: v => pickSeg ? 'Use for this line' : ('Cast as '+ (c.name||'')),
+    onPreviewLine: v => previewLine(v.voice_id, v.name),
+    onRefresh: async ()=>{ toast('Refreshing catalog…'); try{ const r=await api('/api/voices/refresh'); const mine=(r.voices||[]).filter(x=>x.source==='mine'||x.source==='library'||x.category==='premade'); VOICES=[...MAG,...mine]; VoicePicker.setVoices(VOICES); toast('Catalog refreshed'); }catch(e){ toast('refresh failed: '+e.message,6000); } },
+    onClear: (pickSeg && SEGOV[pickSeg]) ? async ()=>{ await api('/api/seg/setvoice',{segKey:pickSeg,voiceId:null}); delete SEGOV[pickSeg]; VoicePicker.close(); show(cur); toast('reverted to character voice'); } : null,
+    clearLabel: "↺ character's voice",
+    onPick: async (v, takenName)=>{
+      if(pickSeg){
+        try{ await api('/api/seg/setvoice',{segKey:pickSeg,voiceId:v.voice_id,voiceName:v.name}); SEGOV[pickSeg]={voiceId:v.voice_id,voiceName:v.name}; const sk=pickSeg; pickSeg=null; show(cur); toast('This line → '+v.name+'. Hit Generate/Retake to apply.',6000); }
+        catch(e){ toast('save failed: '+e.message,6000); }
+      }else{
+        if(takenName && !confirm(`"${v.name}" is already cast as ${takenName}.\n\nUse it for ${c.name} too? (Do this only if it's the same character in another spot.)`)) return;
+        try{ await api('/api/pick',{charId:cur,voiceId:v.voice_id,voiceName:v.name}); S=await api('/api/state'); show(cur); toast(`${v.name} cast as ${c.name}`); }
+        catch(e){ toast('save failed: '+e.message,6000); }
+      }
+    },
+  });
 }
-async function previewLine(btn, vid, vname){
+async function previewLine(vid, vname){
   const c=chars()[cur]; if(!c||!c.lines||!c.lines.length) return;
   const l=c.lines[0], key=`${l.c}_${l.n}`;
   const segs=segsFor(cur,key);
   const firstChar=segs.find(s=>s.who==='char');
   const text=firstChar?effText(firstChar.key, firstChar.t!=null?firstChar.t:ttsText(cur,l)):ttsText(cur,l);
-  const old=btn.textContent; btn.disabled=true; btn.innerHTML='<span class="spin">◌</span>';
+  toast(`Generating first line in ${vname}…`, 8000);
   try{
     const r=await api('/api/generate',{charId:cur,lineKey:firstChar?firstChar.key:key,text,voiceId:vid,voiceName:vname,stability:stab});
     S=await api('/api/state');
-    play(btn, r.file); toast(`First line in ${vname} (saved as a take)`);
+    play(null, r.file); toast(`First line in ${vname} (saved as a take)`);
   }catch(e){ toast('preview failed: '+e.message, 8000); }
-  btn.disabled=false; btn.textContent=old;
 }
-async function setSegVoice(vid,name){
-  // per-line override: this one segment generates with `vid` instead of the character's pick
-  try{
-    await api('/api/seg/setvoice',{segKey:pickSeg,voiceId:vid,voiceName:name});
-    SEGOV[pickSeg]={voiceId:vid,voiceName:name};
-    $('vmodal').classList.remove('open'); pickSeg=null; show(cur);
-    toast('This line → '+name+'. Hit Generate/Retake to apply.', 6000);
-  }catch(e){ toast('save failed: '+e.message, 6000); }
-}
-async function clearSegVoice(segKey){
-  await api('/api/seg/setvoice',{segKey,voiceId:null}); delete SEGOV[segKey]; show(cur); toast('reverted to character voice');
-}
-async function pickVoice(vid,name,takenBy){
-  // takenBy = another character already using this voice; confirm before duplicating (e.g. twin
-  // entries like Marie-Louise / Marie-Louise Telestrian that intentionally share one voice).
-  if(takenBy && !confirm(`"${name}" is already cast as ${takenBy}.\n\nUse it for ${chars()[cur].name} too? (Do this only if it's the same character in another spot.)`)) return;
-  await api('/api/pick',{charId:cur,voiceId:vid,voiceName:name});
-  S=await api('/api/state'); $('vmodal').classList.remove('open'); show(cur); toast(`${name} cast as ${chars()[cur].name}`);
+function clearSegVoice(segKey){
+  api('/api/seg/setvoice',{segKey,voiceId:null}).then(()=>{ delete SEGOV[segKey]; show(cur); toast('reverted to character voice'); });
 }
 async function syncToGame(btn){
   const old=btn.textContent; btn.disabled=true; btn.textContent='⇩ Syncing…';
@@ -507,7 +458,6 @@ async function syncToGame(btn){
   }catch(e){ toast('Sync failed: '+e.message, 9000); }
   btn.disabled=false; btn.textContent=old;
 }
-$('vsearch').oninput=renderVoices; $('vgender').onchange=renderVoices; $('vlang').onchange=renderVoices;
 boot();
 </script>
 </body>

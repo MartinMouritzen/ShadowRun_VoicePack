@@ -114,5 +114,13 @@
  "Narrator": {
   "voiceId": "0aXOy31Cjamp6gJcyqYu",
   "voiceName": "Matt - Deep Authoritative Narrator"
+ },
+ "Mugger": {
+  "voiceId": "mag_378",
+  "voiceName": "Arthur Kensington"
+ },
+ "Renraku Security": {
+  "voiceId": "mag_276",
+  "voiceName": "Sipho Dlamini"
  }
 }
