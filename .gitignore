@@ -31,3 +31,6 @@ dist/
 bepinex_dist/
 *.dll
 !plugin/SRRVoices/bin/SRRVoices.dll
+
+# Nexus Mods personal API key (upload API) — NEVER commit
+.nexus.key
