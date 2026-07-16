@@ -12,10 +12,20 @@ Schema (ShadowrunDTO, identical across SRR/Dragonfall/Hong Kong):
 """
 import glob, json, os, re, sys
 
-SR   = sys.argv[1]
-OUT  = sys.argv[2]
-PACKS = sys.argv[3].split(",")
+args = [a for a in sys.argv[1:] if a != "--force"]
+FORCE = "--force" in sys.argv
+SR   = args[0]
+OUT  = args[1]
+PACKS = args[2].split(",")
 HEX24 = re.compile(r'^[0-9a-f]{24}$')
+
+# Guard: re-extracting OVERWRITES characters.json, destroying any manual attribution corrections
+# layered on top (the DMS pack has hand-fixes: Tweaker split, Ghoul->Jake, Player-1, etc.).
+# Refuse to clobber an existing file unless --force is given.
+_out_chars = os.path.join(OUT, "characters.json")
+if os.path.exists(_out_chars) and not FORCE:
+    sys.exit(f"{_out_chars} already exists — re-extracting overwrites it and destroys any manual "
+             f"attribution corrections. Pass --force to overwrite, or delete the file first.")
 
 def read_varint(b, i):
     r = 0; s = 0

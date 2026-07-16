@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Part A of the BepInEx plugin: export the lab's selected takes into a plugin-friendly voicepack.
 
-Reads app/data/{characters,line_segments,takes}.json, resolves the ORDERED keeper clips per
-dialogue node (mirroring the lab's segsFor() key logic exactly), transcodes each MP3 -> OGG Vorbis
-with ffmpeg, and writes voicepack/voicepack.json + voicepack/clips/*.ogg.
+Reads app/data/<game>/{characters,line_segments,takes}.json (game = dms|dragonfall|hk, argv[1],
+default dms), resolves the ORDERED keeper clips per dialogue node (mirroring the lab's segsFor()
+key logic exactly), transcodes each MP3 -> OGG Vorbis with ffmpeg, and writes
+voicepack/<game>/voicepack.json + voicepack/<game>/clips/*.ogg.
 
 voicepack.json schema:
-  { "version":1, "game":"srr-dms",
+  { "version":1, "game":"srr-<game>",
     "lines": { "<convoId>_<nodeIndex>": ["clips/<hash>.ogg", ...ordered...], ... } }
 
 Only lines with at least one selected keeper appear. Narrator/character ordering is encoded as

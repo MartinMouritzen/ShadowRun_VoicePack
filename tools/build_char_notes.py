@@ -5,7 +5,7 @@ import json, os, re
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 # Suggestion pills use ONLY Magnific voices (unlimited, no metered quota) — no ElevenLabs.
-cat = json.load(open(os.path.join(ROOT, "app/data/dms/magnific_voices.json")))["voices"]
+cat = json.load(open(os.path.join(ROOT, "app/data/magnific_voices.json")))["voices"]   # shared catalog (root, not per-game)
 chars = json.load(open(os.path.join(ROOT, "app/data/dms/characters.json")))
 sel = json.load(open(os.path.join(ROOT, "app/data/dms/samples_selection.json")))
 by_id = {c["id"]: c for c in chars["characters"]}

@@ -8,9 +8,17 @@ Char sheets read from ALL packs; scenes/maps only from the listed packs.
 Keys MUST match the plugin hooks (md5 hex, first 16 chars)."""
 import glob, json, os, re, hashlib, sys, unicodedata
 
-SR   = sys.argv[1]
-OUT  = sys.argv[2]
-PACKS = sys.argv[3].split(",")
+args = [a for a in sys.argv[1:] if a != "--force"]
+FORCE = "--force" in sys.argv
+SR   = args[0]
+OUT  = args[1]
+PACKS = args[2].split(",")
+
+# Guard: refuse to clobber existing extras (DMS inspect.json has hand-added inline entries) without --force.
+_existing = [f for f in ("barks.json", "inspect.json", "scene_actors.json") if os.path.exists(os.path.join(OUT, f))]
+if _existing and not FORCE:
+    sys.exit(f"{OUT} already has {', '.join(_existing)} — re-extracting overwrites them (and drops any "
+             f"hand-added entries). Pass --force to overwrite, or delete the files first.")
 
 def rv(b, i):
     r = 0; s = 0

@@ -43,6 +43,10 @@ def gpath(game, filename):
 def gaudio(game):
     return os.path.join(AUDIO, game)
 
+def safe_id(s):
+    """A charId/lineKey used to build a file path — must not escape the game's audio dir."""
+    return isinstance(s, str) and bool(s) and "/" not in s and "\\" not in s and ".." not in s
+
 def api_key():
     return open(KEYFILE).read().strip()
 
@@ -448,6 +452,8 @@ class Handler(SimpleHTTPRequestHandler):
             stability = body.get("stability", 0.0)
             if not (cid and key and text and vid):
                 return self.send_json({"error": "charId, lineKey, text, voiceId required"}, 400)
+            if not (safe_id(cid) and safe_id(key)):
+                return self.send_json({"error": "invalid charId/lineKey"}, 400)
             if str(vid).startswith("mag_"):
                 mag_id = int(str(vid)[4:])
                 # direct path ONLY — our own MCP client. No queue, no AI in the loop.

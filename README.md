@@ -47,7 +47,9 @@ python3 tools/extract_game.py        "<ContentPacks dir>" app/data/<game> <pack1
 python3 tools/extract_extras_game.py "<ContentPacks dir>" app/data/<game> <pack1[,pack2,...]>
 ```
 
-`extract_game.py` writes `characters.json` (attributed dialogue). `extract_extras_game.py` writes `barks.json`, `inspect.json`, and `scene_actors.json`. Char sheets are read from all packs; conversations/scenes only from the listed packs.
+`extract_game.py` writes `characters.json` (attributed dialogue). `extract_extras_game.py` writes `barks.json`, `inspect.json`, and `scene_actors.json`. Char sheets are read from all packs; conversations/scenes only from the listed packs. Example for Hong Kong: `... "<...>/SRHK_Data/StreamingAssets/ContentPacks" app/data/hk HongKong,hk_coda`.
+
+All three games are already mapped. Both extractors **refuse to overwrite existing output** (pass `--force` to re-map) so a re-run can't destroy the manual attribution corrections layered onto `app/data/dms/` (Tweaker split, Ghoul→Jake, Player-1, etc.).
 
 ## Building & installing a pack (per game)
 
