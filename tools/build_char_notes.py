@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Build app/data/char_notes.json: per-character bio, voice direction, and 3 suggested
+"""Build app/data/dms/char_notes.json: per-character bio, voice direction, and 3 suggested
 ElevenLabs voices (picked from the cached catalog, ids validated by construction)."""
 import json, os, re
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 # Suggestion pills use ONLY Magnific voices (unlimited, no metered quota) — no ElevenLabs.
-cat = json.load(open(os.path.join(ROOT, "app/data/magnific_voices.json")))["voices"]
-chars = json.load(open(os.path.join(ROOT, "app/data/characters.json")))
-sel = json.load(open(os.path.join(ROOT, "app/data/samples_selection.json")))
+cat = json.load(open(os.path.join(ROOT, "app/data/dms/magnific_voices.json")))["voices"]
+chars = json.load(open(os.path.join(ROOT, "app/data/dms/characters.json")))
+sel = json.load(open(os.path.join(ROOT, "app/data/dms/samples_selection.json")))
 by_id = {c["id"]: c for c in chars["characters"]}
 
 # id: (bio, direction, search keywords, gender, prefer_age)
@@ -177,7 +177,7 @@ for cid in sel:
     notes[cid] = {"bio": bio, "direction": direction, "gender": gender,
                   "suggestions": suggest(kws, gender, age)}
 
-json.dump(notes, open(os.path.join(ROOT, "app/data/char_notes.json"), "w"), ensure_ascii=False, indent=1)
+json.dump(notes, open(os.path.join(ROOT, "app/data/dms/char_notes.json"), "w"), ensure_ascii=False, indent=1)
 n_hand = sum(1 for c in notes if c in N and N[c])
 print(f"notes: {len(notes)} characters ({n_hand} hand-written), all suggestion ids from catalog")
 empty = [c for c, v in notes.items() if not v["suggestions"]]

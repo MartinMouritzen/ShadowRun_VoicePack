@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build app/data/directed.json: default performance direction (ElevenLabs v3 audio tags)
+"""Build app/data/dms/directed.json: default performance direction (ElevenLabs v3 audio tags)
 for speech segments, mined from the narration that surrounds them - the {{GM}} text often
 literally describes the delivery ("her voice is low, shaky" -> [shaky]).
 Layering: user edit (text_edits.json) > directed.json > raw segment text.
@@ -8,7 +8,7 @@ import json, re, os
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 HERE = os.path.dirname(__file__)
-segs = json.load(open(os.path.join(ROOT, "app/data/line_segments.json")))
+segs = json.load(open(os.path.join(ROOT, "app/data/dms/line_segments.json")))
 
 # conservative cue -> v3 tag mapping; only fires on explicit delivery descriptions
 CUES = [
@@ -54,5 +54,5 @@ for key, parts in segs.items():
                 auto += 1
             pending = None
 
-json.dump(directed, open(os.path.join(ROOT, "app/data/directed.json"), "w"), ensure_ascii=False, indent=1)
+json.dump(directed, open(os.path.join(ROOT, "app/data/dms/directed.json"), "w"), ensure_ascii=False, indent=1)
 print(f"directed: {len(directed)} segments ({auto} auto-mined from narration cues, {len(HAND)} hand)")

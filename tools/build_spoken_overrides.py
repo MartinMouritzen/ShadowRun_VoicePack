@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build app/data/spoken_overrides.json: per-line SPOKEN text for lines containing $() variables.
+"""Build app/data/dms/spoken_overrides.json: per-line SPOKEN text for lines containing $() variables.
 Screen text stays untouched; audio uses the override. Policy (Martin 2026-07-13): rewrite lines to
 read naturally without the variable (drop vocatives, neutral relationship words); NEVER 'chummer'.
 Character overrides also drop {{GM}} narration spans (those belong to the narrator's voice).
@@ -8,7 +8,7 @@ keyed by convoId_nodeIndex), which always wins over rules."""
 import json, re, sys, os
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-c = json.load(open(os.path.join(ROOT, "app/data/characters.json")))
+c = json.load(open(os.path.join(ROOT, "app/data/dms/characters.json")))
 
 HAND = {}
 handfile = os.path.join(os.path.dirname(__file__), "spoken_hand_rewrites.json")
@@ -64,7 +64,7 @@ for ch in c["characters"]:
     process(ch["id"], ch["name"], ch["lines"])
 process("narrator", "Narrator", c["narrator"]["lines"], is_narrator=True)
 
-json.dump(overrides, open(os.path.join(ROOT, "app/data/spoken_overrides.json"), "w"),
+json.dump(overrides, open(os.path.join(ROOT, "app/data/dms/spoken_overrides.json"), "w"),
           ensure_ascii=False, indent=1)
 print(f"overrides: {len(overrides)} ({sum(1 for v in overrides.values() if v['source']=='hand')} hand)")
 print(f"unresolved (need hand rewrite): {len(unresolved)}")

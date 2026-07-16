@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Assign candidate ElevenLabs voices (Magnific catalog ids) to DMS characters -> app/data/casting.json"""
+"""Assign candidate ElevenLabs voices (Magnific catalog ids) to DMS characters -> app/data/dms/casting.json"""
 import json, os, re
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-chars = json.load(open(os.path.join(ROOT, "app/data/characters.json")))
-sel = json.load(open(os.path.join(ROOT, "app/data/samples_selection.json")))
+chars = json.load(open(os.path.join(ROOT, "app/data/dms/characters.json")))
+sel = json.load(open(os.path.join(ROOT, "app/data/dms/samples_selection.json")))
 
 V = {  # id: (name, short desc) — from Magnific catalog, English/elevenlabs only
  597:("Charles Haversham","distinguished British baritone, theatrical gravitas"),
@@ -151,7 +151,7 @@ for cid, s in sel.items():
     vid = OVERRIDES.get(cid) or classify(c)
     casting[cid] = {"main": False, "voices": [vrec(vid)]}
 
-json.dump(casting, open(os.path.join(ROOT, "app/data/casting.json"), "w"), indent=1)
+json.dump(casting, open(os.path.join(ROOT, "app/data/dms/casting.json"), "w"), indent=1)
 n_main = sum(1 for v in casting.values() if v["main"])
 print(f"casting: {len(casting)} characters ({n_main} mains with 5 candidates)")
 jobs = 0

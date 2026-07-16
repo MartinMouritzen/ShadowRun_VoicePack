@@ -5,7 +5,7 @@ auto-selects it if the segment has no keeper yet. Idempotent per (segKey, file).
 import json, os, glob
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-TAKES = os.path.join(ROOT, "app", "data", "takes.json")
+TAKES = os.path.join(ROOT, "app", "data", "dms", "takes.json")
 GEN = os.path.join(ROOT, "tools", "gen")
 
 def load_results():
@@ -23,9 +23,9 @@ def load_results():
 def valid_segkeys():
     """Every real line's base + ~gN/~cN + inspect keys — rejects hallucinated junk from workers."""
     import re
-    chars = json.load(open(os.path.join(ROOT, "app", "data", "characters.json")))
-    SEGS = json.load(open(os.path.join(ROOT, "app", "data", "line_segments.json")))
-    inspp = os.path.join(ROOT, "app", "data", "inspect.json")
+    chars = json.load(open(os.path.join(ROOT, "app", "data", "dms", "characters.json")))
+    SEGS = json.load(open(os.path.join(ROOT, "app", "data", "dms", "line_segments.json")))
+    inspp = os.path.join(ROOT, "app", "data", "dms", "inspect.json")
     valid = set(json.load(open(inspp)).keys()) if os.path.exists(inspp) else set()
     rows = list(chars["characters"]) + [dict(chars["narrator"], id="narrator")]
     for c in rows:

@@ -53,7 +53,7 @@
 <div id="side"></div>
 <div id="main"><div class="empty">Select a character</div></div>
 <button id="exp" title="Copy your voice picks as JSON to paste back to Claude">Copy picks</button>
-<script src="data/app_data.js"></script>
+<script src="data/dms/app_data.js"></script>
 <script>
 const D = window.APP_DATA || {characters:[]};
 const picks = JSON.parse(localStorage.getItem('srr_picks')||'{}');

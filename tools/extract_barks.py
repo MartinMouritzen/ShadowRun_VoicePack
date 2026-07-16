@@ -2,10 +2,15 @@
 """Extract combat barks ('Display Text over Actor' scene actions) for DMS, attribute each to its
 speaker (actor -> character sheet -> name/gender), flag non-verbal grunts. Writes app/data/barks.json.
 Standalone (does NOT import/run extract_dms). Keyed bark_<md5(text)> to match the plugin hook."""
-import glob, json, os, re, hashlib
+import glob, json, os, re, hashlib, sys
+# SUPERSEDED by tools/extract_extras_game.py (verified byte-identical bark output on DMS, and it
+# also emits inspect.json + scene_actors.json). Fenced to avoid stale writes to the old data/ root.
+if os.environ.get("ALLOW_LEGACY_EXTRACT") != "1":
+    sys.exit("extract_barks.py is SUPERSEDED by tools/extract_extras_game.py. "
+             "Use that, or set ALLOW_LEGACY_EXTRACT=1 to force.")
 SR="/mnt/c/Program Files (x86)/Steam/steamapps/common/Shadowrun Returns/Shadowrun_Data/StreamingAssets/ContentPacks"
 DMS=SR+"/dead_man_switch"
-OUT=os.path.join(os.path.dirname(__file__),"..","app","data")
+OUT=os.path.join(os.path.dirname(__file__),"..","app","data","dms")
 def rv(b,i):
     r=0;s=0
     while True:

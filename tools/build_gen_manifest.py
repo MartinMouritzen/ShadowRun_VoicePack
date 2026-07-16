@@ -6,7 +6,7 @@ Skips segments that already have a take. Writes tools/gen/el_jobs.json and tools
 import json, os, re
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-D = os.path.join(ROOT, "app", "data")
+D = os.path.join(ROOT, "app", "data", "dms")
 def L(n): return json.load(open(os.path.join(D, n)))
 
 picks = L("picks.json")

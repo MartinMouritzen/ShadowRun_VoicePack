@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Build app/data/app_data.js from characters.json + samples_selection.json + casting.json + generated/."""
+"""Build app/data/dms/app_data.js from characters.json + samples_selection.json + casting.json + generated/."""
 import json, os, sys, re
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 def j(p): return json.load(open(os.path.join(ROOT, p)))
 
-chars = j("app/data/characters.json")
-sel = j("app/data/samples_selection.json")
-casting = j("app/data/casting.json")           # {charId: {main: bool, voices: [{voiceId, voiceName, voiceDesc}]}}
+chars = j("app/data/dms/characters.json")
+sel = j("app/data/dms/samples_selection.json")
+casting = j("app/data/dms/casting.json")           # {charId: {main: bool, voices: [{voiceId, voiceName, voiceDesc}]}}
 # source of truth = files on disk: app/audio/<charId>/<voiceId>_<key>.mp3
 import glob
 gen = {}
@@ -47,7 +47,7 @@ for cid, cast in casting.items():
 order = {cid: i for i, cid in enumerate(casting.keys())}
 out.sort(key=lambda c: (not c["main"], -c["lineCount"]))
 data = {"characters": out}
-with open(os.path.join(ROOT, "app/data/app_data.js"), "w") as f:
+with open(os.path.join(ROOT, "app/data/dms/app_data.js"), "w") as f:
     f.write("window.APP_DATA = ")
     json.dump(data, f, ensure_ascii=False)
     f.write(";")

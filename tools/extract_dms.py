@@ -14,9 +14,20 @@ Protobuf field numbers were taken from ShadowrunDTO.dll (see memory/project note
 """
 import glob, json, os, re, sys, unicodedata
 
+# ── SUPERSEDED ──────────────────────────────────────────────────────────────
+# This is the original single-game DMS extractor. It is replaced by the
+# game-parameterized tools/extract_game.py (verified to produce equivalent output).
+# Re-running it would OVERWRITE app/data/dms/characters.json, DESTROYING the manual
+# attribution corrections layered on top (Tweaker split, Ghoul->Jake, Player-1 fixes,
+# etc.). It runs its extraction at import time (no __main__ guard), so it is fenced off:
+# set ALLOW_LEGACY_EXTRACT=1 only if you truly intend to regenerate from scratch.
+if os.environ.get("ALLOW_LEGACY_EXTRACT") != "1":
+    sys.exit("extract_dms.py is SUPERSEDED by tools/extract_game.py and would clobber "
+             "manual DMS attribution. Use extract_game.py, or set ALLOW_LEGACY_EXTRACT=1 to force.")
+
 SR = "/mnt/c/Program Files (x86)/Steam/steamapps/common/Shadowrun Returns/Shadowrun_Data/StreamingAssets/ContentPacks"
 DMS = SR + "/dead_man_switch"
-OUT = os.path.join(os.path.dirname(__file__), "..", "app", "data")
+OUT = os.path.join(os.path.dirname(__file__), "..", "app", "data", "dms")
 
 HEX24 = re.compile(r'^[0-9a-f]{24}$')
 

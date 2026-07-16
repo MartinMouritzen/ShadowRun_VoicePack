@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build app/data/line_segments.json: for every character line containing {{GM}} narration,
+"""Build app/data/dms/line_segments.json: for every character line containing {{GM}} narration,
 the ORDERED list of playback segments: [{who: 'gm'|'char', t: spoken_text}, ...].
 Preserves interleaving (narration - speech - narration - speech). gm segments are voiced by the
 narrator ($(s.name) resolves to the speaking character's name); char segments get the same
@@ -9,7 +9,7 @@ import json, re, os
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 HERE = os.path.dirname(__file__)
-c = json.load(open(os.path.join(ROOT, "app/data/characters.json")))
+c = json.load(open(os.path.join(ROOT, "app/data/dms/characters.json")))
 HAND = json.load(open(os.path.join(HERE, "spoken_hand_rewrites.json"))) if os.path.exists(os.path.join(HERE, "spoken_hand_rewrites.json")) else {}
 HAND_SEG = json.load(open(os.path.join(HERE, "spoken_hand_segments.json"))) if os.path.exists(os.path.join(HERE, "spoken_hand_segments.json")) else {}
 
@@ -73,7 +73,7 @@ for ch in c["characters"]:
                 ci += 1
         result[key] = out
 
-json.dump(result, open(os.path.join(ROOT, "app/data/line_segments.json"), "w"), ensure_ascii=False, indent=1)
+json.dump(result, open(os.path.join(ROOT, "app/data/dms/line_segments.json"), "w"), ensure_ascii=False, indent=1)
 multi = sum(1 for v in result.values() if sum(1 for s in v if s["who"] == "char") >= 2)
 print(f"segmented lines: {len(result)} ({multi} with interleaved speech); unresolved segs: {len(unresolved)}")
 for u in unresolved: print(" ", u["key"], u["seg"], "|", u["char"], "|", u["text"][:120])
