@@ -67,7 +67,7 @@ namespace SRRVoices
             DontDestroyOnLoad(go);
             go.hideFlags = HideFlags.HideAndDontSave;
             Player = go.AddComponent<VoicePlayer>();
-            if (Pack != null) Player.SetRoot(Pack.Root);
+            if (Pack != null) { Player.SetRoot(Pack.Root); Player.Warmup(); }
 
             var harmony = new Harmony(GUID);
             try

@@ -127,5 +127,51 @@ namespace SRRVoices
                 yield return StartCoroutine(LoadClip(rels[i], null));
             }
         }
+
+        // One-time warm-up during the load screen: decode and silently play a single clip so the
+        // OGG/Vorbis decoder and the audio pipeline are already initialized before the first real
+        // line. Without this, the FIRST voiced conversation of the session pays that init cost as a
+        // noticeable hitch (the plugin loads very early via the Camera entrypoint, so we wait for the
+        // game's audio system to come up first). Aborts cleanly if a real line preempts us.
+        public void Warmup()
+        {
+            StartCoroutine(WarmupSeq());
+        }
+
+        IEnumerator WarmupSeq()
+        {
+            float t0 = Time.realtimeSinceStartup;
+            while (Time.realtimeSinceStartup - t0 < 1.5f) yield return null;   // let audio system init
+            string rel = null;
+            try
+            {
+                string clipsDir = Path.Combine(root, "clips");
+                if (Directory.Exists(clipsDir))
+                {
+                    string[] files = Directory.GetFiles(clipsDir, "*.ogg");
+                    if (files.Length > 0) rel = "clips/" + Path.GetFileName(files[0]);
+                }
+            }
+            catch (Exception) { }
+            if (rel == null) yield break;
+            int myToken = playToken;
+            AudioClip clip = null;
+            yield return StartCoroutine(LoadClip(rel, delegate(AudioClip c) { clip = c; }));
+            if (clip == null || src == null || playToken != myToken) yield break;   // preempted -> leave it alone
+            float vol = src.volume;
+            src.volume = 0f;
+            src.clip = clip;
+            src.Play();
+            float p0 = Time.realtimeSinceStartup;
+            while (playToken == myToken && src != null && src.isPlaying && (Time.realtimeSinceStartup - p0) < 0.2f)
+                yield return null;
+            if (playToken == myToken && src != null)
+            {
+                src.Stop();
+                src.clip = null;
+                src.volume = vol;
+            }
+            if (Plugin.Log != null) Plugin.Log.LogInfo("audio pipeline warmed up.");
+        }
     }
 }
