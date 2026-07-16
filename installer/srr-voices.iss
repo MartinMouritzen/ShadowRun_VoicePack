@@ -62,13 +62,20 @@ Source: "{#DistDir}\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
 
 [Code]
 function SteamAppDir(): String;
-var loc: String;
+var
+  loc: String;
+  key: String;
 begin
   Result := '';
-  { Steam writes a per-app uninstall entry with InstallLocation }
-  if RegQueryStringValue(HKLM, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App {#SteamAppId}', 'InstallLocation', loc) then
+  key := 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App {#SteamAppId}';
+  { Steam writes a per-app uninstall entry with InstallLocation. From a 32-bit installer, HKLM is
+    redirected to WOW6432Node, but Steam often writes the key to the 64-bit view — so check HKLM64
+    first, then the 32-bit view, then native. }
+  if RegQueryStringValue(HKLM64, key, 'InstallLocation', loc) then
     Result := loc
-  else if RegQueryStringValue(HKLM32, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App {#SteamAppId}', 'InstallLocation', loc) then
+  else if RegQueryStringValue(HKLM32, key, 'InstallLocation', loc) then
+    Result := loc
+  else if RegQueryStringValue(HKLM, key, 'InstallLocation', loc) then
     Result := loc;
 end;
 
