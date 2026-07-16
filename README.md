@@ -51,13 +51,16 @@ python3 tools/extract_extras_game.py "<ContentPacks dir>" app/data/<game> <pack1
 
 All three games are already mapped. Both extractors **refuse to overwrite existing output** (pass `--force` to re-map) so a re-run can't destroy the manual attribution corrections layered onto `app/data/dms/` (Tweaker split, Ghoul→Jake, Player-1, etc.).
 
-## Installing (players) — three ways, easiest first
+## Installing (players)
 
-1. **Double-click installer** (`ShadowRun_VoicePack_<game>_vX_Setup.exe`) — auto-detects the Steam game folder and installs. No mod manager needed. Built with `tools/build_installer.sh <game>` (needs Inno Setup 6).
-2. **Vortex one-click** — with the game's Vortex extension installed (see `vortex/`), the green "Mod Manager Download" button on Nexus deploys the pack to the game root in one click.
-3. **Manual ZIP** (`ShadowRun_VoicePack_<game>_vX.zip`) — extract its contents into the game folder (the one with the game's `.exe`). Self-contained: bundles BepInEx, so there's no separate install step.
+Distributed as **one self-contained ZIP** (bundles BepInEx). The same file covers both install paths:
 
-All three ship the same self-contained bundle (BepInEx loader + plugin + voicepack); pick whichever fits. `vortex/README.md` covers the one-click setup and Nexus publishing.
+1. **Vortex — one click.** Click the green **Mod Manager Download** on Nexus. Works in **stock Vortex with no extra setup** for a game Vortex already manages: the ZIP includes a `dinput8.dll` marker that triggers Vortex's built-in "dinput" installer to deploy everything to the game root (copy-only, so it doesn't rewrite our config or rename the mod). There is a one-time "this mod contains a .dll, continue?" security prompt. No custom Vortex extension is needed for a game with built-in Vortex support (e.g. Shadowrun Returns). See `tools/build_dist.sh` for why the marker matters — do not remove it.
+2. **Manual.** Extract the ZIP's contents into the game folder (the one with the game's `.exe`); you end up with `winhttp.dll` + `BepInEx/` next to it.
+
+> **Not distributed on Nexus: a double-click `.exe` installer.** Nexus flags/rejects `.exe` uploads regardless, so the installer is not a Nexus download. The ZIP covers both install paths cleanly, so it isn't needed. (`tools/build_installer.sh <game>` can still build one locally if you ever distribute off-Nexus, e.g. a GitHub release.)
+
+> Note on Dragonfall / Hong Kong: those have **no** built-in Vortex support, so the marker alone can't help — Vortex wouldn't recognise the game. Those would need the game extension in `vortex/` published as a community extension for Vortex to manage them at all; the manual ZIP always works regardless.
 
 ## Building & installing a pack (per game)
 

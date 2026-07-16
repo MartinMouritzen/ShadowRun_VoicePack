@@ -1,27 +1,35 @@
-# Nexus upload & Vortex one-click — step by step
+# Nexus upload — how the pack ships
 
-Everything a release needs to go live on Nexus with a one-click Vortex install. Only **Dead Man's
-Switch** is voiced right now, so it's the only mod page to publish yet; the Vortex extensions for all
-three games can be published whenever.
+The whole thing is **one ZIP**. For a game with built-in Vortex support (Shadowrun Returns), the
+green "Mod Manager Download" button works in **stock Vortex with no custom extension and no PR** — the
+ZIP carries a `dinput8.dll` marker that triggers Vortex's built-in, game-agnostic "dinput" installer,
+which deploys the archive to the game root (copy-only: it does not rewrite our BepInEx config and does
+not rename the mod). See the comment in `tools/build_dist.sh` — the marker is load-bearing, keep it.
 
-## Files (built by this repo)
+Only **Dead Man's Switch** is voiced right now, so it's the only mod page to publish.
+
+## The file
 
 | File | Where | Purpose |
 |---|---|---|
-| `ShadowRun_VoicePack_DMS_v1.1.zip` | GitHub release v1.1 / `dist/` | **Vortex + manual.** The archive Vortex extracts to the game root; manual users extract it themselves. |
-| `ShadowRun_VoicePack_DMS_v1.1_Setup.exe` | GitHub release v1.1 / `dist/` | **Double-click installer** for people who don't use a mod manager. |
-| `dist/vortex-extensions/vortex-shadowrunreturns.zip` | `dist/vortex-extensions/` | The Vortex game extension that makes the green button one-click for SRR. |
-| …`vortex-shadowrundragonfall.zip`, `vortex-shadowrunhongkong.zip` | same | Same, for the other two games (publish when they have a mod). |
+| `ShadowRun_VoicePack_DMS_v1.2.zip` | `dist/` (build with `tools/build_dist.sh dms` then zip `dist/dms/`) | The one and only download — Vortex one-click **and** manual extract. |
 
-## A. Publish the Dead Man's Switch mod
+### NOT distributed on Nexus
+- **`*_Setup.exe` (Inno Setup installer).** Nexus flags/rejects `.exe` uploads regardless, so it is
+  not a Nexus download. The ZIP already covers Vortex + manual, so it isn't needed. `build_installer.sh`
+  still works for off-Nexus distribution (e.g. a GitHub release), but don't upload it to Nexus.
+- **The Vortex game extension in `vortex/`.** Superseded by the `dinput8.dll` marker for SRR — not
+  needed. (It stays in the repo only as reference / a possible path for Dragonfall+HK, which have no
+  built-in Vortex support; see the bottom note.)
 
-On **nexusmods.com/shadowrunreturns** → *Add a mod*:
+## Publish / update the Dead Man's Switch mod
 
-1. **Files tab — upload both** (each gets its own green "Mod Manager Download" button):
-   - `ShadowRun_VoicePack_DMS_v1.1.zip` as a **Main file**. This is the one Vortex deploys — its top level is `winhttp.dll` + `doorstop_config.ini` + `BepInEx/`, which the BepInEx modtype routes to the game root. Do **not** tick "manual download only."
-   - `ShadowRun_VoicePack_DMS_v1.1_Setup.exe` as a **Main file** (or Miscellaneous). This is the double-click installer for non-Vortex users. (Vortex can't deploy a raw .exe, so Vortex users should use the ZIP.)
-2. **Description** — draft below.
-3. **Requirements** — none (BepInEx is bundled).
+On **nexusmods.com/shadowrunreturns**, Files tab:
+
+1. Upload **`ShadowRun_VoicePack_DMS_v1.2.zip`** as a **Main file**, version **1.2**.
+   **Leave "manual download only" UNCHECKED** — the marker makes the green button work, so you want it on.
+2. **Archive any older ZIP** (e.g. v1.1) — older ZIPs lack the marker, so their Vortex button is broken.
+3. Bump the mod version to match.
 
 ### Draft mod description
 
@@ -31,51 +39,39 @@ On **nexusmods.com/shadowrunreturns** → *Add a mod*:
 > narrator reads all scene descriptions game-wide, "examine" one-liners are voiced, and terminals use
 > synthetic voices. Over 3,900 hand-picked lines.
 >
-> **Install — pick one:**
-> - **Vortex (one-click):** click *Mod Manager Download* on the ZIP. (First time on this game, Vortex
->   will offer to install the "Shadowrun Returns" support extension — accept it.) Deploy, launch, done.
-> - **Installer:** download the `_Setup.exe`, run it — it finds your game folder automatically.
+> **Install — either way:**
+> - **Vortex (one click):** click *Mod Manager Download*. Accept the one-time "this mod contains a
+>   .dll, continue?" prompt. Deploy, launch, done. (Works on stock Vortex — no extra setup.)
 > - **Manual:** download the ZIP and extract its contents into your Shadowrun Returns folder (the one
->   with `Shadowrun.exe`).
+>   with `Shadowrun.exe`) — you'll end up with `winhttp.dll` and a `BepInEx` folder next to it.
 >
 > Options (volume, toggle inspect/bark voicing, borderless fullscreen) are in
 > `BepInEx/config/com.mmo.srrvoices.cfg` after first launch. Self-contained — bundles BepInEx.
 >
 > *Fan project. Not affiliated with Harebrained Schemes or Paradox.*
 
-## B. Publish the Vortex extension (enables the one-click)
+## Verify the one-click for real (recommended before flipping it on for everyone)
 
-Without a Vortex game extension for the game's Nexus domain, the green button can't deploy. Two ways:
+Against a **vanilla** Shadowrun Returns folder (no mod files, game managed by Vortex's built-in
+extension — no custom extension installed):
 
-- **Fast — community extension:** upload `vortex-shadowrunreturns.zip` to **nexusmods.com/site/mods**
-  (the "Vortex" site) under **Vortex → Games (unofficial)**. Vortex then offers to install it when a
-  user opens a Mod Manager Download for `shadowrunreturns`.
-- **Best reach — PR:** submit the extension to
-  [`Nexus-Mods/vortex-games`](https://github.com/Nexus-Mods/vortex-games); once merged it ships with
-  Vortex for everyone. For **SRR specifically**, prefer PR-ing the *existing* `game-shadowrunreturns`
-  extension (just add the two BepInEx lines — see `vortex/README.md`) rather than shipping a same-id
-  community extension that overrides it. Dragonfall/HK are greenfield — new extensions.
+1. On the Nexus page, click **Mod Manager Download** on the ZIP → **Continue** on the .dll prompt.
+2. Vortex → **Mods** → enable → **Deploy**.
+3. Confirm `winhttp.dll` + `dinput8.dll` + `BepInEx/` land next to `Shadowrun.exe` (not in
+   `ContentPacks`), the `BepInEx.cfg` entrypoint is still `UnityEngine.dll / Camera / .cctor`, and the
+   mod keeps its real name (not "Bepis Injector Extensible").
+4. Launch via Steam → voices.
 
-## C. Test the Vortex one-click end to end (you)
+## Pushing updates later (optional automation)
 
-Do this against a **vanilla** Shadowrun Returns folder (the isolated-test state).
+`.github/workflows/nexus-upload.yml` can push a new ZIP version to the existing file via Nexus's
+official upload-action (needs the `NEXUS_API_KEY` repo secret + the file's `file_id`). The Upload API
+can only **update an existing file** — it cannot create the mod page, edit the description, or upload
+media. Those stay manual.
 
-1. **Vortex → Extensions** (hamburger) → *Install From File* → pick
-   `dist/vortex-extensions/vortex-shadowrunreturns.zip` → restart Vortex.
-2. **Vortex → Games** → find **Shadowrun Returns** → *Manage*. It should auto-detect the folder
-   (Steam or GOG); if not, point it at the game root.
-3. On the DMS Nexus page, click **Mod Manager Download** on the **ZIP** file.
-4. Vortex → **Mods** → enable the mod → **Deploy**.
-5. Confirm `winhttp.dll` + `BepInEx/` now sit next to `Shadowrun.exe`, launch the game, hear voices.
-6. (SRR only) sanity-check that any ContentPack mod still deploys to
-   `Shadowrun_Data/StreamingAssets/ContentPacks` — the extension is a superset, not a replacement.
+## Dragonfall / Hong Kong (future)
 
-If step 2 or 3 misbehaves, check `vortex/README.md` (Steam/GOG IDs, the built-in-extension conflict
-note) and report back.
-
-## Dragonfall / Hong Kong
-
-Their Vortex extensions and installer/dist tooling are ready, but there are **no voices generated
-yet**, so hold their Nexus mod pages until the packs are built (`tools/build_dist.sh dragonfall|hk`
-after casting). Publishing their Vortex extensions early is harmless if you want the game support in
-place first.
+Not voiced yet. When they are: they have **no** built-in Vortex extension, so the `dinput8.dll` marker
+alone won't make Vortex recognise the game — those two would need the `vortex/` game extension
+published as a community extension (nexusmods.com/site/mods) for Vortex to manage them at all. The
+manual ZIP always works regardless. Build their packs with `tools/build_dist.sh dragonfall|hk`.
