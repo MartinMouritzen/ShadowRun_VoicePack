@@ -1,0 +1,7 @@
+{
+  "name": "Game: Shadowrun Hong Kong",
+  "author": "MartinMouritzen",
+  "version": "1.0.0",
+  "description": "Adds Vortex support for Shadowrun: Hong Kong - Extended Edition, including BepInEx mods (deploys the mod to the game root, x86 / Unity Mono).",
+  "type": "game"
+}

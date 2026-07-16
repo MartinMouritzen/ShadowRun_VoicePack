@@ -1,0 +1,7 @@
+{
+  "name": "Game: Shadowrun Dragonfall Director's Cut",
+  "author": "MartinMouritzen",
+  "version": "1.0.0",
+  "description": "Adds Vortex support for Shadowrun: Dragonfall - Director's Cut, including BepInEx mods (deploys the mod to the game root, x86 / Unity Mono).",
+  "type": "game"
+}

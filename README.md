@@ -51,6 +51,14 @@ python3 tools/extract_extras_game.py "<ContentPacks dir>" app/data/<game> <pack1
 
 All three games are already mapped. Both extractors **refuse to overwrite existing output** (pass `--force` to re-map) so a re-run can't destroy the manual attribution corrections layered onto `app/data/dms/` (Tweaker split, Ghoul→Jake, Player-1, etc.).
 
+## Installing (players) — three ways, easiest first
+
+1. **Double-click installer** (`ShadowRun_VoicePack_<game>_vX_Setup.exe`) — auto-detects the Steam game folder and installs. No mod manager needed. Built with `tools/build_installer.sh <game>` (needs Inno Setup 6).
+2. **Vortex one-click** — with the game's Vortex extension installed (see `vortex/`), the green "Mod Manager Download" button on Nexus deploys the pack to the game root in one click.
+3. **Manual ZIP** (`ShadowRun_VoicePack_<game>_vX.zip`) — extract its contents into the game folder (the one with the game's `.exe`). Self-contained: bundles BepInEx, so there's no separate install step.
+
+All three ship the same self-contained bundle (BepInEx loader + plugin + voicepack); pick whichever fits. `vortex/README.md` covers the one-click setup and Nexus publishing.
+
 ## Building & installing a pack (per game)
 
 ```
