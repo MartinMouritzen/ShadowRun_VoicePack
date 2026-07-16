@@ -1,0 +1,63 @@
+# Push a new file version to an EXISTING Nexus mod page, using Nexus's official upload-action.
+# Manual trigger only (workflow_dispatch). Requires a repo Actions secret NEXUS_API_KEY (your Nexus
+# personal API key). The Upload API can only add versions to a mod/file that already exists on the
+# website — it cannot create mod pages, descriptions, or media.
+#
+# Flow: download the chosen asset from a GitHub release, then upload-action pushes it to Nexus as a
+# new version of the given file_id.
+#
+# Trigger from your machine (gh is authenticated):
+#   gh workflow run nexus-upload.yml -f file_id=<ID> -f version=1.2 \
+#      -f release_tag=v1.2 -f asset=ShadowRun_VoicePack_DMS_v1.2.zip -f description="..."
+# Find file_id on the mod's Files tab -> Manage Files (the "API Info" / file id).
+name: Upload to Nexus
+on:
+  workflow_dispatch:
+    inputs:
+      file_id:
+        description: "Existing Nexus file ID to add this version to (Files tab -> Manage Files)"
+        required: true
+      version:
+        description: "Version string, e.g. 1.2"
+        required: true
+      release_tag:
+        description: "GitHub release tag holding the asset to upload"
+        required: true
+      asset:
+        description: "Asset filename on that release (the .zip)"
+        required: true
+      category:
+        description: "Nexus file category"
+        required: false
+        default: "main"
+      description:
+        description: "Version change notes (optional)"
+        required: false
+        default: ""
+      allow_mod_manager_download:
+        description: "Enable the Vortex 'Mod Manager Download' button"
+        required: false
+        default: "true"
+      update_mod_version:
+        description: "Bump the mod's headline version to match"
+        required: false
+        default: "true"
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download "${{ inputs.release_tag }}" -R "${{ github.repository }}" -p "${{ inputs.asset }}"
+      - name: Upload the new version to Nexus
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.9
+        with:
+          api_key: ${{ secrets.NEXUS_API_KEY }}
+          file_id: ${{ inputs.file_id }}
+          filename: ${{ inputs.asset }}
+          version: ${{ inputs.version }}
+          category: ${{ inputs.category }}
+          description: ${{ inputs.description }}
+          allow_mod_manager_download: ${{ inputs.allow_mod_manager_download }}
+          update_mod_version: ${{ inputs.update_mod_version }}
