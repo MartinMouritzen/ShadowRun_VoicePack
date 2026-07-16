@@ -426,5 +426,77 @@
  "name_johnpaul": {
   "voiceId": "mag_545",
   "voiceName": "Elias Thornwell"
+ },
+ "name_btlpusher": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_mercenarycaptain": {
+  "voiceId": "mag_270",
+  "voiceName": "Henry Arthur"
+ },
+ "name_steviej": {
+  "voiceId": "mag_517",
+  "voiceName": "Darian Voss"
+ },
+ "name_halloweenersentry": {
+  "voiceId": "mag_588",
+  "voiceName": "Chad Waters"
+ },
+ "name_dianeravenwood": {
+  "voiceId": "mag_164",
+  "voiceName": "Maya Collins"
+ },
+ "name_lynnetelestrian": {
+  "voiceId": "mag_298",
+  "voiceName": "Amelia Beckett"
+ },
+ "name_corporatemage": {
+  "voiceId": "mag_526",
+  "voiceName": "Eldros the Wise"
+ },
+ "name_newsnet": {
+  "voiceId": "mag_262",
+  "voiceName": "Elijah Thomas"
+ },
+ "name_symp": {
+  "voiceId": "mag_307",
+  "voiceName": "Henry Fletcher"
+ },
+ "name_lynne": {
+  "voiceId": "mag_298",
+  "voiceName": "Amelia Beckett"
+ },
+ "name_meticulouself": {
+  "voiceId": "mag_519",
+  "voiceName": "Basil Thornecroft"
+ },
+ "name_noog": {
+  "voiceId": "mag_440",
+  "voiceName": "Liam Hayes"
+ },
+ "name_sistermonica": {
+  "voiceId": "mag_445",
+  "voiceName": "Sophie Walker"
+ },
+ "name_bobby": {
+  "voiceId": "mag_300",
+  "voiceName": "Michael Johnson"
+ },
+ "name_zipper": {
+  "voiceId": "mag_686",
+  "voiceName": "Terry Dobson"
+ },
+ "name_charlie": {
+  "voiceId": "mag_522",
+  "voiceName": "Malgorn the Hollow"
+ },
+ "name_homelessman": {
+  "voiceId": "mSOmKHC6GZcZbSTGlqHO",
+  "voiceName": "Mister Gruff - Miserable old neighbor"
+ },
+ "name_hooker": {
+  "voiceId": "mag_162",
+  "voiceName": "Sasha Monroe"
  }
 }

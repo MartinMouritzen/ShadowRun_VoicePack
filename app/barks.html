@@ -48,6 +48,8 @@ main{padding:16px 20px 80px;max-width:1100px;margin:0 auto}
 .vsep{position:sticky;top:0;margin:10px 4px 4px;padding:6px 10px;font-size:11px;font-weight:700;letter-spacing:.05em;color:var(--bad);background:rgba(224,106,90,.14);border-radius:6px;text-align:center}
 .vrow:hover{background:var(--panel2)}
 .vrow .vn{font-weight:600}.vrow .vd{color:var(--dim);font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prevbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:6px;padding:3px 10px;cursor:pointer;font-size:12px;flex:none}
+.prevbtn:hover{background:#25252f}
 .tag{font-size:10px;padding:1px 6px;border-radius:10px;border:1px solid var(--line)}
 .el{background:#3a1420;border-color:#7a2a3a}
 #toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#000d;border:1px solid var(--line);color:#fff;padding:9px 15px;border-radius:10px;display:none;z-index:60}
@@ -95,7 +97,7 @@ async function load(){
   // voice catalog: Magnific + my EL voices
   const mag=await (await fetch('data/magnific_voices.json',NS)).json();
   let el={voices:[]}; try{el=await api('/api/voices')}catch(e){}
-  const mine=(el.voices||[]).filter(v=>v.source==='mine'||v.category==='premade').map(v=>({voice_id:v.voice_id,name:v.name,gender:v.labels&&v.labels.gender,desc:(v.labels&&v.labels.description)||'',source:'el'}));
+  const mine=(el.voices||[]).filter(v=>v.source==='mine'||v.source==='library'||v.category==='premade').map(v=>({voice_id:v.voice_id,name:v.name,gender:v.gender,age:v.age,desc:v.desc||'',preview:v.preview,source:'el'}));
   VOICES=[...(mag.voices||[]), ...mine];
   render();
 }
@@ -107,6 +109,9 @@ function moveTip(ev){ const t=$('tip'); if(t.style.display!=='block')return; let
 function hideTip(){ $('tip').style.display='none'; }
 function barkVoiced(k){ const t=TAKES[k]; return t&&t.takes&&t.takes.length; }
 function esc(t){const d=document.createElement('div');d.textContent=t==null?'':t;return d.innerHTML}
+const sq=s=>JSON.stringify(s).replace(/'/g,'&#39;');   // JSON for single-quoted onclick (escape apostrophes)
+let prevAudio=null;
+function playPrev(url){ if(prevAudio)prevAudio.pause(); prevAudio=new Audio(url); prevAudio.play().catch(()=>{}); }
 
 function render(){
   const q=$('q').value.toLowerCase(), filt=$('filt').value;
@@ -206,9 +211,11 @@ function renderVoices(){
   const matchQ=v=>{const lang=v.source==='el'?'my ElevenLabs':(v.lang||'English'); return !q||(v.name+' '+(v.desc||'')+' '+lang).toLowerCase().includes(q);};
   const mags=VOICES.filter(v=>v.source!=='el'&&matchG(v)&&matchQ(v)&&(q||!(v.lang&&v.lang!=='English'))).slice(0,400);
   const els=VOICES.filter(v=>v.source==='el'&&matchG(v)&&matchQ(v));   // my ElevenLabs voices: always at the bottom
-  const rowHtml=v=>`<div class="vrow" onclick='setVoice(${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)})'>
+  const rowHtml=v=>`<div class="vrow" onclick='setVoice(${sq(v.voice_id)},${sq(v.name)})'>
       <span class="tag ${v.source==='el'?'el':''}">${v.source==='el'?'EL':(v.gender||'?')}</span>
-      <span class="vn">${esc(v.name)}</span><span class="vd">${esc((v.desc||'').slice(0,90))}</span>
+      ${v.age?`<span class="tag">${esc(String(v.age).replace(/_/g,' '))}</span>`:''}
+      <span class="vn">${esc(v.name)}</span><span class="vd">${esc((v.desc||'').slice(0,78))}</span>
+      ${v.preview?`<button class="prevbtn" title="Preview this voice" onclick='event.stopPropagation();playPrev(${sq(v.preview)})'>▶</button>`:''}
       ${taken.has(String(v.voice_id))?'<span class="tag">in use</span>':''}
     </div>`;
   h=mags.map(rowHtml).join('')+(els.length?'<div class="vsep">↓ My ElevenLabs voices (metered) ↓</div>'+els.map(rowHtml).join(''):'');

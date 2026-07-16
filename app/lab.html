@@ -108,6 +108,7 @@
 let S={characters:{},takes:{},picks:{}}, VOICES=[], cur=null, stab=0, curAudio=null;
 const $=id=>document.getElementById(id);
 const esc=t=>{const d=document.createElement('div');d.textContent=t;return d.innerHTML};
+const sq=s=>JSON.stringify(s).replace(/'/g,'&#39;');   // JSON for a single-quoted onclick attr (escape apostrophes, e.g. "Grace O'Neil")
 const initials=n=>(n||'?').split(/\s+/).map(w=>w[0]).slice(0,2).join('');
 
 async function api(path, body){
@@ -148,7 +149,7 @@ async function boot(){
     fetch('data/magnific_voices.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({voices:[]})),
     api('/api/voices').catch(()=>({voices:[]}))
   ]).then(([mag, el])=>{
-    const mine=(el.voices||[]).filter(v=>v.source==='mine'||v.category==='premade');
+    const mine=(el.voices||[]).filter(v=>v.source==='mine'||v.source==='library'||v.category==='premade');
     VOICES=[...(mag.voices||[]), ...mine];
     populateLangs();
     if(cur) show(cur);
@@ -439,15 +440,15 @@ function renderVoices(){
     const bg=isPick?'background:rgba(104,211,145,.16)'  // current pick: green whole row
             :(isEL?'background:rgba(246,102,102,.09)':'');  // ElevenLabs: subtle red
     return `<div class="voice ${taken?'taken':''}" style="${bg}">
-    <div><div class="vn">${esc(v.name||'?')}${v.source==='magnific'?'<span class="tag" style="color:var(--acc)">Magnific</span>':'<span class="tag" style="color:var(--bad)">my ElevenLabs (metered)</span>'}
+    <div><div class="vn">${esc(v.name||'?')}${v.source==='magnific'?'<span class="tag" style="color:var(--acc)">Magnific</span>':(v.source==='library'?'<span class="tag" style="color:var(--bad)">EL library · metered · adds on use</span>':'<span class="tag" style="color:var(--bad)">my ElevenLabs (metered)</span>')}
       ${v.gender?`<span class="tag">${v.gender}</span>`:''}${v.age?`<span class="tag">${v.age}</span>`:''}${v.accent?`<span class="tag">${esc(v.accent)}</span>`:''}
       ${v.voice_id===myPick?'<span class="tag" style="color:var(--good)">current pick</span>':''}
       ${taken?`<span class="tag" style="color:var(--bad)">cast as ${esc(taken)}</span>`:''}</div>
     <div class="vd">${esc(v.desc||'')}</div></div>
     <div class="act">
       ${v.preview?`<button onclick='play(this,null);curAudio=new Audio(${JSON.stringify(v.preview)});curAudio.play()'>▶ preview</button>`:''}
-      <button onclick='previewLine(this,${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)})' title="Generate this character's first line with this voice and play it">▶ first line</button>
-      <button ${(!pickSeg&&taken)?'title="Already cast as '+esc(taken)+' — click to use anyway"':''} onclick='${pickSeg?`setSegVoice(${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)})`:`pickVoice(${JSON.stringify(v.voice_id)},${JSON.stringify(v.name)},${JSON.stringify(taken||"")})`}'>${pickSeg?'Use for this line':'Cast as '+esc(cs[cur]?.name||'')}</button>
+      <button onclick='previewLine(this,${sq(v.voice_id)},${sq(v.name)})' title="Generate this character's first line with this voice and play it">▶ first line</button>
+      <button ${(!pickSeg&&taken)?'title="Already cast as '+esc(taken)+' — click to use anyway"':''} onclick='${pickSeg?`setSegVoice(${sq(v.voice_id)},${sq(v.name)})`:`pickVoice(${sq(v.voice_id)},${sq(v.name)},${sq(taken||"")})`}'>${pickSeg?'Use for this line':'Cast as '+esc(cs[cur]?.name||'')}</button>
     </div></div>`;};
   const sep=els.length?'<div class="vsep">↓ My ElevenLabs voices (metered quota) ↓</div>':'';
   $('vlist').innerHTML=(mags.map(row).join('')+sep+els.map(row).join('')) || '<div style="padding:20px;color:var(--dim)">No matches</div>';
