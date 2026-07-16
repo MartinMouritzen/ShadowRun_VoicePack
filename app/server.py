@@ -374,7 +374,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json({"game": game, "characters": chars, "takes": takes, "picks": picks,
                                    "edits": edits, "queue": queue,
                                    "mcpConnected": bool(tokens())})
-        if self.path == "/api/voices":
+        if path == "/api/voices":
             c = jload(os.path.join(DATA, "el_voices.json"), None)
             if not c:
                 try:
@@ -382,12 +382,12 @@ class Handler(SimpleHTTPRequestHandler):
                 except Exception as e:
                     return self.send_json({"error": str(e)}, 502)
             return self.send_json(c)
-        if self.path == "/api/voices/refresh":
+        if path == "/api/voices/refresh":
             try:
                 return self.send_json({"voices": fetch_catalog()})
             except Exception as e:
                 return self.send_json({"error": str(e)}, 502)
-        if self.path == "/oauth/login":
+        if path == "/oauth/login":
             verifier = base64.urlsafe_b64encode(secrets.token_bytes(32)).rstrip(b"=").decode()
             challenge = base64.urlsafe_b64encode(
                 hashlib.sha256(verifier.encode()).digest()).rstrip(b"=").decode()
@@ -422,7 +422,7 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_header("Location", "/lab.html")
             self.end_headers()
             return
-        if self.path == "/api/quota":
+        if path == "/api/quota":
             try:
                 u = el_request("/v1/user")
                 s = u.get("subscription", {})

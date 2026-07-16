@@ -1,11 +1,11 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><title>Combat Barks — SRR Voice Lab</title>
 <style>
-:root{--bg:#0e0e12;--panel:#16161d;--panel2:#1c1c26;--txt:#e6e6ee;--dim:#9a9ab0;--acc:#e0a83b;--good:#54c977;--bad:#e06a5a;--line:#2a2a38;}
+:root{--bg:#0e0e12;--panel:#16161d;--panel2:#1c1c26;--txt:#e6e6ee;--dim:#9a9ab0;--acc:#e0a83b;--good:#54c977;--bad:#e06a5a;--line:#2a2a38;--edge:#2a2a38;}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif}
 a{color:var(--acc);text-decoration:none}
-header{position:sticky;top:0;z-index:10;background:var(--panel);border-bottom:1px solid var(--line);padding:12px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+header{position:sticky;top:52px;z-index:10;background:var(--panel);border-bottom:1px solid var(--line);padding:12px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 header h1{font-size:17px;margin:0}
 .sub{color:var(--dim);font-size:12.5px}
 .controls{display:flex;gap:10px;align-items:center;margin-left:auto;flex-wrap:wrap}
@@ -55,6 +55,7 @@ main{padding:16px 20px 80px;max-width:1100px;margin:0 auto}
 #toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#000d;border:1px solid var(--line);color:#fff;padding:9px 15px;border-radius:10px;display:none;z-index:60}
 </style></head>
 <body>
+<div id="topnav"></div>
 <header>
   <h1>⚔ Combat Barks</h1>
   <span class="sub" id="prog">loading…</span>
@@ -62,7 +63,6 @@ main{padding:16px 20px 80px;max-width:1100px;margin:0 auto}
     <input type="text" id="q" placeholder="search barks / speakers">
     <select id="filt"><option value="all">All speakers</option><option value="need">Needs a voice</option><option value="unvoiced">Has voice, not generated</option><option value="done">Fully voiced</option></select>
     <button class="acc" id="genall">⚡ Generate all missing</button>
-    <a href="lab.html"><button>← Voice Lab</button></a>
   </div>
 </header>
 <main id="main"></main>
@@ -80,19 +80,24 @@ main{padding:16px 20px 80px;max-width:1100px;margin:0 auto}
 <div id="toast"></div>
 <div id="tip"></div>
 
+<script src="nav.js"></script>
 <script>
 const $=id=>document.getElementById(id);
+const GAME=currentGame();               // 'dms' | 'dragonfall' | 'hk'
+renderNav('barks');
+const gd=f=>`data/${GAME}/${f}`;         // per-game data file url
+const gaud=f=>`audio/${GAME}/${f}`;      // per-game audio file url
 let BARKS={}, PICKS={}, OVERRIDES={}, TAKES={}, VOICES=[], SCENEACTORS={}, curTarget=null;
 const INFLIGHT=new Set();
 function toast(m,ms=2600){const t=$('toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',ms)}
-async function api(p,b){const r=await fetch(p,b?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b),cache:'no-store'}:{cache:'no-store'});const j=await r.json();if(j.error)throw new Error(j.error);return j}
+async function api(p,b){let url=p; if(!b&&p.startsWith('/api/'))url=p+(p.includes('?')?'&':'?')+'game='+GAME; const r=await fetch(url,b?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...b,game:GAME}),cache:'no-store'}:{cache:'no-store'});const j=await r.json();if(j.error)throw new Error(j.error);return j}
 const NS={cache:'no-store'};
 
 async function load(){
-  BARKS=await (await fetch('data/barks.json',NS)).json();
-  try{PICKS=await (await fetch('data/bark_picks.json',NS)).json()}catch(e){PICKS={}}
-  try{OVERRIDES=await (await fetch('data/bark_overrides.json',NS)).json()}catch(e){OVERRIDES={}}
-  try{SCENEACTORS=await (await fetch('data/scene_actors.json',NS)).json()}catch(e){SCENEACTORS={}}
+  BARKS=await (await fetch(gd('barks.json'),NS)).json();
+  try{PICKS=await (await fetch(gd('bark_picks.json'),NS)).json()}catch(e){PICKS={}}
+  try{OVERRIDES=await (await fetch(gd('bark_overrides.json'),NS)).json()}catch(e){OVERRIDES={}}
+  try{SCENEACTORS=await (await fetch(gd('scene_actors.json'),NS)).json()}catch(e){SCENEACTORS={}}
   const s=await api('/api/state'); TAKES=(s.takes||{})['_barks']||{};
   // voice catalog: Magnific + my EL voices
   const mag=await (await fetch('data/magnific_voices.json',NS)).json();
@@ -171,7 +176,7 @@ function render(){
 }
 
 let curAudio=null;
-function play(btn,file){ if(curAudio){curAudio.pause()} curAudio=new Audio('audio/'+file); curAudio.play(); }
+function play(btn,file){ if(curAudio){curAudio.pause()} curAudio=new Audio(gaud(file)); curAudio.play(); }
 
 async function genBark(btn,k,sp){
   const v=effVoice(k,sp); if(!v){toast('Assign a voice first');return}
