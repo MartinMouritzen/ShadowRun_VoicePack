@@ -16,7 +16,8 @@
   button:hover{background:#222b36}
   button:disabled{opacity:.4; cursor:default}
   input,select{font:inherit; background:var(--panel2); color:var(--txt); border:1px solid var(--edge); border-radius:8px; padding:5px 10px}
-  #side{width:300px; min-width:300px; border-right:1px solid var(--edge); overflow-y:auto; overflow-x:hidden; background:var(--panel)}
+  #side{width:300px; min-width:300px; border-right:1px solid var(--edge); background:var(--panel); display:flex; flex-direction:column; overflow:hidden}
+  #sidelist{flex:1; overflow-y:auto; overflow-x:hidden}
   .barklink{display:block; margin:8px 12px 4px; padding:9px 12px; background:var(--panel2); border:1px solid var(--edge); border-radius:8px; color:var(--acc); text-decoration:none; font-weight:600; font-size:13px}
   .barklink:hover{background:rgba(232,163,61,.12)}
   #side h2{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--dim); padding:14px 16px 6px}
@@ -89,7 +90,11 @@
 <body>
 <div id="topnav"></div>
 <div id="workarea">
-<div id="side"><div id="quota">quota: …</div></div>
+<div id="side">
+  <div id="sidetabs"></div>
+  <label class="incfilter"><input type="checkbox" id="incomplete"> Show only incomplete (needs voices)</label>
+  <div id="sidelist"><div id="quota">quota: …</div></div>
+</div>
 <div id="main"><div style="color:var(--dim);margin-top:40px;text-align:center">Select a character</div></div>
 </div>
 
@@ -101,7 +106,7 @@
 <script src="voicepicker.js"></script>
 <script>
 const GAME=currentGame();               // 'dms' | 'dragonfall' | 'hk' (from ?game=, default dms)
-renderNav('characters');
+renderNav('characters'); renderSideTabs('characters');
 let S={characters:{},takes:{},picks:{}}, VOICES=[], MAG=[], cur=null, stab=0, curAudio=null;
 const $=id=>document.getElementById(id);
 const gd=f=>`data/${GAME}/${f}`;        // per-game data file url
@@ -169,9 +174,13 @@ function chars(){
 }
 function side(){
   const cs=chars();
+  const inc=$('incomplete')&&$('incomplete').checked;
   let h=$('quota').outerHTML+'<h2>Cast</h2>';
   const arr=Object.values(cs).sort((a,b)=>(b.id==='narrator')-(a.id==='narrator') || (b.lines?.length||0)-(a.lines?.length||0));
+  let shown=0;
   for(const c of arr){
+    if(inc && isFullyVoiced(c.id)) continue;   // "incomplete only": hide fully-voiced cast
+    shown++;
     const t=S.takes[c.id]||{}; const done=Object.keys(t).length;
     const pick=S.picks[c.id];
     h+=`<div class="char ${cur===c.id?'sel':''}" data-id="${c.id}" onclick="show('${c.id}')">
@@ -179,7 +188,8 @@ function side(){
       <div><div class="nm">${esc(c.name)}</div>
       <div class="ct">${c.lines?.length||0} lines · ${done} generated${pick?' · '+esc(pick.voiceName||''):''}</div></div></div>`;
   }
-  $('side').innerHTML=h;
+  if(inc && !shown) h+='<div style="padding:16px;color:var(--dim);font-size:13px">🎉 Every character is fully voiced.</div>';
+  $('sidelist').innerHTML=h;
 }
 function show(id){
   cur=id; side();
@@ -458,6 +468,7 @@ async function syncToGame(btn){
   }catch(e){ toast('Sync failed: '+e.message, 9000); }
   btn.disabled=false; btn.textContent=old;
 }
+$('incomplete').onchange=side;
 boot();
 </script>
 </body>

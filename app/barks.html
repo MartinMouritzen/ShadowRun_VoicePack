@@ -1,82 +1,81 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><title>Combat Barks — SRR Voice Lab</title>
 <style>
-:root{--bg:#0e0e12;--panel:#16161d;--panel2:#1c1c26;--txt:#e6e6ee;--dim:#9a9ab0;--acc:#e0a83b;--good:#54c977;--bad:#e06a5a;--line:#2a2a38;--edge:#2a2a38;}
+:root{--bg:#0e0e12;--panel:#16161d;--panel2:#1c1c26;--txt:#e6e6ee;--dim:#9a9ab0;--acc:#e0a83b;--good:#54c977;--bad:#e06a5a;--line:#2a2a38;--edge:#2a2a38;--acc2:#5ac8fa;}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif}
+body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;height:100vh;display:flex;flex-direction:column;overflow:hidden}
 a{color:var(--acc);text-decoration:none}
-header{position:sticky;top:52px;z-index:10;background:var(--panel);border-bottom:1px solid var(--line);padding:12px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-header h1{font-size:17px;margin:0}
-.sub{color:var(--dim);font-size:12.5px}
-.controls{display:flex;gap:10px;align-items:center;margin-left:auto;flex-wrap:wrap}
 input,select,button{font:inherit}
-input[type=text],select{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:7px 10px}
-button{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:7px 12px;cursor:pointer}
+button{background:var(--panel2);border:1px solid var(--edge);color:var(--txt);border-radius:8px;padding:6px 11px;cursor:pointer}
 button:hover{background:#25252f}
+button:disabled{opacity:.4;cursor:default}
 button.acc{background:var(--acc);color:#161006;border:0;font-weight:700}
-main{padding:16px 20px 80px;max-width:1100px;margin:0 auto}
-.spk{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:0 0 14px;overflow:hidden}
-.spkhead{display:flex;align-items:center;gap:12px;padding:11px 15px;background:var(--panel2);flex-wrap:wrap}
-.spkhead .nm{font-weight:700;font-size:15px}
-.spkhead .meta{color:var(--dim);font-size:12px}
-.spkhead .voice{margin-left:auto;display:flex;align-items:center;gap:8px}
-.vname{color:var(--acc)}
-.vname.none{color:var(--bad)}
-.barks{padding:4px 0}
-.bark{display:block;padding:7px 15px;border-top:1px solid var(--line)}
+.sub{color:var(--dim);font-size:12.5px}
+#workarea{flex:1;display:flex;overflow:hidden;min-height:0}
+/* sidebar: speaker categories */
+#side{width:320px;min-width:320px;border-right:1px solid var(--edge);background:var(--panel);display:flex;flex-direction:column;overflow:hidden}
+#bsearchwrap{padding:9px 12px;border-bottom:1px solid var(--edge)}
+#bsearchwrap input{width:100%;background:var(--panel2);border:1px solid var(--edge);color:var(--txt);border-radius:8px;padding:7px 10px}
+#prog{padding:8px 14px;font-size:12px;color:var(--dim);border-bottom:1px solid var(--edge)}
+#spklist{flex:1;overflow-y:auto;overflow-x:hidden}
+.spkrow{display:flex;align-items:center;gap:10px;padding:9px 14px;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.03)}
+.spkrow:hover{background:rgba(255,255,255,.045)}
+.spkrow.sel{background:linear-gradient(90deg,rgba(224,168,59,.2) 0%,var(--panel2) 42%,var(--panel2) 100%)}
+.spkrow .nm{font-weight:600;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spkrow .ct{font-size:11.5px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spkrow .dot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--bad)}
+.spkrow .dot.part{background:var(--acc)}
+.spkrow .dot.done{background:var(--good)}
+#sidefoot{flex:none;padding:10px 12px;border-top:1px solid var(--edge)}
+#sidefoot button{width:100%}
+/* main: selected speaker's barks */
+#main{flex:1;overflow-y:auto;padding:20px 26px 80px}
+#mhead{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+#mhead h1{font-size:21px;margin:0}
+#mhead .meta{color:var(--dim);font-size:12.5px}
+#mhead .voice{margin-left:auto;display:flex;align-items:center;gap:8px}
+.vname{color:var(--acc)} .vname.none{color:var(--bad)}
+.bark{display:block;padding:9px 14px;background:var(--panel);border:1px solid var(--edge);border-radius:10px;margin-bottom:8px}
 .brow{display:flex;align-items:center;gap:10px}
 .bark .txt{flex:1}
 .etext{cursor:text;border-bottom:1px dashed #39434f;outline:none}
 .etext:hover{border-bottom-color:var(--acc)}
 .etext:focus{border-bottom-color:var(--acc);background:rgba(224,168,59,.07)}
-.editedtag{font-size:10px;color:var(--acc);border:1px solid var(--line);border-radius:8px;padding:0 6px;margin-left:6px;vertical-align:1px}
+.editedtag{font-size:10px;color:var(--acc);border:1px solid var(--edge);border-radius:8px;padding:0 6px;margin-left:6px;vertical-align:1px}
 .resetbtn{border:0;background:none;color:var(--dim);font-size:13px;padding:0 4px;cursor:pointer}
 .resetbtn:hover{color:var(--acc)}
 .btakes{display:flex;flex-wrap:wrap;gap:6px;margin:7px 0 1px;padding-left:2px}
-.take{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:3px 10px;font-size:12px;color:var(--dim)}
+.take{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--edge);border-radius:16px;padding:3px 10px;font-size:12px;color:var(--dim)}
 .take.selected{border-color:var(--good);color:var(--good)}
 .take button{border:0;background:none;padding:0 2px;font-size:13px;color:inherit;cursor:pointer}
-.bark .zone{display:inline-block;font-size:10.5px;color:var(--dim);margin-top:1px;cursor:help}
+.bark .zone{display:inline-block;font-size:10.5px;color:var(--dim);margin-left:6px;cursor:help}
 .bark .zone b{color:#7fa7c9;font-weight:600}
 .bark .zone .i{color:var(--acc);opacity:.85}
 .bark .zone:hover .i{text-decoration:underline}
+.bark .bvoice{font-size:11px;color:var(--acc);min-width:96px;text-align:right;white-space:nowrap;overflow:hidden}
+.bark .bvoice.none{color:var(--bad)}
+.bark .st{font-size:11px;color:var(--dim);min-width:54px;text-align:right}
+.bark .st.ok{color:var(--good)}
 #tip{position:fixed;display:none;z-index:100;background:#0b0b10;border:1px solid var(--acc);border-radius:9px;padding:9px 13px;max-width:280px;font-size:12px;color:var(--txt);box-shadow:0 8px 24px #000b;pointer-events:none;max-height:66vh;overflow:auto}
 #tip .tiphd{color:var(--acc);font-weight:700;margin-bottom:5px;font-size:10.5px;text-transform:uppercase;letter-spacing:.06em}
 #tip div{line-height:1.5}
-.bark .st{font-size:11px;color:var(--dim);min-width:52px;text-align:right}
-.bark .st.ok{color:var(--good)}
-.bark .bvoice{font-size:11px;color:var(--acc);min-width:96px;text-align:right;white-space:nowrap;overflow:hidden}
-.bark .bvoice.none{color:var(--bad)}
-.pill{padding:2px 7px;border-radius:20px;font-size:11px;border:1px solid var(--line);background:#0000}
-.play{width:30px;padding:5px 0;text-align:center}
 .spin{display:inline-block;animation:s 1s linear infinite}@keyframes s{to{transform:rotate(360deg)}}
-/* modal */
-#modal{position:fixed;inset:0;background:#000a;display:none;align-items:center;justify-content:center;z-index:50}
-#modal .box{background:var(--panel);border:1px solid var(--line);border-radius:14px;width:min(720px,92vw);max-height:86vh;display:flex;flex-direction:column}
-#modal .top{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-#modal .list{overflow:auto;padding:8px}
-.vrow{display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:8px;cursor:pointer}
-.vsep{position:sticky;top:0;margin:10px 4px 4px;padding:6px 10px;font-size:11px;font-weight:700;letter-spacing:.05em;color:var(--bad);background:rgba(224,106,90,.14);border-radius:6px;text-align:center}
-.vrow:hover{background:var(--panel2)}
-.vrow .vn{font-weight:600}.vrow .vd{color:var(--dim);font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.prevbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:6px;padding:3px 10px;cursor:pointer;font-size:12px;flex:none}
-.prevbtn:hover{background:#25252f}
-.tag{font-size:10px;padding:1px 6px;border-radius:10px;border:1px solid var(--line)}
-.el{background:#3a1420;border-color:#7a2a3a}
-#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#000d;border:1px solid var(--line);color:#fff;padding:9px 15px;border-radius:10px;display:none;z-index:60}
+#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#000d;border:1px solid var(--edge);color:#fff;padding:9px 15px;border-radius:10px;display:none;z-index:60}
+::-webkit-scrollbar{width:10px} ::-webkit-scrollbar-thumb{background:#2a333e;border-radius:5px}
 </style></head>
 <body>
 <div id="topnav"></div>
-<header>
-  <h1>⚔ Combat Barks</h1>
-  <span class="sub" id="prog">loading…</span>
-  <div class="controls">
-    <input type="text" id="q" placeholder="search barks / speakers">
-    <select id="filt"><option value="all">All speakers</option><option value="need">Needs a voice</option><option value="unvoiced">Has voice, not generated</option><option value="done">Fully voiced</option></select>
-    <button class="acc" id="genall">⚡ Generate all missing</button>
+<div id="workarea">
+  <div id="side">
+    <div id="sidetabs"></div>
+    <label class="incfilter"><input type="checkbox" id="incomplete"> Show only incomplete (needs voices)</label>
+    <div id="bsearchwrap"><input type="text" id="bsearch" placeholder="search speakers / barks"></div>
+    <div id="prog">loading…</div>
+    <div id="spklist"></div>
+    <div id="sidefoot"><button class="acc" id="genall">⚡ Generate all missing</button></div>
   </div>
-</header>
-<main id="main"></main>
+  <div id="main"></div>
+</div>
 
 <div id="toast"></div>
 <div id="tip"></div>
@@ -86,10 +85,10 @@ main{padding:16px 20px 80px;max-width:1100px;margin:0 auto}
 <script>
 const $=id=>document.getElementById(id);
 const GAME=currentGame();               // 'dms' | 'dragonfall' | 'hk'
-renderNav('barks');
+renderNav('barks'); renderSideTabs('barks');
 const gd=f=>`data/${GAME}/${f}`;         // per-game data file url
 const gaud=f=>`audio/${GAME}/${f}`;      // per-game audio file url
-let BARKS={}, PICKS={}, OVERRIDES={}, TAKES={}, EDITS={}, VOICES=[], SCENEACTORS={}, curTarget=null;
+let BARKS={}, PICKS={}, OVERRIDES={}, TAKES={}, EDITS={}, VOICES=[], SCENEACTORS={}, curSpk=null;
 const INFLIGHT=new Set();
 function toast(m,ms=2600){const t=$('toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',ms)}
 async function api(p,b){let url=p; if(!b&&p.startsWith('/api/'))url=p+(p.includes('?')?'&':'?')+'game='+GAME; const r=await fetch(url,b?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...b,game:GAME}),cache:'no-store'}:{cache:'no-store'});const j=await r.json();if(j.error)throw new Error(j.error);return j}
@@ -112,74 +111,86 @@ async function refreshState(){ const s=await api('/api/state'); TAKES=(s.takes||
 function effBarkText(k){ const e=EDITS[k]; return e!=null?e:(BARKS[k]?BARKS[k].text:''); }
 function speakerVoice(sp){ return PICKS[sp]||null; }
 function effVoice(k,sp){ return OVERRIDES[k]||PICKS[sp]||null; }   // per-line override wins over speaker
+function barkVoiced(k){ const t=TAKES[k]; return t&&t.takes&&t.takes.length; }
+function esc(t){const d=document.createElement('div');d.textContent=t==null?'':t;return d.innerHTML}
+const sq=s=>JSON.stringify(s).replace(/'/g,'&#39;');   // JSON for single-quoted onclick (escape apostrophes)
+
+// scene roster hover tooltip
 function rosterHtml(scenes){ const s=new Set(); scenes.forEach(sc=>(SCENEACTORS[sc]||[]).forEach(n=>s.add(n))); if(!s.size)return ''; return '<div class="tiphd">Characters in this map</div>'+[...s].map(n=>'<div>'+esc(n)+'</div>').join(''); }
 function showTip(ev,el){ const scenes=(el.dataset.scenes||'').split(',').filter(Boolean); const h=rosterHtml(scenes); if(!h)return; const t=$('tip'); t.innerHTML=h; t.style.display='block'; moveTip(ev); }
 function moveTip(ev){ const t=$('tip'); if(t.style.display!=='block')return; let x=ev.clientX+14, y=ev.clientY+14; if(x+t.offsetWidth>innerWidth)x=ev.clientX-t.offsetWidth-14; if(y+t.offsetHeight>innerHeight)y=Math.max(8,innerHeight-t.offsetHeight-8); t.style.left=x+'px'; t.style.top=y+'px'; }
 function hideTip(){ $('tip').style.display='none'; }
-function barkVoiced(k){ const t=TAKES[k]; return t&&t.takes&&t.takes.length; }
-function esc(t){const d=document.createElement('div');d.textContent=t==null?'':t;return d.innerHTML}
-const sq=s=>JSON.stringify(s).replace(/'/g,'&#39;');   // JSON for single-quoted onclick (escape apostrophes)
-let prevAudio=null;
-function playPrev(url){ if(prevAudio)prevAudio.pause(); prevAudio=new Audio(url); prevAudio.play().catch(()=>{}); }
 
-function render(){
-  const q=$('q').value.toLowerCase(), filt=$('filt').value;
-  // group voiceable barks by speaker
+// ---- speaker categories (sidebar) + selected speaker's barks (main) ----
+function groupsOf(){
   const groups={};
-  for(const [k,b] of Object.entries(BARKS)){
-    if(b.nonverbal) continue;
-    (groups[b.speaker]=groups[b.speaker]||[]).push([k,b]);
-  }
+  for(const [k,b] of Object.entries(BARKS)){ if(b.nonverbal) continue; (groups[b.speaker]=groups[b.speaker]||[]).push([k,b]); }
+  return groups;
+}
+function spkStatus(arr){ const nGen=arr.filter(([k])=>barkVoiced(k)).length; return {nGen, total:arr.length, done:nGen===arr.length, part:nGen>0}; }
+function orderedSpeakers(groups){
+  return Object.entries(groups).sort((a,b)=>{
+    const av=speakerVoice(a[0])?1:0, bv=speakerVoice(b[0])?1:0;
+    if(av!==bv) return av-bv;                 // speakers still needing a voice first
+    return b[1].length-a[1].length;           // then most barks
+  }).map(e=>e[0]);
+}
+function render(){
+  const groups=groupsOf();
+  if(!curSpk || !groups[curSpk]){ const o=orderedSpeakers(groups); if(o.length) curSpk=o[0]; }
+  renderSide(groups); renderMain(groups);
+}
+function selectSpk(sp){ curSpk=sp; render(); }
+function renderSide(groups){
+  const q=($('bsearch').value||'').toLowerCase();
+  const inc=$('incomplete').checked;
   let total=0,voiced=0;
   for(const arr of Object.values(groups)) for(const [k] of arr){ total++; if(barkVoiced(k)) voiced++; }
   $('prog').textContent=`${voiced} / ${total} barks voiced · ${Object.keys(groups).length} speakers`;
-  // sort: needs-voice first, then most barks
-  const order=Object.entries(groups).sort((a,b)=>{
-    const av=speakerVoice(a[0])?1:0, bv=speakerVoice(b[0])?1:0;
-    if(av!==bv) return av-bv;
-    return b[1].length-a[1].length;
-  });
-  let h='';
-  for(const [sp,arr] of order){
+  let h='',shown=0;
+  for(const sp of orderedSpeakers(groups)){
+    const arr=groups[sp], st=spkStatus(arr);
+    if(inc && st.done) continue;              // "incomplete only" hides fully-generated speakers
+    if(q && !(sp.toLowerCase().includes(q) || arr.some(([,b])=>b.text.toLowerCase().includes(q)))) continue;
+    shown++;
     const v=speakerVoice(sp);
-    const nGen=arr.filter(([k])=>barkVoiced(k)).length;
-    // filter
-    const matchesText = !q || sp.toLowerCase().includes(q) || arr.some(([,b])=>b.text.toLowerCase().includes(q));
-    let show=matchesText;
-    if(filt==='need') show=show&&!v;
-    if(filt==='unvoiced') show=show&&v&&nGen<arr.length;
-    if(filt==='done') show=show&&v&&nGen===arr.length;
-    if(!show) continue;
-    const g=arr[0][1].gender||'?';
-    h+=`<div class="spk"><div class="spkhead">
-      <span class="nm">${esc(sp)}</span>
-      <span class="meta">${arr.length} bark${arr.length>1?'s':''} · ${g} · ${nGen}/${arr.length} voiced</span>
-      <span class="voice">
-        <span class="vname ${v?'':'none'}">${v?esc(v.voiceName):'no speaker voice'}</span>
-        <button onclick='openPicker("speaker",${sq(sp)})'>${v?'change all':'set speaker voice'}</button>
-        <button onclick='genSpeaker(${sq(sp)})' title="Generate all missing for this speaker">⚡ gen all</button>
-      </span></div><div class="barks">`;
-    for(const [k,b] of arr){
-      const ev=effVoice(k,sp);
-      const takes=(TAKES[k]&&TAKES[k].takes)||[];
-      const ok=takes.length>0;
-      const busy=INFLIGHT.has(k);
-      const isOv=!!OVERRIDES[k];
-      const zone=(b.scenes&&b.scenes.length)?`<span class="zone" data-scenes="${esc(b.scenes.join(','))}" onmouseenter="showTip(event,this)" onmousemove="moveTip(event)" onmouseleave="hideTip()">📍 <b>${b.scenes.map(esc).join('</b>, <b>')}</b> <span class="i">ⓘ who's here</span>${b.actorId?` · actor ${esc(b.actorId.slice(0,8))}`:''}${b.count>1?` · said ×${b.count}`:''}</span>`:'';
-      h+=`<div class="bark">
-        <div class="brow">
-          <span class="txt">${editableBark(k,b.text)} ${zone}</span>
-          <span class="bvoice ${ev?'':'none'}" title="${isOv?'per-line voice':'inherited from speaker'}">${ev?esc(ev.voiceName.split(' -')[0].split(' (')[0].slice(0,20)):'no voice'}${isOv?' •':''}</span>
-          <button title="Set a voice just for this line" onclick='openPicker("bark",${sq(k)},${sq(sp)})'>🎤</button>
-          <button ${busy||!ev?'disabled':''} onclick='genBark(this,${sq(k)},${sq(sp)})'>${busy?'<span class="spin">◌</span>':(ok?'retake':'generate')}</button>
-          <span class="st ${ok?'ok':''}">${ok?takes.length+' take'+(takes.length>1?'s':''):'—'}</span>
-        </div>
-        ${takes.length?`<div class="btakes">${takes.map(tk=>barkTakeChip(k,TAKES[k],tk)).join('')}</div>`:''}
-      </div>`;
-    }
-    h+='</div></div>';
+    const dot=st.done?'done':(st.part?'part':'');
+    h+=`<div class="spkrow ${curSpk===sp?'sel':''}" onclick='selectSpk(${sq(sp)})'>
+      <span class="dot ${dot}" title="${st.nGen}/${st.total} voiced"></span>
+      <div style="min-width:0"><div class="nm">${esc(sp)}</div>
+      <div class="ct">${st.total} bark${st.total>1?'s':''} · ${st.nGen}/${st.total} voiced${v?' · '+esc((v.voiceName||'').split(' -')[0].split(' (')[0].slice(0,16)):' · no voice'}</div></div></div>`;
   }
-  $('main').innerHTML=h||'<p class="sub">No barks match.</p>';
+  if(!shown) h=`<div style="padding:16px;color:var(--dim);font-size:13px">${inc?'🎉 Every speaker is fully voiced.':'No speakers match.'}</div>`;
+  $('spklist').innerHTML=h;
+}
+function renderMain(groups){
+  const arr=curSpk&&groups[curSpk];
+  if(!arr){ $('main').innerHTML='<div style="color:var(--dim);margin-top:40px;text-align:center">Select a speaker on the left to voice their barks</div>'; return; }
+  const v=speakerVoice(curSpk), st=spkStatus(arr), g=arr[0][1].gender||'?';
+  let h=`<div id="mhead">
+    <div><h1>${esc(curSpk)}</h1><div class="meta">${st.total} bark${st.total>1?'s':''} · ${g} · ${st.nGen}/${st.total} voiced</div></div>
+    <span class="voice">
+      <span class="vname ${v?'':'none'}">${v?esc(v.voiceName):'no speaker voice'}</span>
+      <button onclick='openPicker("speaker",${sq(curSpk)})'>${v?'change voice':'set speaker voice'}</button>
+      <button class="acc" onclick='genSpeaker(${sq(curSpk)})' title="Generate all missing for this speaker">⚡ gen all</button>
+    </span></div>`;
+  for(const [k,b] of arr){
+    const ev=effVoice(k,curSpk);
+    const takes=(TAKES[k]&&TAKES[k].takes)||[];
+    const ok=takes.length>0, busy=INFLIGHT.has(k), isOv=!!OVERRIDES[k];
+    const zone=(b.scenes&&b.scenes.length)?`<span class="zone" data-scenes="${esc(b.scenes.join(','))}" onmouseenter="showTip(event,this)" onmousemove="moveTip(event)" onmouseleave="hideTip()">📍 <b>${b.scenes.map(esc).join('</b>, <b>')}</b> <span class="i">ⓘ who's here</span>${b.count>1?` · said ×${b.count}`:''}</span>`:'';
+    h+=`<div class="bark">
+      <div class="brow">
+        <span class="txt">${editableBark(k,b.text)} ${zone}</span>
+        <span class="bvoice ${ev?'':'none'}" title="${isOv?'per-line voice override':'inherited from speaker'}">${ev?esc((ev.voiceName||'').split(' -')[0].split(' (')[0].slice(0,20)):'no voice'}${isOv?' •':''}</span>
+        <button title="Set a voice just for this line" onclick='openPicker("bark",${sq(k)},${sq(curSpk)})'>🎤</button>
+        <button ${busy||!ev?'disabled':''} onclick='genBark(this,${sq(k)},${sq(curSpk)})'>${busy?'<span class="spin">◌</span>':(ok?'retake':'generate')}</button>
+        <span class="st ${ok?'ok':''}">${ok?takes.length+' take'+(takes.length>1?'s':''):'—'}</span>
+      </div>
+      ${takes.length?`<div class="btakes">${takes.map(tk=>barkTakeChip(k,TAKES[k],tk)).join('')}</div>`:''}
+    </div>`;
+  }
+  $('main').innerHTML=h;
 }
 
 let curAudio=null;
@@ -238,7 +249,7 @@ async function genSpeaker(sp){
 }
 async function genAllMissing(){
   const todo=Object.entries(BARKS).filter(([k,b])=>!b.nonverbal&&!barkVoiced(k)&&effVoice(k,b.speaker));
-  if(!todo.length){toast('Nothing to generate (assign voices first)');return}
+  if(!todo.length){toast('Nothing to generate (assign voices to speakers first)');return}
   if(!confirm(`Generate ${todo.length} barks with assigned voices?`))return;
   toast(`Generating ${todo.length}…`,5000);
   let n=0; for(const [k,b] of todo){ await genBark(null,k,b.speaker); n++; if(n%10===0)toast(`${n}/${todo.length}…`,3000); }
@@ -255,8 +266,8 @@ function openPicker(type,id,sp){
   VoicePicker.open({
     voices: VOICES,
     header: forBark
-      ? `<div style="font-weight:700;font-size:15px">Voice for ONE bark</div><div style="color:var(--dim);font-size:12.5px">Overrides ${esc(sp)}'s voice for just this line. Generate/Retake the bark to apply.</div>`
-      : `<div style="font-weight:700;font-size:15px">Voice for ${esc(id)}</div><div style="color:var(--dim);font-size:12.5px">Applies to every one of ${esc(id)}'s combat barks (unless a bark has its own override).</div>`,
+      ? `<div class="vcname" style="font-weight:700;font-size:15px">Voice for ONE bark</div><div style="color:var(--dim);font-size:12.5px">Overrides ${esc(sp)}'s voice for just this line. Generate/Retake the bark to apply.</div>`
+      : `<div class="vcname" style="font-weight:700;font-size:15px">Voice for ${esc(id)}</div><div style="color:var(--dim);font-size:12.5px">Applies to every one of ${esc(id)}'s combat barks (unless a bark has its own override).</div>`,
     taken: takenBy,
     currentPickId: cur && cur.voiceId,
     primaryLabel: v => forBark ? 'Use for this bark' : ('Set as '+ (id.length>16?id.slice(0,15)+'…':id) +' voice'),
@@ -272,7 +283,7 @@ function openPicker(type,id,sp){
     },
   });
 }
-$('q').oninput=render; $('filt').onchange=render; $('genall').onclick=genAllMissing;
+$('bsearch').oninput=()=>render(); $('incomplete').onchange=()=>render(); $('genall').onclick=genAllMissing;
 load();
 </script>
 </body></html>

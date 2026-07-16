@@ -25,15 +25,22 @@ function currentGame() {
   #topnav .gtab .gn{font-size:13.5px; font-weight:600; line-height:1.15}
   #topnav .gtab.on .gn{color:var(--acc)}
   #topnav .gtab .gs{font-size:10.5px; color:var(--dim); letter-spacing:.06em}
-  #topnav .vtabs{display:flex; margin-left:auto}
-  #topnav .vtab{display:flex; align-items:center; gap:6px; padding:0 18px; text-decoration:none; color:var(--dim);
-    border-left:1px solid var(--edge); font-size:13px; font-weight:600}
-  #topnav .vtab:hover{background:rgba(255,255,255,.045); color:var(--txt)}
-  #topnav .vtab.on{color:var(--acc); background:var(--panel2)}
+  /* Characters / Barks view tabs — live at the top of the left sidebar (#sidetabs) */
+  #sidetabs{display:flex; border-bottom:1px solid var(--edge)}
+  #sidetabs .stab{flex:1; text-align:center; padding:11px 6px; text-decoration:none; color:var(--dim);
+    font-weight:600; font-size:13px; border-right:1px solid var(--edge)}
+  #sidetabs .stab:last-child{border-right:0}
+  #sidetabs .stab:hover{background:rgba(255,255,255,.045); color:var(--txt)}
+  #sidetabs .stab.on{color:var(--acc); background:var(--panel2)}
+  .incfilter{display:flex; align-items:center; gap:7px; padding:9px 14px; font-size:12.5px; color:var(--dim);
+    border-bottom:1px solid var(--edge); cursor:pointer; user-select:none}
+  .incfilter input{cursor:pointer}
   `;
   const s = document.createElement('style'); s.textContent = css; document.head.appendChild(s);
 })();
 // view: 'characters' (lab.html) or 'barks' (barks.html). Switching games preserves the current view.
+// The top nav holds the brand + the three game tabs; the Characters/Barks view tabs live in the
+// sidebar (renderSideTabs), so both pages share the sidebar+main shell.
 function renderNav(view) {
   const g = currentGame();
   const page = view === 'barks' ? 'barks.html' : 'lab.html';
@@ -44,9 +51,15 @@ function renderNav(view) {
        <span class="gn">${x.name}</span><span class="gs">${x.sub}</span></a>`).join('');
   el.innerHTML =
     `<div class="brand"><b>SRR Voice Lab</b><span>AI voices</span></div>
-     <div class="gtabs">${gtabs}</div>
-     <div class="vtabs">
-       <a class="vtab ${view === 'characters' ? 'on' : ''}" href="lab.html?game=${g}">🎭 Characters</a>
-       <a class="vtab ${view === 'barks' ? 'on' : ''}" href="barks.html?game=${g}">⚔ Combat Barks</a>
-     </div>`;
+     <div class="gtabs">${gtabs}</div>`;
+}
+
+// Characters/Barks tabs at the top of the left sidebar (#sidetabs). Switching games is preserved.
+function renderSideTabs(view) {
+  const g = currentGame();
+  const el = document.getElementById('sidetabs');
+  if (!el) return;
+  el.innerHTML =
+    `<a class="stab ${view === 'characters' ? 'on' : ''}" href="lab.html?game=${g}">🎭 Characters</a>
+     <a class="stab ${view === 'barks' ? 'on' : ''}" href="barks.html?game=${g}">⚔ Barks</a>`;
 }
