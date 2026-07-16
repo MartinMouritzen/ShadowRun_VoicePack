@@ -87,9 +87,14 @@ namespace SRRVoices
                 {
                     if (Array.IndexOf(NAMES, m.Name) < 0) continue;
                     if (m.IsAbstract || m.ContainsGenericParameters) continue;
-                    bool hasStr = false;
-                    foreach (var p in m.GetParameters()) if (p.ParameterType == typeof(string)) { hasStr = true; break; }
-                    if (hasStr) found.Add(m);
+                    // Two families carry the text differently: CreateGMText/ShowText take a direct
+                    // string param; the DisplayTextOver* family (incl. combat barks via
+                    // DisplayTextOverActor) takes (context, object[] args) and puts the text INSIDE
+                    // the object[]. Hook both shapes.
+                    bool hookable = false;
+                    foreach (var p in m.GetParameters())
+                        if (p.ParameterType == typeof(string) || p.ParameterType == typeof(object[])) { hookable = true; break; }
+                    if (hookable) found.Add(m);
                 }
             }
             return found;
@@ -106,6 +111,17 @@ namespace SRRVoices
                 {
                     string s = a as string;
                     if (s != null && s.Trim().Length > 3) { text = s.Trim(); break; }
+                    // barks/DisplayTextOver* pass the text inside an object[] args array
+                    object[] arr = a as object[];
+                    if (arr != null)
+                    {
+                        foreach (var o in arr)
+                        {
+                            string os = o as string;
+                            if (os != null && os.Trim().Length > 3) { text = os.Trim(); break; }
+                        }
+                        if (text != null) break;
+                    }
                 }
                 if (text == null) return;
                 bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
