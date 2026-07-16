@@ -50299,6 +50299,36 @@
      "ts": 1784188947
     }
    ]
+  },
+  "bark_5f17a3d3791274c8": {
+   "selected": null,
+   "takes": []
+  },
+  "bark_0678ad00da4781e7": {
+   "selected": "_barks/takes/bark_0678ad00da4781e7__mag441__1784190211.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_0678ad00da4781e7__mag441__1784190211.mp3",
+     "voiceId": "mag_441",
+     "voiceName": "Noah Reed",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1784190211
+    }
+   ]
+  },
+  "bark_3a7c8e09356c2c73": {
+   "selected": "_barks/takes/bark_3a7c8e09356c2c73__mag518__1784190252.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_3a7c8e09356c2c73__mag518__1784190252.mp3",
+     "voiceId": "mag_518",
+     "voiceName": "Dr. Cosmo Fizzlebaum",
+     "stability": 0,
+     "chars": 10,
+     "ts": 1784190252
+    }
+   ]
   }
  },
  "name_alex": {
@@ -51505,6 +51535,99 @@
      "stability": 0,
      "chars": 108,
      "ts": 1784143166
+    }
+   ]
+  }
+ },
+ "name_securityturret1": {
+  "7f0e600a306434041700487e_0": {
+   "selected": "name_securityturret1/takes/7f0e600a306434041700487e_0__0aXOy31Cjamp__1784189761.mp3",
+   "takes": [
+    {
+     "file": "name_securityturret1/takes/7f0e600a306434041700487e_0__0aXOy31Cjamp__1784189761.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1784189761
+    }
+   ]
+  },
+  "7f0e600a306434041700487e_1": {
+   "selected": "name_securityturret1/takes/7f0e600a306434041700487e_1__0aXOy31Cjamp__1784189762.mp3",
+   "takes": [
+    {
+     "file": "name_securityturret1/takes/7f0e600a306434041700487e_1__0aXOy31Cjamp__1784189762.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784189762
+    }
+   ]
+  },
+  "7f0e600a306434041700487e_2": {
+   "selected": "name_securityturret1/takes/7f0e600a306434041700487e_2__0aXOy31Cjamp__1784189762.mp3",
+   "takes": [
+    {
+     "file": "name_securityturret1/takes/7f0e600a306434041700487e_2__0aXOy31Cjamp__1784189762.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784189762
+    }
+   ]
+  },
+  "7f0e600a306434041700487e_6": {
+   "selected": "name_securityturret1/takes/7f0e600a306434041700487e_6__0aXOy31Cjamp__1784189764.mp3",
+   "takes": [
+    {
+     "file": "name_securityturret1/takes/7f0e600a306434041700487e_6__0aXOy31Cjamp__1784189764.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784189764
+    }
+   ]
+  },
+  "7f0e600a306434041700487e_4": {
+   "selected": "name_securityturret1/takes/7f0e600a306434041700487e_4__0aXOy31Cjamp__1784189764.mp3",
+   "takes": [
+    {
+     "file": "name_securityturret1/takes/7f0e600a306434041700487e_4__0aXOy31Cjamp__1784189764.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784189764
+    }
+   ]
+  },
+  "7f0e600a306434041700487e_3": {
+   "selected": "name_securityturret1/takes/7f0e600a306434041700487e_3__0aXOy31Cjamp__1784189765.mp3",
+   "takes": [
+    {
+     "file": "name_securityturret1/takes/7f0e600a306434041700487e_3__0aXOy31Cjamp__1784189765.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784189765
+    }
+   ]
+  },
+  "7f0e600a306434041700487e_5": {
+   "selected": "name_securityturret1/takes/7f0e600a306434041700487e_5__0aXOy31Cjamp__1784189774.mp3",
+   "takes": [
+    {
+     "file": "name_securityturret1/takes/7f0e600a306434041700487e_5__0aXOy31Cjamp__1784189774.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784189774
     }
    ]
   }
