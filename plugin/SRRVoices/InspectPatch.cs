@@ -16,6 +16,7 @@ namespace SRRVoices
         static void Postfix(InteractableObject __instance, bool __result)
         {
             if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
+            if (Plugin.CfgInspect != null && !Plugin.CfgInspect.Value) return;   // inspects disabled in config
             if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value)
                 Plugin.Log.LogInfo("handleInspectInteraction fired (result=" + __result + ")");   // diagnostic: does it fire at all?
             if (!__result || Plugin.Pack == null || Plugin.Player == null || __instance == null) return;
@@ -114,6 +115,8 @@ namespace SRRVoices
                 if (!Plugin.Pack.TryGet(key, out clips)) { key = "insp_" + md5; if (!Plugin.Pack.TryGet(key, out clips)) clips = null; }  // else inspect?
                 if (clips != null && clips.Length > 0)
                 {
+                    if (key[0] == 'b' && Plugin.CfgBarks != null && !Plugin.CfgBarks.Value) return;      // bark_ disabled
+                    if (key[0] == 'i' && Plugin.CfgInspect != null && !Plugin.CfgInspect.Value) return;  // insp_ disabled
                     if (Plugin.InspectDebounced(key)) return;
                     if (log) Plugin.Log.LogInfo("play FT[" + __originalMethod.Name + "] " + key + " (" + clips.Length + " clips)");
                     Plugin.Player.PlaySequence(clips);

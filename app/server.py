@@ -24,6 +24,25 @@ AUDIO = os.path.join(ROOT, "audio")
 KEYFILE = os.path.join(ROOT, "..", ".elevenlabs.key")
 STATE_LOCK = threading.Lock()
 
+# Three isolated voice packs share this lab. Per-game content + casting state lives under
+# data/<game>/ and audio/<game>/; the ElevenLabs/Magnific voice catalog + account slot state are
+# shared across all games and stay at the data/ root.
+GAMES = {"dms", "dragonfall", "hk"}
+SHARED_FILES = {"el_voices.json", "protected_voices.json", "voice_slots.json", "magnific_voices.json"}
+
+def game_of(val):
+    g = (val or "dms").strip().lower()
+    return g if g in GAMES else "dms"
+
+def gpath(game, filename):
+    """Resolve a data file: shared catalog files at data/, everything else at data/<game>/."""
+    if filename in SHARED_FILES:
+        return os.path.join(DATA, filename)
+    return os.path.join(DATA, game, filename)
+
+def gaudio(game):
+    return os.path.join(AUDIO, game)
+
 def api_key():
     return open(KEYFILE).read().strip()
 
@@ -272,15 +291,15 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store, must-revalidate")
         super().end_headers()
 
-    def ingest_mcp_results(self):
+    def ingest_mcp_results(self, game):
         """Consume result files written by the Claude MCP worker into takes.json.
         Caller must hold STATE_LOCK. The server is the only writer of takes.json."""
-        indir = os.path.join(DATA, "mcp_results")
+        indir = os.path.join(DATA, game, "mcp_results")
         if not os.path.isdir(indir): return
         files = sorted(os.listdir(indir))
         if not files: return
-        takes = jload(os.path.join(DATA, "takes.json"), {})
-        queue = jload(os.path.join(DATA, "mcp_queue.json"), {})
+        takes = jload(gpath(game, "takes.json"), {})
+        queue = jload(gpath(game, "mcp_queue.json"), {})
         changed = False
         for fn in files:
             p = os.path.join(indir, fn)
@@ -301,19 +320,19 @@ class Handler(SimpleHTTPRequestHandler):
             os.remove(p)
             changed = True
         if changed:
-            jsave(os.path.join(DATA, "takes.json"), takes)
-            jsave(os.path.join(DATA, "mcp_queue.json"), queue)
+            jsave(gpath(game, "takes.json"), takes)
+            jsave(gpath(game, "mcp_queue.json"), queue)
 
     def log_message(self, fmt, *args):
         sys.stderr.write("%s - %s\n" % (self.address_string(), fmt % args))
 
-    def run_sync(self):
+    def run_sync(self, game="dms"):
         # Export current takes -> voicepack and install into the game (game restart still needed).
         # Reachable via GET and POST so a cached lab can't hit a method mismatch.
         import subprocess
         script = os.path.join(ROOT, "..", "tools", "sync_to_game.sh")
         try:
-            r = subprocess.run(["bash", script], capture_output=True, text=True, timeout=600)
+            r = subprocess.run(["bash", script, game], capture_output=True, text=True, timeout=600)
             out = (r.stdout + "\n" + r.stderr).strip()
             status = ""
             for line in out.splitlines():
@@ -338,17 +357,21 @@ class Handler(SimpleHTTPRequestHandler):
         return json.loads(self.rfile.read(n)) if n else {}
 
     def do_GET(self):
-        if self.path == "/api/sync":
-            return self.run_sync()
-        if self.path == "/api/state":
+        parsed = urllib.parse.urlparse(self.path)
+        path = parsed.path
+        qs = urllib.parse.parse_qs(parsed.query)
+        game = game_of((qs.get("game") or ["dms"])[0])
+        if path == "/api/sync":
+            return self.run_sync(game)
+        if path == "/api/state":
             with STATE_LOCK:
-                self.ingest_mcp_results()
-                chars = jload(os.path.join(DATA, "characters.json"), {})
-                takes = jload(os.path.join(DATA, "takes.json"), {})
-                picks = jload(os.path.join(DATA, "picks.json"), {})
-                edits = jload(os.path.join(DATA, "text_edits.json"), {})
-                queue = jload(os.path.join(DATA, "mcp_queue.json"), {})
-            return self.send_json({"characters": chars, "takes": takes, "picks": picks,
+                self.ingest_mcp_results(game)
+                chars = jload(gpath(game, "characters.json"), {})
+                takes = jload(gpath(game, "takes.json"), {})
+                picks = jload(gpath(game, "picks.json"), {})
+                edits = jload(gpath(game, "text_edits.json"), {})
+                queue = jload(gpath(game, "mcp_queue.json"), {})
+            return self.send_json({"game": game, "characters": chars, "takes": takes, "picks": picks,
                                    "edits": edits, "queue": queue,
                                    "mcpConnected": bool(tokens())})
         if self.path == "/api/voices":
@@ -416,6 +439,7 @@ class Handler(SimpleHTTPRequestHandler):
             body = self.read_body()
         except Exception:
             return self.send_json({"error": "bad json"}, 400)
+        game = game_of(body.get("game"))
 
         if self.path == "/api/generate":
             cid = body.get("charId"); key = body.get("lineKey")
@@ -435,20 +459,20 @@ class Handler(SimpleHTTPRequestHandler):
                 except Exception as e:
                     return self.send_json({"error": f"Magnific generation failed: {e}"}, 502)
                 ts = int(time.time())
-                d = os.path.join(AUDIO, cid, "takes")
+                d = os.path.join(gaudio(game), cid, "takes")
                 os.makedirs(d, exist_ok=True)
                 fname = f"{key}__mag{mag_id}__{ts}.mp3"
                 with open(os.path.join(d, fname), "wb") as f:
                     f.write(audio)
                 rel = f"{cid}/takes/{fname}"
                 with STATE_LOCK:
-                    takes = jload(os.path.join(DATA, "takes.json"), {})
+                    takes = jload(gpath(game, "takes.json"), {})
                     arr = takes.setdefault(cid, {}).setdefault(key, {"selected": None, "takes": []})
                     arr["takes"].append({"file": rel, "voiceId": f"mag_{mag_id}",
                                          "voiceName": body.get("voiceName") or f"Magnific {mag_id}",
                                          "stability": stability, "chars": len(text), "ts": ts})
                     if arr["selected"] is None: arr["selected"] = rel
-                    jsave(os.path.join(DATA, "takes.json"), takes)
+                    jsave(gpath(game, "takes.json"), takes)
                 return self.send_json({"ok": True, "file": rel})
             payload = {
                 "text": text,
@@ -467,21 +491,21 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 return self.send_json({"error": str(e)}, 502)
             ts = int(time.time())
-            d = os.path.join(AUDIO, cid, "takes")
+            d = os.path.join(gaudio(game), cid, "takes")
             os.makedirs(d, exist_ok=True)
             fname = f"{key}__{vid[:12]}__{ts}.mp3"
             with open(os.path.join(d, fname), "wb") as f:
                 f.write(audio)
             rel = f"{cid}/takes/{fname}"
             with STATE_LOCK:
-                takes = jload(os.path.join(DATA, "takes.json"), {})
+                takes = jload(gpath(game, "takes.json"), {})
                 arr = takes.setdefault(cid, {}).setdefault(key, {"selected": None, "takes": []})
                 arr["takes"].append({"file": rel, "voiceId": vid,
                                      "voiceName": body.get("voiceName") or vid[:8],
                                      "stability": stability, "chars": len(text), "ts": ts})
                 if arr["selected"] is None:
                     arr["selected"] = rel
-                jsave(os.path.join(DATA, "takes.json"), takes)
+                jsave(gpath(game, "takes.json"), takes)
             return self.send_json({"ok": True, "file": rel})
 
         if self.path == "/api/text/set":
@@ -489,7 +513,7 @@ class Handler(SimpleHTTPRequestHandler):
             if not key:
                 return self.send_json({"error": "key required"}, 400)
             with STATE_LOCK:
-                p = os.path.join(DATA, "text_edits.json")
+                p = gpath(game, "text_edits.json")
                 edits = jload(p, {})
                 if text:
                     edits[key] = text
@@ -499,67 +523,68 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json({"ok": True})
 
         if self.path == "/api/sync":
-            return self.run_sync()
+            return self.run_sync(game)
 
         if self.path == "/api/pick":
             with STATE_LOCK:
-                picks = jload(os.path.join(DATA, "picks.json"), {})
+                picks = jload(gpath(game, "picks.json"), {})
                 picks[body["charId"]] = {"voiceId": body.get("voiceId"),
                                          "voiceName": body.get("voiceName")}
-                jsave(os.path.join(DATA, "picks.json"), picks)
+                jsave(gpath(game, "picks.json"), picks)
             return self.send_json({"ok": True})
 
         if self.path == "/api/bark/pick":
             # Assign a voice to a combat-bark SPEAKER (applies to all that speaker's barks).
             with STATE_LOCK:
-                bp = jload(os.path.join(DATA, "bark_picks.json"), {})
+                bp = jload(gpath(game, "bark_picks.json"), {})
                 bp[body["speaker"]] = {"voiceId": body.get("voiceId"),
                                        "voiceName": body.get("voiceName")}
-                jsave(os.path.join(DATA, "bark_picks.json"), bp)
+                jsave(gpath(game, "bark_picks.json"), bp)
             return self.send_json({"ok": True})
 
         if self.path == "/api/seg/setvoice":
             # Per-LINE voice override for a character segment (wins over the character's pick).
             # Lets a mis-bucketed bucket (e.g. "Player Character 1") voice different lines differently.
             with STATE_LOCK:
-                ov = jload(os.path.join(DATA, "seg_overrides.json"), {})
+                ov = jload(gpath(game, "seg_overrides.json"), {})
                 if body.get("voiceId"):
                     ov[body["segKey"]] = {"voiceId": body["voiceId"], "voiceName": body.get("voiceName")}
                 else:
                     ov.pop(body["segKey"], None)
-                jsave(os.path.join(DATA, "seg_overrides.json"), ov)
+                jsave(gpath(game, "seg_overrides.json"), ov)
             return self.send_json({"ok": True})
 
         if self.path == "/api/bark/setvoice":
             # Per-bark voice override (wins over the speaker voice). Pass voiceId=null to clear.
             with STATE_LOCK:
-                ov = jload(os.path.join(DATA, "bark_overrides.json"), {})
+                ov = jload(gpath(game, "bark_overrides.json"), {})
                 if body.get("voiceId"):
                     ov[body["barkKey"]] = {"voiceId": body["voiceId"], "voiceName": body.get("voiceName")}
                 else:
                     ov.pop(body["barkKey"], None)
-                jsave(os.path.join(DATA, "bark_overrides.json"), ov)
+                jsave(gpath(game, "bark_overrides.json"), ov)
             return self.send_json({"ok": True})
 
         if self.path == "/api/take/select":
             with STATE_LOCK:
-                takes = jload(os.path.join(DATA, "takes.json"), {})
+                takes = jload(gpath(game, "takes.json"), {})
                 e = takes.get(body["charId"], {}).get(body["lineKey"])
                 if e: e["selected"] = body["file"]
-                jsave(os.path.join(DATA, "takes.json"), takes)
+                jsave(gpath(game, "takes.json"), takes)
             return self.send_json({"ok": True})
 
         if self.path == "/api/take/delete":
             with STATE_LOCK:
-                takes = jload(os.path.join(DATA, "takes.json"), {})
+                takes = jload(gpath(game, "takes.json"), {})
                 e = takes.get(body["charId"], {}).get(body["lineKey"])
                 if e:
                     e["takes"] = [t for t in e["takes"] if t["file"] != body["file"]]
                     if e["selected"] == body["file"]:
                         e["selected"] = e["takes"][-1]["file"] if e["takes"] else None
-                    jsave(os.path.join(DATA, "takes.json"), takes)
-                p = os.path.join(AUDIO, *body["file"].split("/"))
-                if os.path.abspath(p).startswith(AUDIO) and os.path.exists(p):
+                    jsave(gpath(game, "takes.json"), takes)
+                gadir = gaudio(game)
+                p = os.path.join(gadir, *body["file"].split("/"))
+                if os.path.abspath(p).startswith(os.path.abspath(gadir)) and os.path.exists(p):
                     os.remove(p)
             return self.send_json({"ok": True})
 

@@ -16,6 +16,8 @@ namespace SRRVoices
         public static Plugin Instance;
         public static ManualLogSource Log;
         public static ConfigEntry<bool> CfgEnabled;
+        public static ConfigEntry<bool> CfgInspect;
+        public static ConfigEntry<bool> CfgBarks;
         public static ConfigEntry<float> CfgVolume;
         public static ConfigEntry<float> CfgSegmentGap;
         public static ConfigEntry<bool> CfgBorderless;
@@ -43,6 +45,8 @@ namespace SRRVoices
             Log = Logger;
 
             CfgEnabled = Config.Bind("General", "Enabled", true, "Master enable for AI voices.");
+            CfgInspect = Config.Bind("General", "VoiceInspects", true, "Voice the 'examine object' inspect one-liners (narrator). Set false to keep inspects silent.");
+            CfgBarks = Config.Bind("General", "VoiceCombatBarks", true, "Voice combat barks (lines actors shout in a fight). Set false to keep barks silent.");
             CfgVolume = Config.Bind("General", "Volume", 0.9f, "Voice volume, 0..1.");
             CfgSegmentGap = Config.Bind("General", "SegmentGap", 0.3f,
                 "Pause in seconds between a line's segments (narrator -> character swap). 0 = instant.");
