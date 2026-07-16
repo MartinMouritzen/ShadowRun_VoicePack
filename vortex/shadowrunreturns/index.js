@@ -2,18 +2,15 @@
 //
 // Vortex already ships an official 'shadowrunreturns' extension whose queryModPath is
 // Shadowrun_Data/StreamingAssets/ContentPacks (correct for content-pack mods) but which has NO
-// BepInEx handling — so a BepInEx mod pushed through it lands in ContentPacks and never loads.
+// BepInEx handling. This extension keeps the content-pack behaviour AND adds BepInEx support so the
+// AI Voice Pack deploys to the game root.
 //
-// This extension keeps that content-pack behaviour AND adds the modtype-bepinex integration. The
-// bepinex modType resolves to the GAME ROOT independently of queryModPath, so:
-//   * content-pack mods  -> Shadowrun_Data/StreamingAssets/ContentPacks   (unchanged)
-//   * BepInEx-structured mods (winhttp.dll + BepInEx/) -> game root         (new: the voice pack)
-// both coexist.
-//
-// NOTE: it registers the same game id ('shadowrunreturns') as the built-in extension, so it will
-// override it. If you also manage ContentPack mods through Vortex, the cleaner long-term route is a
-// PR to Nexus-Mods/vortex-games adding the two BepInEx lines to the official extension (see
-// vortex/README.md). For users who just want the AI Voice Pack, installing this gives one-click.
+// The voice pack bundles the full BepInEx loader (winhttp.dll + BepInEx/core) so it installs in one
+// step. Vortex's built-in modtype-bepinex installer (priority 10) would recognise that as "the
+// BepInEx framework" and rename the mod to "Bepis Injector Extensible". To avoid that, we register
+// our OWN installer at a LOWER priority (5) that claims our specific archive first (it contains
+// BepInEx/plugins/SRRVoices/), deploys the tree to the game root via our own modType, and does NOT
+// emit a customFileName attribute — so the mod keeps its Nexus name.
 const path = require('path');
 const { fs, util } = require('vortex-api');
 
@@ -21,11 +18,12 @@ const GAME_ID = 'shadowrunreturns';   // MUST equal the nexusmods.com domain for
 const STEAMAPP_ID = '234650';
 const EXEC = 'Shadowrun.exe';
 const CONTENTPACKS = path.join('Shadowrun_Data', 'StreamingAssets', 'ContentPacks');
+const MODTYPE_VOICEPACK = 'srrvoices-voicepack';
+// our archive's unique signature (normalised to forward slashes, lower-case)
+const SIG = 'bepinex/plugins/srrvoices/';
 
 function findGame() {
-  return util.GameStoreHelper
-    .findByName(['Shadowrun Returns'])
-    .then(game => game.gamePath);
+  return util.GameStoreHelper.findByName(['Shadowrun Returns']).then(game => game.gamePath);
 }
 
 function prepareForModding(discovery) {
@@ -35,6 +33,7 @@ function prepareForModding(discovery) {
 
 function main(context) {
   context.requireExtension('modtype-bepinex');
+
   context.registerGame({
     id: GAME_ID,
     name: 'Shadowrun Returns',
@@ -48,6 +47,36 @@ function main(context) {
     environment: { SteamAPPId: STEAMAPP_ID },
     details: { steamAppId: parseInt(STEAMAPP_ID, 10) },
   });
+
+  // deploy target for OUR modType = the game root
+  const getGameRoot = (game) => {
+    const state = context.api.getState();
+    const discovery = state.settings.gameMode.discovered[game.id];
+    return (discovery !== undefined) ? discovery.path : undefined;
+  };
+  // our modType: files deploy to the game root; no name override so the Nexus name is kept.
+  // priority 25 is the extension-author range; assignment is explicit via our installer (test = false).
+  context.registerModType(MODTYPE_VOICEPACK, 25,
+    (gameId) => gameId === GAME_ID,
+    getGameRoot,
+    () => Promise.resolve(false),
+    { mergeMods: true, name: 'SRR AI Voice Pack' });
+
+  // claim OUR archive before the built-in BepInEx injector (priority 10) so it isn't renamed.
+  context.registerInstaller('srrvoices-voicepack', 5,
+    (files, gameId) => {
+      const ok = (gameId === GAME_ID)
+        && files.some(f => f.replace(/\\/g, '/').toLowerCase().indexOf(SIG) !== -1);
+      return Promise.resolve({ supported: ok, requiredFiles: [] });
+    },
+    (files) => {
+      const instructions = files
+        .filter(f => !f.endsWith('/') && !f.endsWith('\\'))   // skip directory entries
+        .map(f => ({ type: 'copy', source: f, destination: f }));
+      instructions.push({ type: 'setmodtype', value: MODTYPE_VOICEPACK });
+      return Promise.resolve({ instructions });
+    });
+
   context.once(() => {
     if (context.api.ext.bepinexAddGame !== undefined) {
       context.api.ext.bepinexAddGame({

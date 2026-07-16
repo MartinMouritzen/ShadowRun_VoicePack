@@ -1,7 +1,7 @@
 {
   "name": "Game: Shadowrun Returns (BepInEx-aware)",
   "author": "MartinMouritzen",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Shadowrun Returns support with BepInEx mod handling: content-pack mods deploy to ContentPacks (as the built-in extension does), while BepInEx-structured mods (e.g. the AI Voice Pack) deploy to the game root. Superset of Vortex's built-in Shadowrun Returns extension. See vortex/README.md for the built-in-extension conflict note and the preferred PR route.",
   "type": "game"
 }
