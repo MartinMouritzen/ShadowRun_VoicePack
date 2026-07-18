@@ -3841,5 +3841,1172 @@
    "c26-s0_pikeplacefinale"
   ],
   "actorId": "51c10757616634ec17006181"
+ },
+ "bark_f0e6e1be3d4e6e65": {
+  "text": "3 YEARS AGO. A makeshift bar on the Seattle docks. The night Dowd went down.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "screen"
+ },
+ "bark_48ad3cc114d0c00a": {
+  "text": "YOUR APARTMENT, 2054. It’s 3:00 a.m. and you’ve got nowhere to go but down.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_b17169b524e96940": {
+  "text": "Your computer. State of the art in 2050. Broken since 2051.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_a072ff54d57b2894": {
+  "text": "A slip of paper with your bank balance. Enough to cover you through the end of the week.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_5d3d3c714502fe7a": {
+  "text": "Your vidphone rings, jarring you. Who's calling at 3am?",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_74beba163a53a328": {
+  "text": "*chirp* ... *chirp*",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_39ca9d18c43f53fb": {
+  "text": "3 YEARS LATER - a safehouse - anywhere but Seattle. It's 6am.\nYou're out of money, out of contacts, and out of luck.  Then your commlink chirps.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_3f23a7b7ce47f60c": {
+  "text": "I'm in the back!",
+  "speaker": "Dresden",
+  "sheetId": "BaseTemplate",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "NPC_DwarfMale_Coroner",
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_3c6faee87b29ab1c": {
+  "text": "The smell of death and decomposition wash over you, only slightly masked by the minty fake-fresh of industrial grade antiseptic.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_003e19a85c58051d": {
+  "text": "Commerce is like a weed, taking root in the cracks and crevices of the world whenever it can. A small street market has flourished here, amidst the crumbling buildings of the Redmond Barrens.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_e954d7895d6f8ede": {
+  "text": "A security camera down the hall gives you a skeptical glance.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_a5e3ccc159ca6c98": {
+  "text": "BTL junkies twitch in the throes of their sordid dreams. One bored man stands ready to administer another chip if the creds are good.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_dcf017ab0a33dcb7": {
+  "text": "BTL junkies twitch in the throes of their sordid dreams, at least as long as the creds are good.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_b66c188bf56ac41e": {
+  "text": "An elevator gleams at the end of the hallway, out of place amongst the filth.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_35d1d17559411022": {
+  "text": "The tormented spirits of the BTLs victims manifest in horror.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_4a2c5b879184fe0f": {
+  "text": "The elevator slowly grinds into motion.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 3,
+  "kind": "point"
+ },
+ "bark_76ffd2863b15c7b9": {
+  "text": "This weak hearth spirit refuses to leave the apartment...",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_20535b596b61f6b1": {
+  "text": "You take the BTL recording.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_1c3a5173dcbf11ef": {
+  "text": "Huffing and puffing, you reach the top of the stairs. Looks like Stevie J doesn't use them much, if at all.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_739399cecb27bf1e": {
+  "text": "The elevator judders to a halt. A burning smell comes from the console.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_770908c440c50583": {
+  "text": "Compared to the squalor below, Stevie J lives like a king.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_301cbb8a25c8fca4": {
+  "text": "The ganger throws a hunk of rotten meat through the bars.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_33af2e823d520dd0": {
+  "text": "The floor is quiet, save for the loud humming of fluorescent lights. It seems like you have the drop on Stevie J and his men.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_75f73321f38b5f0e": {
+  "text": "The entrepreneurial Mrs. Kubota has combined everything a runner might need into a one-stop shopping experience - black market equipment, high end magical talismans, and a fully-stocked cyber-surgery dealership.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_a8310bae03b5b5e4": {
+  "text": "As soon as the last merc hits the ground, the docks become eerily silent.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_c693c6e0ba6d2108": {
+  "text": "Without its colorful staff, cast of regulars, and posing tourists, the Union feels hollow. The front bar and lounge are deserted except for a handful of janitors.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_57f7b70bee1b8ac3": {
+  "text": "Gathered around the intimate back bar, Mrs. Kubota and her coterie gather for breakfast, with the lady herself doing the cooking. The smell of soykaf and something resembling sausages fills the room.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_8342a734018c1792": {
+  "text": "Reality is at the end of day contextual, and as the meat world comes back into focus your head once again tries to settle on which world is the real one. While the philosophical question lingers your meat body demands food and drink. You disconnect from your deck to find that the Union’s safe house has risen.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_7562a5261ddab5ae": {
+  "text": "Your synapses light up as you connect your consciousness to the digital world. Although you aren't jacked in like Johnny, the sensation is overwhelming and electrifying. You can only imagine the way it feels for him.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_5b429c4019d847c1": {
+  "text": "The excruciating ecstasy of jacking your neural network into the digital world washes over you, grips you, crushes you into a singularity, and expands you infinitely. You are one with the data stream. Welcome to the Matrix.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_51101afdcc228933": {
+  "text": "The stench of blood and mold gets ever stronger as you move closer to the infirmary.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_9724c41020a3af04": {
+  "text": "You find an unlabeled trivid disc. You have no way of playing back the disc at this time.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_0660dd6003af921d": {
+  "text": "The old television is tuned to a dead channel.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_683b0e79f3d6f751": {
+  "text": "The smell of rotting flesh is immense. The remains appear to be from multiple metahumans.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_a135018e678b619f": {
+  "text": "By all means, come.  You have proven yourself a truly fine specimen.  I can think of a hundred uses for one such as you.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_91fa0fe55ce91cd7": {
+  "text": "Paydata downloaded.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_8bf77be45e5949d3": {
+  "text": "*BEEP BEEP BEEP*",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_5c8dfa255c522c2d": {
+  "text": "The frame around the painting of telestrian security pops back out",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_855f90780e64dd2d": {
+  "text": "The frame around the painting of the clock tower pops back out",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_2dc5167688158b7e": {
+  "text": "The frame around the painting of the lighthouse pops back out",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_fdbfd93df92a49e4": {
+  "text": "The frame around the painting of the mountians pops back out",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_b5b5f0b3a05d48e8": {
+  "text": "The frame around the painting of the harvesters pops back out",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_d6837c9bfbba5ef0": {
+  "text": "The frame clicks into place and the painting slides back into the wall",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 3,
+  "kind": "point"
+ },
+ "bark_132e63bd4cccc72a": {
+  "text": "The smell hits you like a fist. The tang of blood, the funk of animal foul, and something... else. \nSomething wrong.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_1ba0bd50abd592a4": {
+  "text": "Error. Door cannot open during base lockdown.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_8b726167f3e4a381": {
+  "text": "The Union is quiet this afternoon. The salarymen and wage-slaves haven’t migrated from nearby offices and suburbs to dabble in the exotic yet.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_df1c7ccbb6a73009": {
+  "text": "You hear scratching coming from a crypt.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_cd31fd7548a06cd1": {
+  "text": "You hear scratching coming from the crypt.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "point"
+ },
+ "bark_7935282e8835c4b7": {
+  "text": "The sweeping walls, the muted colors, and the soothing music of the Universal Brotherhood’s entrance hall are all designed to relax you.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_f1f898dbe2924e03": {
+  "text": "Janitor... Not authorized... Move along...",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_4c03add8ad50e2ea": {
+  "text": "Scanning ... Home Access Only ... Have a nice day $(scene.BroSis).",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_5298c028d8c16ca9": {
+  "text": "Scanning ... The Inner Sanctum welcomes you $(scene.FatherMother).",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_051f5c4e53743f53": {
+  "text": "Leave the secure area or the turrets will open fire.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_cf0e464b5b909b07": {
+  "text": "Warning ignored ... Open fire.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "point"
+ },
+ "bark_30d88523cd85c364": {
+  "text": "ML Detector",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_0fc12be5c073768a": {
+  "text": "According to the corpse's ID badge, you've found Shane.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_9c68893116d7ea20": {
+  "text": "There is a weight in Telestrian's library - a sense of magnitude and of purpose. You are no longer in the presence of mere wealth. You are in the presence of history.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_bba03bf3ba6f27c3": {
+  "text": "Your apartment, three o'clock in the morning. It's got four walls, a roof, and isn't on fire. Even the cockroaches have fled in search of better accommodations. Not exactly a Runner's dream pad... but right now, it's about all you have left.\n\nRunning the shadows is all about feast or famine. One day you're novahot, working jobs that allow you to eat at five star restaurants, the next, well, you're here. This one's a famine for the ages. Slagging fixer hasn't called. The money's run out, and then some. SINless and free. Free to starve in the cracks of a society run by megacorps who just want your nuyen.\n\nSomething needs to change, and soon.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "DOWN AND OUT",
+  "scenes": [
+   "c01-s1_3yearsago"
+  ]
+ },
+ "bark_6ff99d2c1f8344a2": {
+  "text": "Your plane hits the Sea-Tac tarmac with a jolt. Welcome to Seattle. The chilly northwest rain obscures your vision as you step onto the tarmac. Before long, you're sitting in the cramped backseat of a cab, following the signal from Sam's locator chip into the heart of the Redmond Barrens.\n\nOrgan Grinders - a legal chop shop for body parts... whether from the living or the dead. If you’re hurting bad enough for nuyen, this is the place to sell a limb or an organ. It’s also a good place to dispose of an inconvenient body while making a little cash on the side.\n\nThis franchise is the closest thing the Barrens has to a morgue - it seems this is where Sam Watts' body has ended up. You open the door and are assaulted by the smell of death and bleach.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE DEAD MAN'S SWITCH",
+  "scenes": [
+   "c02-s1_morgue"
+  ]
+ },
+ "bark_e584f71776e0a583": {
+  "text": "Run in the Seattle Sprawl and sooner or later you'll find yourself in the Redmond Barrens. It doesn’t matter your business, the Barrens doesn't like you. Take one part radioactive wasteland, three parts dog-eat-dog slum, add a dash of tourist trap, and you’ve got a recipe for Mean-As-Hell.\n\nYou leave the sanitized death and formaldehyde of Organ Grinders behind, entering the anarchy and desperation of the streets. Jake stops a moment to breathe deeply, filling his lungs with motorcycle exhaust, radioactive dust, cordite and who knows what else. He exhales with an expression of wry contentment. The stench and grime tell him he’s home.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE REDMOND BARRENS",
+  "scenes": [
+   "c03-s1_barrens"
+  ]
+ },
+ "bark_18060eec21763478": {
+  "text": "Relative to the rest of the Barrens, Touristville is a neon-clothed oasis. At its heart is the Seamstresses Union. Housed in an old brownstone building on the corner of “illegal” and “opportunity,” bums huddle together, gangers strut the streets, and the occasional salaryman comes slumming.\n \nThe Union building has been retrofitted, rebuilt, and restored so many times that it’s like an aging starlet wearing too much makeup in an attempt to stay young. The wild ivy growing out of the gutters adds to this effect.\n\nAs you enter, the murmur of hushed conversation washes over you. The dive bar denizens raise their heads, take your measure, and then go back to their business. This is the kind of place where everyone knows your name but keeps to themselves.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE SEAMSTRESSES UNION",
+  "scenes": [
+   "c04-s1_seamstress"
+  ]
+ },
+ "bark_71f918b810231a53": {
+  "text": "You catch a cab from Touristville to Pike Place Market in a mercifully quiet ride that takes you from “probably going to be mugged” to “probably going to pay too much for your drinks.”\n\nCompared to the urban wasteland of the Barrens, the Downtown area is filled with modern buildings, lighted streets, and unbarred shops. All living beneath the shadows of massive corporate arcologies. For many, these arcologies are home. For others, they’re hulking monuments to where the world went wrong.\n\nFamous for its fishmongers, Pike Place Market has been around since the early 1900s overlooking the Bay. Now, it’s a market for all things - legal and illegal. A melting pot of the haves and have-nots. Even though most of the shops are closed, the sights, sounds, and smells of the Market hit you from the moment you step out of the cab.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "PIKE PLACE MARKET",
+  "scenes": [
+   "c05-s2_pikeplace"
+  ]
+ },
+ "bark_640f5c9cc630eedf": {
+  "text": "You roll up on the most impressive bit of tenement squalor you’ve seen in a long time. There’s few streetlamps here, and what light there is flickers with uncertainty. Most of the buildings are damaged and tagged. The smell of old, rotting trash mixed with you-don’t-want-to-know is overwhelming.\n\nIt’s no wonder people living here turn to BTLs. Anything’s better than this. The Better Than Life chip is the newest drug on the market. You don’t need a good life – you can slot someone else’s, live through them, and wreck your brain in the process.\n\nThe front doors of the Royale Apartments aren’t even locked. As you step inside, you can hear a junkie crying for another hit. It's time to find Coyote, and find out what she knows about the night of Sam’s murder.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE ROYALE APARTMENTS",
+  "scenes": [
+   "c06-s1_aptsfirstfloor"
+  ]
+ },
+ "bark_9780fea64cceea46": {
+  "text": "Stevie J’s penthouse apartment might have been nice at one point in time. Classic, even. But now it’s filled with neon tube lighting, broken-down furniture, piles of rubbish, and crates containing who-knows-what. Still - compared to the rest of what you’ve seen, it’s positively palatial.\n\nThe only thing marring the penthouse’s pseudo luxury is a woman’s cry of pain in the distance, followed by laughter. Someone being tortured, for another’s pleasure.\n\nYou step deeper into the apartment...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE PENTHOUSE SUITE",
+  "scenes": [
+   "c06-s2_aptstopfloor"
+  ]
+ },
+ "bark_b17d730519765483": {
+  "text": "Despite Coyote’s clear desire to stand on her own two feet, Paco needs to help her through the door into the Seamstresses Union. Heads raise, and the front room of the bar falls strangely silent.\n\nPaco stands by her side now, not speaking, his dark eyes flat with fury. Coyote presses a rag to her clawed-up face. She winces but manages to keep control as she breathes in slow, deep breaths to manage the pain.\n\nTaking a closer look, you see her arm isn’t much more than shreds of meat and broken bone held together by tendons and burned skin. It’ll be a miracle if she still has it by the end of the night...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "RETURN TO THE UNION",
+  "scenes": [
+   "c07-s1_seamstress"
+  ]
+ },
+ "bark_714601f0d5f98f43": {
+  "text": "Leaving the Seamstresses Union behind, you head to the docks. The Ripper killed Sam, and maybe he or she slipped up with this latest victim, left some useful evidence. Only one way to find out.\n\nSouth Seattle’s your typical industrial area: grit, grime, and grey. The rain doesn’t help matters any. Layers of dirt mix with abandoned wooden pallets, repurposed into makeshift furniture for the day workers. Garbage collects in the gutters of the broken down street. “Disreputable” is this district’s middle name.\n\nYour destination, the National Transportation Safety Board warehouse, is located on a small strip of dock towards the less-maintained end of the waterfront. Despite the presence of those who linger in such places, it's quiet as you approach the gate.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE SOUTH SEATTLE DOCKS",
+  "scenes": [
+   "c08-s1_planeyard"
+  ]
+ },
+ "bark_c396dad84723aa8d": {
+  "text": "Inside, the large, grey warehouse is as typical as the outside. High ceilings, adorned with girders and rickety catwalks, top a huge utilitarian room. Concrete and steel walls meet a concrete floor. This is a place for storing things, and nothing more.\n\nDespite the quiet on the outside, the inside is a hornet’s nest of Lone Star officers going about their business. In the center of the activity is the Emerald City Ripper’s latest victim. With uniforms everywhere, no one stops you at the door. It seems this case hasn’t leaked to the press - yet. \n\nLone Star or no, you’ve got a job to do...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE WAREHOUSE",
+  "scenes": [
+   "c08-s2_planeyard"
+  ]
+ },
+ "bark_2ec6485ca6b5b324": {
+  "text": "Shannon’s plan is the best lead you’ve got to find out more about the Ripper. But getting back into the warehouse is going to require some support, in case the drek hits the fan.\n\nThe Seamstresses Union will have exactly what you need: A Fixer. Finding this necessary middleman and deal-broker is key to most plans involving shadowrunners. A good Fixer is worth the nuyen. It’s their job to have the contacts and know who’s good at what. They’ll put together the team you need: magical support, skilled street samurai for muscle, or a novahot decker for Matrix work. \n\nRunning the shadows is a life and death gamble. It pays to hire the best shadowrunners you can.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "LOOKING FOR TROUBLE",
+  "scenes": [
+   "c08-s3_seamstress"
+  ]
+ },
+ "bark_a10607ef884bb08a": {
+  "text": "The cluster of dilapidated buildings where Coyote told you to meet her appears to be the remnants of a public-housing project. The buildings look like a cesspool filled with human debris. \n\nYou find her standing with Paco on a street corner, eyeing the roofs, the doorways, the windows. Despite his attempts to engage her, Coyote barely says a word as the three of you weave your way through the tenements. She walks purposefully, her new cyber hand flexing open and closed with each step. It’s unclear whether the action is voluntary or not.\n\nYou circle around the back of a building and Coyote jumps up, grabs the bottom rung of a fire escape ladder, and pulls it down. Without a signal, she starts her climb towards the roof. Paco looks at you worriedly and starts up the ladder.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "COYOTE’S CRUSADE",
+  "scenes": [
+   "c09-s1_tweakers"
+  ]
+ },
+ "bark_145e3d898c127fad": {
+  "text": "You return to the docks to meet Shannon Half-Sky. Although the Ripper’s latest victim was her brother, but Shannon appears cool and professional, a consummate runner by birth, if not by trade. She’ll get the job done. And hopefully, one of the hearth spirits in this place can point you towards the Ripper.\n\nDealing with spirits can be tricky business - but when they deliver, it’s pure platinum. One doesn’t have to be an Amerindian shaman to summon and control spirits - anyone with magic talent can do it. But Shannon seems to have a particular connection to the spirit world.\n\nAs you approach the gate, you know something’s not right. The docks, already strange and uncomfortable at night, trigger the need for caution. Then you see it. The guards are missing and the gate’s been smashed in...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "RETURN TO THE DOCKS",
+  "scenes": [
+   "c10-s1_planeyardreturn"
+  ]
+ },
+ "bark_ea1210680b3ea8b9": {
+  "text": "You head inside the darkened warehouse with Shannon. Her eyes have that far-off gaze associated with looking into the astral plane. \n\nWhen the world changed, the Native American tribes made a resurgence as well, demanding a place in the new world. They got it. The Salish-Shidhe Council now represents 8.6 million Amerindians across a multitude of tribes: Salish, Makah, Sincearach, and others. They’ve adapted to the Awakening better than other nations, thanks to a deeper connection to the world, both physical and spiritual. You can see that connection alive in Shannon now.\n\nYou notice the shift in her focus as she returns to the present. She nods to you. She can sense the spirits in this place... now you just need to find them.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "SPIRIT TALK",
+  "scenes": [
+   "c10-s2_planeyardreturn"
+  ]
+ },
+ "bark_ab79d2a4a53f6ce9": {
+  "text": "When you return to the Seamstresses Union in the early hours of the morning, it seems a completely different place. Bereft of the normal crowd that haunts it, the bar feels desolate, almost abandoned. It’s eerie, like the back hallways of hotels and shopping malls.\n\nBut you finally have a break in your case - a sample of the Ripper’s blood. You just need to find someone to help you analyze it...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "AFTER HOURS",
+  "scenes": [
+   "c11-s1_seamstress"
+  ]
+ },
+ "bark_01d34085f2701f38": {
+  "text": "You've been doing a lot of legwork on this job but it’s going to require a trip to cyberspace and back to ID the Ripper.\n\nThe Matrix. The cybernetic analog of inside the Grid – the worldwide computer network. A digital world, information brought to life. Inside cyberspace, your avatar does all the work while your meat body’s left behind. All around your avatar are pathways to other nodes filled with data, IC – counter-intrusion programs – and other jacked-in runners.\n\nCyberspace has as many dangers as the meat world, and more: locked doors, security countermeasures, and Black IC that can fry a decker’s brain. Every movement you make in the Matrix can be tracked, if you aren’t careful. Get dumpshocked out and your brain gets fuzzy for a bit. Get hit by an enemy decker and you can die.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE DIGITAL WORLD",
+  "scenes": [
+   "c11-s2_matrixrun"
+  ]
+ },
+ "bark_a81d3950a1883474": {
+  "text": "The blood you found at the warehouse belongs to a man masquerading as one Dr. Holmes, and you’ve tracked him to Mercy Mental Hospital - located in the notoriously anti-metahuman farmlands of Snohomish. The drive to the hospital is long and unpleasant. Finally, you reach the walled and gated hospital compound. \n\nDespite the pretense of security, the gate is unguarded, unlocked, and open. No one stops or greets you as you drive up to the large, crumbling building. Gothic ramparts top a damaged roof, cracked walls, and broken windows. All around the building is a lawn gone wild. Only the artificial light from within speaks of inhabitants.\n\nYou walk up the hospital steps to confront Sam Watt’s killer and bring an end to the Emerald City Ripper.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "MERCY MENTAL HOSPITAL",
+  "scenes": [
+   "c12-s1_mercymental"
+  ]
+ },
+ "bark_c8fe905b7d5a26bf": {
+  "text": "As you venture deeper into the asylum, you see that the inside is every bit as bad as the outside. Gone is any attempt to uphold sanitary hospital aesthetics. With peeling paint, cracked floors, and exposed conduit, the pretense of mental care is shattered. \n\nIn this modern era, Mercy Mental Hospital is a throwback to the barbaric asylums of old - prisons and torture chambers rather than places of healing. It’s clear that Dr. Holmes is spending his money on something other than this facility.\n\nYou continue on. Holmes can only run so far...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "HALLS OF DISREPAIR",
+  "scenes": [
+   "c12-s2_mercymental"
+  ]
+ },
+ "bark_d0db3b02ef4d73dd": {
+  "text": "Before you is a medical lab turned torture chamber. The smell of old blood and decayed flesh permeates the room. Gory stains speak of the body’s fluids spilled without regard for well-being or hygiene. There are bodies, probably former patients, trapped in hideous machines, enduring horrific experiments. The subjects you can see all appear dead. Any that aren’t must wish they were.\n\nYou’ve chased Holmes to his lair. Just as his face reveals an ugly soul, so does his safe haven, it would seem. \n\nHolmes. Silas. The Emerald City Ripper. The elf is a monster beyond compare. It’s time to end this.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE EMERALD CITY RIPPER",
+  "scenes": [
+   "c12-s3_mercymental"
+  ]
+ },
+ "bark_d35d0391f217a7ec": {
+  "text": "The sleek contour of the Telestrian Industries building slices through the Seattle skyline, gracefully arcing towards the south, towards its birthplace in the elven nation of Tir Tairngire. You stand at the lobby entrance, waiting for Samedi’s go signal. \n\nThe moment extends. Stepping over a corp threshold is a little like stepping into a foreign country. Or over a line. Corporations have power so far above the average citizen, that assaulting one seems insane - like threatening the gods of Olympus . \n\nLand owned by a multinational is corporate soil, exempt from domestic laws. Their employees aren’t state citizens, they’re corporate citizens, and their top execs can’t be brought to trial for some alleged crime. The runner who goes full frontal on a corp is making a statement. Making a name. \n\nThree chirps on your commlink. It’s go time.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "TELESTRIAN INDUSTRIES",
+  "scenes": [
+   "c14-s1_telestrianoffice"
+  ]
+ },
+ "bark_0876819246f7ee82": {
+  "text": "Crowding into a corporate elevator on a shadowrun is risky. You’re exposed. Vulnerable. But time is of the essence, the CEO’s office is fifty floors up, and the Baron has your back - in theory.\n\nLight, blanderized music flows softly from hidden speakers as you make your way up to James Telestrian’s office and towards your objective - a sample of Project Aegis.\n\nYou need to find the sample and get out before the Baron loses control of the Telestrian mainframe and all hell breaks loose.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "EXECUTIVE ACTIONS",
+  "scenes": [
+   "c14-s2_telestriantopfloor"
+  ]
+ },
+ "bark_684cf1f9be5d975d": {
+  "text": "You hunker down in the janitor’s locker room amid the smells of industrial-strength cleansers, floor wax, and body odor. Sleep is impossible as you must be constantly on your guard for the telltale sounds of security teams or building maintenance crews. \n\nMorning eventually comes and with it, another chance at Project Aegis.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE MORNING AFTER",
+  "scenes": [
+   "c14-s3_daytelestrianoffice"
+  ]
+ },
+ "bark_f6ace205b569d2d1": {
+  "text": "The brutish, dog-eat-dog existence of a slum dweller is a far cry from the quiet desperation and existential nothingness of a corporate wage-slave. Yet after your time at Telestrian Industries, it’s unclear which is more bleak. \n\nThe elevator rises smoothly, its blanderized music assaulting you once again as you ascend to the executive floor. \n\nAnd your goal.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "COLLECTING THE SAMPLE",
+  "scenes": [
+   "c14-s4_daytelestriantopfloor"
+  ]
+ },
+ "bark_0a4e51051aa44d8b": {
+  "text": "Getting justice for Sam is going to take more effort than it originally appeared. You didn’t anticipate his killer being protected by a cult filled with giant unkillable bugs. But she is - and if you’re going to get to her, you’re going to need to find a way around - or through - those bugs. \n\nAfter a taste of the Belonging that the Universal Brotherhood offered, the sordid surroundings of the Seamstresses Union feel more like home than ever.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE UNION",
+  "scenes": [
+   "c15-s1_seamstress"
+  ]
+ },
+ "bark_3f8063081ae0f8bb": {
+  "text": "You leave Touristville behind and make your way into the Barrens proper, exiting civilization as you know it. With each step, the little order that still exists falls away, taken over by anarchy in its purest form. All semblance of government oversight, corporate domination, even media influence disappears, leaving an urban-feral landscape of bleak desperation.\n\nYet hidden in this wreckage of a suburb, Renraku Computer Systems has hidden some sort of R&D research lab - probably to take advantage of some old tech left after the Shiawase nuclear powerplant meltdown or the crash  that decimated the computer industry in ‘29. \n\nYou find your way into the lab. The place has definitely seen better days. No security systems are online greet you - just the ones made of meat. Maybe you can help a scientist make a life-change.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "CORPORATE EXTRACTION",
+  "scenes": [
+   "c15-s2_labrun"
+  ]
+ },
+ "bark_f14eb4c5b67a2c59": {
+  "text": "The ride back to the Seamstresses Union is quiet compared to the pandemonium left behind at Mercy Mental Hospital. Lone Star squad cars pass you on the road, sirens blaring, no doubt in response to the aftermath of your showdown with the late Dr. Henry Holmes. The Emerald City Ripper. The man who violently repossessed the internal organs of Sam and Jessica’s mother, Melinda Watts. And although the killer is dead and his grip on the city is broken, it’s clear he wasn’t working alone. There are loose ends aching to be tied.\n\nThe taxi turns onto Redmond Way, cruising past now familiar landmarks until the Seamstresses Union, in all its decadent, seedy glory, materializes between swipes of the its overworked windshield wipers. \n\nTime to evaluate your next move.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "LOOSE ENDS",
+  "scenes": [
+   "c17-s0_seamstress"
+  ]
+ },
+ "bark_afe24a6760b595a0": {
+  "text": "The sun has nearly set when you reach Our Lady of the Blessed Sacrament. Its cemetery, dilapidated and overgrown, sits atop a small hill on the outskirts of the city - a somber enclave of the dead overlooking the sprawl of the living. The Seattle rain continues unabated and lightning appears over the mountains, exposing the landscape in staccato pulses of stark flashes. \n\nYou walk the gravel path to the gates of the cemetery. Up ahead you see Coyote and Jake standing by the gravesite alongside Jessica Watts and another mourner, a beautiful elven woman in a six-figure outfit. \n\nWhatever Dr. Holmes was up to at Mercy Mental Hospital, the answers lie here, with the reinterred body of Melinda Watts, the recently deceased body of Sam Watts, and with those attending them at this ceremony.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "FAMILY DEBTS",
+  "scenes": [
+   "c17-s1_funeral"
+  ]
+ },
+ "bark_2c8f834b34a06980": {
+  "text": "You put the pieces together. Jessica Watts was reassembling her mother,  Melinda - gathering her missing organs to allow Melinda a decent burial. Organs Sam sold for a quick buck after her death. \n\nThe ghoul attack after the ceremony didn’t appear to be part of Lynne Telestrian’s attempt to get you out of Jessica’s way - they were just more victims of magic’s helter-skelter return to the world. Lynne’s well-armed security unit was a different animal entirely. \n\nYou head back to the Union to resupply and rearm. Whatever Lynne and Jessica are involved with, it appears to be a large operation, and the trail leads to the Universal Brotherhood.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "MOVING PARTS",
+  "scenes": [
+   "c17-s2_seamstress"
+  ]
+ },
+ "bark_ccb8fe4f10521347": {
+  "text": "It takes nearly an hour for the taxi to make its way from the squalor of the Redmond Barrens across the bridge to the Seattle waterfront and the Universal Brotherhood. The building is a pre-crash brick job with a fancy new facade that sports neon highlights and an enormous set of glass double doors. Through the windows, you can see activity within - smiling, happy disciples shuffling along in beige pajamas and slippers.\n\nA greeter stands outside the front door, gently attempting to entice the misbegotten and the curious to enter and take their first baby steps towards brotherhood. Pike Place Market is usually empty by now but you step out of the cab to the sounds of an excited crowd...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "TOWARDS BROTHERHOOD",
+  "scenes": [
+   "c21-s0_pikeplaceconcert"
+  ]
+ },
+ "bark_5d26c6787753320e": {
+  "text": "In contrast to the noise and energy of the crowd outside, the lobby of the Universal Brotherhood is sedate... tranquil... acquiescent. \n\nThe low music piped through the room is something from a day spa mixed with a planetarium sky show, allowing listeners to achieve maximum relaxation while reaching for the stars.\n\nBrothers and Sisters from every race and every branch of meta-humanity mill about with blissful smiles and shining eyes, greeting each other with head nods, palm touches, and murmured blessings.\n\nThe woman at the front desk offers you a welcoming smile as you enter, her hand automatically moving to her stack of religious literature.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE UNIVERSAL BROTHERHOOD",
+  "scenes": [
+   "c21-s1_universalbrotherhood"
+  ]
+ },
+ "bark_6993232d9da590d3": {
+  "text": "Past the door is a short passage leading to a freight elevator. You hit the down button and the elevator rumbles its descent. Past where a basement would be. Past where a parking garage would be. The doors open to a very different environment from the one you left. Gone is the airy, soothing atmosphere of the Brotherhood’s public face. The corridor leading from the elevator is utilitarian and sterile, the spa music replaced by echoing nothingness.\n\nSomewhere ahead, far below the Universal Brotherhood, is Sam’s twin sister. Somewhere ahead, beneath a veneer of unity and belonging, is Sam’s killer. \n\nThe same woman. Jessica Watts.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "BENEATH THE BROTHERHOOD",
+  "scenes": [
+   "c21-s2_brotherhood-s"
+  ]
+ },
+ "bark_841b9cd5d9d5efa1": {
+  "text": "From the floor of the Lone Star cruiser, you watch the tops of the downtown corridor’s office buildings disappear, replaced by the gray overcast over the I-90 bridge. The nylon restraints binding your wrists and ankles, along with McKlusky’s whistling to the radio, make for an unpleasant ride. \n\nA half-hour later, the cruiser hits a whisper-smooth patch of road and a magnificent mansion fills your view, its design a blend of old-world finery and elvish grace. \n\nThe car pulls to an abrupt halt and you’re dragged onto the driveway where McKlusky pulls a nasty-looking knife and cuts your bonds. You look up to see you’re surrounded by a squad of green clad “Ghosts” - special forces troops from Tir Tairngire.\n\nMassaging the feeling back into your numb extremities, you prepare to meet the man himself - James Telestrian III.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE ESTATE",
+  "scenes": [
+   "c22-s1_telestrianoffice"
+  ]
+ },
+ "bark_7d2693258621abbf": {
+  "text": "Your return to the Universal Brotherhood is anything but subtle. The team hits the same back door Coyote found and you storm through, quickly making your way into the restricted area and the room where you last met Jessica. And first encountered the bug. \n\nYou stand there together, listening to the sounds of chittering coming from the somewhere distant. Harlequin stares into the darkness, humming tunelessly while fingering the sword on his hip. Then he turns, lifts his Aegis launcher to his lips, and gives it a kiss. \n\nYou give the signal and the hunt begins.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE HUNT BEGINS",
+  "scenes": [
+   "c25-s3_hive-1"
+  ]
+ },
+ "bark_cde24f6da4d0cfc9": {
+  "text": "The cold, utilitarian facilities of the Brotherhood’s private areas break away and degenerate into sprawling subterranean tunnels. Tunnels that were not crafted by the hands of Man.\n\nThe air is foul with the smell of decaying flesh and something else - a rank, stinging acid bite that hits noses and eyes hard. Wet, squirming noises echo throughout the tunnels, punctuated by low moans and the occasional gasp - for what, you can’t tell. \n\nOne thing that you can tell, though - Aegis works. You shoulder your launcher and keep going.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "INTO THE DEPTHS",
+  "scenes": [
+   "c25-s4_hive-2"
+  ]
+ },
+ "bark_f51ca0ddc3d498c1": {
+  "text": "A rhythmic thrumming punctuates the air, passing through you, vibrating your lungs in your chest, and making it hard to breathe. It’s an electricity that makes the hair on your skin stand up in protest. \n\nAhead, you hear the sounds of chanting, accented by the moist wriggling of larvae. There are low rumbles too - stone on stone. The sense of... imminence is everywhere. \n\nSomething is coming. And it has to be stopped.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE BUG SHAMAN",
+  "scenes": [
+   "c25-s5_hive-3"
+  ]
+ },
+ "bark_354f4c06ba25a027": {
+  "text": "You emerge from the Universal Brotherhood chapterhouse, momentarily blinded by the bright lights of the Lone Star perimeter surrounding the exit. Despite the clean night air, the stench of ichor and decay clings to you, a smell that may never fully go away.\n\nYou drop your Aegis-filled shotgun and it’s quickly spirited away by one of Telestrian’s minions. Weapons are slowly lowered as you step out into the street - the order coming from Detective McKlusky himself. You can see James Telestrian just nearby, pulling his strings. \n\nIt’s over. Jessica Watts has been dealt with and Sam has his justice. The dead man’s deed is done. All you need now is to make a phone call and it ends.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "OUT OF THE SHADOWS",
+  "scenes": [
+   "c26-s0_pikeplacefinale"
+  ]
  }
 }

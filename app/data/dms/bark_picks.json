@@ -116,8 +116,8 @@
   "voiceName": "Matt - Deep Authoritative Narrator"
  },
  "Mugger": {
-  "voiceId": "mag_378",
-  "voiceName": "Arthur Kensington"
+  "voiceId": "mag_544",
+  "voiceName": "Jack Riker"
  },
  "Renraku Security": {
   "voiceId": "mag_276",
@@ -126,5 +126,61 @@
  "Brotherhood Follower": {
   "voiceId": "mag_518",
   "voiceName": "Dr. Cosmo Fizzlebaum"
+ },
+ "Hooker": {
+  "voiceId": "mag_316",
+  "voiceName": "Merry Cooper"
+ },
+ "Old Guy": {
+  "voiceId": "mag_841",
+  "voiceName": "Walter Hansen"
+ },
+ "Patron": {
+  "voiceId": "mag_378",
+  "voiceName": "Arthur Kensington"
+ },
+ "Homey Wanderer": {
+  "voiceId": "mag_545",
+  "voiceName": "Elias Thornwell"
+ },
+ "UBC 5": {
+  "voiceId": "mag_26",
+  "voiceName": "Austin Lane"
+ },
+ "C5": {
+  "voiceId": "mag_859",
+  "voiceName": "Archer Harrison"
+ },
+ "Mage Thug": {
+  "voiceId": "mag_361",
+  "voiceName": "Olivia Roberts"
+ },
+ "John Paul": {
+  "voiceId": "mag_545",
+  "voiceName": "Elias Thornwell"
+ },
+ "NPC5": {
+  "voiceId": "mag_535",
+  "voiceName": "Walter Briggs"
+ },
+ "NPC15": {
+  "voiceId": "mag_584",
+  "voiceName": "Titan Steele"
+ },
+ "Guest01": {
+  "voiceId": "mag_36",
+  "voiceName": "Blake Hudson"
+ },
+ "Guest07": {
+  "voiceId": "gDQfVolj9RbmXgumLcOq",
+  "voiceName": "Elinor | The Gruff Aunt "
+ },
+ "Guest09": {
+  "voiceId": "mag_256",
+  "voiceName": "Mason Wyatt"
+ },
+ "Guest10": {
+  "voiceId": "mag_261",
+  "voiceName": "Harper Olivia"
  }
 }

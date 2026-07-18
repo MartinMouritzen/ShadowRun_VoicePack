@@ -1195,6 +1195,74 @@
    "t": "You do snuff too, don’t you?"
   }
  ],
+ "51cf382f356164d015000125_0": [
+  {
+   "who": "gm",
+   "t": "Coyote stops you for a moment."
+  },
+  {
+   "who": "char",
+   "t": "Listen people, this is important."
+  }
+ ],
+ "51cf382f356164d015000125_4": [
+  {
+   "who": "char",
+   "t": "No one’s innocent."
+  },
+  {
+   "who": "gm",
+   "t": "She looks at you both."
+  },
+  {
+   "who": "char",
+   "t": "Not us, not anyone in the Sprawl. But they’re chip-heads not pushers. They have a problem. They didn’t ask for this."
+  }
+ ],
+ "51d2149c3561648412000459_4": [
+  {
+   "who": "gm",
+   "t": "She brightens."
+  },
+  {
+   "who": "char",
+   "t": "Oh, hey, listen. I got good news for you - y’know Sam’s sister, Jessica? One of my contacts found her for me while you were on your way here. I called her and asked her to meet you at the Union later today. Hope that helps."
+  }
+ ],
+ "51d2149c3561648412000459_5": [
+  {
+   "who": "gm",
+   "t": "She looks at you, her scarred face soft."
+  },
+  {
+   "who": "char",
+   "t": "Least I can do."
+  }
+ ],
+ "51d2149c3561648412000459_6": [
+  {
+   "who": "gm",
+   "t": "She looks at you, her scarred face hard."
+  },
+  {
+   "who": "char",
+   "t": "Yeah, I remember. You’re welcome."
+  }
+ ],
+ "51e071833963651821006cbf_4": [
+  {
+   "who": "char",
+   "t": "No one’s innocent."
+  },
+  {
+   "who": "gm",
+   "t": "She looks at you both."
+  },
+  {
+   "who": "char",
+   "t": "Not us, not anyone in the Sprawl. But they’re chip-heads not pushers. They have a problem. They didn’t ask for this."
+  }
+ ],
  "235980d9303031c810006c7f_0": [
   {
    "who": "gm",
@@ -1287,6 +1355,86 @@
   {
    "who": "char",
    "t": "So these paintings must be what all those expensive deliveries were. We don't have much time. I am tracking Silverstar, and he is already stepping off the elevator. I don't think your disguise will hold up much longer. I'll update you on his movements... hurry, mon ami."
+  }
+ ],
+ "396bb03a303031701500421a_0": [
+  {
+   "who": "gm",
+   "t": "Your commlink chirps again and the Baron's face appears on-screen. His voice is far less confident than before."
+  },
+  {
+   "who": "char",
+   "t": "Ah... eh... this is new."
+  }
+ ],
+ "39bd234430303170150042ca_2": [
+  {
+   "who": "gm",
+   "t": "Your commlink chirps and as expected, it's Baron Samedi."
+  },
+  {
+   "who": "char",
+   "t": "You must still get into Erik Silverstar's office, the Aegis sample is there."
+  }
+ ],
+ "51bfb517623665641e007bb8_2": [
+  {
+   "who": "gm",
+   "t": "The faux French accent is gone, replaced by cold fear."
+  },
+  {
+   "who": "char",
+   "t": "I've got three Telestrian deckers closing on me! They've... How the hell? I'm gonna have to eject. Oh, man - dumpshock's a bitch! You have to get out of there! Get out RIGHT NOW!"
+  }
+ ],
+ "8fd9ea20303031e803003d76_0": [
+  {
+   "who": "gm",
+   "t": "Your commlink chirps once again."
+  },
+  {
+   "who": "char",
+   "t": "Well done, mon ami! The elevator is on its way. Now comes the truly entertaining part!"
+  }
+ ],
+ "8fd9ea20303031e803003d76_4": [
+  {
+   "who": "gm",
+   "t": "Samedi drops the French accent - and the voice modulation. He sounds young. 18 maybe."
+  },
+  {
+   "who": "char",
+   "t": "I need you to listen to me right now. Telestrian Security is fully mobilized. Three helicopters containing elite armed response teams took off from Tir Tairngire 10 minutes ago. Time is running out. We need to make it appear like this operation is over - that you got what you were looking for and escaped. That will cause them to stand down their forces and initiate an inquest."
+  }
+ ],
+ "8fd9ea20303031e803003d76_5": [
+  {
+   "who": "gm",
+   "t": "All his pretense drops."
+  },
+  {
+   "who": "char",
+   "t": "I've run solid interference for you but I can't hold these guys off much longer. I'm good but... but I'm not *that* good. My plan will work. You've got to trust me."
+  }
+ ],
+ "8fd9ea20303031e803003d76_6": [
+  {
+   "who": "gm",
+   "t": "The voice modulation returns. So does the French accent."
+  },
+  {
+   "who": "char",
+   "t": "One day, they will make trivids about our adventure together! But that is for another time. Now, here is what you must do..."
+  }
+ ],
+ "8fd9ea20303031e803003d76_8": [
+  {
+   "who": "gm",
+   "t": "The voice modulation returns. So does the French accent."
+  },
+  {
+   "who": "char",
+   "t": "One day, they will make trivids about our adventure together! But that is for another time. Now, here is what you must do..."
   }
  ],
  "51c0a796623331f01b000735_0": [
@@ -1762,7 +1910,7 @@
  "6084d83b6233317c16000072_19": [
   {
    "who": "char",
-   "t": "$+(l.name)! Surprised to see you here. Let me guess... Officer Aguirre tipped you off? Suppose you must'a made an impression on him at the Market yesterday. Or your credstick did, at any rate."
+   "t": "Well, well! Surprised to see you here. Let me guess... Officer Aguirre tipped you off? Suppose you must'a made an impression on him at the Market yesterday. Or your credstick did, at any rate."
   },
   {
    "who": "gm",
@@ -1776,7 +1924,7 @@
  "86d99e9f306434e40c003062_5": [
   {
    "who": "char",
-   "t": "It's alright, officer. $+(l.he)'s with me."
+   "t": "It's alright, officer. they's with me."
   },
   {
    "who": "gm",
@@ -2365,6 +2513,26 @@
   {
    "who": "char",
    "t": "But, you’ve done a great service to metahumanity, yadda-yadda-yadda, so I’ll throw you a bone and tell you this."
+  }
+ ],
+ "ae8bc8ae3030311c15003d86_1": [
+  {
+   "who": "gm",
+   "t": "Harlequin grins a wide, predatory grin. Both sets of his pearly-white teeth, offset by the livid red lipstick around his mouth."
+  },
+  {
+   "who": "char",
+   "t": "Now the fun begins."
+  }
+ ],
+ "aeaec7e63030311c15003e5e_3": [
+  {
+   "who": "char",
+   "t": "It would not be the first written about me, to be sure! I shall consider it! Now, onward!"
+  },
+  {
+   "who": "gm",
+   "t": "You hear him muttering rhymes to himself as he walks."
   }
  ],
  "403f2ffe306434d02800587c_0": [
@@ -3395,6 +3563,80 @@
    "t": "Mister... Wylie here was with Eagle Security. They work for the UB. That must've been Lynne Telestrian’s security detail we just chewed through. If she’s protecting Jessica, they’ll be inside the Universal Brotherhood."
   }
  ],
+ "51998c866233310406004827_0": [
+  {
+   "who": "gm",
+   "t": "As you approach the scene of Sam's murder, Jake spies the flashing red and blue lights up ahead."
+  },
+  {
+   "who": "char",
+   "t": "Whoa, hold up a minute. Lone Star isn't above collecting on a corp issued bounty, and the one on my head isn't going away any time soon."
+  },
+  {
+   "who": "gm",
+   "t": "He sighs."
+  }
+ ],
+ "51998c866233310406004827_3": [
+  {
+   "who": "char",
+   "t": "Yeah, you too."
+  },
+  {
+   "who": "gm",
+   "t": "He starts to leave, then tilts his head back."
+  }
+ ],
+ "51998c866233310406004827_4": [
+  {
+   "who": "char",
+   "t": "Hah."
+  },
+  {
+   "who": "gm",
+   "t": "He starts to leave, then tilts his head back."
+  }
+ ],
+ "51998c866233310406004827_5": [
+  {
+   "who": "char",
+   "t": "Yeah, sure."
+  },
+  {
+   "who": "gm",
+   "t": "He starts to leave, then tilts his head back."
+  }
+ ],
+ "51998c866233310406004827_7": [
+  {
+   "who": "char",
+   "t": "Well - nice knowin' ya."
+  },
+  {
+   "who": "gm",
+   "t": "Jake turns, and disappears into shadowy depths of the Redmond Barrens."
+  }
+ ],
+ "51998c866233310406004827_8": [
+  {
+   "who": "char",
+   "t": "Sorry chummer, not my style. Besides - you seem like you can take care of yourself."
+  },
+  {
+   "who": "gm",
+   "t": "He takes a step, then tilts his head back."
+  }
+ ],
+ "a9de94d4623331441b003086_1": [
+  {
+   "who": "gm",
+   "t": "He chuckles."
+  },
+  {
+   "who": "char",
+   "t": "Well, at least they were too dumb to break my maglock."
+  }
+ ],
  "51a7e86e623331b82a006dff_15": [
   {
    "who": "char",
@@ -3507,384 +3749,6 @@
   {
    "who": "char",
    "t": "I'm sure we'll see each other again."
-  }
- ],
- "26bf5777306466ec210018c0_0": [
-  {
-   "who": "gm",
-   "t": "The woman scratches herself like a cat at a couch leg."
-  },
-  {
-   "who": "char",
-   "t": "Please... can you spare some nuyen?"
-  }
- ],
- "26bf5777306466ec210018c0_3": [
-  {
-   "who": "gm",
-   "t": "She drops to her knees, pleading."
-  }
- ],
- "26bf5777306466ec210018c0_4": [
-  {
-   "who": "char",
-   "t": "But... but that doesn't make sense. The BTLs are here! I just... need... something..."
-  },
-  {
-   "who": "gm",
-   "t": "She collapses, whimpering, and seems lost to this world."
-  }
- ],
- "370b5bf6306434fc04000b13_0": [
-  {
-   "who": "gm",
-   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
-  },
-  {
-   "who": "char",
-   "t": "Watchoo lookin’ at?"
-  }
- ],
- "370b5bf6306434fc04000b13_1": [
-  {
-   "who": "gm",
-   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
-  },
-  {
-   "who": "char",
-   "t": "Watchoo lookin’ at, half-man?"
-  }
- ],
- "370b5bf6306434fc04000b13_2": [
-  {
-   "who": "gm",
-   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
-  },
-  {
-   "who": "char",
-   "t": "Watchoo lookin’ at, big-man?"
-  }
- ],
- "370b5bf6306434fc04000b13_3": [
-  {
-   "who": "gm",
-   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
-  },
-  {
-   "who": "char",
-   "t": "Watchoo lookin’ at, spike-ear?"
-  }
- ],
- "370b5bf6306434fc04000b13_7": [
-  {
-   "who": "gm",
-   "t": "His lip curls into a feral snarl."
-  },
-  {
-   "who": "char",
-   "t": "Dis is the Barrens, omae. You want it, you take it."
-  }
- ],
- "370b5bf6306434fc04000b13_8": [
-  {
-   "who": "gm",
-   "t": "His lip curls into a feral snarl."
-  },
-  {
-   "who": "char",
-   "t": "Dis is the Barrens, omae. You want it, you take it."
-  }
- ],
- "370b5bf6306434fc04000b13_9": [
-  {
-   "who": "gm",
-   "t": "He looks suspicious."
-  },
-  {
-   "who": "char",
-   "t": "How d’you know I have a pass card?"
-  }
- ],
- "370b5bf6306434fc04000b13_10": [
-  {
-   "who": "gm",
-   "t": "He grunts."
-  },
-  {
-   "who": "char",
-   "t": "Well, you heard right."
-  }
- ],
- "370b5bf6306434fc04000b13_11": [
-  {
-   "who": "gm",
-   "t": "He grunts."
-  },
-  {
-   "who": "char",
-   "t": "Well, she told you right."
-  }
- ],
- "370b5bf6306434fc04000b13_14": [
-  {
-   "who": "gm",
-   "t": "His lip curls into a feral snarl."
-  },
-  {
-   "who": "char",
-   "t": "Dis is the Barrens, omae. You want it, you take it."
-  }
- ],
- "51bcdf80356164580b00167e_0": [
-  {
-   "who": "gm",
-   "t": "Charlie’s an ork with an expression of boredom and one milky eye. He drones through his standard patter."
-  },
-  {
-   "who": "char",
-   "t": "Need a pass? 50 nuyen each, 150¥ for the lot of ya. That’ll let you come an’ go as you please. You can chip in there and we’ll keep you safe while you ride. BTL chips are separate cost. Last about 3 hours. Prices vary. Buy those inside."
-  }
- ],
- "51bcdf80356164580b00167e_1": [
-  {
-   "who": "gm",
-   "t": "Monotone."
-  },
-  {
-   "who": "char",
-   "t": "Great. Have fun."
-  }
- ],
- "51bcdf80356164580b00167e_2": [
-  {
-   "who": "gm",
-   "t": "His one good eye wavers."
-  },
-  {
-   "who": "char",
-   "t": "Nope. I’m good. See you on the way out."
-  }
- ],
- "51bcdf80356164580b00167e_3": [
-  {
-   "who": "gm",
-   "t": "His good eye twitches as he thinks."
-  },
-  {
-   "who": "char",
-   "t": "Yeah, sure that math works for me. See you on the way out."
-  }
- ],
- "51bd117f356164580b001757_0": [
-  {
-   "who": "gm",
-   "t": "You eject the BTL Gino’s been riding. He gasps suddenly and his eyes flutter open. He looks confused. Worse than the other chipheads you’ve seen. His lips are white and chapped, his eyes sunk into his head. There’s vomit on his shirt and sweat on his forehead. When he speaks, his words are slurred. He’s burnt."
-  }
- ],
- "51bd117f356164580b001757_3": [
-  {
-   "who": "gm",
-   "t": "Gino looks at her with glazed eyes. No recognition."
-  },
-  {
-   "who": "char",
-   "t": "Slot me back in, goddamnit! This is bullshit! I don’t wanna be here anymore. SLOT ME BACK IN!"
-  },
-  {
-   "who": "gm",
-   "t": "He looks around the room, angrily. His hand reaches for his implant. Coyote grabs his wrist. Stops him."
-  }
- ],
- "51bd117f356164580b001757_6": [
-  {
-   "who": "gm",
-   "t": "Gino wrenches his wrist from Coyote’s grasp and he staggers back, reaches under his shirt and pulls out a gun. Coyote watches him, horrified, with tears in her eyes. Gino waves it around, blinking wildly."
-  }
- ],
- "51bd117f356164580b001757_8": [
-  {
-   "who": "gm",
-   "t": "He presses his hands to the sides of his head, his finger still on the trigger. Squints."
-  },
-  {
-   "who": "char",
-   "t": "What the hell is wrong with you people?"
-  }
- ],
- "51bd117f356164580b001757_10": [
-  {
-   "who": "char",
-   "t": "This is the way you help me?! Look at this place! Look at ME!"
-  },
-  {
-   "who": "gm",
-   "t": "He looks around at the squalor of the room, then glimpses his own reflection in the machinery."
-  },
-  {
-   "who": "char",
-   "t": "Oh God, look at me."
-  }
- ],
- "51bd117f356164580b001757_11": [
-  {
-   "who": "gm",
-   "t": "He looks at Coyote. Looks at you."
-  },
-  {
-   "who": "char",
-   "t": "We’ll...we’ll... go slow."
-  }
- ],
- "51bd117f356164580b001757_14": [
-  {
-   "who": "gm",
-   "t": "He presses his hands to the sides of his head, his finger still on the trigger. Squints."
-  },
-  {
-   "who": "char",
-   "t": "I... no. No, I gotta slot back in. Get away from this drek."
-  }
- ],
- "51bd117f356164580b001757_15": [
-  {
-   "who": "char",
-   "t": "It’s real to me! I can smell it! Touch it! I can fragging taste it! I was a god in there... king. I was a KING! Can you imagine it?"
-  },
-  {
-   "who": "gm",
-   "t": "He looks around the room. Sees the squalor. The bodies. Then he glimpses his own pitiful reflection in the machinery."
-  }
- ],
- "51bd117f356164580b001757_18": [
-  {
-   "who": "char",
-   "t": "No. What? Wasting? I..."
-  },
-  {
-   "who": "gm",
-   "t": "He looks around at the squalor of the room, then glimpses his own reflection in the machinery."
-  }
- ],
- "51bd117f356164580b001757_21": [
-  {
-   "who": "char",
-   "t": "Why would I want to touch this drek?! This sewer! I was a god in there... king. I was a KING! Can you imagine it?"
-  },
-  {
-   "who": "gm",
-   "t": "He looks around the room. Sees the squalor. The bodies. Then he glimpses his own pitiful reflection in the machinery."
-  }
- ],
- "51bd117f356164580b001757_28": [
-  {
-   "who": "char",
-   "t": "No! You don’t... you can’t understand what it’s like out here! I’m naked. I gotta slot in... get away."
-  },
-  {
-   "who": "gm",
-   "t": "He points the gun at Coyote."
-  },
-  {
-   "who": "char",
-   "t": "You’re not gonna stop me! I’ll fragging kill you first!"
-  }
- ],
- "51cf382f356164d015000125_0": [
-  {
-   "who": "gm",
-   "t": "Coyote stops you for a moment."
-  },
-  {
-   "who": "char",
-   "t": "Listen people, this is important."
-  }
- ],
- "51cf382f356164d015000125_4": [
-  {
-   "who": "char",
-   "t": "No one’s innocent."
-  },
-  {
-   "who": "gm",
-   "t": "She looks at you both."
-  },
-  {
-   "who": "char",
-   "t": "Not us, not anyone in the Sprawl. But they’re chip-heads not pushers. They have a problem. They didn’t ask for this."
-  }
- ],
- "51d2149c3561648412000459_4": [
-  {
-   "who": "gm",
-   "t": "She brightens."
-  },
-  {
-   "who": "char",
-   "t": "Oh, hey, listen. I got good news for you - y’know Sam’s sister, Jessica? One of my contacts found her for me while you were on your way here. I called her and asked her to meet you at the Union later today. Hope that helps."
-  }
- ],
- "51d2149c3561648412000459_5": [
-  {
-   "who": "gm",
-   "t": "She looks at you, her scarred face soft."
-  },
-  {
-   "who": "char",
-   "t": "Least I can do."
-  }
- ],
- "51d2149c3561648412000459_6": [
-  {
-   "who": "gm",
-   "t": "She looks at you, her scarred face hard."
-  },
-  {
-   "who": "char",
-   "t": "Yeah, I remember. You’re welcome."
-  }
- ],
- "51e071833963651821006cbf_0": [
-  {
-   "who": "gm",
-   "t": "The sound of raised voices comes clearly through the cracks in the wall, a clear edge of panic."
-  },
-  {
-   "who": "char",
-   "t": "I'm *telling you* it's only a matter of time! She and her crew took took out Stevie J's place. We need to put some security cameras and a door guard with two good eyes!"
-  }
- ],
- "51e071833963651821006cbf_1": [
-  {
-   "who": "gm",
-   "t": "A new voice, with the heavy digitization of someone with a lot of cyber, calmly interjects."
-  },
-  {
-   "who": "char",
-   "t": "We don't need more guards. I've got it covered. With a push of a button, I can make these chip-heads into my own personal killer puppets."
-  }
- ],
- "51e071833963651821006cbf_4": [
-  {
-   "who": "char",
-   "t": "No one’s innocent."
-  },
-  {
-   "who": "gm",
-   "t": "She looks at you both."
-  },
-  {
-   "who": "char",
-   "t": "Not us, not anyone in the Sprawl. But they’re chip-heads not pushers. They have a problem. They didn’t ask for this."
-  }
- ],
- "51e07b343963651821006dd2_2": [
-  {
-   "who": "gm",
-   "t": "The man with the cyberdeck calmly speaks with a heavily digitized voice."
-  },
-  {
-   "who": "char",
-   "t": "You messed with the wrong BTL Lab, aho. This is a Yakuza operation. With a push of a button, I can make these tweakers into my own personal killer puppets. You're fragged."
   }
  ],
  "519a60ad306434d0170044ad_0": [
@@ -4655,6 +4519,16 @@
    "t": "Oh, but what does it matter?"
   }
  ],
+ "51af2084323664c009001657_0": [
+  {
+   "who": "char",
+   "t": "Blood... This is what the spirits wanted us to find. The piece of my brother's killer. It's not much, but it's enough."
+  },
+  {
+   "who": "gm",
+   "t": "She scowls at it, looking every bit like she intends to reach through the small sample and dismember its owner from afar. And perhaps she can."
+  }
+ ],
  "85499d2c3030316005004266_0": [
   {
    "who": "gm",
@@ -4973,6 +4847,82 @@
   {
    "who": "char",
    "t": "Oh, don’t bother with your side of the conversation - I’m not really here. Just one reason for this vid – someone finally geeked me. I'm dead. I probably had it coming."
+  }
+ ],
+ "a07402af306434bc170014ef_0": [
+  {
+   "who": "gm",
+   "t": "A figure moves to a pile of crates and starts looking them over. Middle-aged. Male. Human. He vibes civilian - no big iron or magical fetishes visible - but it's late and he's suspicious. He sees your crew, registers he’s in dangerous company but smiles a big smile anyway."
+  },
+  {
+   "who": "char",
+   "t": "HEY THERE! You having an after-work drink? I could use one. I could always use one."
+  }
+ ],
+ "a07402af306434bc170014ef_4": [
+  {
+   "who": "char",
+   "t": "NULL SWEAT. Don’t go ballistic on me! Metaphorically or otherwise!"
+  },
+  {
+   "who": "gm",
+   "t": "He points to himself."
+  },
+  {
+   "who": "char",
+   "t": "Sam. Sam Watts. I’m just picking up a little shipment that fell off a truck. Looks like those ass-wipe longshoreman left the crates spread out across the whole damn dock. Serves me right for not tipping them, I guess. Now come on - who are you guys?"
+  }
+ ],
+ "a083383a306434bc17001578_1": [
+  {
+   "who": "gm",
+   "t": "He flashes another grin."
+  },
+  {
+   "who": "char",
+   "t": "Nope. I’ve done all the sharing I’m going to. Your turn."
+  }
+ ],
+ "a083383a306434bc17001578_5": [
+  {
+   "who": "gm",
+   "t": "His commlink rings."
+  },
+  {
+   "who": "char",
+   "t": "Hang on. It's my driver."
+  },
+  {
+   "who": "gm",
+   "t": "He answers it."
+  },
+  {
+   "who": "char",
+   "t": "Yeah? No, I haven't found the crates yet. What? Hmmm, not good... probably because of my new friends here... I would appreciate it if you'd wait for this thing to play out.... yeah, give you a call later."
+  }
+ ],
+ "a083383a306434bc17001578_8": [
+  {
+   "who": "char",
+   "t": "You need to choose your fixers more carefully. And based on our budding friendship, I’m guessing you probably need to choose your friends more carefully, too."
+  },
+  {
+   "who": "gm",
+   "t": "He winks."
+  },
+  {
+   "who": "char",
+   "t": "Ten of them versus three of you, huh? Why do I always get chosen by the losing team?"
+  }
+ ],
+ "a11746d43064348014004970_0": [
+  {
+   "who": "gm",
+   "t": "He weighs a grenade his hand."
+  },
+  {
+   "who": "char",
+   "t": "I’ve got a hell of a throwing arm - threw a lot of rocks through windows as a kid."
   }
  ],
  "5196fe02303031a812002f1b_0": [
@@ -6822,7 +6772,7 @@
   },
   {
    "who": "char",
-   "t": "We'll wait outside for you. I'll take the team and circle around the building, looking for another way in. I'll chirp you on your commlink if we find one."
+   "t": "We’ll wait outside for you. I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one."
   }
  ],
  "51c1e176623331441300491d_31": [
@@ -6832,7 +6782,7 @@
   },
   {
    "who": "char",
-   "t": "I'll circle around the building and look for another way in. I'll chirp you on your commlink if I find one."
+   "t": "I’ll circle around the building and look for another way in. I’ll chirp you on your commlink if I find one."
   }
  ],
  "7bafc8583064665422005e1e_4": [
@@ -7267,32 +7217,346 @@
    "t": "It's the crew that took out Stevie J's place. I told you it was only a matter of time!"
   }
  ],
- "42e86734623331e0170026ed_3": [
+ "26bf5777306466ec210018c0_0": [
+  {
+   "who": "gm",
+   "t": "The woman scratches herself like a cat at a couch leg."
+  },
   {
    "who": "char",
-   "t": "Pediatric record, partial."
+   "t": "Please... can you spare some nuyen?"
+  }
+ ],
+ "26bf5777306466ec210018c0_3": [
+  {
+   "who": "gm",
+   "t": "She drops to her knees, pleading."
+  }
+ ],
+ "26bf5777306466ec210018c0_4": [
+  {
+   "who": "char",
+   "t": "But... but that doesn't make sense. The BTLs are here! I just... need... something..."
   },
   {
    "who": "gm",
-   "t": "One particular pediatrician's entry stands out from the rest."
+   "t": "She collapses, whimpering, and seems lost to this world."
   }
  ],
- "42e86734623331e0170026ed_4": [
+ "51bcdf80356164580b00167e_0": [
   {
    "who": "gm",
-   "t": "Child suffers from a chronic depression and social anxiety most likely caused by his physical abnormalities. We've seen many cases like this recently, with the outbreak of changeling children being born. With the aberrant physiology we're seeing there is no telling what sort of brain functions are affected. Prescribed a series of sedatives last year that seemed to have no effect. Upping the dosage."
+   "t": "Charlie’s an ork with an expression of boredom and one milky eye. He drones through his standard patter."
+  },
+  {
+   "who": "char",
+   "t": "Need a pass? 50 nuyen each, 150¥ for the lot of ya. That’ll let you come an’ go as you please. You can chip in there and we’ll keep you safe while you ride. BTL chips are separate cost. Last about 3 hours. Prices vary. Buy those inside."
   }
  ],
- "42e86734623331e0170026ed_6": [
+ "51bcdf80356164580b00167e_1": [
   {
    "who": "gm",
-   "t": "The file is quite large and takes well over an hour to read through. The final entry, however, is the most significant. It is written by Doctor Henry Holmes."
+   "t": "Monotone."
+  },
+  {
+   "who": "char",
+   "t": "Great. Have fun."
   }
  ],
- "42e86734623331e0170026ed_7": [
+ "51bcdf80356164580b00167e_2": [
   {
    "who": "gm",
-   "t": "Silas has overcome significant mental disorders and no longer goes through periods of violent episodes. Latest medications have proven especially effective but I believe that being treated by another elf has significantly impacted his treatment. Unfortunately, my efforts to maintain an emotional boundary with him have proven challenging. He has bonded to me in an unhealthy and frankly an unnerving way. His hero-worship exhibits itself in the form of mimicked speech patterns and adopting my dress. For this reason and for the health of the patient, I am assigning another doctor to his case. I will inform him at his next session."
+   "t": "His one good eye wavers."
+  },
+  {
+   "who": "char",
+   "t": "Nope. I’m good. See you on the way out."
+  }
+ ],
+ "51bcdf80356164580b00167e_3": [
+  {
+   "who": "gm",
+   "t": "His good eye twitches as he thinks."
+  },
+  {
+   "who": "char",
+   "t": "Yeah, sure that math works for me. See you on the way out."
+  }
+ ],
+ "51bd117f356164580b001757_0": [
+  {
+   "who": "gm",
+   "t": "You eject the BTL Gino’s been riding. He gasps suddenly and his eyes flutter open. He looks confused. Worse than the other chipheads you’ve seen. His lips are white and chapped, his eyes sunk into his head. There’s vomit on his shirt and sweat on his forehead. When he speaks, his words are slurred. He’s burnt."
+  }
+ ],
+ "51bd117f356164580b001757_3": [
+  {
+   "who": "gm",
+   "t": "Gino looks at her with glazed eyes. No recognition."
+  },
+  {
+   "who": "char",
+   "t": "Slot me back in, goddamnit! This is bullshit! I don’t wanna be here anymore. SLOT ME BACK IN!"
+  },
+  {
+   "who": "gm",
+   "t": "He looks around the room, angrily. His hand reaches for his implant. Coyote grabs his wrist. Stops him."
+  }
+ ],
+ "51bd117f356164580b001757_6": [
+  {
+   "who": "gm",
+   "t": "Gino wrenches his wrist from Coyote’s grasp and he staggers back, reaches under his shirt and pulls out a gun. Coyote watches him, horrified, with tears in her eyes. Gino waves it around, blinking wildly."
+  }
+ ],
+ "51bd117f356164580b001757_8": [
+  {
+   "who": "gm",
+   "t": "He presses his hands to the sides of his head, his finger still on the trigger. Squints."
+  },
+  {
+   "who": "char",
+   "t": "What the hell is wrong with you people?"
+  }
+ ],
+ "51bd117f356164580b001757_10": [
+  {
+   "who": "char",
+   "t": "This is the way you help me?! Look at this place! Look at ME!"
+  },
+  {
+   "who": "gm",
+   "t": "He looks around at the squalor of the room, then glimpses his own reflection in the machinery."
+  },
+  {
+   "who": "char",
+   "t": "Oh God, look at me."
+  }
+ ],
+ "51bd117f356164580b001757_11": [
+  {
+   "who": "gm",
+   "t": "He looks at Coyote. Looks at you."
+  },
+  {
+   "who": "char",
+   "t": "We’ll...we’ll... go slow."
+  }
+ ],
+ "51bd117f356164580b001757_14": [
+  {
+   "who": "gm",
+   "t": "He presses his hands to the sides of his head, his finger still on the trigger. Squints."
+  },
+  {
+   "who": "char",
+   "t": "I... no. No, I gotta slot back in. Get away from this drek."
+  }
+ ],
+ "51bd117f356164580b001757_15": [
+  {
+   "who": "char",
+   "t": "It’s real to me! I can smell it! Touch it! I can fragging taste it! I was a god in there... king. I was a KING! Can you imagine it?"
+  },
+  {
+   "who": "gm",
+   "t": "He looks around the room. Sees the squalor. The bodies. Then he glimpses his own pitiful reflection in the machinery."
+  }
+ ],
+ "51bd117f356164580b001757_18": [
+  {
+   "who": "char",
+   "t": "No. What? Wasting? I..."
+  },
+  {
+   "who": "gm",
+   "t": "He looks around at the squalor of the room, then glimpses his own reflection in the machinery."
+  }
+ ],
+ "51bd117f356164580b001757_21": [
+  {
+   "who": "char",
+   "t": "Why would I want to touch this drek?! This sewer! I was a god in there... king. I was a KING! Can you imagine it?"
+  },
+  {
+   "who": "gm",
+   "t": "He looks around the room. Sees the squalor. The bodies. Then he glimpses his own pitiful reflection in the machinery."
+  }
+ ],
+ "51bd117f356164580b001757_28": [
+  {
+   "who": "char",
+   "t": "No! You don’t... you can’t understand what it’s like out here! I’m naked. I gotta slot in... get away."
+  },
+  {
+   "who": "gm",
+   "t": "He points the gun at Coyote."
+  },
+  {
+   "who": "char",
+   "t": "You’re not gonna stop me! I’ll fragging kill you first!"
+  }
+ ],
+ "370b5bf6306434fc04000b13_0": [
+  {
+   "who": "gm",
+   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
+  },
+  {
+   "who": "char",
+   "t": "Watchoo lookin’ at?"
+  }
+ ],
+ "370b5bf6306434fc04000b13_1": [
+  {
+   "who": "gm",
+   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
+  },
+  {
+   "who": "char",
+   "t": "Watchoo lookin’ at, half-man?"
+  }
+ ],
+ "370b5bf6306434fc04000b13_2": [
+  {
+   "who": "gm",
+   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
+  },
+  {
+   "who": "char",
+   "t": "Watchoo lookin’ at, big-man?"
+  }
+ ],
+ "370b5bf6306434fc04000b13_3": [
+  {
+   "who": "gm",
+   "t": "Jamal has the look of a long time chip-head. Emaciated. Hollow-eyed. But hungry and desperate."
+  },
+  {
+   "who": "char",
+   "t": "Watchoo lookin’ at, spike-ear?"
+  }
+ ],
+ "370b5bf6306434fc04000b13_7": [
+  {
+   "who": "gm",
+   "t": "His lip curls into a feral snarl."
+  },
+  {
+   "who": "char",
+   "t": "Dis is the Barrens, omae. You want it, you take it."
+  }
+ ],
+ "370b5bf6306434fc04000b13_8": [
+  {
+   "who": "gm",
+   "t": "His lip curls into a feral snarl."
+  },
+  {
+   "who": "char",
+   "t": "Dis is the Barrens, omae. You want it, you take it."
+  }
+ ],
+ "370b5bf6306434fc04000b13_9": [
+  {
+   "who": "gm",
+   "t": "He looks suspicious."
+  },
+  {
+   "who": "char",
+   "t": "How d’you know I have a pass card?"
+  }
+ ],
+ "370b5bf6306434fc04000b13_10": [
+  {
+   "who": "gm",
+   "t": "He grunts."
+  },
+  {
+   "who": "char",
+   "t": "Well, you heard right."
+  }
+ ],
+ "370b5bf6306434fc04000b13_11": [
+  {
+   "who": "gm",
+   "t": "He grunts."
+  },
+  {
+   "who": "char",
+   "t": "Well, she told you right."
+  }
+ ],
+ "370b5bf6306434fc04000b13_14": [
+  {
+   "who": "gm",
+   "t": "His lip curls into a feral snarl."
+  },
+  {
+   "who": "char",
+   "t": "Dis is the Barrens, omae. You want it, you take it."
+  }
+ ],
+ "51e071833963651821006cbf_1": [
+  {
+   "who": "gm",
+   "t": "A new voice, with the heavy digitization of someone with a lot of cyber, calmly interjects."
+  },
+  {
+   "who": "char",
+   "t": "We don't need more guards. I've got it covered. With a push of a button, I can make these chip-heads into my own personal killer puppets."
+  }
+ ],
+ "51e07b343963651821006dd2_2": [
+  {
+   "who": "gm",
+   "t": "The man with the cyberdeck calmly speaks with a heavily digitized voice."
+  },
+  {
+   "who": "char",
+   "t": "You messed with the wrong BTL Lab, aho. This is a Yakuza operation. With a push of a button, I can make these tweakers into my own personal killer puppets. You're fragged."
+  }
+ ],
+ "a02269053064349c0b004824_0": [
+  {
+   "who": "gm",
+   "t": "Switchblade has the air of an old pro. Looks to be in his mid-twenties - old for a Street Samurai. He knew Dowd almost as well as you did. Knows enough to be on edge about this meeting with the Fixer, too."
+  },
+  {
+   "who": "char",
+   "t": "I don’t have a good feeling about this. The run was not exactly clockwork, then the Fixer sent us this bizarre meet location, and now he hasn’t shown up."
+  }
+ ],
+ "466b1982623331280d002cef_3": [
+  {
+   "who": "char",
+   "t": "Ahhhhh."
+  },
+  {
+   "who": "gm",
+   "t": "She sighs and suddenly her mind seems to clear for a moment. You see a window of sanity."
+  }
+ ],
+ "466b1982623331280d002cef_9": [
+  {
+   "who": "gm",
+   "t": "[ Her lips pull back in a snarl, revealing stumps of teeth worn down by years of gnawing her restraints. ] SPIKE-EARED BABY HATES ME! He left me to DIE here 20 years ago. But I won't give him the satisfaction. No. I claw to life, to SPITE him."
+  }
+ ],
+ "466b1982623331280d002cef_12": [
+  {
+   "who": "gm",
+   "t": "She snaps to attention instantly, every fiber of her withered husk focused on you."
+  },
+  {
+   "who": "char",
+   "t": "Oh, yes! The pretty pills. James used to give me those."
+  }
+ ],
+ "466b1982623331280d002cef_13": [
+  {
+   "who": "gm",
+   "t": "Her wrinkled mouth pops open like a baby bird waiting for a worm but her wizened eyes are feral and intent. Gimme the pills! I'll answer! Gimme the yum-yum!"
   }
  ]
 }

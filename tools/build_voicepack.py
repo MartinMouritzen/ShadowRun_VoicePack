@@ -134,26 +134,55 @@ def main():
         for b, k in orphans[:20]:
             print(f"    {b} / {k}", file=sys.stderr)
 
-    # Transcode unique source mp3s -> ogg (hash-named, deterministic, deduped)
+    # Transcode unique source mp3s -> ogg (hash-named, deterministic, deduped), loudness-normalized.
+    # EL v3 speech averages ~-17 LUFS integrated with true peaks already near 0 dBFS, which is
+    # audibly quieter than the game's own (compressed) audio and can't be fixed with plain gain.
+    # Two-pass ffmpeg loudnorm: pass 1 measures, pass 2 normalizes to LN_I/LN_TP (linear gain when
+    # the measurement is usable, dynamic otherwise). Clips whose measurement fails fall back to the
+    # old plain transcode. NOTE: existing clips/*.ogg are reused as a cache — after changing LN_*
+    # targets, delete voicepack/<game>/clips/ to re-normalize everything.
+    LN_I, LN_TP, LN_LRA = -14.0, -1.5, 11.0
     os.makedirs(CLIPS, exist_ok=True)
+
+    def transcode(src, ogg_abs):
+        src_abs = os.path.join(AUDIO, *src.split("/"))
+        ln = f"loudnorm=I={LN_I}:TP={LN_TP}:LRA={LN_LRA}"
+        try:
+            m = subprocess.run(
+                ["ffmpeg", "-hide_banner", "-nostats", "-i", src_abs,
+                 "-af", ln + ":print_format=json", "-f", "null", "-"], capture_output=True)
+            txt = m.stderr.decode(errors="replace")
+            j = json.loads(txt[txt.rindex("{"):])
+            if float(j["input_i"]) > -70:   # measurable audio -> transparent linear normalization
+                ln += (f":measured_I={j['input_i']}:measured_TP={j['input_tp']}"
+                       f":measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}"
+                       f":offset={j['target_offset']}:linear=true")
+        except Exception:
+            ln = None   # unmeasurable (ultra-short/silent) -> plain transcode, no loudnorm
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", src_abs]
+        if ln: cmd += ["-af", ln]
+        cmd += ["-ac", "1", "-c:a", "libvorbis", "-q:a", "5", "-ar", "44100", ogg_abs]
+        return subprocess.run(cmd, capture_output=True)
+
     src_to_ogg = {}
+    jobs = []
     for src_list in lines.values():
         for src in src_list:
             if src in src_to_ogg:
                 continue
             h = hashlib.sha1(src.encode("utf-8")).hexdigest()[:16]
             ogg_rel = f"clips/{h}.ogg"
+            src_to_ogg[src] = ogg_rel
             ogg_abs = os.path.join(OUT, ogg_rel)
-            src_abs = os.path.join(AUDIO, *src.split("/"))
             if not os.path.exists(ogg_abs):
-                r = subprocess.run(
-                    ["ffmpeg", "-y", "-loglevel", "error", "-i", src_abs,
-                     "-ac", "1", "-c:a", "libvorbis", "-q:a", "5", "-ar", "44100", ogg_abs],
-                    capture_output=True)
+                jobs.append((src, ogg_rel, ogg_abs))
+    if jobs:
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=min(8, os.cpu_count() or 4)) as pool:
+            for (src, ogg_rel, ogg_abs), r in zip(jobs, pool.map(lambda a: transcode(a[0], a[2]), jobs)):
                 if r.returncode != 0:
                     print(f"WARN transcode failed for {src}: {r.stderr.decode()[:200]}", file=sys.stderr)
-                    continue
-            src_to_ogg[src] = ogg_rel
+                    src_to_ogg.pop(src, None)
 
     manifest_lines = {k: [src_to_ogg[s] for s in v if s in src_to_ogg]
                       for k, v in lines.items()}
