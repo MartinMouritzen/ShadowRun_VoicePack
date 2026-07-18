@@ -27,9 +27,70 @@ namespace SRRVoices
 
         public void SetRoot(string r) { root = r; }
 
+        // Shift+Plus / Shift+Minus: live playback-speed adjustment. Persists via the config entry
+        // (BepInEx saves on set). A small OSD confirms the new value for a moment.
+        float osdUntil = 0f;
+        string osdText = "";
+
+        void Update()
+        {
+            if (Plugin.CfgSpeed == null) return;
+            bool shift = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+            if (!shift) return;
+            float delta = 0f;
+            if (Input.GetKeyDown(KeyCode.Equals) || Input.GetKeyDown(KeyCode.Plus) || Input.GetKeyDown(KeyCode.KeypadPlus)) delta = 0.05f;
+            else if (Input.GetKeyDown(KeyCode.Minus) || Input.GetKeyDown(KeyCode.KeypadMinus)) delta = -0.05f;
+            if (delta == 0f) return;
+            float v = Mathf.Clamp(Plugin.CfgSpeed.Value + delta, 0.5f, 2f);
+            v = Mathf.Round(v * 100f) / 100f;      // keep the cfg value tidy (1.05, 1.1, ...)
+            Plugin.CfgSpeed.Value = v;
+            if (src != null && src.isPlaying) src.pitch = v;   // apply to the line playing right now
+            osdText = "Voice speed: " + v.ToString("0.00") + "x";
+            osdUntil = Time.realtimeSinceStartup + 2f;
+            if (Plugin.Log != null) Plugin.Log.LogInfo(osdText);
+        }
+
+        static Texture2D white;   // Unity 4.2 has no Texture2D.whiteTexture
+
+        void OnGUI()
+        {
+            if (Time.realtimeSinceStartup > osdUntil) return;
+            if (white == null)
+            {
+                white = new Texture2D(1, 1);
+                white.SetPixel(0, 0, Color.white);
+                white.Apply();
+            }
+            GUIStyle st = new GUIStyle(GUI.skin.label);
+            st.fontSize = 18;
+            st.fontStyle = FontStyle.Bold;
+            st.normal.textColor = Color.white;
+            GUI.color = new Color(0f, 0f, 0f, 0.75f);
+            GUI.DrawTexture(new Rect(18f, 14f, 220f, 34f), white);
+            GUI.color = Color.white;
+            GUI.Label(new Rect(28f, 20f, 210f, 26f), osdText, st);
+        }
+
         static float Vol()
         {
-            return (Plugin.CfgVolume != null) ? Mathf.Clamp01(Plugin.CfgVolume.Value) : 0.9f;
+            return (Plugin.CfgVolume != null) ? Mathf.Clamp01(Plugin.CfgVolume.Value) : 1f;
+        }
+
+        static float Speed()
+        {
+            return (Plugin.CfgSpeed != null) ? Mathf.Clamp(Plugin.CfgSpeed.Value, 0.5f, 2f) : 1f;
+        }
+
+        // Identifies the current playback request; used to stop loadscreen narration when the
+        // loading screen closes without killing whatever line may have started since.
+        public int CurrentToken() { return playToken; }
+
+        // Re-read volume/speed config and apply to whatever is playing right now (options sliders).
+        public void ApplyLive()
+        {
+            if (src == null) return;
+            src.volume = Vol();
+            src.pitch = Speed();
         }
 
         public void StopAll()
@@ -60,6 +121,7 @@ namespace SRRVoices
                 if (myToken != playToken) yield break;
                 if (clip == null) continue;      // failed load -> skip this segment, keep going
                 src.volume = Vol();
+                src.pitch = Speed();
                 src.clip = clip;
                 src.Play();
                 // Wait until this clip finishes or we get preempted (Unity 4 has no WaitWhile).

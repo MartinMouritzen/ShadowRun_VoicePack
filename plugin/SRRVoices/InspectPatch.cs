@@ -59,6 +59,134 @@ namespace SRRVoices
         }
     }
 
+    // Loading screens: SceneLoader.setupLoadScreenData populates the load-screen UI from
+    // sceneDef. The narration text is SceneDef.scene_synopsis (protobuf field 22) — it is scene
+    // DATA, not baked into the loadingImage_* art. Key = bark_<md5(synopsis.Trim())>, matching
+    // tools/extract_loadscreens.py. Patched manually (isolated try) from Plugin.Awake so a
+    // missing method in a sequel can't take down the core patches.
+    public static class Patch_LoadScreen
+    {
+        // token of the narration we started for the current load screen; -1 = none
+        internal static int NarrationToken = -1;
+
+        // Narration stashed until the game declares the screen will WAIT for the player.
+        // Save-game loads (main menu Continue) never arm the continue button, so their
+        // narration must never start - it would just be cut off by the auto-continue.
+        static string[] pendingClips = null;
+        static string pendingKey = null;
+
+        // Set from Plugin.Awake when the SetRequiresContinueButton hook installed. Without it
+        // (a sequel with a different loader?) we keep the old play-immediately behavior.
+        internal static bool ContinueGateAvailable = false;
+
+        // Postfixed onto TempLoadScene.SetRequiresContinueButton: this screen waits for the
+        // player, so any stashed narration can start now.
+        public static void RequireContinuePostfix()
+        {
+            try
+            {
+                if (pendingClips == null || Plugin.Player == null) return;
+                bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
+                if (log && Plugin.Log != null) Plugin.Log.LogInfo("play loadscreen " + pendingKey + " (continue button confirmed)");
+                Plugin.Player.PlaySequence(pendingClips);
+                NarrationToken = Plugin.Player.CurrentToken();
+                pendingClips = null; pendingKey = null;
+            }
+            catch (Exception e)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("loadscreen continue hook: " + e.Message);
+            }
+        }
+
+        // Postfixed onto TempLoadScene.CurtainsUp/Hide/Cleanup: the loading screen is going away
+        // (auto-continue or the player pressed Continue) — stop the narration IF it is still the
+        // active playback. A conversation line started after bumps the token, so it survives.
+        public static void ClosePostfix()
+        {
+            try
+            {
+                if (pendingClips != null)
+                {
+                    if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
+                        Plugin.Log.LogInfo("loadscreen closed without continue button — narration skipped.");
+                    pendingClips = null; pendingKey = null;
+                }
+                if (Plugin.Player == null || NarrationToken < 0) return;
+                if (Plugin.Player.CurrentToken() == NarrationToken)
+                {
+                    Plugin.Player.StopAll();
+                    if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
+                        Plugin.Log.LogInfo("loadscreen closed — narration stopped.");
+                }
+                NarrationToken = -1;
+            }
+            catch (Exception e)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("loadscreen close hook: " + e.Message);
+            }
+        }
+
+        // Is the load screen's continue button already armed? (SceneLoader.tempLoadScene
+        // .NeedsContinueButton via reflection; false when absent/unknowable.)
+        static bool TlsNeedsContinue(object sceneLoader)
+        {
+            try
+            {
+                var f = HarmonyLib.AccessTools.Field(sceneLoader.GetType(), "tempLoadScene");
+                object tls = (f == null) ? null : f.GetValue(sceneLoader);
+                if (tls == null) return false;
+                var p = HarmonyLib.AccessTools.Property(tls.GetType(), "NeedsContinueButton");
+                return p != null && (bool)p.GetValue(tls, null);
+            }
+            catch (Exception) { return false; }
+        }
+
+        public static void Postfix(object __instance)
+        {
+            if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
+            if (Plugin.CfgLoadScreens != null && !Plugin.CfgLoadScreens.Value) return;
+            if (Plugin.Pack == null || Plugin.Player == null || __instance == null) return;
+            try
+            {
+                var fld = HarmonyLib.AccessTools.Field(__instance.GetType(), "sceneDef");
+                if (fld == null) return;
+                SceneDef def = fld.GetValue(__instance) as SceneDef;
+                if (def == null || string.IsNullOrEmpty(def.scene_synopsis)) return;
+                string text = def.scene_synopsis.Trim();
+                if (text.Length < 4) return;
+                string key = "bark_" + Patch_Inspect.Md5Hex16(text);
+                bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
+                string[] clips;
+                if (Plugin.Pack.TryGet(key, out clips))
+                {
+                    if (Plugin.InspectDebounced(key)) return;   // setup can run more than once per load
+                    if (!ContinueGateAvailable || TlsNeedsContinue(__instance))
+                    {
+                        // gate unavailable, or continue button already armed -> play right away
+                        if (log) Plugin.Log.LogInfo("play loadscreen " + key + " (" + clips.Length + " clips)");
+                        Plugin.Player.PlaySequence(clips);
+                        NarrationToken = Plugin.Player.CurrentToken();
+                    }
+                    else
+                    {
+                        // wait for SetRequiresContinueButton; a save-load never calls it, and its
+                        // auto-continuing screen must stay silent (narration would be cut off).
+                        pendingClips = clips; pendingKey = key;
+                        if (log) Plugin.Log.LogInfo("loadscreen narration pending " + key + " (waiting for continue-button signal)");
+                    }
+                }
+                else if (log)
+                {
+                    Plugin.Log.LogInfo("loadscreen MISS " + key + " len=" + text.Length);
+                }
+            }
+            catch (Exception e)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("loadscreen hook: " + e.Message);
+            }
+        }
+    }
+
     // The inline apartment inspects (computer, bank slip, trivid disc) are NOT prop
     // inspectInteractions and don't go through handleInspectInteraction. They're scene-script
     // "Display Text over Prop" actions, and the log proved DisplayTextOverProp itself isn't the
@@ -71,7 +199,8 @@ namespace SRRVoices
         static readonly string[] NAMES = {
             "CreateGMText", "DisplayTextOverProp", "DisplayTextAtScreenPoint",
             "DisplayTextOverPoint", "DisplayTextInPopup", "FullscreenGMText", "ShowText",
-            "DisplayTextOverActor"   // combat barks (spoken by an actor) -> bark_<md5>
+            "DisplayTextOverActor",  // combat barks (spoken by an actor) -> bark_<md5>
+            "OpenLoadScreen"         // DIAGNOSTIC: loading-screen text (object[] args) -> reveal via log
         };
 
         public static System.Collections.Generic.List<System.Reflection.MethodBase> FindAll()

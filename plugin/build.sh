@@ -14,7 +14,7 @@ cp SRRVoices/*.cs "$STAGE/"
 cp lib/*.dll "$STAGE/lib/"
 
 # Compose the csc command with Windows paths.
-SRCS="Plugin.cs VoicePack.cs VoicePlayer.cs ConversationPatches.cs BorderlessWindow.cs InspectPatch.cs"
+SRCS="Plugin.cs VoicePack.cs VoicePlayer.cs ConversationPatches.cs BorderlessWindow.cs InspectPatch.cs OptionsPatch.cs"
 REFS='/reference:lib\BepInEx.dll /reference:lib\0Harmony.dll /reference:lib\UnityEngine.dll /reference:lib\Assembly-CSharp.dll /reference:lib\ShadowrunDTO.dll /reference:lib\protobuf-net.dll /reference:System.dll /reference:System.Core.dll'
 
 cat > "$STAGE/compile.bat" <<BAT

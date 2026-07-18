@@ -18,7 +18,9 @@ namespace SRRVoices
         public static ConfigEntry<bool> CfgEnabled;
         public static ConfigEntry<bool> CfgInspect;
         public static ConfigEntry<bool> CfgBarks;
+        public static ConfigEntry<bool> CfgLoadScreens;
         public static ConfigEntry<float> CfgVolume;
+        public static ConfigEntry<float> CfgSpeed;
         public static ConfigEntry<float> CfgSegmentGap;
         public static ConfigEntry<bool> CfgBorderless;
         public static ConfigEntry<bool> CfgLogLines;
@@ -47,7 +49,10 @@ namespace SRRVoices
             CfgEnabled = Config.Bind("General", "Enabled", true, "Master enable for AI voices.");
             CfgInspect = Config.Bind("General", "VoiceInspects", true, "Voice the 'examine object' inspect one-liners (narrator). Set false to keep inspects silent.");
             CfgBarks = Config.Bind("General", "VoiceCombatBarks", true, "Voice combat barks (lines actors shout in a fight). Set false to keep barks silent.");
-            CfgVolume = Config.Bind("General", "Volume", 0.9f, "Voice volume, 0..1.");
+            CfgLoadScreens = Config.Bind("General", "VoiceLoadScreens", true, "Narrate the loading-screen scene descriptions. Set false to keep load screens silent.");
+            CfgVolume = Config.Bind("General", "Volume", 1f, "Voice volume, 0..1.");
+            CfgSpeed = Config.Bind("General", "PlaybackSpeed", 1f,
+                "Voice playback speed multiplier (1 = normal, clamped 0.5..2). Note: Unity 4 speed changes also shift pitch slightly, like tape.");
             CfgSegmentGap = Config.Bind("General", "SegmentGap", 0.3f,
                 "Pause in seconds between a line's segments (narrator -> character swap). 0 = instant.");
             CfgBorderless = Config.Bind("Display", "BorderlessFullscreen", false,
@@ -96,6 +101,88 @@ namespace SRRVoices
             catch (Exception e)
             {
                 Log.LogWarning("Floating-text patch setup failed: " + e.Message);
+            }
+
+            // Load-screen narration hook (isolated: SceneLoader may differ in sequels).
+            try
+            {
+                var slType = typeof(ConversationManager).Assembly.GetType("SceneLoader");
+                var lsMethod = (slType == null) ? null : HarmonyLib.AccessTools.Method(slType, "setupLoadScreenData", null, null);
+                if (lsMethod != null)
+                {
+                    harmony.CreateProcessor(lsMethod)
+                           .AddPostfix(new HarmonyMethod(typeof(Patch_LoadScreen).GetMethod("Postfix")))
+                           .Patch();
+                    Log.LogInfo("Load-screen narration hook installed (SceneLoader.setupLoadScreenData).");
+                }
+                else Log.LogWarning("SceneLoader.setupLoadScreenData not found — load screens stay unvoiced.");
+
+                // Stop narration when the loading screen goes away (Continue pressed or auto-continue).
+                var tlsType = typeof(ConversationManager).Assembly.GetType("TempLoadScene");
+                var closePost = new HarmonyMethod(typeof(Patch_LoadScreen).GetMethod("ClosePostfix"));
+                int closeHooks = 0;
+                if (tlsType != null)
+                {
+                    foreach (string mName in new string[] { "CurtainsUp", "Hide", "Cleanup" })
+                    {
+                        var m = HarmonyLib.AccessTools.Method(tlsType, mName, null, null);
+                        if (m == null) continue;
+                        try { harmony.CreateProcessor(m).AddPostfix(closePost).Patch(); closeHooks++; }
+                        catch (Exception e) { Log.LogWarning("loadscreen close patch skip " + mName + ": " + e.Message); }
+                    }
+                }
+                Log.LogInfo("Load-screen close hooks installed on " + closeHooks + " TempLoadScene methods.");
+
+                // Narration starts only when the screen declares it will WAIT for the player.
+                if (tlsType != null)
+                {
+                    var reqM = HarmonyLib.AccessTools.Method(tlsType, "SetRequiresContinueButton", null, null);
+                    if (reqM != null)
+                    {
+                        harmony.CreateProcessor(reqM)
+                               .AddPostfix(new HarmonyMethod(typeof(Patch_LoadScreen).GetMethod("RequireContinuePostfix")))
+                               .Patch();
+                        Patch_LoadScreen.ContinueGateAvailable = true;
+                        Log.LogInfo("Load-screen continue-gate hook installed (SetRequiresContinueButton).");
+                    }
+                    else Log.LogWarning("SetRequiresContinueButton not found — loadscreen narration plays unconditionally.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("Load-screen patch failed: " + e.Message);
+            }
+
+            // Options-screen slider injection (isolated: UI classes may differ in sequels).
+            try
+            {
+                var osType = typeof(ConversationManager).Assembly.GetType("OptionsScreen");
+                var osInit = (osType == null) ? null : HarmonyLib.AccessTools.Method(osType, "Initialize", null, null);
+                if (osInit != null)
+                {
+                    harmony.CreateProcessor(osInit)
+                           .AddPostfix(new HarmonyMethod(typeof(Patch_Options).GetMethod("Postfix")))
+                           .Patch();
+                    Log.LogInfo("Options-screen voice sliders hook installed (OptionsScreen.Initialize).");
+                }
+                else Log.LogWarning("OptionsScreen.Initialize not found — no in-game voice sliders.");
+
+                // The in-game Escape menu options live on the PDA (PDAAnchor) with IDENTICAL
+                // slider field names, so the same injection postfix works on its Awake.
+                var pdaType = typeof(ConversationManager).Assembly.GetType("PDAAnchor");
+                var pdaAwake = (pdaType == null) ? null : HarmonyLib.AccessTools.Method(pdaType, "Awake", null, null);
+                if (pdaAwake != null)
+                {
+                    harmony.CreateProcessor(pdaAwake)
+                           .AddPostfix(new HarmonyMethod(typeof(Patch_Options).GetMethod("Postfix")))
+                           .Patch();
+                    Log.LogInfo("PDA (Escape menu) voice sliders hook installed (PDAAnchor.Awake).");
+                }
+                else Log.LogWarning("PDAAnchor.Awake not found — Escape-menu voice sliders unavailable.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("Options-screen patch failed: " + e.Message);
             }
 
             if (CfgBorderless.Value)
