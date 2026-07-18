@@ -34,3 +34,4 @@ bepinex_dist/
 
 # Nexus Mods personal API key (upload API) — NEVER commit
 .nexus.key
+.cloudflare.token
