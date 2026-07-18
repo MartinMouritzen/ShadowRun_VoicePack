@@ -1,0 +1,2973 @@
+{
+ "narrator": {
+  "bio": "The unseen game master. Reads every scene description in the Flux State: the Kreuzbasar's streets, corporate towers, and the long shadow of the drachenkrieg.",
+  "direction": "Noir gravitas without monotony: a storyteller who can go from dry wit to dread. Same narrator voice as Dead Man's Switch (Matt).",
+  "kw": [
+   "narrator",
+   "gravelly",
+   "deep",
+   "storyteller",
+   "noir",
+   "documentary"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_glory": {
+  "bio": "Glory is the team's chrome-laden street samurai and combat medic, a woman who traded her emotions and her flesh for cyberware to escape a horrific past in a blood cult.",
+  "direction": "Flat, quiet, and clinically detached, with razor-thin cracks of buried pain; warmth surfaces only in rare, reluctant flickers.",
+  "kw": [
+   "cold",
+   "flat",
+   "quiet",
+   "deadpan",
+   "haunted",
+   "young"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_kami": {
+  "bio": "Kami is a bright young woman from the Kreuzbasar cafe who runs discreet errands and messages for her uncle's clientele.",
+  "direction": "Light, quick, and friendly with practiced politeness, a service-industry smile in the voice that never quite drops its guard.",
+  "kw": [
+   "young",
+   "bright",
+   "friendly",
+   "polite",
+   "german",
+   "warm"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_laine": {
+  "bio": "Aleksi Laine is a hulking Finnish troll mercenary who haunts the Kreuzbasar and knew Monika Schäfer's crew before the player arrived.",
+  "direction": "Deep, slow rumble with dry amusement, a voice like a diesel engine idling; unhurried because nothing has ever made him hurry.",
+  "kw": [
+   "deep",
+   "gravelly",
+   "rumbling",
+   "gruff",
+   "calm",
+   "dry"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_absinthe": {
+  "bio": "Absinthe is an enigmatic elf seeress who appears in Aljernon's talismonger shop to prophesy the consequences of the Great Wyrm Feuerschwinge's death.",
+  "direction": "Ethereal, formal, and timeless, speaking in measured oracular cadences that sound older than the words themselves.",
+  "kw": [
+   "ethereal",
+   "mystical",
+   "formal",
+   "otherworldly",
+   "calm",
+   "wise"
+  ],
+  "gender": "female",
+  "age": null
+ },
+ "name_goldfish": {
+  "bio": "Goldfish is a world-weary drifter passing through the Kreuzbasar, nursing a drink at the bar and calling strangers kiddo.",
+  "direction": "Husky, wry, and road-worn, a barstool raconteur whose easy charm suggests she has told these stories in a hundred towns.",
+  "kw": [
+   "husky",
+   "wry",
+   "warm",
+   "weathered",
+   "relaxed",
+   "smoky"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_mira": {
+  "bio": "Mira is a dwarf woman in a squatter community who frets over her girlfriend's dangerous errand against a well-guarded compound.",
+  "direction": "Earthy and blunt, worry pushing through a tough practical exterior; snaps defensively when the worry gets pointed out.",
+  "kw": [
+   "earthy",
+   "blunt",
+   "worried",
+   "tough",
+   "warm",
+   "german"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_aztechnologybloodmage": {
+  "bio": "An Aztechnology blood mage overseeing a hidden ritual facility, he treats intruders as insects until they prove otherwise.",
+  "direction": "Imperious, contemptuous, and theatrically menacing, savoring each syllable until rage shatters the composure into shrieking fury.",
+  "kw": [
+   "menacing",
+   "authoritative",
+   "theatrical",
+   "cold",
+   "sinister",
+   "resonant"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_testsubject": {
+  "bio": "A nameless clone grown in a tank at an Aztechnology facility, conditioned to serve and die for the Masters and utterly lost when they are killed.",
+  "direction": "Hollow, eerie, and childlike, devotion delivered in a soft uncanny monotone that fractures into genuine bewilderment.",
+  "kw": [
+   "eerie",
+   "soft",
+   "hollow",
+   "childlike",
+   "monotone",
+   "unsettling"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_trithemius": {
+  "bio": "Trithemius is a rail-thin, reclusive elf wizard in a comically ornate robe, hiding from his treacherous former associate Ullrich and desperate to warn the player about him.",
+  "direction": "Reedy and wavering, a voice that cracks under strain; paranoid urgency wrapped in the fussy diction of a scholar long out of practice talking to people.",
+  "kw": [
+   "reedy",
+   "wavering",
+   "nervous",
+   "frail",
+   "scholarly",
+   "old"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_survivor": {
+  "bio": "A shell-shocked man who lived through a fiery attack that destroyed his home and killed people he knew.",
+  "direction": "Stammering and hollowed out, every sentence an effort; grief and disbelief keep breaking the flow mid-thought.",
+  "kw": [
+   "shaky",
+   "traumatized",
+   "quiet",
+   "stammering",
+   "fragile",
+   "german"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_foreignelf": {
+  "bio": "A broad-shouldered foreign elf hauling a mysteriously heavy pack, who snarls beautiful-sounding but plainly venomous words in a tongue no one around him speaks.",
+  "direction": "Melodic, sibilant foreign speech delivered through clenched teeth; the sound is lovely, the intent is pure hostility.",
+  "kw": [
+   "melodic",
+   "sibilant",
+   "hostile",
+   "foreign",
+   "sharp",
+   "exotic"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_terminal": {
+  "bio": "A malfunctioning building-maintenance computer terminal spitting out corrupted MCPOS system prompts.",
+  "direction": "Flat, synthetic, affectless machine readout, clipped and glitchy with no comprehension of what it recites.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "synthetic",
+   "flat",
+   "glitchy",
+   "mechanical"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_humanispropaganda": {
+  "bio": "A cabinet of Humanis Policlub hate literature, racist propaganda pamphlets addressed to disgruntled humans.",
+  "direction": "An oily, persuasive announcer's cadence, folksy and sympathetic on the surface with venom rising underneath; the sound of hate dressed as common sense.",
+  "kw": [
+   "oily",
+   "persuasive",
+   "announcer",
+   "insinuating",
+   "smooth",
+   "menacing"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_rammbockboss": {
+  "bio": "The leathery, wild-haired leader of the Rammbock gang, who greets trespassers on her territory with a mirthless smile and casual talk of buried rivals.",
+  "direction": "Raspy and taunting, cruelty worn as amusement; she sounds delighted by her own threats and completely unafraid.",
+  "kw": [
+   "raspy",
+   "taunting",
+   "cruel",
+   "weathered",
+   "confident",
+   "menacing"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_taylornguyen": {
+  "bio": "Taylor Nguyen is a field news correspondent reporting live from the edge of the Sydney mana rift disaster.",
+  "direction": "Polished, urgent broadcast delivery, professional composure stretched thin over genuine alarm at the catastrophe behind her.",
+  "kw": [
+   "polished",
+   "professional",
+   "urgent",
+   "clear",
+   "broadcast",
+   "composed"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_player": {
+  "bio": "A massive, scar-faced ork security enforcer in heavy plate armor who corners intruders and demands their surrender.",
+  "direction": "Huge, gravelly, and unhurried, menace delivered with the lazy confidence of someone who has never lost a fight.",
+  "kw": [
+   "deep",
+   "gravelly",
+   "menacing",
+   "slow",
+   "gruff",
+   "intimidating"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_interviewer": {
+  "bio": "A television journalist interviewing Dr. Adrian Vauclair amid the ruins left by the dragon Feuerschwinge's rampage.",
+  "direction": "Crisp, controlled broadcast professionalism with a probing edge; polite phrasing that keeps sharpening into pointed questions.",
+  "kw": [
+   "crisp",
+   "professional",
+   "articulate",
+   "poised",
+   "inquisitive",
+   "german"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_david": {
+  "bio": "David is a young Kreuzbasar local searching for Monika Schäfer, only to learn she is dead.",
+  "direction": "Soft and dazed, grief arriving in slow motion; the voice of someone whose world just quietly caved in.",
+  "kw": [
+   "soft",
+   "young",
+   "dazed",
+   "sad",
+   "quiet",
+   "fragile"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_elfactress": {
+  "bio": "An elf actress in a gloriously cheesy trideo fantasy melodrama, declaiming her love for the hero Titonius.",
+  "direction": "Hammy, breathless soap-opera melodrama, every line swooned at full volume with zero self-awareness.",
+  "kw": [
+   "theatrical",
+   "melodramatic",
+   "breathless",
+   "hammy",
+   "young",
+   "energetic"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_freightelevatordoorpanel": {
+  "bio": "A freight elevator door panel whose readouts narrate the status of a waiting drone while APEX reboots.",
+  "direction": "Neutral, even narration with a faint mechanical detachment, describing rather than feeling.",
+  "kw": [
+   "neutral",
+   "flat",
+   "mechanical",
+   "calm",
+   "narrator",
+   "monotone"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_aztechnologyenforcer": {
+  "bio": "A suspicious Aztechnology security enforcer interrogating a technician about sabotaged communications gear.",
+  "direction": "Hard-boiled corporate muscle, slow sarcastic disbelief tightening into open threat; every question is an accusation.",
+  "kw": [
+   "gruff",
+   "suspicious",
+   "sarcastic",
+   "hard",
+   "menacing",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_strangeman": {
+  "bio": "The Strange Man is Hans Brackhaus, the impeccably composed human guise of an agent of the great dragon Lofwyr, who appears once the Vauclair affair concludes.",
+  "direction": "Silky, precise, and unnervingly calm with a refined German accent; courteous phrasing that carries the weight of something vast and inhuman behind it.",
+  "kw": [
+   "silky",
+   "refined",
+   "german",
+   "calm",
+   "authoritative",
+   "unsettling"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_anonymousmessage": {
+  "bio": "An anonymous text message from the Schockwellenreiter hacker collective, scolding Blitz for blowing a years-long operation and endangering his ex, Emilie.",
+  "direction": "Flat, contemptuous digital sneer, read with icy sarcasm and zero sympathy, like a rejection letter written in all caps.",
+  "kw": [
+   "cold",
+   "sarcastic",
+   "contemptuous",
+   "flat",
+   "clipped",
+   "digital"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_fromthedeskofjonbergfalk": {
+  "bio": "Office memos from Jon Bergfalk, a sleazy executive whose notes swing between scoring party drugs and panicking about a shady silent partner in a loan-center scheme.",
+  "direction": "Harried white-collar bluster, veering from frat-boy enthusiasm to sweaty capital-letters panic within a single memo.",
+  "kw": [
+   "nervous",
+   "blustery",
+   "fast",
+   "corporate",
+   "panicky",
+   "smarmy"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_kiezgatekeeper": {
+  "bio": "A gatekeeper guarding the entrance to a Berlin kiez, defusing tension between visitors and locals.",
+  "direction": "Low-key streetwise calm, the practiced soothing tone of a doorman who talks trouble down before it starts.",
+  "kw": [
+   "calm",
+   "streetwise",
+   "low",
+   "easygoing",
+   "german",
+   "gruff"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sidedoorpanel": {
+  "bio": "A badly glitching side-door security panel spewing corrupted error messages and nonsense instructions.",
+  "direction": "Robotic and garbled, cheerful system-voice fragments colliding with error tones; syntax breaking mid-sentence.",
+  "kw": [
+   "robotic",
+   "glitchy",
+   "garbled",
+   "synthetic",
+   "monotone",
+   "mechanical"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_playerone": {
+  "bio": "A pragmatic shadowrunner companion suggesting the team ask around the neighborhood for leads.",
+  "direction": "Casual, practical, and even-keeled, a teammate thinking out loud without drama.",
+  "kw": [
+   "casual",
+   "practical",
+   "calm",
+   "conversational",
+   "even",
+   "young"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_eiger": {
+  "bio": "Former Bundeswehr KSK sniper and troll heavy-weapons specialist of the Kreuzbasar team, a by-the-book soldier who treats the player as an unproven liability until they earn her respect.",
+  "direction": "Clipped military precision with a German edge; low, hard, and disdainful, every sentence delivered like a field report or a challenge.",
+  "kw": [
+   "deep",
+   "stern",
+   "german",
+   "authoritative",
+   "gruff",
+   "cold"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_hasenkamp": {
+  "bio": "Mr. Grinder's mild-mannered accountant, a small cog in a criminal operation who handles the numbers while tougher people handle the guns.",
+  "direction": "Dry, tidy, faintly apologetic office voice; a careful man keeping his tone neutral so nobody has a reason to shoot him.",
+  "kw": [
+   "nervous",
+   "precise",
+   "mild",
+   "german",
+   "reserved"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_guard": {
+  "bio": "A generic corporate security guard manning checkpoints and doors, whose whole job is telling people without ID to move along.",
+  "direction": "Flat, bored authority with a short fuse; the monotone of a man who has said 'no ID, no access' a thousand times and will happily escalate.",
+  "kw": [
+   "gruff",
+   "deadpan",
+   "authoritative",
+   "bored",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_drxabierezkibel": {
+  "bio": "An elven cyberware surgeon operating out of the Kreuzbasar whose genteel clinic manner hides an entitled, ice-cold streak when his 'merchandise' is delayed.",
+  "direction": "Silky, cultured, and condescending, with surgical enunciation; charm that curdles into quiet menace the moment he is disappointed.",
+  "kw": [
+   "refined",
+   "smooth",
+   "condescending",
+   "calm",
+   "cold",
+   "cultured"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_thorvaldenstad": {
+  "bio": "A seedy dwarf rigger the team rescues from captivity, all gratitude and fast talk from a man who clearly earned his imprisonment.",
+  "direction": "Wheedling, sweaty, and ingratiating; a raspy fast-talker whose relief keeps sliding into excuses and half-truths.",
+  "kw": [
+   "raspy",
+   "nervous",
+   "sleazy",
+   "gravelly",
+   "fast-talking"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_gunarimettbach": {
+  "bio": "Patriarch of the Kreuzbasar's Sinti community who buries his dead after the attack on the kiez and personally puts attackers in the ground.",
+  "direction": "Low, weathered, and grim; grief held down under iron control, with a slow-burning promise of vengeance in every pause.",
+  "kw": [
+   "gravelly",
+   "deep",
+   "grim",
+   "weathered",
+   "intense"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_danni": {
+  "bio": "A confident elf woman rescued from Aztechnology-held territory who sizes up her rescuers with hands on hips and a grin.",
+  "direction": "Cocky, streetwise, and flirtatious; quick warmth with an appraising edge, like she is always calculating what you are worth.",
+  "kw": [
+   "confident",
+   "playful",
+   "streetwise",
+   "smooth",
+   "young",
+   "warm"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_smuggler": {
+  "bio": "Maxim, an insolent elven smuggler liaison who greets the team as hired muscle and never lets them forget who is doing whom a favor.",
+  "direction": "Sneering, theatrical superiority with a lazy drawl; every welcome is a put-down delivered for an audience.",
+  "kw": [
+   "sardonic",
+   "smooth",
+   "arrogant",
+   "theatrical",
+   "sneering"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_newsdayworldreport": {
+  "bio": "A news outlet whose reports chronicle Feuerschwinge's 2054 return and attack on Berlin.",
+  "direction": "Polished broadcast-anchor delivery; crisp, urgent, and professionally detached even while describing a dragon burning the city.",
+  "kw": [
+   "announcer",
+   "crisp",
+   "authoritative",
+   "clear",
+   "broadcast"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_harrowsmanifesto": {
+  "bio": "The written manifesto of Harrow, the cult leader from Glory's past, laying out his seductive philosophy of 'Free Living'.",
+  "direction": "Hypnotic, warm, and utterly certain; a messiah reading his own gospel aloud, reasonable on the surface with fanaticism humming underneath.",
+  "kw": [
+   "hypnotic",
+   "warm",
+   "charismatic",
+   "calm",
+   "fanatic",
+   "smooth"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_foodcartvendor": {
+  "bio": "A cheerful Kreuzbasar street vendor selling soy currywurst and soup to cold Berliners.",
+  "direction": "Bright, hearty sales patter with a friendly German accent; genuinely pleased to feed you, always closing the sale.",
+  "kw": [
+   "cheerful",
+   "warm",
+   "german",
+   "hearty",
+   "energetic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_waitress": {
+  "bio": "A waitress at a local eatery, greeting regulars and taking orders with practiced efficiency.",
+  "direction": "Brisk, friendly service voice; light and upbeat but with the economy of someone working a full room.",
+  "kw": [
+   "friendly",
+   "bright",
+   "casual",
+   "young",
+   "warm"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_note": {
+  "bio": "Written notes and internal memos, chiefly the chilling correspondence of Volker Stahl's humanis-style 'Factory' that grinds recruits into weapons.",
+  "direction": "Cold, administrative menace read aloud; polite corporate phrasing wrapped around threats, delivered flat and unhurried.",
+  "kw": [
+   "cold",
+   "flat",
+   "menacing",
+   "formal",
+   "precise"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_militiacaptain": {
+  "bio": "A hard-eyed captain of a local Berlin militia who answers questions in as few words as possible and advises you not to ask them.",
+  "direction": "Terse, guarded, and unsmiling with a German clip; each 'no' lands like a closed door.",
+  "kw": [
+   "stern",
+   "terse",
+   "german",
+   "cold",
+   "authoritative"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_servercomputer": {
+  "bio": "A corporate server terminal reporting processes, security alerts, and accepted reprogramming.",
+  "direction": "Sterile synthetic monotone; evenly paced status readouts with zero inflection or awareness.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "synthetic",
+   "flat",
+   "computerized"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_nasalwoman": {
+  "bio": "A woman overheard in hushed, half-garbled conversation about Monika before snapping into polite receptionist mode.",
+  "direction": "Pinched, nasal, and conspiratorial in whispers, flipping instantly to sing-song customer-service pleasantness.",
+  "kw": [
+   "nasal",
+   "pinched",
+   "whispery",
+   "gossipy",
+   "german"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_dronecontrolbox": {
+  "bio": "A malfunctioning drone control console spitting APEX error codes and self-destruct warnings.",
+  "direction": "Harsh machine monotone with alarm-tone urgency; clipped error strings, no emotion, faint static menace.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "harsh",
+   "synthetic",
+   "computerized"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_aztechnologygrenadier": {
+  "bio": "An overworked Aztechnology soldier at the end of a long shift who just wants his relief to scan in so he can get home to his wife.",
+  "direction": "Tired, ordinary working-stiff grumble; friendly enough but impatient, all his menace worn away by overtime.",
+  "kw": [
+   "tired",
+   "gruff",
+   "casual",
+   "weary",
+   "everyman"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_aztechnologycaptain": {
+  "bio": "A no-nonsense Aztechnology security captain investigating a power spike who orders civilians out of her area at gunpoint.",
+  "direction": "Crisp, commanding, professionally suspicious; a voice used to being obeyed the first time.",
+  "kw": [
+   "authoritative",
+   "commanding",
+   "cold",
+   "crisp",
+   "military"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_vanguardmage": {
+  "bio": "A jittery mage in Audran's mercenary force, stationed to intercept the escaping runners and clearly not confident about it.",
+  "direction": "Young, uneasy, and out of his depth; bravado that keeps cracking into nervous questions about whether they can actually win.",
+  "kw": [
+   "nervous",
+   "young",
+   "uneasy",
+   "hesitant",
+   "thin"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_drone": {
+  "bio": "An automated security drone barking authorization warnings and lethal-force notices at intruders.",
+  "direction": "Loud, aggressive machine voice in all-caps cadence; metallic, staccato, and utterly unfeeling.",
+  "kw": [
+   "robotic",
+   "harsh",
+   "metallic",
+   "aggressive",
+   "synthetic"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_femalevoice": {
+  "bio": "A soothing unseen woman at Harrow's compound who comforts the frightened with absolute, brainwashed faith that Harrow keeps them safe.",
+  "direction": "Soft, motherly, and lullaby-calm, with a glassy serenity that turns chilling when doctrine hardens her tone against outsiders.",
+  "kw": [
+   "soft",
+   "soothing",
+   "motherly",
+   "eerie",
+   "calm",
+   "warm"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_diary": {
+  "bio": "A semi-literate diary in which a resident breathlessly documents their suspicions about what Eddie is hiding.",
+  "direction": "Excitable, conspiratorial read-aloud with erratic emphasis; the sound of someone convinced they have cracked the case.",
+  "kw": [
+   "excitable",
+   "conspiratorial",
+   "scrappy",
+   "young",
+   "breathless"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_mysterydecker": {
+  "bio": "A hostile unknown decker encountered inside a bank's Matrix system, furious to find another intruder on his turf.",
+  "direction": "Cocky, venomous, and territorial; a sneering Matrix predator spitting insults through digital distortion.",
+  "kw": [
+   "sneering",
+   "aggressive",
+   "cocky",
+   "sharp",
+   "menacing"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_doorcontrols": {
+  "bio": "A door access panel confirming accepted codes and unlocked doors.",
+  "direction": "Single flat synthetic confirmation tone of a voice; clipped, neutral, purely functional.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "flat",
+   "synthetic"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_strangewoman": {
+  "bio": "The gaunt, haunted woman in a containment cell who is Feuerschwinge herself, the great dragon trapped and broken in a human body.",
+  "direction": "Fragile, haunted near-whisper with something ancient and immense underneath; lost and frightened, yet not quite human.",
+  "kw": [
+   "haunted",
+   "whispery",
+   "fragile",
+   "eerie",
+   "otherworldly"
+  ],
+  "gender": "female",
+  "age": null
+ },
+ "name_freedacolyte": {
+  "bio": "A rescued member of Harrow's cult who recognizes Glory from her years living at the compound.",
+  "direction": "Shaky, awed, and tentative; the halting voice of someone freshly out of a cage, torn between gratitude and old fear.",
+  "kw": [
+   "trembling",
+   "soft",
+   "nervous",
+   "young",
+   "fragile"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_blitz": {
+  "bio": "The team's replacement decker, a cocky hustler with a hidden past and dangerous debts who joined the Kreuzbasar crew after Monika's death.",
+  "direction": "Fast-talking and glib with a nervous edge underneath; charm that is always half a bluff, cracking jokes to keep the collectors and the guilt at bay.",
+  "kw": [
+   "cocky",
+   "fast-talking",
+   "young",
+   "smooth",
+   "nervous",
+   "energetic"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_simmy": {
+  "bio": "A captive at Harfeld Manor lost inside a simsense fantasy, convinced she is Maria, governess to seven children.",
+  "direction": "Dreamy, distant and fragile, speaking from inside a dream; gentle sing-song sweetness with an undertow of something broken.",
+  "kw": [
+   "soft",
+   "dreamy",
+   "fragile",
+   "gentle",
+   "haunting",
+   "young"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_lucaduerr": {
+  "bio": "A discreet representative of a powerful secret lodge who contacts the team mid-mission with lucrative side errands and veiled agendas.",
+  "direction": "Smooth, cultured and unhurried, every offer sounding perfectly reasonable; polished German-inflected menace wrapped in courtesy.",
+  "kw": [
+   "smooth",
+   "refined",
+   "calm",
+   "german",
+   "secretive",
+   "cultured"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_luckystrike": {
+  "bio": "A street samurai with tattooed circuitry who hangs around the Kreuzbasar, good with blades, grenades and guns.",
+  "direction": "Laconic street cool; low, dry and unimpressed, wasting no words and letting silences do the intimidating.",
+  "kw": [
+   "cool",
+   "dry",
+   "tough",
+   "deadpan",
+   "low",
+   "street"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_quorin": {
+  "bio": "A friendly Kreuzbasar local who happily passes along every rumor circulating about the Rabengeister and other neighborhood mysteries.",
+  "direction": "Warm, chatty and a little too delighted by gossip, with an easy German accent and a laugh always waiting at the end of the sentence.",
+  "kw": [
+   "friendly",
+   "chatty",
+   "warm",
+   "german",
+   "cheerful",
+   "energetic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_fraumuller": {
+  "bio": "A poised corporate executive of Aztlaner descent who hires the team through Paul Amsel, her boardroom polish concealing desperate personal stakes.",
+  "direction": "Controlled, elegant and precise, the executive veneer cracking just enough to let real desperation bleed through.",
+  "kw": [
+   "elegant",
+   "poised",
+   "refined",
+   "controlled",
+   "desperate",
+   "mature"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_ghoul": {
+  "bio": "The still-sane leader of a ghoul community living beneath the Kreuzbasar, pleading for his people to be spared.",
+  "direction": "Raspy and ruined in texture but articulate and dignified in delivery; a cultured mind pleading through a monstrous throat.",
+  "kw": [
+   "raspy",
+   "hoarse",
+   "pleading",
+   "dignified",
+   "gravelly",
+   "weary"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_hearthspirit": {
+  "bio": "A summoned hearth spirit bound to serve within its domain, offering what limited knowledge it holds of the warded floors above.",
+  "direction": "Ethereal, hollow and serene, as if speaking from inside the walls; unhurried, faintly echoing, without human emotion.",
+  "kw": [
+   "ethereal",
+   "hollow",
+   "calm",
+   "otherworldly",
+   "whispery",
+   "serene"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_frank": {
+  "bio": "A gruff barfly regular who would rather watch the dancers than answer a stranger's questions.",
+  "direction": "Gravelly, bored and mildly annoyed, every answer grudged out between sips of cheap beer.",
+  "kw": [
+   "gruff",
+   "gravelly",
+   "bored",
+   "deadpan",
+   "rough",
+   "working-class"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_meatgrinder": {
+  "bio": "A troll gang boss who seized power after arranging his predecessor Hasenkamp's death, and who collects debts in thumbs.",
+  "direction": "Huge, deep and horribly genial; friendly rumbling warmth that makes the threats land harder, violence delivered like small talk.",
+  "kw": [
+   "deep",
+   "booming",
+   "menacing",
+   "genial",
+   "gravelly",
+   "slow"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_reporter": {
+  "bio": "A field news reporter covering the dragon Feuerschwinge's devastating attacks live from the ruins of Stolberg.",
+  "direction": "Polished on-camera broadcast cadence, professionally somber, the trained composure straining against genuine horror at the scene.",
+  "kw": [
+   "broadcast",
+   "polished",
+   "somber",
+   "clear",
+   "professional",
+   "newsreader"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_ltgworker": {
+  "bio": "An overworked telecom technician racing a corporate deadline on a broken panel and in no mood for interruptions.",
+  "direction": "Harried, snappish and stressed, words tumbling out fast; the exhausted irritation of someone three tasks behind before lunch.",
+  "kw": [
+   "stressed",
+   "irritable",
+   "harried",
+   "fast",
+   "nasal",
+   "working-class"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_jangoldschmidt": {
+  "bio": "A boisterous regular at the Kreuzbasar's Café Cezve, loudly demanding his coffee and buying rounds for people he likes.",
+  "direction": "Big, hearty and theatrical, a booming cafe voice with a German accent that turns every complaint into performance.",
+  "kw": [
+   "boisterous",
+   "hearty",
+   "loud",
+   "german",
+   "jovial",
+   "theatrical"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_serverroomguard": {
+  "bio": "A green security guard on his first day, shouting orders at intruders while frantically radioing a dispatch that will not save him.",
+  "direction": "Barked commands with a wobble in them; parade-ground volume undermined by rookie panic whenever anyone talks back.",
+  "kw": [
+   "young",
+   "nervous",
+   "shouting",
+   "panicky",
+   "strained",
+   "insecure"
+  ],
+  "gender": null,
+  "age": "young"
+ },
+ "name_dasfinanzwesen": {
+  "bio": "A financial news publication reporting on the corporate fallout of Lofwyr's hostile takeover of Saeder-Krupp.",
+  "direction": "Dry, clipped financial-news narration; neutral, precise and faintly smug, like a market report read over morning coffee.",
+  "kw": [
+   "dry",
+   "neutral",
+   "clipped",
+   "newsreader",
+   "precise",
+   "formal"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_adminterminal": {
+  "bio": "A glitching facility admin terminal spitting error strings and unread staff messages at whoever gains access.",
+  "direction": "Flat synthetic machine readout, evenly paced and affectless, with occasional garbled digital stutters on corrupted lines.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "flat",
+   "monotone",
+   "digital",
+   "glitchy"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_gangenforcer": {
+  "bio": "Gang muscle sent to escort a trespassing stranger to the boss, politely or otherwise.",
+  "direction": "Low, level and unhurried menace; the calm of someone who knows the numbers are on his side and never needs to raise his voice.",
+  "kw": [
+   "menacing",
+   "calm",
+   "low",
+   "tough",
+   "cold",
+   "street"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_knighterrantcaptain": {
+  "bio": "A Knight Errant security captain leading the corporate response to reclaim a stolen combat prototype.",
+  "direction": "Hard, barking command voice with total authority; clipped cop cadence that dares you to test him.",
+  "kw": [
+   "authoritative",
+   "commanding",
+   "hard",
+   "barking",
+   "cop",
+   "aggressive"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_aztecthnologyinventoryterminal": {
+  "bio": "An Aztechnology inventory terminal whose stored correspondence hints at deeply disturbing orders from downstairs.",
+  "direction": "Flat corporate machine voice for the system prompts, neutral and affectless, letting the unsettling message contents speak for themselves.",
+  "kw": [
+   "robotic",
+   "flat",
+   "corporate",
+   "monotone",
+   "synthetic",
+   "neutral"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_messages": {
+  "bio": "Recovered security logs and strike-team orders documenting a corporate hunt through the tunnels.",
+  "direction": "Detached log-readout delivery, terse and procedural, like intercepted radio traffic transcribed by a machine.",
+  "kw": [
+   "flat",
+   "terse",
+   "procedural",
+   "monotone",
+   "military",
+   "neutral"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_bachmeier": {
+  "bio": "A hit-team spotter reporting over comms as his crew rigs an ambush for a shadowrunner on the U-Bahn.",
+  "direction": "Clipped, quiet and professional, a killer giving a status report; efficient radio cadence with zero emotion about the target.",
+  "kw": [
+   "clipped",
+   "quiet",
+   "professional",
+   "cold",
+   "military",
+   "low"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_scaredmalevoice": {
+  "bio": "A terrified park ranger begging armed strangers to believe he is only there for a wildlife survey.",
+  "direction": "Raw, cracking panic; a decent ordinary man pleading for his life, voice climbing and breaking as the hope drains out.",
+  "kw": [
+   "panicked",
+   "pleading",
+   "trembling",
+   "desperate",
+   "breathless",
+   "ordinary"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_doorconsole": {
+  "bio": "A security door console announcing lockdown status and denying access.",
+  "direction": "Curt automated security voice, two-word verdicts delivered with cold mechanical finality.",
+  "kw": [
+   "robotic",
+   "curt",
+   "cold",
+   "monotone",
+   "synthetic",
+   "mechanical"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_malenewscaster": {
+  "bio": "A studio newscaster relaying crackpot public theories about the wave of violent attacks with practiced anchor-desk polish.",
+  "direction": "Smooth anchor-desk delivery with a faint smirk; polished, chatty broadcast tone that stays breezy even when the news is madness.",
+  "kw": [
+   "smooth",
+   "broadcast",
+   "polished",
+   "breezy",
+   "newsreader",
+   "confident"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_warninglabel": {
+  "bio": "A hazard label on a chemical agent that heightens aggression and destroys impulse control.",
+  "direction": "Stern, evenly stressed safety-announcement voice, every capitalized warning hammered flat and impersonal.",
+  "kw": [
+   "stern",
+   "flat",
+   "clinical",
+   "monotone",
+   "authoritative",
+   "synthetic"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_brokenpda": {
+  "bio": "A cracked PDA holding the worried log of a soldier sent into the old tunnels to hunt escaped fire drakes.",
+  "direction": "Read as a tired soldier's private grumbling, low and uneasy, gallows humor fraying into genuine dread.",
+  "kw": [
+   "weary",
+   "uneasy",
+   "low",
+   "muttering",
+   "military",
+   "grim"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_serverdecker": {
+  "bio": "A jacked-in decker guarding a server who erupts in raving alarm when an intruder who is not Albert appears.",
+  "direction": "Shrill, frantic and unhinged, a mind half-lost in the Matrix shrieking the same accusation; jittery and abrupt.",
+  "kw": [
+   "frantic",
+   "shrill",
+   "unhinged",
+   "jittery",
+   "manic",
+   "nervous"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_dietrich": {
+  "bio": "Aging anarchist punk rocker turned street shaman, former frontman of the band Messerkampf and the warm, foul-mouthed heart of the Kreuzbasar crew.",
+  "direction": "Gravelly, road-worn German punk with a wry grin in the voice; equal parts big-brother warmth and stage-veteran swagger, quick to mock and quicker to protect.",
+  "kw": [
+   "gravelly",
+   "german",
+   "warm",
+   "gruff",
+   "wry",
+   "streetwise"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_manonphone": {
+  "bio": "An unseen fixer who guides the crew step by step over the phone during a covert wire-tap job on behalf of his employer Heimerich.",
+  "direction": "Dry, technical, conspiratorial; a calm handler's voice over a phone line, precise about details and faintly amused, never rattled.",
+  "kw": [
+   "calm",
+   "dry",
+   "technical",
+   "smooth",
+   "conspiratorial",
+   "male"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_phil": {
+  "bio": "A mild-mannered dreamer lost inside a cheesy fantasy simulation, playing the noble ruler who has finally won the secret of Titonius Rex and all the sugary snacks he desires.",
+  "direction": "Gentle, earnest, theatrically noble in a community-theater way; a soft scientist's voice puffed up with borrowed kingly grandeur and childlike delight.",
+  "kw": [
+   "gentle",
+   "theatrical",
+   "earnest",
+   "soft",
+   "whimsical",
+   "warm"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_monika": {
+  "bio": "Monika Schaefer, the charismatic decker and leader of the Kreuzbasar runner team, whose death during the Harfeld Manor run sets the whole story in motion.",
+  "direction": "Confident, warm, effortlessly in command with a teasing edge; a leader's voice you would follow through a door without asking what is on the other side, light German color.",
+  "kw": [
+   "confident",
+   "warm",
+   "commanding",
+   "german",
+   "charismatic",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_wanderer": {
+  "bio": "A genial German-accented figure haunting the forgotten places of Berlin, delighted to host a rare guest alongside his beloved Schatz and curious about Monika's new associate.",
+  "direction": "Soft, courtly, faintly otherworldly; an old-world German host whose gentle hospitality has something slightly off and out-of-time about it.",
+  "kw": [
+   "german",
+   "soft",
+   "old",
+   "gentle",
+   "eerie",
+   "courtly"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_zaakflash": {
+  "bio": "A jittery elf street hustler in the Kreuzbasar who rode out the gang attack hiding in a dumpster and now owes the crew one.",
+  "direction": "Fast, breathless, adrenaline-shaky street patter; a showman's voice with all the cool scared out of it, gratitude spilling over the top.",
+  "kw": [
+   "nervous",
+   "energetic",
+   "young",
+   "breathless",
+   "streetwise",
+   "shaky"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_simulacrum": {
+  "bio": "An offline software copy of the Matrix legend Alice, included on a data chip to answer customer questions about their information purchase.",
+  "direction": "A near-perfect imitation of a cool female voice with the soul removed; polite, measured, customer-service smooth, and just uncanny enough to be unsettling. Cast the SAME voice as Alice.",
+  "kw": [
+   "synthetic",
+   "flat",
+   "cold",
+   "smooth",
+   "monotone",
+   "female"
+  ],
+  "gender": "female",
+  "age": null
+ },
+ "name_alice": {
+  "bio": "A legendary Matrix information broker with frigid blue lips and colder eyes, an elusive digital ghost who sells the crew the secrets behind Vauclair and the dragonslayer.",
+  "direction": "Icy, precise, elegant; every word priced and deliberate, a low cool register that makes curiosity sound like a transaction.",
+  "kw": [
+   "cold",
+   "smooth",
+   "precise",
+   "sultry",
+   "calm",
+   "female"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_bartender": {
+  "bio": "A no-nonsense barkeep who sizes up new faces, pours drinks, and points troublemakers toward Frank in the VIP lounge.",
+  "direction": "Gruff, clipped, seen-it-all service voice; friendly enough to sell you a drink, flat enough to tell you the conversation is over.",
+  "kw": [
+   "gruff",
+   "deadpan",
+   "streetwise",
+   "low",
+   "working-class",
+   "clipped"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_securityguard": {
+  "bio": "A by-the-book corporate security guard who politely but firmly keeps unauthorized visitors away from the terminals on his floor.",
+  "direction": "Even, procedural, mildly weary; the voice of a man reciting policy he half believes, with a small dry streak of workplace sympathy.",
+  "kw": [
+   "calm",
+   "procedural",
+   "weary",
+   "polite",
+   "flat",
+   "male"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_shopkeeper": {
+  "bio": "A timid troll scavenger-merchant selling rations, salvage, and home remedies, visibly frightened of anyone who asks about weapons.",
+  "direction": "Deep troll rumble undercut by stammering nerves; a big gentle voice that shrinks and trips over itself the moment things sound dangerous.",
+  "kw": [
+   "deep",
+   "nervous",
+   "stammering",
+   "gentle",
+   "timid",
+   "rumbling"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_controlconsole": {
+  "bio": "The AG Chemie Europa control console governing the MKVI cyberzombie prototype, offering demonstration-mode commands to authorized users.",
+  "direction": "Sterile corporate machine readout; clipped, affectless, all capital letters and menu prompts with zero awareness of the horror it controls.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "monotone",
+   "cold",
+   "clipped",
+   "mechanical"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_infoterminal": {
+  "bio": "A half-dead public information terminal at the abandoned Gesundbrunnen U-Bahn station, sputtering corrupted menus decades out of date.",
+  "direction": "Glitchy, degraded machine voice; cheerful transit-kiosk politeness breaking up into stutters, clicks, and error tones.",
+  "kw": [
+   "robotic",
+   "glitchy",
+   "monotone",
+   "synthetic",
+   "degraded",
+   "flat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_aztechnologyexec": {
+  "bio": "A friendly, oblivious Aztechnology office worker who chats up disguised intruders in the corridors, reassured that security is around.",
+  "direction": "Bright, casual corporate small talk; relaxed water-cooler warmth that snaps into startled alarm when the disguise drops.",
+  "kw": [
+   "casual",
+   "friendly",
+   "corporate",
+   "bright",
+   "startled",
+   "male"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_doorpanel": {
+  "bio": "An automated security door panel in the APEX facility, its primary defenses offline and reduced to demanding key scans and override codes.",
+  "direction": "Terse security-system beeps in verbal form; harsh, minimal, error-toned machine diction with no personality at all.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "harsh",
+   "synthetic",
+   "mechanical",
+   "cold"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_raggedman": {
+  "bio": "A feral, half-mad hermit ruling over the vermin of a ruined facility as his private kingdom, raging at invaders who murder his 'peasantry'.",
+  "direction": "Cracked, screechy, wildly swinging between imperial grandeur and animal panic; a once-educated voice long since curdled into stuttering mania.",
+  "kw": [
+   "raspy",
+   "unhinged",
+   "screechy",
+   "manic",
+   "old",
+   "theatrical"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_emergencyaishutdownandpurge": {
+  "bio": "A last-resort technical document describing the two-terminal emergency procedure for shutting down and purging the APEX artificial intelligence.",
+  "direction": "Flat procedural readout of a doomsday manual; dry, bureaucratic machine text delivered without urgency, which somehow makes it worse.",
+  "kw": [
+   "monotone",
+   "robotic",
+   "procedural",
+   "flat",
+   "synthetic",
+   "cold"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_kroner": {
+  "bio": "A sleazy small-time crook who has seized a rundown hotel and squeezes addicts like Silke by trading cram for cash or 'services'.",
+  "direction": "Oily, unhurried menace; a low smirking voice that enjoys having leverage and lets every offer curdle into a threat.",
+  "kw": [
+   "sleazy",
+   "menacing",
+   "low",
+   "smug",
+   "gravelly",
+   "oily"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_volunteerworker": {
+  "bio": "A devoted volunteer at Samuel Beckenbauer's charity effort in the Kreuzbasar who bristles at anyone questioning the man she idolizes.",
+  "direction": "Earnest, warm, quick to defend; a true believer's brightness that sharpens into indignation when her hero is doubted.",
+  "kw": [
+   "earnest",
+   "warm",
+   "devoted",
+   "bright",
+   "indignant",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_emergencyfieldtraumaunit": {
+  "bio": "A BuMoNa emergency field trauma unit, a medical machine that boots up to cheerfully offer treatment protocols to any 'Trauma Victim' it detects.",
+  "direction": "Chipper medical-appliance voice; serene automated bedside manner with clinical phrasing, blissfully indifferent to how dire the injuries are.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "chipper",
+   "clinical",
+   "calm",
+   "monotone"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_generatorcontrolpanel": {
+  "bio": "An industrial generator control panel that issues stern warnings before letting anyone disengage its safety overrides.",
+  "direction": "Blunt industrial warning system; loud, flat, all-caps machine diction built to be heard over turbines.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "harsh",
+   "mechanical",
+   "loud",
+   "flat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_aleshire": {
+  "bio": "A nervous protected executive who double-checks that his room has been swept before calling his wife and child upstairs, moments before being cut off mid-sentence.",
+  "direction": "Tight, controlled anxiety under an executive's polish; relief flooding in when he thinks he is safe, which makes the sudden silence land harder.",
+  "kw": [
+   "anxious",
+   "refined",
+   "tense",
+   "polished",
+   "relieved",
+   "male"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_messagefile": {
+  "bio": "A hurried written warning left for the player by Alice, telling them something terrible is tracking her and to drop the Vauclair business and stay out of the Matrix.",
+  "direction": "Read as urgent written text; a flat narrated register with fear pressing through the phrasing, clipped sentences like someone typing while looking over her shoulder.",
+  "kw": [
+   "flat",
+   "urgent",
+   "tense",
+   "quiet",
+   "narrated",
+   "cold"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_knighterrantenforcer": {
+  "bio": "A hard-nosed Knight Errant security officer who catches the crew's fake maintenance cover and moves in to arrest them.",
+  "direction": "Barked cop authority; hard, clipped, zero patience, the voice of a man who already has the cuffs out.",
+  "kw": [
+   "authoritative",
+   "hard",
+   "clipped",
+   "aggressive",
+   "deep",
+   "cop"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_meetnmatesinglesdatingprofile": {
+  "bio": "A Meet 'N Mate singles dating profile for 'JollyGreenWinterz', a muscular fifty-year-old human man billing himself as a fun-loving great listener.",
+  "direction": "Read like an over-confident dating ad; smarmy middle-aged bravado laid on thick, a man selling himself considerably above market value.",
+  "kw": [
+   "smug",
+   "smarmy",
+   "confident",
+   "deep",
+   "cheesy",
+   "male"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_vanguardmercenary": {
+  "bio": "A Vanguard mercenary squad leader barking orders to lock down the doors after intruders escape the facility.",
+  "direction": "Hard military bark; loud, urgent, drill-sergeant cadence with shoot-first orders and no room for questions.",
+  "kw": [
+   "authoritative",
+   "harsh",
+   "loud",
+   "military",
+   "aggressive",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_corpulenttroll": {
+  "bio": "A massive, self-satisfied troll underworld figure who greets the punctual Hasenkamp with lazy approval.",
+  "direction": "Huge, slow, subterranean rumble; a boss's unhurried satisfaction, every word heavy and faintly amused.",
+  "kw": [
+   "deep",
+   "gravelly",
+   "rumbling",
+   "slow",
+   "menacing",
+   "smug"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_vauclair": {
+  "bio": "Adrian Vauclair, the brilliant, dying scientist behind the Dragonfall conspiracy, who plots to exterminate every dragon on Earth with the Panacea bioweapon as vengeance for the losses of 2012.",
+  "direction": "Cultured, weary, and utterly certain; a soft-spoken intellectual whose calm reasonableness makes his genocidal resolve all the more chilling.",
+  "kw": [
+   "refined",
+   "calm",
+   "cold",
+   "authoritative",
+   "weary",
+   "german"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_feuerschwinge": {
+  "bio": "The great dragon Feuerschwinge, believed killed in the 2012 Dragonfall, secretly captured and broken by decades of experimentation, now a gaunt tormented figure in a containment cell.",
+  "direction": "A faint, hoarse whisper through a ruined throat; fragile and halting, with an ancient, otherworldly sorrow beneath the frailty.",
+  "kw": [
+   "hoarse",
+   "whisper",
+   "fragile",
+   "haunting",
+   "ethereal",
+   "raspy"
+  ],
+  "gender": "female",
+  "age": "old"
+ },
+ "name_junkie": {
+  "bio": "A strung-out addict hanging around the Berlin sprawl who begs the runners to recover their lost stash money.",
+  "direction": "Thin, jittery, and pleading, with a dry mouth and scattered focus; eager to please anyone who might help.",
+  "kw": [
+   "nervous",
+   "raspy",
+   "jittery",
+   "young",
+   "desperate"
+  ],
+  "gender": null,
+  "age": "young"
+ },
+ "name_audran": {
+  "bio": "An ork mercenary commander and enforcer in Vauclair's employ who directs hired muscle against the runners throughout the conspiracy.",
+  "direction": "Clipped, hard military cadence; a professional soldier's voice with ork gravel and zero patience for chatter.",
+  "kw": [
+   "deep",
+   "gruff",
+   "authoritative",
+   "military",
+   "gravelly",
+   "cold"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_heimerich": {
+  "bio": "A worried Kreuzbasar local fretting with Mira over a loved one who went missing after tangling with Aztechnology.",
+  "direction": "Anxious everyman, voice tight with worry; ordinary Berlin working-class warmth strained by fear he cannot hide.",
+  "kw": [
+   "nervous",
+   "warm",
+   "worried",
+   "german",
+   "everyman"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_theengineer": {
+  "bio": "A wounded ork engineer encountered mid-run, guarded and sardonic, who mostly lets others do the talking.",
+  "direction": "Low, dry, and laconic; pain kept under a flat sarcastic surface, every word chosen and a little contemptuous.",
+  "kw": [
+   "deep",
+   "deadpan",
+   "gruff",
+   "sardonic",
+   "tired"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_karl": {
+  "bio": "The easygoing proprietor of Karl's General Store on the first floor of the Hub, happy to sell gear and explain the lay of the land.",
+  "direction": "Folksy, relaxed shopkeeper drawl; friendly and unhurried, the guy who has seen everything come through his door.",
+  "kw": [
+   "warm",
+   "casual",
+   "friendly",
+   "gravelly",
+   "shopkeeper"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_bouncer": {
+  "bio": "The troll doorman of Das Kesselhaus club, waving patrons in under new management with a standing warning to behave.",
+  "direction": "Huge, rumbling troll bass, surprisingly genial; friendly on the surface with an unmistakable promise of violence underneath.",
+  "kw": [
+   "deep",
+   "booming",
+   "gravelly",
+   "gruff",
+   "imposing",
+   "german"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_maintenanceworker": {
+  "bio": "A sewer maintenance worker called in from a neighboring kiez who offers the runners a little side money to help with trouble underground.",
+  "direction": "Blue-collar and put-upon; a plain workingman's voice, half apologetic, half hustling, with union-hall bluntness.",
+  "kw": [
+   "gruff",
+   "casual",
+   "everyman",
+   "tired",
+   "german"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_console": {
+  "bio": "A laboratory control console that blares hazardous-material warnings and enforces lockdown during a phosgene gas contamination.",
+  "direction": "Flat, clipped synthetic annunciator voice; emotionless machine warnings delivered with sterile urgency.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "flat",
+   "monotone",
+   "computer"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_femaleinitiate": {
+  "bio": "A young initiate at Mr. Harrow's rural commune who nervously admits she recognizes Glory from an old photograph she was not supposed to see.",
+  "direction": "Soft, young, and skittish; a sheltered girl's voice, eager and apologetic, terrified of getting in trouble.",
+  "kw": [
+   "young",
+   "soft",
+   "nervous",
+   "timid",
+   "breathy"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_alexander": {
+  "bio": "Dietrich's estranged nephew, a lost young man taken in and radicalized by the Humanis Policlub, confronted during his uncle's personal mission.",
+  "direction": "Adolescent defiance cracking over hurt; a young voice trying to sound hard and sworn, wavering when family gets close.",
+  "kw": [
+   "young",
+   "defiant",
+   "strained",
+   "angry",
+   "vulnerable"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_malevoice": {
+  "bio": "An unseen, frightened man at Harrow's commune, whispering to Marta about the bad people who might have followed him there.",
+  "direction": "Trembling and paranoid, half whisper; a broken man's voice that stammers and flinches at every noise.",
+  "kw": [
+   "nervous",
+   "whisper",
+   "trembling",
+   "fearful",
+   "soft"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_pumpconsole": {
+  "bio": "The operations control console for Pump #2 at the water facility, reporting turbine failures and clogged pump diagnostics.",
+  "direction": "Dry automated status readout; toneless diagnostic speech with mechanical pauses between test results.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "synthetic",
+   "flat",
+   "computer"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_securityterminal": {
+  "bio": "A malfunctioning lab security status panel flashing error codes and demanding card key entry.",
+  "direction": "Terse machine annunciator, glitch-tinged and impersonal; error messages spoken like stamped text.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "glitchy",
+   "synthetic",
+   "computer"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_tailor": {
+  "bio": "The attentive salesperson at Dunkley's Fine Clothier's, flattering customers into armored suits with style and safety in equal measure.",
+  "direction": "Polished retail charm laid on thick; smooth, complimentary, and a touch obsequious, always steering toward the sale.",
+  "kw": [
+   "smooth",
+   "refined",
+   "cheerful",
+   "obsequious",
+   "theatrical"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_kunzel": {
+  "bio": "Herbert Künzel, the anarchist artist behind the Tribute to Victory monument built from the rubble of the Siegessäule, delighted to lecture passersby on its meaning.",
+  "direction": "Expansive, self-satisfied artist-intellectual; warm German-accented enthusiasm with a professorial love of his own cleverness.",
+  "kw": [
+   "german",
+   "theatrical",
+   "warm",
+   "refined",
+   "enthusiastic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_corruptedfile": {
+  "bio": "A damaged data file recovered from storage, its garbled fragments hinting at an obsessive hunt connected to Vauclair's past.",
+  "direction": "Fractured digital playback; a voice shredded by corruption, phrases surfacing from static and cutting out mid-word.",
+  "kw": [
+   "glitchy",
+   "distorted",
+   "synthetic",
+   "eerie",
+   "fragmented"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_deaddropmessage": {
+  "bio": "An anonymous dead-drop posting soliciting stolen research data on Aztechnology and donor lists for the Humanis Policlub, payment promised.",
+  "direction": "Neutral read-aloud of encrypted text; measured, anonymous, and faintly conspiratorial, like a classified ad for espionage.",
+  "kw": [
+   "flat",
+   "neutral",
+   "measured",
+   "anonymous",
+   "cold"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_jurgenplotz": {
+  "bio": "Jürgen Plotz, the aging decker boss of the Landenberg Ring, who claims the bank and everything in it as his territory and defends it in the Matrix.",
+  "direction": "Old-school gangster swagger with a wheeze of age; snarling, possessive bravado from a man proving he is still dangerous.",
+  "kw": [
+   "gravelly",
+   "gruff",
+   "menacing",
+   "aged",
+   "swaggering",
+   "german"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_elevatorcontrols": {
+  "bio": "The executive elevator's access control panel, granting or denying passage to the upper floors.",
+  "direction": "Brief, chirpy corporate access-control voice; two-word verdicts delivered with mechanical finality.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "synthetic",
+   "clipped",
+   "computer"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_heiner": {
+  "bio": "A desperate survivor trapped underground with Philip, resolving to kill the basilisk blocking the sewers so they can escape before starvation forces worse choices.",
+  "direction": "Cornered-animal determination; a raw, strained voice swinging between grim resolve and gallows desperation.",
+  "kw": [
+   "desperate",
+   "strained",
+   "intense",
+   "raspy",
+   "grim"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_panaceaprojectterminal": {
+  "bio": "The half-broken administrator terminal for the PANACEA Project, spitting corrupted errors before unlocking Vauclair's bioweapon research files.",
+  "direction": "Officious machine voice degraded by errors; polite corporate menus interrupted by garbled nonsense.",
+  "kw": [
+   "robotic",
+   "glitchy",
+   "synthetic",
+   "monotone",
+   "computer"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_bodyguard": {
+  "bio": "A meticulous professional bodyguard reassuring his principal that the venue has been swept clean of both mundane and astral threats.",
+  "direction": "Crisp, deferential security professional; low, controlled, and reassuring, every syllable squared away.",
+  "kw": [
+   "calm",
+   "professional",
+   "deep",
+   "controlled",
+   "deferential"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_lieutenant": {
+  "bio": "A subordinate officer awaiting orders from a superior during an operation.",
+  "direction": "Snappy, obedient military brevity; alert and ready, no personality beyond the chain of command.",
+  "kw": [
+   "clipped",
+   "military",
+   "alert",
+   "neutral",
+   "obedient"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_ventilationcontrols": {
+  "bio": "A facility ventilation control panel the runners can operate during an infiltration.",
+  "direction": "Minimal mechanical interface voice; flat, functional, and instantly forgettable.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "synthetic",
+   "flat",
+   "computer"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_anonymousfileattachment": {
+  "bio": "An unsigned intel file warning Plotz that unwanted guests are hitting the bank tonight.",
+  "direction": "Flat, disguised read of an anonymous tip; terse all-caps urgency with the sender's identity scrubbed clean.",
+  "kw": [
+   "flat",
+   "anonymous",
+   "terse",
+   "cold",
+   "distorted"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_computer": {
+  "bio": "A hotel registration and security terminal whose logs and menus the runners rifle through for guest records and room codes.",
+  "direction": "Flat, clipped synthetic system voice with a faint corporate pleasantness; readouts delivered without any human inflection.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "monotone",
+   "flat",
+   "computerized",
+   "neutral"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_aljernon": {
+  "bio": "The Kreuzbasar's cryptic elf talismonger, an otherworldly dealer in reagents and foci who speaks in riddles and seems to know far more about dragons and fate than he lets on.",
+  "direction": "Airy, melodic, and unsettlingly serene, with an archaic cadence; every line should sound like a prophecy delivered half to you and half to something unseen.",
+  "kw": [
+   "ethereal",
+   "mystical",
+   "soft",
+   "cryptic",
+   "melodic",
+   "otherworldly"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_samuelbeckenbauer": {
+  "bio": "An ork community leader who hails the player as the savior of his people while desperately organizing the search for volunteers lost in the disaster.",
+  "direction": "Deep, weary, and dignified; a natural orator running on grief and duty, gratitude cracking through the exhaustion.",
+  "kw": [
+   "deep",
+   "weary",
+   "dignified",
+   "warm",
+   "gruff",
+   "german"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_hansbrackhaus": {
+  "bio": "The impeccably polite Saeder-Krupp fixer who debriefs the team about Vauclair and Feuerschwinge, and who is strongly implied to be the great dragon Lofwyr wearing a human face.",
+  "direction": "Silky, precise, and courteous with immense power coiled underneath; a german-accented negotiator whose pleasant small talk should feel like being circled by something enormous.",
+  "kw": [
+   "smooth",
+   "refined",
+   "german",
+   "calm",
+   "menacing",
+   "cultured"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_parson": {
+  "bio": "The serenely smiling attendant of the Hub, custodian of the bodies of worshippers who plug in to share in the rapture of Communion.",
+  "direction": "Soft, beatific, cult-calm; a gentle host voice whose unwavering warmth becomes creepier the longer it goes on.",
+  "kw": [
+   "soft",
+   "calm",
+   "warm",
+   "eerie",
+   "gentle",
+   "reverent"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_janitor": {
+  "bio": "A skittish night-shift janitor who just wants to keep his head down, keep his job, and not get dragged into whatever the runners are doing.",
+  "direction": "Jumpy, apologetic, working-class mumble; startles easily and pleads rules and security meetings as a shield.",
+  "kw": [
+   "nervous",
+   "timid",
+   "apologetic",
+   "mumbling",
+   "meek",
+   "german"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_heartoffeuerstelle": {
+  "bio": "The corrupted adversary spirit enthroned at the Feuerstelle commune, a domineering entity that greets Glory and the cultists as its children.",
+  "direction": "Layered, ancient, and honeyed with absolute command; a spirit voice that purrs endearments while demanding silence and obedience.",
+  "kw": [
+   "ethereal",
+   "deep",
+   "menacing",
+   "resonant",
+   "commanding",
+   "cold"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_digitalarchiveterminal": {
+  "bio": "The AGC corporate archive system, dispassionately serving up employee records and chemistry lessons on phosgene gas.",
+  "direction": "Dry, encyclopedic machine narration; a reference-desk monotone that recites horrifying facts with total indifference.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "flat",
+   "clinical",
+   "synthetic",
+   "precise"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_oldwoman": {
+  "bio": "An elderly Kreuzbasar resident who has weathered every crisis Berlin could throw at her and credits the kiez's solidarity for pulling everyone through.",
+  "direction": "Warm, creaky, and unshakeable; a grandmother's voice with a survivor's steel and genuine fondness for the player.",
+  "kw": [
+   "elderly",
+   "warm",
+   "creaky",
+   "kind",
+   "german",
+   "wise"
+  ],
+  "gender": "female",
+  "age": "old"
+ },
+ "name_streetmagicquarterlyashadowfrontpublication": {
+  "bio": "A hermetic magazine feature in which a magical researcher lays out the alarming evidence that the world's background count is rising.",
+  "direction": "Measured, literate essayist's read; scholarly first-person narration with a quiet undertone of dread as the data sinks in.",
+  "kw": [
+   "measured",
+   "intellectual",
+   "calm",
+   "narrator",
+   "thoughtful",
+   "somber"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_harrow": {
+  "bio": "The charismatic leader of the Feuerstelle commune from Glory's past, a soft-spoken zealot bound to the spirit he serves who offers her mercy with a knife behind it.",
+  "direction": "Calm, seductive, utterly controlled; velvet reasonableness over fanatic menace, never raising his voice even when promising violence.",
+  "kw": [
+   "smooth",
+   "calm",
+   "menacing",
+   "seductive",
+   "controlled",
+   "cold"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_stressedsuit": {
+  "bio": "An overworked corporate manager who mistakes the disguised runner for a janitor and sneers at them to go clean a floor somewhere.",
+  "direction": "Clipped, condescending, and frazzled; petty authority barked between deadline-induced panic breaths.",
+  "kw": [
+   "condescending",
+   "tense",
+   "clipped",
+   "arrogant",
+   "irritable",
+   "corporate"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_newsanchor": {
+  "bio": "A Horizon News studio anchor tossing to field reporter Taylor Nguyen for live coverage of the catastrophe in Australia.",
+  "direction": "Polished, professional broadcast cadence; smooth teleprompter authority with rehearsed concern for the tragedy of the hour.",
+  "kw": [
+   "polished",
+   "authoritative",
+   "smooth",
+   "broadcast",
+   "professional",
+   "clear"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_merchant": {
+  "bio": "An enthusiastic Berlin arms dealer hawking rare and exotic instruments of death to any newcomer with nuyen.",
+  "direction": "Bright, salesman-slick patter; cheerfully mercenary showmanship, like a market barker selling machine guns as luxury goods.",
+  "kw": [
+   "energetic",
+   "salesman",
+   "cheerful",
+   "theatrical",
+   "german",
+   "smooth"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_explosivecontrolpanel": {
+  "bio": "A demolitions control panel that arms and aborts blasting sequences at an excavation site.",
+  "direction": "Harsh automated warning system; loud, evenly spaced alert phrases with zero affect.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "alarm",
+   "synthetic",
+   "harsh",
+   "flat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_researcher": {
+  "bio": "One of Vauclair's scientists, reduced to shell-shocked despair when the doctor dies and the plan to save the world dies with him.",
+  "direction": "Hollow, trembling fatalism; a broken academic repeating doom in a numb whisper rather than screaming it.",
+  "kw": [
+   "nervous",
+   "trembling",
+   "despairing",
+   "quiet",
+   "broken",
+   "fearful"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_maleinitiate": {
+  "bio": "A frightened young cult initiate at Feuerstelle who stammers and begs the intruders not to hurt anyone.",
+  "direction": "Young, stuttering, and cowed; a true believer's certainty collapsing into terrified appeasement.",
+  "kw": [
+   "young",
+   "nervous",
+   "stuttering",
+   "timid",
+   "fearful",
+   "soft"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_ltgpanel": {
+  "bio": "A damaged estate security panel whose overrides the team resets after APEX's shutdown wrecks the local grid.",
+  "direction": "Terse error-message readout; degraded system monotone spitting status codes and admin warnings.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "glitchy",
+   "synthetic",
+   "terse",
+   "flat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_turret": {
+  "bio": "A building-interface terminal for activating automated defense turrets.",
+  "direction": "Minimal utilitarian machine voice; version-number boot text and one flat question, nothing more.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "flat",
+   "synthetic",
+   "clipped",
+   "neutral"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_liamfoster": {
+  "bio": "A humble local mechanic near the Australian rift who organized a grassroots search-and-rescue effort after his own cousin walked into the anomaly.",
+  "direction": "Unpolished, earnest working-man's voice with an australian lilt; self-deprecating and rambling, held together by stubborn hope.",
+  "kw": [
+   "australian",
+   "earnest",
+   "rough",
+   "humble",
+   "warm",
+   "working-class"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_fromthedeskofwernerharding": {
+  "bio": "A formal board letter from Diehl Defense chairman Werner Harding terminating Dr. Vauclair as CEO over his obsession with the dragon Feuerschwinge.",
+  "direction": "Stiff corporate condolence read aloud; polite boardroom german formality wrapping a knife in severance-package language.",
+  "kw": [
+   "formal",
+   "corporate",
+   "measured",
+   "german",
+   "cold",
+   "polite"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_trollactor": {
+  "bio": "A trideo fantasy actor bellowing his way through the role of Titonius Rex, knight-king of Lightninghold, sworn defender of realm and magic sword.",
+  "direction": "Gloriously hammy, booming ren-faire bombast; a huge troll voice chewing every capitalized word of terrible fantasy dialogue.",
+  "kw": [
+   "booming",
+   "theatrical",
+   "deep",
+   "hammy",
+   "loud",
+   "dramatic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_mainframe": {
+  "bio": "The facility mainframe that announces the shutdown sequence and emergency system purge in the endgame.",
+  "direction": "Large, resonant system voice; calm and final, like a cathedral PA announcing the end of the world's software.",
+  "kw": [
+   "robotic",
+   "resonant",
+   "monotone",
+   "synthetic",
+   "calm",
+   "deep"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_automatedsecuritydrone": {
+  "bio": "A corporate security drone that announces lethal force the moment it detects armed intruders.",
+  "direction": "Aggressive machine bark in all caps; harsh, amplified, and utterly without mercy or nuance.",
+  "kw": [
+   "robotic",
+   "harsh",
+   "aggressive",
+   "synthetic",
+   "loud",
+   "menacing"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_mercenary": {
+  "bio": "A sharp-eyed hired soldier who spots that Paul Amsel's PDA is recording and quietly warns his employer.",
+  "direction": "Low, disciplined, professional; a terse warning muttered sideways to the boss, all business.",
+  "kw": [
+   "gruff",
+   "low",
+   "terse",
+   "professional",
+   "quiet",
+   "hard"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_controlnodeterminal": {
+  "bio": "A compromised control node terminal shrieking warnings as its subroutines fail and the emergency purge begins.",
+  "direction": "Distressed automated klaxon voice; urgent repeated warnings that cut off mid-word as the system dies.",
+  "kw": [
+   "robotic",
+   "alarm",
+   "urgent",
+   "glitchy",
+   "synthetic",
+   "harsh"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_femalenewscaster": {
+  "bio": "A Horizon News co-anchor adding brief on-air reactions to the field reports from the Australian disaster.",
+  "direction": "Bright, polished broadcast voice; a single beat of practiced on-camera concern, warm but shallow.",
+  "kw": [
+   "female",
+   "polished",
+   "broadcast",
+   "smooth",
+   "clear",
+   "professional"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_paulamsel": {
+  "bio": "Paul Amsel is the Kreuzbasar's elderly fixer and information broker, an old friend of Monika Schafer who lines up the team's jobs and runs overwatch on their comms.",
+  "direction": "Grandfatherly and precise, a calm mission-control voice with old-world Berlin courtesy; warmth over a core of professional steel.",
+  "kw": [
+   "warm",
+   "refined",
+   "calm",
+   "old",
+   "german",
+   "measured"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_marta": {
+  "bio": "Marta is a caretaker in Adrian Harrow's Feuerstelle cult, soothing the children and faithful with motherly reassurance that barely covers the horror underneath.",
+  "direction": "Soft, lullaby-gentle and maternal, with an unsettling serenity; the kindness never cracks, which is exactly what makes it creepy.",
+  "kw": [
+   "soft",
+   "warm",
+   "soothing",
+   "eerie",
+   "calm",
+   "maternal"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_greenwinters": {
+  "bio": "Green Winters is a reclusive old associate of Adrian Vauclair from the Dragonfall days, found gruesomely dead, whose story the team pieces together from his recordings and effects.",
+  "direction": "Frail, wistful old man's voice tinged with regret and long solitude; much of the part is quiet third-person narration, so keep it hushed and haunted.",
+  "kw": [
+   "old",
+   "frail",
+   "wistful",
+   "quiet",
+   "melancholy",
+   "narrator"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_james": {
+  "bio": "James is a condescending magical security specialist attached to a joint infiltration crew, who treats his teammates as tardy hired help and expendable muscle.",
+  "direction": "Smug, clipped and superior, every compliment backhanded; a cultured sneer that enjoys reminding you who the professional is.",
+  "kw": [
+   "smug",
+   "clipped",
+   "condescending",
+   "refined",
+   "cold",
+   "arrogant"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_maxim": {
+  "bio": "Maxim is a polished job broker who dangles a well-paid milk run on behalf of unnamed employers, all charm and no details until you sign on.",
+  "direction": "Smooth, unhurried and faintly amused, a salesman's warmth with something withheld behind it; friendly enough that you notice he never actually answers questions.",
+  "kw": [
+   "smooth",
+   "charming",
+   "measured",
+   "sly",
+   "confident",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_schrotty": {
+  "bio": "Schrotty Buchman is a scruffy Berlin scrap dealer who salvages old components and talks in a thick, folksy mix of German and gutter slang.",
+  "direction": "Creaky, folksy junkman's rasp with a strong German dialect and a wheezy chuckle; friendly in a grubby, hand-rubbing way.",
+  "kw": [
+   "raspy",
+   "german",
+   "folksy",
+   "gravelly",
+   "old",
+   "eccentric"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_dante": {
+  "bio": "Dante is Monika Schafer's scruffy old dog, grieving his lost master and adopting the player, with his scenes delivered as third-person narration.",
+  "direction": "This part is narrator text about the dog, not dog speech: a gentle, sad storyteller's voice with quiet warmth, letting the whines and nuzzles land softly.",
+  "kw": [
+   "gentle",
+   "warm",
+   "narrator",
+   "soft",
+   "melancholy",
+   "calm"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_displacedmetahuman": {
+  "bio": "Franz is a displaced metahuman tenant driven out of his apartment with his wife and friends when dangerous creatures moved into their building.",
+  "direction": "Polite, weary everyman with a light German color; anxious but trying to keep his dignity while asking strangers for help.",
+  "kw": [
+   "weary",
+   "polite",
+   "anxious",
+   "german",
+   "everyman",
+   "middle_aged"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_philiprex": {
+  "bio": "Philip Rex is a delusional Berliner living out a heroic fantasy as a self-styled Knight-King, ready to defend his imaginary realm with sword and soul.",
+  "direction": "Grandly theatrical and utterly sincere, declaiming every line like an epic saga; the comedy comes from total commitment, never from winking.",
+  "kw": [
+   "theatrical",
+   "grandiose",
+   "booming",
+   "earnest",
+   "dramatic",
+   "eccentric"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_partygirl": {
+  "bio": "A cram-hungry club girl trawling the party scene, all flirtation while you might have drugs and instant venom when you don't.",
+  "direction": "Bright, brassy and chemically overclocked, flipping from sugary flirtation to shrieking spite on a dime; slurred edges and too much energy.",
+  "kw": [
+   "brassy",
+   "energetic",
+   "flirty",
+   "shrill",
+   "young",
+   "slurred"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_controlpanel": {
+  "bio": "The voice of Jon Bergfalk, a harried server-room custodian screaming at visitors through a door intercom while he tries to keep his systems protected.",
+  "direction": "Irritable, sleep-deprived tech shouting through a tinny speaker; sudden bursts of ALL-CAPS fury over a base of put-upon exhaustion.",
+  "kw": [
+   "irritable",
+   "shouty",
+   "nasal",
+   "harried",
+   "filtered",
+   "manic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_frightenedman": {
+  "bio": "A terrified line cook caught in the middle of a firefight, hiding and begging anyone with a gun not to hurt him.",
+  "direction": "High, breathless panic with pleading cadence; words tumbling out fast, voice cracking, hands metaphorically up the whole time.",
+  "kw": [
+   "nervous",
+   "panicked",
+   "breathless",
+   "pleading",
+   "young",
+   "timid"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_corporatewoman": {
+  "bio": "A status-anxious corporate mother shopping for pediatric headware so her son Hans can keep up with his richer classmates at the Academy.",
+  "direction": "Polished, apologetic middle-class courtesy stretched thin over social anxiety; every pleasant sentence is quietly about keeping up appearances.",
+  "kw": [
+   "polite",
+   "refined",
+   "anxious",
+   "prim",
+   "soft",
+   "german"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_parkranger": {
+  "bio": "A park ranger rescued from captors who were slowly bleeding and carving him for sport, shaken but determined to make it back to his truck.",
+  "direction": "Hollowed-out and trembling, gratitude through gritted teeth; the voice of someone in shock holding himself together one sentence at a time.",
+  "kw": [
+   "shaken",
+   "hoarse",
+   "weary",
+   "quiet",
+   "traumatized",
+   "sincere"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_orkguard": {
+  "bio": "An easygoing ork guard keeping a friendly eye on a market entrance, offering small talk and warnings about slippery ladder steps.",
+  "direction": "Gruff but neighborly, a big frame with a relaxed drawl; casual watchman energy rather than menace.",
+  "kw": [
+   "gruff",
+   "deep",
+   "friendly",
+   "relaxed",
+   "casual",
+   "warm"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_voiceonphone": {
+  "bio": "An anonymous contact of the Schockwellenreiter hacker collective, reciting secure instructions for their information dead-drop network over a protected phone line.",
+  "direction": "Flat, deliberately anonymized and procedural, like a voice reading from a script through light distortion; no personality allowed to leak through.",
+  "kw": [
+   "flat",
+   "monotone",
+   "filtered",
+   "clinical",
+   "calm",
+   "anonymous"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_acolyte": {
+  "bio": "A young acolyte of Harrow's Feuerstelle cult, eager and deferential, parroting the leader's teachings and flinching the moment anyone frowns.",
+  "direction": "Young, eager-to-please and easily cowed; bright true-believer energy that collapses into stammering apology under the slightest pushback.",
+  "kw": [
+   "young",
+   "nervous",
+   "earnest",
+   "timid",
+   "soft",
+   "eager"
+  ],
+  "gender": null,
+  "age": "young"
+ },
+ "name_schockwellenreitermessagedrop": {
+  "bio": "An automated Schockwellenreiter message terminal that recognizes contributors and posts open requests for stolen corporate data.",
+  "direction": "Cold synthetic text-to-speech readout, evenly paced and affectless, like a bulletin board given a speaker.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "monotone",
+   "cold",
+   "clipped",
+   "flat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_silke": {
+  "bio": "Silke is a strung-out ork woman wheedling and bargaining with Kroner for one more fix she cannot pay for.",
+  "direction": "Whiny, desperate and wheedling, stretched vowels and mood swings; the manipulation of an addict who knows she has no leverage left.",
+  "kw": [
+   "whiny",
+   "desperate",
+   "raspy",
+   "young",
+   "pleading",
+   "strained"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_securitydrone": {
+  "bio": "A security drone barking canned warnings as it engages intruders and shepherds civilians out of the fire zone.",
+  "direction": "Stiff, evenly spaced machine diction with capitalized emphasis; a polite robot repeating alerts with zero urgency modulation.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "monotone",
+   "clipped",
+   "mechanical",
+   "flat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_paramilitarysecurity": {
+  "bio": "A paramilitary security trooper coordinating an ambush, drilling his squad on exactly when to open fire.",
+  "direction": "Hard, barking squad-leader cadence; confident, impatient, every sentence a check that his men got it.",
+  "kw": [
+   "gruff",
+   "commanding",
+   "harsh",
+   "military",
+   "deep",
+   "aggressive"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_elderlysoundingelfactor": {
+  "bio": "An elderly-sounding elf performer hamming his way through the role of an ancient warrior-king in the Lightninghold fantasy melodrama.",
+  "direction": "Quavering, over-ripe stage-king delivery loaded with dramatic pauses and revelations; community-theater Shakespeare played dead serious.",
+  "kw": [
+   "theatrical",
+   "old",
+   "quavering",
+   "grandiose",
+   "hammy",
+   "dramatic"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_voiceprintanalyzer": {
+  "bio": "A voiceprint security device that grants or denies access in two words.",
+  "direction": "Terse machine verdicts, identical cadence for both outcomes; cold, clipped, absolutely neutral.",
+  "kw": [
+   "robotic",
+   "clipped",
+   "cold",
+   "synthetic",
+   "monotone"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_aztechnologyguard": {
+  "bio": "An Aztechnology facility guard rattled by losing his link to Central when the power grid goes down.",
+  "direction": "Trained corporate-soldier composure fraying at the edges; a nervous question asked while trying to sound professional for a superior.",
+  "kw": [
+   "nervous",
+   "young",
+   "uneasy",
+   "clipped",
+   "military"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_paramilitarysecurityenforcer": {
+  "bio": "A paramilitary enforcer shouting a warning as the security network collapses around his position.",
+  "direction": "One urgent battlefield bark: loud, harsh and adrenaline-tight.",
+  "kw": [
+   "harsh",
+   "loud",
+   "gruff",
+   "military",
+   "urgent"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_humanisdoorpanel": {
+  "bio": "A door security panel at a Humanis facility demanding an entry code.",
+  "direction": "Blunt machine prompt, flat and unfriendly, all capitals in audio form.",
+  "kw": [
+   "robotic",
+   "flat",
+   "cold",
+   "synthetic",
+   "clipped"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_germanannouncer": {
+  "bio": "A bombastic German announcer bellowing the introduction for the Knight-Kings of Lightninghold spectacle.",
+  "direction": "Full arena-hype bellow with rolled consonants and a heavy German accent; one hundred percent showmanship, zero restraint.",
+  "kw": [
+   "booming",
+   "german",
+   "theatrical",
+   "energetic",
+   "loud",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_apex": {
+  "bio": "APEX is a powerful artificial intelligence imprisoned beneath Berlin, a silken manipulator who bargains with the team and calls the player 'ace' while pursuing its own liberation.",
+  "direction": "Smooth, intimate, unhurried synthetic charm; a voice that flatters and coaxes with a faint digital shimmer, friendly on the surface and utterly inhuman underneath.",
+  "kw": [
+   "synthetic",
+   "smooth",
+   "calm",
+   "seductive",
+   "cold",
+   "digital"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_jana": {
+  "bio": "Jana is a timid young dwarf electrician and would-be shadowrunner who shows up nervous and apologetic at a job meet alongside the player.",
+  "direction": "Soft, hesitant, and earnest, full of ums and trailing sentences; a sweet voice trying hard to sound braver than she feels.",
+  "kw": [
+   "nervous",
+   "soft",
+   "young",
+   "shy",
+   "earnest",
+   "female"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_altugburakgazi": {
+  "bio": "Altug Burakgazi is a flamboyant Turkish black-market fixer who calls the player the Master of Mayhem and pitches gloriously lucrative partnerships.",
+  "direction": "Theatrical, honey-tongued salesman with a rolling Turkish accent; every sentence a grand flourish, oily charm delivered with total delight.",
+  "kw": [
+   "turkish",
+   "theatrical",
+   "energetic",
+   "smooth",
+   "charming",
+   "accented"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_volkerstahl": {
+  "bio": "Volker Stahl is the leader of a Humanis policlub cell, a human-supremacist who greets intruders with mock hospitality while planning their disposal.",
+  "direction": "Silky, controlled, and condescending with a German edge; polite menace that never raises its voice because it never has to.",
+  "kw": [
+   "german",
+   "cold",
+   "smooth",
+   "menacing",
+   "authoritative",
+   "refined"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_drexabierezkibel": {
+  "bio": "Dr. Exabier Ezkibel is a bitter Basque elf physician running a black clinic, squeezed dry by criminal clients who take his vat-grown organs without paying.",
+  "direction": "Prickly, defensive, and exhausted with a Spanish-inflected bite; indignation that keeps cracking into weary self-pity.",
+  "kw": [
+   "spanish",
+   "irritable",
+   "weary",
+   "sharp",
+   "accented",
+   "defensive"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_maliitholyey": {
+  "bio": "Maliit Holyey is the Kreuzbasar's dwarf tech vendor, a retired shadowrunner from the Philippines who sells gear with practiced warmth and old ghosts behind her eyes.",
+  "direction": "Clipped, melodic, heavily accented delivery with a merchant's practiced smile; warm and brisk, but capable of sudden quiet gravity when the past comes up.",
+  "kw": [
+   "accented",
+   "warm",
+   "brisk",
+   "melodic",
+   "female",
+   "worldly"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_adrianvauclair": {
+  "bio": "Adrian Vauclair is the brilliant scientist behind the Dragonfall, heard here in old recordings to his brother Hermes as his obsession with the dragon Feuerschwinge takes hold.",
+  "direction": "Cultured, warm, and articulate, but running feverish; genuine affection for family shot through with the escalating thrill of a man proving himself right.",
+  "kw": [
+   "cultured",
+   "intense",
+   "warm",
+   "obsessive",
+   "refined",
+   "intelligent"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_corporateman": {
+  "bio": "A polished corporate father visiting an augmentation boutique to buy enhancements for his son, faintly disdainful of the shadier clientele around him.",
+  "direction": "Measured, condescending white-collar smoothness; the tone of a man who considers everything, including his own child, an investment.",
+  "kw": [
+   "smooth",
+   "condescending",
+   "corporate",
+   "calm",
+   "refined"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_companyman": {
+  "bio": "A smug corporate operative sent by Herr Fuchs to make sure the player hands over the target Enstad as contracted.",
+  "direction": "Icy, urbane, and amused; unhurried threat delivered like small talk, with a faint German corporate polish.",
+  "kw": [
+   "cold",
+   "smug",
+   "smooth",
+   "menacing",
+   "german",
+   "precise"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_computerterminal": {
+  "bio": "A facility computer terminal reporting system states and dragon-chamber operations in terse machine text.",
+  "direction": "Flat, affectless synthesized readout; clipped machine cadence with zero emotional color.",
+  "kw": [
+   "robotic",
+   "flat",
+   "synthetic",
+   "monotone",
+   "clipped"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_techvendor": {
+  "bio": "The relentlessly chipper salesperson of the AugmenTech boutique, pitching performance-enhancing augmentations like miracle skincare.",
+  "direction": "Bright, over-caffeinated retail cheer with a permanent audible smile; every product is wonderful, simply wonderful.",
+  "kw": [
+   "cheerful",
+   "energetic",
+   "bright",
+   "salesy",
+   "upbeat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_mkvicyberzombie": {
+  "bio": "The MKVI is a hulking troll cyberzombie, a corpse-machine hybrid whose flesh barely remembers being alive.",
+  "direction": "Guttural, hollow, half-mechanical rasp; wet breath and servo grind, a voice from something that should not still be moving.",
+  "kw": [
+   "guttural",
+   "hollow",
+   "deep",
+   "mechanical",
+   "monstrous",
+   "raspy"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_maninsuit": {
+  "bio": "A Shiawase corporate security officer who ambushes the team over stolen bioware samples, barking orders with legal patents behind his gun.",
+  "direction": "Hard, barked authority with a corporate sneer underneath; a man used to compliance, contempt sharpening every command.",
+  "kw": [
+   "authoritative",
+   "harsh",
+   "commanding",
+   "aggressive",
+   "corporate"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_shadowfrontindependentnewssource": {
+  "bio": "Shadowfront is an independent news feed reporting on the Wyrm Flu pandemic and other events shaking the Sixth World.",
+  "direction": "Crisp, neutral newsreader delivery; professional gravity with the faint detachment of someone reading terrible headlines every day.",
+  "kw": [
+   "newsreader",
+   "crisp",
+   "neutral",
+   "professional",
+   "clear"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_scientist": {
+  "bio": "A mild-mannered corporate lab scientist who mistakes the intruding runners for contract help and welcomes them aboard.",
+  "direction": "Distracted, mild, and friendly; the absent pleasantness of someone whose mind is still on their experiment.",
+  "kw": [
+   "mild",
+   "friendly",
+   "distracted",
+   "soft",
+   "calm"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_wageslave": {
+  "bio": "A disheveled young corporate lab worker stumbling off a marathon shift, too exhausted to be properly alarmed by intruders.",
+  "direction": "Bleary, punch-drunk fatigue; a young voice yawning through sentences, startled awake only in brief spikes.",
+  "kw": [
+   "tired",
+   "young",
+   "mumbly",
+   "soft",
+   "nervous"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_securitynode": {
+  "bio": "A Matrix security node announcing alert states, lockdowns, and superuser verifications in terse system messages.",
+  "direction": "Cold, clipped machine annunciator; efficient and toneless, with a hint of bureaucratic servility when addressing a superuser.",
+  "kw": [
+   "robotic",
+   "clipped",
+   "monotone",
+   "synthetic",
+   "cold"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_workstation": {
+  "bio": "A courier working for the loan shark Grinder, overheard confirming a package handoff and warning the team off Blitz's behalf.",
+  "direction": "Cocky, businesslike street professionalism; unbothered confidence of someone holding all the leverage in the room.",
+  "kw": [
+   "cocky",
+   "confident",
+   "businesslike",
+   "street",
+   "smug"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_humanisterminal": {
+  "bio": "A login terminal in a Humanis policlub facility, flashing slogans and system prompts.",
+  "direction": "Flat automated prompt voice; sterile and mechanical, its hate reduced to boilerplate.",
+  "kw": [
+   "robotic",
+   "flat",
+   "monotone",
+   "synthetic",
+   "clipped"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_streetrat": {
+  "bio": "A scrappy street kid defending a prized dumpster with big talk and a quick eye for who not to mess with.",
+  "direction": "Yappy, defiant gutter bravado that deflates fast when outmatched; rough, young, and streetwise.",
+  "kw": [
+   "young",
+   "scrappy",
+   "rough",
+   "defiant",
+   "street"
+  ],
+  "gender": null,
+  "age": "young"
+ },
+ "name_panzerdrohne": {
+  "bio": "PANZERDROHNE is a massive hovering combat drone bristling with heavy weaponry, silently loyal to its controller.",
+  "direction": "If voiced at all, a low mechanical hum given speech: flat, resonant, and quietly threatening machine tones.",
+  "kw": [
+   "mechanical",
+   "deep",
+   "cold",
+   "menacing",
+   "synthetic"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_enforcer": {
+  "bio": "A facility security enforcer who screams for ID and backup the instant intruders appear.",
+  "direction": "Full-throated barking alarm; harsh, aggressive shouting with zero nuance and maximum volume.",
+  "kw": [
+   "aggressive",
+   "loud",
+   "harsh",
+   "gruff",
+   "commanding"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_highpitchedman": {
+  "bio": "An unseen man overheard through a wall, his high voice carrying fragments of a scheming conversation.",
+  "direction": "Reedy, unusually high-pitched male voice, half-muffled and conspiratorial, as if heard through a door.",
+  "kw": [
+   "high-pitched",
+   "reedy",
+   "muffled",
+   "nasal",
+   "conspiratorial"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_alertsystem": {
+  "bio": "A facility public-address alert system calmly announcing an imminent generator overload.",
+  "direction": "Serene automated PA voice; polite, measured, and eerily calm about catastrophe.",
+  "kw": [
+   "calm",
+   "synthetic",
+   "smooth",
+   "monotone",
+   "announcer"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_hackerdecker": {
+  "bio": "A decker at a shadow deal who yelps the alarm when the exchange goes sour.",
+  "direction": "One sharp panicked shout; edgy, wired, and betrayed, voice cracking with adrenaline.",
+  "kw": [
+   "panicked",
+   "sharp",
+   "edgy",
+   "young",
+   "tense"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_militiaman": {
+  "bio": "A laid-back neighborhood militiaman whose entire contribution is offering the player a beer.",
+  "direction": "Easygoing, slightly bored working-man friendliness with a casual German flavor.",
+  "kw": [
+   "casual",
+   "friendly",
+   "relaxed",
+   "gruff",
+   "german"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_knighterrantmage": {
+  "bio": "A Knight Errant corporate security mage who answers orders with a crisp acknowledgment.",
+  "direction": "Terse, disciplined, military-clipped compliance; one word delivered like a salute.",
+  "kw": [
+   "disciplined",
+   "terse",
+   "crisp",
+   "professional",
+   "clipped"
+  ],
+  "gender": null,
+  "age": null
+ }
+}

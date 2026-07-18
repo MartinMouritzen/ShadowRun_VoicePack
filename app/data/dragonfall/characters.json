@@ -7860,7 +7860,8 @@
      "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
      "t": "...We should probably get moving.\n\nThose samples aren't going to stay frozen forever."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_glory.png"
   },
   {
    "id": "name_eiger",
@@ -14673,7 +14674,8 @@
      "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
      "t": "Don't engage with him. Just let him hang onto his little fantasy... we need to get out of here before those bioware samples start to thaw."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_trollfemale_eiger.png"
   },
   {
    "id": "name_blitz",
@@ -20480,7 +20482,8 @@
      "cn": "Haven-a3_Panzerdrohne",
      "t": "When we're talking about tech, it might as well. I'm sure that Maliit has a whole warehouse full of drones that could outperform this thing."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_blitz.png"
   },
   {
    "id": "name_dietrich",
@@ -25144,7 +25147,8 @@
      "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
      "t": "This is just sad.\n\nC'mon, boss. Those bioware samples aren't gonna stay frozen forever."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_dietrich.png"
   },
   {
    "id": "name_vauclair",
@@ -27620,7 +27624,8 @@
      "cn": "a3_Endgame_AltEnding_s1-VCConvo",
      "t": "{{GM}}He shoots you an irritable glance.{{/GM}}\n\nDon't worry about me, I won't be keeling over anytime today. Now read up so that we can move on to talking about solutions."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_vauclair.png"
   },
   {
    "id": "name_computer",
@@ -32158,7 +32163,8 @@
      "cn": "a2_aztechnologyRaid_s3-TeamOutro",
      "t": "{{GM}}The lead clone stares into the crater, trembling.{{/GM}}\n\nWe... no. We will live."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_amsel.png"
   },
   {
    "id": "name_apex",
@@ -34028,7 +34034,8 @@
      "cn": "Haven-a3_APEX_Epilogue",
      "t": "{{GM}}The Monika-image's muscles begin to contort and stretch. Her mouth twists up into a rictus grin.{{/GM}}\n\nSee you soon."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_program_apex.png"
   },
   {
    "id": "name_kami",
@@ -35630,7 +35637,8 @@
      "cn": "Haven-Global_Kami",
      "t": "{{GM}}She offers you an apologetic grin.{{/GM}}\n\nLittle busy right now, chum. Places to be, things to do, and all that. But if you come by later, maybe I'll have time to chat."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_kami.png"
   },
   {
    "id": "name_hasenkamp",
@@ -36680,7 +36688,8 @@
      "cn": "Bonus_Trust_Blitz-interiorLowSecurity-DummyClue2",
      "t": "{{GM}}He shrugs.{{/GM}}\n\nSure, that too. Either way, we should keep moving - time's a-wasting."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_hasenkamp.png"
   },
   {
    "id": "name_simmy",
@@ -37596,7 +37605,8 @@
      "cn": "Haven-Global_Simmy_01",
      "t": "Sure. And you forgot to lock up, and you didn't put the cat out."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_simmy.png"
   },
   {
    "id": "name_manonphone",
@@ -38500,7 +38510,8 @@
      "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
      "t": "I could listen to this guy all day, chief - all *day* - but that bioware isn't gonna stay frozen forever.\n\nWe should probably get going."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_blitz.png"
   },
   {
    "id": "name_feuerschwinge",
@@ -40230,7 +40241,8 @@
      "cn": "Haven-Global_Aljernon_02",
      "t": "I doubt that you could if you tried."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elfmale_magicdealer.png"
   },
   {
    "id": "name_marta",
@@ -41872,7 +41884,8 @@
      "cn": "a2_Lodge_s1-2ndFloorInterior_JamesRespondsToElfAttack",
      "t": "For the love of God, shut up. Just stop talking. We're both sick to death of you."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_dwarffemale_electrician.png"
   },
   {
    "id": "name_laine",
@@ -42661,7 +42674,8 @@
      "cn": "Haven-Global_Laine_01",
      "t": "Now that's a sentiment I can drink to."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_trollmale_laine.png"
   },
   {
    "id": "name_guard",
@@ -44161,7 +44175,8 @@
      "cn": "a2_Lodge_s1-Ubahn_EndOfLuca'sCallAtUbahnExit",
      "t": "I told you that you would be planting bugs, and you did plant bugs. You did a wonderful job of it, I might add.\n\nJana's job was to plant the bomb.\n\nBut we can discuss all of this upon your return."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_lodgerep.png"
   },
   {
    "id": "name_phil",
@@ -44860,7 +44875,8 @@
      "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
      "t": "No.\n\nI'm talking about eating meat."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_calmscientist.png"
   },
   {
    "id": "name_junkie",
@@ -46231,7 +46247,8 @@
      "cn": "Haven-Global_SamuelBeckenbauer",
      "t": "Hello again, $(l.freund). What can I do for you?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_orkmale_samuel.png"
   },
   {
    "id": "name_greenwinters",
@@ -46913,7 +46930,8 @@
      "cn": "Haven-Global_DVD",
      "t": "{{GM}}Winters cuts his brother off. A new intensity burns in his voice.{{/GM}}\n\nPlease, big brother. Just drop all of this. Stop hunting the Firewing, and start living your life again!\n\nIf you won't do it for yourself, then for Christ's sake, do it for me."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_winters.png"
   },
   {
    "id": "name_altugburakgazi",
@@ -47576,7 +47594,8 @@
      "cn": "Haven-Global_JanGoldschmidt",
      "t": "Two years of soykaf and strained patience, yes."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_altug.png"
   },
   {
    "id": "name_absinthe",
@@ -48241,7 +48260,8 @@
      "cn": "Haven-Global_Absinthe_03",
      "t": "You have a talent for understatement.\n\nThe things that crawl in the dark spaces between the metaplanes are worse than \"bad.\" They're monstrosities.\n\nHorrors."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elffemale_absinthe.png"
   },
   {
    "id": "name_drxabierezkibel",
@@ -48893,7 +48913,8 @@
      "cn": "Haven-Global_Doctor",
      "t": "Welcome to the Triage Cyberclinic, my friend.\n\n{{GM}}He extends his hand to you.{{/GM}}\n\nI am Dr. Xabier Ezkibel. And your name is...?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elfmale_docxabier.png"
   },
   {
    "id": "name_luckystrike",
@@ -49472,7 +49493,8 @@
      "cn": "Haven-Global_LuckyStrike",
      "t": "Hey, I don't mean to be rude, but this is my off-time. I intend to spend it smoking and drinking myself into a stupor - not talking.\n\n{{GM}}She waves you away.{{/GM}}\n\nIf you wanna chat later, we'll chat. For now, give me some breathing room."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/backerpc_humanfemale_luckystrike.png"
   },
   {
    "id": "name_monika",
@@ -49997,7 +50019,8 @@
      "cn": "Haven-a3_APEX_Epilogue",
      "t": "Nothing, ace.\n\n{{GM}}The Monika-image shakes its head sadly.{{/GM}}\n\nNothing at all."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_monika.png"
   },
   {
    "id": "name_audran",
@@ -50506,7 +50529,8 @@
      "cn": "a3_Endgame_AltEnding_s1-AudranConvo",
      "t": "{{GM}}Audran looks surprised.{{/GM}}\n\nI'm guessing you lifted that from someone with much better taste."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_orkmale_audran.png"
   },
   {
    "id": "name_hansbrackhaus",
@@ -51001,7 +51025,8 @@
      "cn": "a3_Epilogue-Hans",
      "t": "And now she is trapped. Driven insane by those whom she sought to protect. \n\nThe Sixth World was not worthy of her."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_hansbrackhaus.png"
   },
   {
    "id": "name_james",
@@ -51467,7 +51492,8 @@
      "cn": "a2_Lodge_s1-2ndFloorInterior_JamesRespondsToElfAttack",
      "t": "You *need* me to--"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_magicalsecurityexpert.png"
   },
   {
    "id": "name_volkerstahl",
@@ -51884,7 +51910,8 @@
      "cn": "a2_Humanis_s2-LeaderConversation2",
      "t": "Your time has come, fool.\n\n{{GM}}He turns to the group that just entered the room.{{/GM}}\n\nKill them."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_humanis.png"
   },
   {
    "id": "name_goldfish",
@@ -52295,7 +52322,8 @@
      "cn": "a2_SubwaySlums_s1-Goldfish",
      "t": "{{GM}}Goldfish is warm and welcoming despite her nasal American accent.{{/GM}}\n\nWelcome back! Here for a beer?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_goldfish.png"
   },
   {
    "id": "name_thorvaldenstad",
@@ -52692,7 +52720,8 @@
      "cn": "a2_Pharma_s1-JohnsonConclusion",
      "t": "All riiiight! Good choice, m'friend. *Good* choice.\n\n{{GM}}He takes a few steps forward and kicks the Company Man's corpse in the head.{{/GM}}\n\nI'll just nip into the other room and grab your payment for you. Then we can all be on our way."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_dwarfmale_badrigger.png"
   },
   {
    "id": "name_quorin",
@@ -53055,7 +53084,8 @@
      "cn": "a2_SubwaySlums_s1-Quorin",
      "t": "I'm afraid this ends here and now."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_quorin.png"
   },
   {
    "id": "name_wanderer",
@@ -53755,7 +53785,8 @@
      "cn": "Haven-Global_MissionComputer",
      "t": "You guessed it, drecksau. They came to *us,* just like we said they would.\n\nDanni's dead, Mira's a wreck, and we need to keep moving just to stay alive. All thanks to you.\n\nI hope you rot in hell."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_heimerich.png"
   },
   {
    "id": "name_parson",
@@ -54083,7 +54114,8 @@
      "cn": "a3_ApexRising_S2-ParsonFirstSpawn",
      "t": "{{GM}}Parson rushes at you. His eyes are blank, and his face is an expressionless mask. A stream of thin drool runs down the corner of his mouth.{{/GM}}\n\nThe Communion must be protected! You are a threat to the Communion! YOU MUST DIE!"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_parsons.png"
   },
   {
    "id": "name_maxim",
@@ -54399,7 +54431,8 @@
      "cn": "a2_Humanis_s3-DietrichOutro",
      "t": "Sorry, man. But your friend is right. We've gotta get the hell out of here, *now.*"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/backer_humanmale_dennisjandt.png"
   },
   {
    "id": "name_drexabierezkibel",
@@ -54709,7 +54742,8 @@
      "cn": "a2_Sewer_s1-EzkibelCall",
      "t": "$(l.name)?\n\n{{GM}}Ezkibel tries to hide the surprise in his voice. He doesn't do a very good job.{{/GM}}\n\nWhat a pleasant surprise! I was wondering when I'd have the good fortune to meet you!\n\nIf you don't mind me asking... what are you doing on this line?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elfmale_docxabier.png"
   },
   {
    "id": "name_mira",
@@ -55015,7 +55049,8 @@
      "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
      "t": "{{GM}}Her face crumples, and she begins to sob.{{/GM}}\n\nGet the hell out of here. I never want to see your face on our property again."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_dwarffemale_mira.png"
   },
   {
    "id": "name_gunarimettbach",
@@ -55313,7 +55348,8 @@
      "cn": "Haven-Global_GunariMettbach",
      "t": "Welcome back. You need some weapons? Some ammunition, perhaps?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_gunari.png"
   },
   {
    "id": "name_fraumuller",
@@ -55588,7 +55624,8 @@
      "cn": "Haven-a2_AztechnologyJohnson",
      "t": "Over the course of my employment, I've worked on a great many projects.\n\nFrom the innocuous to the obscene, my hands have touched it all."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_muller.png"
   },
   {
    "id": "name_zaakflash",
@@ -55845,7 +55882,8 @@
      "cn": "Haven-Global_ZaakFlash",
      "t": "Welcome back, $(l.freund). What can ol' Zaak getcha?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elfmale_zakkflash.png"
   },
   {
    "id": "name_theengineer",
@@ -56101,7 +56139,8 @@
      "cn": "Bonus_Trust_Eiger_s1-Interrogation",
      "t": "{{GM}}The Engineer lets out a chuckle. It's a hoarse, barking sound.{{/GM}}\n\nYou don't know a damned thing."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_orkmale_engineerinjured2.png"
   },
   {
    "id": "name_janitor",
@@ -56594,7 +56633,8 @@
      "cn": "Haven-Global_Schrotty",
      "t": "{{GM}}Schrotty looks up at you from his work and nods.{{/GM}} Hello again, mein Frau. I'm a bit busy, but what can I do fer ya?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_humanmale_urbanpoor01.png"
   },
   {
    "id": "name_maliitholyey",
@@ -56834,7 +56874,8 @@
      "cn": "Haven-Global_MissionComputer",
      "t": "Schrotty is still a brute of a man. I am unimpressed with his manner, and his poor hygeine disgusts me.\n\nBut he is very good with old things, such as this.\n\nAll credit where it's due."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_dwarffemale_maliit.png"
   },
   {
    "id": "name_aztechnologybloodmage",
@@ -57078,7 +57119,8 @@
      "cn": "a2_aztechnologyRaid_s3-BloodmagesSeeYouJackIn",
      "t": "{{GM}}He eyes you skeptically.{{/GM}}\n\nVery well... do your job. But do it quickly, and mind that you don't touch anything you're not supposed to. If you do, I will know it.\n\nAm I making myself clear?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_bloodmage.png"
   },
   {
    "id": "name_danni",
@@ -57292,7 +57334,8 @@
      "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
      "t": "{{GM}}A thoughtful look crosses her face.{{/GM}}\n\nIf you were to plant false evidence that the surge came over the grid, though... that might do it.\n\nYeah. You do that, and we'll be good."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elffemale_danni.png"
   },
   {
    "id": "name_ghoul",
@@ -57505,7 +57548,8 @@
      "cn": "a2_Sewer_s1-HeadGhoul",
      "t": "Fine. You won't see us again. Just let us collect our things, and we'll be gone."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_ghoulleader.png"
   },
   {
    "id": "name_simulacrum",
@@ -57720,7 +57764,8 @@
      "cn": "Haven-Global_MissionComputer",
      "t": "Forum posters speculate that the development team was killed by Lofwyr, the new CEO of Saeder-Krupp, in an effort to wipe out the project. APEX is presumed to have been deleted as a part of that same effort.\n\nEnd of recap."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_alicesim.png"
   },
   {
    "id": "name_karl",
@@ -58100,7 +58145,8 @@
      "cn": "Bonus_Trust_Glory_s1-PostMartaKilledAtShrineSpirit",
      "t": "<DEATH COMES IN MANY FORMS, CHILD.>\n\n{{GM}}The fluttering sensation in your chest grows into a rasping pain that steals the breath from your lungs. It feels like you're being eaten alive.{{/GM}}\n\n<YOURS WILL BE SWIFT AND BRUTAL.>"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_spirit_adversarycorrupted.png"
   },
   {
    "id": "name_dante",
@@ -58304,7 +58350,8 @@
      "cn": "a3_RabbitHole_s1-DanteDisloyal",
      "t": "He just snapped. When these mercs started gunning people down in the street...\n\n{{GM}}The words trail off again.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_dog_dante.png"
   },
   {
    "id": "name_adrianvauclair",
@@ -58487,7 +58534,8 @@
      "cn": "Haven-Global_DVD",
      "t": "{{GM}}Vauclair nods, then looks away from the screen.{{/GM}}\n\nAll right, Hermie. I'll try."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_vauclair50.png"
   },
   {
    "id": "name_testsubject",
@@ -58658,7 +58706,8 @@
      "cn": "a2_aztechnologyRaid_s3-CloneConvo",
      "t": "{{GM}}He shakes his head.{{/GM}}\n\nI can see that you don't understand."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_clone.png"
   },
   {
    "id": "name_smuggler",
@@ -59002,7 +59051,8 @@
      "cn": "a2_AGChemie-S2-HearthSpirit",
      "t": "*The Woman sits behind the closest door, when she is not visiting the dark man above.*"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_spirit_forgottensoul.png"
   },
   {
    "id": "name_alice",
@@ -59175,7 +59225,8 @@
      "cn": "Haven-Global_MissionComputer",
      "t": "That’s all that I have to say… I’m following my own advice. I’m *out.*\n\nDon’t try to contact me again."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_alice.png"
   },
   {
    "id": "name_bouncer",
@@ -59340,7 +59391,8 @@
      "cn": "a1_Hotel_s1-ClubBouncer",
      "t": "Then get back out of my face and go do it."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_trollmale_bouncer.png"
   },
   {
    "id": "name_digitalarchiveterminal",
@@ -59983,7 +60035,8 @@
      "cn": "a3_ApexRising_S1-TrithemiusConvo",
      "t": "Well then, we have nothing further to discuss.\n\n{{GM}}The mage dismisses you with a wave.{{/GM}}\n\nReturn when he is dead."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/backer_elfmale_andygoolsby.png"
   },
   {
    "id": "name_newsdayworldreport",
@@ -60271,7 +60324,8 @@
      "cn": "a1_Hotel_s1-ClubFloorMgr",
      "t": "{{GM}}Frank peels his eyes off of the shimmying elf and stares at you, an irritated expression on his face.{{/GM}}\n\n*What?*"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_frank.png"
   },
   {
    "id": "name_bartender",
@@ -60553,7 +60607,8 @@
      "cn": "Haven-Global_MaintenanceWorker",
      "t": "Thanks again for helping me out."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_maintenanceworker.png"
   },
   {
    "id": "name_oldwoman",
@@ -60829,7 +60884,8 @@
      "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
      "t": "Of course they won't! Do what you must - you've earned it!\n\nFarewell, stalwart $(scene.badfantasy). We will remember you always!"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_feralscientist.png"
   },
   {
    "id": "name_companyman",
@@ -61087,7 +61143,8 @@
      "cn": "Haven-Global_DVD",
      "t": "Yeah."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_attacksurvivor.png"
   },
   {
    "id": "name_harrowsmanifesto",
@@ -61345,7 +61402,8 @@
      "cn": "Bonus_Trust_Blitz-PreBoss-SideWithHasenkamp_02",
      "t": "{{GM}}He leers at you through the security grate.{{/GM}}\n\nIf you had that kind of muscle, you should've used it to take me out from the get-go.\n\nOh, well. Live and learn."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_trollmale_meatgrinder.png"
   },
   {
    "id": "name_securityguard",
@@ -62066,7 +62124,8 @@
      "t": "He continues to stare.\n\nEventually, he seems to come to some sort of decision. He nods once, then drops his hands to his sides.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elfmale_longhair.png"
   },
   {
    "id": "name_foodcartvendor",
@@ -62276,7 +62335,8 @@
      "cn": "Haven-Global_DVD",
      "t": "You heard it here, an absolutely chilling account of tonight's attack. Again, the town of Stolberg has been reduced to ash, another victim of the Firewing.\n\nStay with us for more up-to-the-minute reporting on Feuerschwinge's reign of terror."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_newsreporter1.png"
   },
   {
    "id": "name_shopkeeper",
@@ -62381,7 +62441,8 @@
      "cn": "a2_SubwaySlums_s1-ScaredShopkeeper",
      "t": "Hello... ah, welcome back, $(l.sir). What can I do for you?"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/backer_trollmale_ericeccher.png"
   },
   {
    "id": "name_femaleinitiate",
@@ -62580,7 +62641,8 @@
      "t": "The projection of Harrow convulses and bursts, and the scraps are consumed by shadow.\n\nThe shadows dissipate, and Harrow is gone.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_harrow.png"
   },
   {
    "id": "name_controlpanel",
@@ -62679,7 +62741,8 @@
      "cn": "Bonus_Trust_Blitz-interiorLowSecurity-ServerRoomDoor",
      "t": "Yeah? Well, you deserve it.\n\nNow tell me why you're pestering me, and make it quick. My patience for you dried up months ago."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_machine.png"
   },
   {
    "id": "name_techvendor",
@@ -63226,7 +63289,8 @@
      "cn": "a2_Humanis_s3-DietrichOutro",
      "t": "{{GM}}He takes a deep breath, and stands up straight. Does his best to put a brave face on.{{/GM}}\n\nWe've got two vans here... no sense in leaving one behind. You all pile into that one, and I'll take the other.\n\nI'll meet you back at the Kreuzbasar."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_alexander.png"
   },
   {
    "id": "name_stressedsuit",
@@ -63486,7 +63550,8 @@
      "t": "The figure stands completely still, but its eyeless head fidgets in agitation. Something about it reminds you of a snake tasting the air.\n\nOff to one side, the screen of a control console glows cheerfully in the gloom.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_trollmale_cyberzombie.png"
   },
   {
    "id": "name_humanispropaganda",
@@ -63723,7 +63788,8 @@
      "cn": "Haven-Global_JanGoldschmidt",
      "t": "{{GM}}Goldschmidt gives you a deep nod, his jowls quivering.{{/GM}}\n\nUntil next time, my friend!"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_jan.png"
   },
   {
    "id": "name_infoterminal",
@@ -64169,7 +64235,8 @@
      "cn": "a2_Humanis_s1-AmbushStarts",
      "t": "{{GM}}There is a brief pause, then the Rammbock boss yells out a response.{{/GM}}\n\nYou've got yourselves a deal!"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/backer_humanfemale_wren.png"
   },
   {
    "id": "name_militiacaptain",
@@ -64238,7 +64305,8 @@
      "cn": "a2_SubwaySlums_s1-MarketMilitia",
      "t": "That's a smart decision.\n\n{{GM}}She reaches out to blindfold you, and the world goes dark.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_militiacaptain.png"
   },
   {
    "id": "name_serverroomguard",
@@ -65277,7 +65345,8 @@
      "cn": "a2_AbandonedLab_s1-Lab_Phil",
      "t": "Well, $(l.name), I am *not* pleased to meet you! You stand as a trespasser in my sovereign territory, and you have *murdered* my citizens!\n\nYou have invaded my home!"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_feralscientist.png"
   },
   {
    "id": "name_tailor",
@@ -65515,7 +65584,8 @@
      "cn": "Haven-Global_DVD",
      "t": "Again, that was Dr. Adrian Vauclair, CEO of Diehl Defense. Dr. Vauclair is the chief architect of the military's current plan to bring down the dragon Feuerschwinge.\n\nStay tuned for more late-breaking news on the battle for the Harz Mountains. We'll be right back."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_newsreporter2.png"
   },
   {
    "id": "name_dronecontrolbox",
@@ -65941,7 +66011,8 @@
      "cn": "a2_AGChemie-S1-KEConvo",
      "t": "We're Knight Errant, fool. We don't \"talk things over\" with thief-scum like you.\n\nYou will comply with my orders, or you will die. The choice is yours."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_humanmale_knighterrant.png"
   },
   {
    "id": "name_kroner",
@@ -65980,7 +66051,8 @@
      "cn": "a1_Hotel_s1-Bartender",
      "t": "{{GM}}The bartender shrugs.{{/GM}}\n\nI give you about a half an hour before the shakes set in. When that happens, you know where to find me.\n\n{{GM}}He turns to another customer with a smirk, leaving the desperate young woman crumpled against the bar.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_blister.png"
   },
   {
    "id": "name_corruptedfile",
@@ -66136,7 +66208,8 @@
      "cn": "Bonus_Trust_Blitz-interiorLowSecurity-AlbertTerminalConvo",
      "t": "PASSWORD \"123456\" ACCEPTED."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_static_blank.png"
   },
   {
    "id": "name_elfactress",
@@ -66376,7 +66449,8 @@
      "cn": "a1_Hotel_s1-Bartender",
      "t": "{{GM}}She sets her jaw, a look of disgust on her pallid face.{{/GM}}\n\nThat ain't gonna happen, chummer. Not now. Not ever."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_orkfemale_silke.png"
   },
   {
    "id": "name_humanisterminal",
@@ -66578,7 +66652,8 @@
      "cn": "Bonus_Trust_Blitz-boss-DeckerIntro",
      "t": "You should be, punk."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_enemeydeckeravatar.png"
   },
   {
    "id": "name_liamfoster",
@@ -66644,7 +66719,8 @@
      "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
      "t": "Please Clear the Area."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_drone_strat9.png"
   },
   {
    "id": "name_streetrat",
@@ -66731,7 +66807,8 @@
      "cn": "a2_Earwig_s1-DroneCheckpointDoor",
      "t": "AUTHORIZATION CHECK FAILED. SECURITY VIOLATION IN PROGRESS.\n\nTARGET ACQUIRED. LETHAL FORCE AUTHORIZED."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_drone_strat9.png"
   },
   {
    "id": "name_bachmeier",
@@ -66758,7 +66835,8 @@
      "cn": "Haven-Global_PaulAmsel",
      "t": "Will do. Kossmann is rigging up an ambush spot now.\n\nWe'll try to make it quick."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_static_blank.png"
   },
   {
    "id": "name_generatorcontrolpanel",
@@ -66896,7 +66974,8 @@
      "t": "The enormous machine hovers impassively, its turbofan rotors keeping it silently aloft. A small arsenal of heavy weaponry juts out from the seams of its armor plating.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_drone_apex.png"
   },
   {
    "id": "name_strangeman",
@@ -66923,7 +67002,8 @@
      "cn": "a3_Epilogue-Hans",
      "t": "No, but you are about to."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_hansbrackhaus.png"
   },
   {
    "id": "name_femalevoice",
@@ -67031,7 +67111,8 @@
      "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
      "t": "I'll kill that fucking thing - you'll see. That goddamned basilisk is going *down.*\n\nOnce we can get down into the sewers again, we might be able to find a way out. This is our chance, Philip!\n\nWish me luck."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_static_blank.png"
   },
   {
    "id": "name_trollactor",
@@ -67127,7 +67208,8 @@
      "cn": "Haven-Global_Blitz",
      "t": ">>>>>Don't bother looking for her again... she's being moved somewhere very, very far away.\n\n>>>>>She never wants to speak with you again, by the way.\n\n>>>>>Idiot.\n\n>>>>>FREEDOM. EQUALITY. INFORMATION. SCHOCKWELLENREITER.<<<<<"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_static_blank.png"
   },
   {
    "id": "name_diary",
@@ -67295,7 +67377,8 @@
      "cn": "Bonus_Trust_Blitz-interiorLowSecurity-Clue1",
      "t": "PLOTZ,\n\nI have REAL and PRESSING concerns about this \"silent partner\" that you've brought on for the loan center scheme.\n\nWe DON'T NEED HIM. I keep saying it, but nobody listens. CALL ME!!!\n\n- JB"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_static_blank.png"
   },
   {
    "id": "name_mysterydecker",
@@ -67316,7 +67399,8 @@
      "cn": "Bonus_Trust_Blitz-boss-DeckerIntro",
      "t": "I could ask the same of you. You're in *my* banking system, you little bastard."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_enemeydeckeravatar.png"
   },
   {
    "id": "name_malenewscaster",
@@ -67358,7 +67442,8 @@
      "cn": "a2_Lodge_s1-Interior_BothGuardsAtPanel",
      "t": "You're damn straight there is. You lied to me - nobody called a Code Indigo, and when Dispatch took a closer look at your work orders, they found that they were fakes.\n\nYou're all coming with us."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_humanmale_knighterrant.png"
   },
   {
    "id": "name_bodyguard",
@@ -67394,7 +67479,8 @@
      "cn": "a2_aztechnologyRaid_s1-DronesGoHostile",
      "t": "{{GM}}An instant later, the drones' sensors alert them to your presence. They spin in unison to face you.{{/GM}}\n\nINTRUDERS DETECTED. WEAPONS DETECTED.\n\nLETHAL FORCE AUTHORIZED."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_drone_corporate.png"
   },
   {
    "id": "name_aztechnologyguard",
@@ -67484,7 +67570,8 @@
      "cn": "Haven-Global_DVD",
      "t": "User: #JollyGreenWinterz     Last Active: 1/15/54\nSex: M   Metatype: Human   Ethnicity: Caucasian\nBody Type: Muscular   Age: 50\nLooking For: F, H/E/D, Athletic, 25-30\n\nI'm a fun-loving guy who's also a great listener.\nI love hiking, clubbing, and all kinds of pets!\nI'm looking for a cute, funny, adventurous girl\nwho's down to party. I don't respond to profiles \nwithout pics! No orks, no trolls (sorry, ladies)!\n"
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanmale_winters.png"
   },
   {
    "id": "name_lieutenant",
@@ -67575,7 +67662,8 @@
      "t": "The gaunt woman in the containment cell stands rigidly, her face pressed against the glass, her haunted yellow eyes tracking your every move. \n\nShe appears frightened, disoriented. Lost. Her mouth moves silently, her voice muted by her glass cage.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_humanfemale_feuerschwinge.png"
   },
   {
    "id": "name_brokenpda",
@@ -67635,7 +67723,8 @@
      "cn": "a3_ApexRising_S2-PostCombatConvo",
      "t": "{{GM}}The intercom system crackles to life. The familiar synthetic voice of the facility's mainframe drones out of the speakers.{{/GM}}\n\n*WARNING.* *WARNING.*\n\nControl subroutines compromised. Matrix uplink restored. System isloation compromised.\n\nInitiate emergency system purge immedi..."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_machine.png"
   },
   {
    "id": "name_humanisdoorpanel",
@@ -67725,7 +67814,8 @@
      "cn": "Bonus_Trust_Blitz-PreBoss-SideWithHasenkamp_01",
      "t": "Punctual as always, Hasenkamp.\n\n{{GM}}The troll smiles.{{/GM}}\n\nNicely done."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_trollmale_meatgrinder.png"
   },
   {
    "id": "name_anonymousfileattachment",
@@ -67740,7 +67830,8 @@
      "cn": "Bonus_Trust_Blitz-matrixMainNode-Clue3",
      "t": "PLOTZ.\n\nHERE'S THE INTEL ON THOSE 'UNWANTED GUESTS' THAT I WARNED YOU ABOUT.\n\nTHEY'RE COMING *TONIGHT.* TAKE APPROPRIATE PRECAUTIONS."
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/generic_static_blank.png"
   },
   {
    "id": "name_femalenewscaster",

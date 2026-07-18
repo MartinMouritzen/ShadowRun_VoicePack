@@ -1,37 +1,42 @@
 #!/usr/bin/env python3
-"""Build app/data/dms/line_segments.json: for every character line containing {{GM}} narration,
+"""Build app/data/<game>/line_segments.json: for every character line containing {{GM}} narration,
 the ORDERED list of playback segments: [{who: 'gm'|'char', t: spoken_text}, ...].
 Preserves interleaving (narration - speech - narration - speech). gm segments are voiced by the
-narrator ($(s.name) resolves to the speaking character's name); char segments get the same
-variable-rewrite treatment as spoken_overrides (HAND single-speech rewrites win; per-segment
-hand fixes live in spoken_hand_segments.json)."""
-import json, re, os
+narrator ($(s.*) speaker vars resolve statically via the speaker's name + char_notes gender; other
+$() vars get the shared mechanical rules); char segments get the spoken_overrides treatment
+(HAND single-speech rewrites win; per-segment hand fixes live in the per-game hand-segments file).
+
+Usage: build_line_segments.py [dms|dragonfall|hk]   (default dms)
+Hand files: tools/spoken_hand_rewrites.json + spoken_hand_segments.json (dms, legacy names) /
+            tools/spoken_hand_rewrites_<game>.json + spoken_hand_segments_<game>.json"""
+import json, re, sys, os
+from spoken_rules import mechanical, resolve_speaker_vars
+
+GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
+if GAME not in ("dms", "dragonfall", "hk"):
+    print(f"ERROR: unknown game '{GAME}'", file=sys.stderr); sys.exit(1)
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 HERE = os.path.dirname(__file__)
-c = json.load(open(os.path.join(ROOT, "app/data/dms/characters.json")))
-HAND = json.load(open(os.path.join(HERE, "spoken_hand_rewrites.json"))) if os.path.exists(os.path.join(HERE, "spoken_hand_rewrites.json")) else {}
-HAND_SEG = json.load(open(os.path.join(HERE, "spoken_hand_segments.json"))) if os.path.exists(os.path.join(HERE, "spoken_hand_segments.json")) else {}
+SUF = "" if GAME == "dms" else f"_{GAME}"
+c = json.load(open(os.path.join(ROOT, f"app/data/{GAME}/characters.json")))
+def jopt(p):
+    return json.load(open(p)) if os.path.exists(p) else {}
+HAND = jopt(os.path.join(HERE, f"spoken_hand_rewrites{SUF}.json"))
+HAND_SEG = jopt(os.path.join(HERE, f"spoken_hand_segments{SUF}.json"))
+NOTES = jopt(os.path.join(ROOT, f"app/data/{GAME}/char_notes.json"))
 
-def mechanical(t):  # keep in sync with build_spoken_overrides.py
-    s = t
-    s = re.sub(r',\s*\$\((l\.name|l\.Name|l\.firstname|l\.sir|l\.Sir|s\.name)\)\s*([.!?,])', r'\2', s)
-    s = re.sub(r'^\s*\$\((l\.name|l\.Name|l\.firstname)\)\s*[,-]\s*', '', s)
-    s = re.sub(r'\$\(scene\.BroSis\)', 'friend', s)
-    s = re.sub(r',\s*\$\(l\.man\)\s*([.!?,])', r', man\1', s)
-    s = re.sub(r'\$\(l\.man\)', 'man', s)
-    s = re.sub(r'quite (a|the) \$\(l\.guy\)', 'really something', s)
-    s = re.sub(r'[Tt]here \$\(l\.he\) is', 'there they are', s)
-    s = re.sub(r'\$\(l\.he\) is', 'they are', s)
-    s = re.sub(r'\$\(l\.he\)', 'they', s)
-    s = re.sub(r'\$\(l\.him\)', 'them', s)
-    s = re.sub(r'\$\(l\.(his|hisher)\)', 'their', s)
-    s = re.sub(r'\s+', ' ', s).strip()
-    s = re.sub(r'\s+([.!?,])', r'\1', s)
-    return s
+def gender_of(cid, cname):
+    n = NOTES.get(cid) or NOTES.get(cname) or {}
+    return n.get("gender")
 
 def clean(t):
     return re.sub(r'\s+', ' ', re.sub(r'\{\{/?[A-Za-z]*\}\}', '', t)).strip()
+
+def gm_text(raw, speaker, gender):
+    """Narrator-voiced segment: resolve speaker vars, then apply the shared mechanical rules to
+    any remaining player vars ('He nods at $(l.him)' etc.)."""
+    return mechanical(clean(resolve_speaker_vars(raw, speaker, gender)))
 
 def raw_segments(t):
     out = []; pos = 0
@@ -47,19 +52,33 @@ def raw_segments(t):
 result = {}
 unresolved = []
 for ch in c["characters"]:
+    g = gender_of(ch["id"], ch["name"])
     for l in ch["lines"]:
         key = f'{l["c"]}_{l["n"]}'
         if l.get("y") == 6 and "{{GM}}" not in l["t"]:
             # GM_Speaker_Voice without markers: the whole node is narration -> narrator voices it
-            result[key] = [{"who": "gm", "t": clean(l["t"].replace("$(s.name)", ch["name"]))}]
+            if key in HAND_SEG and "g0" in HAND_SEG[key]:
+                t = HAND_SEG[key]["g0"]
+            else:
+                t = gm_text(l["t"], ch["name"], g)
+            if "$(" in t:
+                unresolved.append({"key": key, "char": ch["name"], "seg": "g0", "text": l["t"][:200]})
+            result[key] = [{"who": "gm", "t": t}]
             continue
         if "{{GM}}" not in l["t"]: continue
         segs = raw_segments(l["t"])
         nchar = sum(1 for w, _ in segs if w == "char")
-        out = []; ci = 0
+        out = []; ci = 0; gi = 0
         for who, raw in segs:
             if who == "gm":
-                out.append({"who": "gm", "t": clean(raw.replace("$(s.name)", ch["name"]))})
+                if key in HAND_SEG and f"g{gi}" in HAND_SEG[key]:
+                    t = HAND_SEG[key][f"g{gi}"]
+                else:
+                    t = gm_text(raw, ch["name"], g)
+                if "$(" in t:
+                    unresolved.append({"key": key, "char": ch["name"], "seg": f"g{gi}", "text": raw.strip()[:200]})
+                out.append({"who": "gm", "t": t})
+                gi += 1
             else:
                 if key in HAND_SEG and f"c{ci}" in HAND_SEG[key]:
                     t = HAND_SEG[key][f"c{ci}"]
@@ -73,7 +92,8 @@ for ch in c["characters"]:
                 ci += 1
         result[key] = out
 
-json.dump(result, open(os.path.join(ROOT, "app/data/dms/line_segments.json"), "w"), ensure_ascii=False, indent=1)
+json.dump(result, open(os.path.join(ROOT, f"app/data/{GAME}/line_segments.json"), "w"), ensure_ascii=False, indent=1)
 multi = sum(1 for v in result.values() if sum(1 for s in v if s["who"] == "char") >= 2)
-print(f"segmented lines: {len(result)} ({multi} with interleaved speech); unresolved segs: {len(unresolved)}")
-for u in unresolved: print(" ", u["key"], u["seg"], "|", u["char"], "|", u["text"][:120])
+print(f"[{GAME}] segmented lines: {len(result)} ({multi} with interleaved speech); unresolved segs: {len(unresolved)}")
+json.dump(unresolved, open(os.path.join(HERE, f"segs_unresolved{SUF}.json"), "w"), ensure_ascii=False, indent=1)
+for u in unresolved[:15]: print(" ", u["key"], u["seg"], "|", u["char"], "|", u["text"][:100])

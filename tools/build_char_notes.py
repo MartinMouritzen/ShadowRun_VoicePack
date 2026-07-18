@@ -6,6 +6,7 @@ import json, os, re
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 # Suggestion pills use ONLY Magnific voices (unlimited, no metered quota) — no ElevenLabs.
 cat = json.load(open(os.path.join(ROOT, "app/data/magnific_voices.json")))["voices"]   # shared catalog (root, not per-game)
+cat = [v for v in cat if (v.get("lang") or "English") == "English"]   # English-only: catalog carries many non-English voices
 chars = json.load(open(os.path.join(ROOT, "app/data/dms/characters.json")))
 sel = json.load(open(os.path.join(ROOT, "app/data/dms/samples_selection.json")))
 by_id = {c["id"]: c for c in chars["characters"]}
@@ -148,7 +149,6 @@ def score(v, kws, gender, age):
     s = sum(2 for k in kws if k in hay)
     if v.get("gender") == gender: s += 1
     if age and v.get("age") == age: s += 1
-    if "english" not in "en": pass
     if v.get("source") == "mine": s += 0.5   # already in account: no slot juggling
     return s
 

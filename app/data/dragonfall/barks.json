@@ -1498,5 +1498,904 @@
   "portrait": "NPC_HumanMale_Dietrich",
   "nonverbal": false,
   "count": 1
+ },
+ "bark_f3fda2587c62aeb7": {
+  "text": "DAS KESSELHAUS CLUB & HOTEL. Last known location of Monika's client, Green Winters.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_9f170b79100a1828": {
+  "text": "As soon as you've finished with the safe, the nearby vidphone begins to ring.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_0bbc63a44b312f77": {
+  "text": "THE HARFELD MANOR, 2054. One hour east of Berlin.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_b9262d3ee6d105bb": {
+  "text": "A private museum. The owner of this estate must have money to burn.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_6870d9c49fadbf64": {
+  "text": "Select a Decker to jack in.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 8,
+  "kind": "prop"
+ },
+ "bark_599630e4aaf92d40": {
+  "text": "Terminal active.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_7add1f5a9bdfe59f": {
+  "text": "AG CHEMIE EUROPA - Satellite Administrative Complex. After hours.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_095afbf2f1f0e5be": {
+  "text": "Access Denied",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_557794e3c9515c91": {
+  "text": "24th Floor",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_d200966a825e105f": {
+  "text": "Aztechnology Utility Tunnel",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_a9215f4398d28844": {
+  "text": "Power grid overloaded.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_d648cb7ede6ccac7": {
+  "text": "Paydata Acquired.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_9d63de76df80e069": {
+  "text": "Aztechnology Facility - Ground Floor",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_3a3357389d64d555": {
+  "text": "Aztechnology Facility - Sub-Basement",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_53dd41ed07048b46": {
+  "text": "The alarm panels flash bright red, and a shrill alarm begins to sound throughout the building.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_2240732e9011ae8a": {
+  "text": "Select a Decker to Jack In.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_e296259815ce4311": {
+  "text": "Schattennest",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_35341c82722965e9": {
+  "text": "Armory door opened.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_db704079633a1336": {
+  "text": "It's so dark in this maintenance area you can barely see your hand in front of your face.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_55ede4650ee1c901": {
+  "text": "Doesn't look like the train will be going anywhere with the access bridge extended.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_eb2700dec8080568": {
+  "text": "A mid-level corporate compound, complete with living spaces on the upper levels.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_ed71c34111a30061": {
+  "text": "The heavy duty optical cable clicks back into its socket.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_c826c3a638a0a2ae": {
+  "text": "Locked.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_8fbd8eb92153e07d": {
+  "text": "Select someone to examine the rock.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_f033b22b0100ff7e": {
+  "text": "The virus infusion has been aborted.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_8c2ed3f791c90087": {
+  "text": "Cafe Cezve",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "screen"
+ },
+ "bark_50712208de9113b7": {
+  "text": "TRIAGE Cyberclinic",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "screen"
+ },
+ "bark_7084b3980b1ca11c": {
+  "text": "The Talismonger's Shop",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "screen"
+ },
+ "bark_8c18b78652e1d050": {
+  "text": "U-Bahn Platform",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "screen"
+ },
+ "bark_1903e78338b4296e": {
+  "text": "Der Weinkeller",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "screen"
+ },
+ "bark_0144841c3a39e255": {
+  "text": "Defused!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 3,
+  "kind": "prop"
+ },
+ "bark_fffe802fa894e492": {
+  "text": "Crew Advancement Available",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "popup"
+ },
+ "bark_ed613b863c242695": {
+  "text": "This data tap’s protocol buffer is now reset.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 3,
+  "kind": "prop"
+ },
+ "bark_9487139c4f5a251d": {
+  "text": "You now command a team of Shadowrunners. When traveling to new mission locations you will be able to choose which members of your team to bring, and modify their loadout for the run.\n\nWhen members of your team become permanently incapacitated on a mission, they'll be automatically extracted for emergency medical care. They will be patched up and ready for action the next time you return to your safehouse. Avoid this loss of firepower by always carrying some BuMoNa Trauma Kits into the field. These can be purchased at the Street Doc's office in the Kreuzbasar.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "popup"
+ },
+ "bark_314839426c2922da": {
+  "text": "The Rabbit Hole",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_8ce91c5e6aadb915": {
+  "text": "Hired Runners",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "popup"
+ },
+ "bark_d589c84279e7d52a": {
+  "text": "[Phone rings.]",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "prop"
+ },
+ "bark_9580a9438f47c2ae": {
+  "text": "You should talk to Paul Amsel before leaving the Kreuzbasar.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_d10a61f5d4d08292": {
+  "text": "Das Kesselhaus-Hotel & Nightclub. Crown jewel of Drogenkippe, the filthiest kiez in Berlin.\n\nOpening the door to the ground-level dance club is like bashing your head into a wall of sound. Flashing lights stab your eyes, and the air is perfumed with cheap synthohol and engine grease. Everything in here is cranked up to 11. A playground for the numb.\n\nGreen Winters is somewhere in this building. You steel yourself for the sensory assault and step inside. The team makes a quick check of their weapons and follows you into Das Kesselhaus.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE DRUG PIT",
+  "scenes": [
+   "a1_hotel_s1"
+  ]
+ },
+ "bark_ab5364502d878d29": {
+  "text": "Life was good. Easy jobs, regular pay, a reliable crew. But things went south and you had to drop off the grid. Put a bullet in the past and start fresh somewhere new.\n\nThe promise of opportunity and anonymity draws you to the free city of Berlin: The Flux-State, a grand experiment in social order. Corporations tread carefully here. Even the great dragon Lofwyr only has so much sway in the constantly evolving power structure of Berlin. The perfect place for a savvy shadowrunner to disappear and begin anew. \n\nAnd, as luck would have it, home to your old partner-in-crime, Monika Schäfer.\n\nIt’s your third run with Monika and her team. An old castle holdfast, one hour east of Berlin, perched on a hill overlooking the countryside. The job is standard smash-and-grab: crack the vault, grab the data, get out in one piece. A mediocre payday, but work is work. As the team gathers for Monika's pre-run briefing, you pause to take in your surroundings...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE HARFELD MANOR RUN",
+  "scenes": [
+   "a1_intro_s1"
+  ]
+ },
+ "bark_c8a838e6f45f8bb5": {
+  "text": "So far, so good. If your skirmish with security set off any alarms, you don't hear them. Monika leads the rest of the team downward, into the basement of the Harfeld Manor.\n\nYour payday is waiting. The data vault lies ahead.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE HARFELD MANOR RUN",
+  "scenes": [
+   "a1_intro_s2"
+  ]
+ },
+ "bark_deba38984d88fe81": {
+  "text": "The ride to the Adenauerplatz is a dismal one. Your only company on the train is an elderly dwarf in a ragged peacoat, and he spends most of his time muttering to himself. When the train rattles to a stop, he slowly rises from his perch and begins to hobble toward the doorway.\n\nThe station itself isn't much different: an old, broken-down thing at the end of its useful life, feebly tottering toward obsolescence. This area of Berlin has clearly seen better days.\n\nA window of light shines down from the surface, and even that looks stale. Slowly, you begin to climb.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "LOCKDOWN",
+  "scenes": [
+   "a2_abandonedlab_s1"
+  ]
+ },
+ "bark_eece8eda2fe0175a": {
+  "text": "Monolithic. Plastic. Sterile. The Berlin office of AG Chemie Europa is all of these things and more. The worst qualities of modern corporate culture, all mixed into a toxic stew and sluiced into a single prefab office building.\n\nThankfully, you shouldn't have to stay long. According to the intel that your client provided, this should be a simple smash-and-grab operation, and you've been given the tools to carry it out with a minimum of fuss.\n\nThe MKVI Prototype - whatever it is - is waiting for you on the 25th floor. It's time to go and get it.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "MKVI",
+  "scenes": [
+   "a2_agchemie_s1"
+  ]
+ },
+ "bark_beeebd3114dc8b77": {
+  "text": "The elevator whisks you upward, toward the executive-level 25th floor. As expected, the run has been relatively smooth sailing so far. A chime breaks the silence as the elevator glides to a stop. \n\nThe MKVI is somewhere on this floor. All that you have to do is find it.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "MKVI",
+  "scenes": [
+   "a2_agchemie_s2"
+  ]
+ },
+ "bark_1678cf1e220bd1ae": {
+  "text": "Aztechnology. A giant in the worlds of technological and magical research. One of the most powerful - and feared - corporations on the planet. There are very few places in this world that the tendrils of Aztechnology cannot reach.\n\nGermany is no exception. The black glass edifice of an Azzie pyramid dominates the courtyard of the Zitadelle Spandau. And countless other, more innocuous facilities can be found all over Berlin.\n\nThe lab that they maintain in the Jewühl District is one of these. According to your client, the project that the Azzies are working on here is dangerous. \n\nSo dangerous that she's paying you to bring the entire building down.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "BLOODLINE",
+  "scenes": [
+   "a2_aztechnologyraid_s1"
+  ]
+ },
+ "bark_9732c7ca2e3820a6": {
+  "text": "The glittering halls of the Aztechnology facility stand in sharp contrast to the megacorp’s unsavory reputation. Everything in here screams “money,” from the mirror-polish on the floors to the obsidian inlays in the walls.\n\nThe generators - and the Bloodline project - lie somewhere beneath your feet.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "BLOODLINE",
+  "scenes": [
+   "a2_aztechnologyraid_s2"
+  ]
+ },
+ "bark_b4fc13edac9f2145": {
+  "text": "Your stomach lurches slightly as the elevator plummets downward, into the bowels of the Aztechnology facility. A faint but omnipresent thrumming sound raises the hair on the back of your neck.\n\nThe deeper you go, the more certain you become: this place is vibrating with power, both from the generators, and from... something else.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "BLOODLINE",
+  "scenes": [
+   "a2_aztechnologyraid_s3"
+  ]
+ },
+ "bark_90203cbb81c4a8f5": {
+  "text": "OTK International is a small-time software developer, and it shows. The company’s main office is crammed up against the back wall of a massive shared office park, surrounded by competing businesses and larger corporations. A steady trickle of dead-eyed wageslaves flows in and out of the complex.\n\nThe office park’s main entrance is overflowing with hired security, but your forged keycard gets you past them easily enough. A few minutes later, you’re walking the winding corridors toward OTK International.\n\nYou’re only a few smashed computers away from putting Amsel’s plan into motion.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "EARWIG",
+  "scenes": [
+   "a2_earwig_s1"
+  ]
+ },
+ "bark_c6de113f96399851": {
+  "text": "The U-Bahn rattles to a halt at the edge of Kreuzberg. You’re only a few blocks away from Schattennest, the kiez that Maxim and his smugglers call home.\n\nAccording to Samuel, they should be expecting you.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "FALSE FLAG",
+  "scenes": [
+   "a2_humanis_s1"
+  ]
+ },
+ "bark_3680929b360261c1": {
+  "text": "The Humanis compound smells like a locker room, and doesn’t look much better. Calling the building “run down” would be an understatement; paint is peeling off of the cheap duraplast walls, and the tiles on the floor are mired with decades’ worth of grime. It’s an old, ugly place, perfectly suited to the old, ugly ideology being practiced here.\n\nYou enter the compound. The information that Samuel Beckenbauer sent you here to find lies somewhere ahead.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "FALSE FLAG",
+  "scenes": [
+   "a2_humanis_s2"
+  ]
+ },
+ "bark_e24dd7adb790ee44": {
+  "text": "You burst through the door to the Humanis compound and into the crisp night air. You’re not far from your extraction point.\n\nTime to go.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "FALSE FLAG",
+  "scenes": [
+   "a2_humanis_s3"
+  ]
+ },
+ "bark_0f26574e72121794": {
+  "text": "Your subway car is empty on the return trip to the Kreuzbasar. This stretch of the sprawling U-Bahn tunnel system doesn’t see much use, it seems. At least not at this hour.\n\nAs the train rattles on, you find yourself lost in thought. Old memories creep, unbidden, to the forefront of your mind. Memories of Monika in the old days, and the crew that you used to run with. Memories of success and failure, of wealth and poverty, of good times and bad.\n\nHalfway back to the Kreuzbasar, you are jolted out of your reverie by a buzzing sound. Your commlink. You’re receiving a call.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "IN TRANSIT",
+  "scenes": [
+   "a2_lightsout_s1"
+  ]
+ },
+ "bark_0aed97977a20f548": {
+  "text": "As the U-Bahn hums toward the Frankfurter Tor, you tug idly at the fabric of your maintenance uniform. You found it in a duffel bag on your seat when you boarded, along with a note from Duerr to put it on before your arrival.\n\n\"The moment you step off this train,\" the note said, \"your trial run begins. You are to rendezvous with the rest of your team, reconnoiter the building, and plant the specified devices in Aleshire's suite. Beyond that, your approach will be left to you.\n\n\"Do not disappoint us. You are being watched.\"",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "TRIAL RUN",
+  "scenes": [
+   "a2_lodge_s1"
+  ]
+ },
+ "bark_d0fb8f4b2488ad6c": {
+  "text": "Your client has hired you to \"tie up loose ends\" at a site of a botched cloak-and-dagger operation. One of the operatives from the failed mission has been captured by Knight Errant security forces, and it's only a matter of time before he talks.\n\nYour job is simple: kick in the door, find the operative, and put a bullet in his guts before he can spill them.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "LOOSE ENDS",
+  "scenes": [
+   "a2_pharma_s1"
+  ]
+ },
+ "bark_862b3205823adcb2": {
+  "text": "A ghostly labyrinth of tunnels and dead-end passageways makes up the network of sewers beneath the Kreuzbasar. You climb down the ladder into this shallow underworld and reel at the wave of foul smells that washes over you, clogging your sinuses and saturating your clothing. \n\nAs your eyes adjust to the light, you find yourself standing at the edge of a narrow channel of murky gray-green water. The rush of churning water echoes down the tunnel. \n\nYou catch a flash of motion in your peripheral vision. Something man-sized, moving fast, flitting across the far end of the tunnel. You strain your eyes to see it, but to no avail. The thing - whatever it is - is gone.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE SEWERS",
+  "scenes": [
+   "a2_sewer_s1"
+  ]
+ },
+ "bark_b6efed1e253ff581": {
+  "text": "It is a short train ride to Gesundbrunnen. You exit the subway car, stepping onto the old, grungy platform. The place is deserted, though signs of life are everywhere. A gaping hole in the ceiling filters cool, hazy light in from above. To your right, a small plot of crops struggles to endure in the cold and the limited light of the station. Trash and junk litters the platform. It’s clear this place hasn’t had anything resembling a janitorial staff in quite some time.\n\nSomewhere in this old, run-down U-Bahn station lies the entrance to Gesundbrunnen kiez, and hopefully some leads on the whereabouts of the Rabengeister and Gunari’s missing shipment.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "HARD TIMES",
+  "scenes": [
+   "a2_subwayslums_s1"
+  ]
+ },
+ "bark_c9971e981ef9aeef": {
+  "text": "APEX. An artificial intelligence designed for Matrix warfare. The thought of it sends a chill down your spine.\n\nFor years, the shadows have been ripe with rumors of true AI. Names like “Mirage” and “Psychotrope” have fueled conspiracy boards on the Shadowland BBS since 2029. Most savvy shadowrunners dismiss these stories as bunk.\n\nBut from what Alice has told you, at least one of the stories is real. APEX is waiting for you, somewhere down in the basement of an abandoned Saeder-Krupp lab. \n\nUnfortunately, you're going to have to wade through a lot of gang territory to get there...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "APEX RISING",
+  "scenes": [
+   "a3_apexrising_s1"
+  ]
+ },
+ "bark_c78afbafb9c9c77d": {
+  "text": "The elevator rumbles and clanks its way downward, into the guts of the old Saeder-Krupp development lab. Eighteen years ago, this place - and the project that was being developed here - disappeared from the record books. Thanks to Alice, you are one of the few people alive today who understand why.\n\nAlice was clear about one thing: you are here because APEX wants you to be. If the AI hadn’t wanted her to trace it here, she’d have wound up as dead as Monika. For better or worse, you’re here at APEX's invitation.\n\nThe elevator grinds to a halt. The doors slide open, and your nostrils are assaulted by eighteen years’ worth of stale air. APEX - and the kill switch that will deactivate it - await.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "APEX RISING",
+  "scenes": [
+   "a3_apexrising_s2"
+  ]
+ },
+ "bark_b61ae5b024f51a39": {
+  "text": "Your old van rattles over the uneven terrain as you make your way back to the Harfeld Manor. Vauclair's message to you was as short as it was cryptic: \"URGENT! Come back to the lab. Your assistance is needed.\"\n\nIn the year since Vauclair released his Panacea, the world has gone through a lot of changes. The balance of power has shifted from one megacorp to another; market shares have risen and fallen. A worldwide effort to find a cure for the \"Wyrm Flu\" continues. \n\nThe dragons are dead.\n\nVauclair's work was a rousing success. But over the past few months, strange things have been happening. Unexplained magical phenomena. The emergence of strange new creatures. Disasters, both natural and man-made.\n\nYour van rolls to a halt. If anyone can explain what's happening to the world, Vauclair can. It's time to go and find him.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "ONE YEAR LATER",
+  "scenes": [
+   "a3_endgame_altending_s1"
+  ]
+ },
+ "bark_8b1fb20b261d9b73": {
+  "text": "The van lurches forward. The smell of anxious sweat hangs close and thick inside, making the cramped vehicle feel even smaller. The streets of Berlin are strangely quiet as you make your way past the city limits. It’s as if the whole of the Flux State is waiting for something. A calm before the storm.\n\nAn hour later, the van rounds a corner. In the distance you can see the silhouette of Harfeld Manor, backed by the light of the full moon. You switch the van’s headlights off and shift to electric. A short while later, you kill the ignition and roll quietly down the last hill, pulling to a stop on the side of the road. A bird of prey takes wing from a tree above you, beginning its nocturnal pursuit. \n\nYou know how it feels.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "RETURN TO HARFELD",
+  "scenes": [
+   "a3_endgame_s1"
+  ]
+ },
+ "bark_fe3640040c0aad3e": {
+  "text": "After making your way across the manor grounds, you find the servants' entrance open and the immediate interior clear of any resistance. \n\nYou find the elevator that you used during your prior escape waiting patiently for your arrival. It shudders to life now, ready to carry you down into the facility below. To the place where Monika met APEX and the world turned upside down. \n\nWhere this whole thing began.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE LAB BELOW",
+  "scenes": [
+   "a3_endgame_s2"
+  ]
+ },
+ "bark_d48c3f5b9b1f4cc1": {
+  "text": "The sounds of machinery fade behind you as you venture further underground. Whoever built this facility was clearly well financed. It must have taken years to design, excavate, and build a complex like this in secrecy. \n\nYou continue through dimly lit halls, finally stepping into what appears to be another laboratory area. The corridor before you is deserted.\n\nDr. Adrian Vauclair is somewhere within this facility… and with him, the answers you seek.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "PANACEA",
+  "scenes": [
+   "a3_endgame_s3"
+  ]
+ },
+ "bark_612321ee397959e6": {
+  "text": "$(story.a3_Endgame_s4_LoadingScreen)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "INTO THE DARK",
+  "scenes": [
+   "a3_endgame_s4"
+  ]
+ },
+ "bark_5303195008f32247": {
+  "text": "You exit the clean-room to find yourself at the threshold of a vast underground chamber. If the abandoned facility that you just fought through was purgatory, then you now stand at the gateway to hell. The heat emanating from ahead hits you like a hammer - the smell of sulphur and ozone is enough to make your lunch want to find somewhere to hide.\n\nAbove the noise created by the whir of turbines, you can hear the deep rumble of something feral waking up. Something very, very big. \n\nYou check your weapons and step into the vast chamber.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "DRAGONFALL",
+  "scenes": [
+   "a3_endgame_s5"
+  ]
+ },
+ "bark_321cdf2d4fe542da": {
+  "text": "$(story.Global_HavenLoadingScreen)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE KREUZBASAR",
+  "scenes": [
+   "a3_haven",
+   "haven"
+  ]
+ },
+ "bark_639e49e7e966e266": {
+  "text": "The tiny credstick feels heavy in your pocket, fat with the weight of hard-won nuyen. The U-bahn station swallows you up and sends you hurtling down the rabbit hole. Towards Alice. Towards the information you’ve bled for. \n\nThe train pulls to a stop and the doors hiss open to the dark, old platform.\n\nWith luck, answers lie ahead.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "DOWN THE RABBIT HOLE",
+  "scenes": [
+   "a3_rabbithole_s1"
+  ]
+ },
+ "bark_b189998eb62a33fb": {
+  "text": "You and your team descend into the sewers, footsteps echoing off of the damp stone walls. You barely notice the smell - there’s no time to waste. Audran’s team of mercenaries is down here somewhere, racing to plant their explosive charges beneath the kiez. \n\nThe fate of the Kreuzbasar is in your hands.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "BENEATH THE KREUZBASAR",
+  "scenes": [
+   "a3_rabbithole_s2"
+  ]
+ },
+ "bark_ef083cc2a4a9470c": {
+  "text": "Drogenkippe. It'd be high up on anyone's list of places to avoid, but that's where you're headed... and you're going there alone this time. The last time that you saw Blitz, he was carting his portable terminal over to Cafe Cezve, presumably so that he could do his decking in the most comfortable environment possible.\n\nLike everything else related to Drogenkippe, the U-bahn train that services it is in poor repair. The car that you're riding in stinks like a chemical toilet on a hot day. On the floor near the doorway, you catch sight of a trampled lump of tattered fur; the longer you stare at it, the more convinced you become that you're looking at the remains of a long-dead squirrel.\n\nThe train rumbles to a stop, and the doors slide open. Time to get this over with.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "SETTLING DEBTS",
+  "scenes": [
+   "bonus_trust_blitz_s1"
+  ]
+ },
+ "bark_f9a8b328e979b031": {
+  "text": "Schattennest. The kiez next door to the Kreuzbasar, and an object lesson in anarchy gone wrong. Violent gangs rule the streets here, trading territory to the roar of gunfire. The streets are a warzone.\n\nAs dangerous as Schattennest already is, it could be worse. The gangs are vicious, but disorganized - they pose little risk to their neighbors. With little more than a makeshift barricade and a few volunteers, the Kreuzbasar has successfully insulated itself from the chaos of its neighboring kiez.\n\nThe Engineer could change all of that. He has to be stopped, and the F-State as a whole needs to be alerted to what his clients are trying to do. It's up to you and Eiger to make sure that happens.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE ENGINEER",
+  "scenes": [
+   "bonus_trust_eiger_s1"
+  ]
+ },
+ "bark_f8dd2cfc76052eb0": {
+  "text": "The drive from the Kreuzbasar to the Schönbuch Forest was a long one. For over six hours, you and Glory rode in relative silence, with only the sounds of the road for company.\n\nNow you find yourself crouching in the woods, watching, waiting. Off in the distance, the rustic exterior of Feuerstelle looks curiously warm and inviting, but you know what's waiting inside. The anticipation churns at your guts like a living thing.\n\nEventually, a van pulls out of the compound's driveway and rolls out along a service road before disappearing from view. Glory gives you a nod and begins to scramble forward.\n\nHarrow has left the building. It's time for you to make your way inside.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "FEUERSTELLE",
+  "scenes": [
+   "bonus_trust_glory_s1"
+  ]
  }
 }

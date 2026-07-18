@@ -1,0 +1,3064 @@
+{
+ "narrator": {
+  "bio": "The unseen game master. Reads every scene description in Heoi and the Walled City: harbor rot, neon, and the dread of the Yama Kings.",
+  "direction": "Noir gravitas without monotony: a storyteller who can go from dry wit to dread. Same narrator voice as Dead Man's Switch (Matt).",
+  "kw": [
+   "narrator",
+   "gravelly",
+   "deep",
+   "storyteller",
+   "noir",
+   "documentary"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_gobbet": {
+  "bio": "Ork street shaman and devotee of Rat, a core crew member who scavenges, snacks, and slings spirits with equal gusto.",
+  "direction": "Young, scrappy, and gleefully gross; irreverent gutter-punk cheer with a sly edge, like she is always half-grinning around a mouthful of something questionable.",
+  "kw": [
+   "young",
+   "raspy",
+   "playful",
+   "energetic",
+   "mischievous",
+   "irreverent"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_erminekafai": {
+  "bio": "A bleary, nosebleed-prone troll quartermaster who sells armor and ammunition out of the crew's hub, living where she works.",
+  "direction": "Deep, worn-down, and flatly practical; a big voice sanded dull by exhaustion, warming only slightly when talking business.",
+  "kw": [
+   "deep",
+   "weary",
+   "gruff",
+   "deadpan",
+   "tired",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_storymchubcharnameqiu": {
+  "bio": "The driven operative running the crew's off-the-books campaign in Shadows of Hong Kong, who has burned her last corporate favors to get Mitsuhama irrefutable proof against their target.",
+  "direction": "Commanding and tightly controlled, with fatigue and desperation pressing under the discipline; a leader who cannot afford to sound like she is losing.",
+  "kw": [
+   "authoritative",
+   "controlled",
+   "determined",
+   "weary",
+   "clipped",
+   "asian"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_spidershen": {
+  "bio": "Monk Shen, called Spider Shen for the spiders he keeps, a wary Heoi vendor who sells nothing to outsiders without Kindly Cheng's say-so.",
+  "direction": "Dry, gravelly, and suspicious; short sentences delivered like a door closing, with an old monk's stillness under the hostility.",
+  "kw": [
+   "gravelly",
+   "terse",
+   "wary",
+   "cold",
+   "cantonese",
+   "dry"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_lilylai": {
+  "bio": "A mouthy young woman the crew must escort out of corporate custody in Shadows of Hong Kong, caught between Fuchi and Yamatetsu and sick of everyone's plans for her.",
+  "direction": "Bratty, quick, and sarcastic; teenage-adjacent snark papering over fear, with real bite when she pushes back.",
+  "kw": [
+   "young",
+   "sarcastic",
+   "brash",
+   "energetic",
+   "sassy",
+   "asian"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_gin": {
+  "bio": "A feisty old Heoi regular locked in an eternal board-game feud with his equally ancient sparring partner.",
+  "direction": "Elderly, reedy, and combative in a delighted way; a grandpa voice that crows over small victories and rages theatrically at losses.",
+  "kw": [
+   "elderly",
+   "raspy",
+   "feisty",
+   "theatrical",
+   "cantonese",
+   "playful"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_reporter": {
+  "bio": "A trideo news reporter covering the violence and mass hallucinations spilling out of the Walled City for a Hong Kong broadcast.",
+  "direction": "Polished broadcast delivery, smooth and articulate, with practiced gravitas that never quite becomes real concern.",
+  "kw": [
+   "smooth",
+   "polished",
+   "articulate",
+   "confident",
+   "broadcast",
+   "professional"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_eos": {
+  "bio": "A chipper elf tinkerer met during the bonus campaign, forever misplacing parts like her precious EMS transducer.",
+  "direction": "Bright, bubbly, and a little scattered; fast friendly patter with genuine warmth and nerdy delight in her gear.",
+  "kw": [
+   "bright",
+   "energetic",
+   "quirky",
+   "young",
+   "friendly",
+   "upbeat"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_thejarl": {
+  "bio": "A laid-back shadowrunner acquaintance hanging around the club scene who knows the player's growing reputation in the Hong Kong shadows.",
+  "direction": "Deep, relaxed, and knowing; unhurried delivery with a hint of amusement, like he has seen enough runs to be impressed by very little.",
+  "kw": [
+   "deep",
+   "relaxed",
+   "knowing",
+   "casual",
+   "warm",
+   "confident"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_tsangresearcher": {
+  "bio": "A jumpy ork scientist inside a Tsang facility who can be coaxed into leaking a door code and bitterly regrets it.",
+  "direction": "Nervous, high-strung, and whispery until panic tips him into shrieking; every line sounds like he is checking over his shoulder.",
+  "kw": [
+   "nervous",
+   "jittery",
+   "whispery",
+   "panicked",
+   "high-strung",
+   "male"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneplazawitchitaredname": {
+  "bio": "An eccentric elf tea artisan in the plaza, endlessly chasing the perfect blend and the perfect pretentious name for it.",
+  "direction": "Soft, dreamy, and self-serious about absurd things; an airy artisan voice that treats cinnamon ratios like matters of the soul.",
+  "kw": [
+   "soft",
+   "dreamy",
+   "whimsical",
+   "calm",
+   "airy",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_storymchubcharnamelee": {
+  "bio": "A grateful hub contact whose sick friend the crew helped, repaying the favor with access to his special stock of goods.",
+  "direction": "Warm, easy, and a touch conspiratorial; the friendly murmur of a man who always has something set aside for people he likes.",
+  "kw": [
+   "warm",
+   "friendly",
+   "smooth",
+   "conspiratorial",
+   "cantonese",
+   "genial"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_receptionist": {
+  "bio": "The front-desk receptionist at Tsang Mechanical Services, courteous right up until security gets called.",
+  "direction": "Crisp, corporate, and professionally pleasant; customer-service smoothness that snaps into sharp alarm when the visit goes wrong.",
+  "kw": [
+   "polite",
+   "crisp",
+   "professional",
+   "smooth",
+   "corporate",
+   "neutral"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_commandergarra": {
+  "bio": "The Shiawase security commander who locks down his facility and coldly counts down a drone sterilization sweep against the intruding runners.",
+  "direction": "Hard military authority over a PA system; clipped, cold, and contemptuous, savoring the countdown more than he should.",
+  "kw": [
+   "authoritative",
+   "commanding",
+   "cold",
+   "clipped",
+   "military",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_newactor": {
+  "bio": "An unnamed runner on the job who keeps pointing out, with mounting exasperation, that the team really should have brought a decker.",
+  "direction": "Dry, pragmatic, and lightly needling; the tone of the one competent person on the crew narrating everyone else's mistakes.",
+  "kw": [
+   "dry",
+   "sarcastic",
+   "pragmatic",
+   "casual",
+   "deadpan"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_merchant": {
+  "bio": "A market hawker pushed out of the old market by the Strangler's men, still loudly pitching his beauties from a new stall.",
+  "direction": "Lively bazaar patter, enthusiastic and ingratiating, with an undertone of nerves about the gangs circling his business.",
+  "kw": [
+   "lively",
+   "enthusiastic",
+   "hawker",
+   "accented",
+   "chinese",
+   "eager"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_sceneglobalnamecompelledlocal1": {
+  "bio": "A resident of the Sinking Ship raft community during Gobbet's loyalty mission, loyal to Malvina and worn down by the rat infestation below decks.",
+  "direction": "Soft-spoken, earnest, and tired; the humble gratitude of someone holding a drowning home together one chore at a time.",
+  "kw": [
+   "soft",
+   "earnest",
+   "weary",
+   "humble",
+   "gentle",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_captainhoang": {
+  "bio": "A silver-tongued corporate captain in the Lily Lai affair who drip-feeds the truth about Fuchi and Yamatetsu only when cornered.",
+  "direction": "Smooth, measured, and reasonable-sounding; every admission framed as a favor, with the faint impatience of a man used to being believed.",
+  "kw": [
+   "smooth",
+   "measured",
+   "persuasive",
+   "calculating",
+   "refined",
+   "cool"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneconventioncongoer3name": {
+  "bio": "An opinionated convention-goer holding forth on VirtuaX, Fuchi's collapse, and corporate greed to anyone in earshot.",
+  "direction": "Fast, geeky, and argumentative; forum-thread energy spoken aloud, certain of everything and thrilled to be debating it.",
+  "kw": [
+   "nasal",
+   "geeky",
+   "argumentative",
+   "energetic",
+   "fast",
+   "young"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_beatensuspect": {
+  "bio": "A small-time street dealer being beaten in custody, begging anyone nearby to make it stop.",
+  "direction": "Broken and terrified, words stumbling through split lips; pleading that cracks into sobs, with no pride left to protect.",
+  "kw": [
+   "terrified",
+   "trembling",
+   "desperate",
+   "weak",
+   "pleading"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_elfrefugee": {
+  "bio": "A refugee from the city's horrors quietly organizing family and friends to flee, wary of both monsters and corporate enforcers.",
+  "direction": "Hushed and anxious, forcing normalcy when overheard; a voice that keeps dropping to a whisper out of habit.",
+  "kw": [
+   "anxious",
+   "hushed",
+   "weary",
+   "fearful",
+   "soft"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_raymondtsang": {
+  "bio": "The broken remnant of the Tsang family encountered amid the Walled City's nightmares, mourning the good place he and his mother built before it rotted.",
+  "direction": "Frail, halting, and haunted; a stammering near-whisper full of grief, each sentence an effort dragged out of a collapsing mind.",
+  "kw": [
+   "frail",
+   "halting",
+   "haunted",
+   "whispery",
+   "broken",
+   "grief"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_kowloonlocal": {
+  "bio": "A traumatized Kowloon resident hiding from something, or someone, that follows them even behind closed eyes.",
+  "direction": "Paranoid, frantic muttering that spikes into panic; a raw, sleepless voice scraped thin by terror.",
+  "kw": [
+   "paranoid",
+   "trembling",
+   "whispery",
+   "frantic",
+   "raw"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_triadthug": {
+  "bio": "An ambitious triad soldier who smells weakness in his boss and starts openly plotting the succession.",
+  "direction": "Menacing, gloating, streetwise; a sneer in every syllable, enjoying the moment the power tips his way.",
+  "kw": [
+   "menacing",
+   "gruff",
+   "sneering",
+   "cocky",
+   "rough",
+   "thuggish"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_tsangsoldier": {
+  "bio": "A Tsang guard unraveling under supernatural influence, terrifying his squadmates as his mind goes.",
+  "direction": "Harsh and unstable, lurching between barked denials and eerie flat calm; a soldier's voice with the discipline stripped out.",
+  "kw": [
+   "panicked",
+   "harsh",
+   "unstable",
+   "shouting",
+   "intense"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_fuchitechnician": {
+  "bio": "A slacker Fuchi tech-support drone whose crisis playbook starts and ends with asking if you tried restarting it.",
+  "direction": "Casual, nasal, and mildly aggrieved; help-desk boredom with genuine disappointment about missing a celebrity sighting.",
+  "kw": [
+   "casual",
+   "nasal",
+   "slacker",
+   "young",
+   "apologetic",
+   "deadpan"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_tattooedsmuggler": {
+  "bio": "A surly dockside smuggler waiting on a late shipment and happy to let his lazy boss come find him.",
+  "direction": "Gruff, coarse, and put-upon; low grumbling with the cadence of a man who complains for a living.",
+  "kw": [
+   "gruff",
+   "coarse",
+   "surly",
+   "low",
+   "rough"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sunny": {
+  "bio": "A shaken bar worker who watched the runners kill Combat Pang and just wants everyone to take what they came for and leave.",
+  "direction": "Quiet, rattled, and appeasing; the careful flatness of someone trying very hard not to become the next casualty.",
+  "kw": [
+   "shaken",
+   "nervous",
+   "quiet",
+   "wary",
+   "subdued"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_fuchimage": {
+  "bio": "A Fuchi security mage who spots the intruders and screams the alarm.",
+  "direction": "One pure shot of combat panic; sharp, urgent shouting with cracking composure.",
+  "kw": [
+   "sharp",
+   "urgent",
+   "shouting",
+   "aggressive",
+   "panicked"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_is0bel": {
+  "bio": "Is0bel is the crew's dwarf decker, a Kowloon Walled City survivor who had her worst memories locked away and is as deadly with a sniper rifle and explosives as she is in the Matrix.",
+  "direction": "Terse and flat with a guarded edge; every sentence clipped short, dry sarcasm covering old trauma she refuses to discuss.",
+  "kw": [
+   "deadpan",
+   "dry",
+   "young",
+   "guarded",
+   "terse",
+   "cool"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_maximumlaw": {
+  "bio": "Maximum Law is the eccentric weapons dealer of Heoi, hawking guns from the barge he proudly calls his techno-palace and refusing to leave it no matter what.",
+  "direction": "Hyper, fast, and slang-heavy with sudden spikes of volume; a wired enthusiast who treats every gun sale like a party and every question about leaving like an insult.",
+  "kw": [
+   "energetic",
+   "fast",
+   "quirky",
+   "excitable",
+   "brash",
+   "nasal"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_frederickkafai": {
+  "bio": "Frederick Ka Fai is an ork doorman guarding an exclusive members-only club, polite right up until you push him.",
+  "direction": "Deep, unhurried, and courteous with an immovable wall underneath; the calm of a big man who has never needed to raise his voice twice.",
+  "kw": [
+   "deep",
+   "calm",
+   "gruff",
+   "low",
+   "firm"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_storymchubcharnameleung": {
+  "bio": "Leung is an aging local who idles on the Heoi docks, complaining about the cold breeze in his bones and groaning at his own accidental puns.",
+  "direction": "Creaky, weary, and dry; an old waterfront voice that grumbles fondly, with self-deprecating humor under the aches.",
+  "kw": [
+   "old",
+   "creaky",
+   "weary",
+   "dry",
+   "warm",
+   "cantonese"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_rhombus": {
+  "bio": "Rhombus is the decker from Is0bel's past who performed the procedure that locked away her Walled City memories, and their reunion reopens every old wound between them.",
+  "direction": "Prickly and defensive, quick to escalate; wounded pride and genuine old affection fighting under a sharp, argumentative delivery.",
+  "kw": [
+   "sharp",
+   "defensive",
+   "nasal",
+   "young",
+   "tense",
+   "bitter"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_desksergeant": {
+  "bio": "The Desk Sergeant mans the front counter of an HKPF station, equal parts officious gatekeeper and easily startled bureaucrat who once mistook a metahuman visitor for a monster.",
+  "direction": "Officious and brisk with a reedy edge that cracks into panic; a paper-pusher's authority that evaporates the moment something unusual walks in.",
+  "kw": [
+   "nervous",
+   "reedy",
+   "brisk",
+   "officious",
+   "flustered"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_elderng": {
+  "bio": "Elder Ng is one of the Elders of the Whampoa in the Shadows of Hong Kong campaign, an ork woman festooned with trid screens and speakers who hires the runners to stop a string of killings.",
+  "direction": "Gracious, formal, and aged, with real grief pressing through the courtesy; a community matriarch keeping her composure over rising fear.",
+  "kw": [
+   "old",
+   "warm",
+   "wise",
+   "formal",
+   "dignified",
+   "cantonese"
+  ],
+  "gender": "female",
+  "age": "old"
+ },
+ "name_bloodiedwoman": {
+  "bio": "The Bloodied Woman is an HKU student found resting in a dangerous district, soaked in blood that is not hers and unsettlingly casual about the predators who attacked her.",
+  "direction": "Airy, soft, and eerily serene; a friendly student voice whose total calm about violence is exactly what makes her unnerving.",
+  "kw": [
+   "calm",
+   "soft",
+   "breathy",
+   "eerie",
+   "young",
+   "detached"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_huskytroll": {
+  "bio": "The Husky Troll is a hulking dockside guard who checks permits with lazy menace and jokes about the last idiot he dropped in a dumpster.",
+  "direction": "A slow, deep rumble with deadpan threat; unbothered, almost bored, letting sheer size do most of the intimidating.",
+  "kw": [
+   "deep",
+   "gravelly",
+   "slow",
+   "deadpan",
+   "menacing"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_cheungsingroosterlo": {
+  "bio": "Cheung-Sing 'Rooster' Lo is an elf triad figure holding court at the Shangri-La, warily fencing with rivals like the Red Dragons and the Yellow Lotus over control of Kowloon.",
+  "direction": "Silky, refined, and imperious; a purring interrogator's cadence that stays elegant while it threatens, never raising its voice.",
+  "kw": [
+   "smooth",
+   "refined",
+   "cold",
+   "authoritative",
+   "silky",
+   "cantonese"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_scenemidringgrocername": {
+  "bio": "Yang, called 'Steel Drake', is a hard-featured fruit vendor in the Whampoa's mid-ring whose cautious manner and street name hint at a rougher past.",
+  "direction": "Low, guarded, and economical; a man who wastes no words and hasn't smiled in years, cautious rather than cold.",
+  "kw": [
+   "low",
+   "guarded",
+   "terse",
+   "calm",
+   "gravelly",
+   "chinese"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_carter": {
+  "bio": "Carter is an elf mercenary moving with the team through smuggler territory, cool-headed but quick to recommend taking enemies out first.",
+  "direction": "Clipped, alert, and professional; a soldier's steady delivery with a pragmatic, slightly eager edge when violence is on the table.",
+  "kw": [
+   "clipped",
+   "cool",
+   "professional",
+   "alert",
+   "confident"
+  ],
+  "gender": "female",
+  "age": null
+ },
+ "name_vasilisa": {
+  "bio": "Vasilisa is the leader of a crew of Vory smugglers hiding stolen goods from the Red Dragons in the drains beneath the Whampoa.",
+  "direction": "Hard Russian accent, husky and businesslike; cruelty delivered as calm logistics, with a predator's amusement toward intruders.",
+  "kw": [
+   "russian",
+   "husky",
+   "cold",
+   "commanding",
+   "accent",
+   "low"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_forlornspirit": {
+  "bio": "The Forlorn Spirit is the lingering ghost of a Walled City shopkeeper murdered by Bao's protection racket, slowly piecing together how it died.",
+  "direction": "Hollow, halting, and echoing; words surface in fragments with long pauses, grief and confusion drifting in and out of focus.",
+  "kw": [
+   "ethereal",
+   "hollow",
+   "whispery",
+   "mournful",
+   "slow"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_tsangresearchmage": {
+  "bio": "The Tsang Research Mage is a haughty corporate magician in Tsang Tower, more annoyed that an escaped para-zoological creature is leaking on her Persian rug than alarmed by the outbreak.",
+  "direction": "Crisp, haughty, and impatient; cut-glass corporate diction that treats intruders and rampaging monsters as equal inconveniences.",
+  "kw": [
+   "refined",
+   "haughty",
+   "crisp",
+   "sharp",
+   "authoritative",
+   "impatient"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_sailor": {
+  "bio": "The Sailor is a superstitious deckhand on a Heoi smuggling crew, rattled by the bad dreams plaguing the harbor and eager to put out to sea.",
+  "direction": "Rough, folksy, and uneasy, with loose working-man's grammar; a weathered voice trying to talk itself out of being scared.",
+  "kw": [
+   "rough",
+   "folksy",
+   "uneasy",
+   "weathered",
+   "drawl"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_tsangreconcommando": {
+  "bio": "The Tsang Recon Commando is a corporate soldier locking down the inner blocks, all barked orders and hair-trigger nerves.",
+  "direction": "Barked, aggressive, and tightly wound; parade-ground volume with a crack of genuine panic when things stop going by the book.",
+  "kw": [
+   "aggressive",
+   "harsh",
+   "commanding",
+   "tense",
+   "loud"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_galina": {
+  "bio": "Galina is Vasilisa's seething Vory partner, sick of hiding in the stinking drains and itching to make gruesome examples of anyone who meddles.",
+  "direction": "Venomous and seething with a hard Russian accent; anger always just under the surface, relishing every threat she describes.",
+  "kw": [
+   "russian",
+   "harsh",
+   "menacing",
+   "fierce",
+   "accent",
+   "cold"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_sceneconventionvipdeckername": {
+  "bio": "The VIP Decker is a smug corporate guest at the decker convention, guarding his maglocked cyberdeck and delighting in siccing security on anyone who touches it.",
+  "direction": "Condescending, nasal, and self-satisfied; the unhurried drawl of a man who has never once been in real danger and knows security works for him.",
+  "kw": [
+   "smug",
+   "nasal",
+   "refined",
+   "condescending",
+   "smooth"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_fuchiadept": {
+  "bio": "The Fuchi Adept is a junior corporate security guard stuck enforcing lockdown orders during a fire alarm, apologetic but terrified of disobeying his superiors.",
+  "direction": "Strained politeness fraying into panic; earnest, over-formal, and increasingly desperate as everyone keeps pushing him.",
+  "kw": [
+   "nervous",
+   "polite",
+   "earnest",
+   "strained",
+   "young",
+   "tense"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_whampoanpuppet": {
+  "bio": "The Whampoan Puppet is the eerily blank stand-in merchant installed in Maximum Law's place, insisting its job is to not know anything.",
+  "direction": "Flat, affectless customer-service monotone; perfectly pleasant, perfectly empty, uncanny precisely because nothing is behind it.",
+  "kw": [
+   "flat",
+   "monotone",
+   "eerie",
+   "calm",
+   "hollow"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_conventionsecuritycaptain": {
+  "bio": "The Convention Security Captain runs hotel security at the decker convention and spends the runners' visit shouting orders through an escalating crisis.",
+  "direction": "Blustery, loud, and harried; overwhelmed authority that swings between barking commands and outright alarm.",
+  "kw": [
+   "blustery",
+   "loud",
+   "gruff",
+   "commanding",
+   "harried"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_streetdoc": {
+  "bio": "The Street Doc is a corner medic-merchant hawking first aid kits and ginkgo biloba, friendly to buyers and curt to everyone else.",
+  "direction": "Rapid salesman's patter that snaps instantly to flat dismissal; energetic pitch voice with a raspy, streetwise bottom.",
+  "kw": [
+   "energetic",
+   "brash",
+   "raspy",
+   "quick",
+   "wry"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneglobalboatdrivername": {
+  "bio": "Pei-Lon is the getaway boat driver waiting at the loading dock during the convention job, keeping the briefing short because the HKPF is already inbound.",
+  "direction": "Brisk, steady, and time-pressed; a professional's low-key calm with an undercurrent of hurry, no wasted words.",
+  "kw": [
+   "brisk",
+   "calm",
+   "terse",
+   "low",
+   "steady"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneconventionkitchenworkername": {
+  "bio": "The Kitchen Worker is a put-upon convention caterer willing to trade a uniform for a little payback against a decker who has been a prick to him all show.",
+  "direction": "Conspiratorial and wry, kept low so the boss doesn't hear; tired working-class resentment warming up at the chance for petty revenge.",
+  "kw": [
+   "wry",
+   "weary",
+   "sly",
+   "casual",
+   "low"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_newscaster": {
+  "bio": "The Newscaster is a Hong Kong trideo anchor whose broadcasts brand Duncan Wu and the player's crew as dangerous White Star terrorists.",
+  "direction": "Polished, precise broadcast cadence; smooth professional gravity that sells fabricated terror as sober fact.",
+  "kw": [
+   "polished",
+   "smooth",
+   "professional",
+   "crisp",
+   "authoritative"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_officeronmegaphone": {
+  "bio": "The Officer on Megaphone is an HKPF cop shouting surrender ultimatums at Duncan Wu and the player during the manhunt.",
+  "direction": "Amplified, harsh, and commanding; full-lung cop bark with the strained distortion of a voice pushed through a megaphone.",
+  "kw": [
+   "loud",
+   "harsh",
+   "commanding",
+   "barking",
+   "authoritative"
+  ],
+  "gender": "male",
+  "age": null
+ },
+ "name_streetsoldier": {
+  "bio": "The Street Soldier is a foot-level gunman posted as a lookout, reporting that the targets haven't shown yet.",
+  "direction": "Flat, casual, and slightly bored; a low-ranking tough keeping watch, more routine than menace.",
+  "kw": [
+   "flat",
+   "casual",
+   "young",
+   "low",
+   "alert"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_duncan": {
+  "bio": "Duncan Wu is the player's ork foster brother, a Lone Star-trained security officer who goes rogue to help you uncover the truth behind Raymond Black's disappearance.",
+  "direction": "Solid, dutiful, and quietly wounded; a by-the-book soldier's cadence that cracks into brotherly warmth and hot-headed frustration under pressure.",
+  "kw": [
+   "deep",
+   "gruff",
+   "earnest",
+   "authoritative",
+   "young",
+   "warm"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_craftyxu": {
+  "bio": "Crafty Xu is Heoi's talismonger, a shopkeeper selling magical goods while haunted by nightmares and the legacy of her mother's journals.",
+  "direction": "Warm, tired shopkeeper's voice with a haunted undertone; friendly market patter that goes quiet and distant when the dreams come up.",
+  "kw": [
+   "warm",
+   "weary",
+   "soft",
+   "calm",
+   "chinese",
+   "haunted"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_callumkafai": {
+  "bio": "Callum Ka Fai is a genial troll who plies Heoi's residents with drinks and recreational chemicals, cheerfully numbing the neighborhood's troubles.",
+  "direction": "A huge, laid-back rumble; the unhurried, conspiratorial friendliness of a barman who has something extra under the counter.",
+  "kw": [
+   "deep",
+   "gravelly",
+   "relaxed",
+   "friendly",
+   "rumbling"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_qianya": {
+  "bio": "Qian Ya, the Queen With a Thousand Teeth, is the ancient hungry spirit imprisoned beneath Kowloon whose influence seeps out through corrupted machines and dreams.",
+  "direction": "An inhuman chorus of whispers; sibilant, hungry, many voices speaking as one, seductive and wrong in equal measure.",
+  "kw": [
+   "whispery",
+   "ethereal",
+   "sinister",
+   "cold",
+   "hissing",
+   "layered"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_exec": {
+  "bio": "A corporate insider who guides the team through the feng shui of a Wuxing office, explaining how to sabotage the building's flow of qi.",
+  "direction": "Crisp, precise, and clinical; a consultant's measured delivery that treats mystical sabotage like a line item on a report.",
+  "kw": [
+   "refined",
+   "calm",
+   "precise",
+   "corporate",
+   "measured"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_drshenyang": {
+  "bio": "Dr. Shenyang runs Southern Crown Films, a schlocky trid studio, and hires the team through Kindly Cheng to handle a delicate problem with a rival.",
+  "direction": "Fast-talking showbiz hustler; oily, ingratiating charm with dropped consonants and a salesman's grin you can hear.",
+  "kw": [
+   "smooth",
+   "nasal",
+   "fast",
+   "sleazy",
+   "energetic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_bull": {
+  "bio": "Bull is a short-fused ork decker encountered at the matrix convention, furious at anyone who breaks his concentration.",
+  "direction": "Booming, apoplectic bluster; a big man perpetually one interruption away from an aneurysm, sputtering through his own rage.",
+  "kw": [
+   "gruff",
+   "deep",
+   "booming",
+   "irritable",
+   "explosive"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_kiluminatialabrad": {
+  "bio": "Kiluminati Alabrad is an easygoing ork shaman fresh to Hong Kong, angling to join the player's crew and get established in the shadows.",
+  "direction": "Breezy, upbeat, and eager; street-casual friendliness with a hustler's optimism, always greeting you like an old friend.",
+  "kw": [
+   "upbeat",
+   "casual",
+   "friendly",
+   "young",
+   "energetic"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_maintenancemanager": {
+  "bio": "A harried dwarf maintenance supervisor trying to keep a broken turbine, her crew, and her job all in one piece.",
+  "direction": "Brusque and clipped, no time for you; a foreman's bark worn down by deadlines and idiots deviating from procedure.",
+  "kw": [
+   "brusque",
+   "gruff",
+   "clipped",
+   "impatient",
+   "nononsense"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_sceneglobalnamecompelledlocal2": {
+  "bio": "A dwarf local from Gobbet's loyalty mission who welcomes newcomers aboard with unsettlingly agreeable cheer.",
+  "direction": "Pleasant and welcoming with a faint, glassy vacancy; hospitality that sounds one notch too serene to be entirely his own.",
+  "kw": [
+   "friendly",
+   "calm",
+   "soft",
+   "vacant",
+   "pleasant"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_tsangworker": {
+  "bio": "A dock worker at a Tsang facility waiting on a courier delivery of environmental controller chips.",
+  "direction": "Bored blue-collar drawl; going through the motions of checking credentials with the enthusiasm of a man counting down his shift.",
+  "kw": [
+   "bored",
+   "casual",
+   "flat",
+   "gruff",
+   "workingclass"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_nevillema": {
+  "bio": "Neville Ma is the polished owner of Yellow Springs Studios, a trid mogul whose miraculous survival of a car accident is not what it seems.",
+  "direction": "Urbane, silken celebrity charm; every sentence a small performance of prosperity, with something faintly too composed underneath.",
+  "kw": [
+   "smooth",
+   "refined",
+   "charming",
+   "polished",
+   "chinese",
+   "suave"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneouterringredpoletriadname": {
+  "bio": "An ork Red Pole, a triad enforcer officer, counting down the seconds before she makes good on her graphic threats.",
+  "direction": "Low, snarling menace; the flat certainty of someone who has ripped fingers off before and is bored of asking twice.",
+  "kw": [
+   "menacing",
+   "raspy",
+   "cold",
+   "gravelly",
+   "threatening"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_civilian": {
+  "bio": "An ordinary resident of the Walled City, grateful for help and bewildered that anyone would be here at a time like this.",
+  "direction": "Soft, polite, and anxious; the careful voice of someone used to keeping their head down in a dangerous place.",
+  "kw": [
+   "soft",
+   "nervous",
+   "polite",
+   "gentle",
+   "ordinary"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_thug": {
+  "bio": "A street tough who clocks the player as a fellow shadowrunner and spins a self-pitying tale in which none of his trouble is his fault.",
+  "direction": "Streetwise and defensive; cocky appraisal sliding into aggrieved victimhood, always one excuse ahead of the blame.",
+  "kw": [
+   "rough",
+   "streetwise",
+   "defensive",
+   "raspy",
+   "cocky"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_admincomputer": {
+  "bio": "An unlocked hotel admin terminal whose message logs reveal something horribly wrong with the kitchen's noodle extruder.",
+  "direction": "Flat, clipped machine-interface neutrality; menu prompts and system text read with sterile, indifferent precision.",
+  "kw": [
+   "robotic",
+   "flat",
+   "monotone",
+   "synthetic",
+   "clipped"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_sceneconventioncongoerangryname": {
+  "bio": "An irate convention attendee who traveled seventeen hours to try a software demo and has been waiting behind a kiosk hog.",
+  "direction": "Shrill, escalating nerd outrage; entitled indignation cranked to eleven, voice cracking on the italics.",
+  "kw": [
+   "shrill",
+   "irritable",
+   "whiny",
+   "energetic",
+   "young"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_kitchenmanager": {
+  "bio": "The furious floor manager of a convention catering operation, defending his kitchen from wandering attendees.",
+  "direction": "Barking, frothing kitchen-tyrant fury; every line delivered at full boil with spittle practically audible.",
+  "kw": [
+   "barking",
+   "angry",
+   "gruff",
+   "loud",
+   "harsh"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_scenenamemfi": {
+  "bio": "MFI is an elf decker who wakes up trapped in a pod with new cyberware and no memory of how he got there.",
+  "direction": "Panicked hammering on the glass that settles into wry, quick-witted decker sarcasm once the shock wears off.",
+  "kw": [
+   "nervous",
+   "sharp",
+   "young",
+   "sarcastic",
+   "quick"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_flightattendant": {
+  "bio": "A courteous flight attendant working the cabin on the trip into Hong Kong, taking drink orders with professional cheer.",
+  "direction": "Bright, practiced service-industry politeness; smooth, pleasant, and utterly unruffled, with a smile built into the voice.",
+  "kw": [
+   "pleasant",
+   "smooth",
+   "polite",
+   "cheerful",
+   "professional"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_deputychiefinspector": {
+  "bio": "An HKPF deputy chief inspector controlling access to a restricted floor of the precinct, more procedural than curious.",
+  "direction": "Clipped, official, and wary; a cop's flat authority that softens only grudgingly once your papers check out.",
+  "kw": [
+   "authoritative",
+   "clipped",
+   "stern",
+   "official",
+   "wary"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_producer": {
+  "bio": "A trid producer at Neville Ma's lavish party, gossiping over century-old Cabernet about the host's miraculous recovery.",
+  "direction": "Chatty, urbane industry gossip; confiding and faintly awed, savoring every rumor like the free wine.",
+  "kw": [
+   "chatty",
+   "smooth",
+   "gossipy",
+   "refined",
+   "amused"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_gunrunner": {
+  "bio": "A market stall arms dealer with Bao's permission to sell, pitching firearms as family-protection essentials.",
+  "direction": "Eager hawker's patter in clipped, accented rhythm; relentless salesmanship where every gun is a beauty and satisfaction is everything.",
+  "kw": [
+   "energetic",
+   "eager",
+   "accented",
+   "chinese",
+   "salesman"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_hkpfofficer": {
+  "bio": "A terrified HKPF cop who, surrounded by triad soldiers, gives up that the kill order on the fugitives comes from someone on the Council.",
+  "direction": "Trembling, breathless fear; words tumbling out in a rush to prove he knows nothing worth dying for.",
+  "kw": [
+   "nervous",
+   "shaky",
+   "frightened",
+   "young",
+   "breathless"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_sceneconventiondrunktrollname": {
+  "bio": "A very drunk troll at the convention, loudly convinced the staff escorting her out are doing so because she is a troll.",
+  "direction": "Huge, booming, and thoroughly slurred; indignant volume with mushy consonants, swinging between outrage and camaraderie.",
+  "kw": [
+   "booming",
+   "slurred",
+   "loud",
+   "deep",
+   "drunken"
+  ],
+  "gender": "female",
+  "age": null
+ },
+ "name_knighterrantcaptain": {
+  "bio": "A Knight-Errant security captain on lockdown duty, grumbling about intruders upstairs and the unreliable power downstairs.",
+  "direction": "Gruff professional swagger; corporate-cop confidence with a bully's eagerness for the intruders to show their faces.",
+  "kw": [
+   "gruff",
+   "authoritative",
+   "confident",
+   "hard",
+   "cocky"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_knighterrantenforcer": {
+  "bio": "A rank-and-file Knight-Errant guard keeping half-hearted watch for shadowrunners in a crumbling building.",
+  "direction": "Bored, put-upon grunt-work delivery; a man watching the clock who would rather blame devil rats than investigate anything.",
+  "kw": [
+   "bored",
+   "flat",
+   "casual",
+   "gruff",
+   "tired"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_player2": {
+  "bio": "A fellow runner in a simulated demo scenario, urging the player to slip upstairs while security is distracted.",
+  "direction": "Earnest action-hero urgency; the clean, slightly canned delivery of a sim character hitting their cue.",
+  "kw": [
+   "energetic",
+   "urgent",
+   "clear",
+   "heroic",
+   "young"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_gaichu": {
+  "bio": "A former Renraku Red Samurai turned ghoul, now a crew member who hunts his old unit while clinging to honor and discipline despite his monstrous condition.",
+  "direction": "Formal, measured, and quietly lethal; a samurai's courtly precision spoken through a predator's throat, with faint rasp and Japanese-inflected dignity.",
+  "kw": [
+   "deep",
+   "calm",
+   "refined",
+   "raspy",
+   "japanese",
+   "formal"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_raymond": {
+  "bio": "Raymond Black, the player's and Duncan's foster father, rescued broken and traumatized after the events at Victoria Harbor left him a stammering shell of the man he was.",
+  "direction": "A once-steady paternal voice now cracked and halting; gentle, guilt-heavy, and frail, with a stutter that fights every sentence.",
+  "kw": [
+   "old",
+   "frail",
+   "gentle",
+   "trembling",
+   "soft",
+   "weary"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_stephendynamite": {
+  "bio": "A terrified, stammering man hiding out in a bad corner of Hong Kong who trusts no one and just wants to be left alone.",
+  "direction": "Nervous and brittle with a persistent stutter; paranoia in every breath, flinching between hostility and desperate gratitude.",
+  "kw": [
+   "nervous",
+   "stammering",
+   "anxious",
+   "quiet",
+   "young",
+   "fearful"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_captainutama": {
+  "bio": "The troll captain of the Benteng in the Shadows of Hong Kong campaign, who grants the runners paid asylum aboard her ship and runs it with iron discipline.",
+  "direction": "Deep, commanding, and unsentimental; a ship captain's bark softened only by dry pragmatism, no patience for bowing or flattery.",
+  "kw": [
+   "deep",
+   "authoritative",
+   "gruff",
+   "commanding",
+   "stern",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_talker": {
+  "bio": "A Tsang Mechanical internal announcement system broadcasting corporate security memos and lab access notices.",
+  "direction": "Flat, synthetic corporate PA cadence; polished, impersonal, and faintly ominous in its cheerful bureaucratic neutrality.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "corporate",
+   "smooth",
+   "neutral",
+   "synthetic"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_storymchubcharnamehui": {
+  "bio": "Officer Hui, a plugged-in Hong Kong police contact in the Shadows of Hong Kong hub, forever juggling messages from superiors, security, and half the city.",
+  "direction": "Brisk, distracted multitasker; clipped professional patter with a wry undertone, always half-focused on the next unread message.",
+  "kw": [
+   "brisk",
+   "professional",
+   "dry",
+   "clipped",
+   "chinese",
+   "efficient"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_porterlam": {
+  "bio": "A hard-boiled local fixer in Whampoa Garden who meets the runners for the Elders and briefs them on the gruesome killings stalking the enclave.",
+  "direction": "Seen-it-all street veteran; dry, gravel-edged delivery that stays level while describing horrors, dark humor as a coping mechanism.",
+  "kw": [
+   "gravelly",
+   "dry",
+   "weathered",
+   "deadpan",
+   "chinese",
+   "streetwise"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_scenenamefizz": {
+  "bio": "Virginia Fizz, a chirpy low-profile shadowrunner who wakes up imprisoned in a corporate facility and treats even her abduction as an adventure.",
+  "direction": "Bright, bubbly, and naively upbeat; fast talker whose relentless optimism sounds slightly unhinged given the circumstances.",
+  "kw": [
+   "bright",
+   "energetic",
+   "cheerful",
+   "young",
+   "bubbly",
+   "fast"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_brentshirkey": {
+  "bio": "A traveling elf mage passing through Hong Kong, friendly and open about the magical tattoos he has picked up in the business.",
+  "direction": "Easygoing and warm with an unhurried, worldly calm; the approachable professional who has seen strange things and stayed pleasant.",
+  "kw": [
+   "warm",
+   "calm",
+   "smooth",
+   "friendly",
+   "relaxed",
+   "measured"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_eddiecombatpang": {
+  "bio": "Eddie \"Combat\" Pang, a foul-mouthed dwarf arms dealer in the Shadows of Hong Kong campaign who runs his shop with bluster and threats.",
+  "direction": "Gruff, profane, and loud; a short-fused shopkeeper's bark with genuine menace under the exasperation.",
+  "kw": [
+   "gruff",
+   "gravelly",
+   "loud",
+   "profane",
+   "deep",
+   "irritable"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_elduce": {
+  "bio": "A cocky street samurai working Hong Kong's shadows while hunting evidence for his personal vendetta against Shiawase Corporation.",
+  "direction": "Confident swagger with a flirtatious edge; smooth charm on the surface, a hard grudge underneath.",
+  "kw": [
+   "confident",
+   "smooth",
+   "cocky",
+   "charming",
+   "deep",
+   "wry"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_wuxingemployee": {
+  "bio": "Charles, an eager and trusting Wuxing corporate employee who cheerfully helps strangers he assumes are new coworkers.",
+  "direction": "Chipper, helpful, and utterly guileless; the earnest new-hire enthusiasm of someone who believes everything from training.",
+  "kw": [
+   "friendly",
+   "eager",
+   "polite",
+   "young",
+   "earnest",
+   "chinese"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_commandervergara": {
+  "bio": "A professional military officer serving as protector and escort to Lillian Lai, focused on getting his charge somewhere safe.",
+  "direction": "Clipped, disciplined, and vigilant; a soldier's economy of words with protective urgency underneath.",
+  "kw": [
+   "authoritative",
+   "clipped",
+   "serious",
+   "deep",
+   "military",
+   "steady"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_penelopewong": {
+  "bio": "A gracious trid-studio socialite at an upscale soiree who gushes about her colleague Neville's miraculous recovery.",
+  "direction": "Polished, airy, and effusive; upper-class party warmth with theatrical little gasps, every sentence a small performance.",
+  "kw": [
+   "refined",
+   "warm",
+   "theatrical",
+   "elegant",
+   "breathy",
+   "sociable"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_eldertang": {
+  "bio": "An elder of the Whampoa Garden enclave who begs the runners for help as something monstrous dismembers his fellow Elders night after night.",
+  "direction": "Aged, grave, and frightened but holding composure; the weary authority of a community leader carrying too many funerals.",
+  "kw": [
+   "old",
+   "wise",
+   "grave",
+   "weary",
+   "chinese",
+   "soft"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_aresworker": {
+  "bio": "A terrified Ares office drone caught in the middle of a run who will hand over anything, including his boss's key fob, to stay alive.",
+  "direction": "Panicky and pleading; a mild desk-job voice cracking under fear, words tumbling out in nervous bursts.",
+  "kw": [
+   "nervous",
+   "timid",
+   "panicky",
+   "soft",
+   "pleading",
+   "young"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_rowynshoremaker": {
+  "bio": "An elf shadowrunner dosed with a strange resin on a job, now raving ecstatically about ascending and seeing what lies above.",
+  "direction": "Manic visionary intensity; breathless, wide-eyed rapture that swings between whisper and exultant shout.",
+  "kw": [
+   "manic",
+   "intense",
+   "breathless",
+   "theatrical",
+   "wild",
+   "ecstatic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_waitress": {
+  "bio": "A polite, slightly flustered waitress at the Shangri-La hotel doing her best to accommodate guests on a chaotic night.",
+  "direction": "Sweet, deferential service-industry warmth with a nervous flutter; eager to please and easily startled.",
+  "kw": [
+   "soft",
+   "polite",
+   "nervous",
+   "young",
+   "gentle",
+   "chinese"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_resident": {
+  "bio": "A frightened Heoi resident arguing over whether to flee to the police barricades as the district descends into chaos.",
+  "direction": "Ordinary civilian voice stretched thin by fear; argumentative desperation, rising pitch, no training for any of this.",
+  "kw": [
+   "anxious",
+   "desperate",
+   "strained",
+   "plain",
+   "urgent",
+   "chinese"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_yellowlotusenforcer": {
+  "bio": "A Yellow Lotus triad thug shaking down an old man for protection money and happy to escalate when refused.",
+  "direction": "Cold street menace with a bored, contemptuous drawl; violence offered as casually as a shrug.",
+  "kw": [
+   "menacing",
+   "cold",
+   "low",
+   "sneering",
+   "gruff",
+   "chinese"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_hotelguest": {
+  "bio": "A chatty hotel guest more upset about the closed restaurant than anything else, and delighted to gossip about the trid soap Promises in Moonlight.",
+  "direction": "Gossipy, indulgent, and a little whiny; the eager enthusiasm of a superfan who has found someone to talk soaps with.",
+  "kw": [
+   "chatty",
+   "warm",
+   "gossipy",
+   "light",
+   "enthusiastic",
+   "plain"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_unknowncaller": {
+  "bio": "An anonymous voice on the line demanding the return of Project Omega samples, promising to kill the runner and everyone they love if refused.",
+  "direction": "Ice-cold, unhurried, and absolute; a flat, controlled delivery where the threat is in the certainty, never the volume.",
+  "kw": [
+   "cold",
+   "calm",
+   "menacing",
+   "deep",
+   "controlled",
+   "flat"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_theratking": {
+  "bio": "The monstrous Rat King ruling Gobbet's old Rat's Nest community, the transformed rat shaman Malvina who demands servitude from her former flock.",
+  "direction": "Imperious and monstrous; a purring, condescending croon that erupts into shrieking rage, more creature than person.",
+  "kw": [
+   "raspy",
+   "theatrical",
+   "menacing",
+   "shrieking",
+   "imperious",
+   "creature"
+  ],
+  "gender": "female",
+  "age": "old"
+ },
+ "name_tsanghumanmaintenanceworker": {
+  "bio": "A jaded Tsang maintenance worker heading off shift who offers the new arrival some blunt advice about their demanding boss.",
+  "direction": "Tired blue-collar sarcasm; flat, over-it delivery with a conspiratorial edge when dispensing warnings about management.",
+  "kw": [
+   "deadpan",
+   "tired",
+   "sarcastic",
+   "plain",
+   "gruff",
+   "workingclass"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_dwarftransient": {
+  "bio": "A rattled dwarf drifter who arrived on the same boat as a man who went stark raving mad, and now just wants out of this place.",
+  "direction": "Shaken and hushed; a rough traveler's voice gone quiet with dread, urging you to leave while there is still time.",
+  "kw": [
+   "gruff",
+   "shaken",
+   "hushed",
+   "raspy",
+   "fearful",
+   "low"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneglobalnamecadmus": {
+  "bio": "Cadmus, a dwarf survivor of Gobbet's old Rat's Nest community, grateful and relieved after the Rat King's loyalists are overthrown.",
+  "direction": "Rough-hewn but warm; a weathered community man's voice loosened by relief and gratitude, plainspoken and sincere.",
+  "kw": [
+   "gravelly",
+   "warm",
+   "weathered",
+   "sincere",
+   "deep",
+   "folksy"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_tsangsecuritysergeant": {
+  "bio": "A Tsang security sergeant screaming at civilians to clear the area, his crowd-control script fraying into panic.",
+  "direction": "Full-throated shouting on the edge of losing control; authority performed at maximum volume to mask fear.",
+  "kw": [
+   "loud",
+   "shouting",
+   "harsh",
+   "authoritative",
+   "strained",
+   "aggressive"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_wuxinggeomancer": {
+  "bio": "The leader of a Wuxing corporate geomancer team sent to stop the runners' vandalism of company property, who opts to leave no survivors.",
+  "direction": "Polished corporate courtesy wrapped around casual lethality; smooth, cultured, and chilling when the pleasantries end.",
+  "kw": [
+   "smooth",
+   "refined",
+   "cold",
+   "cultured",
+   "menacing",
+   "chinese"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_racter": {
+  "bio": "Russian transhumanist rigger and self-aware sociopath who joins the crew with his beloved milspec walker drone Koschei, pursuing the perfection of man through machine.",
+  "direction": "Measured, cultured Russian-accented calm with genuine warmth on the surface and clinical detachment underneath; he discusses friendship and vivisection in the same pleasant register.",
+  "kw": [
+   "russian",
+   "calm",
+   "refined",
+   "clinical",
+   "smooth",
+   "cold"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_reliablematthew": {
+  "bio": "A jittery smuggler and drone supplier in the bonus campaign who delivers gear for the crew while visibly cracking under pressure from his triad creditors.",
+  "direction": "Nervous, over-bright and eager to please, a fixed salesman's smile stretched over rising panic; his cheer keeps slipping into a shell-shocked mutter.",
+  "kw": [
+   "nervous",
+   "anxious",
+   "energetic",
+   "young",
+   "shaky"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_storymchubcharnamemryang": {
+  "bio": "The faceless troll interrogator known as Mr. Yang who conducts polite magical torture sessions on the captured player in the Shadows of Hong Kong campaign.",
+  "direction": "Silky, unhurried menace with mock-solicitous good manners; a deep voice from the darkness that enjoys asking how you slept before hurting you.",
+  "kw": [
+   "deep",
+   "smooth",
+   "menacing",
+   "cold",
+   "calm",
+   "sinister"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_stranglerbao": {
+  "bio": "Kindly Cheng's hulking right-hand enforcer, utterly deferential to Mrs. Cheng and quietly terrifying to everyone she points him at.",
+  "direction": "Low, flat, economical thug voice; servile softness when answering Mrs. Cheng that lets you hear exactly what his hands do for a living.",
+  "kw": [
+   "deep",
+   "gruff",
+   "deadpan",
+   "menacing",
+   "chinese",
+   "quiet"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_securityguard": {
+  "bio": "A club security guard whose night goes from bored door duty to screaming panic when a ghoul walks into the lounge.",
+  "direction": "Bored working-stiff bark that snaps into genuine horrified alarm; the shift from routine to ghoul-panic is the whole performance.",
+  "kw": [
+   "gruff",
+   "brash",
+   "alarmed",
+   "tough",
+   "energetic"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_shyu": {
+  "bio": "One of the elderly men who idle by the Heoi waterfront, a frail grandfatherly soul troubled by apocalyptic dreams of a blood-red sunset.",
+  "direction": "Thin, warm, quavering old voice full of affection for visitors, hollowing out into dread when he recounts his nightmares.",
+  "kw": [
+   "old",
+   "frail",
+   "warm",
+   "wise",
+   "chinese",
+   "gentle"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_krait": {
+  "bio": "A hard-edged Hong Kong police commander in the Shadows of Hong Kong campaign who directs riot-suppression units with iron discipline.",
+  "direction": "Clipped, authoritative command voice over a radio net; cold professional control with zero patience for anyone who moves before her mark.",
+  "kw": [
+   "authoritative",
+   "cold",
+   "commanding",
+   "stern",
+   "female",
+   "clipped"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_storymca2stationruns1namelockupguard": {
+  "bio": "A police station guard posted at the holding cells who nervously notices the player's ghoul companion and really thinks somebody ought to be killing it.",
+  "direction": "Polite, slightly dim procedural drone that frays into awkward, halting unease; comedy lives in his long uncomfortable pauses.",
+  "kw": [
+   "nervous",
+   "hesitant",
+   "young",
+   "plain",
+   "awkward"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_constablecheung": {
+  "bio": "A stressed HKPF constable acting as the crew's inside man during the police station run, sweating every minute of the arrangement.",
+  "direction": "Tense, hushed, coiled-spring delivery of a man risking his badge; exasperation boils over fast when the runners push their luck.",
+  "kw": [
+   "tense",
+   "anxious",
+   "gruff",
+   "chinese",
+   "harried"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_opti": {
+  "bio": "A seasoned shadowrunner (a Kickstarter backer cameo) holding forth about a nearly-ruined job, the dry professional of his little crew.",
+  "direction": "Sardonic, world-weary professional cool; deadpan needling delivered like a man doing a post-mortem on other people's mistakes.",
+  "kw": [
+   "deadpan",
+   "sardonic",
+   "confident",
+   "gravelly",
+   "dry"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_scenebriancoatsname": {
+  "bio": "Brian Coats, an ork decker (backer cameo) spinning an enthusiastic yarn about black-market sleaze programs and getting locked out of the Hilton's Matrix.",
+  "direction": "Fast, chatty, self-deprecating tech-nerd enthusiasm in a big ork frame; motor-mouth energy that trips over its own punchlines.",
+  "kw": [
+   "energetic",
+   "chatty",
+   "nerdy",
+   "warm",
+   "deep",
+   "american"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_ganger": {
+  "bio": "A street ganger holding down his crew's turf, equal parts territorial threat and friendly neighborhood chip-and-Nitro dealer.",
+  "direction": "Lazy streetwise drawl that flips between sales patter and menace without changing volume; the smile and the threat are the same voice.",
+  "kw": [
+   "streetwise",
+   "raspy",
+   "cocky",
+   "young",
+   "casual"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_hwangjaemin": {
+  "bio": "Hwang Jae-Min, boss of the Blue Heaven Seoulpa Ring, a rival fixer who hacks the crew's employer and offers silk-wrapped threats over stolen Eastern Tiger property.",
+  "direction": "Smooth, amused, Korean-accented velvet menace; a professional criminal who scolds you like a naughty child because he already owns the room.",
+  "kw": [
+   "smooth",
+   "suave",
+   "menacing",
+   "korean",
+   "confident",
+   "refined"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_chefyanlung": {
+  "bio": "The imperious head chef of an upscale Hong Kong restaurant kitchen, too busy for guests, hobos, or conversation.",
+  "direction": "Sharp, snappish kitchen-tyrant bark; every sentence is an order or an insult, delivered while mentally plating three dishes.",
+  "kw": [
+   "irritable",
+   "sharp",
+   "gruff",
+   "chinese",
+   "impatient"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneconventioncongoer1name": {
+  "bio": "An opinionated ork woman at a decking convention, locked for hours in a holy war over the best mid-range cyberdeck.",
+  "direction": "Bright, articulate tech-enthusiast energy with a debater's edge; friendly on the surface, absolutely certain she is right underneath.",
+  "kw": [
+   "energetic",
+   "nerdy",
+   "confident",
+   "young",
+   "bright"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_xiaozhi": {
+  "bio": "A dwarven information broker, queen of a nattering hive of snitches and spies, who trades in secrets with gleeful avarice.",
+  "direction": "Quick, birdlike, darting delivery with a distinctive humming tic ('Nnn-nnn'); gossipy delight with a moneylender's calculation behind every syllable.",
+  "kw": [
+   "quick",
+   "shrewd",
+   "raspy",
+   "chinese",
+   "gleeful",
+   "eccentric"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_inspectorlam": {
+  "bio": "A Hong Kong police inspector in the Shadows of Hong Kong campaign who helps bring the player in, apologetic about the dirty work but doing it anyway.",
+  "direction": "Tired, decent-sounding cop voice carrying real regret; soft-spoken professionalism that keeps saying sorry while the cuffs go on.",
+  "kw": [
+   "weary",
+   "calm",
+   "regretful",
+   "chinese",
+   "smooth"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_triadenforcer": {
+  "bio": "A low-ranking triad soldier whose tough-guy job description collapses into meek excuses the moment things get scary.",
+  "direction": "Eager 'yessir' snap that shrinks into a small, sheepish mumble; the comedy of a henchman who would very much like to step outside now.",
+  "kw": [
+   "timid",
+   "young",
+   "meek",
+   "nervous",
+   "plain"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_maintenanceemployee": {
+  "bio": "A terse building maintenance worker who will explain the Yokogawa fire interdiction system in exactly as many words as required and no more.",
+  "direction": "Flat, unhurried blue-collar monotone; helpful in a minimal way, like a man billing by the syllable.",
+  "kw": [
+   "deadpan",
+   "flat",
+   "gruff",
+   "casual",
+   "plain"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_breakerhui": {
+  "bio": "A genial troll arms dealer who pitches instruments of self-defense with the easy patter of a market-stall salesman.",
+  "direction": "Booming, friendly troll rumble with salesman's warmth; huge voice, welcoming manner, always angling toward the close.",
+  "kw": [
+   "deep",
+   "booming",
+   "warm",
+   "friendly",
+   "gravelly",
+   "chinese"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_johnnythetalon": {
+  "bio": "Johnny 'The Talon', an ork triad enforcer guarding a private room at the Shangri-La restaurant, all threats, grudges, and wounded pride.",
+  "direction": "Aggressive, growling ork thug voice that leads with intimidation; barks that carry real spite when he feels betrayed.",
+  "kw": [
+   "aggressive",
+   "growling",
+   "deep",
+   "gruff",
+   "menacing"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_secondfloorserver": {
+  "bio": "A frantic restaurant server relaying kitchen disasters, prawn allergies, and deck brawls to the head chef at top speed.",
+  "direction": "Breathless, escalating panic with service-industry politeness cracking apart; every line arrives at a half-run.",
+  "kw": [
+   "panicked",
+   "breathless",
+   "young",
+   "energetic",
+   "nervous"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_sceneconventiontrolldeckername": {
+  "bio": "A smug troll decker at the convention who mistakes the armored player for a cosplayer and grades their 'costume' accordingly.",
+  "direction": "Condescending nerd drawl, patient and pitying; the insufferable confidence of a fan correcting your pauldrons at length.",
+  "kw": [
+   "smug",
+   "deep",
+   "nerdy",
+   "condescending",
+   "casual"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_tsangenforcer": {
+  "bio": "A rank-and-file Tsang Mechanical Services security guard, by turns officious at checkpoints and endearingly green with new coworkers.",
+  "direction": "Standard-issue corporate guard voice: brisk challenge softening into rookie friendliness; procedural, not cruel.",
+  "kw": [
+   "plain",
+   "brisk",
+   "young",
+   "friendly",
+   "dutiful"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_rapidresponsetsangcaptain": {
+  "bio": "The captain of Tsang's rapid response security team, holding the last line of defense and pragmatic enough to talk his way out of dying for it.",
+  "direction": "Firm parade-ground command voice with a streak of gallows pragmatism; he sounds braver giving orders than facing the runner in front of him.",
+  "kw": [
+   "authoritative",
+   "gruff",
+   "commanding",
+   "tense",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_yellowlotussoldier": {
+  "bio": "A frenzied Yellow Lotus triad soldier, a convert screaming the gospel of the gang's terrifying new queen at anyone still loyal to the old order.",
+  "direction": "Raw-throated fanatic shouting at full tilt; unhinged zealotry with a tremor of ecstatic terror under all the volume.",
+  "kw": [
+   "shouting",
+   "manic",
+   "raspy",
+   "fanatical",
+   "harsh"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_outspokencivilian": {
+  "bio": "A desperate Heoi resident confronting corporate responders during a disaster, pleading for trapped families and demanding answers.",
+  "direction": "Voice cracking between pleading and fury; ordinary-person desperation that tips into accusatory shouting.",
+  "kw": [
+   "desperate",
+   "emotional",
+   "strained",
+   "angry",
+   "plain"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_minhvuong": {
+  "bio": "The proprietor of Minh Vuong Matrix Materials, a no-frills vendor of decking supplies.",
+  "direction": "Bright, practiced shopkeeper's greeting; friendly retail efficiency with a hint of Vietnamese-accented Hong Kong hustle.",
+  "kw": [
+   "friendly",
+   "bright",
+   "casual",
+   "vietnamese",
+   "shopkeeper"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_computer": {
+  "bio": "The aggregate voice of computer terminals, ship's logs, and data consoles the crew reads throughout the campaign, from freighter records to corporate archives.",
+  "direction": "Flat, synthetic text-to-speech neutrality; clipped machine cadence with zero emotional investment in the horrors it recites.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "flat",
+   "monotone",
+   "neutral",
+   "clipped"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_inspectorqiu": {
+  "bio": "An HKPF inspector raised alongside the player in Raymond Black's household, who pulls the old crew into police work in the Shadows of Hong Kong campaign.",
+  "direction": "Sharp, driven cop with sisterly familiarity; teasing warmth toward old family that snaps into no-nonsense command on the job.",
+  "kw": [
+   "confident",
+   "authoritative",
+   "warm",
+   "chinese",
+   "cantonese",
+   "determined"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_handsomelee": {
+  "bio": "A smooth simsense-chip merchant in Whampoa Garden who sells packaged experiences and takes an oddly principled interest in his customers' wellbeing.",
+  "direction": "Silky, urbane salesman's purr with genuine courtesy underneath; every sentence sounds like a velvet-lined transaction.",
+  "kw": [
+   "smooth",
+   "refined",
+   "suave",
+   "calm",
+   "chinese",
+   "cultured"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_jomo": {
+  "bio": "A cheerful ork boat captain and habitual gambler who ferries the team on water routes during the Shadows of Hong Kong campaign.",
+  "direction": "Big, jovial harbor-rat energy with singsong Hong Kong pidgin rhythms; laughs easily, grumbles at cards, never truly rattled.",
+  "kw": [
+   "jovial",
+   "gruff",
+   "hearty",
+   "warm",
+   "accented",
+   "boisterous"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_zippy": {
+  "bio": "Zippy Toetag, a friendly ork mortician in Whampoa Garden who autopsied the murdered Elders and knows more about the deaths than he wanted to.",
+  "direction": "Chipper, chatty and disarmingly nice for a man who works with corpses; a nervous flutter creeps in when the conversation turns to what he found.",
+  "kw": [
+   "friendly",
+   "chatty",
+   "upbeat",
+   "nervous",
+   "earnest",
+   "warm"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_scenenamehwangjaemin": {
+  "bio": "Hwang Jae-Min, the tech-draped leader of the Blue Heaven Seoulpa Ring, a Korean crime syndicate the team deals with in Shadows of Hong Kong.",
+  "direction": "Measured, precise underworld executive; quiet confidence and formal courtesy that never quite hides the threat, with a Korean-inflected evenness.",
+  "kw": [
+   "calm",
+   "precise",
+   "authoritative",
+   "cold",
+   "korean",
+   "measured"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_emilie": {
+  "bio": "A fugitive contact of Is0bel's being hunted by powerful oligarchs, whom the team must extract before her pursuers find her.",
+  "direction": "Soft, jittery and worn thin by months of running; flashes of tenderness toward Is0bel breaking through constant fear.",
+  "kw": [
+   "nervous",
+   "soft",
+   "fearful",
+   "breathy",
+   "fragile",
+   "young"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_shydwarf": {
+  "bio": "The quiet dwarf decker later known as Is0bel, encountered before she gives her name, answering questions in guarded fragments.",
+  "direction": "Terse, low, reluctant; every word costs something, delivered with a flat wariness that hints at intelligence held in reserve. Uses Is0bel's portrait: cast the SAME voice as Is0bel.",
+  "kw": [
+   "quiet",
+   "guarded",
+   "terse",
+   "deadpan",
+   "young",
+   "low"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_secretary": {
+  "bio": "The polished front-desk receptionist at Ares Asia Holdings who greets visitors with corporate courtesy until security gets involved.",
+  "direction": "Bright, rehearsed customer-service politeness with a plastic smile in the voice; flips to shrill alarm the moment protocol breaks.",
+  "kw": [
+   "polite",
+   "crisp",
+   "corporate",
+   "smooth",
+   "nervous",
+   "formal"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_rainbow": {
+  "bio": "Rainbow Smite, a color-shifting-haired elf athlete blowing off steam at the arcade, shotgun close at hand and high score closer.",
+  "direction": "Brash, playful Irish lilt full of competitive swagger; loud, quick laughter with an edge that says the shotgun is not decorative.",
+  "kw": [
+   "irish",
+   "brash",
+   "energetic",
+   "playful",
+   "spirited",
+   "young"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_lau": {
+  "bio": "An elderly Go player in the hub who looks decades younger than he is thanks to rejuvenation treatments, savoring quiet games and peaceful dreams.",
+  "direction": "Serene, unhurried and faintly amused; an old soul's stillness in a smooth voice, every line placed like a Go stone.",
+  "kw": [
+   "calm",
+   "wise",
+   "serene",
+   "smooth",
+   "chinese",
+   "gentle"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_triplealpha": {
+  "bio": "A veteran shadowrunner styled like a trideo superhero who crosses paths with the team in Shadows of Hong Kong and knows their reputation from Heoi.",
+  "direction": "Confident, wry professional with easy camaraderie; a been-everywhere runner's drawl, warm to fellow pros and mildly exasperated at her own tardy crew.",
+  "kw": [
+   "confident",
+   "wry",
+   "warm",
+   "seasoned",
+   "casual",
+   "assured"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_david": {
+  "bio": "A gregarious businessman celebrating fresh contracts over drinks and eager to pull anyone nearby into the next round.",
+  "direction": "Loud, expansive drinking-buddy bonhomie; a salesman's boastful cheer already a couple of glasses in.",
+  "kw": [
+   "jovial",
+   "hearty",
+   "boisterous",
+   "warm",
+   "tipsy",
+   "expansive"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_steeltooth": {
+  "bio": "A hulking troll gang leader who ambushes the team in an MTR station to shake them down for a prototype laser.",
+  "direction": "Slow, grinding menace from a deep chest; the lazy confidence of someone who has crunched a lot of faces and enjoys the anticipation.",
+  "kw": [
+   "deep",
+   "gravelly",
+   "menacing",
+   "gruff",
+   "slow",
+   "brutish"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_tsangcaptain": {
+  "bio": "A short-fused security captain on Tsang corporate premises who demands Omega-level clearance and shoots first when he does not get it.",
+  "direction": "Barked, impatient authority perpetually one bad answer from violence; corporate discipline stretched over a hair trigger.",
+  "kw": [
+   "harsh",
+   "authoritative",
+   "aggressive",
+   "clipped",
+   "stern",
+   "tense"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_preternaturalcorpse": {
+  "bio": "An ancient preserved corpse in the museum whose soul is bound to guard the place, speaking to intruders as one dead man to the living.",
+  "direction": "Dry, hollow and sepulchral, like air moving through an empty tomb; ancient sorrow delivered with dreadful patience.",
+  "kw": [
+   "hollow",
+   "raspy",
+   "ancient",
+   "slow",
+   "eerie",
+   "deep"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_yellowlotuscaptain": {
+  "bio": "A swaggering Yellow Lotus triad captain enforcing his gang's new claim on the neighborhood and running off outsiders.",
+  "direction": "Sneering young street-tough bravado; contemptuous, taunting delivery that enjoys the threat more than the fight.",
+  "kw": [
+   "sneering",
+   "aggressive",
+   "cocky",
+   "young",
+   "chinese",
+   "menacing"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_storyglobalkindlylieutenantname": {
+  "bio": "A dwarf lieutenant in Kindly Cheng's Yellow Lotus organization, standing guard in Heoi and waving through only those Auntie has approved.",
+  "direction": "Stolid, matter-of-fact triad muscle; low, even delivery of orders with just enough courtesy for people the boss vouches for.",
+  "kw": [
+   "gruff",
+   "steady",
+   "low",
+   "deadpan",
+   "chinese",
+   "stern"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_strangelookingelf": {
+  "bio": "Zaak Flash, a fast-talking elf proprietor of an exotic drinks emporium, a former hard-drug dealer reinvented as a peddler of mellow.",
+  "direction": "Rapid-fire huckster patter with a blissed-out hippie undertow; theatrical enthusiasm that swerves from hard sell to cosmic calm mid-sentence.",
+  "kw": [
+   "theatrical",
+   "fast",
+   "energetic",
+   "mellow",
+   "eccentric",
+   "smooth"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_hoteldatacore": {
+  "bio": "The central data hub of the Repulse Bay hotel, a query terminal dispensing resident records and door codes to whoever gains access.",
+  "direction": "Pure machine output: clipped, uninflected system prompts with a faint hum of bureaucratic servility.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "monotone",
+   "flat",
+   "clipped",
+   "neutral"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_armsdealer": {
+  "bio": "A black-market arms dealer who sizes up passersby for hardware needs and sells information at a markup.",
+  "direction": "Low, transactional hustle; friendly enough to close a sale, cold enough that everything, including talk, has a price.",
+  "kw": [
+   "gravelly",
+   "casual",
+   "shady",
+   "confident",
+   "low",
+   "streetwise"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_stallvendor": {
+  "bio": "An eager market-stall hawker pushing souvenirs on tourists and happy to trade gossip for the right incentive.",
+  "direction": "High-energy bazaar salesmanship with a strong Hong Kong accent; wheedling, insistent charm that never stops working the customer.",
+  "kw": [
+   "energetic",
+   "wheedling",
+   "chinese",
+   "cantonese",
+   "eager",
+   "bright"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_hotelsecurityguard": {
+  "bio": "A no-nonsense hotel security guard who catches the team somewhere they should not be and grills them before calling in the HKPF.",
+  "direction": "Hard, skeptical interrogation voice; unimpressed by every excuse, with the weary edge of a man who has heard them all.",
+  "kw": [
+   "gruff",
+   "stern",
+   "skeptical",
+   "deep",
+   "weary",
+   "authoritative"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_storymchubcharnamejoneverist": {
+  "bio": "An enigmatic elf watchman aboard the pirate captain Utama's ship who vets visitors and warns that nothing approaches the vessel and lives.",
+  "direction": "Cool, formal and quietly ominous; unhurried precision with the faint amusement of someone who has already decided whether you are a threat.",
+  "kw": [
+   "cold",
+   "refined",
+   "calm",
+   "ominous",
+   "precise",
+   "smooth"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_trolltransient": {
+  "bio": "A desperate troll refugee stopped at a checkpoint, begging to be let through to reach her husband and children waiting in Heoi.",
+  "direction": "Raw, cracking desperation in a big frame; pleading that swings between panic and fierce maternal insistence.",
+  "kw": [
+   "desperate",
+   "pleading",
+   "tearful",
+   "deep",
+   "raw",
+   "anguished"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_captainjomo": {
+  "bio": "Captain Jomo, the ork boatman, in his professional capacity: piloting the sub that delivers the team into Shiawase's undersea bioengineering labs.",
+  "direction": "Same jovial harbor-pidgin warmth as always, tightened by mission focus; cheerful confidence over a live radio with hornets on the line.",
+  "kw": [
+   "jovial",
+   "gruff",
+   "hearty",
+   "accented",
+   "warm",
+   "steady"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_hkpfcaptain": {
+  "bio": "A Hong Kong Police Force captain holding a perimeter and keeping civilians clear of an unfolding police operation.",
+  "direction": "Curt, procedural crowd-control voice with a smirk underneath; officialdom that is quietly enjoying the show.",
+  "kw": [
+   "authoritative",
+   "curt",
+   "official",
+   "chinese",
+   "dry",
+   "firm"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_tsangcommandocaptain": {
+  "bio": "A Tsang corporate commando captain screaming final warnings at a crowd before his squad opens fire.",
+  "direction": "Full-throated parade-ground bellow, hoarse with strain; pure command volume with panic fraying the edges.",
+  "kw": [
+   "shouting",
+   "harsh",
+   "commanding",
+   "hoarse",
+   "aggressive",
+   "intense"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_kindlycheng": {
+  "bio": "Kindly Cheng is the straight-razor-carrying Yellow Lotus Triad matriarch of Heoi who becomes the crew's fixer, protector, and utterly ruthless boss.",
+  "direction": "Honeyed auntie warmth over a core of absolute menace; purrs endearments and death threats in the same silky, unhurried tone.",
+  "kw": [
+   "silky",
+   "menacing",
+   "warm",
+   "authoritative",
+   "cantonese",
+   "mature"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_henry": {
+  "bio": "Henry Kai-Fa, a burnt-out corporate account manager drowning his stalled career at the Shangri-La bar, fixated on his fast-rising rival David.",
+  "direction": "Weary salaryman bitterness loosened by alcohol; resentment that keeps sliding into self-pity and confession.",
+  "kw": [
+   "mature",
+   "conversational",
+   "warm",
+   "tired",
+   "smooth"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneglobalkufengname": {
+  "bio": "Ku Feng is the ancient guardian spirit watching over Neville Ma who confronts the intruding runner as a predator toying with a little dog.",
+  "direction": "Imperious, silken condescension with an ancient, unhurried cadence; every word a cat batting at prey it has already caught.",
+  "kw": [
+   "imperious",
+   "cold",
+   "regal",
+   "chinese",
+   "ethereal",
+   "condescending"
+  ],
+  "gender": "female",
+  "age": "old"
+ },
+ "name_tigathwright": {
+  "bio": "Tigath Wright is an elf Mr. Johnson who hired the crew through Kindly Cheng and now needs help shaking a Seoulpa Rings tail before he can pay up.",
+  "direction": "Clipped, businesslike, and quietly rattled; professional composure fraying at the edges as the tail closes in.",
+  "kw": [
+   "clipped",
+   "professional",
+   "tense",
+   "smooth",
+   "guarded"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_storymchubcharnamelam": {
+  "bio": "Senior Inspector Andy Lam is a polished leader of the HKPF task force in Shadows of Hong Kong whose courteous professionalism masks the ambition and corruption driving the whole affair.",
+  "direction": "Smooth, courteous authority with a politician's polish; should sound like the reasonable one in the room until the mask slips.",
+  "kw": [
+   "smooth",
+   "authoritative",
+   "polished",
+   "cold",
+   "cantonese",
+   "calculating"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_raulcobbs": {
+  "bio": "Raul Cobbs is a small-time hustler locked in a holding cell, frantically begging anyone who passes to get him out before he goes to prison.",
+  "direction": "Panicked, pleading, and self-justifying; a fast whine that keeps swerving between desperation and wounded indignation.",
+  "kw": [
+   "nervous",
+   "whiny",
+   "desperate",
+   "fast",
+   "pleading"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_decker": {
+  "bio": "The Decker is a laid-back freelance matrix specialist hired onto Lam and Qiu's task force alongside the player in Shadows of Hong Kong.",
+  "direction": "Casual, unbothered slacker cool; talks about deadly work with the same energy as fantasy Urban Brawl stats.",
+  "kw": [
+   "casual",
+   "laid-back",
+   "deadpan",
+   "young",
+   "wry"
+  ],
+  "gender": null,
+  "age": "young"
+ },
+ "name_transient": {
+  "bio": "The Transient is a ragged street prophet in Heoi screaming warnings about the devils he insists are coming, and who can smell them on everyone he meets.",
+  "direction": "Ragged, cracked voice swinging from conspiratorial whisper to full-throated raving; genuine terror underneath the madness.",
+  "kw": [
+   "raspy",
+   "manic",
+   "unhinged",
+   "hoarse",
+   "intense"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_dizzy": {
+  "bio": "Dizzy is a level-headed shadowrunner leading her own crew on their first run into dangerous territory, keeping hotheads like Jarl in check.",
+  "direction": "Cool, even-keeled professionalism with a dry streak; the calm voice that de-escalates a room full of guns.",
+  "kw": [
+   "calm",
+   "cool",
+   "confident",
+   "dry",
+   "steady",
+   "young"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_tsangmanager": {
+  "bio": "The Tsang Manager is a chipper corporate office supervisor at Tsang Mechanized Industries, proud of the Sales team and happy to redirect trouble elsewhere.",
+  "direction": "Bright, practiced corporate pleasantness; helpful on the surface with a faint edge of office politics underneath.",
+  "kw": [
+   "polite",
+   "corporate",
+   "bright",
+   "smooth",
+   "helpful"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_moejnebi": {
+  "bio": "Moe Jnebi is a music-chip obsessive rifling through a Whampoa Garden stall, loudly grading bootlegs and lamenting bands that have gone mainstream.",
+  "direction": "Fast, opinionated music-snob patter; enthusiastic and dismissive in the same breath, always half-performing for an audience.",
+  "kw": [
+   "energetic",
+   "snobbish",
+   "fast",
+   "animated",
+   "young"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_smuggler": {
+  "bio": "The Smuggler is a spooked sea trader selling off everything at fire-sale prices so they can flee waters haunted by dreams they call outright evil.",
+  "direction": "Weathered sea-dog drawl gone jumpy; hawker's patter that keeps sliding into haunted, over-the-shoulder dread.",
+  "kw": [
+   "weathered",
+   "gravelly",
+   "uneasy",
+   "salty",
+   "haunted"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_keita": {
+  "bio": "Keita is an ebullient Japanese street-food vendor in Whampoa Garden hawking dango, takoyaki, and pork buns to anyone within earshot.",
+  "direction": "Sunny, rapid-fire hawker charm; every sentence a sales pitch delivered with genuine delight, light Japanese accent.",
+  "kw": [
+   "cheerful",
+   "energetic",
+   "warm",
+   "japanese",
+   "friendly"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_tsangguard": {
+  "bio": "The Tsang Guard is a by-the-book corporate security officer holding the checkpoint at Tsang's offices, friendly right up until credentials fail.",
+  "direction": "Firm, unhurried checkpoint authority; polite boredom that snaps instantly into hard-edged alarm when the breach hits.",
+  "kw": [
+   "firm",
+   "gruff",
+   "authoritative",
+   "steady",
+   "alert"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_hkpfenforcer": {
+  "bio": "The HKPF Enforcer is a corrupt cop mid-interrogation who wants that door shut and has zero patience for whoever just opened it.",
+  "direction": "Full-volume cop aggression; a harsh, barking shout with real violence coiled behind every word.",
+  "kw": [
+   "harsh",
+   "aggressive",
+   "loud",
+   "barking",
+   "threatening"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_sceneglobalaljernonname": {
+  "bio": "Aljernon Half-Dream is Heoi's enigmatic elf talismonger, a courtly dealer in magical goods who speaks of the Walled City's misery with detached, dreamy sympathy.",
+  "direction": "Soft, formal, faintly otherworldly courtesy; measured and melodious, like someone half-listening to a conversation happening in another world.",
+  "kw": [
+   "refined",
+   "soft",
+   "ethereal",
+   "measured",
+   "mysterious",
+   "cultured"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_knighterrantguard": {
+  "bio": "The Knight-Errant Guard is a courteous corporate security officer enforcing guest passes and company protocol in a downtown tower.",
+  "direction": "Crisp, apologetic corporate professionalism; every refusal delivered with a polite smile you can hear.",
+  "kw": [
+   "polite",
+   "crisp",
+   "professional",
+   "calm",
+   "corporate"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_secuirtyofficer": {
+  "bio": "The Security Officer is a bored night-shift desk guard swiping badges and reciting floor-access rules on autopilot.",
+  "direction": "Flat, half-interested monotone of a long night shift; procedure recited from memory with mild suspicion at anything unusual.",
+  "kw": [
+   "bored",
+   "flat",
+   "deadpan",
+   "gruff",
+   "monotone"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_sceneconventioncongoerelevator": {
+  "bio": "This elevator con-goer is a chatty convention attendee, a veteran of the scene who would rather browse kiosks and panels than work, and who lets a secret or two slip.",
+  "direction": "Friendly, conspiratorial fan chatter; relaxed and a little smug about insider status, always leaning in for a shared secret.",
+  "kw": [
+   "friendly",
+   "chatty",
+   "relaxed",
+   "conspiratorial",
+   "warm"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_sceneouterringmedicalvendor": {
+  "bio": "The Medical Vendor is a terse black-market meds dealer in the Walled City's outer ring, trading drugs for nuyen with no small talk.",
+  "direction": "Blunt, transactional clip; short sentences, tired eyes, the flat pragmatism of someone selling survival in a dangerous place.",
+  "kw": [
+   "blunt",
+   "terse",
+   "flat",
+   "wary",
+   "streetwise"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_cook": {
+  "bio": "The Cook is a put-upon restaurant kitchen worker nursing a grudge over a lost raise and lost face, too smart to risk jail for a stranger's scheme.",
+  "direction": "Gruff, irritable kitchen-grumble; permanently overworked, sarcastic about bad propositions and worse bosses.",
+  "kw": [
+   "gruff",
+   "irritable",
+   "sarcastic",
+   "rough",
+   "tired"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_tattooedgunman": {
+  "bio": "The Tattooed Gunman is an ork gang tough who mocks his marks with lazy, sneering jokes before the shooting starts.",
+  "direction": "Deep, thuggish drawl dripping with mockery; amused menace, like a cat with plenty of time and a cornered mouse.",
+  "kw": [
+   "deep",
+   "thuggish",
+   "mocking",
+   "gravelly",
+   "menacing"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_spidertank": {
+  "bio": "The Spider Tank interface is the POWERDOCK control terminal for an Ares Tarantula combat drone, printing sync and firmware status messages.",
+  "direction": "Clean synthetic system voice; clipped, affectless status readouts with machine-precise pacing and zero inflection.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "monotone",
+   "clipped",
+   "mechanical"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_local": {
+  "bio": "The Local is a frightened Walled City resident of twenty-two years, pleading to be left alone as harder people squeeze everything they own out of them.",
+  "direction": "Small, trembling, and placating; a voice made quiet by fear, cracking when the pleading turns desperate.",
+  "kw": [
+   "timid",
+   "trembling",
+   "soft",
+   "fearful",
+   "pleading"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_walledcityvictim": {
+  "bio": "The Walled City Victim is a shell-shocked survivor of the chaos inside the Walled City, repeating the official chemical-leak story between shudders.",
+  "direction": "Shaky, breathless aftermath voice; clinging to the sanctioned explanation like a lifeline, terror still just under the surface.",
+  "kw": [
+   "shaky",
+   "breathless",
+   "fearful",
+   "soft",
+   "traumatized"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_sdumage": {
+  "bio": "The SDU Mage is a Hong Kong police special-duties combat mage screaming surrender orders before authorizing lethal force.",
+  "direction": "Parade-ground bellow at full intensity; commands hurled like weapons, no negotiation and no second warning.",
+  "kw": [
+   "commanding",
+   "loud",
+   "harsh",
+   "authoritative",
+   "barking"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_cyberwaremachine": {
+  "bio": "The Cyberware Machine is the automated CryoGen kiosk at the 'Warehouse, cheerfully dispensing cybernetic services on demand.",
+  "direction": "Pleasant, canned retail-kiosk voice; uncannily chipper corporate smoothness with identical intonation every single time.",
+  "kw": [
+   "synthetic",
+   "pleasant",
+   "corporate",
+   "smooth",
+   "robotic"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_renrakuguard": {
+  "bio": "The Renraku Guard is a corporate security tech grumbling about a glitchy high-voltage gas pressure control circuit that keeps shorting out.",
+  "direction": "Grumbling shop-floor tech-talk; more exasperated maintenance worker than soldier, rattling off specs between sighs.",
+  "kw": [
+   "grumbling",
+   "weary",
+   "gruff",
+   "casual",
+   "technical"
+  ],
+  "gender": null,
+  "age": "middle_aged"
+ },
+ "name_tenarmedambrose": {
+  "bio": "Ten-Armed Ambrose is the fast-talking general-goods merchant of Heoi who buys the crew's loot, sells them gear, and treats haggling as a full-contact sport.",
+  "direction": "Rapid-fire market-stall patter with genuine warmth underneath; a busy salesman who never stops moving but always clocks how beat-up you look.",
+  "kw": [
+   "energetic",
+   "gruff",
+   "warm",
+   "fast-talking",
+   "merchant",
+   "cantonese"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_pirate": {
+  "bio": "Andrei, known as Pirate, is a cyberware dealer who runs a well-stocked 'ware shop for shadowrunners.",
+  "direction": "Relaxed, transactional charm with a faint Eastern European edge; a back-alley surgeon's salesman who makes chrome sound like a bargain.",
+  "kw": [
+   "smooth",
+   "deep",
+   "accented",
+   "russian",
+   "casual",
+   "merchant"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_plasticfacedman": {
+  "bio": "The Plastic-Faced Man is an identity-scrubbed courier with a featureless artificial face whom the team must extract, a man used to waking up in strange places with no memory of the trip.",
+  "direction": "Unnervingly serene, precise, and polite; a smooth professional detachment that suggests the face is not the only thing that has been wiped blank.",
+  "kw": [
+   "calm",
+   "smooth",
+   "eerie",
+   "measured",
+   "detached",
+   "refined"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_janettang": {
+  "bio": "Janet Tang is a Shiawase lab researcher who panics and threatens to open the specimen pods when the runners breach her company's secret research floor.",
+  "direction": "Educated corporate voice cracking under moral and physical terror; starts controlled and professional, then frays into desperate, shaking ultimatums.",
+  "kw": [
+   "nervous",
+   "tense",
+   "female",
+   "educated",
+   "desperate",
+   "asian"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_scenetransient4cherryignacio": {
+  "bio": "Rosario 'Cherry Pink' Ignacio is a Walled City transient who watches over her corner of the slum, running transport jobs, nanny work, and the occasional shadowrun.",
+  "direction": "Streetwise and initially prickly, softening into motherly warmth; a protective neighborhood fixture with a Filipino lilt and pride in her cooking.",
+  "kw": [
+   "warm",
+   "streetwise",
+   "protective",
+   "filipino",
+   "maternal",
+   "guarded"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_xfloh": {
+  "bio": "X-Floh is an elf bartender who serves the crew with open contempt for the dive's bottom-shelf stock.",
+  "direction": "Dry, unimpressed service-industry snark; a young voice that has already given up on this bar but still finds the failure funny.",
+  "kw": [
+   "deadpan",
+   "sarcastic",
+   "young",
+   "female",
+   "dry",
+   "bored"
+  ],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_isanekonnair": {
+  "bio": "Isane Konnair is a freelance ex-MET 2000 mercenary hired to keep a corporate charge locked down in a penthouse, and she runs the detail exactly by her contract.",
+  "direction": "Hard, clipped military authority with zero patience; every line lands like an order, and disrespect gets a parade-ground bark.",
+  "kw": [
+   "authoritative",
+   "hard",
+   "military",
+   "cold",
+   "commanding",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_tsangvp": {
+  "bio": "A Tsang Mechanical Services vice president who conducts curt, transactional business with the runners inside Tsang Tower.",
+  "direction": "Polished executive impatience; smooth boardroom diction that makes even a pleasantry sound like a closed deal.",
+  "kw": [
+   "refined",
+   "smooth",
+   "corporate",
+   "impatient",
+   "authoritative",
+   "asian"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_demergo": {
+  "bio": "Demergo is a long-settled outsider in Whampoa Garden who sizes up the runners investigating the local murders and shares what he has observed.",
+  "direction": "Low, watchful, and unhurried; a perceptive drifter who talks like he has already read you and is just confirming his notes.",
+  "kw": [
+   "deep",
+   "calm",
+   "observant",
+   "gravelly",
+   "measured",
+   "wary"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_thrillganger": {
+  "bio": "A Black Sun Boys thrill ganger defending his alley turf, all swagger until someone genuinely dangerous stares back.",
+  "direction": "Cracking teenage bravado; starts loud and cocky, then collapses into stammering apology the moment the bluff is called.",
+  "kw": [
+   "young",
+   "brash",
+   "nervous",
+   "cocky",
+   "street",
+   "shaky"
+  ],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_waiter": {
+  "bio": "A waiter at the Veranda at the Repulse Bay who serves the elite with impeccable manners and quietly tips the runners toward Chef Kang's keys.",
+  "direction": "Crisp five-star courtesy with a dry seam of class resentment; every polished 'sir' carries a private smirk at the beautiful people.",
+  "kw": [
+   "polite",
+   "refined",
+   "dry",
+   "smooth",
+   "wry",
+   "service"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_cateringmanager": {
+  "bio": "The harried catering manager of a corporate convention who guards the VIP area and berates anyone off their assigned station.",
+  "direction": "Perpetually exasperated middle management; a tight, fast, put-upon voice one staffing mistake away from an aneurysm.",
+  "kw": [
+   "irritable",
+   "stressed",
+   "nasal",
+   "bossy",
+   "fast",
+   "tense"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_elderip": {
+  "bio": "Elder Ip is one of the Whampoa's governing elders and a former mentor of Is0bel, greeting the prodigal decker's return with measured grace.",
+  "direction": "Slow, warm, deliberate elder statesman; a teacher's cadence with quiet disappointment and deeper affection folded together.",
+  "kw": [
+   "old",
+   "wise",
+   "warm",
+   "measured",
+   "dignified",
+   "chinese"
+  ],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_turret": {
+  "bio": "An automated turret control system whose terminal menus let the runners commandeer or shut down the facility's guns.",
+  "direction": "Flat, clipped machine readout; emotionless synthesized status lines with no inflection beyond system beeps.",
+  "kw": [
+   "robotic",
+   "monotone",
+   "synthetic",
+   "flat",
+   "mechanical"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_fuchienforcer": {
+  "bio": "A Fuchi corporate security enforcer locking down a building during a ghoul scare, courteous to civilians and lethal on command.",
+  "direction": "Trained crowd-control calm that snaps into barked combat urgency; professional sympathy delivered through a helmet.",
+  "kw": [
+   "authoritative",
+   "firm",
+   "professional",
+   "commanding",
+   "tense"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_dannyspanecki": {
+  "bio": "Danny Spanecki is a troll florist running the Eightfold Floral Sanctum, offering feng shui arrangements with encyclopedic enthusiasm.",
+  "direction": "A huge subterranean rumble delivering dainty retail cheer; the comedy is the gentle, meticulous salesmanship in a voice built for war cries.",
+  "kw": [
+   "deep",
+   "rumbling",
+   "gentle",
+   "cheerful",
+   "polite",
+   "resonant"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneconventioncongoer2name": {
+  "bio": "A convention-goer trading corporate gossip about Fuchi's collapse and Villiers' asset-stripping on the show floor.",
+  "direction": "Sharp, opinionated water-cooler analyst; quick conversational delivery that enjoys winning the argument more than being right.",
+  "kw": [
+   "conversational",
+   "confident",
+   "sharp",
+   "female",
+   "gossipy"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_securityofficer": {
+  "bio": "A Wuxing lobby security officer who politely funnels visitors through ID checkpoints and raises the alarm on fake credentials.",
+  "direction": "Bland corporate-lobby courtesy with a procedural edge; pleasant script-reading that flips instantly into a shouted trespasser alert.",
+  "kw": [
+   "polite",
+   "formal",
+   "procedural",
+   "calm",
+   "stern"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sducaptain": {
+  "bio": "A captain of the HKPF Special Duties Unit enforcing curfew during the Kowloon crisis, quick to label armed runners as criminals.",
+  "direction": "Barked riot-police command voice; hard, decisive, and contemptuous, cutting off subordinates with drill-sergeant finality.",
+  "kw": [
+   "authoritative",
+   "harsh",
+   "commanding",
+   "gruff",
+   "police",
+   "cantonese"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_humanrefugee": {
+  "bio": "A refugee from the Walled City fallout who has seen the Yama Kings' monsters and wants nothing more than to flee the country.",
+  "direction": "Hollowed-out survivor's voice, quiet and urgent; trauma held just below the surface with a resigned insistence on telling the truth.",
+  "kw": [
+   "weary",
+   "haunted",
+   "quiet",
+   "urgent",
+   "somber"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_wingkeikwok": {
+  "bio": "Wing-Kei Kwok is the master tailor and owner of Kwok Atelier in Whampoa Garden, dressing technologists and shadow-adjacent clients alike.",
+  "direction": "Gracious, precise shopkeeper's warmth with artisan pride; every welcome is tailored as carefully as her suits.",
+  "kw": [
+   "warm",
+   "refined",
+   "polite",
+   "female",
+   "chinese",
+   "gracious"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_conventionsecurityguard": {
+  "bio": "A convention hall security guard who bars the staff-only doors and has no patience for lurking deckers.",
+  "direction": "Flat, bored gatekeeper authority; each word bitten off separately, with open disdain for 'you computer people'.",
+  "kw": [
+   "stern",
+   "deadpan",
+   "dismissive",
+   "firm",
+   "female"
+  ],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_fuchiemployee": {
+  "bio": "A Fuchi office worker guarding the employee break room, easily bribed into looking the other way for a cup of tea.",
+  "direction": "Petty, tired office-drone irritation that melts into conspiratorial indifference once there is something in it for them.",
+  "kw": [
+   "irritable",
+   "tired",
+   "casual",
+   "petty",
+   "conversational"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_sceneouterringlocalshamanname": {
+  "bio": "A local shaman in the Walled City's outer ring being shaken down by the ganger Song and begging passersby for rescue.",
+  "direction": "Thin, pleading, breathless; a gentle practitioner's voice reduced to bargaining for his life mid-sentence.",
+  "kw": [
+   "nervous",
+   "pleading",
+   "frail",
+   "breathless",
+   "soft"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_medicalsupplykiosk": {
+  "bio": "An automated medical supply kiosk that scans patients and vends health services in canned menu prompts.",
+  "direction": "Chipper synthesized vending-machine voice; sterile customer-service cadence with error messages delivered as pleasantly as greetings.",
+  "kw": [
+   "robotic",
+   "synthetic",
+   "cheerful",
+   "monotone",
+   "clinical"
+  ],
+  "gender": null,
+  "age": null
+ },
+ "name_fuchimanager": {
+  "bio": "A Fuchi manager in the break room trying to watch a May Tsung trideo performance over the staff's chatter.",
+  "direction": "Shrill, snapping exasperation; a middle manager whose one joy is being interrupted, escalating from hiss to outburst.",
+  "kw": [
+   "irritable",
+   "shrill",
+   "snappy",
+   "impatient",
+   "tense"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_frightenedresident": {
+  "bio": "A burned-out riot survivor caught scavenging food, desperately pleading that they are not a looter.",
+  "direction": "Raw, tearful panic; words tumbling out too fast, voice breaking on every plea for mercy.",
+  "kw": [
+   "frightened",
+   "desperate",
+   "trembling",
+   "pleading",
+   "breathless"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_tsangorcmaintenanceworker": {
+  "bio": "An orc maintenance worker on Tsang Tower's basement Floor B3 who greets newcomers with an unvarnished review of the worst posting in the company.",
+  "direction": "Gravelly blue-collar deadpan; the flat, amused fatigue of someone who stopped caring about this job years ago.",
+  "kw": [
+   "gravelly",
+   "deep",
+   "deadpan",
+   "gruff",
+   "working-class"
+  ],
+  "gender": "male",
+  "age": "middle_aged"
+ }
+}

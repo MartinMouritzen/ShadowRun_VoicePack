@@ -1838,5 +1838,1105 @@
   "portrait": "NPC_ElfFemale_Shadows_Fiona",
   "nonverbal": false,
   "count": 1
+ },
+ "bark_94bd8becc765bc0a": {
+  "text": "Hong Kong - Victoria Harbour. August, 2056. Monsoon Season.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_7165181612e89703": {
+  "text": "Signalling to the Employee, he heads for the checkpoint.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_8b10bad775369887": {
+  "text": "Qi Point Found",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 11,
+  "kind": "prop"
+ },
+ "bark_e35aebc104f1785a": {
+  "text": "The qi is becoming more and more turbulent. It has reached a point where this churning energy has a physical manifestation visible in the atrium. The disruptions are working.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_88b42f2ebe64ebd9": {
+  "text": "The Repulse Bay Mezzanine, Hong Kong Island.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_fbb7a4885b4cfba3": {
+  "text": "The Emporium",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_f979dee5178b5dea": {
+  "text": "Shing House Court - Top Floor",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_ed4d21b108644b5d": {
+  "text": "Shek Kip Mei Streets",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "screen"
+ },
+ "bark_307f0749b18d90e7": {
+  "text": "As you sift through the pile, you hear a rustling sound. Two beady eyes lock with yours.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 5,
+  "kind": "prop"
+ },
+ "bark_56e9b0929a6044e1": {
+  "text": "You hit the ground with a bone-snapping crunch. Everything goes black.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_c2cd921d1b4db030": {
+  "text": "An ominous chittering noise fills the air.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_3c6524db60a1b76f": {
+  "text": "You hear the scrape of claws on metal. Something is heading this way.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_b03a8723a21f4ad4": {
+  "text": "Energy courses through Gobbet's body. She flexes and the Rat King's servitors move in response.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point"
+ },
+ "bark_6716fd205b3b9fd7": {
+  "text": "The lights in the Engine Room  flicker. All across the raft, shipboard systems begin to fluctuate and fail.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_4974a12a764951bf": {
+  "text": "A thunking sound accompanies the arming of the scuttling charges. They're live and ready to blow.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_397540ec022c6cdb": {
+  "text": "The Rat King recoils, but only for a moment. A strange energy washes over it, bathing its body in indigo light.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_f2971f63868c2b5a": {
+  "text": "You better find someplace indoors to sleep, Yan. The streets are dangerous lately.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_c9a7d8c112597644": {
+  "text": "The Elders don't want anyone to go inside without their permission. It must be pretty bad in there.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_6662c91c7d22aaae": {
+  "text": "I don't know. I just don't feel safe here any more!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_e9bf538ccda510f0": {
+  "text": "I heard he's not just dead, he's been all cut up...",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_ed99d98fe83f8eb9": {
+  "text": "Elevator Arrives.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_5a8e6e82a49c0eed": {
+  "text": "You lift the decker's credstick with ease.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 4,
+  "kind": "screen"
+ },
+ "bark_e8bb8fd6dc6f10a2": {
+  "text": "Ancient Vase: ¥$(scene.Museum_Value_VaseA)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_ed87f5b2cdd9937d": {
+  "text": "Neanderthal Skeleton: ¥$(scene.Museum_Value_BonesA)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_140c9d7159f75037": {
+  "text": "Valuable Urn: ¥$(scene.Museum_Value_VaseB)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_553a6cbf26d3a6fa": {
+  "text": "Royal Flowerpot: ¥$(scene.Museum_Value_VaseC)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_0a4f5efc6253515a": {
+  "text": "King's Ashes: ¥$(scene.Museum_Value_VaseD)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_11dd697b460da6cf": {
+  "text": "Replica Royal Vase: ¥$(scene.Museum_Value_VaseE)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_7a3ca71f0c22566a": {
+  "text": "Authentic Utahraptor Skull: ¥$(scene.Museum_Value_BonesB)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_37d1fc421cf716e1": {
+  "text": "Plesiosaur Jawbone: ¥$(scene.Museum_Value_BonesC)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_ea979502506ff10b": {
+  "text": "Dragon Scales: ¥$(scene.Museum_Value_Scales)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_184fc86199d040b8": {
+  "text": "Mummified Head: ¥$(scene.Museum_Value_Head)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_1494e9f59a3377b1": {
+  "text": "Replica Utahraptor Skull: ¥$(scene.Museum_Value_Skull)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_adcc61e12739a401": {
+  "text": "Imbued Pottery: ¥$(scene.Museum_Value_MagicUrn)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_08cc5aed3bbfc96a": {
+  "text": "Mystic's Staff: ¥$(scene.Museum_Value_MagicStaff)",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_3ec1fafe49f024e1": {
+  "text": "You use Rooster's service key copy to open the door.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_ce8bf74e52c1844b": {
+  "text": "The docking door clangs and slides open. It's time to get to the escape boat.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_1c7b593f60102caf": {
+  "text": "I can't believe they are late again.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_cca9d455fd2c394f": {
+  "text": "Alarm raised!",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 3,
+  "kind": "prop"
+ },
+ "bark_120ca8de9009d189": {
+  "text": "Say again? I didn't copy that.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_9c8c140a2a68f918": {
+  "text": "Please repeat, we didn't copy that.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_e2038c45b1abbaf4": {
+  "text": "Say again, patrol 3? We couldn't hear you.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_2cf95b76b23d814f": {
+  "text": "The commotion from the streets of Heoi bleeds into Kindly Cheng's mahjong parlor. Triad soldiers bustle to keep up with their boss's orders. Couriers come in regularly, whispering to her lieutenant before listening intently and running off again.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_1a00ae8f47c64b79": {
+  "text": "Fear grips the people streaming from inside the Walled City. The storm isn't a typhoon. It's something else.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_2240732e9011ae8a": {
+  "text": "Select a Decker to Jack In.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_caaf095ae6ec16c1": {
+  "text": "HEOI. A makeshift boat-city latched onto the Kai Tak riverfront like a parasite. Behind you, a massive snarl of dark and derelict high-rises dominates the horizon. The Walled City.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_a7d3f230fe61ca8b": {
+  "text": "The Swift Winds Mahjong Parlor - filled with the stink of cigarette smoke, the incessant click-clack of mahjong tiles, and the grim faces of hardened gamblers.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "screen"
+ },
+ "bark_5015deff3cc0d635": {
+  "text": "Choosing Your Team",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "popup"
+ },
+ "bark_c6b51063bf4259ac": {
+  "text": "Additional Runners Available",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "popup"
+ },
+ "bark_fffe802fa894e492": {
+  "text": "Crew Advancement Available",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "popup"
+ },
+ "bark_738f2aa1870a3ec4": {
+  "text": "You hear a telecom begin to ring, near the cryotanks.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_263a7181a1cdfda3": {
+  "text": "You disengage the locks on the hot lab safe.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_2b13b674402d56a2": {
+  "text": "First floor cameras hacked.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_49229cbac57638a9": {
+  "text": "Clearance Upgraded",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_46dc69de210f9b65": {
+  "text": "Secure floor cameras hacked.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_000b7278c87f8f53": {
+  "text": "Armory access panel set to maintenance mode.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_a4e3924f2589a8ba": {
+  "text": "Medical access panel set to maintenance mode.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_303c579459a1d079": {
+  "text": "Already accessible at panel with PDA.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 2,
+  "kind": "prop"
+ },
+ "bark_369d1aa3d0e652ec": {
+  "text": "Data already downloaded.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
+ },
+ "bark_c34f585d2814c5a4": {
+  "text": "Raymond Black. The old man gave you a home once. Took you and Duncan off the gang-ridden streets of the Barrens - sheltered, educated, slapped sense into you both, until you almost resembled productive members of society.\n\nAnd then you took off. Left it all behind. Landed behind bars for a time, tried to start a new life after that. It's been eight years since you've heard Raymond's voice. Until out of the blue, you got this cryptic message, a plea for help: \"Meet me in Hong Kong, right away.\" And, wired to your account, enough nuyen to pay for the flight and then some.\n\nThe descent is rough. A squall comes out of nowhere, sending a solid sheet of rain punching into the suborbital transport. With a ragged shudder, the plane finally skids to a halt at the edge of the Chek Lap Kok tarmac. An hour and an interminable number of emotionless security checkpoints later, you hail a water taxi to Victoria Harbour. Hong Kong looms ahead, pulsing with energy.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "HARD LANDING",
+  "scenes": [
+   "a1_docks_s1"
+  ]
+ },
+ "bark_a00cfcd06ab1d0b9": {
+  "text": "Kowloon Walled City. The most densely populated spot on Earth - nearly 40,000 people crammed into seven acres of chaos, poverty, disease, and vice. A self-contained city that collects no taxes and provides no city services. Stagnant water sits in temporary wells. Trash lies piled on roofs for controlled burns. Improvised structures lean dangerously over populated areas.\n\nIt's the ideal breeding ground for all manner of illicit trade - drugs, gambling, black market trade, metahuman trafficking, and everything in between. The only law is triad law.\n\nAnd now you need to enter this septic system of a city. Find a triad enforcer named Strangler Bao and deliver a message from Kindly Cheng.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "CITY OF DARKNESS",
+  "scenes": [
+   "a1_walledcity_s1"
+  ]
+ },
+ "bark_9a7265d2f0a80414": {
+  "text": "The subway flies over the tracks toward Aberdeen. Monsoon humidity clings to your skin, as if it's followed you from Heoi. Or perhaps it's simply sunk this far into the earth, penetrating stone and machine, rousing the acrid smells of Hong Kong's underground in its wake.\n\nYou've been handed a promising job - geomantic sabotage - with a single objective: disrupt the flow of Wuxing qi to destabilize the corporation. Your client is especially keen on the idea of Wuxing's famed geomancy being used against it. The ultimate humiliation.\n\nWhile the corporation's office spaces are free game, the main target is Wuxing's treasured lotus statue, which resides within a temple on the topmost floor of the monolithic building. Your client's instructions are clear. The more damage you do, the worse the qi, and the better the pay.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "BAD QI",
+  "scenes": [
+   "a2_badqi_s1"
+  ]
+ },
+ "bark_046f4841e3777b3c": {
+  "text": "You arrive at the eponymously named Repulse Bay - a gleaming hotel and apartment building on the shores of Repulse Bay, Hong Kong Island. Rolling stormclouds choke the sky, lending the structure a sinister appearance. As you push through the doors and into the building, a sudden break in the clouds reveals a sun that's gone red as blood.\n\nYou make your way into a ground floor elevator. The attendant pays you no mind. As the car begins to climb, you hear the sounds of merriment drawing closer.\n\nAs the doors slide open, you find Neville Ma's party in full swing.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "EXIT, STAGE LEFT",
+  "scenes": [
+   "a2_exitstageleft_s1"
+  ]
+ },
+ "bark_c3b732115b5a21d6": {
+  "text": "Is0bel has modified a taser to introduce Dreamland’s cortical inhibitor program into the Plastic-Faced Man’s neural network. That should stop his headware from completing a memory wipe and allow you to interrogate him for information about Raymond Black.\n\nBut first you’ll need to find him.\n\nKindly Cheng’s made contact with an underground information broker named Xiaozhi, who has managed to obtain the Plastic-Faced Man's complete itinerary. With it, you can choose the time and place to perform an extraction and find out what he knows. \n\nXiaozhi works out of an abandoned night market in Shek Kip Mei - the Shing House Court.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE EXTRACTION",
+  "scenes": [
+   "a2_extraction_s1"
+  ]
+ },
+ "bark_a6a58a0d8707e446": {
+  "text": "Central Hong Kong spills out along Victoria Harbour, all glittering chrome and neon flash against the night's darkness. The skyscrapers are a jagged nest of mirrored knives thrust into the sky, rending the clouds as they ascend into the heavens.\n\nThe Ares Asia Holdings complex squats menacingly over Chater Road -  a steel and concrete tumor intertwined with nearby buildings in a web of skybridges and shared parking structures. You make your way inside, and ascend to the fifth floor - a public foyer that connects to the restricted areas of the complex.\n\nAs the elevator opens, you arrive in cold, dimly lit reception area. Beyond it, your quarry awaits.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "MISDIRECTION",
+  "scenes": [
+   "a2_falseflag_s1"
+  ]
+ },
+ "bark_6d24c3bc76608520": {
+  "text": "The pungent smells of musty stone, grease, and the remnants of neurostun gas mix in your nostrils as you rappel down the elevator shaft. Whatever frustrated Knight-Errant security officers are in pursuit are too far away to be heard. All around you, there is only darkness and the occasional red-hued maintenance light.\n\nAs you reach the bottom and pry open the heavy elevator doors, light comes flooding into the shaft.\n\nWith any luck, you're only minutes away from the MTR station, and with it, freedom.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "MISDIRECTION",
+  "scenes": [
+   "a2_falseflag_s2"
+  ]
+ },
+ "bark_c4a9fb018bbc9297": {
+  "text": "The Tolo Harbour Industrial Complex is a sprawling maze of warehouses, autofabrication facilities, shipping container mazes, and corporate power. If something corporate-owned is shipped through Hong Kong, it invariably moves through these streets.\n\nThe Renraku shipping facility lies far enough away from the heart of Tolo Harbour that you won't have to worry about corporate security other than the on-site guards - and Renraku's extraterritoriality means that any fighting won't risk backup from rent-a-cops.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "RETRIBUTION",
+  "scenes": [
+   "a2_gaichutrust_s1"
+  ]
+ },
+ "bark_3eb3f673227a4a26": {
+  "text": "Hung Hom Bay. Captain Jomo's converted speedboat chops through the rough water like a cleaver through chicken bones, launching you skyward with every wave that it hits. Your destination: The Sinking Ship, Gobbet's former home.\n\nThe ork pirate laughs and opens the throttle. Wind and rain lash your face as the floating amalgamation of shipping containers grows larger. You can see that it's stacked at least three containers deep, an inelegant brick of corrugated weathering steel. An assortment of pontoons, buoys, and other floatation devices have been lashed to the base of the raft to prevent it from tipping.\n\nYou don't know what's happening here, or why Gobbet felt the need to go face it alone... but one way or another, you're about to find out.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE SINKING SHIP",
+  "scenes": [
+   "a2_gobbettrust_s1"
+  ]
+ },
+ "bark_18aa930f9fd957c1": {
+  "text": "Whampoa Garden: a carnival of chrome and neon, rife with every manner of technology and artifice one can imagine. The entire area has the feel of a night market, save that chips are sold in lieu of steamed buns, and vendors hawk the latest drones rather than folk art. Something stalks these streets, hiding just out of sight. It stalks the Whampoan Elders - the leaders of the band of tech-savvy squatters that have claimed this neighborhood as their own. \n\nThe streets smell of ozone and fear, and those Whampoans you pass in the MTR station have a haunted, furtive look in their eye. While the killer has struck only at the Elders thusfar, it may only be a matter of time before ordinary residents are menaced as well.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "OUTSIDER",
+  "scenes": [
+   "a2_grendel_s1"
+  ]
+ },
+ "bark_a5a9a315bebdc88b": {
+  "text": "A chartered bus carries you from Kai Tak to a mid-range hotel in Tsuen Wan. All around you, the happy chatter of your fellow passengers fills your ears. You hear tech-speak in a variety of languages and dialects; talk about new lines of drones and decks, arguments over innovations in datajack technology, and baseless speculation about the next season of Urban Brawl.\n\nYour guest badge - a glossy slip of laminated paper emblazoned with a flashy logo - hangs on a lanyard around your neck. Your ticket into the convention hall, and the only disguise that you should need.\n\nThe bus drops you in front of the Harbour Spires hotel, and you promptly circle around back to find a service entrance. Is0bel should be waiting for you inside.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "DECKCON 2056",
+  "scenes": [
+   "a2_is0beltrust_s1"
+  ]
+ },
+ "bark_ef22e8c7d7f253af": {
+  "text": "This job is a golden opportunity, in more ways than one. A raid of the in-development museum, the Emperor's Tomb. \n\nThe museum's claim to fame is its location. It rests on top of ancient catacombs, where an excavation is underway to convert them into the museum proper. Intel has it that the workers are dying. Not from on-site accidents, but from magical disturbances in the area. Despite the hazards, development continues.\n\nYour client, Mr. Drake, contacted you to retrieve two tomes. Probably ancient. Magical. Priceless. But it won't be a smash in the park. You have to get to the tomes before they're catalogued, where they'll afterward be near impossible to access.\n\nAs you near the museum, its height and grandeur looms unsettlingly over you. Even unfinished, it's reached an imposing size. At least that means it has plenty of room for pricey antiques. The best part? Mr. Drake needs this run to look unprofessional. Shattered glass and looting is encouraged.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE DIG",
+  "scenes": [
+   "a2_museum_s1"
+  ]
+ },
+ "bark_6f696ef421435c48": {
+  "text": "A tangle of marine decorum, restless lights, and ambrosial scents mingle atop a floating quay to accent the Shangri-La - Aberdeen Harbour's premier dining location. With competitive views of the surrounding bay, the restaurant attracts a steady crowd of tourists and Wuxing personnel.\n\nThe primary moneyman for the 289s, Cheung-Sing \"Rooster\" Lo, is enjoying a rare meal outside of triad-held territory. Intel says he's set up in one of the restaurant's private dining rooms - but he's not alone. Rooster keeps a personal bodyguard, a notorious ork called \"the Talon,\" in addition to his regular security detail. You've seen photos of the Talon's handiwork... bodies so battered it's hard to tell where one bruise ends and the next begins.\n\nYour mission: locate Rooster, extract him from the Shangri-La, and deliver him to your client alive. Simple, fast, low profile. Of course, even the simplest of runs can go sideways...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "UNINVITED GUESTS",
+  "scenes": [
+   "a2_shangrila_s1"
+  ]
+ },
+ "bark_cd86a58ba3e448ea": {
+  "text": "The ride out to the Nalchi is nerve-wracking. Captain Jomo seems an expert pilot, but massive waves threaten to scuttle his small boat at every turn. Deep thunder rolls in the distance, and at the edge of your vision, lightning occasionally illuminates your target: the MV Nalchi.\n\nAs Jomo pulls your small craft directly up to the bow of the Nalchi, where you're least likely to be spotted. He throws a rope ladder up over the side, hustling you aboard before pulling away.\n\nTime to get to work.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "WHISTLEBLOWER",
+  "scenes": [
+   "a2_whistleblower_s1"
+  ]
+ },
+ "bark_b0383a72fe78cf5f": {
+  "text": "$(story.a2_Whistleblower_s1-WarpOutText)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "WHISTLEBLOWER",
+  "scenes": [
+   "a2_whistleblower_s2"
+  ]
+ },
+ "bark_1bc21e54a0daee63": {
+  "text": "$(story.HK_HubLoadingText)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "$(story.HK_Hub_Name)",
+  "scenes": [
+   "a3_hk_hub",
+   "hk_hub"
+  ]
+ },
+ "bark_97e9678d30543b2d": {
+  "text": "The typhoon pours down as the triad soldiers fan out in front of you, leading the way into Kowloon Walled City. Raymond shuffles along, alert and intent. Although exhausted by all that has gone on, he drives himself forward, and will not accept help from anyone. Wu watches the windows and rooftops, his rifle never leaving his shoulder. He occasionally risks a glance at his foster-father, concern, frustration, and anger playing over his face like a slideshow.\n\nThe Walled City is worse than in your first visit. Even with the rain, you can feel something in the air. It’s thicker now and it clings to your skin like invisible filth. The miserable noises of slum life are gone, replaced by something worse. The sounds of death. The sounds of fear.\n\nAs you round a corner, the group stops before heading in deeper.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "CITY OF DEATH",
+  "scenes": [
+   "a3_showdown_s1"
+  ]
+ },
+ "bark_70cdd0fa2cfb9e42": {
+  "text": "The deafening rattle of machinegun fire fills the air behind you, and the metallic tang of blood cuts through the stench of garbage. You press forward, wading through block after block of insanity, chaos, and death. All around you, the Walled City is descending into a churning cauldron of depravity and violence.\n\nThe comm's of no use. You've tried several times, but there's still no word from the B-Team - no sign of Raymond, or of Kindly Cheng's triad soldiers. Finally, you reach the center of this hellhole: an industrial hatch with its door ajar.\n\nThis is the place where Raymond Black built his infernal machine. The threshold across which Qian Ya, the Queen With a Thousand Teeth, clawed her way into this world.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE FORTUNE ENGINE",
+  "scenes": [
+   "a3_showdown_s2"
+  ]
+ },
+ "bark_4ac31c506b2c43ca": {
+  "text": "$(story.a3_TsangTower_LoadingText)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "PROSPERITY TOWER",
+  "scenes": [
+   "a3_tsangtower_s1"
+  ]
+ },
+ "bark_1ad14829e41a0891": {
+  "text": "The elevator codes acquired, you head into the enclosed space, watching the ceiling access panel closely as you make your way to Lab Twelve. Light elevator music contrasts sharply with the smell of sweat and cordite. As the lights on the elevator hit twelve, you cover the door and wait.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "ASIST",
+  "scenes": [
+   "a3_tsangtower_s2"
+  ]
+ },
+ "bark_f4d622f5bddc2e3a": {
+  "text": "Something is wrong.\n\nThe last thing that you remember, it was the night of the Kowloon City riots. You and your team were running an errand for Kindly Cheng, recovering an object before the inevitable police response turned the city upside down. Everything was going well, you had the item in hand, and then... nothing. The world went black.\n\nA sudden explosion of pain behind your eyes jolts you back to the present. A nightmarish succession of dream-images flicker through your consciousness like a strobe light: a man with a pockmarked face. Slim fingers playing over the surface of your brain, leaving a slug's trail of agony in their wake. A second figure whose face you couldn't see, digging with relish through the scraps of memory that your tormentor left behind.\n\nIt was a rough night. And now, as your eyes snap open and adjust to the light, you find yourself in a reality that is little more comforting...",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "RUDE AWAKENING",
+  "scenes": [
+   "mc_a1_intro_s1"
+  ]
+ },
+ "bark_81ff52594d3fad7c": {
+  "text": "The glittering expanse of Hong Kong stretches out beneath the helicopter as Jomo weaves his way between the city's myriad skyscrapers. Rain spatters the tiny craft's windshield as it slices its way through the calm skies above the Central District. Despite the late hour, the city streets below still glimmer with activity.\n\nSoon enough, the black-mirrored walls of Ikon Tower stretch up before you. Jomo pulls the helicopter in for a landing, depositing you on the tower's roof. Somewhere beneath your feet, Lilian Lai awaits.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "DETENTION",
+  "scenes": [
+   "mc_a2_kidnapping_s1"
+  ]
+ },
+ "bark_d13e39cde02795de": {
+  "text": "You lead Lilian Lai out of Ikon Tower, taking care to ensure that the public street in front of you is clear of guards. Central Hong Kong is surprisingly quiet; there is very little foot traffic at this hour, and only the occasional delivery van rolls by on the street in front of you.\n\nTime to make contact with the mercenaries working for Yamatetsu, and hopefully get clear of the Fuchi forces behind you.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "DETENTION",
+  "scenes": [
+   "mc_a2_kidnapping_s2"
+  ]
+ },
+ "bark_cd75fa275e229742": {
+  "text": "The trip to Lee's loaned minisub is uneventful, as is transit to the area near Hong Kong where Shiawase has built their research laboratory. The sub descends swiftly, and you are kept company by the hissing of the oxygen scrubbers - and the occasional ping of active sonar striking your hull. As you near the coordinates for the lab, Jomo begins switching off all but the most essential of systems.\n\nAfter a few minutes, brighter light filters through the portholes as you ascend into a moon pool, and there is a dull thud as the facility's clamp closes around the sub to lift it free.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "NAMAZU",
+  "scenes": [
+   "mc_a2_plaguebearer_s1"
+  ]
+ },
+ "bark_61679126595016b8": {
+  "text": "The Drunken Mistake screams over Kowloon Bay, cutting through grey weather and greyer waters. Around you, grim faces watch the skyline ahead as Jomo steers you toward Krait's headquarters: The Tigers' Den.\n\nQiu and Lam have assured you that if everything goes to plan, the run should be relatively low-risk. Ample experience tells you that plans often go astray, and that low-risk shadowruns rarely stay that way. But you also know that the reward for this run outweighs the risk. The incriminating data from the Den's evidence room should be more than enough to bury Krait, expose her client, and cement your position with Kindly Cheng forever.\n\nJomo cuts the engines, and the Drunken Mistake drifts toward the station's loading dock. It's go time.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE TIGERS' DEN",
+  "scenes": [
+   "mc_a2_stationrun_s1"
+  ]
+ },
+ "bark_ccada9b14608e268": {
+  "text": "$(story.MC_a2_StationRun_s2_LoadingScreenText)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE TIGERS' DEN",
+  "scenes": [
+   "mc_a2_stationrun_s2"
+  ]
+ },
+ "bark_2440ddaae6e390f6": {
+  "text": "$(story.MC_a3_Epilogue_LoadingScreenText)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "Epilogue",
+  "scenes": [
+   "mc_a3_epilogue"
+  ]
+ },
+ "bark_e149e27c04a4a2b8": {
+  "text": "You watch the Benteng drift slowly out of view as the Drunken Mistake bobs turbulently on dark, choppy waves. Angry rain dimples the water's surface and obscures the world around you in a haze. Before long, the warehouses appear on the horizon - great grey silhouettes looming just beyond the docks.\n\nKrait and her people are guarding a warehouse here. You don't know what you're going to find inside, but this is the last lead that you have to follow. If the conspiracy within the SDU is going to be stopped, it has to happen tonight, in that warehouse.\n\nQiu sits nearby, her fingers pressing into her temples - a sign of her distress, no doubt. But despite her evident discomfort, she still looks present and alert.\n\nTai Po - once a small fishing village, now encrusted with cheap industrial warehouses - grows ever closer. Water whips down from the sky as you bump up against the docks. You've arrived.",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "TAI PO",
+  "scenes": [
+   "mc_a3_taipo"
+  ]
+ },
+ "bark_74a446c44a276366": {
+  "text": "$(story.MC_Hub_ImpoundHub_LoadingScreenText)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE IMPOUND LOT",
+  "scenes": [
+   "mc_hub_impound"
+  ]
+ },
+ "bark_e9c76dbf4085c0b7": {
+  "text": "$(story.MC_Hub_BargeHub_LoadingScreenText)",
+  "speaker": "Narrator",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "loadscreen",
+  "title": "THE BENTENG",
+  "scenes": [
+   "mc_hub_piratebarge"
+  ]
  }
 }
