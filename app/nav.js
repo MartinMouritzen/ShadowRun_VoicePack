@@ -25,6 +25,9 @@ function currentGame() {
   #topnav .gtab .gn{font-size:13.5px; font-weight:600; line-height:1.15}
   #topnav .gtab.on .gn{color:var(--acc)}
   #topnav .gtab .gs{font-size:10.5px; color:var(--dim); letter-spacing:.06em}
+  #topnav .navright{margin-left:auto; display:flex; align-items:center; padding:0 16px; font-size:12.5px; color:var(--dim); white-space:nowrap}
+  #topnav .navright a{color:var(--acc); text-decoration:none}
+  #topnav .navright a:hover{text-decoration:underline}
   /* Characters / Barks view tabs — live at the top of the left sidebar (#sidetabs) */
   #sidetabs{display:flex; border-bottom:1px solid var(--edge)}
   #sidetabs .stab{flex:1; text-align:center; padding:11px 6px; text-decoration:none; color:var(--dim);
@@ -51,7 +54,17 @@ function renderNav(view) {
        <span class="gn">${x.name}</span><span class="gs">${x.sub}</span></a>`).join('');
   el.innerHTML =
     `<div class="brand"><b>SRR Voice Lab</b><span>AI voices</span></div>
-     <div class="gtabs">${gtabs}</div>`;
+     <div class="gtabs">${gtabs}</div>
+     <div class="navright" id="navright"></div>`;
+}
+
+// Magnific connection status, top right of the shared header. Call once /api/state is loaded.
+function renderNavStatus(mcpConnected) {
+  const el = document.getElementById('navright');
+  if (!el) return;
+  el.innerHTML = mcpConnected
+    ? '<span style="color:var(--good)">⚡ Magnific: direct ✓</span>'
+    : '<a href="/oauth/login">⚡ Connect Magnific (one-time login)</a>';
 }
 
 // Characters/Barks tabs at the top of the left sidebar (#sidetabs). Switching games is preserved.

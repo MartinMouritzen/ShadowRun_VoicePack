@@ -22,6 +22,8 @@
   .barklink:hover{background:rgba(232,163,61,.12)}
   #side h2{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--dim); padding:14px 16px 6px}
   #quota{padding:10px 16px; font-size:12px; color:var(--dim); border-bottom:1px solid var(--edge)}
+  #csearchwrap{padding:9px 12px; border-bottom:1px solid var(--edge)}
+  #csearchwrap input{width:100%; background:var(--panel2); border:1px solid var(--edge); color:var(--txt); border-radius:8px; padding:7px 10px}
   .char{display:flex; align-items:center; gap:10px; padding:7px 14px; cursor:pointer}
   .char:hover{background:rgba(255,255,255,.045)}
   .char.sel{background:linear-gradient(90deg, rgba(232,163,61,.22) 0%, var(--panel2) 34%, var(--panel2) 100%)}
@@ -93,6 +95,7 @@
 <div id="side">
   <div id="sidetabs"></div>
   <label class="incfilter"><input type="checkbox" id="incomplete"> Show only incomplete (needs voices)</label>
+  <div id="csearchwrap"><input type="text" id="csearch" placeholder="search characters / lines"></div>
   <div id="sidelist"><div id="quota">quota: …</div></div>
 </div>
 <div id="main"><div style="color:var(--dim);margin-top:40px;text-align:center">Select a character</div></div>
@@ -145,10 +148,9 @@ async function boot(){
   try{ SEGOV=await (await fetch(gd('seg_overrides.json'),NS)).json(); }catch(e){SEGOV={}}
   try{ DIRECTED=await (await fetch(gd('directed.json'),NS)).json(); }catch(e){}
   side();
+  renderNavStatus(S.mcpConnected);
   api('/api/quota').then(q=>{
-    const mcp=S.mcpConnected?'<span style="color:var(--good)">Magnific: direct ✓</span>'
-      :'<a href="/oauth/login" style="color:var(--acc)">Connect Magnific (one-time login)</a>';
-    $('quota').innerHTML=`ElevenLabs ${q.tier}: ${q.used.toLocaleString()} / ${q.limit.toLocaleString()} chars · ${mcp}`;
+    $('quota').innerHTML=`ElevenLabs ${q.tier}: ${q.used.toLocaleString()} / ${q.limit.toLocaleString()} chars`;
   }).catch(()=>{});
   // Magnific catalog is primary (no slot limits, identical to bulk production);
   // ElevenLabs is limited to voices already in the account (library adds are rate-limited).
@@ -175,11 +177,13 @@ function chars(){
 function side(){
   const cs=chars();
   const inc=$('incomplete')&&$('incomplete').checked;
+  const q=($('csearch')&&$('csearch').value||'').toLowerCase();
   let h=$('quota').outerHTML+'<h2>Cast</h2>';
   const arr=Object.values(cs).sort((a,b)=>(b.id==='narrator')-(a.id==='narrator') || (b.lines?.length||0)-(a.lines?.length||0));
   let shown=0;
   for(const c of arr){
     if(inc && isFullyVoiced(c.id)) continue;   // "incomplete only": hide fully-voiced cast
+    if(q && !(c.name.toLowerCase().includes(q) || (c.lines||[]).some(l=>(l.t||'').toLowerCase().includes(q)))) continue;
     shown++;
     const t=S.takes[c.id]||{}; const done=Object.keys(t).length;
     const pick=S.picks[c.id];
@@ -243,7 +247,36 @@ function show(id){
     }
     h+=`<div class="row"><span class="src">${segs.length?'':'narration only · '}${esc(l.cn||'')}</span></div></div>`;
   }
-  $('main').innerHTML=h;
+  // Full innerHTML swap kills the focused contenteditable — preserve which .etext was being
+  // edited (live text + caret) and the scroll position, and restore them into the new DOM,
+  // so a retake finishing in the background doesn't kick you out of the field you're typing in.
+  const m=$('main'), act=document.activeElement;
+  const foc=(act&&act.classList&&act.classList.contains('etext')&&m.contains(act))
+    ? {key:act.dataset.key, text:act.textContent, caret:caretOffset(act)} : null;
+  const sc=m.scrollTop;
+  m.innerHTML=h;
+  m.scrollTop=sc;
+  if(foc){
+    const el=m.querySelector(`.etext[data-key="${CSS.escape(foc.key)}"]`);
+    if(el){ el.textContent=foc.text; el.focus({preventScroll:true}); setCaret(el, foc.caret); }
+  }
+}
+function caretOffset(el){
+  const s=window.getSelection();
+  if(!s.rangeCount||!el.contains(s.anchorNode)) return el.textContent.length;
+  const r=s.getRangeAt(0), pre=r.cloneRange();
+  pre.selectNodeContents(el); pre.setEnd(r.startContainer, r.startOffset);
+  return pre.toString().length;
+}
+function setCaret(el, off){
+  const s=window.getSelection(), r=document.createRange();
+  const walker=document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+  let n, left=off;
+  while((n=walker.nextNode())){
+    if(left<=n.textContent.length){ r.setStart(n,left); r.collapse(true); s.removeAllRanges(); s.addRange(r); return; }
+    left-=n.textContent.length;
+  }
+  r.selectNodeContents(el); r.collapse(false); s.removeAllRanges(); s.addRange(r);
 }
 async function genAllVisible(){
   const c=chars()[cur];
@@ -305,7 +338,13 @@ async function commitEdit(el){
 }
 async function resetEdit(key){
   await api('/api/text/set',{key, text:''});
-  S=await api('/api/state'); show(cur); toast('Reset to original');
+  S=await api('/api/state');
+  // The field may still hold focus (the ↺ button preventDefaults mousedown) — put the default
+  // text into it BEFORE re-rendering, so the focus-preservation in show() carries the reset
+  // text forward instead of restoring the pre-reset edit.
+  const el=document.querySelector(`.etext[data-key="${CSS.escape(key)}"]`);
+  if(el) el.textContent=el.dataset.def||'';
+  show(cur); toast('Reset to original');
 }
 function isFullyVoiced(id){
   // true when every one of this character's own speech segments has a take (narration is the
@@ -469,6 +508,7 @@ async function syncToGame(btn){
   btn.disabled=false; btn.textContent=old;
 }
 $('incomplete').onchange=side;
+$('csearch').oninput=side;
 boot();
 </script>
 </body>

@@ -100,6 +100,7 @@ async function load(){
   try{OVERRIDES=await (await fetch(gd('bark_overrides.json'),NS)).json()}catch(e){OVERRIDES={}}
   try{SCENEACTORS=await (await fetch(gd('scene_actors.json'),NS)).json()}catch(e){SCENEACTORS={}}
   const s=await api('/api/state'); TAKES=(s.takes||{})['_barks']||{}; EDITS=s.edits||{};
+  renderNavStatus(s.mcpConnected);
   // voice catalog: Magnific + my EL voices (same shape the shared picker expects)
   const mag=await (await fetch('data/magnific_voices.json',NS)).json();
   let el={voices:[]}; try{el=await api('/api/voices')}catch(e){}
@@ -190,7 +191,35 @@ function renderMain(groups){
       ${takes.length?`<div class="btakes">${takes.map(tk=>barkTakeChip(k,TAKES[k],tk)).join('')}</div>`:''}
     </div>`;
   }
-  $('main').innerHTML=h;
+  // Full innerHTML swap kills the focused contenteditable — preserve the edited field's live
+  // text + caret and the scroll position across re-renders (e.g. a retake finishing elsewhere).
+  const m=$('main'), act=document.activeElement;
+  const foc=(act&&act.classList&&act.classList.contains('etext')&&m.contains(act))
+    ? {key:act.dataset.key, text:act.textContent, caret:caretOffset(act)} : null;
+  const sc=m.scrollTop;
+  m.innerHTML=h;
+  m.scrollTop=sc;
+  if(foc){
+    const el=m.querySelector(`.etext[data-key="${CSS.escape(foc.key)}"]`);
+    if(el){ el.textContent=foc.text; el.focus({preventScroll:true}); setCaret(el, foc.caret); }
+  }
+}
+function caretOffset(el){
+  const s=window.getSelection();
+  if(!s.rangeCount||!el.contains(s.anchorNode)) return el.textContent.length;
+  const r=s.getRangeAt(0), pre=r.cloneRange();
+  pre.selectNodeContents(el); pre.setEnd(r.startContainer, r.startOffset);
+  return pre.toString().length;
+}
+function setCaret(el, off){
+  const s=window.getSelection(), r=document.createRange();
+  const walker=document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+  let n, left=off;
+  while((n=walker.nextNode())){
+    if(left<=n.textContent.length){ r.setStart(n,left); r.collapse(true); s.removeAllRanges(); s.addRange(r); return; }
+    left-=n.textContent.length;
+  }
+  r.selectNodeContents(el); r.collapse(false); s.removeAllRanges(); s.addRange(r);
 }
 
 let curAudio=null;
@@ -228,7 +257,14 @@ async function commitEdit(el){
   try{ await api('/api/text/set',{key, text: txt===def?'':txt}); if(txt===def) delete EDITS[key]; else EDITS[key]=txt; render(); toast(txt===def?'Reset to original':'Script updated — hit Retake to hear it'); }
   catch(e){ toast('save failed: '+e.message,5000); }
 }
-async function resetEdit(key){ await api('/api/text/set',{key,text:''}); delete EDITS[key]; render(); toast('Reset to original'); }
+async function resetEdit(key){
+  await api('/api/text/set',{key,text:''}); delete EDITS[key];
+  // The field may still hold focus (↺ preventDefaults mousedown) — sync the default text into it
+  // BEFORE re-rendering so the focus-preservation carries the reset forward, not the old edit.
+  const el=document.querySelector(`.etext[data-key="${CSS.escape(key)}"]`);
+  if(el) el.textContent=el.dataset.def||'';
+  render(); toast('Reset to original');
+}
 
 // ---- multiple takes per bark: play / pick keeper / delete ----
 function barkTakeChip(k,t,tk){
