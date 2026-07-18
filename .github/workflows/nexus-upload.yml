@@ -1,21 +1,29 @@
-# Push a new file version to an EXISTING Nexus mod page, using Nexus's official upload-action.
+# Push a new file version to an EXISTING Nexus mod file, using Nexus's official upload-action.
 # Manual trigger only (workflow_dispatch). Requires a repo Actions secret NEXUS_API_KEY (your Nexus
-# personal API key). The Upload API can only add versions to a mod/file that already exists on the
-# website — it cannot create mod pages, descriptions, or media.
+# personal API key). The action can only add versions to a v3-API mod file that already exists; it
+# cannot create mod pages, descriptions, or media.
+#
+# IMPORTANT (learned 2026-07-18, v1.3 release): file_id is the **v3 API mod-file id** (e.g.
+# 438086665162 for our v1.3 file), NOT the legacy v1 file id from files.json (e.g. 969) and NOT
+# the game-scoped id shown on the site. Legacy website-uploaded files (v1.0-v1.2) do not exist in
+# the v3 store at all: POST /mod-files/{legacy-id}/versions 404s with "Mod file not found". The
+# FIRST v3 file must be created once with `POST https://api.nexusmods.com/v3/mod-files`
+# ({upload_id, mod_id, name, version, file_category, ...}) after finalizing an upload; mod_id is
+# the composite id from GET /v3/games/<domain>/mods/<site-id> (ours: 438086664474). Our v1.3 mod
+# file id 438086665162 is what future runs of this workflow should pass as file_id.
 #
 # Flow: download the chosen asset from a GitHub release, then upload-action pushes it to Nexus as a
-# new version of the given file_id.
+# new version of the given mod file.
 #
 # Trigger from your machine (gh is authenticated):
-#   gh workflow run nexus-upload.yml -f file_id=<ID> -f version=1.2 \
-#      -f release_tag=v1.2 -f asset=ShadowRun_VoicePack_DMS_v1.2.zip -f description="..."
-# Find file_id on the mod's Files tab -> Manage Files (the "API Info" / file id).
+#   gh workflow run nexus-upload.yml -f file_id=438086665162 -f version=1.4 \
+#      -f release_tag=v1.4 -f asset=ShadowRun_VoicePack_DMS_v1.4.zip -f description="..."
 name: Upload to Nexus
 on:
   workflow_dispatch:
     inputs:
       file_id:
-        description: "Existing Nexus file ID to add this version to (Files tab -> Manage Files)"
+        description: "v3 API mod-file id to add this version to (ours: 438086665162). NOT the legacy v1 file id."
         required: true
       version:
         description: "Version string, e.g. 1.2"
