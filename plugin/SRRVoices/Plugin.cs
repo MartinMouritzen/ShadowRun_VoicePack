@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace SRRVoices
 {
-    [BepInPlugin(GUID, "SRR AI Voices", "1.0.0")]
+    [BepInPlugin(GUID, "SRR AI Voices", "1.3.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string GUID = "com.mmo.srrvoices";

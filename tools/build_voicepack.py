@@ -200,6 +200,15 @@ def main():
         for k in sorted(manifest_lines):
             f.write(k + "\t" + "\t".join(manifest_lines[k]) + "\n")
 
+    # Prune cache oggs no longer referenced by any line (replaced retakes, deleted takes) —
+    # build_dist.sh copies clips/ wholesale, so stale files would ship to users otherwise.
+    referenced = {rel.split("/", 1)[1] for rel in src_to_ogg.values()}
+    stale = [f for f in os.listdir(CLIPS) if f.endswith(".ogg") and f not in referenced]
+    for f in stale:
+        os.remove(os.path.join(CLIPS, f))
+    if stale:
+        print(f"  pruned {len(stale)} stale cached clip(s) not referenced by the manifest")
+
     total_mb = sum(os.path.getsize(os.path.join(OUT, "clips", f))
                    for f in os.listdir(CLIPS)) / 1e6 if os.path.isdir(CLIPS) else 0
     print(f"voicepack: {len(manifest_lines)} voiced nodes, "
