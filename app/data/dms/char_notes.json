@@ -2302,53 +2302,6 @@
    }
   ]
  },
- "name_doctor": {
-  "bio": "A Seattle citizen just trying to get by.",
-  "direction": "Everyday, natural, unpolished.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_439",
-    "name": "Owen Parker",
-    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
-   },
-   {
-    "voice_id": "mag_231",
-    "name": "Thabo Peterson",
-    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
-   },
-   {
-    "voice_id": "mag_47",
-    "name": "Tyler Quinn",
-    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
-   },
-   {
-    "voice_id": "mag_372",
-    "name": "William Anderson",
-    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
-   },
-   {
-    "voice_id": "mag_533",
-    "name": "Zeke Rivers",
-    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
-   },
-   {
-    "voice_id": "mag_284",
-    "name": "Liam Cooper",
-    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
-   },
-   {
-    "voice_id": "mag_181",
-    "name": "Lucas Bennett",
-    "why": "Casual and conversational voice of a 40-year-old Canadian man."
-   },
-   {
-    "voice_id": "mag_318",
-    "name": "Oliver Whitmore",
-    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
-   }
-  ]
- },
  "name_cook": {
   "bio": "A Seattle citizen just trying to get by.",
   "direction": "Everyday, natural, unpolished.",

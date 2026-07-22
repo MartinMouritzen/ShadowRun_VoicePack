@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace SRRVoices
 {
-    [BepInPlugin(GUID, "SRR AI Voices", "1.3.0")]
+    [BepInPlugin(GUID, "SRR AI Voices", "1.4.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string GUID = "com.mmo.srrvoices";
@@ -21,9 +21,13 @@ namespace SRRVoices
         public static ConfigEntry<bool> CfgLoadScreens;
         public static ConfigEntry<float> CfgVolume;
         public static ConfigEntry<float> CfgSpeed;
+        public static ConfigEntry<bool> CfgPreservePitch;
         public static ConfigEntry<float> CfgSegmentGap;
         public static ConfigEntry<bool> CfgBorderless;
         public static ConfigEntry<bool> CfgLogLines;
+        public static ConfigEntry<bool> CfgPortraits;
+        public static ConfigEntry<float> CfgPdaNudgeX;
+        public static ConfigEntry<float> CfgPdaNudgeY;
 
         public static VoicePack Pack;
         public static VoicePlayer Player;
@@ -52,13 +56,22 @@ namespace SRRVoices
             CfgLoadScreens = Config.Bind("General", "VoiceLoadScreens", true, "Narrate the loading-screen scene descriptions. Set false to keep load screens silent.");
             CfgVolume = Config.Bind("General", "Volume", 1f, "Voice volume, 0..1.");
             CfgSpeed = Config.Bind("General", "PlaybackSpeed", 1f,
-                "Voice playback speed multiplier (1 = normal, clamped 0.5..2). Note: Unity 4 speed changes also shift pitch slightly, like tape.");
+                "Voice playback speed multiplier (1 = normal, clamped 0.5..2).");
+            CfgPreservePitch = Config.Bind("General", "PreservePitch", true,
+                "Keep the voice's natural pitch when PlaybackSpeed is not 1.0 (time-stretch). Set false for raw tape-style speedup, where pitch rises with speed.");
             CfgSegmentGap = Config.Bind("General", "SegmentGap", 0.3f,
                 "Pause in seconds between a line's segments (narrator -> character swap). 0 = instant.");
             CfgBorderless = Config.Bind("Display", "BorderlessFullscreen", false,
                 "Force borderless fullscreen at desktop resolution on startup.");
+            CfgPortraits = Config.Bind("General", "AIPortraits", true,
+                "Show AI-generated portraits for characters the game ships without one. "
+                + "Characters with their own portrait art are never changed.");
             CfgLogLines = Config.Bind("Debug", "LogLines", true,
                 "Log each played / missed dialogue node key to the BepInEx log.");
+            CfgPdaNudgeX = Config.Bind("Options", "PdaPanelNudgeX", 0f,
+                "Horizontal nudge (NGUI pixels) for the voice-settings side panel on the in-game Escape menu.");
+            CfgPdaNudgeY = Config.Bind("Options", "PdaPanelNudgeY", 0f,
+                "Vertical nudge (NGUI pixels) for the voice-settings side panel on the in-game Escape menu.");
 
             string dir = Path.Combine(Paths.PluginPath, "SRRVoices");
             string vpDir = Path.Combine(dir, "voicepack");
@@ -183,6 +196,16 @@ namespace SRRVoices
             catch (Exception e)
             {
                 Log.LogWarning("Options-screen patch failed: " + e.Message);
+            }
+
+            try
+            {
+                PortraitPatches.Load(Path.Combine(dir, "portraits"));
+                PortraitPatches.Apply(harmony);
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("AI portraits unavailable: " + e.Message);
             }
 
             if (CfgBorderless.Value)

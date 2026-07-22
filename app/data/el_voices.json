@@ -1,5 +1,5 @@
 {
- "fetched": 1784126213,
+ "fetched": 1784457073,
  "voices": [
   {
    "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
@@ -37,7 +37,7 @@
    "accent": "american",
    "use": "social_media",
    "desc": "This young adult female voice delivers sunny enthusiasm with a quirky attitude.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/FGY2WhTYpPnrIDTdsKH5/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI2NzM0MTc1OS1hZDA4LTQxYTUtYmU2ZS1kZTEyZmU0NDg2MTgubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/FGY2WhTYpPnrIDTdsKH5/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI2NzM0MTc1OS1hZDA4LTQxYTUtYmU2ZS1kZTEyZmU0NDg2MTgubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "mine"
   },
   {
@@ -50,7 +50,7 @@
    "accent": "australian",
    "use": "conversational",
    "desc": "A young Australian male with a confident and energetic voice.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/IKne3meq5aSn9XLyUdCD/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIxMDJkZTZmMi0yMmVkLTQzZTAtYTFmMS0xMTFmYTc1YzU0ODEubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/IKne3meq5aSn9XLyUdCD/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIxMDJkZTZmMi0yMmVkLTQzZTAtYTFmMS0xMTFmYTc1YzU0ODEubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "mine"
   },
   {
@@ -63,7 +63,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "Warm resonance that instantly captivates listeners.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/JBFqnCBsd6RMkjVDRZzb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiJlNjIwNmQxYS0wNzIxLTQ3ODctYWFmYi0wNmE2ZTcwNWNhYzUubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/JBFqnCBsd6RMkjVDRZzb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiJlNjIwNmQxYS0wNzIxLTQ3ODctYWFmYi0wNmE2ZTcwNWNhYzUubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "mine"
   },
   {
@@ -219,7 +219,7 @@
    "accent": "american",
    "use": "social_media",
    "desc": "Middle-aged man with a resonant and comforting tone. Great for narrations and advertisements.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/nPczCjzI2devNBz1zQrb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIyZGQzZTcyYy00ZmQzLTQyZjEtOTNlYS1hYmM1ZDRlNWFhMWQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/nPczCjzI2devNBz1zQrb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIyZGQzZTcyYy00ZmQzLTQyZjEtOTNlYS1hYmM1ZDRlNWFhMWQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "mine"
   },
   {
@@ -232,7 +232,7 @@
    "accent": "british",
    "use": "informative_educational",
    "desc": "A strong voice perfect for delivering a professional broadcast or news story.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/onwK4e9ZLuTAKqWW03F9/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI3ZWVlMDIzNi0xYTcyLTRiODYtYjMwMy01ZGNhZGMwMDdiYTkubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/onwK4e9ZLuTAKqWW03F9/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI3ZWVlMDIzNi0xYTcyLTRiODYtYjMwMy01ZGNhZGMwMDdiYTkubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "mine"
   },
   {
@@ -288,136 +288,6 @@
    "source": "mine"
   },
   {
-   "voice_id": "1EZBFEhLjqjzuG8HBNbj",
-   "public_owner_id": null,
-   "name": "Gabby",
-   "category": "professional",
-   "gender": "female",
-   "age": "young",
-   "accent": "canadian",
-   "use": "conversational",
-   "desc": "Gabby - Unique female voice. Canadian and Atlantic accent. 25 years old. Slightly raspy.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a251500a5e804f8383b24391950d4206/voices/1EZBFEhLjqjzuG8HBNbj/fdc659ba-bf5b-4bf6-8bc2-06bdad1041cc.mp3",
-   "source": "mine"
-  },
-  {
-   "voice_id": "8x4LLFkQ3JR5mHwstx8Z",
-   "public_owner_id": null,
-   "name": "Kaelric",
-   "category": "generated",
-   "gender": null,
-   "age": null,
-   "accent": null,
-   "use": null,
-   "desc": "A deep, male voice of a human lion. Thick, gravelly tone with a resonant, theatrical quality that's menacing yet still warm. Perfect audio quality.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8da50e148fe14e6b893d9b287955def7/voices/8x4LLFkQ3JR5mHwstx8Z/4c1ec0ba-6eb6-40ae-82cd-3890562e9795.mp3",
-   "source": "mine"
-  },
-  {
-   "voice_id": "jvcMcno3QtjOzGtfpjoI",
-   "public_owner_id": null,
-   "name": "David - British Documentary",
-   "category": "professional",
-   "gender": "male",
-   "age": "old",
-   "accent": "british",
-   "use": "narrative_story",
-   "desc": "David - British Documentary - Old, British male nature documentary voice.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/jvcMcno3QtjOzGtfpjoI/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiYTExN2I3YzFlZTc0Njc4YjliZDMxZGNjMDllOGE1NCIsImZpbGVuYW1lIjoiVTJxN2k2M3NWdnRZeFJBTkk0YVMubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
-   "source": "mine"
-  },
-  {
-   "voice_id": "QveTUeWnBLXn45KK6cVc",
-   "public_owner_id": null,
-   "name": "Sparks",
-   "category": "generated",
-   "gender": null,
-   "age": null,
-   "accent": null,
-   "use": null,
-   "desc": "Native English, neutral American with slight warmth. Male, early 20s. Very good quality. Persona: charming young rogue. Emotion: playful, confident, slightly cocky. A smooth, warm tenor with a light, agile quality. Natural charisma in the delivery, with a hint of mischief behind every line. Pacing is quick and conversational, speeding up when excited or improvising. He sounds like someone who's talked his way out of trouble more times than he can count, and enjoys it.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/QveTUeWnBLXn45KK6cVc/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4ZGE1MGUxNDhmZTE0ZTZiODkzZDliMjg3OTU1ZGVmNyIsImZpbGVuYW1lIjoiYmEwMjdiZGQtNzIxMS00OGY5LTgxZTctNTU4OGZjOTAzOTM5Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
-   "source": "mine"
-  },
-  {
-   "voice_id": "0aXOy31Cjamp6gJcyqYu",
-   "public_owner_id": null,
-   "name": "Matt - Deep Authoritative Narrator",
-   "category": "professional",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": "narrative_story",
-   "desc": "Deep, resonant American baritone built for audiobooks, documentary narration, and long‑form YouTube content. Authoritative, smooth, and calm — a voice that makes any story feel serious and compelling. ",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/d29022fbdecc43698b30b6540d29690a/voices/0aXOy31Cjamp6gJcyqYu/nDiSY7XOZsSOf04JlpXb.mp3",
-   "source": "mine"
-  },
-  {
-   "voice_id": "1H55NhSPCOflV227iYPn",
-   "public_owner_id": null,
-   "name": "Sigmon",
-   "category": "professional",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": "narrative_story",
-   "desc": "Middle-aged American male. Thoughtful, sincere, approachable. ",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/d8d13f29d68a41f58d01a5ca632be14d/voices/1H55NhSPCOflV227iYPn/2c35980b-f763-45b5-adae-f87ad9703eaf.mp3",
-   "source": "mine"
-  },
-  {
-   "voice_id": "Xjf4ERpibIUB0qlQbAA7",
-   "public_owner_id": null,
-   "name": "Amie - Trustworthy Southern Female",
-   "category": "professional",
-   "gender": "female",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": "narrative_story",
-   "desc": "Amie is a warm, calming female voice with a soft Southern accent and a confident, easy delivery. Clear and natural, she fits e-learning and explainer videos, corporate and brand narration, audiobooks and storytelling, meditation and wellness content, and phone or IVR systems. A polished American voice with genuine Southern warmth for projects that want a steady, trustworthy, approachable sound.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/9d9ad27323f241c491bd0dcd77658100/voices/Xjf4ERpibIUB0qlQbAA7/BE3ciBk1sBLDsQudmJCY.mp3",
-   "source": "mine"
-  },
-  {
-   "voice_id": "L1aJrPa7pLJEyYlh3Ilq",
-   "public_owner_id": null,
-   "name": "Oliver Haddington",
-   "category": "professional",
-   "gender": "male",
-   "age": "old",
-   "accent": "british",
-   "use": "narrative_story",
-   "desc": "Oliver Haddington - A mature voice which is warm and kind with just a hint of whimsical humor wrapped in a distinctly indistinct British accent. ",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/60df5e8e85434c87b586860524fe605c/voices/L1aJrPa7pLJEyYlh3Ilq/AwAwPn2G1wujoh4o4RGM.mp3",
-   "source": "mine"
-  },
-  {
-   "voice_id": "EkK5I93UQWFDigLMpZcX",
-   "public_owner_id": null,
-   "name": "JM - Husky & Engaging (2025-01-25_1100)",
-   "category": "professional",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": "narrative_story",
-   "desc": "James - Husky & Engaging - A slightly husky and bassy voice with a standard American accent. Modulated, controlled, and direct and perfect for audiobooks, captivating narrations, or storytelling, or other professional voiceover work.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/48ab3aae468d4e9baded4b1693820088/voices/EkK5I93UQWFDigLMpZcX/xvjT3EK4vD3zlwfawHeV.mp3",
-   "source": "mine"
-  },
-  {
-   "voice_id": "ovBx6wnD7CiDrelOcP84",
-   "public_owner_id": null,
-   "name": "Iria Sorain",
-   "category": "generated",
-   "gender": null,
-   "age": null,
-   "accent": null,
-   "use": null,
-   "desc": "A female voice in her early to mid 30s. Mid-pitched, calm, slightly husky from fatigue. Clear articulation, restrained emotion. She speaks at a measured, thoughtful pace, with brief pauses as if checking her words against internal calculations. Subtle Northern European or neutral accent. Curious but cautious tone, never dramatic. She sounds like a navigator who reads unstable space for a living and has learned not to trust certainty. Studio-quality audio.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8da50e148fe14e6b893d9b287955def7/voices/ovBx6wnD7CiDrelOcP84/7f6f3701-3ce0-44d8-affd-5efb260e8403.mp3",
-   "source": "mine"
-  },
-  {
    "voice_id": "ws6HjZzM8DX3DQuK592k",
    "public_owner_id": null,
    "name": "Gateborn Intro Narrator - Old british Woman",
@@ -444,16 +314,16 @@
    "source": "mine"
   },
   {
-   "voice_id": "7WyXgGwSz8TTfJqjKizP",
+   "voice_id": "1EZBFEhLjqjzuG8HBNbj",
    "public_owner_id": null,
-   "name": "Guard Dog",
-   "category": "generated",
-   "gender": null,
-   "age": null,
-   "accent": null,
-   "use": null,
-   "desc": "A male, mid-low pitched voice with a firm but slightly exaggerated, cartoony authority. Clear, rounded articulation and confident delivery, like a Disney animated guard dog enforcing rules. He sounds disciplined, earnest, and a little overzealous, with mild theatrical emphasis on important words. Clearly stylized. Neutral accent, steady pacing, and clean studio-quality audio.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8da50e148fe14e6b893d9b287955def7/voices/7WyXgGwSz8TTfJqjKizP/223482ba-5185-45cd-8555-db459590e765.mp3",
+   "name": "Gabby",
+   "category": "professional",
+   "gender": "female",
+   "age": "young",
+   "accent": "canadian",
+   "use": "conversational",
+   "desc": "Gabby - Unique female voice. Canadian and Atlantic accent. 25 years old. Slightly raspy.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a251500a5e804f8383b24391950d4206/voices/1EZBFEhLjqjzuG8HBNbj/fdc659ba-bf5b-4bf6-8bc2-06bdad1041cc.mp3",
    "source": "mine"
   },
   {
@@ -470,6 +340,58 @@
    "source": "mine"
   },
   {
+   "voice_id": "8x4LLFkQ3JR5mHwstx8Z",
+   "public_owner_id": null,
+   "name": "Kaelric",
+   "category": "generated",
+   "gender": null,
+   "age": null,
+   "accent": null,
+   "use": null,
+   "desc": "A deep, male voice of a human lion. Thick, gravelly tone with a resonant, theatrical quality that's menacing yet still warm. Perfect audio quality.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8da50e148fe14e6b893d9b287955def7/voices/8x4LLFkQ3JR5mHwstx8Z/4c1ec0ba-6eb6-40ae-82cd-3890562e9795.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "EkK5I93UQWFDigLMpZcX",
+   "public_owner_id": null,
+   "name": "JM - Husky & Engaging (2025-01-25_1100)",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "narrative_story",
+   "desc": "James - Husky & Engaging - A slightly husky and bassy voice with a standard American accent. Modulated, controlled, and direct and perfect for audiobooks, captivating narrations, or storytelling, or other professional voiceover work.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/48ab3aae468d4e9baded4b1693820088/voices/EkK5I93UQWFDigLMpZcX/xvjT3EK4vD3zlwfawHeV.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "7WyXgGwSz8TTfJqjKizP",
+   "public_owner_id": null,
+   "name": "Guard Dog",
+   "category": "generated",
+   "gender": null,
+   "age": null,
+   "accent": null,
+   "use": null,
+   "desc": "A male, mid-low pitched voice with a firm but slightly exaggerated, cartoony authority. Clear, rounded articulation and confident delivery, like a Disney animated guard dog enforcing rules. He sounds disciplined, earnest, and a little overzealous, with mild theatrical emphasis on important words. Clearly stylized. Neutral accent, steady pacing, and clean studio-quality audio.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8da50e148fe14e6b893d9b287955def7/voices/7WyXgGwSz8TTfJqjKizP/223482ba-5185-45cd-8555-db459590e765.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "wlF8V3JvoLKRT7YmrGtH",
+   "public_owner_id": null,
+   "name": "Bola - African Root ",
+   "category": "professional",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "conversational",
+   "desc": "This is a rich african root voice laced with touch American. It is cool, calm, professional, couch, and motherly and very relatable.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/057de42fd36b4b389fd7044dc01a46f8/voices/wlF8V3JvoLKRT7YmrGtH/96b6866d-273e-4bc3-9dbd-13f753616f41.mp3",
+   "source": "mine"
+  },
+  {
    "voice_id": "C5NcawNFWC0ucBViYhn2",
    "public_owner_id": null,
    "name": "Gateborn Intro narrator - Elder woman",
@@ -483,6 +405,136 @@
    "source": "mine"
   },
   {
+   "voice_id": "jvcMcno3QtjOzGtfpjoI",
+   "public_owner_id": null,
+   "name": "David - British Documentary",
+   "category": "professional",
+   "gender": "male",
+   "age": "old",
+   "accent": "british",
+   "use": "narrative_story",
+   "desc": "David - British Documentary - Old, British male nature documentary voice.",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/jvcMcno3QtjOzGtfpjoI/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiYTExN2I3YzFlZTc0Njc4YjliZDMxZGNjMDllOGE1NCIsImZpbGVuYW1lIjoiVTJxN2k2M3NWdnRZeFJBTkk0YVMubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
+   "source": "mine"
+  },
+  {
+   "voice_id": "gDQfVolj9RbmXgumLcOq",
+   "public_owner_id": null,
+   "name": "Elinor | The Gruff Aunt ",
+   "category": "professional",
+   "gender": "female",
+   "age": "old",
+   "accent": "standard",
+   "use": "characters_animation",
+   "desc": "A mature, commanding female alto voice with an edge of aristocratic sharpness. She sounds cultivated and articulate but is prone to rapid, slightly breathless outbursts of indignation. The baseline tone is one of intellectual sarcasm and impatience, yet it often cracks into genuine panic or passionate anger. Not a gentle grandmother, but a woman who prefers her peace to people—until she is forced to fight for her family.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/631bf5a20c2d45ffacc1311eb5dec41f/voices/gDQfVolj9RbmXgumLcOq/GkaZjqgT2lCevgn2h1ZQ.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "dEKbODj1fSHsx7xQNNLa",
+   "public_owner_id": null,
+   "name": "Grizzled Man - Raspy, Natural Narrator",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "british",
+   "use": "narrative_story",
+   "desc": "Grizzled Old Man - This grizzled and raspy voice is a versatile character voice, good for everything from narration to playing that guardsman that's seen it all. ",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/23d22a763572400aa7fc76c28c6f2176/voices/dEKbODj1fSHsx7xQNNLa/YIz9vHW0PpqOKQCT0Kdd.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "Xjf4ERpibIUB0qlQbAA7",
+   "public_owner_id": null,
+   "name": "Amie - Trustworthy Southern Female",
+   "category": "professional",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "narrative_story",
+   "desc": "Amie is a warm, calming female voice with a soft Southern accent and a confident, easy delivery. Clear and natural, she fits e-learning and explainer videos, corporate and brand narration, audiobooks and storytelling, meditation and wellness content, and phone or IVR systems. A polished American voice with genuine Southern warmth for projects that want a steady, trustworthy, approachable sound.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/9d9ad27323f241c491bd0dcd77658100/voices/Xjf4ERpibIUB0qlQbAA7/BE3ciBk1sBLDsQudmJCY.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "0aXOy31Cjamp6gJcyqYu",
+   "public_owner_id": null,
+   "name": "Matt - Deep Authoritative Narrator",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "narrative_story",
+   "desc": "Deep, resonant American baritone built for audiobooks, documentary narration, and long‑form YouTube content. Authoritative, smooth, and calm — a voice that makes any story feel serious and compelling. ",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/d29022fbdecc43698b30b6540d29690a/voices/0aXOy31Cjamp6gJcyqYu/nDiSY7XOZsSOf04JlpXb.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "mSOmKHC6GZcZbSTGlqHO",
+   "public_owner_id": null,
+   "name": "Mister Gruff - Miserable old neighbor",
+   "category": "professional",
+   "gender": "male",
+   "age": "old",
+   "accent": "american",
+   "use": "characters_animation",
+   "desc": "Mr. Gruff is a gritty, grumbling old guy with an attitude.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/e7bdeaca6fbb4a6e929e6c98717040b9/voices/mSOmKHC6GZcZbSTGlqHO/BWhC3DtcF28O7tj5DBJE.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "L1aJrPa7pLJEyYlh3Ilq",
+   "public_owner_id": null,
+   "name": "Oliver Haddington",
+   "category": "professional",
+   "gender": "male",
+   "age": "old",
+   "accent": "british",
+   "use": "narrative_story",
+   "desc": "Oliver Haddington - A mature voice which is warm and kind with just a hint of whimsical humor wrapped in a distinctly indistinct British accent. ",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/60df5e8e85434c87b586860524fe605c/voices/L1aJrPa7pLJEyYlh3Ilq/AwAwPn2G1wujoh4o4RGM.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "ymZ2m14IsFBURjROEE2J",
+   "public_owner_id": null,
+   "name": "Sandy Soft - Velvet",
+   "category": "professional",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "british",
+   "use": "narrative_story",
+   "desc": "Warm, mature female voice with a soft, refined tone and a naturally expressive character. Clear articulation, gentle warmth, subtle emotional depth, and controlled pacing. Intimate and elegant, with a polished studio quality and a natural British English delivery. Well suited for storytelling, audiobooks, contemplative narration, spiritual content, and emotionally nuanced texts.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/877afc20688e4973ae2248ed3c301a7f/voices/ymZ2m14IsFBURjROEE2J/oaLsRRI0p4ywwJC90RLX.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "QveTUeWnBLXn45KK6cVc",
+   "public_owner_id": null,
+   "name": "Sparks",
+   "category": "generated",
+   "gender": null,
+   "age": null,
+   "accent": null,
+   "use": null,
+   "desc": "Native English, neutral American with slight warmth. Male, early 20s. Very good quality. Persona: charming young rogue. Emotion: playful, confident, slightly cocky. A smooth, warm tenor with a light, agile quality. Natural charisma in the delivery, with a hint of mischief behind every line. Pacing is quick and conversational, speeding up when excited or improvising. He sounds like someone who's talked his way out of trouble more times than he can count, and enjoys it.",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/QveTUeWnBLXn45KK6cVc/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4ZGE1MGUxNDhmZTE0ZTZiODkzZDliMjg3OTU1ZGVmNyIsImZpbGVuYW1lIjoiYmEwMjdiZGQtNzIxMS00OGY5LTgxZTctNTU4OGZjOTAzOTM5Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
+   "source": "mine"
+  },
+  {
+   "voice_id": "1H55NhSPCOflV227iYPn",
+   "public_owner_id": null,
+   "name": "Sigmon",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "narrative_story",
+   "desc": "Middle-aged American male. Thoughtful, sincere, approachable. ",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/d8d13f29d68a41f58d01a5ca632be14d/voices/1H55NhSPCOflV227iYPn/2c35980b-f763-45b5-adae-f87ad9703eaf.mp3",
+   "source": "mine"
+  },
+  {
    "voice_id": "TDTTIZEngvvWARkECefs",
    "public_owner_id": null,
    "name": "Villain - harsh, abrasive, and volatile",
@@ -493,6 +545,32 @@
    "use": "characters_animation",
    "desc": "A villain voice with a raw, gravelly texture and controlled intensity. Dark, commanding, and intimidating without being overbearing, capable of powerful moments as well as a steady, simmering menace. Grounded and rough-edged, well-suited for antagonists, bosses, warlords, and complex enemies in animation, gaming, and cinematic storytelling.",
    "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/fbacae3c0d2a4287ade30b4ed724c52e/voices/TDTTIZEngvvWARkECefs/qTRlAGO5ndGdUBNgiTMo.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "ovBx6wnD7CiDrelOcP84",
+   "public_owner_id": null,
+   "name": "Iria Sorain",
+   "category": "generated",
+   "gender": null,
+   "age": null,
+   "accent": null,
+   "use": null,
+   "desc": "A female voice in her early to mid 30s. Mid-pitched, calm, slightly husky from fatigue. Clear articulation, restrained emotion. She speaks at a measured, thoughtful pace, with brief pauses as if checking her words against internal calculations. Subtle Northern European or neutral accent. Curious but cautious tone, never dramatic. She sounds like a navigator who reads unstable space for a living and has learned not to trust certainty. Studio-quality audio.",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8da50e148fe14e6b893d9b287955def7/voices/ovBx6wnD7CiDrelOcP84/7f6f3701-3ce0-44d8-affd-5efb260e8403.mp3",
+   "source": "mine"
+  },
+  {
+   "voice_id": "Sy8sUFzjooSoE1HN3Kkm",
+   "public_owner_id": null,
+   "name": "Mrs Kubota",
+   "category": "generated",
+   "gender": null,
+   "age": null,
+   "accent": null,
+   "use": null,
+   "desc": "a deep fat big african american woman, friendly but stern, in her fifties",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8da50e148fe14e6b893d9b287955def7/voices/Sy8sUFzjooSoE1HN3Kkm/9589b358-ee53-4741-bb50-67bd6021d16a.mp3",
    "source": "mine"
   },
   {
@@ -518,7 +596,7 @@
    "accent": "australian",
    "use": "conversational",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/9B2Vd5yQ7rKaqNmzGdy1/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiYjNkZTMyZDM3NWU0NDYyYTVkMWFlYmM3N2ViN2IwYSIsImZpbGVuYW1lIjoiRFg5bU9HYUV6bzdNSWJhcDRSRGEubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/9B2Vd5yQ7rKaqNmzGdy1/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiYjNkZTMyZDM3NWU0NDYyYTVkMWFlYmM3N2ViN2IwYSIsImZpbGVuYW1lIjoiRFg5bU9HYUV6bzdNSWJhcDRSRGEubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -531,7 +609,7 @@
    "accent": "indian",
    "use": "narrative_story",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/SWh3WlUpfX8V879HyPm2/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhZDJhNDI1YzI1NmI0ZDhkOTkzMTRhYmIxZDk1OWQ0NCIsImZpbGVuYW1lIjoiNzRkYjNjOGItNTRhNC00NThmLWE5ODYtODYyYzM3NzYzOTU3Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/SWh3WlUpfX8V879HyPm2/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhZDJhNDI1YzI1NmI0ZDhkOTkzMTRhYmIxZDk1OWQ0NCIsImZpbGVuYW1lIjoiNzRkYjNjOGItNTRhNC00NThmLWE5ODYtODYyYzM3NzYzOTU3Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -544,7 +622,7 @@
    "accent": "british",
    "use": "conversational",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/QbIc8KU9rudARTgkrplb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlNWE0MWU2ZWNkMDI0ZWIwODMzYTk2N2MzNDFmZjQ3MyIsImZpbGVuYW1lIjoiZmE5MzkyNDAtMDQwMC00Njc4LWI0NGItMGI1NWJjNjhmNjdkLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/QbIc8KU9rudARTgkrplb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlNWE0MWU2ZWNkMDI0ZWIwODMzYTk2N2MzNDFmZjQ3MyIsImZpbGVuYW1lIjoiZmE5MzkyNDAtMDQwMC00Njc4LWI0NGItMGI1NWJjNjhmNjdkLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -583,7 +661,7 @@
    "accent": "indian",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/yOkKqKIpnYVC7FQVqNmk/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3Zjk0YTJkZWRkY2Q0MjE1YmY3YWMwNjhiYmZhY2FlNSIsImZpbGVuYW1lIjoiYTY0Nzc4YjAtNTc3OC00OGU1LWFiMzYtZWE1NmM1NjU4YWEyLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/yOkKqKIpnYVC7FQVqNmk/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3Zjk0YTJkZWRkY2Q0MjE1YmY3YWMwNjhiYmZhY2FlNSIsImZpbGVuYW1lIjoiYTY0Nzc4YjAtNTc3OC00OGU1LWFiMzYtZWE1NmM1NjU4YWEyLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -596,7 +674,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/83q1pBDDePRioCY8grPY/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3NTYyNWNiMjY3ZDA0NjNhODFhMzUxY2YyYWQ3MTViZCIsImZpbGVuYW1lIjoiNTQ3NmQzMzctN2IxYi00Y2IyLWJiODYtZDBjMGM2ZDU3NzVlLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/83q1pBDDePRioCY8grPY/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3NTYyNWNiMjY3ZDA0NjNhODFhMzUxY2YyYWQ3MTViZCIsImZpbGVuYW1lIjoiNTQ3NmQzMzctN2IxYi00Y2IyLWJiODYtZDBjMGM2ZDU3NzVlLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -629,13 +707,13 @@
    "voice_id": "XMvmOJRIC9U5mgmP76qv",
    "public_owner_id": "5554e9d30fddd9ac415c1ea71372f5f118e4b5ee82a61dc8a853fba4e8da9986",
    "name": "Hadeath - Deep",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "male",
    "age": "middle_aged",
    "accent": "french",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/XMvmOJRIC9U5mgmP76qv/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2Y2JiOTU4NjI3OWQ0NzkzODk3MGU2ODAxYTAyYzQ2YyIsImZpbGVuYW1lIjoiYzdGa3hyN1VVdHdKelF6clFQS3kubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/XMvmOJRIC9U5mgmP76qv/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2Y2JiOTU4NjI3OWQ0NzkzODk3MGU2ODAxYTAyYzQ2YyIsImZpbGVuYW1lIjoiYzdGa3hyN1VVdHdKelF6clFQS3kubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -668,7 +746,7 @@
    "voice_id": "IjE9COwYLqXDTxS3FC0m",
    "public_owner_id": "02d3c8797f5238e0e51704d3b86cffdd58f0301e727e8056087c77abd21c684f",
    "name": "Lowtide - Calm, deep undertone, unique",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "male",
    "age": "young",
    "accent": "canadian",
@@ -700,7 +778,7 @@
    "accent": "indian",
    "use": null,
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Ln9nvrcYDX4iW85iW3e2/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4ZDI3Njg3MmE0ZWU0Zjg4ODliOTk0NzJjOTI5MzI4MiIsImZpbGVuYW1lIjoiN2IyODNmMGEtNzhlNy00MjQ4LWJjNzAtZGNiMGUyMjlhYzEwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Ln9nvrcYDX4iW85iW3e2/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4ZDI3Njg3MmE0ZWU0Zjg4ODliOTk0NzJjOTI5MzI4MiIsImZpbGVuYW1lIjoiN2IyODNmMGEtNzhlNy00MjQ4LWJjNzAtZGNiMGUyMjlhYzEwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -713,7 +791,7 @@
    "accent": "american",
    "use": "informative_educational",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/a6YaeYIc6oXYWy63PGIu/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkZGQ2ZjdkNDQ1MDU0NmIzOGJkY2E5ZmVjYzY4M2U5YSIsImZpbGVuYW1lIjoiNWUwNjM2ZDYtMGU2MS00OTg3LWIyYjctODVhMTg3NTVjMGYyLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/a6YaeYIc6oXYWy63PGIu/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkZGQ2ZjdkNDQ1MDU0NmIzOGJkY2E5ZmVjYzY4M2U5YSIsImZpbGVuYW1lIjoiNWUwNjM2ZDYtMGU2MS00OTg3LWIyYjctODVhMTg3NTVjMGYyLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -778,7 +856,7 @@
    "accent": "indian",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/YF9AGFDPufHhRAGK3RJN/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiZjlnd3R1SDRoTllDOXlQR0djU2cubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/YF9AGFDPufHhRAGK3RJN/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiZjlnd3R1SDRoTllDOXlQR0djU2cubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -804,7 +882,7 @@
    "accent": "us southern",
    "use": "characters_animation",
    "desc": "deep",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a266f44d8505448d8ff77f2753793b7b/voices/0hh7H4ZVAtaGpm1VZyEN/eFBysCCB0ZYVaM5MYs9p.mp3",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a266f44d8505448d8ff77f2753793b7b/voices/0hh7H4ZVAtaGpm1VZyEN/tgAu2eoIJ9NY6QQpNF44.mp3",
    "source": "library"
   },
   {
@@ -830,7 +908,7 @@
    "accent": "south african",
    "use": "narrative_story",
    "desc": "classy",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/puXZ4clxWQiYYufMpH7A/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2N2FiZDIxZTA3ZmE0MTkyOTAxZWYzZjkyMDNmMDFhNSIsImZpbGVuYW1lIjoiVzV2UlBPRlR4eUQ4WXdxZXdJVW0ubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/puXZ4clxWQiYYufMpH7A/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2N2FiZDIxZTA3ZmE0MTkyOTAxZWYzZjkyMDNmMDFhNSIsImZpbGVuYW1lIjoiVzV2UlBPRlR4eUQ4WXdxZXdJVW0ubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -882,7 +960,7 @@
    "accent": "british",
    "use": "characters_animation",
    "desc": "serious",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/q1h5HGdnfVxp4TXTJRNN/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2NmQ0YjczODVmYjU0N2Q0YWM0YWM5YTc0ZTAwODhhMiIsImZpbGVuYW1lIjoiTVRObmczSnJpaDZVemIwVHp1cEYubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/q1h5HGdnfVxp4TXTJRNN/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2NmQ0YjczODVmYjU0N2Q0YWM0YWM5YTc0ZTAwODhhMiIsImZpbGVuYW1lIjoiTVRObmczSnJpaDZVemIwVHp1cEYubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -895,7 +973,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "rough",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/cymHWdiF8WjUCg6vvFxx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxZGEwNmVhNjc5YTU0OTc1YWQ5NmEyMjIxZmU2NTMwZCIsImZpbGVuYW1lIjoidk1wTnRSRkpBeTdqMmhNUml1NTQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/cymHWdiF8WjUCg6vvFxx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxZGEwNmVhNjc5YTU0OTc1YWQ5NmEyMjIxZmU2NTMwZCIsImZpbGVuYW1lIjoidk1wTnRSRkpBeTdqMmhNUml1NTQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -908,7 +986,7 @@
    "accent": "indian",
    "use": null,
    "desc": "A slightly deep voice with a light rasp and a subtle, breathy quality, giving it a natural, lived-in feel.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/rKDVDKYkEwzzB0KlCq04/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhNzk2YWQyMjNmYjU0ZDQ4OTdmY2RjNjJhOTY4M2ZjZSIsImZpbGVuYW1lIjoiMTcyZWIzMDUtMThlZi00YzE2LWFiZWYtY2NmYTlhYThjMDk1Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/rKDVDKYkEwzzB0KlCq04/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhNzk2YWQyMjNmYjU0ZDQ4OTdmY2RjNjJhOTY4M2ZjZSIsImZpbGVuYW1lIjoiMTcyZWIzMDUtMThlZi00YzE2LWFiZWYtY2NmYTlhYThjMDk1Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -934,7 +1012,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/C5rG2JoeFeqEgocBWvLg/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoickVIZThKVkpOSFY4bWlPd2N0U2liTHFDRDZTMiIsImZpbGVuYW1lIjoiRzNlQkpUN0lNdUV5Q2MzSzdVdTEubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/C5rG2JoeFeqEgocBWvLg/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoickVIZThKVkpOSFY4bWlPd2N0U2liTHFDRDZTMiIsImZpbGVuYW1lIjoiRzNlQkpUN0lNdUV5Q2MzSzdVdTEubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -947,7 +1025,7 @@
    "accent": "canadian",
    "use": "conversational",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/0l6EZBgVj5gBcvxdAQTR/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjZjBjY2UxNDA2NjY0OTk0ODIxMTBkZTY1ZDkzMjdiMSIsImZpbGVuYW1lIjoiMzZlZjIzYmMtMzlmMS00YzQxLTlkYTAtYzc2ODZmMGRhMjRmLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/0l6EZBgVj5gBcvxdAQTR/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjZjBjY2UxNDA2NjY0OTk0ODIxMTBkZTY1ZDkzMjdiMSIsImZpbGVuYW1lIjoiMzZlZjIzYmMtMzlmMS00YzQxLTlkYTAtYzc2ODZmMGRhMjRmLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -986,7 +1064,7 @@
    "accent": "south african",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/tJvgmaVM5tDwPVrtn8TA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkY2U3NWY3NmM5NDc0NjU1OTU1ZWI5ZGE3ZGE3ZGM5ZiIsImZpbGVuYW1lIjoiMmUyNjYxMmQtZDMzZC00MDk4LWFlYmMtYmY1ZWUzYTRlNDI3Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/tJvgmaVM5tDwPVrtn8TA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkY2U3NWY3NmM5NDc0NjU1OTU1ZWI5ZGE3ZGE3ZGM5ZiIsImZpbGVuYW1lIjoiMmUyNjYxMmQtZDMzZC00MDk4LWFlYmMtYmY1ZWUzYTRlNDI3Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -1025,7 +1103,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "husky",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/jpUA5miJyO2ygonZPVsO/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4YTE4ODlkY2Y1MDQ0NThmYjM3NzI5OTVmNWFiZTBjMSIsImZpbGVuYW1lIjoiNVk3cG9SbTlkZU5QQzB2cHpaNEsubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/jpUA5miJyO2ygonZPVsO/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4YTE4ODlkY2Y1MDQ0NThmYjM3NzI5OTVmNWFiZTBjMSIsImZpbGVuYW1lIjoiNVk3cG9SbTlkZU5QQzB2cHpaNEsubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1064,7 +1142,7 @@
    "accent": "filipino",
    "use": "informative_educational",
    "desc": "professional",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/M9umV91aYFeyuewSREwA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiZUlxeFRvWThVd2ViRUpZZU5QY0Fzc3BPVE9UMiIsImZpbGVuYW1lIjoiQ0x1WHJ1NTdvM3NUelBsYzBEN3AubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/M9umV91aYFeyuewSREwA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiZUlxeFRvWThVd2ViRUpZZU5QY0Fzc3BPVE9UMiIsImZpbGVuYW1lIjoiQ0x1WHJ1NTdvM3NUelBsYzBEN3AubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1168,7 +1246,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/CZv9yq778n5cOPopudnZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjNDU4OWQwNDNiYzY0MmZiOGQ5ZWQ3ZmE0YzQwM2RmMSIsImZpbGVuYW1lIjoiYmY0MjRkOWItYTMxNy00MzU2LTkwYmItZWI2NDJhMjAwZmZhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/CZv9yq778n5cOPopudnZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjNDU4OWQwNDNiYzY0MmZiOGQ5ZWQ3ZmE0YzQwM2RmMSIsImZpbGVuYW1lIjoiYmY0MjRkOWItYTMxNy00MzU2LTkwYmItZWI2NDJhMjAwZmZhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -1181,7 +1259,7 @@
    "accent": "british",
    "use": "characters_animation",
    "desc": "raspy",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/A921zklid24OpyVy1Elb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2MzFiZjVhMjBjMmQ0NWZmYWNjMTMxMWViNWRlYzQxZiIsImZpbGVuYW1lIjoiUkIyMXZoWXpiWEE5cTEwQUNvakkubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/A921zklid24OpyVy1Elb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2MzFiZjVhMjBjMmQ0NWZmYWNjMTMxMWViNWRlYzQxZiIsImZpbGVuYW1lIjoiUkIyMXZoWXpiWEE5cTEwQUNvakkubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1220,7 +1298,7 @@
    "accent": "american",
    "use": "social_media",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/F3hPNAbHQ6mTZdjfgZdb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2ZWU3NWEyOWVkOTM0YzljODlmMTg0ZmU2NDAyOTFlYiIsImZpbGVuYW1lIjoid09CMGVZN2pzV0dad2drU1Z3bjkubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/F3hPNAbHQ6mTZdjfgZdb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2ZWU3NWEyOWVkOTM0YzljODlmMTg0ZmU2NDAyOTFlYiIsImZpbGVuYW1lIjoid09CMGVZN2pzV0dad2drU1Z3bjkubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1260,6 +1338,45 @@
    "use": "characters_animation",
    "desc": "raspy",
    "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/1da06ea679a54975ad96a2221fe6530d/voices/7squ7rvxEIZ2rYy7KYPP/vrtDjsKzSD4OPLEFHVcV.mp3",
+   "source": "library"
+  },
+  {
+   "voice_id": "c3xntgIY160tGkH7rVz2",
+   "public_owner_id": "bcedcd621c8d4d7af852c9c43ff85a3c294769424c93a05f249913bdc642d9dd",
+   "name": "June - Chinese Accent English Narrator",
+   "category": "professional",
+   "gender": "female",
+   "age": "young",
+   "accent": "chinese",
+   "use": "narrative_story",
+   "desc": "professional",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/e54dbb6aa04a48f491326d08b66c48c5/voices/c3xntgIY160tGkH7rVz2/h4mlLvlh5e1KRLmkjUB3.mp3",
+   "source": "library"
+  },
+  {
+   "voice_id": "bDFumwYri07axD9161yA",
+   "public_owner_id": "2cf1a91e04674533581cfe6a8e0ef0836d52f7f65d51b6867e2b3007fd77f22a",
+   "name": "Bright - Warm African Narrator",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "nigerian",
+   "use": "narrative_story",
+   "desc": "confident",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/bDFumwYri07axD9161yA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhYzdjODU3ZDIxZTg0MmMwODZhZWU4ZTEwMDE4ZDE4ZiIsImZpbGVuYW1lIjoiZWY4YzdkYjgtYTI2MC00NGI4LWIxMzQtNTM0NjcxNTI1NTVhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
+   "source": "library"
+  },
+  {
+   "voice_id": "PGWFVTyGJR74i65Fh7SP",
+   "public_owner_id": "8a4d045e2c29579ceb734005c8b24544cdff7aba84b247f7160aa1b68cf5abac",
+   "name": "James - Motivational speaker & Narrator",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "conversational",
+   "desc": "confident",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/PGWFVTyGJR74i65Fh7SP/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDI0MzY1ZTk0Yjk0MzczODc0ZjdlZTU1NDdiMzY2ZSIsImZpbGVuYW1lIjoiaWVLZDZWRGhvcUdqZlRWaE9aME0ubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1354,19 +1471,6 @@
    "source": "library"
   },
   {
-   "voice_id": "b40lGrihDlspmWk9Hn4O",
-   "public_owner_id": "c57d4bbb6b0d75b891188ce059964af74768305aa25a2ed86c43b7f99e37d2db",
-   "name": "Alder - Warm Audiobook Narrator",
-   "category": "professional",
-   "gender": "male",
-   "age": "young",
-   "accent": "indian",
-   "use": "narrative_story",
-   "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/b40lGrihDlspmWk9Hn4O/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhNjJlNzAwMDFiYTc0ZGY1OTgxZTIxZDJmNzZjMDkwNSIsImZpbGVuYW1lIjoiVlR4YmRTYlpTT0JRTzFKakpEMTEubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
-   "source": "library"
-  },
-  {
    "voice_id": "BtH3bVn4PRpeEV2Z9d9m",
    "public_owner_id": "64706b6ae14a81779d66383d28361881e032672756fb00c5d1acfe814147740f",
    "name": "Mark Walker - Narrator",
@@ -1376,7 +1480,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "neutral",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/BtH3bVn4PRpeEV2Z9d9m/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2OTQ2M2QwMDJiZDY0MWM5OTg4ZWJhYjI0YTkwZDVhNSIsImZpbGVuYW1lIjoiNmRhNWI5Y2EtMGU3My00MTM2LTg4MTktYWI3MzBkODY0MjMwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/BtH3bVn4PRpeEV2Z9d9m/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2OTQ2M2QwMDJiZDY0MWM5OTg4ZWJhYjI0YTkwZDVhNSIsImZpbGVuYW1lIjoiNmRhNWI5Y2EtMGU3My00MTM2LTg4MTktYWI3MzBkODY0MjMwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -1415,7 +1519,7 @@
    "accent": "filipino",
    "use": "narrative_story",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/7IA6NDxeqmtXCKLKb5nf/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI0ZDMxNDZjZWQzMWI0MmMwYTIyZTY1ZGIzMGE1MjYxNCIsImZpbGVuYW1lIjoiY0NGR3dEMjdXbkNEYkpxamRqY2EubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/7IA6NDxeqmtXCKLKb5nf/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI0ZDMxNDZjZWQzMWI0MmMwYTIyZTY1ZGIzMGE1MjYxNCIsImZpbGVuYW1lIjoiY0NGR3dEMjdXbkNEYkpxamRqY2EubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1487,7 +1591,7 @@
    "voice_id": "ok2PCXNXA9PMVYmBj7QJ",
    "public_owner_id": "bc41ed8b4fafaaf8df7feb1c32ae64b6eb4002b3e1a270ce93ea04028f1ed03b",
    "name": "Beth - Warm, Grounded, Narrator",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "female",
    "age": "middle_aged",
    "accent": "american",
@@ -1506,7 +1610,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "relaxed",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Op72Fm6dzjYuyMTp6FBl/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkYmE4NzQwZDNhOTI0MTAzOTk2ZmVlZDUzZjdkZTc3NiIsImZpbGVuYW1lIjoiTElrU2oydkgxaVZnQUt6TmVoSHgubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Op72Fm6dzjYuyMTp6FBl/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkYmE4NzQwZDNhOTI0MTAzOTk2ZmVlZDUzZjdkZTc3NiIsImZpbGVuYW1lIjoiTElrU2oydkgxaVZnQUt6TmVoSHgubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1519,20 +1623,20 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/dIa7afHH94O36L8tjJ0L/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhMWYwNGU0ZDI2M2U0NzFjYjIxMWRiYjMxY2ZkZmVmYiIsImZpbGVuYW1lIjoiYmNjN2I5YmItZjRiMy00Yzk3LWI0YTEtYmI4N2U2ZTM1M2NlLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/dIa7afHH94O36L8tjJ0L/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhMWYwNGU0ZDI2M2U0NzFjYjIxMWRiYjMxY2ZkZmVmYiIsImZpbGVuYW1lIjoiYmNjN2I5YmItZjRiMy00Yzk3LWI0YTEtYmI4N2U2ZTM1M2NlLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
    "voice_id": "6HXfTcSnxaoT6uM4pTRP",
    "public_owner_id": "6643afd1d55a6987b18e340e00bb89ed60329c878a01823e0c10a50fb522bd76",
    "name": "Delphi  - Transformational Narrator",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "female",
    "age": "middle_aged",
    "accent": "british",
    "use": "narrative_story",
    "desc": "wise",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/6HXfTcSnxaoT6uM4pTRP/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2NWNlM2QyNWIyMDM0YmYwYjQ5MGE4NjgwNTJlZmYwOCIsImZpbGVuYW1lIjoiVnh0Tmt5azc1aGJNTTFibHowVWIubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/6HXfTcSnxaoT6uM4pTRP/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2NWNlM2QyNWIyMDM0YmYwYjQ5MGE4NjgwNTJlZmYwOCIsImZpbGVuYW1lIjoiVnh0Tmt5azc1aGJNTTFibHowVWIubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1571,46 +1675,20 @@
    "accent": "american",
    "use": "conversational",
    "desc": "professional",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/yCxEQv1VMoTWsVoSIFSW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxOTBiMDU2ZmJjMWU0ZmUzOGNmYzNjOWY4ODhiYmUyNyIsImZpbGVuYW1lIjoiOTZhNDYxYzQtZGYyNy00NWJlLWFmMWItY2MwNzM2MGMxN2U0Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/yCxEQv1VMoTWsVoSIFSW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxOTBiMDU2ZmJjMWU0ZmUzOGNmYzNjOWY4ODhiYmUyNyIsImZpbGVuYW1lIjoiOTZhNDYxYzQtZGYyNy00NWJlLWFmMWItY2MwNzM2MGMxN2U0Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
    "voice_id": "cdfQ4039m26btcsBkvxH",
    "public_owner_id": "3af8c345edbb0ba6cbe85d7c71167a535605e337d8db9e71a2f5234a3c090547",
    "name": "Abdelhadi - Moroccan Narrator",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "male",
    "age": "middle_aged",
    "accent": "arabic",
    "use": "narrative_story",
    "desc": "formal",
    "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/c39ba7e307b147b2b24aa005dd963260/voices/cdfQ4039m26btcsBkvxH/iBncZtglJunttIgINNta.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "AyUQzJawNmKdAdeUrH5X",
-   "public_owner_id": "cf28ac0d9372c50d329bba5569b9547fb5ed8e069f7b8bf9c51f25921d75f4b1",
-   "name": "Franco - Professional Narrator",
-   "category": "professional",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "spanish",
-   "use": "informative_educational",
-   "desc": "casual",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/2f278b28c070452db0fb9e712a40d0ee/voices/AyUQzJawNmKdAdeUrH5X/2faae014-bd05-4a6a-8171-9c4766ad13bf.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "FRZqgWMEa5eUhzsOcJIJ",
-   "public_owner_id": "1e5caa1d51ca96f0794a0e8f5a8cb8b944a0d2083894328ba4e1242c21d6480e",
-   "name": "Nova - Unique & Textured Narrator",
-   "category": "professional",
-   "gender": "female",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": "narrative_story",
-   "desc": "deep",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/53713a06840949abb1a1a613581b6777/voices/FRZqgWMEa5eUhzsOcJIJ/ad087ca0-795c-4854-8a1a-496b4d80fc81.mp3",
    "source": "library"
   },
   {
@@ -1649,7 +1727,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Qbw4VpyUrHEG7NigKzty/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiZHBzU2ZDNFlzQVJhaGdSZVZZSUpHMG1GZGt1MSIsImZpbGVuYW1lIjoiZjM0MzE0YTAtMTViNy00YWE5LWI4NWYtNTJjYTNhNTJlZDA0Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Qbw4VpyUrHEG7NigKzty/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiZHBzU2ZDNFlzQVJhaGdSZVZZSUpHMG1GZGt1MSIsImZpbGVuYW1lIjoiZjM0MzE0YTAtMTViNy00YWE5LWI4NWYtNTJjYTNhNTJlZDA0Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -1766,7 +1844,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/KLZOWyG48RjZkAAjuM89/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3YzVjYjdiMGM0MWU0YjM1YWVlYjg4ZWYyMTY2OTQ5YSIsImZpbGVuYW1lIjoiODZESjdvM0JjUTNBRzc0eWNpcmkubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/KLZOWyG48RjZkAAjuM89/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3YzVjYjdiMGM0MWU0YjM1YWVlYjg4ZWYyMTY2OTQ5YSIsImZpbGVuYW1lIjoiODZESjdvM0JjUTNBRzc0eWNpcmkubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1848,6 +1926,19 @@
    "source": "library"
   },
   {
+   "voice_id": "3Drdg7QWqr45nZmYpXRP",
+   "public_owner_id": "e7d03f75ceed35fa24b855e624fd3b1a53b6d700657d048e5a83eb73b2dae60f",
+   "name": "Posh - A British Woman",
+   "category": "professional",
+   "gender": "female",
+   "age": "young",
+   "accent": "british",
+   "use": "narrative_story",
+   "desc": "cute",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/3620e57c59964a89b606e0bc6d00eaa2/voices/3Drdg7QWqr45nZmYpXRP/ws153aszLTFGdZWgHvpf.mp3",
+   "source": "library"
+  },
+  {
    "voice_id": "6aO1exAR9bDruq155LzQ",
    "public_owner_id": "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
    "name": "Monika Sogam – Sinister Creepy Voice",
@@ -1857,7 +1948,7 @@
    "accent": "indian",
    "use": "characters_animation",
    "desc": "serious",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/6aO1exAR9bDruq155LzQ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiMmNmZXZxSGlHYUNjZXJIU2pFRW8ubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/6aO1exAR9bDruq155LzQ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiMmNmZXZxSGlHYUNjZXJIU2pFRW8ubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1870,7 +1961,7 @@
    "accent": "british",
    "use": "characters_animation",
    "desc": "classy",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/NXaTw4ifg0LAguvKuIwZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2MmEyYTcxYmZiOWE0MGNiYTZlZWU4ZjZjOWE2ZjNkZCIsImZpbGVuYW1lIjoiczJseVNIZDVONjVZWEFDZnJhYXIubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/NXaTw4ifg0LAguvKuIwZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2MmEyYTcxYmZiOWE0MGNiYTZlZWU4ZjZjOWE2ZjNkZCIsImZpbGVuYW1lIjoiczJseVNIZDVONjVZWEFDZnJhYXIubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1939,19 +2030,6 @@
    "source": "library"
   },
   {
-   "voice_id": "M5E055lOUxMi0kJpGyE9",
-   "public_owner_id": "72026985ddcf2e1b6cf05e05a8d5dc2e4d1b644e967553f8f6bf36210739d9a5",
-   "name": "Gravel Midnight – Deep Grit Character Voice",
-   "category": "professional",
-   "gender": "male",
-   "age": "old",
-   "accent": "british",
-   "use": "characters_animation",
-   "desc": "rough",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/user_0401kepfzywfft9a5c4h5j3wnj3n/voices/M5E055lOUxMi0kJpGyE9/e3264828-f266-457d-94dd-29893cacb9a1.mp3",
-   "source": "library"
-  },
-  {
    "voice_id": "lysAcYDrfyxpR1LiWJrt",
    "public_owner_id": "4e9ae289d67079b210cadcd629aa78d2cdd5159deb46afd5c73a6c15d5d79002",
    "name": "Nick - Old, Raspy & Experienced",
@@ -1961,7 +2039,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "wise",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/lysAcYDrfyxpR1LiWJrt/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwY2FhNmZiZjUxNDI0M2E4YTUzZjE1OTc5NDcwMTcxYyIsImZpbGVuYW1lIjoiNzJSdU05OHlnRGRJWlk2dDhnOGQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/lysAcYDrfyxpR1LiWJrt/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwY2FhNmZiZjUxNDI0M2E4YTUzZjE1OTc5NDcwMTcxYyIsImZpbGVuYW1lIjoiNzJSdU05OHlnRGRJWlk2dDhnOGQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -1974,7 +2052,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/5OIl3MClvHTQsNIdLybn/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkMjZkMTE0YWNmZmY0ZGYwOGJiZDI2ZTMwNTExNDRiNiIsImZpbGVuYW1lIjoiZXpsZ3U4c1RiR2ptMEpoUHQwMFoubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/5OIl3MClvHTQsNIdLybn/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkMjZkMTE0YWNmZmY0ZGYwOGJiZDI2ZTMwNTExNDRiNiIsImZpbGVuYW1lIjoiZXpsZ3U4c1RiR2ptMEpoUHQwMFoubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2065,7 +2143,7 @@
    "accent": "us northeast",
    "use": "conversational",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/k3zGUviRBlOalyiswEdo/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiQWQ0a3pFRE9KcWFyUFdwVEtCSWEzUUxyUEp6MSIsImZpbGVuYW1lIjoiMDFhYjg0NGUtNDU4Ny00MzljLWI3YzQtNDA3OGQ2YmM5NTYxLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/k3zGUviRBlOalyiswEdo/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiQWQ0a3pFRE9KcWFyUFdwVEtCSWEzUUxyUEp6MSIsImZpbGVuYW1lIjoiMDFhYjg0NGUtNDU4Ny00MzljLWI3YzQtNDA3OGQ2YmM5NTYxLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -2121,19 +2199,6 @@
    "source": "library"
   },
   {
-   "voice_id": "dEKbODj1fSHsx7xQNNLa",
-   "public_owner_id": "0fe52f209ed41586089f6955eebdd52aea973a12de5285ab6101ed2ea46def5c",
-   "name": "Grizzled Man - Raspy, Natural Narrator",
-   "category": "professional",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "british",
-   "use": "narrative_story",
-   "desc": "raspy",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/VId3F1UruPMJslvDJO4C9OwXU203/voices/dEKbODj1fSHsx7xQNNLa/YIz9vHW0PpqOKQCT0Kdd.mp3",
-   "source": "library"
-  },
-  {
    "voice_id": "2tTjAGX0n5ajDmazDcWk",
    "public_owner_id": "36f00b8e48f9b261b47b6100b49607317909f755b53b8ea05245d0a0db8e5fdd",
    "name": "Ezekiel – raspy narrator",
@@ -2182,7 +2247,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "excited",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Mtmp3KhFIjYpWYRycDe3/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiYW51T1hYaTViSGF2Z0trOG83N1JUVlZRTllIMiIsImZpbGVuYW1lIjoidmpDVzRibWZLTkx1R1pJYUMzWGsubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Mtmp3KhFIjYpWYRycDe3/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiYW51T1hYaTViSGF2Z0trOG83N1JUVlZRTllIMiIsImZpbGVuYW1lIjoidmpDVzRibWZLTkx1R1pJYUMzWGsubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2221,7 +2286,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/xbiBdmKZawukYRB1IuEc/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiUEtKVXdTcG5Ya2dLOGxYa0NtUWJFQ1BmUGZEMyIsImZpbGVuYW1lIjoiNzE3MDJiYWYtYTVjOS00YjlmLTgzNjgtNGU0ODIxOTY1NTNhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/xbiBdmKZawukYRB1IuEc/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiUEtKVXdTcG5Ya2dLOGxYa0NtUWJFQ1BmUGZEMyIsImZpbGVuYW1lIjoiNzE3MDJiYWYtYTVjOS00YjlmLTgzNjgtNGU0ODIxOTY1NTNhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -2338,7 +2403,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/MHPwHxLx0nmGIb5Jnbly/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiSERMMlh3NUdxVGF0OGZLMk1sRWVKTmJxalE0MyIsImZpbGVuYW1lIjoiZWQ0ZWE5MTctZTkzNS00NzM2LWJmNTQtMjY0YTg3NmVjMjM1Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/MHPwHxLx0nmGIb5Jnbly/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiSERMMlh3NUdxVGF0OGZLMk1sRWVKTmJxalE0MyIsImZpbGVuYW1lIjoiZWQ0ZWE5MTctZTkzNS00NzM2LWJmNTQtMjY0YTg3NmVjMjM1Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -2390,7 +2455,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/kyMNCqwIJieCEEPhkDeA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiWXJ3d2RaOFc1bVBRQkE1WHpRODdPbXRoQ0dNMiIsImZpbGVuYW1lIjoiYTA5NWNkMmMtMzQxNS00YTljLWFiYmMtNzI1NTM1MzczMDliLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/kyMNCqwIJieCEEPhkDeA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiWXJ3d2RaOFc1bVBRQkE1WHpRODdPbXRoQ0dNMiIsImZpbGVuYW1lIjoiYTA5NWNkMmMtMzQxNS00YTljLWFiYmMtNzI1NTM1MzczMDliLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -2403,7 +2468,7 @@
    "accent": "american",
    "use": "advertisement",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/68RUZBDjLe2YBQvv8zFx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4MmY5ZDEyZDBjNDY0NzAwYWQ2M2M1NTIzNzljZDc0ZCIsImZpbGVuYW1lIjoicThDTTFReG1CcnoyRXc2M3hpTWQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/68RUZBDjLe2YBQvv8zFx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4MmY5ZDEyZDBjNDY0NzAwYWQ2M2M1NTIzNzljZDc0ZCIsImZpbGVuYW1lIjoicThDTTFReG1CcnoyRXc2M3hpTWQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2572,7 +2637,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "pleasant",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/KF337ZXYjoHdNuYUrufC/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1YjNiMWY2NTEyODQ0NDJmYmRhMzJiYTMwYjRkNjZhYyIsImZpbGVuYW1lIjoidmVKVUp2aXdwSWFNSXpIZTFKRWYubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/KF337ZXYjoHdNuYUrufC/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1YjNiMWY2NTEyODQ0NDJmYmRhMzJiYTMwYjRkNjZhYyIsImZpbGVuYW1lIjoidmVKVUp2aXdwSWFNSXpIZTFKRWYubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2611,7 +2676,7 @@
    "accent": "us southern",
    "use": "narrative_story",
    "desc": "meditative",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/TfVjIROhkRShQb9pCFfK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoib2RjZE55cEpHdGV0Q0p4WEtHME5SZ3QwNTZwMiIsImZpbGVuYW1lIjoiTFBLdndjZzhxd2hnYTk3QXFHTnoubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/TfVjIROhkRShQb9pCFfK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoib2RjZE55cEpHdGV0Q0p4WEtHME5SZ3QwNTZwMiIsImZpbGVuYW1lIjoiTFBLdndjZzhxd2hnYTk3QXFHTnoubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2650,7 +2715,7 @@
    "accent": "canadian",
    "use": "narrative_story",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/g4LbLXna3aySyQVdGvRW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiQzh2cXRhR09HblRJNFdxUjVYbG4wVUF3MTJsMiIsImZpbGVuYW1lIjoiY2ZINmFlQ0xMTDNzQ0U3dWRBcVUubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/g4LbLXna3aySyQVdGvRW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiQzh2cXRhR09HblRJNFdxUjVYbG4wVUF3MTJsMiIsImZpbGVuYW1lIjoiY2ZINmFlQ0xMTDNzQ0U3dWRBcVUubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2663,7 +2728,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "husky",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/cENJycK4Wg62xVikqkaA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiVVhvTDB2VDJSblUyWHpibm1hcElreFBCVG1rMSIsImZpbGVuYW1lIjoiZDNsRG1HNVdPMmtqcUtIbkNyWW8ubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/cENJycK4Wg62xVikqkaA/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiVVhvTDB2VDJSblUyWHpibm1hcElreFBCVG1rMSIsImZpbGVuYW1lIjoiZDNsRG1HNVdPMmtqcUtIbkNyWW8ubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2741,7 +2806,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "classy",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/YgzytRZyVmEux6PCtJYB/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoibnIyMVVHeTl5dFo5VWhob3owT09raXAxVnVRMiIsImZpbGVuYW1lIjoiWFRSdXlra0d6bHFCdGsxZjdOQ1MubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/YgzytRZyVmEux6PCtJYB/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoibnIyMVVHeTl5dFo5VWhob3owT09raXAxVnVRMiIsImZpbGVuYW1lIjoiWFRSdXlra0d6bHFCdGsxZjdOQ1MubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2754,7 +2819,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "whispery",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/A6TsrDqI2qlO9AWAfZHY/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiVjVxZFlOejdTQ2I2NEpwcjREOVNpTW8zcmRyMiIsImZpbGVuYW1lIjoiOUZLQ1J4SGZCc1lBd0lRVzQ5Nk0ubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/A6TsrDqI2qlO9AWAfZHY/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiVjVxZFlOejdTQ2I2NEpwcjREOVNpTW8zcmRyMiIsImZpbGVuYW1lIjoiOUZLQ1J4SGZCc1lBd0lRVzQ5Nk0ubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -2813,7 +2878,7 @@
    "voice_id": "J2cEQqXvE6V7TyyxnTvL",
    "public_owner_id": "8e6a25c5ab500f19a9a5c09879095e459877f2a668fa4b148eaab01cfc7fd876",
    "name": "Flick - Seductive ASMR",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "female",
    "age": "young",
    "accent": "british",
@@ -2910,7 +2975,7 @@
    "accent": "american",
    "use": "social_media",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/GxEkXZFVTiRn1HdPNqar/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4YjZhYmRhYjUxY2I0NDg1OTJkYTY3OWUwOTQ0NTQzYSIsImZpbGVuYW1lIjoiYTM4NDc1NzEtOTkzYi00NmM0LWFkMDQtNzllOTJjODg3NTkxLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/GxEkXZFVTiRn1HdPNqar/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4YjZhYmRhYjUxY2I0NDg1OTJkYTY3OWUwOTQ0NTQzYSIsImZpbGVuYW1lIjoiYTM4NDc1NzEtOTkzYi00NmM0LWFkMDQtNzllOTJjODg3NTkxLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -2927,19 +2992,6 @@
    "source": "library"
   },
   {
-   "voice_id": "mSOmKHC6GZcZbSTGlqHO",
-   "public_owner_id": "9a902560beb5fb27b2231452c4c00c97b8f85f7c4d16635ad36eca2bd0557c7a",
-   "name": "Mister Gruff - Miserable old neighbor",
-   "category": "professional",
-   "gender": "male",
-   "age": "old",
-   "accent": "american",
-   "use": "characters_animation",
-   "desc": "intense",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/e7bdeaca6fbb4a6e929e6c98717040b9/voices/mSOmKHC6GZcZbSTGlqHO/BWhC3DtcF28O7tj5DBJE.mp3",
-   "source": "library"
-  },
-  {
    "voice_id": "rWLdcaxmojXewIXQ4vFT",
    "public_owner_id": "333990f0e44e907efe288e94c8f5a1932b40948d8b080cfc0612cde0fee925a3",
    "name": "Lily - 25-35 Year Old British",
@@ -2949,7 +3001,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/rWLdcaxmojXewIXQ4vFT/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwOGE1Y2FkOWY0NDA0YWQyOGZjZDBiYWI3YTk1OTlkYSIsImZpbGVuYW1lIjoiUDFUNFB3STFEMExGUmFTU3lCNDAubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/rWLdcaxmojXewIXQ4vFT/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwOGE1Y2FkOWY0NDA0YWQyOGZjZDBiYWI3YTk1OTlkYSIsImZpbGVuYW1lIjoiUDFUNFB3STFEMExGUmFTU3lCNDAubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3001,7 +3053,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/B52raBK48m23qWYbwchQ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiRWJ3NmFJb0xOQlliblA0NVpTQjVhSHhtSUFvMiIsImZpbGVuYW1lIjoiUUw0UGFOR3J0ZGRKTWc5SzhGOEkubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/B52raBK48m23qWYbwchQ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiRWJ3NmFJb0xOQlliblA0NVpTQjVhSHhtSUFvMiIsImZpbGVuYW1lIjoiUUw0UGFOR3J0ZGRKTWc5SzhGOEkubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3014,7 +3066,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/fbIG6gEosVIM95R5qOna/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiQmk0WWhZeFBURFJTVWZpRXBFRDRxeUowYmlxMiIsImZpbGVuYW1lIjoiR3BGWjdtRDQybUtBbGt5bHUxdmgubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/fbIG6gEosVIM95R5qOna/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiQmk0WWhZeFBURFJTVWZpRXBFRDRxeUowYmlxMiIsImZpbGVuYW1lIjoiR3BGWjdtRDQybUtBbGt5bHUxdmgubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3053,7 +3105,7 @@
    "accent": "british",
    "use": "entertainment_tv",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/UPZIegnxY8z2Ya7jignw/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoib09VVDY5aVRlRVQ3Uk9TQUZxMGQ5dHY4TFA3MiIsImZpbGVuYW1lIjoiNTkzNWQ4ODUtY2NkZC00NjBmLWE4Y2YtMmNjYWRjZmZhMjNkLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/UPZIegnxY8z2Ya7jignw/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoib09VVDY5aVRlRVQ3Uk9TQUZxMGQ5dHY4TFA3MiIsImZpbGVuYW1lIjoiNTkzNWQ4ODUtY2NkZC00NjBmLWE4Y2YtMmNjYWRjZmZhMjNkLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -3067,6 +3119,58 @@
    "use": "narrative_story",
    "desc": "confident",
    "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/39286bc96616420fa3c89367aafac4e2/voices/Hd8mWkf5kvyBZB0S7yXU/1BVIV9X5GubaNDMxYVyB.mp3",
+   "source": "library"
+  },
+  {
+   "voice_id": "f4My6HzDSl8g2Ai0BztA",
+   "public_owner_id": "fd40c1093e6f9557d0d753b205f86fe1b793836dc86600037937d3c04fc32b63",
+   "name": "Joys Killian",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "narrative_story",
+   "desc": "calm",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/72f2e937775946c7bd69211676cf2343/voices/f4My6HzDSl8g2Ai0BztA/96436ef3-821f-4105-b78b-680bf303277e.mp3",
+   "source": "library"
+  },
+  {
+   "voice_id": "4v4Aiul4nRXeh3c3syXm",
+   "public_owner_id": "ab88112b4ece11b81b64817d533d0331143f3849af681a673e0e5a0e2904ffee",
+   "name": "Stephanie - Course Creator",
+   "category": "professional",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "social_media",
+   "desc": "confident",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/f3ebe7265d9a44fe8659263cc6b6a25f/voices/4v4Aiul4nRXeh3c3syXm/24840b43-cec8-424f-aa85-ed1ec35c36d4.mp3",
+   "source": "library"
+  },
+  {
+   "voice_id": "wZ8nmgX7pGJHWiG4dwM9",
+   "public_owner_id": "699b7a69bfb7d4d1ae0ee1c4c6a8c1872655ded5f96bfca7dcb2e6a86da5b273",
+   "name": "Drady",
+   "category": "professional",
+   "gender": "male",
+   "age": "young",
+   "accent": "american",
+   "use": "narrative_story",
+   "desc": "calm",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/Tz3jS6K5bWYtjljgCFUD63UqG5W2/voices/wZ8nmgX7pGJHWiG4dwM9/28b307d7-bef4-4874-84db-8493e2074e9d.mp3",
+   "source": "library"
+  },
+  {
+   "voice_id": "VJBe5pHkFEQshs0TwwMB",
+   "public_owner_id": "13d29a746a2dcee229fd5532bfd662da02700ac33e4ca10411020097a7770b7a",
+   "name": "Thomas Patterson",
+   "category": "professional",
+   "gender": "male",
+   "age": "old",
+   "accent": "african american",
+   "use": "narrative_story",
+   "desc": "calm",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/6ed1367ddca94f128229aeb3cd330317/voices/VJBe5pHkFEQshs0TwwMB/xHII8d66cCeJcDckQTdI.mp3",
    "source": "library"
   },
   {
@@ -3144,7 +3248,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/FPofnDi5DdNeTktLQ0u9/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxYTI2OTE1YjRlODM0YjA0OWQ0NzdiMTg3Mjc0ZjgzYiIsImZpbGVuYW1lIjoiOTY4MjgwZmItODFjMi00NWJiLWI0MzAtZmI4NzY5YzY5ZTY1Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/FPofnDi5DdNeTktLQ0u9/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxYTI2OTE1YjRlODM0YjA0OWQ0NzdiMTg3Mjc0ZjgzYiIsImZpbGVuYW1lIjoiOTY4MjgwZmItODFjMi00NWJiLWI0MzAtZmI4NzY5YzY5ZTY1Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -3157,7 +3261,7 @@
    "accent": "british",
    "use": "social_media",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/qZNXGnBF6neuAzxagOkO/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmNGJkMjI3ZjQ0NjM0NzdkOTIyMGI1YTJmYzZkOTczZCIsImZpbGVuYW1lIjoiS05xQ0t0d2EyeGNtSE0zaWVxVHgubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/qZNXGnBF6neuAzxagOkO/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmNGJkMjI3ZjQ0NjM0NzdkOTIyMGI1YTJmYzZkOTczZCIsImZpbGVuYW1lIjoiS05xQ0t0d2EyeGNtSE0zaWVxVHgubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3184,58 +3288,6 @@
    "use": "conversational",
    "desc": "upbeat",
    "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/c7c9ef489557411a9058ad57a2744459/voices/7yv8dY2imKEuhDJhLg7x/75b96f6c-4e8f-4743-b922-874a41ba3c20.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "sAxd8ffzrizgUQNI8nre",
-   "public_owner_id": "aa287c0ed5b8ceb4c141d650e0399bc12d03f79bd8948fe92701f6f74b0f2f8d",
-   "name": "David Northberry",
-   "category": "professional",
-   "gender": "male",
-   "age": "old",
-   "accent": "british",
-   "use": "narrative_story",
-   "desc": "casual",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/ff6549525b054c649e0c4cad6da5de99/voices/sAxd8ffzrizgUQNI8nre/EefyAuOmOeMh6a85N7Pq.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "NRqLIvKLLREyh1j4eeV2",
-   "public_owner_id": "6263ca933fa5e0bdbd8051de3e66e842266afac1ff35ac81d3b585cf526dfc6d",
-   "name": "Akshay",
-   "category": "professional",
-   "gender": "male",
-   "age": "young",
-   "accent": "hindi",
-   "use": "conversational",
-   "desc": "classy",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a08a206a31da4e7192511424121a7742/voices/NRqLIvKLLREyh1j4eeV2/4b461659-a588-450d-88f7-a78f4570db0d.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "5Tt3smTZZdAF8jVbfVlP",
-   "public_owner_id": "6c01058ae5efb2cd1c5660ba96441bc797e12e9d1f538e7d1c7b28a07fd63a6a",
-   "name": "Andrew - Clear & Intelligent",
-   "category": "professional",
-   "gender": "male",
-   "age": "young",
-   "accent": "american",
-   "use": "characters_animation",
-   "desc": "calm",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/a83e3e140fa2469e891525af4d7c00e7/voices/5Tt3smTZZdAF8jVbfVlP/5db7c0c6-353c-4ba4-8671-21e00dbda923.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "OmnyxAi91Avr5GJGeDui",
-   "public_owner_id": "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
-   "name": "Kahani G - Motherly Calm Guiding Agent",
-   "category": "professional",
-   "gender": "female",
-   "age": "middle_aged",
-   "accent": "indian",
-   "use": "conversational",
-   "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/OmnyxAi91Avr5GJGeDui/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiSE9Rc0tXYktRWDhoajM0cUlsc3gubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3300,7 +3352,7 @@
    "accent": "italian",
    "use": "conversational",
    "desc": "neutral",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Gv3u7Hg5F7dRuEdj7jLM/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmYWZlOGRkYjkzZTY0MTVlYWNmZTMyOGRhNWFhYTVmYiIsImZpbGVuYW1lIjoiZWRjN2RhYWUtMzE4Ni00OTdiLWEyZDgtYWFkNDRmZDhjOWJhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Gv3u7Hg5F7dRuEdj7jLM/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmYWZlOGRkYjkzZTY0MTVlYWNmZTMyOGRhNWFhYTVmYiIsImZpbGVuYW1lIjoiZWRjN2RhYWUtMzE4Ni00OTdiLWEyZDgtYWFkNDRmZDhjOWJhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -3365,7 +3417,7 @@
    "accent": "indian",
    "use": "characters_animation",
    "desc": "modulated",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/nwXBqbMKJWkQdYCbhxqZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiRDB4WkJpNW1ITlRYbmJZRE56U0YubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/nwXBqbMKJWkQdYCbhxqZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiRDB4WkJpNW1ITlRYbmJZRE56U0YubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3482,7 +3534,7 @@
    "accent": "australian",
    "use": "narrative_story",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/dh3YdvdCYZdqFjtSFNTx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhODgxZmExNjk4MzA0NGJjYTE3NmZjN2QwN2JjYjk4MyIsImZpbGVuYW1lIjoiNzkxNDY0MzYtMjdhYS00YjZlLThjZDEtNDk5OTgyN2EzOWU3Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/dh3YdvdCYZdqFjtSFNTx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhODgxZmExNjk4MzA0NGJjYTE3NmZjN2QwN2JjYjk4MyIsImZpbGVuYW1lIjoiNzkxNDY0MzYtMjdhYS00YjZlLThjZDEtNDk5OTgyN2EzOWU3Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -3547,7 +3599,7 @@
    "accent": "indian",
    "use": "conversational",
    "desc": "professional",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Bc9tFiE2PRi5WmeYTbRm/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiZUJiQUR4YldSQk5uUWdST2ZjSEYubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Bc9tFiE2PRi5WmeYTbRm/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiZUJiQUR4YldSQk5uUWdST2ZjSEYubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3638,7 +3690,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "serious",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/M9UAxraM2w5tCjpOaIB0/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoidXNlcl8xMDAxa2R5a2Y2YTBlc3J2YmRubmgwcDN0YmU4IiwiZmlsZW5hbWUiOiJhbFRTWmhEdVZuRG9tbENrQVVGQS5tcDMiLCJ0aW1lc3RhbXAiOjE3ODQxMjQwMDAwMDAwMDB9",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/M9UAxraM2w5tCjpOaIB0/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoidXNlcl8xMDAxa2R5a2Y2YTBlc3J2YmRubmgwcDN0YmU4IiwiZmlsZW5hbWUiOiJhbFRTWmhEdVZuRG9tbENrQVVGQS5tcDMiLCJ0aW1lc3RhbXAiOjE3ODQ0NTUyMDAwMDAwMDB9",
    "source": "library"
   },
   {
@@ -3703,7 +3755,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/IRHApOXLvnW57QJPQH2P/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiNEdXZzBVd1FLWGJpVkZPMFRybDRqTURTVGI4MiIsImZpbGVuYW1lIjoiNzc1ODgyMmYtYzk4Yy00ZGI5LWFiMGEtMTg2YjZhMTNiZTFhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/IRHApOXLvnW57QJPQH2P/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiNEdXZzBVd1FLWGJpVkZPMFRybDRqTURTVGI4MiIsImZpbGVuYW1lIjoiNzc1ODgyMmYtYzk4Yy00ZGI5LWFiMGEtMTg2YjZhMTNiZTFhLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -3746,19 +3798,6 @@
    "source": "library"
   },
   {
-   "voice_id": "wlF8V3JvoLKRT7YmrGtH",
-   "public_owner_id": "59995d8520c42726f5550ec2bb4fde0207247d92fcfc1832f5bbf55819c62088",
-   "name": "Bola - African Root ",
-   "category": "professional",
-   "gender": "female",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": "conversational",
-   "desc": "professional",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/057de42fd36b4b389fd7044dc01a46f8/voices/wlF8V3JvoLKRT7YmrGtH/96b6866d-273e-4bc3-9dbd-13f753616f41.mp3",
-   "source": "library"
-  },
-  {
    "voice_id": "pCL8Ua4MoAGISUaDmw69",
    "public_owner_id": "e334d26c2e9dee52ae815c6dc3b4e6ebc05e94046f1382a825b82813aad95d5c",
    "name": "Miller - Relatable Dad Vibe",
@@ -3794,7 +3833,7 @@
    "accent": "south african",
    "use": "conversational",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Bn5h1jUGRkTAdBGY2icT/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjMzY5YzRlMmZjZjU0MGIwYTI0NDk2ZmE1ZTEzMzE1YSIsImZpbGVuYW1lIjoiNmk2dDVWRG5tUTVXbFRpZGV3bHQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Bn5h1jUGRkTAdBGY2icT/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjMzY5YzRlMmZjZjU0MGIwYTI0NDk2ZmE1ZTEzMzE1YSIsImZpbGVuYW1lIjoiNmk2dDVWRG5tUTVXbFRpZGV3bHQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3833,7 +3872,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "deep",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/LYg7sV1lKlWiLfgmyT5L/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlNDExYWQ3OWY5MzQ0ZThjOGI4ZjNiZWVkZTM3ZTgyZCIsImZpbGVuYW1lIjoiWFZia28xbzlRUGlhMnVTOWhJZ2UubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/LYg7sV1lKlWiLfgmyT5L/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlNDExYWQ3OWY5MzQ0ZThjOGI4ZjNiZWVkZTM3ZTgyZCIsImZpbGVuYW1lIjoiWFZia28xbzlRUGlhMnVTOWhJZ2UubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3859,7 +3898,7 @@
    "accent": "american",
    "use": "informative_educational",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/uod6Nn3FGhzBRM6gqPSU/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1ZGZiZDYwYjRmZmU0NjBmYWM0ODg1MWM2NjNlNGU2ZiIsImZpbGVuYW1lIjoieEhPdlFKcmlUYnJJZFFicnF6b1IubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/uod6Nn3FGhzBRM6gqPSU/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1ZGZiZDYwYjRmZmU0NjBmYWM0ODg1MWM2NjNlNGU2ZiIsImZpbGVuYW1lIjoieEhPdlFKcmlUYnJJZFFicnF6b1IubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3937,7 +3976,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/507tTFX0IPtqFzGd1CAL/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiMjhjYzRhOWQwMzg0Y2Y5ODU3ODQwNjQ0YjQyOTI4MSIsImZpbGVuYW1lIjoiY3d5QXdlaHpYY21RSkdOeElNZ3gubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/507tTFX0IPtqFzGd1CAL/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiMjhjYzRhOWQwMzg0Y2Y5ODU3ODQwNjQ0YjQyOTI4MSIsImZpbGVuYW1lIjoiY3d5QXdlaHpYY21RSkdOeElNZ3gubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3963,7 +4002,7 @@
    "accent": "american",
    "use": "social_media",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/x0zyVzEOyBsW5ZIYSbLe/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiYTBmYjI5MjMzMGM0N2Q1YmFiYzU3Zjk5ZjZhNWNjZiIsImZpbGVuYW1lIjoiaG1WTUY3NWM2QWZ3QmN3Vnlmbk4ubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/x0zyVzEOyBsW5ZIYSbLe/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiYTBmYjI5MjMzMGM0N2Q1YmFiYzU3Zjk5ZjZhNWNjZiIsImZpbGVuYW1lIjoiaG1WTUY3NWM2QWZ3QmN3Vnlmbk4ubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -3989,7 +4028,7 @@
    "accent": "american",
    "use": "entertainment_tv",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/o5PWGqkCSWmKlDf1F9H0/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MDI2ZmJlYjkwMmI0ZjU2YmMwZWE3YTE1MTVlODgyYSIsImZpbGVuYW1lIjoiNzU1MDkzMDMtNDUwZi00MWIyLTljMjItNjQyYzRiZmRhZDJmLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/o5PWGqkCSWmKlDf1F9H0/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1MDI2ZmJlYjkwMmI0ZjU2YmMwZWE3YTE1MTVlODgyYSIsImZpbGVuYW1lIjoiNzU1MDkzMDMtNDUwZi00MWIyLTljMjItNjQyYzRiZmRhZDJmLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -4003,6 +4042,19 @@
    "use": "conversational",
    "desc": "confident",
    "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/ace0fde5349f47288a3042c275b19e2a/voices/q3pCVYOxlOb5G3l2O13o/357d8cec-4843-43e4-9522-8e77f261c781.mp3",
+   "source": "library"
+  },
+  {
+   "voice_id": "NqOo4X4zl2IEoPQFlo7Q",
+   "public_owner_id": "c52c797d76f438b00d54ed6302e4d8c19ce63606afaced965ceb78caa3fba5fe",
+   "name": "Adebola - Calm & Warm",
+   "category": "professional",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "nigerian",
+   "use": "narrative_story",
+   "desc": "calm",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/353f76e70cad49119585181cc7785ce9/voices/NqOo4X4zl2IEoPQFlo7Q/750a75d4-9d5a-43bf-bbd3-96fe3b696e41.mp3",
    "source": "library"
   },
   {
@@ -4028,7 +4080,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/NmtH64omlFSsZ8g24jSm/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4ZWJkN2FmYTgzY2U0NWMwOTVmNzYzOTVkMjRiZWM5MiIsImZpbGVuYW1lIjoiYkNPNjgyZ05yU0ZBaGhqZExPTWMubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/NmtH64omlFSsZ8g24jSm/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4ZWJkN2FmYTgzY2U0NWMwOTVmNzYzOTVkMjRiZWM5MiIsImZpbGVuYW1lIjoiaTE0cG1tc09Jc1JoRldKYmNLSkYubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4132,7 +4184,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/4TAI1Sy37LIXw9l83vCO/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhNjFkYWU5OTMyMmU0NzQyYWViODlhY2M3YmI1NWY1ZSIsImZpbGVuYW1lIjoiMDUzYTlkYWQtMjViOS00OGI2LWI5NGItNzg1MTk4Nzc1NjFiLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/4TAI1Sy37LIXw9l83vCO/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhNjFkYWU5OTMyMmU0NzQyYWViODlhY2M3YmI1NWY1ZSIsImZpbGVuYW1lIjoiMDUzYTlkYWQtMjViOS00OGI2LWI5NGItNzg1MTk4Nzc1NjFiLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -4210,7 +4262,7 @@
    "accent": "canadian",
    "use": "narrative_story",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/kbuFhQNu9dZ7ERcz18IZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI0YjE1MDI1Yjg0ODY0NjdmODQ3NjA5MmU3ZTc2MjU0NiIsImZpbGVuYW1lIjoiZmY1ZTdmODAtYjVhOS00YWQyLWE4NDYtNDRmODg1NDBjOGQ5Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/kbuFhQNu9dZ7ERcz18IZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI0YjE1MDI1Yjg0ODY0NjdmODQ3NjA5MmU3ZTc2MjU0NiIsImZpbGVuYW1lIjoiZmY1ZTdmODAtYjVhOS00YWQyLWE4NDYtNDRmODg1NDBjOGQ5Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -4223,7 +4275,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "pleasant",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/GAeBNkiaZppBGagNir5r/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwNDdiNWYxOTk0NzI0ODE3YTk0Mzc1M2UwZWIyNzMwYyIsImZpbGVuYW1lIjoiVFFYZUp5TnpPZm04WEhiZDBjRDQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/GAeBNkiaZppBGagNir5r/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwNDdiNWYxOTk0NzI0ODE3YTk0Mzc1M2UwZWIyNzMwYyIsImZpbGVuYW1lIjoiVFFYZUp5TnpPZm04WEhiZDBjRDQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4340,20 +4392,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/PmyzgD79S1p0rdLGPZBg/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIyZTRmOTNiOTgzMmY0N2FiOWVjZThhMjgwZmE3Nzc4NSIsImZpbGVuYW1lIjoiMGU3MmI2NmYtNDM4MC00NmQ3LTlmZDYtZDQ2N2ZlYTJjNzBjLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
-   "source": "library"
-  },
-  {
-   "voice_id": "pH8TIDBxKcsLhKFzhwgP",
-   "public_owner_id": "ddb375259a58113cbdd809b6240a751d0787fe0725333374975f5c184492e230",
-   "name": "Daniel - Calm, Warm & Professional",
-   "category": "professional",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "us northeast",
-   "use": "narrative_story",
-   "desc": "gentle",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/pH8TIDBxKcsLhKFzhwgP/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4NTM4NzUyYmQ3MjU0NmM3YmZlNjNkNDU0ZGM1ZGNlNCIsImZpbGVuYW1lIjoia0pvYnIzYUdxYWNIZ1dVM3F3YkoubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/PmyzgD79S1p0rdLGPZBg/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIyZTRmOTNiOTgzMmY0N2FiOWVjZThhMjgwZmE3Nzc4NSIsImZpbGVuYW1lIjoiMGU3MmI2NmYtNDM4MC00NmQ3LTlmZDYtZDQ2N2ZlYTJjNzBjLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -4366,7 +4405,7 @@
    "accent": "american",
    "use": "entertainment_tv",
    "desc": "Jared Wayne - A rich, deep voice built for impact — ideal for documentaries, audiobooks, commercials, and compelling narration. Trusted tone, professional delivery.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/mpHKakCHjcnpaDuRTKqK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoibU41SXJsakFnRVRqQkJTTkRTb1R0dHI1a2F0MiIsImZpbGVuYW1lIjoiNWZjM2Q1N2YtYmNmNy00YmY3LTgxZTktNjQ2ZTU4NDg5ODIwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/mpHKakCHjcnpaDuRTKqK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoibU41SXJsakFnRVRqQkJTTkRTb1R0dHI1a2F0MiIsImZpbGVuYW1lIjoiNWZjM2Q1N2YtYmNmNy00YmY3LTgxZTktNjQ2ZTU4NDg5ODIwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -4418,7 +4457,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "intense",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/BQOei2tk6QCBMHQWPhbj/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoicW5SN0xFblJLdE9HdGNYakdSQkIubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/BQOei2tk6QCBMHQWPhbj/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoicW5SN0xFblJLdE9HdGNYakdSQkIubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4431,7 +4470,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "serious",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/tZssYepgGaQmegsMEXjK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiMjEwOTQxNmM3NTE0NDQ5YTVmMDY1NDBkMTBmMGU3MyIsImZpbGVuYW1lIjoiekJrWVplZGp0NFlxYWRzeXVzZFMubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/tZssYepgGaQmegsMEXjK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiMjEwOTQxNmM3NTE0NDQ5YTVmMDY1NDBkMTBmMGU3MyIsImZpbGVuYW1lIjoiekJrWVplZGp0NFlxYWRzeXVzZFMubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4483,7 +4522,7 @@
    "accent": "bulgarian",
    "use": "characters_animation",
    "desc": "serious",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Tj9l48J9AJbry5yCP5eW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiRWJ3NmFJb0xOQlliblA0NVpTQjVhSHhtSUFvMiIsImZpbGVuYW1lIjoiMTZaOGJ4Nm9pN0xNM0tkRHBOQm0ubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Tj9l48J9AJbry5yCP5eW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiRWJ3NmFJb0xOQlliblA0NVpTQjVhSHhtSUFvMiIsImZpbGVuYW1lIjoiMTZaOGJ4Nm9pN0xNM0tkRHBOQm0ubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4561,7 +4600,7 @@
    "accent": "new york",
    "use": "conversational",
    "desc": "mature",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/OLw8Wi4Ch4C4T0zHZrfh/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiUXpZeHBES1QxdFNZa1RyU2J1TVVFV1huUmFFMiIsImZpbGVuYW1lIjoiT1VWM28xN2dpYXl0REhDUklYWkMubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/OLw8Wi4Ch4C4T0zHZrfh/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiUXpZeHBES1QxdFNZa1RyU2J1TVVFV1huUmFFMiIsImZpbGVuYW1lIjoiT1VWM28xN2dpYXl0REhDUklYWkMubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4600,7 +4639,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "chill",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/KNCVWpJC415rKzE8bX73/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiNzdHcENyQ0tVM1BlalRFM21UbkxHM1hXZ3pVMiIsImZpbGVuYW1lIjoiVTQ1bkI2SUdGRDA4RjRXZUpDWDcubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/KNCVWpJC415rKzE8bX73/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiNzdHcENyQ0tVM1BlalRFM21UbkxHM1hXZ3pVMiIsImZpbGVuYW1lIjoiVTQ1bkI2SUdGRDA4RjRXZUpDWDcubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4652,7 +4691,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "neutral",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/9lv4qqEb8CqLgosI5Due/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiZjlDZEdPY2hrMVpBcUozSFFJSVFhUUZJS1B5MSIsImZpbGVuYW1lIjoiMEsyRmhaQ1RSVkYzalk0TGRrVXEubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/9lv4qqEb8CqLgosI5Due/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiZjlDZEdPY2hrMVpBcUozSFFJSVFhUUZJS1B5MSIsImZpbGVuYW1lIjoiMEsyRmhaQ1RSVkYzalk0TGRrVXEubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4665,7 +4704,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/pgXLagTlUQcy1LT68JCe/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiTkNSNG5yT05iUEhaUlRrWTZuNTYubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/pgXLagTlUQcy1LT68JCe/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoiTkNSNG5yT05iUEhaUlRrWTZuNTYubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4678,7 +4717,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "pleasant",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/tIb1FHpzlwSiTGg6JxF0/ASTovrFbHIFiWeHC0OuD.mp3",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/tIb1FHpzlwSiTGg6JxF0/y2VrhGXhgs7ShYHhiTVM.mp3",
    "source": "library"
   },
   {
@@ -4691,7 +4730,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "upbeat",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/JlPfrZoXeAKnNaogINHc/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiRWJ3NmFJb0xOQlliblA0NVpTQjVhSHhtSUFvMiIsImZpbGVuYW1lIjoiS3JFdERIdm1nQmQ0VE5lNDJDa1oubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/JlPfrZoXeAKnNaogINHc/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiRWJ3NmFJb0xOQlliblA0NVpTQjVhSHhtSUFvMiIsImZpbGVuYW1lIjoiS3JFdERIdm1nQmQ0VE5lNDJDa1oubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4717,7 +4756,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "upbeat",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/CGOMbDUL52Yuc7oiDIm8/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiS0pGOEtwMkxCVGdZU3VXUjIzRFlNWkU2RDR2MSIsImZpbGVuYW1lIjoiYTB4SnpXMnFFUjN1dkJOTlRQSWQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/CGOMbDUL52Yuc7oiDIm8/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoiS0pGOEtwMkxCVGdZU3VXUjIzRFlNWkU2RDR2MSIsImZpbGVuYW1lIjoiYTB4SnpXMnFFUjN1dkJOTlRQSWQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4769,7 +4808,7 @@
    "accent": "american",
    "use": "conversational",
    "desc": "pleasant",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Lo6JZOZvGYBxVhTFszLx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlOWY1NDg1ODM5Yzc0OWNkYWU3ZmRkZjA4MGNkYTM0NSIsImZpbGVuYW1lIjoiME5JSko3c3llbHFrak0yQkV6Q2YubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/Lo6JZOZvGYBxVhTFszLx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlOWY1NDg1ODM5Yzc0OWNkYWU3ZmRkZjA4MGNkYTM0NSIsImZpbGVuYW1lIjoiME5JSko3c3llbHFrak0yQkV6Q2YubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4873,7 +4912,7 @@
    "accent": "indian",
    "use": "conversational",
    "desc": "pleasant",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/3hm20PbqnREBI8WdrIzx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoicW9lM1VGNm1xVldzNUc3VVJWV0MubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/3hm20PbqnREBI8WdrIzx/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlZDliMDVlNjMyNGM0NTc2ODU0OTAzNTJlOWExZWM5MCIsImZpbGVuYW1lIjoicW9lM1VGNm1xVldzNUc3VVJWV0MubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -4890,6 +4929,19 @@
    "source": "library"
   },
   {
+   "voice_id": "poylg979ASDig8oTbLuu",
+   "public_owner_id": "6fe167cf7a65cd610681cabe1e1b938722359c085986297dd593ef893c19ce13",
+   "name": "Kate - British Social Media",
+   "category": "professional",
+   "gender": "female",
+   "age": "young",
+   "accent": "british",
+   "use": "social_media",
+   "desc": "pleasant",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/606dac0729064b39b80e8df1ce37c681/voices/poylg979ASDig8oTbLuu/vg0Ah9BqieVttZZ0KQy1.mp3",
+   "source": "library"
+  },
+  {
    "voice_id": "0SqKG8YoEv9xwrHlKCfF",
    "public_owner_id": "49192248419463db8787a5407ec7c9b32bf6e30d8f4499af4d26bd014a08f893",
    "name": "Lee - British soft",
@@ -4899,7 +4951,7 @@
    "accent": "british",
    "use": "characters_animation",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/0SqKG8YoEv9xwrHlKCfF/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIyNDM3ZjNiYzZmMTM0NTY1YWNlOTVhYzY0YmM2NTg0YyIsImZpbGVuYW1lIjoiOGQ5YjVjZDctZjk3NS00NmRjLWIyNDEtN2E4MzE5MjhmYzczLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/0SqKG8YoEv9xwrHlKCfF/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIyNDM3ZjNiYzZmMTM0NTY1YWNlOTVhYzY0YmM2NTg0YyIsImZpbGVuYW1lIjoiOGQ5YjVjZDctZjk3NS00NmRjLWIyNDEtN2E4MzE5MjhmYzczLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -4932,7 +4984,7 @@
    "voice_id": "howQSp4vukBSqM6XL2q5",
    "public_owner_id": "937e9726716027f68ee56a3d88b5a0adae85850db79b1da09e072b1d89f39060",
    "name": "Rob Charles - British Radio Presenter",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "male",
    "age": "middle_aged",
    "accent": "british",
@@ -4964,14 +5016,14 @@
    "accent": "british",
    "use": "social_media",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/3cuC1hNj9E2jcHlIvndN/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1NDMzNTJkMGNkNjc0YmRjYWVjMzk5NGI4OGEwYzNjNSIsImZpbGVuYW1lIjoiamxMWkZFNXpWQVVwVGE3cFcwRlQubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/3cuC1hNj9E2jcHlIvndN/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI1NDMzNTJkMGNkNjc0YmRjYWVjMzk5NGI4OGEwYzNjNSIsImZpbGVuYW1lIjoiamxMWkZFNXpWQVVwVGE3cFcwRlQubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
    "voice_id": "dqdOhmL2BvMSx2KtSAtN",
    "public_owner_id": "7d19359f1cdbf34cadf6bb904fffb79b3eeff592edc8fe9a31c276d4789dc167",
    "name": "Ali - Everyday British (London) Male",
-   "category": "professional",
+   "category": "high_quality",
    "gender": "male",
    "age": "young",
    "accent": "british",
@@ -5068,7 +5120,7 @@
    "accent": "british",
    "use": "advertisement",
    "desc": "professional",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/1YfmfuouRyRwVbpAZP7R/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmOGFmNGZhMTM2YTA0N2I5OWMwZTBhOGVlYjU5ZTRhMSIsImZpbGVuYW1lIjoiTUt1UFowMTdtNVRWTUpweG1hMDgubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/1YfmfuouRyRwVbpAZP7R/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmOGFmNGZhMTM2YTA0N2I5OWMwZTBhOGVlYjU5ZTRhMSIsImZpbGVuYW1lIjoiTUt1UFowMTdtNVRWTUpweG1hMDgubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -5202,32 +5254,6 @@
    "source": "library"
   },
   {
-   "voice_id": "Dr0mp2pZe5cwXM1b9ZjN",
-   "public_owner_id": "55b7e0ed9c7c2571f86aa934604605f3a8ce2abec2f6c09c9cedfb651333ae42",
-   "name": "Simon - Clear &  professional, British",
-   "category": "professional",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "british",
-   "use": "informative_educational",
-   "desc": "crisp",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/e63efe55e8d4436d95949c5a200b113d/voices/Dr0mp2pZe5cwXM1b9ZjN/LjCZ2kD5Nuup6MLWuFk8.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "Jkr7fpJ2L0EgonJBZKRn",
-   "public_owner_id": "2a8547701ac870425324b956cbec6240f4f98b9f174a3148c5ec361a0e7c79f6",
-   "name": "Charlotte - Calm, friendly British woman",
-   "category": "professional",
-   "gender": "female",
-   "age": "middle_aged",
-   "accent": "british",
-   "use": "narrative_story",
-   "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/Jkr7fpJ2L0EgonJBZKRn/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3MzQwNGU1MjMyNTQ0YmMyYWFhNDkyZTNhZGIyZTA0ZCIsImZpbGVuYW1lIjoibGJ5MXVOVWdzc2FNS21RODdNcEUubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
-   "source": "library"
-  },
-  {
    "voice_id": "uf4Zsx78fMgPxfa98cUf",
    "public_owner_id": "0136c0edc01bd9bcd93f8c15850e18c8ec2d956cb435e75c2d3982067ca732af",
    "name": "James - Expressive Character Reader",
@@ -5237,7 +5263,7 @@
    "accent": "british",
    "use": "narrative_story",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/uf4Zsx78fMgPxfa98cUf/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwNzliODc3MmRhZmI0M2ZlODNlNDc0MTdkM2E0ZjdlNyIsImZpbGVuYW1lIjoiNzQ4NTU3YzYtOWEwYi00MmRkLTk1YTQtZDM4Y2E2MTQ5OWUxLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/uf4Zsx78fMgPxfa98cUf/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwNzliODc3MmRhZmI0M2ZlODNlNDc0MTdkM2E0ZjdlNyIsImZpbGVuYW1lIjoiNzQ4NTU3YzYtOWEwYi00MmRkLTk1YTQtZDM4Y2E2MTQ5OWUxLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -5306,6 +5332,19 @@
    "source": "library"
   },
   {
+   "voice_id": "M5E055lOUxMi0kJpGyE9",
+   "public_owner_id": "72026985ddcf2e1b6cf05e05a8d5dc2e4d1b644e967553f8f6bf36210739d9a5",
+   "name": "Gravel Midnight – Deep Grit Character Voice",
+   "category": "professional",
+   "gender": "male",
+   "age": "old",
+   "accent": "british",
+   "use": "characters_animation",
+   "desc": "rough",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/user_0401kepfzywfft9a5c4h5j3wnj3n/voices/M5E055lOUxMi0kJpGyE9/e3264828-f266-457d-94dd-29893cacb9a1.mp3",
+   "source": "library"
+  },
+  {
    "voice_id": "eppqEXVumQ3CfdndcIBd",
    "public_owner_id": "5214e3d3123945dcad0881d8743a206c4dbc617f34e858e8878c4fd90deb4892",
    "name": "Minnie - High pitch cartoon character",
@@ -5345,6 +5384,19 @@
    "source": "library"
   },
   {
+   "voice_id": "XescS24CsOySAkKrLAO3",
+   "public_owner_id": "e33eb547f8af39719b57253a6230915455d19c17d3f7781cabe273337a2e5df2",
+   "name": "Madeline Brousseaux - Southern alto",
+   "category": "professional",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "american",
+   "use": "characters_animation",
+   "desc": "wise",
+   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/bb3de32d375e4462a5d1aebc77eb7b0a/voices/XescS24CsOySAkKrLAO3/Gzu6X9rADToEUV2AOX8g.mp3",
+   "source": "library"
+  },
+  {
    "voice_id": "BOoKlbsve2J6x9UnqHOS",
    "public_owner_id": "af484f19c3bc65655607a6a43b94fbd1c60053129730c016b598dde3dc1279ca",
    "name": "Delgado Stéphane ",
@@ -5354,7 +5406,7 @@
    "accent": "french",
    "use": "characters_animation",
    "desc": "casual",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/BOoKlbsve2J6x9UnqHOS/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlYjkxMDBkZGY5ZDM0MjIzOGFkNTc0MzdhNzFkNzA5YiIsImZpbGVuYW1lIjoiYzFjOGNkYmYtNzk0NC00MGFjLWJlOGEtOGJhZmEyZjRmMmEwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/BOoKlbsve2J6x9UnqHOS/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJlYjkxMDBkZGY5ZDM0MjIzOGFkNTc0MzdhNzFkNzA5YiIsImZpbGVuYW1lIjoiYzFjOGNkYmYtNzk0NC00MGFjLWJlOGEtOGJhZmEyZjRmMmEwLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -5367,7 +5419,7 @@
    "accent": "indian",
    "use": "characters_animation",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/USbzYCv6zV0PTTzmg17i/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjOTQyZjBkMTNmOTI0NjFkYWRhMzUxZTc2YzdlMThlMCIsImZpbGVuYW1lIjoiMzEwMGFlNzQtODA3MC00MzIyLTkyOTctMmNmYjE0OTBjNjE5Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/USbzYCv6zV0PTTzmg17i/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjOTQyZjBkMTNmOTI0NjFkYWRhMzUxZTc2YzdlMThlMCIsImZpbGVuYW1lIjoiMzEwMGFlNzQtODA3MC00MzIyLTkyOTctMmNmYjE0OTBjNjE5Lm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -5406,7 +5458,7 @@
    "accent": "american",
    "use": "narrative_story",
    "desc": "confident",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/7bJYx11IrIv8r2B6Ir1m/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhODUzODI5ZTU2NzE0NGE3ODcxMGQzNWFjZjUzYzBjYyIsImZpbGVuYW1lIjoiY2VlMGZkMDgtMDg0OS00MTM0LWJkMzgtYjdjZGU2NzU5MDczLm1wMyIsInRpbWVzdGFtcCI6MTc4NDEyNDAwMDAwMDAwMH0%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/7bJYx11IrIv8r2B6Ir1m/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJhODUzODI5ZTU2NzE0NGE3ODcxMGQzNWFjZjUzYzBjYyIsImZpbGVuYW1lIjoiY2VlMGZkMDgtMDg0OS00MTM0LWJkMzgtYjdjZGU2NzU5MDczLm1wMyIsInRpbWVzdGFtcCI6MTc4NDQ1NTIwMDAwMDAwMH0%3D",
    "source": "library"
   },
   {
@@ -5432,7 +5484,7 @@
    "accent": "british",
    "use": "characters_animation",
    "desc": "calm",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/LI283TzJcIwSKqsXiH7u/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI5NzY3NWZjMzA4YTA0MTg3YWJmYjA0NWE3YWFhOWNmNyIsImZpbGVuYW1lIjoib1AxRktlQ1VCYmY3TmtOSW81bmkubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/LI283TzJcIwSKqsXiH7u/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI5NzY3NWZjMzA4YTA0MTg3YWJmYjA0NWE3YWFhOWNmNyIsImZpbGVuYW1lIjoib1AxRktlQ1VCYmY3TmtOSW81bmkubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -5471,7 +5523,7 @@
    "accent": "american",
    "use": "characters_animation",
    "desc": "classy",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/GYWmRxXVwMaFJvJclh2j/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3ZTU0YjEyMGI2OTM0Y2Y2ODI1M2NjZTBhZGI3OTc0OSIsImZpbGVuYW1lIjoiTHhHY1FTN3NKREMzZUlpRWg1UEkubXAzIiwidGltZXN0YW1wIjoxNzg0MTI0MDAwMDAwMDAwfQ%3D%3D",
+   "preview": "https://api.us.elevenlabs.io/v1/voices/GYWmRxXVwMaFJvJclh2j/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI3ZTU0YjEyMGI2OTM0Y2Y2ODI1M2NjZTBhZGI3OTc0OSIsImZpbGVuYW1lIjoiTHhHY1FTN3NKREMzZUlpRWg1UEkubXAzIiwidGltZXN0YW1wIjoxNzg0NDU1MjAwMDAwMDAwfQ%3D%3D",
    "source": "library"
   },
   {
@@ -5485,305 +5537,6 @@
    "use": "characters_animation",
    "desc": "confident",
    "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/320cb6a361394d43a0cbf30d31447ce8/voices/tEo3d4j7gzVojBL5Z4Pt/BohkhrtyIEE8b1AKGrJI.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "ymZ2m14IsFBURjROEE2J",
-   "public_owner_id": "058ff1d1f23abe55a66b633b19fb130577b65a88761759e91c2efd5a97a2ffe4",
-   "name": "Sandy Soft - Velvet",
-   "category": "professional",
-   "gender": "female",
-   "age": "middle_aged",
-   "accent": "british",
-   "use": "narrative_story",
-   "desc": "soft",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/877afc20688e4973ae2248ed3c301a7f/voices/ymZ2m14IsFBURjROEE2J/oaLsRRI0p4ywwJC90RLX.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "Q4oILuo4P8VeXtE6FMLI",
-   "public_owner_id": "1bdf478ac5e1a81b0b8423faadde277a29cb25195ed2c86adcb0622464c9b930",
-   "name": "Matthew Schmitz - Warm Mountain Man",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "american",
-   "use": null,
-   "desc": "Matthew Schmitz - Old Timer Mountain Man - A warm, gravelly, weathered voice, slow and measured, like a man who’s seen too many winters and knows there’s no rush. Each textured word carries weight, with a natural southern drawl, wild west tone with a bit of rasp that resonates wisdom. An ideal character for video games and storytelling. Voiced by Matthew Schmitz, a professional audiobook narrator with a large fan-base.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/Ebw6aIoLNBYbnP45ZSB5aHxmIAo2/voices/Q4oILuo4P8VeXtE6FMLI/ooZxg3jqjpubgk0Wh32E.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "8TMmdpPgqHKvDOGYP2lN",
-   "public_owner_id": "4d49e1f6a4608f4702abcb9914a565b56353fa58abba4b23a34b647e549c3cd6",
-   "name": "Gregory Grumble - Old Lovable Bedtime Bear",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "standard",
-   "use": null,
-   "desc": "Gregory Grumble - Old lovable bedtime bear.  - Gregory Grumble is a gruff but lovable old bear with a warm, gravelly voice full of character. His tone carries the weight of many winters and the coziness of crackling fires. Slightly raspy, with a slow, deliberate pacing, Gregory speaks like someone who enjoys taking his time — savoring every word like a sip of hot tea. Despite his grumbly exterior, there's a gentle kindness and dry humor in his delivery that makes listeners lean in closer. Perfect for bedtime stories.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/gZiPJ4XvPyank4m6aSXGcASkXl12/voices/8TMmdpPgqHKvDOGYP2lN/TStqhf7b8dqSOtd0TiWj.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "xwVJ1SoRe0v1T88zEwBN",
-   "public_owner_id": "64cbc624eb5aab4e95a968e1f41d75402277cca6e549036ed17e56ea33bbbc9e",
-   "name": "Vicente - Warm and raspy ",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "european",
-   "use": null,
-   "desc": "Male voice of an elderly Portuguese man. It is a deep, slow-paced voice with a traditional accent. The tone is consistently warm and calm, sounding like a person who is relaxed and friendly.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/1da06ea679a54975ad96a2221fe6530d/voices/xwVJ1SoRe0v1T88zEwBN/SlnJVZsxRBPZYRn07bwq.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "phmCOLF8U7RfPITZbJUs",
-   "public_owner_id": "b5a2b6f40f7a54d644f4ededc95b7df2f28ac3e4ae4aadc775d631110f8b4c61",
-   "name": "Stefano - Emilian accent",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "standard",
-   "use": null,
-   "desc": "A 60-year-old Italian man from Bologna, with a warm, slightly raspy baritone voice. He speaks with a gentle Emilian accent, soft vowels, a rounded and unhurried delivery, and a natural tendency to elongate certain syllables. His tone is calm, authoritative yet approachable, like a seasoned craftsman or a university professor from Emilia-Romagna. Occasional hints of warmth and subtle humor in his phrasing. Moderate speaking pace, with natural pauses that give weight to his words.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/dc297084d9e94cd9bde90caaa376595a/voices/phmCOLF8U7RfPITZbJUs/F0CgfdIrqHGgSzl8gnxy.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "482uNsgswFPs3grclyBu",
-   "public_owner_id": "f005e91752bac873d078dba54a0ee6dba11fabd91defd8544a128ee8e0c334dc",
-   "name": "Caelan - V3 Cinematic Titan ",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "Optimized and Engineered for v3. Caelan is a hyper-realistic Middle-Aged powerhouse, boasting massive, Gravelly resonance and a Deep sub-bass floor. With amazing Emotional Range, he excels as a Grizzled, Stoic Sellsword or Rugged Anti-Hero, yet commands the Sinister, Authoritative presence of a Dark Villain. Expertly designed for RPG Lore, Dark Fantasy, Movie Trailers, and Premium Audiobooks. A masterclass in vocal depth and cinematic soul.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/482uNsgswFPs3grclyBu/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoidXNlcl80NTAxa2RtcGt4aHhmeTU5em1nNWt2NnpndjluIiwiZmlsZW5hbWUiOiJybHhwcVNMOEx3d09oODFyaGZTSS5tcDMiLCJ0aW1lc3RhbXAiOjE3ODQxNDIwMDAwMDAwMDB9",
-   "source": "library"
-  },
-  {
-   "voice_id": "Av4Fi2idMFuA8kTbVZgv",
-   "public_owner_id": "8cc2be87b6bb605436dcdaef1d1cfeb64730f3e8f81a5b784c5487cb7ad23c74",
-   "name": "Russel - Raw Cowboy",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "american",
-   "use": null,
-   "desc": "Russel - Old Man Hoarse Voice - Delivers a rough, timeworn growl, perfect for grizzled cowboys, tough grandfathers, battle-scarred soldiers, or weathered rebels. The hoarseness adds a raw, authentic edge, whether for gritty showdowns or tales of old. It’s a voice that carries history, suited for both hard-edged characters and nostalgic stories of the past.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/DgH5gJrGZcbd8nBJxskdJrMWNr92/voices/Av4Fi2idMFuA8kTbVZgv/UstROLY2yaaqkjxSZUqq.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "uVKHymY7OYMd6OailpG5",
-   "public_owner_id": "9d48e632126e47fa24331617611c4fab3fbb61beadec42067817c28ade5f332f",
-   "name": "Frederick - Deep and Historical",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "standard",
-   "use": null,
-   "desc": "Frederick - Old Gnarly Narrator - Listen to the rugged tales, this grizzled baritone tells. This gnarly, well-seasoned voice rings with hard-won authenticity and wisdom, ideal for historical epics, gritty westerns, and stories demanding a road-worn raconteur. Hewn from decades of hard-lived adventures, his timbre captivates with a richly textured tapestry of human experience. Immerse yourself in the soulful perseverance and existential gravitas evoked by his masterfully aged, craggy vocals.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/custom/voices/uVKHymY7OYMd6OailpG5/tsTVrF3jtTNLBCzAPIxD.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "KvaCHcJoMXfOzwtsULOZ",
-   "public_owner_id": "1a76b02cecffbd3f25a01b953eaecc6c05a281d4be25de83fa454db6a9c6eef6",
-   "name": "Hank Harvey - Gruff, Rugged and Wise",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "Hank Harvey - A 38 year old gruff American male from the mountains. Calm, Chill, focused. ",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/e61rLIXeUGZTBV1mUOdZKpGTS8F2/voices/KvaCHcJoMXfOzwtsULOZ/4dc5c080-af43-4d40-8ed8-0a9e43821c33.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "OYWwCdDHouzDwiZJWOOu",
-   "public_owner_id": "ec7e32559d497b5578cf8d3111efd59b6c0a5611bc0f825c218d87ed0b1a2c9d",
-   "name": "David - Gruff Cowboy",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "A weathered old cowboy. Professional voice actor.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/ba117b7c1ee74678b9bd31dcc09e8a54/voices/OYWwCdDHouzDwiZJWOOu/H26wJOBAAcT6rE0s7kHA.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "LRpNiUBlcqgIsKUzcrlN",
-   "public_owner_id": "1c07ef5740387faa0fd1f7e624ce51055c0b270674ab3da0f0e22c2882bce3c4",
-   "name": "Georg - Funny and Emotional",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "standard",
-   "use": null,
-   "desc": "Grandpa Georg - Funny and Gruff - Old German male voice, spoken by a grandfather over 90 years of age, quavering, crackly, and raspy. His voice can shift unexpectedly from fragile and strained to surprisingly dynamic, giving him a comical and humorous charm. In his constant, rambling self-talk, he remains gentle, full of character, and endearing. While he might occasionally snap in a gruff and frustrated tone, he quickly softens, returning to the role of the wise and kind elder despite his schoolmasterly presence of a teacher.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/iqZvP9uOFYfUw0BsDUQRmHyEHA02/voices/LRpNiUBlcqgIsKUzcrlN/Wc4tBGxOg822DYJXg91Q.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "gDQfVolj9RbmXgumLcOq",
-   "public_owner_id": "e21da34db31d58704b7b2776dcf7db1c31b464e5bffd71727d5f1c4abafafa87",
-   "name": "Elinor | The Gruff Aunt ",
-   "category": "library",
-   "gender": "female",
-   "age": "old",
-   "accent": "standard",
-   "use": null,
-   "desc": "A mature, commanding female alto voice with an edge of aristocratic sharpness. She sounds cultivated and articulate but is prone to rapid, slightly breathless outbursts of indignation. The baseline tone is one of intellectual sarcasm and impatience, yet it often cracks into genuine panic or passionate anger. Not a gentle grandmother, but a woman who prefers her peace to people—until she is forced to fight for her family.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/631bf5a20c2d45ffacc1311eb5dec41f/voices/gDQfVolj9RbmXgumLcOq/GkaZjqgT2lCevgn2h1ZQ.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "a4BsmeT8RITKlxlCY9PO",
-   "public_owner_id": "5cf851ed722bbaa77521aa5401606a89a0c9086e7ee6c4b64ca374a9b43a015c",
-   "name": "Brother Wayne - Warm Southern Preacher",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "us southern",
-   "use": null,
-   "desc": "Brother Wayne Hudson - Old Timely Hokey Christian Man.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/TRkpxUZjQmcvklSj8RN66wW77mI3/voices/a4BsmeT8RITKlxlCY9PO/7dLJrZxBdvtSJ0KguAZj.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "uv21fPNFcCKLKrp73nmW",
-   "public_owner_id": "fd82a955aa63cc80db1a40bc7c1497bb9590e6e23925e79ba400d4f634243d0c",
-   "name": "Manny - Hoarse, Calm and Sincere",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "Manny C - 40 year old Filipino man speaking English fluently with a slight southern American accent.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/RDsv2VLGQQdeDU1dVkxkKuBxWpt2/voices/uv21fPNFcCKLKrp73nmW/4f2986ca-a964-4aa8-83f3-5496065b4bdd.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "bc11jUKbhjL156uiF4PW",
-   "public_owner_id": "df19358580778ebef02f9e29b83b06e101c55f75de4ff3cd03ea93a70a92a731",
-   "name": "James Articulose - Southern and Pious",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "James Articulose - He is a preacher,58 years old, a religious man. He loves god a lot and loves to pray. Very outgoing and dignified in the way he speaks. he's very southern.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/sN6fBAywKmOeqMPVHFU3DwGsDKq2/voices/bc11jUKbhjL156uiF4PW/8db110da-bbb6-421b-a069-12117544c539.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "kPNz4WRTiKDplS7jAwHu",
-   "public_owner_id": "088942c8a5a7e4dca712f6c36f9ff270546e96ce0878b34abf2adc579f6b7c1c",
-   "name": "Tran Thanh",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "southern",
-   "use": null,
-   "desc": "The voice of a middle-aged man from the South, 40 years old, deep, gentle, and emotional.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/487b3830672647c18e63b1cfe3fb1957/voices/kPNz4WRTiKDplS7jAwHu/BQLdAtxWdmuoIUmBMm02.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "DXiwi9uoxet6zAiZXynP",
-   "public_owner_id": "0f2fc73f2866928704a0ec213ccd706054e74d1d6cf42ee10ab4e9a59559d717",
-   "name": "Hung Tran - Deep, Calm and Reflective",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "southern",
-   "use": null,
-   "desc": "Tran kim hung - 30 years old A Southern Vietnamese man's voice with a deep voice tone, suitable for narrating mystery and horror stories or romantic podcasts.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/9QZhyEJVONUlQbf4qCXpQIsiWM02/voices/DXiwi9uoxet6zAiZXynP/ZXEyuqQ2pfxLEM30hsbr.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "xHxp1c5pQOzhWjBqV78M",
-   "public_owner_id": "64cbc624eb5aab4e95a968e1f41d75402277cca6e549036ed17e56ea33bbbc9e",
-   "name": "Garrison - Rugged and Stoic",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "A deep, weathered voice of a middle-aged male. His tone is gravelly and firm, carrying the weight of experience and a \"no-nonsense\" attitude perfect for a seasoned veteran, a hardened detective, or a gritty protagonist.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/xHxp1c5pQOzhWjBqV78M/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxZGEwNmVhNjc5YTU0OTc1YWQ5NmEyMjIxZmU2NTMwZCIsImZpbGVuYW1lIjoiZXdHMGtVemJoQ1NMU1VVMjFDc1AubXAzIiwidGltZXN0YW1wIjoxNzg0MTQyMDAwMDAwMDAwfQ%3D%3D",
-   "source": "library"
-  },
-  {
-   "voice_id": "BDqe1qZiwPi7xspRxTgh",
-   "public_owner_id": "84170eba2e50e0df575fca41c02e69d51200016cc292e0f433bb2b37cea28126",
-   "name": "Roderich - Crude & Ruthless",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "standard",
-   "use": null,
-   "desc": "Deep, gritty, gravelly villain voice with a rough, cynical tone and lawless attitude. Try periods … for laughing. Perfect for online games, real-time applications and non-player characters (NPC) like fantasy bandits, highwaymen, guards, soldiers, evil villains or ruffian bouncers. Low, raspy and menacing delivery full of punchy threats, dark humor and spontaneous, realistic breath control. Highly organic and API-integration optimized. Love this gaming-voice? Checkout other voices by Alex Vox. \n\n",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/workspace/b28cc4a9d0384cf9857840644b429281/voices/BDqe1qZiwPi7xspRxTgh/z75vVxXT3duAeHD1ixIy.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "IMd3WihrJpmKaNSM1WHx",
-   "public_owner_id": "aabd1c2ba2c23a3548bfb09fdf64c6a01eccbe5cd0d46b0a1b379180d641f5b8",
-   "name": "Brandon VO Artist Clone",
-   "category": "library",
-   "gender": "male",
-   "age": "young",
-   "accent": "american",
-   "use": null,
-   "desc": "I am a 23 Year Old American Male Voice Over Artist. In my recordings I am narrating YouTube Videos with an informative, energetic, and professional tone.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/FmGVYAKXIBfOKPjHtg7pXSYIEsf1/voices/IMd3WihrJpmKaNSM1WHx/5vnAvEdv4RjKGTbdxqy0.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "8r85BR6Y359RwfMPGrOJ",
-   "public_owner_id": "8f08630dc43745f6d62fc39129611333ebfd7a37a1449ec24615398cb2a5289d",
-   "name": "Michael Reimer - Composed and Heartfelt",
-   "category": "library",
-   "gender": "male",
-   "age": "old",
-   "accent": "american",
-   "use": null,
-   "desc": "Michael Reimer - Clone - Older well spoken businessman. Heartfelt and direct. ",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/database/user/odflRLkOOcfTFsjagdnHP1pQMtd2/voices/8r85BR6Y359RwfMPGrOJ/6vkbUIO44XLuWucfRJkL.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "CFv3umSzRiJJV5PBmDCF",
-   "public_owner_id": "e6e8b305350f39eb0ae70e283a94b709070a77b04c24b175dd97d055d8f571d1",
-   "name": "Michael Bennett - Growly and Deep",
-   "category": "library",
-   "gender": "male",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "Michael David Bennett - A voice clone of a 36 year old male from rural Virginia. Great for conversational content.",
-   "preview": "https://storage.googleapis.com/eleven-public-prod/XoChM8K9CgSgJhR4OP2vb2WcENK2/voices/CFv3umSzRiJJV5PBmDCF/b4355441-bac7-4f6c-a992-518a5cb8a611.mp3",
-   "source": "library"
-  },
-  {
-   "voice_id": "EQWNewikmUxkeJ3PodIZ",
-   "public_owner_id": "651745f32058e781b058ae83a8fd0ea3c1050205171ec4cc5049321041722799",
-   "name": "Nikki - Warm, Measured, and Clear",
-   "category": "library",
-   "gender": "female",
-   "age": "middle_aged",
-   "accent": "american",
-   "use": null,
-   "desc": "Nikki's ai voice clone - A thirty-year-old female voice with a pure, fresh, angelic tone. This voice is bright, warm and expressive.",
-   "preview": "https://api.us.elevenlabs.io/v1/voices/EQWNewikmUxkeJ3PodIZ/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoidElHTVRGbDlUaFVvczFFSndhTTJDR1RwYmpsMiIsImZpbGVuYW1lIjoiMThhNmFkYTktOGU3Mi00NjU2LTlmOGUtYjBhNzU0NjI0NmRmLm1wMyIsInRpbWVzdGFtcCI6MTc4NDE0MjAwMDAwMDAwMH0%3D",
    "source": "library"
   }
  ]

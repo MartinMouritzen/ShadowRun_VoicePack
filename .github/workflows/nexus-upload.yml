@@ -1,3 +1,8 @@
+# DEPRECATED / DOES NOT WORK for this mod. The official upload-action only APPENDS a version to an
+# existing v3 mod-file, and this mod's files were all uploaded via the website (no v3 file to append
+# to), so every run 404s. Use tools/nexus_upload.py instead (it creates the v3 file directly). See
+# docs/NEXUS_UPLOAD.md. Kept only for reference.
+#
 # Push a new file version to an EXISTING Nexus mod file, using Nexus's official upload-action.
 # Manual trigger only (workflow_dispatch). Requires a repo Actions secret NEXUS_API_KEY (your Nexus
 # personal API key). The action can only add versions to a v3-API mod file that already exists; it

@@ -182,5 +182,265 @@
  "Guest10": {
   "voiceId": "mag_261",
   "voiceName": "Harper Olivia"
+ },
+ "Guest05": {
+  "voiceId": "mag_42",
+  "voiceName": "Ryan Fox"
+ },
+ "NPC1": {
+  "voiceId": "mag_294",
+  "voiceName": "Alexander Davis"
+ },
+ "Spectator01": {
+  "voiceId": "mag_359",
+  "voiceName": "Jacob Harrison"
+ },
+ "Spectator03": {
+  "voiceId": "mag_31",
+  "voiceName": "Jake Morrison"
+ },
+ "Spectator05": {
+  "voiceId": "mag_583",
+  "voiceName": "Reginald Ashworth"
+ },
+ "Spectator02": {
+  "voiceId": "mag_685",
+  "voiceName": "Dusty Baxter"
+ },
+ "Spectator04": {
+  "voiceId": "mag_161",
+  "voiceName": "Riley Monroe"
+ },
+ "NPC16": {
+  "voiceId": "mag_319",
+  "voiceName": "Benjamin Walker"
+ },
+ "NPC17": {
+  "voiceId": "mag_176",
+  "voiceName": "Connor Keane"
+ },
+ "NPC18": {
+  "voiceId": "mag_267",
+  "voiceName": "Sophia Grace"
+ },
+ "Tweaker": {
+  "voiceId": "mag_531",
+  "voiceName": "Vera Raze"
+ },
+ "Zipper": {
+  "voiceId": "mag_686",
+  "voiceName": "Terry Dobson"
+ },
+ "Sad Old Woman": {
+  "voiceId": "mag_687",
+  "voiceName": "Clara Devon"
+ },
+ "DwarfAdept": {
+  "voiceId": "mag_44",
+  "voiceName": "Chloe Bennett"
+ },
+ "Heavy Runner": {
+  "voiceId": "mag_441",
+  "voiceName": "Noah Reed"
+ },
+ "Elf Prostitue": {
+  "voiceId": "mag_206",
+  "voiceName": "Henry Carter"
+ },
+ "WealthTouristLady": {
+  "voiceId": "mag_631",
+  "voiceName": "Rhea Sterling"
+ },
+ "RunnerPatron": {
+  "voiceId": "mag_24",
+  "voiceName": "Patrick International"
+ },
+ "OrkSam1": {
+  "voiceId": "mag_516",
+  "voiceName": "Dominic Blaze"
+ },
+ "OrkSam2": {
+  "voiceId": "mag_260",
+  "voiceName": "Theodore William"
+ },
+ "HumanDeckerLady2": {
+  "voiceId": "mag_160",
+  "voiceName": "Vanessa Hayes"
+ },
+ "HumanDeckerLady1": {
+  "voiceId": "mag_160",
+  "voiceName": "Vanessa Hayes"
+ },
+ "Troll Mage Lady": {
+  "voiceId": "EQx6HGDYjkDpcli6vorJ",
+  "voiceName": "Lizzie - Cockney Character"
+ },
+ "Yakuza Decker": {
+  "voiceId": "mag_50",
+  "voiceName": "Yamamoto Daiki"
+ },
+ "Chiphead Woman": {
+  "voiceId": "mag_245",
+  "voiceName": "Ava Madison"
+ },
+ "Stevie J": {
+  "voiceId": "mag_517",
+  "voiceName": "Darian Voss"
+ },
+ "Alex": {
+  "voiceId": "mag_516",
+  "voiceName": "Dominic Blaze"
+ },
+ "Charlie": {
+  "voiceId": "mag_522",
+  "voiceName": "Malgorn the Hollow"
+ },
+ "Mrs. James": {
+  "voiceId": "mag_664",
+  "voiceName": "Evelyn Vale"
+ },
+ "Mersmann": {
+  "voiceId": "mag_296",
+  "voiceName": "James Smith"
+ },
+ "Brother Shane": {
+  "voiceId": "mag_182",
+  "voiceName": "Liam Parker"
+ },
+ "Homeless Man": {
+  "voiceId": "mSOmKHC6GZcZbSTGlqHO",
+  "voiceName": "Mister Gruff - Miserable old neighbor"
+ },
+ "BTL Security": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks"
+ },
+ "ElfRigger": {
+  "voiceId": "mag_164",
+  "voiceName": "Maya Collins"
+ },
+ "DwarfSam": {
+  "voiceId": "mag_337",
+  "voiceName": "Jackson Cooper"
+ },
+ "Elf Muscle": {
+  "voiceId": "mag_447",
+  "voiceName": "Caleb Morgan"
+ },
+ "BTL Operator": {
+  "voiceId": "mag_177",
+  "voiceName": "Adam Hughes"
+ },
+ "Lonestar Mage": {
+  "voiceId": "mag_446",
+  "voiceName": "Logan Scott"
+ },
+ "Brotherhood Gunner": {
+  "voiceId": "mag_366",
+  "voiceName": "Ethan Parker"
+ },
+ "Chiphead Dwarf": {
+  "voiceId": "mag_586",
+  "voiceName": "Dexter Glitch"
+ },
+ "Chiphead Man": {
+  "voiceId": "mag_436",
+  "voiceName": "Jamie Clarke"
+ },
+ "Violent Patient": {
+  "voiceId": "mag_252",
+  "voiceName": "Noah Jackson"
+ },
+ "Jamal": {
+  "voiceId": "mag_38",
+  "voiceName": "Cole Anderson"
+ },
+ "Krund": {
+  "voiceId": "mag_35",
+  "voiceName": "Grant Walker"
+ },
+ "Shadowrunner": {
+  "voiceId": "mag_390",
+  "voiceName": "James Carter"
+ },
+ "Runner": {
+  "voiceId": "mag_174",
+  "voiceName": "Aidan Doyle"
+ },
+ "Hospital Guard": {
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson"
+ },
+ "Hospital Security": {
+  "voiceId": "mag_264",
+  "voiceName": "Caleb Ryan"
+ },
+ "Tourist2": {
+  "voiceId": "mag_29",
+  "voiceName": "Ava Jordan"
+ },
+ "Lorraine": {
+  "voiceId": "mag_163",
+  "voiceName": "Vivian Lane"
+ },
+ "Streetwalker": {
+  "voiceId": "mag_364",
+  "voiceName": "Sophia Morgan"
+ },
+ "Guest02": {
+  "voiceId": "mag_332",
+  "voiceName": "Charlotte Winslow"
+ },
+ "Guest03": {
+  "voiceId": "mag_329",
+  "voiceName": "Daniel Richardson"
+ },
+ "Guest06": {
+  "voiceId": "mag_385",
+  "voiceName": "Ethan Fraser"
+ },
+ "Guest08": {
+  "voiceId": "mag_350",
+  "voiceName": "Henry Beckett"
+ },
+ "Guest11": {
+  "voiceId": "mag_436",
+  "voiceName": "Jamie Clarke"
+ },
+ "Concert3": {
+  "voiceId": "mag_179",
+  "voiceName": "Grace O'Neil"
+ },
+ "Concert5": {
+  "voiceId": "mag_266",
+  "voiceName": "Aiden Samuel"
+ },
+ "NPC": {
+  "voiceId": "mag_318",
+  "voiceName": "Oliver Whitmore"
+ },
+ "NPC3": {
+  "voiceId": "mag_334",
+  "voiceName": "Madison Taylor"
+ },
+ "NPC4": {
+  "voiceId": "mag_35",
+  "voiceName": "Grant Walker"
+ },
+ "NPC5a": {
+  "voiceId": "mag_245",
+  "voiceName": "Ava Madison"
+ },
+ "NPC5b": {
+  "voiceId": "mag_266",
+  "voiceName": "Aiden Samuel"
+ },
+ "C3": {
+  "voiceId": "mag_364",
+  "voiceName": "Sophia Morgan"
+ },
+ "UBC4": {
+  "voiceId": "mag_163",
+  "voiceName": "Vivian Lane"
  }
 }

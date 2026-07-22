@@ -1,0 +1,896 @@
+{
+ "name_acolyte": {
+  "files": [
+   "name_acolyte.png",
+   "name_acolyte_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_hansbrackhaus.png",
+    "backer_elfmale_andykitzke_ulrickell.png",
+    "backer_humanmale_andresguillermoaguirre.png"
+   ],
+   [
+    "backer_elfmale_erikdahlman.png",
+    "generic_humanmale_lonestarguard01.png",
+    "backer_humanmale_johnmaloney_johnnymaloney.png"
+   ]
+  ]
+ },
+ "name_janitor": {
+  "files": [
+   "name_janitor.png",
+   "name_janitor_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_humanmale_lonestarguard01.png",
+    "npc_humanmale_grizzlevet_ghost.png",
+    "backer_elfmale_danielsilveira_quoth.png"
+   ],
+   [
+    "backer_humanmale_johnholmes.png",
+    "npc_humanmale_baronsamedi.png",
+    "backer_humanmale_robertorivera_diamondwire.png"
+   ]
+  ]
+ },
+ "name_frank": {
+  "files": [
+   "name_frank.png",
+   "name_frank_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_humanmale_urbanpoor01.png",
+    "backer_orkmale_thomascommerford.png",
+    "backer_humanmale_robertorivera_diamondwirealt.png"
+   ],
+   [
+    "backer_trollmale_chriskluwe_loate.png",
+    "backer_humanmale_randynickel_snick.png",
+    "backer_elfmale_richardsaada_saada.png"
+   ]
+  ]
+ },
+ "name_sadoldman": {
+  "files": [
+   "name_sadoldman.png",
+   "name_sadoldman_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_stevejackson_evilstevie.png",
+    "backer_orkmale_thomascommerford.png",
+    "generic_humanmale_lonestarguard01.png"
+   ],
+   [
+    "backer_humanmale_markkalinic.png",
+    "backer_humanmale_thaddeusryker.png",
+    "generic_humanmale_rent-a-cop.png"
+   ]
+  ]
+ },
+ "name_brotherchristopher": {
+  "files": [
+   "name_brotherchristopher.png",
+   "name_brotherchristopher_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elfmale_holmes.png",
+    "backer_humanmale_markkalinic.png",
+    "npc_humanmale_grizzlevet_ghost.png"
+   ],
+   [
+    "backer_humanmale_gregwilhelm_johnnyclean_tribute.png",
+    "backer_humanmale_nikpoenisch.png",
+    "backer_humanmale_shanetilton.png"
+   ]
+  ]
+ },
+ "name_gino": {
+  "files": [
+   "name_gino.png",
+   "name_gino_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_joecostantino.png",
+    "backer_orkmale_sympathplan.png",
+    "npc_humanmale_hansbrackhaus.png"
+   ],
+   [
+    "backer_elfmale_richardsaada_saada.png",
+    "backer_elfmale_andykitzke_ulrickell.png",
+    "npc_humanmale_paco.png"
+   ]
+  ]
+ },
+ "name_jamal": {
+  "files": [
+   "name_jamal.png",
+   "name_jamal_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_jonathanbartlett_jonbartlett_tribute.png",
+    "generic_humanmale_urbanpoor01.png",
+    "backer_elfmale_rthomasallwin.png"
+   ],
+   [
+    "backer_humanmale_shanetilton.png",
+    "backer_humanmale_johnmaloney_johnnymaloney.png",
+    "backer_elfmale_jesseleineweber_ghostleaf.png"
+   ]
+  ]
+ },
+ "name_manny": {
+  "files": [
+   "name_manny.png",
+   "name_manny_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_elfmale_danielsilveira_quoth.png",
+    "npc_elfmale_holmessilhouetted.png",
+    "backer_orkmale_ericmersmann.png"
+   ],
+   [
+    "backer_humanmale_rc.png",
+    "npc_trollmale_pitezelsilhouetted.png",
+    "backer_orkmale_thomascommerford.png"
+   ]
+  ]
+ },
+ "name_delilahmuscle": {
+  "files": [
+   "name_delilahmuscle_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_hansbrackhaus.png",
+    "npc_trollmale_pitezelsilhouetted.png",
+    "backer_elfmale_erikdahlman.png"
+   ],
+   [
+    "backer_trollmale_chriskluwe_loate.png",
+    "npc_orkmale_macklusky.png",
+    "backer_humanmale_markkalinic.png"
+   ]
+  ]
+ },
+ "name_doctor": {
+  "files": [
+   "name_doctor_v2.png",
+   "name_doctor_v3.png",
+   "name_doctor_v4.png",
+   "name_doctor.png",
+   "name_doctor_v5.png",
+   "name_doctor_v6.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_orkmale_sympathplan.png",
+    "npc_elfmale_holmessilhouetted.png",
+    "backer_elfmale_andykitzke_ulrickell.png"
+   ],
+   [
+    "npc_trollmale_pitezelsilhouetted.png",
+    "npc_humanmale_baronsamedi.png",
+    "generic_humanmale_urbanpoor01.png"
+   ]
+  ]
+ },
+ "name_sally": {
+  "files": [
+   "name_sally.png",
+   "name_sally_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_jessicawattsub.png",
+    "npc_elffemale_lynnetelestrian.png",
+    "backer_humanfemale_saracastle_drsaracastle_tribute.png"
+   ],
+   [
+    "npc_orkfemale_sangoma.png",
+    "npc_humanfemale_madamesinful.png",
+    "npc_humanfemale_coyotehealed.png"
+   ]
+  ]
+ },
+ "name_sisternancy": {
+  "files": [
+   "name_sisternancy.png",
+   "name_sisternancy_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_orkfemale_sangoma.png",
+    "npc_humanfemale_coyotehealed.png",
+    "backer_humanfemale_saracastle_drsaracastle_tribute.png"
+   ],
+   [
+    "npc_elffemale_marielouisetelestrian.png",
+    "npc_humanfemale_madamesinful.png",
+    "backer_humanfemale_saracastle_drsaracastle_tribute.png"
+   ]
+  ]
+ },
+ "name_valerietelestrian": {
+  "files": [
+   "name_valerietelestrian.png",
+   "name_valerietelestrian_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_rc.png",
+    "npc_humanmale_grizzlevet_ghost.png",
+    "backer_orkmale_sympathplan.png"
+   ],
+   [
+    "backer_humanmale_andresguillermoaguirre.png",
+    "generic_spirit_insect.png",
+    "backer_elfmale_rthomasallwin.png"
+   ]
+  ]
+ },
+ "name_officerlanders": {
+  "files": [
+   "name_officerlanders.png",
+   "name_officerlanders_v2.png",
+   "name_officerlanders_863cadd7.png",
+   "name_officerlanders_863cbe3d.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_baronsamedi.png",
+    "npc_humanmale_hansbrackhaus.png",
+    "npc_humanmale_paco.png"
+   ],
+   [
+    "backer_humanmale_robertorivera_diamondwire.png",
+    "backer_elfmale_rthomasallwin.png",
+    "npc_elfmale_magicdealer.png"
+   ]
+  ]
+ },
+ "name_sisterwilma": {
+  "files": [
+   "name_sisterwilma.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanfemale_saracastle_drsaracastle_tribute.png",
+    "generic_orkfemale_drummer.png",
+    "npc_elffemale_cherrybomb.png"
+   ],
+   [
+    "generic_orkfemale_drummer.png",
+    "npc_humanfemale_coyotehealed.png",
+    "npc_humanfemale_weaponstechdealer.png"
+   ]
+  ]
+ },
+ "name_worriedman": {
+  "files": [
+   "name_worriedman.png",
+   "name_worriedman_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_orkmale_thomascommerford.png",
+    "backer_humanmale_richgallup.png",
+    "backer_humanmale_gregwilhelm_johnnyclean_tribute.png"
+   ],
+   [
+    "generic_humanmale_rent-a-cop.png",
+    "backer_humanmale_johnholmes.png",
+    "npc_elfmale_magicdealer.png"
+   ]
+  ]
+ },
+ "name_vlad": {
+  "files": [
+   "name_vlad.png",
+   "name_vlad_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_jasonlagan.png",
+    "backer_humanmale_shanetilton.png",
+    "generic_humanmale_urbanpoor01.png"
+   ],
+   [
+    "backer_trollmale_chriskluwe_loate.png",
+    "backer_elfmale_richardsaada_saada.png",
+    "backer_trollmale_doughall.png"
+   ]
+  ]
+ },
+ "name_supervisor": {
+  "files": [
+   "name_supervisor.png",
+   "name_supervisor_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_johnholmes.png",
+    "npc_elfmale_jamestelelstrian.png",
+    "backer_humanmale_randynickel_snick.png"
+   ],
+   [
+    "npc_elfmale_holmessilhouetted.png",
+    "backer_humanmale_rc.png",
+    "npc_orkmale_macklusky.png"
+   ]
+  ]
+ },
+ "name_tickler": {
+  "files": [
+   "name_tickler.png",
+   "name_tickler_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_humanmale_rent-a-cop.png",
+    "backer_humanmale_robertorivera_diamondwire.png",
+    "backer_humanmale_markkalinic.png"
+   ],
+   [
+    "backer_humanmale_shanetilton.png",
+    "npc_humanmale_hansbrackhaus.png",
+    "backer_humanmale_jasonlagan.png"
+   ]
+  ]
+ },
+ "name_concernedwoman": {
+  "files": [
+   "name_concernedwoman.png",
+   "name_concernedwoman_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_shamaninvestigator.png",
+    "npc_humanfemale_weaponstechdealer.png",
+    "npc_orkfemale_sangoma.png"
+   ],
+   [
+    "npc_humanfemale_coyotehealed.png",
+    "npc_elffemale_lynnetelestrian.png",
+    "npc_elffemale_cherrybomb.png"
+   ]
+  ]
+ },
+ "name_sarah": {
+  "files": [
+   "name_sarah.png",
+   "name_sarah_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elffemale_dianesilverstar.png",
+    "npc_elffemale_marielouisetelestrian.png",
+    "npc_humanfemale_coyoteugly.png"
+   ],
+   [
+    "npc_elffemale_dianesilverstar.png",
+    "npc_humanfemale_coyoteugly.png",
+    "npc_humanfemale_weaponstechdealer.png"
+   ]
+  ]
+ },
+ "name_sistersally": {
+  "files": [
+   "name_sistersally.png",
+   "name_sistersally_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_trollmale_chriskluwe_loate.png",
+    "backer_humanmale_chrisvangraas.png",
+    "npc_humanfemale_jessicawattsub.png"
+   ],
+   [
+    "backer_orkmale_thomascommerford.png",
+    "backer_humanfemale_saracastle_drsaracastle_tribute.png",
+    "npc_elfmale_magicdealer.png"
+   ]
+  ]
+ },
+ "name_player1": {
+  "files": [
+   "name_player1.png",
+   "name_player1_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elfmale_holmessilhouetted.png",
+    "backer_humanmale_gregwilhelm_johnnyclean_tribute.png",
+    "generic_spirit_insect.png"
+   ],
+   [
+    "backer_humanmale_robertorivera_diamondwirealt.png",
+    "backer_humanmale_robertorivera_diamondwire.png",
+    "backer_humanmale_robertbowling.png"
+   ]
+  ]
+ },
+ "name_addict": {
+  "files": [
+   "name_addict.png",
+   "name_addict_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elffemale_lynnetelestrian.png",
+    "npc_humanfemale_coyotehealed.png",
+    "npc_humanfemale_jessicawattsub.png"
+   ],
+   [
+    "npc_elffemale_lynnetelestrian.png",
+    "backer_humanfemale_saracastle_drsaracastle_tribute.png",
+    "npc_humanfemale_madamesinful.png"
+   ]
+  ]
+ },
+ "name_tranq": {
+  "files": [
+   "name_tranq.png",
+   "name_tranq_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_randynickel_snick.png",
+    "backer_trollmale_johnpaulsmith.png",
+    "npc_humanmale_paco.png"
+   ],
+   [
+    "npc_humanmale_paco.png",
+    "backer_humanmale_thaddeusryker.png",
+    "backer_elfmale_jesseleineweber_ghostleaf.png"
+   ]
+  ]
+ },
+ "name_fixer": {
+  "files": [
+   "name_fixer.png",
+   "name_fixer_v2.png",
+   "name_fixer_v3.png",
+   "name_fixer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png",
+    "npc_humanfemale_madamesinful.png",
+    "backer_elfmale_erikdahlman.png"
+   ],
+   [
+    "backer_dwarfmale_davidfry.png",
+    "npc_dwarfmale_coroner.png",
+    "backer_humanmale_markkalinic.png"
+   ]
+  ]
+ },
+ "name_danthedonutman": {
+  "files": [
+   "name_danthedonutman.png",
+   "name_danthedonutman_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_elfmale_andykitzke_ulrickell.png",
+    "npc_humanmale_baronsamedi.png",
+    "generic_humanmale_lonestarguard01.png"
+   ],
+   [
+    "generic_humanmale_rent-a-cop.png",
+    "backer_dwarfmale_davidfry.png",
+    "backer_humanmale_jonathanbartlett_jonbartlett_tribute.png"
+   ]
+  ]
+ },
+ "name_lonestardatabase": {
+  "files": [
+   "name_lonestardatabase.png",
+   "name_lonestardatabase_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elfmale_holmes.png",
+    "backer_humanmale_andresguillermoaguirre.png",
+    "generic_humanmale_lonestarguard01.png"
+   ],
+   [
+    "backer_elfmale_richardsaada_saada.png",
+    "backer_humanmale_robertorivera_diamondwirealt.png",
+    "npc_elffemale_cherrybomb.png"
+   ]
+  ]
+ },
+ "name_scrawnyguard": {
+  "files": [
+   "name_scrawnyguard.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_orkmale_sympathplan.png",
+    "npc_humanmale_samwatts.png",
+    "backer_humanmale_markkalinic.png"
+   ],
+   [
+    "backer_elfmale_danielsilveira_quoth.png",
+    "backer_humanmale_jonathanbartlett_jonbartlett_tribute.png",
+    "backer_orkmale_jamesherbert_theodorebustergruberman.png"
+   ]
+  ]
+ },
+ "name_alex": {
+  "files": [
+   "name_alex.png",
+   "name_alex_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_baronsamedi.png",
+    "backer_humanmale_shanetilton.png",
+    "backer_elfmale_jesseleineweber_ghostleaf.png"
+   ],
+   [
+    "backer_humanmale_markkalinic.png",
+    "npc_elfmale_holmes.png",
+    "backer_humanmale_jasonlagan.png"
+   ]
+  ]
+ },
+ "name_mrsjames": {
+  "files": [
+   "name_mrsjames.png",
+   "name_mrsjames_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_shamaninvestigator.png",
+    "npc_elffemale_dianesilverstar.png",
+    "npc_humanfemale_madamesinful.png"
+   ],
+   [
+    "npc_humanfemale_jessicawattsub.png",
+    "npc_elffemale_marielouisetelestrian.png",
+    "npc_elffemale_cherrybomb.png"
+   ]
+  ]
+ },
+ "name_sampson": {
+  "files": [
+   "name_sampson.png",
+   "name_sampson_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_trollmale_doughall.png",
+    "backer_trollmale_chriskluwe_loate.png",
+    "npc_trollmale_pitezelsilhouetted.png"
+   ],
+   [
+    "npc_trollmale_pitezelsilhouetted.png",
+    "backer_trollmale_johnpaulsmith.png",
+    "backer_trollmale_doughall.png"
+   ]
+  ]
+ },
+ "name_brotherhoodguard": {
+  "files": [
+   "name_brotherhoodguard.png",
+   "name_brotherhoodguard_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_elfmale_andykitzke_ulrickell.png",
+    "backer_humanmale_stevejackson_evilstevie.png",
+    "npc_orkmale_macklusky.png"
+   ],
+   [
+    "backer_humanmale_stevejackson_evilstevie.png",
+    "backer_trollmale_doughall.png",
+    "npc_elfmale_harlequin.png"
+   ]
+  ]
+ },
+ "name_junkie": {
+  "files": [
+   "name_junkie.png",
+   "name_junkie_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_elfmale_rthomasallwin.png",
+    "backer_humanmale_robertorivera_diamondwire.png",
+    "npc_dwarfmale_coroner.png"
+   ],
+   [
+    "backer_orkmale_jamesherbert_theodorebustergruberman.png",
+    "npc_elfmale_jamestelelstrian.png",
+    "backer_elfmale_erikdahlman.png"
+   ]
+  ]
+ },
+ "name_letter": {
+  "files": [
+   "name_letter.png",
+   "name_letter_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_orkmale_ericmersmann.png",
+    "generic_orkfemale_drummer.png",
+    "npc_humanfemale_coyotehealed.png"
+   ],
+   [
+    "generic_spirit_insect.png",
+    "npc_elfmale_holmes.png",
+    "npc_humanfemale_madamesinful.png"
+   ]
+  ]
+ },
+ "name_hooker": {
+  "files": [
+   "name_hooker.png",
+   "name_hooker_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_weaponstechdealer.png",
+    "npc_elffemale_lynnetelestrian.png",
+    "npc_humanfemale_shamaninvestigator.png"
+   ],
+   [
+    "npc_elffemale_cherrybomb.png",
+    "npc_humanfemale_jessicawattsub.png",
+    "generic_orkfemale_drummer.png"
+   ]
+  ]
+ },
+ "name_sistermonica": {
+  "files": [
+   "name_sistermonica.png",
+   "name_sistermonica_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_madamesinful.png",
+    "generic_orkfemale_drummer.png",
+    "npc_humanfemale_coyotehealed.png"
+   ],
+   [
+    "npc_humanfemale_coyotehealed.png",
+    "npc_elffemale_lynnetelestrian.png",
+    "npc_elffemale_cherrybomb.png"
+   ]
+  ]
+ },
+ "name_charlie": {
+  "files": [
+   "name_charlie.png",
+   "name_charlie_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_orkmale_macklusky.png",
+    "backer_orkmale_jamesherbert_theodorebustergruberman.png",
+    "backer_orkmale_thomascommerford.png"
+   ],
+   [
+    "npc_orkmale_macklusky.png",
+    "backer_orkmale_jamesherbert_theodorebustergruberman.png",
+    "backer_orkmale_thomascommerford.png"
+   ]
+  ]
+ },
+ "name_switchblade": {
+  "files": [
+   "name_switchblade.png",
+   "name_switchblade_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elffemale_dianesilverstar.png",
+    "npc_humanmale_samwatts.png",
+    "backer_humanmale_johnholmes.png"
+   ],
+   [
+    "backer_trollmale_johnpaulsmith.png",
+    "npc_elfmale_magicdealer.png",
+    "backer_elfmale_andykitzke_ulrickell.png"
+   ]
+  ]
+ },
+ "name_telestrianlegaldepartmentdatastore": {
+  "files": [
+   "name_telestrianlegaldepartmentdatastore.png",
+   "name_telestrianlegaldepartmentdatastore_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elffemale_lynnetelestrian.png",
+    "npc_humanmale_jakearmitage.png",
+    "backer_humanmale_chrisvangraas.png"
+   ],
+   [
+    "npc_humanfemale_madamesinful.png",
+    "npc_elfmale_holmessilhouetted.png",
+    "npc_elffemale_cherrybomb.png"
+   ]
+  ]
+ },
+ "name_zipper": {
+  "files": [
+   "name_zipper.png",
+   "name_zipper_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_orkmale_thomascommerford.png",
+    "backer_elfmale_richardsaada_saada.png",
+    "backer_trollmale_johnpaulsmith.png"
+   ],
+   [
+    "backer_orkmale_jamesherbert_theodorebustergruberman.png",
+    "backer_elfmale_richardsaada_saada.png",
+    "generic_humanmale_lonestarguard01.png"
+   ]
+  ]
+ },
+ "name_spirit": {
+  "files": [
+   "name_spirit.png",
+   "name_spirit_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elfmale_magicdealer.png",
+    "npc_humanfemale_coyotehealed.png",
+    "npc_humanmale_hansbrackhaus.png"
+   ],
+   [
+    "backer_elfmale_rthomasallwin.png",
+    "npc_humanfemale_jessicawattsub.png",
+    "backer_trollmale_chriskluwe_loate.png"
+   ]
+  ]
+ },
+ "name_securityturret1": {
+  "files": [
+   "name_securityturret1.png",
+   "name_securityturret1_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_jessicawattsub.png",
+    "npc_elfmale_jamestelelstrian.png",
+    "generic_elfmale_tirghost.png"
+   ],
+   [
+    "backer_orkmale_sympathplan.png",
+    "backer_elfmale_erikdahlman.png",
+    "backer_elfmale_andykitzke_ulrickell.png"
+   ]
+  ]
+ },
+ "name_mentalpatient": {
+  "files": [
+   "name_mentalpatient.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_dwarfmale_davidfry.png",
+    "backer_humanmale_jasonlagan.png",
+    "backer_elfmale_rthomasallwin.png"
+   ],
+   [
+    "backer_humanmale_thaddeusryker.png",
+    "backer_elfmale_danielsilveira_quoth.png",
+    "backer_humanmale_jonathanbartlett_jonbartlett_tribute.png"
+   ]
+  ]
+ },
+ "name_femalebunraku": {
+  "files": [
+   "name_femalebunraku.png",
+   "name_femalebunraku_v2.png",
+   "name_femalebunraku_8625396f.png",
+   "name_femalebunraku_86265740.png",
+   "name_femalebunraku_8634e154.png",
+   "name_femalebunraku_8635058e.png",
+   "name_femalebunraku_8636265f.png",
+   "name_femalebunraku_8636795a.png",
+   "name_femalebunraku_86386218.png",
+   "name_femalebunraku_8638723c.png",
+   "name_femalebunraku_86390a26.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_shamaninvestigator.png",
+    "npc_humanfemale_coyoteugly.png",
+    "npc_elffemale_cherrybomb.png"
+   ],
+   [
+    "npc_elffemale_dianesilverstar.png",
+    "npc_elffemale_marielouisetelestrian.png",
+    "npc_orkfemale_sangoma.png"
+   ]
+  ]
+ },
+ "name_homelessman": {
+  "files": [
+   "name_homelessman.png",
+   "name_homelessman_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanmale_stevejackson_evilstevie.png",
+    "backer_trollmale_doughall.png",
+    "backer_humanmale_robertorivera_diamondwire.png"
+   ],
+   [
+    "backer_elfmale_richardsaada_saada.png",
+    "backer_elfmale_brentshirkey.png",
+    "backer_humanmale_chrisvangraas.png"
+   ]
+  ]
+ },
+ "name_malebunraku": {
+  "files": [
+   "name_malebunraku_863a9dca.png",
+   "name_malebunraku_863ac11e.png"
+  ],
+  "usedRef": false
+ }
+}

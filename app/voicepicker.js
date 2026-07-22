@@ -150,7 +150,7 @@ const VoicePicker = (function () {
     $('vpmodal').classList.add('open');
     $('vpq').focus();
   }
-  function close() { $('vpmodal').classList.remove('open'); cfg = null; }
+  function close() { if (prevAudio) { prevAudio.pause(); prevAudio = null; } $('vpmodal').classList.remove('open'); cfg = null; }
 
   return {
     open, close, refresh: render,

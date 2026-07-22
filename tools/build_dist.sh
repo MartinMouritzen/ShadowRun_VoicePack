@@ -15,8 +15,9 @@ VP="$ROOT/voicepack/$GAME_ID"
 PLUGIN_DLL="$ROOT/plugin/SRRVoices/bin/SRRVoices.dll"
 [ -f "$PLUGIN_DLL" ] || { echo "ERROR: build the plugin first (plugin/build.sh)"; exit 1; }
 
-# (re)build this game's voicepack so dist is always current
+# (re)build this game's voicepack + AI portrait pack so dist is always current
 python3 tools/build_voicepack.py "$GAME_ID"
+python3 tools/build_portraits.py "$GAME_ID" || true
 
 rm -rf "$DIST"; mkdir -p "$DIST"
 # 1. BepInEx x86 loader (winhttp.dll, doorstop, BepInEx/core) — shared across games
@@ -39,12 +40,26 @@ fi
 # 3. Plugin + this game's voicepack
 mkdir -p "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips"
 cp "$PLUGIN_DLL" "$DIST/BepInEx/plugins/SRRVoices/SRRVoices.dll"
+cp "$ROOT/plugin/SRRVoices/options_panel.png" "$DIST/BepInEx/plugins/SRRVoices/" 2>/dev/null || true
 cp "$VP/voicepack.index" "$DIST/BepInEx/plugins/SRRVoices/voicepack/"
 cp "$VP/voicepack.json"  "$DIST/BepInEx/plugins/SRRVoices/voicepack/" 2>/dev/null || true
 cp "$VP/clips/"*.ogg "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips/" 2>/dev/null || true
 
+# 3b. AI portrait pack (optional in-game): index + PNGs, served by the native portrait pipeline.
+# Falls back to the game's own art when absent, so a game without a pack still installs cleanly.
+# SKIP_PORTRAITS=1 ships a voices-only build: no pack, and the plugin hides the in-game AI-portraits
+# toggle (PortraitPatches.Available is false), so there's no dead switch.
+if [ "${SKIP_PORTRAITS:-0}" = "1" ]; then
+  echo "  SKIP_PORTRAITS=1 — voices-only build, no AI portrait pack"
+elif [ -f "$ROOT/portraits_pack/$GAME_ID/portraits.index" ]; then
+  mkdir -p "$DIST/BepInEx/plugins/SRRVoices/portraits"
+  cp "$ROOT/portraits_pack/$GAME_ID/portraits.index" "$DIST/BepInEx/plugins/SRRVoices/portraits/"
+  cp "$ROOT/portraits_pack/$GAME_ID/"*.png "$DIST/BepInEx/plugins/SRRVoices/portraits/" 2>/dev/null || true
+fi
+
 CLIPS=$(ls "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips/" 2>/dev/null | wc -l)
 NODES=$(grep -vc '^#' "$DIST/BepInEx/plugins/SRRVoices/voicepack/voicepack.index" 2>/dev/null || echo 0)
+PORTRAITS=$(ls "$DIST/BepInEx/plugins/SRRVoices/portraits/"*.png 2>/dev/null | wc -l)
 SIZE=$(du -sh "$DIST" | cut -f1)
-echo "dist/$GAME_ID assembled: $NODES voiced nodes, $CLIPS clips, $SIZE total"
+echo "dist/$GAME_ID assembled: $NODES voiced nodes, $CLIPS clips, $PORTRAITS AI portraits, $SIZE total"
 echo "  install by copying dist/$GAME_ID/* into the game root, or zip it for a Nexus release"

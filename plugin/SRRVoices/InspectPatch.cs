@@ -254,6 +254,14 @@ namespace SRRVoices
                 }
                 if (text == null) return;
                 bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
+                // OpenLoadScreen is hooked for DIAGNOSTIC logging only. Loadscreen narration is
+                // owned by Patch_LoadScreen (continue-button gating, NarrationToken stop-on-close);
+                // playing its bark_ key here would bypass all of that.
+                if (__originalMethod.Name == "OpenLoadScreen")
+                {
+                    if (log) Plugin.Log.LogInfo("FT[OpenLoadScreen] len=" + text.Length + " (playback owned by loadscreen path)");
+                    return;
+                }
                 string md5 = Patch_Inspect.Md5Hex16(text);
                 string[] clips = null;
                 string key = "bark_" + md5;                                   // combat bark?
@@ -264,7 +272,10 @@ namespace SRRVoices
                     if (key[0] == 'i' && Plugin.CfgInspect != null && !Plugin.CfgInspect.Value) return;  // insp_ disabled
                     if (Plugin.InspectDebounced(key)) return;
                     if (log) Plugin.Log.LogInfo("play FT[" + __originalMethod.Name + "] " + key + " (" + clips.Length + " clips)");
-                    Plugin.Player.PlaySequence(clips);
+                    // Combat barks go to the bark channel: they never truncate an already-playing
+                    // bark (simultaneous shouts overlap) and never preempt dialogue/narration.
+                    if (key[0] == 'b') Plugin.Player.PlayBark(clips);
+                    else Plugin.Player.PlaySequence(clips);
                 }
                 else if (log && text.Length > 12 && text.IndexOf(' ') > 0)
                 {

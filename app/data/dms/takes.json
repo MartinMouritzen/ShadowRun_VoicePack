@@ -4586,6 +4586,14 @@
      "stability": 0,
      "chars": 112,
      "ts": 1784019696
+    },
+    {
+     "file": "narrator/takes/8c2ec13530303134170042e0_3__0aXOy31Cjamp__1784559460.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 125,
+     "ts": 1784559460
     }
    ]
   },
@@ -14899,7 +14907,7 @@
    ]
   },
   "c30a792d306466a41d001da2_1~g0": {
-   "selected": "narrator/takes/c30a792d306466a41d001da2_1~g0__0aXOy31Cjamp__1784026500.mp3",
+   "selected": "narrator/takes/c30a792d306466a41d001da2_1~g0__0aXOy31Cjamp__1784498190.mp3",
    "takes": [
     {
      "file": "narrator/takes/c30a792d306466a41d001da2_1~g0__0aXOy31Cjamp__1784026500.mp3",
@@ -14908,11 +14916,35 @@
      "stability": 0,
      "chars": 7,
      "ts": 1784026500
+    },
+    {
+     "file": "narrator/takes/c30a792d306466a41d001da2_1~g0__0aXOy31Cjamp__1784498161.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 10,
+     "ts": 1784498161
+    },
+    {
+     "file": "narrator/takes/c30a792d306466a41d001da2_1~g0__0aXOy31Cjamp__1784498183.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 16,
+     "ts": 1784498183
+    },
+    {
+     "file": "narrator/takes/c30a792d306466a41d001da2_1~g0__0aXOy31Cjamp__1784498190.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 16,
+     "ts": 1784498190
     }
    ]
   },
   "c30a792d306466a41d001da2_8~g0": {
-   "selected": "narrator/takes/c30a792d306466a41d001da2_8~g0__0aXOy31Cjamp__1784026501.mp3",
+   "selected": "narrator/takes/c30a792d306466a41d001da2_8~g0__0aXOy31Cjamp__1784498206.mp3",
    "takes": [
     {
      "file": "narrator/takes/c30a792d306466a41d001da2_8~g0__0aXOy31Cjamp__1784026501.mp3",
@@ -14921,6 +14953,14 @@
      "stability": 0,
      "chars": 7,
      "ts": 1784026501
+    },
+    {
+     "file": "narrator/takes/c30a792d306466a41d001da2_8~g0__0aXOy31Cjamp__1784498206.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 16,
+     "ts": 1784498206
     }
    ]
   },
@@ -18384,7 +18424,7 @@
    ]
   },
   "51ad1ff43030317805001672_0": {
-   "selected": "name_coyote/takes/51ad1ff43030317805001672_0__1EZBFEhLjqjz__1784017815.mp3",
+   "selected": "name_coyote/takes/51ad1ff43030317805001672_0__1EZBFEhLjqjz__1784660875.mp3",
    "takes": [
     {
      "file": "name_coyote/takes/51ad1ff43030317805001672_0__1EZBFEhLjqjz__1784017815.mp3",
@@ -18393,6 +18433,14 @@
      "stability": 0,
      "chars": 147,
      "ts": 1784017815
+    },
+    {
+     "file": "name_coyote/takes/51ad1ff43030317805001672_0__1EZBFEhLjqjz__1784660875.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 156,
+     "ts": 1784660875
     }
    ]
   },
@@ -18449,7 +18497,7 @@
    ]
   },
   "51ad1ff43030317805001672_4": {
-   "selected": "name_coyote/takes/51ad1ff43030317805001672_4__1EZBFEhLjqjz__1784017830.mp3",
+   "selected": "name_coyote/takes/51ad1ff43030317805001672_4__1EZBFEhLjqjz__1784661860.mp3",
    "takes": [
     {
      "file": "name_coyote/takes/51ad1ff43030317805001672_4__1EZBFEhLjqjz__1784017830.mp3",
@@ -18458,6 +18506,22 @@
      "stability": 0,
      "chars": 110,
      "ts": 1784017830
+    },
+    {
+     "file": "name_coyote/takes/51ad1ff43030317805001672_4__1EZBFEhLjqjz__1784661853.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 110,
+     "ts": 1784661853
+    },
+    {
+     "file": "name_coyote/takes/51ad1ff43030317805001672_4__1EZBFEhLjqjz__1784661860.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 112,
+     "ts": 1784661860
     }
    ]
   },
@@ -18709,7 +18773,7 @@
    ]
   },
   "51ad1ff43030317805001672_26": {
-   "selected": "name_coyote/takes/51ad1ff43030317805001672_26__1EZBFEhLjqjz__1784017924.mp3",
+   "selected": "name_coyote/takes/51ad1ff43030317805001672_26__1EZBFEhLjqjz__1784662212.mp3",
    "takes": [
     {
      "file": "name_coyote/takes/51ad1ff43030317805001672_26__1EZBFEhLjqjz__1784017924.mp3",
@@ -18718,6 +18782,30 @@
      "stability": 0,
      "chars": 226,
      "ts": 1784017924
+    },
+    {
+     "file": "name_coyote/takes/51ad1ff43030317805001672_26__1EZBFEhLjqjz__1784662201.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 249,
+     "ts": 1784662201
+    },
+    {
+     "file": "name_coyote/takes/51ad1ff43030317805001672_26__1EZBFEhLjqjz__1784662212.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 249,
+     "ts": 1784662212
+    },
+    {
+     "file": "name_coyote/takes/51ad1ff43030317805001672_26__1EZBFEhLjqjz__1784662222.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 248,
+     "ts": 1784662222
     }
    ]
   },
@@ -19879,7 +19967,7 @@
    ]
   },
   "80e517e930303120110041bc_2": {
-   "selected": "name_coyote/takes/80e517e930303120110041bc_2__1EZBFEhLjqjz__1784018207.mp3",
+   "selected": "name_coyote/takes/80e517e930303120110041bc_2__1EZBFEhLjqjz__1784557817.mp3",
    "takes": [
     {
      "file": "name_coyote/takes/80e517e930303120110041bc_2__1EZBFEhLjqjz__1784018207.mp3",
@@ -19888,11 +19976,19 @@
      "stability": 0,
      "chars": 53,
      "ts": 1784018207
+    },
+    {
+     "file": "name_coyote/takes/80e517e930303120110041bc_2__1EZBFEhLjqjz__1784557817.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 69,
+     "ts": 1784557817
     }
    ]
   },
   "80e517e930303120110041bc_5": {
-   "selected": "name_coyote/takes/80e517e930303120110041bc_5__1EZBFEhLjqjz__1784018209.mp3",
+   "selected": "name_coyote/takes/80e517e930303120110041bc_5__1EZBFEhLjqjz__1784557937.mp3",
    "takes": [
     {
      "file": "name_coyote/takes/80e517e930303120110041bc_5__1EZBFEhLjqjz__1784018209.mp3",
@@ -19901,11 +19997,27 @@
      "stability": 0,
      "chars": 37,
      "ts": 1784018209
+    },
+    {
+     "file": "name_coyote/takes/80e517e930303120110041bc_5__1EZBFEhLjqjz__1784557924.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 53,
+     "ts": 1784557924
+    },
+    {
+     "file": "name_coyote/takes/80e517e930303120110041bc_5__1EZBFEhLjqjz__1784557937.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 68,
+     "ts": 1784557937
     }
    ]
   },
   "80e517e930303120110041bc_9": {
-   "selected": "name_coyote/takes/80e517e930303120110041bc_9__1EZBFEhLjqjz__1784018210.mp3",
+   "selected": "name_coyote/takes/80e517e930303120110041bc_9__1EZBFEhLjqjz__1784557950.mp3",
    "takes": [
     {
      "file": "name_coyote/takes/80e517e930303120110041bc_9__1EZBFEhLjqjz__1784018210.mp3",
@@ -19914,11 +20026,19 @@
      "stability": 0,
      "chars": 41,
      "ts": 1784018210
+    },
+    {
+     "file": "name_coyote/takes/80e517e930303120110041bc_9__1EZBFEhLjqjz__1784557950.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 57,
+     "ts": 1784557950
     }
    ]
   },
   "80e517e930303120110041bc_11": {
-   "selected": "name_coyote/takes/80e517e930303120110041bc_11__1EZBFEhLjqjz__1784018211.mp3",
+   "selected": "name_coyote/takes/80e517e930303120110041bc_11__1EZBFEhLjqjz__1784557987.mp3",
    "takes": [
     {
      "file": "name_coyote/takes/80e517e930303120110041bc_11__1EZBFEhLjqjz__1784018211.mp3",
@@ -19927,6 +20047,14 @@
      "stability": 0,
      "chars": 11,
      "ts": 1784018211
+    },
+    {
+     "file": "name_coyote/takes/80e517e930303120110041bc_11__1EZBFEhLjqjz__1784557987.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784557987
     }
    ]
   },
@@ -23185,7 +23313,7 @@
  },
  "name_mrskubota": {
   "51ace200303031b413002718_0": {
-   "selected": "name_mrskubota/takes/51ace200303031b413002718_0__mag802__1783957491.mp3",
+   "selected": "name_mrskubota/takes/51ace200303031b413002718_0__Sy8sUFzjooSo__1784457190.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51ace200303031b413002718_0__mag802__1783957491.mp3",
@@ -23210,11 +23338,19 @@
      "stability": 0,
      "chars": 29,
      "ts": 1784388280
+    },
+    {
+     "file": "name_mrskubota/takes/51ace200303031b413002718_0__Sy8sUFzjooSo__1784457190.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784457190
     }
    ]
   },
   "51ace200303031b413002718_2": {
-   "selected": "name_mrskubota/takes/51ace200303031b413002718_2__mag802__1784187989.mp3",
+   "selected": "name_mrskubota/takes/51ace200303031b413002718_2__Sy8sUFzjooSo__1784457240.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51ace200303031b413002718_2__mag802__1783959908.mp3",
@@ -23247,11 +23383,27 @@
      "stability": 0,
      "chars": 81,
      "ts": 1784388282
+    },
+    {
+     "file": "name_mrskubota/takes/51ace200303031b413002718_2__Sy8sUFzjooSo__1784457198.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 81,
+     "ts": 1784457198
+    },
+    {
+     "file": "name_mrskubota/takes/51ace200303031b413002718_2__Sy8sUFzjooSo__1784457240.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 72,
+     "ts": 1784457240
     }
    ]
   },
   "51c0a796623331f01b000735_5": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_5__mag802__1783960202.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_5__Sy8sUFzjooSo__1784457476.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_5__mag802__1783960202.mp3",
@@ -23260,11 +23412,19 @@
      "stability": 0,
      "chars": 169,
      "ts": 1783960202
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_5__Sy8sUFzjooSo__1784457476.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 169,
+     "ts": 1784457476
     }
    ]
   },
   "51ace200303031b413002718_3": {
-   "selected": "name_mrskubota/takes/51ace200303031b413002718_3__mag802__1784018345.mp3",
+   "selected": "name_mrskubota/takes/51ace200303031b413002718_3__Sy8sUFzjooSo__1784457262.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51ace200303031b413002718_3__mag802__1784018345.mp3",
@@ -23289,11 +23449,19 @@
      "stability": 0,
      "chars": 362,
      "ts": 1784388294
+    },
+    {
+     "file": "name_mrskubota/takes/51ace200303031b413002718_3__Sy8sUFzjooSo__1784457262.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 362,
+     "ts": 1784457262
     }
    ]
   },
   "51c0a796623331f01b000735_3": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_3__mag802__1784018345.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_3__Sy8sUFzjooSo__1784457458.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_3__mag802__1784018345.mp3",
@@ -23302,11 +23470,19 @@
      "stability": 0,
      "chars": 31,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_3__Sy8sUFzjooSo__1784457458.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784457458
     }
    ]
   },
   "51c0a796623331f01b000735_10": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_10__mag802__1784018346.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_10__Sy8sUFzjooSo__1784457496.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_10__mag802__1784018346.mp3",
@@ -23315,11 +23491,19 @@
      "stability": 0,
      "chars": 42,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_10__Sy8sUFzjooSo__1784457496.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784457496
     }
    ]
   },
   "51c0a796623331f01b000735_16": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_16__mag802__1784018346.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_16__Sy8sUFzjooSo__1784457530.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_16__mag802__1784018346.mp3",
@@ -23328,11 +23512,19 @@
      "stability": 0,
      "chars": 236,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_16__Sy8sUFzjooSo__1784457530.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 236,
+     "ts": 1784457530
     }
    ]
   },
   "51d2ff29623331b00f000753_11": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_11__mag802__1784018346.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_11__Sy8sUFzjooSo__1784457561.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_11__mag802__1784018346.mp3",
@@ -23341,11 +23533,19 @@
      "stability": 0,
      "chars": 176,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_11__Sy8sUFzjooSo__1784457561.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 176,
+     "ts": 1784457561
     }
    ]
   },
   "51d2ff29623331b00f000753_19": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_19__mag802__1784018399.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_19__Sy8sUFzjooSo__1784457578.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_19__mag802__1784018399.mp3",
@@ -23354,11 +23554,19 @@
      "stability": 0,
      "chars": 10,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_19__Sy8sUFzjooSo__1784457578.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 10,
+     "ts": 1784457578
     }
    ]
   },
   "51d48bb46233319c10005d04_5": {
-   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_5__mag802__1784018399.mp3",
+   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_5__Sy8sUFzjooSo__1784457601.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d48bb46233319c10005d04_5__mag802__1784018399.mp3",
@@ -23367,11 +23575,19 @@
      "stability": 0,
      "chars": 25,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d48bb46233319c10005d04_5__Sy8sUFzjooSo__1784457601.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1784457601
     }
    ]
   },
   "57a2e124306434000d00432b_8": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_8__mag802__1784018400.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_8__Sy8sUFzjooSo__1784457640.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_8__mag802__1784018400.mp3",
@@ -23380,11 +23596,19 @@
      "stability": 0,
      "chars": 80,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_8__Sy8sUFzjooSo__1784457640.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 80,
+     "ts": 1784457640
     }
    ]
   },
   "57a2e124306434000d00432b_14": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_14__mag802__1784018400.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_14__Sy8sUFzjooSo__1784457665.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_14__mag802__1784018400.mp3",
@@ -23393,11 +23617,19 @@
      "stability": 0,
      "chars": 25,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_14__Sy8sUFzjooSo__1784457665.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1784457665
     }
    ]
   },
   "57a2e124306434000d00432b_21": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_21__mag802__1784018459.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_21__Sy8sUFzjooSo__1784457713.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_21__mag802__1784018459.mp3",
@@ -23406,11 +23638,19 @@
      "stability": 0,
      "chars": 100,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_21__Sy8sUFzjooSo__1784457713.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 100,
+     "ts": 1784457713
     }
    ]
   },
   "57a2e124306434000d00432b_27": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_27__mag802__1784018460.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_27__Sy8sUFzjooSo__1784457739.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_27__mag802__1784018460.mp3",
@@ -23419,11 +23659,19 @@
      "stability": 0,
      "chars": 76,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_27__Sy8sUFzjooSo__1784457739.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 76,
+     "ts": 1784457739
     }
    ]
   },
   "57ebe4fa306434000d004baa_6": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_6__mag802__1784018460.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_6__Sy8sUFzjooSo__1784457764.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_6__mag802__1784018460.mp3",
@@ -23432,11 +23680,19 @@
      "stability": 0,
      "chars": 148,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_6__Sy8sUFzjooSo__1784457764.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 148,
+     "ts": 1784457764
     }
    ]
   },
   "7bba21d4623331c409007ace_5": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_5__mag802__1784018460.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_5__Sy8sUFzjooSo__1784457785.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_5__mag802__1784018460.mp3",
@@ -23445,11 +23701,19 @@
      "stability": 0,
      "chars": 46,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_5__Sy8sUFzjooSo__1784457785.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 46,
+     "ts": 1784457785
     }
    ]
   },
   "7bba21d4623331c409007ace_14": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_14__mag802__1784018461.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_14__Sy8sUFzjooSo__1784457808.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_14__mag802__1784018461.mp3",
@@ -23458,11 +23722,19 @@
      "stability": 0,
      "chars": 8,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_14__Sy8sUFzjooSo__1784457808.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 8,
+     "ts": 1784457808
     }
    ]
   },
   "80e517e930303120110041bc_4": {
-   "selected": "name_mrskubota/takes/80e517e930303120110041bc_4__mag802__1784018511.mp3",
+   "selected": "name_mrskubota/takes/80e517e930303120110041bc_4__Sy8sUFzjooSo__1784457835.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/80e517e930303120110041bc_4__mag802__1784018511.mp3",
@@ -23471,11 +23743,19 @@
      "stability": 0,
      "chars": 159,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_4__Sy8sUFzjooSo__1784457835.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 157,
+     "ts": 1784457835
     }
    ]
   },
   "8101e5483030312011004211_3": {
-   "selected": "name_mrskubota/takes/8101e5483030312011004211_3__mag802__1784018511.mp3",
+   "selected": "name_mrskubota/takes/8101e5483030312011004211_3__Sy8sUFzjooSo__1784558211.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/8101e5483030312011004211_3__mag802__1784018511.mp3",
@@ -23484,11 +23764,35 @@
      "stability": 0,
      "chars": 78,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_3__Sy8sUFzjooSo__1784457865.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 78,
+     "ts": 1784457865
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_3__Sy8sUFzjooSo__1784558162.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 88,
+     "ts": 1784558162
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_3__Sy8sUFzjooSo__1784558211.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 92,
+     "ts": 1784558211
     }
    ]
   },
   "51c0a796623331f01b000735_1": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_1__mag802__1784018356_1.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_1__Sy8sUFzjooSo__1784457452.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_1__mag802__1784018356_1.mp3",
@@ -23497,11 +23801,19 @@
      "stability": 0,
      "chars": 40,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_1__Sy8sUFzjooSo__1784457452.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 40,
+     "ts": 1784457452
     }
    ]
   },
   "51c0a796623331f01b000735_8": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_8__mag802__1784018356_2.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_8__Sy8sUFzjooSo__1784457488.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_8__mag802__1784018356_2.mp3",
@@ -23510,11 +23822,19 @@
      "stability": 0,
      "chars": 29,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_8__Sy8sUFzjooSo__1784457488.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784457488
     }
    ]
   },
   "51c0a796623331f01b000735_14": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_14__mag802__1784018356_3.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_14__Sy8sUFzjooSo__1784457516.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_14__mag802__1784018356_3.mp3",
@@ -23523,11 +23843,19 @@
      "stability": 0,
      "chars": 139,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_14__Sy8sUFzjooSo__1784457516.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 139,
+     "ts": 1784457516
     }
    ]
   },
   "51d2ff29623331b00f000753_6": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_6__mag802__1784396648.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_6__Sy8sUFzjooSo__1784457554.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_6__mag802__1784018356_4.mp3",
@@ -23544,11 +23872,19 @@
      "stability": 0,
      "chars": 78,
      "ts": 1784396648
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_6__Sy8sUFzjooSo__1784457554.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 78,
+     "ts": 1784457554
     }
    ]
   },
   "51d2ff29623331b00f000753_17": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_17__mag802__1784396652.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_17__Sy8sUFzjooSo__1784457574.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_17__mag802__1784018422_0.mp3",
@@ -23565,11 +23901,19 @@
      "stability": 0,
      "chars": 18,
      "ts": 1784396652
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_17__Sy8sUFzjooSo__1784457574.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 18,
+     "ts": 1784457574
     }
    ]
   },
   "51d48bb46233319c10005d04_3": {
-   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_3__mag802__1784396657.mp3",
+   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_3__Sy8sUFzjooSo__1784457596.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d48bb46233319c10005d04_3__mag802__1784018422_1.mp3",
@@ -23586,11 +23930,19 @@
      "stability": 0,
      "chars": 15,
      "ts": 1784396657
+    },
+    {
+     "file": "name_mrskubota/takes/51d48bb46233319c10005d04_3__Sy8sUFzjooSo__1784457596.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 15,
+     "ts": 1784457596
     }
    ]
   },
   "57a2e124306434000d00432b_6~c0": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_6~c0__mag802__1784396664.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_6~c0__Sy8sUFzjooSo__1784457632.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_6~c0__mag802__1784018422_3.mp3",
@@ -23607,11 +23959,19 @@
      "stability": 0,
      "chars": 23,
      "ts": 1784396664
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_6~c0__Sy8sUFzjooSo__1784457632.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1784457632
     }
    ]
   },
   "57a2e124306434000d00432b_12": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_12__mag802__1784396672.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_12__Sy8sUFzjooSo__1784457657.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_12__mag802__1784018422_4.mp3",
@@ -23628,11 +23988,19 @@
      "stability": 0,
      "chars": 137,
      "ts": 1784396672
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_12__Sy8sUFzjooSo__1784457657.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 137,
+     "ts": 1784457657
     }
    ]
   },
   "57a2e124306434000d00432b_19": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_19__mag802__1784388370.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_19__Sy8sUFzjooSo__1784457703.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_19__mag802__1784018486_0.mp3",
@@ -23649,11 +24017,19 @@
      "stability": 0,
      "chars": 364,
      "ts": 1784388370
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_19__Sy8sUFzjooSo__1784457703.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 364,
+     "ts": 1784457703
     }
    ]
   },
   "57a2e124306434000d00432b_25": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_25__mag802__1784396687.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_25__Sy8sUFzjooSo__1784457730.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_25__mag802__1784018486_1.mp3",
@@ -23670,11 +24046,19 @@
      "stability": 0,
      "chars": 350,
      "ts": 1784396687
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_25__Sy8sUFzjooSo__1784457730.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 350,
+     "ts": 1784457730
     }
    ]
   },
   "57ebe4fa306434000d004baa_4": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_4__mag802__1784396695.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_4__Sy8sUFzjooSo__1784457754.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_4__mag802__1784018486_2.mp3",
@@ -23691,11 +24075,19 @@
      "stability": 0,
      "chars": 157,
      "ts": 1784396695
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_4__Sy8sUFzjooSo__1784457754.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 157,
+     "ts": 1784457754
     }
    ]
   },
   "7bba21d4623331c409007ace_0~c1": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c1__mag802__1784396701.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c1__Sy8sUFzjooSo__1784457779.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c1__mag802__1784018486_3.mp3",
@@ -23712,11 +24104,19 @@
      "stability": 0,
      "chars": 41,
      "ts": 1784396701
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c1__Sy8sUFzjooSo__1784457779.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 41,
+     "ts": 1784457779
     }
    ]
   },
   "7bba21d4623331c409007ace_11": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_11__mag802__1784396712.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_11__Sy8sUFzjooSo__1784457802.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_11__mag802__1784018486_4.mp3",
@@ -23733,11 +24133,19 @@
      "stability": 0,
      "chars": 220,
      "ts": 1784396712
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_11__Sy8sUFzjooSo__1784457802.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 220,
+     "ts": 1784457802
     }
    ]
   },
   "80e517e930303120110041bc_1": {
-   "selected": "name_mrskubota/takes/80e517e930303120110041bc_1__mag802__1784396718.mp3",
+   "selected": "name_mrskubota/takes/80e517e930303120110041bc_1__Sy8sUFzjooSo__1784457825.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/80e517e930303120110041bc_8__mag802__1784018441.mp3",
@@ -23754,11 +24162,19 @@
      "stability": 0,
      "chars": 77,
      "ts": 1784396718
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_1__Sy8sUFzjooSo__1784457825.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 77,
+     "ts": 1784457825
     }
    ]
   },
   "8101e5483030312011004211_1": {
-   "selected": "name_mrskubota/takes/8101e5483030312011004211_1__mag802__1784018648_0.mp3",
+   "selected": "name_mrskubota/takes/8101e5483030312011004211_1__Sy8sUFzjooSo__1784558281.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/8101e5483030312011004211_1__mag802__1784018648_0.mp3",
@@ -23767,11 +24183,27 @@
      "stability": 0,
      "chars": 368,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_1__Sy8sUFzjooSo__1784457859.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 368,
+     "ts": 1784457859
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_1__Sy8sUFzjooSo__1784558281.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 370,
+     "ts": 1784558281
     }
    ]
   },
   "51c0a796623331f01b000735_13": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_13__mag802__1784018338_3.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_13__Sy8sUFzjooSo__1784457511.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_13__mag802__1784018338_3.mp3",
@@ -23780,11 +24212,19 @@
      "stability": 0,
      "chars": 230,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_13__Sy8sUFzjooSo__1784457511.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 228,
+     "ts": 1784457511
     }
    ]
   },
   "51c0a796623331f01b000735_7": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_7__mag802__1784018338_2.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_7__Sy8sUFzjooSo__1784457486.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_7__mag802__1784018338_2.mp3",
@@ -23793,11 +24233,19 @@
      "stability": 0,
      "chars": 190,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_7__Sy8sUFzjooSo__1784457486.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 190,
+     "ts": 1784457486
     }
    ]
   },
   "51d2ff29623331b00f000753_5": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_5__mag802__1784018338_4.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_5__Sy8sUFzjooSo__1784457550.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_5__mag802__1784018338_4.mp3",
@@ -23806,11 +24254,19 @@
      "stability": 0,
      "chars": 240,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_5__Sy8sUFzjooSo__1784457550.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 240,
+     "ts": 1784457550
     }
    ]
   },
   "51d48bb46233319c10005d04_2": {
-   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_2__mag802__1784018395_1.mp3",
+   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_2__Sy8sUFzjooSo__1784457594.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d48bb46233319c10005d04_2__mag802__1784018395_1.mp3",
@@ -23819,11 +24275,19 @@
      "stability": 0,
      "chars": 111,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d48bb46233319c10005d04_2__Sy8sUFzjooSo__1784457594.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1784457594
     }
    ]
   },
   "57a2e124306434000d00432b_11": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_11__mag802__1784018395_4.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_11__Sy8sUFzjooSo__1784457652.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_11__mag802__1784018395_4.mp3",
@@ -23832,11 +24296,19 @@
      "stability": 0,
      "chars": 159,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_11__Sy8sUFzjooSo__1784457652.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 159,
+     "ts": 1784457652
     }
    ]
   },
   "57a2e124306434000d00432b_18": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_18__mag802__1784018450_0.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_18__Sy8sUFzjooSo__1784457690.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_18__mag802__1784018450_0.mp3",
@@ -23845,11 +24317,19 @@
      "stability": 0,
      "chars": 376,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_18__Sy8sUFzjooSo__1784457690.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 374,
+     "ts": 1784457690
     }
    ]
   },
   "57a2e124306434000d00432b_1~c1": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_1~c1__mag802__1784018395_2.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_1~c1__Sy8sUFzjooSo__1784457610.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_1~c1__mag802__1784018395_2.mp3",
@@ -23858,11 +24338,19 @@
      "stability": 0,
      "chars": 20,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_1~c1__Sy8sUFzjooSo__1784457610.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784457610
     }
    ]
   },
   "57a2e124306434000d00432b_24": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_24__mag802__1784018450_1.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_24__Sy8sUFzjooSo__1784457722.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_24__mag802__1784018450_1.mp3",
@@ -23871,11 +24359,19 @@
      "stability": 0,
      "chars": 90,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_24__Sy8sUFzjooSo__1784457722.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 90,
+     "ts": 1784457722
     }
    ]
   },
   "57a2e124306434000d00432b_4~c1": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_4~c1__mag802__1784018395_3.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_4~c1__Sy8sUFzjooSo__1784457630.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_4~c1__mag802__1784018395_3.mp3",
@@ -23884,11 +24380,19 @@
      "stability": 0,
      "chars": 20,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_4~c1__Sy8sUFzjooSo__1784457630.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784457630
     }
    ]
   },
   "57ebe4fa306434000d004baa_3": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_3__mag802__1784018450_2.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_3__Sy8sUFzjooSo__1784457749.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_3__mag802__1784018450_2.mp3",
@@ -23897,11 +24401,19 @@
      "stability": 0,
      "chars": 22,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_3__Sy8sUFzjooSo__1784457749.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 22,
+     "ts": 1784457749
     }
    ]
   },
   "7bba21d4623331c409007ace_0~c0": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c0__mag802__1784018450_3.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c0__Sy8sUFzjooSo__1784457777.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c0__mag802__1784018450_3.mp3",
@@ -23910,11 +24422,19 @@
      "stability": 0,
      "chars": 29,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_0~c0__Sy8sUFzjooSo__1784457777.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784457777
     }
    ]
   },
   "7bba21d4623331c409007ace_10": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_10__mag802__1784018450_4.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_10__Sy8sUFzjooSo__1784457794.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_10__mag802__1784018450_4.mp3",
@@ -23923,11 +24443,19 @@
      "stability": 0,
      "chars": 130,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_10__Sy8sUFzjooSo__1784457794.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 128,
+     "ts": 1784457794
     }
    ]
   },
   "7bba21d4623331c409007ace_17": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_17__mag802__1784018513_0.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_17__Sy8sUFzjooSo__1784457822.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_17__mag802__1784018513_0.mp3",
@@ -23936,11 +24464,19 @@
      "stability": 0,
      "chars": 201,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_17__Sy8sUFzjooSo__1784457822.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 197,
+     "ts": 1784457822
     }
    ]
   },
   "80e517e930303120110041bc_10": {
-   "selected": "name_mrskubota/takes/80e517e930303120110041bc_10__mag802__1784018513_1.mp3",
+   "selected": "name_mrskubota/takes/80e517e930303120110041bc_10__Sy8sUFzjooSo__1784457847.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/80e517e930303120110041bc_10__mag802__1784018513_1.mp3",
@@ -23949,11 +24485,19 @@
      "stability": 0,
      "chars": 146,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_10__Sy8sUFzjooSo__1784457847.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 144,
+     "ts": 1784457847
     }
    ]
   },
   "8101e5483030312011004211_8": {
-   "selected": "name_mrskubota/takes/8101e5483030312011004211_8__mag802__1784018513_2.mp3",
+   "selected": "name_mrskubota/takes/8101e5483030312011004211_8__Sy8sUFzjooSo__1784457886.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/8101e5483030312011004211_8__mag802__1784018513_2.mp3",
@@ -23962,11 +24506,19 @@
      "stability": 0,
      "chars": 202,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_8__Sy8sUFzjooSo__1784457886.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 200,
+     "ts": 1784457886
     }
    ]
   },
   "51ace200303031b413002718_4": {
-   "selected": "name_mrskubota/takes/51ace200303031b413002718_4__mag802__1784018293.mp3",
+   "selected": "name_mrskubota/takes/51ace200303031b413002718_4__Sy8sUFzjooSo__1784457442.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51ace200303031b413002718_4__mag802__1784018293.mp3",
@@ -23975,11 +24527,19 @@
      "stability": 0,
      "chars": 139,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51ace200303031b413002718_4__Sy8sUFzjooSo__1784457442.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 139,
+     "ts": 1784457442
     }
    ]
   },
   "51c0a796623331f01b000735_4": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_4__mag802__1784018293.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_4__Sy8sUFzjooSo__1784457470.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_4__mag802__1784018293.mp3",
@@ -23988,11 +24548,19 @@
      "stability": 0,
      "chars": 346,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_4__Sy8sUFzjooSo__1784457470.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 346,
+     "ts": 1784457470
     }
    ]
   },
   "51c0a796623331f01b000735_11": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_11__mag802__1784018293.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_11__Sy8sUFzjooSo__1784457500.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_11__mag802__1784018293.mp3",
@@ -24001,11 +24569,19 @@
      "stability": 0,
      "chars": 40,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_11__Sy8sUFzjooSo__1784457500.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 40,
+     "ts": 1784457500
     }
    ]
   },
   "51d2ff29623331b00f000753_2": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_2__mag802__1784018293.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_2__Sy8sUFzjooSo__1784457535.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_2__mag802__1784018293.mp3",
@@ -24014,11 +24590,19 @@
      "stability": 0,
      "chars": 88,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_2__Sy8sUFzjooSo__1784457535.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 88,
+     "ts": 1784457535
     }
    ]
   },
   "51d2ff29623331b00f000753_14": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_14__mag802__1784018293.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_14__Sy8sUFzjooSo__1784457564.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_14__mag802__1784018293.mp3",
@@ -24027,11 +24611,19 @@
      "stability": 0,
      "chars": 72,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_14__Sy8sUFzjooSo__1784457564.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 72,
+     "ts": 1784457564
     }
    ]
   },
   "51d48bb46233319c10005d04_0": {
-   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_0__mag802__1784018345.mp3",
+   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_0__Sy8sUFzjooSo__1784457580.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d48bb46233319c10005d04_0__mag802__1784018345.mp3",
@@ -24040,11 +24632,19 @@
      "stability": 0,
      "chars": 31,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d48bb46233319c10005d04_0__Sy8sUFzjooSo__1784457580.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784457580
     }
    ]
   },
   "57a2e124306434000d00432b_0": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_0__mag802__1784018345.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_0__Sy8sUFzjooSo__1784457603.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_0__mag802__1784018345.mp3",
@@ -24053,11 +24653,19 @@
      "stability": 0,
      "chars": 23,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_0__Sy8sUFzjooSo__1784457603.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1784457603
     }
    ]
   },
   "57a2e124306434000d00432b_3~c1": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_3~c1__mag802__1784018345.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_3~c1__Sy8sUFzjooSo__1784457624.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_3~c1__mag802__1784018345.mp3",
@@ -24066,11 +24674,19 @@
      "stability": 0,
      "chars": 20,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_3~c1__Sy8sUFzjooSo__1784457624.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784457624
     }
    ]
   },
   "57a2e124306434000d00432b_9": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_9__mag802__1784018345.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_9__Sy8sUFzjooSo__1784457643.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_9__mag802__1784018345.mp3",
@@ -24079,11 +24695,19 @@
      "stability": 0,
      "chars": 43,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_9__Sy8sUFzjooSo__1784457643.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 43,
+     "ts": 1784457643
     }
    ]
   },
   "57a2e124306434000d00432b_16": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_16__mag802__1784018345.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_16__Sy8sUFzjooSo__1784457675.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_16__mag802__1784018345.mp3",
@@ -24092,11 +24716,19 @@
      "stability": 0,
      "chars": 237,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_16__Sy8sUFzjooSo__1784457675.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 237,
+     "ts": 1784457675
     }
    ]
   },
   "57a2e124306434000d00432b_22": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_22__mag802__1784018395.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_22__Sy8sUFzjooSo__1784457716.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_22__mag802__1784018395.mp3",
@@ -24105,11 +24737,19 @@
      "stability": 0,
      "chars": 52,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_22__Sy8sUFzjooSo__1784457716.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 52,
+     "ts": 1784457716
     }
    ]
   },
   "57ebe4fa306434000d004baa_0": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_0__mag802__1784018395.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_0__Sy8sUFzjooSo__1784457741.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_0__mag802__1784018395.mp3",
@@ -24118,11 +24758,19 @@
      "stability": 0,
      "chars": 19,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_0__Sy8sUFzjooSo__1784457741.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1784457741
     }
    ]
   },
   "57ebe4fa306434000d004baa_7": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_7__mag802__1784018395.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_7__Sy8sUFzjooSo__1784457767.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_7__mag802__1784018395.mp3",
@@ -24131,11 +24779,19 @@
      "stability": 0,
      "chars": 113,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_7__Sy8sUFzjooSo__1784457767.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 113,
+     "ts": 1784457767
     }
    ]
   },
   "7bba21d4623331c409007ace_7": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_7__mag802__1784018395.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_7__Sy8sUFzjooSo__1784457788.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_7__mag802__1784018395.mp3",
@@ -24144,11 +24800,19 @@
      "stability": 0,
      "chars": 69,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_7__Sy8sUFzjooSo__1784457788.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 69,
+     "ts": 1784457788
     }
    ]
   },
   "7bba21d4623331c409007ace_15": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_15__mag802__1784018395.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_15__Sy8sUFzjooSo__1784457810.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_15__mag802__1784018395.mp3",
@@ -24157,11 +24821,19 @@
      "stability": 0,
      "chars": 21,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_15__Sy8sUFzjooSo__1784457810.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784457810
     }
    ]
   },
   "80e517e930303120110041bc_6": {
-   "selected": "name_mrskubota/takes/80e517e930303120110041bc_6__mag802__1784018437.mp3",
+   "selected": "name_mrskubota/takes/80e517e930303120110041bc_6__Sy8sUFzjooSo__1784457839.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/80e517e930303120110041bc_6__mag802__1784018437.mp3",
@@ -24170,11 +24842,19 @@
      "stability": 0,
      "chars": 42,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_6__Sy8sUFzjooSo__1784457839.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784457839
     }
    ]
   },
   "8101e5483030312011004211_4": {
-   "selected": "name_mrskubota/takes/8101e5483030312011004211_4__mag802__1784018437.mp3",
+   "selected": "name_mrskubota/takes/8101e5483030312011004211_4__Sy8sUFzjooSo__1784558201.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/8101e5483030312011004211_4__mag802__1784018437.mp3",
@@ -24183,11 +24863,35 @@
      "stability": 0,
      "chars": 125,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_4__Sy8sUFzjooSo__1784457869.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 125,
+     "ts": 1784457869
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_4__Sy8sUFzjooSo__1784558159.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 142,
+     "ts": 1784558159
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_4__Sy8sUFzjooSo__1784558201.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 139,
+     "ts": 1784558201
     }
    ]
   },
   "51c0a796623331f01b000735_2": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_2__mag802__1784018290.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_2__Sy8sUFzjooSo__1784457456.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_2__mag802__1784018290.mp3",
@@ -24196,11 +24900,19 @@
      "stability": 0,
      "chars": 93,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_2__Sy8sUFzjooSo__1784457456.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 93,
+     "ts": 1784457456
     }
    ]
   },
   "51c0a796623331f01b000735_15": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_15__mag802__1784018292.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_15__Sy8sUFzjooSo__1784457523.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_15__mag802__1784018292.mp3",
@@ -24209,11 +24921,19 @@
      "stability": 0,
      "chars": 221,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_15__Sy8sUFzjooSo__1784457523.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 219,
+     "ts": 1784457523
     }
    ]
   },
   "51d2ff29623331b00f000753_8": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_8__mag802__1784018293.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_8__Sy8sUFzjooSo__1784457556.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_8__mag802__1784018293.mp3",
@@ -24222,11 +24942,19 @@
      "stability": 0,
      "chars": 46,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_8__Sy8sUFzjooSo__1784457556.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 46,
+     "ts": 1784457556
     }
    ]
   },
   "51d2ff29623331b00f000753_18": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_18__mag802__1784018347.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_18__Sy8sUFzjooSo__1784457577.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_18__mag802__1784018347.mp3",
@@ -24235,11 +24963,19 @@
      "stability": 0,
      "chars": 58,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_18__Sy8sUFzjooSo__1784457577.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 58,
+     "ts": 1784457577
     }
    ]
   },
   "51d48bb46233319c10005d04_4": {
-   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_4__mag802__1784018348.mp3",
+   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_4__Sy8sUFzjooSo__1784457597.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d48bb46233319c10005d04_4__mag802__1784018348.mp3",
@@ -24248,11 +24984,19 @@
      "stability": 0,
      "chars": 3,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d48bb46233319c10005d04_4__Sy8sUFzjooSo__1784457597.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 3,
+     "ts": 1784457597
     }
    ]
   },
   "57a2e124306434000d00432b_2~c1": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_2~c1__mag802__1784018349.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_2~c1__Sy8sUFzjooSo__1784457616.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_2~c1__mag802__1784018349.mp3",
@@ -24261,11 +25005,19 @@
      "stability": 0,
      "chars": 20,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_2~c1__Sy8sUFzjooSo__1784457616.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784457616
     }
    ]
   },
   "57a2e124306434000d00432b_6~c1": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_6~c1__mag802__1784018350.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_6~c1__Sy8sUFzjooSo__1784457637.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_6~c1__mag802__1784018350.mp3",
@@ -24274,11 +25026,19 @@
      "stability": 0,
      "chars": 55,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_6~c1__Sy8sUFzjooSo__1784457637.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 55,
+     "ts": 1784457637
     }
    ]
   },
   "57a2e124306434000d00432b_13": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_13__mag802__1784018351.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_13__Sy8sUFzjooSo__1784457663.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_13__mag802__1784018351.mp3",
@@ -24287,11 +25047,19 @@
      "stability": 0,
      "chars": 192,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_13__Sy8sUFzjooSo__1784457663.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 192,
+     "ts": 1784457663
     }
    ]
   },
   "57a2e124306434000d00432b_20": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_20__mag802__1784018405.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_20__Sy8sUFzjooSo__1784457709.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_20__mag802__1784018405.mp3",
@@ -24300,11 +25068,19 @@
      "stability": 0,
      "chars": 217,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_20__Sy8sUFzjooSo__1784457709.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 217,
+     "ts": 1784457709
     }
    ]
   },
   "57a2e124306434000d00432b_26": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_26__mag802__1784018406.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_26__Sy8sUFzjooSo__1784457734.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_26__mag802__1784018406.mp3",
@@ -24313,11 +25089,19 @@
      "stability": 0,
      "chars": 94,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_26__Sy8sUFzjooSo__1784457734.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 94,
+     "ts": 1784457734
     }
    ]
   },
   "57ebe4fa306434000d004baa_5": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_5__mag802__1784018407.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_5__Sy8sUFzjooSo__1784457759.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_5__mag802__1784018407.mp3",
@@ -24326,11 +25110,19 @@
      "stability": 0,
      "chars": 126,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_5__Sy8sUFzjooSo__1784457759.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 126,
+     "ts": 1784457759
     }
    ]
   },
   "7bba21d4623331c409007ace_3": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_3__mag802__1784018408.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_3__Sy8sUFzjooSo__1784457782.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_3__mag802__1784018408.mp3",
@@ -24339,11 +25131,19 @@
      "stability": 0,
      "chars": 45,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_3__Sy8sUFzjooSo__1784457782.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 45,
+     "ts": 1784457782
     }
    ]
   },
   "7bba21d4623331c409007ace_13": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_13__mag802__1784018409.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_13__Sy8sUFzjooSo__1784457806.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_13__mag802__1784018409.mp3",
@@ -24352,11 +25152,19 @@
      "stability": 0,
      "chars": 28,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_13__Sy8sUFzjooSo__1784457806.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1784457806
     }
    ]
   },
   "80e517e930303120110041bc_3": {
-   "selected": "name_mrskubota/takes/80e517e930303120110041bc_3__mag802__1784018468.mp3",
+   "selected": "name_mrskubota/takes/80e517e930303120110041bc_3__Sy8sUFzjooSo__1784557882.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/80e517e930303120110041bc_3__mag802__1784018468.mp3",
@@ -24365,11 +25173,35 @@
      "stability": 0,
      "chars": 42,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_3__Sy8sUFzjooSo__1784457829.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784457829
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_3__Sy8sUFzjooSo__1784557855.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 53,
+     "ts": 1784557855
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_3__Sy8sUFzjooSo__1784557882.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 64,
+     "ts": 1784557882
     }
    ]
   },
   "8101e5483030312011004211_2": {
-   "selected": "name_mrskubota/takes/8101e5483030312011004211_2__mag802__1784018469.mp3",
+   "selected": "name_mrskubota/takes/8101e5483030312011004211_2__Sy8sUFzjooSo__1784558234.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/8101e5483030312011004211_2__mag802__1784018469.mp3",
@@ -24378,11 +25210,27 @@
      "stability": 0,
      "chars": 72,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_2__Sy8sUFzjooSo__1784457862.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 72,
+     "ts": 1784457862
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_2__Sy8sUFzjooSo__1784558234.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 84,
+     "ts": 1784558234
     }
    ]
   },
   "51ace200303031b413002718_5": {
-   "selected": "name_mrskubota/takes/51ace200303031b413002718_5__mag802__1784018320.mp3",
+   "selected": "name_mrskubota/takes/51ace200303031b413002718_5__Sy8sUFzjooSo__1784457448.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51ace200303031b413002718_5__mag802__1784018320.mp3",
@@ -24391,11 +25239,19 @@
      "stability": 0,
      "chars": 172,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51ace200303031b413002718_5__Sy8sUFzjooSo__1784457448.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 172,
+     "ts": 1784457448
     }
    ]
   },
   "51c0a796623331f01b000735_6": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_6__mag802__1784018320.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_6__Sy8sUFzjooSo__1784457480.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_6__mag802__1784018320.mp3",
@@ -24404,11 +25260,19 @@
      "stability": 0,
      "chars": 109,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_6__Sy8sUFzjooSo__1784457480.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 109,
+     "ts": 1784457480
     }
    ]
   },
   "51c0a796623331f01b000735_12": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_12__mag802__1784018320.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_12__Sy8sUFzjooSo__1784457502.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_12__mag802__1784018320.mp3",
@@ -24417,11 +25281,19 @@
      "stability": 0,
      "chars": 39,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_12__Sy8sUFzjooSo__1784457502.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 39,
+     "ts": 1784457502
     }
    ]
   },
   "51d2ff29623331b00f000753_4": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_4__mag802__1784018320.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_4__Sy8sUFzjooSo__1784457544.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_4__mag802__1784018320.mp3",
@@ -24430,11 +25302,19 @@
      "stability": 0,
      "chars": 302,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_4__Sy8sUFzjooSo__1784457544.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 300,
+     "ts": 1784457544
     }
    ]
   },
   "51d2ff29623331b00f000753_15": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_15__mag802__1784018320.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_15__Sy8sUFzjooSo__1784457568.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_15__mag802__1784018320.mp3",
@@ -24443,11 +25323,19 @@
      "stability": 0,
      "chars": 19,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_15__Sy8sUFzjooSo__1784457568.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1784457568
     }
    ]
   },
   "51d48bb46233319c10005d04_1": {
-   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_1__mag802__1784018385.mp3",
+   "selected": "name_mrskubota/takes/51d48bb46233319c10005d04_1__Sy8sUFzjooSo__1784457589.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d48bb46233319c10005d04_1__mag802__1784018385.mp3",
@@ -24456,11 +25344,19 @@
      "stability": 0,
      "chars": 299,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d48bb46233319c10005d04_1__Sy8sUFzjooSo__1784457589.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 297,
+     "ts": 1784457589
     }
    ]
   },
   "57a2e124306434000d00432b_10": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_10__mag802__1784018385.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_10__Sy8sUFzjooSo__1784457645.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_10__mag802__1784018385.mp3",
@@ -24469,11 +25365,19 @@
      "stability": 0,
      "chars": 33,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_10__Sy8sUFzjooSo__1784457645.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784457645
     }
    ]
   },
   "57a2e124306434000d00432b_17": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_17__mag802__1784018385.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_17__Sy8sUFzjooSo__1784457680.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_17__mag802__1784018385.mp3",
@@ -24482,11 +25386,19 @@
      "stability": 0,
      "chars": 141,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_17__Sy8sUFzjooSo__1784457680.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 141,
+     "ts": 1784457680
     }
    ]
   },
   "57a2e124306434000d00432b_23": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_23__mag802__1784018553.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_23__Sy8sUFzjooSo__1784457719.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_23__mag802__1784018553.mp3",
@@ -24495,11 +25407,19 @@
      "stability": 0,
      "chars": 62,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_23__Sy8sUFzjooSo__1784457719.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 62,
+     "ts": 1784457719
     }
    ]
   },
   "57ebe4fa306434000d004baa_2": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_2__mag802__1784396726.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_2__Sy8sUFzjooSo__1784457747.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_2__mag802__1784018441.mp3",
@@ -24524,11 +25444,19 @@
      "stability": 0,
      "chars": 163,
      "ts": 1784396726
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_2__Sy8sUFzjooSo__1784457747.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 163,
+     "ts": 1784457747
     }
    ]
   },
   "57ebe4fa306434000d004baa_8": {
-   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_8__mag802__1784396735.mp3",
+   "selected": "name_mrskubota/takes/57ebe4fa306434000d004baa_8__Sy8sUFzjooSo__1784457774.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_8__mag802__1784018441.mp3",
@@ -24545,11 +25473,19 @@
      "stability": 0,
      "chars": 159,
      "ts": 1784396735
+    },
+    {
+     "file": "name_mrskubota/takes/57ebe4fa306434000d004baa_8__Sy8sUFzjooSo__1784457774.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 159,
+     "ts": 1784457774
     }
    ]
   },
   "7bba21d4623331c409007ace_9": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_9__mag802__1784396740.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_9__Sy8sUFzjooSo__1784457790.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_9__mag802__1784018441.mp3",
@@ -24566,11 +25502,19 @@
      "stability": 0,
      "chars": 28,
      "ts": 1784396740
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_9__Sy8sUFzjooSo__1784457790.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1784457790
     }
    ]
   },
   "7bba21d4623331c409007ace_16": {
-   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_16__mag802__1784396749.mp3",
+   "selected": "name_mrskubota/takes/7bba21d4623331c409007ace_16__Sy8sUFzjooSo__1784491182.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/7bba21d4623331c409007ace_16__mag802__1784018441.mp3",
@@ -24587,11 +25531,35 @@
      "stability": 0,
      "chars": 184,
      "ts": 1784396749
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_16__Sy8sUFzjooSo__1784457815.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 184,
+     "ts": 1784457815
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_16__Sy8sUFzjooSo__1784491159.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 183,
+     "ts": 1784491159
+    },
+    {
+     "file": "name_mrskubota/takes/7bba21d4623331c409007ace_16__Sy8sUFzjooSo__1784491182.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 182,
+     "ts": 1784491182
     }
    ]
   },
   "80e517e930303120110041bc_8": {
-   "selected": "name_mrskubota/takes/80e517e930303120110041bc_8__mag802__1784396756.mp3",
+   "selected": "name_mrskubota/takes/80e517e930303120110041bc_8__Sy8sUFzjooSo__1784457842.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/80e517e930303120110041bc_8__mag802__1784018441.mp3",
@@ -24608,11 +25576,19 @@
      "stability": 0,
      "chars": 73,
      "ts": 1784396756
+    },
+    {
+     "file": "name_mrskubota/takes/80e517e930303120110041bc_8__Sy8sUFzjooSo__1784457842.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 73,
+     "ts": 1784457842
     }
    ]
   },
   "8101e5483030312011004211_5": {
-   "selected": "name_mrskubota/takes/8101e5483030312011004211_5__mag802__1784018499_2.mp3",
+   "selected": "name_mrskubota/takes/8101e5483030312011004211_5__Sy8sUFzjooSo__1784457879.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/8101e5483030312011004211_5__mag802__1784018499_2.mp3",
@@ -24621,11 +25597,19 @@
      "stability": 0,
      "chars": 289,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/8101e5483030312011004211_5__Sy8sUFzjooSo__1784457879.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 287,
+     "ts": 1784457879
     }
    ]
   },
   "51d2ff29623331b00f000753_16": {
-   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_16__mag802__1784020565.mp3",
+   "selected": "name_mrskubota/takes/51d2ff29623331b00f000753_16__Sy8sUFzjooSo__1784457572.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51d2ff29623331b00f000753_16__mag802__1784020565.mp3",
@@ -24634,11 +25618,19 @@
      "stability": 0,
      "chars": 98,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51d2ff29623331b00f000753_16__Sy8sUFzjooSo__1784457572.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 98,
+     "ts": 1784457572
     }
    ]
   },
   "57a2e124306434000d00432b_4~c0": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_4~c0__mag802__1784020590.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_4~c0__Sy8sUFzjooSo__1784457628.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_4~c0__mag802__1784020590.mp3",
@@ -24647,11 +25639,19 @@
      "stability": 0,
      "chars": 118,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_4~c0__Sy8sUFzjooSo__1784457628.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 118,
+     "ts": 1784457628
     }
    ]
   },
   "51c0a796623331f01b000735_0": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_0__mag802__1784020566_0.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_0__Sy8sUFzjooSo__1784457449.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_0__mag802__1784020566_0.mp3",
@@ -24660,11 +25660,19 @@
      "stability": 0,
      "chars": 9,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_0__Sy8sUFzjooSo__1784457449.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 9,
+     "ts": 1784457449
     }
    ]
   },
   "57a2e124306434000d00432b_2~c0": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_2~c0__mag802__1784020646_0.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_2~c0__Sy8sUFzjooSo__1784457614.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_2~c0__mag802__1784020646_0.mp3",
@@ -24673,11 +25681,19 @@
      "stability": 0,
      "chars": 129,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_2~c0__Sy8sUFzjooSo__1784457614.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 129,
+     "ts": 1784457614
     }
    ]
   },
   "57a2e124306434000d00432b_1~c0": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_1~c0__mag802__1784020680_0.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_1~c0__Sy8sUFzjooSo__1784457608.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_1~c0__mag802__1784020680_0.mp3",
@@ -24686,11 +25702,19 @@
      "stability": 0,
      "chars": 139,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_1~c0__Sy8sUFzjooSo__1784457608.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 139,
+     "ts": 1784457608
     }
    ]
   },
   "51c0a796623331f01b000735_9": {
-   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_9__mag802__1784020588_3.mp3",
+   "selected": "name_mrskubota/takes/51c0a796623331f01b000735_9__Sy8sUFzjooSo__1784457493.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/51c0a796623331f01b000735_9__mag802__1784020588_3.mp3",
@@ -24699,11 +25723,19 @@
      "stability": 0,
      "chars": 129,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/51c0a796623331f01b000735_9__Sy8sUFzjooSo__1784457493.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 129,
+     "ts": 1784457493
     }
    ]
   },
   "57a2e124306434000d00432b_3~c0": {
-   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_3~c0__mag802__1784020617_0.mp3",
+   "selected": "name_mrskubota/takes/57a2e124306434000d00432b_3~c0__Sy8sUFzjooSo__1784457621.mp3",
    "takes": [
     {
      "file": "name_mrskubota/takes/57a2e124306434000d00432b_3~c0__mag802__1784020617_0.mp3",
@@ -24712,6 +25744,14 @@
      "stability": 0,
      "chars": 158,
      "ts": 0
+    },
+    {
+     "file": "name_mrskubota/takes/57a2e124306434000d00432b_3~c0__Sy8sUFzjooSo__1784457621.mp3",
+     "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+     "voiceName": "Mrs Kubota",
+     "stability": 0,
+     "chars": 158,
+     "ts": 1784457621
     }
    ]
   }
@@ -32773,7 +33813,7 @@
  },
  "name_drsaracastle": {
   "51a7e86e623331b82a006dff_0": {
-   "selected": "name_drsaracastle/takes/51a7e86e623331b82a006dff_0__hpp4J3VqNfWA__1784021059.mp3",
+   "selected": "name_drsaracastle/takes/51a7e86e623331b82a006dff_0__mag503__1784660272.mp3",
    "takes": [
     {
      "file": "name_drsaracastle/takes/51a7e86e623331b82a006dff_0__hpp4J3VqNfWA__1784021059.mp3",
@@ -32782,6 +33822,14 @@
      "stability": 0,
      "chars": 33,
      "ts": 1784021059
+    },
+    {
+     "file": "name_drsaracastle/takes/51a7e86e623331b82a006dff_0__mag503__1784660272.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784660272
     }
    ]
   },
@@ -32799,7 +33847,7 @@
    ]
   },
   "51a7e86e623331b82a006dff_8": {
-   "selected": "name_drsaracastle/takes/51a7e86e623331b82a006dff_8__mag503__1784021141.mp3",
+   "selected": "name_drsaracastle/takes/51a7e86e623331b82a006dff_8__mag503__1784660227.mp3",
    "takes": [
     {
      "file": "name_drsaracastle/takes/51a7e86e623331b82a006dff_8__mag503__1784021141.mp3",
@@ -32808,6 +33856,14 @@
      "stability": 0,
      "chars": 139,
      "ts": 1784021141
+    },
+    {
+     "file": "name_drsaracastle/takes/51a7e86e623331b82a006dff_8__mag503__1784660227.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 151,
+     "ts": 1784660227
     }
    ]
   },
@@ -33328,7 +34384,7 @@
    ]
   },
   "8f6016893030312816002741_2": {
-   "selected": "name_drsaracastle/takes/8f6016893030312816002741_2__mag503__1784022380.mp3",
+   "selected": "name_drsaracastle/takes/8f6016893030312816002741_2__mag503__1784663557.mp3",
    "takes": [
     {
      "file": "name_drsaracastle/takes/8f6016893030312816002741_2__mag503__1784022380.mp3",
@@ -33337,6 +34393,14 @@
      "stability": 0,
      "chars": 68,
      "ts": 0
+    },
+    {
+     "file": "name_drsaracastle/takes/8f6016893030312816002741_2__mag503__1784663557.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 68,
+     "ts": 1784663557
     }
    ]
   },
@@ -33709,6 +34773,279 @@
      "stability": 0,
      "chars": 141,
      "ts": 0
+    }
+   ]
+  },
+  "51b9f7b1623331000e00441e_0": {
+   "selected": "name_doctor/takes/51b9f7b1623331000e00441e_0__mag241__1784039413.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/51b9f7b1623331000e00441e_0__mag241__1784039413.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784039413
+    },
+    {
+     "file": "name_drsaracastle/takes/51b9f7b1623331000e00441e_0__mag503__1784660452.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784660452
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_1": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_1__mag241__1784039416.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_1__mag241__1784039416.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0,
+     "chars": 87,
+     "ts": 1784039416
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_1__mag503__1784660457.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 87,
+     "ts": 1784660457
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_2": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_2__mag241__1784039417.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_2__mag241__1784039417.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784039417
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_2__mag503__1784660464.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784660464
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_4": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_4__mag241__1784044801.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_4__mag241__1784044801.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 60,
+     "ts": 1784044801
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_4__mag503__1784660470.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 59,
+     "ts": 1784660470
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_5": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_5__mag241__1784044803.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_5__mag241__1784044803.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 122,
+     "ts": 1784044803
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_5__mag503__1784660476.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 121,
+     "ts": 1784660476
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_6": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_6__mag241__1784044806.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_6__mag241__1784044806.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 113,
+     "ts": 1784044806
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_6__mag503__1784660482.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 113,
+     "ts": 1784660482
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_8": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_8__mag241__1784044808.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_8__mag241__1784044808.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 240,
+     "ts": 1784044808
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_8__mag503__1784660502.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 240,
+     "ts": 1784660502
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_7": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_7__mag241__1784044808.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_7__mag241__1784044808.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 295,
+     "ts": 1784044808
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_7__mag503__1784660490.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 295,
+     "ts": 1784660490
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_9": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_9__mag241__1784044809.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_9__mag241__1784044809.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 128,
+     "ts": 1784044809
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_9__mag503__1784660512.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 127,
+     "ts": 1784660512
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_10": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_10__mag241__1784044811.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_10__mag241__1784044811.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 66,
+     "ts": 1784044811
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_10__mag503__1784660520.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 66,
+     "ts": 1784660520
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_13": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_13__mag241__1784044813.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_13__mag241__1784044813.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 22,
+     "ts": 1784044813
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_13__mag503__1784660552.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 22,
+     "ts": 1784660552
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_11": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_11__mag241__1784044814.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_11__mag241__1784044814.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 121,
+     "ts": 1784044814
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_11__mag503__1784660528.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 119,
+     "ts": 1784660528
+    }
+   ]
+  },
+  "8f8a7ef36233318c24006ec2_12": {
+   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_12__mag241__1784044816.mp3",
+   "takes": [
+    {
+     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_12__mag241__1784044816.mp3",
+     "voiceId": "mag_241",
+     "voiceName": "Charlotte Grace",
+     "stability": 0.0,
+     "chars": 122,
+     "ts": 1784044816
+    },
+    {
+     "file": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_12__mag503__1784660542.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 120,
+     "ts": 1784660542
     }
    ]
   }
@@ -34183,7 +35520,7 @@
    ]
   },
   "9035fd4c3030312816002a32_1": {
-   "selected": "name_aljernon/takes/9035fd4c3030312816002a32_1__mag276__1784022251.mp3",
+   "selected": "name_aljernon/takes/9035fd4c3030312816002a32_1__mag276__1784566652.mp3",
    "takes": [
     {
      "file": "name_aljernon/takes/9035fd4c3030312816002a32_1__mag276__1784022251.mp3",
@@ -34192,6 +35529,22 @@
      "stability": 0,
      "chars": 237,
      "ts": 0
+    },
+    {
+     "file": "name_aljernon/takes/9035fd4c3030312816002a32_1__mag276__1784566652.mp3",
+     "voiceId": "mag_276",
+     "voiceName": "Sipho Dlamini",
+     "stability": 0,
+     "chars": 237,
+     "ts": 1784566652
+    },
+    {
+     "file": "name_aljernon/takes/9035fd4c3030312816002a32_1__mag276__1784566663.mp3",
+     "voiceId": "mag_276",
+     "voiceName": "Sipho Dlamini",
+     "stability": 0,
+     "chars": 237,
+     "ts": 1784566663
     }
    ]
   },
@@ -35859,7 +37212,7 @@
    ]
   },
   "810fe662306434ec16003207_1": {
-   "selected": "name_paco/takes/810fe662306434ec16003207_1__uLCvmeolFYSV__1784022361.mp3",
+   "selected": "name_paco/takes/810fe662306434ec16003207_1__uLCvmeolFYSV__1784492742.mp3",
    "takes": [
     {
      "file": "name_paco/takes/810fe662306434ec16003207_1__uLCvmeolFYSV__1784022361.mp3",
@@ -35868,6 +37221,14 @@
      "stability": 0,
      "chars": 34,
      "ts": 1784022361
+    },
+    {
+     "file": "name_paco/takes/810fe662306434ec16003207_1__uLCvmeolFYSV__1784492742.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 49,
+     "ts": 1784492742
     }
    ]
   },
@@ -35885,7 +37246,7 @@
    ]
   },
   "810fe662306434ec16003207_2~c1": {
-   "selected": "name_paco/takes/810fe662306434ec16003207_2~c1__uLCvmeolFYSV__1784022368.mp3",
+   "selected": "name_paco/takes/810fe662306434ec16003207_2~c1__uLCvmeolFYSV__1784492821.mp3",
    "takes": [
     {
      "file": "name_paco/takes/810fe662306434ec16003207_2~c1__uLCvmeolFYSV__1784022368.mp3",
@@ -35894,6 +37255,38 @@
      "stability": 0,
      "chars": 97,
      "ts": 1784022368
+    },
+    {
+     "file": "name_paco/takes/810fe662306434ec16003207_2~c1__uLCvmeolFYSV__1784492769.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 103,
+     "ts": 1784492769
+    },
+    {
+     "file": "name_paco/takes/810fe662306434ec16003207_2~c1__uLCvmeolFYSV__1784492796.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1784492796
+    },
+    {
+     "file": "name_paco/takes/810fe662306434ec16003207_2~c1__uLCvmeolFYSV__1784492805.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1784492805
+    },
+    {
+     "file": "name_paco/takes/810fe662306434ec16003207_2~c1__uLCvmeolFYSV__1784492821.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1784492821
     }
    ]
   },
@@ -44976,7 +46369,7 @@
    ]
   },
   "8f98ee2930303128160028fa_1": {
-   "selected": "name_davidfryii/takes/8f98ee2930303128160028fa_1__mag295__1784044512.mp3",
+   "selected": "name_davidfryii/takes/8f98ee2930303128160028fa_1__mag295__1784660639.mp3",
    "takes": [
     {
      "file": "name_davidfryii/takes/8f98ee2930303128160028fa_1__mag295__1784044512.mp3",
@@ -44985,6 +46378,22 @@
      "stability": 0.0,
      "chars": 226,
      "ts": 1784044512
+    },
+    {
+     "file": "name_davidfryii/takes/8f98ee2930303128160028fa_1__mag295__1784660615.mp3",
+     "voiceId": "mag_295",
+     "voiceName": "William Brown",
+     "stability": 0,
+     "chars": 226,
+     "ts": 1784660615
+    },
+    {
+     "file": "name_davidfryii/takes/8f98ee2930303128160028fa_1__mag295__1784660639.mp3",
+     "voiceId": "mag_295",
+     "voiceName": "William Brown",
+     "stability": 0,
+     "chars": 227,
+     "ts": 1784660639
     }
    ]
   },
@@ -48502,177 +49911,6 @@
    ]
   }
  },
- "name_doctor": {
-  "51b9f7b1623331000e00441e_0": {
-   "selected": "name_doctor/takes/51b9f7b1623331000e00441e_0__mag241__1784039413.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/51b9f7b1623331000e00441e_0__mag241__1784039413.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0,
-     "chars": 33,
-     "ts": 1784039413
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_1": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_1__mag241__1784039416.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_1__mag241__1784039416.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0,
-     "chars": 87,
-     "ts": 1784039416
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_2": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_2__mag241__1784039417.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_2__mag241__1784039417.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0,
-     "chars": 27,
-     "ts": 1784039417
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_4": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_4__mag241__1784044801.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_4__mag241__1784044801.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 60,
-     "ts": 1784044801
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_5": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_5__mag241__1784044803.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_5__mag241__1784044803.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 122,
-     "ts": 1784044803
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_6": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_6__mag241__1784044806.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_6__mag241__1784044806.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 113,
-     "ts": 1784044806
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_8": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_8__mag241__1784044808.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_8__mag241__1784044808.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 240,
-     "ts": 1784044808
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_7": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_7__mag241__1784044808.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_7__mag241__1784044808.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 295,
-     "ts": 1784044808
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_9": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_9__mag241__1784044809.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_9__mag241__1784044809.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 128,
-     "ts": 1784044809
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_10": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_10__mag241__1784044811.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_10__mag241__1784044811.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 66,
-     "ts": 1784044811
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_13": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_13__mag241__1784044813.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_13__mag241__1784044813.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 22,
-     "ts": 1784044813
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_11": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_11__mag241__1784044814.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_11__mag241__1784044814.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 121,
-     "ts": 1784044814
-    }
-   ]
-  },
-  "8f8a7ef36233318c24006ec2_12": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_12__mag241__1784044816.mp3",
-   "takes": [
-    {
-     "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_12__mag241__1784044816.mp3",
-     "voiceId": "mag_241",
-     "voiceName": "Charlotte Grace",
-     "stability": 0.0,
-     "chars": 122,
-     "ts": 1784044816
-    }
-   ]
-  }
- },
  "name_cook": {
   "51b0c78f6336359408001825_0": {
    "selected": "name_cook/takes/51b0c78f6336359408001825_0__mag352__1784039508.mp3",
@@ -51798,7 +53036,7 @@
  },
  "name_coyoteugly": {
   "7bafc8583064665422005e1e_1~c0": {
-   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784043446.mp3",
+   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784552491.mp3",
    "takes": [
     {
      "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784043421.mp3",
@@ -51815,11 +53053,51 @@
      "stability": 0,
      "chars": 26,
      "ts": 1784043446
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784552421.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784552421
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784552440.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 39,
+     "ts": 1784552440
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784552455.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1784552455
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784552474.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 41,
+     "ts": 1784552474
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c0__1EZBFEhLjqjz__1784552491.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 39,
+     "ts": 1784552491
     }
    ]
   },
   "7bafc8583064665422005e1e_1~c1": {
-   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c1__1EZBFEhLjqjz__1784043466.mp3",
+   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c1__1EZBFEhLjqjz__1784552502.mp3",
    "takes": [
     {
      "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c1__1EZBFEhLjqjz__1784043421.mp3",
@@ -51844,11 +53122,19 @@
      "stability": 0,
      "chars": 32,
      "ts": 1784043466
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_1~c1__1EZBFEhLjqjz__1784552502.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1784552502
     }
    ]
   },
   "7bafc8583064665422005e1e_3": {
-   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_3__1EZBFEhLjqjz__1784043470.mp3",
+   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_3__1EZBFEhLjqjz__1784552543.mp3",
    "takes": [
     {
      "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_3__1EZBFEhLjqjz__1784043470.mp3",
@@ -51857,11 +53143,19 @@
      "stability": 0,
      "chars": 49,
      "ts": 1784043470
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_3__1EZBFEhLjqjz__1784552543.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 58,
+     "ts": 1784552543
     }
    ]
   },
   "7bafc8583064665422005e1e_5~c0": {
-   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_5~c0__1EZBFEhLjqjz__1784043493.mp3",
+   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_5~c0__1EZBFEhLjqjz__1784552902.mp3",
    "takes": [
     {
      "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_5~c0__1EZBFEhLjqjz__1784043493.mp3",
@@ -51870,6 +53164,30 @@
      "stability": 0,
      "chars": 12,
      "ts": 1784043493
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_5~c0__1EZBFEhLjqjz__1784552881.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 5,
+     "ts": 1784552881
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_5~c0__1EZBFEhLjqjz__1784552893.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 15,
+     "ts": 1784552893
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_5~c0__1EZBFEhLjqjz__1784552902.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 13,
+     "ts": 1784552902
     }
    ]
   },
@@ -51887,7 +53205,7 @@
    ]
   },
   "7bafc8583064665422005e1e_7": {
-   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_7__1EZBFEhLjqjz__1784043520.mp3",
+   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_7__1EZBFEhLjqjz__1784552581.mp3",
    "takes": [
     {
      "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_7__1EZBFEhLjqjz__1784043520.mp3",
@@ -51896,11 +53214,19 @@
      "stability": 0,
      "chars": 127,
      "ts": 1784043520
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_7__1EZBFEhLjqjz__1784552581.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 145,
+     "ts": 1784552581
     }
    ]
   },
   "7bafc8583064665422005e1e_10": {
-   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_10__1EZBFEhLjqjz__1784044347.mp3",
+   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_10__1EZBFEhLjqjz__1784552607.mp3",
    "takes": [
     {
      "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_10__1EZBFEhLjqjz__1784044347.mp3",
@@ -51909,11 +53235,19 @@
      "stability": 0.0,
      "chars": 39,
      "ts": 1784044347
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_10__1EZBFEhLjqjz__1784552607.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 48,
+     "ts": 1784552607
     }
    ]
   },
   "7bafc8583064665422005e1e_11": {
-   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_11__1EZBFEhLjqjz__1784044348.mp3",
+   "selected": "name_coyoteugly/takes/7bafc8583064665422005e1e_11__1EZBFEhLjqjz__1784552613.mp3",
    "takes": [
     {
      "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_11__1EZBFEhLjqjz__1784044348.mp3",
@@ -51922,6 +53256,14 @@
      "stability": 0.0,
      "chars": 85,
      "ts": 1784044348
+    },
+    {
+     "file": "name_coyoteugly/takes/7bafc8583064665422005e1e_11__1EZBFEhLjqjz__1784552613.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby",
+     "stability": 0,
+     "chars": 92,
+     "ts": 1784552613
     }
    ]
   }
@@ -53138,7 +54480,7 @@
    ]
   },
   "26bf5777306466ec210018c0_4": {
-   "selected": "name_addict/takes/26bf5777306466ec210018c0_4__mag531__1784053810.mp3",
+   "selected": "name_addict/takes/26bf5777306466ec210018c0_4__mag531__1784497431.mp3",
    "takes": [
     {
      "file": "name_addict/takes/26bf5777306466ec210018c0_4__mag531__1784053810.mp3",
@@ -53147,6 +54489,30 @@
      "stability": 0,
      "chars": 96,
      "ts": 1784053810
+    },
+    {
+     "file": "name_addict/takes/26bf5777306466ec210018c0_4__mag531__1784497394.mp3",
+     "voiceId": "mag_531",
+     "voiceName": "Vera Raze",
+     "stability": 0,
+     "chars": 96,
+     "ts": 1784497394
+    },
+    {
+     "file": "name_addict/takes/26bf5777306466ec210018c0_4__mag531__1784497406.mp3",
+     "voiceId": "mag_531",
+     "voiceName": "Vera Raze",
+     "stability": 0,
+     "chars": 98,
+     "ts": 1784497406
+    },
+    {
+     "file": "name_addict/takes/26bf5777306466ec210018c0_4__mag531__1784497431.mp3",
+     "voiceId": "mag_531",
+     "voiceName": "Vera Raze",
+     "stability": 0,
+     "chars": 103,
+     "ts": 1784497431
     }
    ]
   },
@@ -55378,6 +56744,14 @@
      "stability": 0,
      "chars": 26,
      "ts": 1784293680
+    },
+    {
+     "file": "_barks/takes/bark_e29a69507f31f59f__mag316__1784710775.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1784710775
     }
    ]
   },
@@ -56893,6 +58267,2371 @@
      "ts": 1784388663
     }
    ]
+  },
+  "bark_9b656fef57eb4fd6": {
+   "selected": "_barks/takes/bark_9b656fef57eb4fd6__mag42__1784491296.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_9b656fef57eb4fd6__mag42__1784491296.mp3",
+     "voiceId": "mag_42",
+     "voiceName": "Ryan Fox",
+     "stability": 0,
+     "chars": 17,
+     "ts": 1784491296
+    }
+   ]
+  },
+  "bark_41734c7c3504f636": {
+   "selected": "_barks/takes/bark_41734c7c3504f636__mag42__1784491296.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_41734c7c3504f636__mag42__1784491296.mp3",
+     "voiceId": "mag_42",
+     "voiceName": "Ryan Fox",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784491296
+    }
+   ]
+  },
+  "bark_d1d3c0c5faa3245f": {
+   "selected": "_barks/takes/bark_d1d3c0c5faa3245f__mag294__1784491720.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d1d3c0c5faa3245f__mag447__1784491674.mp3",
+     "voiceId": "mag_447",
+     "voiceName": "Caleb Morgan",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784491674
+    },
+    {
+     "file": "_barks/takes/bark_d1d3c0c5faa3245f__mag294__1784491699.mp3",
+     "voiceId": "mag_294",
+     "voiceName": "Alexander Davis",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784491699
+    },
+    {
+     "file": "_barks/takes/bark_d1d3c0c5faa3245f__mag294__1784491720.mp3",
+     "voiceId": "mag_294",
+     "voiceName": "Alexander Davis",
+     "stability": 0,
+     "chars": 38,
+     "ts": 1784491720
+    }
+   ]
+  },
+  "bark_4fbce14b2c07f7d5": {
+   "selected": "_barks/takes/bark_4fbce14b2c07f7d5__mag359__1784492887.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_4fbce14b2c07f7d5__mag359__1784492887.mp3",
+     "voiceId": "mag_359",
+     "voiceName": "Jacob Harrison",
+     "stability": 0,
+     "chars": 10,
+     "ts": 1784492887
+    }
+   ]
+  },
+  "bark_8579c10e774c2e0d": {
+   "selected": "_barks/takes/bark_8579c10e774c2e0d__mag359__1784492887.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_8579c10e774c2e0d__mag359__1784492887.mp3",
+     "voiceId": "mag_359",
+     "voiceName": "Jacob Harrison",
+     "stability": 0,
+     "chars": 22,
+     "ts": 1784492887
+    }
+   ]
+  },
+  "bark_d777e0f77edfd05b": {
+   "selected": "_barks/takes/bark_d777e0f77edfd05b__mag31__1784492916.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d777e0f77edfd05b__mag31__1784492916.mp3",
+     "voiceId": "mag_31",
+     "voiceName": "Jake Morrison",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1784492916
+    }
+   ]
+  },
+  "bark_dff861a4078d90b0": {
+   "selected": "_barks/takes/bark_dff861a4078d90b0__mag31__1784492916.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_dff861a4078d90b0__mag31__1784492916.mp3",
+     "voiceId": "mag_31",
+     "voiceName": "Jake Morrison",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784492916
+    }
+   ]
+  },
+  "bark_46372d60d815e5f2": {
+   "selected": "_barks/takes/bark_46372d60d815e5f2__mag583__1784492945.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_46372d60d815e5f2__mag583__1784492945.mp3",
+     "voiceId": "mag_583",
+     "voiceName": "Reginald Ashworth",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1784492945
+    }
+   ]
+  },
+  "bark_e87f36431f89f163": {
+   "selected": "_barks/takes/bark_e87f36431f89f163__mag685__1784492954.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_e87f36431f89f163__mag685__1784492954.mp3",
+     "voiceId": "mag_685",
+     "voiceName": "Dusty Baxter",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784492954
+    }
+   ]
+  },
+  "bark_594f5264cb053c9c": {
+   "selected": "_barks/takes/bark_594f5264cb053c9c__mag161__1784492990.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_594f5264cb053c9c__mag161__1784492990.mp3",
+     "voiceId": "mag_161",
+     "voiceName": "Riley Monroe",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784492990
+    }
+   ]
+  },
+  "bark_68d88ac35c2edf2d": {
+   "selected": "_barks/takes/bark_68d88ac35c2edf2d__mag319__1784493686.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_68d88ac35c2edf2d__mag319__1784493672.mp3",
+     "voiceId": "mag_319",
+     "voiceName": "Benjamin Walker",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1784493672
+    },
+    {
+     "file": "_barks/takes/bark_68d88ac35c2edf2d__mag319__1784493686.mp3",
+     "voiceId": "mag_319",
+     "voiceName": "Benjamin Walker",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1784493686
+    }
+   ]
+  },
+  "bark_c2536ab0ce839781": {
+   "selected": "_barks/takes/bark_c2536ab0ce839781__mag319__1784493681.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_c2536ab0ce839781__mag319__1784493681.mp3",
+     "voiceId": "mag_319",
+     "voiceName": "Benjamin Walker",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784493681
+    }
+   ]
+  },
+  "bark_f010f2a970b38dd0": {
+   "selected": "_barks/takes/bark_f010f2a970b38dd0__mag176__1784493810.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_f010f2a970b38dd0__mag176__1784493810.mp3",
+     "voiceId": "mag_176",
+     "voiceName": "Connor Keane",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784493810
+    }
+   ]
+  },
+  "bark_d1247905ad1db85e": {
+   "selected": "_barks/takes/bark_d1247905ad1db85e__mag176__1784493850.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d1247905ad1db85e__mag176__1784493811.mp3",
+     "voiceId": "mag_176",
+     "voiceName": "Connor Keane",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784493811
+    },
+    {
+     "file": "_barks/takes/bark_d1247905ad1db85e__mag176__1784493850.mp3",
+     "voiceId": "mag_176",
+     "voiceName": "Connor Keane",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784493850
+    }
+   ]
+  },
+  "bark_889cece526dae137": {
+   "selected": "_barks/takes/bark_889cece526dae137__mag267__1784493913.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_889cece526dae137__mag267__1784493913.mp3",
+     "voiceId": "mag_267",
+     "voiceName": "Sophia Grace",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784493913
+    }
+   ]
+  },
+  "bark_91c6851c052d209b": {
+   "selected": "_barks/takes/bark_91c6851c052d209b__mag531__1784497303.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_91c6851c052d209b__mag531__1784497303.mp3",
+     "voiceId": "mag_531",
+     "voiceName": "Vera Raze",
+     "stability": 0,
+     "chars": 17,
+     "ts": 1784497303
+    }
+   ]
+  },
+  "bark_0171ceb3085cadcf": {
+   "selected": "_barks/takes/bark_0171ceb3085cadcf__mag686__1784498010.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_0171ceb3085cadcf__mag686__1784497988.mp3",
+     "voiceId": "mag_686",
+     "voiceName": "Terry Dobson",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784497988
+    },
+    {
+     "file": "_barks/takes/bark_0171ceb3085cadcf__mag686__1784498010.mp3",
+     "voiceId": "mag_686",
+     "voiceName": "Terry Dobson",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784498010
+    }
+   ]
+  },
+  "bark_b1b28346bd80788a": {
+   "selected": "_barks/takes/bark_b1b28346bd80788a__mag687__1784498398.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_b1b28346bd80788a__mag687__1784498398.mp3",
+     "voiceId": "mag_687",
+     "voiceName": "Clara Devon",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784498398
+    }
+   ]
+  },
+  "bark_2249369e2cf8d5d1": {
+   "selected": "_barks/takes/bark_2249369e2cf8d5d1__mag687__1784498410.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_2249369e2cf8d5d1__mag687__1784498410.mp3",
+     "voiceId": "mag_687",
+     "voiceName": "Clara Devon",
+     "stability": 0,
+     "chars": 9,
+     "ts": 1784498410
+    }
+   ]
+  },
+  "bark_5bd4dc7efdbc0c41": {
+   "selected": "_barks/takes/bark_5bd4dc7efdbc0c41__mag687__1784498415.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_5bd4dc7efdbc0c41__mag687__1784498415.mp3",
+     "voiceId": "mag_687",
+     "voiceName": "Clara Devon",
+     "stability": 0,
+     "chars": 10,
+     "ts": 1784498415
+    }
+   ]
+  },
+  "bark_b7a7f575c008c7e7": {
+   "selected": "_barks/takes/bark_b7a7f575c008c7e7__mag44__1784558492.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_b7a7f575c008c7e7__mag44__1784558465.mp3",
+     "voiceId": "mag_44",
+     "voiceName": "Chloe Bennett",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784558465
+    },
+    {
+     "file": "_barks/takes/bark_b7a7f575c008c7e7__mag44__1784558477.mp3",
+     "voiceId": "mag_44",
+     "voiceName": "Chloe Bennett",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784558477
+    },
+    {
+     "file": "_barks/takes/bark_b7a7f575c008c7e7__mag44__1784558492.mp3",
+     "voiceId": "mag_44",
+     "voiceName": "Chloe Bennett",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784558492
+    }
+   ]
+  },
+  "bark_d8ceb2b10eaf15fa": {
+   "selected": "_barks/takes/bark_d8ceb2b10eaf15fa__mag441__1784558589.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d8ceb2b10eaf15fa__mag441__1784558565.mp3",
+     "voiceId": "mag_441",
+     "voiceName": "Noah Reed",
+     "stability": 0,
+     "chars": 17,
+     "ts": 1784558565
+    },
+    {
+     "file": "_barks/takes/bark_d8ceb2b10eaf15fa__mag441__1784558589.mp3",
+     "voiceId": "mag_441",
+     "voiceName": "Noah Reed",
+     "stability": 0,
+     "chars": 17,
+     "ts": 1784558589
+    }
+   ]
+  },
+  "bark_fe61bc21fb0fdea4": {
+   "selected": "_barks/takes/bark_fe61bc21fb0fdea4__mag206__1784558713.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_fe61bc21fb0fdea4__mag206__1784558666.mp3",
+     "voiceId": "mag_206",
+     "voiceName": "Henry Carter",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1784558666
+    },
+    {
+     "file": "_barks/takes/bark_fe61bc21fb0fdea4__mag206__1784558713.mp3",
+     "voiceId": "mag_206",
+     "voiceName": "Henry Carter",
+     "stability": 0,
+     "chars": 30,
+     "ts": 1784558713
+    }
+   ]
+  },
+  "bark_0f31b8d457471d1f": {
+   "selected": "_barks/takes/bark_0f31b8d457471d1f__mag631__1784558696.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_0f31b8d457471d1f__mag631__1784558696.mp3",
+     "voiceId": "mag_631",
+     "voiceName": "Rhea Sterling",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784558696
+    }
+   ]
+  },
+  "bark_cbc37982edda9f1c": {
+   "selected": "_barks/takes/bark_cbc37982edda9f1c__mag24__1784559335.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_cbc37982edda9f1c__mag24__1784559281.mp3",
+     "voiceId": "mag_24",
+     "voiceName": "Patrick International",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784559281
+    },
+    {
+     "file": "_barks/takes/bark_cbc37982edda9f1c__mag24__1784559302.mp3",
+     "voiceId": "mag_24",
+     "voiceName": "Patrick International",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1784559302
+    },
+    {
+     "file": "_barks/takes/bark_cbc37982edda9f1c__mag24__1784559323.mp3",
+     "voiceId": "mag_24",
+     "voiceName": "Patrick International",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1784559323
+    },
+    {
+     "file": "_barks/takes/bark_cbc37982edda9f1c__mag24__1784559335.mp3",
+     "voiceId": "mag_24",
+     "voiceName": "Patrick International",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784559335
+    }
+   ]
+  },
+  "bark_dfaac4b24bef30e7": {
+   "selected": "_barks/takes/bark_dfaac4b24bef30e7__mag516__1784562466.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_dfaac4b24bef30e7__mag516__1784562466.mp3",
+     "voiceId": "mag_516",
+     "voiceName": "Dominic Blaze",
+     "stability": 0,
+     "chars": 13,
+     "ts": 1784562466
+    }
+   ]
+  },
+  "bark_b40f4b2fe6c80528": {
+   "selected": "_barks/takes/bark_b40f4b2fe6c80528__mag260__1784563105.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_b40f4b2fe6c80528__mag351__1784563057.mp3",
+     "voiceId": "mag_351",
+     "voiceName": "Daniel Brooks",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1784563057
+    },
+    {
+     "file": "_barks/takes/bark_b40f4b2fe6c80528__mag351__1784563072.mp3",
+     "voiceId": "mag_351",
+     "voiceName": "Daniel Brooks",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784563072
+    },
+    {
+     "file": "_barks/takes/bark_b40f4b2fe6c80528__mag260__1784563105.mp3",
+     "voiceId": "mag_260",
+     "voiceName": "Theodore William",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784563105
+    },
+    {
+     "file": "_barks/takes/bark_b40f4b2fe6c80528__mag260__1784563116.mp3",
+     "voiceId": "mag_260",
+     "voiceName": "Theodore William",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784563116
+    }
+   ]
+  },
+  "bark_72f2aa7edaec0986": {
+   "selected": "_barks/takes/bark_72f2aa7edaec0986__mag160__1784563228.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_72f2aa7edaec0986__mag445__1784563189.mp3",
+     "voiceId": "mag_445",
+     "voiceName": "Sophie Walker",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784563189
+    },
+    {
+     "file": "_barks/takes/bark_72f2aa7edaec0986__mag445__1784563204.mp3",
+     "voiceId": "mag_445",
+     "voiceName": "Sophie Walker",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1784563204
+    },
+    {
+     "file": "_barks/takes/bark_72f2aa7edaec0986__mag160__1784563228.mp3",
+     "voiceId": "mag_160",
+     "voiceName": "Vanessa Hayes",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1784563228
+    }
+   ]
+  },
+  "bark_6cc8f8fd4545bcc8": {
+   "selected": "_barks/takes/bark_6cc8f8fd4545bcc8__mag160__1784563249.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_6cc8f8fd4545bcc8__mag160__1784563249.mp3",
+     "voiceId": "mag_160",
+     "voiceName": "Vanessa Hayes",
+     "stability": 0,
+     "chars": 8,
+     "ts": 1784563249
+    }
+   ]
+  },
+  "bark_64a3330697b86a3b": {
+   "selected": "_barks/takes/bark_64a3330697b86a3b__EQx6HGDYjkDp__1784563274.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_64a3330697b86a3b__EQx6HGDYjkDp__1784563274.mp3",
+     "voiceId": "EQx6HGDYjkDpcli6vorJ",
+     "voiceName": "Lizzie - Cockney Character",
+     "stability": 0,
+     "chars": 16,
+     "ts": 1784563274
+    },
+    {
+     "file": "_barks/takes/bark_64a3330697b86a3b__EQx6HGDYjkDp__1784563281.mp3",
+     "voiceId": "EQx6HGDYjkDpcli6vorJ",
+     "voiceName": "Lizzie - Cockney Character",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784563281
+    }
+   ]
+  },
+  "bark_ee52ae99cfed8972": {
+   "selected": "_barks/takes/bark_ee52ae99cfed8972__mag50__1784563370.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_ee52ae99cfed8972__mag50__1784563322.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 13,
+     "ts": 1784563322
+    },
+    {
+     "file": "_barks/takes/bark_ee52ae99cfed8972__mag50__1784563370.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1784563370
+    }
+   ]
+  },
+  "bark_22a7b7dba973c10e": {
+   "selected": "_barks/takes/bark_22a7b7dba973c10e__mag50__1784563368.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_22a7b7dba973c10e__mag50__1784563322.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784563322
+    },
+    {
+     "file": "_barks/takes/bark_22a7b7dba973c10e__mag50__1784563368.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 43,
+     "ts": 1784563368
+    }
+   ]
+  },
+  "bark_fccb8fbfe71bbb32": {
+   "selected": "_barks/takes/bark_fccb8fbfe71bbb32__mag50__1784563356.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_fccb8fbfe71bbb32__mag50__1784563323.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784563323
+    },
+    {
+     "file": "_barks/takes/bark_fccb8fbfe71bbb32__mag50__1784563356.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 34,
+     "ts": 1784563356
+    }
+   ]
+  },
+  "bark_8e4912334331c395": {
+   "selected": "_barks/takes/bark_8e4912334331c395__mag50__1784563361.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_8e4912334331c395__mag50__1784563324.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 34,
+     "ts": 1784563324
+    },
+    {
+     "file": "_barks/takes/bark_8e4912334331c395__mag50__1784563361.mp3",
+     "voiceId": "mag_50",
+     "voiceName": "Yamamoto Daiki",
+     "stability": 0,
+     "chars": 44,
+     "ts": 1784563361
+    }
+   ]
+  },
+  "bark_9f6d5bab158136ff": {
+   "selected": "_barks/takes/bark_9f6d5bab158136ff__mag245__1784563395.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_9f6d5bab158136ff__mag245__1784563395.mp3",
+     "voiceId": "mag_245",
+     "voiceName": "Ava Madison",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784563395
+    }
+   ]
+  },
+  "bark_c5be65462e29448e": {
+   "selected": "_barks/takes/bark_c5be65462e29448e__mag245__1784563396.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_c5be65462e29448e__mag245__1784563396.mp3",
+     "voiceId": "mag_245",
+     "voiceName": "Ava Madison",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1784563396
+    }
+   ]
+  },
+  "bark_64876d44f6013d51": {
+   "selected": "_barks/takes/bark_64876d44f6013d51__mag517__1784563431.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_64876d44f6013d51__mag517__1784563431.mp3",
+     "voiceId": "mag_517",
+     "voiceName": "Darian Voss",
+     "stability": 0,
+     "chars": 35,
+     "ts": 1784563431
+    }
+   ]
+  },
+  "bark_0464c4d26faecbd3": {
+   "selected": "_barks/takes/bark_0464c4d26faecbd3__mag517__1784563464.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_0464c4d26faecbd3__mag517__1784563431.mp3",
+     "voiceId": "mag_517",
+     "voiceName": "Darian Voss",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784563431
+    },
+    {
+     "file": "_barks/takes/bark_0464c4d26faecbd3__mag517__1784563449.mp3",
+     "voiceId": "mag_517",
+     "voiceName": "Darian Voss",
+     "stability": 0,
+     "chars": 48,
+     "ts": 1784563449
+    },
+    {
+     "file": "_barks/takes/bark_0464c4d26faecbd3__mag517__1784563464.mp3",
+     "voiceId": "mag_517",
+     "voiceName": "Darian Voss",
+     "stability": 0,
+     "chars": 50,
+     "ts": 1784563464
+    }
+   ]
+  },
+  "bark_00cf4630e6c4b6c8": {
+   "selected": "_barks/takes/bark_00cf4630e6c4b6c8__mag586__1784564808.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_00cf4630e6c4b6c8__mag586__1784564808.mp3",
+     "voiceId": "mag_586",
+     "voiceName": "Dexter Glitch",
+     "stability": 0.0,
+     "chars": 8,
+     "ts": 1784564808
+    }
+   ]
+  },
+  "bark_02174377bebf3a49": {
+   "selected": "_barks/takes/bark_02174377bebf3a49__mag366__1784564814.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_02174377bebf3a49__mag366__1784564814.mp3",
+     "voiceId": "mag_366",
+     "voiceName": "Ethan Parker",
+     "stability": 0.0,
+     "chars": 30,
+     "ts": 1784564814
+    }
+   ]
+  },
+  "bark_057e8ec22200d3e6": {
+   "selected": "_barks/takes/bark_057e8ec22200d3e6__mag447__1784564820.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_057e8ec22200d3e6__mag447__1784564820.mp3",
+     "voiceId": "mag_447",
+     "voiceName": "Caleb Morgan",
+     "stability": 0.0,
+     "chars": 34,
+     "ts": 1784564820
+    }
+   ]
+  },
+  "bark_0660dd6003af921d": {
+   "selected": "_barks/takes/bark_0660dd6003af921d__0aXOy31Cjamp__1784564823.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_0660dd6003af921d__0aXOy31Cjamp__1784564823.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 46,
+     "ts": 1784564823
+    }
+   ]
+  },
+  "bark_0bf932ca78ed5f0e": {
+   "selected": "_barks/takes/bark_0bf932ca78ed5f0e__mag318__1784564827.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_0bf932ca78ed5f0e__mag318__1784564827.mp3",
+     "voiceId": "mag_318",
+     "voiceName": "Oliver Whitmore",
+     "stability": 0.0,
+     "chars": 19,
+     "ts": 1784564827
+    }
+   ]
+  },
+  "bark_0d631f1a29d99dc2": {
+   "selected": "_barks/takes/bark_0d631f1a29d99dc2__mag174__1784564833.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_0d631f1a29d99dc2__mag174__1784564833.mp3",
+     "voiceId": "mag_174",
+     "voiceName": "Aidan Doyle",
+     "stability": 0.0,
+     "chars": 24,
+     "ts": 1784564833
+    }
+   ]
+  },
+  "bark_10a7d3e18befcaf7": {
+   "selected": "_barks/takes/bark_10a7d3e18befcaf7__mag35__1784564839.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_10a7d3e18befcaf7__mag35__1784564839.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784564839
+    }
+   ]
+  },
+  "bark_13422faa0a4aa1ca": {
+   "selected": "_barks/takes/bark_13422faa0a4aa1ca__mag390__1784564846.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_13422faa0a4aa1ca__mag390__1784564846.mp3",
+     "voiceId": "mag_390",
+     "voiceName": "James Carter",
+     "stability": 0.0,
+     "chars": 48,
+     "ts": 1784564846
+    }
+   ]
+  },
+  "bark_136274186d0da4d7": {
+   "selected": "_barks/takes/bark_136274186d0da4d7__TDTTIZEngvvW__1784564848.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_136274186d0da4d7__TDTTIZEngvvW__1784564848.mp3",
+     "voiceId": "TDTTIZEngvvWARkECefs",
+     "voiceName": "Villain - harsh, abrasive, and volatile",
+     "stability": 0.0,
+     "chars": 23,
+     "ts": 1784564848
+    }
+   ]
+  },
+  "bark_1c9e0af6cc2fc989": {
+   "selected": "_barks/takes/bark_1c9e0af6cc2fc989__1EZBFEhLjqjz__1784564850.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_1c9e0af6cc2fc989__1EZBFEhLjqjz__1784564850.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0.0,
+     "chars": 5,
+     "ts": 1784564850
+    }
+   ]
+  },
+  "bark_20535b596b61f6b1": {
+   "selected": "_barks/takes/bark_20535b596b61f6b1__0aXOy31Cjamp__1784564852.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_20535b596b61f6b1__0aXOy31Cjamp__1784564852.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 27,
+     "ts": 1784564852
+    }
+   ]
+  },
+  "bark_206cadf676b74c73": {
+   "selected": "_barks/takes/bark_206cadf676b74c73__mag270__1784564858.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_206cadf676b74c73__mag270__1784564858.mp3",
+     "voiceId": "mag_270",
+     "voiceName": "Henry Arthur",
+     "stability": 0.0,
+     "chars": 23,
+     "ts": 1784564858
+    }
+   ]
+  },
+  "bark_21e669221eb11818": {
+   "selected": "_barks/takes/bark_21e669221eb11818__mag584__1784564864.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_21e669221eb11818__mag584__1784564864.mp3",
+     "voiceId": "mag_584",
+     "voiceName": "Titan Steele",
+     "stability": 0.0,
+     "chars": 34,
+     "ts": 1784564864
+    }
+   ]
+  },
+  "bark_2453da851adeac0e": {
+   "selected": "_barks/takes/bark_2453da851adeac0e__mag584__1784564871.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_2453da851adeac0e__mag584__1784564871.mp3",
+     "voiceId": "mag_584",
+     "voiceName": "Titan Steele",
+     "stability": 0.0,
+     "chars": 14,
+     "ts": 1784564871
+    }
+   ]
+  },
+  "bark_257aa49d69dcf775": {
+   "selected": "_barks/takes/bark_257aa49d69dcf775__mag281__1784564875.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_257aa49d69dcf775__mag281__1784564875.mp3",
+     "voiceId": "mag_281",
+     "voiceName": "Logan Anderson",
+     "stability": 0.0,
+     "chars": 19,
+     "ts": 1784564875
+    }
+   ]
+  },
+  "bark_2b2b6607e7bd9d99": {
+   "selected": "_barks/takes/bark_2b2b6607e7bd9d99__mag258__1784564881.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_2b2b6607e7bd9d99__mag258__1784564881.mp3",
+     "voiceId": "mag_258",
+     "voiceName": "Sophia Elizabeth",
+     "stability": 0.0,
+     "chars": 31,
+     "ts": 1784564881
+    }
+   ]
+  },
+  "bark_2dc5167688158b7e": {
+   "selected": "_barks/takes/bark_2dc5167688158b7e__0aXOy31Cjamp__1784564884.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_2dc5167688158b7e__0aXOy31Cjamp__1784564884.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 61,
+     "ts": 1784564884
+    }
+   ]
+  },
+  "bark_2e5b8bedc674923a": {
+   "selected": "_barks/takes/bark_2e5b8bedc674923a__mag446__1784564889.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_2e5b8bedc674923a__mag446__1784564889.mp3",
+     "voiceId": "mag_446",
+     "voiceName": "Logan Scott",
+     "stability": 0.0,
+     "chars": 29,
+     "ts": 1784564889
+    }
+   ]
+  },
+  "bark_2f40a93aa700d8df": {
+   "selected": "_barks/takes/bark_2f40a93aa700d8df__mag270__1784564893.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_2f40a93aa700d8df__mag270__1784564893.mp3",
+     "voiceId": "mag_270",
+     "voiceName": "Henry Arthur",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784564893
+    }
+   ]
+  },
+  "bark_301cbb8a25c8fca4": {
+   "selected": "_barks/takes/bark_301cbb8a25c8fca4__0aXOy31Cjamp__1784564896.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_301cbb8a25c8fca4__0aXOy31Cjamp__1784564896.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 57,
+     "ts": 1784564896
+    }
+   ]
+  },
+  "bark_306a9dfb9bccca43": {
+   "selected": "_barks/takes/bark_306a9dfb9bccca43__mag31__1784564902.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_306a9dfb9bccca43__mag31__1784564902.mp3",
+     "voiceId": "mag_31",
+     "voiceName": "Jake Morrison",
+     "stability": 0.0,
+     "chars": 14,
+     "ts": 1784564902
+    }
+   ]
+  },
+  "bark_30ec8c50643c5de0": {
+   "selected": "_barks/takes/bark_30ec8c50643c5de0__mSOmKHC6GZcZ__1784564904.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_30ec8c50643c5de0__mSOmKHC6GZcZ__1784564904.mp3",
+     "voiceId": "mSOmKHC6GZcZbSTGlqHO",
+     "voiceName": "Mister Gruff - Miserable old neighbor",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784564904
+    }
+   ]
+  },
+  "bark_321a32a4bcadb945": {
+   "selected": "_barks/takes/bark_321a32a4bcadb945__mag586__1784564910.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_321a32a4bcadb945__mag586__1784564910.mp3",
+     "voiceId": "mag_586",
+     "voiceName": "Dexter Glitch",
+     "stability": 0.0,
+     "chars": 18,
+     "ts": 1784564910
+    }
+   ]
+  },
+  "bark_33e9ef7062e4feef": {
+   "selected": "_barks/takes/bark_33e9ef7062e4feef__mag329__1784564915.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_33e9ef7062e4feef__mag329__1784564915.mp3",
+     "voiceId": "mag_329",
+     "voiceName": "Daniel Richardson",
+     "stability": 0.0,
+     "chars": 20,
+     "ts": 1784564915
+    }
+   ]
+  },
+  "bark_346713a4b80dac8b": {
+   "selected": "_barks/takes/bark_346713a4b80dac8b__mag266__1784564920.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_346713a4b80dac8b__mag266__1784564920.mp3",
+     "voiceId": "mag_266",
+     "voiceName": "Aiden Samuel",
+     "stability": 0.0,
+     "chars": 28,
+     "ts": 1784564920
+    }
+   ]
+  },
+  "bark_351afe6e75691d7b": {
+   "selected": "_barks/takes/bark_351afe6e75691d7b__mag436__1784564926.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_351afe6e75691d7b__mag436__1784564926.mp3",
+     "voiceId": "mag_436",
+     "voiceName": "Jamie Clarke",
+     "stability": 0.0,
+     "chars": 6,
+     "ts": 1784564926
+    }
+   ]
+  },
+  "bark_3536c72e1e26eced": {
+   "selected": "_barks/takes/bark_3536c72e1e26eced__0aXOy31Cjamp__1784564928.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_3536c72e1e26eced__0aXOy31Cjamp__1784564928.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 14,
+     "ts": 1784564928
+    }
+   ]
+  },
+  "bark_3704d8b946ab86f5": {
+   "selected": "_barks/takes/bark_3704d8b946ab86f5__mag258__1784564934.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_3704d8b946ab86f5__mag258__1784564934.mp3",
+     "voiceId": "mag_258",
+     "voiceName": "Sophia Elizabeth",
+     "stability": 0.0,
+     "chars": 65,
+     "ts": 1784564934
+    }
+   ]
+  },
+  "bark_3fe07dee5d5de07a": {
+   "selected": "_barks/takes/bark_3fe07dee5d5de07a__TDTTIZEngvvW__1784564937.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_3fe07dee5d5de07a__TDTTIZEngvvW__1784564937.mp3",
+     "voiceId": "TDTTIZEngvvWARkECefs",
+     "voiceName": "Villain - harsh, abrasive, and volatile",
+     "stability": 0.0,
+     "chars": 66,
+     "ts": 1784564937
+    }
+   ]
+  },
+  "bark_4657a4b0e9b13d0d": {
+   "selected": "_barks/takes/bark_4657a4b0e9b13d0d__mag177__1784564942.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_4657a4b0e9b13d0d__mag177__1784564942.mp3",
+     "voiceId": "mag_177",
+     "voiceName": "Adam Hughes",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784564942
+    }
+   ]
+  },
+  "bark_467c34f8efa45d5c": {
+   "selected": "_barks/takes/bark_467c34f8efa45d5c__mag334__1784564947.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_467c34f8efa45d5c__mag334__1784564947.mp3",
+     "voiceId": "mag_334",
+     "voiceName": "Madison Taylor",
+     "stability": 0.0,
+     "chars": 29,
+     "ts": 1784564947
+    }
+   ]
+  },
+  "bark_49b51e0e2d9175e6": {
+   "selected": "_barks/takes/bark_49b51e0e2d9175e6__mag266__1784564952.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_49b51e0e2d9175e6__mag266__1784564952.mp3",
+     "voiceId": "mag_266",
+     "voiceName": "Aiden Samuel",
+     "stability": 0.0,
+     "chars": 30,
+     "ts": 1784564952
+    }
+   ]
+  },
+  "bark_4a2c5b879184fe0f": {
+   "selected": "_barks/takes/bark_4a2c5b879184fe0f__0aXOy31Cjamp__1784564954.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_4a2c5b879184fe0f__0aXOy31Cjamp__1784564954.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 39,
+     "ts": 1784564954
+    }
+   ]
+  },
+  "bark_4a4914e3c97d931f": {
+   "selected": "_barks/takes/bark_4a4914e3c97d931f__mag296__1784564960.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_4a4914e3c97d931f__mag296__1784564960.mp3",
+     "voiceId": "mag_296",
+     "voiceName": "James Smith",
+     "stability": 0.0,
+     "chars": 25,
+     "ts": 1784564960
+    }
+   ]
+  },
+  "bark_4b8a5bc73054d44b": {
+   "selected": "_barks/takes/bark_4b8a5bc73054d44b__mag600__1784564966.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_4b8a5bc73054d44b__mag600__1784564966.mp3",
+     "voiceId": "mag_600",
+     "voiceName": "Jack Rawlins",
+     "stability": 0.0,
+     "chars": 21,
+     "ts": 1784564966
+    }
+   ]
+  },
+  "bark_4bf7b5cee1dc687d": {
+   "selected": "_barks/takes/bark_4bf7b5cee1dc687d__mag281__1784564971.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_4bf7b5cee1dc687d__mag281__1784564971.mp3",
+     "voiceId": "mag_281",
+     "voiceName": "Logan Anderson",
+     "stability": 0.0,
+     "chars": 28,
+     "ts": 1784564971
+    }
+   ]
+  },
+  "bark_5c8dfa255c522c2d": {
+   "selected": "_barks/takes/bark_5c8dfa255c522c2d__0aXOy31Cjamp__1784564974.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_5c8dfa255c522c2d__0aXOy31Cjamp__1784564974.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 66,
+     "ts": 1784564974
+    }
+   ]
+  },
+  "bark_5f603715298ee65f": {
+   "selected": "_barks/takes/bark_5f603715298ee65f__mag390__1784564980.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_5f603715298ee65f__mag390__1784564980.mp3",
+     "voiceId": "mag_390",
+     "voiceName": "James Carter",
+     "stability": 0.0,
+     "chars": 34,
+     "ts": 1784564980
+    }
+   ]
+  },
+  "bark_64a60013318008a3": {
+   "selected": "_barks/takes/bark_64a60013318008a3__mag177__1784564985.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_64a60013318008a3__mag177__1784564985.mp3",
+     "voiceId": "mag_177",
+     "voiceName": "Adam Hughes",
+     "stability": 0.0,
+     "chars": 51,
+     "ts": 1784564985
+    }
+   ]
+  },
+  "bark_658cdd88a5aca2e7": {
+   "selected": "_barks/takes/bark_658cdd88a5aca2e7__mag35__1784564989.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_658cdd88a5aca2e7__mag35__1784564989.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0.0,
+     "chars": 39,
+     "ts": 1784564989
+    }
+   ]
+  },
+  "bark_683b0e79f3d6f751": {
+   "selected": "_barks/takes/bark_683b0e79f3d6f751__0aXOy31Cjamp__1784564993.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_683b0e79f3d6f751__0aXOy31Cjamp__1784564993.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 89,
+     "ts": 1784564993
+    }
+   ]
+  },
+  "bark_6a7d649c5f802c3a": {
+   "selected": "_barks/takes/bark_6a7d649c5f802c3a__0aXOy31Cjamp__1784564996.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_6a7d649c5f802c3a__0aXOy31Cjamp__1784564996.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 54,
+     "ts": 1784564996
+    }
+   ]
+  },
+  "bark_6b7acb280d88c7c5": {
+   "selected": "_barks/takes/bark_6b7acb280d88c7c5__mag544__1784565001.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_6b7acb280d88c7c5__mag544__1784565001.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0.0,
+     "chars": 15,
+     "ts": 1784565001
+    }
+   ]
+  },
+  "bark_718f0761c63d8136": {
+   "selected": "_barks/takes/bark_718f0761c63d8136__mag364__1784565006.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_718f0761c63d8136__mag364__1784565006.mp3",
+     "voiceId": "mag_364",
+     "voiceName": "Sophia Morgan",
+     "stability": 0.0,
+     "chars": 35,
+     "ts": 1784565006
+    }
+   ]
+  },
+  "bark_7393436395d9a08a": {
+   "selected": "_barks/takes/bark_7393436395d9a08a__mag516__1784565011.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_7393436395d9a08a__mag516__1784565011.mp3",
+     "voiceId": "mag_516",
+     "voiceName": "Dominic Blaze",
+     "stability": 0.0,
+     "chars": 31,
+     "ts": 1784565011
+    }
+   ]
+  },
+  "bark_76ffd2863b15c7b9": {
+   "selected": "_barks/takes/bark_76ffd2863b15c7b9__0aXOy31Cjamp__1784565014.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_76ffd2863b15c7b9__0aXOy31Cjamp__1784565014.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 57,
+     "ts": 1784565014
+    }
+   ]
+  },
+  "bark_770908c440c50583": {
+   "selected": "_barks/takes/bark_770908c440c50583__0aXOy31Cjamp__1784565018.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_770908c440c50583__0aXOy31Cjamp__1784565018.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 58,
+     "ts": 1784565018
+    }
+   ]
+  },
+  "bark_7a2cb054257e8f6e": {
+   "selected": "_barks/takes/bark_7a2cb054257e8f6e__mag174__1784565023.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_7a2cb054257e8f6e__mag174__1784565023.mp3",
+     "voiceId": "mag_174",
+     "voiceName": "Aidan Doyle",
+     "stability": 0.0,
+     "chars": 30,
+     "ts": 1784565023
+    }
+   ]
+  },
+  "bark_7dffa3dd3f9c7908": {
+   "selected": "_barks/takes/bark_7dffa3dd3f9c7908__mag366__1784565028.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_7dffa3dd3f9c7908__mag366__1784565028.mp3",
+     "voiceId": "mag_366",
+     "voiceName": "Ethan Parker",
+     "stability": 0.0,
+     "chars": 22,
+     "ts": 1784565028
+    }
+   ]
+  },
+  "bark_855f90780e64dd2d": {
+   "selected": "_barks/takes/bark_855f90780e64dd2d__0aXOy31Cjamp__1784565031.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_855f90780e64dd2d__0aXOy31Cjamp__1784565031.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 62,
+     "ts": 1784565031
+    }
+   ]
+  },
+  "bark_88a42afe7dbaf2f3": {
+   "selected": "_barks/takes/bark_88a42afe7dbaf2f3__mag38__1784565036.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_88a42afe7dbaf2f3__mag38__1784565036.mp3",
+     "voiceId": "mag_38",
+     "voiceName": "Cole Anderson",
+     "stability": 0.0,
+     "chars": 28,
+     "ts": 1784565036
+    }
+   ]
+  },
+  "bark_88b5979986ae0fa0": {
+   "selected": "_barks/takes/bark_88b5979986ae0fa0__mag523__1784565042.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_88b5979986ae0fa0__mag523__1784565042.mp3",
+     "voiceId": "mag_523",
+     "voiceName": "Viremont LeNoir",
+     "stability": 0.0,
+     "chars": 39,
+     "ts": 1784565042
+    }
+   ]
+  },
+  "bark_8959c9413fc5263c": {
+   "selected": "_barks/takes/bark_8959c9413fc5263c__mag436__1784565046.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_8959c9413fc5263c__mag436__1784565046.mp3",
+     "voiceId": "mag_436",
+     "voiceName": "Jamie Clarke",
+     "stability": 0.0,
+     "chars": 13,
+     "ts": 1784565046
+    }
+   ]
+  },
+  "bark_8fc5c9408e0f19de": {
+   "selected": "_barks/takes/bark_8fc5c9408e0f19de__mag164__1784566561.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_8fc5c9408e0f19de__mag318__1784565051.mp3",
+     "voiceId": "mag_318",
+     "voiceName": "Oliver Whitmore",
+     "stability": 0.0,
+     "chars": 14,
+     "ts": 1784565051
+    },
+    {
+     "file": "_barks/takes/bark_8fc5c9408e0f19de__mag164__1784566561.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 14,
+     "ts": 1784566561
+    }
+   ]
+  },
+  "bark_9361d72e216b2319": {
+   "selected": "_barks/takes/bark_9361d72e216b2319__mag516__1784565057.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_9361d72e216b2319__mag516__1784565057.mp3",
+     "voiceId": "mag_516",
+     "voiceName": "Dominic Blaze",
+     "stability": 0.0,
+     "chars": 25,
+     "ts": 1784565057
+    }
+   ]
+  },
+  "bark_953852c953798ec1": {
+   "selected": "_barks/takes/bark_953852c953798ec1__mag350__1784565063.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_953852c953798ec1__mag350__1784565063.mp3",
+     "voiceId": "mag_350",
+     "voiceName": "Henry Beckett",
+     "stability": 0.0,
+     "chars": 22,
+     "ts": 1784565063
+    }
+   ]
+  },
+  "bark_961b5983a317579a": {
+   "selected": "_barks/takes/bark_961b5983a317579a__mag522__1784565069.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_961b5983a317579a__mag522__1784565069.mp3",
+     "voiceId": "mag_522",
+     "voiceName": "Malgorn the Hollow",
+     "stability": 0.0,
+     "chars": 28,
+     "ts": 1784565069
+    }
+   ]
+  },
+  "bark_9724c41020a3af04": {
+   "selected": "_barks/takes/bark_9724c41020a3af04__0aXOy31Cjamp__1784565074.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_9724c41020a3af04__0aXOy31Cjamp__1784565074.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 89,
+     "ts": 1784565074
+    }
+   ]
+  },
+  "bark_98c9047c61e2edd6": {
+   "selected": "_barks/takes/bark_98c9047c61e2edd6__mag334__1784565085.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_98c9047c61e2edd6__mag334__1784565085.mp3",
+     "voiceId": "mag_334",
+     "voiceName": "Madison Taylor",
+     "stability": 0.0,
+     "chars": 29,
+     "ts": 1784565085
+    }
+   ]
+  },
+  "bark_990e656cc666468f": {
+   "selected": "_barks/takes/bark_990e656cc666468f__mag446__1784565089.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_990e656cc666468f__mag446__1784565089.mp3",
+     "voiceId": "mag_446",
+     "voiceName": "Logan Scott",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784565089
+    }
+   ]
+  },
+  "bark_9f5b7a9c83c37ed2": {
+   "selected": "_barks/takes/bark_9f5b7a9c83c37ed2__mag29__1784662455.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag350__1784565094.mp3",
+     "voiceId": "mag_350",
+     "voiceName": "Henry Beckett",
+     "stability": 0.0,
+     "chars": 8,
+     "ts": 1784565094
+    },
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag350__1784662353.mp3",
+     "voiceId": "mag_350",
+     "voiceName": "Henry Beckett",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1784662353
+    },
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag350__1784662383.mp3",
+     "voiceId": "mag_350",
+     "voiceName": "Henry Beckett",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784662383
+    },
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag350__1784662391.mp3",
+     "voiceId": "mag_350",
+     "voiceName": "Henry Beckett",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784662391
+    },
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag29__1784662426.mp3",
+     "voiceId": "mag_29",
+     "voiceName": "Ava Jordan",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784662426
+    },
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag29__1784662441.mp3",
+     "voiceId": "mag_29",
+     "voiceName": "Ava Jordan",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1784662441
+    },
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag29__1784662455.mp3",
+     "voiceId": "mag_29",
+     "voiceName": "Ava Jordan",
+     "stability": 0,
+     "chars": 17,
+     "ts": 1784662455
+    },
+    {
+     "file": "_barks/takes/bark_9f5b7a9c83c37ed2__mag29__1784662464.mp3",
+     "voiceId": "mag_29",
+     "voiceName": "Ava Jordan",
+     "stability": 0,
+     "chars": 16,
+     "ts": 1784662464
+    }
+   ]
+  },
+  "bark_a135018e678b619f": {
+   "selected": "_barks/takes/bark_a135018e678b619f__pFZP5JQG7iQj__1784565099.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_a135018e678b619f__pFZP5JQG7iQj__1784565099.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0.0,
+     "chars": 120,
+     "ts": 1784565099
+    }
+   ]
+  },
+  "bark_a2086e8dccb2c9f2": {
+   "selected": "_barks/takes/bark_a2086e8dccb2c9f2__mag390__1784565109.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_a2086e8dccb2c9f2__mag390__1784565109.mp3",
+     "voiceId": "mag_390",
+     "voiceName": "James Carter",
+     "stability": 0.0,
+     "chars": 28,
+     "ts": 1784565109
+    }
+   ]
+  },
+  "bark_a9243d082fe04072": {
+   "selected": "_barks/takes/bark_a9243d082fe04072__mag164__1784566559.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_a9243d082fe04072__mag318__1784565123.mp3",
+     "voiceId": "mag_318",
+     "voiceName": "Oliver Whitmore",
+     "stability": 0.0,
+     "chars": 30,
+     "ts": 1784565123
+    },
+    {
+     "file": "_barks/takes/bark_a9243d082fe04072__mag164__1784566559.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 30,
+     "ts": 1784566559
+    }
+   ]
+  },
+  "bark_ad429e3692acbd9d": {
+   "selected": "_barks/takes/bark_ad429e3692acbd9d__mag163__1784565129.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_ad429e3692acbd9d__mag163__1784565129.mp3",
+     "voiceId": "mag_163",
+     "voiceName": "Vivian Lane",
+     "stability": 0.0,
+     "chars": 27,
+     "ts": 1784565129
+    }
+   ]
+  },
+  "bark_ae6922bd24b4d0fb": {
+   "selected": "_barks/takes/bark_ae6922bd24b4d0fb__mag600__1784565138.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_ae6922bd24b4d0fb__mag600__1784565138.mp3",
+     "voiceId": "mag_600",
+     "voiceName": "Jack Rawlins",
+     "stability": 0.0,
+     "chars": 26,
+     "ts": 1784565138
+    }
+   ]
+  },
+  "bark_b55f50e234ee0779": {
+   "selected": "_barks/takes/bark_b55f50e234ee0779__mag174__1784565153.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_b55f50e234ee0779__mag174__1784565153.mp3",
+     "voiceId": "mag_174",
+     "voiceName": "Aidan Doyle",
+     "stability": 0.0,
+     "chars": 24,
+     "ts": 1784565153
+    }
+   ]
+  },
+  "bark_b5b5f0b3a05d48e8": {
+   "selected": "_barks/takes/bark_b5b5f0b3a05d48e8__0aXOy31Cjamp__1784565156.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_b5b5f0b3a05d48e8__0aXOy31Cjamp__1784565156.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 61,
+     "ts": 1784565156
+    }
+   ]
+  },
+  "bark_bb3b6a5f4f14d661": {
+   "selected": "_barks/takes/bark_bb3b6a5f4f14d661__mag164__1784566560.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bb3b6a5f4f14d661__mag318__1784565172.mp3",
+     "voiceId": "mag_318",
+     "voiceName": "Oliver Whitmore",
+     "stability": 0.0,
+     "chars": 33,
+     "ts": 1784565172
+    },
+    {
+     "file": "_barks/takes/bark_bb3b6a5f4f14d661__mag164__1784566560.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784566560
+    }
+   ]
+  },
+  "bark_bb731e08cf914a58": {
+   "selected": "_barks/takes/bark_bb731e08cf914a58__mag35__1784565192.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bb731e08cf914a58__mag35__1784565192.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0.0,
+     "chars": 42,
+     "ts": 1784565192
+    }
+   ]
+  },
+  "bark_bb9999c8f1074a92": {
+   "selected": "_barks/takes/bark_bb9999c8f1074a92__mag388__1784565225.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bb9999c8f1074a92__mag388__1784565225.mp3",
+     "voiceId": "mag_388",
+     "voiceName": "Michael Brooks",
+     "stability": 0.0,
+     "chars": 60,
+     "ts": 1784565225
+    }
+   ]
+  },
+  "bark_bcbeb3860d1f81c6": {
+   "selected": "_barks/takes/bark_bcbeb3860d1f81c6__mag179__1784565244.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bcbeb3860d1f81c6__mag179__1784565244.mp3",
+     "voiceId": "mag_179",
+     "voiceName": "Grace O'Neil",
+     "stability": 0.0,
+     "chars": 12,
+     "ts": 1784565244
+    }
+   ]
+  },
+  "bark_bdc8917811477161": {
+   "selected": "_barks/takes/bark_bdc8917811477161__mag544__1784565249.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bdc8917811477161__mag544__1784565249.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0.0,
+     "chars": 21,
+     "ts": 1784565249
+    }
+   ]
+  },
+  "bark_bde43892d6041df1": {
+   "selected": "_barks/takes/bark_bde43892d6041df1__mag252__1784565256.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bde43892d6041df1__mag252__1784565256.mp3",
+     "voiceId": "mag_252",
+     "voiceName": "Noah Jackson",
+     "stability": 0.0,
+     "chars": 18,
+     "ts": 1784565256
+    }
+   ]
+  },
+  "bark_bdf7610a4d7c56d5": {
+   "selected": "_barks/takes/bark_bdf7610a4d7c56d5__mag364__1784565261.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bdf7610a4d7c56d5__mag364__1784565261.mp3",
+     "voiceId": "mag_364",
+     "voiceName": "Sophia Morgan",
+     "stability": 0.0,
+     "chars": 35,
+     "ts": 1784565261
+    }
+   ]
+  },
+  "bark_be22228a940e0aff": {
+   "selected": "_barks/takes/bark_be22228a940e0aff__mag337__1784565266.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_be22228a940e0aff__mag337__1784565266.mp3",
+     "voiceId": "mag_337",
+     "voiceName": "Jackson Cooper",
+     "stability": 0.0,
+     "chars": 4,
+     "ts": 1784565266
+    }
+   ]
+  },
+  "bark_bfd35b9e9758a13c": {
+   "selected": "_barks/takes/bark_bfd35b9e9758a13c__mag163__1784565271.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_bfd35b9e9758a13c__mag163__1784565271.mp3",
+     "voiceId": "mag_163",
+     "voiceName": "Vivian Lane",
+     "stability": 0.0,
+     "chars": 13,
+     "ts": 1784565271
+    }
+   ]
+  },
+  "bark_c281868cf6530ae8": {
+   "selected": "_barks/takes/bark_c281868cf6530ae8__mag584__1784565278.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_c281868cf6530ae8__mag584__1784565278.mp3",
+     "voiceId": "mag_584",
+     "voiceName": "Titan Steele",
+     "stability": 0.0,
+     "chars": 24,
+     "ts": 1784565278
+    }
+   ]
+  },
+  "bark_c9f829bb4b4e7fdb": {
+   "selected": "_barks/takes/bark_c9f829bb4b4e7fdb__mag385__1784565283.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_c9f829bb4b4e7fdb__mag385__1784565283.mp3",
+     "voiceId": "mag_385",
+     "voiceName": "Ethan Fraser",
+     "stability": 0.0,
+     "chars": 25,
+     "ts": 1784565283
+    }
+   ]
+  },
+  "bark_cb680ebdadcb8f13": {
+   "selected": "_barks/takes/bark_cb680ebdadcb8f13__mag245__1784565288.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_cb680ebdadcb8f13__mag245__1784565288.mp3",
+     "voiceId": "mag_245",
+     "voiceName": "Ava Madison",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784565288
+    }
+   ]
+  },
+  "bark_cd31fd7548a06cd1": {
+   "selected": "_barks/takes/bark_cd31fd7548a06cd1__0aXOy31Cjamp__1784565291.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_cd31fd7548a06cd1__0aXOy31Cjamp__1784565291.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 42,
+     "ts": 1784565291
+    }
+   ]
+  },
+  "bark_cea7fc042c52dbbd": {
+   "selected": "_barks/takes/bark_cea7fc042c52dbbd__mag584__1784565295.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_cea7fc042c52dbbd__mag584__1784565295.mp3",
+     "voiceId": "mag_584",
+     "voiceName": "Titan Steele",
+     "stability": 0.0,
+     "chars": 14,
+     "ts": 1784565295
+    }
+   ]
+  },
+  "bark_cfe2db6b651f77ca": {
+   "selected": "_barks/takes/bark_cfe2db6b651f77ca__mag174__1784565302.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_cfe2db6b651f77ca__mag174__1784565302.mp3",
+     "voiceId": "mag_174",
+     "voiceName": "Aidan Doyle",
+     "stability": 0.0,
+     "chars": 23,
+     "ts": 1784565302
+    }
+   ]
+  },
+  "bark_d09455783b4f21a1": {
+   "selected": "_barks/takes/bark_d09455783b4f21a1__1EZBFEhLjqjz__1784565304.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d09455783b4f21a1__1EZBFEhLjqjz__1784565304.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0.0,
+     "chars": 26,
+     "ts": 1784565304
+    }
+   ]
+  },
+  "bark_d111cbe92e6e8aab": {
+   "selected": "_barks/takes/bark_d111cbe92e6e8aab__mag182__1784565310.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d111cbe92e6e8aab__mag182__1784565310.mp3",
+     "voiceId": "mag_182",
+     "voiceName": "Liam Parker",
+     "stability": 0.0,
+     "chars": 25,
+     "ts": 1784565310
+    }
+   ]
+  },
+  "bark_d6837c9bfbba5ef0": {
+   "selected": "_barks/takes/bark_d6837c9bfbba5ef0__0aXOy31Cjamp__1784565313.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d6837c9bfbba5ef0__0aXOy31Cjamp__1784565313.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 70,
+     "ts": 1784565313
+    }
+   ]
+  },
+  "bark_d88dab71f25e1375": {
+   "selected": "_barks/takes/bark_d88dab71f25e1375__mag332__1784565318.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d88dab71f25e1375__mag332__1784565318.mp3",
+     "voiceId": "mag_332",
+     "voiceName": "Charlotte Winslow",
+     "stability": 0.0,
+     "chars": 20,
+     "ts": 1784565318
+    }
+   ]
+  },
+  "bark_d90e96fc8b6e430f": {
+   "selected": "_barks/takes/bark_d90e96fc8b6e430f__mag270__1784565323.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d90e96fc8b6e430f__mag270__1784565323.mp3",
+     "voiceId": "mag_270",
+     "voiceName": "Henry Arthur",
+     "stability": 0.0,
+     "chars": 33,
+     "ts": 1784565323
+    }
+   ]
+  },
+  "bark_d91a41bd3d83bced": {
+   "selected": "_barks/takes/bark_d91a41bd3d83bced__mag378__1784565328.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_d91a41bd3d83bced__mag378__1784565328.mp3",
+     "voiceId": "mag_378",
+     "voiceName": "Arthur Kensington",
+     "stability": 0.0,
+     "chars": 6,
+     "ts": 1784565328
+    }
+   ]
+  },
+  "bark_db8967d14dca1212": {
+   "selected": "_barks/takes/bark_db8967d14dca1212__mag600__1784565333.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_db8967d14dca1212__mag600__1784565333.mp3",
+     "voiceId": "mag_600",
+     "voiceName": "Jack Rawlins",
+     "stability": 0.0,
+     "chars": 5,
+     "ts": 1784565333
+    }
+   ]
+  },
+  "bark_dd37375b93b15bda": {
+   "selected": "_barks/takes/bark_dd37375b93b15bda__mag264__1784565338.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_dd37375b93b15bda__mag264__1784565338.mp3",
+     "voiceId": "mag_264",
+     "voiceName": "Caleb Ryan",
+     "stability": 0.0,
+     "chars": 42,
+     "ts": 1784565338
+    }
+   ]
+  },
+  "bark_ddfd26a541347da6": {
+   "selected": "_barks/takes/bark_ddfd26a541347da6__mag446__1784565344.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_ddfd26a541347da6__mag446__1784565344.mp3",
+     "voiceId": "mag_446",
+     "voiceName": "Logan Scott",
+     "stability": 0.0,
+     "chars": 49,
+     "ts": 1784565344
+    }
+   ]
+  },
+  "bark_df1c7ccbb6a73009": {
+   "selected": "_barks/takes/bark_df1c7ccbb6a73009__0aXOy31Cjamp__1784565347.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_df1c7ccbb6a73009__0aXOy31Cjamp__1784565347.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 40,
+     "ts": 1784565347
+    }
+   ]
+  },
+  "bark_dfb4d999ee18b985": {
+   "selected": "_barks/takes/bark_dfb4d999ee18b985__mag281__1784565351.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_dfb4d999ee18b985__mag281__1784565351.mp3",
+     "voiceId": "mag_281",
+     "voiceName": "Logan Anderson",
+     "stability": 0.0,
+     "chars": 33,
+     "ts": 1784565351
+    }
+   ]
+  },
+  "bark_dfd304678ea5bf89": {
+   "selected": "_barks/takes/bark_dfd304678ea5bf89__mag447__1784565356.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_dfd304678ea5bf89__mag447__1784565356.mp3",
+     "voiceId": "mag_447",
+     "voiceName": "Caleb Morgan",
+     "stability": 0.0,
+     "chars": 26,
+     "ts": 1784565356
+    }
+   ]
+  },
+  "bark_e77c49eaa47b13bf": {
+   "selected": "_barks/takes/bark_e77c49eaa47b13bf__mag258__1784565361.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_e77c49eaa47b13bf__mag258__1784565361.mp3",
+     "voiceId": "mag_258",
+     "voiceName": "Sophia Elizabeth",
+     "stability": 0.0,
+     "chars": 29,
+     "ts": 1784565361
+    }
+   ]
+  },
+  "bark_eb235931b8ea51fb": {
+   "selected": "_barks/takes/bark_eb235931b8ea51fb__mag600__1784565366.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_eb235931b8ea51fb__mag600__1784565366.mp3",
+     "voiceId": "mag_600",
+     "voiceName": "Jack Rawlins",
+     "stability": 0.0,
+     "chars": 20,
+     "ts": 1784565366
+    }
+   ]
+  },
+  "bark_ebe734bab56f58bc": {
+   "selected": "_barks/takes/bark_ebe734bab56f58bc__mag35__1784565370.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_ebe734bab56f58bc__mag35__1784565370.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0.0,
+     "chars": 31,
+     "ts": 1784565370
+    }
+   ]
+  },
+  "bark_f22e792493b7c380": {
+   "selected": "_barks/takes/bark_f22e792493b7c380__1EZBFEhLjqjz__1784565372.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_f22e792493b7c380__1EZBFEhLjqjz__1784565372.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0.0,
+     "chars": 17,
+     "ts": 1784565372
+    }
+   ]
+  },
+  "bark_f25f90c4f88b55a1": {
+   "selected": "_barks/takes/bark_f25f90c4f88b55a1__mag544__1784565377.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_f25f90c4f88b55a1__mag544__1784565377.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0.0,
+     "chars": 27,
+     "ts": 1784565377
+    }
+   ]
+  },
+  "bark_f3372c23e5b66cc9": {
+   "selected": "_barks/takes/bark_f3372c23e5b66cc9__mag664__1784565382.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_f3372c23e5b66cc9__mag664__1784565382.mp3",
+     "voiceId": "mag_664",
+     "voiceName": "Evelyn Vale",
+     "stability": 0.0,
+     "chars": 33,
+     "ts": 1784565382
+    }
+   ]
+  },
+  "bark_f53383338c26b7f8": {
+   "selected": "_barks/takes/bark_f53383338c26b7f8__mag544__1784565386.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_f53383338c26b7f8__mag544__1784565386.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0.0,
+     "chars": 21,
+     "ts": 1784565386
+    }
+   ]
+  },
+  "bark_fa692d85f08c92a5": {
+   "selected": "_barks/takes/bark_fa692d85f08c92a5__mag436__1784565391.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_fa692d85f08c92a5__mag436__1784565391.mp3",
+     "voiceId": "mag_436",
+     "voiceName": "Jamie Clarke",
+     "stability": 0.0,
+     "chars": 14,
+     "ts": 1784565391
+    }
+   ]
+  },
+  "bark_fd4de36b45d14253": {
+   "selected": "_barks/takes/bark_fd4de36b45d14253__mag544__1784565396.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_fd4de36b45d14253__mag544__1784565396.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784565396
+    }
+   ]
+  },
+  "bark_fdbfd93df92a49e4": {
+   "selected": "_barks/takes/bark_fdbfd93df92a49e4__0aXOy31Cjamp__1784565398.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_fdbfd93df92a49e4__0aXOy31Cjamp__1784565398.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0.0,
+     "chars": 60,
+     "ts": 1784565398
+    }
+   ]
+  },
+  "bark_051f5c4e53743f53": {
+   "selected": "_barks/takes/bark_051f5c4e53743f53__sapi_david__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_051f5c4e53743f53__sapi_david__1784564867.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 52,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_11cb7e01409d66f9": {
+   "selected": "_barks/takes/bark_11cb7e01409d66f9__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_11cb7e01409d66f9__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_1ba0bd50abd592a4": {
+   "selected": "_barks/takes/bark_1ba0bd50abd592a4__sapi_david__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_1ba0bd50abd592a4__sapi_david__1784564867.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 45,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_34d0b1e1e06b8f20": {
+   "selected": "_barks/takes/bark_34d0b1e1e06b8f20__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_34d0b1e1e06b8f20__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_4d693d994d3adae1": {
+   "selected": "_barks/takes/bark_4d693d994d3adae1__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_4d693d994d3adae1__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_598b35d49a8b2b22": {
+   "selected": "_barks/takes/bark_598b35d49a8b2b22__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_598b35d49a8b2b22__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_8bf77be45e5949d3": {
+   "selected": "_barks/takes/bark_8bf77be45e5949d3__sapi_david__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_8bf77be45e5949d3__sapi_david__1784564867.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 17,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_8c52a2b62344caff": {
+   "selected": "_barks/takes/bark_8c52a2b62344caff__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_8c52a2b62344caff__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 34,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_91fa0fe55ce91cd7": {
+   "selected": "_barks/takes/bark_91fa0fe55ce91cd7__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_91fa0fe55ce91cd7__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_cb8ccbcefc7327db": {
+   "selected": "_barks/takes/bark_cb8ccbcefc7327db__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_cb8ccbcefc7327db__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_cf0e464b5b909b07": {
+   "selected": "_barks/takes/bark_cf0e464b5b909b07__sapi_david__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_cf0e464b5b909b07__sapi_david__1784564867.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 30,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_ef0924fcc0d941e1": {
+   "selected": "_barks/takes/bark_ef0924fcc0d941e1__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_ef0924fcc0d941e1__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_f1f898dbe2924e03": {
+   "selected": "_barks/takes/bark_f1f898dbe2924e03__sapi_david__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_f1f898dbe2924e03__sapi_david__1784564867.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_fef7dabc4e27d94e": {
+   "selected": "_barks/takes/bark_fef7dabc4e27d94e__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_fef7dabc4e27d94e__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 30,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_9c4a1969632b1f20": {
+   "selected": "_barks/takes/bark_9c4a1969632b1f20__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_9c4a1969632b1f20__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 58,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_362bd5400b34d373": {
+   "selected": "_barks/takes/bark_362bd5400b34d373__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_362bd5400b34d373__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 57,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_231a06c7f772660c": {
+   "selected": "_barks/takes/bark_231a06c7f772660c__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_231a06c7f772660c__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 51,
+     "ts": 1784564867
+    }
+   ]
+  },
+  "bark_96f7d60e3a25f30e": {
+   "selected": "_barks/takes/bark_96f7d60e3a25f30e__sapi_zira__1784564867.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_96f7d60e3a25f30e__sapi_zira__1784564867.mp3",
+     "voiceId": "sapi_zira",
+     "voiceName": "Microsoft Zira (SAPI)",
+     "stability": 0,
+     "chars": 51,
+     "ts": 1784564867
+    }
+   ]
   }
  },
  "name_alex": {
@@ -57333,6 +61072,53 @@
      "stability": 0,
      "chars": 81,
      "ts": 1784129880
+    }
+   ]
+  },
+  "519ce41d623331c81f003dac_5": {
+   "selected": "name_playercharacter1/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497569.mp3",
+   "takes": [
+    {
+     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497561.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784497561
+    },
+    {
+     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497569.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784497569
+    }
+   ]
+  },
+  "519ce41d623331c81f003dac_8": {
+   "selected": "name_playercharacter1/takes/519ce41d623331c81f003dac_8__uLCvmeolFYSV__1784497563.mp3",
+   "takes": [
+    {
+     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_8__uLCvmeolFYSV__1784497563.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784497563
+    }
+   ]
+  },
+  "519ce41d623331c81f003dac_7": {
+   "selected": "name_playercharacter1/takes/519ce41d623331c81f003dac_7__uLCvmeolFYSV__1784497564.mp3",
+   "takes": [
+    {
+     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_7__uLCvmeolFYSV__1784497564.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784497564
     }
    ]
   }
@@ -58169,6 +61955,14 @@
      "stability": 0,
      "chars": 33,
      "ts": 1784143150
+    },
+    {
+     "file": "name_hooker/takes/6b1a6497623331ec1b004826_0__mag542__1784710766.mp3",
+     "voiceId": "mag_542",
+     "voiceName": "Selene Vex",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784710766
     }
    ]
   },
@@ -58182,6 +61976,14 @@
      "stability": 0,
      "chars": 106,
      "ts": 1784143162
+    },
+    {
+     "file": "name_hooker/takes/6b1a6497623331ec1b004826_1__mag542__1784710768.mp3",
+     "voiceId": "mag_542",
+     "voiceName": "Selene Vex",
+     "stability": 0,
+     "chars": 106,
+     "ts": 1784710768
     }
    ]
   },
@@ -58195,6 +61997,14 @@
      "stability": 0,
      "chars": 85,
      "ts": 1784143162
+    },
+    {
+     "file": "name_hooker/takes/6b1a6497623331ec1b004826_2__mag542__1784710769.mp3",
+     "voiceId": "mag_542",
+     "voiceName": "Selene Vex",
+     "stability": 0,
+     "chars": 85,
+     "ts": 1784710769
     }
    ]
   },
@@ -58208,6 +62018,38 @@
      "stability": 0,
      "chars": 108,
      "ts": 1784143166
+    },
+    {
+     "file": "name_hooker/takes/6b1a6497623331ec1b004826_3__mag162__1784710651.mp3",
+     "voiceId": "mag_162",
+     "voiceName": "Sasha Monroe",
+     "stability": 0,
+     "chars": 122,
+     "ts": 1784710651
+    },
+    {
+     "file": "name_hooker/takes/6b1a6497623331ec1b004826_3__mag162__1784710663.mp3",
+     "voiceId": "mag_162",
+     "voiceName": "Sasha Monroe",
+     "stability": 0,
+     "chars": 122,
+     "ts": 1784710663
+    },
+    {
+     "file": "name_hooker/takes/6b1a6497623331ec1b004826_3__mag162__1784710717.mp3",
+     "voiceId": "mag_162",
+     "voiceName": "Sasha Monroe",
+     "stability": 0,
+     "chars": 126,
+     "ts": 1784710717
+    },
+    {
+     "file": "name_hooker/takes/6b1a6497623331ec1b004826_3__mag542__1784710770.mp3",
+     "voiceId": "mag_542",
+     "voiceName": "Selene Vex",
+     "stability": 0,
+     "chars": 126,
+     "ts": 1784710770
     }
    ]
   }
@@ -58301,6 +62143,446 @@
      "stability": 0,
      "chars": 37,
      "ts": 1784189774
+    }
+   ]
+  }
+ },
+ "name_junkie": {
+  "51a6cf136233316c1f000767_0": {
+   "selected": "name_junkie/takes/51a6cf136233316c1f000767_0__mag535__1784496005.mp3",
+   "takes": [
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_0__mag535__1784496005.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 112,
+     "ts": 1784496005
+    }
+   ]
+  },
+  "51a6cf136233316c1f000767_2": {
+   "selected": "name_junkie/takes/51a6cf136233316c1f000767_2__mag535__1784496065.mp3",
+   "takes": [
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_2__mag535__1784496025.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 40,
+     "ts": 1784496025
+    },
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_2__mag535__1784496065.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1784496065
+    }
+   ]
+  },
+  "51a6cf136233316c1f000767_1": {
+   "selected": "name_junkie/takes/51a6cf136233316c1f000767_1__mag535__1784496026.mp3",
+   "takes": [
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_1__mag535__1784496026.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1784496026
+    },
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_1__mag535__1784496033.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1784496033
+    },
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_1__mag535__1784496047.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784496047
+    },
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_1__mag535__1784496060.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1784496060
+    },
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_1__mag535__1784496090.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 16,
+     "ts": 1784496090
+    }
+   ]
+  },
+  "51a6cf136233316c1f000767_3": {
+   "selected": "name_junkie/takes/51a6cf136233316c1f000767_3__mag535__1784496065.mp3",
+   "takes": [
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_3__mag535__1784496027.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 48,
+     "ts": 1784496027
+    },
+    {
+     "file": "name_junkie/takes/51a6cf136233316c1f000767_3__mag535__1784496065.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 41,
+     "ts": 1784496065
+    }
+   ]
+  }
+ },
+ "name_gino": {
+  "51bd117f356164580b001757_1": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_1__mag35__1784663980.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_1__mag35__1784663980.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 93,
+     "ts": 1784663980
+    }
+   ]
+  },
+  "51bd117f356164580b001757_3": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_3__mag35__1784663992.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_3__mag35__1784663992.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 113,
+     "ts": 1784663992
+    }
+   ]
+  },
+  "51bd117f356164580b001757_7": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_7__mag35__1784664014.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_7__mag35__1784664014.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 47,
+     "ts": 1784664014
+    }
+   ]
+  },
+  "51bd117f356164580b001757_8": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_8__mag35__1784664050.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_8__mag35__1784664018.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 53,
+     "ts": 1784664018
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_8__mag35__1784664050.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 55,
+     "ts": 1784664050
+    }
+   ]
+  },
+  "51bd117f356164580b001757_10~c1": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_10~c1__mag35__1784664039.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_10~c1__mag35__1784664039.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1784664039
+    }
+   ]
+  },
+  "51bd117f356164580b001757_10~c0": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_10~c0__mag35__1784664038.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_10~c0__mag35__1784664038.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 75,
+     "ts": 1784664038
+    }
+   ]
+  },
+  "51bd117f356164580b001757_11": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_11__mag35__1784664133.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_11__mag35__1784664084.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1784664084
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_11__mag35__1784664110.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784664110
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_11__mag35__1784664133.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784664133
+    }
+   ]
+  },
+  "51bd117f356164580b001757_14": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_14__mag35__1784664098.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_14__mag35__1784664098.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 66,
+     "ts": 1784664098
+    }
+   ]
+  },
+  "51bd117f356164580b001757_15": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_15__mag35__1784664268.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_15__mag35__1784664192.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 157,
+     "ts": 1784664192
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_15__mag35__1784664229.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 157,
+     "ts": 1784664229
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_15__mag35__1784664245.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 153,
+     "ts": 1784664245
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_15__mag35__1784664268.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 154,
+     "ts": 1784664268
+    }
+   ]
+  },
+  "51bd117f356164580b001757_16": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_16__mag35__1784664304.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_16__mag35__1784664198.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784664198
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_16__mag35__1784664304.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784664304
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_16__mag35__1784664319.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784664319
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_16__mag35__1784664350.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 43,
+     "ts": 1784664350
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_16__mag35__1784664375.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 46,
+     "ts": 1784664375
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_16__mag35__1784664403.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1784664403
+    }
+   ]
+  },
+  "51bd117f356164580b001757_18": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_18__mag35__1784664212.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_18__mag35__1784664212.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 34,
+     "ts": 1784664212
+    }
+   ]
+  },
+  "51bd117f356164580b001757_19": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_19__mag35__1784664307.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_19__mag35__1784664307.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1784664307
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_19__mag35__1784664327.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1784664327
+    }
+   ]
+  },
+  "51bd117f356164580b001757_22": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_22__mag35__1784664453.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_22__mag35__1784664453.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 22,
+     "ts": 1784664453
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_22__mag35__1784664520.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1784664520
+    }
+   ]
+  },
+  "51bd117f356164580b001757_21": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_21__mag35__1784664457.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_21__mag35__1784664457.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 113,
+     "ts": 1784664457
+    }
+   ]
+  },
+  "51bd117f356164580b001757_28~c0": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_28~c0__mag35__1784664567.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_28~c0__mag35__1784664494.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 102,
+     "ts": 1784664494
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_28~c0__mag35__1784664541.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1784664541
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_28~c0__mag35__1784664567.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1784664567
+    }
+   ]
+  },
+  "51bd117f356164580b001757_28~c1": {
+   "selected": "name_gino/takes/51bd117f356164580b001757_28~c1__mag35__1784664548.mp3",
+   "takes": [
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_28~c1__mag35__1784664496.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 55,
+     "ts": 1784664496
+    },
+    {
+     "file": "name_gino/takes/51bd117f356164580b001757_28~c1__mag35__1784664548.mp3",
+     "voiceId": "mag_35",
+     "voiceName": "Grant Walker",
+     "stability": 0,
+     "chars": 68,
+     "ts": 1784664548
     }
    ]
   }

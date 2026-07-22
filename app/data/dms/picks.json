@@ -16,8 +16,8 @@
   "voiceName": "Villain - harsh, abrasive, and volatile"
  },
  "name_mrskubota": {
-  "voiceId": "mag_802",
-  "voiceName": "Ada Okafor"
+  "voiceId": "Sy8sUFzjooSoE1HN3Kkm",
+  "voiceName": "Mrs Kubota"
  },
  "name_dresden": {
   "voiceId": "mag_286",
@@ -194,10 +194,6 @@
  "name_telestrianaccountingterminal": {
   "voiceId": "sapi_zira",
   "voiceName": "Microsoft Zira (SAPI)"
- },
- "name_doctor": {
-  "voiceId": "mag_241",
-  "voiceName": "Charlotte Grace"
  },
  "name_cook": {
   "voiceId": "mag_567",
@@ -496,11 +492,23 @@
   "voiceName": "Mister Gruff - Miserable old neighbor"
  },
  "name_hooker": {
-  "voiceId": "mag_162",
-  "voiceName": "Sasha Monroe"
+  "voiceId": "mag_542",
+  "voiceName": "Selene Vex"
  },
  "name_securityturret1": {
   "voiceId": "0aXOy31Cjamp6gJcyqYu",
   "voiceName": "Matt - Deep Authoritative Narrator"
+ },
+ "name_junkie": {
+  "voiceId": "mag_535",
+  "voiceName": "Walter Briggs"
+ },
+ "name_playercharacter1": {
+  "voiceId": "uLCvmeolFYSV8RxA07Mn",
+  "voiceName": "Male voice"
+ },
+ "name_gino": {
+  "voiceId": "mag_35",
+  "voiceName": "Grant Walker"
  }
 }

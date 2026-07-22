@@ -17,10 +17,18 @@ PLUG="$GAME/BepInEx/plugins/SRRVoices"
 VP="voicepack/$GAME_ID"
 
 python3 tools/build_voicepack.py "$GAME_ID"
+python3 tools/build_portraits.py "$GAME_ID" || true
 
 if [ ! -d "$GAME" ]; then
   echo "GAME DIR NOT FOUND at $GAME — built voicepack but did not install."
   exit 1
+fi
+
+# AI portraits (optional; the plugin falls back to the game's own art when absent)
+if [ -f "portraits_pack/$GAME_ID/portraits.index" ]; then
+  mkdir -p "$PLUG/portraits"
+  cp -f "portraits_pack/$GAME_ID/portraits.index" "$PLUG/portraits/portraits.index"
+  cp -f portraits_pack/$GAME_ID/*.png "$PLUG/portraits/" 2>/dev/null || true
 fi
 
 mkdir -p "$PLUG/voicepack/clips"

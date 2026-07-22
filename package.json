@@ -1,0 +1,9 @@
+{
+  "name": "shadowrun-voices",
+  "version": "1.3.0",
+  "private": true,
+  "description": "Shadowrun Returns voice mod: BepInEx plugin + Voice Lab casting/generation app",
+  "scripts": {
+    "dev": "./app/serve.sh"
+  }
+}

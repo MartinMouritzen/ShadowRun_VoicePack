@@ -38,7 +38,7 @@ Each game is shipped as **its own release / Nexus mod** — same repo, separate 
 
 ## Voice Lab
 
-Run `python3 app/server.py [port]` (default 3717) and open `lab.html`. The top nav switches between the three games and between the **Characters** and **Combat Barks** views; the active game is carried in the `?game=` query param. The ElevenLabs/Magnific voice catalog is shared across all three games; casting, takes, and generated audio are isolated per game.
+Run `yarn dev [port]` (default 3717, or `./app/serve.sh` / `python3 app/server.py` directly) and open `lab.html`. The top nav switches between the three games and between the **Characters** and **Combat Barks** views; the active game is carried in the `?game=` query param. The ElevenLabs/Magnific voice catalog is shared across all three games; casting, takes, and generated audio are isolated per game.
 
 ## Mapping a game's conversations
 
