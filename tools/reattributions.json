@@ -1,0 +1,13 @@
+{
+ "_comment": "Corrections that MOVE already-attributed dialogue lines from a WRONG character to the right one (distinct from unattributed_hand_attribution.json, which only moves lines OUT of the unattributed bucket). Applied by apply_reattributions.py <game> to app/data/<game>/characters.json, AFTER extraction + apply_unattributed. Idempotent: a line is moved only if it is currently under 'from'; re-running is a no-op. The ROOT CAUSE is fixed in extract_game.py (multi-owner primary-NPC disambiguation, verified fresh-vs-fresh), so a future --force re-extract produces the right attribution directly; this file exists to correct the ALREADY-SHIPPED characters.json, which is never re-extracted (extract refuses to overwrite to protect hand-fixes).",
+ "dms": [
+  {
+   "convo": "657c88356233311830004b4f",
+   "convo_name": "c08-s2_Planeyard_Shaman_01",
+   "nodes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+   "from": "name_mcklusky",
+   "to": "name_shannonhalfsky",
+   "reason": "Multi-owner conversation: in scene c08-s2_planeyard BOTH McKlusky (Lonestar_Lv1_Captain) and Shannon Half-Sky (Story_Shaman) bind this convo. Nodes 0-17 have no explicit speaker (protobuf field 12 absent) and are the shaman's dialogue about her brother's trapped spirit, but the extractor's arbitrary first-owner tie-break dumped all 18 onto McKlusky. Confirmed by the GM stage direction 'She looks up, watching you warily' and node 23's explicit Shannon actor ref. McKlusky's own lines (18, 20-22, 24-25, explicit refs) and Officer Aguirre (19) stay put."
+  }
+ ]
+}

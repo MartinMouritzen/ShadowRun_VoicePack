@@ -3297,106 +3297,6 @@
    "t": "Heh. I’ll surprise *them* then."
   }
  ],
- "657c88356233311830004b4f_0": [
-  {
-   "who": "char",
-   "t": "You're not a cop."
-  },
-  {
-   "who": "gm",
-   "t": "She looks up, watching you warily."
-  }
- ],
- "657c88356233311830004b4f_1": [
-  {
-   "who": "gm",
-   "t": "The suspicion in her voice and eyes departs almost instantly when the subject turns to the deceased."
-  },
-  {
-   "who": "char",
-   "t": "He's my brother. I... I've been trying to speak with him."
-  }
- ],
- "657c88356233311830004b4f_4": [
-  {
-   "who": "char",
-   "t": "Not so far as I can tell. Not among the living anyway."
-  },
-  {
-   "who": "gm",
-   "t": "Realization then dawns, bringing the light back into her eyes."
-  }
- ],
- "657c88356233311830004b4f_5": [
-  {
-   "who": "char",
-   "t": "But my brother's spirit may not be alone here this night."
-  },
-  {
-   "who": "gm",
-   "t": "She closes her eyes and concentrates, droning a low chant you can barely hear."
-  }
- ],
- "657c88356233311830004b4f_6": [
-  {
-   "who": "char",
-   "t": "Yes... There are others... Other spirits who may be of help."
-  },
-  {
-   "who": "gm",
-   "t": "Her features harden in frustration, as if she's searching for something that remains elusive. Sighing, she opens her eyes and fixes you with a stare."
-  }
- ],
- "657c88356233311830004b4f_11": [
-  {
-   "who": "char",
-   "t": "A spirit is but an echo, and my brother's is in a very fragile state."
-  },
-  {
-   "who": "gm",
-   "t": "Her brow then furrows with a sudden thought."
-  }
- ],
- "657c88356233311830004b4f_12": [
-  {
-   "who": "gm",
-   "t": "She looks at you, the flattery largely failing to affect her, given the circumstances. But then inspiration dispels the dark cloud surrounding her."
-  },
-  {
-   "who": "char",
-   "t": "Perhaps. My brother's spirit is too weak. That's a given."
-  }
- ],
- "657c88356233311830004b4f_13": [
-  {
-   "who": "gm",
-   "t": "She glares at you for a moment and you can see pain in her eyes, along with something else. Power."
-  },
-  {
-   "who": "char",
-   "t": "He's my brother, and I'm trying to learn from him the identity of his killer."
-  }
- ],
- "657c88356233311830004b4f_14": [
-  {
-   "who": "char",
-   "t": "Yes. He's my older brother. I've asked Bear to help me speak to him..."
-  },
-  {
-   "who": "gm",
-   "t": "She shakes her head, looking like one who has found herself lost for the first time in her life."
-  }
- ],
- "657c88356233311830004b4f_17": [
-  {
-   "who": "gm",
-   "t": "You hand her the objects you've found. She closes her eyes and chants over them for a time. When her eyes open again, they're filled with tears."
-  },
-  {
-   "who": "char",
-   "t": "Thank you. These items are all I will need. It shouldn't take me long to--"
-  }
- ],
  "5199765e62333104060047c2_1": [
   {
    "who": "gm",
@@ -3749,6 +3649,22 @@
   {
    "who": "char",
    "t": "I'm sure we'll see each other again."
+  }
+ ],
+ "8f8a7ef36233318c24006ec2_0": [
+  {
+   "who": "gm",
+   "t": "Just one glance is all you need to tell that the good doctor is exhausted. Her crumpled scrubs are stained with a mix of blood and other fluids too colorful to be naturally occurring in the human body. Her eyes are those of a person who has built up a substantial sleep debt and has no idea when or how to begin paying it off."
+  }
+ ],
+ "8f8a7ef36233318c24006ec2_2": [
+  {
+   "who": "gm",
+   "t": "Doc Castle snaps her fingers and calls forth the spirit normally seen perched on her shoulder. It appears from out of the ether, and the doctor immediately seems less fatigued than she was a moment before."
+  },
+  {
+   "who": "char",
+   "t": "Now, what can I do for you?"
   }
  ],
  "519a60ad306434d0170044ad_0": [
@@ -4527,6 +4443,106 @@
   {
    "who": "gm",
    "t": "She scowls at it, looking every bit like she intends to reach through the small sample and dismember its owner from afar. And perhaps she can."
+  }
+ ],
+ "657c88356233311830004b4f_0": [
+  {
+   "who": "char",
+   "t": "You're not a cop."
+  },
+  {
+   "who": "gm",
+   "t": "She looks up, watching you warily."
+  }
+ ],
+ "657c88356233311830004b4f_1": [
+  {
+   "who": "gm",
+   "t": "The suspicion in her voice and eyes departs almost instantly when the subject turns to the deceased."
+  },
+  {
+   "who": "char",
+   "t": "He's my brother. I... I've been trying to speak with him."
+  }
+ ],
+ "657c88356233311830004b4f_4": [
+  {
+   "who": "char",
+   "t": "Not so far as I can tell. Not among the living anyway."
+  },
+  {
+   "who": "gm",
+   "t": "Realization then dawns, bringing the light back into her eyes."
+  }
+ ],
+ "657c88356233311830004b4f_5": [
+  {
+   "who": "char",
+   "t": "But my brother's spirit may not be alone here this night."
+  },
+  {
+   "who": "gm",
+   "t": "She closes her eyes and concentrates, droning a low chant you can barely hear."
+  }
+ ],
+ "657c88356233311830004b4f_6": [
+  {
+   "who": "char",
+   "t": "Yes... There are others... Other spirits who may be of help."
+  },
+  {
+   "who": "gm",
+   "t": "Her features harden in frustration, as if she's searching for something that remains elusive. Sighing, she opens her eyes and fixes you with a stare."
+  }
+ ],
+ "657c88356233311830004b4f_11": [
+  {
+   "who": "char",
+   "t": "A spirit is but an echo, and my brother's is in a very fragile state."
+  },
+  {
+   "who": "gm",
+   "t": "Her brow then furrows with a sudden thought."
+  }
+ ],
+ "657c88356233311830004b4f_12": [
+  {
+   "who": "gm",
+   "t": "She looks at you, the flattery largely failing to affect her, given the circumstances. But then inspiration dispels the dark cloud surrounding her."
+  },
+  {
+   "who": "char",
+   "t": "Perhaps. My brother's spirit is too weak. That's a given."
+  }
+ ],
+ "657c88356233311830004b4f_13": [
+  {
+   "who": "gm",
+   "t": "She glares at you for a moment and you can see pain in her eyes, along with something else. Power."
+  },
+  {
+   "who": "char",
+   "t": "He's my brother, and I'm trying to learn from him the identity of his killer."
+  }
+ ],
+ "657c88356233311830004b4f_14": [
+  {
+   "who": "char",
+   "t": "Yes. He's my older brother. I've asked Bear to help me speak to him..."
+  },
+  {
+   "who": "gm",
+   "t": "She shakes her head, looking like one who has found herself lost for the first time in her life."
+  }
+ ],
+ "657c88356233311830004b4f_17": [
+  {
+   "who": "gm",
+   "t": "You hand her the objects you've found. She closes her eyes and chants over them for a time. When her eyes open again, they're filled with tears."
+  },
+  {
+   "who": "char",
+   "t": "Thank you. These items are all I will need. It shouldn't take me long to--"
   }
  ],
  "85499d2c3030316005004266_0": [
@@ -5975,22 +5991,6 @@
   {
    "who": "gm",
    "t": "This terminal is active and displays a login screen that reads \"Accounting Division\", \"Level: Human Resources I\"."
-  }
- ],
- "8f8a7ef36233318c24006ec2_0": [
-  {
-   "who": "gm",
-   "t": "Just one glance is all you need to tell that the good doctor is exhausted. Her crumpled scrubs are stained with a mix of blood and other fluids too colorful to be naturally occurring in the human body. Her eyes are those of a person who has built up a substantial sleep debt and has no idea when or how to begin paying it off."
-  }
- ],
- "8f8a7ef36233318c24006ec2_2": [
-  {
-   "who": "gm",
-   "t": "Doc Castle snaps her fingers and calls forth the spirit normally seen perched on her shoulder. It appears from out of the ether, and the doctor immediately seems less fatigued than she was a moment before."
-  },
-  {
-   "who": "char",
-   "t": "Now, what can I do for you?"
   }
  ],
  "51be3888623331200e003edf_0": [

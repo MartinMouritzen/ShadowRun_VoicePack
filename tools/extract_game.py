@@ -94,10 +94,11 @@ for pack in glob.glob(SR + "/*/data/chars/*.ch_sht.bytes"):
     if uid: sheets[uid] = {"archetype": arch, "portrait": portrait, "name": name, "file": os.path.basename(pack)}
 
 # 2. scenes -> actors, tags, owners
-actors = {}; tag_map = {}; owner_map = {}; trigger_pairs = {}
+actors = {}; tag_map = {}; owner_map = {}; owner_candidates = {}; trigger_pairs = {}
 scene_files = []
 for p in PACKS:
     scene_files += glob.glob(os.path.join(SR, p, "data/scenes/*.srt.bytes"))
+scene_files.sort()  # deterministic "first-prop wins" owner resolution across filesystems
 scene_datas = []
 for sf in scene_files:
     scene = os.path.basename(sf).split('.')[0]
@@ -135,7 +136,10 @@ for sf in scene_files:
             cid = None
             for f, wt, v in fields(conv):
                 if f == 1 and wt == 2: cid = s_(v)
-            if cid: owner_map.setdefault(cid, idref)
+            if cid:
+                owner_map.setdefault(cid, idref)
+                lst = owner_candidates.setdefault(cid, [])
+                if idref not in lst: lst.append(idref)
 
 START_FNS = {"Start Conversation", "Start Conversation Between Actors",
              "Assign Conversation to Actor", "Start Conversation From Actor"}
@@ -166,6 +170,44 @@ name_index = {}
 for aid, a in actors.items():
     n = norm(a.get("name"))
     if n and len(n) >= 4: name_index.setdefault(n, aid)
+
+# Owner disambiguation for ACTORLESS nodes. A conversation can be bound to MORE than one scene
+# actor (e.g. a crime scene both the cop and the questioned NPC can trigger). owner_map keeps the
+# first-parsed prop, which is arbitrary; when the true default speaker is a different co-owner,
+# every actorless node lands on the wrong character -- the McKlusky/Shannon "Planeyard_Shaman" bug.
+# When there are multiple DISTINCT-named candidates, disambiguate by matching the conversation
+# name's descriptive tail against each candidate's NAME (and Story_* sheet tail) tokens. Generic
+# archetype sheets (Lonestar_Lv1_Captain, BaseCivilian, Guard-*) never contribute tokens: they are
+# roles, not identities, and would collide. No confident match -> keep the first candidate (old
+# behaviour, so same-role co-owners like clone variants are unaffected) and record a warning.
+_OWNER_STOP = {"story", "the", "and", "new", "actor", "npc", "base"}
+def _otoks(t):
+    t = unicodedata.normalize('NFKD', t or '')
+    t = ''.join(c for c in t if not unicodedata.combining(c))
+    t = re.sub(r'([a-z])([A-Z])', r'\1 \2', t)
+    return set(p for p in re.split(r'[^a-z0-9]+', t.lower()) if len(p) >= 3 and p not in _OWNER_STOP)
+def _cand_tokens(aid):
+    a = actors.get(aid) or {}
+    toks = _otoks(a.get("name"))
+    sid = a.get("sheet_id") or ""
+    if sid.lower().startswith("story"):        # named story character -> sheet tail is identity
+        toks |= _otoks(re.sub(r'^[Ss]tory[_-]?', '', sid))
+    return toks
+owner_warnings = []
+def resolve_owner(convo_id, convo_name):
+    cands = owner_candidates.get(convo_id) or ([owner_map[convo_id]] if convo_id in owner_map else [])
+    if not cands: return None
+    if len(cands) == 1: return cands[0]
+    if len({norm((actors.get(a) or {}).get("name")) for a in cands}) == 1:
+        return cands[0]                        # co-owners share a name (variants) -> not ambiguous
+    tail = re.sub(r'_?\d+$', '', re.sub(r'^c?\d+-?s?\d*[_ ]?', '',
+                  re.sub(r'^a\d+_', '', convo_name or '', flags=re.I), flags=re.I))
+    nt = _otoks(tail)
+    scored = sorted(((len(_cand_tokens(a) & nt), a) for a in cands), key=lambda s: -s[0])
+    if scored[0][0] > 0 and (len(scored) == 1 or scored[0][0] > scored[1][0]):
+        return scored[0][1]
+    owner_warnings.append((convo_id, convo_name, [(actors.get(a) or {}).get("name") for a in cands]))
+    return cands[0]
 
 # 3. conversations
 GM_TYPES = {4}; INPUT_TYPES = {7, 8}
@@ -202,7 +244,7 @@ for cf in convo_files:
     for f, wt, v in fields(data):
         if f == 2 and wt == 2: convo_name = s_(v)
     scene_prefix = (convo_name or "").split('_')[0].lower()
-    default_owner = owner_map.get(convo_id) or trigger_pairs.get(convo_id)
+    default_owner = resolve_owner(convo_id, convo_name) or trigger_pairs.get(convo_id)
     for node in subs(data, 3):
         stats["nodes"] += 1
         idx = varint_field(node, 2, None); ntype = varint_field(node, 6, 1)
@@ -251,3 +293,8 @@ out = {"characters": result, "narrator": narrator, "unattributed": unattributed,
 json.dump(out, open(os.path.join(OUT, "characters.json"), "w"), ensure_ascii=False, indent=1)
 print(json.dumps(stats))
 print(f"characters: {len(result)}, narrator lines: {len(narrator['lines'])}, unattributed: {len(unattributed['lines'])}")
+if owner_warnings:
+    print(f"WARN: {len(owner_warnings)} multi-owner convo(s) with no confident primary NPC (kept first owner):",
+          file=sys.stderr)
+    for cid, cn, names in owner_warnings:
+        print(f"  {cn or cid}: candidates={names}", file=sys.stderr)

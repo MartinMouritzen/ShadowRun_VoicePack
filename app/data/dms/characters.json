@@ -6846,114 +6846,6 @@
     },
     {
      "c": "657c88356233311830004b4f",
-     "n": 0,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "You're not a cop.\n\n{{GM}}She looks up, watching you warily.{{/GM}}"
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 1,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "{{GM}}The suspicion in her voice and eyes departs almost instantly when the subject turns to the deceased.{{/GM}}\n\nHe's my brother. I... I've been trying to speak with him."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 2,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "But I'm afraid his spirit is too disoriented by his recent journey to answer me."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 3,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "Yes, for all the good it's doing me. If I could just make contact, I might be able to deliver justice and allow my brother's spirit to rest."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 4,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "Not so far as I can tell. Not among the living anyway.\n\n{{GM}}Realization then dawns, bringing the light back into her eyes.{{/GM}}\n"
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 5,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "But my brother's spirit may not be alone here this night.\n\n{{GM}}She closes her eyes and concentrates, droning a low chant you can barely hear.{{/GM}}"
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 6,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "Yes... There are others... Other spirits who may be of help.\n\n{{GM}}Her features harden in frustration, as if she's searching for something that remains elusive. Sighing, she opens her eyes and fixes you with a stare.{{/GM}}"
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 7,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "But I can't do it alone."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 8,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "This warehouse contains the spirits of plane crash victims trapped between worlds. \n\nThey wish to help. They wish to be heard. And I think they have something to say about my brother's murder."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 9,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "Lone Star won't let me in there, but you seem to have the run of the place."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 10,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "If you can find personal items that belonged to the victims, I believe that I can summon a spirit to speak with us. \n\nI'll need at least two such objects. Can you find them for me?"
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 11,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "A spirit is but an echo, and my brother's is in a very fragile state.\n\n{{GM}}Her brow then furrows with a sudden thought.{{/GM}}\n"
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 12,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "{{GM}}She looks at you, the flattery largely failing to affect her, given the circumstances. But then inspiration dispels the dark cloud surrounding her.{{/GM}}\n\nPerhaps. My brother's spirit is too weak. That's a given."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 13,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "{{GM}}She glares at you for a moment and you can see pain in her eyes, along with something else. Power.{{/GM}}\n\nHe's my brother, and I'm trying to learn from him the identity of his killer."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 14,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "Yes. He's my older brother. I've asked Bear to help me speak to him...\n\n{{GM}}She shakes her head, looking like one who has found herself lost for the first time in her life.{{/GM}}"
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 15,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "We'll need at least two objects of significance from inside the warehouse. I'd go myself, but these pigs have barred me from entering."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 16,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "It feels as though you have found enough objects."
-    },
-    {
-     "c": "657c88356233311830004b4f",
-     "n": 17,
-     "cn": "c08-s2_Planeyard_Shaman_01",
-     "t": "{{GM}}You hand her the objects you've found. She closes her eyes and chants over them for a time. When her eyes open again, they're filled with tears.{{/GM}}\n\nThank you. These items are all I will need. It shouldn't take me long to--"
-    },
-    {
-     "c": "657c88356233311830004b4f",
      "n": 18,
      "cn": "c08-s2_Planeyard_Shaman_01",
      "t": "What the hell is all this?"
@@ -10293,6 +10185,114 @@
      "n": 4,
      "cn": "c10-s1_PlaneyardReturn_Shaman",
      "t": "Probably not. They've been doing regular patrols around the perimeter, and the front door looks like it's locked."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 0,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "You're not a cop.\n\n{{GM}}She looks up, watching you warily.{{/GM}}"
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 1,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "{{GM}}The suspicion in her voice and eyes departs almost instantly when the subject turns to the deceased.{{/GM}}\n\nHe's my brother. I... I've been trying to speak with him."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 2,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "But I'm afraid his spirit is too disoriented by his recent journey to answer me."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 3,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "Yes, for all the good it's doing me. If I could just make contact, I might be able to deliver justice and allow my brother's spirit to rest."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 4,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "Not so far as I can tell. Not among the living anyway.\n\n{{GM}}Realization then dawns, bringing the light back into her eyes.{{/GM}}\n"
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 5,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "But my brother's spirit may not be alone here this night.\n\n{{GM}}She closes her eyes and concentrates, droning a low chant you can barely hear.{{/GM}}"
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 6,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "Yes... There are others... Other spirits who may be of help.\n\n{{GM}}Her features harden in frustration, as if she's searching for something that remains elusive. Sighing, she opens her eyes and fixes you with a stare.{{/GM}}"
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 7,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "But I can't do it alone."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 8,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "This warehouse contains the spirits of plane crash victims trapped between worlds. \n\nThey wish to help. They wish to be heard. And I think they have something to say about my brother's murder."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 9,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "Lone Star won't let me in there, but you seem to have the run of the place."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 10,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "If you can find personal items that belonged to the victims, I believe that I can summon a spirit to speak with us. \n\nI'll need at least two such objects. Can you find them for me?"
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 11,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "A spirit is but an echo, and my brother's is in a very fragile state.\n\n{{GM}}Her brow then furrows with a sudden thought.{{/GM}}\n"
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 12,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "{{GM}}She looks at you, the flattery largely failing to affect her, given the circumstances. But then inspiration dispels the dark cloud surrounding her.{{/GM}}\n\nPerhaps. My brother's spirit is too weak. That's a given."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 13,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "{{GM}}She glares at you for a moment and you can see pain in her eyes, along with something else. Power.{{/GM}}\n\nHe's my brother, and I'm trying to learn from him the identity of his killer."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 14,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "Yes. He's my older brother. I've asked Bear to help me speak to him...\n\n{{GM}}She shakes her head, looking like one who has found herself lost for the first time in her life.{{/GM}}"
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 15,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "We'll need at least two objects of significance from inside the warehouse. I'd go myself, but these pigs have barred me from entering."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 16,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "It feels as though you have found enough objects."
+    },
+    {
+     "c": "657c88356233311830004b4f",
+     "n": 17,
+     "cn": "c08-s2_Planeyard_Shaman_01",
+     "t": "{{GM}}You hand her the objects you've found. She closes her eyes and chants over them for a time. When her eyes open again, they're filled with tears.{{/GM}}\n\nThank you. These items are all I will need. It shouldn't take me long to--"
     }
    ],
    "portraitFile": "npc_humanfemale_shamaninvestigator.png"
