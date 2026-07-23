@@ -70041,382 +70041,6 @@
    "t": "Long time, no see."
   }
  ],
- "54e26a883063641415004409_0": [
-  {
-   "who": "gm",
-   "t": "The man gives you only the slightest nod of his head as your approach. He's draped in all manner of cutting-edge wireless technology: signal amplifiers, EM noise cancellers, and a dozen tiny screens dot his jacket. His expression is one of indifference, but there is a casual cruelty that hangs around him like a foul odor."
-  }
- ],
- "54e26a883063641415004409_1": [
-  {
-   "who": "char",
-   "t": "I'm glad you decided to honor our arrangement. That speaks well of you."
-  },
-  {
-   "who": "gm",
-   "t": "Despite the man's cordial words, his eyes glint with menace."
-  },
-  {
-   "who": "char",
-   "t": "When you're ready, we should go handle Tigath Wright. I've brought my own backup as well, just to ensure it goes smoothly."
-  }
- ],
- "54e26a883063641415004409_2": [
-  {
-   "who": "char",
-   "t": "And it doesn't matter if you do. All that matters is that we finish this affair."
-  },
-  {
-   "who": "gm",
-   "t": "The man considers you for a moment, and eventually relents."
-  },
-  {
-   "who": "char",
-   "t": "My name is Hwang Jae-Min, and I run the Blue Heaven Seoulpa Ring."
-  }
- ],
- "54e26a883063641415004409_11": [
-  {
-   "who": "char",
-   "t": "They offered to pay the Blue Heaven Ring a handsome fee to ensure that Tigath didn't get the data and samples."
-  },
-  {
-   "who": "gm",
-   "t": "Hwang shrugs and waves a hand dismissively."
-  },
-  {
-   "who": "char",
-   "t": "I never turn away a fat paycheck."
-  }
- ],
- "54e26a883063641415004409_14": [
-  {
-   "who": "gm",
-   "t": "Hwang snorts, cocking his head at you in disbelief."
-  },
-  {
-   "who": "char",
-   "t": "Come on, do I look like a scientist to you?"
-  }
- ],
- "54e26a883063641415004409_15": [
-  {
-   "who": "gm",
-   "t": "Looking himself over, Hwang actually chuckles a little."
-  },
-  {
-   "who": "char",
-   "t": "Fair point, I suppose."
-  }
- ],
- "54e26a883063641415004409_22": [
-  {
-   "who": "gm",
-   "t": "Hwang laughs, his lips twisting into a cruel smirk."
-  },
-  {
-   "who": "char",
-   "t": "You don't. The deal is simple: do as I say, or my men and I put a bullet in your head."
-  }
- ],
- "54e26a883063641415004409_23": [
-  {
-   "who": "gm",
-   "t": "Hwang spreads his palms in a placating gesture."
-  },
-  {
-   "who": "char",
-   "t": "We both have to live and work in Hong Kong. If I break my word to someone as respected as you, my life won't be worth the subway fare it'll take me to get home. You can trust me because if I betrayed you and lived, it would only be the start of my troubles."
-  }
- ],
- "54e26a883063641415004409_24": [
-  {
-   "who": "gm",
-   "t": "Hwang nods in satisfaction."
-  },
-  {
-   "who": "char",
-   "t": "Good. You go to the spot you arranged to meet. I'll go collect my crew and have them get ready. When you're ready, ping me. Wright won't know what hit him."
-  }
- ],
- "54e26a883063641415004409_25": [
-  {
-   "who": "gm",
-   "t": "Hwang's shoulder tense, and he bites his lower lip in frustration and anger."
-  },
-  {
-   "who": "char",
-   "t": "So what, you brought me out here to embarrass me? You just wanted to string me along?! You're an idiot if you think I'll let you walk away from this!"
-  }
- ],
- "54e26a883063641415004409_26": [
-  {
-   "who": "gm",
-   "t": "Hwang bristles, his nostrils flaring. His hand darts under his jacket, and he draws a submachine gun partway into view."
-  },
-  {
-   "who": "char",
-   "t": "Come on, test me. I dare you. You think I'm afraid of you?! You're trash, that's all you are."
-  }
- ],
- "54e26a883063641415004409_27": [
-  {
-   "who": "gm",
-   "t": "Hwang continues to fume, but slowly slides his submachine gun back under his jacket."
-  },
-  {
-   "who": "char",
-   "t": "Keep your team in line. I'm not in the habit of letting disrespectful people live."
-  }
- ],
- "54e26a883063641415004409_28": [
-  {
-   "who": "gm",
-   "t": "Hwang inclines his head politely as you approach. He's draped in all manner of cutting-edge technological bits and bobs: signal amplifiers, trid projection systems, and a dozen tiny screens dot his jacket."
-  },
-  {
-   "who": "char",
-   "t": "Thanks for coming. I wasn't sure if you'd show up, but I'd hoped you would."
-  }
- ],
- "54e26a883063641415004409_29": [
-  {
-   "who": "gm",
-   "t": "Hwang nods in satisfaction."
-  },
-  {
-   "who": "char",
-   "t": "Well, good. I don't know you, but I thought you might be interested, based on the kind of person you seem to be."
-  }
- ],
- "54e26a883063641415004409_37": [
-  {
-   "who": "gm",
-   "t": "Hwang nods respectfully, and fishes out a datachip from one of his myriad pockets. He tosses it to you."
-  },
-  {
-   "who": "char",
-   "t": "I wouldn't waste your time with a face to face meeting unless I had data to show you. Go on, slot the chip. You'll see what I mean."
-  }
- ],
- "54e26a883063641415004409_47": [
-  {
-   "who": "char",
-   "t": "You wouldn't be the first he's lied to."
-  },
-  {
-   "who": "gm",
-   "t": "Hwang folds his arms over his chest."
-  },
-  {
-   "who": "char",
-   "t": "The only question that remains is what you intend to do about it."
-  }
- ],
- "54e26a883063641415004409_54": [
-  {
-   "who": "char",
-   "t": "And you so you shouldn't."
-  },
-  {
-   "who": "gm",
-   "t": "Hwang nods in satisfaction."
-  },
-  {
-   "who": "char",
-   "t": "Betrayal may be the rule in the UCAS and Europe, but in Hong Kong, that'll get you killed. Which is exactly what Tigath has coming."
-  }
- ],
- "54e26a883063641415004409_55": [
-  {
-   "who": "gm",
-   "t": "Hwang bows low as you approach, straightening only when you are right in front of him. He's draped in all manner of cutting-edge technological bits and bobs: signal amplifiers, trid projection systems, and a dozen tiny screens dot his jacket."
-  },
-  {
-   "who": "char",
-   "t": "Thank you so much for seeing me tonight. I realize what an inconvenience it must be for you."
-  }
- ],
- "54e26a883063641415004409_58": [
-  {
-   "who": "gm",
-   "t": "Hwang nods his head, chuckling."
-  },
-  {
-   "who": "char",
-   "t": "Well, I can't argue with convenience."
-  }
- ],
- "54e393aa3063640c0c0027dc_21": [
-  {
-   "who": "gm",
-   "t": "Before you can answer, a shout rings out."
-  },
-  {
-   "who": "char",
-   "t": "Keep your hands where I can see them, you assholes!"
-  }
- ],
- "54e393aa3063640c0c0027dc_74": [
-  {
-   "who": "gm",
-   "t": "Before you can answer, a shout rings out."
-  },
-  {
-   "who": "char",
-   "t": "Yeah... What are you gonna do about me?"
-  }
- ],
- "54e393aa3063640c0c0027dc_112": [
-  {
-   "who": "gm",
-   "t": "From deeper in the marketplace, a shout shatters the night's stillness."
-  },
-  {
-   "who": "char",
-   "t": "It means I'm here to collect the goods, you lying little bastard!"
-  }
- ],
- "54e393aa3063640c0c0027dc_114": [
-  {
-   "who": "gm",
-   "t": "From deeper in the marketplace, a shout rings out."
-  },
-  {
-   "who": "char",
-   "t": "It means I'm here to collect the goods, you lying little bastard!"
-  }
- ],
- "54e3b9f43063640c0c00288f_2": [
-  {
-   "who": "gm",
-   "t": "Hwang tilts his head back and laughs at Tigath. His sneer forms an ugly scar across his face."
-  },
-  {
-   "who": "char",
-   "t": "You didn't think shadowrunners would show you any more loyalty than you showed them, did you? You expect them to honor the word of a lying dog?"
-  }
- ],
- "54e3b9f43063640c0c00288f_4": [
-  {
-   "who": "gm",
-   "t": "Hwang glances is your direction, nodding."
-  },
-  {
-   "who": "char",
-   "t": "Are you ready?"
-  }
- ],
- "54e3b9f43063640c0c00288f_7": [
-  {
-   "who": "gm",
-   "t": "Tigath's eyes narrow, and he grits his teeth. No. No, I think not. There is a sudden sound of running - boots on concrete. In the split second you glance over the elf's shoulder, he's in motion."
-  }
- ],
- "54e3b9f43063640c0c00288f_8": [
-  {
-   "who": "gm",
-   "t": "Hwang snorts, rolling his eyes."
-  },
-  {
-   "who": "char",
-   "t": "Are you an idiot? I've shown you the facts, and you're still dicking--"
-  }
- ],
- "54e3b9f43063640c0c00288f_9": [
-  {
-   "who": "gm",
-   "t": "Hwang shakes his head at you, incredulous."
-  },
-  {
-   "who": "char",
-   "t": "What is *wrong* with you, man?! I laid everything out for you, and you're still not--"
-  }
- ],
- "54e3b9f43063640c0c00288f_11": [
-  {
-   "who": "gm",
-   "t": "Hwang chambers a round in his submachine gun and spits toward Tigath."
-  },
-  {
-   "who": "char",
-   "t": "Come on! I'll paint Ho Chung with your blood!"
-  }
- ],
- "54e3b9f43063640c0c00288f_13": [
-  {
-   "who": "gm",
-   "t": "Hwang's lips curl back from his teeth, and he spits toward you."
-  },
-  {
-   "who": "char",
-   "t": "What?! Are you crazy? You won't make it ten feet, omae!"
-  }
- ],
- "54e3b9f43063640c0c00288f_16": [
-  {
-   "who": "gm",
-   "t": "You hand the data and samples to Tigath."
-  },
-  {
-   "who": "char",
-   "t": "A wise decision. I'll see the money is wired to your account. Farewell. And good luck."
-  }
- ],
- "54e3b9f43063640c0c00288f_19": [
-  {
-   "who": "char",
-   "t": "I am Hwang Jae Min! I command the Blue Heaven Ring!"
-  },
-  {
-   "who": "gm",
-   "t": "Hwang squares his shoulders, pulling his submachine gun to bear on you."
-  },
-  {
-   "who": "char",
-   "t": "I'm not about to let some two-bit shadowrunner scorn me like you did."
-  }
- ],
- "54e61674306364441400702c_0": [
-  {
-   "who": "gm",
-   "t": "Hwang runs the back of his hand over his brow, whipping the sweat off into the street."
-  },
-  {
-   "who": "char",
-   "t": "Good riddance to that piece of trash."
-  }
- ],
- "54e61674306364441400702c_1": [
-  {
-   "who": "gm",
-   "t": "Turning toward you, Hwang nods."
-  },
-  {
-   "who": "char",
-   "t": "You feel like finishing this off? You give me the goods, I wire the money to your account once I verify everything's in order."
-  }
- ],
- "54e61674306364441400702c_2": [
-  {
-   "who": "gm",
-   "t": "Hwang takes the samples and data from you, nodding in satisfaction."
-  },
-  {
-   "who": "char",
-   "t": "Pleasure doing business with you. Glad we could work this out."
-  }
- ],
- "54e61674306364441400702c_3": [
-  {
-   "who": "gm",
-   "t": "Hwang's face twists into an expression of boiling rage."
-  },
-  {
-   "who": "char",
-   "t": "What?! You double-crossing bastard!"
-  }
- ],
  "562fee69643661301100816a_1": [
   {
    "who": "char",
@@ -81759,6 +81383,382 @@
   {
    "who": "char",
    "t": "I'd hoped we'd be able to come to an agreement. But if you refuse to see reason, bullets may prove a more effective argument. No one crosses the Blue Heaven Ring and lives. Your death will be an object lesson in that."
+  }
+ ],
+ "54e26a883063641415004409_0": [
+  {
+   "who": "gm",
+   "t": "The man gives you only the slightest nod of his head as your approach. He's draped in all manner of cutting-edge wireless technology: signal amplifiers, EM noise cancellers, and a dozen tiny screens dot his jacket. His expression is one of indifference, but there is a casual cruelty that hangs around him like a foul odor."
+  }
+ ],
+ "54e26a883063641415004409_1": [
+  {
+   "who": "char",
+   "t": "I'm glad you decided to honor our arrangement. That speaks well of you."
+  },
+  {
+   "who": "gm",
+   "t": "Despite the man's cordial words, his eyes glint with menace."
+  },
+  {
+   "who": "char",
+   "t": "When you're ready, we should go handle Tigath Wright. I've brought my own backup as well, just to ensure it goes smoothly."
+  }
+ ],
+ "54e26a883063641415004409_2": [
+  {
+   "who": "char",
+   "t": "And it doesn't matter if you do. All that matters is that we finish this affair."
+  },
+  {
+   "who": "gm",
+   "t": "The man considers you for a moment, and eventually relents."
+  },
+  {
+   "who": "char",
+   "t": "My name is Hwang Jae-Min, and I run the Blue Heaven Seoulpa Ring."
+  }
+ ],
+ "54e26a883063641415004409_11": [
+  {
+   "who": "char",
+   "t": "They offered to pay the Blue Heaven Ring a handsome fee to ensure that Tigath didn't get the data and samples."
+  },
+  {
+   "who": "gm",
+   "t": "Hwang shrugs and waves a hand dismissively."
+  },
+  {
+   "who": "char",
+   "t": "I never turn away a fat paycheck."
+  }
+ ],
+ "54e26a883063641415004409_14": [
+  {
+   "who": "gm",
+   "t": "Hwang snorts, cocking his head at you in disbelief."
+  },
+  {
+   "who": "char",
+   "t": "Come on, do I look like a scientist to you?"
+  }
+ ],
+ "54e26a883063641415004409_15": [
+  {
+   "who": "gm",
+   "t": "Looking himself over, Hwang actually chuckles a little."
+  },
+  {
+   "who": "char",
+   "t": "Fair point, I suppose."
+  }
+ ],
+ "54e26a883063641415004409_22": [
+  {
+   "who": "gm",
+   "t": "Hwang laughs, his lips twisting into a cruel smirk."
+  },
+  {
+   "who": "char",
+   "t": "You don't. The deal is simple: do as I say, or my men and I put a bullet in your head."
+  }
+ ],
+ "54e26a883063641415004409_23": [
+  {
+   "who": "gm",
+   "t": "Hwang spreads his palms in a placating gesture."
+  },
+  {
+   "who": "char",
+   "t": "We both have to live and work in Hong Kong. If I break my word to someone as respected as you, my life won't be worth the subway fare it'll take me to get home. You can trust me because if I betrayed you and lived, it would only be the start of my troubles."
+  }
+ ],
+ "54e26a883063641415004409_24": [
+  {
+   "who": "gm",
+   "t": "Hwang nods in satisfaction."
+  },
+  {
+   "who": "char",
+   "t": "Good. You go to the spot you arranged to meet. I'll go collect my crew and have them get ready. When you're ready, ping me. Wright won't know what hit him."
+  }
+ ],
+ "54e26a883063641415004409_25": [
+  {
+   "who": "gm",
+   "t": "Hwang's shoulder tense, and he bites his lower lip in frustration and anger."
+  },
+  {
+   "who": "char",
+   "t": "So what, you brought me out here to embarrass me? You just wanted to string me along?! You're an idiot if you think I'll let you walk away from this!"
+  }
+ ],
+ "54e26a883063641415004409_26": [
+  {
+   "who": "gm",
+   "t": "Hwang bristles, his nostrils flaring. His hand darts under his jacket, and he draws a submachine gun partway into view."
+  },
+  {
+   "who": "char",
+   "t": "Come on, test me. I dare you. You think I'm afraid of you?! You're trash, that's all you are."
+  }
+ ],
+ "54e26a883063641415004409_27": [
+  {
+   "who": "gm",
+   "t": "Hwang continues to fume, but slowly slides his submachine gun back under his jacket."
+  },
+  {
+   "who": "char",
+   "t": "Keep your team in line. I'm not in the habit of letting disrespectful people live."
+  }
+ ],
+ "54e26a883063641415004409_28": [
+  {
+   "who": "gm",
+   "t": "Hwang inclines his head politely as you approach. He's draped in all manner of cutting-edge technological bits and bobs: signal amplifiers, trid projection systems, and a dozen tiny screens dot his jacket."
+  },
+  {
+   "who": "char",
+   "t": "Thanks for coming. I wasn't sure if you'd show up, but I'd hoped you would."
+  }
+ ],
+ "54e26a883063641415004409_29": [
+  {
+   "who": "gm",
+   "t": "Hwang nods in satisfaction."
+  },
+  {
+   "who": "char",
+   "t": "Well, good. I don't know you, but I thought you might be interested, based on the kind of person you seem to be."
+  }
+ ],
+ "54e26a883063641415004409_37": [
+  {
+   "who": "gm",
+   "t": "Hwang nods respectfully, and fishes out a datachip from one of his myriad pockets. He tosses it to you."
+  },
+  {
+   "who": "char",
+   "t": "I wouldn't waste your time with a face to face meeting unless I had data to show you. Go on, slot the chip. You'll see what I mean."
+  }
+ ],
+ "54e26a883063641415004409_47": [
+  {
+   "who": "char",
+   "t": "You wouldn't be the first he's lied to."
+  },
+  {
+   "who": "gm",
+   "t": "Hwang folds his arms over his chest."
+  },
+  {
+   "who": "char",
+   "t": "The only question that remains is what you intend to do about it."
+  }
+ ],
+ "54e26a883063641415004409_54": [
+  {
+   "who": "char",
+   "t": "And you so you shouldn't."
+  },
+  {
+   "who": "gm",
+   "t": "Hwang nods in satisfaction."
+  },
+  {
+   "who": "char",
+   "t": "Betrayal may be the rule in the UCAS and Europe, but in Hong Kong, that'll get you killed. Which is exactly what Tigath has coming."
+  }
+ ],
+ "54e26a883063641415004409_55": [
+  {
+   "who": "gm",
+   "t": "Hwang bows low as you approach, straightening only when you are right in front of him. He's draped in all manner of cutting-edge technological bits and bobs: signal amplifiers, trid projection systems, and a dozen tiny screens dot his jacket."
+  },
+  {
+   "who": "char",
+   "t": "Thank you so much for seeing me tonight. I realize what an inconvenience it must be for you."
+  }
+ ],
+ "54e26a883063641415004409_58": [
+  {
+   "who": "gm",
+   "t": "Hwang nods his head, chuckling."
+  },
+  {
+   "who": "char",
+   "t": "Well, I can't argue with convenience."
+  }
+ ],
+ "54e393aa3063640c0c0027dc_21": [
+  {
+   "who": "gm",
+   "t": "Before you can answer, a shout rings out."
+  },
+  {
+   "who": "char",
+   "t": "Keep your hands where I can see them, you assholes!"
+  }
+ ],
+ "54e393aa3063640c0c0027dc_74": [
+  {
+   "who": "gm",
+   "t": "Before you can answer, a shout rings out."
+  },
+  {
+   "who": "char",
+   "t": "Yeah... What are you gonna do about me?"
+  }
+ ],
+ "54e393aa3063640c0c0027dc_112": [
+  {
+   "who": "gm",
+   "t": "From deeper in the marketplace, a shout shatters the night's stillness."
+  },
+  {
+   "who": "char",
+   "t": "It means I'm here to collect the goods, you lying little bastard!"
+  }
+ ],
+ "54e393aa3063640c0c0027dc_114": [
+  {
+   "who": "gm",
+   "t": "From deeper in the marketplace, a shout rings out."
+  },
+  {
+   "who": "char",
+   "t": "It means I'm here to collect the goods, you lying little bastard!"
+  }
+ ],
+ "54e3b9f43063640c0c00288f_2": [
+  {
+   "who": "gm",
+   "t": "Hwang tilts his head back and laughs at Tigath. His sneer forms an ugly scar across his face."
+  },
+  {
+   "who": "char",
+   "t": "You didn't think shadowrunners would show you any more loyalty than you showed them, did you? You expect them to honor the word of a lying dog?"
+  }
+ ],
+ "54e3b9f43063640c0c00288f_4": [
+  {
+   "who": "gm",
+   "t": "Hwang glances is your direction, nodding."
+  },
+  {
+   "who": "char",
+   "t": "Are you ready?"
+  }
+ ],
+ "54e3b9f43063640c0c00288f_7": [
+  {
+   "who": "gm",
+   "t": "Tigath's eyes narrow, and he grits his teeth. No. No, I think not. There is a sudden sound of running - boots on concrete. In the split second you glance over the elf's shoulder, he's in motion."
+  }
+ ],
+ "54e3b9f43063640c0c00288f_8": [
+  {
+   "who": "gm",
+   "t": "Hwang snorts, rolling his eyes."
+  },
+  {
+   "who": "char",
+   "t": "Are you an idiot? I've shown you the facts, and you're still dicking--"
+  }
+ ],
+ "54e3b9f43063640c0c00288f_9": [
+  {
+   "who": "gm",
+   "t": "Hwang shakes his head at you, incredulous."
+  },
+  {
+   "who": "char",
+   "t": "What is *wrong* with you, man?! I laid everything out for you, and you're still not--"
+  }
+ ],
+ "54e3b9f43063640c0c00288f_11": [
+  {
+   "who": "gm",
+   "t": "Hwang chambers a round in his submachine gun and spits toward Tigath."
+  },
+  {
+   "who": "char",
+   "t": "Come on! I'll paint Ho Chung with your blood!"
+  }
+ ],
+ "54e3b9f43063640c0c00288f_13": [
+  {
+   "who": "gm",
+   "t": "Hwang's lips curl back from his teeth, and he spits toward you."
+  },
+  {
+   "who": "char",
+   "t": "What?! Are you crazy? You won't make it ten feet, omae!"
+  }
+ ],
+ "54e3b9f43063640c0c00288f_16": [
+  {
+   "who": "gm",
+   "t": "You hand the data and samples to Tigath."
+  },
+  {
+   "who": "char",
+   "t": "A wise decision. I'll see the money is wired to your account. Farewell. And good luck."
+  }
+ ],
+ "54e3b9f43063640c0c00288f_19": [
+  {
+   "who": "char",
+   "t": "I am Hwang Jae Min! I command the Blue Heaven Ring!"
+  },
+  {
+   "who": "gm",
+   "t": "Hwang squares his shoulders, pulling his submachine gun to bear on you."
+  },
+  {
+   "who": "char",
+   "t": "I'm not about to let some two-bit shadowrunner scorn me like you did."
+  }
+ ],
+ "54e61674306364441400702c_0": [
+  {
+   "who": "gm",
+   "t": "Hwang runs the back of his hand over his brow, whipping the sweat off into the street."
+  },
+  {
+   "who": "char",
+   "t": "Good riddance to that piece of trash."
+  }
+ ],
+ "54e61674306364441400702c_1": [
+  {
+   "who": "gm",
+   "t": "Turning toward you, Hwang nods."
+  },
+  {
+   "who": "char",
+   "t": "You feel like finishing this off? You give me the goods, I wire the money to your account once I verify everything's in order."
+  }
+ ],
+ "54e61674306364441400702c_2": [
+  {
+   "who": "gm",
+   "t": "Hwang takes the samples and data from you, nodding in satisfaction."
+  },
+  {
+   "who": "char",
+   "t": "Pleasure doing business with you. Glad we could work this out."
+  }
+ ],
+ "54e61674306364441400702c_3": [
+  {
+   "who": "gm",
+   "t": "Hwang's face twists into an expression of boiling rage."
+  },
+  {
+   "who": "char",
+   "t": "What?! You double-crossing bastard!"
   }
  ],
  "54dbef30653937cc15006dd1_0": [
