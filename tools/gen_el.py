@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """Generate the ElevenLabs jobs (account voices) up to a monthly-quota budget, in priority order.
-Writes audio to app/audio/<charId>/takes/ and results to tools/gen/el_results.jsonl (one JSON/line).
+Writes audio to app/audio/<game>/<charId>/takes/ and results to tools/gen/el_results.jsonl (one/line).
 Does NOT touch takes.json (avoids races with the Magnific workers); merge_takes.py does that.
 Priority: non-narrator characters first (always fit), then narrator dialogue, then inspect one-liners.
-Deferred jobs (over budget) are written to tools/gen/el_deferred.json."""
-import json, os, time, urllib.request, urllib.error
+Deferred jobs (over budget) are written to tools/gen/el_deferred.json.
+
+Usage: gen_el.py [dms|dragonfall|hk]   (default dms) -- must match the game el_jobs.json was built for."""
+import json, os, sys, time, urllib.request, urllib.error
+
+GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
+if GAME not in ("dms", "dragonfall", "hk"):
+    sys.exit(f"ERROR: unknown game '{GAME}' (expected dms|dragonfall|hk)")
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 KEY = open(os.path.join(ROOT, ".elevenlabs.key")).read().strip()
@@ -33,7 +39,7 @@ for j in jobs:
     n = len(j["text"])
     if spent + n > budget:
         deferred.append(j); continue
-    fn_dir = os.path.join(ROOT, "app", "audio", j["charId"], "takes")
+    fn_dir = os.path.join(ROOT, "app", "audio", GAME, j["charId"], "takes")
     os.makedirs(fn_dir, exist_ok=True)
     body = json.dumps({"text": j["text"], "model_id": "eleven_v3",
                        "voice_settings": {"stability": 0, "use_speaker_boost": True}}).encode()
