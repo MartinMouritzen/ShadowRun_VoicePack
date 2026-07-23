@@ -112,5 +112,11 @@
  },
  "insp_0e3e32a1cb81e65c": {
   "spoken": "You find an unlabeled trivid disc. You have no way of playing back the disc, but its serial number could be useful."
+ },
+ "insp_4b48e0d1539500ad": {
+  "spoken": "The door is locked, but you might be able to bypass it if you could get under the maintenance panel."
+ },
+ "insp_f0508b721d43d839": {
+  "spoken": "Only Marie-Louise can use this node"
  }
 }

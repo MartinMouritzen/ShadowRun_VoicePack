@@ -137,7 +137,10 @@ barks = {}
 for sf in scene_files():
     data = open(sf, 'rb').read()
     for c1 in subs(data, 1):
-        for c4 in subs(c1, 4):
+        # A trigger holds actions in field 4 (primary/then branch) AND field 9 (else/alt branch).
+        # Scanning only field 4 silently dropped floating text in the else branch, e.g. the
+        # Planeyard locked-door hint "The door is locked, but you might be able to bypass it...".
+        for c4 in subs(c1, 4) + subs(c1, 9):
             for act in subs(c4, 1):
                 kind = BARK_KINDS.get(f1(act) or "")
                 if not kind: continue

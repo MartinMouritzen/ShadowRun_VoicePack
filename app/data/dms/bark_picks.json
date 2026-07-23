@@ -442,5 +442,9 @@
  "UBC4": {
   "voiceId": "mag_163",
   "voiceName": "Vivian Lane"
+ },
+ "Guest04": {
+  "voiceId": "mag_319",
+  "voiceName": "Benjamin Walker"
  }
 }

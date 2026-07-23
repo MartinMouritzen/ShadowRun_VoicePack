@@ -5008,5 +5008,60 @@
   "scenes": [
    "c26-s0_pikeplacefinale"
   ]
+ },
+ "bark_bb9bc5e81710764b": {
+  "text": "I don’t like this Run.",
+  "speaker": "Guest04",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "kind": "actor"
+ },
+ "bark_6362cf5662c3ed30": {
+  "text": "How much?",
+  "speaker": "Guest07",
+  "sheetId": "BaseCivilian",
+  "archetype": null,
+  "gender": "?",
+  "portrait": "",
+  "nonverbal": false,
+  "count": 1,
+  "kind": "actor"
+ },
+ "bark_1d2a03984c3da02b": {
+  "text": "Hey, don't touch that.",
+  "speaker": "Ryker",
+  "sheetId": "Lonestar_Lv2_Ork_Shotgun",
+  "archetype": null,
+  "gender": "male",
+  "portrait": "Backer_HumanMale_ThaddeusRyker",
+  "nonverbal": false,
+  "count": 1,
+  "kind": "actor"
+ },
+ "bark_4b48e0d1539500ad": {
+  "text": "The door is locked, but you might be able to bypass it if you could get under the maintenance panel.",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "actor"
+ },
+ "bark_f0508b721d43d839": {
+  "text": "Only Marie-Louise can use this node",
+  "speaker": "Unknown",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "prop"
  }
 }
