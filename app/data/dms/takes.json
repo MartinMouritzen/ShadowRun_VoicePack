@@ -9205,19 +9205,6 @@
     }
    ]
   },
-  "insp_a8f05ae040eea064": {
-   "selected": "narrator/takes/insp_a8f05ae040eea064__0aXOy31Cjamp__1784021070.mp3",
-   "takes": [
-    {
-     "file": "narrator/takes/insp_a8f05ae040eea064__0aXOy31Cjamp__1784021070.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0,
-     "chars": 19,
-     "ts": 1784021070
-    }
-   ]
-  },
   "insp_205533af93ca488a": {
    "selected": "narrator/takes/insp_205533af93ca488a__0aXOy31Cjamp__1784021072.mp3",
    "takes": [
@@ -9423,19 +9410,6 @@
      "stability": 0,
      "chars": 106,
      "ts": 1784021112
-    }
-   ]
-  },
-  "insp_fe451abf8dc49d59": {
-   "selected": "narrator/takes/insp_fe451abf8dc49d59__0aXOy31Cjamp__1784021116.mp3",
-   "takes": [
-    {
-     "file": "narrator/takes/insp_fe451abf8dc49d59__0aXOy31Cjamp__1784021116.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0,
-     "chars": 144,
-     "ts": 1784021116
     }
    ]
   },
@@ -10724,19 +10698,6 @@
      "stability": 0.0,
      "chars": 40,
      "ts": 1784053178
-    }
-   ]
-  },
-  "51e071833963651821006cbf_0~g0": {
-   "selected": "narrator/takes/51e071833963651821006cbf_0~g0__0aXOy31Cjamp__1784022629.mp3",
-   "takes": [
-    {
-     "file": "narrator/takes/51e071833963651821006cbf_0~g0__0aXOy31Cjamp__1784022629.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0,
-     "chars": 95,
-     "ts": 1784022629
     }
    ]
   },
@@ -15250,58 +15211,6 @@
     }
    ]
   },
-  "42e86734623331e0170026ed_3~g0": {
-   "selected": "narrator/takes/42e86734623331e0170026ed_3~g0__0aXOy31Cjamp__1784041570.mp3",
-   "takes": [
-    {
-     "file": "narrator/takes/42e86734623331e0170026ed_3~g0__0aXOy31Cjamp__1784041570.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0.0,
-     "chars": 61,
-     "ts": 1784041570
-    }
-   ]
-  },
-  "42e86734623331e0170026ed_4~g0": {
-   "selected": "narrator/takes/42e86734623331e0170026ed_4~g0__0aXOy31Cjamp__1784041580.mp3",
-   "takes": [
-    {
-     "file": "narrator/takes/42e86734623331e0170026ed_4~g0__0aXOy31Cjamp__1784041580.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0.0,
-     "chars": 401,
-     "ts": 1784041580
-    }
-   ]
-  },
-  "42e86734623331e0170026ed_6~g0": {
-   "selected": "narrator/takes/42e86734623331e0170026ed_6~g0__0aXOy31Cjamp__1784041586.mp3",
-   "takes": [
-    {
-     "file": "narrator/takes/42e86734623331e0170026ed_6~g0__0aXOy31Cjamp__1784041586.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0.0,
-     "chars": 157,
-     "ts": 1784041586
-    }
-   ]
-  },
-  "42e86734623331e0170026ed_7~g0": {
-   "selected": "narrator/takes/42e86734623331e0170026ed_7~g0__0aXOy31Cjamp__1784041600.mp3",
-   "takes": [
-    {
-     "file": "narrator/takes/42e86734623331e0170026ed_7~g0__0aXOy31Cjamp__1784041600.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0.0,
-     "chars": 634,
-     "ts": 1784041600
-    }
-   ]
-  },
   "51e071833963651821006cbf_0": {
    "selected": "narrator/takes/51e071833963651821006cbf_0__0aXOy31Cjamp__1784053209.mp3",
    "takes": [
@@ -16019,18 +15928,6 @@
   }
  },
  "name_jessicawatts": {
-  "5197aa26303031741500164a_4": {
-   "selected": "name_jessicawatts/takes/5197aa26303031741500164a_4__pFZP5JQG7iQj__1783952137.mp3",
-   "takes": [
-    {
-     "file": "name_jessicawatts/takes/5197aa26303031741500164a_4__pFZP5JQG7iQj__1783952137.mp3",
-     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
-     "stability": 0,
-     "chars": 182,
-     "ts": 1783952137
-    }
-   ]
-  },
   "5197aa26303031741500164a_8": {
    "selected": "name_jessicawatts/takes/5197aa26303031741500164a_8__pFZP5JQG7iQj__1783952164.mp3",
    "takes": [
@@ -48769,19 +48666,6 @@
   }
  },
  "name_spirit": {
-  "9361b920623331e01300164a_0": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_0__mag607__1784038339.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_0__mag607__1784038339.mp3",
-     "voiceId": "mag_607",
-     "voiceName": "Soo-Yeon",
-     "stability": 0,
-     "chars": 252,
-     "ts": 1784038339
-    }
-   ]
-  },
   "9361b920623331e01300164a_1": {
    "selected": "name_spirit/takes/9361b920623331e01300164a_1__mag589__1784038768.mp3",
    "takes": [
@@ -51509,19 +51393,6 @@
   }
  },
  "name_mrquoth": {
-  "51a4f2173561642414006e01_0": {
-   "selected": "name_mrquoth/takes/51a4f2173561642414006e01_0__mag624__1784041048.mp3",
-   "takes": [
-    {
-     "file": "name_mrquoth/takes/51a4f2173561642414006e01_0__mag624__1784041048.mp3",
-     "voiceId": "mag_624",
-     "voiceName": "Adam Lefevre",
-     "stability": 0,
-     "chars": 127,
-     "ts": 1784041048
-    }
-   ]
-  },
   "51a4f2173561642414006e01_5": {
    "selected": "name_mrquoth/takes/51a4f2173561642414006e01_5__mag624__1784041068.mp3",
    "takes": [
