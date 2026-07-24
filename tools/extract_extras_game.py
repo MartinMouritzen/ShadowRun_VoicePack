@@ -174,6 +174,60 @@ for sf in scene_files():
                                   "portrait": a.get("portrait"), "nonverbal": is_nonverbal(text),
                                   "count": 1, "kind": kind}
 
+# 3b. barks embedded in CONVERSATIONS (.convo.bytes). The same 'Display Text ...' floating-text
+# action family also fires from dialogue outcomes, e.g. Coyote's "Glass jaw..." over the BTL Clocker
+# after a knockout, or Paco/Coyote reactions the instant a fight ends. The plugin's
+# Patch_FloatingText hooks these at runtime identically to scene barks (bark_<md5(text)>), so they
+# MUST be extracted too — scanning only scenes/maps silently dropped every convo-triggered bark.
+# Convos are node-graphs, not the trigger(field1)->actions(field4/9) shape of scenes, so we walk
+# recursively for any submessage whose field-1 name is a bark kind and pull its text (field2->field4)
+# and nested target-actor id (24-hex, resolved against the scene/map `actors` roster built above).
+CONVO_BARK_JUNK = re.compile(r'^position\s*\d+$', re.I)   # 'Display Text over Point' path markers, not speech
+def collect_hexids(m, ids, d=0):
+    if d > 6: return
+    for f, wt, v in fields(m):
+        if wt == 2:
+            s = s_(v)
+            if s and re.fullmatch(r'[0-9a-f]{24}', s): ids.append(s)
+            collect_hexids(v, ids, d + 1)
+def walk_convo_barks(m, out, d=0):
+    if d > 30: return
+    for f, wt, v in fields(m):
+        if wt != 2 or len(v) < 2: continue
+        if BARK_KINDS.get(f1(v) or ""):
+            kind = BARK_KINDS[f1(v)]
+            text = None; ids = []
+            collect_hexids(v, ids)
+            for cont in subs(v, 2):
+                for cf, cwt, cv in fields(cont):
+                    if cf == 4 and cwt == 2:
+                        try: t = cv.decode('utf-8').strip()
+                        except Exception: continue
+                        if len(t) >= 3 and not re.fullmatch(r'[0-9a-f]{16,32}', t): text = t
+            if text and not CONVO_BARK_JUNK.match(text):
+                out.append((kind, text, ids[0] if ids else None))
+        walk_convo_barks(v, out, d + 1)
+
+convo_found = []
+for p in PACKS:
+    for cf in glob.glob(os.path.join(SR, p, "data/convos/*.convo.bytes")):
+        walk_convo_barks(open(cf, 'rb').read(), convo_found)
+convo_new = 0
+for kind, text, aid in convo_found:
+    key = "bark_" + md5_16(text)
+    a = actors.get(aid or "", {})
+    fallback = "Narrator" if kind == "screen" else "Unknown"
+    e = barks.get(key)
+    if e:
+        e["count"] += 1
+    else:
+        convo_new += 1
+        barks[key] = {"text": text, "speaker": a.get("name") or fallback,
+                      "sheetId": a.get("sheet_id"), "archetype": a.get("archetype"),
+                      "gender": gender_of(a.get("portrait"), a.get("name")),
+                      "portrait": a.get("portrait"), "nonverbal": is_nonverbal(text),
+                      "count": 1, "kind": kind, "source": "convo"}
+
 # 4. inspects: PropInstance.interactionRoot(11).inspectInteraction(20).inspectText(3).
 # Props live under field 4 in scene files but field 8 in map (.srm) files, so scan both.
 inspects = {}
@@ -212,6 +266,7 @@ else:
 json.dump(scene_actors, open(os.path.join(OUT, "scene_actors.json"), "w"), ensure_ascii=False, indent=1)
 from collections import Counter
 spk = Counter(b["speaker"] for b in barks.values() if not b["nonverbal"])
-print(f"barks: {len(barks)} unique | non-verbal: {sum(1 for b in barks.values() if b['nonverbal'])} | voiceable: {sum(1 for b in barks.values() if not b['nonverbal'])}")
+n_convo = sum(1 for b in barks.values() if b.get("source") == "convo")
+print(f"barks: {len(barks)} unique | non-verbal: {sum(1 for b in barks.values() if b['nonverbal'])} | voiceable: {sum(1 for b in barks.values() if not b['nonverbal'])} | convo-embedded: {n_convo}")
 print(f"inspects: {len(inspects)} | scenes with roster: {len(scene_actors)}")
 print("top bark speakers:", ", ".join(f"{n}({c})" for n, c in spk.most_common(8)))
