@@ -133,15 +133,21 @@ namespace SRRVoices
             playToken++;
             int myToken = playToken;
             if (src != null) src.Stop();
-            StopBarks();   // dialogue/narration/inspects preempt combat barks
+            // Barks are deliberately NOT stopped here. Combat-end reaction barks (e.g. Paco's "They
+            // won't attack us anymore." / Coyote's "Gino? Gino!") fire the same beat a post-combat
+            // conversation auto-opens; stopping barks on every dialogue line cut them off a frame
+            // after they fired, before they were ever audible. Barks live on their own overlapping
+            // channel and are short (<=2s), so letting them play out under the opening line is fine.
+            // They are still cleared at hard boundaries by StopAll() (conversation end / no-VO node).
             StartCoroutine(PlaySeq(relPaths, myToken));
         }
 
         // ---- combat barks -------------------------------------------------------
         // Barks play on their own small pool of AudioSources so a new bark never truncates one
         // already playing: two actors shouting at once overlap, the same way their text bubbles
-        // do on screen. Barks never preempt the main channel either; only the main channel
-        // (dialogue, inspects, loadscreen narration) silences barks, via StopBarks().
+        // do on screen. Barks never preempt the main channel either. Per-line dialogue/inspect
+        // playback (PlaySequence) does NOT silence barks any more; they are only cleared at hard
+        // boundaries via StopBarks() inside StopAll() (conversation end / no-VO node / scene stop).
         AudioSource[] barkSrcs;
         bool[] barkBusy;
         string[] barkRel;     // first clip of the bark each slot is voicing (echo suppression)
