@@ -3904,7 +3904,7 @@
   "archetype": null,
   "gender": "?",
   "portrait": null,
-  "nonverbal": false,
+  "nonverbal": true,
   "count": 1,
   "kind": "prop"
  },
@@ -4383,28 +4383,6 @@
  },
  "bark_f1f898dbe2924e03": {
   "text": "Janitor... Not authorized... Move along...",
-  "speaker": "Unknown",
-  "sheetId": null,
-  "archetype": null,
-  "gender": "?",
-  "portrait": null,
-  "nonverbal": false,
-  "count": 1,
-  "kind": "point"
- },
- "bark_4c03add8ad50e2ea": {
-  "text": "Scanning ... Home Access Only ... Have a nice day $(scene.BroSis).",
-  "speaker": "Unknown",
-  "sheetId": null,
-  "archetype": null,
-  "gender": "?",
-  "portrait": null,
-  "nonverbal": false,
-  "count": 1,
-  "kind": "point"
- },
- "bark_5298c028d8c16ca9": {
-  "text": "Scanning ... The Inner Sanctum welcomes you $(scene.FatherMother).",
   "speaker": "Unknown",
   "sheetId": null,
   "archetype": null,
@@ -5143,7 +5121,7 @@
   "archetype": null,
   "gender": "male",
   "portrait": "",
-  "nonverbal": false,
+  "nonverbal": true,
   "count": 1,
   "kind": "actor",
   "source": "convo"
@@ -5195,5 +5173,33 @@
   "count": 1,
   "kind": "actor",
   "source": "convo"
+ },
+ "bark_4c03add8ad50e2ea": {
+  "text": "Scanning ... Home Access Only ... Have a nice day $(scene.BroSis).",
+  "speaker": "UB Scanner",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point",
+  "source": "scene",
+  "voiceId": "mag_685",
+  "voiceName": "Dusty Baxter"
+ },
+ "bark_5298c028d8c16ca9": {
+  "text": "Scanning ... The Inner Sanctum welcomes you $(scene.FatherMother).",
+  "speaker": "UB Scanner",
+  "sheetId": null,
+  "archetype": null,
+  "gender": "?",
+  "portrait": null,
+  "nonverbal": false,
+  "count": 1,
+  "kind": "point",
+  "source": "scene",
+  "voiceId": "mag_685",
+  "voiceName": "Dusty Baxter"
  }
 }

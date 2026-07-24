@@ -446,5 +446,17 @@
  "Guest04": {
   "voiceId": "mag_319",
   "voiceName": "Benjamin Walker"
+ },
+ "Female-Worker": {
+  "voiceId": "mag_245",
+  "voiceName": "Ava Madison"
+ },
+ "Female-Rich": {
+  "voiceId": "mag_332",
+  "voiceName": "Charlotte Winslow"
+ },
+ "Male-Worker": {
+  "voiceId": "mag_294",
+  "voiceName": "Alexander Davis"
  }
 }

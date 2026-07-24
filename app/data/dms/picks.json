@@ -510,5 +510,33 @@
  "name_gino": {
   "voiceId": "mag_35",
   "voiceName": "Grant Walker"
+ },
+ "name_jamal": {
+  "voiceId": "mag_176",
+  "voiceName": "Connor Keane"
+ },
+ "name_valerietelestrian": {
+  "voiceId": "mag_631",
+  "voiceName": "Rhea Sterling"
+ },
+ "name_fixer": {
+  "voiceId": "mag_284",
+  "voiceName": "Liam Cooper"
+ },
+ "name_securityspeaker": {
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson"
+ },
+ "name_sampson": {
+  "voiceId": "mag_38",
+  "voiceName": "Cole Anderson"
+ },
+ "name_switchblade": {
+  "voiceId": "mag_600",
+  "voiceName": "Jack Rawlins"
+ },
+ "name_eccher": {
+  "voiceId": "mag_40",
+  "voiceName": "Dylan Scott"
  }
 }

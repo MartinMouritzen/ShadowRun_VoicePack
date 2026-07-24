@@ -94,38 +94,22 @@
    ]
   ]
  },
- "name_gino": {
-  "files": [
-   "name_gino.png",
-   "name_gino_v2.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "backer_humanmale_joecostantino.png",
-    "backer_orkmale_sympathplan.png",
-    "npc_humanmale_hansbrackhaus.png"
-   ],
-   [
-    "backer_elfmale_richardsaada_saada.png",
-    "backer_elfmale_andykitzke_ulrickell.png",
-    "npc_humanmale_paco.png"
-   ]
-  ]
- },
  "name_jamal": {
   "files": [
    "name_jamal.png",
    "name_jamal_v2.png",
-   "name_jamal_8a93fe5b.png",
    "name_jamal_8a93ffbf.png",
    "name_jamal_8a94c2df.png",
-   "name_jamal_8a952988.png",
    "name_jamal_8a955991.png",
    "name_jamal_8a9589ec.png",
    "name_jamal_8a959409.png",
    "name_jamal_908b4799.png",
-   "name_jamal_908b836a.png"
+   "name_jamal_908b836a.png",
+   "name_jamal_908c62bb.png",
+   "name_jamal_908c6732.png",
+   "name_jamal_908d8277.png",
+   "name_jamal_908d84d9.png",
+   "name_jamal_908dce86.png"
   ],
   "usedRef": false,
   "sourceArt": [
