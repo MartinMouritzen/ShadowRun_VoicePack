@@ -18469,8 +18469,8 @@
   {
    "id": "name_gino",
    "name": "Gino",
-   "portrait": "",
-   "portraitFile": "",
+   "portrait": "NPC_HumanMale_Gino",
+   "portraitFile": "npc_humanmale_gino.png",
    "lines": [
     {
      "c": "51bd117f356164580b001757",
