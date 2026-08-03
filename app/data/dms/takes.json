@@ -39935,6 +39935,19 @@
      "ts": 1784830229
     }
    ]
+  },
+  "565f66506233314414005f55_1": {
+   "selected": "name_shannonhalfsky/takes/565f66506233314414005f55_1__mag258__1785764576.mp3",
+   "takes": [
+    {
+     "file": "name_shannonhalfsky/takes/565f66506233314414005f55_1__mag258__1785764576.mp3",
+     "voiceId": "mag_258",
+     "voiceName": "Sophia Elizabeth",
+     "stability": 0,
+     "chars": 56,
+     "ts": 1785764576
+    }
+   ]
   }
  },
  "name_cherrybomb": {
@@ -61349,21 +61362,6 @@
      "stability": 0,
      "chars": 112,
      "ts": 1784130471
-    }
-   ]
-  }
- },
- "name_playeroneshaman": {
-  "565f66506233314414005f55_1": {
-   "selected": "name_playeroneshaman/takes/565f66506233314414005f55_1__0aXOy31Cjamp__1784130509.mp3",
-   "takes": [
-    {
-     "file": "name_playeroneshaman/takes/565f66506233314414005f55_1__0aXOy31Cjamp__1784130509.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0,
-     "chars": 56,
-     "ts": 1784130509
     }
    ]
   }

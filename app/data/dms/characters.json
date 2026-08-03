@@ -10293,6 +10293,12 @@
      "n": 17,
      "cn": "c08-s2_Planeyard_Shaman_01",
      "t": "{{GM}}You hand her the objects you've found. She closes her eyes and chants over them for a time. When her eyes open again, they're filled with tears.{{/GM}}\n\nThank you. These items are all I will need. It shouldn't take me long to--"
+    },
+    {
+     "c": "565f66506233314414005f55",
+     "n": 1,
+     "cn": "c10-s1_PlaneyardReturn_Lookout",
+     "t": "This guy doesn't look like one of the hired mercenaries."
     }
    ],
    "portraitFile": "npc_humanfemale_shamaninvestigator.png"
@@ -18335,21 +18341,6 @@
      "n": 1,
      "cn": "c09-s1_Tweakers_LabEntrance",
      "t": "{{GM}}The shotgun-wielding thug squeaks in panic.{{/GM}}\n\nIt's the crew that took out Stevie J's place. I told you it was only a matter of time!"
-    }
-   ]
-  },
-  {
-   "id": "name_playeroneshaman",
-   "name": "Player One (Shaman)",
-   "portrait": null,
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "565f66506233314414005f55",
-     "n": 1,
-     "cn": "c10-s1_PlaneyardReturn_Lookout",
-     "t": "This guy doesn't look like one of the hired mercenaries."
     }
    ]
   },

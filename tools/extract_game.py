@@ -93,6 +93,23 @@ for pack in glob.glob(SR + "/*/data/chars/*.ch_sht.bytes"):
         elif f == 13 and wt == 2: name = s_(v)
     if uid: sheets[uid] = {"archetype": arch, "portrait": portrait, "name": name, "file": os.path.basename(pack)}
 
+# Party-slot placeholders. The editor's player-spawn props (system_spawner_playerSpawner) and the
+# Matrix player icon (chars_icon_playerIcon) stand in for whoever the RUNTIME drops into that party
+# slot; in game the dialogue UI shows that party member's real name and portrait. Designers
+# sometimes rename the prop to the character scripted into the slot (DMS c10-s2's spawner is
+# literally "Shannon Half-Sky", and its lines attribute correctly), but usually leave the editor
+# default -- "Player One (Shaman)", "Player 1", "Player Character 1", "New Actor". Taking that
+# default literally invents a character that never speaks in game, and it then gets cast and voiced,
+# so the wrong voice ships (the DMS c10-s1 "Player One (Shaman)" line, actually Shannon's). A
+# defaulted slot is therefore barred from being a speaker at all: no tag lookup, no conversation
+# ownership, no name-index match, and an explicit node reference to one falls through to the
+# unattributed bucket for hand-attribution rather than being guessed at.
+PLACEHOLDER_PROP = re.compile(r'system_spawner_playerSpawner|chars_icon_playerIcon', re.I)
+def is_placeholder(a):
+    if not a or not PLACEHOLDER_PROP.search(a.get("propname") or ""): return False
+    n = (a.get("name") or "").strip().lower()
+    return (not n) or n.startswith("player") or n == "new actor"
+
 # 2. scenes -> actors, tags, owners
 actors = {}; tag_map = {}; owner_map = {}; owner_candidates = {}; trigger_pairs = {}
 scene_files = []
@@ -129,6 +146,7 @@ for sf in scene_files:
         portrait = ci_portrait or sheet.get("portrait")
         actors[idref] = {"name": name, "sheet_id": sheet_id, "tags": sorted(tags),
                          "scene": scene, "propname": pname, "portrait": portrait, "bio": ci_bio}
+        if is_placeholder(actors[idref]): continue   # party-slot stand-in: never a speaker (see above)
         for t in tags:
             tag_map.setdefault((scene, t), idref); tag_map.setdefault((None, t), idref)
         conv = sub(prop, 11, 14)
@@ -152,7 +170,7 @@ def scan_calls(msg, depth=0):
         strs = []; all_strings(msg, strs)
         hexes = [t for t in strs if HEX24.match(t)]
         convo_hits = sorted(set(h for h in hexes if h not in actors))
-        actor_hits = sorted(set(h for h in hexes if h in actors))
+        actor_hits = sorted(set(h for h in hexes if h in actors and not is_placeholder(actors[h])))
         if len(actor_hits) == 1 and len(convo_hits) == 1:
             trigger_pairs.setdefault(convo_hits[0], actor_hits[0])
     for f, wt, v in items:
@@ -168,6 +186,7 @@ def norm(t):
     return re.sub(r'[^a-z0-9]', '', t.lower())
 name_index = {}
 for aid, a in actors.items():
+    if is_placeholder(a): continue   # else "a1_Intro_s2-AudranSeesThePlayer" matches the spawner "Player", not Audran
     n = norm(a.get("name"))
     if n and len(n) >= 4: name_index.setdefault(n, aid)
 
@@ -214,7 +233,9 @@ GM_TYPES = {4}; INPUT_TYPES = {7, 8}
 chars_out = {}
 narrator = {"id": "narrator", "name": "Narrator (GM)", "portrait": None, "lines": []}
 unattributed = {"id": "unattributed", "name": "(Unassigned)", "portrait": None, "lines": []}
-stats = {"nodes": 0, "attributed": 0, "narrator": 0, "input": 0, "empty": 0, "unattributed": 0}
+stats = {"nodes": 0, "attributed": 0, "narrator": 0, "input": 0, "empty": 0, "unattributed": 0,
+         "placeholder": 0}
+placeholder_nodes = []
 def actor_key(aid):
     a = actors.get(aid)
     if not a: return None
@@ -258,6 +279,11 @@ for cf in convo_files:
             stats["narrator" if ntype in GM_TYPES else "input"] += 1
             add_line("narrator", None, convo_id, convo_name, idx, text, ntype); continue
         aid = None
+        if src_ref and src_ref in actors and is_placeholder(actors[src_ref]):
+            # explicit reference to a party slot: the speaker is runtime party state, not this prop
+            placeholder_nodes.append((convo_name or convo_id, idx, actors[src_ref].get("name")))
+            stats["unattributed"] += 1; stats["placeholder"] += 1   # placeholder is a subset of unattributed
+            add_line(None, None, convo_id, convo_name, idx, text, ntype); continue
         if src_ref and src_ref in actors: aid = src_ref
         elif src_tag:
             hit = None
@@ -293,6 +319,11 @@ out = {"characters": result, "narrator": narrator, "unattributed": unattributed,
 json.dump(out, open(os.path.join(OUT, "characters.json"), "w"), ensure_ascii=False, indent=1)
 print(json.dumps(stats))
 print(f"characters: {len(result)}, narrator lines: {len(narrator['lines'])}, unattributed: {len(unattributed['lines'])}")
+if placeholder_nodes:
+    print(f"NOTE: {len(placeholder_nodes)} node(s) point at a party-slot placeholder prop -> "
+          f"unattributed (hand-attribute these; the game shows the real party member):", file=sys.stderr)
+    for cn, idx, nm in placeholder_nodes:
+        print(f"  {cn} n={idx}  slot={nm!r}", file=sys.stderr)
 if owner_warnings:
     print(f"WARN: {len(owner_warnings)} multi-owner convo(s) with no confident primary NPC (kept first owner):",
           file=sys.stderr)

@@ -24,13 +24,22 @@ ch = json.load(open(CH_PATH))
 by_id = {c["id"]: c for c in ch["characters"]}
 
 total = 0
+dropped = []
 for rule in rules:
     convo, nodes = rule["convo"], set(rule["nodes"])
     src, dst = rule["from"], rule["to"]
-    if src not in by_id:
-        sys.exit(f"ERROR: source char '{src}' not found (convo {convo})")
     if dst not in by_id:
         sys.exit(f"ERROR: target char '{dst}' not found (convo {convo})")
+    if src not in by_id:
+        # A previous run emptied the source and dropped it. That is only OK if the lines really
+        # did land on the target; anything else means the file is not what this rule expects.
+        here = sum(1 for ln in by_id[dst]["lines"] if ln.get("c") == convo and ln.get("n") in nodes)
+        if here == len(nodes):
+            print(f"  {rule.get('convo_name', convo)}: already applied ({src} gone, "
+                  f"{here}/{len(nodes)} nodes under {dst})")
+            continue
+        sys.exit(f"ERROR: source char '{src}' not found and only {here}/{len(nodes)} of its nodes "
+                 f"are under '{dst}' (convo {convo})")
     keep, moved = [], 0
     for ln in by_id[src]["lines"]:
         if ln.get("c") == convo and ln.get("n") in nodes:
@@ -42,6 +51,11 @@ for rule in rules:
     already = sum(1 for ln in by_id[dst]["lines"] if ln.get("c") == convo and ln.get("n") in nodes)
     print(f"  {rule.get('convo_name', convo)}: moved {moved} line(s) {src} -> {dst} "
           f"({already}/{len(nodes)} target nodes now under {dst})")
+    if rule.get("drop_source_when_empty") and not by_id[src]["lines"]:
+        dropped.append(src)
 
+if dropped:
+    ch["characters"] = [c for c in ch["characters"] if c["id"] not in dropped]
+    print(f"dropped {len(dropped)} now-empty source character(s): {', '.join(dropped)}")
 json.dump(ch, open(CH_PATH, "w"), ensure_ascii=False, indent=1)
 print(f"applied {len(rules)} rule(s) for {GAME}, moved {total} line(s) total")

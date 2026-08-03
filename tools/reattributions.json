@@ -8,6 +8,15 @@
    "from": "name_mcklusky",
    "to": "name_shannonhalfsky",
    "reason": "Multi-owner conversation: in scene c08-s2_planeyard BOTH McKlusky (Lonestar_Lv1_Captain) and Shannon Half-Sky (Story_Shaman) bind this convo. Nodes 0-17 have no explicit speaker (protobuf field 12 absent) and are the shaman's dialogue about her brother's trapped spirit, but the extractor's arbitrary first-owner tie-break dumped all 18 onto McKlusky. Confirmed by the GM stage direction 'She looks up, watching you warily' and node 23's explicit Shannon actor ref. McKlusky's own lines (18, 20-22, 24-25, explicit refs) and Officer Aguirre (19) stay put."
+  },
+  {
+   "convo": "565f66506233314414005f55",
+   "convo_name": "c10-s1_PlaneyardReturn_Lookout",
+   "nodes": [1],
+   "from": "name_playeroneshaman",
+   "to": "name_shannonhalfsky",
+   "drop_source_when_empty": true,
+   "reason": "Party-slot placeholder: node 1's speaker ref (field 12) points at scene c10-s1_planeyardreturn's prop 1a44aec9623331d01000164f, a system_spawner_playerSpawner the designer left named 'Player One (Shaman)'. That is a party SLOT, not a character -- at runtime the game fills it and shows the real party member, which for the Planeyard return is Shannon Half-Sky (confirmed in game: her name and portrait on this line). The extractor took the slot label literally and invented a 'Player One (Shaman)' character, which then got voiced with a deep male narrator voice. Root cause fixed in extract_game.py (party-slot placeholders can never be speakers); this rule corrects the shipped file."
   }
  ]
 }
