@@ -192,6 +192,7 @@ namespace SRRVoices
                 if (convo == null || convo.idRef == null) return;
                 string pname;
                 if (!ByConv.TryGetValue(convo.idRef.id, out pname)) return;
+                if (!Serveable(pname)) return;    // no PNG on disk: leave the game's own art alone
 
                 Player speaker = thisSpeaker;
                 var rm = RunManager.Instance;
@@ -262,6 +263,7 @@ namespace SRRVoices
                     string file;
                     if (!ByActor.TryGetValue(key, out file)) continue;
                     if (cur == PREFIX + key) continue;
+                    if (!Serveable(PREFIX + key)) continue;   // same rule as the conversation path
                     p.portraitName = PREFIX + key;
                     n++;
                     if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
@@ -291,10 +293,24 @@ namespace SRRVoices
             catch (Exception) { }
         }
 
+        // Can we actually put pixels on screen for this name? Being in the index is not enough --
+        // the PNG has to be on disk. Claiming a name we cannot serve is worse than not claiming it:
+        // the game accepts the name, asks its own loader for a portrait it has never heard of, and
+        // renders the resulting garbage texture as grey noise, with the character's real art lost.
+        // That happens whenever the pack is updated underneath a running game, and to anyone whose
+        // pack is missing a file.
+        static bool Serveable(string pname)
+        {
+            string file;
+            if (string.IsNullOrEmpty(pname) || !ByPortraitName.TryGetValue(pname, out file)) return false;
+            try { return File.Exists(Path.Combine(root, file)); }
+            catch (Exception) { return false; }
+        }
+
         public static void FinalNamePostfix(string basePortraitName, ref string __result)
         {
             if (!string.IsNullOrEmpty(basePortraitName) && basePortraitName.StartsWith(PREFIX)
-                && ByPortraitName.ContainsKey(basePortraitName))
+                && Serveable(basePortraitName))
                 __result = basePortraitName;      // ours is valid even though the game never listed it
         }
 
