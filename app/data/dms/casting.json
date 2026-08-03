@@ -269,16 +269,6 @@
    }
   ]
  },
- "name_tweaker": {
-  "main": false,
-  "voices": [
-   {
-    "voiceId": 40,
-    "voiceName": "Chase Reed",
-    "voiceDesc": "young Australian, natural energy"
-   }
-  ]
- },
  "name_aljernon": {
   "main": false,
   "voices": [
@@ -396,16 +386,6 @@
     "voiceId": 544,
     "voiceName": "Jack Riker",
     "voiceDesc": "gruff, high-intensity"
-   }
-  ]
- },
- "name_mentalpatient": {
-  "main": false,
-  "voices": [
-   {
-    "voiceId": 27,
-    "voiceName": "Ethan Brooks",
-    "voiceDesc": "American with slight rasp, authentic"
    }
   ]
  },
@@ -609,16 +589,6 @@
    }
   ]
  },
- "name_doctor": {
-  "main": false,
-  "voices": [
-   {
-    "voiceId": 390,
-    "voiceName": "James Carter",
-    "voiceDesc": "rugged wise old cowboy"
-   }
-  ]
- },
  "name_cook": {
   "main": false,
   "voices": [
@@ -676,16 +646,6 @@
     "voiceId": 359,
     "voiceName": "Jacob Harrison",
     "voiceDesc": "deep gritty Southern drawl"
-   }
-  ]
- },
- "name_delilahmuscle": {
-  "main": false,
-  "voices": [
-   {
-    "voiceId": 541,
-    "voiceName": "Jack Thornhill",
-    "voiceDesc": "British grit, working-class edge"
    }
   ]
  },
@@ -846,16 +806,6 @@
     "voiceId": 245,
     "voiceName": "Ava Madison",
     "voiceDesc": "clean easy young American"
-   }
-  ]
- },
- "name_coyoteugly": {
-  "main": false,
-  "voices": [
-   {
-    "voiceId": 29,
-    "voiceName": "Ava Jordan",
-    "voiceDesc": "clear enthusiastic young British"
    }
   ]
  },

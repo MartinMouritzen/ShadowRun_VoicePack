@@ -8,6 +8,12 @@
    "portrait": "Generic_Spirit_ForgottenSoul",
    "drop_ai_portrait": true,
    "reason": "The 17 lines of c10-s2_PlaneyardReturn_Spirit are correctly grouped but were filed under the wrong actor's name. The speaker is prop 93fed5ad6233318c39004886 in scene c10-s2_planeyardreturn: CharacterInstance name 'Forgotten Souls' (which is what the game's dialogue header shows), sheet 'Spirit Abomination', portrait 'Generic_Spirit_ForgottenSoul'; its editor label happens to be 'Spirit'. The extractor's convo-name fallback searched a GLOBAL actor index, so the word 'Spirit' in the conversation name matched an unrelated 'Spirit' prop standing in c06-s1_aptsfirstfloor, two chapters earlier, which carries no portrait. That empty portrait is why the lab thought this character had no art and generated an AI portrait for it (a translucent adult elf, wrong for a chorus of dead children); the real actor has its own art, so the AI one is dropped and the game's portrait stands. Root cause fixed in extract_game.py: a cross-scene convo-name match no longer beats the conversation's own owner."
+  },
+  {
+   "from": "name_hooker",
+   "to": "name_streetwalker",
+   "name": "Streetwalker",
+   "reason": "Same cross-scene name match, and a rename rather than a reattribution because every one of these lines is hers: 'Hooker' matched a prop of that name in c03-s1_barrens which has no dialogue at all, while the woman actually working the Planeyard in c08-s1 is the 'Streetwalker' prop that owns the conversation. Renaming rather than merging keeps her separate from the Barrens woman, who is a different NPC. Audio unchanged. NOTE: her takes were generated with Sasha Monroe while picks.json says Selene Vex -- a pre-existing mismatch carried over untouched, not introduced here."
   }
  ]
 }

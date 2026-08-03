@@ -107,10 +107,6 @@
   "voiceId": "mag_501",
   "voiceName": "Noah Bailey"
  },
- "name_mentalpatient": {
-  "voiceId": "mag_439",
-  "voiceName": "Owen Parker"
- },
  "name_acolyte": {
   "voiceId": "mag_613",
   "voiceName": "Amber Hayes"
@@ -223,10 +219,6 @@
   "voiceId": "mag_347",
   "voiceName": "Eleanor Hastings"
  },
- "name_delilahmuscle": {
-  "voiceId": "mag_294",
-  "voiceName": "Alexander Davis"
- },
  "name_mrquoth": {
   "voiceId": "mag_624",
   "voiceName": "Adam Lefevre"
@@ -278,10 +270,6 @@
  "name_tirtairngireghost": {
   "voiceId": "mag_339",
   "voiceName": "Infernal Colossus"
- },
- "name_coyoteugly": {
-  "voiceId": "1EZBFEhLjqjzuG8HBNbj",
-  "voiceName": "Gabby"
  },
  "name_sarah": {
   "voiceId": "mag_795",
@@ -487,10 +475,6 @@
   "voiceId": "mSOmKHC6GZcZbSTGlqHO",
   "voiceName": "Mister Gruff - Miserable old neighbor"
  },
- "name_hooker": {
-  "voiceId": "mag_542",
-  "voiceName": "Selene Vex"
- },
  "name_securityturret1": {
   "voiceId": "0aXOy31Cjamp6gJcyqYu",
   "voiceName": "Matt - Deep Authoritative Narrator"
@@ -498,10 +482,6 @@
  "name_junkie": {
   "voiceId": "mag_535",
   "voiceName": "Walter Briggs"
- },
- "name_playercharacter1": {
-  "voiceId": "uLCvmeolFYSV8RxA07Mn",
-  "voiceName": "Male voice"
  },
  "name_gino": {
   "voiceId": "mag_35",
@@ -538,5 +518,25 @@
  "name_forgottensouls": {
   "voiceId": "mag_589",
   "voiceName": "Skryth the Withered"
+ },
+ "name_streetwalker": {
+  "voiceId": "mag_542",
+  "voiceName": "Selene Vex"
+ },
+ "name_lorraine": {
+  "voiceId": "mag_158",
+  "voiceName": "Taylor Morgan"
+ },
+ "name_donny": {
+  "voiceId": "mag_439",
+  "voiceName": "Owen Parker"
+ },
+ "name_datapad": {
+  "voiceId": "mag_303",
+  "voiceName": "Isla Kensington"
+ },
+ "name_yakuzadecker": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
  }
 }

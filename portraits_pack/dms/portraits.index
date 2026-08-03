@@ -6,20 +6,16 @@ brotherhoodguard	srrv_brotherhoodguard.png
 charlie	srrv_charlie.png
 concernedwoman	srrv_concernedwoman.png
 danthedonutman	srrv_danthedonutman.png
-delilahmuscle	srrv_delilahmuscle.png
 femalebunraku	srrv_femalebunraku.png
 fixer	srrv_fixer.png
 frank	srrv_frank.png
 homelessman	srrv_homelessman.png
-hooker	srrv_hooker.png
 jamal	srrv_jamal.png
 janitor	srrv_janitor.png
 junkie	srrv_junkie.png
 letter	srrv_letter.png
-lonestardatabase	srrv_lonestardatabase.png
 malebunraku	srrv_malebunraku.png
 manny	srrv_manny.png
-mentalpatient	srrv_mentalpatient.png
 mrsjames	srrv_mrsjames.png
 officerlanders	srrv_officerlanders.png
 sadoldman	srrv_sadoldman.png
@@ -32,6 +28,7 @@ sistermonica	srrv_sistermonica.png
 sisternancy	srrv_sisternancy.png
 sistersally	srrv_sistersally.png
 sisterwilma	srrv_sisterwilma.png
+streetwalker	srrv_streetwalker.png
 supervisor	srrv_supervisor.png
 switchblade	srrv_switchblade.png
 telestrianlegaldepartmentdatastore	srrv_telestrianlegaldepartmentdatastore.png
@@ -42,9 +39,6 @@ vlad	srrv_vlad.png
 worriedman	srrv_worriedman.png
 zipper	srrv_zipper.png
 conv:003e6262643431b6650041ae	srrv_telestrianlegaldepartmentdatastore.png
-conv:13869f4a623331ac18006df2	srrv_lonestardatabase.png
-conv:13e45509623331c415004824	srrv_lonestardatabase.png
-conv:1448d35062333184170018cd	srrv_mentalpatient.png
 conv:26bf5777306466ec210018c0	srrv_addict.png
 conv:32b24e5d306466e406001b26	srrv_tickler.png
 conv:36bafa69306434fc04000a2c	srrv_concernedwoman.png
@@ -61,13 +55,11 @@ conv:519ce41d623331c81f003dac	srrv_sadoldman.png
 conv:51a568cc623331d023006df3	srrv_tranq.png
 conv:51a5703a396163240d007b09	srrv_officerlanders.png
 conv:51a6cf136233316c1f000767	srrv_junkie.png
-conv:51ae8896303031c014003065	srrv_delilahmuscle.png
 conv:51aff6f9633635d4150081a2	srrv_sisterwilma.png
 conv:51b0bb03633635940800165e	srrv_sistersally.png
 conv:51b0eaa26336359408001add	srrv_brotherchristopher.png
 conv:51b12b8b6336359408001f43	srrv_letter.png
 conv:51b14e0363363554170015c5	srrv_sistermonica.png
-conv:51b9f94a3030319414006b75	srrv_letter.png
 conv:51bcdf80356164580b00167e	srrv_charlie.png
 conv:51bcf721633635681e001824	srrv_sistermonica.png
 conv:51bcf721633635681e001824	srrv_sistersally.png
@@ -76,7 +68,7 @@ conv:626a75053064340c13000132	srrv_sarah.png
 conv:6282eb3064343111165d128d	srrv_fixer.png
 conv:62a19b283064340c1300028b	srrv_worriedman.png
 conv:62b16a513064340c1300030c	srrv_vlad.png
-conv:6b1a6497623331ec1b004826	srrv_hooker.png
+conv:6b1a6497623331ec1b004826	srrv_streetwalker.png
 conv:6bc1ceb73064344810005f1b	srrv_danthedonutman.png
 conv:6c42c0d830643438150072da	srrv_sally.png
 conv:7f0e600a306434041700487e	srrv_securityturret1.png
@@ -96,4 +88,3 @@ conv:ab7a98a8306434e41b00441b	srrv_acolyte.png
 conv:aba2c9e0306434e41b00478f	srrv_acolyte.png
 conv:ae7735c03064346817004829	srrv_janitor.png
 conv:ae9da30630643468170049ee	srrv_sisternancy.png
-conv:f8a76498623331780b0018bf	srrv_mentalpatient.png

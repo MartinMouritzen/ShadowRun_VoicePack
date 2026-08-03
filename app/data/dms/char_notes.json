@@ -610,53 +610,6 @@
    }
   ]
  },
- "name_tweaker": {
-  "bio": "Chip-fried informant vibrating between paranoia and salesmanship.",
-  "direction": "Twitchy, fast, pitch shifting; sounds like he's already three sentences ahead.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_686",
-    "name": "Terry Dobson",
-    "why": "Eccentric, husky-voiced Northerner with odd takes, sharp instincts, and charming contradic"
-   },
-   {
-    "voice_id": "mag_518",
-    "name": "Dr. Cosmo Fizzlebaum",
-    "why": "Lively and quirky, this voice bursts with character and charm. Ideal for oddball roles, wh"
-   },
-   {
-    "voice_id": "mag_533",
-    "name": "Zeke Rivers",
-    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
-   },
-   {
-    "voice_id": "mag_511",
-    "name": "Dorian Malice",
-    "why": "A measured, elderly male voice with subtle menace. Slightly eccentric, calm yet unpredicta"
-   },
-   {
-    "voice_id": "mag_859",
-    "name": "Archer Harrison",
-    "why": "Fine tuned for conversation and podcasts etc"
-   },
-   {
-    "voice_id": "mag_378",
-    "name": "Arthur Kensington",
-    "why": "High-energy and expressive, this young to middle-aged medieval-style voice has a higher pi"
-   },
-   {
-    "voice_id": "mag_543",
-    "name": "Axel Virex",
-    "why": "An American male voice with a robotic edge, well-suited for science fiction and fantasy pr"
-   },
-   {
-    "voice_id": "mag_442",
-    "name": "Ben Watson",
-    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
-   }
-  ]
- },
  "name_aljernon": {
   "bio": "Eccentric elf talismonger - part shopkeeper, part oracle, entirely odd.",
   "direction": "Whimsical and sly, with genuine arcane depth beneath the patter.",
@@ -1265,53 +1218,6 @@
     "voice_id": "mag_534",
     "name": "Old Pip Quickroot",
     "why": "A high-pitched, raspy British gnome voice with sharp comedic timing and surprising emotion"
-   }
-  ]
- },
- "name_mentalpatient": {
-  "bio": "A Seattle citizen just trying to get by.",
-  "direction": "Everyday, natural, unpolished.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_439",
-    "name": "Owen Parker",
-    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
-   },
-   {
-    "voice_id": "mag_284",
-    "name": "Liam Cooper",
-    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
-   },
-   {
-    "voice_id": "mag_295",
-    "name": "William Brown",
-    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
-   },
-   {
-    "voice_id": "mag_181",
-    "name": "Lucas Bennett",
-    "why": "Casual and conversational voice of a 40-year-old Canadian man."
-   },
-   {
-    "voice_id": "mag_318",
-    "name": "Oliver Whitmore",
-    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
-   },
-   {
-    "voice_id": "mag_388",
-    "name": "Michael Brooks",
-    "why": "Honest and direct, this conversational American adult male voice is centered and controlle"
-   },
-   {
-    "voice_id": "mag_252",
-    "name": "Noah Jackson",
-    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
-   },
-   {
-    "voice_id": "mag_47",
-    "name": "Tyler Quinn",
-    "why": "Relaxed young adult male voice with a conversational tone. Perfect for conversational AI a"
    }
   ]
  },
@@ -2537,53 +2443,6 @@
    }
   ]
  },
- "name_delilahmuscle": {
-  "bio": "Rank-and-file security.",
-  "direction": "Professional-bored with a hard edge on demand.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_442",
-    "name": "Ben Watson",
-    "why": "Young, serious, calm British male voice. Steady and focused—suited for audiobooks and thou"
-   },
-   {
-    "voice_id": "mag_24",
-    "name": "Patrick International",
-    "why": ""
-   },
-   {
-    "voice_id": "mag_584",
-    "name": "Titan Steele",
-    "why": "A booming, larger-than-life American announcer voice, packed with excitement and adrenalin"
-   },
-   {
-    "voice_id": "mag_177",
-    "name": "Adam Hughes",
-    "why": "Professional tone with expertise in technology and finance, perfect for informative and na"
-   },
-   {
-    "voice_id": "mag_174",
-    "name": "Aidan Doyle",
-    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
-   },
-   {
-    "voice_id": "mag_859",
-    "name": "Archer Harrison",
-    "why": "Fine tuned for conversation and podcasts etc"
-   },
-   {
-    "voice_id": "mag_378",
-    "name": "Arthur Kensington",
-    "why": "High-energy and expressive, this young to middle-aged medieval-style voice has a higher pi"
-   },
-   {
-    "voice_id": "mag_26",
-    "name": "Austin Lane",
-    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
-   }
-  ]
- },
  "name_sally": {
   "bio": "A Seattle citizen just trying to get by.",
   "direction": "Everyday, natural, unpolished.",
@@ -3336,53 +3195,6 @@
    }
   ]
  },
- "name_coyoteugly": {
-  "bio": "Coyote before her healing - same person, rougher days. Use the same voice as Coyote.",
-  "direction": "Match the Coyote casting exactly.",
-  "gender": "female",
-  "suggestions": [
-   {
-    "voice_id": "mag_208",
-    "name": "Sophie Harper",
-    "why": "Youthful Irish female voice with a touch of raspiness, well-suited for podcasts and audiob"
-   },
-   {
-    "voice_id": "mag_445",
-    "name": "Sophie Walker",
-    "why": "Young, engaging, enchanting female voice. Expressive and compelling—perfect for storytelli"
-   },
-   {
-    "voice_id": "mag_185",
-    "name": "Amelia Carter",
-    "why": "Canadian female voice with a distinctive tone."
-   },
-   {
-    "voice_id": "mag_29",
-    "name": "Ava Jordan",
-    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrations needing clarity,"
-   },
-   {
-    "voice_id": "mag_283",
-    "name": "Charlotte Taylor",
-    "why": "Upbeat and energetic, this young American female voice is ideal for social media content. "
-   },
-   {
-    "voice_id": "mag_536",
-    "name": "Dana Slate",
-    "why": "Dana’s voice oozes sarcasm with a slow, droll rhythm and impeccable timing. She’s the quee"
-   },
-   {
-    "voice_id": "mag_43",
-    "name": "Ella Morgan",
-    "why": "Young female with an Australian accent and Asian background. Ideal for bringing multicultu"
-   },
-   {
-    "voice_id": "mag_311",
-    "name": "Emily Carter",
-    "why": "Hope shines brightest, when embraced with an open heart."
-   }
-  ]
- },
  "narrator": {
   "bio": "The unseen game master. Reads every scene description, every consequence, every beat of atmosphere - the most heard voice in the game by far.",
   "direction": "Noir gravitas without monotony: a storyteller who can go from dry wit to dread. Distinct from every cast voice.",
@@ -3536,42 +3348,6 @@
   ],
   "gender": "female",
   "direction": "Middle-aged female shopkeeper, grateful and weary, dignified under pressure. Warm, tired, sincere."
- },
- "name_hooker": {
-  "suggestions": [
-   {
-    "voice_id": "mag_536",
-    "name": "Dana Slate",
-    "why": "street-worn, sultry/sarcastic"
-   },
-   {
-    "voice_id": "mag_298",
-    "name": "Amelia Beckett",
-    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
-   },
-   {
-    "voice_id": "mag_185",
-    "name": "Amelia Carter",
-    "why": "Canadian female voice with a distinctive tone."
-   },
-   {
-    "voice_id": "mag_29",
-    "name": "Ava Jordan",
-    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
-   },
-   {
-    "voice_id": "mag_245",
-    "name": "Ava Madison",
-    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
-   },
-   {
-    "voice_id": "mag_330",
-    "name": "Ava Thompson",
-    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
-   }
-  ],
-  "gender": "female",
-  "direction": "Female street sex worker, weary and transactional with a knowing tone. Jaded, casual, mid-range."
  },
  "name_sistermonica": {
   "suggestions": [
@@ -5176,5 +4952,41 @@
     "why": "Deep and slightly sassy female voice. Perfect for bold and fun content, with a hint of att"
    }
   ]
+ },
+ "name_streetwalker": {
+  "suggestions": [
+   {
+    "voice_id": "mag_536",
+    "name": "Dana Slate",
+    "why": "street-worn, sultry/sarcastic"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narrat"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_29",
+    "name": "Ava Jordan",
+    "why": "Young British woman’s voice, clear and enthusiastic. Great for narrati"
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for You"
+   },
+   {
+    "voice_id": "mag_330",
+    "name": "Ava Thompson",
+    "why": "Serene and vibrant, this calming female voice is ideal for meditation "
+   }
+  ],
+  "gender": "female",
+  "direction": "Female street sex worker, weary and transactional with a knowing tone. Jaded, casual, mid-range."
  }
 }

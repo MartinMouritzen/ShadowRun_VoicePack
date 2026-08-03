@@ -69,6 +69,14 @@ dropped = []
 for rule in rules:
     convo, nodes = rule["convo"], set(rule["nodes"])
     src, dst = rule["from"], rule["to"]
+    if dst not in by_id and "to_name" in rule:
+        # The right speaker can be a character the shipped file never had, because the wrong
+        # attribution was the only thing that ever created a bucket for those lines. Create it with
+        # the identity a corrected re-extract would produce (name + the actor's own portrait art).
+        by_id[dst] = {"id": dst, "name": rule["to_name"], "portrait": rule.get("to_portrait"),
+                      "archetype": rule.get("to_archetype"), "bio": None, "lines": []}
+        ch["characters"].append(by_id[dst])
+        print(f"  created target character {dst} ({rule['to_name']!r})")
     if dst not in by_id:
         sys.exit(f"ERROR: target char '{dst}' not found (convo {convo})")
     if src not in by_id:
@@ -152,6 +160,25 @@ for r in renames:
     print(f"  renamed {src} -> {dst} ({c['name']!r}), {len(c['lines'])} line(s); rekeyed: "
           f"{', '.join(touched) or 'nothing'}"
           + ("; dropped its AI portrait" if r.get("drop_ai_portrait") else ""))
+
+# ---- sweep per-character data left behind by dropped/renamed characters ----------------------
+# A character that no longer exists still has a voice pick, casting shortlist, notes, sample slots
+# and AI-portrait records under its old id. They are inert (every consumer keys off characters.json)
+# but they rot: the next reader cannot tell a real character from a deleted one.
+live = {c["id"] for c in ch["characters"]} | {"narrator", "unattributed", "_barks"}
+swept = {}
+for fn in KEYED_FILES:
+    p = os.path.join(ROOT, "app", "data", GAME, fn)
+    if not os.path.exists(p): continue
+    d = json.load(open(p))
+    dead = [k for k in d if k.startswith("name_") and k not in live]
+    if not dead: continue
+    for k in dead: d.pop(k)
+    json.dump(d, open(p, "w"), ensure_ascii=False, indent=1)
+    swept[fn] = dead
+if swept:
+    for fn, dead in swept.items():
+        print(f"  swept {len(dead)} orphaned entr(ies) from {fn}: {', '.join(sorted(dead))}")
 
 json.dump(ch, open(CH_PATH, "w"), ensure_ascii=False, indent=1)
 json.dump(takes, open(TAKES_PATH, "w"), ensure_ascii=False, indent=1)

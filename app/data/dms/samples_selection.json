@@ -454,41 +454,6 @@
    }
   ]
  },
- "name_tweaker": {
-  "name": "Tweaker",
-  "samples": [
-   {
-    "c": "51bd117f356164580b001757",
-    "n": 6,
-    "cn": "c09-s1_Tweakers_Gino",
-    "t": "Gino wrenches his wrist from Coyote’s grasp and he staggers back, reaches under his shirt and pulls out a gun. Coyote watches him, horrified, with tears in her eyes. Gino waves it around, blinking wildly."
-   },
-   {
-    "c": "51bfaa153561646c0f0041e2",
-    "n": 0,
-    "cn": "c09-s1_Tweakers_Jeff02",
-    "t": "Conversation with all the information in the conversation that would trigger without already having a keycard. Getting the keycard is missing in this one."
-   },
-   {
-    "c": "51cf382f356164d015000125",
-    "n": 2,
-    "cn": "c09-s1_Tweakers_CoyoteReminder",
-    "t": "No matter what, I don’t want any collateral damage in there. Shoot all the BTL pushers you want but no chip-heads die, if we can help it. Got it?"
-   },
-   {
-    "c": "370b5bf6306434fc04000b13",
-    "n": 5,
-    "cn": "c09-s1_Tweakers_Jamal",
-    "t": "You hear right. I got a few. I sell ‘em at a discount. Charlie charges 50 nuyen for ‘em but I can get you three for 100¥."
-   },
-   {
-    "c": "26bf5777306466ec210018c0",
-    "n": 5,
-    "cn": "c06-s1_Addict",
-    "t": "Hey, we can't all be... like you. Please, I just need one BTL to get through the day. Two, tops. \n\nWhat do you say?"
-   }
-  ]
- },
  "name_aljernon": {
   "name": "Aljernon",
   "samples": [
@@ -941,41 +906,6 @@
     "n": 5,
     "cn": "c21-s1_Brotherhood_Janitor",
     "t": "Oh yeah, like my grandpa used to say, \"the check is in the mail.\" Don’t think so."
-   }
-  ]
- },
- "name_mentalpatient": {
-  "name": "Mental Patient",
-  "samples": [
-   {
-    "c": "1448d35062333184170018cd",
-    "n": 10,
-    "cn": "c12-s1_MercyMental_Patient2",
-    "t": "Hey, it ain't like that! You don't know  him. The team managers laced his food with battleboost drugs. \n\nJosie likes his head clear, but they don't listen. \n\nIt's not his fault he crushed that guy's throat ... "
-   },
-   {
-    "c": "f8a76498623331780b0018bf",
-    "n": 2,
-    "cn": "c12-s1_MercyMental_Patient1",
-    "t": "Name's Donny. That's my name. DONNY. \n\nD. O. N. N. Y. \n\nI knew I didn't recognize you! I know everybody in this place. Everybody. Well, everybody on the first two floors..."
-   },
-   {
-    "c": "1448d35062333184170018cd",
-    "n": 1,
-    "cn": "c12-s1_MercyMental_Patient2",
-    "t": "I know, right! I haven't seen him in days. Dr. Philipe told me not to worry about it. He says I worry too much. \n\nBut who am I supposed to play chess with? Donny over there can't suss more than match-four."
-   },
-   {
-    "c": "1448d35062333184170018cd",
-    "n": 15,
-    "cn": "c12-s1_MercyMental_Patient2",
-    "t": "Wait, you SAW him? No, no, wait. I've never seen you. You can't have seen Josie. You aren't a doctor either. \n\nAwww. I just ... I feel really lost without him. Josie always helped me out. "
-   },
-   {
-    "c": "1448d35062333184170018cd",
-    "n": 14,
-    "cn": "c12-s1_MercyMental_Patient2",
-    "t": "Don't be like that. I'm just worried, you know? Don't tell Dr. Philipe, though. He said not to worry about Josie, and just make new friends. I just ... I feel really lost without him."
    }
   ]
  },
@@ -1673,41 +1603,6 @@
    }
   ]
  },
- "name_doctor": {
-  "name": "Doctor",
-  "samples": [
-   {
-    "c": "8f8a7ef36233318c24006ec2",
-    "n": 9,
-    "cn": "c11-s2_Matrix_Doctor",
-    "t": "And we were left to pick up the pieces, of course.\n\nBut enough about my troubles, let's hear about yours. Tell me what ails you."
-   },
-   {
-    "c": "8f8a7ef36233318c24006ec2",
-    "n": 5,
-    "cn": "c11-s2_Matrix_Doctor",
-    "t": "Days here tend to be slow, so I volunteer at a medical center on the other side of Touristville.\n\nAnd I had a rough shift."
-   },
-   {
-    "c": "8f8a7ef36233318c24006ec2",
-    "n": 12,
-    "cn": "c11-s2_Matrix_Doctor",
-    "t": "You're testing me, aren't you?  Trying to see just how long I can go without rest. Well, keep trying.\n\nHow can I help you?"
-   },
-   {
-    "c": "8f8a7ef36233318c24006ec2",
-    "n": 11,
-    "cn": "c11-s2_Matrix_Doctor",
-    "t": "Hadn't you heard?  Doctors don't like to talk about their problems. It makes us appear less godlike.\n\nBut I'll humor you."
-   },
-   {
-    "c": "8f8a7ef36233318c24006ec2",
-    "n": 6,
-    "cn": "c11-s2_Matrix_Doctor",
-    "t": "What always happens. Some run or some deal or some meet went south. One thing led to another, etcetera, etcetera."
-   }
-  ]
- },
  "name_cook": {
   "name": "Cook",
   "samples": [
@@ -1909,41 +1804,6 @@
     "n": 3,
     "cn": "c09-s1_Tweakers_BTLClocker",
     "t": "You wanna go on a ride? You can forget you’re a halfer for awhile."
-   }
-  ]
- },
- "name_delilahmuscle": {
-  "name": "Delilah Muscle",
-  "samples": [
-   {
-    "c": "51ae8896303031c014003065",
-    "n": 6,
-    "cn": "c08-s3_Delilah",
-    "t": "Well, for your speed, hired help'll run you about 1,200 a head. If you start taking on tougher jobs... well, the more experienced the runner, the higher the rates."
-   },
-   {
-    "c": "51ae8896303031c014003065",
-    "n": 3,
-    "cn": "c08-s3_Delilah",
-    "t": "Of course you do. That’s why you came back. Street talk is that you are tracking the Ripper. What can I do for you, Ripper Tracker?"
-   },
-   {
-    "c": "51ae8896303031c014003065",
-    "n": 2,
-    "cn": "c08-s3_Delilah",
-    "t": " I appreciate this about you. Street talk is that you are a dangerous individual. What can I do for you, Dangerous Individual?"
-   },
-   {
-    "c": "51ae8896303031c014003065",
-    "n": 11,
-    "cn": "c08-s3_Delilah",
-    "t": "Come see me when your business in the Union is resolved, and we'll see about putting together a team."
-   },
-   {
-    "c": "51ae8896303031c014003065",
-    "n": 12,
-    "cn": "c08-s3_Delilah",
-    "t": "Come see me when your business in the Union is resolved, and we'll see about putting together a team."
    }
   ]
  },
@@ -2402,41 +2262,6 @@
     "n": 4,
     "cn": "c03-s1_Barrens_Sarah",
     "t": "Hmm. Well... their leader's a big ol' troll named John Paul. Real piece of work, even for a 'weener."
-   }
-  ]
- },
- "name_coyoteugly": {
-  "name": "Coyote Ugly",
-  "samples": [
-   {
-    "c": "7bafc8583064665422005e1e",
-    "n": 7,
-    "cn": "c06-s2_Coyote",
-    "t": "Look... Paco... I needed an excuse to come back here and settle some debts. Figured... figured I might as well get paid for it.\n\nHer voice is strong still, but her body's beginning to shake."
-   },
-   {
-    "c": "7bafc8583064665422005e1e",
-    "n": 5,
-    "cn": "c06-s2_Coyote",
-    "t": "No... Coyote speaks through gritted teeth.\n\nNo. I need to finish the other thing I came here for... I need to find something for Mr. Delilah first. A stash of gems."
-   },
-   {
-    "c": "7bafc8583064665422005e1e",
-    "n": 1,
-    "cn": "c06-s2_Coyote",
-    "t": "No time to talk.\n\nCoyote kneels and picks up the fallen guard's shotgun.\n\nIt’s time to finish this."
-   },
-   {
-    "c": "7bafc8583064665422005e1e",
-    "n": 11,
-    "cn": "c06-s2_Coyote",
-    "t": "Yeah? And who said I needed rescuing? \n\n... guess it turns out I did, though. Thanks."
-   },
-   {
-    "c": "7bafc8583064665422005e1e",
-    "n": 0,
-    "cn": "c06-s2_Coyote",
-    "t": "Coyote is badly injured, but she's managing to hold it together."
    }
   ]
  },
