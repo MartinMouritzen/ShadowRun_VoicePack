@@ -87,8 +87,19 @@ def main():
 
     with open(os.path.join(out, "portraits.index"), "w") as f:
         f.write("\n".join(sorted(rows) + sorted(conv_rows)) + "\n")
+
+    # Drop PNGs this build no longer emits. A character that was renamed, merged away or had its
+    # AI portrait dropped otherwise leaves its art in the pack forever, and the file being present
+    # is exactly what lets a stale index keep serving it -- that is how a deleted "Mental Patient"
+    # went on showing his face over Lorraine's dialogue.
+    keep = {r.split("\t")[1] for r in rows + conv_rows}
+    stale = sorted(f for f in os.listdir(out) if f.endswith(".png") and f not in keep)
+    for f in stale:
+        os.remove(os.path.join(out, f))
+
     print(f"[{game}] portrait pack: {packed} portraits, {len(conv_rows)} conversation keys, "
-          f"{skipped} characters kept their own art")
+          f"{skipped} characters kept their own art"
+          + (f"; dropped {len(stale)} orphaned file(s): {', '.join(stale)}" if stale else ""))
 
 if __name__ == "__main__":
     main()
