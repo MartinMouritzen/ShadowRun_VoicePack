@@ -29,6 +29,22 @@ if [ -f "portraits_pack/$GAME_ID/portraits.index" ]; then
   mkdir -p "$PLUG/portraits"
   cp -f "portraits_pack/$GAME_ID/portraits.index" "$PLUG/portraits/portraits.index"
   cp -f portraits_pack/$GAME_ID/*.png "$PLUG/portraits/" 2>/dev/null || true
+  # prune portraits the index no longer references (same reason as the clip prune below: a
+  # re-picked portrait, or a character that turned out not to exist, otherwise leaves its PNG
+  # behind in the install forever)
+  python3 - "$PLUG/portraits" <<'PY'
+import sys, os
+d = sys.argv[1]
+keep = set()
+for line in open(os.path.join(d, "portraits.index")):
+    if line.startswith('#') or '\t' not in line: continue
+    keep.add(os.path.basename(line.rstrip('\n').split('\t')[1]))
+removed = 0
+for f in os.listdir(d):
+    if f.endswith(".png") and f not in keep:
+        os.remove(os.path.join(d, f)); removed += 1
+print(f"  pruned {removed} stale portrait(s)" if removed else "", end="")
+PY
 fi
 
 mkdir -p "$PLUG/voicepack/clips"

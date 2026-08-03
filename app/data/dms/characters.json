@@ -2041,6 +2041,18 @@
      "n": 7,
      "cn": "c09-s1_Tweakers_OverhearPushers",
      "t": "Good. Let's go burn down their playhouse."
+    },
+    {
+     "c": "51c1e176623331441300491d",
+     "n": 30,
+     "cn": "c21-s0_PikePlaceConcert_UBGreeter",
+     "t": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nWe’ll wait outside for you, $(l.name). I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one."
+    },
+    {
+     "c": "51c1e176623331441300491d",
+     "n": 31,
+     "cn": "c21-s0_PikePlaceConcert_UBGreeter",
+     "t": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nI’ll circle around the building and look for another way in, $(l.name). I’ll chirp you on your commlink if I find one."
     }
    ],
    "portraitFile": "npc_humanfemale_coyotehealed.png"
@@ -8984,6 +8996,60 @@
      "n": 7,
      "cn": "c06-s1_Father",
      "t": "Yeah, yeah, you're right. I'll be okay."
+    },
+    {
+     "c": "519ce41d623331c81f003dac",
+     "n": 5,
+     "cn": "c06-s1_WatcherEdit",
+     "t": "Where's Stevie holed up?"
+    },
+    {
+     "c": "519ce41d623331c81f003dac",
+     "n": 7,
+     "cn": "c06-s1_WatcherEdit",
+     "t": "Hey old man, you know how to get upstairs?"
+    },
+    {
+     "c": "519ce41d623331c81f003dac",
+     "n": 8,
+     "cn": "c06-s1_WatcherEdit",
+     "t": "Hey old man, you know how to get upstairs?"
+    },
+    {
+     "c": "860f4d9d306466d003004bb0",
+     "n": 0,
+     "cn": "c06-s1_PacoStairwell",
+     "t": "Once we go upstairs, I'm not leaving until I find Coyote or I'm dead. You get it?"
+    },
+    {
+     "c": "7bafc8583064665422005e1e",
+     "n": 2,
+     "cn": "c06-s2_Coyote",
+     "t": "Are you alright?"
+    },
+    {
+     "c": "7bafc8583064665422005e1e",
+     "n": 4,
+     "cn": "c06-s2_Coyote",
+     "t": "{{GM}}Paco glares.{{/GM}} Not now. Coyote, we need to get you back to the Union. Mrs. Kubota has that med-lab in the basement..."
+    },
+    {
+     "c": "7bafc8583064665422005e1e",
+     "n": 6,
+     "cn": "c06-s2_Coyote",
+     "t": "Delilah? I thought you said you'd never do another deal with that man."
+    },
+    {
+     "c": "7bafc8583064665422005e1e",
+     "n": 9,
+     "cn": "c06-s2_Coyote",
+     "t": "Come on Coyote... let's go."
+    },
+    {
+     "c": "7bafc8583064665422005e1e",
+     "n": 12,
+     "cn": "c06-s2_Coyote",
+     "t": "Coyote, we need to get you back to the Union. Mrs. Kubota has that med-lab in the basement..."
     }
    ],
    "portraitFile": "npc_humanmale_paco.png"
@@ -16692,57 +16758,6 @@
    ]
   },
   {
-   "id": "name_player1",
-   "name": "Player 1",
-   "portrait": null,
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "51c1e176623331441300491d",
-     "n": 30,
-     "cn": "c21-s0_PikePlaceConcert_UBGreeter",
-     "t": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nWe’ll wait outside for you, $(l.name). I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one."
-    },
-    {
-     "c": "51c1e176623331441300491d",
-     "n": 31,
-     "cn": "c21-s0_PikePlaceConcert_UBGreeter",
-     "t": "{{GM}}Coyote whispers in your ear.{{/GM}}\n\nI’ll circle around the building and look for another way in, $(l.name). I’ll chirp you on your commlink if I find one."
-    },
-    {
-     "c": "7bafc8583064665422005e1e",
-     "n": 2,
-     "cn": "c06-s2_Coyote",
-     "t": "Are you alright?"
-    },
-    {
-     "c": "7bafc8583064665422005e1e",
-     "n": 4,
-     "cn": "c06-s2_Coyote",
-     "t": "{{GM}}Paco glares.{{/GM}} Not now. Coyote, we need to get you back to the Union. Mrs. Kubota has that med-lab in the basement..."
-    },
-    {
-     "c": "7bafc8583064665422005e1e",
-     "n": 6,
-     "cn": "c06-s2_Coyote",
-     "t": "Delilah? I thought you said you'd never do another deal with that man."
-    },
-    {
-     "c": "7bafc8583064665422005e1e",
-     "n": 9,
-     "cn": "c06-s2_Coyote",
-     "t": "Come on Coyote... let's go."
-    },
-    {
-     "c": "7bafc8583064665422005e1e",
-     "n": 12,
-     "cn": "c06-s2_Coyote",
-     "t": "Coyote, we need to get you back to the Union. Mrs. Kubota has that med-lab in the basement..."
-    }
-   ]
-  },
-  {
    "id": "name_jinparks",
    "name": "Jin Parks",
    "portrait": "NPC_HumanFemale_WeaponsTechDealer",
@@ -17634,39 +17649,6 @@
      "n": 3,
      "cn": "c21-s2_GuardAtGate",
      "t": "{{GM}}He reaches for his weapon.{{/GM}}"
-    }
-   ]
-  },
-  {
-   "id": "name_playercharacter1",
-   "name": "Player Character 1",
-   "portrait": null,
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "519ce41d623331c81f003dac",
-     "n": 5,
-     "cn": "c06-s1_WatcherEdit",
-     "t": "Where's Stevie holed up?"
-    },
-    {
-     "c": "519ce41d623331c81f003dac",
-     "n": 7,
-     "cn": "c06-s1_WatcherEdit",
-     "t": "Hey old man, you know how to get upstairs?"
-    },
-    {
-     "c": "519ce41d623331c81f003dac",
-     "n": 8,
-     "cn": "c06-s1_WatcherEdit",
-     "t": "Hey old man, you know how to get upstairs?"
-    },
-    {
-     "c": "860f4d9d306466d003004bb0",
-     "n": 0,
-     "cn": "c06-s1_PacoStairwell",
-     "t": "Once we go upstairs, I'm not leaving until I find Coyote or I'm dead. You get it?"
     }
    ]
   },

@@ -16,7 +16,41 @@
    "from": "name_playeroneshaman",
    "to": "name_shannonhalfsky",
    "drop_source_when_empty": true,
-   "reason": "Party-slot placeholder: node 1's speaker ref (field 12) points at scene c10-s1_planeyardreturn's prop 1a44aec9623331d01000164f, a system_spawner_playerSpawner the designer left named 'Player One (Shaman)'. That is a party SLOT, not a character -- at runtime the game fills it and shows the real party member, which for the Planeyard return is Shannon Half-Sky (confirmed in game: her name and portrait on this line). The extractor took the slot label literally and invented a 'Player One (Shaman)' character, which then got voiced with a deep male narrator voice. Root cause fixed in extract_game.py (party-slot placeholders can never be speakers); this rule corrects the shipped file."
+   "reason": "PARTY-SLOT PLACEHOLDER. Node 1's speaker ref (field 12) points at scene c10-s1_planeyardreturn's prop 1a44aec9623331d01000164f, a system_spawner_playerSpawner the designer left named 'Player One (Shaman)'. That is a party SLOT, not a character -- at runtime the game fills it and shows the real party member, which for the Planeyard return is Shannon Half-Sky (confirmed in game: her name and portrait on this line). The extractor took the slot label literally and invented a 'Player One (Shaman)' character, which then got voiced with a deep male narrator voice. Root cause fixed in extract_game.py (party-slot placeholders can never be speakers); this rule corrects the shipped file."
+  },
+  {
+   "convo": "519ce41d623331c81f003dac",
+   "convo_name": "c06-s1_WatcherEdit",
+   "nodes": [5, 7, 8],
+   "from": "name_playercharacter1",
+   "to": "name_paco",
+   "reason": "PARTY-SLOT PLACEHOLDER, same class as c10-s1 above. Scene c06-s1_aptsfirstfloor has two player spawners: slot 0 ('Player Character 0') is the PC and never speaks -- the PC's words are input nodes (type 7/8), which the extractor files under the narrator bucket. Slot 1 ('Player Character 1', prop 3ded109a306466d82700003c) is the escort, and in this mission that is Paco. The Sad Old Man's node 0 confirms a companion is present ('you two'). Already voiced in Paco's own picked voice, so this is an attribution move only, no recast."
+  },
+  {
+   "convo": "860f4d9d306466d003004bb0",
+   "convo_name": "c06-s1_PacoStairwell",
+   "nodes": [0],
+   "from": "name_playercharacter1",
+   "to": "name_paco",
+   "drop_source_when_empty": true,
+   "reason": "PARTY-SLOT PLACEHOLDER (slot 1 of c06-s1_aptsfirstfloor). The conversation is named after Paco and the line is 'Once we go upstairs, I'm not leaving until I find Coyote or I'm dead.' Already in Paco's voice; attribution move only."
+  },
+  {
+   "convo": "7bafc8583064665422005e1e",
+   "convo_name": "c06-s2_Coyote",
+   "nodes": [2, 4, 6, 9, 12],
+   "from": "name_player1",
+   "to": "name_paco",
+   "reason": "PARTY-SLOT PLACEHOLDER (slot 1 'Player1' of scene c06-s2_aptstopfloor). Paco is named as the speaker by the dialogue itself: Coyote answers node 2 with \"'Bout time you got here, Paco\", node 4 opens with the stage direction 'Paco glares', and node 7 replies 'Look... Paco...'. Already in Paco's voice; attribution move only."
+  },
+  {
+   "convo": "51c1e176623331441300491d",
+   "convo_name": "c21-s0_PikePlaceConcert_UBGreeter",
+   "nodes": [30, 31],
+   "from": "name_player1",
+   "to": "name_coyote",
+   "drop_source_when_empty": true,
+   "reason": "PARTY-SLOT PLACEHOLDER (slot 1 'Player 1' of scene c21-s0_pikeplaceconcert). Both nodes open with the stage direction 'Coyote whispers in your ear' as the greeter sends the PC in alone. Already voiced in Coyote's picked voice (Gabby); attribution move only."
   }
  ]
 }

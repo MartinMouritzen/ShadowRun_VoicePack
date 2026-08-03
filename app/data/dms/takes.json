@@ -20417,6 +20417,48 @@
      "ts": 1784053201
     }
    ]
+  },
+  "51c1e176623331441300491d_30": {
+   "selected": "name_coyote/takes/51c1e176623331441300491d_30__1EZBFEhLjqjz__1784051232.mp3",
+   "takes": [
+    {
+     "file": "name_coyote/takes/51c1e176623331441300491d_30__1EZBFEhLjqjz__1784050867.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0.0,
+     "chars": 154,
+     "ts": 1784050867
+    },
+    {
+     "file": "name_coyote/takes/51c1e176623331441300491d_30__1EZBFEhLjqjz__1784051232.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 165,
+     "ts": 1784051232
+    }
+   ]
+  },
+  "51c1e176623331441300491d_31": {
+   "selected": "name_coyote/takes/51c1e176623331441300491d_31__1EZBFEhLjqjz__1784051228.mp3",
+   "takes": [
+    {
+     "file": "name_coyote/takes/51c1e176623331441300491d_31__1EZBFEhLjqjz__1784050870.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0.0,
+     "chars": 107,
+     "ts": 1784050870
+    },
+    {
+     "file": "name_coyote/takes/51c1e176623331441300491d_31__1EZBFEhLjqjz__1784051228.mp3",
+     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
+     "voiceName": "Gabby - Authentic, Raspy and Kind",
+     "stability": 0,
+     "chars": 116,
+     "ts": 1784051228
+    }
+   ]
   }
  },
  "name_baronsamedi": {
@@ -37067,6 +37109,139 @@
      "stability": 0,
      "chars": 39,
      "ts": 1784022387
+    }
+   ]
+  },
+  "519ce41d623331c81f003dac_5": {
+   "selected": "name_paco/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497569.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497561.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784497561
+    },
+    {
+     "file": "name_paco/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497569.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 24,
+     "ts": 1784497569
+    }
+   ]
+  },
+  "519ce41d623331c81f003dac_8": {
+   "selected": "name_paco/takes/519ce41d623331c81f003dac_8__uLCvmeolFYSV__1784497563.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/519ce41d623331c81f003dac_8__uLCvmeolFYSV__1784497563.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784497563
+    }
+   ]
+  },
+  "519ce41d623331c81f003dac_7": {
+   "selected": "name_paco/takes/519ce41d623331c81f003dac_7__uLCvmeolFYSV__1784497564.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/519ce41d623331c81f003dac_7__uLCvmeolFYSV__1784497564.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1784497564
+    }
+   ]
+  },
+  "860f4d9d306466d003004bb0_0": {
+   "selected": "name_paco/takes/860f4d9d306466d003004bb0_0__uLCvmeolFYSV__1784129880.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/860f4d9d306466d003004bb0_0__uLCvmeolFYSV__1784129880.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 81,
+     "ts": 1784129880
+    }
+   ]
+  },
+  "7bafc8583064665422005e1e_4": {
+   "selected": "name_paco/takes/7bafc8583064665422005e1e_4__uLCvmeolFYSV__1784051233.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/7bafc8583064665422005e1e_4__uLCvmeolFYSV__1784050874.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0.0,
+     "chars": 102,
+     "ts": 1784050874
+    },
+    {
+     "file": "name_paco/takes/7bafc8583064665422005e1e_4__uLCvmeolFYSV__1784051233.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1784051233
+    }
+   ]
+  },
+  "7bafc8583064665422005e1e_2": {
+   "selected": "name_paco/takes/7bafc8583064665422005e1e_2__uLCvmeolFYSV__1784051397.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/7bafc8583064665422005e1e_2__uLCvmeolFYSV__1784051397.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0.0,
+     "chars": 16,
+     "ts": 1784051397
+    }
+   ]
+  },
+  "7bafc8583064665422005e1e_6": {
+   "selected": "name_paco/takes/7bafc8583064665422005e1e_6__uLCvmeolFYSV__1784051399.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/7bafc8583064665422005e1e_6__uLCvmeolFYSV__1784051399.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0.0,
+     "chars": 70,
+     "ts": 1784051399
+    }
+   ]
+  },
+  "7bafc8583064665422005e1e_9": {
+   "selected": "name_paco/takes/7bafc8583064665422005e1e_9__uLCvmeolFYSV__1784051401.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/7bafc8583064665422005e1e_9__uLCvmeolFYSV__1784051401.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0.0,
+     "chars": 27,
+     "ts": 1784051401
+    }
+   ]
+  },
+  "7bafc8583064665422005e1e_12": {
+   "selected": "name_paco/takes/7bafc8583064665422005e1e_12__uLCvmeolFYSV__1784051404.mp3",
+   "takes": [
+    {
+     "file": "name_paco/takes/7bafc8583064665422005e1e_12__uLCvmeolFYSV__1784051404.mp3",
+     "voiceId": "uLCvmeolFYSV8RxA07Mn",
+     "voiceName": "Male voice",
+     "stability": 0.0,
+     "chars": 93,
+     "ts": 1784051404
     }
    ]
   }
@@ -54257,123 +54432,6 @@
    ]
   }
  },
- "name_player1": {
-  "51c1e176623331441300491d_30": {
-   "selected": "name_player1/takes/51c1e176623331441300491d_30__1EZBFEhLjqjz__1784051232.mp3",
-   "takes": [
-    {
-     "file": "name_player1/takes/51c1e176623331441300491d_30__1EZBFEhLjqjz__1784050867.mp3",
-     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
-     "voiceName": "Gabby - Authentic, Raspy and Kind",
-     "stability": 0.0,
-     "chars": 154,
-     "ts": 1784050867
-    },
-    {
-     "file": "name_player1/takes/51c1e176623331441300491d_30__1EZBFEhLjqjz__1784051232.mp3",
-     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
-     "voiceName": "Gabby - Authentic, Raspy and Kind",
-     "stability": 0,
-     "chars": 165,
-     "ts": 1784051232
-    }
-   ]
-  },
-  "51c1e176623331441300491d_31": {
-   "selected": "name_player1/takes/51c1e176623331441300491d_31__1EZBFEhLjqjz__1784051228.mp3",
-   "takes": [
-    {
-     "file": "name_player1/takes/51c1e176623331441300491d_31__1EZBFEhLjqjz__1784050870.mp3",
-     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
-     "voiceName": "Gabby - Authentic, Raspy and Kind",
-     "stability": 0.0,
-     "chars": 107,
-     "ts": 1784050870
-    },
-    {
-     "file": "name_player1/takes/51c1e176623331441300491d_31__1EZBFEhLjqjz__1784051228.mp3",
-     "voiceId": "1EZBFEhLjqjzuG8HBNbj",
-     "voiceName": "Gabby - Authentic, Raspy and Kind",
-     "stability": 0,
-     "chars": 116,
-     "ts": 1784051228
-    }
-   ]
-  },
-  "7bafc8583064665422005e1e_4": {
-   "selected": "name_player1/takes/7bafc8583064665422005e1e_4__uLCvmeolFYSV__1784051233.mp3",
-   "takes": [
-    {
-     "file": "name_player1/takes/7bafc8583064665422005e1e_4__uLCvmeolFYSV__1784050874.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0.0,
-     "chars": 102,
-     "ts": 1784050874
-    },
-    {
-     "file": "name_player1/takes/7bafc8583064665422005e1e_4__uLCvmeolFYSV__1784051233.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0,
-     "chars": 111,
-     "ts": 1784051233
-    }
-   ]
-  },
-  "7bafc8583064665422005e1e_2": {
-   "selected": "name_player1/takes/7bafc8583064665422005e1e_2__uLCvmeolFYSV__1784051397.mp3",
-   "takes": [
-    {
-     "file": "name_player1/takes/7bafc8583064665422005e1e_2__uLCvmeolFYSV__1784051397.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0.0,
-     "chars": 16,
-     "ts": 1784051397
-    }
-   ]
-  },
-  "7bafc8583064665422005e1e_6": {
-   "selected": "name_player1/takes/7bafc8583064665422005e1e_6__uLCvmeolFYSV__1784051399.mp3",
-   "takes": [
-    {
-     "file": "name_player1/takes/7bafc8583064665422005e1e_6__uLCvmeolFYSV__1784051399.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0.0,
-     "chars": 70,
-     "ts": 1784051399
-    }
-   ]
-  },
-  "7bafc8583064665422005e1e_9": {
-   "selected": "name_player1/takes/7bafc8583064665422005e1e_9__uLCvmeolFYSV__1784051401.mp3",
-   "takes": [
-    {
-     "file": "name_player1/takes/7bafc8583064665422005e1e_9__uLCvmeolFYSV__1784051401.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0.0,
-     "chars": 27,
-     "ts": 1784051401
-    }
-   ]
-  },
-  "7bafc8583064665422005e1e_12": {
-   "selected": "name_player1/takes/7bafc8583064665422005e1e_12__uLCvmeolFYSV__1784051404.mp3",
-   "takes": [
-    {
-     "file": "name_player1/takes/7bafc8583064665422005e1e_12__uLCvmeolFYSV__1784051404.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0.0,
-     "chars": 93,
-     "ts": 1784051404
-    }
-   ]
-  }
- },
  "name_ghoul": {
   "c72906643030316c05005efa_0": {
    "selected": "name_ghoul/takes/c72906643030316c05005efa_0__mag524__1784051693.mp3",
@@ -61231,68 +61289,6 @@
      "stability": 0,
      "chars": 88,
      "ts": 1784123980
-    }
-   ]
-  }
- },
- "name_playercharacter1": {
-  "860f4d9d306466d003004bb0_0": {
-   "selected": "name_playercharacter1/takes/860f4d9d306466d003004bb0_0__uLCvmeolFYSV__1784129880.mp3",
-   "takes": [
-    {
-     "file": "name_playercharacter1/takes/860f4d9d306466d003004bb0_0__uLCvmeolFYSV__1784129880.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0,
-     "chars": 81,
-     "ts": 1784129880
-    }
-   ]
-  },
-  "519ce41d623331c81f003dac_5": {
-   "selected": "name_playercharacter1/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497569.mp3",
-   "takes": [
-    {
-     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497561.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0,
-     "chars": 24,
-     "ts": 1784497561
-    },
-    {
-     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_5__uLCvmeolFYSV__1784497569.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0,
-     "chars": 24,
-     "ts": 1784497569
-    }
-   ]
-  },
-  "519ce41d623331c81f003dac_8": {
-   "selected": "name_playercharacter1/takes/519ce41d623331c81f003dac_8__uLCvmeolFYSV__1784497563.mp3",
-   "takes": [
-    {
-     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_8__uLCvmeolFYSV__1784497563.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0,
-     "chars": 42,
-     "ts": 1784497563
-    }
-   ]
-  },
-  "519ce41d623331c81f003dac_7": {
-   "selected": "name_playercharacter1/takes/519ce41d623331c81f003dac_7__uLCvmeolFYSV__1784497564.mp3",
-   "takes": [
-    {
-     "file": "name_playercharacter1/takes/519ce41d623331c81f003dac_7__uLCvmeolFYSV__1784497564.mp3",
-     "voiceId": "uLCvmeolFYSV8RxA07Mn",
-     "voiceName": "Male voice",
-     "stability": 0,
-     "chars": 42,
-     "ts": 1784497564
     }
    ]
   }

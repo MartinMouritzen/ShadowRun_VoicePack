@@ -418,25 +418,6 @@
    ]
   ]
  },
- "name_player1": {
-  "files": [
-   "name_player1.png",
-   "name_player1_v2.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_elfmale_holmessilhouetted.png",
-    "backer_humanmale_gregwilhelm_johnnyclean_tribute.png",
-    "generic_spirit_insect.png"
-   ],
-   [
-    "backer_humanmale_robertorivera_diamondwirealt.png",
-    "backer_humanmale_robertorivera_diamondwire.png",
-    "backer_humanmale_robertbowling.png"
-   ]
-  ]
- },
  "name_addict": {
   "files": [
    "name_addict.png",
@@ -536,7 +517,9 @@
  },
  "name_scrawnyguard": {
   "files": [
-   "name_scrawnyguard.png"
+   "name_scrawnyguard.png",
+   "name_scrawnyguard_c7ce3841.png",
+   "name_scrawnyguard_c7ce4b73.png"
   ],
   "usedRef": false,
   "sourceArt": [
