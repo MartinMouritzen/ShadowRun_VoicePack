@@ -763,25 +763,6 @@
    ]
   ]
  },
- "name_spirit": {
-  "files": [
-   "name_spirit.png",
-   "name_spirit_v2.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_elfmale_magicdealer.png",
-    "npc_humanfemale_coyotehealed.png",
-    "npc_humanmale_hansbrackhaus.png"
-   ],
-   [
-    "backer_elfmale_rthomasallwin.png",
-    "npc_humanfemale_jessicawattsub.png",
-    "backer_trollmale_chriskluwe_loate.png"
-   ]
-  ]
- },
  "name_securityturret1": {
   "files": [
    "name_securityturret1.png",

@@ -1498,41 +1498,6 @@
    }
   ]
  },
- "name_spirit": {
-  "name": "Spirit",
-  "samples": [
-   {
-    "c": "9361b920623331e01300164a",
-    "n": 2,
-    "cn": "c10-s2_PlaneyardReturn_Spirit",
-    "t": "We no longer see the world of flesh, Seeker. Only the essence and auras of living things. \n\nWords, though... words may echo through the veil, and sometimes... sometimes we may hear them."
-   },
-   {
-    "c": "9361b920623331e01300164a",
-    "n": 8,
-    "cn": "c10-s2_PlaneyardReturn_Spirit",
-    "t": "The spirits begin to fade. All but the one. Its eyes harden and it takes full measure of you, as if to commit everything about you to memory."
-   },
-   {
-    "c": "9361b920623331e01300164a",
-    "n": 21,
-    "cn": "c10-s2_PlaneyardReturn_Spirit",
-    "t": "The spirits begin to fade. All but the one. Its eyes harden and it takes full measure of you, as if to commit everything about you to memory."
-   },
-   {
-    "c": "9361b920623331e01300164a",
-    "n": 23,
-    "cn": "c10-s2_PlaneyardReturn_Spirit",
-    "t": "The spirits begin to fade. All but the one. Its eyes harden and it takes full measure of you, as if to commit everything about you to memory."
-   },
-   {
-    "c": "9361b920623331e01300164a",
-    "n": 6,
-    "cn": "c10-s2_PlaneyardReturn_Spirit",
-    "t": "The elf... his essence remains in this place. Where the man died. Something has been left behind. A small part of him, perhaps."
-   }
-  ]
- },
  "name_telestrianworker": {
   "name": "Telestrian Worker",
   "samples": [
@@ -2507,6 +2472,41 @@
     "n": 0,
     "cn": "c21-s1 Keycard Printer",
     "t": "Universal Brotherhood \nSeattle Chapter\nKeycard Printer\n\nPlease enter the following information when requested:\n1) Name\n2) Housing location\n3) Universal Brotherhood ID alphanumeric\n4) Private Password"
+   }
+  ]
+ },
+ "name_forgottensouls": {
+  "name": "Forgotten Souls",
+  "samples": [
+   {
+    "c": "9361b920623331e01300164a",
+    "n": 2,
+    "cn": "c10-s2_PlaneyardReturn_Spirit",
+    "t": "We no longer see the world of flesh, Seeker. Only the essence and auras of living things. \n\nWords, though... words may echo through the veil, and sometimes... sometimes we may hear them."
+   },
+   {
+    "c": "9361b920623331e01300164a",
+    "n": 8,
+    "cn": "c10-s2_PlaneyardReturn_Spirit",
+    "t": "The spirits begin to fade. All but the one. Its eyes harden and it takes full measure of you, as if to commit everything about you to memory."
+   },
+   {
+    "c": "9361b920623331e01300164a",
+    "n": 21,
+    "cn": "c10-s2_PlaneyardReturn_Spirit",
+    "t": "The spirits begin to fade. All but the one. Its eyes harden and it takes full measure of you, as if to commit everything about you to memory."
+   },
+   {
+    "c": "9361b920623331e01300164a",
+    "n": 23,
+    "cn": "c10-s2_PlaneyardReturn_Spirit",
+    "t": "The spirits begin to fade. All but the one. Its eyes harden and it takes full measure of you, as if to commit everything about you to memory."
+   },
+   {
+    "c": "9361b920623331e01300164a",
+    "n": 6,
+    "cn": "c10-s2_PlaneyardReturn_Spirit",
+    "t": "The elf... his essence remains in this place. Where the man died. Something has been left behind. A small part of him, perhaps."
    }
   ]
  }

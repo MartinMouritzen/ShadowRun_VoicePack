@@ -107,6 +107,53 @@ if dropped:
         d = os.path.join(AUDIO, src)
         for sub in (os.path.join(d, "takes"), d):   # takes/ first, then the character dir
             if os.path.isdir(sub) and not any(os.scandir(sub)): os.rmdir(sub)
+
+# ---- renames: same character, wrong identity (see tools/renames.json) -------------------------
+# Every per-character file is keyed by the character id, which is derived from the name, so a
+# rename has to rekey all of them or the lab silently loses the character's pick, casting, notes
+# and takes.
+KEYED_FILES = ["picks.json", "casting.json", "char_notes.json", "samples_selection.json",
+               "portrait_picks.json", "portraits_ai.json"]
+renames = json.load(open(os.path.join(os.path.dirname(__file__), "renames.json"))).get(GAME, [])
+for r in renames:
+    src, dst = r["from"], r["to"]
+    if src not in by_id:
+        print(f"  rename {src} -> {dst}: already applied" if dst in by_id else
+              f"  rename {src} -> {dst}: SKIPPED, neither id present")
+        continue
+    if dst in by_id:
+        sys.exit(f"ERROR: rename target '{dst}' already exists alongside '{src}'")
+    c = by_id[src]
+    c["id"] = dst
+    c["name"] = r.get("name", c["name"])
+    if "portrait" in r: c["portrait"] = r["portrait"]
+    if src in takes: takes[dst] = takes.pop(src)
+    for k, entry in takes.get(dst, {}).items():
+        for tk in entry.get("takes", []):
+            if tk["file"].startswith(src + "/"):
+                new_rel = dst + tk["file"][len(src):]
+                if entry.get("selected") == tk["file"]: entry["selected"] = new_rel
+                tk["file"] = new_rel
+    old_dir, new_dir = os.path.join(AUDIO, src), os.path.join(AUDIO, dst)
+    if os.path.isdir(old_dir) and not os.path.exists(new_dir): shutil.move(old_dir, new_dir)
+    touched = []
+    for fn in KEYED_FILES:
+        p = os.path.join(ROOT, "app", "data", GAME, fn)
+        if not os.path.exists(p): continue
+        d = json.load(open(p))
+        if src not in d: continue
+        val = d.pop(src)
+        if not (r.get("drop_ai_portrait") and fn in ("portrait_picks.json", "portraits_ai.json")):
+            d[dst] = val
+            if fn == "samples_selection.json" and isinstance(val, dict) and "name" in val:
+                val["name"] = c["name"]
+        json.dump(d, open(p, "w"), ensure_ascii=False, indent=1)
+        touched.append(fn)
+    print(f"  renamed {src} -> {dst} ({c['name']!r}), {len(c['lines'])} line(s); rekeyed: "
+          f"{', '.join(touched) or 'nothing'}"
+          + ("; dropped its AI portrait" if r.get("drop_ai_portrait") else ""))
+
 json.dump(ch, open(CH_PATH, "w"), ensure_ascii=False, indent=1)
 json.dump(takes, open(TAKES_PATH, "w"), ensure_ascii=False, indent=1)
-print(f"applied {len(rules)} rule(s) for {GAME}, moved {total} line(s) total")
+print(f"applied {len(rules)} rule(s) and {len(renames)} rename(s) for {GAME}, "
+      f"moved {total} line(s) total")

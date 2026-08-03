@@ -559,16 +559,6 @@
    }
   ]
  },
- "name_spirit": {
-  "main": false,
-  "voices": [
-   {
-    "voiceId": 589,
-    "voiceName": "Skryth the Withered",
-    "voiceDesc": "Gollum-like feral madness"
-   }
-  ]
- },
  "name_telestrianworker": {
   "main": false,
   "voices": [
@@ -866,6 +856,16 @@
     "voiceId": 29,
     "voiceName": "Ava Jordan",
     "voiceDesc": "clear enthusiastic young British"
+   }
+  ]
+ },
+ "name_forgottensouls": {
+  "main": false,
+  "voices": [
+   {
+    "voiceId": 589,
+    "voiceName": "Skryth the Withered",
+    "voiceDesc": "Gollum-like feral madness"
    }
   ]
  }

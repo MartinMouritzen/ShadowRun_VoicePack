@@ -14296,9 +14296,9 @@
    "portraitFile": "npc_humanmale_grizzlevet_ghost.png"
   },
   {
-   "id": "name_spirit",
-   "name": "Spirit",
-   "portrait": "\n\u0000",
+   "id": "name_forgottensouls",
+   "name": "Forgotten Souls",
+   "portrait": "Generic_Spirit_ForgottenSoul",
    "archetype": "Player",
    "bio": null,
    "lines": [

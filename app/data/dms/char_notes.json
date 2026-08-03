@@ -2020,53 +2020,6 @@
    }
   ]
  },
- "name_spirit": {
-  "bio": "A being from the other side of the veil.",
-  "direction": "Otherworldly: layered, resonant, wrong in a beautiful way.",
-  "gender": null,
-  "suggestions": [
-   {
-    "voice_id": "mag_339",
-    "name": "Infernal Colossus",
-    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
-   },
-   {
-    "voice_id": "mag_517",
-    "name": "Darian Voss",
-    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
-   },
-   {
-    "voice_id": "mag_528",
-    "name": "Lilith Vexmoor",
-    "why": "Calm, clever, and dangerously composed. This female voice drips with sarcasm and intellige"
-   },
-   {
-    "voice_id": "mag_542",
-    "name": "Selene Vex",
-    "why": "A female voice like dark velvet—low, sultry, and subtly dangerous. Ideal for villainous or"
-   },
-   {
-    "voice_id": "mag_524",
-    "name": "Lord Nytherion",
-    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
-   },
-   {
-    "voice_id": "mag_589",
-    "name": "Skryth the Withered",
-    "why": "A haunting, Gollum-like voice blending feral madness with childlike vulnerability. Featuri"
-   },
-   {
-    "voice_id": "mag_523",
-    "name": "Viremont LeNoir",
-    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
-   },
-   {
-    "voice_id": "mag_159",
-    "name": "Avery Grant",
-    "why": "Deep and slightly sassy female voice. Perfect for bold and fun content, with a hint of att"
-   }
-  ]
- },
  "name_telestrianworker": {
   "bio": "A Seattle citizen just trying to get by.",
   "direction": "Everyday, natural, unpolished.",
@@ -5176,5 +5129,52 @@
  },
  "name_ghoul": {
   "direction": "Male runner/ally shouting a combat warning about incoming ghouls. Urgent, gruff, alert, mid-range."
+ },
+ "name_forgottensouls": {
+  "bio": "A being from the other side of the veil.",
+  "direction": "Otherworldly: layered, resonant, wrong in a beautiful way.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_339",
+    "name": "Infernal Colossus",
+    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
+   },
+   {
+    "voice_id": "mag_517",
+    "name": "Darian Voss",
+    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
+   },
+   {
+    "voice_id": "mag_528",
+    "name": "Lilith Vexmoor",
+    "why": "Calm, clever, and dangerously composed. This female voice drips with sarcasm and intellige"
+   },
+   {
+    "voice_id": "mag_542",
+    "name": "Selene Vex",
+    "why": "A female voice like dark velvet—low, sultry, and subtly dangerous. Ideal for villainous or"
+   },
+   {
+    "voice_id": "mag_524",
+    "name": "Lord Nytherion",
+    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
+   },
+   {
+    "voice_id": "mag_589",
+    "name": "Skryth the Withered",
+    "why": "A haunting, Gollum-like voice blending feral madness with childlike vulnerability. Featuri"
+   },
+   {
+    "voice_id": "mag_523",
+    "name": "Viremont LeNoir",
+    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
+   },
+   {
+    "voice_id": "mag_159",
+    "name": "Avery Grant",
+    "why": "Deep and slightly sassy female voice. Perfect for bold and fun content, with a hint of att"
+   }
+  ]
  }
 }

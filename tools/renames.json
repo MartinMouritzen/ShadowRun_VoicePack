@@ -1,0 +1,13 @@
+{
+ "_comment": "Corrections that RENAME a character whose lines are already grouped correctly but were filed under the wrong actor's identity (distinct from reattributions.json, which moves individual lines between characters). Applied by apply_reattributions.py <game> after the reattribution rules. The lab's character id is derived from the name, so a rename rekeys every per-character file (picks, casting, char_notes, takes, samples_selection, portrait picks) and moves the take audio under app/audio/<game>/. Idempotent: if 'from' is gone and 'to' exists, the rule is a no-op. 'portrait' sets the character's in-game portrait art; 'drop_ai_portrait' removes an AI portrait that was only ever generated because the wrong actor made the character look portrait-less.",
+ "dms": [
+  {
+   "from": "name_spirit",
+   "to": "name_forgottensouls",
+   "name": "Forgotten Souls",
+   "portrait": "Generic_Spirit_ForgottenSoul",
+   "drop_ai_portrait": true,
+   "reason": "The 17 lines of c10-s2_PlaneyardReturn_Spirit are correctly grouped but were filed under the wrong actor's name. The speaker is prop 93fed5ad6233318c39004886 in scene c10-s2_planeyardreturn: CharacterInstance name 'Forgotten Souls' (which is what the game's dialogue header shows), sheet 'Spirit Abomination', portrait 'Generic_Spirit_ForgottenSoul'; its editor label happens to be 'Spirit'. The extractor's convo-name fallback searched a GLOBAL actor index, so the word 'Spirit' in the conversation name matched an unrelated 'Spirit' prop standing in c06-s1_aptsfirstfloor, two chapters earlier, which carries no portrait. That empty portrait is why the lab thought this character had no art and generated an AI portrait for it (a translucent adult elf, wrong for a chorus of dead children); the real actor has its own art, so the AI one is dropped and the game's portrait stands. Root cause fixed in extract_game.py: a cross-scene convo-name match no longer beats the conversation's own owner."
+  }
+ ]
+}

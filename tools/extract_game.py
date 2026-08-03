@@ -236,6 +236,7 @@ unattributed = {"id": "unattributed", "name": "(Unassigned)", "portrait": None, 
 stats = {"nodes": 0, "attributed": 0, "narrator": 0, "input": 0, "empty": 0, "unattributed": 0,
          "placeholder": 0}
 placeholder_nodes = []
+name_vs_owner = []   # convo-name match overruled by the conversation's own owner
 def actor_key(aid):
     a = actors.get(aid)
     if not a: return None
@@ -298,7 +299,21 @@ for cf in convo_files:
                 for n, a in name_index.items():
                     if n in tail or tail in n:
                         if best is None or len(n) > len(best[0]): best = (n, a)
-                if best: aid = best[1]
+                # The name index is global, so a descriptive word in the conversation name can match
+                # a same-named but UNRELATED actor from a different scene: "c10-s2_PlaneyardReturn_
+                # Spirit" matched a "Spirit" prop standing in an apartment block two chapters
+                # earlier, and 17 lines of the Forgotten Souls' dialogue were filed under it. When
+                # the conversation is bound to an owner of its own, that owner is the better answer:
+                # it is a real actor in this scene, placed by the designer to run this conversation.
+                # So a cross-scene name match only wins when there is no owner to lose to; a match in
+                # the conversation's own scene still wins, since there the convo name is naming a
+                # specific actor present in the scene ("..._AcolyteAuditorium" -> that Acolyte).
+                if best and (not default_owner or
+                             (actors[best[1]]["scene"] or "").lower().startswith(scene_prefix)):
+                    aid = best[1]
+                elif best:
+                    name_vs_owner.append((convo_name or convo_id, actors[best[1]]["name"],
+                                          actors[best[1]]["scene"], actors[default_owner]["name"]))
         if aid is None and default_owner: aid = default_owner
         if aid:
             stats["attributed"] += 1; add_line(actor_key(aid), aid, convo_id, convo_name, idx, text, ntype)
@@ -319,6 +334,12 @@ out = {"characters": result, "narrator": narrator, "unattributed": unattributed,
 json.dump(out, open(os.path.join(OUT, "characters.json"), "w"), ensure_ascii=False, indent=1)
 print(json.dumps(stats))
 print(f"characters: {len(result)}, narrator lines: {len(narrator['lines'])}, unattributed: {len(unattributed['lines'])}")
+if name_vs_owner:
+    seen = sorted(set(name_vs_owner))
+    print(f"NOTE: {len(name_vs_owner)} node(s) in {len(seen)} conversation(s) had a cross-scene "
+          f"convo-name match overruled by the conversation owner:", file=sys.stderr)
+    for cn, nm, sc, owner in seen:
+        print(f"  {cn}: name-match {nm!r} (scene {sc}) -> owner {owner!r}", file=sys.stderr)
 if placeholder_nodes:
     print(f"NOTE: {len(placeholder_nodes)} node(s) point at a party-slot placeholder prop -> "
           f"unattributed (hand-attribute these; the game shows the real party member):", file=sys.stderr)

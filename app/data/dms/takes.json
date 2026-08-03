@@ -48853,164 +48853,6 @@
    ]
   }
  },
- "name_spirit": {
-  "9361b920623331e01300164a_1": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_1__mag589__1784038768.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_1__mag589__1784038768.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0,
-     "chars": 221,
-     "ts": 1784038768
-    }
-   ]
-  },
-  "9361b920623331e01300164a_2": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_2__mag589__1784038769.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_2__mag589__1784038769.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0,
-     "chars": 184,
-     "ts": 1784038769
-    }
-   ]
-  },
-  "9361b920623331e01300164a_7": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_7__mag589__1784044717.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_7__mag589__1784044717.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 95,
-     "ts": 1784044717
-    }
-   ]
-  },
-  "9361b920623331e01300164a_6": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_6__mag589__1784044718.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_6__mag589__1784044718.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 127,
-     "ts": 1784044718
-    }
-   ]
-  },
-  "9361b920623331e01300164a_4": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_4__mag589__1784044719.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_4__mag589__1784044719.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 301,
-     "ts": 1784044719
-    }
-   ]
-  },
-  "9361b920623331e01300164a_5": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_5__mag589__1784044720.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_5__mag589__1784044720.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 258,
-     "ts": 1784044720
-    }
-   ]
-  },
-  "9361b920623331e01300164a_9": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_9__mag589__1784044722.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_9__mag589__1784044722.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 21,
-     "ts": 1784044722
-    }
-   ]
-  },
-  "9361b920623331e01300164a_18": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_18__mag589__1784044723.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_18__mag589__1784044723.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 25,
-     "ts": 1784044723
-    }
-   ]
-  },
-  "9361b920623331e01300164a_3": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_3__mag589__1784044727.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_3__mag589__1784044727.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 383,
-     "ts": 1784044727
-    }
-   ]
-  },
-  "9361b920623331e01300164a_20": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_20__mag589__1784044727.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_20__mag589__1784044727.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 61,
-     "ts": 1784044727
-    }
-   ]
-  },
-  "9361b920623331e01300164a_22": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_22__mag589__1784044728.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_22__mag589__1784044728.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 53,
-     "ts": 1784044728
-    }
-   ]
-  },
-  "9361b920623331e01300164a_24": {
-   "selected": "name_spirit/takes/9361b920623331e01300164a_24__mag589__1784044729.mp3",
-   "takes": [
-    {
-     "file": "name_spirit/takes/9361b920623331e01300164a_24__mag589__1784044729.mp3",
-     "voiceId": "mag_589",
-     "voiceName": "Skryth the Withered",
-     "stability": 0.0,
-     "chars": 21,
-     "ts": 1784044729
-    }
-   ]
-  }
- },
  "name_telestrianworker": {
   "9fb3b8d03030310c0c0072d0_1": {
    "selected": "name_telestrianworker/takes/9fb3b8d03030310c0c0072d0_1__mag502__1784039002.mp3",
@@ -63387,6 +63229,164 @@
      "stability": 0,
      "chars": 74,
      "ts": 1784918528
+    }
+   ]
+  }
+ },
+ "name_forgottensouls": {
+  "9361b920623331e01300164a_1": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_1__mag589__1784038768.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_1__mag589__1784038768.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0,
+     "chars": 221,
+     "ts": 1784038768
+    }
+   ]
+  },
+  "9361b920623331e01300164a_2": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_2__mag589__1784038769.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_2__mag589__1784038769.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0,
+     "chars": 184,
+     "ts": 1784038769
+    }
+   ]
+  },
+  "9361b920623331e01300164a_7": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_7__mag589__1784044717.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_7__mag589__1784044717.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 95,
+     "ts": 1784044717
+    }
+   ]
+  },
+  "9361b920623331e01300164a_6": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_6__mag589__1784044718.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_6__mag589__1784044718.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 127,
+     "ts": 1784044718
+    }
+   ]
+  },
+  "9361b920623331e01300164a_4": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_4__mag589__1785786640.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_4__mag589__1785786640.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0,
+     "chars": 308,
+     "ts": 1785786640
+    }
+   ]
+  },
+  "9361b920623331e01300164a_5": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_5__mag589__1785786766.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_5__mag589__1785786766.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0,
+     "chars": 277,
+     "ts": 1785786766
+    }
+   ]
+  },
+  "9361b920623331e01300164a_9": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_9__mag589__1784044722.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_9__mag589__1784044722.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 21,
+     "ts": 1784044722
+    }
+   ]
+  },
+  "9361b920623331e01300164a_18": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_18__mag589__1784044723.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_18__mag589__1784044723.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 25,
+     "ts": 1784044723
+    }
+   ]
+  },
+  "9361b920623331e01300164a_3": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_3__mag589__1784044727.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_3__mag589__1784044727.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 383,
+     "ts": 1784044727
+    }
+   ]
+  },
+  "9361b920623331e01300164a_20": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_20__mag589__1784044727.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_20__mag589__1784044727.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 61,
+     "ts": 1784044727
+    }
+   ]
+  },
+  "9361b920623331e01300164a_22": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_22__mag589__1784044728.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_22__mag589__1784044728.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 53,
+     "ts": 1784044728
+    }
+   ]
+  },
+  "9361b920623331e01300164a_24": {
+   "selected": "name_forgottensouls/takes/9361b920623331e01300164a_24__mag589__1784044729.mp3",
+   "takes": [
+    {
+     "file": "name_forgottensouls/takes/9361b920623331e01300164a_24__mag589__1784044729.mp3",
+     "voiceId": "mag_589",
+     "voiceName": "Skryth the Withered",
+     "stability": 0.0,
+     "chars": 21,
+     "ts": 1784044729
     }
    ]
   }

@@ -171,10 +171,6 @@
   "voiceId": "mag_597",
   "voiceName": "Charles Haversham"
  },
- "name_spirit": {
-  "voiceId": "mag_589",
-  "voiceName": "Skryth the Withered"
- },
  "name_telestrianworker": {
   "voiceId": "mag_502",
   "voiceName": "Logan Price"
@@ -538,5 +534,9 @@
  "name_eccher": {
   "voiceId": "mag_40",
   "voiceName": "Dylan Scott"
+ },
+ "name_forgottensouls": {
+  "voiceId": "mag_589",
+  "voiceName": "Skryth the Withered"
  }
 }
