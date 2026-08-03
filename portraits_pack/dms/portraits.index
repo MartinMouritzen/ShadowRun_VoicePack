@@ -6,6 +6,7 @@ brotherhoodguard	srrv_brotherhoodguard.png
 charlie	srrv_charlie.png
 concernedwoman	srrv_concernedwoman.png
 danthedonutman	srrv_danthedonutman.png
+donny	srrv_donny.png
 femalebunraku	srrv_femalebunraku.png
 fixer	srrv_fixer.png
 frank	srrv_frank.png
@@ -14,6 +15,7 @@ jamal	srrv_jamal.png
 janitor	srrv_janitor.png
 junkie	srrv_junkie.png
 letter	srrv_letter.png
+lorraine	srrv_lorraine.png
 malebunraku	srrv_malebunraku.png
 manny	srrv_manny.png
 mrsjames	srrv_mrsjames.png
@@ -39,6 +41,7 @@ vlad	srrv_vlad.png
 worriedman	srrv_worriedman.png
 zipper	srrv_zipper.png
 conv:003e6262643431b6650041ae	srrv_telestrianlegaldepartmentdatastore.png
+conv:1448d35062333184170018cd	srrv_lorraine.png
 conv:26bf5777306466ec210018c0	srrv_addict.png
 conv:32b24e5d306466e406001b26	srrv_tickler.png
 conv:36bafa69306434fc04000a2c	srrv_concernedwoman.png
@@ -88,3 +91,4 @@ conv:ab7a98a8306434e41b00441b	srrv_acolyte.png
 conv:aba2c9e0306434e41b00478f	srrv_acolyte.png
 conv:ae7735c03064346817004829	srrv_janitor.png
 conv:ae9da30630643468170049ee	srrv_sisternancy.png
+conv:f8a76498623331780b0018bf	srrv_donny.png

@@ -775,5 +775,21 @@
     "generic_orkfemale_drummer.png"
    ]
   ]
+ },
+ "name_lorraine": {
+  "files": [
+   "name_lorraine_c98a7986.png",
+   "name_lorraine_c98ab821.png",
+   "name_lorraine_c98bdca5.png",
+   "name_lorraine_c98be253.png"
+  ],
+  "usedRef": false
+ },
+ "name_donny": {
+  "files": [
+   "name_donny_c98f57dd.png",
+   "name_donny_c98f7083.png"
+  ],
+  "usedRef": false
  }
 }
