@@ -53,7 +53,11 @@ def main():
         if sk not in valid:
             rejected += 1; continue   # hallucinated / stale segKey — never enter takes.json
         # verify the audio actually exists and is non-trivial
-        ap = os.path.join(ROOT, "app", "audio", *rel.split("/"))
+        # audio moved under a per-game subdir when the lab went multi-game; this script is
+        # DMS-only (see TAKES above), so it belongs under app/audio/dms/. Without the "dms" the
+        # existence check below never passes and every result is skipped in silence -- the script
+        # reports "merged 0" and looks like a no-op rather than a broken path.
+        ap = os.path.join(ROOT, "app", "audio", "dms", *rel.split("/"))
         if not (os.path.exists(ap) and os.path.getsize(ap) > 5000):
             continue
         arr = takes.setdefault(cid, {}).setdefault(sk, {"selected": None, "takes": []})

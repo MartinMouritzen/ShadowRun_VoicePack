@@ -107,10 +107,6 @@
   "voiceId": "mag_501",
   "voiceName": "Noah Bailey"
  },
- "name_acolyte": {
-  "voiceId": "mag_613",
-  "voiceName": "Amber Hayes"
- },
  "name_mrjohnson": {
   "voiceId": "mag_520",
   "voiceName": "Mortimer Nocturne"
@@ -280,8 +276,8 @@
   "voiceName": "Adam Lefevre"
  },
  "name_sistersally": {
-  "voiceId": "mag_161",
-  "voiceName": "Riley Monroe"
+  "voiceId": "mag_613",
+  "voiceName": "Amber Hayes"
  },
  "name_lonestardatabase": {
   "voiceId": "sapi_david",
@@ -538,5 +534,9 @@
  "name_yakuzadecker": {
   "voiceId": "mag_543",
   "voiceName": "Axel Virex"
+ },
+ "name_brothermike": {
+  "voiceId": "mag_507",
+  "voiceName": "Dylan Hayes"
  }
 }

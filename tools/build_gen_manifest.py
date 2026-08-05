@@ -2,8 +2,15 @@
 """Build the generation job manifest for all appointed (picked) characters + inspect texts.
 Resolves each segment's spoken text exactly like the lab (edits > directed > segment/override text),
 routes each segment to its bucket's picked voice, and classifies EL (account voice) vs Magnific (mag_).
-Skips segments that already have a take. Writes tools/gen/el_jobs.json and tools/gen/mag_jobs.json."""
-import json, os, re
+Skips segments that already have a take. Writes tools/gen/el_jobs.json and tools/gen/mag_jobs.json.
+
+  --recast [charId ...]   Also emit segments that DO have takes but none in the bucket's currently
+                          picked voice. Without this a recast character is silently skipped, because
+                          "has a take" is true even when every take is in the voice we just replaced.
+                          That is what a character recast needs, and what a misattribution fix needs
+                          after lines move to a character cast differently from the one they left.
+                          With no ids, applies to every bucket whose takes are all in stale voices."""
+import json, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 D = os.path.join(ROOT, "app", "data", "dms")
@@ -44,8 +51,17 @@ def eff(segkey, raw):
     if segkey in directed: return directed[segkey]
     return raw
 
+RECAST = "--recast" in sys.argv
+RECAST_IDS = set(sys.argv[sys.argv.index("--recast") + 1:]) if RECAST else set()
+
 def has_take(bucket, segkey):
-    return bool((((takes.get(bucket, {}) or {}).get(segkey, {}) or {}).get("takes")))
+    ts = (((takes.get(bucket, {}) or {}).get(segkey, {}) or {}).get("takes")) or []
+    if not ts: return False
+    if RECAST and (not RECAST_IDS or bucket in RECAST_IDS):
+        want = (picks.get(bucket) or {}).get("voiceId")
+        # every take is in a voice this bucket is no longer cast with -> needs regenerating
+        if want and not any(t.get("voiceId") == want for t in ts): return False
+    return True
 
 def provider(bucket):
     p = picks.get(bucket)

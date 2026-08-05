@@ -389,16 +389,6 @@
    }
   ]
  },
- "name_acolyte": {
-  "main": false,
-  "voices": [
-   {
-    "voiceId": 296,
-    "voiceName": "James Smith",
-    "voiceDesc": "deep resonant authority"
-   }
-  ]
- },
  "name_mrjohnson": {
   "main": false,
   "voices": [

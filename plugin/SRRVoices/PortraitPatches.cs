@@ -177,22 +177,27 @@ namespace SRRVoices
                 || portraitName.StartsWith(PREFIX);
         }
 
-        // Precise assignment: keyed on the conversation GUID, placed on the exact Player that
-        // ShowNodeText will resolve as the speaker. Mirrors the game's own resolution (by
-        // node.sourceInSceneRef, then by tag) so we set the field on the right actor before the
-        // original method reads it. Only fills a portrait the game leaves blank.
+        // Precise assignment, placed on the exact Player that ShowNodeText will resolve as the
+        // speaker. Mirrors the game's own resolution (by node.sourceInSceneRef, then by tag) so we
+        // set the field on the right actor before the original method reads it. Only fills a
+        // portrait the game leaves blank.
+        //
+        // This is the ONLY path that decides a speaking actor's portrait. FixupScene still runs,
+        // but it can no longer change the outcome for whoever is talking -- see below.
         public static void NodePrefix(ConversationNode node, Player thisSpeaker, ConversationManager __instance)
         {
             if (Plugin.CfgPortraits == null || !Plugin.CfgPortraits.Value) return;
-            if (node == null || ByConv.Count == 0) return;
+            if (node == null || (ByConv.Count == 0 && ByActor.Count == 0)) return;
             try
             {
                 Conversation convo = (_convoField != null) ? _convoField.GetValue(__instance) as Conversation : null;
                 if (convo == null) convo = Patch_StartConversation.LastConvo;
-                if (convo == null || convo.idRef == null) return;
-                string pname;
-                if (!ByConv.TryGetValue(convo.idRef.id, out pname)) return;
-                if (!Serveable(pname)) return;    // no PNG on disk: leave the game's own art alone
+                string pname = null;
+                if (convo != null && convo.idRef != null)
+                {
+                    // no PNG on disk: leave the game's own art alone
+                    if (!ByConv.TryGetValue(convo.idRef.id, out pname) || !Serveable(pname)) pname = null;
+                }
 
                 Player speaker = thisSpeaker;
                 var rm = RunManager.Instance;
@@ -216,11 +221,26 @@ namespace SRRVoices
                     }
                 }
                 if (speaker == null || !Replaceable(speaker.portraitName)) return;
+
+                // The game's own actorName is ground truth for WHO this is; the conversation key is
+                // a lab-side guess, derived from a conversation FILE NAME that is often descriptive
+                // of a role rather than naming the speaker. When we hold art filed under this
+                // actor's real name, that art wins and the conversation key stands down -- it
+                // exists for the opposite case, an actor whose name we cannot match at all.
+                //
+                // Without this the two paths fight over the same field, and which one lands is
+                // decided by FixupScene's 0.5s throttle: Sister Sally drew a male priest's portrait
+                // (filed under "Acolyte", the name of her conversation file) on exactly the nodes
+                // where the throttle happened to swallow the correction.
+                string akey = Norm(speaker.actorName);
+                bool byName = ByActor.ContainsKey(akey) && Serveable(PREFIX + akey);
+                if (byName) pname = PREFIX + akey;
+                if (pname == null) return;
                 if (speaker.portraitName == pname) return;
                 speaker.portraitName = pname;
                 if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
-                    Plugin.Log.LogInfo("portrait(conv): '" + speaker.actorName + "' <- " + pname
-                        + " (conv " + convo.idRef.id + ")");
+                    Plugin.Log.LogInfo("portrait(" + (byName ? "name" : "conv") + "): '"
+                        + speaker.actorName + "' <- " + pname);
             }
             catch (Exception e)
             {
@@ -228,7 +248,10 @@ namespace SRRVoices
             }
         }
 
-        // Give speakers one of our portraits when the game has none of its own for them.
+        // Fallback for everyone NodePrefix does not reach: barks, response rows, and any actor the
+        // game draws without routing through ShowNodeText. It assigns strictly by actorName, which
+        // is the same answer NodePrefix now prefers, so the two can no longer disagree and the
+        // throttle below can no longer decide a speaking character's portrait.
         //
         // ShowNodeText REASSIGNS its thisSpeaker parameter from the scene grid before reading
         // portraitName, so patching the incoming argument changes an object the method then

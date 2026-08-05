@@ -299,19 +299,27 @@ for cf in convo_files:
                 for n, a in name_index.items():
                     if n in tail or tail in n:
                         if best is None or len(n) > len(best[0]): best = (n, a)
-                # The name index is global, so a descriptive word in the conversation name can match
-                # a same-named but UNRELATED actor from a different scene: "c10-s2_PlaneyardReturn_
-                # Spirit" matched a "Spirit" prop standing in an apartment block two chapters
-                # earlier, and 17 lines of the Forgotten Souls' dialogue were filed under it. When
-                # the conversation is bound to an owner of its own, that owner is the better answer:
-                # it is a real actor in this scene, placed by the designer to run this conversation.
-                # So a cross-scene name match only wins when there is no owner to lose to; a match in
-                # the conversation's own scene still wins, since there the convo name is naming a
-                # specific actor present in the scene ("..._AcolyteAuditorium" -> that Acolyte).
-                if best and (not default_owner or
-                             (actors[best[1]]["scene"] or "").lower().startswith(scene_prefix)):
+                # The conversation name is a designer's FILE label, not a cast list. It is often
+                # descriptive of the role ("..._AcolyteConversationsHub") while the actor the
+                # designer actually bound the conversation to is a specific, differently-named NPC
+                # (Sister Sally). It can also match a same-named but UNRELATED actor in another
+                # scene: "c10-s2_PlaneyardReturn_Spirit" matched a "Spirit" prop standing in an
+                # apartment block two chapters earlier, and 17 lines of the Forgotten Souls'
+                # dialogue were filed under it.
+                #
+                # The owner is the better answer in BOTH cases: it is a real actor in this scene,
+                # placed by the designer to run this conversation. So a convo-name match only wins
+                # when there is no owner to lose to. An earlier version let an IN-SCENE name match
+                # beat the owner, on the theory that such a name must be pointing at that specific
+                # actor; it isn't. That is what filed Sister Sally's and Brother Mike's dialogue
+                # under a bystander "Acolyte" prop, merging a woman and a man into one character
+                # who was then cast with a single voice and given a single (male) portrait.
+                # Verified fresh-vs-fresh over DMS: preferring the owner moves exactly those two
+                # conversations plus c17-s1_JakeSensesGhouls ("Ghoul" -> Jake Armitage, which was
+                # already known to need a hand-fix), and nothing else.
+                if best and not default_owner:
                     aid = best[1]
-                elif best:
+                elif best and best[1] != default_owner:
                     name_vs_owner.append((convo_name or convo_id, actors[best[1]]["name"],
                                           actors[best[1]]["scene"], actors[default_owner]["name"]))
         if aid is None and default_owner: aid = default_owner
@@ -336,7 +344,7 @@ print(json.dumps(stats))
 print(f"characters: {len(result)}, narrator lines: {len(narrator['lines'])}, unattributed: {len(unattributed['lines'])}")
 if name_vs_owner:
     seen = sorted(set(name_vs_owner))
-    print(f"NOTE: {len(name_vs_owner)} node(s) in {len(seen)} conversation(s) had a cross-scene "
+    print(f"NOTE: {len(name_vs_owner)} node(s) in {len(seen)} conversation(s) had a "
           f"convo-name match overruled by the conversation owner:", file=sys.stderr)
     for cn, nm, sc, owner in seen:
         print(f"  {cn}: name-match {nm!r} (scene {sc}) -> owner {owner!r}", file=sys.stderr)

@@ -1099,6 +1099,19 @@
      "ts": 1784308353
     }
    ]
+  },
+  "c72906643030316c05005efa_0": {
+   "selected": "name_jakearmitage/takes/c72906643030316c05005efa_0__mag524__1784051693.mp3",
+   "takes": [
+    {
+     "file": "name_jakearmitage/takes/c72906643030316c05005efa_0__mag524__1784051693.mp3",
+     "voiceId": "mag_524",
+     "voiceName": "Lord Nytherion",
+     "stability": 0.0,
+     "chars": 108,
+     "ts": 1784051693
+    }
+   ]
   }
  },
  "narrator": {
@@ -17730,7 +17743,7 @@
    ]
   },
   "d19d1d0d3030312c0c0072b3_15": {
-   "selected": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_15__pFZP5JQG7iQj__1784017730.mp3",
+   "selected": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_15__pFZP5JQG7iQj__1785952906.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_15__pFZP5JQG7iQj__1784017730.mp3",
@@ -17739,6 +17752,14 @@
      "stability": 0,
      "chars": 72,
      "ts": 1784017730
+    },
+    {
+     "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_15__pFZP5JQG7iQj__1785952906.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 74,
+     "ts": 1785952906
     }
    ]
   },
@@ -17795,7 +17816,7 @@
    ]
   },
   "d19d1d0d3030312c0c0072b3_20": {
-   "selected": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1784017740.mp3",
+   "selected": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1785952799.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1784017740.mp3",
@@ -17804,6 +17825,46 @@
      "stability": 0,
      "chars": 19,
      "ts": 1784017740
+    },
+    {
+     "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1785952746.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1785952746
+    },
+    {
+     "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1785952752.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1785952752
+    },
+    {
+     "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1785952762.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 34,
+     "ts": 1785952762
+    },
+    {
+     "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1785952775.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1785952775
+    },
+    {
+     "file": "name_jessicawatts/takes/d19d1d0d3030312c0c0072b3_20__pFZP5JQG7iQj__1785952799.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1785952799
     }
    ]
   },
@@ -35062,7 +35123,7 @@
    ]
   },
   "51b9f7b1623331000e00441e_0": {
-   "selected": "name_doctor/takes/51b9f7b1623331000e00441e_0__mag241__1784039413.mp3",
+   "selected": "name_drsaracastle/takes/51b9f7b1623331000e00441e_0__mag503__1784660452.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/51b9f7b1623331000e00441e_0__mag241__1784039413.mp3",
@@ -35083,7 +35144,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_1": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_1__mag241__1784039416.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_1__mag503__1784660457.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_1__mag241__1784039416.mp3",
@@ -35104,7 +35165,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_2": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_2__mag241__1784039417.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_2__mag503__1784660464.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_2__mag241__1784039417.mp3",
@@ -35125,7 +35186,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_4": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_4__mag241__1784044801.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_4__mag503__1784660470.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_4__mag241__1784044801.mp3",
@@ -35146,7 +35207,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_5": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_5__mag241__1784044803.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_5__mag503__1784660476.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_5__mag241__1784044803.mp3",
@@ -35167,7 +35228,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_6": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_6__mag241__1784044806.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_6__mag503__1784660482.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_6__mag241__1784044806.mp3",
@@ -35188,7 +35249,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_8": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_8__mag241__1784044808.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_8__mag503__1784660502.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_8__mag241__1784044808.mp3",
@@ -35209,7 +35270,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_7": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_7__mag241__1784044808.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_7__mag503__1784660490.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_7__mag241__1784044808.mp3",
@@ -35230,7 +35291,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_9": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_9__mag241__1784044809.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_9__mag503__1784660512.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_9__mag241__1784044809.mp3",
@@ -35251,7 +35312,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_10": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_10__mag241__1784044811.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_10__mag503__1784660520.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_10__mag241__1784044811.mp3",
@@ -35272,7 +35333,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_13": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_13__mag241__1784044813.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_13__mag503__1784660552.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_13__mag241__1784044813.mp3",
@@ -35293,7 +35354,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_11": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_11__mag241__1784044814.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_11__mag503__1784660528.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_11__mag241__1784044814.mp3",
@@ -35314,7 +35375,7 @@
    ]
   },
   "8f8a7ef36233318c24006ec2_12": {
-   "selected": "name_doctor/takes/8f8a7ef36233318c24006ec2_12__mag241__1784044816.mp3",
+   "selected": "name_drsaracastle/takes/8f8a7ef36233318c24006ec2_12__mag503__1784660542.mp3",
    "takes": [
     {
      "file": "name_doctor/takes/8f8a7ef36233318c24006ec2_12__mag241__1784044816.mp3",
@@ -39230,7 +39291,7 @@
    ]
   },
   "800b0769623331882a003e3d_1": {
-   "selected": "name_drholmes/takes/800b0769623331882a003e3d_1__mag342__1784022168_201.mp3",
+   "selected": "name_drholmes/takes/800b0769623331882a003e3d_1__mag342__1785951029.mp3",
    "takes": [
     {
      "file": "name_drholmes/takes/800b0769623331882a003e3d_1__mag342__1784022168_201.mp3",
@@ -39239,6 +39300,30 @@
      "stability": 0,
      "chars": 52,
      "ts": 0
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_1__mag342__1785950998.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 68,
+     "ts": 1785950998
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_1__mag342__1785951020.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 75,
+     "ts": 1785951020
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_1__mag342__1785951029.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 86,
+     "ts": 1785951029
     }
    ]
   },
@@ -39376,7 +39461,7 @@
    ]
   },
   "800b0769623331882a003e3d_2": {
-   "selected": "name_drholmes/takes/800b0769623331882a003e3d_2__mag342__1784023016_0.mp3",
+   "selected": "name_drholmes/takes/800b0769623331882a003e3d_2__mag342__1785951080.mp3",
    "takes": [
     {
      "file": "name_drholmes/takes/800b0769623331882a003e3d_2__mag342__1784023016_0.mp3",
@@ -39385,11 +39470,19 @@
      "stability": 0,
      "chars": 36,
      "ts": 0
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_2__mag342__1785951080.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 45,
+     "ts": 1785951080
     }
    ]
   },
   "800b0769623331882a003e3d_3": {
-   "selected": "name_drholmes/takes/800b0769623331882a003e3d_3__mag_342__1784026067_2.mp3",
+   "selected": "name_drholmes/takes/800b0769623331882a003e3d_3__mag342__1785951177.mp3",
    "takes": [
     {
      "file": "name_drholmes/takes/800b0769623331882a003e3d_3__mag_342__1784026067_2.mp3",
@@ -39398,6 +39491,38 @@
      "stability": 0,
      "chars": 36,
      "ts": 0
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_3__mag342__1785951091.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 46,
+     "ts": 1785951091
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_3__mag342__1785951115.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 55,
+     "ts": 1785951115
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_3__mag342__1785951123.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 62,
+     "ts": 1785951123
+    },
+    {
+     "file": "name_drholmes/takes/800b0769623331882a003e3d_3__mag342__1785951177.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 76,
+     "ts": 1785951177
     }
    ]
   },
@@ -44863,411 +44988,6 @@
      "voiceName": "Noah Bailey",
      "stability": 0,
      "chars": 55,
-     "ts": 0
-    }
-   ]
-  }
- },
- "name_acolyte": {
-  "ab7a98a8306434e41b00441b_0": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_0__mag613__1784025746.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_0__mag613__1784025746.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 47,
-     "ts": 1784025746
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_1": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_1__mag613__1784025746.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_1__mag613__1784025746.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 57,
-     "ts": 1784025746
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_5": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_5__mag_613__1784025999_0.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_5__mag_613__1784025999_0.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 270,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_9": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_9__mag_613__1784025999_1.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_9__mag_613__1784025999_1.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 128,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_13": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_13__mag_613__1784025999_2.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_13__mag_613__1784025999_2.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 119,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_2": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_2__mag_613__1784025999_3.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_2__mag_613__1784025999_3.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 43,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_6": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_6__mag_613__1784025999_4.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_6__mag_613__1784025999_4.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 187,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_10": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_10__mag_613__1784026067_0.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_10__mag_613__1784026067_0.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 148,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_14": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_14__mag_613__1784026067_1.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_14__mag_613__1784026067_1.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 15,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_3": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_3__mag613__1784025987.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_3__mag613__1784025987.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 31,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_8": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_8__mag613__1784025987.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_8__mag613__1784025987.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 271,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_12": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_12__mag613__1784025987_1.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_12__mag613__1784025987_1.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 184,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_0": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_0__mag613__1784025987_2.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_0__mag613__1784025987_2.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 103,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_5": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_5__mag613__1784025987_3.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_5__mag613__1784025987_3.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 98,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_9": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_9__mag613__20260714_124829_0.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_9__mag613__20260714_124829_0.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 126,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_13": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_13__mag613__20260714_124829_1.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_13__mag613__20260714_124829_1.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 81,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_6": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_6__mag_613__1784025978_0.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_6__mag_613__1784025978_0.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 200,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_10": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_10__mag_613__1784025978_1.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_10__mag_613__1784025978_1.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 127,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_14": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_14__mag_613__1784025978_2.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_14__mag_613__1784025978_2.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 19,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_3": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_3__mag_613__1784025978_3.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_3__mag_613__1784025978_3.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 138,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_7": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_7__mag_613__1784025978_4.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_7__mag_613__1784025978_4.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 68,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_11": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_11__mag_613__1784026023_5.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_11__mag_613__1784026023_5.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 223,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_15": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_15__mag_613__1784026023_6.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_15__mag_613__1784026023_6.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 76,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_2": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_2__mag613__1784025972.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_2__mag613__1784025972.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 115,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_7": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_7__mag613__1784025972_1.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_7__mag613__1784025972_1.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 115,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_11": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_11__mag613__1784025972_2.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_11__mag613__1784025972_2.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 109,
-     "ts": 0
-    }
-   ]
-  },
-  "ab7a98a8306434e41b00441b_15": {
-   "selected": "name_acolyte/takes/ab7a98a8306434e41b00441b_15__mag613__1784025972_3.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/ab7a98a8306434e41b00441b_15__mag613__1784025972_3.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 110,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_4": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_4__mag613__1784025972_4.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_4__mag613__1784025972_4.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 69,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_8": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_8__mag613__1784026023.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_8__mag613__1784026023.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 115,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_12": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_12__mag613__1784026023_1.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_12__mag613__1784026023_1.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 81,
-     "ts": 0
-    }
-   ]
-  },
-  "aba2c9e0306434e41b00478f_16": {
-   "selected": "name_acolyte/takes/aba2c9e0306434e41b00478f_16__mag613__1784026023_2.mp3",
-   "takes": [
-    {
-     "file": "name_acolyte/takes/aba2c9e0306434e41b00478f_16__mag613__1784026023_2.mp3",
-     "voiceId": "mag_613",
-     "voiceName": "Amber Hayes",
-     "stability": 0,
-     "chars": 100,
      "ts": 0
     }
    ]
@@ -53113,171 +52833,366 @@
  },
  "name_sistersally": {
   "51b0bb03633635940800165e_1": {
-   "selected": "name_sistersally/takes/51b0bb03633635940800165e_1__mag161__1784044175.mp3",
+   "selected": "name_sistersally/takes/51b0bb03633635940800165e_1__mag613__1785960952_0.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51b0bb03633635940800165e_1__mag161__1784044175.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
+     "file": "name_sistersally/takes/51b0bb03633635940800165e_1__mag613__1785960952_0.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
      "stability": 0,
-     "chars": 43,
-     "ts": 1784044175
+     "chars": 44,
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_0~c0": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_0~c0__mag161__1784044176.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_0~c0__mag613__1785960952_1.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_0~c0__mag161__1784044176.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
+     "file": "name_sistersally/takes/51bcf721633635681e001824_0~c0__mag613__1785960952_1.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
      "stability": 0,
      "chars": 78,
-     "ts": 1784044176
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_0~c1": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_0~c1__mag161__1784044213.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_0~c1__mag613__1785960952_2.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_0~c1__mag161__1784044213.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
+     "file": "name_sistersally/takes/51bcf721633635681e001824_0~c1__mag613__1785960952_2.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
      "stability": 0,
      "chars": 56,
-     "ts": 1784044213
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_0~c2": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_0~c2__mag161__1784044216.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_0~c2__mag613__1785960952_3.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_0~c2__mag161__1784044216.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
+     "file": "name_sistersally/takes/51bcf721633635681e001824_0~c2__mag613__1785960952_3.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
      "stability": 0,
      "chars": 134,
-     "ts": 1784044216
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_2": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_2__mag161__1784045034.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_2__mag613__1785960952_4.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_2__mag161__1784045034.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_2__mag613__1785960952_4.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 30,
-     "ts": 1784045034
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_3~c0": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_3~c0__mag161__1784045036.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_3~c0__mag613__1785960952_5.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_3~c0__mag161__1784045036.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_3~c0__mag613__1785960952_5.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 76,
-     "ts": 1784045036
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_5": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_5__mag161__1784045038.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_5__mag613__1785960952_8.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_5__mag161__1784045038.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_5__mag613__1785960952_8.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 30,
-     "ts": 1784045038
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_3~c1": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_3~c1__mag161__1784045039.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_3~c1__mag613__1785960952_6.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_3~c1__mag161__1784045039.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_3~c1__mag613__1785960952_6.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 56,
-     "ts": 1784045039
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_3~c2": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_3~c2__mag161__1784045040.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_3~c2__mag613__1785960952_7.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_3~c2__mag161__1784045040.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_3~c2__mag613__1785960952_7.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 134,
-     "ts": 1784045040
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_6~c0": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_6~c0__mag161__1784045041.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_6~c0__mag613__1785960952_9.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_6~c0__mag161__1784045041.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_6~c0__mag613__1785960952_9.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 56,
-     "ts": 1784045041
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_6~c1": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_6~c1__mag161__1784045044.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_6~c1__mag613__1785960952_10.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_6~c1__mag161__1784045044.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_6~c1__mag613__1785960952_10.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 56,
-     "ts": 1784045044
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_8": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_8__mag161__1784045046.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_8__mag613__1785960952_12.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_8__mag161__1784045046.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_8__mag613__1785960952_12.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 30,
-     "ts": 1784045046
+     "ts": 1785960952
     }
    ]
   },
   "51bcf721633635681e001824_6~c2": {
-   "selected": "name_sistersally/takes/51bcf721633635681e001824_6~c2__mag161__1784045046.mp3",
+   "selected": "name_sistersally/takes/51bcf721633635681e001824_6~c2__mag613__1785960952_11.mp3",
    "takes": [
     {
-     "file": "name_sistersally/takes/51bcf721633635681e001824_6~c2__mag161__1784045046.mp3",
-     "voiceId": "mag_161",
-     "voiceName": "Riley Monroe",
-     "stability": 0.0,
+     "file": "name_sistersally/takes/51bcf721633635681e001824_6~c2__mag613__1785960952_11.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
      "chars": 134,
-     "ts": 1784045046
+     "ts": 1785960952
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_0": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_0__mag613__1784025746.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_0__mag613__1784025746.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 47,
+     "ts": 1784025746
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_1": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_1__mag613__1784025746.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_1__mag613__1784025746.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 57,
+     "ts": 1784025746
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_5": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_5__mag_613__1784025999_0.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_5__mag_613__1784025999_0.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 270,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_9": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_9__mag_613__1784025999_1.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_9__mag_613__1784025999_1.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 128,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_13": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_13__mag_613__1784025999_2.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_13__mag_613__1784025999_2.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 119,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_3": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_3__mag613__1784025987.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_3__mag613__1784025987.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 31,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_8": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_8__mag613__1784025987.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_8__mag613__1784025987.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 271,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_12": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_12__mag613__1784025987_1.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_12__mag613__1784025987_1.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 184,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_6": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_6__mag_613__1784025978_0.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_6__mag_613__1784025978_0.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 200,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_10": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_10__mag_613__1784025978_1.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_10__mag_613__1784025978_1.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 127,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_14": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_14__mag_613__1784025978_2.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_14__mag_613__1784025978_2.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 19,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_2": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_2__mag613__1784025972.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_2__mag613__1784025972.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 115,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_7": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_7__mag613__1784025972_1.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_7__mag613__1784025972_1.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 115,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_11": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_11__mag613__1784025972_2.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_11__mag613__1784025972_2.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 109,
+     "ts": 0
+    }
+   ]
+  },
+  "ab7a98a8306434e41b00441b_15": {
+   "selected": "name_sistersally/takes/ab7a98a8306434e41b00441b_15__mag613__1784025972_3.mp3",
+   "takes": [
+    {
+     "file": "name_sistersally/takes/ab7a98a8306434e41b00441b_15__mag613__1784025972_3.mp3",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "stability": 0,
+     "chars": 110,
+     "ts": 0
     }
    ]
   }
@@ -53812,21 +53727,6 @@
      "stability": 0,
      "chars": 190,
      "ts": 1784053668
-    }
-   ]
-  }
- },
- "name_ghoul": {
-  "c72906643030316c05005efa_0": {
-   "selected": "name_ghoul/takes/c72906643030316c05005efa_0__mag524__1784051693.mp3",
-   "takes": [
-    {
-     "file": "name_ghoul/takes/c72906643030316c05005efa_0__mag524__1784051693.mp3",
-     "voiceId": "mag_524",
-     "voiceName": "Lord Nytherion",
-     "stability": 0.0,
-     "chars": 108,
-     "ts": 1784051693
     }
    ]
   }
@@ -59298,15 +59198,15 @@
    ]
   },
   "bark_a135018e678b619f": {
-   "selected": "_barks/takes/bark_a135018e678b619f__pFZP5JQG7iQj__1784565099.mp3",
+   "selected": "_barks/takes/bark_a135018e678b619f__mag342__1785949552.mp3",
    "takes": [
     {
-     "file": "_barks/takes/bark_a135018e678b619f__pFZP5JQG7iQj__1784565099.mp3",
-     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
-     "voiceName": "Lily - Velvety Actress",
-     "stability": 0.0,
-     "chars": 120,
-     "ts": 1784565099
+     "file": "_barks/takes/bark_a135018e678b619f__mag342__1785949552.mp3",
+     "voiceId": "mag_342",
+     "voiceName": "Christopher Sullivan",
+     "stability": 0,
+     "chars": 118,
+     "ts": 1785949552
     }
    ]
   },
@@ -63997,6 +63897,216 @@
      "stability": 0,
      "chars": 126,
      "ts": 1784710770
+    }
+   ]
+  }
+ },
+ "name_brothermike": {
+  "aba2c9e0306434e41b00478f_2": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_2__mag507__1785960952_14.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_2__mag507__1785960952_14.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 43,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_6": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_6__mag507__1785960952_18.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_6__mag507__1785960952_18.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 187,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_10": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_10__mag507__1785960952_22.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_10__mag507__1785960952_22.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 148,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_14": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_14__mag507__1785960952_26.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_14__mag507__1785960952_26.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 15,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_0": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_0__mag507__1785960952_13.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_0__mag507__1785960952_13.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 103,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_5": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_5__mag507__1785960952_17.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_5__mag507__1785960952_17.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 98,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_9": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_9__mag507__1785960952_21.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_9__mag507__1785960952_21.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 126,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_13": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_13__mag507__1785960952_25.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_13__mag507__1785960952_25.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 81,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_3": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_3__mag507__1785960952_15.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_3__mag507__1785960952_15.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 138,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_7": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_7__mag507__1785960952_19.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_7__mag507__1785960952_19.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 68,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_11": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_11__mag507__1785960952_23.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_11__mag507__1785960952_23.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 223,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_15": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_15__mag507__1785960952_27.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_15__mag507__1785960952_27.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 76,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_4": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_4__mag507__1785960952_16.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_4__mag507__1785960952_16.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 69,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_8": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_8__mag507__1785960952_20.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_8__mag507__1785960952_20.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 115,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_12": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_12__mag507__1785960952_24.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_12__mag507__1785960952_24.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 81,
+     "ts": 1785960952
+    }
+   ]
+  },
+  "aba2c9e0306434e41b00478f_16": {
+   "selected": "name_brothermike/takes/aba2c9e0306434e41b00478f_16__mag507__1785960952_28.mp3",
+   "takes": [
+    {
+     "file": "name_brothermike/takes/aba2c9e0306434e41b00478f_16__mag507__1785960952_28.mp3",
+     "voiceId": "mag_507",
+     "voiceName": "Dylan Hayes",
+     "stability": 0,
+     "chars": 100,
+     "ts": 1785960952
     }
    ]
   }

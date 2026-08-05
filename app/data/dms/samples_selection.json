@@ -909,41 +909,6 @@
    }
   ]
  },
- "name_acolyte": {
-  "name": "Acolyte",
-  "samples": [
-   {
-    "c": "ab7a98a8306434e41b00441b",
-    "n": 6,
-    "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-    "t": "I'm sorry, I don't know. I only see Grandmother Jessica at special ceremonies and even then, only at a distance. You might ask Mother Lynne - Lynne Telestrian - if you can catch her in the Auditorium. "
-   },
-   {
-    "c": "aba2c9e0306434e41b00478f",
-    "n": 6,
-    "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-    "t": "Father Willy is truly an inspiration. After years of living in the shadows he found the light about three years ago and now is a beacon for us to follow here at the Universal Brotherhood. "
-   },
-   {
-    "c": "aba2c9e0306434e41b00478f",
-    "n": 10,
-    "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-    "t": "Mother Lynne is the family's best spokesperson. That she, who comes from so much, is willing to give so much for others is an inspiration to us all. "
-   },
-   {
-    "c": "aba2c9e0306434e41b00478f",
-    "n": 3,
-    "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-    "t": "Yes of course, but here at the Universal Brotherhood, we are all one family and refer to each other as brothers, sister, mother or father."
-   },
-   {
-    "c": "aba2c9e0306434e41b00478f",
-    "n": 9,
-    "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-    "t": "Of course. Grandmother Jessica is the matriarch of our family here, she runs the Seattle chapter of the Universal Brotherhood."
-   }
-  ]
- },
  "name_mrjohnson": {
   "name": "Mr. Johnson",
   "samples": [

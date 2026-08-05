@@ -85,6 +85,19 @@ def main():
             conv_rows.append(f"conv:{g}\tsrrv_{actor}.png")
         packed += 1
 
+    # A conversation with two portrait-carrying speakers cannot be resolved by its GUID alone: the
+    # plugin keys one portrait per conversation, so the second row silently overwrites the first and
+    # BOTH speakers get whichever art sorted last. That is how the female bunraku drew the male
+    # one's portrait. There is nothing to disambiguate with here, so drop the key entirely and let
+    # the actorName path (which the game answers exactly) place both. Every character that loses a
+    # key this way is listed, so a genuine loss of coverage is visible rather than silent.
+    by_guid = {}
+    for r in conv_rows:
+        by_guid.setdefault(r.split("\t")[0], set()).add(r.split("\t")[1])
+    ambiguous = {g for g, files in by_guid.items() if len(files) > 1}
+    dropped_keys = sorted(r for r in conv_rows if r.split("\t")[0] in ambiguous)
+    conv_rows = [r for r in conv_rows if r.split("\t")[0] not in ambiguous]
+
     with open(os.path.join(out, "portraits.index"), "w") as f:
         f.write("\n".join(sorted(rows) + sorted(conv_rows)) + "\n")
 
@@ -100,6 +113,11 @@ def main():
     print(f"[{game}] portrait pack: {packed} portraits, {len(conv_rows)} conversation keys, "
           f"{skipped} characters kept their own art"
           + (f"; dropped {len(stale)} orphaned file(s): {', '.join(stale)}" if stale else ""))
+    if ambiguous:
+        print(f"  {len(ambiguous)} conversation key(s) dropped as ambiguous (>1 speaker with art); "
+              f"those speakers are placed by actorName instead:")
+        for r in dropped_keys:
+            print(f"    {r.split(chr(9))[0]} -> {r.split(chr(9))[1]}")
 
 if __name__ == "__main__":
     main()

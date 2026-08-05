@@ -1,23 +1,4 @@
 {
- "name_acolyte": {
-  "files": [
-   "name_acolyte.png",
-   "name_acolyte_v2.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_humanmale_hansbrackhaus.png",
-    "backer_elfmale_andykitzke_ulrickell.png",
-    "backer_humanmale_andresguillermoaguirre.png"
-   ],
-   [
-    "backer_elfmale_erikdahlman.png",
-    "generic_humanmale_lonestarguard01.png",
-    "backer_humanmale_johnmaloney_johnnymaloney.png"
-   ]
-  ]
- },
  "name_janitor": {
   "files": [
    "name_janitor.png",
@@ -361,7 +342,9 @@
  "name_sistersally": {
   "files": [
    "name_sistersally.png",
-   "name_sistersally_v2.png"
+   "name_sistersally_v2.png",
+   "name_sistersally_d370f807.png",
+   "name_sistersally_d371617c.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -592,7 +575,17 @@
  "name_sistermonica": {
   "files": [
    "name_sistermonica.png",
-   "name_sistermonica_v2.png"
+   "name_sistermonica_v2.png",
+   "name_sistermonica_d372b25b.png",
+   "name_sistermonica_d372dfe3.png",
+   "name_sistermonica_d3739bfd.png",
+   "name_sistermonica_d3739d49.png",
+   "name_sistermonica_d373fc86.png",
+   "name_sistermonica_d37c0329.png",
+   "name_sistermonica_d37c53bb.png",
+   "name_sistermonica_d37dd10f.png",
+   "name_sistermonica_d37f3c8b.png",
+   "name_sistermonica_d37f55d5.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -791,5 +784,24 @@
    "name_donny_c98f7083.png"
   ],
   "usedRef": false
+ },
+ "name_brothermike": {
+  "files": [
+   "name_brothermike.png",
+   "name_brothermike_v2.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_hansbrackhaus.png",
+    "backer_elfmale_andykitzke_ulrickell.png",
+    "backer_humanmale_andresguillermoaguirre.png"
+   ],
+   [
+    "backer_elfmale_erikdahlman.png",
+    "generic_humanmale_lonestarguard01.png",
+    "backer_humanmale_johnmaloney_johnnymaloney.png"
+   ]
+  ]
  }
 }

@@ -7430,6 +7430,12 @@
      "n": 4,
      "cn": "c03-s1_Barrens_JakeAfterMugging",
      "t": "Only by the hour. Hey, you've seen where I stay the night."
+    },
+    {
+     "c": "c72906643030316c05005efa",
+     "n": 0,
+     "cn": "c17-s1_JakeSensesGhouls",
+     "t": "Looks like we woke up the neighbors. We've got ghouls incoming! \n\nHey $(l.name), maybe we can use this to our advantage."
     }
    ],
    "portraitFile": "npc_humanmale_jakearmitage.png"
@@ -12033,201 +12039,6 @@
    ]
   },
   {
-   "id": "name_acolyte",
-   "name": "Acolyte",
-   "portrait": null,
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 0,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "{{GM}}The young lady turns back to you and smiles.{{/GM}}\n\nI'm sorry about that. How can I help you today? \n\n"
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 1,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "Hello again. Is there something more I can help you with?"
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 2,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "Hello again. I don't think I have much more to say, you might want to visit our Counseling Center or the Cafeteria."
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 3,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "What can I help you with today!"
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 5,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "The Universal Brotherhood is a community that welcomes all forms of meta-humanity with the mission of making the world a better place by helping individuals to become so much more than they currently are. This is our Seattle Chapter. There are more popping up every day!"
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 6,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "I'm sorry, I don't know. I only see Grandmother Jessica at special ceremonies and even then, only at a distance. You might ask Mother Lynne - Lynne Telestrian - if you can catch her in the Auditorium. "
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 7,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "I believe so! I think she arrived at the end of Father Willy's talk, so you might still find her in the auditorium."
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 8,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "At the Universal Brotherhood, we learn that the world is all one family. When you choose the path of Belonging, you become one of our brothers or sisters. \n\nWe are led by our Fathers and Mothers, who are in turn led by Grandmother Jessica, the Seattle family's Matriarch."
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 9,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "{{GM}}She looks at you, perplexed.{{/GM}}\n\nI don't know why you would need one. They are only used by to replace the cards of Brothers and Sisters who have damaged theirs. "
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 10,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "{{GM}}Her eyes light up.{{/GM}}\n\nI know – isn’t it exciting! I am such a big fan of hers. The first time I heard, \"Who Weeps for the Children?\" I melted inside."
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 11,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "{{GM}}She chews her lip, torn, then makes a decision.{{/GM}}\n\nI know the Elders will frown on this, but I’ve just *got* to get her autograph. I mean, it's Maria Mercurial!"
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 12,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "{{GM}}She swoons.{{/GM}}\n\nI didn’t know that! Oh my! But it doesn’t surprise me at all! She's so deep and soulful. And there are lots of media stars who are joining the Brotherhood these days. We're everywhere!"
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 13,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "I am out of keycards, but if you show that to Brother Christopher he can let you into the office to make a new keycard."
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 14,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "Truth makes us one."
-    },
-    {
-     "c": "ab7a98a8306434e41b00441b",
-     "n": 15,
-     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
-     "t": "Thanks for telling me about Maria Mercurial, but there were sooo many people I couldn't even get close to her."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 0,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "I'm sorry but today's seminar is over. Father Willy is just answering a few questions before he leaves. "
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 2,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "No, Mother Lynne left about 15 minutes ago."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 3,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Yes of course, but here at the Universal Brotherhood, we are all one family and refer to each other as brothers, sister, mother or father."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 4,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Yes, Mothers and Fathers lead us with their knowledge and experience."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 5,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Well yes, but there is only one Grandmother or Grandfather for each Universal Brotherhood chapter. "
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 6,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Father Willy is truly an inspiration. After years of living in the shadows he found the light about three years ago and now is a beacon for us to follow here at the Universal Brotherhood. "
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 7,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "All the Brothers and Sisters report to him, if that's what you mean. "
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 8,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Grandmother Jessica is the matriarch of our family here, she runs the Seattle chapter of the Universal Brotherhood."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 9,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Of course. Grandmother Jessica is the matriarch of our family here, she runs the Seattle chapter of the Universal Brotherhood."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 10,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Mother Lynne is the family's best spokesperson. That she, who comes from so much, is willing to give so much for others is an inspiration to us all. "
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 11,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "It was an inspiring speech about how Universal Brotherhood is working to bring about a future of unity and belonging. Order from chaos. A future of Truth realized. \n\nIt's a subject that he and Mother Lynne talk about often."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 12,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "I am not privileged to know where Grandmother Jessica is, but Father Willy might. "
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 13,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "I am not privileged to know where Grandmother Jessica is, but Father Willy might. "
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 14,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "Can I help you?"
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 15,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "I don't know where Grandmother Jessica is, you should speak to Father Willy."
-    },
-    {
-     "c": "aba2c9e0306434e41b00478f",
-     "n": 16,
-     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
-     "t": "That sounds like something a Father or Mother should deal with. Talk to Father Willy near the stage. "
-    }
-   ]
-  },
-  {
    "id": "name_mrjohnson",
    "name": "Mr. Johnson",
    "portrait": "Backer_HumanMale_RichGallup",
@@ -16414,6 +16225,96 @@
      "n": 8,
      "cn": "c21-s1 Front Desk Start",
      "t": "{{GM}}Sister Sally smiles.{{/GM}}\n\nOf course. Truth makes us one."
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 0,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "{{GM}}The young lady turns back to you and smiles.{{/GM}}\n\nI'm sorry about that. How can I help you today? \n\n"
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 1,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "Hello again. Is there something more I can help you with?"
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 2,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "Hello again. I don't think I have much more to say, you might want to visit our Counseling Center or the Cafeteria."
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 3,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "What can I help you with today!"
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 5,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "The Universal Brotherhood is a community that welcomes all forms of meta-humanity with the mission of making the world a better place by helping individuals to become so much more than they currently are. This is our Seattle Chapter. There are more popping up every day!"
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 6,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "I'm sorry, I don't know. I only see Grandmother Jessica at special ceremonies and even then, only at a distance. You might ask Mother Lynne - Lynne Telestrian - if you can catch her in the Auditorium. "
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 7,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "I believe so! I think she arrived at the end of Father Willy's talk, so you might still find her in the auditorium."
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 8,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "At the Universal Brotherhood, we learn that the world is all one family. When you choose the path of Belonging, you become one of our brothers or sisters. \n\nWe are led by our Fathers and Mothers, who are in turn led by Grandmother Jessica, the Seattle family's Matriarch."
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 9,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "{{GM}}She looks at you, perplexed.{{/GM}}\n\nI don't know why you would need one. They are only used by to replace the cards of Brothers and Sisters who have damaged theirs. "
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 10,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "{{GM}}Her eyes light up.{{/GM}}\n\nI know – isn’t it exciting! I am such a big fan of hers. The first time I heard, \"Who Weeps for the Children?\" I melted inside."
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 11,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "{{GM}}She chews her lip, torn, then makes a decision.{{/GM}}\n\nI know the Elders will frown on this, but I’ve just *got* to get her autograph. I mean, it's Maria Mercurial!"
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 12,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "{{GM}}She swoons.{{/GM}}\n\nI didn’t know that! Oh my! But it doesn’t surprise me at all! She's so deep and soulful. And there are lots of media stars who are joining the Brotherhood these days. We're everywhere!"
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 13,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "I am out of keycards, but if you show that to Brother Christopher he can let you into the office to make a new keycard."
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 14,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "Truth makes us one."
+    },
+    {
+     "c": "ab7a98a8306434e41b00441b",
+     "n": 15,
+     "cn": "c21-s1_Brotherhood_AcolyteConversationsHub",
+     "t": "Thanks for telling me about Maria Mercurial, but there were sooo many people I couldn't even get close to her."
     }
    ]
   },
@@ -18117,21 +18018,6 @@
    "portraitFile": "npc_trollmale_pitezelsilhouetted.png"
   },
   {
-   "id": "name_ghoul",
-   "name": "Ghoul",
-   "portrait": "\n\u0000",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "c72906643030316c05005efa",
-     "n": 0,
-     "cn": "c17-s1_JakeSensesGhouls",
-     "t": "Looks like we woke up the neighbors. We've got ghouls incoming! \n\nHey $(l.name), maybe we can use this to our advantage."
-    }
-   ]
-  },
-  {
    "id": "name_addict",
    "name": "Addict",
    "portrait": "",
@@ -18932,6 +18818,111 @@
      "n": 2,
      "cn": "c09-s1_Tweakers_LabEntrance",
      "t": "{{GM}}The man with the cyberdeck calmly speaks with a heavily digitized voice.{{/GM}}\n\nYou messed with the wrong BTL Lab, aho. This is a Yakuza operation.\n\nWith a push of a button, I can make these tweakers into my own personal killer puppets. You're fragged."
+    }
+   ]
+  },
+  {
+   "id": "name_brothermike",
+   "name": "Brother Mike",
+   "portrait": null,
+   "archetype": null,
+   "bio": null,
+   "lines": [
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 0,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "I'm sorry but today's seminar is over. Father Willy is just answering a few questions before he leaves. "
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 2,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "No, Mother Lynne left about 15 minutes ago."
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 3,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Yes of course, but here at the Universal Brotherhood, we are all one family and refer to each other as brothers, sister, mother or father."
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 4,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Yes, Mothers and Fathers lead us with their knowledge and experience."
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 5,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Well yes, but there is only one Grandmother or Grandfather for each Universal Brotherhood chapter. "
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 6,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Father Willy is truly an inspiration. After years of living in the shadows he found the light about three years ago and now is a beacon for us to follow here at the Universal Brotherhood. "
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 7,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "All the Brothers and Sisters report to him, if that's what you mean. "
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 8,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Grandmother Jessica is the matriarch of our family here, she runs the Seattle chapter of the Universal Brotherhood."
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 9,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Of course. Grandmother Jessica is the matriarch of our family here, she runs the Seattle chapter of the Universal Brotherhood."
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 10,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Mother Lynne is the family's best spokesperson. That she, who comes from so much, is willing to give so much for others is an inspiration to us all. "
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 11,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "It was an inspiring speech about how Universal Brotherhood is working to bring about a future of unity and belonging. Order from chaos. A future of Truth realized. \n\nIt's a subject that he and Mother Lynne talk about often."
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 12,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "I am not privileged to know where Grandmother Jessica is, but Father Willy might. "
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 13,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "I am not privileged to know where Grandmother Jessica is, but Father Willy might. "
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 14,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "Can I help you?"
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 15,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "I don't know where Grandmother Jessica is, you should speak to Father Willy."
+    },
+    {
+     "c": "aba2c9e0306434e41b00478f",
+     "n": 16,
+     "cn": "c21-s1_Brotherhood_AcolyteAuditorium",
+     "t": "That sounds like something a Father or Mother should deal with. Talk to Father Willy near the stage. "
     }
    ]
   }

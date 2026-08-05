@@ -1221,53 +1221,6 @@
    }
   ]
  },
- "name_acolyte": {
-  "bio": "Clergy of the old faith.",
-  "direction": "Soft liturgical calm.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_526",
-    "name": "Eldros the Wise",
-    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
-   },
-   {
-    "voice_id": "mag_841",
-    "name": "Walter Hansen",
-    "why": "A resonant, well-articulated voice with gentle Midwestern character, delivering narration "
-   },
-   {
-    "voice_id": "mag_507",
-    "name": "Dylan Hayes",
-    "why": "Warm and Neutral, this young male voice is ideal for versatile audio projects. It also bri"
-   },
-   {
-    "voice_id": "mag_500",
-    "name": "Santa Claus",
-    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
-   },
-   {
-    "voice_id": "mag_276",
-    "name": "Sipho Dlamini",
-    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
-   },
-   {
-    "voice_id": "mag_266",
-    "name": "Aiden Samuel",
-    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
-   },
-   {
-    "voice_id": "mag_36",
-    "name": "Blake Hudson",
-    "why": "Warm and engaging grandpa voice. Ideal for telling adventurous stories and captivating tal"
-   },
-   {
-    "voice_id": "mag_545",
-    "name": "Elias Thornwell",
-    "why": "A seasoned storyteller with a rich, resonant voice that combines gravitas and warmth. Comm"
-   }
-  ]
- },
  "name_mrjohnson": {
   "bio": "The anonymous corporate fixer every runner knows by this name.",
   "direction": "Neutral professional menace; friendly words, no warmth.",
@@ -4903,9 +4856,6 @@
    }
   ]
  },
- "name_ghoul": {
-  "direction": "Male runner/ally shouting a combat warning about incoming ghouls. Urgent, gruff, alert, mid-range."
- },
  "name_forgottensouls": {
   "bio": "A being from the other side of the veil.",
   "direction": "Otherworldly: layered, resonant, wrong in a beautiful way.",
@@ -4988,5 +4938,15 @@
   ],
   "gender": "female",
   "direction": "Female street sex worker, weary and transactional with a knowing tone. Jaded, casual, mid-range."
+ },
+ "name_brothermike": {
+  "bio": "Universal Brotherhood acolyte working the auditorium after Father Willy's seminar.",
+  "direction": "Earnest, patient, gently evangelical. Deferential about the Elders.",
+  "gender": "male"
+ },
+ "name_sistersally": {
+  "bio": "Young acolyte on the Universal Brotherhood front desk. Star-struck fan of Maria Mercurial.",
+  "direction": "Bright, chatty, eager to help. Gushes when the subject turns to Maria.",
+  "gender": "female"
  }
 }
