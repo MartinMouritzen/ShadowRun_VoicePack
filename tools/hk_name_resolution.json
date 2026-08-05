@@ -33,5 +33,12 @@
  "$(scene.OuterRing_LocalShaman_Name)": "Local Shaman",
  "$(scene.Convention_KitchenWorkerName)": "Kitchen Worker",
  "$(scene.Convention_DrunkTrollName)": "Drunk Troll",
- "$(scene.Global_Name_Cadmus)": "Cadmus"
+ "$(scene.Global_Name_Cadmus)": "Cadmus",
+ "$(scene.Convention_ConGoer4Name)": "Turtle",
+ "$(scene.Convention_ConGoer5Name)": "Grimson",
+ "$(scene.Convention_ConGoer6Name)": "Gamege",
+ "$(scene.Convention_ConGoerTargetName)": "Spiky-Haired Decker",
+ "$(scene.nameTanjiro)": "Tanjiro",
+ "$(story.MC_Hub-charName_Chastity)": "Chastity Blackwell",
+ "$(story.MC_Hub-charName_Eddy)": "Eddy Nahas"
 }

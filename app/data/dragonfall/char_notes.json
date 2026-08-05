@@ -939,53 +939,6 @@
    }
   ]
  },
- "name_phil": {
-  "bio": "A mild-mannered dreamer lost inside a cheesy fantasy simulation, playing the noble ruler who has finally won the secret of Titonius Rex and all the sugary snacks he desires.",
-  "direction": "Gentle, earnest, theatrically noble in a community-theater way; a soft scientist's voice puffed up with borrowed kingly grandeur and childlike delight.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_266",
-    "name": "Aiden Samuel",
-    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
-   },
-   {
-    "voice_id": "mag_501",
-    "name": "Noah Bailey",
-    "why": "Soft and Timid, this young male voice is ideal for emotional character work. It also bring"
-   },
-   {
-    "voice_id": "mag_500",
-    "name": "Santa Claus",
-    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
-   },
-   {
-    "voice_id": "mag_385",
-    "name": "Ethan Fraser",
-    "why": "With a soft and refined Australian accent, this 40-year-old male voice carries warmth and "
-   },
-   {
-    "voice_id": "mag_184",
-    "name": "Nathan Brooks",
-    "why": "Gentle and soothing Canadian male voice, perfect for narration and storytelling."
-   },
-   {
-    "voice_id": "mag_535",
-    "name": "Walter Briggs",
-    "why": "A classic, spirited male voice with the theatrical charm or vintage radio. Upbeat, punchy,"
-   },
-   {
-    "voice_id": "mag_176",
-    "name": "Connor Keane",
-    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
-   },
-   {
-    "voice_id": "mag_351",
-    "name": "Daniel Brooks",
-    "why": "Warm and nostalgic, this voice feels like listening to your grandpa tell bedtime stories b"
-   }
-  ]
- },
  "name_junkie": {
   "bio": "A strung-out addict hanging around the Berlin sprawl who begs the runners to recover their lost stash money.",
   "direction": "Thin, jittery, and pleading, with a dry mouth and scattered focus; eager to please anyone who might help.",
@@ -2957,53 +2910,6 @@
     "voice_id": "mag_684",
     "name": "Avery Quinn",
     "why": "An androgynous, poetic storyteller voice that blends theatrical depth with cinematic rhyth"
-   }
-  ]
- },
- "name_displacedmetahuman": {
-  "bio": "Franz is a displaced metahuman tenant driven out of his apartment with his wife and friends when dangerous creatures moved into their building.",
-  "direction": "Polite, weary everyman with a light German color; anxious but trying to keep his dignity while asking strangers for help.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_177",
-    "name": "Adam Hughes",
-    "why": "Professional tone with expertise in technology and finance, perfect for informative and na"
-   },
-   {
-    "voice_id": "mag_174",
-    "name": "Aidan Doyle",
-    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
-   },
-   {
-    "voice_id": "mag_26",
-    "name": "Austin Lane",
-    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
-   },
-   {
-    "voice_id": "mag_319",
-    "name": "Benjamin Walker",
-    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
-   },
-   {
-    "voice_id": "mag_585",
-    "name": "Brad Spinner",
-    "why": "A classic FM disc jockey voice inspired by 1950s–1980s American radio. Energetic, nostalgi"
-   },
-   {
-    "voice_id": "mag_38",
-    "name": "Cole Anderson",
-    "why": "Upbeat, professional male voice with an energetic edge. Great for narrations that convey b"
-   },
-   {
-    "voice_id": "mag_840",
-    "name": "Daniel Koh",
-    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
-   },
-   {
-    "voice_id": "mag_518",
-    "name": "Dr. Cosmo Fizzlebaum",
-    "why": "Lively and quirky, this voice bursts with character and charm. Ideal for oddball roles, wh"
    }
   ]
  },

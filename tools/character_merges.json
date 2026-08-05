@@ -1,0 +1,22 @@
+{
+ "_comment": "Same character extracted under TWO ids, because the designer named the scene prop differently in different scenes (a fuller name, a pre-reveal alias, a flashback copy). Distinct from reattributions.json, which moves lines to a DIFFERENT character: here both ids are the same person, so leaving them split means one character gets cast twice and speaks with two voices. Applied by merge_characters.py <game>: the source is folded into the target (target's casting wins), and the merge is recorded in app/data/<game>/merges.json exactly as the lab's own merge action records it. Merge direction is always small -> large, so the id that already carries the character's dialogue and casting survives. Idempotent: a rule whose source is already gone is a no-op.",
+ "dragonfall": [
+  {
+   "from": "name_phil",
+   "to": "name_philiprex",
+   "reason": "a2_abandonedlab_s1 has props 'Phil', 'Philip Rex' and 'Flashback Phil 2/3/4' -- all the same man, Philip Rex, whom the lab dialogue calls Phil. Six lines in Lab_PC_RecordsRoom stayed under the short name once the owner fix moved the other 109 to Philip Rex."
+  }
+ ],
+ "hk": [
+  {
+   "from": "name_raymondtsang",
+   "to": "name_raymond",
+   "reason": "One person: both buckets carry Raymond's distinctive stutter ('f-finally', 'h-h-help', 'ch-charming'). The scene props are labelled 'Raymond' in hk_hub/a3_showdown_s2/a3_tsangtower_s2 and 'Raymond Tsang' in a3_showdown_s1."
+  },
+  {
+   "from": "name_chiefinspectorkrait",
+   "to": "name_krait",
+   "reason": "One person: the broadcast lines are self-identifying ('Constables. This is Krait.') and both buckets are the same female Chief Inspector. Prop is 'Chief Inspector Krait' in mc_a1_intro_s1 and 'Krait' in mc_a3_taipo."
+  }
+ ]
+}

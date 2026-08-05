@@ -751,53 +751,6 @@
    }
   ]
  },
- "name_pirate": {
-  "bio": "Andrei, known as Pirate, is a cyberware dealer who runs a well-stocked 'ware shop for shadowrunners.",
-  "direction": "Relaxed, transactional charm with a faint Eastern European edge; a back-alley surgeon's salesman who makes chrome sound like a bargain.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_37",
-    "name": "Logan West",
-    "why": "Middle-aged American male with a smooth, deep voice. Rich, smooth, and rugged tone, ideal "
-   },
-   {
-    "voice_id": "mag_447",
-    "name": "Caleb Morgan",
-    "why": "Deep, rich, warm, and confident. Smooth and reassuring with quiet strength—great for podca"
-   },
-   {
-    "voice_id": "mag_440",
-    "name": "Liam Hayes",
-    "why": "Deep and velvety, this baritone voice blends classical richness with modern clarity. Comma"
-   },
-   {
-    "voice_id": "mag_181",
-    "name": "Lucas Bennett",
-    "why": "Casual and conversational voice of a 40-year-old Canadian man."
-   },
-   {
-    "voice_id": "mag_439",
-    "name": "Owen Parker",
-    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
-   },
-   {
-    "voice_id": "mag_260",
-    "name": "Theodore William",
-    "why": "Deep, controlled British urban voice, ideal for adding authenticity and character to diver"
-   },
-   {
-    "voice_id": "mag_307",
-    "name": "Henry Fletcher",
-    "why": "Deep and textured, this mature British male voice carries a subtle roughness while remaini"
-   },
-   {
-    "voice_id": "mag_519",
-    "name": "Basil Thornecroft",
-    "why": "Deep, cultured baritone laced with sharp cynicism and dry wit. This voice cuts through pre"
-   }
-  ]
- },
  "name_frederickkafai": {
   "bio": "Frederick Ka Fai is an ork doorman guarding an exclusive members-only club, polite right up until you push him.",
   "direction": "Deep, unhurried, and courteous with an immovable wall underneath; the calm of a big man who has never needed to raise his voice twice.",
@@ -2487,53 +2440,6 @@
     "voice_id": "mag_316",
     "name": "Merry Cooper",
     "why": "Seductive and dangerous, this femme fatale voice oozes allure and menace. Ideal for video "
-   }
-  ]
- },
- "name_transient": {
-  "bio": "The Transient is a ragged street prophet in Heoi screaming warnings about the devils he insists are coming, and who can smell them on everyone he meets.",
-  "direction": "Ragged, cracked voice swinging from conspiratorial whisper to full-throated raving; genuine terror underneath the madness.",
-  "gender": null,
-  "suggestions": [
-   {
-    "voice_id": "mag_517",
-    "name": "Darian Voss",
-    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
-   },
-   {
-    "voice_id": "mag_286",
-    "name": "Benjamin Parker",
-    "why": "Intense and dynamic, this middle-aged American male voice is perfect for character work. I"
-   },
-   {
-    "voice_id": "mag_796",
-    "name": "Winston Brown",
-    "why": "An authentic Jamaican voice with a raspy, edgy character and unmistakable Caribbean island"
-   },
-   {
-    "voice_id": "mag_162",
-    "name": "Sasha Monroe",
-    "why": "Sensual, seductive, gentle, and playful voice, perfect for ASMR, guided meditation, and hy"
-   },
-   {
-    "voice_id": "mag_174",
-    "name": "Aidan Doyle",
-    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
-   },
-   {
-    "voice_id": "mag_26",
-    "name": "Austin Lane",
-    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
-   },
-   {
-    "voice_id": "mag_319",
-    "name": "Benjamin Walker",
-    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
-   },
-   {
-    "voice_id": "mag_176",
-    "name": "Connor Keane",
-    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
    }
   ]
  },
@@ -6670,53 +6576,6 @@
     "voice_id": "mag_44",
     "name": "Chloe Bennett",
     "why": "Middle-aged American female voice, calm and soothing. Perfect for narrations requiring a c"
-   }
-  ]
- },
- "name_raymondtsang": {
-  "bio": "The broken remnant of the Tsang family encountered amid the Walled City's nightmares, mourning the good place he and his mother built before it rotted.",
-  "direction": "Frail, halting, and haunted; a stammering near-whisper full of grief, each sentence an effort dragged out of a collapsing mind.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_177",
-    "name": "Adam Hughes",
-    "why": "Professional tone with expertise in technology and finance, perfect for informative and na"
-   },
-   {
-    "voice_id": "mag_174",
-    "name": "Aidan Doyle",
-    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
-   },
-   {
-    "voice_id": "mag_266",
-    "name": "Aiden Samuel",
-    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
-   },
-   {
-    "voice_id": "mag_26",
-    "name": "Austin Lane",
-    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
-   },
-   {
-    "voice_id": "mag_319",
-    "name": "Benjamin Walker",
-    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
-   },
-   {
-    "voice_id": "mag_585",
-    "name": "Brad Spinner",
-    "why": "A classic FM disc jockey voice inspired by 1950s–1980s American radio. Energetic, nostalgi"
-   },
-   {
-    "voice_id": "mag_176",
-    "name": "Connor Keane",
-    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
-   },
-   {
-    "voice_id": "mag_351",
-    "name": "Daniel Brooks",
-    "why": "Warm and nostalgic, this voice feels like listening to your grandpa tell bedtime stories b"
    }
   ]
  },
