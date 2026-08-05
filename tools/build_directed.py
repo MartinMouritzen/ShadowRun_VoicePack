@@ -235,14 +235,30 @@ def main():
 
     # Every segment key this game actually has, so hand entries authored for a different game
     # (directed_hand.json is shared but its keys are per-game) never leak into this one's file.
+    #
+    # This has to be derived from characters.json, NOT from line_segments.json: that file only
+    # holds lines that were SPLIT into several beats, so a line that is one unbroken piece of
+    # speech has no entry there at all. Building the guard from segments alone therefore rejects
+    # hand direction for every unsegmented line and silently drops it as "not this game's" --
+    # 12 of the Janitor's 16 directed lines vanished that way, with the run still reporting
+    # success. Same key derivation as build_gen_manifest.segs_for / merge_takes.valid_segkeys.
+    chars = json.load(open(os.path.join(ROOT, f"app/data/{GAME}/characters.json")))
     valid = set()
-    for key, parts in segs.items():
-        nchar = sum(1 for s in parts if s["who"] == "char")
-        ci = 0
-        for s in parts:
-            if s["who"] == "char":
-                valid.add(key if nchar == 1 else f"{key}~c{ci}")
-                ci += 1
+    rows = list(chars["characters"]) + [dict(chars.get("narrator") or {}, id="narrator")]
+    for c in rows:
+        for l in c.get("lines", []):
+            base = f'{l["c"]}_{l["n"]}'
+            parts = segs.get(base)
+            if not parts:
+                valid.add(base)            # unbroken line: the base key IS its segment key
+                continue
+            nchar = sum(1 for s in parts if s["who"] == "char")
+            gi = ci = 0
+            for s in parts:
+                if s["who"] == "gm":
+                    valid.add(f"{base}~g{gi}"); gi += 1
+                else:
+                    valid.add(base if nchar == 1 else f"{base}~c{ci}"); ci += 1
 
     hand_path = os.path.join(HERE, "directed_hand.json")
     ALL_HAND = json.load(open(hand_path)) if os.path.exists(hand_path) else {}
