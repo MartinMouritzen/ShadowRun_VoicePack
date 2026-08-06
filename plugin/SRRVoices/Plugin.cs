@@ -166,6 +166,47 @@ namespace SRRVoices
                 Log.LogWarning("Load-screen patch failed: " + e.Message);
             }
 
+            // End-of-campaign epilogue narration (isolated: the screen may differ in sequels).
+            // Hooked on EpilogueScreen.Initialize rather than PDA.ShowEpilogueScreen because the
+            // latter builds the screen through an iterator and returns before the text exists.
+            try
+            {
+                var epType = typeof(ConversationManager).Assembly.GetType("EpilogueScreen");
+                var epInit = (epType == null) ? null : HarmonyLib.AccessTools.Method(epType, "Initialize", null, null);
+                if (epInit != null)
+                {
+                    harmony.CreateProcessor(epInit)
+                           .AddPostfix(new HarmonyMethod(typeof(Patch_Epilogue).GetMethod("InitPostfix")))
+                           .Patch();
+                    Log.LogInfo("Epilogue narration hook installed (EpilogueScreen.Initialize).");
+                }
+                else Log.LogWarning("EpilogueScreen.Initialize not found — the epilogue stays unvoiced.");
+
+                var epClose = new HarmonyMethod(typeof(Patch_Epilogue).GetMethod("ClosePostfix"));
+                int epHooks = 0;
+                if (epType != null)
+                {
+                    var m = HarmonyLib.AccessTools.Method(epType, "Uninitialize", null, null);
+                    if (m != null)
+                    {
+                        try { harmony.CreateProcessor(m).AddPostfix(epClose).Patch(); epHooks++; }
+                        catch (Exception e) { Log.LogWarning("epilogue close patch skip: " + e.Message); }
+                    }
+                }
+                var pdaT = typeof(ConversationManager).Assembly.GetType("PDA");
+                var pdaClose = (pdaT == null) ? null : HarmonyLib.AccessTools.Method(pdaT, "CloseEpilogueScreen", null, null);
+                if (pdaClose != null)
+                {
+                    try { harmony.CreateProcessor(pdaClose).AddPostfix(epClose).Patch(); epHooks++; }
+                    catch (Exception e) { Log.LogWarning("epilogue close patch skip (PDA): " + e.Message); }
+                }
+                Log.LogInfo("Epilogue close hooks installed on " + epHooks + " method(s).");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("Epilogue patch failed: " + e.Message);
+            }
+
             // Options-screen slider injection (isolated: UI classes may differ in sequels).
             try
             {

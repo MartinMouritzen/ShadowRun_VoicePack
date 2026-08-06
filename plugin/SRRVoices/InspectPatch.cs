@@ -289,4 +289,125 @@ namespace SRRVoices
             }
         }
     }
+
+    // The end-of-campaign epilogue ("The Emerald City Ripper killings are sensationalized for
+    // several weeks...") shown after the final scene. PDA.ShowEpilogueScreen builds the screen
+    // asynchronously (ShowEpilogueWhenReady is an iterator), so the text is not readable when that
+    // call returns; EpilogueScreen.Initialize is the point where the screen actually has its
+    // content. Uninitialize is the Continue press.
+    //
+    // Key = bark_<md5(text.Trim())> like every other narration, hashed off the LIVE label so it
+    // cannot drift from what the player is reading. tools/extract_epilogue.py also emits a
+    // whitespace-collapsed key, which is tried second: the player reaches this screen once per
+    // playthrough, so a stray space is not an acceptable way to lose the ending.
+    public static class Patch_Epilogue
+    {
+        static int NarrationToken = -1;
+
+        // Pull the displayed text off the screen. `epilogueText` is a UI label component in the
+        // shipped game, but a string field would work the same way, so both are accepted rather
+        // than binding to one engine's label type.
+        static string ScreenText(object screen)
+        {
+            if (screen == null) return null;
+            var f = HarmonyLib.AccessTools.Field(screen.GetType(), "epilogueText");
+            object v = (f == null) ? null : f.GetValue(screen);
+            if (v == null) return null;
+            string s = v as string;
+            if (s != null) return s;
+            var tp = HarmonyLib.AccessTools.Property(v.GetType(), "text");
+            if (tp != null) return tp.GetValue(v, null) as string;
+            var tf = HarmonyLib.AccessTools.Field(v.GetType(), "text");
+            return (tf == null) ? null : tf.GetValue(v) as string;
+        }
+
+        public static void InitPostfix(object __instance)
+        {
+            if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
+            if (Plugin.CfgLoadScreens != null && !Plugin.CfgLoadScreens.Value) return;
+            if (Plugin.Pack == null || Plugin.Player == null) return;
+            // The label may not be filled in the same frame Initialize returns. A player reaches
+            // this screen once per playthrough, so rather than lose the ending to a one-frame race,
+            // keep looking for a short while before giving up.
+            if (string.IsNullOrEmpty(ScreenText(__instance)))
+            {
+                try { Plugin.Player.StartCoroutine(WaitForText(__instance)); }
+                catch (Exception) { }
+                return;
+            }
+            Speak(__instance);
+        }
+
+        static System.Collections.IEnumerator WaitForText(object screen)
+        {
+            for (int i = 0; i < 120; i++)          // ~2s at 60fps
+            {
+                yield return null;
+                if (!string.IsNullOrEmpty(ScreenText(screen))) { Speak(screen); yield break; }
+            }
+            if (Plugin.Log != null)
+                Plugin.Log.LogInfo("epilogue: screen text never appeared — nothing to narrate.");
+        }
+
+        static void Speak(object __instance)
+        {
+            try
+            {
+                string text = ScreenText(__instance);
+                if (string.IsNullOrEmpty(text)) return;
+                text = text.Trim();
+                if (text.Length < 40) return;
+                bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
+                string key = "bark_" + Patch_Inspect.Md5Hex16(text);
+                string[] clips;
+                if (!Plugin.Pack.TryGet(key, out clips))
+                {
+                    string flat = System.Text.RegularExpressions.Regex.Replace(text, "\\s+", " ").Trim();
+                    string alt = "bark_" + Patch_Inspect.Md5Hex16(flat);
+                    if (Plugin.Pack.TryGet(alt, out clips))
+                    {
+                        if (log && Plugin.Log != null)
+                            Plugin.Log.LogInfo("epilogue matched on whitespace-collapsed key " + alt);
+                        key = alt;
+                    }
+                }
+                if (clips == null)
+                {
+                    if (Plugin.Log != null)
+                        Plugin.Log.LogInfo("epilogue MISS " + key + " len=" + text.Length
+                            + " text=<<" + text + ">>");
+                    return;
+                }
+                if (Plugin.InspectDebounced(key)) return;   // Initialize can run more than once
+                if (Plugin.Log != null)
+                    Plugin.Log.LogInfo("play epilogue " + key + " (" + clips.Length + " clips)");
+                Plugin.Player.PlaySequence(clips);
+                NarrationToken = Plugin.Player.CurrentToken();
+            }
+            catch (Exception e)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("epilogue hook: " + e.Message);
+            }
+        }
+
+        // Continue pressed / screen torn down: stop the narration, but only if it is still ours.
+        public static void ClosePostfix()
+        {
+            try
+            {
+                if (Plugin.Player == null || NarrationToken < 0) return;
+                if (Plugin.Player.CurrentToken() == NarrationToken)
+                {
+                    Plugin.Player.StopAll();
+                    if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
+                        Plugin.Log.LogInfo("epilogue closed — narration stopped.");
+                }
+                NarrationToken = -1;
+            }
+            catch (Exception e)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("epilogue close hook: " + e.Message);
+            }
+        }
+    }
 }

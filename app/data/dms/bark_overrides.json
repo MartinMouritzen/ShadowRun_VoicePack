@@ -266,5 +266,9 @@
  "bark_8bf77be45e5949d3": {
   "voiceId": "sapi_david",
   "voiceName": "Microsoft David (SAPI)"
+ },
+ "bark_19845155c2a188dc": {
+  "voiceId": "mag_670",
+  "voiceName": "Serene Harper"
  }
 }

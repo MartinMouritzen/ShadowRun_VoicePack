@@ -131,7 +131,7 @@
    ]
   },
   "51d4c256623331ac180039b4_0": {
-   "selected": "name_jakearmitage/takes/51d4c256623331ac180039b4_0__mag524__1784022347_10.mp3",
+   "selected": "name_jakearmitage/takes/51d4c256623331ac180039b4_0__mag524__1786029199.mp3",
    "takes": [
     {
      "file": "name_jakearmitage/takes/51d4c256623331ac180039b4_0__mag524__1784022347_10.mp3",
@@ -140,6 +140,14 @@
      "stability": 0,
      "chars": 117,
      "ts": 0
+    },
+    {
+     "file": "name_jakearmitage/takes/51d4c256623331ac180039b4_0__mag524__1786029199.mp3",
+     "voiceId": "mag_524",
+     "voiceName": "Lord Nytherion",
+     "stability": 0,
+     "chars": 137,
+     "ts": 1786029199
     }
    ]
   },
@@ -16331,7 +16339,7 @@
    ]
   },
   "519d49c7303031ec15004919_7": {
-   "selected": "name_jessicawatts/takes/519d49c7303031ec15004919_7__pFZP5JQG7iQj__1784017392.mp3",
+   "selected": "name_jessicawatts/takes/519d49c7303031ec15004919_7__pFZP5JQG7iQj__1786024307.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/519d49c7303031ec15004919_7__pFZP5JQG7iQj__1784017392.mp3",
@@ -16340,6 +16348,30 @@
      "stability": 0,
      "chars": 21,
      "ts": 1784017392
+    },
+    {
+     "file": "name_jessicawatts/takes/519d49c7303031ec15004919_7__pFZP5JQG7iQj__1786024269.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 40,
+     "ts": 1786024269
+    },
+    {
+     "file": "name_jessicawatts/takes/519d49c7303031ec15004919_7__pFZP5JQG7iQj__1786024296.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1786024296
+    },
+    {
+     "file": "name_jessicawatts/takes/519d49c7303031ec15004919_7__pFZP5JQG7iQj__1786024307.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1786024307
     }
    ]
   },
@@ -16461,7 +16493,7 @@
    ]
   },
   "51a259bc303031740f00682d_1": {
-   "selected": "name_jessicawatts/takes/51a259bc303031740f00682d_1__pFZP5JQG7iQj__1784017417.mp3",
+   "selected": "name_jessicawatts/takes/51a259bc303031740f00682d_1__pFZP5JQG7iQj__1786028492.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/51a259bc303031740f00682d_1__pFZP5JQG7iQj__1784017417.mp3",
@@ -16470,11 +16502,19 @@
      "stability": 0,
      "chars": 104,
      "ts": 1784017417
+    },
+    {
+     "file": "name_jessicawatts/takes/51a259bc303031740f00682d_1__pFZP5JQG7iQj__1786028492.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 147,
+     "ts": 1786028492
     }
    ]
   },
   "51a259bc303031740f00682d_2": {
-   "selected": "name_jessicawatts/takes/51a259bc303031740f00682d_2__pFZP5JQG7iQj__1784017420.mp3",
+   "selected": "name_jessicawatts/takes/51a259bc303031740f00682d_2__pFZP5JQG7iQj__1786028527.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/51a259bc303031740f00682d_2__pFZP5JQG7iQj__1784017420.mp3",
@@ -16483,6 +16523,14 @@
      "stability": 0,
      "chars": 112,
      "ts": 1784017420
+    },
+    {
+     "file": "name_jessicawatts/takes/51a259bc303031740f00682d_2__pFZP5JQG7iQj__1786028527.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 145,
+     "ts": 1786028527
     }
    ]
   },
@@ -16500,7 +16548,7 @@
    ]
   },
   "51a259bc303031740f00682d_4": {
-   "selected": "name_jessicawatts/takes/51a259bc303031740f00682d_4__pFZP5JQG7iQj__1784017424.mp3",
+   "selected": "name_jessicawatts/takes/51a259bc303031740f00682d_4__pFZP5JQG7iQj__1786028613.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/51a259bc303031740f00682d_4__pFZP5JQG7iQj__1784017424.mp3",
@@ -16509,6 +16557,22 @@
      "stability": 0,
      "chars": 32,
      "ts": 1784017424
+    },
+    {
+     "file": "name_jessicawatts/takes/51a259bc303031740f00682d_4__pFZP5JQG7iQj__1786028601.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 41,
+     "ts": 1786028601
+    },
+    {
+     "file": "name_jessicawatts/takes/51a259bc303031740f00682d_4__pFZP5JQG7iQj__1786028613.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 39,
+     "ts": 1786028613
     }
    ]
   },
@@ -16599,7 +16663,7 @@
    ]
   },
   "51a25bb1303031740f006849_3": {
-   "selected": "name_jessicawatts/takes/51a25bb1303031740f006849_3__pFZP5JQG7iQj__1784017447.mp3",
+   "selected": "name_jessicawatts/takes/51a25bb1303031740f006849_3__pFZP5JQG7iQj__1786028669.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/51a25bb1303031740f006849_3__pFZP5JQG7iQj__1784017447.mp3",
@@ -16608,6 +16672,38 @@
      "stability": 0,
      "chars": 13,
      "ts": 1784017447
+    },
+    {
+     "file": "name_jessicawatts/takes/51a25bb1303031740f006849_3__pFZP5JQG7iQj__1786028648.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1786028648
+    },
+    {
+     "file": "name_jessicawatts/takes/51a25bb1303031740f006849_3__pFZP5JQG7iQj__1786028656.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 18,
+     "ts": 1786028656
+    },
+    {
+     "file": "name_jessicawatts/takes/51a25bb1303031740f006849_3__pFZP5JQG7iQj__1786028661.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 18,
+     "ts": 1786028661
+    },
+    {
+     "file": "name_jessicawatts/takes/51a25bb1303031740f006849_3__pFZP5JQG7iQj__1786028669.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1786028669
     }
    ]
   },
@@ -18103,7 +18199,7 @@
    ]
   },
   "519d49c7303031ec15004919_0": {
-   "selected": "name_jessicawatts/takes/519d49c7303031ec15004919_0__pFZP5JQG7iQj__1784020186.mp3",
+   "selected": "name_jessicawatts/takes/519d49c7303031ec15004919_0__pFZP5JQG7iQj__1786023945.mp3",
    "takes": [
     {
      "file": "name_jessicawatts/takes/519d49c7303031ec15004919_0__pFZP5JQG7iQj__1784020186.mp3",
@@ -18112,6 +18208,30 @@
      "stability": 0,
      "chars": 94,
      "ts": 1784020186
+    },
+    {
+     "file": "name_jessicawatts/takes/519d49c7303031ec15004919_0__pFZP5JQG7iQj__1786023885.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 118,
+     "ts": 1786023885
+    },
+    {
+     "file": "name_jessicawatts/takes/519d49c7303031ec15004919_0__pFZP5JQG7iQj__1786023924.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 110,
+     "ts": 1786023924
+    },
+    {
+     "file": "name_jessicawatts/takes/519d49c7303031ec15004919_0__pFZP5JQG7iQj__1786023945.mp3",
+     "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+     "voiceName": "Lily - Velvety Actress",
+     "stability": 0,
+     "chars": 112,
+     "ts": 1786023945
     }
    ]
   },
@@ -26218,7 +26338,7 @@
    ]
   },
   "51bf9d856233310c0a004576_16": {
-   "selected": "name_dresden/takes/51bf9d856233310c0a004576_16__mag286__1784018049.mp3",
+   "selected": "name_dresden/takes/51bf9d856233310c0a004576_16__mag286__1786029380.mp3",
    "takes": [
     {
      "file": "name_dresden/takes/51bf9d856233310c0a004576_16__mag286__1784018049.mp3",
@@ -26227,6 +26347,22 @@
      "stability": 0,
      "chars": 38,
      "ts": 0
+    },
+    {
+     "file": "name_dresden/takes/51bf9d856233310c0a004576_16__mag286__1786029362.mp3",
+     "voiceId": "mag_286",
+     "voiceName": "Benjamin Parker",
+     "stability": 0,
+     "chars": 48,
+     "ts": 1786029362
+    },
+    {
+     "file": "name_dresden/takes/51bf9d856233310c0a004576_16__mag286__1786029380.mp3",
+     "voiceId": "mag_286",
+     "voiceName": "Benjamin Parker",
+     "stability": 0,
+     "chars": 48,
+     "ts": 1786029380
     }
    ]
   },
@@ -30606,7 +30742,7 @@
    ]
   },
   "51a7b5663561644c0e006fd9_26": {
-   "selected": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1784020363_0.mp3",
+   "selected": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1786016801.mp3",
    "takes": [
     {
      "file": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1784020363_0.mp3",
@@ -30615,6 +30751,46 @@
      "stability": 0,
      "chars": 30,
      "ts": 0
+    },
+    {
+     "file": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1786016788.mp3",
+     "voiceId": "mag_523",
+     "voiceName": "Viremont LeNoir",
+     "stability": 0,
+     "chars": 39,
+     "ts": 1786016788
+    },
+    {
+     "file": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1786016801.mp3",
+     "voiceId": "mag_523",
+     "voiceName": "Viremont LeNoir",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1786016801
+    },
+    {
+     "file": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1786016814.mp3",
+     "voiceId": "mag_523",
+     "voiceName": "Viremont LeNoir",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1786016814
+    },
+    {
+     "file": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1786016829.mp3",
+     "voiceId": "mag_523",
+     "voiceName": "Viremont LeNoir",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1786016829
+    },
+    {
+     "file": "name_harlequin/takes/51a7b5663561644c0e006fd9_26__mag523__1786016850.mp3",
+     "voiceId": "mag_523",
+     "voiceName": "Viremont LeNoir",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1786016850
     }
    ]
   },
@@ -44904,7 +45080,7 @@
    ]
   },
   "ae7735c03064346817004829_16": {
-   "selected": "name_janitor/takes/ae7735c03064346817004829_16__mag447__1785963415_12.mp3",
+   "selected": "name_janitor/takes/ae7735c03064346817004829_16__mag447__1785963749.mp3",
    "takes": [
     {
      "file": "name_janitor/takes/ae7735c03064346817004829_16__mag447__1785963415_12.mp3",
@@ -44913,6 +45089,22 @@
      "stability": 0,
      "chars": 56,
      "ts": 1785963415
+    },
+    {
+     "file": "name_janitor/takes/ae7735c03064346817004829_16__mag447__1785963749.mp3",
+     "voiceId": "mag_447",
+     "voiceName": "Caleb Morgan",
+     "stability": 0,
+     "chars": 56,
+     "ts": 1785963749
+    },
+    {
+     "file": "name_janitor/takes/ae7735c03064346817004829_16__mag447__1785963761.mp3",
+     "voiceId": "mag_447",
+     "voiceName": "Caleb Morgan",
+     "stability": 0,
+     "chars": 56,
+     "ts": 1785963761
     }
    ]
   },
@@ -48711,7 +48903,7 @@
    ]
   },
   "9fc5d4313030310c0c0072fd_8~c1": {
-   "selected": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1784044740.mp3",
+   "selected": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1786014762.mp3",
    "takes": [
     {
      "file": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1784044740.mp3",
@@ -48720,6 +48912,54 @@
      "stability": 0.0,
      "chars": 17,
      "ts": 1784044740
+    },
+    {
+     "file": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1786014699.mp3",
+     "voiceId": "mag_502",
+     "voiceName": "Logan Price",
+     "stability": 0,
+     "chars": 36,
+     "ts": 1786014699
+    },
+    {
+     "file": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1786014709.mp3",
+     "voiceId": "mag_502",
+     "voiceName": "Logan Price",
+     "stability": 0,
+     "chars": 36,
+     "ts": 1786014709
+    },
+    {
+     "file": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1786014722.mp3",
+     "voiceId": "mag_502",
+     "voiceName": "Logan Price",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1786014722
+    },
+    {
+     "file": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1786014732.mp3",
+     "voiceId": "mag_502",
+     "voiceName": "Logan Price",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1786014732
+    },
+    {
+     "file": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1786014747.mp3",
+     "voiceId": "mag_502",
+     "voiceName": "Logan Price",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1786014747
+    },
+    {
+     "file": "name_telestrianworker/takes/9fc5d4313030310c0c0072fd_8~c1__mag502__1786014762.mp3",
+     "voiceId": "mag_502",
+     "voiceName": "Logan Price",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1786014762
     }
    ]
   },
@@ -55642,7 +55882,7 @@
    ]
   },
   "bark_19845155c2a188dc": {
-   "selected": "_barks/takes/bark_19845155c2a188dc__mag502__1784108586.mp3",
+   "selected": "_barks/takes/bark_19845155c2a188dc__mag670__1786015419.mp3",
    "takes": [
     {
      "file": "_barks/takes/bark_19845155c2a188dc__mag502__1784108586.mp3",
@@ -55651,6 +55891,22 @@
      "stability": 0.0,
      "chars": 22,
      "ts": 1784108586
+    },
+    {
+     "file": "_barks/takes/bark_19845155c2a188dc__mag670__1786015408.mp3",
+     "voiceId": "mag_670",
+     "voiceName": "Serene Harper",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1786015408
+    },
+    {
+     "file": "_barks/takes/bark_19845155c2a188dc__mag670__1786015419.mp3",
+     "voiceId": "mag_670",
+     "voiceName": "Serene Harper",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1786015419
     }
    ]
   },
@@ -60106,6 +60362,32 @@
      "ts": 1784919876
     }
    ]
+  },
+  "bark_abc95f70ec44f3e1": {
+   "selected": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786030408.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786030408.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 1131,
+     "ts": 1786030408
+    }
+   ]
+  },
+  "bark_7ffdd0f9d02ea4f2": {
+   "selected": "_barks/takes/bark_7ffdd0f9d02ea4f2__0aXOy31Cjamp__1786030408.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_7ffdd0f9d02ea4f2__0aXOy31Cjamp__1786030408.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 1131,
+     "ts": 1786030408
+    }
+   ]
   }
  },
  "name_alex": {
@@ -60780,7 +61062,7 @@
  },
  "name_lynnetelestrian": {
   "519d49c7303031ec15004919_5": {
-   "selected": "name_lynnetelestrian/takes/519d49c7303031ec15004919_5__mag298__1784136375.mp3",
+   "selected": "name_lynnetelestrian/takes/519d49c7303031ec15004919_5__mag298__1786024031.mp3",
    "takes": [
     {
      "file": "name_lynnetelestrian/takes/519d49c7303031ec15004919_5__mag298__1784136375.mp3",
@@ -60789,6 +61071,14 @@
      "stability": 0,
      "chars": 121,
      "ts": 1784136375
+    },
+    {
+     "file": "name_lynnetelestrian/takes/519d49c7303031ec15004919_5__mag298__1786024031.mp3",
+     "voiceId": "mag_298",
+     "voiceName": "Amelia Beckett",
+     "stability": 0,
+     "chars": 116,
+     "ts": 1786024031
     }
    ]
   },

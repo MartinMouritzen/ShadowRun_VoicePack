@@ -269,7 +269,9 @@
  "name_supervisor": {
   "files": [
    "name_supervisor.png",
-   "name_supervisor_v2.png"
+   "name_supervisor_v2.png",
+   "name_supervisor_d6bd0b2d.png",
+   "name_supervisor_d6bd4c7d.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -643,25 +645,6 @@
     "backer_trollmale_johnpaulsmith.png",
     "npc_elfmale_magicdealer.png",
     "backer_elfmale_andykitzke_ulrickell.png"
-   ]
-  ]
- },
- "name_telestrianlegaldepartmentdatastore": {
-  "files": [
-   "name_telestrianlegaldepartmentdatastore.png",
-   "name_telestrianlegaldepartmentdatastore_v2.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_elffemale_lynnetelestrian.png",
-    "npc_humanmale_jakearmitage.png",
-    "backer_humanmale_chrisvangraas.png"
-   ],
-   [
-    "npc_humanfemale_madamesinful.png",
-    "npc_elfmale_holmessilhouetted.png",
-    "npc_elffemale_cherrybomb.png"
    ]
   ]
  },
