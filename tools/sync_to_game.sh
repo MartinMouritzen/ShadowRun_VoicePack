@@ -16,11 +16,12 @@ esac
 PLUG="$GAME/BepInEx/plugins/SRRVoices"
 VP="voicepack/$GAME_ID"
 
-# Is the game running RIGHT NOW? Clip and portrait files are named by content hash, so anything
-# whose take changed gets a new name and the old file becomes prunable. The running game read its
-# manifest at startup and still points at those old names, so pruning under it silently kills every
-# line we just changed ("load failed clips/<hash>.ogg") and turns any re-keyed portrait into grey
-# noise. Copying new files in is harmless; only deletion is. So: never prune under a live game.
+# Is the game running RIGHT NOW? A clip is named sha1(SOURCE TAKE PATH) (build_voicepack.py), and
+# take filenames carry a timestamp, so selecting or regenerating a take yields a new source path ->
+# a new clip name, and the old file becomes prunable. The running game read its manifest at startup
+# and still points at those old names, so pruning under it silently kills every line we just changed
+# ("load failed clips/<hash>.ogg") and turns any re-keyed portrait into grey noise. Copying new
+# files in is harmless; only deletion is. So: never prune under a live game.
 GAME_RUNNING=0
 if command -v powershell.exe >/dev/null 2>&1; then
   if powershell.exe -NoProfile -Command "if (Get-Process -Name Shadowrun,Dragonfall,SRHK -ErrorAction SilentlyContinue) { 'yes' }" 2>/dev/null | tr -d '\r' | grep -q yes; then

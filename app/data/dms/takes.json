@@ -60364,7 +60364,7 @@
    ]
   },
   "bark_abc95f70ec44f3e1": {
-   "selected": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786030408.mp3",
+   "selected": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786032289.mp3",
    "takes": [
     {
      "file": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786030408.mp3",
@@ -60373,11 +60373,27 @@
      "stability": 0,
      "chars": 1131,
      "ts": 1786030408
+    },
+    {
+     "file": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786032169.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 1131,
+     "ts": 1786032169
+    },
+    {
+     "file": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786032289.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 1133,
+     "ts": 1786032289
     }
    ]
   },
   "bark_7ffdd0f9d02ea4f2": {
-   "selected": "_barks/takes/bark_7ffdd0f9d02ea4f2__0aXOy31Cjamp__1786030408.mp3",
+   "selected": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786032289.mp3",
    "takes": [
     {
      "file": "_barks/takes/bark_7ffdd0f9d02ea4f2__0aXOy31Cjamp__1786030408.mp3",
@@ -60386,6 +60402,30 @@
      "stability": 0,
      "chars": 1131,
      "ts": 1786030408
+    },
+    {
+     "file": "_barks/takes/bark_7ffdd0f9d02ea4f2__0aXOy31Cjamp__1786032178.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 1131,
+     "ts": 1786032178
+    },
+    {
+     "file": "_barks/takes/bark_7ffdd0f9d02ea4f2__0aXOy31Cjamp__1786032289.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 1133,
+     "ts": 1786032289
+    },
+    {
+     "file": "_barks/takes/bark_abc95f70ec44f3e1__0aXOy31Cjamp__1786032289.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 1133,
+     "ts": 1786032289
     }
    ]
   }
