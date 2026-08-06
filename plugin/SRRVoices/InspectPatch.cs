@@ -2,6 +2,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 using HarmonyLib;
+using UnityEngine;
 using isogame;
 
 namespace SRRVoices
@@ -310,15 +311,76 @@ namespace SRRVoices
         static string ScreenText(object screen)
         {
             if (screen == null) return null;
-            var f = HarmonyLib.AccessTools.Field(screen.GetType(), "epilogueText");
-            object v = (f == null) ? null : f.GetValue(screen);
-            if (v == null) return null;
-            string s = v as string;
-            if (s != null) return s;
-            var tp = HarmonyLib.AccessTools.Property(v.GetType(), "text");
-            if (tp != null) return tp.GetValue(v, null) as string;
-            var tf = HarmonyLib.AccessTools.Field(v.GetType(), "text");
-            return (tf == null) ? null : tf.GetValue(v) as string;
+            try
+            {
+                var f = HarmonyLib.AccessTools.Field(screen.GetType(), "epilogueText");
+                object v = (f == null) ? null : f.GetValue(screen);
+                if (v == null) return null;
+                string s = v as string;
+                if (s != null) return s;
+                var tp = HarmonyLib.AccessTools.Property(v.GetType(), "text");
+                if (tp != null) return tp.GetValue(v, null) as string;
+                var tf = HarmonyLib.AccessTools.Field(v.GetType(), "text");
+                return (tf == null) ? null : tf.GetValue(v) as string;
+            }
+            catch (Exception) { return null; }   // screen torn down mid-poll
+        }
+
+        // Every string this screen is currently showing: the epilogueText label first, then any
+        // other component under it that exposes a `text` property. The field is the body label in
+        // the shipped game, but the player only reaches this screen once per playthrough, so it is
+        // not worth betting the ending on the text living exactly where we expect.
+        static System.Collections.Generic.List<string> Candidates(object screen)
+        {
+            var res = new System.Collections.Generic.List<string>();
+            string s = ScreenText(screen);
+            if (!string.IsNullOrEmpty(s)) res.Add(s);
+            try
+            {
+                Component c = screen as Component;
+                if (c == null) return res;
+                Component[] all = c.GetComponentsInChildren(typeof(Component), true) as Component[];
+                if (all == null) return res;
+                for (int i = 0; i < all.Length; i++)
+                {
+                    if (all[i] == null) continue;
+                    var tp = HarmonyLib.AccessTools.Property(all[i].GetType(), "text");
+                    if (tp == null) continue;
+                    string t = tp.GetValue(all[i], null) as string;
+                    if (!string.IsNullOrEmpty(t) && t.Trim().Length >= 40 && !res.Contains(t)) res.Add(t);
+                }
+            }
+            catch (Exception) { }
+            return res;
+        }
+
+        // Try to voice whatever the screen currently shows. Returns true once something played.
+        static bool TryMatch(object screen, out string seen)
+        {
+            seen = null;
+            var cands = Candidates(screen);
+            for (int i = 0; i < cands.Count; i++)
+            {
+                string text = cands[i].Trim();
+                if (text.Length < 40) continue;
+                if (seen == null) seen = cands[i];
+                string key = "bark_" + Patch_Inspect.Md5Hex16(text);
+                string[] clips;
+                if (!Plugin.Pack.TryGet(key, out clips))
+                {
+                    string flat = System.Text.RegularExpressions.Regex.Replace(text, "\\s+", " ").Trim();
+                    string alt = "bark_" + Patch_Inspect.Md5Hex16(flat);
+                    if (Plugin.Pack.TryGet(alt, out clips)) key = alt;
+                }
+                if (clips == null) continue;
+                if (Plugin.InspectDebounced(key)) return true;   // already voiced this screen
+                if (Plugin.Log != null)
+                    Plugin.Log.LogInfo("play epilogue " + key + " (" + clips.Length + " clips)");
+                Plugin.Player.PlaySequence(clips);
+                NarrationToken = Plugin.Player.CurrentToken();
+                return true;
+            }
+            return false;
         }
 
         public static void InitPostfix(object __instance)
@@ -326,69 +388,44 @@ namespace SRRVoices
             if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
             if (Plugin.CfgLoadScreens != null && !Plugin.CfgLoadScreens.Value) return;
             if (Plugin.Pack == null || Plugin.Player == null) return;
-            // The label may not be filled in the same frame Initialize returns. A player reaches
-            // this screen once per playthrough, so rather than lose the ending to a one-frame race,
-            // keep looking for a short while before giving up.
-            if (string.IsNullOrEmpty(ScreenText(__instance)))
-            {
-                try { Plugin.Player.StartCoroutine(WaitForText(__instance)); }
-                catch (Exception) { }
-                return;
-            }
-            Speak(__instance);
-        }
-
-        static System.Collections.IEnumerator WaitForText(object screen)
-        {
-            for (int i = 0; i < 120; i++)          // ~2s at 60fps
-            {
-                yield return null;
-                if (!string.IsNullOrEmpty(ScreenText(screen))) { Speak(screen); yield break; }
-            }
-            if (Plugin.Log != null)
-                Plugin.Log.LogInfo("epilogue: screen text never appeared — nothing to narrate.");
-        }
-
-        static void Speak(object __instance)
-        {
+            // Initialize returns BEFORE the real epilogue is assigned: the prefab's label still
+            // holds NGUI's layout dummy text ("QWERTYUIOPASDFGHJKLZXCVBNM" repeated), which is
+            // non-empty, so waiting only on emptiness matched nothing and gave up immediately.
+            // Poll instead, and let the pack decide when the text is real -- the first value that
+            // resolves to a key we can serve is by definition the actual epilogue. That needs no
+            // knowledge of what the placeholder looks like, so it cannot rot if the prefab changes.
             try
             {
-                string text = ScreenText(__instance);
-                if (string.IsNullOrEmpty(text)) return;
-                text = text.Trim();
-                if (text.Length < 40) return;
-                bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
-                string key = "bark_" + Patch_Inspect.Md5Hex16(text);
-                string[] clips;
-                if (!Plugin.Pack.TryGet(key, out clips))
-                {
-                    string flat = System.Text.RegularExpressions.Regex.Replace(text, "\\s+", " ").Trim();
-                    string alt = "bark_" + Patch_Inspect.Md5Hex16(flat);
-                    if (Plugin.Pack.TryGet(alt, out clips))
-                    {
-                        if (log && Plugin.Log != null)
-                            Plugin.Log.LogInfo("epilogue matched on whitespace-collapsed key " + alt);
-                        key = alt;
-                    }
-                }
-                if (clips == null)
-                {
-                    if (Plugin.Log != null)
-                        Plugin.Log.LogInfo("epilogue MISS " + key + " len=" + text.Length
-                            + " text=<<" + text + ">>");
-                    return;
-                }
-                if (Plugin.InspectDebounced(key)) return;   // Initialize can run more than once
-                if (Plugin.Log != null)
-                    Plugin.Log.LogInfo("play epilogue " + key + " (" + clips.Length + " clips)");
-                Plugin.Player.PlaySequence(clips);
-                NarrationToken = Plugin.Player.CurrentToken();
+                string ignored;
+                if (TryMatch(__instance, out ignored)) return;
+                Plugin.Player.StartCoroutine(WaitForText(__instance));
             }
             catch (Exception e)
             {
                 if (Plugin.Log != null) Plugin.Log.LogWarning("epilogue hook: " + e.Message);
             }
         }
+
+        static System.Collections.IEnumerator WaitForText(object screen)
+        {
+            string last = null;
+            for (int i = 0; i < 300; i++)          // ~5s at 60fps
+            {
+                yield return null;
+                string seen;
+                if (TryMatch(screen, out seen)) yield break;
+                if (!string.IsNullOrEmpty(seen)) last = seen;
+            }
+            if (Plugin.Log != null)
+            {
+                string t = (last ?? "").Trim();
+                if (t.Length > 180) t = t.Substring(0, 180) + "...";
+                Plugin.Log.LogInfo("epilogue MISS after 5s, len=" + (last ?? "").Trim().Length
+                    + " key=bark_" + Patch_Inspect.Md5Hex16((last ?? "").Trim())
+                    + " text=<<" + t + ">>");
+            }
+        }
+
 
         // Continue pressed / screen torn down: stop the narration, but only if it is still ours.
         public static void ClosePostfix()
