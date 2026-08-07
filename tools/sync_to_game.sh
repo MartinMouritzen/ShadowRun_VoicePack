@@ -61,14 +61,16 @@ PY
 fi
 
 mkdir -p "$PLUG/voicepack/clips"
-# manifest (always) + plugin dll (if present). The DLL is shared across all three games.
-cp -f "$VP/voicepack.index" "$PLUG/voicepack/voicepack.index"
-cp -f "$VP/voicepack.json"  "$PLUG/voicepack/voicepack.json" 2>/dev/null || true
 # cp -f (NOT -u): cp -u compares mtimes, which is unreliable across the WSL->NTFS boundary and
 # would silently skip installing a newer DLL. The DLL is tiny, so always overwrite.
 [ -f plugin/SRRVoices/bin/SRRVoices.dll ] && cp -f plugin/SRRVoices/bin/SRRVoices.dll "$PLUG/SRRVoices.dll" || true
-# clips: copy only ones not already present (hash-named, immutable)
+# clips FIRST, then the manifest that names them: the plugin reloads the manifest when its mtime
+# changes (VoicePack.IndexChanged), so a live game can read it the instant it lands. Writing the
+# index before its clips arrive gives it a window where every new line resolves to a file that is
+# still being copied. Clips are hash-named and immutable, so -n only copies what is genuinely new.
 cp -rn "$VP/clips/." "$PLUG/voicepack/clips/" 2>/dev/null || true
+cp -f "$VP/voicepack.json"  "$PLUG/voicepack/voicepack.json" 2>/dev/null || true
+cp -f "$VP/voicepack.index" "$PLUG/voicepack/voicepack.index"
 # prune clips no longer referenced by the manifest (keeps the install from growing unbounded)
 [ "$GAME_RUNNING" = 1 ] || python3 - "$PLUG/voicepack" <<'PY'
 import sys, os
@@ -88,10 +90,9 @@ print(f"  pruned {removed} stale clips" if removed else "", end="")
 PY
 
 N=$(grep -vc '^#' "$PLUG/voicepack/voicepack.index" 2>/dev/null || echo 0)
-echo "SYNCED: $N voiced nodes installed to $GAME_ID. RESTART the game to load them."
+echo "SYNCED: $N voiced nodes installed to $GAME_ID. A running game picks this up within ~2s."
 if [ "$GAME_RUNNING" = 1 ]; then
-  echo "NOTE: $GAME_ID is running, so stale files were left in place rather than pruned — deleting"
-  echo "      them under a live game silences the lines it already has open. The running session is"
-  echo "      still on the OLD manifest either way: RESTART IT to hear anything that changed."
-  echo "      Re-run this after quitting to clear the leftovers."
+  echo "NOTE: $GAME_ID is running, so stale files were left in place rather than pruned — a clip"
+  echo "      deleted in the seconds before the game notices the new manifest is a line that fails"
+  echo "      to load. Re-run this after quitting to clear the leftovers."
 fi

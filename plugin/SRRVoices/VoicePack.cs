@@ -11,6 +11,8 @@ namespace SRRVoices
     {
         readonly Dictionary<string, string[]> lines = new Dictionary<string, string[]>();
         public string Root;    // absolute dir containing voicepack.index and clips/
+        // What the index looked like when this was loaded, so a later sync can be spotted.
+        long stampTicks, stampLen;
 
         public int LineCount { get { return lines.Count; } }
 
@@ -29,6 +31,9 @@ namespace SRRVoices
             }
             var vp = new VoicePack();
             vp.Root = vpDir;
+            var fi = new FileInfo(idx);
+            vp.stampTicks = fi.LastWriteTimeUtc.Ticks;
+            vp.stampLen = fi.Length;
             int bad = 0;
             foreach (string raw in File.ReadAllLines(idx))
             {
@@ -43,6 +48,24 @@ namespace SRRVoices
             }
             if (bad > 0 && log != null) log.LogWarning("voicepack: skipped " + bad + " malformed rows");
             return vp;
+        }
+
+        // Has the manifest been rewritten since this pack was read?
+        //
+        // The lab syncs itself now, so the file under a live game changes while you play. Before
+        // this, the session kept whatever manifest it read at startup: every line voiced since
+        // launch logged "no VO" and the mod looked broken, when in fact the clip was sitting on
+        // disk two directories away. Only the index is stat'ed — clips are content-hash named and
+        // immutable, so nothing already loaded can go stale.
+        public bool IndexChanged()
+        {
+            try
+            {
+                var fi = new FileInfo(Path.Combine(Root, "voicepack.index"));
+                if (!fi.Exists) return false;
+                return fi.LastWriteTimeUtc.Ticks != stampTicks || fi.Length != stampLen;
+            }
+            catch (Exception) { return false; }
         }
 
         // All unique clip paths referenced by the given node keys (for preloading a conversation).

@@ -38,16 +38,42 @@ namespace SRRVoices
 
         public void SetRoot(string r) { root = r; }
 
+        // Swap in a freshly synced manifest without restarting the game. The swap is a single
+        // reference assignment, which is atomic, so a patch reading Plugin.Pack mid-swap gets
+        // either the whole old pack or the whole new one — never a half-built dictionary. The
+        // decoded-clip cache is left alone on purpose: clips are named by content hash, so a
+        // re-picked take is a new name and nothing cached can be wrong, only unused.
+        void ReloadPackIfChanged()
+        {
+            VoicePack cur = Plugin.Pack;
+            if (cur == null || !cur.IndexChanged()) return;
+            VoicePack next = VoicePack.Load(cur.Root, Plugin.Log);
+            if (next == null) return;                 // mid-copy or unreadable; try again in 2s
+            Plugin.Pack = next;
+            if (Plugin.Log != null)
+                Plugin.Log.LogInfo("Voicepack reloaded: " + next.LineCount + " voiced nodes (was "
+                                   + cur.LineCount + ") — picked up a sync, no restart needed.");
+        }
+
         // Shift+Plus / Shift+Minus: live playback-speed adjustment. Persists via the config entry
         // (BepInEx saves on set). A small OSD confirms the new value for a moment.
         float osdUntil = 0f;
         string osdText = "";
+
+        // Watch for the lab syncing a new manifest under the running game (see VoicePack
+        // .IndexChanged). Stat'ing one file every couple of seconds is free next to a frame.
+        float nextPackCheck = 0f;
 
         void Update()
         {
             // Stretched clips that were flushed while still audible get destroyed here once
             // their source lets go of them (see FlushStretched).
             if (deferredDestroy.Count > 0) SweepDeferred();
+            if (Time.realtimeSinceStartup >= nextPackCheck)
+            {
+                nextPackCheck = Time.realtimeSinceStartup + 2f;
+                ReloadPackIfChanged();
+            }
             if (Plugin.CfgSpeed == null) return;
             bool shift = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
             if (!shift) return;
