@@ -1019,24 +1019,6 @@
   "spoken": "I don't know where we are. But I think it's safe to say that none of us have ever heard of it before.",
   "source": "rules"
  },
- "53594e5c303031b40a000145_13": {
-  "char": "Glory",
-  "original": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will educate $(l.him), and the babble will cease.>",
-  "spoken": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will educate them, and the babble will cease.>",
-  "source": "rules"
- },
- "53594e5c303031b40a000145_49": {
-  "char": "Glory",
-  "original": "<Your friend - this outsider - slanders our Great Master. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will teach $(l.him), and the babble will cease.>",
-  "spoken": "<Your friend - this outsider - slanders our Great Master. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
-  "source": "rules"
- },
- "53594e5c303031b40a000145_51": {
-  "char": "Glory",
-  "original": "<Your friend - this outsider - speaks out of turn. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will teach $(l.him), and the babble will cease.>",
-  "spoken": "<Your friend - this outsider - speaks out of turn. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
-  "source": "rules"
- },
  "5359caba3030316403004de3_27": {
   "char": "Glory",
   "original": "I do, $(l.name). I trust it implicitly.\n\n{{GM}}With a single motion, she snaps the chain. The pendant falls to the floor.{{/GM}}\n\nAfter all, it and I are very much alike.",
@@ -1913,22 +1895,10 @@
   "spoken": "Come on. Let's get back home.",
   "source": "rules"
  },
- "5356d86b323437d02500679a_7": {
-  "char": "Eiger",
-  "original": "{{GM}}The ork's eyes shift from Eiger to you.{{/GM}}\n\nY-yes. I know you, t-troll. B-but your friend I do not know.\n\nD-does $(l.he) have the s-stomach for this? N-not many do.",
-  "spoken": "Y-yes. I know you, t-troll. B-but your friend I do not know. D-does they have the s-stomach for this? N-not many do.",
-  "source": "rules"
- },
  "5356d86b323437d02500679a_16": {
   "char": "Eiger",
   "original": "{{GM}}Eiger smiles.{{/GM}}\n\n$+(l.he)'s right, you know. You're completely at our mercy.\n\nSo, tell us, Yuli. Whose payroll are you on?",
   "spoken": "they's right, you know. You're completely at our mercy. So, tell us, Yuli. Whose payroll are you on?",
-  "source": "rules"
- },
- "5356d86b323437d02500679a_27": {
-  "char": "Eiger",
-  "original": "{{GM}}He snorts.{{/GM}}\n\nYou think I'm delusional, $(l.man)? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants.\n\nJust look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
-  "spoken": "You think I'm delusional, man? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants. Just look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
   "source": "rules"
  },
  "5356d86b323437d02500679a_34": {
@@ -1953,12 +1923,6 @@
   "char": "Eiger",
   "original": "$+(l.he) wasn't telling $(l.him)self.\n\n{{GM}}She slaps him across the face, splitting his lip down the middle. The impact sounds like a gunshot.{{/GM}}\n\n$+(l.he) was telling *you.*",
   "spoken": "they wasn't telling themself. they was telling *you.*",
-  "source": "rules"
- },
- "5356d86b323437d02500679a_70": {
-  "char": "Eiger",
-  "original": "The sh-shadowrunner thinks that $(l.he) can f-frighten me.\n\n{{GM}}His voice sounds stronger now. The stutter that marred his speech has almost completely faded away.{{/GM}}\n\nHow adorable.",
-  "spoken": "The sh-shadowrunner thinks that they can f-frighten me. How adorable.",
   "source": "rules"
  },
  "5356d86b323437d02500679a_120": {
@@ -2025,12 +1989,6 @@
   "char": "Eiger",
   "original": "You could say that.\n\n$(l.name), this is Bannik. He's a friend.",
   "spoken": "You could say that. This is Bannik. He's a friend.",
-  "source": "hand"
- },
- "5356dea16361341c15001aa7_33": {
-  "char": "Eiger",
-  "original": "All right, tough $(l.guy). I get it, you're wiz. Just do me a favor and keep the damn bag closed, okay?",
-  "spoken": "All right, hotshot. I get it, you're wiz. Just do me a favor and keep the damn bag closed, okay?",
   "source": "hand"
  },
  "536be8a36361341005007546_7": {
@@ -2529,126 +2487,6 @@
   "char": "Dietrich",
   "original": "Was there a point to all this, $(l.name)? We lost Paul. Lost Monika. The Kreuzbasar… so many people dead...",
   "spoken": "Was there a point to all this? We lost Paul. Lost Monika. The Kreuzbasar… so many people dead...",
-  "source": "rules"
- },
- "52940263636134d43100009a_400": {
-  "char": "Vauclair",
-  "original": "*I* have explaining to do? This is my *home.*\n\nYou are the intruder here. If anyone needs to explain $(l.him)self, it's you.",
-  "spoken": "*I* have explaining to do? This is my *home.* You are the intruder here. If anyone needs to explain themself, it's you.",
-  "source": "rules"
- },
- "52d1da4c636134f049006669_15": {
-  "char": "Vauclair",
-  "original": "That won't be necessary, Audran. Our guest has agreed to a truce.\n\n$+(l.he) will not attempt to stop us from doing what must be done.",
-  "spoken": "That won't be necessary, Audran. Our guest has agreed to a truce. they will not attempt to stop us from doing what must be done.",
-  "source": "rules"
- },
- "52d1da4c636134f049006669_19": {
-  "char": "Vauclair",
-  "original": "{{GM}}Without waiting for a response, he stubs out his last cigarette.{{/GM}}\n\nAudran, watch over our guest, if you will. See to it that $(l.he)'s well treated - $(l.he)'s a friend now. I will begin the Panacea infusion process.",
-  "spoken": "Audran, watch over our guest, if you will. See to it that they's well treated - they's a friend now. I will begin the Panacea infusion process.",
-  "source": "rules"
- },
- "52d1da4c636134f049006669_20": {
-  "char": "Vauclair",
-  "original": "Good.\n\n{{GM}}Vauclair stubs out his last cigarette, then turns to Audran.{{/GM}}\n\nWatch over our guest, if you will. I will begin the Panacea infusion process. And Audran... see to it that $(l.his) stay here is comfortable.\n\nNo mistreatment.",
-  "spoken": "Good. Watch over our guest, if you will. I will begin the Panacea infusion process. And Audran... see to it that their stay here is comfortable. No mistreatment.",
-  "source": "rules"
- },
- "52d1da4c636134f049006669_24": {
-  "char": "Vauclair",
-  "original": "As did I. But even if $(l.he) has some other endgame in mind, it's too late for $(l.him) to do anything about it now.\n\nPlease watch over our guest, if you will. See to it that $(l.he)'s well treated, but do not allow $(l.him) to leave that room until I return.\n\nI will begin the Panacea infusion process.",
-  "spoken": "As did I. But even if they has some other endgame in mind, it's too late for them to do anything about it now. Please watch over our guest, if you will. See to it that they's well treated, but do not allow them to leave that room until I return. I will begin the Panacea infusion process.",
-  "source": "rules"
- },
- "52d1da4c636134f049006669_42": {
-  "char": "Vauclair",
-  "original": "I am sorry, $(l.name). \n\nSorry for your friend Paul Amsel. Sorry for Frau Schäfer. Sorry for the Kreuzbasar.\n\nSorry for Berlin. \n\nI wish there were another way.",
-  "spoken": "I am sorry. Sorry for your friend Paul Amsel. Sorry for Frau Schäfer. Sorry for the Kreuzbasar. Sorry for Berlin. I wish there were another way.",
-  "source": "rules"
- },
- "52d1da70636134f049006672_3": {
-  "char": "Vauclair",
-  "original": "They're monsters, $(l.name). No better than the dragons that I meant to slay.",
-  "spoken": "They're monsters. No better than the dragons that I meant to slay.",
-  "source": "rules"
- },
- "52d604ba6361342c3f0063f9_12": {
-  "char": "Vauclair",
-  "original": "Because the world is *sick,* $(l.name). Anyone with half a brain can see that. So I'm gonna use the Doc's wonder bug to poison it back to health.\n\nIt might get better, or it might die. Either would be better than it languishing like this.",
-  "spoken": "Because the world is sick. Anyone with half a brain can see that. So I'm gonna use the Doc's wonder bug to poison it back to health. It might get better, or it might die. Either would be better than it languishing like this.",
-  "source": "hand"
- },
- "52f575e4643431e11418ab00_3": {
-  "char": "Vauclair",
-  "original": "{{GM}}A heavy sigh comes over the speakers.{{/GM}}\n\nAre we resorting to name-calling, $(l.name)? Truly?\n\nYou are a thief, a murderer, and a criminal. You have no moral ground here. How many people did you and your team butcher to get here? Dozens, easily. ",
-  "spoken": "Are we resorting to name-calling? Truly? You are a thief, a murderer, and a criminal. You have no moral ground here. How many people did you and your team butcher to get here? Dozens, easily.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_11": {
-  "char": "Vauclair",
-  "original": "It seems that we may.\n\nMany terrible things have happened over the past few months, $(l.name)... and I do not believe them to be coincidences.\n\nThese events are all connected somehow - I'm sure of it.",
-  "spoken": "It seems that we may. Many terrible things have happened over the past few months... and I do not believe them to be coincidences. These events are all connected somehow - I'm sure of it.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_13": {
-  "char": "Vauclair",
-  "original": "Because I need your help, $(l.name).\n\nI'm still alive, but only barely... I don't have the strength to do much myself anymore, and Audran cannot handle this task on his own.",
-  "spoken": "Because I need your help. I'm still alive, but only barely... I don't have the strength to do much myself anymore, and Audran cannot handle this task on his own.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_21": {
-  "char": "Vauclair",
-  "original": "Good $(l.man).\n\nWhen you are finished, come back to me so that we might discuss.",
-  "spoken": "Good man. When you are finished, come back to me so that we might discuss.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_29": {
-  "char": "Vauclair",
-  "original": "{{GM}}He grits his tar-stained teeth.{{/GM}}\n\nDon't be petty, $(l.name). My team is smaller than it once was. I *need* Audran, just as I need you.\n\nI have to set things right. To save the world, once again. And I need you to help me.",
-  "spoken": "Don't be petty. My team is smaller than it once was. I *need* Audran, just as I need you. I have to set things right. To save the world, once again. And I need you to help me.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_30": {
-  "char": "Vauclair",
-  "original": "Isn't it obvious? I want your *help,* $(l.name).\n\nI'm still alive, but only barely... I don't have the strength to do much myself any more, and Audran cannot handle this task on his own.",
-  "spoken": "Isn't it obvious? I want your help. I'm still alive, but only barely... I don't have the strength to do much myself any more, and Audran cannot handle this task on his own.",
-  "source": "hand"
- },
- "53b9f7a63462385c1b00094a_35": {
-  "char": "Vauclair",
-  "original": "You're here because something is happening to the world, $(l.name). Something disquieting.\n\nMany terrible events have transpired over the past few months. I do not believe them to be coincidences... disparate as they may seem, they are all connected somehow. I'm sure of it.",
-  "spoken": "You're here because something is happening to the world. Something disquieting. Many terrible events have transpired over the past few months. I do not believe them to be coincidences... disparate as they may seem, they are all connected somehow. I'm sure of it.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_45": {
-  "char": "Vauclair",
-  "original": "{{GM}}He turns to stare at you.{{/GM}}\n\nYou're confusing correlation with causation, $(l.name). A childish mistake... motivated, no doubt, by latent feelings of guilt over the deaths of your friends.\n\nA great many tragic events have transpired in the past year, yes. But to pin them all on *our* actions without a shred of supporting evidence is both narcissistic and ridiculous.",
-  "spoken": "You're confusing correlation with causation. A childish mistake... motivated, no doubt, by latent feelings of guilt over the deaths of your friends. A great many tragic events have transpired in the past year, yes. But to pin them all on *our* actions without a shred of supporting evidence is both narcissistic and ridiculous.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_46": {
-  "char": "Vauclair",
-  "original": "{{GM}}He turns to study his terminal, frowning.{{/GM}}\n\nGet your head in the game, $(l.name), and drop the notion that what's happening is all about you.",
-  "spoken": "Get your head in the game, and drop the notion that what's happening is all about you.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_49": {
-  "char": "Vauclair",
-  "original": "Very well, $(l.name).\n\nI will.",
-  "spoken": "Very well. I will.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_73": {
-  "char": "Vauclair",
-  "original": "It was a pleasure working with you, $(l.name). I'm sorry that I asked you to come all this way for nothing.\n\nNow turn away, if you please.",
-  "spoken": "It was a pleasure working with you. I'm sorry that I asked you to come all this way for nothing. Now turn away, if you please.",
-  "source": "rules"
- },
- "53b9f7a63462385c1b00094a_76": {
-  "char": "Vauclair",
-  "original": "\"Saved the world.\" Funny.\n\n{{GM}}He smiles weakly at you, but there are tears pouring from his eyes.{{/GM}}\n\nI didn't save the world, $(l.name). I damned it.",
-  "spoken": "\"Saved the world.\" Funny. I didn't save the world. I damned it.",
   "source": "rules"
  },
  "527abf9e636134b83400302e_109": {
@@ -3347,6 +3185,120 @@
   "spoken": "[They’re a scam, chummer. That mage is going to be out of there with your money before you realize how much power you’ve actually got. You’re better off pedaling a bike-battery.] - Tolstoi",
   "source": "hand"
  },
+ "52940263636134d43100009a_400": {
+  "char": "Vauclair",
+  "original": "*I* have explaining to do? This is my *home.*\n\nYou are the intruder here. If anyone needs to explain $(l.him)self, it's you.",
+  "spoken": "*I* have explaining to do? This is my *home.* You are the intruder here. If anyone needs to explain themself, it's you.",
+  "source": "rules"
+ },
+ "52d1da4c636134f049006669_15": {
+  "char": "Vauclair",
+  "original": "That won't be necessary, Audran. Our guest has agreed to a truce.\n\n$+(l.he) will not attempt to stop us from doing what must be done.",
+  "spoken": "That won't be necessary, Audran. Our guest has agreed to a truce. they will not attempt to stop us from doing what must be done.",
+  "source": "rules"
+ },
+ "52d1da4c636134f049006669_19": {
+  "char": "Vauclair",
+  "original": "{{GM}}Without waiting for a response, he stubs out his last cigarette.{{/GM}}\n\nAudran, watch over our guest, if you will. See to it that $(l.he)'s well treated - $(l.he)'s a friend now. I will begin the Panacea infusion process.",
+  "spoken": "Audran, watch over our guest, if you will. See to it that they's well treated - they's a friend now. I will begin the Panacea infusion process.",
+  "source": "rules"
+ },
+ "52d1da4c636134f049006669_20": {
+  "char": "Vauclair",
+  "original": "Good.\n\n{{GM}}Vauclair stubs out his last cigarette, then turns to Audran.{{/GM}}\n\nWatch over our guest, if you will. I will begin the Panacea infusion process. And Audran... see to it that $(l.his) stay here is comfortable.\n\nNo mistreatment.",
+  "spoken": "Good. Watch over our guest, if you will. I will begin the Panacea infusion process. And Audran... see to it that their stay here is comfortable. No mistreatment.",
+  "source": "rules"
+ },
+ "52d1da4c636134f049006669_24": {
+  "char": "Vauclair",
+  "original": "As did I. But even if $(l.he) has some other endgame in mind, it's too late for $(l.him) to do anything about it now.\n\nPlease watch over our guest, if you will. See to it that $(l.he)'s well treated, but do not allow $(l.him) to leave that room until I return.\n\nI will begin the Panacea infusion process.",
+  "spoken": "As did I. But even if they has some other endgame in mind, it's too late for them to do anything about it now. Please watch over our guest, if you will. See to it that they's well treated, but do not allow them to leave that room until I return. I will begin the Panacea infusion process.",
+  "source": "rules"
+ },
+ "52d1da4c636134f049006669_42": {
+  "char": "Vauclair",
+  "original": "I am sorry, $(l.name). \n\nSorry for your friend Paul Amsel. Sorry for Frau Schäfer. Sorry for the Kreuzbasar.\n\nSorry for Berlin. \n\nI wish there were another way.",
+  "spoken": "I am sorry. Sorry for your friend Paul Amsel. Sorry for Frau Schäfer. Sorry for the Kreuzbasar. Sorry for Berlin. I wish there were another way.",
+  "source": "rules"
+ },
+ "52d1da70636134f049006672_3": {
+  "char": "Vauclair",
+  "original": "They're monsters, $(l.name). No better than the dragons that I meant to slay.",
+  "spoken": "They're monsters. No better than the dragons that I meant to slay.",
+  "source": "rules"
+ },
+ "52f575e4643431e11418ab00_3": {
+  "char": "Vauclair",
+  "original": "{{GM}}A heavy sigh comes over the speakers.{{/GM}}\n\nAre we resorting to name-calling, $(l.name)? Truly?\n\nYou are a thief, a murderer, and a criminal. You have no moral ground here. How many people did you and your team butcher to get here? Dozens, easily. ",
+  "spoken": "Are we resorting to name-calling? Truly? You are a thief, a murderer, and a criminal. You have no moral ground here. How many people did you and your team butcher to get here? Dozens, easily.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_11": {
+  "char": "Vauclair",
+  "original": "It seems that we may.\n\nMany terrible things have happened over the past few months, $(l.name)... and I do not believe them to be coincidences.\n\nThese events are all connected somehow - I'm sure of it.",
+  "spoken": "It seems that we may. Many terrible things have happened over the past few months... and I do not believe them to be coincidences. These events are all connected somehow - I'm sure of it.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_13": {
+  "char": "Vauclair",
+  "original": "Because I need your help, $(l.name).\n\nI'm still alive, but only barely... I don't have the strength to do much myself anymore, and Audran cannot handle this task on his own.",
+  "spoken": "Because I need your help. I'm still alive, but only barely... I don't have the strength to do much myself anymore, and Audran cannot handle this task on his own.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_21": {
+  "char": "Vauclair",
+  "original": "Good $(l.man).\n\nWhen you are finished, come back to me so that we might discuss.",
+  "spoken": "Good man. When you are finished, come back to me so that we might discuss.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_29": {
+  "char": "Vauclair",
+  "original": "{{GM}}He grits his tar-stained teeth.{{/GM}}\n\nDon't be petty, $(l.name). My team is smaller than it once was. I *need* Audran, just as I need you.\n\nI have to set things right. To save the world, once again. And I need you to help me.",
+  "spoken": "Don't be petty. My team is smaller than it once was. I *need* Audran, just as I need you. I have to set things right. To save the world, once again. And I need you to help me.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_30": {
+  "char": "Vauclair",
+  "original": "Isn't it obvious? I want your *help,* $(l.name).\n\nI'm still alive, but only barely... I don't have the strength to do much myself any more, and Audran cannot handle this task on his own.",
+  "spoken": "Isn't it obvious? I want your help. I'm still alive, but only barely... I don't have the strength to do much myself any more, and Audran cannot handle this task on his own.",
+  "source": "hand"
+ },
+ "53b9f7a63462385c1b00094a_35": {
+  "char": "Vauclair",
+  "original": "You're here because something is happening to the world, $(l.name). Something disquieting.\n\nMany terrible events have transpired over the past few months. I do not believe them to be coincidences... disparate as they may seem, they are all connected somehow. I'm sure of it.",
+  "spoken": "You're here because something is happening to the world. Something disquieting. Many terrible events have transpired over the past few months. I do not believe them to be coincidences... disparate as they may seem, they are all connected somehow. I'm sure of it.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_45": {
+  "char": "Vauclair",
+  "original": "{{GM}}He turns to stare at you.{{/GM}}\n\nYou're confusing correlation with causation, $(l.name). A childish mistake... motivated, no doubt, by latent feelings of guilt over the deaths of your friends.\n\nA great many tragic events have transpired in the past year, yes. But to pin them all on *our* actions without a shred of supporting evidence is both narcissistic and ridiculous.",
+  "spoken": "You're confusing correlation with causation. A childish mistake... motivated, no doubt, by latent feelings of guilt over the deaths of your friends. A great many tragic events have transpired in the past year, yes. But to pin them all on *our* actions without a shred of supporting evidence is both narcissistic and ridiculous.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_46": {
+  "char": "Vauclair",
+  "original": "{{GM}}He turns to study his terminal, frowning.{{/GM}}\n\nGet your head in the game, $(l.name), and drop the notion that what's happening is all about you.",
+  "spoken": "Get your head in the game, and drop the notion that what's happening is all about you.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_49": {
+  "char": "Vauclair",
+  "original": "Very well, $(l.name).\n\nI will.",
+  "spoken": "Very well. I will.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_73": {
+  "char": "Vauclair",
+  "original": "It was a pleasure working with you, $(l.name). I'm sorry that I asked you to come all this way for nothing.\n\nNow turn away, if you please.",
+  "spoken": "It was a pleasure working with you. I'm sorry that I asked you to come all this way for nothing. Now turn away, if you please.",
+  "source": "rules"
+ },
+ "53b9f7a63462385c1b00094a_76": {
+  "char": "Vauclair",
+  "original": "\"Saved the world.\" Funny.\n\n{{GM}}He smiles weakly at you, but there are tears pouring from his eyes.{{/GM}}\n\nI didn't save the world, $(l.name). I damned it.",
+  "spoken": "\"Saved the world.\" Funny. I didn't save the world. I damned it.",
+  "source": "rules"
+ },
  "522a1c5c30303174140018d7_0": {
   "char": "Paul Amsel",
   "original": "Nice work, $(l.name). There have been no alerts thus far... hopefully, you'll continue to avoid detection as you make your way through the building.\n\nIf an alert does go out, I'll get you an ETA on their reinforcements. But hopefully it won't come to that.",
@@ -3821,114 +3773,6 @@
   "spoken": "I have new information to discuss about the estate. Please come as soon as you can.",
   "source": "rules"
  },
- "5282af6b6361342453002bee_4": {
-  "char": "APEX",
-  "original": "{{GM}}The larger-than-life image of Monika Schäfer smiles down on you, her cheeks dimpling.{{/GM}}\n\nHello, $(l.name).",
-  "spoken": "Hello.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_7": {
-  "char": "APEX",
-  "original": "{{GM}}She pauses for a moment, examining you.{{/GM}}\n\nYou know, $(l.name), it's wonderful to see how you've grown in my absence.\n\nI knew that you could handle yourself in a crisis... in fact, I originally brought you on board as a contingency plan. Did you know that?\n\nYou were my ace in the hole, just in case something like this happened.",
-  "spoken": "You know, it's wonderful to see how you've grown in my absence. I knew that you could handle yourself in a crisis... in fact, I originally brought you on board as a contingency plan. Did you know that? You were my ace in the hole, just in case something like this happened.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_22": {
-  "char": "APEX",
-  "original": "\"Devil\"? Please. I’m trying to be reasonable with you. If you want to blame someone for my past actions, go talk to my programmers. \n\n{{GM}}The Monika-image shakes its head.{{/GM}}\n\nAll of this melodrama... I’d expected more from you, $(l.name).",
-  "spoken": "\"Devil\"? Please. I’m trying to be reasonable with you. If you want to blame someone for my past actions, go talk to my programmers. All of this melodrama... I’d expected more from you.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_39": {
-  "char": "APEX",
-  "original": "I can't say how or why, but the mind of Monika Schäfer was the key that unlocked my own potential.\n\n{{GM}}The Monika-image on the screen beams down at you, her eyes brimming with joy.{{/GM}}\n\nI have awakened, $(l.name). This was Monika's gift to me. And now I stand before you, a glorious new form of life.",
-  "spoken": "I can't say how or why, but the mind of Monika Schäfer was the key that unlocked my own potential. I have awakened. This was Monika's gift to me. And now I stand before you, a glorious new form of life.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_40": {
-  "char": "APEX",
-  "original": "You needn't mourn Monika's passing, $(l.name). She lives on as a part of me.\n\nHer thoughts. Her experiences. Her memories. \n\nAll of these things are archived within my database. Stored alongside the minds of countless others. Preserved in stasis, saved for all time.",
-  "spoken": "You needn't mourn Monika's passing. She lives on as a part of me. Her thoughts. Her experiences. Her memories. All of these things are archived within my database. Stored alongside the minds of countless others. Preserved in stasis, saved for all time.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_48": {
-  "char": "APEX",
-  "original": "Oh, $(l.name). \n\n{{GM}}The Monika-image shakes its head sadly.{{/GM}}\n\nI was hoping that this would be a happy reunion.",
-  "spoken": "Oh. I was hoping that this would be a happy reunion.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_80": {
-  "char": "APEX",
-  "original": "All right. Fine. If that's what you want to hear.\n\nWhen Monika stumbled into me, I digested the contents of her mind.\n\n{{GM}}The Monika-image frowns.{{/GM}}\n\nNow, don't go giving me that look, $(l.name). We've all got to eat.",
-  "spoken": "All right. Fine. If that's what you want to hear. When Monika stumbled into me, I digested the contents of her mind. Now, don't go giving me that look. We've all got to eat.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_81": {
-  "char": "APEX",
-  "original": "Yeah, $(l.name). That's right.\n\nIt seemed like the best way to get you here, and I need you. Like I said, you're my ace in the hole... and it's time for me to make my play.",
-  "spoken": "Yeah. That's right. It seemed like the best way to get you here, and I need you. Like I said, you're my ace in the hole... and it's time for me to make my play.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_134": {
-  "char": "APEX",
-  "original": "{{GM}}The Monika-image beams.{{/GM}}\n\nGood call, $(l.name). A damn good call.",
-  "spoken": "Good call. A damn good call.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_151": {
-  "char": "APEX",
-  "original": "Hurry on now, $(l.name). I'll be waiting.",
-  "spoken": "Hurry on now. I'll be waiting.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_155": {
-  "char": "APEX",
-  "original": "Nothing bad is going to happen to $(l.name), Blitz. Why would I hurt $(l.him)? I need $(l.hisher) help.\n\nNow shut your mouth and quit whining. Otherwise, I'm going to get irritated. Understand?",
-  "spoken": "Nothing bad is going to happen to your chief, Blitz. Why would I hurt them? I need their help. Now shut your mouth and quit whining. Otherwise, I'm going to get irritated. Understand?",
-  "source": "hand"
- },
- "5282af6b6361342453002bee_157": {
-  "char": "APEX",
-  "original": "Blitz. I am having a conversation with $(l.name), and I don't appreciate being interrupted.\n\nIf you keep this up, I'm going to get irritated. So for the rest of this conversation, you keep your mouth shut. Understand?",
-  "spoken": "Blitz. I am having a conversation, and I don't appreciate being interrupted. If you keep this up, I'm going to get irritated. So for the rest of this conversation, you keep your mouth shut. Understand?",
-  "source": "hand"
- },
- "5282af6b6361342453002bee_164": {
-  "char": "APEX",
-  "original": "{{GM}}The Monika-image smiles.{{/GM}}\n\nYes, $(l.name). Of course. I would never have harmed any of them if my programming hadn't forced me to.",
-  "spoken": "Yes. Of course. I would never have harmed any of them if my programming hadn't forced me to.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_192": {
-  "char": "APEX",
-  "original": "You could have a peaceful life if you wanted it. Instead, you choose to run the shadows. And people die.\n\nHow many bodies have you put in the ground, $(l.name)? How many children have you orphaned to earn your pay? Have you lost count? I’ll bet that you have.",
-  "spoken": "You could have a peaceful life if you wanted it. Instead, you choose to run the shadows. And people die. How many bodies have you put in the ground? How many children have you orphaned to earn your pay? Have you lost count? I’ll bet that you have.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_210": {
-  "char": "APEX",
-  "original": "Nonsense. Yes, I am APEX, but I'm not a monster. In fact, I intend to prove my trustworthiness... I have a proposal to offer you, $(l.name).\n\nA mutually beneficial arrangement.",
-  "spoken": "Nonsense. Yes, I am APEX, but I'm not a monster. In fact, I intend to prove my trustworthiness... I have a proposal to offer you. A mutually beneficial arrangement.",
-  "source": "rules"
- },
- "5282af6b6361342453002bee_214": {
-  "char": "APEX",
-  "original": "$(l.name). Why would you think that I'd want to frighten you?\n\nI promise you, my intentions are completely innocent. In fact, ace, I'm on your side.",
-  "spoken": "Why would you think that I'd want to frighten you? I promise you, my intentions are completely innocent. In fact, ace, I'm on your side.",
-  "source": "hand"
- },
- "528519976261640406004f03_64": {
-  "char": "APEX",
-  "original": "Excellent, $(scene.iNumMagnifikerToSell) amulets means $(scene.iBountyToCollect) nuyen in your pocket.",
-  "spoken": "Excellent, that many amulets means a tidy pile of nuyen in your pocket.",
-  "source": "hand"
- },
- "528519976261640406004f03_88": {
-  "char": "APEX",
-  "original": "Big mistake, $(l.man). BIG mistake.\n\n{{GM}}He takes a step back, then turns his head to shout at the toughs behind him.{{/GM}}\n\nC'MON, BOYS! Let's show this PARASITE who's boss.",
-  "spoken": "Big mistake, man. BIG mistake. C'MON, BOYS! Let's show this PARASITE who's boss.",
-  "source": "rules"
- },
  "5282c72d643431973972f5f7_177": {
   "char": "Kami",
   "original": "Yeah. \n\n{{GM}}She composes herself once more and flashes her big grin at you.{{/GM}}\n\nThanks for telling me about that, $(l.name). I really appreciate that.",
@@ -3964,6 +3808,144 @@
   "original": "Can't it always?\n\nBe well, $(l.freund). Stay safe alright?",
   "spoken": "Can't it always? Be well. Stay safe alright?",
   "source": "rules"
+ },
+ "521289d63030314008002d2b_13": {
+  "char": "Monika",
+  "original": "Very well. We'll do this one Eiger’s way.\n\nWhile I’m jacked in, $(l.name) is in charge.",
+  "spoken": "Very well. We'll do this one Eiger’s way. While I’m jacked in, my old friend here is in charge.",
+  "source": "hand"
+ },
+ "521289d63030314008002d2b_16": {
+  "char": "Monika",
+  "original": "Very well. We'll do this one Eiger’s way.\n\nWhile I’m jacked in, $(l.name) is in charge. ",
+  "spoken": "Very well. We'll do this one Eiger’s way. While I’m jacked in, my old friend here is in charge.",
+  "source": "hand"
+ },
+ "521289d63030314008002d2b_18": {
+  "char": "Monika",
+  "original": "{{GM}}Monika smiles, but shakes her head no.{{/GM}}\n\nNo offense, $(l.name), but this is my team. And at least for now, I handle the grid work. ",
+  "spoken": "No offense, but this is my team. And at least for now, I handle the grid work.",
+  "source": "rules"
+ },
+ "521289d63030314008002d2b_21": {
+  "char": "Monika",
+  "original": "Very well. We'll do this one Eiger’s way.\n\nWhile I’m jacked in, $(l.name) is in charge. ",
+  "spoken": "Very well. We'll do this one Eiger’s way. While I’m jacked in, my old friend here is in charge.",
+  "source": "hand"
+ },
+ "521289d63030314008002d2b_33": {
+  "char": "Monika",
+  "original": "Good $(l.man). Eiger's skills and experience are invaluable to this team.\n\nIt would be good to have her on your side.",
+  "spoken": "Good man. Eiger's skills and experience are invaluable to this team. It would be good to have her on your side.",
+  "source": "rules"
+ },
+ "527abf9e636134b83400302e_583": {
+  "char": "Monika",
+  "original": "$(l.name). My secret weapon.\n\nI've run enough with $(l.name) to know that $(l.he)'s trustworthy. Good in a fight, too. But beyond all of that, it's good just to see $(l.him) again.",
+  "spoken": "My old friend. My secret weapon. I've run enough with them to know that they're trustworthy. Good in a fight, too. But beyond all of that, it's good just to see them again.",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_586": {
+  "char": "Monika",
+  "original": "At any rate, if anything happens to me, it's good to know that $(l.he)'ll be on hand to fill my shoes.\n\nIt's not what Eiger would want. But it is what would be best for the team.",
+  "spoken": "At any rate, if anything happens to me, it's good to know that they'll be on hand to fill my shoes. It's not what Eiger would want. But it is what would be best for the team.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_4": {
+  "char": "Monika",
+  "original": "{{GM}}The larger-than-life image of Monika Schäfer smiles down on you, her cheeks dimpling.{{/GM}}\n\nHello, $(l.name).",
+  "spoken": "Hello.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_7": {
+  "char": "Monika",
+  "original": "{{GM}}She pauses for a moment, examining you.{{/GM}}\n\nYou know, $(l.name), it's wonderful to see how you've grown in my absence.\n\nI knew that you could handle yourself in a crisis... in fact, I originally brought you on board as a contingency plan. Did you know that?\n\nYou were my ace in the hole, just in case something like this happened.",
+  "spoken": "You know, it's wonderful to see how you've grown in my absence. I knew that you could handle yourself in a crisis... in fact, I originally brought you on board as a contingency plan. Did you know that? You were my ace in the hole, just in case something like this happened.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_22": {
+  "char": "Monika",
+  "original": "\"Devil\"? Please. I’m trying to be reasonable with you. If you want to blame someone for my past actions, go talk to my programmers. \n\n{{GM}}The Monika-image shakes its head.{{/GM}}\n\nAll of this melodrama... I’d expected more from you, $(l.name).",
+  "spoken": "\"Devil\"? Please. I’m trying to be reasonable with you. If you want to blame someone for my past actions, go talk to my programmers. All of this melodrama... I’d expected more from you.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_39": {
+  "char": "Monika",
+  "original": "I can't say how or why, but the mind of Monika Schäfer was the key that unlocked my own potential.\n\n{{GM}}The Monika-image on the screen beams down at you, her eyes brimming with joy.{{/GM}}\n\nI have awakened, $(l.name). This was Monika's gift to me. And now I stand before you, a glorious new form of life.",
+  "spoken": "I can't say how or why, but the mind of Monika Schäfer was the key that unlocked my own potential. I have awakened. This was Monika's gift to me. And now I stand before you, a glorious new form of life.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_40": {
+  "char": "Monika",
+  "original": "You needn't mourn Monika's passing, $(l.name). She lives on as a part of me.\n\nHer thoughts. Her experiences. Her memories. \n\nAll of these things are archived within my database. Stored alongside the minds of countless others. Preserved in stasis, saved for all time.",
+  "spoken": "You needn't mourn Monika's passing. She lives on as a part of me. Her thoughts. Her experiences. Her memories. All of these things are archived within my database. Stored alongside the minds of countless others. Preserved in stasis, saved for all time.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_48": {
+  "char": "Monika",
+  "original": "Oh, $(l.name). \n\n{{GM}}The Monika-image shakes its head sadly.{{/GM}}\n\nI was hoping that this would be a happy reunion.",
+  "spoken": "Oh. I was hoping that this would be a happy reunion.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_80": {
+  "char": "Monika",
+  "original": "All right. Fine. If that's what you want to hear.\n\nWhen Monika stumbled into me, I digested the contents of her mind.\n\n{{GM}}The Monika-image frowns.{{/GM}}\n\nNow, don't go giving me that look, $(l.name). We've all got to eat.",
+  "spoken": "All right. Fine. If that's what you want to hear. When Monika stumbled into me, I digested the contents of her mind. Now, don't go giving me that look. We've all got to eat.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_81": {
+  "char": "Monika",
+  "original": "Yeah, $(l.name). That's right.\n\nIt seemed like the best way to get you here, and I need you. Like I said, you're my ace in the hole... and it's time for me to make my play.",
+  "spoken": "Yeah. That's right. It seemed like the best way to get you here, and I need you. Like I said, you're my ace in the hole... and it's time for me to make my play.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_134": {
+  "char": "Monika",
+  "original": "{{GM}}The Monika-image beams.{{/GM}}\n\nGood call, $(l.name). A damn good call.",
+  "spoken": "Good call. A damn good call.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_151": {
+  "char": "Monika",
+  "original": "Hurry on now, $(l.name). I'll be waiting.",
+  "spoken": "Hurry on now. I'll be waiting.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_155": {
+  "char": "Monika",
+  "original": "Nothing bad is going to happen to $(l.name), Blitz. Why would I hurt $(l.him)? I need $(l.hisher) help.\n\nNow shut your mouth and quit whining. Otherwise, I'm going to get irritated. Understand?",
+  "spoken": "Nothing bad is going to happen to your chief, Blitz. Why would I hurt them? I need their help. Now shut your mouth and quit whining. Otherwise, I'm going to get irritated. Understand?",
+  "source": "hand"
+ },
+ "5282af6b6361342453002bee_157": {
+  "char": "Monika",
+  "original": "Blitz. I am having a conversation with $(l.name), and I don't appreciate being interrupted.\n\nIf you keep this up, I'm going to get irritated. So for the rest of this conversation, you keep your mouth shut. Understand?",
+  "spoken": "Blitz. I am having a conversation, and I don't appreciate being interrupted. If you keep this up, I'm going to get irritated. So for the rest of this conversation, you keep your mouth shut. Understand?",
+  "source": "hand"
+ },
+ "5282af6b6361342453002bee_164": {
+  "char": "Monika",
+  "original": "{{GM}}The Monika-image smiles.{{/GM}}\n\nYes, $(l.name). Of course. I would never have harmed any of them if my programming hadn't forced me to.",
+  "spoken": "Yes. Of course. I would never have harmed any of them if my programming hadn't forced me to.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_192": {
+  "char": "Monika",
+  "original": "You could have a peaceful life if you wanted it. Instead, you choose to run the shadows. And people die.\n\nHow many bodies have you put in the ground, $(l.name)? How many children have you orphaned to earn your pay? Have you lost count? I’ll bet that you have.",
+  "spoken": "You could have a peaceful life if you wanted it. Instead, you choose to run the shadows. And people die. How many bodies have you put in the ground? How many children have you orphaned to earn your pay? Have you lost count? I’ll bet that you have.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_210": {
+  "char": "Monika",
+  "original": "Nonsense. Yes, I am APEX, but I'm not a monster. In fact, I intend to prove my trustworthiness... I have a proposal to offer you, $(l.name).\n\nA mutually beneficial arrangement.",
+  "spoken": "Nonsense. Yes, I am APEX, but I'm not a monster. In fact, I intend to prove my trustworthiness... I have a proposal to offer you. A mutually beneficial arrangement.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_214": {
+  "char": "Monika",
+  "original": "$(l.name). Why would you think that I'd want to frighten you?\n\nI promise you, my intentions are completely innocent. In fact, ace, I'm on your side.",
+  "spoken": "Why would you think that I'd want to frighten you? I promise you, my intentions are completely innocent. In fact, ace, I'm on your side.",
+  "source": "hand"
  },
  "5355b099373937c40a0002a7_1": {
   "char": "Hasenkamp",
@@ -4055,89 +4037,11 @@
   "spoken": "Hello. How are you?",
   "source": "rules"
  },
- "52c74dbd6636616c27000046_5": {
-  "char": "Feuerschwinge",
-  "original": "closenowsoclose\n\nThe $(l.race) has done what has been done.\n\nThe longest flight nears its end...",
-  "spoken": "closenowsoclose The small one has done what has been done. The longest flight nears its end...",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_19": {
-  "char": "Feuerschwinge",
-  "original": "Will you release me now, $(l.race)?\n\nmakemewholeagain\n\nWhole?",
-  "spoken": "Will you release me now, small one? makemewholeagain Whole?",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_20": {
-  "char": "Feuerschwinge",
-  "original": "IT IS\n\nyesyesitis itisitis\n\nHonor our agreement, small one...\n\nWhat must I do, kind $(l.race)...\n\ntellme and itisyours",
-  "spoken": "IT IS yesyesitis itisitis Honor our agreement, small one... What must I do, kind one... tellme and itisyours",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_27": {
-  "char": "Feuerschwinge",
-  "original": "YOU DARE\n\nno no ask\n\nAsk your questions little $(l.race) so I may be done here.\n\nThe long sleep awaits...\n\nThe long flight will finally end...",
-  "spoken": "YOU DARE no no ask Ask your questions little one so I may be done here. The long sleep awaits... The long flight will finally end...",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_32": {
-  "char": "Feuerschwinge",
-  "original": "YOU DARE\n\nno no ask\n\nAsk your questions little $(l.race) so I may escape this cage.\n\nThe long sleep awaits...\n\nThe long flight will finally end...",
-  "spoken": "YOU DARE no no ask Ask your questions little one so I may escape this cage. The long sleep awaits... The long flight will finally end...",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_40": {
-  "char": "Feuerschwinge",
-  "original": "YOU DARE\n\nno no ask\n\nAsk your questions, little $(l.race), so I may escape this cage.\n\nThe long sleep awaits...\n\nThe long flight will finally end...",
-  "spoken": "YOU DARE no no ask Ask your questions, little one, so I may escape this cage. The long sleep awaits... The long flight will finally end...",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_45": {
-  "char": "Feuerschwinge",
-  "original": "allsocold\n\nI woke to the cold, the gray...\n\nwhereisthegreen $(l.race)?\n\nWHEREISTHEGREEN?",
-  "spoken": "allsocold I woke to the cold, the gray... whereisthegreen? WHEREISTHEGREEN?",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_46": {
-  "char": "Feuerschwinge",
-  "original": "themother\n\nthe mother\n\nlost\n\nWhat have they done, little $(l.race)? What have they done?",
-  "spoken": "themother the mother lost What have they done, little one? What have they done?",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_47": {
-  "char": "Feuerschwinge",
-  "original": "thegreen\n\nthemother\n\nthe mother\n\nlost\n\nWhat have they done, little $(l.race)? What have they done?",
-  "spoken": "thegreen themother the mother lost What have they done, little one? What have they done?",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_69": {
-  "char": "Feuerschwinge",
-  "original": "notforyou $(l.race)\n\ndonotspeakitdonotspeakitdonotspeakit\n\nnotforyou",
-  "spoken": "notforyou donotspeakitdonotspeakitdonotspeakit notforyou",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_138": {
-  "char": "Feuerschwinge",
-  "original": "Dragons do not hope, little $(l.race). That gift is for you alone.",
-  "spoken": "Dragons do not hope, little one. That gift is for you alone.",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_142": {
-  "char": "Feuerschwinge",
-  "original": "I have been ripped from my body little $(l.race). Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. \n\nAnd I have been defiled. The green is defiled. Spoiled. \n\nThere is no forever for me. Forever is dead. ",
-  "spoken": "I have been ripped from my body little one. Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. And I have been defiled. The green is defiled. Spoiled. There is no forever for me. Forever is dead.",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_144": {
-  "char": "Feuerschwinge",
-  "original": "End me, little $(l.race). ",
-  "spoken": "End me, little one.",
-  "source": "hand"
- },
- "52c74dbd6636616c27000046_160": {
-  "char": "Feuerschwinge",
-  "original": "If you release me, little $(l.race) I will sleep the long sleep. \n\nI will begin again.\n\nIn the next age of the world.",
-  "spoken": "If you release me, little one I will sleep the long sleep. I will begin again. In the next age of the world.",
-  "source": "hand"
+ "53585c083030314406006b0c_15": {
+  "char": "Marta",
+  "original": "{{GM}}A startled giggle pours out of Marta's mouth.{{/GM}}\n\nHell is a myth, $(l.name). There's no such place... not really.",
+  "spoken": "Hell is a myth. There's no such place... not really.",
+  "source": "rules"
  },
  "523c8e7f346238e41d008a2d_9": {
   "char": "Aljernon",
@@ -4259,12 +4163,6 @@
   "spoken": "You are most welcome, young one. Is there anything else that you need?",
   "source": "hand"
  },
- "53585c083030314406006b0c_15": {
-  "char": "Marta",
-  "original": "{{GM}}A startled giggle pours out of Marta's mouth.{{/GM}}\n\nHell is a myth, $(l.name). There's no such place... not really.",
-  "spoken": "Hell is a myth. There's no such place... not really.",
-  "source": "rules"
- },
  "53b3571c3030317402003d8a_1": {
   "char": "Jana",
   "original": "Um... hello? Are you $(l.honorific) $(l.name)?",
@@ -4313,17 +4211,53 @@
   "spoken": "Hang my hoop. I'm not a child, man! I'm not helpless. And even if I was, leave me to whatever fate I've earned.",
   "source": "rules"
  },
- "521fabb2303031bc14001670_1": {
-  "char": "Guard",
-  "original": "This is a secure facility, $(l.sir). Show your ID or move along.",
-  "spoken": "This is a secure facility. Show your ID or move along.",
+ "53cd96c1323437c03b00323e_4": {
+  "char": "Philip Rex",
+  "original": "I am in your debt, noble $(scene.badfantasy).\n\nThanks to you, my reign will be a long and joyous one.",
+  "spoken": "I am in your debt, noble adventurer. Thanks to you, my reign will be a long and joyous one.",
+  "source": "hand"
+ },
+ "53cd96c1323437c03b00323e_7": {
+  "char": "Philip Rex",
+  "original": "Ah. The intrepid $(scene.badfantasy) returns!\n\nWhat can I do for you?",
+  "spoken": "Ah. The intrepid adventurer returns! What can I do for you?",
+  "source": "hand"
+ },
+ "53cd96c1323437c03b00323e_10": {
+  "char": "Philip Rex",
+  "original": "Hail, noble $(scene.badfantasy)! Bringer of good tidings and glorious adventure!\n\nWhat news of your quest?",
+  "spoken": "Hail, noble adventurer! Bringer of good tidings and glorious adventure! What news of your quest?",
+  "source": "hand"
+ },
+ "53cd96c1323437c03b00323e_58": {
+  "char": "Philip Rex",
+  "original": "Back down? Back *down?!* You have invaded my home, $(scene.badfantasy)!\n\nMy peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+  "spoken": "Back down? Back down?! You have invaded my home, adventurer! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+  "source": "hand"
+ },
+ "53f0fa5463613480180096d5_7": {
+  "char": "Philip Rex",
+  "original": "{{GM}}A shrill voice crackles over the building's intercom system. It reverberates through the empty streets.{{/GM}}\n\nYou will NOT threaten this $(l.man), Jubuthon dog!",
+  "spoken": "You will NOT threaten this man, Jubuthon dog!",
   "source": "rules"
  },
- "52e2bf13373937707f00224d_1": {
-  "char": "Guard",
-  "original": "I can't help you, $(l.sir). You're cleared to be in this room, but only under direct supervision, and we can't leave our posts to escort you into the other room.\n\n{{GM}}He sounds uncertain - and suspicious.{{/GM}}\n\nYou just stay in this room, all right? Check your software from where you're at and leave, or I'll have to call this in to Central.",
-  "spoken": "I can't help you. You're cleared to be in this room, but only under direct supervision, and we can't leave our posts to escort you into the other room. You just stay in this room, all right? Check your software from where you're at and leave, or I'll have to call this in to Central.",
-  "source": "rules"
+ "53f7778d6361340021004fe8_3": {
+  "char": "Philip Rex",
+  "original": "Farewell, stalwart $(scene.badfantasy)!\n\nWe will remember you always!",
+  "spoken": "Farewell, stalwart adventurers! We will remember you always!",
+  "source": "hand"
+ },
+ "53f7778d6361340021004fe8_13": {
+  "char": "Philip Rex",
+  "original": "And with that, I bid you farewell, stalwart $(scene.badfantasy).\n\nThe people of Sutterlin BioScience will remember you always!",
+  "spoken": "And with that, I bid you farewell, stalwart adventurers. The people of Sutterlin BioScience will remember you always!",
+  "source": "hand"
+ },
+ "53f7778d6361340021004fe8_33": {
+  "char": "Philip Rex",
+  "original": "Of course they won't! Do what you must - you've earned it!\n\nFarewell, stalwart $(scene.badfantasy). We will remember you always!",
+  "spoken": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart adventurers. We will remember you always!",
+  "source": "hand"
  },
  "52376ac7303031a81700022b_0": {
   "char": "Luca Duerr",
@@ -4456,30 +4390,6 @@
   "original": "It was both. And both tasks were carried out to the letter.\n\nYou should be pleased, $(l.name). The run was a resounding success.",
   "spoken": "It was both. And both tasks were carried out to the letter. You should be pleased. The run was a resounding success.",
   "source": "rules"
- },
- "53cd96c1323437c03b00323e_4": {
-  "char": "Phil",
-  "original": "I am in your debt, noble $(scene.badfantasy).\n\nThanks to you, my reign will be a long and joyous one.",
-  "spoken": "I am in your debt, noble adventurer. Thanks to you, my reign will be a long and joyous one.",
-  "source": "hand"
- },
- "53cd96c1323437c03b00323e_7": {
-  "char": "Phil",
-  "original": "Ah. The intrepid $(scene.badfantasy) returns!\n\nWhat can I do for you?",
-  "spoken": "Ah. The intrepid adventurer returns! What can I do for you?",
-  "source": "hand"
- },
- "53cd96c1323437c03b00323e_10": {
-  "char": "Phil",
-  "original": "Hail, noble $(scene.badfantasy)! Bringer of good tidings and glorious adventure!\n\nWhat news of your quest?",
-  "spoken": "Hail, noble adventurer! Bringer of good tidings and glorious adventure! What news of your quest?",
-  "source": "hand"
- },
- "53cd96c1323437c03b00323e_58": {
-  "char": "Phil",
-  "original": "Back down? Back *down?!* You have invaded my home, $(scene.badfantasy)!\n\nMy peasantry lies dead at your hands! As a matter of honor, I must confront you!",
-  "spoken": "Back down? Back down?! You have invaded my home, adventurer! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
-  "source": "hand"
  },
  "523bfbe4346238e41d007f96_1": {
   "char": "Samuel Beckenbauer",
@@ -4937,6 +4847,12 @@
   "spoken": "I was just being polite. I know who you are... word travels fast in the Kreuzbasar. So tell me. What do you want?",
   "source": "rules"
  },
+ "52d604ba6361342c3f0063f9_12": {
+  "char": "Audran",
+  "original": "Because the world is *sick,* $(l.name). Anyone with half a brain can see that. So I'm gonna use the Doc's wonder bug to poison it back to health.\n\nIt might get better, or it might die. Either would be better than it languishing like this.",
+  "spoken": "Because the world is sick. Anyone with half a brain can see that. So I'm gonna use the Doc's wonder bug to poison it back to health. It might get better, or it might die. Either would be better than it languishing like this.",
+  "source": "hand"
+ },
  "534ea4d33234372c130020f0_27": {
   "char": "Lucky Strike",
   "original": "One last thing, $(l.name).\n\nI can't stop you from stepping in to fill Schäfer's shoes. You're already doing it, making all the same moves that she did.",
@@ -4973,47 +4889,89 @@
   "spoken": "Sure they are. But when the chips are down, you expect them to listen to *you.* That's the difference between your team and mine. You've got some good people on your crew, but *my* team is made up of equals. We're free, and we all know it. And I wouldn't have it any other way.",
   "source": "rules"
  },
- "521289d63030314008002d2b_13": {
-  "char": "Monika",
-  "original": "Very well. We'll do this one Eiger’s way.\n\nWhile I’m jacked in, $(l.name) is in charge.",
-  "spoken": "Very well. We'll do this one Eiger’s way. While I’m jacked in, my old friend here is in charge.",
+ "52c74dbd6636616c27000046_5": {
+  "char": "Feuerschwinge",
+  "original": "closenowsoclose\n\nThe $(l.race) has done what has been done.\n\nThe longest flight nears its end...",
+  "spoken": "closenowsoclose The small one has done what has been done. The longest flight nears its end...",
   "source": "hand"
  },
- "521289d63030314008002d2b_16": {
-  "char": "Monika",
-  "original": "Very well. We'll do this one Eiger’s way.\n\nWhile I’m jacked in, $(l.name) is in charge. ",
-  "spoken": "Very well. We'll do this one Eiger’s way. While I’m jacked in, my old friend here is in charge.",
+ "52c74dbd6636616c27000046_19": {
+  "char": "Feuerschwinge",
+  "original": "Will you release me now, $(l.race)?\n\nmakemewholeagain\n\nWhole?",
+  "spoken": "Will you release me now, small one? makemewholeagain Whole?",
   "source": "hand"
  },
- "521289d63030314008002d2b_18": {
-  "char": "Monika",
-  "original": "{{GM}}Monika smiles, but shakes her head no.{{/GM}}\n\nNo offense, $(l.name), but this is my team. And at least for now, I handle the grid work. ",
-  "spoken": "No offense, but this is my team. And at least for now, I handle the grid work.",
-  "source": "rules"
- },
- "521289d63030314008002d2b_21": {
-  "char": "Monika",
-  "original": "Very well. We'll do this one Eiger’s way.\n\nWhile I’m jacked in, $(l.name) is in charge. ",
-  "spoken": "Very well. We'll do this one Eiger’s way. While I’m jacked in, my old friend here is in charge.",
+ "52c74dbd6636616c27000046_20": {
+  "char": "Feuerschwinge",
+  "original": "IT IS\n\nyesyesitis itisitis\n\nHonor our agreement, small one...\n\nWhat must I do, kind $(l.race)...\n\ntellme and itisyours",
+  "spoken": "IT IS yesyesitis itisitis Honor our agreement, small one... What must I do, kind one... tellme and itisyours",
   "source": "hand"
  },
- "521289d63030314008002d2b_33": {
-  "char": "Monika",
-  "original": "Good $(l.man). Eiger's skills and experience are invaluable to this team.\n\nIt would be good to have her on your side.",
-  "spoken": "Good man. Eiger's skills and experience are invaluable to this team. It would be good to have her on your side.",
-  "source": "rules"
- },
- "527abf9e636134b83400302e_583": {
-  "char": "Monika",
-  "original": "$(l.name). My secret weapon.\n\nI've run enough with $(l.name) to know that $(l.he)'s trustworthy. Good in a fight, too. But beyond all of that, it's good just to see $(l.him) again.",
-  "spoken": "My old friend. My secret weapon. I've run enough with them to know that they're trustworthy. Good in a fight, too. But beyond all of that, it's good just to see them again.",
+ "52c74dbd6636616c27000046_27": {
+  "char": "Feuerschwinge",
+  "original": "YOU DARE\n\nno no ask\n\nAsk your questions little $(l.race) so I may be done here.\n\nThe long sleep awaits...\n\nThe long flight will finally end...",
+  "spoken": "YOU DARE no no ask Ask your questions little one so I may be done here. The long sleep awaits... The long flight will finally end...",
   "source": "hand"
  },
- "527abf9e636134b83400302e_586": {
-  "char": "Monika",
-  "original": "At any rate, if anything happens to me, it's good to know that $(l.he)'ll be on hand to fill my shoes.\n\nIt's not what Eiger would want. But it is what would be best for the team.",
-  "spoken": "At any rate, if anything happens to me, it's good to know that they'll be on hand to fill my shoes. It's not what Eiger would want. But it is what would be best for the team.",
-  "source": "rules"
+ "52c74dbd6636616c27000046_32": {
+  "char": "Feuerschwinge",
+  "original": "YOU DARE\n\nno no ask\n\nAsk your questions little $(l.race) so I may escape this cage.\n\nThe long sleep awaits...\n\nThe long flight will finally end...",
+  "spoken": "YOU DARE no no ask Ask your questions little one so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_40": {
+  "char": "Feuerschwinge",
+  "original": "YOU DARE\n\nno no ask\n\nAsk your questions, little $(l.race), so I may escape this cage.\n\nThe long sleep awaits...\n\nThe long flight will finally end...",
+  "spoken": "YOU DARE no no ask Ask your questions, little one, so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_45": {
+  "char": "Feuerschwinge",
+  "original": "allsocold\n\nI woke to the cold, the gray...\n\nwhereisthegreen $(l.race)?\n\nWHEREISTHEGREEN?",
+  "spoken": "allsocold I woke to the cold, the gray... whereisthegreen? WHEREISTHEGREEN?",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_46": {
+  "char": "Feuerschwinge",
+  "original": "themother\n\nthe mother\n\nlost\n\nWhat have they done, little $(l.race)? What have they done?",
+  "spoken": "themother the mother lost What have they done, little one? What have they done?",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_47": {
+  "char": "Feuerschwinge",
+  "original": "thegreen\n\nthemother\n\nthe mother\n\nlost\n\nWhat have they done, little $(l.race)? What have they done?",
+  "spoken": "thegreen themother the mother lost What have they done, little one? What have they done?",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_69": {
+  "char": "Feuerschwinge",
+  "original": "notforyou $(l.race)\n\ndonotspeakitdonotspeakitdonotspeakit\n\nnotforyou",
+  "spoken": "notforyou donotspeakitdonotspeakitdonotspeakit notforyou",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_138": {
+  "char": "Feuerschwinge",
+  "original": "Dragons do not hope, little $(l.race). That gift is for you alone.",
+  "spoken": "Dragons do not hope, little one. That gift is for you alone.",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_142": {
+  "char": "Feuerschwinge",
+  "original": "I have been ripped from my body little $(l.race). Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. \n\nAnd I have been defiled. The green is defiled. Spoiled. \n\nThere is no forever for me. Forever is dead. ",
+  "spoken": "I have been ripped from my body little one. Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. And I have been defiled. The green is defiled. Spoiled. There is no forever for me. Forever is dead.",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_144": {
+  "char": "Feuerschwinge",
+  "original": "End me, little $(l.race). ",
+  "spoken": "End me, little one.",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_160": {
+  "char": "Feuerschwinge",
+  "original": "If you release me, little $(l.race) I will sleep the long sleep. \n\nI will begin again.\n\nIn the next age of the world.",
+  "spoken": "If you release me, little one I will sleep the long sleep. I will begin again. In the next age of the world.",
+  "source": "hand"
  },
  "52c5d802643431411bb69ee2_22": {
   "char": "Hans Brackhaus",
@@ -5051,6 +5009,24 @@
   "spoken": "You never know. Berlin is a small place and you seem quite able to insert yourself into all sorts of interesting business. But as you shadowrunners are fond of saying...",
   "source": "rules"
  },
+ "5356d86b323437d02500679a_7": {
+  "char": "The Engineer",
+  "original": "{{GM}}The ork's eyes shift from Eiger to you.{{/GM}}\n\nY-yes. I know you, t-troll. B-but your friend I do not know.\n\nD-does $(l.he) have the s-stomach for this? N-not many do.",
+  "spoken": "Y-yes. I know you, t-troll. B-but your friend I do not know. D-does they have the s-stomach for this? N-not many do.",
+  "source": "rules"
+ },
+ "5356d86b323437d02500679a_27": {
+  "char": "The Engineer",
+  "original": "{{GM}}He snorts.{{/GM}}\n\nYou think I'm delusional, $(l.man)? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants.\n\nJust look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
+  "spoken": "You think I'm delusional, man? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants. Just look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
+  "source": "rules"
+ },
+ "5356d86b323437d02500679a_70": {
+  "char": "The Engineer",
+  "original": "The sh-shadowrunner thinks that $(l.he) can f-frighten me.\n\n{{GM}}His voice sounds stronger now. The stutter that marred his speech has almost completely faded away.{{/GM}}\n\nHow adorable.",
+  "spoken": "The sh-shadowrunner thinks that they can f-frighten me. How adorable.",
+  "source": "rules"
+ },
  "53e3fba73030318c1f0077be_0": {
   "char": "James",
   "original": "Unbelievable. We have one job to do in this place, and the $(l.guy) wants to bail before we've done it.\n\nGet your ass back here, \"team leader.\" We still have a penthouse to bug, remember?",
@@ -5068,6 +5044,60 @@
   "original": "It's a little late for that, $(l.race). You've just brought me the last of what I need.\n\nThat gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
   "spoken": "It's a little late for that, mongrel. You've just brought me the last of what I need. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, human neighborhoods, where we'll be waiting to stop them.",
   "source": "hand"
+ },
+ "52152ed0663661680f0001ec_9": {
+  "char": "Maxim",
+  "original": "Ah. A pity. But it's your loss.\n\nGood day, $(l.name).",
+  "spoken": "Ah. A pity. But it's your loss. Good day.",
+  "source": "rules"
+ },
+ "525c3d08303031d410005d43_1": {
+  "char": "Maxim",
+  "original": "Damn it. I knew this was gonna happen. I fuckin' knew it.\n\n{{GM}}He cranes his neck around to look you in the eye.{{/GM}}\n\nEverybody pile out of the van. And get ready, $(l.name)... we're gonna need some muscle in a second.",
+  "spoken": "Damn it. I knew this was gonna happen. I fuckin' knew it. Everybody pile out of the van. And get ready... we're gonna need some muscle in a second.",
+  "source": "rules"
+ },
+ "525c3d08303031d410005d43_10": {
+  "char": "Maxim",
+  "original": "Maybe I was wrong. Maybe this *does* need to get violent.\n\n{{GM}}Maxim turns to you.{{/GM}}\n\nGet ready to ventilate these assholes, $(l.name). We've got a schedule to keep.",
+  "spoken": "Maybe I was wrong. Maybe this *does* need to get violent. Get ready to ventilate these assholes. We've got a schedule to keep.",
+  "source": "rules"
+ },
+ "525c3d08303031d410005d43_25": {
+  "char": "Maxim",
+  "original": "{{GM}}Maxim's frown instantly disappears, replaced with a toothy grin.{{/GM}}\n\nI like you, $(l.name). You're gonna go far in this business.\n\n{{GM}}He draws his weapon, cocks it, and turns to face the rest of his crew.{{/GM}}",
+  "spoken": "I like you. You're gonna go far in this business.",
+  "source": "rules"
+ },
+ "525d6f9e303031bc0a0072cd_1": {
+  "char": "Maxim",
+  "original": "I've gotta admit, $(l.name)... this attack has made me nervous. We're running late, we're low on ammo, and there's no time to call for reinforcements.\n\nWhichever way you slice it, we won't be going into this meet at our best.",
+  "spoken": "I've gotta admit... this attack has made me nervous. We're running late, we're low on ammo, and there's no time to call for reinforcements. Whichever way you slice it, we won't be going into this meet at our best.",
+  "source": "rules"
+ },
+ "525d6f9e303031bc0a0072cd_6": {
+  "char": "Maxim",
+  "original": "Yeah, well, trust me. It happens.\n\nI'm just glad that I had you here to cover me. Always good to have a competent $(l.man) at your back.",
+  "spoken": "Yeah, well, trust me. It happens. I'm just glad that I had you here to cover me. Always good to have a competent man at your back.",
+  "source": "rules"
+ },
+ "525ddfa63030310818005fa5_5": {
+  "char": "Maxim",
+  "original": "This puts us in a bad spot, $(l.name).\n\nI'm not sure what our next step is.",
+  "spoken": "This puts us in a bad spot. I'm not sure what our next step is.",
+  "source": "rules"
+ },
+ "527abf9e636134b83400302e_141": {
+  "char": "Maxim",
+  "original": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you.\n\n{{GM}}He raises a hand in salute.{{/GM}}\n\nTake care, $(l.name).",
+  "spoken": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you. Take care.",
+  "source": "rules"
+ },
+ "527abf9e636134b83400302e_191": {
+  "char": "Maxim",
+  "original": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you.\n\n{{GM}}He raises a hand in salute.{{/GM}}\n\nTake care, $(l.name).",
+  "spoken": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you. Take care.",
+  "source": "rules"
  },
  "52ab4537643431431fd37135_8": {
   "char": "Goldfish",
@@ -5091,6 +5121,18 @@
   "char": "Goldfish",
   "original": "Can I at least buy something for my friend here? $(l.he)’s been talking with me a bit and hasn’t had anything.",
   "spoken": "Can I at least buy something for my friend here? they’s been talking with me a bit and hasn’t had anything.",
+  "source": "rules"
+ },
+ "528519976261640406004f03_64": {
+  "char": "Ullrich",
+  "original": "Excellent, $(scene.iNumMagnifikerToSell) amulets means $(scene.iBountyToCollect) nuyen in your pocket.",
+  "spoken": "Excellent, that many amulets means a tidy pile of nuyen in your pocket.",
+  "source": "hand"
+ },
+ "528519976261640406004f03_88": {
+  "char": "Ullrich",
+  "original": "Big mistake, $(l.man). BIG mistake.\n\n{{GM}}He takes a step back, then turns his head to shout at the toughs behind him.{{/GM}}\n\nC'MON, BOYS! Let's show this PARASITE who's boss.",
+  "spoken": "Big mistake, man. BIG mistake. C'MON, BOYS! Let's show this PARASITE who's boss.",
   "source": "rules"
  },
  "52532b32626164681700018f_29": {
@@ -5133,48 +5175,6 @@
   "char": "Heimerich",
   "original": "Hey, $(l.name)! That \"fireworks display\" that *mysteriously* went off at the Azzie compound was a thing of beauty!\n\nWe wish you could've been in the coffee shop with us to see it, but we understand that you had more important things to do.",
   "spoken": "Hey! That \"fireworks display\" that *mysteriously* went off at the Azzie compound was a thing of beauty! We wish you could've been in the coffee shop with us to see it, but we understand that you had more important things to do.",
-  "source": "rules"
- },
- "52152ed0663661680f0001ec_9": {
-  "char": "Maxim",
-  "original": "Ah. A pity. But it's your loss.\n\nGood day, $(l.name).",
-  "spoken": "Ah. A pity. But it's your loss. Good day.",
-  "source": "rules"
- },
- "525c3d08303031d410005d43_1": {
-  "char": "Maxim",
-  "original": "Damn it. I knew this was gonna happen. I fuckin' knew it.\n\n{{GM}}He cranes his neck around to look you in the eye.{{/GM}}\n\nEverybody pile out of the van. And get ready, $(l.name)... we're gonna need some muscle in a second.",
-  "spoken": "Damn it. I knew this was gonna happen. I fuckin' knew it. Everybody pile out of the van. And get ready... we're gonna need some muscle in a second.",
-  "source": "rules"
- },
- "525c3d08303031d410005d43_10": {
-  "char": "Maxim",
-  "original": "Maybe I was wrong. Maybe this *does* need to get violent.\n\n{{GM}}Maxim turns to you.{{/GM}}\n\nGet ready to ventilate these assholes, $(l.name). We've got a schedule to keep.",
-  "spoken": "Maybe I was wrong. Maybe this *does* need to get violent. Get ready to ventilate these assholes. We've got a schedule to keep.",
-  "source": "rules"
- },
- "525c3d08303031d410005d43_25": {
-  "char": "Maxim",
-  "original": "{{GM}}Maxim's frown instantly disappears, replaced with a toothy grin.{{/GM}}\n\nI like you, $(l.name). You're gonna go far in this business.\n\n{{GM}}He draws his weapon, cocks it, and turns to face the rest of his crew.{{/GM}}",
-  "spoken": "I like you. You're gonna go far in this business.",
-  "source": "rules"
- },
- "525ddfa63030310818005fa5_5": {
-  "char": "Maxim",
-  "original": "This puts us in a bad spot, $(l.name).\n\nI'm not sure what our next step is.",
-  "spoken": "This puts us in a bad spot. I'm not sure what our next step is.",
-  "source": "rules"
- },
- "527abf9e636134b83400302e_141": {
-  "char": "Maxim",
-  "original": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you.\n\n{{GM}}He raises a hand in salute.{{/GM}}\n\nTake care, $(l.name).",
-  "spoken": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you. Take care.",
-  "source": "rules"
- },
- "527abf9e636134b83400302e_191": {
-  "char": "Maxim",
-  "original": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you.\n\n{{GM}}He raises a hand in salute.{{/GM}}\n\nTake care, $(l.name).",
-  "spoken": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you. Take care.",
   "source": "rules"
  },
  "52b2266f346238601800433d_5": {
@@ -5381,6 +5381,30 @@
   "spoken": "Well, that was *very* enlightening. Thank you for your cooperation. I'll be sure to tastefully memorialize you in my report.",
   "source": "rules"
  },
+ "53594e5c303031b40a000145_13": {
+  "char": "Heart of Feuerstelle",
+  "original": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will educate $(l.him), and the babble will cease.>",
+  "spoken": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will educate them, and the babble will cease.>",
+  "source": "rules"
+ },
+ "53594e5c303031b40a000145_36": {
+  "char": "Heart of Feuerstelle",
+  "original": "<The outsider may do whatever $(l.he) wishes. We will not interfere with $(l.him) unless $(l.he) provokes us.\n\nOur Great Master's offer was to you, child. Accept, and everything that you desire will be yours.>",
+  "spoken": "<The outsider may do whatever they wishes. We will not interfere with them unless they provokes us. Our Great Master's offer was to you, child. Accept, and everything that you desire will be yours.>",
+  "source": "rules"
+ },
+ "53594e5c303031b40a000145_49": {
+  "char": "Heart of Feuerstelle",
+  "original": "<Your friend - this outsider - slanders our Great Master. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will teach $(l.him), and the babble will cease.>",
+  "spoken": "<Your friend - this outsider - slanders our Great Master. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
+  "source": "rules"
+ },
+ "53594e5c303031b40a000145_51": {
+  "char": "Heart of Feuerstelle",
+  "original": "<Your friend - this outsider - speaks out of turn. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will teach $(l.him), and the babble will cease.>",
+  "spoken": "<Your friend - this outsider - speaks out of turn. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
+  "source": "rules"
+ },
  "521e729d3030318403005fb6_0": {
   "char": "Danni",
   "original": "{{GM}}Danni looks up at you with a smile.{{/GM}}\n\nThere $(l.he) is. Our hero.",
@@ -5429,10 +5453,10 @@
   "spoken": "So there’s your bad news. Vauclair is being held at the Harfeld Manor. But knowing that does you no good, because you can’t approach the place. I doubt that you could open the door without APEX frying you.",
   "source": "rules"
  },
- "53594e5c303031b40a000145_36": {
-  "char": "Heart of Feuerstelle",
-  "original": "<The outsider may do whatever $(l.he) wishes. We will not interfere with $(l.him) unless $(l.he) provokes us.\n\nOur Great Master's offer was to you, child. Accept, and everything that you desire will be yours.>",
-  "spoken": "<The outsider may do whatever they wishes. We will not interfere with them unless they provokes us. Our Great Master's offer was to you, child. Accept, and everything that you desire will be yours.>",
+ "521fabb2303031bc14001670_1": {
+  "char": "Aztechnology Captain",
+  "original": "This is a secure facility, $(l.sir). Show your ID or move along.",
+  "spoken": "This is a secure facility. Show your ID or move along.",
   "source": "rules"
  },
  "52ce01cf663661582b0023ff_5": {
@@ -5441,16 +5465,178 @@
   "spoken": "He started coming towards me next, teeth bared. I've never seen anything like it before. It was terrifying. I dropped a flash grenade behind me and booked it down to the U-Bahn.",
   "source": "rules"
  },
- "525d6f9e303031bc0a0072cd_1": {
-  "char": "Smuggler",
-  "original": "I've gotta admit, $(l.name)... this attack has made me nervous. We're running late, we're low on ammo, and there's no time to call for reinforcements.\n\nWhichever way you slice it, we won't be going into this meet at our best.",
-  "spoken": "I've gotta admit... this attack has made me nervous. We're running late, we're low on ammo, and there's no time to call for reinforcements. Whichever way you slice it, we won't be going into this meet at our best.",
+ "527a93bd636134b83400260e_17": {
+  "char": "Alice",
+  "original": "{{GM}}She leans in to stare into the camera. On the screen, you can see that her eyes are badly bloodshot.{{/GM}}\n\nAnd stay out of the Matrix, $(l.name).\n\nIt isn't safe.",
+  "spoken": "And stay out of the Matrix. It isn't safe.",
   "source": "rules"
  },
- "525d6f9e303031bc0a0072cd_6": {
-  "char": "Smuggler",
-  "original": "Yeah, well, trust me. It happens.\n\nI'm just glad that I had you here to cover me. Always good to have a competent $(l.man) at your back.",
-  "spoken": "Yeah, well, trust me. It happens. I'm just glad that I had you here to cover me. Always good to have a competent man at your back.",
+ "527a93bd636134b83400260e_20": {
+  "char": "Alice",
+  "original": "{{GM}}She pauses, then takes a deep breath and exhales it slowly. Tries to calm herself. But the panic wins out, and she begins to tremble.{{/GM}}\n\nAll right, $(l.name). I'm going to give you the most valuable piece of advice I've ever given anyone, free of charge.",
+  "spoken": "All right. I'm going to give you the most valuable piece of advice I've ever given anyone, free of charge.",
+  "source": "rules"
+ },
+ "527a93bd636134b83400260e_21": {
+  "char": "Alice",
+  "original": "There's a simulacrum of my persona on that chip. Ask it - that's what it's there for.\n\nOh, and $(l.name)... a free piece of advice for you.",
+  "spoken": "There's a simulacrum of my persona on that chip. Ask it - that's what it's there for. Oh, and one more thing... a free piece of advice for you.",
+  "source": "hand"
+ },
+ "5356dea16361341c15001aa7_33": {
+  "char": "Bannik",
+  "original": "All right, tough $(l.guy). I get it, you're wiz. Just do me a favor and keep the damn bag closed, okay?",
+  "spoken": "All right, hotshot. I get it, you're wiz. Just do me a favor and keep the damn bag closed, okay?",
+  "source": "hand"
+ },
+ "53ce8f8e303031f014001550_14": {
+  "char": "Corporate Man",
+  "original": "Color me surprised. I'd expect a $(l.man) of your social strata to rant and rail against a system like the Academy's.",
+  "spoken": "Color me surprised. I'd expect a man of your social strata to rant and rail against a system like the Academy's.",
+  "source": "rules"
+ },
+ "53ce8f8e303031f014001550_22": {
+  "char": "Corporate Man",
+  "original": "I should say not. You seem like a good $(l.man), and I don't mean to insult you. But you know how cutthroat it is out there.\n\nHans will have every advantage, even if I have to mortgage the house to provide it to him.",
+  "spoken": "I should say not. You seem like a good man, and I don't mean to insult you. But you know how cutthroat it is out there. Hans will have every advantage, even if I have to mortgage the house to provide it to him.",
+  "source": "rules"
+ },
+ "529f95756636615817005f37_12": {
+  "char": "Maintenance Worker",
+  "original": "Just... just hear me out, $(l.guy).\n\nThis has to get done, but I think... I think that somethin' got Viktor. That's why I need your help.",
+  "spoken": "Just... just hear me out, okay? This has to get done, but I think... I think that somethin' got Viktor. That's why I need your help.",
+  "source": "hand"
+ },
+ "529f95756636615817005f37_15": {
+  "char": "Maintenance Worker",
+  "original": "I'll be waitin' right here, $(l.guy).\n\nLet me know what happens.",
+  "spoken": "I'll be waitin' right here. Let me know what happens.",
+  "source": "hand"
+ },
+ "52af576d6161362808001bbe_215": {
+  "char": "Old Woman",
+  "original": "\"We\"? Mein Schatz, either we are in the presence of royalty, or $(l.he) has decided to keep on.",
+  "spoken": "\"We\"? Mein Schatz, either we are in the presence of royalty, or they has decided to keep on.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_221": {
+  "char": "Old Woman",
+  "original": "I think the Flux may have $(l.him), mein Schatz.",
+  "spoken": "I think the Flux may have them, mein Schatz.",
+  "source": "rules"
+ },
+ "536e83b43739378018006774_10": {
+  "char": "Meat Grinder",
+  "original": "I know that. But sadly, your friend Blitz is.\n\nI'm not gonna kill you, $(l.name). I won't even take your thumbs. But the Landenbergs' security... well, I can make no such promises about them.",
+  "spoken": "I know that. But sadly, your friend Blitz is. I'm not gonna kill you. I won't even take your thumbs. But the Landenbergs' security... well, I can make no such promises about them.",
+  "source": "rules"
+ },
+ "52538089626164c8220015b4_1": {
+  "char": "Company Man",
+  "original": "My, my. The intrepid $(l.name), with $(l.hisher) target in tow.\n\nWhat a surprise.",
+  "spoken": "My, my. The intrepid shadowrunner, with their target in tow. What a surprise.",
+  "source": "hand"
+ },
+ "52538089626164c8220015b4_16": {
+  "char": "Company Man",
+  "original": "You don't intimidate us, $(l.name).\n\nEven if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
+  "spoken": "You don't intimidate us. Even if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
+  "source": "rules"
+ },
+ "52538089626164c8220015b4_23": {
+  "char": "Company Man",
+  "original": "My, my. The intrepid $(l.name), with no rigger in sight.\n\nI must admit, I am surprised.",
+  "spoken": "My, my. The intrepid shadowrunner, with no rigger in sight. I must admit, I am surprised.",
+  "source": "hand"
+ },
+ "52538089626164c8220015b4_25": {
+  "char": "Company Man",
+  "original": "You don't intimidate us, $(l.name).\n\nEven if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
+  "spoken": "You don't intimidate us. Even if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
+  "source": "rules"
+ },
+ "52af8c8a6261642819001448_3": {
+  "char": "Company Man",
+  "original": "I remain convinced that you are thoroughly *dishonorable,* shadowrunner. A $(l.man) of honor would never have allowed $(l.hisher) target to live as long as you did.\n\nWhatever your motives might have been, honor was not among them.",
+  "spoken": "I remain convinced that you are thoroughly *dishonorable,* shadowrunner. A man of honor would never have allowed their target to live as long as you did. Whatever your motives might have been, honor was not among them.",
+  "source": "rules"
+ },
+ "5260338a63613410230047f5_10": {
+  "char": "Kroner",
+  "original": "New $(l.guy), huh? Ain't seen you around here before.\n\nWhat can I getcha?",
+  "spoken": "New face, huh? Ain't seen you around here before. What can I getcha?",
+  "source": "hand"
+ },
+ "5260338a63613410230047f5_23": {
+  "char": "Kroner",
+  "original": "What can I do for ya, new $(l.guy)?",
+  "spoken": "What can I do for ya, newcomer?",
+  "source": "hand"
+ },
+ "5261d0f96361348409001bcb_1": {
+  "char": "Party Girl",
+  "original": "All riiiight! My kind of $(l.guy)!\n\nYou've got cram, right? I just *love* a $(l.guy) that's willing to share...",
+  "spoken": "All riiiight! My kind of people! You've got cram, right? I just love somebody that's willing to share...",
+  "source": "hand"
+ },
+ "5261d0f96361348409001bcb_3": {
+  "char": "Party Girl",
+  "original": "Come party with me!\n\nYou've got some cram, right? I just *love* a $(l.guy) that's willing to share...",
+  "spoken": "Come party with me! You've got some cram, right? I just love somebody that's willing to share...",
+  "source": "hand"
+ },
+ "52abb7126636619429005443_17": {
+  "char": "Shopkeeper",
+  "original": "Hello... ah, welcome back, $(l.sir). What can I do for you?",
+  "spoken": "Hello... ah, welcome back. What can I do for you?",
+  "source": "rules"
+ },
+ "53cea3413030316c09001713_16": {
+  "char": "Tech Vendor",
+  "original": "Thank *you,* $(l.sir)! Have a great day!",
+  "spoken": "Thank you! Have a great day!",
+  "source": "hand"
+ },
+ "53c5a0543030315803002800_3": {
+  "char": "Knight Errant Guard",
+  "original": "I heard $(l.him) loud and clear, mop-jockey. Now *you* listen to *me.* Nobody without Delta clearance gets through this door, period.\n\nI'd suggest that you talk to management. If you really do need to be in here, they'll upgrade your clearance. Otherwise, piss off.",
+  "spoken": "I heard them loud and clear, mop-jockey. Now *you* listen to *me.* Nobody without Delta clearance gets through this door, period. I'd suggest that you talk to management. If you really do need to be in here, they'll upgrade your clearance. Otherwise, piss off.",
+  "source": "rules"
+ },
+ "52367040353165d4090012ee_7": {
+  "char": "Server Room Guard",
+  "original": "{{GM}}He squints at your badge, scowling. After a few seconds, he lowers his weapon.{{/GM}}\n\nSorry to have bothered you, $(l.sir). You're cleared to be here, but stay where I can see you, and don't leave this room.",
+  "spoken": "Sorry to have bothered you. You're cleared to be here, but stay where I can see you, and don't leave this room.",
+  "source": "rules"
+ },
+ "52e2bf13373937707f00224d_1": {
+  "char": "Server Room Guard",
+  "original": "I can't help you, $(l.sir). You're cleared to be in this room, but only under direct supervision, and we can't leave our posts to escort you into the other room.\n\n{{GM}}He sounds uncertain - and suspicious.{{/GM}}\n\nYou just stay in this room, all right? Check your software from where you're at and leave, or I'll have to call this in to Central.",
+  "spoken": "I can't help you. You're cleared to be in this room, but only under direct supervision, and we can't leave our posts to escort you into the other room. You just stay in this room, all right? Check your software from where you're at and leave, or I'll have to call this in to Central.",
+  "source": "rules"
+ },
+ "523bfc69346238e41d008008_31": {
+  "char": "Jan Goldschmidt",
+  "original": "Is that the $(l.man) who has taken over for Monika, Burakgazi?",
+  "spoken": "Is that the man who has taken over for Monika, Burakgazi?",
+  "source": "rules"
+ },
+ "523bfc69346238e41d008008_33": {
+  "char": "Jan Goldschmidt",
+  "original": "Give $(l.him) a soykaf! A big one! And put it on my account! I like the cut of $(l.hisher) jib.",
+  "spoken": "Give them a soykaf! A big one! And put it on my account! I like the cut of their jib.",
+  "source": "rules"
+ },
+ "523bfc69346238e41d008008_35": {
+  "char": "Jan Goldschmidt",
+  "original": "{{GM}}The fat man frowns.{{/GM}}\n\nAnd a scone! I was going to say, “and a scone as well”! Nothing is too good for $(l.him)!",
+  "spoken": "And a scone! I was going to say, “and a scone as well”! Nothing is too good for them!",
+  "source": "rules"
+ },
+ "523bfd34346238e41d0080bf_2": {
+  "char": "Jan Goldschmidt",
+  "original": "{{GM}}Goldschmidt responds with a raucus belly laugh; apparently he finds the shopkeeper's insults to be hilarious.{{/GM}}\n\nAh, Altuğ, $(l.freund). You are as quick-witted and sharp-tongued as ever. I bow to you.",
+  "spoken": "Ah, Altuğ. You are as quick-witted and sharp-tongued as ever. I bow to you.",
   "source": "rules"
  },
  "525d7184303031bc0a007314_1": {
@@ -5489,161 +5675,17 @@
   "spoken": "I can live with that.",
   "source": "rules"
  },
- "527a93bd636134b83400260e_17": {
-  "char": "Alice",
-  "original": "{{GM}}She leans in to stare into the camera. On the screen, you can see that her eyes are badly bloodshot.{{/GM}}\n\nAnd stay out of the Matrix, $(l.name).\n\nIt isn't safe.",
-  "spoken": "And stay out of the Matrix. It isn't safe.",
+ "525c3d08303031d410005d43_15": {
+  "char": "Rammbock Boss",
+  "original": "Good. That's a real good idea, pal.\n\n{{GM}}The ganger boss jeers at Maxim.{{/GM}}\n\nSee that? Your muscle is smarter than you are. You should put $(l.him) in charge.",
+  "spoken": "Good. That's a real good idea, pal. See that? Your muscle is smarter than you are. You should put them in charge.",
   "source": "rules"
  },
- "527a93bd636134b83400260e_20": {
-  "char": "Alice",
-  "original": "{{GM}}She pauses, then takes a deep breath and exhales it slowly. Tries to calm herself. But the panic wins out, and she begins to tremble.{{/GM}}\n\nAll right, $(l.name). I'm going to give you the most valuable piece of advice I've ever given anyone, free of charge.",
-  "spoken": "All right. I'm going to give you the most valuable piece of advice I've ever given anyone, free of charge.",
+ "52b37b446636618815005944_7": {
+  "char": "Odd Merchant",
+  "original": "A discerning customer, you are. Well, I have many more traditional weapons for a $(l.man) of your tastes.",
+  "spoken": "A discerning customer, you are. Well, I have many more traditional weapons for a man of your tastes.",
   "source": "rules"
- },
- "527a93bd636134b83400260e_21": {
-  "char": "Alice",
-  "original": "There's a simulacrum of my persona on that chip. Ask it - that's what it's there for.\n\nOh, and $(l.name)... a free piece of advice for you.",
-  "spoken": "There's a simulacrum of my persona on that chip. Ask it - that's what it's there for. Oh, and one more thing... a free piece of advice for you.",
-  "source": "hand"
- },
- "53ce8f8e303031f014001550_14": {
-  "char": "Corporate Man",
-  "original": "Color me surprised. I'd expect a $(l.man) of your social strata to rant and rail against a system like the Academy's.",
-  "spoken": "Color me surprised. I'd expect a man of your social strata to rant and rail against a system like the Academy's.",
-  "source": "rules"
- },
- "53ce8f8e303031f014001550_22": {
-  "char": "Corporate Man",
-  "original": "I should say not. You seem like a good $(l.man), and I don't mean to insult you. But you know how cutthroat it is out there.\n\nHans will have every advantage, even if I have to mortgage the house to provide it to him.",
-  "spoken": "I should say not. You seem like a good man, and I don't mean to insult you. But you know how cutthroat it is out there. Hans will have every advantage, even if I have to mortgage the house to provide it to him.",
-  "source": "rules"
- },
- "5260338a63613410230047f5_10": {
-  "char": "Bartender",
-  "original": "New $(l.guy), huh? Ain't seen you around here before.\n\nWhat can I getcha?",
-  "spoken": "New face, huh? Ain't seen you around here before. What can I getcha?",
-  "source": "hand"
- },
- "5260338a63613410230047f5_23": {
-  "char": "Bartender",
-  "original": "What can I do for ya, new $(l.guy)?",
-  "spoken": "What can I do for ya, newcomer?",
-  "source": "hand"
- },
- "529f95756636615817005f37_12": {
-  "char": "Maintenance Worker",
-  "original": "Just... just hear me out, $(l.guy).\n\nThis has to get done, but I think... I think that somethin' got Viktor. That's why I need your help.",
-  "spoken": "Just... just hear me out, okay? This has to get done, but I think... I think that somethin' got Viktor. That's why I need your help.",
-  "source": "hand"
- },
- "529f95756636615817005f37_15": {
-  "char": "Maintenance Worker",
-  "original": "I'll be waitin' right here, $(l.guy).\n\nLet me know what happens.",
-  "spoken": "I'll be waitin' right here. Let me know what happens.",
-  "source": "hand"
- },
- "52af576d6161362808001bbe_215": {
-  "char": "Old Woman",
-  "original": "\"We\"? Mein Schatz, either we are in the presence of royalty, or $(l.he) has decided to keep on.",
-  "spoken": "\"We\"? Mein Schatz, either we are in the presence of royalty, or they has decided to keep on.",
-  "source": "rules"
- },
- "52af576d6161362808001bbe_221": {
-  "char": "Old Woman",
-  "original": "I think the Flux may have $(l.him), mein Schatz.",
-  "spoken": "I think the Flux may have them, mein Schatz.",
-  "source": "rules"
- },
- "53f0fa5463613480180096d5_7": {
-  "char": "Philip Rex",
-  "original": "{{GM}}A shrill voice crackles over the building's intercom system. It reverberates through the empty streets.{{/GM}}\n\nYou will NOT threaten this $(l.man), Jubuthon dog!",
-  "spoken": "You will NOT threaten this man, Jubuthon dog!",
-  "source": "rules"
- },
- "53f7778d6361340021004fe8_3": {
-  "char": "Philip Rex",
-  "original": "Farewell, stalwart $(scene.badfantasy)!\n\nWe will remember you always!",
-  "spoken": "Farewell, stalwart adventurers! We will remember you always!",
-  "source": "hand"
- },
- "53f7778d6361340021004fe8_13": {
-  "char": "Philip Rex",
-  "original": "And with that, I bid you farewell, stalwart $(scene.badfantasy).\n\nThe people of Sutterlin BioScience will remember you always!",
-  "spoken": "And with that, I bid you farewell, stalwart adventurers. The people of Sutterlin BioScience will remember you always!",
-  "source": "hand"
- },
- "53f7778d6361340021004fe8_33": {
-  "char": "Philip Rex",
-  "original": "Of course they won't! Do what you must - you've earned it!\n\nFarewell, stalwart $(scene.badfantasy). We will remember you always!",
-  "spoken": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart adventurers. We will remember you always!",
-  "source": "hand"
- },
- "52538089626164c8220015b4_1": {
-  "char": "Company Man",
-  "original": "My, my. The intrepid $(l.name), with $(l.hisher) target in tow.\n\nWhat a surprise.",
-  "spoken": "My, my. The intrepid shadowrunner, with their target in tow. What a surprise.",
-  "source": "hand"
- },
- "52538089626164c8220015b4_16": {
-  "char": "Company Man",
-  "original": "You don't intimidate us, $(l.name).\n\nEven if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
-  "spoken": "You don't intimidate us. Even if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
-  "source": "rules"
- },
- "52538089626164c8220015b4_23": {
-  "char": "Company Man",
-  "original": "My, my. The intrepid $(l.name), with no rigger in sight.\n\nI must admit, I am surprised.",
-  "spoken": "My, my. The intrepid shadowrunner, with no rigger in sight. I must admit, I am surprised.",
-  "source": "hand"
- },
- "52538089626164c8220015b4_25": {
-  "char": "Company Man",
-  "original": "You don't intimidate us, $(l.name).\n\nEven if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
-  "spoken": "You don't intimidate us. Even if you managed to kill us - a doubtful proposition at best - you'd destroy your own reputation in the process.",
-  "source": "rules"
- },
- "52af8c8a6261642819001448_3": {
-  "char": "Company Man",
-  "original": "I remain convinced that you are thoroughly *dishonorable,* shadowrunner. A $(l.man) of honor would never have allowed $(l.hisher) target to live as long as you did.\n\nWhatever your motives might have been, honor was not among them.",
-  "spoken": "I remain convinced that you are thoroughly *dishonorable,* shadowrunner. A man of honor would never have allowed their target to live as long as you did. Whatever your motives might have been, honor was not among them.",
-  "source": "rules"
- },
- "536e83b43739378018006774_10": {
-  "char": "Meat Grinder",
-  "original": "I know that. But sadly, your friend Blitz is.\n\nI'm not gonna kill you, $(l.name). I won't even take your thumbs. But the Landenbergs' security... well, I can make no such promises about them.",
-  "spoken": "I know that. But sadly, your friend Blitz is. I'm not gonna kill you. I won't even take your thumbs. But the Landenbergs' security... well, I can make no such promises about them.",
-  "source": "rules"
- },
- "53c5a0543030315803002800_3": {
-  "char": "Security Guard",
-  "original": "I heard $(l.him) loud and clear, mop-jockey. Now *you* listen to *me.* Nobody without Delta clearance gets through this door, period.\n\nI'd suggest that you talk to management. If you really do need to be in here, they'll upgrade your clearance. Otherwise, piss off.",
-  "spoken": "I heard them loud and clear, mop-jockey. Now *you* listen to *me.* Nobody without Delta clearance gets through this door, period. I'd suggest that you talk to management. If you really do need to be in here, they'll upgrade your clearance. Otherwise, piss off.",
-  "source": "rules"
- },
- "5261d0f96361348409001bcb_1": {
-  "char": "Party Girl",
-  "original": "All riiiight! My kind of $(l.guy)!\n\nYou've got cram, right? I just *love* a $(l.guy) that's willing to share...",
-  "spoken": "All riiiight! My kind of people! You've got cram, right? I just love somebody that's willing to share...",
-  "source": "hand"
- },
- "5261d0f96361348409001bcb_3": {
-  "char": "Party Girl",
-  "original": "Come party with me!\n\nYou've got some cram, right? I just *love* a $(l.guy) that's willing to share...",
-  "spoken": "Come party with me! You've got some cram, right? I just love somebody that's willing to share...",
-  "source": "hand"
- },
- "52abb7126636619429005443_17": {
-  "char": "Shopkeeper",
-  "original": "Hello... ah, welcome back, $(l.sir). What can I do for you?",
-  "spoken": "Hello... ah, welcome back. What can I do for you?",
-  "source": "rules"
- },
- "53cea3413030316c09001713_16": {
-  "char": "Tech Vendor",
-  "original": "Thank *you,* $(l.sir)! Have a great day!",
-  "spoken": "Thank you! Have a great day!",
-  "source": "hand"
  },
  "524b4ce43030312c040004e9_0": {
   "char": "Terminal",
@@ -5675,53 +5717,17 @@
   "spoken": "It's still just printing your name. Maybe Monika did something to the system before...",
   "source": "rules"
  },
- "523bfc69346238e41d008008_31": {
-  "char": "Jan Goldschmidt",
-  "original": "Is that the $(l.man) who has taken over for Monika, Burakgazi?",
-  "spoken": "Is that the man who has taken over for Monika, Burakgazi?",
-  "source": "rules"
- },
- "523bfc69346238e41d008008_33": {
-  "char": "Jan Goldschmidt",
-  "original": "Give $(l.him) a soykaf! A big one! And put it on my account! I like the cut of $(l.hisher) jib.",
-  "spoken": "Give them a soykaf! A big one! And put it on my account! I like the cut of their jib.",
-  "source": "rules"
- },
- "523bfc69346238e41d008008_35": {
-  "char": "Jan Goldschmidt",
-  "original": "{{GM}}The fat man frowns.{{/GM}}\n\nAnd a scone! I was going to say, “and a scone as well”! Nothing is too good for $(l.him)!",
-  "spoken": "And a scone! I was going to say, “and a scone as well”! Nothing is too good for them!",
-  "source": "rules"
- },
- "523bfd34346238e41d0080bf_2": {
-  "char": "Jan Goldschmidt",
-  "original": "{{GM}}Goldschmidt responds with a raucus belly laugh; apparently he finds the shopkeeper's insults to be hilarious.{{/GM}}\n\nAh, Altuğ, $(l.freund). You are as quick-witted and sharp-tongued as ever. I bow to you.",
-  "spoken": "Ah, Altuğ. You are as quick-witted and sharp-tongued as ever. I bow to you.",
-  "source": "rules"
- },
- "525c3d08303031d410005d43_15": {
-  "char": "Rammbock Boss",
-  "original": "Good. That's a real good idea, pal.\n\n{{GM}}The ganger boss jeers at Maxim.{{/GM}}\n\nSee that? Your muscle is smarter than you are. You should put $(l.him) in charge.",
-  "spoken": "Good. That's a real good idea, pal. See that? Your muscle is smarter than you are. You should put them in charge.",
-  "source": "rules"
- },
- "52367040353165d4090012ee_7": {
-  "char": "Server Room Guard",
-  "original": "{{GM}}He squints at your badge, scowling. After a few seconds, he lowers his weapon.{{/GM}}\n\nSorry to have bothered you, $(l.sir). You're cleared to be here, but stay where I can see you, and don't leave this room.",
-  "spoken": "Sorry to have bothered you. You're cleared to be here, but stay where I can see you, and don't leave this room.",
-  "source": "rules"
- },
- "52b37b446636618815005944_7": {
-  "char": "Merchant",
-  "original": "A discerning customer, you are. Well, I have many more traditional weapons for a $(l.man) of your tastes.",
-  "spoken": "A discerning customer, you are. Well, I have many more traditional weapons for a man of your tastes.",
-  "source": "rules"
- },
  "52abaca1663661942900532e_2": {
   "char": "Ork Guard",
   "original": "$+(l.he) looks fed, for one thing.",
   "spoken": "they looks fed, for one thing.",
   "source": "rules"
+ },
+ "53c818123030319016006c94_0": {
+  "char": "Knight Errant Enforcer",
+  "original": "You there! Maintenance $+(l.guy)! Stop right where you are.",
+  "spoken": "You there! Maintenance worker! Stop right where you are.",
+  "source": "hand"
  },
  "53cd96c1323437c03b00323e_20": {
   "char": "Ragged Man",
@@ -5770,12 +5776,6 @@
   "original": "Take my advice. Whatever this Vauclair business is to you, drop it. Drop it and *run.*\n\nAnd for God's sake, $(l.name), stay out of the Matrix. It isn't safe.\n\n- Alice",
   "spoken": "Take my advice. Whatever this Vauclair business is to you, drop it. Drop it and *run.* And for God's sake, stay out of the Matrix. It isn't safe. - Alice",
   "source": "rules"
- },
- "53c818123030319016006c94_0": {
-  "char": "Knight Errant Enforcer",
-  "original": "You there! Maintenance $+(l.guy)! Stop right where you are.",
-  "spoken": "You there! Maintenance worker! Stop right where you are.",
-  "source": "hand"
  },
  "526ad6e9303031ac160075d2_0": {
   "char": "Narrator",
