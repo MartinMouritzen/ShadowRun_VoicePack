@@ -107,7 +107,7 @@
  },
  "name_glory": {
   "520a77823030315011001698_11": {
-   "selected": "name_glory/takes/520a77823030315011001698_11__mag171__1784300446.mp3",
+   "selected": "name_glory/takes/520a77823030315011001698_11__mag332__1786094308.mp3",
    "takes": [
     {
      "file": "name_glory/takes/520a77823030315011001698_11__mag171__1784300446.mp3",
@@ -116,11 +116,19 @@
      "stability": 0,
      "chars": 38,
      "ts": 1784300446
+    },
+    {
+     "file": "name_glory/takes/520a77823030315011001698_11__mag332__1786094308.mp3",
+     "voiceId": "mag_332",
+     "voiceName": "Charlotte Winslow",
+     "stability": 0,
+     "chars": 51,
+     "ts": 1786094308
     }
    ]
   },
   "520a77823030315011001698_12": {
-   "selected": "name_glory/takes/520a77823030315011001698_12__mag171__1786089140.mp3",
+   "selected": "name_glory/takes/520a77823030315011001698_12__mag332__1786094287.mp3",
    "takes": [
     {
      "file": "name_glory/takes/520a77823030315011001698_12__mag171__1786089140.mp3",
@@ -129,11 +137,19 @@
      "stability": 0,
      "chars": 47,
      "ts": 1786089140
+    },
+    {
+     "file": "name_glory/takes/520a77823030315011001698_12__mag332__1786094287.mp3",
+     "voiceId": "mag_332",
+     "voiceName": "Charlotte Winslow",
+     "stability": 0,
+     "chars": 62,
+     "ts": 1786094287
     }
    ]
   },
   "520a77823030315011001698_13": {
-   "selected": "name_glory/takes/520a77823030315011001698_13__mag171__1784300454.mp3",
+   "selected": "name_glory/takes/520a77823030315011001698_13__mag332__1786094345.mp3",
    "takes": [
     {
      "file": "name_glory/takes/520a77823030315011001698_13__mag171__1784300454.mp3",
@@ -142,6 +158,14 @@
      "stability": 0,
      "chars": 132,
      "ts": 1784300454
+    },
+    {
+     "file": "name_glory/takes/520a77823030315011001698_13__mag332__1786094345.mp3",
+     "voiceId": "mag_332",
+     "voiceName": "Charlotte Winslow",
+     "stability": 0,
+     "chars": 153,
+     "ts": 1786094345
     }
    ]
   },
@@ -168,6 +192,90 @@
      "stability": 0,
      "chars": 74,
      "ts": 1786089211
+    }
+   ]
+  },
+  "521289d63030314008002d2b_1": {
+   "selected": "name_glory/takes/521289d63030314008002d2b_1__mag171__1786093894.mp3",
+   "takes": [
+    {
+     "file": "name_glory/takes/521289d63030314008002d2b_1__mag171__1786093894.mp3",
+     "voiceId": "mag_171",
+     "voiceName": "Greta Wagner",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1786093894
+    }
+   ]
+  },
+  "521289d63030314008002d2b_31": {
+   "selected": "name_glory/takes/521289d63030314008002d2b_31__mag171__1786093895.mp3",
+   "takes": [
+    {
+     "file": "name_glory/takes/521289d63030314008002d2b_31__mag171__1786093895.mp3",
+     "voiceId": "mag_171",
+     "voiceName": "Greta Wagner",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1786093895
+    }
+   ]
+  },
+  "52129dc23030310815002cdb_10~c0": {
+   "selected": "name_glory/takes/52129dc23030310815002cdb_10~c0__mag171__1786093897.mp3",
+   "takes": [
+    {
+     "file": "name_glory/takes/52129dc23030310815002cdb_10~c0__mag171__1786093897.mp3",
+     "voiceId": "mag_171",
+     "voiceName": "Greta Wagner",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1786093897
+    },
+    {
+     "file": "name_glory/takes/52129dc23030310815002cdb_10~c0__mag282__1786094084.mp3",
+     "voiceId": "mag_282",
+     "voiceName": "Mia Wilson",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1786094084
+    },
+    {
+     "file": "name_glory/takes/52129dc23030310815002cdb_10~c0__mag171__1786094119.mp3",
+     "voiceId": "mag_171",
+     "voiceName": "Greta Wagner",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1786094119
+    },
+    {
+     "file": "name_glory/takes/52129dc23030310815002cdb_10~c0__mag171__1786094144.mp3",
+     "voiceId": "mag_171",
+     "voiceName": "Greta Wagner",
+     "stability": 0,
+     "chars": 25,
+     "ts": 1786094144
+    }
+   ]
+  },
+  "52129dc23030310815002cdb_10~c1": {
+   "selected": "name_glory/takes/52129dc23030310815002cdb_10~c1__mag282__1786094092.mp3",
+   "takes": [
+    {
+     "file": "name_glory/takes/52129dc23030310815002cdb_10~c1__mag282__1786094092.mp3",
+     "voiceId": "mag_282",
+     "voiceName": "Mia Wilson",
+     "stability": 0,
+     "chars": 115,
+     "ts": 1786094092
+    },
+    {
+     "file": "name_glory/takes/52129dc23030310815002cdb_10~c1__mag171__1786094122.mp3",
+     "voiceId": "mag_171",
+     "voiceName": "Greta Wagner",
+     "stability": 0,
+     "chars": 115,
+     "ts": 1786094122
     }
    ]
   }

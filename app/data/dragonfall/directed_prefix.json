@@ -1,0 +1,4 @@
+{
+ "_comment": "Persistent per-character voice tags for eleven_v3, prepended by lab/tools/build_directed.py to every segment that CHARACTER speaks. Not per-beat direction: an accent is a property of the whole performance, so it sits once at the head of the line, ahead of whatever register tag the first beat carries ('[german accent][frightened]Milk run or not, we should be careful.'). Narration segments (~gN) are spoken by the narrator and never take a character's prefix. Dragonfall is set in Berlin, so most of the cast could reasonably carry one -- add them here as each character is cast and auditioned, rather than all at once on theory.",
+ "name_glory": "[german accent]"
+}
