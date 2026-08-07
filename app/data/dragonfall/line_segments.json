@@ -14439,6 +14439,504 @@
    "t": "...Some reward. In terms of computing power, my PDA could probably run circles around this thing."
   }
  ],
+ "5256e175636134002a002945_1": [
+  {
+   "who": "char",
+   "t": "See the cameras in the corner of the room?"
+  },
+  {
+   "who": "gm",
+   "t": "Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them."
+  },
+  {
+   "who": "char",
+   "t": "Wave hi. I'm on the other side of 'em."
+  }
+ ],
+ "5256e175636134002a002945_15": [
+  {
+   "who": "gm",
+   "t": "From the pause on the other end of the line, you can tell that you've caught Blitz off guard."
+  },
+  {
+   "who": "char",
+   "t": "Yeah? What's that?"
+  }
+ ],
+ "52675434626164703000513a_8": [
+  {
+   "who": "gm",
+   "t": "Blitz stops short."
+  },
+  {
+   "who": "char",
+   "t": "What's going on, chief?"
+  }
+ ],
+ "52675434626164703000513a_22": [
+  {
+   "who": "char",
+   "t": "We still have a dragon to deal with. We need resources more than we need Herr Schmidt to like us. And if this contact of yours has access to those resources, well..."
+  },
+  {
+   "who": "gm",
+   "t": "He shrugs."
+  },
+  {
+   "who": "char",
+   "t": "You do the math."
+  }
+ ],
+ "52675434626164703000513a_25": [
+  {
+   "who": "char",
+   "t": "I don't want to be on anyone else's bad side... especially not theirs. I didn't even think that they existed."
+  },
+  {
+   "who": "gm",
+   "t": "He turns to stare at you."
+  },
+  {
+   "who": "char",
+   "t": "What the hell have you gotten us into, chief?"
+  }
+ ],
+ "52675434626164703000513a_77": [
+  {
+   "who": "gm",
+   "t": "He rolls his eyes."
+  },
+  {
+   "who": "char",
+   "t": "Typical. \"Hey, go do this, and follow my instructions to the letter. You doing it yet? Okay, plan's changed.\""
+  }
+ ],
+ "52619975626164a00b0048cf_25": [
+  {
+   "who": "char",
+   "t": "Decisions, decisions, huh, chief?"
+  },
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "Can't say that I like the idea of handin' this thing over to Schmidt... Lord knows what he's going to do with it."
+  }
+ ],
+ "53cd96c1323437c03b00323e_54": [
+  {
+   "who": "gm",
+   "t": "Blitz mutters under his breath."
+  },
+  {
+   "who": "char",
+   "t": "We've got a live one here, chief."
+  }
+ ],
+ "53cd96c1323437c03b00323e_70": [
+  {
+   "who": "gm",
+   "t": "Blitz smirks."
+  },
+  {
+   "who": "char",
+   "t": "Wow. Must be rough, being that big a fan and not having seen the ending."
+  }
+ ],
+ "521e77003030318403005ff8_5": [
+  {
+   "who": "gm",
+   "t": "He smirks."
+  },
+  {
+   "who": "char",
+   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
+  },
+  {
+   "who": "gm",
+   "t": "He raises an eyebrow at you."
+  },
+  {
+   "who": "char",
+   "t": "Your call, though, chief. Obviously."
+  }
+ ],
+ "521e77003030318403005ff8_10": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
+  }
+ ],
+ "521e77003030318403005ff8_27": [
+  {
+   "who": "gm",
+   "t": "He smirks."
+  },
+  {
+   "who": "char",
+   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
+  },
+  {
+   "who": "gm",
+   "t": "He raises an eyebrow at you."
+  },
+  {
+   "who": "char",
+   "t": "Your call, though, chief. Obviously."
+  }
+ ],
+ "521e77003030318403005ff8_32": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
+  }
+ ],
+ "521e77003030318403005ff8_43": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
+  }
+ ],
+ "527abf9e636134b83400302e_58": [
+  {
+   "who": "gm",
+   "t": "Blitz stares at the text on the screen."
+  },
+  {
+   "who": "char",
+   "t": "She… uh, *it*... isn’t kidding, chief. This discussion is dated back to 2036. That's ancient history in the decking community. It probably isn't even correct to call these guys \"deckers.\" \"Hackers\" would be the more appropriate term."
+  }
+ ],
+ "527abf9e636134b83400302e_75": [
+  {
+   "who": "gm",
+   "t": "Blitz raises his hand."
+  },
+  {
+   "who": "char",
+   "t": "Hold up. Uh, Alice, I have a question. I thought they said that Lofwyr killed APEX?"
+  }
+ ],
+ "527abf9e636134b83400302e_92": [
+  {
+   "who": "char",
+   "t": "I don't like the smell of this, chief. It said that APEX *let* Alice escape."
+  },
+  {
+   "who": "gm",
+   "t": "He turns to address the simulacrum on the screen."
+  },
+  {
+   "who": "char",
+   "t": "Alice, why would a Matrix warfare AI allow you to run a trace on it?"
+  }
+ ],
+ "525ccb07626164e02600603b_2": [
+  {
+   "who": "gm",
+   "t": "Blitz's eyes go wide."
+  },
+  {
+   "who": "char",
+   "t": "Chief. Did you just read that? I am going to drive the *hell* out of this thing."
+  }
+ ],
+ "525ccb07626164e02600603b_5": [
+  {
+   "who": "gm",
+   "t": "Blitz looks sullen."
+  },
+  {
+   "who": "char",
+   "t": "Yeah, well, screw you, too."
+  }
+ ],
+ "52b4e06e64343172ad639884_17": [
+  {
+   "who": "gm",
+   "t": "Blitz surveys the rest of the group. Sees the determination in their faces. Finally, he sighs."
+  },
+  {
+   "who": "char",
+   "t": "...But if you're really doing this, you'll want the best decker you can find along for the ride. And I guess that nominates... me. Woo."
+  }
+ ],
+ "52b4e06e64343172ad639884_23": [
+  {
+   "who": "gm",
+   "t": "Blitz glances at you. The worry is painted all over his face."
+  },
+  {
+   "who": "char",
+   "t": "I can't believe I'm saying this, but you'd better bring me along. You try going up against an AI without a novahot decker at your side, and you're probably going to regret it."
+  }
+ ],
+ "521e4028303031501600601e_10": [
+  {
+   "who": "gm",
+   "t": "Blitz leans in to inspect her work."
+  },
+  {
+   "who": "char",
+   "t": "Yeah... yeah, that looks like a pretty solid connection. Nice soldering job on those contacts, there. I'd say that you're good to go."
+  }
+ ],
+ "521e4028303031501600601e_11": [
+  {
+   "who": "gm",
+   "t": "He straightens. Casts a glance back at you."
+  },
+  {
+   "who": "char",
+   "t": "You know, chief... we *could* use this setup to our advantage."
+  }
+ ],
+ "521e4028303031501600601e_13": [
+  {
+   "who": "gm",
+   "t": "He shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Your call, of course. Just thought I should bring it up."
+  }
+ ],
+ "52a8a94f636134242200491f_14": [
+  {
+   "who": "gm",
+   "t": "He gives Dietrich a solemn nod."
+  },
+  {
+   "who": "char",
+   "t": "You said it."
+  }
+ ],
+ "52a8a94f636134242200491f_18": [
+  {
+   "who": "char",
+   "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job."
+  },
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "I dunno. It doesn't feel like we're on the right side of this one."
+  }
+ ],
+ "52ab6b846361340c1900670a_10": [
+  {
+   "who": "char",
+   "t": "That ain't \"living.\" It's a slow death."
+  },
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "I just don't get wageslaves, man. I really, really don't."
+  }
+ ],
+ "52ab6b846361340c1900670a_15": [
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "I can't imagine a much worse way to live, chief. Makes my skin crawl just thinking about it."
+  }
+ ],
+ "52ab6b846361340c1900670a_16": [
+  {
+   "who": "gm",
+   "t": "He nods."
+  },
+  {
+   "who": "char",
+   "t": "Well. Might as well get to it."
+  }
+ ],
+ "52ceffd16361348c270034ae_1": [
+  {
+   "who": "gm",
+   "t": "Blitz stares down at the MKVI's ruined skull, his eyes wide."
+  },
+  {
+   "who": "char",
+   "t": "Well. That was... unexpected. And also disgusting."
+  }
+ ],
+ "52ceffd16361348c270034ae_3": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
+  }
+ ],
+ "52ceffd16361348c270034ae_20": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
+  }
+ ],
+ "534f16e43030315008005311_4": [
+  {
+   "who": "char",
+   "t": "Yeah."
+  },
+  {
+   "who": "gm",
+   "t": "He eyes the crater."
+  },
+  {
+   "who": "char",
+   "t": "I guess that's true."
+  }
+ ],
+ "534f16e43030315008005311_5": [
+  {
+   "who": "char",
+   "t": "If you say so."
+  },
+  {
+   "who": "gm",
+   "t": "He eyes the crater."
+  },
+  {
+   "who": "char",
+   "t": "...But next time, lets try to find some work that *doesn't* end in a giant fireball, okay?"
+  }
+ ],
+ "52a90f6b6361340408008351_14": [
+  {
+   "who": "char",
+   "t": "If you don't wanna kill him, that's fine."
+  },
+  {
+   "who": "gm",
+   "t": "Blitz looks you in the eye."
+  },
+  {
+   "who": "char",
+   "t": "Let *me* do it."
+  }
+ ],
+ "52a90f6b6361340408008351_29": [
+  {
+   "who": "gm",
+   "t": "Blitz gives you a significant glance. You can see the disgust in his eyes."
+  }
+ ],
+ "53f7778d6361340021004fe8_18": [
+  {
+   "who": "char",
+   "t": "'Course it is! Because he's a Knight-King, right, Phil?"
+  },
+  {
+   "who": "gm",
+   "t": "He elbows you in the ribs, grinning ear to ear."
+  },
+  {
+   "who": "char",
+   "t": "You go get 'em, man! Show the world! You can do it!"
+  }
+ ],
+ "525378a1626164c822001545_4": [
+  {
+   "who": "char",
+   "t": "...So you're a getaway driver?"
+  },
+  {
+   "who": "gm",
+   "t": "Blitz shoots the rigger a sidelong glance."
+  },
+  {
+   "who": "char",
+   "t": "Vehicle riggers are even *less* likely to be found on the front lines."
+  }
+ ],
+ "525add9b3030315c17005fce_2": [
+  {
+   "who": "char",
+   "t": "Well, that's handy. I'm all for avoiding a firefight if we can get away with it."
+  },
+  {
+   "who": "gm",
+   "t": "He claps you on the shoulder."
+  },
+  {
+   "who": "char",
+   "t": "Good find, chief."
+  }
+ ],
+ "526aaa786261648c3a004bb6_2": [
+  {
+   "who": "gm",
+   "t": "Bltiz steps up to a console built into the wall beside the elevator."
+  },
+  {
+   "who": "char",
+   "t": "This is it, chief. All the camera feeds are right here. Shall I?"
+  }
+ ],
+ "523749c0303031940c0001ec_12": [
+  {
+   "who": "gm",
+   "t": "As you turn to leave, Blitz leans in and whispers to you."
+  },
+  {
+   "who": "char",
+   "t": "Um... chief? What the hell was that about?"
+  }
+ ],
+ "52b4d9fb64343172ad63962e_15": [
+  {
+   "who": "char",
+   "t": "Well, uh... I didn't know Paul as well as the rest of you. But he seemed like a good guy."
+  },
+  {
+   "who": "gm",
+   "t": "He shuffles his feet."
+  },
+  {
+   "who": "char",
+   "t": "I didn't want to see this happen, at any rate."
+  }
+ ],
+ "53eb9277323437ac45005a9f_2": [
+  {
+   "who": "gm",
+   "t": "Blitz chokes out a startled chuckle."
+  },
+  {
+   "who": "char",
+   "t": "That's pretty vile, chief. I mean, seriously."
+  }
+ ],
  "520a77823030315011001698_5": [
   {
    "who": "char",
@@ -23993,504 +24491,6 @@
   {
    "who": "char",
    "t": "Nothing at all."
-  }
- ],
- "521e4028303031501600601e_10": [
-  {
-   "who": "gm",
-   "t": "Blitz leans in to inspect her work."
-  },
-  {
-   "who": "char",
-   "t": "Yeah... yeah, that looks like a pretty solid connection. Nice soldering job on those contacts, there. I'd say that you're good to go."
-  }
- ],
- "521e4028303031501600601e_11": [
-  {
-   "who": "gm",
-   "t": "He straightens. Casts a glance back at you."
-  },
-  {
-   "who": "char",
-   "t": "You know, chief... we *could* use this setup to our advantage."
-  }
- ],
- "521e4028303031501600601e_13": [
-  {
-   "who": "gm",
-   "t": "He shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Your call, of course. Just thought I should bring it up."
-  }
- ],
- "521e77003030318403005ff8_5": [
-  {
-   "who": "gm",
-   "t": "He smirks."
-  },
-  {
-   "who": "char",
-   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
-  },
-  {
-   "who": "gm",
-   "t": "He raises an eyebrow at you."
-  },
-  {
-   "who": "char",
-   "t": "Your call, though, chief. Obviously."
-  }
- ],
- "521e77003030318403005ff8_10": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
-  }
- ],
- "521e77003030318403005ff8_27": [
-  {
-   "who": "gm",
-   "t": "He smirks."
-  },
-  {
-   "who": "char",
-   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
-  },
-  {
-   "who": "gm",
-   "t": "He raises an eyebrow at you."
-  },
-  {
-   "who": "char",
-   "t": "Your call, though, chief. Obviously."
-  }
- ],
- "521e77003030318403005ff8_32": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
-  }
- ],
- "521e77003030318403005ff8_43": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
-  }
- ],
- "523749c0303031940c0001ec_12": [
-  {
-   "who": "gm",
-   "t": "As you turn to leave, Blitz leans in and whispers to you."
-  },
-  {
-   "who": "char",
-   "t": "Um... chief? What the hell was that about?"
-  }
- ],
- "525378a1626164c822001545_4": [
-  {
-   "who": "char",
-   "t": "...So you're a getaway driver?"
-  },
-  {
-   "who": "gm",
-   "t": "Blitz shoots the rigger a sidelong glance."
-  },
-  {
-   "who": "char",
-   "t": "Vehicle riggers are even *less* likely to be found on the front lines."
-  }
- ],
- "5256e175636134002a002945_1": [
-  {
-   "who": "char",
-   "t": "See the cameras in the corner of the room?"
-  },
-  {
-   "who": "gm",
-   "t": "Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them."
-  },
-  {
-   "who": "char",
-   "t": "Wave hi. I'm on the other side of 'em."
-  }
- ],
- "5256e175636134002a002945_15": [
-  {
-   "who": "gm",
-   "t": "From the pause on the other end of the line, you can tell that you've caught Blitz off guard."
-  },
-  {
-   "who": "char",
-   "t": "Yeah? What's that?"
-  }
- ],
- "525add9b3030315c17005fce_2": [
-  {
-   "who": "char",
-   "t": "Well, that's handy. I'm all for avoiding a firefight if we can get away with it."
-  },
-  {
-   "who": "gm",
-   "t": "He claps you on the shoulder."
-  },
-  {
-   "who": "char",
-   "t": "Good find, chief."
-  }
- ],
- "525ccb07626164e02600603b_2": [
-  {
-   "who": "gm",
-   "t": "Blitz's eyes go wide."
-  },
-  {
-   "who": "char",
-   "t": "Chief. Did you just read that? I am going to drive the *hell* out of this thing."
-  }
- ],
- "525ccb07626164e02600603b_5": [
-  {
-   "who": "gm",
-   "t": "Blitz looks sullen."
-  },
-  {
-   "who": "char",
-   "t": "Yeah, well, screw you, too."
-  }
- ],
- "52619975626164a00b0048cf_25": [
-  {
-   "who": "char",
-   "t": "Decisions, decisions, huh, chief?"
-  },
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "Can't say that I like the idea of handin' this thing over to Schmidt... Lord knows what he's going to do with it."
-  }
- ],
- "52675434626164703000513a_8": [
-  {
-   "who": "gm",
-   "t": "Blitz stops short."
-  },
-  {
-   "who": "char",
-   "t": "What's going on, chief?"
-  }
- ],
- "52675434626164703000513a_22": [
-  {
-   "who": "char",
-   "t": "We still have a dragon to deal with. We need resources more than we need Herr Schmidt to like us. And if this contact of yours has access to those resources, well..."
-  },
-  {
-   "who": "gm",
-   "t": "He shrugs."
-  },
-  {
-   "who": "char",
-   "t": "You do the math."
-  }
- ],
- "52675434626164703000513a_25": [
-  {
-   "who": "char",
-   "t": "I don't want to be on anyone else's bad side... especially not theirs. I didn't even think that they existed."
-  },
-  {
-   "who": "gm",
-   "t": "He turns to stare at you."
-  },
-  {
-   "who": "char",
-   "t": "What the hell have you gotten us into, chief?"
-  }
- ],
- "52675434626164703000513a_77": [
-  {
-   "who": "gm",
-   "t": "He rolls his eyes."
-  },
-  {
-   "who": "char",
-   "t": "Typical. \"Hey, go do this, and follow my instructions to the letter. You doing it yet? Okay, plan's changed.\""
-  }
- ],
- "526aaa786261648c3a004bb6_2": [
-  {
-   "who": "gm",
-   "t": "Bltiz steps up to a console built into the wall beside the elevator."
-  },
-  {
-   "who": "char",
-   "t": "This is it, chief. All the camera feeds are right here. Shall I?"
-  }
- ],
- "527abf9e636134b83400302e_58": [
-  {
-   "who": "gm",
-   "t": "Blitz stares at the text on the screen."
-  },
-  {
-   "who": "char",
-   "t": "She… uh, *it*... isn’t kidding, chief. This discussion is dated back to 2036. That's ancient history in the decking community. It probably isn't even correct to call these guys \"deckers.\" \"Hackers\" would be the more appropriate term."
-  }
- ],
- "527abf9e636134b83400302e_75": [
-  {
-   "who": "gm",
-   "t": "Blitz raises his hand."
-  },
-  {
-   "who": "char",
-   "t": "Hold up. Uh, Alice, I have a question. I thought they said that Lofwyr killed APEX?"
-  }
- ],
- "527abf9e636134b83400302e_92": [
-  {
-   "who": "char",
-   "t": "I don't like the smell of this, chief. It said that APEX *let* Alice escape."
-  },
-  {
-   "who": "gm",
-   "t": "He turns to address the simulacrum on the screen."
-  },
-  {
-   "who": "char",
-   "t": "Alice, why would a Matrix warfare AI allow you to run a trace on it?"
-  }
- ],
- "52a8a94f636134242200491f_14": [
-  {
-   "who": "gm",
-   "t": "He gives Dietrich a solemn nod."
-  },
-  {
-   "who": "char",
-   "t": "You said it."
-  }
- ],
- "52a8a94f636134242200491f_18": [
-  {
-   "who": "char",
-   "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job."
-  },
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "I dunno. It doesn't feel like we're on the right side of this one."
-  }
- ],
- "52a90f6b6361340408008351_14": [
-  {
-   "who": "char",
-   "t": "If you don't wanna kill him, that's fine."
-  },
-  {
-   "who": "gm",
-   "t": "Blitz looks you in the eye."
-  },
-  {
-   "who": "char",
-   "t": "Let *me* do it."
-  }
- ],
- "52a90f6b6361340408008351_29": [
-  {
-   "who": "gm",
-   "t": "Blitz gives you a significant glance. You can see the disgust in his eyes."
-  }
- ],
- "52ab6b846361340c1900670a_10": [
-  {
-   "who": "char",
-   "t": "That ain't \"living.\" It's a slow death."
-  },
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "I just don't get wageslaves, man. I really, really don't."
-  }
- ],
- "52ab6b846361340c1900670a_15": [
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "I can't imagine a much worse way to live, chief. Makes my skin crawl just thinking about it."
-  }
- ],
- "52ab6b846361340c1900670a_16": [
-  {
-   "who": "gm",
-   "t": "He nods."
-  },
-  {
-   "who": "char",
-   "t": "Well. Might as well get to it."
-  }
- ],
- "52b4d9fb64343172ad63962e_15": [
-  {
-   "who": "char",
-   "t": "Well, uh... I didn't know Paul as well as the rest of you. But he seemed like a good guy."
-  },
-  {
-   "who": "gm",
-   "t": "He shuffles his feet."
-  },
-  {
-   "who": "char",
-   "t": "I didn't want to see this happen, at any rate."
-  }
- ],
- "52b4e06e64343172ad639884_17": [
-  {
-   "who": "gm",
-   "t": "Blitz surveys the rest of the group. Sees the determination in their faces. Finally, he sighs."
-  },
-  {
-   "who": "char",
-   "t": "...But if you're really doing this, you'll want the best decker you can find along for the ride. And I guess that nominates... me. Woo."
-  }
- ],
- "52b4e06e64343172ad639884_23": [
-  {
-   "who": "gm",
-   "t": "Blitz glances at you. The worry is painted all over his face."
-  },
-  {
-   "who": "char",
-   "t": "I can't believe I'm saying this, but you'd better bring me along. You try going up against an AI without a novahot decker at your side, and you're probably going to regret it."
-  }
- ],
- "52ceffd16361348c270034ae_1": [
-  {
-   "who": "gm",
-   "t": "Blitz stares down at the MKVI's ruined skull, his eyes wide."
-  },
-  {
-   "who": "char",
-   "t": "Well. That was... unexpected. And also disgusting."
-  }
- ],
- "52ceffd16361348c270034ae_3": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
-  }
- ],
- "52ceffd16361348c270034ae_20": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
-  }
- ],
- "534f16e43030315008005311_4": [
-  {
-   "who": "char",
-   "t": "Yeah."
-  },
-  {
-   "who": "gm",
-   "t": "He eyes the crater."
-  },
-  {
-   "who": "char",
-   "t": "I guess that's true."
-  }
- ],
- "534f16e43030315008005311_5": [
-  {
-   "who": "char",
-   "t": "If you say so."
-  },
-  {
-   "who": "gm",
-   "t": "He eyes the crater."
-  },
-  {
-   "who": "char",
-   "t": "...But next time, lets try to find some work that *doesn't* end in a giant fireball, okay?"
-  }
- ],
- "53cd96c1323437c03b00323e_54": [
-  {
-   "who": "gm",
-   "t": "Blitz mutters under his breath."
-  },
-  {
-   "who": "char",
-   "t": "We've got a live one here, chief."
-  }
- ],
- "53cd96c1323437c03b00323e_70": [
-  {
-   "who": "gm",
-   "t": "Blitz smirks."
-  },
-  {
-   "who": "char",
-   "t": "Wow. Must be rough, being that big a fan and not having seen the ending."
-  }
- ],
- "53eb9277323437ac45005a9f_2": [
-  {
-   "who": "gm",
-   "t": "Blitz chokes out a startled chuckle."
-  },
-  {
-   "who": "char",
-   "t": "That's pretty vile, chief. I mean, seriously."
-  }
- ],
- "53f7778d6361340021004fe8_18": [
-  {
-   "who": "char",
-   "t": "'Course it is! Because he's a Knight-King, right, Phil?"
-  },
-  {
-   "who": "gm",
-   "t": "He elbows you in the ribs, grinning ear to ear."
-  },
-  {
-   "who": "char",
-   "t": "You go get 'em, man! Show the world! You can do it!"
   }
  ],
  "5355b099373937c40a0002a7_1": [

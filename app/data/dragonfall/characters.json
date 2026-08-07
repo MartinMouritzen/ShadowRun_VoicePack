@@ -19700,6 +19700,1063 @@
      "n": 4,
      "cn": "Haven-a3_Panzerdrohne",
      "t": "When we're talking about tech, it might as well. I'm sure that Maliit has a whole warehouse full of drones that could outperform this thing."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 0,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Hey there, chief. Don't hang up - I've got a proposition for ya."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 1,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "See the cameras in the corner of the room?\n\n{{GM}}Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them.{{/GM}}\n\nWave hi. I'm on the other side of 'em."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 2,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "You've probably noticed that this building is under new management, right? \n\nAnd judging by the fresh corpses that I'm seeing strewn all over the hotel, I'm gonna guess that you don't like the new guys any better than I do."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 3,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Well, I'd like to make you an offer. You help cover my escape, and I'll get you into a secure vault on the top floor. Belonged to the leader of the gang that used to run this place."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 4,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Trust me, it's still secure... I set up the security protocols myself. The last decker they brought in to take a crack at it came back out on a stretcher. \n\nThey haven't found too many volunteers since then."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 6,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "That'd be an understatement, chum. More accurate to say that I'm THE decker, in these parts at least. \n\nMy handle in the Matrix is \"Blitz.\" Maybe you've heard of me?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 7,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "'Sokay, I run in pretty rarefied circles."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 8,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "The one and only.\n\nGlad to be talking to a fan."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 9,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "'Course it does. In Berlin's decker community, I'm a household name."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 10,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "They called themselves the \"Schwarze Herzen,\" and they pretty much ran Drogenkippe until a few days ago. \n\nThey weren't a pleasant bunch, but they were better than the jackasses we've got in here now."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 12,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "They're terrible people. Real bad guys, all of 'em.\n\nLook, I don't mean to rush you, but we can discuss all of this later. Y'know, *after* we get out of the building full of murderous thugs."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 13,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "I was in the hotel when it got taken over, and the new gang decided to keep me... \"on staff,\" I guess you could call it. \n\nThey put me in charge of Matrix security."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 14,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "I may be one of the hottest deckers in Berlin, but a bullet in the head will kill me just as dead as anyone else. \n\nGiven the circumstances, I didn't see how I could refuse."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 15,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "{{GM}}From the pause on the other end of the line, you can tell that you've caught Blitz off guard.{{/GM}} \n\nYeah? What's that?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 16,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Yeah, okay, I was a member. For a while. \n\nBut the old boss got himself killed in a firefight, and his second-in-command took over."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 17,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "That was when the new guys moved in... I guess that they sensed weakness, and the Schwarze Herzen were still disorganized from the transition. \n\nAnyway, long story short, I don't consider myself a member any more... I just wanna get out and do my own thing."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 18,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Good. Yeah, that's good. \n\nOkay, you wanna clear out the safe, or what?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 19,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Look, what does it matter to you if I WAS a member of Schwarze Herzen? I'm sure that you have some shady friends, too, but I'm not gonna ask about 'em 'cause it's none of my business. \n\nLet's just clean out the safe and get out of here, okay?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 20,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Gear. Money. You know, lots of good stuff."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 21,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Look, buddy, I just set up the Matrix security for the thing. The old boss didn't let me set foot into the vault. He was a little paranoid, you know? \n\nBut he was adamant that he wanted me to rig up some really killer IC, so there must be *something* of value in there."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 22,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "So how about it? You want a crack at that vault, or not?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 24,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Room 505, on the Penthouse floor. Come rendezvous with me here, and I'll take you to the vault."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 25,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "All right. Your loss.\n\nLook, if you change your mind, come meet me in Room 505 on the Penthouse floor.\n\nI'm tellin' you, you don't want to pass up this deal."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 26,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Well... no. I mean, I've never actually *seen* what's in the vault. Not personally."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 27,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "As are we all. So, shall we go grab it?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 28,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "You've probably noticed that this building is under new management, right?\n\nAnd judging by the way you've been tiptoeing around since you showed up, I'm gonna guess that you don't wanna tangle with the new guys any more than I do."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 29,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Yeah, I get that... from what I'm seeing on my monitors, you've had a busy day.\n\nYou'll wanna hear me out, all the same. Trust me on this."
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 8,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "{{GM}}Blitz stops short.{{/GM}}\n\nWhat's going on, chief?"
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 21,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "I'll back you, chief, no matter what you choose to do. But I, for one, hope that you take the offer."
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 22,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "We still have a dragon to deal with. We need resources more than we need Herr Schmidt to like us. And if this contact of yours has access to those resources, well...\n\n{{GM}}He shrugs.{{/GM}}\n\nYou do the math."
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 25,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "I don't want to be on anyone else's bad side... especially not theirs. I didn't even think that they existed.\n\n{{GM}}He turns to stare at you.{{/GM}}\n\nWhat the hell have you gotten us into, chief?"
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 31,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "What is he talking about?"
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 37,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "I don't know who this mystery contact is, but we need money, and we need it fast. So I say, go for it."
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 38,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "Besides, if we piss off this \"Herr Schmidt,\" who cares? I mean, we live in Berlin! There're bound to be *plenty* of other clients out there."
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 47,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "I wish you'd reconsider this, chief. If we're gonna collect Alice's fee in time to save our own skins, we're gonna need to take all of the opportunities we can get, and this looks like a pretty great one to me.\n\nI don't know why we're passing it up."
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 53,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "I'm behind you a hundred percent, chief. This is the right call, no question about it.\n\nNow let's get this thing, get it back to your contact, and earn us some money!"
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 64,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "Hey, like I said, I'm all for it. And I don't want to get on *anyone* else's bad side - we're on enough of those already.\n\nSo what are we still talkin' about this for? Let's do it, get paid, and get back home!"
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 70,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "More money, huh?\n\nI like money."
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 71,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "...And more importantly, we *need* money, for the Alice fund.\n\nSo, yeah. Sounds to me like we should do this, chief. Good choice!"
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 77,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "{{GM}}He rolls his eyes.{{/GM}}\n\nTypical. \"Hey, go do this, and follow my instructions to the letter. You doing it yet? Okay, plan's changed.\""
+    },
+    {
+     "c": "52675434626164703000513a",
+     "n": 78,
+     "cn": "a2_AGChemie-S2-Lodge",
+     "t": "Well, at least he let us know before we got out of the garage.\n\nThe second van it is. Let's get moving."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 2,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Two different clients, and two different paydays. Decisions, decisions, huh, chief?"
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 5,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 7,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 9,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, boss. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 11,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 12,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief.\n\nCan't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 25,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Decisions, decisions, huh, chief?\n\n{{GM}}He shakes his head.{{/GM}}\n\nCan't say that I like the idea of handin' this thing over to Schmidt... Lord knows what he's going to do with it."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 28,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 30,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 32,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, boss. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 34,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief. Can't say I envy you the decision."
+    },
+    {
+     "c": "52619975626164a00b0048cf",
+     "n": 35,
+     "cn": "a2_AGChemie-S1-GarageChoice",
+     "t": "Well, it's your call, chief.\n\nCan't say I envy you the decision."
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 13,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Well, there was this dumpster..."
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 49,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Succession? Who died?"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 54,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "{{GM}}Blitz mutters under his breath.{{/GM}}\n\nWe've got a live one here, chief."
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 70,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "{{GM}}Blitz smirks.{{/GM}}\n\nWow. Must be rough, being that big a fan and not having seen the ending."
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 72,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Yeah. The last episode before it got canceled. Y'know, the hastily written final chapter, where you find out what happens with the Jubuthon invasion?"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 75,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "I'm willing to bet that I could do that, chief. This guy might not know how to disengage the quarantine, but I'll bet that I can. And once we've reestablished the building's Matrix connection, it'd be no big deal for me to download the last episode for him to watch.\n\nIf nothing else, it'll keep him occupied for a while."
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 76,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Sure thing, chief. The terminals in this building are all networked together, so I should be able to drop the quarantine from any computer in the place."
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 102,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Then what were you doing here?"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 112,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Leave this one alone, chief. You won't change his mind - he's too far gone."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 3,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "Say, chief... if you wanted me to, I could probably set things right for these kids from inside the facility.\n\nIf I tossed the Azzies' utility logs, they'd have no way of tracing the power spike back to this conduit."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 5,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "{{GM}}He smirks.{{/GM}}\n\nSure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe.\n\n{{GM}}He raises an eyebrow at you.{{/GM}}\n\nYour call, though, chief. Obviously."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 10,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell, yeah. *Of course* I was gonna do that. I just, uh... y'know.\n\nI thought that it went without saying."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 25,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "Say, chief... if you wanted me to, I could probably set things right for these kids from inside the facility.\n\nIf I tossed the Azzies' utility logs, they'd have no way of tracing the power spike back to this conduit."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 27,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "{{GM}}He smirks.{{/GM}}\n\nSure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe.\n\n{{GM}}He raises an eyebrow at you.{{/GM}}\n\nYour call, though, chief. Obviously."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 32,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell, yeah. *Of course* I was gonna do that. I just, uh... y'know.\n\nI thought that it went without saying."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 40,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "Offer's still on the table, chief. Once we get into that facility, tossing their utility logs really wouldn't be much trouble.\n\nJust say the word, and I'm on it."
+    },
+    {
+     "c": "521e77003030318403005ff8",
+     "n": 43,
+     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
+     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell, yeah. *Of course* I was gonna do that. I just, uh... y'know.\n\nI thought that it went without saying."
+    },
+    {
+     "c": "527abf9e636134b83400302e",
+     "n": 10,
+     "cn": "Haven-Global_MissionComputer",
+     "t": "Nifty piece of tech."
+    },
+    {
+     "c": "527abf9e636134b83400302e",
+     "n": 15,
+     "cn": "Haven-Global_MissionComputer",
+     "t": "That answers that."
+    },
+    {
+     "c": "527abf9e636134b83400302e",
+     "n": 27,
+     "cn": "Haven-Global_MissionComputer",
+     "t": "Okay. Nobody tell me, I get it.\n\nThis is something else that I missed."
+    },
+    {
+     "c": "527abf9e636134b83400302e",
+     "n": 58,
+     "cn": "Haven-Global_MissionComputer",
+     "t": "{{GM}}Blitz stares at the text on the screen.{{/GM}}\n\nShe… uh, *it*... isn’t kidding, chief. This discussion is dated back to 2036. That's ancient history in the decking community.\n\nIt probably isn't even correct to call these guys \"deckers.\" \"Hackers\" would be the more appropriate term."
+    },
+    {
+     "c": "527abf9e636134b83400302e",
+     "n": 75,
+     "cn": "Haven-Global_MissionComputer",
+     "t": "{{GM}}Blitz raises his hand.{{/GM}}\n\nHold up. Uh, Alice, I have a question.\n\nI thought they said that Lofwyr killed APEX?"
+    },
+    {
+     "c": "527abf9e636134b83400302e",
+     "n": 92,
+     "cn": "Haven-Global_MissionComputer",
+     "t": "I don't like the smell of this, chief. It said that APEX *let* Alice escape.\n\n{{GM}}He turns to address the simulacrum on the screen.{{/GM}}\n\nAlice, why would a Matrix warfare AI allow you to run a trace on it?"
+    },
+    {
+     "c": "527abf9e636134b83400302e",
+     "n": 101,
+     "cn": "Haven-Global_MissionComputer",
+     "t": "I'm still in favor of the \"cut and run\" plan. Butting heads with an AI isn't high on my list of things to do for the day."
+    },
+    {
+     "c": "525ccb07626164e02600603b",
+     "n": 2,
+     "cn": "a2_AGChemie-S1-CZConsole",
+     "t": "{{GM}}Blitz's eyes go wide.{{/GM}}\n\nChief. Did you just read that?\n\nI am going to drive the *hell* out of this thing."
+    },
+    {
+     "c": "525ccb07626164e02600603b",
+     "n": 3,
+     "cn": "a2_AGChemie-S1-CZConsole",
+     "t": "Yeah, yeah. Fine. Read up.\n\nBut after you're done, I'm gonna do my thing. I mean, how many riggers can say that they've piloted a troll?"
+    },
+    {
+     "c": "525ccb07626164e02600603b",
+     "n": 5,
+     "cn": "a2_AGChemie-S1-CZConsole",
+     "t": "{{GM}}Blitz looks sullen.{{/GM}}\n\nYeah, well, screw you, too."
+    },
+    {
+     "c": "525ccb07626164e02600603b",
+     "n": 6,
+     "cn": "a2_AGChemie-S1-CZConsole",
+     "t": "Okay, sure. Yeah. Due diligence, and all that.\n\nJust, like, don't take too long, okay? This is a golden opportunity. I don't wanna waste it."
+    },
+    {
+     "c": "525ccb07626164e02600603b",
+     "n": 52,
+     "cn": "a2_AGChemie-S1-CZConsole",
+     "t": "I've got it, chief. The MKVI is under my control.\n\nBut it's strange... this thing's reactions feel... *off,* somehow."
+    },
+    {
+     "c": "525ccb07626164e02600603b",
+     "n": 53,
+     "cn": "a2_AGChemie-S1-CZConsole",
+     "t": "It's almost like there's somethin' else in here with me."
+    },
+    {
+     "c": "52a0bac0636134f018001d6d",
+     "n": 4,
+     "cn": "a2_AGChemie-S1-CZReveal",
+     "t": "Stay cool, guys. It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
+    },
+    {
+     "c": "52a0bac0636134f018001d6d",
+     "n": 9,
+     "cn": "a2_AGChemie-S1-CZReveal",
+     "t": "It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
+    },
+    {
+     "c": "52a0bac0636134f018001d6d",
+     "n": 13,
+     "cn": "a2_AGChemie-S1-CZReveal",
+     "t": "Be cool, Dietrich. It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
+    },
+    {
+     "c": "52a0bac0636134f018001d6d",
+     "n": 17,
+     "cn": "a2_AGChemie-S1-CZReveal",
+     "t": "Be cool, Eiger. It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
+    },
+    {
+     "c": "52a0bac0636134f018001d6d",
+     "n": 19,
+     "cn": "a2_AGChemie-S1-CZReveal",
+     "t": "Jesus. Look at that."
+    },
+    {
+     "c": "52a0bac0636134f018001d6d",
+     "n": 20,
+     "cn": "a2_AGChemie-S1-CZReveal",
+     "t": "Yeah... you're right. I think that it's... I don't know, on standby or something.\n\nThe lights are on, but nobody's home."
+    },
+    {
+     "c": "52b4e06e64343172ad639884",
+     "n": 10,
+     "cn": "Haven-a3_postChip",
+     "t": "Well, uh... yeah. Meat Grinder hasn't gone away on his own, or anything."
+    },
+    {
+     "c": "52b4e06e64343172ad639884",
+     "n": 12,
+     "cn": "Haven-a3_postChip",
+     "t": "It's a long story. But the chief and I are gonna get it taken care of in a jiffy."
+    },
+    {
+     "c": "52b4e06e64343172ad639884",
+     "n": 16,
+     "cn": "Haven-a3_postChip",
+     "t": "I still say that all of this is crazy talk, chief. Taking on an AI isn't just a bad idea... it's *suicide.*\n\nSo my vote is to cut and run."
+    },
+    {
+     "c": "52b4e06e64343172ad639884",
+     "n": 17,
+     "cn": "Haven-a3_postChip",
+     "t": "{{GM}}Blitz surveys the rest of the group. Sees the determination in their faces. Finally, he sighs.{{/GM}}\n\n...But if you're really doing this, you'll want the best decker you can find along for the ride. And I guess that nominates... me. \n\nWoo."
+    },
+    {
+     "c": "52b4e06e64343172ad639884",
+     "n": 20,
+     "cn": "Haven-a3_postChip",
+     "t": "God, I hope not."
+    },
+    {
+     "c": "52b4e06e64343172ad639884",
+     "n": 23,
+     "cn": "Haven-a3_postChip",
+     "t": "{{GM}}Blitz glances at you. The worry is painted all over his face.{{/GM}}\n\nI can't believe I'm saying this, but you'd better bring me along.\n\nYou try going up against an AI without a novahot decker at your side, and you're probably going to regret it."
+    },
+    {
+     "c": "53ebc364323437ac45005b67",
+     "n": 1,
+     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
+     "t": "All right, chief. Watch me work."
+    },
+    {
+     "c": "53ebc364323437ac45005b67",
+     "n": 4,
+     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
+     "t": "Nope. That's it. Quarantine disengaged.\n\nAnd now to get Phil the last episode of his bullshit trid show..."
+    },
+    {
+     "c": "53ebc364323437ac45005b67",
+     "n": 6,
+     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
+     "t": "Done and done. The horrible conclusion to that terrible show is waiting for Phil on his media center.\n\nYou wanna know how it ends?"
+    },
+    {
+     "c": "53ebc364323437ac45005b67",
+     "n": 8,
+     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
+     "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut.\n\nIn the end, Titonius saves Lightninghold by rallying a peasant revolt. It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
+    },
+    {
+     "c": "53ebc364323437ac45005b67",
+     "n": 20,
+     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
+     "t": "I remember that show. It was horrible. I mean, really, *really* bad - made \"Neil the Ork Barbarian\" look like high art.\n\nMe an' my buddies in the Schwarze Herzen used to get high and laugh at it. It only ran for seven episodes before it got pulled."
+    },
+    {
+     "c": "53ebc364323437ac45005b67",
+     "n": 45,
+     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
+     "t": "Oh, man! That's it, that's the show! I forgot how bad the dub job was!"
+    },
+    {
+     "c": "521e4028303031501600601e",
+     "n": 8,
+     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
+     "t": "Impressive. Heimerich wasn't convinced that you could pull it off."
+    },
+    {
+     "c": "521e4028303031501600601e",
+     "n": 10,
+     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
+     "t": "{{GM}}Blitz leans in to inspect her work.{{/GM}}\n\nYeah... yeah, that looks like a pretty solid connection. Nice soldering job on those contacts, there.\n\nI'd say that you're good to go."
+    },
+    {
+     "c": "521e4028303031501600601e",
+     "n": 11,
+     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
+     "t": "{{GM}}He straightens. Casts a glance back at you.{{/GM}}\n\nYou know, chief... we *could* use this setup to our advantage."
+    },
+    {
+     "c": "521e4028303031501600601e",
+     "n": 12,
+     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
+     "t": "It wouldn't be too hard for me to manufacture a power spike from here.\n\nWe could overload the Azzies' power grid. Without disabling the generators' safety overrides, it wouldn't cause any permanent damage, but the confusion might give us an opening to get into the building."
+    },
+    {
+     "c": "521e4028303031501600601e",
+     "n": 13,
+     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
+     "t": "{{GM}}He shrugs.{{/GM}}\n\nYour call, of course. Just thought I should bring it up."
+    },
+    {
+     "c": "52a8a94f636134242200491f",
+     "n": 12,
+     "cn": "a2_Pharma_s1-RiggerInspect",
+     "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job.\n\nAll for the crime of being a \"loose end.\""
+    },
+    {
+     "c": "52a8a94f636134242200491f",
+     "n": 14,
+     "cn": "a2_Pharma_s1-RiggerInspect",
+     "t": "{{GM}}He gives Dietrich a solemn nod.{{/GM}}\n\nYou said it."
+    },
+    {
+     "c": "52a8a94f636134242200491f",
+     "n": 18,
+     "cn": "a2_Pharma_s1-RiggerInspect",
+     "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job.\n\n{{GM}}He shakes his head.{{/GM}}\n\nI dunno. It doesn't feel like we're on the right side of this one."
+    },
+    {
+     "c": "52a8a94f636134242200491f",
+     "n": 19,
+     "cn": "a2_Pharma_s1-RiggerInspect",
+     "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job."
+    },
+    {
+     "c": "52a8a94f636134242200491f",
+     "n": 20,
+     "cn": "a2_Pharma_s1-RiggerInspect",
+     "t": "Not sure I like being on this side of things, chief.\n\nDoesn't feel like we're on the right side of this one."
+    },
+    {
+     "c": "52ab6b846361340c1900670a",
+     "n": 5,
+     "cn": "a2_aztechnologyRaid_s1-GMIntro",
+     "t": "Friend of mine did a job here once. Told me that the local wageslaves are all issued \"efficiency apartments\" deep inside the compound. \n\nApparently, they've got all the buildings linked up on an underground tram system. Bed to cubicle in less than five minutes. Most days, the poor bastards don't even get to see the sun shine."
+    },
+    {
+     "c": "52ab6b846361340c1900670a",
+     "n": 10,
+     "cn": "a2_aztechnologyRaid_s1-GMIntro",
+     "t": "That ain't \"living.\" It's a slow death.\n\n{{GM}}He shakes his head.{{/GM}}\n\nI just don't get wageslaves, man. I really, really don't."
+    },
+    {
+     "c": "52ab6b846361340c1900670a",
+     "n": 13,
+     "cn": "a2_aztechnologyRaid_s1-GMIntro",
+     "t": "Quiet out here."
+    },
+    {
+     "c": "52ab6b846361340c1900670a",
+     "n": 15,
+     "cn": "a2_aztechnologyRaid_s1-GMIntro",
+     "t": "{{GM}}He shakes his head.{{/GM}}\n\nI can't imagine a much worse way to live, chief.\n\nMakes my skin crawl just thinking about it."
+    },
+    {
+     "c": "52ab6b846361340c1900670a",
+     "n": 16,
+     "cn": "a2_aztechnologyRaid_s1-GMIntro",
+     "t": "{{GM}}He nods.{{/GM}}\n\nWell. Might as well get to it."
+    },
+    {
+     "c": "52532b32626164681700018f",
+     "n": 6,
+     "cn": "a2_Pharma_s1-RiggerConvo1",
+     "t": "Couldn't hurt to hear what he has to say..."
+    },
+    {
+     "c": "52532b32626164681700018f",
+     "n": 28,
+     "cn": "a2_Pharma_s1-RiggerConvo1",
+     "t": "Uh, chief... I love new toys as much as the next guy, but we need the money more.\n\nFifteen-thousand-nuyen jobs don't grow on trees."
+    },
+    {
+     "c": "52532b32626164681700018f",
+     "n": 34,
+     "cn": "a2_Pharma_s1-RiggerConvo1",
+     "t": "Maybe we should hear him out, chief. He's a fellow runner, after all... "
+    },
+    {
+     "c": "52532b32626164681700018f",
+     "n": 40,
+     "cn": "a2_Pharma_s1-RiggerConvo1",
+     "t": "Sounds familiar..."
+    },
+    {
+     "c": "52ceffd16361348c270034ae",
+     "n": 1,
+     "cn": "a2_AGChemie-S1-CZDeathConvo",
+     "t": "{{GM}}Blitz stares down at the MKVI's ruined skull, his eyes wide.{{/GM}}\n\nWell. That was... unexpected. And also disgusting."
+    },
+    {
+     "c": "52ceffd16361348c270034ae",
+     "n": 3,
+     "cn": "a2_AGChemie-S1-CZDeathConvo",
+     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell... I guess we might as well load the body into the van.\n\nHerr Schmidt won't be happy, but it's better than nothing."
+    },
+    {
+     "c": "52ceffd16361348c270034ae",
+     "n": 6,
+     "cn": "a2_AGChemie-S1-CZDeathConvo",
+     "t": "Still, if it wanted to die that badly, I'm glad that it was able to on its own terms.\n\nC'mon, chief. Let's get the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
+    },
+    {
+     "c": "52ceffd16361348c270034ae",
+     "n": 20,
+     "cn": "a2_AGChemie-S1-CZDeathConvo",
+     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell... I guess we might as well load the body into the van.\n\nHerr Schmidt won't be happy, but it's better than nothing."
+    },
+    {
+     "c": "534f16e43030315008005311",
+     "n": 3,
+     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
+     "t": "Wow, chief. That was... intense.\n\nNothing I couldn't handle, of course. But this was a little more dramatic than I was expecting."
+    },
+    {
+     "c": "534f16e43030315008005311",
+     "n": 4,
+     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
+     "t": "Yeah.\n\n{{GM}}He eyes the crater.{{/GM}}\n\nI guess that's true."
+    },
+    {
+     "c": "534f16e43030315008005311",
+     "n": 5,
+     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
+     "t": "If you say so.\n\n{{GM}}He eyes the crater.{{/GM}}\n\n...But next time, lets try to find some work that *doesn't* end in a giant fireball, okay?"
+    },
+    {
+     "c": "534f16e43030315008005311",
+     "n": 6,
+     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
+     "t": "Yeah, chief... that place just felt *wrong.*\n\nYou could feel it in your heart, you know? *Creepy.*"
+    },
+    {
+     "c": "53e93d9b323437c03d003e5c",
+     "n": 3,
+     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
+     "t": "All right, chief. Watch me work."
+    },
+    {
+     "c": "53e93d9b323437c03d003e5c",
+     "n": 6,
+     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
+     "t": "Nope. That's it. Quarantine disengaged.\n\nAnd now to get Phil the last episode of his bullshit trid show."
+    },
+    {
+     "c": "53e93d9b323437c03d003e5c",
+     "n": 8,
+     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
+     "t": "Done and done. The horrible conclusion to that terrible show is waiting for Phil on his media center.\n\nYou wanna know how it ends?"
+    },
+    {
+     "c": "53e93d9b323437c03d003e5c",
+     "n": 10,
+     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
+     "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut.\n\nIn the end, Titonius saves Lightninghold by rallying a peasant revolt. It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
+    },
+    {
+     "c": "53e93dc7323437c03d003e68",
+     "n": 3,
+     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
+     "t": "All right, chief. Watch me work."
+    },
+    {
+     "c": "53e93dc7323437c03d003e68",
+     "n": 6,
+     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
+     "t": "Nope. That's it. Quarantine disengaged.\n\nAnd now to get Phil the last episode of his bullshit trid show..."
+    },
+    {
+     "c": "53e93dc7323437c03d003e68",
+     "n": 8,
+     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
+     "t": "Done and done. The horrible conclusion to that terrible show is waiting for Phil on his media center.\n\nYou wanna know how it ends?"
+    },
+    {
+     "c": "53e93dc7323437c03d003e68",
+     "n": 10,
+     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
+     "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut.\n\nIn the end, Titonius saves Lightninghold by rallying a peasant revolt. It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
+    },
+    {
+     "c": "52538089626164c8220015b4",
+     "n": 15,
+     "cn": "a2_Pharma_s1-JohnsonConvo",
+     "t": "Let me guess. Our client sent you?"
+    },
+    {
+     "c": "52538089626164c8220015b4",
+     "n": 22,
+     "cn": "a2_Pharma_s1-JohnsonConvo",
+     "t": "Let me guess. Our client sent you?"
+    },
+    {
+     "c": "52538089626164c8220015b4",
+     "n": 31,
+     "cn": "a2_Pharma_s1-JohnsonConvo",
+     "t": "Let me guess. Our client sent you?"
+    },
+    {
+     "c": "52a90f6b6361340408008351",
+     "n": 12,
+     "cn": "a2_Pharma_s1-RiggerConvo3",
+     "t": "To hell with the trinket. Letting this bastard go would be *wrong,* chief... you know that.\n\nBesides which, he lied to us. There was no \"bad intel.\" *This* bastard is the *reason* why things went south with that run.\n\nI'm sure of it."
+    },
+    {
+     "c": "52a90f6b6361340408008351",
+     "n": 14,
+     "cn": "a2_Pharma_s1-RiggerConvo3",
+     "t": "If you don't wanna kill him, that's fine. \n\n{{GM}}Blitz looks you in the eye.{{/GM}}\n\nLet *me* do it."
+    },
+    {
+     "c": "52a90f6b6361340408008351",
+     "n": 29,
+     "cn": "a2_Pharma_s1-RiggerConvo3",
+     "t": "Blitz gives you a significant glance.\n\nYou can see the disgust in his eyes.",
+     "y": 6
+    },
+    {
+     "c": "53ed57d2636134d005006567",
+     "n": 5,
+     "cn": "a2_AbandonedLab_s1-GMIntro",
+     "t": "There's a cheerful thought.\n\nCome on, chief. Let's get this over with."
+    },
+    {
+     "c": "53ed57d2636134d005006567",
+     "n": 10,
+     "cn": "a2_AbandonedLab_s1-GMIntro",
+     "t": "Yeah, I'm with you there.\n\nCome on, chief. Let's get this over with."
+    },
+    {
+     "c": "53ed57d2636134d005006567",
+     "n": 16,
+     "cn": "a2_AbandonedLab_s1-GMIntro",
+     "t": "That's our target. Sutterlin BioScience.\n\nI wonder what happened in there."
+    },
+    {
+     "c": "53f7778d6361340021004fe8",
+     "n": 5,
+     "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
+     "t": "Empire? Since when is--"
+    },
+    {
+     "c": "53f7778d6361340021004fe8",
+     "n": 18,
+     "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
+     "t": "'Course it is! Because he's a Knight-King, right, Phil?\n\n{{GM}}He elbows you in the ribs, grinning ear to ear.{{/GM}}\n\nYou go get 'em, man! Show the world! You can do it!"
+    },
+    {
+     "c": "53f7778d6361340021004fe8",
+     "n": 29,
+     "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
+     "t": "I could listen to this guy all day, chief - all *day* - but that bioware isn't gonna stay frozen forever.\n\nWe should probably get going."
+    },
+    {
+     "c": "5235f46b303031cc09002ee1",
+     "n": 9,
+     "cn": "a2_aztechnologyRaid_s2-ElevatorGuardSeesYouInUniform",
+     "t": "Do they ever?"
+    },
+    {
+     "c": "5235f46b303031cc09002ee1",
+     "n": 20,
+     "cn": "a2_aztechnologyRaid_s2-ElevatorGuardSeesYouInUniform",
+     "t": "Do they ever?"
+    },
+    {
+     "c": "523f2b40303031540c0039f2",
+     "n": 5,
+     "cn": "a2_aztechnologyRaid_s3-IntialGuardsSeePCWithUniforms",
+     "t": "Comms run on power, lady. And in case you hadn't noticed, the power's out.\n\nI'd've thought that the ominous red lighting might've clued you in about that one."
+    },
+    {
+     "c": "523f2b40303031540c0039f2",
+     "n": 14,
+     "cn": "a2_aztechnologyRaid_s3-IntialGuardsSeePCWithUniforms",
+     "t": "Comms run on power, lady. And in case you hadn't noticed, the power's out.\n\nI'd've thought that the ominous red lighting might've clued you in about that one."
+    },
+    {
+     "c": "52421766303031041400128a",
+     "n": 10,
+     "cn": "a2_aztechnologyRaid_s3-GeneratorGuardConvo",
+     "t": "I hope so, guardsman. For your sake."
+    },
+    {
+     "c": "52421766303031041400128a",
+     "n": 14,
+     "cn": "a2_aztechnologyRaid_s3-GeneratorGuardConvo",
+     "t": "Think before you respond, pal. I'm taking notes."
+    },
+    {
+     "c": "525378a1626164c822001545",
+     "n": 4,
+     "cn": "a2_Pharma_s1-RiggerConvo2",
+     "t": "...So you're a getaway driver?\n\n{{GM}}Blitz shoots the rigger a sidelong glance.{{/GM}}\n\nVehicle riggers are even *less* likely to be found on the front lines."
+    },
+    {
+     "c": "525378a1626164c822001545",
+     "n": 19,
+     "cn": "a2_Pharma_s1-RiggerConvo2",
+     "t": "Charming."
+    },
+    {
+     "c": "525add9b3030315c17005fce",
+     "n": 2,
+     "cn": "a2_aztechnologyRaid_s2-AfterWePutOnTheUniforms",
+     "t": "Well, that's handy. I'm all for avoiding a firefight if we can get away with it.\n\n{{GM}}He claps you on the shoulder.{{/GM}}\n\nGood find, chief."
+    },
+    {
+     "c": "525add9b3030315c17005fce",
+     "n": 6,
+     "cn": "a2_aztechnologyRaid_s2-AfterWePutOnTheUniforms",
+     "t": "Uh, chief... the facility's already on high alert.\n\nIt's a little late for disguises, don't you think?"
+    },
+    {
+     "c": "52619cb6626164a00b00490c",
+     "n": 1,
+     "cn": "a2_AGChemie-S1-GarageChoiceCZ",
+     "t": "God, that's eerie. It's almost like it's waiting for something."
+    },
+    {
+     "c": "52619cb6626164a00b00490c",
+     "n": 7,
+     "cn": "a2_AGChemie-S1-GarageChoiceCZ",
+     "t": "All right. I'll see what I can do."
+    },
+    {
+     "c": "526aaa786261648c3a004bb6",
+     "n": 2,
+     "cn": "a2_AGChemie-S2-CameraConsole",
+     "t": "{{GM}}Bltiz steps up to a console built into the wall beside the elevator.{{/GM}}\n\nThis is it, chief. All the camera feeds are right here. Shall I?"
+    },
+    {
+     "c": "526aaa786261648c3a004bb6",
+     "n": 4,
+     "cn": "a2_AGChemie-S2-CameraConsole",
+     "t": "Okay, chief. You got it."
+    },
+    {
+     "c": "53c43473323437602b004529",
+     "n": 1,
+     "cn": "a2_AbandonedLab_s1-Streets_TrashPile_Vent",
+     "t": "God damn, that's rank. I'll stay back here, if you don't mind... I have better things to do than dig through a pile of decomposing trash."
+    },
+    {
+     "c": "53c43473323437602b004529",
+     "n": 3,
+     "cn": "a2_AbandonedLab_s1-Streets_TrashPile_Vent",
+     "t": "Yeah, well. I ain't touching it."
+    },
+    {
+     "c": "52364799303031080800020c",
+     "n": 6,
+     "cn": "a2_aztechnologyRaid_s2-WorkerNotes",
+     "t": "Just a guess, chief... but I'm thinking that she never got to enjoy that glass of wine."
+    },
+    {
+     "c": "523749c0303031940c0001ec",
+     "n": 12,
+     "cn": "a2_aztechnologyRaid_s2-PacingExec",
+     "t": "{{GM}}As you turn to leave, Blitz leans in and whispers to you.{{/GM}}\n\nUm... chief? What the hell was that about?"
+    },
+    {
+     "c": "5241cc1f3030314c16003f68",
+     "n": 33,
+     "cn": "a2_aztechnologyRaid_s3-BloodMageConvo_NotHostile",
+     "t": "Sure you can! I mean, if you can't trust us, who can you trust?"
+    },
+    {
+     "c": "52421f973030310414001332",
+     "n": 8,
+     "cn": "a2_aztechnologyRaid_s3-GeneratorPanel",
+     "t": "That's done it! C'mon, chief... let's listen to the nice lady and get the hell out of here!"
+    },
+    {
+     "c": "52604be06361341023004911",
+     "n": 5,
+     "cn": "a1_Hotel_s1-Junkie",
+     "t": "You wouldn't have."
+    },
+    {
+     "c": "527294a4626164001a003b36",
+     "n": 3,
+     "cn": "a2_AGChemie-S1-BuildingLockdown",
+     "t": "Well, that can't be good."
+    },
+    {
+     "c": "52ab5f04626164481d00509c",
+     "n": 1,
+     "cn": "a2_Pharma_s1-RiggerDead",
+     "t": "Whoa. That... that was cold, chief.\n\nAt the very least, you could've talked to the guy. He was a shadowrunner.\n\nOne of us."
+    },
+    {
+     "c": "52ab9edc626164441c0041c9",
+     "n": 9,
+     "cn": "a2_Pharma_s1-RiggerFeedToAutoSurgeon",
+     "t": "That's an understatement."
+    },
+    {
+     "c": "52b4d9fb64343172ad63962e",
+     "n": 15,
+     "cn": "Haven-a3_postRabbitHole",
+     "t": "Well, uh... I didn't know Paul as well as the rest of you. But he seemed like a good guy.\n\n{{GM}}He shuffles his feet.{{/GM}}\n\nI didn't want to see this happen, at any rate."
+    },
+    {
+     "c": "52e18af43234378826002cb0",
+     "n": 5,
+     "cn": "a1_Hotel_s1-BlitzAtVault",
+     "t": "Take cover!"
+    },
+    {
+     "c": "52f741c334623848040034a9",
+     "n": 4,
+     "cn": "a2_Pharma_s1-GMIntro",
+     "t": "You ready for this, chief? According to what Herr Fuchs told us, this entire complex is gonna be crawling with hired security.\n\nIt's gonna be a hell of a fight."
+    },
+    {
+     "c": "53eb9277323437ac45005a9f",
+     "n": 2,
+     "cn": "a2_AbandonedLab_s1-Streets_DumpsterDive",
+     "t": "{{GM}}Blitz chokes out a startled chuckle.{{/GM}}\n\nThat's pretty vile, chief. I mean, seriously."
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_blitz.png"
@@ -34114,1065 +35171,7 @@
    "portrait": "NPC_HumanMale_Blitz",
    "archetype": "Guard - Protect",
    "bio": null,
-   "lines": [
-    {
-     "c": "521e4028303031501600601e",
-     "n": 8,
-     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
-     "t": "Impressive. Heimerich wasn't convinced that you could pull it off."
-    },
-    {
-     "c": "521e4028303031501600601e",
-     "n": 10,
-     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
-     "t": "{{GM}}Blitz leans in to inspect her work.{{/GM}}\n\nYeah... yeah, that looks like a pretty solid connection. Nice soldering job on those contacts, there.\n\nI'd say that you're good to go."
-    },
-    {
-     "c": "521e4028303031501600601e",
-     "n": 11,
-     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
-     "t": "{{GM}}He straightens. Casts a glance back at you.{{/GM}}\n\nYou know, chief... we *could* use this setup to our advantage."
-    },
-    {
-     "c": "521e4028303031501600601e",
-     "n": 12,
-     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
-     "t": "It wouldn't be too hard for me to manufacture a power spike from here.\n\nWe could overload the Azzies' power grid. Without disabling the generators' safety overrides, it wouldn't cause any permanent damage, but the confusion might give us an opening to get into the building."
-    },
-    {
-     "c": "521e4028303031501600601e",
-     "n": 13,
-     "cn": "a2_aztechnologyRaid_s1-ToHelpDanni",
-     "t": "{{GM}}He shrugs.{{/GM}}\n\nYour call, of course. Just thought I should bring it up."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 3,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "Say, chief... if you wanted me to, I could probably set things right for these kids from inside the facility.\n\nIf I tossed the Azzies' utility logs, they'd have no way of tracing the power spike back to this conduit."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 5,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "{{GM}}He smirks.{{/GM}}\n\nSure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe.\n\n{{GM}}He raises an eyebrow at you.{{/GM}}\n\nYour call, though, chief. Obviously."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 10,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell, yeah. *Of course* I was gonna do that. I just, uh... y'know.\n\nI thought that it went without saying."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 25,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "Say, chief... if you wanted me to, I could probably set things right for these kids from inside the facility.\n\nIf I tossed the Azzies' utility logs, they'd have no way of tracing the power spike back to this conduit."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 27,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "{{GM}}He smirks.{{/GM}}\n\nSure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe.\n\n{{GM}}He raises an eyebrow at you.{{/GM}}\n\nYour call, though, chief. Obviously."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 32,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell, yeah. *Of course* I was gonna do that. I just, uh... y'know.\n\nI thought that it went without saying."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 40,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "Offer's still on the table, chief. Once we get into that facility, tossing their utility logs really wouldn't be much trouble.\n\nJust say the word, and I'm on it."
-    },
-    {
-     "c": "521e77003030318403005ff8",
-     "n": 43,
-     "cn": "a2_aztechnologyRaid_s1-OverloadedThePower",
-     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell, yeah. *Of course* I was gonna do that. I just, uh... y'know.\n\nI thought that it went without saying."
-    },
-    {
-     "c": "5235f46b303031cc09002ee1",
-     "n": 9,
-     "cn": "a2_aztechnologyRaid_s2-ElevatorGuardSeesYouInUniform",
-     "t": "Do they ever?"
-    },
-    {
-     "c": "5235f46b303031cc09002ee1",
-     "n": 20,
-     "cn": "a2_aztechnologyRaid_s2-ElevatorGuardSeesYouInUniform",
-     "t": "Do they ever?"
-    },
-    {
-     "c": "52364799303031080800020c",
-     "n": 6,
-     "cn": "a2_aztechnologyRaid_s2-WorkerNotes",
-     "t": "Just a guess, chief... but I'm thinking that she never got to enjoy that glass of wine."
-    },
-    {
-     "c": "523749c0303031940c0001ec",
-     "n": 12,
-     "cn": "a2_aztechnologyRaid_s2-PacingExec",
-     "t": "{{GM}}As you turn to leave, Blitz leans in and whispers to you.{{/GM}}\n\nUm... chief? What the hell was that about?"
-    },
-    {
-     "c": "523f2b40303031540c0039f2",
-     "n": 5,
-     "cn": "a2_aztechnologyRaid_s3-IntialGuardsSeePCWithUniforms",
-     "t": "Comms run on power, lady. And in case you hadn't noticed, the power's out.\n\nI'd've thought that the ominous red lighting might've clued you in about that one."
-    },
-    {
-     "c": "523f2b40303031540c0039f2",
-     "n": 14,
-     "cn": "a2_aztechnologyRaid_s3-IntialGuardsSeePCWithUniforms",
-     "t": "Comms run on power, lady. And in case you hadn't noticed, the power's out.\n\nI'd've thought that the ominous red lighting might've clued you in about that one."
-    },
-    {
-     "c": "5241cc1f3030314c16003f68",
-     "n": 33,
-     "cn": "a2_aztechnologyRaid_s3-BloodMageConvo_NotHostile",
-     "t": "Sure you can! I mean, if you can't trust us, who can you trust?"
-    },
-    {
-     "c": "52421766303031041400128a",
-     "n": 10,
-     "cn": "a2_aztechnologyRaid_s3-GeneratorGuardConvo",
-     "t": "I hope so, guardsman. For your sake."
-    },
-    {
-     "c": "52421766303031041400128a",
-     "n": 14,
-     "cn": "a2_aztechnologyRaid_s3-GeneratorGuardConvo",
-     "t": "Think before you respond, pal. I'm taking notes."
-    },
-    {
-     "c": "52421f973030310414001332",
-     "n": 8,
-     "cn": "a2_aztechnologyRaid_s3-GeneratorPanel",
-     "t": "That's done it! C'mon, chief... let's listen to the nice lady and get the hell out of here!"
-    },
-    {
-     "c": "52532b32626164681700018f",
-     "n": 6,
-     "cn": "a2_Pharma_s1-RiggerConvo1",
-     "t": "Couldn't hurt to hear what he has to say..."
-    },
-    {
-     "c": "52532b32626164681700018f",
-     "n": 28,
-     "cn": "a2_Pharma_s1-RiggerConvo1",
-     "t": "Uh, chief... I love new toys as much as the next guy, but we need the money more.\n\nFifteen-thousand-nuyen jobs don't grow on trees."
-    },
-    {
-     "c": "52532b32626164681700018f",
-     "n": 34,
-     "cn": "a2_Pharma_s1-RiggerConvo1",
-     "t": "Maybe we should hear him out, chief. He's a fellow runner, after all... "
-    },
-    {
-     "c": "52532b32626164681700018f",
-     "n": 40,
-     "cn": "a2_Pharma_s1-RiggerConvo1",
-     "t": "Sounds familiar..."
-    },
-    {
-     "c": "525378a1626164c822001545",
-     "n": 4,
-     "cn": "a2_Pharma_s1-RiggerConvo2",
-     "t": "...So you're a getaway driver?\n\n{{GM}}Blitz shoots the rigger a sidelong glance.{{/GM}}\n\nVehicle riggers are even *less* likely to be found on the front lines."
-    },
-    {
-     "c": "525378a1626164c822001545",
-     "n": 19,
-     "cn": "a2_Pharma_s1-RiggerConvo2",
-     "t": "Charming."
-    },
-    {
-     "c": "52538089626164c8220015b4",
-     "n": 15,
-     "cn": "a2_Pharma_s1-JohnsonConvo",
-     "t": "Let me guess. Our client sent you?"
-    },
-    {
-     "c": "52538089626164c8220015b4",
-     "n": 22,
-     "cn": "a2_Pharma_s1-JohnsonConvo",
-     "t": "Let me guess. Our client sent you?"
-    },
-    {
-     "c": "52538089626164c8220015b4",
-     "n": 31,
-     "cn": "a2_Pharma_s1-JohnsonConvo",
-     "t": "Let me guess. Our client sent you?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 0,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Hey there, chief. Don't hang up - I've got a proposition for ya."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 1,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "See the cameras in the corner of the room?\n\n{{GM}}Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them.{{/GM}}\n\nWave hi. I'm on the other side of 'em."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 2,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "You've probably noticed that this building is under new management, right? \n\nAnd judging by the fresh corpses that I'm seeing strewn all over the hotel, I'm gonna guess that you don't like the new guys any better than I do."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 3,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Well, I'd like to make you an offer. You help cover my escape, and I'll get you into a secure vault on the top floor. Belonged to the leader of the gang that used to run this place."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 4,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Trust me, it's still secure... I set up the security protocols myself. The last decker they brought in to take a crack at it came back out on a stretcher. \n\nThey haven't found too many volunteers since then."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 6,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "That'd be an understatement, chum. More accurate to say that I'm THE decker, in these parts at least. \n\nMy handle in the Matrix is \"Blitz.\" Maybe you've heard of me?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 7,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "'Sokay, I run in pretty rarefied circles."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 8,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "The one and only.\n\nGlad to be talking to a fan."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 9,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "'Course it does. In Berlin's decker community, I'm a household name."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 10,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "They called themselves the \"Schwarze Herzen,\" and they pretty much ran Drogenkippe until a few days ago. \n\nThey weren't a pleasant bunch, but they were better than the jackasses we've got in here now."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 12,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "They're terrible people. Real bad guys, all of 'em.\n\nLook, I don't mean to rush you, but we can discuss all of this later. Y'know, *after* we get out of the building full of murderous thugs."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 13,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "I was in the hotel when it got taken over, and the new gang decided to keep me... \"on staff,\" I guess you could call it. \n\nThey put me in charge of Matrix security."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 14,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "I may be one of the hottest deckers in Berlin, but a bullet in the head will kill me just as dead as anyone else. \n\nGiven the circumstances, I didn't see how I could refuse."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 15,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "{{GM}}From the pause on the other end of the line, you can tell that you've caught Blitz off guard.{{/GM}} \n\nYeah? What's that?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 16,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Yeah, okay, I was a member. For a while. \n\nBut the old boss got himself killed in a firefight, and his second-in-command took over."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 17,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "That was when the new guys moved in... I guess that they sensed weakness, and the Schwarze Herzen were still disorganized from the transition. \n\nAnyway, long story short, I don't consider myself a member any more... I just wanna get out and do my own thing."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 18,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Good. Yeah, that's good. \n\nOkay, you wanna clear out the safe, or what?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 19,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Look, what does it matter to you if I WAS a member of Schwarze Herzen? I'm sure that you have some shady friends, too, but I'm not gonna ask about 'em 'cause it's none of my business. \n\nLet's just clean out the safe and get out of here, okay?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 20,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Gear. Money. You know, lots of good stuff."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 21,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Look, buddy, I just set up the Matrix security for the thing. The old boss didn't let me set foot into the vault. He was a little paranoid, you know? \n\nBut he was adamant that he wanted me to rig up some really killer IC, so there must be *something* of value in there."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 22,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "So how about it? You want a crack at that vault, or not?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 24,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Room 505, on the Penthouse floor. Come rendezvous with me here, and I'll take you to the vault."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 25,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "All right. Your loss.\n\nLook, if you change your mind, come meet me in Room 505 on the Penthouse floor.\n\nI'm tellin' you, you don't want to pass up this deal."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 26,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Well... no. I mean, I've never actually *seen* what's in the vault. Not personally."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 27,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "As are we all. So, shall we go grab it?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 28,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "You've probably noticed that this building is under new management, right?\n\nAnd judging by the way you've been tiptoeing around since you showed up, I'm gonna guess that you don't wanna tangle with the new guys any more than I do."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 29,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Yeah, I get that... from what I'm seeing on my monitors, you've had a busy day.\n\nYou'll wanna hear me out, all the same. Trust me on this."
-    },
-    {
-     "c": "525add9b3030315c17005fce",
-     "n": 2,
-     "cn": "a2_aztechnologyRaid_s2-AfterWePutOnTheUniforms",
-     "t": "Well, that's handy. I'm all for avoiding a firefight if we can get away with it.\n\n{{GM}}He claps you on the shoulder.{{/GM}}\n\nGood find, chief."
-    },
-    {
-     "c": "525add9b3030315c17005fce",
-     "n": 6,
-     "cn": "a2_aztechnologyRaid_s2-AfterWePutOnTheUniforms",
-     "t": "Uh, chief... the facility's already on high alert.\n\nIt's a little late for disguises, don't you think?"
-    },
-    {
-     "c": "525ccb07626164e02600603b",
-     "n": 2,
-     "cn": "a2_AGChemie-S1-CZConsole",
-     "t": "{{GM}}Blitz's eyes go wide.{{/GM}}\n\nChief. Did you just read that?\n\nI am going to drive the *hell* out of this thing."
-    },
-    {
-     "c": "525ccb07626164e02600603b",
-     "n": 3,
-     "cn": "a2_AGChemie-S1-CZConsole",
-     "t": "Yeah, yeah. Fine. Read up.\n\nBut after you're done, I'm gonna do my thing. I mean, how many riggers can say that they've piloted a troll?"
-    },
-    {
-     "c": "525ccb07626164e02600603b",
-     "n": 5,
-     "cn": "a2_AGChemie-S1-CZConsole",
-     "t": "{{GM}}Blitz looks sullen.{{/GM}}\n\nYeah, well, screw you, too."
-    },
-    {
-     "c": "525ccb07626164e02600603b",
-     "n": 6,
-     "cn": "a2_AGChemie-S1-CZConsole",
-     "t": "Okay, sure. Yeah. Due diligence, and all that.\n\nJust, like, don't take too long, okay? This is a golden opportunity. I don't wanna waste it."
-    },
-    {
-     "c": "525ccb07626164e02600603b",
-     "n": 52,
-     "cn": "a2_AGChemie-S1-CZConsole",
-     "t": "I've got it, chief. The MKVI is under my control.\n\nBut it's strange... this thing's reactions feel... *off,* somehow."
-    },
-    {
-     "c": "525ccb07626164e02600603b",
-     "n": 53,
-     "cn": "a2_AGChemie-S1-CZConsole",
-     "t": "It's almost like there's somethin' else in here with me."
-    },
-    {
-     "c": "52604be06361341023004911",
-     "n": 5,
-     "cn": "a1_Hotel_s1-Junkie",
-     "t": "You wouldn't have."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 2,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Two different clients, and two different paydays. Decisions, decisions, huh, chief?"
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 5,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 7,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 9,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, boss. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 11,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 12,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief.\n\nCan't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 25,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Decisions, decisions, huh, chief?\n\n{{GM}}He shakes his head.{{/GM}}\n\nCan't say that I like the idea of handin' this thing over to Schmidt... Lord knows what he's going to do with it."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 28,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 30,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 32,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, boss. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 34,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief. Can't say I envy you the decision."
-    },
-    {
-     "c": "52619975626164a00b0048cf",
-     "n": 35,
-     "cn": "a2_AGChemie-S1-GarageChoice",
-     "t": "Well, it's your call, chief.\n\nCan't say I envy you the decision."
-    },
-    {
-     "c": "52619cb6626164a00b00490c",
-     "n": 1,
-     "cn": "a2_AGChemie-S1-GarageChoiceCZ",
-     "t": "God, that's eerie. It's almost like it's waiting for something."
-    },
-    {
-     "c": "52619cb6626164a00b00490c",
-     "n": 7,
-     "cn": "a2_AGChemie-S1-GarageChoiceCZ",
-     "t": "All right. I'll see what I can do."
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 8,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "{{GM}}Blitz stops short.{{/GM}}\n\nWhat's going on, chief?"
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 21,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "I'll back you, chief, no matter what you choose to do. But I, for one, hope that you take the offer."
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 22,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "We still have a dragon to deal with. We need resources more than we need Herr Schmidt to like us. And if this contact of yours has access to those resources, well...\n\n{{GM}}He shrugs.{{/GM}}\n\nYou do the math."
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 25,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "I don't want to be on anyone else's bad side... especially not theirs. I didn't even think that they existed.\n\n{{GM}}He turns to stare at you.{{/GM}}\n\nWhat the hell have you gotten us into, chief?"
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 31,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "What is he talking about?"
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 37,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "I don't know who this mystery contact is, but we need money, and we need it fast. So I say, go for it."
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 38,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "Besides, if we piss off this \"Herr Schmidt,\" who cares? I mean, we live in Berlin! There're bound to be *plenty* of other clients out there."
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 47,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "I wish you'd reconsider this, chief. If we're gonna collect Alice's fee in time to save our own skins, we're gonna need to take all of the opportunities we can get, and this looks like a pretty great one to me.\n\nI don't know why we're passing it up."
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 53,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "I'm behind you a hundred percent, chief. This is the right call, no question about it.\n\nNow let's get this thing, get it back to your contact, and earn us some money!"
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 64,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "Hey, like I said, I'm all for it. And I don't want to get on *anyone* else's bad side - we're on enough of those already.\n\nSo what are we still talkin' about this for? Let's do it, get paid, and get back home!"
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 70,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "More money, huh?\n\nI like money."
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 71,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "...And more importantly, we *need* money, for the Alice fund.\n\nSo, yeah. Sounds to me like we should do this, chief. Good choice!"
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 77,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "{{GM}}He rolls his eyes.{{/GM}}\n\nTypical. \"Hey, go do this, and follow my instructions to the letter. You doing it yet? Okay, plan's changed.\""
-    },
-    {
-     "c": "52675434626164703000513a",
-     "n": 78,
-     "cn": "a2_AGChemie-S2-Lodge",
-     "t": "Well, at least he let us know before we got out of the garage.\n\nThe second van it is. Let's get moving."
-    },
-    {
-     "c": "526aaa786261648c3a004bb6",
-     "n": 2,
-     "cn": "a2_AGChemie-S2-CameraConsole",
-     "t": "{{GM}}Bltiz steps up to a console built into the wall beside the elevator.{{/GM}}\n\nThis is it, chief. All the camera feeds are right here. Shall I?"
-    },
-    {
-     "c": "526aaa786261648c3a004bb6",
-     "n": 4,
-     "cn": "a2_AGChemie-S2-CameraConsole",
-     "t": "Okay, chief. You got it."
-    },
-    {
-     "c": "527294a4626164001a003b36",
-     "n": 3,
-     "cn": "a2_AGChemie-S1-BuildingLockdown",
-     "t": "Well, that can't be good."
-    },
-    {
-     "c": "527abf9e636134b83400302e",
-     "n": 10,
-     "cn": "Haven-Global_MissionComputer",
-     "t": "Nifty piece of tech."
-    },
-    {
-     "c": "527abf9e636134b83400302e",
-     "n": 15,
-     "cn": "Haven-Global_MissionComputer",
-     "t": "That answers that."
-    },
-    {
-     "c": "527abf9e636134b83400302e",
-     "n": 27,
-     "cn": "Haven-Global_MissionComputer",
-     "t": "Okay. Nobody tell me, I get it.\n\nThis is something else that I missed."
-    },
-    {
-     "c": "527abf9e636134b83400302e",
-     "n": 58,
-     "cn": "Haven-Global_MissionComputer",
-     "t": "{{GM}}Blitz stares at the text on the screen.{{/GM}}\n\nShe… uh, *it*... isn’t kidding, chief. This discussion is dated back to 2036. That's ancient history in the decking community.\n\nIt probably isn't even correct to call these guys \"deckers.\" \"Hackers\" would be the more appropriate term."
-    },
-    {
-     "c": "527abf9e636134b83400302e",
-     "n": 75,
-     "cn": "Haven-Global_MissionComputer",
-     "t": "{{GM}}Blitz raises his hand.{{/GM}}\n\nHold up. Uh, Alice, I have a question.\n\nI thought they said that Lofwyr killed APEX?"
-    },
-    {
-     "c": "527abf9e636134b83400302e",
-     "n": 92,
-     "cn": "Haven-Global_MissionComputer",
-     "t": "I don't like the smell of this, chief. It said that APEX *let* Alice escape.\n\n{{GM}}He turns to address the simulacrum on the screen.{{/GM}}\n\nAlice, why would a Matrix warfare AI allow you to run a trace on it?"
-    },
-    {
-     "c": "527abf9e636134b83400302e",
-     "n": 101,
-     "cn": "Haven-Global_MissionComputer",
-     "t": "I'm still in favor of the \"cut and run\" plan. Butting heads with an AI isn't high on my list of things to do for the day."
-    },
-    {
-     "c": "52a0bac0636134f018001d6d",
-     "n": 4,
-     "cn": "a2_AGChemie-S1-CZReveal",
-     "t": "Stay cool, guys. It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
-    },
-    {
-     "c": "52a0bac0636134f018001d6d",
-     "n": 9,
-     "cn": "a2_AGChemie-S1-CZReveal",
-     "t": "It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
-    },
-    {
-     "c": "52a0bac0636134f018001d6d",
-     "n": 13,
-     "cn": "a2_AGChemie-S1-CZReveal",
-     "t": "Be cool, Dietrich. It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
-    },
-    {
-     "c": "52a0bac0636134f018001d6d",
-     "n": 17,
-     "cn": "a2_AGChemie-S1-CZReveal",
-     "t": "Be cool, Eiger. It isn't moving. I think that it's... I dunno, on standby or something.\n\nThe lights are on, but nobody's home."
-    },
-    {
-     "c": "52a0bac0636134f018001d6d",
-     "n": 19,
-     "cn": "a2_AGChemie-S1-CZReveal",
-     "t": "Jesus. Look at that."
-    },
-    {
-     "c": "52a0bac0636134f018001d6d",
-     "n": 20,
-     "cn": "a2_AGChemie-S1-CZReveal",
-     "t": "Yeah... you're right. I think that it's... I don't know, on standby or something.\n\nThe lights are on, but nobody's home."
-    },
-    {
-     "c": "52a8a94f636134242200491f",
-     "n": 12,
-     "cn": "a2_Pharma_s1-RiggerInspect",
-     "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job.\n\nAll for the crime of being a \"loose end.\""
-    },
-    {
-     "c": "52a8a94f636134242200491f",
-     "n": 14,
-     "cn": "a2_Pharma_s1-RiggerInspect",
-     "t": "{{GM}}He gives Dietrich a solemn nod.{{/GM}}\n\nYou said it."
-    },
-    {
-     "c": "52a8a94f636134242200491f",
-     "n": 18,
-     "cn": "a2_Pharma_s1-RiggerInspect",
-     "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job.\n\n{{GM}}He shakes his head.{{/GM}}\n\nI dunno. It doesn't feel like we're on the right side of this one."
-    },
-    {
-     "c": "52a8a94f636134242200491f",
-     "n": 19,
-     "cn": "a2_Pharma_s1-RiggerInspect",
-     "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job."
-    },
-    {
-     "c": "52a8a94f636134242200491f",
-     "n": 20,
-     "cn": "a2_Pharma_s1-RiggerInspect",
-     "t": "Not sure I like being on this side of things, chief.\n\nDoesn't feel like we're on the right side of this one."
-    },
-    {
-     "c": "52a90f6b6361340408008351",
-     "n": 12,
-     "cn": "a2_Pharma_s1-RiggerConvo3",
-     "t": "To hell with the trinket. Letting this bastard go would be *wrong,* chief... you know that.\n\nBesides which, he lied to us. There was no \"bad intel.\" *This* bastard is the *reason* why things went south with that run.\n\nI'm sure of it."
-    },
-    {
-     "c": "52a90f6b6361340408008351",
-     "n": 14,
-     "cn": "a2_Pharma_s1-RiggerConvo3",
-     "t": "If you don't wanna kill him, that's fine. \n\n{{GM}}Blitz looks you in the eye.{{/GM}}\n\nLet *me* do it."
-    },
-    {
-     "c": "52a90f6b6361340408008351",
-     "n": 29,
-     "cn": "a2_Pharma_s1-RiggerConvo3",
-     "t": "Blitz gives you a significant glance.\n\nYou can see the disgust in his eyes.",
-     "y": 6
-    },
-    {
-     "c": "52ab5f04626164481d00509c",
-     "n": 1,
-     "cn": "a2_Pharma_s1-RiggerDead",
-     "t": "Whoa. That... that was cold, chief.\n\nAt the very least, you could've talked to the guy. He was a shadowrunner.\n\nOne of us."
-    },
-    {
-     "c": "52ab6b846361340c1900670a",
-     "n": 5,
-     "cn": "a2_aztechnologyRaid_s1-GMIntro",
-     "t": "Friend of mine did a job here once. Told me that the local wageslaves are all issued \"efficiency apartments\" deep inside the compound. \n\nApparently, they've got all the buildings linked up on an underground tram system. Bed to cubicle in less than five minutes. Most days, the poor bastards don't even get to see the sun shine."
-    },
-    {
-     "c": "52ab6b846361340c1900670a",
-     "n": 10,
-     "cn": "a2_aztechnologyRaid_s1-GMIntro",
-     "t": "That ain't \"living.\" It's a slow death.\n\n{{GM}}He shakes his head.{{/GM}}\n\nI just don't get wageslaves, man. I really, really don't."
-    },
-    {
-     "c": "52ab6b846361340c1900670a",
-     "n": 13,
-     "cn": "a2_aztechnologyRaid_s1-GMIntro",
-     "t": "Quiet out here."
-    },
-    {
-     "c": "52ab6b846361340c1900670a",
-     "n": 15,
-     "cn": "a2_aztechnologyRaid_s1-GMIntro",
-     "t": "{{GM}}He shakes his head.{{/GM}}\n\nI can't imagine a much worse way to live, chief.\n\nMakes my skin crawl just thinking about it."
-    },
-    {
-     "c": "52ab6b846361340c1900670a",
-     "n": 16,
-     "cn": "a2_aztechnologyRaid_s1-GMIntro",
-     "t": "{{GM}}He nods.{{/GM}}\n\nWell. Might as well get to it."
-    },
-    {
-     "c": "52ab9edc626164441c0041c9",
-     "n": 9,
-     "cn": "a2_Pharma_s1-RiggerFeedToAutoSurgeon",
-     "t": "That's an understatement."
-    },
-    {
-     "c": "52b4d9fb64343172ad63962e",
-     "n": 15,
-     "cn": "Haven-a3_postRabbitHole",
-     "t": "Well, uh... I didn't know Paul as well as the rest of you. But he seemed like a good guy.\n\n{{GM}}He shuffles his feet.{{/GM}}\n\nI didn't want to see this happen, at any rate."
-    },
-    {
-     "c": "52b4e06e64343172ad639884",
-     "n": 10,
-     "cn": "Haven-a3_postChip",
-     "t": "Well, uh... yeah. Meat Grinder hasn't gone away on his own, or anything."
-    },
-    {
-     "c": "52b4e06e64343172ad639884",
-     "n": 12,
-     "cn": "Haven-a3_postChip",
-     "t": "It's a long story. But the chief and I are gonna get it taken care of in a jiffy."
-    },
-    {
-     "c": "52b4e06e64343172ad639884",
-     "n": 16,
-     "cn": "Haven-a3_postChip",
-     "t": "I still say that all of this is crazy talk, chief. Taking on an AI isn't just a bad idea... it's *suicide.*\n\nSo my vote is to cut and run."
-    },
-    {
-     "c": "52b4e06e64343172ad639884",
-     "n": 17,
-     "cn": "Haven-a3_postChip",
-     "t": "{{GM}}Blitz surveys the rest of the group. Sees the determination in their faces. Finally, he sighs.{{/GM}}\n\n...But if you're really doing this, you'll want the best decker you can find along for the ride. And I guess that nominates... me. \n\nWoo."
-    },
-    {
-     "c": "52b4e06e64343172ad639884",
-     "n": 20,
-     "cn": "Haven-a3_postChip",
-     "t": "God, I hope not."
-    },
-    {
-     "c": "52b4e06e64343172ad639884",
-     "n": 23,
-     "cn": "Haven-a3_postChip",
-     "t": "{{GM}}Blitz glances at you. The worry is painted all over his face.{{/GM}}\n\nI can't believe I'm saying this, but you'd better bring me along.\n\nYou try going up against an AI without a novahot decker at your side, and you're probably going to regret it."
-    },
-    {
-     "c": "52ceffd16361348c270034ae",
-     "n": 1,
-     "cn": "a2_AGChemie-S1-CZDeathConvo",
-     "t": "{{GM}}Blitz stares down at the MKVI's ruined skull, his eyes wide.{{/GM}}\n\nWell. That was... unexpected. And also disgusting."
-    },
-    {
-     "c": "52ceffd16361348c270034ae",
-     "n": 3,
-     "cn": "a2_AGChemie-S1-CZDeathConvo",
-     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell... I guess we might as well load the body into the van.\n\nHerr Schmidt won't be happy, but it's better than nothing."
-    },
-    {
-     "c": "52ceffd16361348c270034ae",
-     "n": 6,
-     "cn": "a2_AGChemie-S1-CZDeathConvo",
-     "t": "Still, if it wanted to die that badly, I'm glad that it was able to on its own terms.\n\nC'mon, chief. Let's get the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
-    },
-    {
-     "c": "52ceffd16361348c270034ae",
-     "n": 20,
-     "cn": "a2_AGChemie-S1-CZDeathConvo",
-     "t": "{{GM}}Blitz shrugs.{{/GM}}\n\nWell... I guess we might as well load the body into the van.\n\nHerr Schmidt won't be happy, but it's better than nothing."
-    },
-    {
-     "c": "52e18af43234378826002cb0",
-     "n": 5,
-     "cn": "a1_Hotel_s1-BlitzAtVault",
-     "t": "Take cover!"
-    },
-    {
-     "c": "52f741c334623848040034a9",
-     "n": 4,
-     "cn": "a2_Pharma_s1-GMIntro",
-     "t": "You ready for this, chief? According to what Herr Fuchs told us, this entire complex is gonna be crawling with hired security.\n\nIt's gonna be a hell of a fight."
-    },
-    {
-     "c": "534f16e43030315008005311",
-     "n": 3,
-     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
-     "t": "Wow, chief. That was... intense.\n\nNothing I couldn't handle, of course. But this was a little more dramatic than I was expecting."
-    },
-    {
-     "c": "534f16e43030315008005311",
-     "n": 4,
-     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
-     "t": "Yeah.\n\n{{GM}}He eyes the crater.{{/GM}}\n\nI guess that's true."
-    },
-    {
-     "c": "534f16e43030315008005311",
-     "n": 5,
-     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
-     "t": "If you say so.\n\n{{GM}}He eyes the crater.{{/GM}}\n\n...But next time, lets try to find some work that *doesn't* end in a giant fireball, okay?"
-    },
-    {
-     "c": "534f16e43030315008005311",
-     "n": 6,
-     "cn": "a2_aztechnologyRaid_s3-TeamOutro",
-     "t": "Yeah, chief... that place just felt *wrong.*\n\nYou could feel it in your heart, you know? *Creepy.*"
-    },
-    {
-     "c": "53c43473323437602b004529",
-     "n": 1,
-     "cn": "a2_AbandonedLab_s1-Streets_TrashPile_Vent",
-     "t": "God damn, that's rank. I'll stay back here, if you don't mind... I have better things to do than dig through a pile of decomposing trash."
-    },
-    {
-     "c": "53c43473323437602b004529",
-     "n": 3,
-     "cn": "a2_AbandonedLab_s1-Streets_TrashPile_Vent",
-     "t": "Yeah, well. I ain't touching it."
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 13,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Well, there was this dumpster..."
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 49,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Succession? Who died?"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 54,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "{{GM}}Blitz mutters under his breath.{{/GM}}\n\nWe've got a live one here, chief."
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 70,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "{{GM}}Blitz smirks.{{/GM}}\n\nWow. Must be rough, being that big a fan and not having seen the ending."
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 72,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Yeah. The last episode before it got canceled. Y'know, the hastily written final chapter, where you find out what happens with the Jubuthon invasion?"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 75,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "I'm willing to bet that I could do that, chief. This guy might not know how to disengage the quarantine, but I'll bet that I can. And once we've reestablished the building's Matrix connection, it'd be no big deal for me to download the last episode for him to watch.\n\nIf nothing else, it'll keep him occupied for a while."
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 76,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Sure thing, chief. The terminals in this building are all networked together, so I should be able to drop the quarantine from any computer in the place."
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 102,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Then what were you doing here?"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 112,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Leave this one alone, chief. You won't change his mind - he's too far gone."
-    },
-    {
-     "c": "53e93d9b323437c03d003e5c",
-     "n": 3,
-     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
-     "t": "All right, chief. Watch me work."
-    },
-    {
-     "c": "53e93d9b323437c03d003e5c",
-     "n": 6,
-     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
-     "t": "Nope. That's it. Quarantine disengaged.\n\nAnd now to get Phil the last episode of his bullshit trid show."
-    },
-    {
-     "c": "53e93d9b323437c03d003e5c",
-     "n": 8,
-     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
-     "t": "Done and done. The horrible conclusion to that terrible show is waiting for Phil on his media center.\n\nYou wanna know how it ends?"
-    },
-    {
-     "c": "53e93d9b323437c03d003e5c",
-     "n": 10,
-     "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
-     "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut.\n\nIn the end, Titonius saves Lightninghold by rallying a peasant revolt. It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
-    },
-    {
-     "c": "53e93dc7323437c03d003e68",
-     "n": 3,
-     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
-     "t": "All right, chief. Watch me work."
-    },
-    {
-     "c": "53e93dc7323437c03d003e68",
-     "n": 6,
-     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
-     "t": "Nope. That's it. Quarantine disengaged.\n\nAnd now to get Phil the last episode of his bullshit trid show..."
-    },
-    {
-     "c": "53e93dc7323437c03d003e68",
-     "n": 8,
-     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
-     "t": "Done and done. The horrible conclusion to that terrible show is waiting for Phil on his media center.\n\nYou wanna know how it ends?"
-    },
-    {
-     "c": "53e93dc7323437c03d003e68",
-     "n": 10,
-     "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
-     "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut.\n\nIn the end, Titonius saves Lightninghold by rallying a peasant revolt. It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
-    },
-    {
-     "c": "53eb9277323437ac45005a9f",
-     "n": 2,
-     "cn": "a2_AbandonedLab_s1-Streets_DumpsterDive",
-     "t": "{{GM}}Blitz chokes out a startled chuckle.{{/GM}}\n\nThat's pretty vile, chief. I mean, seriously."
-    },
-    {
-     "c": "53ebc364323437ac45005b67",
-     "n": 1,
-     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
-     "t": "All right, chief. Watch me work."
-    },
-    {
-     "c": "53ebc364323437ac45005b67",
-     "n": 4,
-     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
-     "t": "Nope. That's it. Quarantine disengaged.\n\nAnd now to get Phil the last episode of his bullshit trid show..."
-    },
-    {
-     "c": "53ebc364323437ac45005b67",
-     "n": 6,
-     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
-     "t": "Done and done. The horrible conclusion to that terrible show is waiting for Phil on his media center.\n\nYou wanna know how it ends?"
-    },
-    {
-     "c": "53ebc364323437ac45005b67",
-     "n": 8,
-     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
-     "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut.\n\nIn the end, Titonius saves Lightninghold by rallying a peasant revolt. It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
-    },
-    {
-     "c": "53ebc364323437ac45005b67",
-     "n": 20,
-     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
-     "t": "I remember that show. It was horrible. I mean, really, *really* bad - made \"Neil the Ork Barbarian\" look like high art.\n\nMe an' my buddies in the Schwarze Herzen used to get high and laugh at it. It only ran for seven episodes before it got pulled."
-    },
-    {
-     "c": "53ebc364323437ac45005b67",
-     "n": 45,
-     "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
-     "t": "Oh, man! That's it, that's the show! I forgot how bad the dub job was!"
-    },
-    {
-     "c": "53ed57d2636134d005006567",
-     "n": 5,
-     "cn": "a2_AbandonedLab_s1-GMIntro",
-     "t": "There's a cheerful thought.\n\nCome on, chief. Let's get this over with."
-    },
-    {
-     "c": "53ed57d2636134d005006567",
-     "n": 10,
-     "cn": "a2_AbandonedLab_s1-GMIntro",
-     "t": "Yeah, I'm with you there.\n\nCome on, chief. Let's get this over with."
-    },
-    {
-     "c": "53ed57d2636134d005006567",
-     "n": 16,
-     "cn": "a2_AbandonedLab_s1-GMIntro",
-     "t": "That's our target. Sutterlin BioScience.\n\nI wonder what happened in there."
-    },
-    {
-     "c": "53f7778d6361340021004fe8",
-     "n": 5,
-     "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
-     "t": "Empire? Since when is--"
-    },
-    {
-     "c": "53f7778d6361340021004fe8",
-     "n": 18,
-     "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
-     "t": "'Course it is! Because he's a Knight-King, right, Phil?\n\n{{GM}}He elbows you in the ribs, grinning ear to ear.{{/GM}}\n\nYou go get 'em, man! Show the world! You can do it!"
-    },
-    {
-     "c": "53f7778d6361340021004fe8",
-     "n": 29,
-     "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
-     "t": "I could listen to this guy all day, chief - all *day* - but that bioware isn't gonna stay frozen forever.\n\nWe should probably get going."
-    }
-   ],
+   "lines": [],
    "portraitFile": "dragonfall/npc_humanmale_blitz.png"
   },
   {

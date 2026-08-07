@@ -2248,21 +2248,6 @@
    ]
   }
  },
- "name_manonphone": {
-  "521e4028303031501600601e_8": {
-   "selected": "name_manonphone/takes/521e4028303031501600601e_8__mag37__1786104671.mp3",
-   "takes": [
-    {
-     "file": "name_manonphone/takes/521e4028303031501600601e_8__mag37__1786104671.mp3",
-     "voiceId": "mag_37",
-     "voiceName": "Logan West",
-     "stability": 0,
-     "chars": 66,
-     "ts": 1786104671
-    }
-   ]
-  }
- },
  "name_hasenkamp": {
   "53515ace3739370c5700010e_1": {
    "selected": "name_hasenkamp/takes/53515ace3739370c5700010e_1__mag264__1786104774.mp3",
