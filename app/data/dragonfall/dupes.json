@@ -3,7 +3,7 @@
   "characters.json": "c2366173a53999b4",
   "line_segments.json": "1b104b9c133cde24",
   "text_edits.json": "319f630cc446b592",
-  "directed.json": "c419c831e22f404d",
+  "directed.json": "d18d4f34fdc0dc2a",
   "spoken_overrides.json": "67e46b1f0bd8e8f8",
   "official_keys.json": null,
   "seg_overrides.json": null
@@ -280,6 +280,7 @@
    "5362c867373937040e006702_26": "5362c867373937040e006702_15",
    "5369228f636134ac1a002d10_6": "5369228f636134ac1a002d10_5",
    "53bae97e636134dc2700036e_23": "53bae97e636134dc2700036e_18",
+   "53bae97e636134dc2700036e_30": "53bae97e636134dc2700036e_12~g0",
    "53deb1db3030314805006d0d_2": "53deb0573030314805006cb7_2",
    "53fbc6cf303031c00a004c3f_2": "53deb0573030314805006cb7_2",
    "53fbd8fb303031c00a004c8f_2": "53deb0573030314805006cb7_2",

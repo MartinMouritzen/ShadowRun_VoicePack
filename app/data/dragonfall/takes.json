@@ -285,6 +285,32 @@
      "ts": 1786103748
     }
    ]
+  },
+  "520a77823030315011001698_15~g0": {
+   "selected": "narrator/takes/520a77823030315011001698_15~g0__0aXOy31Cjamp__1786110057.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/520a77823030315011001698_15~g0__0aXOy31Cjamp__1786110057.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 105,
+     "ts": 1786110057
+    }
+   ]
+  },
+  "521e4028303031501600601e_24~g0": {
+   "selected": "narrator/takes/521e4028303031501600601e_24~g0__0aXOy31Cjamp__1786110082.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/521e4028303031501600601e_24~g0__0aXOy31Cjamp__1786110082.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 11,
+     "ts": 1786110082
+    }
+   ]
   }
  },
  "name_glory": {
@@ -796,6 +822,19 @@
      "stability": 0,
      "chars": 257,
      "ts": 1786103835
+    }
+   ]
+  },
+  "521e4028303031501600601e_24": {
+   "selected": "name_eiger/takes/521e4028303031501600601e_24__mag164__1786110083.mp3",
+   "takes": [
+    {
+     "file": "name_eiger/takes/521e4028303031501600601e_24__mag164__1786110083.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 47,
+     "ts": 1786110083
     }
    ]
   }
