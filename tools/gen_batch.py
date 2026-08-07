@@ -105,6 +105,12 @@ def post(job):
     with urllib.request.urlopen(req, timeout=300) as r:
         return json.loads(r.read())
 
+throttled_until = [0.0]                 # shared: one worker hitting the cap pauses all of them
+
+def is_throttle(msg):
+    m = (msg or "").lower()
+    return "too many" in m or "rate limit" in m or "-32000" in m
+
 def worker():
     while True:
         try:
@@ -112,17 +118,28 @@ def worker():
         except queue.Empty:
             return
         err = None
-        for attempt in (1, 2):          # one retry; transient 502s from the provider are common
+        # Up to ~8 attempts, because the provider's hourly tool-call cap is a WAIT, not a failure.
+        # Marking a throttled job failed and moving on drains the queue in minutes and generates
+        # nothing; the first version of this did exactly that to 1,900 lines.
+        for attempt in range(8):
+            nap = throttled_until[0] - time.time()
+            if nap > 0:
+                time.sleep(min(nap, 90))
             try:
                 res = post(job)
                 if res.get("error"):
                     err = res["error"]
-                    continue
+                    if is_throttle(err):
+                        with lock:
+                            throttled_until[0] = max(throttled_until[0],
+                                                     time.time() + min(20 * (attempt + 1), 120))
+                        continue
+                    break                # a real error: retry once more, then give up
                 err = None
                 break
             except Exception as e:
                 err = str(e)
-                time.sleep(2 * attempt)
+                time.sleep(2 * (attempt + 1))
         with lock:
             if err:
                 state["fail"] += 1
