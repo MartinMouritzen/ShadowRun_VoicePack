@@ -20,7 +20,7 @@
  "54cff281303031f808007fca_32": {
   "char": "Gobbet",
   "original": "$+(l.he)'d better. If $(l.he) doesn't, it's all of our asses.\n\n{{GM}}She lets her hand fall. Nods to the three of you.{{/GM}} \n\nOkay. We'll go on ahead and smooth the way. Just give us a few minutes' head start.",
-  "spoken": "they'd better. If they doesn't, it's all of our asses. Okay. We'll go on ahead and smooth the way. Just give us a few minutes' head start.",
+  "spoken": "They'd better. If they don't, it's all of our asses. Okay. We'll go on ahead and smooth the way. Just give us a few minutes' head start.",
   "source": "rules"
  },
  "54d00020306364a06a008a84_18": {
@@ -560,7 +560,7 @@
  "5536c5c5323431e810007d45_36": {
   "char": "Gobbet",
   "original": "It's all right, Izz. $+(l.he)'s right - it *was* a bad idea. One that Malvina's to blame for.\n\nI gave her the damned thing to fight Tsui. I didn't tell her to keep it.",
-  "spoken": "It's all right, Izz. they's right - it *was* a bad idea. One that Malvina's to blame for. I gave her the damned thing to fight Tsui. I didn't tell her to keep it.",
+  "spoken": "It's all right, Izz. They are right - it *was* a bad idea. One that Malvina's to blame for. I gave her the damned thing to fight Tsui. I didn't tell her to keep it.",
   "source": "rules"
  },
  "5536c5c5323431e810007d45_64": {
@@ -728,7 +728,7 @@
  "555a5164323437080f00276b_77": {
   "char": "Gobbet",
   "original": "$+(l.he)'s right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred.\n\nThe place is doomed either way.",
-  "spoken": "they's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+  "spoken": "They are right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
   "source": "rules"
  },
  "555a5164323437080f00276b_78": {
@@ -1070,7 +1070,7 @@
  "5633e0113063644416006cf6_18": {
   "char": "Gobbet",
   "original": "{{GM}}Gobbet picks her teeth with one fingernail, flicking whatever she found to the floor.{{/GM}}\n\n$+(l.he) means that we're on the top floor of one of the most secure buildings in Hong Kong. You think one freelancer and some rank and file Fuchi guards are enough to stop us? They're not paying you enough to take on a crew like us.",
-  "spoken": "they means that we're on the top floor of one of the most secure buildings in Hong Kong. You think one freelancer and some rank and file Fuchi guards are enough to stop us? They're not paying you enough to take on a crew like us.",
+  "spoken": "they mean that we're on the top floor of one of the most secure buildings in Hong Kong. You think one freelancer and some rank and file Fuchi guards are enough to stop us? They're not paying you enough to take on a crew like us.",
   "source": "rules"
  },
  "563905d43063649c0800054a_13": {
@@ -1136,7 +1136,7 @@
  "566f0c4f643661780f0042a2_17": {
   "char": "Gobbet",
   "original": "$+(l.he) can't, Duncan. Not if $(l.he) wants the team to survive.\n\nI get where you're coming from, but you're putting yourself ahead of everyone else on this team, and that shit ain't right.",
-  "spoken": "they can't, Duncan. Not if they wants the team to survive. I get where you're coming from, but you're putting yourself ahead of everyone else on this team, and that shit ain't right.",
+  "spoken": "They can't, Duncan. Not if they want the team to survive. I get where you're coming from, but you're putting yourself ahead of everyone else on this team, and that shit ain't right.",
   "source": "rules"
  },
  "566f17b1643661780f00432b_2": {
@@ -1466,13 +1466,13 @@
  "5543c201323431601600390f_43": {
   "char": "Is0bel",
   "original": "$+(l.he) isn't second guessing anything. We haven't seen enough to make a decision yet. You may have, but *we* haven't.",
-  "spoken": "they aren't second guessing anything. We haven't seen enough to make a decision yet. You may have, but *we* haven't.",
+  "spoken": "They aren't second guessing anything. We haven't seen enough to make a decision yet. You may have, but *we* haven't.",
   "source": "rules"
  },
  "555a5164323437080f00276b_49": {
   "char": "Is0bel",
   "original": "$+(l.he)'s right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred.\n\nThe place is doomed either way.",
-  "spoken": "they's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+  "spoken": "They are right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
   "source": "rules"
  },
  "555a5164323437080f00276b_60": {
@@ -1523,24 +1523,6 @@
   "spoken": "Don't say that. It's bad luck. Oh, and hey? We aren't going loud yet - you got that? Whatever you do, don't start shooting. We can't afford to send Rhombus running before we can get him cornered.",
   "source": "hand"
  },
- "556d09653234312c01003b35_11": {
-  "char": "Is0bel",
-  "original": "Oh, thank you, $(l.sir)!\n\n{{GM}}As you turn away, he bows frantically after you.{{/GM}}\n\nThis is the happiest day of my life!",
-  "spoken": "Oh, thank you! This is the happiest day of my life!",
-  "source": "rules"
- },
- "556d2c843234316c180010b2_15": {
-  "char": "Is0bel",
-  "original": "I don't need cash. I need someone to help me out.\n\nYou look like the kind of $(l.guy) who could do that, so just hear me out. This'll take you five minutes, tops, and then you'll have your uniform free of charge.",
-  "spoken": "I don't need cash. I need someone to help me out. You look like the kind of person who could do that, so just hear me out. This'll take you five minutes, tops, and then you'll have your uniform free of charge.",
-  "source": "hand"
- },
- "556e2a46323431bc19001ad9_11": {
-  "char": "Is0bel",
-  "original": "{{GM}}He snickers.{{/GM}}\n\nI could say the same about you. Where's your deck, $(l.man)?",
-  "spoken": "I could say the same about you. Where's your deck, man?",
-  "source": "rules"
- },
  "556f6b96323431a812000f9b_3": {
   "char": "Is0bel",
   "original": "Testing, testing, one-two-three... can you hear me, $(l.name)?",
@@ -1580,7 +1562,7 @@
  "557650c5623666c02b003595_7": {
   "char": "Is0bel",
   "original": "This is the $(l.man) I told you about.\n\n$+(l.he) needs the software that you developed to inhibit your cortical implant. ",
-  "spoken": "This is the man I told you about. they needs the software that you developed to inhibit your cortical implant.",
+  "spoken": "This is the man I told you about. They need the software that you developed to inhibit your cortical implant.",
   "source": "rules"
  },
  "557650c5623666c02b003595_32": {
@@ -1647,12 +1629,6 @@
   "char": "Is0bel",
   "original": "Not the best time for sightseeing, $(l.name). The place is crawling with badges.\n\n{{GM}}Is0bel lifts her nose towards a reporter interviewing someone from inside the Walled City.{{/GM}}\n\nLooks like we get to see a show, though. That reporter already has his hooks in someone, hoping for a sound bite.",
   "spoken": "Not the best time for sightseeing. The place is crawling with badges. Looks like we get to see a show, though. That reporter already has his hooks in someone, hoping for a sound bite.",
-  "source": "rules"
- },
- "55a81618323431f01b008037_11": {
-  "char": "Is0bel",
-  "original": "It's like I told you before... we're full up, $(l.sir).",
-  "spoken": "It's like I told you before... we're full up.",
   "source": "rules"
  },
  "56002e56306364541f00015b_4": {
@@ -1916,7 +1892,7 @@
  "566f0c4f643661780f0042a2_23": {
   "char": "Is0bel",
   "original": "$+(l.he) can't, Duncan. Not if $(l.he) wants the team to survive.\n\nI get where you're coming from, but you're being selfish. The needs of the team comes first.",
-  "spoken": "they can't, Duncan. Not if they wants the team to survive. I get where you're coming from, but you're being selfish. The needs of the team comes first.",
+  "spoken": "They can't, Duncan. Not if they want the team to survive. I get where you're coming from, but you're being selfish. The needs of the team comes first.",
   "source": "rules"
  },
  "566f17b1643661780f00432b_6": {
@@ -2150,7 +2126,7 @@
  "54d96ae73030316814006f45_6": {
   "char": "Duncan",
   "original": "$+(l.he)'s right, Ray. I don't know what sort of justice you're looking for, but coming here alone... facing Qian Ya... \n\nI was wrong, little man. You're no coward.",
-  "spoken": "they's right, Ray. I don't know what sort of justice you're looking for, but coming here alone... facing Qian Ya... I was wrong, little man. You're no coward.",
+  "spoken": "They are right, Ray. I don't know what sort of justice you're looking for, but coming here alone... facing Qian Ya... I was wrong, little man. You're no coward.",
   "source": "rules"
  },
  "54d96ae73030316814006f45_20": {
@@ -2960,7 +2936,7 @@
  "555a5164323437080f00276b_79": {
   "char": "Duncan",
   "original": "$+(l.he)'s right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred.\n\nThe place is doomed either way.",
-  "spoken": "they's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+  "spoken": "They are right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
   "source": "rules"
  },
  "555a5164323437080f00276b_80": {
@@ -3536,7 +3512,7 @@
  "54b99b13306364e41b000280_7": {
   "char": "Gaichû",
   "original": "It's, uh... it is a pilot. We're shopping it to the networks.\n\n{{GM}}He jerks his thumb in your direction.{{/GM}}\n\nTalk to my agent. $+(l.he) can fill you in on the details.",
-  "spoken": "It's, uh... it is a pilot. We're shopping it to the networks. Talk to my agent. they can fill you in on the details.",
+  "spoken": "It's, uh... it is a pilot. We're shopping it to the networks. Talk to my agent. They can fill you in on the details.",
   "source": "rules"
  },
  "54be84343063641c1f00153f_8": {
@@ -3710,7 +3686,7 @@
  "555a5164323437080f00276b_81": {
   "char": "Gaichû",
   "original": "$+(l.he)'s right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred.\n\nThe place is doomed either way.",
-  "spoken": "they's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+  "spoken": "They are right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
   "source": "rules"
  },
  "555a5164323437080f00276b_82": {
@@ -3878,7 +3854,7 @@
  "562144fc643661e80d004512_3": {
   "char": "Gaichû",
   "original": "$+(l.he) really is. And if things should go awry, we will simply kill anyone who resists.\n\nIt is a remarkably efficient solution.",
-  "spoken": "they really is. And if things should go awry, we will simply kill anyone who resists. It is a remarkably efficient solution.",
+  "spoken": "They really is. And if things should go awry, we will simply kill anyone who resists. It is a remarkably efficient solution.",
   "source": "rules"
  },
  "56218ac8306364fc18005d11_18": {
@@ -4106,7 +4082,7 @@
  "555a5164323437080f00276b_83": {
   "char": "Racter",
   "original": "$+(l.he)'s right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred.\n\nThe place is doomed either way.",
-  "spoken": "they's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+  "spoken": "They are right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
   "source": "rules"
  },
  "555a5164323437080f00276b_84": {
@@ -5630,13 +5606,13 @@
  "555a5164323437080f00276b_50": {
   "char": "Raymond",
   "original": "I believe that I have... m-made a decision. If $(l.he) doesn't go through with this... *I* will.\n\n{{GM}}There's steel in his voice. The kind that you haven't heard since the old days, before prison, before you left home.{{/GM}}",
-  "spoken": "I believe that I have... m-made a decision. If they doesn't go through with this... *I* will.",
+  "spoken": "I believe that I have... m-made a decision. If they don't go through with this... *I* will.",
   "source": "rules"
  },
  "555a5164323437080f00276b_85": {
   "char": "Raymond",
   "original": "$+(l.he)'s right. From our p-perspective... there isn't much difference between one d-demon-god ruling the Walled City... and a hundred.\n\nThe place is doomed either way.",
-  "spoken": "they's right. From our p-perspective... there isn't much difference between one d-demon-god ruling the Walled City... and a hundred. The place is doomed either way.",
+  "spoken": "They are right. From our p-perspective... there isn't much difference between one d-demon-god ruling the Walled City... and a hundred. The place is doomed either way.",
   "source": "rules"
  },
  "555a5164323437080f00276b_86": {
@@ -5669,24 +5645,6 @@
   "spoken": "Unconditional love is unconditional. I am not b-blind to what my m-mother has d-done... she has hurt people... hurt *me.* But she is my mother. She m-made me who I am... I will not stop loving her.",
   "source": "rules"
  },
- "5594b0843234312019001a4a_1": {
-  "char": "Raymond",
-  "original": "$(l.firstname)... wh-what is your... status?",
-  "spoken": "Wh-what is your... status?",
-  "source": "hand"
- },
- "5594b0843234312019001a4a_5": {
-  "char": "Raymond",
-  "original": "Please, $(l.firstname)... try to avoid more c-casualties. ",
-  "spoken": "Please... try to avoid more c-casualties.",
-  "source": "rules"
- },
- "5594b0843234312019001a4a_6": {
-  "char": "Raymond",
-  "original": "No, $(l.firstname). \n\nTsang security... are little more than wage slaves with g-guns... unlikely they understand what is really going on.\n\nSame with the locals... some have become c-crazed from the Yama King's visions.",
-  "spoken": "No. Tsang security... are little more than wage slaves with g-guns... unlikely they understand what is really going on. Same with the locals... some have become c-crazed from the Yama King's visions.",
-  "source": "rules"
- },
  "559c3db0623666e8210026e8_21": {
   "char": "Raymond",
   "original": "No, $(l.firstname). My mother wanted me back... wanted me to take over the company. Be the person I was... trained to be.\n\nBut first, I needed to be... modified.\n\n{{GM}}He lowers his head.{{/GM}}\n\nI needed to forget about what happened.",
@@ -5709,6 +5667,30 @@
   "char": "Raymond",
   "original": "{{GM}}Although his breathing is a bit erratic, Raymond seems steady enough on his feet.{{/GM}}\n\nLead on, $(l.firstname). I'll be right behind you.",
   "spoken": "Lead on. I'll be right behind you.",
+  "source": "rules"
+ },
+ "555a61da323431501900164e_8": {
+  "char": "Raymond",
+  "original": "$(l.FirstName)... you need to clear me a...p-path to the sarcophagus... that surrounds the Fortune Engine. It will be at the center of a-all of this.\n\nPlease... please help me fix this. I can't do it by myself.",
+  "spoken": "Listen... you need to clear me a...p-path to the sarcophagus... that surrounds the Fortune Engine. It will be at the center of a-all of this. Please... please help me fix this. I can't do it by myself.",
+  "source": "hand"
+ },
+ "5594b0843234312019001a4a_1": {
+  "char": "Raymond",
+  "original": "$(l.firstname)... wh-what is your... status?",
+  "spoken": "Wh-what is your... status?",
+  "source": "hand"
+ },
+ "5594b0843234312019001a4a_5": {
+  "char": "Raymond",
+  "original": "Please, $(l.firstname)... try to avoid more c-casualties. ",
+  "spoken": "Please... try to avoid more c-casualties.",
+  "source": "rules"
+ },
+ "5594b0843234312019001a4a_6": {
+  "char": "Raymond",
+  "original": "No, $(l.firstname). \n\nTsang security... are little more than wage slaves with g-guns... unlikely they understand what is really going on.\n\nSame with the locals... some have become c-crazed from the Yama King's visions.",
+  "spoken": "No. Tsang security... are little more than wage slaves with g-guns... unlikely they understand what is really going on. Same with the locals... some have become c-crazed from the Yama King's visions.",
   "source": "rules"
  },
  "54d56f243030316013003007_16": {
@@ -6023,6 +6005,12 @@
   "spoken": "It was good working with you. I've gotta admit, in the beginning, I had my doubts... considering what happened to your old team, I wasn't sure that I could trust you. I've never been so happy to have been proven wrong.",
   "source": "rules"
  },
+ "5668ba94643661cc120023e7_64": {
+  "char": "Inspector Qiu",
+  "original": "In a way, I think that's what they're doing. Look at the insignias on those vehicles, $(l.name).\n\n{{GM}}She points at the nearest vehicle, a military APC covered with Ares and HKPF iconography.{{/GM}}\n\nKnight Errant-branded police vehicles... Ares regalia on HKPF materiel, and enough firepower to take out half the buildings in Victoria Harbour. Hell, you do the math.",
+  "spoken": "In a way, I think that's what they're doing. Look at the insignias on those vehicles. Knight Errant-branded police vehicles... Ares regalia on HKPF materiel, and enough firepower to take out half the buildings in Victoria Harbour. Hell, you do the math.",
+  "source": "rules"
+ },
  "5546946b39393684190077c9_25": {
   "char": "Henry",
   "original": "No, $(l.sir). No regrets. No regrets at all.",
@@ -6071,226 +6059,214 @@
   "spoken": "Hello. I will abide. I will.",
   "source": "rules"
  },
- "565f3a6b62663208210043e7_57": {
-  "char": "Pirate",
-  "original": ">>>>>[Did you authorize a second mind probe of $(l.lastname) while $(l.he) was unconscious? I'm looking at the transcript of $(l.hisher) interview, and $(l.he) insists that two mages were screwing around with $(l.hisher) brain last night.]<<<<<\n\n- Lam_Andy",
-  "spoken": "[Did you authorize a second mind probe of the prisoner while they were unconscious? I'm looking at the transcript of their interview, and they insist that two mages were screwing around with their brain last night.] - Lam_Andy",
-  "source": "hand"
- },
- "565f3a6b62663208210043e7_58": {
-  "char": "Pirate",
-  "original": ">>>>>[No. I was against you having $(l.him) scanned in the first place, remember? Why would I give authorization for two different mages to poke around in $(l.hisher) brain?]<<<<<\n\n- Qiu_Fiona",
-  "spoken": ">>>>>[No. I was against you having them scanned in the first place, remember? Why would I give authorization for two different mages to poke around in their brain?]<<<<< - Qiu_Fiona",
-  "source": "rules"
- },
- "565f3a6b62663208210043e7_60": {
-  "char": "Pirate",
-  "original": ">>>>>[I didn't authorize anything, Lam. And unless we have a second magical interrogator that I don't know about on the task force, I'm gonna go ahead and guess that $(l.he)'s making it up.]<<<<<\n\n- Qiu_Fiona",
-  "spoken": ">>>>>[I didn't authorize anything, Lam. And unless we have a second magical interrogator that I don't know about on the task force, I'm gonna go ahead and guess that they's making it up.]<<<<< - Qiu_Fiona",
-  "source": "rules"
- },
- "565f3a6b62663208210043e7_101": {
-  "char": "Pirate",
-  "original": "Go back to your boat, $(l.name). Talk to your team. I'll call you when I know more.",
-  "spoken": "Go back to your boat. Talk to your team. I'll call you when I know more.",
-  "source": "rules"
- },
- "565f3a6b62663208210043e7_131": {
-  "char": "Pirate",
-  "original": "Then what is this about? You want me to grovel for you?\n\nFine. I'm really, really sorry that I hurt you, $(l.name). I wouldn't have done it if I didn't have to, but I didn't feel that I could trust the intel that Koo pulled from you. After what happened in the Tigers' Den, the reason why should be obvious.",
-  "spoken": "Then what is this about? You want me to grovel for you? Fine. I'm really, really sorry that I hurt you. I wouldn't have done it if I didn't have to, but I didn't feel that I could trust the intel that Koo pulled from you. After what happened in the Tigers' Den, the reason why should be obvious.",
-  "source": "rules"
- },
- "565f3a6b62663208210043e7_137": {
-  "char": "Pirate",
-  "original": "Look. If we find out who's behind all of this and figure out how to bring them down, you'll be rolling in nuyen. Hell, the reward that I have in store for you is beyond generous. But if you want a heap of cash right now, you're out of luck.\n\nI've drained my personal accounts just getting us here, $(l.name). And I'm not Mitsuhama's most popular employee these days.",
-  "spoken": "Look. If we find out who's behind all of this and figure out how to bring them down, you'll be rolling in nuyen. Hell, the reward that I have in store for you is beyond generous. But if you want a heap of cash right now, you're out of luck. I've drained my personal accounts just getting us here. And I'm not Mitsuhama's most popular employee these days.",
-  "source": "rules"
- },
- "565f3a6b62663208210043e7_142": {
-  "char": "Pirate",
-  "original": "{{GM}}She shakes her head to clear it, gritting her teeth in discomfort.{{/GM}}\n\nWe've got a job to do, $(l.name). Headache or no, I intend to do it.",
-  "spoken": "We've got a job to do. Headache or no, I intend to do it.",
-  "source": "rules"
- },
- "56671922306364501800284d_16": {
-  "char": "Pirate",
-  "original": "I'm sure you've run into somebody with an axe to grind against $(l.race_plural) at some point in your life. Think of that, but make it the law. Now imagine that  the thugs who're getting up in your face think you're a monster that's going to kill their kids.\n\nLong story short, they marched us out at gunpoint. It happened right before I was born, but I heard a lot of stories.",
-  "spoken": "I'm sure you've run into somebody with an axe to grind against your kind at some point in your life. Think of that, but make it the law. Now imagine that the thugs who're getting up in your face think you're a monster that's going to kill their kids. Long story short, they marched us out at gunpoint. It happened right before I was born, but I heard a lot of stories.",
-  "source": "hand"
- },
- "566719dd3063645018002877_6": {
-  "char": "Pirate",
-  "original": "You don't know the half of it, $(l.man). Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things.\n\nThe man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him.",
-  "spoken": "You don't know the half of it, man. Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things. The man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him.",
-  "source": "rules"
- },
  "5600347d626632e015004458_6": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Savor this moment, $(l.name). You're looking at the end result of me calling in the very last of my favors with Corporate.",
   "spoken": "Savor this moment. You're looking at the end result of me calling in the very last of my favors with Corporate.",
   "source": "rules"
  },
  "5600347d626632e015004458_12": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "This is gonna be home for the foreseeable future, $(l.name). We've got nowhere else to go, and I'm fresh out of strings to pull.\n\nWe get Mitsuhama something that they can use, something *irrefutable,* or we resign ourselves to life on the open sea.",
   "spoken": "This is gonna be home for the foreseeable future. We've got nowhere else to go, and I'm fresh out of strings to pull. We get Mitsuhama something that they can use, something *irrefutable,* or we resign ourselves to life on the open sea.",
   "source": "rules"
  },
  "5600347d626632e015004458_17": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Keep your head in the game, $(l.name). We've still got work to do, and we're gonna start with Lam's PDA.\n\nMeet me at my command trailer. We're gonna crack that thing, and we're going to find some answers.",
   "spoken": "Keep your head in the game. We've still got work to do, and we're gonna start with Lam's PDA. Meet me at my command trailer. We're gonna crack that thing, and we're going to find some answers.",
   "source": "rules"
  },
  "5600347d626632e015004458_21": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Savor this moment, $(l.name). You're looking at the end result of me calling in the very last of my favors with Corporate.",
   "spoken": "Savor this moment. You're looking at the end result of me calling in the very last of my favors with Corporate.",
   "source": "rules"
  },
  "56097ecf643661801100391d_5": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "{{GM}}Qiu cuts in, rubbing the bridge of her nose between her thumb and forefinger.{{/GM}}\n\nLong story short? We've got a problem, and you're in a unique position to help us solve it.\n\nThis is a job offer, $(l.name). We want to hire you.",
   "spoken": "Long story short? We've got a problem, and you're in a unique position to help us solve it. This is a job offer. We want to hire you.",
   "source": "rules"
  },
  "56097ecf643661801100391d_22": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "You really are the perfect runner for this job, $(l.name). What we pulled from your mind in interrogation confirmed it.\n\nWe know that we can trust you for this job, and that's invaluable to people in our position.",
   "spoken": "You really are the perfect runner for this job. What we pulled from your mind in interrogation confirmed it. We know that we can trust you for this job, and that's invaluable to people in our position.",
   "source": "rules"
  },
  "56097ecf643661801100391d_41": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "They should be heading to the $(story.Global_HK_Hub_SafeBoatName) as we speak.\n\n{{GM}}She pauses.{{/GM}}\n\nFun name, by the way.",
   "spoken": "They should be heading to the Bolthole as we speak. Fun name, by the way.",
   "source": "rules"
  },
  "56097ecf643661801100391d_47": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "They should be heading to the $(story.Global_HK_Hub_SafeBoatName) as we speak.\n\n{{GM}}She pauses.{{/GM}}\n\nFun name, by the way.",
   "spoken": "They should be heading to the Bolthole as we speak. Fun name, by the way.",
   "source": "rules"
  },
  "56097ecf643661801100391d_51": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "By the way, $(l.name), you and your brother were some of the first victims of Krait's malfeasance. The ABP that Josephine Tsang had her put out on you sent up red flags for us.\n\nYou may also be aware that the APB was lifted, and your file scrubbed clean. Lam and I were the ones who made that happen.",
   "spoken": "By the way, you and your brother were some of the first victims of Krait's malfeasance. The ABP that Josephine Tsang had her put out on you sent up red flags for us. You may also be aware that the APB was lifted, and your file scrubbed clean. Lam and I were the ones who made that happen.",
   "source": "rules"
  },
  "56097ecf643661801100391d_61": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "{{GM}}Qiu cuts in.{{/GM}}\n\nIt wasn't a kidnapping, $(l.name). We did you a favor by pulling you off of the streets.\n\nYang showed you the video, you know what I'm talking about.",
   "spoken": "It wasn't a kidnapping. We did you a favor by pulling you off of the streets. Yang showed you the video, you know what I'm talking about.",
   "source": "rules"
  },
  "56097ecf643661801100391d_62": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Don't be ridiculous, of course not. We helped you because we've got a problem, and you're in a unique position to help us solve it.\n\nThis is a job offer, $(l.name). We want to hire you.",
   "spoken": "Don't be ridiculous, of course not. We helped you because we've got a problem, and you're in a unique position to help us solve it. This is a job offer. We want to hire you.",
   "source": "rules"
  },
  "56097ecf643661801100391d_63": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Maybe not. But as it happens, we do need one from you.\n\nWe've got a problem, $(l.name) - one that you're in a unique position to help us solve. We want to hire you.",
   "spoken": "Maybe not. But as it happens, we do need one from you. We've got a problem - one that you're in a unique position to help us solve. We want to hire you.",
   "source": "hand"
  },
  "5609dc5c643661e00e007ff7_46": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "These aren't good cops. They're Krait's people - corrupt, violent, and dangerous. The kind of assholes that ruin the public's confidence in the HKPF and put real constables' lives in danger.\n\nNo, $(l.name). I don't mind if you shoot them. If I could get away with it, I'd take them out myself.\n\n",
   "spoken": "These aren't good cops. They're Krait's people - corrupt, violent, and dangerous. The kind of assholes that ruin the public's confidence in the HKPF and put real constables' lives in danger. No. I don't mind if you shoot them. If I could get away with it, I'd take them out myself.",
   "source": "rules"
  },
  "565f332762663208210043d4_11": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "We'll to talk to her, then.\n\n{{GM}}Qiu rubs her temples, squinting. She looks exhausted.{{/GM}}\n\nC'mon, $(l.name). Let's go.",
   "spoken": "We'll to talk to her, then. C'mon. Let's go.",
   "source": "rules"
  },
  "565f3a6b62663208210043e7_66": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Yeah, Lam. It is.\n\nKeep going, $(l.name). Let's see what else there is to see.",
   "spoken": "Yeah, Lam. It is. Keep going. Let's see what else there is to see.",
   "source": "rules"
  },
  "565f3a6b62663208210043e7_72": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Good catch, $(l.name).",
   "spoken": "Good catch.",
   "source": "rules"
  },
  "565f3a6b62663208210043e7_112": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "If I had any more surprises in store, I'd have sprung them on you already. But I don't, $(l.name). I'm pissed off, I'm hurt, I'm tired, and I'm scared to death of what's coming.\n\nAll that I really want to do is lie down and sleep for a month, but that isn't an option, either.",
   "spoken": "If I had any more surprises in store, I'd have sprung them on you already. But I don't. I'm pissed off, I'm hurt, I'm tired, and I'm scared to death of what's coming. All that I really want to do is lie down and sleep for a month, but that isn't an option, either.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_13": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "The call was a bust, $(l.name). I've still got a few execs willing to go to bat for me, but the rest have already written us off as a failure. Nobody's gonna risk antagonizing Ares on my say-so.\n\nWe're gonna need a hell of a lot more than one misfiled email if we're gonna convince them to move on this.",
   "spoken": "The call was a bust. I've still got a few execs willing to go to bat for me, but the rest have already written us off as a failure. Nobody's gonna risk antagonizing Ares on my say-so. We're gonna need a hell of a lot more than one misfiled email if we're gonna convince them to move on this.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_15": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Yeah. Looks that way.\n\n{{GM}}She lets out a long sigh.{{/GM}}\n\nLook, $(l.name)... I told you that you and your team would be well-compensated for helping me, but I never really specified exactly what your reward would be. I think that you should know.",
   "spoken": "Yeah. Looks that way. Look... I told you that you and your team would be well-compensated for helping me, but I never really specified exactly what your reward would be. I think that you should know.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_21": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "{{GM}}Qiu's voice cuts in, talking over her.{{/GM}}\n\nAs for you, $(l.name)... you're a different story. For you, I've got something better than money.",
   "spoken": "As for you... you're a different story. For you, I've got something better than money.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_27": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "{{GM}}She frowns.{{/GM}}\n\n...I can't argue with the second part. Okay, $(l.name). You win. Go, do whatever work you need to do. Tie up loose ends, make your clients happy. Take in the sights on the Benteng. All the standard stuff.\n\nWhen you're finished, go to Jomo. He'll sneak us into Tai Po, and we can finish this.",
   "spoken": "...I can't argue with the second part. Okay. You win. Go, do whatever work you need to do. Tie up loose ends, make your clients happy. Take in the sights on the Benteng. All the standard stuff. When you're finished, go to Jomo. He'll sneak us into Tai Po, and we can finish this.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_28": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "{{GM}}She begins to look away, then seems to think better of it. The camera refocuses on her face.{{/GM}}\n\nOh, and, uh, $(l.name). Your boss's rock... that cong that you took from Eddie Pang... got broken in the move. I found it in about fifty pieces when we got here.\n\nIt's in the wastebasket under my desk if you still want it, but I can't imagine it's worth much any more. Sorry about that.",
   "spoken": "Oh, and, uh. Your boss's rock... that cong that you took from Eddie Pang... got broken in the move. I found it in about fifty pieces when we got here. It's in the wastebasket under my desk if you still want it, but I can't imagine it's worth much any more. Sorry about that.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_60": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "{{GM}}She frowns.{{/GM}}\n\nOkay, $(l.name)... do whatever you need to do. It'll give me a chance to close my eyes for a few minutes, if nothing else.\n\nWhen you're finished, go to Jomo. He'll sneak us into Tai Po, and we can finish this.",
   "spoken": "Okay... do whatever you need to do. It'll give me a chance to close my eyes for a few minutes, if nothing else. When you're finished, go to Jomo. He'll sneak us into Tai Po, and we can finish this.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_61": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Go to Jomo when you're ready. He'll sneak us into Tai Po, and we'll bring this thing to a close.\n\nOh, and $(l.name)... I can't promise that we'll come back to the Benteng after this is over. Take in the sights now, because it might be the last chance you get.",
   "spoken": "Go to Jomo when you're ready. He'll sneak us into Tai Po, and we'll bring this thing to a close. Oh, and listen... I can't promise that we'll come back to the Benteng after this is over. Take in the sights now, because it might be the last chance you get.",
   "source": "hand"
  },
  "565f3a8c62663208210043f1_72": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "Listen, $(l.name)... forget about the money. I've got something better lined up for you.",
   "spoken": "Listen... forget about the money. I've got something better lined up for you.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_78": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "{{GM}}Qiu lets out a long sigh.{{/GM}}\n\nLook, $(l.name)... I told you that you and your team would be well-compensated for helping me, but I never really specified exactly what your reward would be.\n\nI think that you should know.",
   "spoken": "Look... I told you that you and your team would be well-compensated for helping me, but I never really specified exactly what your reward would be. I think that you should know.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_79": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "I'm happy for you. Me, I'd rather have an amphibious assault squad and air support on my side, but what do I know? You're the shadowrunner.\n\n{{GM}}She lets out a long sigh.{{/GM}}\n\nLook, $(l.name)... I told you that you and your team would be well-compensated for helping me, but I never really specified exactly what your reward would be. I think that you should know.",
   "spoken": "I'm happy for you. Me, I'd rather have an amphibious assault squad and air support on my side, but what do I know? You're the shadowrunner. Look... I told you that you and your team would be well-compensated for helping me, but I never really specified exactly what your reward would be. I think that you should know.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_80": {
-  "char": "$(story.MC_Hub-charName_Qiu)",
+  "char": "Qiu",
   "original": "The call was a bust, $(l.name). I've still got a few execs willing to go to bat for me, but the rest have already written us off as a failure. Nobody's gonna risk sparking off a corp war on my say-so, and I can't even tell them who they'd be fighting against.\n\nWe're gonna need a hell of a lot more than we've got if we're going to convince anyone to move on this.",
   "spoken": "The call was a bust. I've still got a few execs willing to go to bat for me, but the rest have already written us off as a failure. Nobody's gonna risk sparking off a corp war on my say-so, and I can't even tell them who they'd be fighting against. We're gonna need a hell of a lot more than we've got if we're going to convince anyone to move on this.",
+  "source": "rules"
+ },
+ "565f3a6b62663208210043e7_57": {
+  "char": "Qiu",
+  "original": ">>>>>[Did you authorize a second mind probe of $(l.lastname) while $(l.he) was unconscious? I'm looking at the transcript of $(l.hisher) interview, and $(l.he) insists that two mages were screwing around with $(l.hisher) brain last night.]<<<<<\n\n- Lam_Andy",
+  "spoken": "[Did you authorize a second mind probe of the prisoner while they were unconscious? I'm looking at the transcript of their interview, and they insist that two mages were screwing around with their brain last night.] - Lam_Andy",
+  "source": "hand"
+ },
+ "565f3a6b62663208210043e7_58": {
+  "char": "Qiu",
+  "original": ">>>>>[No. I was against you having $(l.him) scanned in the first place, remember? Why would I give authorization for two different mages to poke around in $(l.hisher) brain?]<<<<<\n\n- Qiu_Fiona",
+  "spoken": ">>>>>[No. I was against you having them scanned in the first place, remember? Why would I give authorization for two different mages to poke around in their brain?]<<<<< - Qiu_Fiona",
+  "source": "rules"
+ },
+ "565f3a6b62663208210043e7_60": {
+  "char": "Qiu",
+  "original": ">>>>>[I didn't authorize anything, Lam. And unless we have a second magical interrogator that I don't know about on the task force, I'm gonna go ahead and guess that $(l.he)'s making it up.]<<<<<\n\n- Qiu_Fiona",
+  "spoken": ">>>>>[I didn't authorize anything, Lam. And unless we have a second magical interrogator that I don't know about on the task force, I'm gonna go ahead and guess that they are making it up.]<<<<< - Qiu_Fiona",
+  "source": "rules"
+ },
+ "565f3a6b62663208210043e7_101": {
+  "char": "Qiu",
+  "original": "Go back to your boat, $(l.name). Talk to your team. I'll call you when I know more.",
+  "spoken": "Go back to your boat. Talk to your team. I'll call you when I know more.",
+  "source": "rules"
+ },
+ "565f3a6b62663208210043e7_131": {
+  "char": "Qiu",
+  "original": "Then what is this about? You want me to grovel for you?\n\nFine. I'm really, really sorry that I hurt you, $(l.name). I wouldn't have done it if I didn't have to, but I didn't feel that I could trust the intel that Koo pulled from you. After what happened in the Tigers' Den, the reason why should be obvious.",
+  "spoken": "Then what is this about? You want me to grovel for you? Fine. I'm really, really sorry that I hurt you. I wouldn't have done it if I didn't have to, but I didn't feel that I could trust the intel that Koo pulled from you. After what happened in the Tigers' Den, the reason why should be obvious.",
+  "source": "rules"
+ },
+ "565f3a6b62663208210043e7_137": {
+  "char": "Qiu",
+  "original": "Look. If we find out who's behind all of this and figure out how to bring them down, you'll be rolling in nuyen. Hell, the reward that I have in store for you is beyond generous. But if you want a heap of cash right now, you're out of luck.\n\nI've drained my personal accounts just getting us here, $(l.name). And I'm not Mitsuhama's most popular employee these days.",
+  "spoken": "Look. If we find out who's behind all of this and figure out how to bring them down, you'll be rolling in nuyen. Hell, the reward that I have in store for you is beyond generous. But if you want a heap of cash right now, you're out of luck. I've drained my personal accounts just getting us here. And I'm not Mitsuhama's most popular employee these days.",
+  "source": "rules"
+ },
+ "565f3a6b62663208210043e7_142": {
+  "char": "Qiu",
+  "original": "{{GM}}She shakes her head to clear it, gritting her teeth in discomfort.{{/GM}}\n\nWe've got a job to do, $(l.name). Headache or no, I intend to do it.",
+  "spoken": "We've got a job to do. Headache or no, I intend to do it.",
   "source": "rules"
  },
  "55469435393936841900773d_42": {
@@ -6336,37 +6312,37 @@
   "source": "rules"
  },
  "55e8b58a643661a812007a17_14": {
-  "char": "$(story.MC_Hub-charName_MrYang)",
+  "char": "Mr. Yang",
   "original": "We don't even have two mages on-site, $(l.name). There's no way that you got scanned twice.\n\n{{GM}}He shrugs his broad shoulders.{{/GM}}\n\nBut hey, believe what you want. Don't let it distract you, though... we've got work to do.",
   "spoken": "We don't even have two mages on-site. There's no way that you got scanned twice. But hey, believe what you want. Don't let it distract you, though... we've got work to do.",
   "source": "rules"
  },
  "55e8b58a643661a812007a17_16": {
-  "char": "$(story.MC_Hub-charName_MrYang)",
+  "char": "Mr. Yang",
   "original": "{{GM}}A guffaw of laughter explodes out of him.{{/GM}}\n\n...Yeah. Figured you might say something like that.\n\nLook, you aren't gonna keep anything from us by refusing to cooperate, $(l.lastname). We've already pulled all the facts from your brain. They're just... disorganized. Jumbled up a bit.",
   "spoken": "...Yeah. Figured you might say something like that. Look, you aren't gonna keep anything from us by refusing to cooperate. We've already pulled all the facts from your brain. They're just... disorganized. Jumbled up a bit.",
   "source": "rules"
  },
  "55e8b58a643661a812007a17_102": {
-  "char": "$(story.MC_Hub-charName_MrYang)",
+  "char": "Mr. Yang",
   "original": "We know a lot of things about you, $(l.firstname). One of the many benefits of magical interrogation - it cuts through the bullshit and gets you right to the facts.\n\n{{GM}}He gestures at the bloody rag in your lap.{{/GM}}\n\nSorry about the nosebleed, by the way.",
   "spoken": "We know a lot of things about you. One of the many benefits of magical interrogation - it cuts through the bullshit and gets you right to the facts. Sorry about the nosebleed, by the way.",
   "source": "rules"
  },
  "55e8b58a643661a812007a17_105": {
-  "char": "$(story.MC_Hub-charName_MrYang)",
+  "char": "Mr. Yang",
   "original": "I'd advise you to keep your threats to yourself, $(l.honorific) $(l.lastname). You aren't going anywhere unless we choose to let you go. \n\nBy the way, the nosebleed that you suffered was nothing - a minor side effect of magical interrogation. Believe me, it could've been a lot worse.",
   "spoken": "I'd advise you to keep your threats to yourself. You aren't going anywhere unless we choose to let you go. By the way, the nosebleed that you suffered was nothing - a minor side effect of magical interrogation. Believe me, it could've been a lot worse.",
   "source": "hand"
  },
  "56049c1c643661740e00133d_2": {
-  "char": "$(story.MC_Hub-charName_MrYang)",
+  "char": "Mr. Yang",
   "original": "Very good. Thank you for recapping all of that for me, $(l.honorific) $(l.lastname). Your testimony was extremely helpful.\n\nAnd now that you've helped us, it's only fair that you learn something in return.",
   "spoken": "Very good. Thank you for recapping all of that for me. Your testimony was extremely helpful. And now that you've helped us, it's only fair that you learn something in return.",
   "source": "hand"
  },
  "56049c1c643661740e00133d_46": {
-  "char": "$(story.MC_Hub-charName_MrYang)",
+  "char": "Mr. Yang",
   "original": "Y'know, as a rule, I don't like smartasses, but you make a fair point.\n\nAll right. Thank you for recapping all of that for me, $(l.honorific) $(l.lastname). Your testimony was extremely helpful.",
   "spoken": "Y'know, as a rule, I don't like smartasses, but you make a fair point. All right. Thank you for recapping all of that for me. Your testimony was extremely helpful.",
   "source": "hand"
@@ -6378,55 +6354,55 @@
   "source": "rules"
  },
  "54be84343063641c1f00153f_4": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "{{GM}}She nods.{{/GM}}\n\nJust so. My servants have been watching you since you arrived.\n\nI suspect that you are an evil $(l.man), and that you are here to do harm to Neville. And so I came to stop you.",
   "spoken": "Just so. My servants have been watching you since you arrived. I suspect that you are an evil man, and that you are here to do harm to Neville. And so I came to stop you.",
   "source": "rules"
  },
  "54be84343063641c1f00153f_6": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "You may call me Ku Feng. My servants have been watching you since you arrived.\n\nI suspect that you are an evil $(l.man), and that you are here to do harm to Neville. And so I came to stop you.",
   "spoken": "You may call me Ku Feng. My servants have been watching you since you arrived. I suspect that you are an evil man, and that you are here to do harm to Neville. And so I came to stop you.",
   "source": "rules"
  },
  "54be84343063641c1f00153f_29": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "No more foolish questions. I am Ku Feng, and I will tolerate no disrespect.\n\n{{GM}}She folds her arms across her chest.{{/GM}}\n\nI suspect that you are an evil $(l.man). I think that you are here to do harm to Neville, and I am here to stop you.",
   "spoken": "No more foolish questions. I am Ku Feng, and I will tolerate no disrespect. I suspect that you are an evil man. I think that you are here to do harm to Neville, and I am here to stop you.",
   "source": "rules"
  },
  "54be84343063641c1f00153f_31": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "You think yourself so clever, sniffing around Neville's affairs like an amateur detective. So sly. So quiet.\n\nBut you are not quiet enough to escape my ears, little $(l.man). ",
   "spoken": "You think yourself so clever, sniffing around Neville's affairs like an amateur detective. So sly. So quiet. But you are not quiet enough to escape my ears, little man.",
   "source": "rules"
  },
  "54be866c3063641c1f001550_1": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "Are you prepared to become my servant, $(l.race)? You must not resist, or I'll be forced to kill you. Should it come to that, I'll endeavor to make it swift and painless... but no promises.",
   "spoken": "Are you prepared to become my servant, mortal? You must not resist, or I'll be forced to kill you. Should it come to that, I'll endeavor to make it swift and painless... but no promises.",
   "source": "hand"
  },
  "54be866c3063641c1f001550_2": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "This will be entertaining. Kill $(l.him)!",
   "spoken": "This will be entertaining. Kill them!",
   "source": "rules"
  },
  "54be866c3063641c1f001550_3": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "This will be entertaining. Kill $(l.him)!",
   "spoken": "This will be entertaining. Kill them!",
   "source": "rules"
  },
  "5566624c3234310817000fb3_3": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "We can't go in, $(l.name). Not unless you're actively looking to get hurt.\n\n{{GM}}She waves a hand in the direction of the corralled civilians.{{/GM}}\n\nI've dealt with these people - they're not right in the head.",
   "spoken": "We can't go in. Not unless you're actively looking to get hurt. I've dealt with these people - they're not right in the head.",
   "source": "rules"
  },
  "5567dd753234317c1b00101d_1": {
-  "char": "$(scene.global_KuFengName)",
+  "char": "Ku Feng",
   "original": "I'm afraid that we're going to have to part ways here, $(l.name).\n\n{{GM}}She shudders.{{/GM}}\n\nThe negative energy of this place has grown a little too strong for my liking.",
   "spoken": "I'm afraid that we're going to have to part ways here. The negative energy of this place has grown a little too strong for my liking.",
   "source": "rules"
@@ -6626,7 +6602,7 @@
  "557109403234316c1c0044d9_56": {
   "char": "Rhombus",
   "original": "$+(l.he)'s right, Izz. That's exactly what this is.\n\nLook, you want the encryption key for the memories that we locked away? It's yours.\n\nI don't envy you the pain that you'll feel when you unlock them, but that's your decision to make.",
-  "spoken": "they's right, Izz. That's exactly what this is. Look, you want the encryption key for the memories that we locked away? It's yours. I don't envy you the pain that you'll feel when you unlock them, but that's your decision to make.",
+  "spoken": "They are right, Izz. That's exactly what this is. Look, you want the encryption key for the memories that we locked away? It's yours. I don't envy you the pain that you'll feel when you unlock them, but that's your decision to make.",
   "source": "rules"
  },
  "563a7eb8306364fc140006b9_81": {
@@ -6684,49 +6660,49 @@
   "source": "rules"
  },
  "56097ecf643661801100391d_3": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "Yes, of course.\n\n{{GM}}He offers her a slight bow.{{/GM}}\n\nMy apologies, Senior Inspector Qiu. And as for you, $(l.name)... you must be wondering what you and your team are doing here.",
   "spoken": "Yes, of course. My apologies, Senior Inspector Qiu. And as for you... you must be wondering what you and your team are doing here.",
   "source": "rules"
  },
  "56097ecf643661801100391d_27": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "I hope to change that, $(l.name).\n\n{{GM}}He pauses for a moment before continuing.{{/GM}}\n\n...And in the interest of full disclosure, we are both technically Mitsuhama employees.",
   "spoken": "I hope to change that....And in the interest of full disclosure, we are both technically Mitsuhama employees.",
   "source": "rules"
  },
  "56097ecf643661801100391d_28": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "We're nearer to Aberdeen than we are to Heoi. That's about all that you need to know.\n\nSecrecy is one of our most important tools for survival, $(l.name). We can't give you an exact address.",
   "spoken": "We're nearer to Aberdeen than we are to Heoi. That's about all that you need to know. Secrecy is one of our most important tools for survival. We can't give you an exact address.",
   "source": "rules"
  },
  "56097ecf643661801100391d_37": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "Our motives aren't sinister, $(l.honorific) $(l.lastname). But you do know about this task force, and unfortunately, that makes you a security risk.",
   "spoken": "Our motives aren't sinister. But you do know about this task force, and unfortunately, that makes you a security risk.",
   "source": "hand"
  },
  "56097ecf643661801100391d_49": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "That APB should never have been called on you in the first place, $(l.name). We rescinded it to correct an injustice, not to put you in our debt.",
   "spoken": "That APB should never have been called on you in the first place. We rescinded it to correct an injustice, not to put you in our debt.",
   "source": "rules"
  },
  "5609dc5c643661e00e007ff7_30": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "She's right, $(l.name). We can't afford to take any chances.\n\nIf Krait and her employers find out about this task force, it'll put our entire operation in jeopardy.",
   "spoken": "She's right. We can't afford to take any chances. If Krait and her employers find out about this task force, it'll put our entire operation in jeopardy.",
   "source": "rules"
  },
  "5609dc5c643661e00e007ff7_56": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "If $(l.honorific) $(l.lastname) is ready, certainly.\n\nThis briefing is for $(l.hisher) benefit, Qiu. Not yours.",
   "spoken": "If our guest is ready, certainly. This briefing is for their benefit, Qiu. Not yours.",
   "source": "hand"
  },
  "5609dc5c643661e00e007ff7_64": {
-  "char": "$(story.MC_Hub-charName_Lam)",
+  "char": "Lam",
   "original": "Those protocols will be revisited soon enough, believe me.\n\nThere are going to be a lot of changes inside of the HKPF after we've completed this mission, $(l.honorific) $(l.lastname). I promise you that.",
   "spoken": "Those protocols will be revisited soon enough, believe me. There are going to be a lot of changes inside of the HKPF after we've completed this mission. I promise you that.",
   "source": "hand"
@@ -6768,13 +6744,13 @@
   "source": "rules"
  },
  "5600340a626632e015004432_20": {
-  "char": "$(story.MC_Hub-charName_Hui) ",
+  "char": "Hui",
   "original": "{{GM}}He raises a hand to rub his chin.{{/GM}}\n\n...I mean, $(l.name). About time I got that right.\n\nWhat brings you to my corner?",
   "spoken": "...I mean. About time I got that right. What brings you to my corner?",
   "source": "rules"
  },
  "5600340a626632e015004432_50": {
-  "char": "$(story.MC_Hub-charName_Hui) ",
+  "char": "Hui",
   "original": "I go by Hui.\n\nYou're $(l.lastname), right? That's what it said on the form.",
   "spoken": "I go by Hui. I saw your name on the form. That's you, right?",
   "source": "hand"
@@ -6851,18 +6827,6 @@
   "spoken": "You should practice your Go. Then someday we can all play together.",
   "source": "rules"
  },
- "54e3b9f43063640c0c00288f_9": {
-  "char": "$(scene.Name_HwangJaeMin)",
-  "original": "{{GM}}Hwang shakes his head at you, incredulous.{{/GM}}\n\nWhat is *wrong* with you, $(l.man)?! I laid everything out for you, and you're still not--",
-  "spoken": "What is *wrong* with you, man?! I laid everything out for you, and you're still not--",
-  "source": "rules"
- },
- "54e3b9f43063640c0c00288f_16": {
-  "char": "$(scene.Name_HwangJaeMin)",
-  "original": "{{GM}}You hand the data and samples to Tigath.{{/GM}}\n\nA wise decision. I'll see the money is wired to your account.\n\nFarewell, $(l.name). And good luck.",
-  "spoken": "A wise decision. I'll see the money is wired to your account. Farewell. And good luck.",
-  "source": "rules"
- },
  "55a59bbf306364900e0061a5_8": {
   "char": "X-Floh",
   "original": "{{GM}}X-Floh is crouched over the bar, nursing a glass of something brown and unfettered by niceties such as ice or garnish. As you approach, she lifts a hand in greeting.{{/GM}}\n\nWelcome to the party, $(l.name). Hope you're not in the mood for anything fancy. The best you can hope for in here is not to go blind.",
@@ -6923,12 +6887,6 @@
   "spoken": "Thank you. I'll make certain that justice is meted out. You are free to go, and I will ensure payment is delivered to you - so long as you take Gaichu with you. I can't have him staying here.",
   "source": "rules"
  },
- "5668ba94643661cc120023e7_64": {
-  "char": "Krait",
-  "original": "In a way, I think that's what they're doing. Look at the insignias on those vehicles, $(l.name).\n\n{{GM}}She points at the nearest vehicle, a military APC covered with Ares and HKPF iconography.{{/GM}}\n\nKnight Errant-branded police vehicles... Ares regalia on HKPF materiel, and enough firepower to take out half the buildings in Victoria Harbour. Hell, you do the math.",
-  "spoken": "In a way, I think that's what they're doing. Look at the insignias on those vehicles. Knight Errant-branded police vehicles... Ares regalia on HKPF materiel, and enough firepower to take out half the buildings in Victoria Harbour. Hell, you do the math.",
-  "source": "rules"
- },
  "566b46da643661f4110066d7_1": {
   "char": "Krait",
   "original": "That was quite a feat, taking down our people like that. Hell, you’ve even hijacked one of Ares' spider drones. Very impressive, $(l.name).\n\n{{GM}}She pulls back the slide on her weapon.{{/GM}}\n\nDon't get your hopes up, though. It won't be enough to save you.",
@@ -6968,7 +6926,7 @@
  "557650c5623666c02b003595_8": {
   "char": "Emilie",
   "original": "$+(l.he) needs *what?*\n\n{{GM}}Her tone is sharp. Her eyes flash daggers at Is0bel.{{/GM}}\n\nI don't think I should be getting into this.",
-  "spoken": "they needs *what?* I don't think I should be getting into this.",
+  "spoken": "They need *what?* I don't think I should be getting into this.",
   "source": "rules"
  },
  "557650c5623666c02b003595_60": {
@@ -7017,18 +6975,6 @@
   "char": "Shy Dwarf",
   "original": "I don't offer a lot of compliments, $(l.name). Not my style. But that... that was a thing of beauty.",
   "spoken": "I don't offer a lot of compliments. Not my style. But that... that was a thing of beauty.",
-  "source": "rules"
- },
- "5585e03e626632881500678d_1": {
-  "char": "Transient",
-  "original": "What do you want, $(l.man)? We're talking here.",
-  "spoken": "What do you want, man? We're talking here.",
-  "source": "rules"
- },
- "559d82ed62663268440067a6_7": {
-  "char": "Transient",
-  "original": "Smart $(l.man). \n\nNothing can fix what's coming for the Walled City, and Heoi is *way* too close to that place for comfort.",
-  "spoken": "Smart man. Nothing can fix what's coming for the Walled City, and Heoi is *way* too close to that place for comfort.",
   "source": "rules"
  },
  "5588a592303031e827004f11_7": {
@@ -7082,7 +7028,7 @@
  "559f14f7303031181b0064f0_6": {
   "char": "Tsang Researcher",
   "original": "{{GM}}As you enter the room, a group of security guards turn toward you, revealing the lab worker at the center of their flock. He points at you.{{/GM}}\n\nThere $(l.he) is! $(l.he)'s the one who used $(l.his) silver tongue to lull me into a state of trust. Then, when my defenses were down, $(l.he) beat the containment code out of me!\n\n{{GM}}He lets out an exaggerated sob, and the guards leap toward you.{{/GM}}",
-  "spoken": "there they are! they's the one who used their silver tongue to lull me into a state of trust. Then, when my defenses were down, they beat the containment code out of me!",
+  "spoken": "There they are! They are the one who used their silver tongue to lull me into a state of trust. Then, when my defenses were down, they beat the containment code out of me!",
   "source": "rules"
  },
  "54dd4f1c653937e81300425c_6": {
@@ -7164,13 +7110,13 @@
   "source": "rules"
  },
  "56393981306364d40d007911_8": {
-  "char": "$(scene.BrianCoatsName)",
+  "char": "Brian Coats",
   "original": "{{GM}}Chow rolls his eyes at his friend.{{/GM}}\n\nOh, shut *up,* Keenan. Let $(l.him) speak for $(l.him)self.\n\nGo on, stranger. Tell us what you need.",
   "spoken": "Oh, shut *up,* Keenan. Let them speak for themself. Go on, stranger. Tell us what you need.",
   "source": "rules"
  },
  "56393981306364d40d007911_17": {
-  "char": "$(scene.BrianCoatsName)",
+  "char": "Brian Coats",
   "original": "OW, FUCK.\n\n{{GM}}He gives his friend a wild look, lips drawn back in a snarl.{{/GM}}\n\nI saw $(l.him) this time, you limpdick!",
   "spoken": "OW, FUCK. I saw them this time, you limpdick!",
   "source": "rules"
@@ -7212,7 +7158,7 @@
   "source": "rules"
  },
  "560032c4626632e015004414_0": {
-  "char": "$(story.MC_Hub-charName_Lee)",
+  "char": "Lee",
   "original": "Hey, $(l.name)! I got news about that friend of mine... you know, the one who was under the weather.\n\n{{GM}}He gives you a wolfish grin.{{/GM}}\n\nHe's been stabilized, thanks to you. Looks like he's gonna pull through.",
   "spoken": "Hey! I got news about that friend of mine... you know, the one who was under the weather. He's been stabilized, thanks to you. Looks like he's gonna pull through.",
   "source": "rules"
@@ -7268,7 +7214,7 @@
  "55860475303031b027004d1b_6": {
   "char": "Receptionist",
   "original": "{{GM}}The receptionist whips toward the guard.{{/GM}}\n\nPardon me, mister security guard - yes, you - may I please get your opinion on something? It seems to me that this $(l.man) should have a security escort if $(l.he)'s doing a security sweep. Is that correct?",
-  "spoken": "Pardon me, mister security guard - yes, you - may I please get your opinion on something? It seems to me that this man should have a security escort if they's doing a security sweep. Is that correct?",
+  "spoken": "Pardon me, mister security guard - yes, you - may I please get your opinion on something? It seems to me that this man should have a security escort if they are doing a security sweep. Is that correct?",
   "source": "rules"
  },
  "55860475303031b027004d1b_8": {
@@ -7292,13 +7238,13 @@
  "55244c803063647812004d1f_24": {
   "char": "Vasilisa",
   "original": "{{GM}}Vasilisa shoots Galina a sidelong glance.{{/GM}}\n\n$+(l.he)'s right, Galina. Andrey would have our heads if we had to break cover before the shipment was ready.",
-  "spoken": "they's right, Galina. Andrey would have our heads if we had to break cover before the shipment was ready.",
+  "spoken": "they are right, Galina. Andrey would have our heads if we had to break cover before the shipment was ready.",
   "source": "rules"
  },
  "55244c803063647812004d1f_28": {
   "char": "Vasilisa",
   "original": "$+(l.he)'s right, Galina. You know how sounds can echo through these tunnels.",
-  "spoken": "they's right, Galina. You know how sounds can echo through these tunnels.",
+  "spoken": "They are right, Galina. You know how sounds can echo through these tunnels.",
   "source": "rules"
  },
  "55244c803063647812004d1f_30": {
@@ -7314,25 +7260,25 @@
   "source": "rules"
  },
  "555a76a5323431800800153f_22": {
-  "char": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "char": "Red Pole Triad",
   "original": "{{GM}}Her lip curls, parting in the center.{{/GM}}\n\nYeah, we're backing down. For now. But you watch your back, $(l.man).",
   "spoken": "Yeah, we're backing down. For now. But you watch your back, man.",
   "source": "rules"
  },
  "555a76a5323431800800153f_27": {
-  "char": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "char": "Red Pole Triad",
   "original": "Walk away, $(l.man). And don't let us see you here again!",
   "spoken": "Walk away, man. And don't let us see you here again!",
   "source": "rules"
  },
  "555a76a5323431800800153f_28": {
-  "char": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "char": "Red Pole Triad",
   "original": "{{GM}}Song looks up with a start, her focus broken. A moment later, the surprise on her face is replaced with an arrogant sneer.{{/GM}}\n\nYou're making a big mistake, $(l.man). Lucky for you I'm busy.\n\nYou know what's good for you, you'll turn and run, *right now.* Your call.",
   "spoken": "You're making a big mistake, man. Lucky for you I'm busy. You know what's good for you, you'll turn and run, *right now.* Your call.",
   "source": "rules"
  },
  "555a76a5323431800800153f_36": {
-  "char": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "char": "Red Pole Triad",
   "original": "Then why are you wasting my time?\n\n{{GM}}He bushes you away.{{/GM}}\n\nGet out of my hair, $(l.man)!",
   "spoken": "Then why are you wasting my time? Get out of my hair, man!",
   "source": "rules"
@@ -7347,6 +7293,18 @@
   "char": "Hwang Jae-Min",
   "original": "Quite frankly, your employer doesn't know the first thing about Matrix security. We've hacked his commlink and his rental car. I simply re-dialed you once you called him.\n\nMy apologies for such an unorthodox introduction. A $(l.man) of your stature should be afforded more respect, but time is short.",
   "spoken": "Quite frankly, your employer doesn't know the first thing about Matrix security. We've hacked his commlink and his rental car. I simply re-dialed you once you called him. My apologies for such an unorthodox introduction. A man of your stature should be afforded more respect, but time is short.",
+  "source": "rules"
+ },
+ "54e3b9f43063640c0c00288f_9": {
+  "char": "Hwang Jae-Min",
+  "original": "{{GM}}Hwang shakes his head at you, incredulous.{{/GM}}\n\nWhat is *wrong* with you, $(l.man)?! I laid everything out for you, and you're still not--",
+  "spoken": "What is *wrong* with you, man?! I laid everything out for you, and you're still not--",
+  "source": "rules"
+ },
+ "54e3b9f43063640c0c00288f_16": {
+  "char": "Hwang Jae-Min",
+  "original": "{{GM}}You hand the data and samples to Tigath.{{/GM}}\n\nA wise decision. I'll see the money is wired to your account.\n\nFarewell, $(l.name). And good luck.",
+  "spoken": "A wise decision. I'll see the money is wired to your account. Farewell. And good luck.",
   "source": "rules"
  },
  "54dbef30653937cc15006dd1_5": {
@@ -7406,13 +7364,13 @@
  "55860475303031b027004d1b_7": {
   "char": "Tsang Guard",
   "original": "$(l.he)'d damn well better.\n\n{{GM}}The guard examines your passes. His eyes grow wide, and second later he howls into his comm.{{/GM}}\n\nSecurity breach, office level!",
-  "spoken": "they'd damn well better. Security breach, office level!",
+  "spoken": "They'd damn well better. Security breach, office level!",
   "source": "rules"
  },
  "55a2f552303031a41000808a_1": {
   "char": "Tsang Guard",
   "original": "Issat right?\n\n{{GM}}The guard lifts his commlink. After a moment, he speaks.{{/GM}}\n\nGot someone here saying $(l.he)'s a company consultant. We have anything like that scheduled?",
-  "spoken": "Issat right? Got someone here saying they's a company consultant. We have anything like that scheduled?",
+  "spoken": "Issat right? Got someone here saying they are a company consultant. We have anything like that scheduled?",
   "source": "rules"
  },
  "55a2f552303031a41000808a_2": {
@@ -7430,7 +7388,7 @@
  "55a2f552303031a41000808a_15": {
   "char": "Tsang Guard",
   "original": "Issat right?\n\n{{GM}}The guard lifts his commlink. After a moment, he speaks.{{/GM}}\n\nGot someone here saying $(l.he)'s with maintenance. We have anything like that scheduled?",
-  "spoken": "Issat right? Got someone here saying they's with maintenance. We have anything like that scheduled?",
+  "spoken": "Issat right? Got someone here saying they are with maintenance. We have anything like that scheduled?",
   "source": "rules"
  },
  "5642ad54643661bc130026f7_4": {
@@ -7446,27 +7404,27 @@
   "source": "hand"
  },
  "556e0b27323431681a000f44_31": {
-  "char": "$(scene.Convention_ConGoer1Name)",
+  "char": "Convention Goer 1",
   "original": "What $(l.he)'s saying makes sense, guys.\n\nIt might not be a fun answer, but it's a good one.",
-  "spoken": "What they's saying makes sense, guys. It might not be a fun answer, but it's a good one.",
+  "spoken": "What they are saying makes sense, guys. It might not be a fun answer, but it's a good one.",
   "source": "rules"
  },
  "556e0b27323431681a000f44_36": {
-  "char": "$(scene.Convention_ConGoer1Name)",
+  "char": "Convention Goer 1",
   "original": "Leave $(l.him) alone, guys. $+(l.he) didn't ask to get sucked into this conversation.\n\n{{GM}}She turns to you.{{/GM}}\n\nLook, do you need anything from us? If not, we'd like to continue our debate.",
-  "spoken": "Leave them alone, guys. they didn't ask to get sucked into this conversation. Look, do you need anything from us? If not, we'd like to continue our debate.",
+  "spoken": "Leave them alone, guys. They didn't ask to get sucked into this conversation. Look, do you need anything from us? If not, we'd like to continue our debate.",
   "source": "rules"
  },
  "5570e6b6323431541e005e1d_15": {
-  "char": "$(scene.Convention_ConGoer1Name)",
+  "char": "Convention Goer 1",
   "original": "{{GM}}The decker's PDA flickers to life. A familiar face appears on the view screen.{{/GM}}\n\nLeave $(l.him) alone, Matchstick. $+(l.he)'s with us.",
-  "spoken": "Leave them alone, Matchstick. they's with us.",
+  "spoken": "Leave them alone, Matchstick. They are with us.",
   "source": "rules"
  },
  "5570e6b6323431541e005e1d_62": {
-  "char": "$(scene.Convention_ConGoer1Name)",
+  "char": "Convention Goer 1",
   "original": "{{GM}}The decker's PDA flickers to life. A familiar face appears on the view screen.{{/GM}}\n\nLeave $(l.him) alone, Matchstick. $+(l.he)'s with us.",
-  "spoken": "Leave them alone, Matchstick. they's with us.",
+  "spoken": "Leave them alone, Matchstick. They are with us.",
   "source": "rules"
  },
  "563a46753063643417003e71_26": {
@@ -7478,7 +7436,7 @@
  "54dbe235303031a019006c74_6": {
   "char": "Sailor",
   "original": "{{GM}}The three sailors' suspicions turn into smirks. One snickers to herself.{{/GM}}\n\n\"Merchant,\" $(l.he) says. That crook didn't so much as leave as he was chased off by Kindly. No sales permit. Not a big loss, though - the local shops have way better stuff than that smalltime hustler.",
-  "spoken": "\"Merchant,\" they says. That crook didn't so much as leave as he was chased off by Kindly. No sales permit. Not a big loss, though - the local shops have way better stuff than that smalltime hustler.",
+  "spoken": "\"Merchant,\" They say. That crook didn't so much as leave as he was chased off by Kindly. No sales permit. Not a big loss, though - the local shops have way better stuff than that smalltime hustler.",
   "source": "rules"
  },
  "5578c5833234318018008611_13": {
@@ -7518,31 +7476,31 @@
   "source": "rules"
  },
  "55aff6d0306364c414007270_17": {
-  "char": "$(scene.global_AljernonName)",
+  "char": "Aljernon",
   "original": "{{GM}}$(scene.global_AljernonName) inclines his head politely.{{/GM}}\n\nHello again, my friend. Was there something else I could assist you with?",
   "spoken": "Hello again, my friend. Was there something else I could assist you with?",
   "source": "rules"
  },
  "5570e6b6323431541e005e1d_7": {
-  "char": "$(scene.Convention_ConGoerAngryName)",
+  "char": "Angry Convention Goer",
   "original": "{{GM}}You become dimly aware of a figure looming behind you in the convention hall.{{/GM}}\n\nNew here? You must be joking, $(l.man). You've been on that kiosk for twenty minutes now!",
   "spoken": "New here? You must be joking, man. You've been on that kiosk for twenty minutes now!",
   "source": "rules"
  },
  "5570e6b6323431541e005e1d_16": {
-  "char": "$(scene.Convention_ConGoerAngryName)",
+  "char": "Angry Convention Goer",
   "original": "{{GM}}He brings up his wrist to stare at the screen, a frown etched onto his face.{{/GM}}\n\nBut $(l.he)'s been hogging the kiosk for nearly a half an hour already--",
-  "spoken": "But they's been hogging the kiosk for nearly a half an hour already--",
+  "spoken": "But they are been hogging the kiosk for nearly a half an hour already--",
   "source": "rules"
  },
  "5570e6b6323431541e005e1d_63": {
-  "char": "$(scene.Convention_ConGoerAngryName)",
+  "char": "Angry Convention Goer",
   "original": "{{GM}}He brings up his wrist to stare at the screen, a frown etched onto his face.{{/GM}}\n\nBut $(l.he)'s been hogging the kiosk for nearly a half an hour already--",
-  "spoken": "But they's been hogging the kiosk for nearly a half an hour already--",
+  "spoken": "But they are been hogging the kiosk for nearly a half an hour already--",
   "source": "rules"
  },
  "5570e6b6323431541e005e1d_95": {
-  "char": "$(scene.Convention_ConGoerAngryName)",
+  "char": "Angry Convention Goer",
   "original": "{{GM}}You become dimly aware of a figure looming behind you in the convention hall.{{/GM}}\n\nYou didn't read the instructions? You must be joking, $(l.man).\n\nYou've been on that kiosk for twenty minutes now!",
   "spoken": "You didn't read the instructions? You must be joking, man. You've been on that kiosk for twenty minutes now!",
   "source": "rules"
@@ -7572,15 +7530,21 @@
   "source": "rules"
  },
  "556e0b27323431681a000f44_8": {
-  "char": "$(scene.Convention_ConGoer2Name)",
+  "char": "Convention Goer 2",
   "original": "{{GM}}NovaHott nods slowly.{{/GM}}\n\nI think that $(l.he)'s right. Villiers is no fool. He has to have some sort of ulterior motive for plundering the Fuchi coffers.\n\nThis wouldn't have gotten out at all if he didn't have some reason to want it to.",
-  "spoken": "I think that they's right. Villiers is no fool. He has to have some sort of ulterior motive for plundering the Fuchi coffers. This wouldn't have gotten out at all if he didn't have some reason to want it to.",
+  "spoken": "I think that they are right. Villiers is no fool. He has to have some sort of ulterior motive for plundering the Fuchi coffers. This wouldn't have gotten out at all if he didn't have some reason to want it to.",
   "source": "rules"
  },
  "556d09653234312c01003b35_12": {
   "char": "Kitchen Manager",
   "original": "{{GM}}He raises an eyebrow, his curiosity piqued.{{/GM}}\n\nA gala event, you say? In that case, please forgive me. I hadn't realized that I was speaking with a $(l.man) of quality.",
   "spoken": "A gala event, you say? In that case, please forgive me. I hadn't realized that I was speaking with a man of quality.",
+  "source": "rules"
+ },
+ "556d09653234312c01003b35_11": {
+  "char": "Kitchen Manager",
+  "original": "Oh, thank you, $(l.sir)!\n\n{{GM}}As you turn away, he bows frantically after you.{{/GM}}\n\nThis is the happiest day of my life!",
+  "spoken": "Oh, thank you! This is the happiest day of my life!",
   "source": "rules"
  },
  "54da97d0653937300b002dc0_0": {
@@ -7632,9 +7596,9 @@
   "source": "rules"
  },
  "556e0b27323431681a000f44_44": {
-  "char": "$(scene.Convention_ConGoer3Name)",
+  "char": "Convention Goer 3",
   "original": "Look, $(l.he)'s back.\n\nWhat do you want? You're interrupting a serious conversation.",
-  "spoken": "Look, they's back. What do you want? You're interrupting a serious conversation.",
+  "spoken": "Look, they are back. What do you want? You're interrupting a serious conversation.",
   "source": "rules"
  },
  "561304f56436613816004e54_12": {
@@ -7718,7 +7682,7 @@
  "564cf2b66436611c0f00324f_30": {
   "char": "Deputy Chief Inspector",
   "original": "Gun $(l.him) down, men! $+(l.he) doesn't walk out of here alive!",
-  "spoken": "Gun them down, men! they doesn't walk out of here alive!",
+  "spoken": "Gun them down, men! They don't walk out of here alive!",
   "source": "rules"
  },
  "5525b45c30636400170026af_0": {
@@ -7726,12 +7690,6 @@
   "original": "Welcome, $(l.sir)! Welcome to Kwok Atelier, home of the finest clothing in Whampoa Garden. I am the owner, master tailor Wing-Kei Kwok.\nHow may I serve you today?",
   "spoken": "Welcome! Welcome to Kwok Atelier, home of the finest clothing in Whampoa Garden. I am the owner, master tailor Wing-Kei Kwok. How may I serve you today?",
   "source": "rules"
- },
- "555a61da323431501900164e_8": {
-  "char": "Raymond Tsang",
-  "original": "$(l.FirstName)... you need to clear me a...p-path to the sarcophagus... that surrounds the Fortune Engine. It will be at the center of a-all of this.\n\nPlease... please help me fix this. I can't do it by myself.",
-  "spoken": "Listen... you need to clear me a...p-path to the sarcophagus... that surrounds the Fortune Engine. It will be at the center of a-all of this. Please... please help me fix this. I can't do it by myself.",
-  "source": "hand"
  },
  "54da5dae306364a88e0035e1_22": {
   "char": "Unknown Caller",
@@ -7745,16 +7703,28 @@
   "spoken": "Business is good here, man. Real good. Yeah, it's disgusting, but you go where the market is.",
   "source": "rules"
  },
+ "556e2a46323431bc19001ad9_11": {
+  "char": "Troll Decker",
+  "original": "{{GM}}He snickers.{{/GM}}\n\nI could say the same about you. Where's your deck, $(l.man)?",
+  "spoken": "I could say the same about you. Where's your deck, man?",
+  "source": "rules"
+ },
  "54e2771c653937bc1600027f_7": {
   "char": "Triad Thug",
   "original": "Shit - a runner? Don't let $(l.him) take off with Rooster!\n\n{{GM}}He reaches for his weapon.{{/GM}}\n\nGET 'EM!",
   "spoken": "Shit - a runner? Don't let them take off with Rooster! GET 'EM!",
   "source": "rules"
  },
+ "556d2c843234316c180010b2_15": {
+  "char": "Kitchen Worker",
+  "original": "I don't need cash. I need someone to help me out.\n\nYou look like the kind of $(l.guy) who could do that, so just hear me out. This'll take you five minutes, tops, and then you'll have your uniform free of charge.",
+  "spoken": "I don't need cash. I need someone to help me out. You look like the kind of person who could do that, so just hear me out. This'll take you five minutes, tops, and then you'll have your uniform free of charge.",
+  "source": "hand"
+ },
  "56393981306364d40d007911_26": {
   "char": "Fuchi Technician",
   "original": "Oh shit, *ohhh shit.*\n\n$+(l.he) looks like $(l.he)'ll do it, man. And then I'll be next!\n\nJust give $(l.him) the goddamn code, Francis! I need my fingers!",
-  "spoken": "Oh shit, *ohhh shit.* they looks like they'll do it, man. And then I'll be next! Just give them the goddamn code, Francis! I need my fingers!",
+  "spoken": "Oh shit, *ohhh shit.* they look like they'll do it, man. And then I'll be next! Just give them the goddamn code, Francis! I need my fingers!",
   "source": "rules"
  },
  "54c2c193323437f024003921_37": {
@@ -7767,6 +7737,36 @@
   "char": "Player 2",
   "original": "Now's our chance, $(l.name). Security's tied up here. Let's head upstairs.",
   "spoken": "Now's our chance. Security's tied up here. Let's head upstairs.",
+  "source": "rules"
+ },
+ "566719dd3063645018002877_6": {
+  "char": "Chastity Blackwell",
+  "original": "You don't know the half of it, $(l.man). Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things.\n\nThe man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him.",
+  "spoken": "You don't know the half of it, man. Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things. The man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him.",
+  "source": "rules"
+ },
+ "56671922306364501800284d_16": {
+  "char": "Eddy Nahas",
+  "original": "I'm sure you've run into somebody with an axe to grind against $(l.race_plural) at some point in your life. Think of that, but make it the law. Now imagine that  the thugs who're getting up in your face think you're a monster that's going to kill their kids.\n\nLong story short, they marched us out at gunpoint. It happened right before I was born, but I heard a lot of stories.",
+  "spoken": "I'm sure you've run into somebody with an axe to grind against your kind at some point in your life. Think of that, but make it the law. Now imagine that the thugs who're getting up in your face think you're a monster that's going to kill their kids. Long story short, they marched us out at gunpoint. It happened right before I was born, but I heard a lot of stories.",
+  "source": "hand"
+ },
+ "559d82ed62663268440067a6_7": {
+  "char": "Human Transient",
+  "original": "Smart $(l.man). \n\nNothing can fix what's coming for the Walled City, and Heoi is *way* too close to that place for comfort.",
+  "spoken": "Smart man. Nothing can fix what's coming for the Walled City, and Heoi is *way* too close to that place for comfort.",
+  "source": "rules"
+ },
+ "5585e03e626632881500678d_1": {
+  "char": "Heoi Smuggler",
+  "original": "What do you want, $(l.man)? We're talking here.",
+  "spoken": "What do you want, man? We're talking here.",
+  "source": "rules"
+ },
+ "55a81618323431f01b008037_11": {
+  "char": "Convention Staffer",
+  "original": "It's like I told you before... we're full up, $(l.sir).",
+  "spoken": "It's like I told you before... we're full up.",
   "source": "rules"
  },
  "54d96ae73030316814006f45_78": {
@@ -7916,7 +7916,7 @@
  "564cf2b66436611c0f00324f_29": {
   "char": "Narrator",
   "original": "You're the one who's getting hurt. Should've complied while you could.\n\nGun $(l.him) down, men. $+(l.he) doesn't walk out of here alive.",
-  "spoken": "You're the one who's getting hurt. Should've complied while you could. Gun them down, men. they doesn't walk out of here alive.",
+  "spoken": "You're the one who's getting hurt. Should've complied while you could. Gun them down, men. They don't walk out of here alive.",
   "source": "rules"
  },
  "565f3a8c62663208210043f1_1": {

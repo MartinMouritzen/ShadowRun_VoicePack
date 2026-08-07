@@ -512,13 +512,13 @@
  "52940263636134d43100009a_178": {
   "char": "Glory",
   "original": "You aren't listening, Doctor. $+(l.he)'s right - RNA polymerases are *notoriously* prone to replication errors. Any first-year biology student could tell you that.\n\nYou have no way of knowing *how* your Panacea will mutate once you let it go. You're playing with fire, in every way imaginable.",
-  "spoken": "You aren't listening, Doctor. they's right - RNA polymerases are *notoriously* prone to replication errors. Any first-year biology student could tell you that. You have no way of knowing *how* your Panacea will mutate once you let it go. You're playing with fire, in every way imaginable.",
+  "spoken": "You aren't listening, Doctor. They are right - RNA polymerases are *notoriously* prone to replication errors. Any first-year biology student could tell you that. You have no way of knowing *how* your Panacea will mutate once you let it go. You're playing with fire, in every way imaginable.",
   "source": "rules"
  },
  "52940263636134d43100009a_222": {
   "char": "Glory",
   "original": "$+(l.he)'s right, Vauclair. Your brother died trying to save you.\n\nIf you don't turn back from this, his death will have meant nothing - nothing at all.",
-  "spoken": "they's right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all.",
+  "spoken": "They are right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all.",
   "source": "rules"
  },
  "52940263636134d43100009a_263": {
@@ -596,7 +596,7 @@
  "52c74dbd6636616c27000046_110": {
   "char": "Glory",
   "original": "What’s $(l.he) doing?",
-  "spoken": "What’s they doing?",
+  "spoken": "What are they doing?",
   "source": "rules"
  },
  "52cb1fbd64343103bfa408b9_7": {
@@ -944,7 +944,7 @@
  "5356e43c30303124170043af_137": {
   "char": "Glory",
   "original": "{{GM}}Glory shifts into an attack posture. When she speaks, her voice is unsteady.{{/GM}}\n\nI'm sorry that it came to this, Marta... but $(l.he)'s right. You're too far gone to save.",
-  "spoken": "I'm sorry that it came to this, Marta... but they's right. You're too far gone to save.",
+  "spoken": "I'm sorry that it came to this, Marta... but they are right. You're too far gone to save.",
   "source": "rules"
  },
  "5356e43c30303124170043af_143": {
@@ -1490,7 +1490,7 @@
  "52449597346238a0240049c3_72": {
   "char": "Eiger",
   "original": "Under a bus is exactly where $(l.he) belongs.\n\n{{GM}}Eiger turns to face Dietrich. She towers over him, but he stands his ground.{{/GM}}\n\nI respect you, Dietrich... you know that. But you don’t have my training. None of you have.",
-  "spoken": "Under a bus is exactly where they belongs. I respect you, Dietrich... you know that. But you don’t have my training. None of you have.",
+  "spoken": "Under a bus is exactly where they belong. I respect you, Dietrich... you know that. But you don’t have my training. None of you have.",
   "source": "rules"
  },
  "524f13a03462384029001a91_4": {
@@ -1622,13 +1622,13 @@
  "52940263636134d43100009a_194": {
   "char": "Eiger",
   "original": "\"Because I said so\" doesn't cut it, Doc. Not when the stakes are this high.\n\nYou may be crazy, but you aren't stupid. You know that $(l.he)'s making sense.",
-  "spoken": "\"Because I said so\" doesn't cut it, Doc. Not when the stakes are this high. You may be crazy, but you aren't stupid. You know that they's making sense.",
+  "spoken": "\"Because I said so\" doesn't cut it, Doc. Not when the stakes are this high. You may be crazy, but you aren't stupid. You know that they are making sense.",
   "source": "rules"
  },
  "52940263636134d43100009a_224": {
   "char": "Eiger",
   "original": "$+(l.he)'s right, Vauclair. Your brother died trying to save you.\n\nIf you don't turn back from this, his death will have meant nothing - nothing at all.",
-  "spoken": "they's right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all.",
+  "spoken": "They are right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all.",
   "source": "rules"
  },
  "52940263636134d43100009a_260": {
@@ -1754,7 +1754,7 @@
  "52c74dbd6636616c27000046_107": {
   "char": "Eiger",
   "original": "What’s $(l.he) doing?",
-  "spoken": "What’s they doing?",
+  "spoken": "What are they doing?",
   "source": "rules"
  },
  "52cb1fbd64343103bfa408b9_6": {
@@ -1898,7 +1898,7 @@
  "5356d86b323437d02500679a_16": {
   "char": "Eiger",
   "original": "{{GM}}Eiger smiles.{{/GM}}\n\n$+(l.he)'s right, you know. You're completely at our mercy.\n\nSo, tell us, Yuli. Whose payroll are you on?",
-  "spoken": "they's right, you know. You're completely at our mercy. So, tell us, Yuli. Whose payroll are you on?",
+  "spoken": "they are right, you know. You're completely at our mercy. So, tell us, Yuli. Whose payroll are you on?",
   "source": "rules"
  },
  "5356d86b323437d02500679a_34": {
@@ -1916,13 +1916,13 @@
  "5356d86b323437d02500679a_63": {
   "char": "Eiger",
   "original": "{{GM}}Eiger inclines her head in your direction.{{/GM}}\n\n$+(l.he) doesn't talk much. But $(l.he)'s a great listener.\n\nOf course, if you don't tell $(l.him) what $(l.he) wants to hear, $(l.he) might lose $(l.his) patience. And then... well, then things are gonna get loud.",
-  "spoken": "they doesn't talk much. But they's a great listener. Of course, if you don't tell them what they wants to hear, they might lose their patience. And then... well, then things are gonna get loud.",
+  "spoken": "they don't talk much. But they are a great listener. Of course, if you don't tell them what they want to hear, they might lose their patience. And then... well, then things are gonna get loud.",
   "source": "rules"
  },
  "5356d86b323437d02500679a_68": {
   "char": "Eiger",
   "original": "$+(l.he) wasn't telling $(l.him)self.\n\n{{GM}}She slaps him across the face, splitting his lip down the middle. The impact sounds like a gunshot.{{/GM}}\n\n$+(l.he) was telling *you.*",
-  "spoken": "they wasn't telling themself. they was telling *you.*",
+  "spoken": "They weren't telling themself. They were telling *you.*",
   "source": "rules"
  },
  "5356d86b323437d02500679a_120": {
@@ -2108,25 +2108,25 @@
  "52c74dbd6636616c27000046_95": {
   "char": "Blitz",
   "original": "I think $(l.he)’s gone bye-bye.",
-  "spoken": "I think they’s gone bye-bye.",
+  "spoken": "I think they are gone bye-bye.",
   "source": "rules"
  },
  "52c74dbd6636616c27000046_97": {
   "char": "Blitz",
   "original": "I think $(l.he)’s gone bye-bye.",
-  "spoken": "I think they’s gone bye-bye.",
+  "spoken": "I think they are gone bye-bye.",
   "source": "rules"
  },
  "52c74dbd6636616c27000046_99": {
   "char": "Blitz",
   "original": "I think $(l.he)’s gone bye-bye.",
-  "spoken": "I think they’s gone bye-bye.",
+  "spoken": "I think they are gone bye-bye.",
   "source": "rules"
  },
  "52c74dbd6636616c27000046_104": {
   "char": "Blitz",
   "original": "What’s $(l.he) doing?",
-  "spoken": "What’s they doing?",
+  "spoken": "What are they doing?",
   "source": "rules"
  },
  "52cb1fbd64343103bfa408b9_29": {
@@ -2216,7 +2216,7 @@
  "5359c8b7373937e81a004d1a_61": {
   "char": "Blitz",
   "original": "$+(l.he) isn't being cute, jackass. $+(l.he)'s accurately describing the situation.\n\nObviously, Meat Grinder wants you out of the way. ",
-  "spoken": "they aren't being cute, jackass. they's accurately describing the situation. Obviously, Meat Grinder wants you out of the way.",
+  "spoken": "They aren't being cute, jackass. They are accurately describing the situation. Obviously, Meat Grinder wants you out of the way.",
   "source": "rules"
  },
  "5359c8b7373937e81a004d1a_63": {
@@ -2372,7 +2372,7 @@
  "525c4b3e6636611c07003bb3_18": {
   "char": "Dietrich",
   "original": "$+(l.he)'s not threatening you. $+(l.he)'s threatening your business. And I'm helping $(l.him).\n\nWhatcha wanna bet we can make a mess of this place before you bring in enough goons to drop us?\n\nI'm betting we can.",
-  "spoken": "they's not threatening you. they's threatening your business. And I'm helping them. Whatcha wanna bet we can make a mess of this place before you bring in enough goons to drop us? I'm betting we can.",
+  "spoken": "They are not threatening you. They are threatening your business. And I'm helping them. Whatcha wanna bet we can make a mess of this place before you bring in enough goons to drop us? I'm betting we can.",
   "source": "rules"
  },
  "52606754303031cc10006e9a_27": {
@@ -2414,7 +2414,7 @@
  "52940263636134d43100009a_214": {
   "char": "Dietrich",
   "original": "$+(l.he)'s right, Vauclair. Your brother was a miserable bastard, but he did die trying to save you.\n\nIf you don't turn back from this, his death will have meant nothin' - nothin' at all.",
-  "spoken": "they's right, Vauclair. Your brother was a miserable bastard, but he did die trying to save you. If you don't turn back from this, his death will have meant nothin' - nothin' at all.",
+  "spoken": "They are right, Vauclair. Your brother was a miserable bastard, but he did die trying to save you. If you don't turn back from this, his death will have meant nothin' - nothin' at all.",
   "source": "rules"
  },
  "52940263636134d43100009a_314": {
@@ -2468,7 +2468,7 @@
  "52c74dbd6636616c27000046_102": {
   "char": "Dietrich",
   "original": "What’s $(l.he) doing?",
-  "spoken": "What’s they doing?",
+  "spoken": "What are they doing?",
   "source": "rules"
  },
  "52ceffd16361348c270034ae_12": {
@@ -3194,13 +3194,13 @@
  "52d1da4c636134f049006669_15": {
   "char": "Vauclair",
   "original": "That won't be necessary, Audran. Our guest has agreed to a truce.\n\n$+(l.he) will not attempt to stop us from doing what must be done.",
-  "spoken": "That won't be necessary, Audran. Our guest has agreed to a truce. they will not attempt to stop us from doing what must be done.",
+  "spoken": "That won't be necessary, Audran. Our guest has agreed to a truce. They will not attempt to stop us from doing what must be done.",
   "source": "rules"
  },
  "52d1da4c636134f049006669_19": {
   "char": "Vauclair",
   "original": "{{GM}}Without waiting for a response, he stubs out his last cigarette.{{/GM}}\n\nAudran, watch over our guest, if you will. See to it that $(l.he)'s well treated - $(l.he)'s a friend now. I will begin the Panacea infusion process.",
-  "spoken": "Audran, watch over our guest, if you will. See to it that they's well treated - they's a friend now. I will begin the Panacea infusion process.",
+  "spoken": "Audran, watch over our guest, if you will. See to it that they are well treated - they are a friend now. I will begin the Panacea infusion process.",
   "source": "rules"
  },
  "52d1da4c636134f049006669_20": {
@@ -3212,7 +3212,7 @@
  "52d1da4c636134f049006669_24": {
   "char": "Vauclair",
   "original": "As did I. But even if $(l.he) has some other endgame in mind, it's too late for $(l.him) to do anything about it now.\n\nPlease watch over our guest, if you will. See to it that $(l.he)'s well treated, but do not allow $(l.him) to leave that room until I return.\n\nI will begin the Panacea infusion process.",
-  "spoken": "As did I. But even if they has some other endgame in mind, it's too late for them to do anything about it now. Please watch over our guest, if you will. See to it that they's well treated, but do not allow them to leave that room until I return. I will begin the Panacea infusion process.",
+  "spoken": "As did I. But even if they have some other endgame in mind, it's too late for them to do anything about it now. Please watch over our guest, if you will. See to it that they are well treated, but do not allow them to leave that room until I return. I will begin the Panacea infusion process.",
   "source": "rules"
  },
  "52d1da4c636134f049006669_42": {
@@ -4304,7 +4304,7 @@
  "523c8edc346238e41d008a48_49": {
   "char": "Luca Duerr",
   "original": "{{GM}}He smiles thinly.{{/GM}}\n\nVery good. I like a $(l.man) who knows what $(l.he) is, and what $(l.he) wants.\n\nSo. What is your takeaway from this discussion? I would like to hear your thoughts.",
-  "spoken": "Very good. I like a man who knows what they are, and what they wants. So. What is your takeaway from this discussion? I would like to hear your thoughts.",
+  "spoken": "Very good. I like a man who knows what they are, and what they want. So. What is your takeaway from this discussion? I would like to hear your thoughts.",
   "source": "rules"
  },
  "523c8edc346238e41d008a48_53": {
@@ -5009,12 +5009,6 @@
   "spoken": "You never know. Berlin is a small place and you seem quite able to insert yourself into all sorts of interesting business. But as you shadowrunners are fond of saying...",
   "source": "rules"
  },
- "5356d86b323437d02500679a_7": {
-  "char": "The Engineer",
-  "original": "{{GM}}The ork's eyes shift from Eiger to you.{{/GM}}\n\nY-yes. I know you, t-troll. B-but your friend I do not know.\n\nD-does $(l.he) have the s-stomach for this? N-not many do.",
-  "spoken": "Y-yes. I know you, t-troll. B-but your friend I do not know. D-does they have the s-stomach for this? N-not many do.",
-  "source": "rules"
- },
  "5356d86b323437d02500679a_27": {
   "char": "The Engineer",
   "original": "{{GM}}He snorts.{{/GM}}\n\nYou think I'm delusional, $(l.man)? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants.\n\nJust look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
@@ -5108,7 +5102,7 @@
  "52ab4537643431431fd37135_21": {
   "char": "Goldfish",
   "original": "Can I at least buy something for my friend here? $(l.he)’s been talking with me a bit and hasn’t had anything.",
-  "spoken": "Can I at least buy something for my friend here? they’s been talking with me a bit and hasn’t had anything.",
+  "spoken": "Can I at least buy something for my friend here? They are been talking with me a bit and hasn’t had anything.",
   "source": "rules"
  },
  "52ab4537643431431fd37135_49": {
@@ -5120,7 +5114,7 @@
  "52ab4537643431431fd37135_65": {
   "char": "Goldfish",
   "original": "Can I at least buy something for my friend here? $(l.he)’s been talking with me a bit and hasn’t had anything.",
-  "spoken": "Can I at least buy something for my friend here? they’s been talking with me a bit and hasn’t had anything.",
+  "spoken": "Can I at least buy something for my friend here? They are been talking with me a bit and hasn’t had anything.",
   "source": "rules"
  },
  "528519976261640406004f03_64": {
@@ -5156,7 +5150,7 @@
  "521d44a83030319015005ab9_23": {
   "char": "Heimerich",
   "original": "Oh, thank God. And thank you, too.\n\n{{GM}}He turns to Mira.{{/GM}}\n\nGive $(l.him) the spare keycard that Danni bought. $+(l.he)'s going to fix this for us.",
-  "spoken": "Oh, thank God. And thank you, too. Give them the spare keycard that Danni bought. they's going to fix this for us.",
+  "spoken": "Oh, thank God. And thank you, too. Give them the spare keycard that Danni bought. They are going to fix this for us.",
   "source": "rules"
  },
  "521e77003030318403005ff8_41": {
@@ -5384,37 +5378,37 @@
  "53594e5c303031b40a000145_13": {
   "char": "Heart of Feuerstelle",
   "original": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will educate $(l.him), and the babble will cease.>",
-  "spoken": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will educate them, and the babble will cease.>",
+  "spoken": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.> <If the noise continues, we will educate them, and the babble will cease.>",
   "source": "rules"
  },
  "53594e5c303031b40a000145_36": {
   "char": "Heart of Feuerstelle",
   "original": "<The outsider may do whatever $(l.he) wishes. We will not interfere with $(l.him) unless $(l.he) provokes us.\n\nOur Great Master's offer was to you, child. Accept, and everything that you desire will be yours.>",
-  "spoken": "<The outsider may do whatever they wishes. We will not interfere with them unless they provokes us. Our Great Master's offer was to you, child. Accept, and everything that you desire will be yours.>",
+  "spoken": "<The outsider may do whatever they wish. We will not interfere with them unless they provoke us. Our Great Master's offer was to you, child. Accept, and everything that you desire will be yours.>",
   "source": "rules"
  },
  "53594e5c303031b40a000145_49": {
   "char": "Heart of Feuerstelle",
   "original": "<Your friend - this outsider - slanders our Great Master. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will teach $(l.him), and the babble will cease.>",
-  "spoken": "<Your friend - this outsider - slanders our Great Master. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
+  "spoken": "<Your friend - this outsider - slanders our Great Master. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
   "source": "rules"
  },
  "53594e5c303031b40a000145_51": {
   "char": "Heart of Feuerstelle",
   "original": "<Your friend - this outsider - speaks out of turn. But we take no offense.\n\n$+(l.hisher) words are like the babble of a newborn babe. $+(l.he) is ignorant of the truth.>\n\n{{GM}}The spirit inclines its head toward you.{{/GM}}\n\n<If the noise continues, we will teach $(l.him), and the babble will cease.>",
-  "spoken": "<Your friend - this outsider - speaks out of turn. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
+  "spoken": "<Your friend - this outsider - speaks out of turn. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.> <If the noise continues, we will teach them, and the babble will cease.>",
   "source": "rules"
  },
  "521e729d3030318403005fb6_0": {
   "char": "Danni",
   "original": "{{GM}}Danni looks up at you with a smile.{{/GM}}\n\nThere $(l.he) is. Our hero.",
-  "spoken": "there they are. Our hero.",
+  "spoken": "There they are. Our hero.",
   "source": "rules"
  },
  "521e77003030318403005ff8_0": {
   "char": "Danni",
   "original": "{{GM}}Danni wheels on you, her cheeks streaked with tears. She points a delicate finger at you.{{/GM}}\n\nThere $(l.he) is!",
-  "spoken": "there they are!",
+  "spoken": "There they are!",
   "source": "rules"
  },
  "527431c4663661902e0039a9_22": {
@@ -5516,7 +5510,7 @@
  "52af576d6161362808001bbe_215": {
   "char": "Old Woman",
   "original": "\"We\"? Mein Schatz, either we are in the presence of royalty, or $(l.he) has decided to keep on.",
-  "spoken": "\"We\"? Mein Schatz, either we are in the presence of royalty, or they has decided to keep on.",
+  "spoken": "\"We\"? Mein Schatz, either we are in the presence of royalty, or they have decided to keep on.",
   "source": "rules"
  },
  "52af576d6161362808001bbe_221": {
@@ -5720,7 +5714,7 @@
  "52abaca1663661942900532e_2": {
   "char": "Ork Guard",
   "original": "$+(l.he) looks fed, for one thing.",
-  "spoken": "they looks fed, for one thing.",
+  "spoken": "They look fed, for one thing.",
   "source": "rules"
  },
  "53c818123030319016006c94_0": {
@@ -5762,7 +5756,7 @@
  "523b948f346238e41d007555_23": {
   "char": "Bachmeier",
   "original": "As per your instructions, we're gonna try to take $(l.him) out on $(l.hisher) way back. $+(l.he)'ll be more vulnerable that way.\n\nHopefully injured and low on ammo, too, but only time will tell.",
-  "spoken": "As per your instructions, we're gonna try to take them out on their way back. they'll be more vulnerable that way. Hopefully injured and low on ammo, too, but only time will tell.",
+  "spoken": "As per your instructions, we're gonna try to take them out on their way back. They'll be more vulnerable that way. Hopefully injured and low on ammo, too, but only time will tell.",
   "source": "rules"
  },
  "527a93bd636134b83400260e_2": {

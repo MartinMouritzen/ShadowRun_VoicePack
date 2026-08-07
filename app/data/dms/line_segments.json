@@ -866,7 +866,7 @@
   },
   {
    "who": "char",
-   "t": "there they are - the man of the hour."
+   "t": "There they are - the man of the hour."
   }
  ],
  "51ae8290303031980d006758_2": [
@@ -1043,52 +1043,6 @@
    "t": "Right. Sorry."
   }
  ],
- "51d21a8f623331a019004926_0": [
-  {
-   "who": "gm",
-   "t": "Mrs. Kubota’s lips are tight and there appears to be a weight on her shoulders you haven’t seen before."
-  },
-  {
-   "who": "char",
-   "t": "Have you seen Coyote, omae? She is late for another shift."
-  }
- ],
- "51d21a8f623331a019004926_1": [
-  {
-   "who": "gm",
-   "t": "She eyes you closely."
-  },
-  {
-   "who": "char",
-   "t": "Very well. I will cover the bar myself."
-  }
- ],
- "51d21a8f623331a019004926_2": [
-  {
-   "who": "char",
-   "t": "There is no one else available tonight. She knows that. The two of us will have a long talk when I see her again..."
-  },
-  {
-   "who": "gm",
-   "t": "She stops. Sees your expression."
-  }
- ],
- "51d21a8f623331a019004926_3": [
-  {
-   "who": "gm",
-   "t": "Mrs. Kubota declines her head. Stares at the floor. Breathes."
-  }
- ],
- "51d21a8f623331a019004926_5": [
-  {
-   "who": "gm",
-   "t": "She looks up. Steely."
-  },
-  {
-   "who": "char",
-   "t": "It was her crusade, wasn’t it? Her private war on the BTL trade. Do not tell me it was a senseless shadowrun for some corporation who saw her as nothing more than a disposable asset."
-  }
- ],
  "51d233bf3561648412000a50_1": [
   {
    "who": "gm",
@@ -1261,6 +1215,76 @@
   {
    "who": "char",
    "t": "Not us, not anyone in the Sprawl. But they’re chip-heads not pushers. They have a problem. They didn’t ask for this."
+  }
+ ],
+ "51c1e176623331441300491d_30": [
+  {
+   "who": "gm",
+   "t": "Coyote whispers in your ear."
+  },
+  {
+   "who": "char",
+   "t": "We’ll wait outside for you. I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one."
+  }
+ ],
+ "51c1e176623331441300491d_31": [
+  {
+   "who": "gm",
+   "t": "Coyote whispers in your ear."
+  },
+  {
+   "who": "char",
+   "t": "I’ll circle around the building and look for another way in. I’ll chirp you on your commlink if I find one."
+  }
+ ],
+ "7bafc8583064665422005e1e_0": [
+  {
+   "who": "gm",
+   "t": "Coyote is badly injured, but she's managing to hold it together."
+  }
+ ],
+ "7bafc8583064665422005e1e_1": [
+  {
+   "who": "char",
+   "t": "No time to talk."
+  },
+  {
+   "who": "gm",
+   "t": "Coyote kneels and picks up the fallen guard's shotgun."
+  },
+  {
+   "who": "char",
+   "t": "It’s time to finish this."
+  }
+ ],
+ "7bafc8583064665422005e1e_5": [
+  {
+   "who": "char",
+   "t": "No..."
+  },
+  {
+   "who": "gm",
+   "t": "Coyote speaks through gritted teeth."
+  },
+  {
+   "who": "char",
+   "t": "No. I need to finish the other thing I came here for... I need to find something for Mr. Delilah first. A stash of gems."
+  }
+ ],
+ "7bafc8583064665422005e1e_7": [
+  {
+   "who": "char",
+   "t": "Look... Paco... I needed an excuse to come back here and settle some debts. Figured... figured I might as well get paid for it."
+  },
+  {
+   "who": "gm",
+   "t": "Her voice is strong still, but her body's beginning to shake."
+  }
+ ],
+ "7bafc8583064665422005e1e_8": [
+  {
+   "who": "gm",
+   "t": "Coyote looks as though she's about to argue... but says nothing."
   }
  ],
  "235980d9303031c810006c7f_0": [
@@ -1697,6 +1721,52 @@
    "t": "Her anger at Coyote's rashness slowly washes from her eyes and is replaced by tears. She sniffs, wipes them away, and inclines her head to you."
   }
  ],
+ "51d21a8f623331a019004926_0": [
+  {
+   "who": "gm",
+   "t": "Mrs. Kubota’s lips are tight and there appears to be a weight on her shoulders you haven’t seen before."
+  },
+  {
+   "who": "char",
+   "t": "Have you seen Coyote, omae? She is late for another shift."
+  }
+ ],
+ "51d21a8f623331a019004926_1": [
+  {
+   "who": "gm",
+   "t": "She eyes you closely."
+  },
+  {
+   "who": "char",
+   "t": "Very well. I will cover the bar myself."
+  }
+ ],
+ "51d21a8f623331a019004926_2": [
+  {
+   "who": "char",
+   "t": "There is no one else available tonight. She knows that. The two of us will have a long talk when I see her again..."
+  },
+  {
+   "who": "gm",
+   "t": "She stops. Sees your expression."
+  }
+ ],
+ "51d21a8f623331a019004926_3": [
+  {
+   "who": "gm",
+   "t": "Mrs. Kubota declines her head. Stares at the floor. Breathes."
+  }
+ ],
+ "51d21a8f623331a019004926_5": [
+  {
+   "who": "gm",
+   "t": "She looks up. Steely."
+  },
+  {
+   "who": "char",
+   "t": "It was her crusade, wasn’t it? Her private war on the BTL trade. Do not tell me it was a senseless shadowrun for some corporation who saw her as nothing more than a disposable asset."
+  }
+ ],
  "254028ef306434dc1000129c_0": [
   {
    "who": "gm",
@@ -1924,7 +1994,7 @@
  "86d99e9f306434e40c003062_5": [
   {
    "who": "char",
-   "t": "It's alright, officer. they's with me."
+   "t": "It's alright, officer. They are with me."
   },
   {
    "who": "gm",
@@ -2349,16 +2419,6 @@
   {
    "who": "char",
    "t": "I thought you'd never ask!"
-  }
- ],
- "51bf90fb623331f411004d08_41": [
-  {
-   "who": "gm",
-   "t": "He sighs."
-  },
-  {
-   "who": "char",
-   "t": "Very well. I will speak with my contacts on the city's Zoning Board. I am certain there are better uses of their time than shuffling the city's criminal element from one part of the Sprawl to another. Good day."
   }
  ],
  "51d34aad623331dc10005500_0": [
@@ -3077,6 +3137,16 @@
   {
    "who": "char",
    "t": "I would expect no less from you. Mr. Quoth, please place a suitable bonus on our friend’s credstick. A bonus of such size that additional negotiations are unnecessary. I have no interest in furthering our relationship."
+  }
+ ],
+ "51bf90fb623331f411004d08_41": [
+  {
+   "who": "gm",
+   "t": "He sighs."
+  },
+  {
+   "who": "char",
+   "t": "Very well. I will speak with my contacts on the city's Zoning Board. I am certain there are better uses of their time than shuffling the city's criminal element from one part of the Sprawl to another. Good day."
   }
  ],
  "51ccc25e323664d8200012e2_0": [
@@ -3947,6 +4017,16 @@
   {
    "who": "gm",
    "t": "Paco trails off."
+  }
+ ],
+ "7bafc8583064665422005e1e_4": [
+  {
+   "who": "gm",
+   "t": "Paco glares."
+  },
+  {
+   "who": "char",
+   "t": "Not now. Coyote, we need to get you back to the Union. Mrs. Kubota has that med-lab in the basement..."
   }
  ],
  "51cb142a6233317810005f36_6": [
@@ -4941,6 +5021,78 @@
    "t": "I’ve got a hell of a throwing arm - threw a lot of rocks through windows as a kid."
   }
  ],
+ "51bfa0bb6233310c0a004651_5": [
+  {
+   "who": "gm",
+   "t": "Sam still looks like drek. Same clothes, same background. Probably shot at the same time as the first video."
+  },
+  {
+   "who": "char",
+   "t": "Hey buddy! Looking good! Looking good!"
+  },
+  {
+   "who": "gm",
+   "t": "He giggles."
+  }
+ ],
+ "51bfa0bb6233310c0a004651_6": [
+  {
+   "who": "char",
+   "t": "If you’re calling this number, that means the job is done, right?"
+  },
+  {
+   "who": "gm",
+   "t": "He closes his eyes. Shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "Congratulations, amigo! I knew you’d do it. You were always the dependable one. More than me, anyway."
+  }
+ ],
+ "51bfa0bb6233310c0a004651_7": [
+  {
+   "who": "gm",
+   "t": "He looks back at you, trying to speak soberly."
+  },
+  {
+   "who": "char",
+   "t": "I - I just want to say thank you. For *whatever* you did. It means a lot - not even knowing what you did - it *still* means a lot. ‘Cuz I know you did something. You know what I mean? I KNOW you made it right, somehow."
+  }
+ ],
+ "51bfa0bb6233310c0a004651_8": [
+  {
+   "who": "gm",
+   "t": "He pauses. Tilts his head back. His breath hitches in his chest."
+  },
+  {
+   "who": "char",
+   "t": "You’re the only one... the only... one who ever gave a... who ever tried to help me. Ever. Except my sister. She tried. More than once. She tried. I never let her though. Never... let her in. I regret that. A lot."
+  }
+ ],
+ "51bfa0bb6233310c0a004651_9": [
+  {
+   "who": "char",
+   "t": "Did I ever tell you about her, buddy? We’re twins... were twins, I guess. You still a twin after one of you dies? I dunno. Doesn’t matter I guess."
+  },
+  {
+   "who": "gm",
+   "t": "He sighs. Heavy."
+  },
+  {
+   "who": "char",
+   "t": "God, listen, do me a favor, will you? If you talk to her - her name is Jessica - tell her I’m sorry, okay? For everything. She’ll know what for. She’s Catholic - so she’ll forgive me... I... need her to forgive me."
+  }
+ ],
+ "51bfa0bb6233310c0a004651_11": [
+  {
+   "who": "gm",
+   "t": "He straightens himself. Shakes it off. That grin is back."
+  },
+  {
+   "who": "char",
+   "t": "Anyway, you need to get paid! Which would be great except for one thing - I got nothin’. Never did! You know how it is, right? Sorry. But hey - thanks again for giving a crap! Seriously. I appreciate it."
+  }
+ ],
  "5196fe02303031a812002f1b_0": [
   {
    "who": "gm",
@@ -5131,66 +5283,6 @@
   {
    "who": "gm",
    "t": "After you put 150 nuyen onto his credstick, he opens the door to storeroom."
-  }
- ],
- "f8a76498623331780b0018bf_7": [
-  {
-   "who": "gm",
-   "t": "Donny's face blanches."
-  },
-  {
-   "who": "char",
-   "t": "I don't think you really want that. Not really."
-  }
- ],
- "ab7a98a8306434e41b00441b_0": [
-  {
-   "who": "gm",
-   "t": "The young lady turns back to you and smiles."
-  },
-  {
-   "who": "char",
-   "t": "I'm sorry about that. How can I help you today?"
-  }
- ],
- "ab7a98a8306434e41b00441b_9": [
-  {
-   "who": "gm",
-   "t": "She looks at you, perplexed."
-  },
-  {
-   "who": "char",
-   "t": "I don't know why you would need one. They are only used by to replace the cards of Brothers and Sisters who have damaged theirs."
-  }
- ],
- "ab7a98a8306434e41b00441b_10": [
-  {
-   "who": "gm",
-   "t": "Her eyes light up."
-  },
-  {
-   "who": "char",
-   "t": "I know – isn’t it exciting! I am such a big fan of hers. The first time I heard, \"Who Weeps for the Children?\" I melted inside."
-  }
- ],
- "ab7a98a8306434e41b00441b_11": [
-  {
-   "who": "gm",
-   "t": "She chews her lip, torn, then makes a decision."
-  },
-  {
-   "who": "char",
-   "t": "I know the Elders will frown on this, but I’ve just *got* to get her autograph. I mean, it's Maria Mercurial!"
-  }
- ],
- "ab7a98a8306434e41b00441b_12": [
-  {
-   "who": "gm",
-   "t": "She swoons."
-  },
-  {
-   "who": "char",
-   "t": "I didn’t know that! Oh my! But it doesn’t surprise me at all! She's so deep and soulful. And there are lots of media stars who are joining the Brotherhood these days. We're everywhere!"
   }
  ],
  "51be4ebb396163480a001ad5_0": [
@@ -6479,78 +6571,6 @@
    "t": "The camera swivels back to Sam."
   }
  ],
- "51bfa0bb6233310c0a004651_5": [
-  {
-   "who": "gm",
-   "t": "Sam still looks like drek. Same clothes, same background. Probably shot at the same time as the first video."
-  },
-  {
-   "who": "char",
-   "t": "Hey buddy! Looking good! Looking good!"
-  },
-  {
-   "who": "gm",
-   "t": "He giggles."
-  }
- ],
- "51bfa0bb6233310c0a004651_6": [
-  {
-   "who": "char",
-   "t": "If you’re calling this number, that means the job is done, right?"
-  },
-  {
-   "who": "gm",
-   "t": "He closes his eyes. Shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "Congratulations, amigo! I knew you’d do it. You were always the dependable one. More than me, anyway."
-  }
- ],
- "51bfa0bb6233310c0a004651_7": [
-  {
-   "who": "gm",
-   "t": "He looks back at you, trying to speak soberly."
-  },
-  {
-   "who": "char",
-   "t": "I - I just want to say thank you. For *whatever* you did. It means a lot - not even knowing what you did - it *still* means a lot. ‘Cuz I know you did something. You know what I mean? I KNOW you made it right, somehow."
-  }
- ],
- "51bfa0bb6233310c0a004651_8": [
-  {
-   "who": "gm",
-   "t": "He pauses. Tilts his head back. His breath hitches in his chest."
-  },
-  {
-   "who": "char",
-   "t": "You’re the only one... the only... one who ever gave a... who ever tried to help me. Ever. Except my sister. She tried. More than once. She tried. I never let her though. Never... let her in. I regret that. A lot."
-  }
- ],
- "51bfa0bb6233310c0a004651_9": [
-  {
-   "who": "char",
-   "t": "Did I ever tell you about her, buddy? We’re twins... were twins, I guess. You still a twin after one of you dies? I dunno. Doesn’t matter I guess."
-  },
-  {
-   "who": "gm",
-   "t": "He sighs. Heavy."
-  },
-  {
-   "who": "char",
-   "t": "God, listen, do me a favor, will you? If you talk to her - her name is Jessica - tell her I’m sorry, okay? For everything. She’ll know what for. She’s Catholic - so she’ll forgive me... I... need her to forgive me."
-  }
- ],
- "51bfa0bb6233310c0a004651_11": [
-  {
-   "who": "gm",
-   "t": "He straightens himself. Shakes it off. That grin is back."
-  },
-  {
-   "who": "char",
-   "t": "Anyway, you need to get paid! Which would be great except for one thing - I got nothin’. Never did! You know how it is, right? Sorry. But hey - thanks again for giving a crap! Seriously. I appreciate it."
-  }
- ],
  "626a75053064340c13000132_0": [
   {
    "who": "gm",
@@ -6607,56 +6627,6 @@
   {
    "who": "char",
    "t": "They rode in this morning on those fancy bikes. Setup camp in the old street market. They've been marching up and down the street all day, shaking down anyone that wanders past."
-  }
- ],
- "7bafc8583064665422005e1e_0": [
-  {
-   "who": "gm",
-   "t": "Coyote is badly injured, but she's managing to hold it together."
-  }
- ],
- "7bafc8583064665422005e1e_1": [
-  {
-   "who": "char",
-   "t": "No time to talk."
-  },
-  {
-   "who": "gm",
-   "t": "Coyote kneels and picks up the fallen guard's shotgun."
-  },
-  {
-   "who": "char",
-   "t": "It’s time to finish this."
-  }
- ],
- "7bafc8583064665422005e1e_5": [
-  {
-   "who": "char",
-   "t": "No..."
-  },
-  {
-   "who": "gm",
-   "t": "Coyote speaks through gritted teeth."
-  },
-  {
-   "who": "char",
-   "t": "No. I need to finish the other thing I came here for... I need to find something for Mr. Delilah first. A stash of gems."
-  }
- ],
- "7bafc8583064665422005e1e_7": [
-  {
-   "who": "char",
-   "t": "Look... Paco... I needed an excuse to come back here and settle some debts. Figured... figured I might as well get paid for it."
-  },
-  {
-   "who": "gm",
-   "t": "Her voice is strong still, but her body's beginning to shake."
-  }
- ],
- "7bafc8583064665422005e1e_8": [
-  {
-   "who": "gm",
-   "t": "Coyote looks as though she's about to argue... but says nothing."
   }
  ],
  "51bf90fb623331f411004d08_37": [
@@ -6765,34 +6735,54 @@
    "t": "Of course. Truth makes us one."
   }
  ],
- "51c1e176623331441300491d_30": [
+ "ab7a98a8306434e41b00441b_0": [
   {
    "who": "gm",
-   "t": "Coyote whispers in your ear."
+   "t": "The young lady turns back to you and smiles."
   },
   {
    "who": "char",
-   "t": "We’ll wait outside for you. I’ll take the team and circle around the building, looking for another way in. I’ll chirp you on your commlink if we find one."
+   "t": "I'm sorry about that. How can I help you today?"
   }
  ],
- "51c1e176623331441300491d_31": [
+ "ab7a98a8306434e41b00441b_9": [
   {
    "who": "gm",
-   "t": "Coyote whispers in your ear."
+   "t": "She looks at you, perplexed."
   },
   {
    "who": "char",
-   "t": "I’ll circle around the building and look for another way in. I’ll chirp you on your commlink if I find one."
+   "t": "I don't know why you would need one. They are only used by to replace the cards of Brothers and Sisters who have damaged theirs."
   }
  ],
- "7bafc8583064665422005e1e_4": [
+ "ab7a98a8306434e41b00441b_10": [
   {
    "who": "gm",
-   "t": "Paco glares."
+   "t": "Her eyes light up."
   },
   {
    "who": "char",
-   "t": "Not now. Coyote, we need to get you back to the Union. Mrs. Kubota has that med-lab in the basement..."
+   "t": "I know – isn’t it exciting! I am such a big fan of hers. The first time I heard, \"Who Weeps for the Children?\" I melted inside."
+  }
+ ],
+ "ab7a98a8306434e41b00441b_11": [
+  {
+   "who": "gm",
+   "t": "She chews her lip, torn, then makes a decision."
+  },
+  {
+   "who": "char",
+   "t": "I know the Elders will frown on this, but I’ve just *got* to get her autograph. I mean, it's Maria Mercurial!"
+  }
+ ],
+ "ab7a98a8306434e41b00441b_12": [
+  {
+   "who": "gm",
+   "t": "She swoons."
+  },
+  {
+   "who": "char",
+   "t": "I didn’t know that! Oh my! But it doesn’t surprise me at all! She's so deep and soulful. And there are lots of media stars who are joining the Brotherhood these days. We're everywhere!"
   }
  ],
  "54c484e0306434c4120044e7_6": [
@@ -7507,16 +7497,6 @@
    "t": "We don't need more guards. I've got it covered. With a push of a button, I can make these chip-heads into my own personal killer puppets."
   }
  ],
- "51e07b343963651821006dd2_2": [
-  {
-   "who": "gm",
-   "t": "The man with the cyberdeck calmly speaks with a heavily digitized voice."
-  },
-  {
-   "who": "char",
-   "t": "You messed with the wrong BTL Lab, aho. This is a Yakuza operation. With a push of a button, I can make these tweakers into my own personal killer puppets. You're fragged."
-  }
- ],
  "a02269053064349c0b004824_0": [
   {
    "who": "gm",
@@ -7557,6 +7537,26 @@
   {
    "who": "gm",
    "t": "Her wrinkled mouth pops open like a baby bird waiting for a worm but her wizened eyes are feral and intent. Gimme the pills! I'll answer! Gimme the yum-yum!"
+  }
+ ],
+ "f8a76498623331780b0018bf_7": [
+  {
+   "who": "gm",
+   "t": "Donny's face blanches."
+  },
+  {
+   "who": "char",
+   "t": "I don't think you really want that. Not really."
+  }
+ ],
+ "51e07b343963651821006dd2_2": [
+  {
+   "who": "gm",
+   "t": "The man with the cyberdeck calmly speaks with a heavily digitized voice."
+  },
+  {
+   "who": "char",
+   "t": "You messed with the wrong BTL Lab, aho. This is a Yakuza operation. With a push of a button, I can make these tweakers into my own personal killer puppets. You're fragged."
   }
  ]
 }

@@ -9,7 +9,7 @@ Hand files: tools/spoken_hand_rewrites.json (dms, legacy name) /
             tools/spoken_hand_rewrites_<game>.json (dragonfall, hk)
 Unresolved: tools/spoken_unresolved.json (dms) / tools/spoken_unresolved_<game>.json"""
 import json, re, sys, os
-from spoken_rules import mechanical, has_var
+from spoken_rules import mechanical, has_var, they_disagreement
 
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
 if GAME not in ("dms", "dragonfall", "hk"):
@@ -43,7 +43,10 @@ def process(cid, cname, lines, is_narrator=False):
             continue  # GM-span-only lines are handled at generation time, no override needed
         s = l['t'] if is_narrator else strip_gm(l['t'])
         s = mechanical(re.sub(r'\{\{/?[A-Za-z]*\}\}', '', s)).strip()
-        if '$(' in s or not s:
+        # they_disagreement: $(l.he) becomes "they", and the singular verb the writers put after it
+        # has to become plural or the line is spoken as "they's right" / "Does they have". The rules
+        # cover the verbs actually present in the corpus; anything else is surfaced, not guessed at.
+        if '$(' in s or not s or they_disagreement(s, l['t']):
             # {{GM}}-containing char lines are segmented: their fixes live in the per-game
             # hand-SEGMENTS file and are reported by build_line_segments.py — don't double-report.
             if is_narrator or '{{GM}}' not in l['t']:

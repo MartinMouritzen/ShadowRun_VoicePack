@@ -10,7 +10,7 @@ Usage: build_line_segments.py [dms|dragonfall|hk]   (default dms)
 Hand files: tools/spoken_hand_rewrites.json + spoken_hand_segments.json (dms, legacy names) /
             tools/spoken_hand_rewrites_<game>.json + spoken_hand_segments_<game>.json"""
 import json, re, sys, os
-from spoken_rules import mechanical, resolve_speaker_vars
+from spoken_rules import mechanical, resolve_speaker_vars, they_disagreement
 
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
 if GAME not in ("dms", "dragonfall", "hk"):
@@ -61,7 +61,7 @@ for ch in c["characters"]:
                 t = HAND_SEG[key]["g0"]
             else:
                 t = gm_text(l["t"], ch["name"], g)
-            if "$(" in t:
+            if "$(" in t or they_disagreement(t, l["t"]):
                 unresolved.append({"key": key, "char": ch["name"], "seg": "g0", "text": l["t"][:200]})
             result[key] = [{"who": "gm", "t": t}]
             continue
@@ -75,7 +75,7 @@ for ch in c["characters"]:
                     t = HAND_SEG[key][f"g{gi}"]
                 else:
                     t = gm_text(raw, ch["name"], g)
-                if "$(" in t:
+                if "$(" in t or they_disagreement(t, raw):
                     unresolved.append({"key": key, "char": ch["name"], "seg": f"g{gi}", "text": raw.strip()[:200]})
                 out.append({"who": "gm", "t": t})
                 gi += 1
@@ -86,7 +86,7 @@ for ch in c["characters"]:
                     t = HAND[key]
                 else:
                     t = mechanical(clean(raw))
-                if "$(" in t:
+                if "$(" in t or they_disagreement(t, raw):
                     unresolved.append({"key": key, "char": ch["name"], "seg": f"c{ci}", "text": raw.strip()[:200]})
                 if t: out.append({"who": "char", "t": t})
                 ci += 1

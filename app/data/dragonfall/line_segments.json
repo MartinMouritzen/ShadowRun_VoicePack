@@ -2336,7 +2336,7 @@
  "5282af6b6361342453002bee_223": [
   {
    "who": "char",
-   "t": "I've dealt with things like this before, ($l.name)."
+   "t": "I've dealt with things like this before."
   },
   {
    "who": "gm",
@@ -4538,7 +4538,7 @@
   },
   {
    "who": "char",
-   "t": "I'm sorry that it came to this, Marta... but they's right. You're too far gone to save."
+   "t": "I'm sorry that it came to this, Marta... but they are right. You're too far gone to save."
   }
  ],
  "5356e43c30303124170043af_140": [
@@ -7856,7 +7856,7 @@
  "52449597346238a0240049c3_72": [
   {
    "who": "char",
-   "t": "Under a bus is exactly where they belongs."
+   "t": "Under a bus is exactly where they belong."
   },
   {
    "who": "gm",
@@ -9680,7 +9680,7 @@
   },
   {
    "who": "char",
-   "t": "they's right, you know. You're completely at our mercy. So, tell us, Yuli. Whose payroll are you on?"
+   "t": "They are right, you know. You're completely at our mercy. So, tell us, Yuli. Whose payroll are you on?"
   }
  ],
  "5356d86b323437d02500679a_22": [
@@ -9830,13 +9830,13 @@
   },
   {
    "who": "char",
-   "t": "they doesn't talk much. But they's a great listener. Of course, if you don't tell them what they wants to hear, they might lose their patience. And then... well, then things are gonna get loud."
+   "t": "They don't talk much. But they are a great listener. Of course, if you don't tell them what they want to hear, they might lose their patience. And then... well, then things are gonna get loud."
   }
  ],
  "5356d86b323437d02500679a_68": [
   {
    "who": "char",
-   "t": "they wasn't telling themself."
+   "t": "They weren't telling themself."
   },
   {
    "who": "gm",
@@ -9844,7 +9844,7 @@
   },
   {
    "who": "char",
-   "t": "they was telling *you.*"
+   "t": "They were telling *you.*"
   }
  ],
  "5356d86b323437d02500679a_71": [
@@ -19202,7 +19202,7 @@
   },
   {
    "who": "char",
-   "t": "Audran, watch over our guest, if you will. See to it that they's well treated - they's a friend now. I will begin the Panacea infusion process."
+   "t": "Audran, watch over our guest, if you will. See to it that they are well treated - they are a friend now. I will begin the Panacea infusion process."
   }
  ],
  "52d1da4c636134f049006669_20": [
@@ -23128,7 +23128,7 @@
   },
   {
    "who": "char",
-   "t": "...Well, they was always the best of 'em."
+   "t": "...Well, they were always the best of 'em."
   }
  ],
  "527abf9e636134b83400302e_585": [
@@ -23732,7 +23732,7 @@
  "5282af6b6361342453002bee_207": [
   {
    "who": "char",
-   "t": "I've dealt with things like this before, ($l.name)."
+   "t": "I've dealt with things like this before."
   },
   {
    "who": "gm",
@@ -23770,7 +23770,7 @@
  "5282af6b6361342453002bee_217": [
   {
    "who": "char",
-   "t": "I've dealt with things like this before, ($l.name)."
+   "t": "I've dealt with things like this before."
   },
   {
    "who": "gm",
@@ -28860,7 +28860,7 @@
   },
   {
    "who": "char",
-   "t": "Very good. I like a man who knows what they are, and what they wants. So. What is your takeaway from this discussion? I would like to hear your thoughts."
+   "t": "Very good. I like a man who knows what they are, and what they want. So. What is your takeaway from this discussion? I would like to hear your thoughts."
   }
  ],
  "523c8edc346238e41d008a48_51": [
@@ -33670,7 +33670,7 @@
   },
   {
    "who": "char",
-   "t": "Y-yes. I know you, t-troll. B-but your friend I do not know. D-does they have the s-stomach for this? N-not many do."
+   "t": "Y-yes. I know you, t-troll. B-but your friend I do not know.\n\nD-do they have the s-stomach for this? N-not many do."
   }
  ],
  "5356d86b323437d02500679a_13": [
@@ -37452,7 +37452,7 @@
   },
   {
    "who": "char",
-   "t": "Give them the spare keycard that Danni bought. they's going to fix this for us."
+   "t": "Give them the spare keycard that Danni bought. They are going to fix this for us."
   }
  ],
  "521d44a83030319015005ab9_34": [
@@ -40180,7 +40180,7 @@
  "53594e5c303031b40a000145_13": [
   {
    "who": "char",
-   "t": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.>"
+   "t": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.>"
   },
   {
    "who": "gm",
@@ -40282,7 +40282,7 @@
  "53594e5c303031b40a000145_49": [
   {
    "who": "char",
-   "t": "<Your friend - this outsider - slanders our Great Master. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.>"
+   "t": "<Your friend - this outsider - slanders our Great Master. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.>"
   },
   {
    "who": "gm",
@@ -40296,7 +40296,7 @@
  "53594e5c303031b40a000145_51": [
   {
    "who": "char",
-   "t": "<Your friend - this outsider - speaks out of turn. But we take no offense. their words are like the babble of a newborn babe. they are ignorant of the truth.>"
+   "t": "<Your friend - this outsider - speaks out of turn. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.>"
   },
   {
    "who": "gm",
@@ -40910,7 +40910,7 @@
   },
   {
    "who": "char",
-   "t": "there they are. Our hero."
+   "t": "There they are. Our hero."
   }
  ],
  "521e729d3030318403005fb6_5": [
@@ -40930,7 +40930,7 @@
   },
   {
    "who": "char",
-   "t": "there they are!"
+   "t": "There they are!"
   }
  ],
  "521e77003030318403005ff8_7": [
