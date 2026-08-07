@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using BepInEx;
 using HarmonyLib;
@@ -71,13 +72,14 @@ namespace SRRVoices
                 OptionsRowsHandler handler = holder.AddComponent<OptionsRowsHandler>();
 
                 Component title = null;
-                if (sidePanel) title = CloneLabel(soundText, shift, "AI Voices");
+                if (sidePanel) title = CloneLabel(soundText, shift, "AI VOICES");
 
-                handler.volLabel = CloneLabel(soundText, shift + dText, "Voice Volume");
+                // captions are upper-case to match the game's own option rows (MASTER VOLUME, ...)
+                handler.volLabel = CloneLabel(soundText, shift + dText, "VOICE VOLUME");
                 Component volSlider = CloneSlider(soundSlider, shift + dSlider, holder, "OnVoiceVolumeSliderChange");
                 SetSliderValue(volSlider, (Plugin.CfgVolume != null) ? Mathf.Clamp01(Plugin.CfgVolume.Value) : 1f);
 
-                handler.spdLabel = CloneLabel(soundText, shift + dText * 2f, "Voice Speed");
+                handler.spdLabel = CloneLabel(soundText, shift + dText * 2f, "VOICE SPEED");
                 Component spdSlider = CloneSlider(soundSlider, shift + dSlider * 2f, holder, "OnVoiceSpeedSliderChange");
                 SetSliderValue(spdSlider, SpeedToSlider((Plugin.CfgSpeed != null) ? Plugin.CfgSpeed.Value : 1f));
                 handler.UpdateSpeedLabel();
@@ -86,7 +88,7 @@ namespace SRRVoices
                 // and NGUI raises OnClick on whatever GameObject owns the collider. Only shown when
                 // a portrait pack actually shipped, so a voices-only build has no dead toggle.
                 Component portLabel = PortraitPatches.Available
-                    ? CloneLabel(soundText, shift + dText * 3f, "AI Portraits") : null;
+                    ? CloneLabel(soundText, shift + dText * 3f, "AI PORTRAITS") : null;
                 if (portLabel != null)
                 {
                     AddWidgetCollider(portLabel.gameObject);
@@ -114,6 +116,9 @@ namespace SRRVoices
                     bg.transform.localScale = new Vector3(s.x, s.y + grow, s.z);
                     // extend toward wherever the new rows went (rows stack in the dText direction)
                     bg.transform.localPosition += new Vector3(0f, Mathf.Sign(dText.y) * grow / 2f, 0f);
+                    // BACK sits immediately past the audio panel's edge, so the grown panel would
+                    // otherwise print our last row straight through it; push it the same distance.
+                    MoveBackButton(screen, parent, new Vector3(0f, Mathf.Sign(dText.y) * grow, 0f));
                 }
                 if (Plugin.Log != null)
                     Plugin.Log.LogInfo("Options (" + screen.GetType().Name + "): voice rows injected" +
@@ -253,6 +258,38 @@ namespace SRRVoices
             bc.size = new Vector3(260f, 30f, 1f);
         }
 
+        // Slides the BACK button (sprite + button + label) by a delta expressed in the options
+        // rows' own space. The three fields may be one GameObject or a small hierarchy, and they
+        // do not necessarily share a parent with the sliders — so move only the topmost
+        // transforms, and convert the delta through world space rather than assuming equal scale.
+        static void MoveBackButton(MonoBehaviour screen, Transform rowSpace, Vector3 localDelta)
+        {
+            Transform[] parts = new Transform[]
+            {
+                TransformOf(GetComp(screen, "backBG")),
+                TransformOf(GetComp(screen, "backUI")),
+                TransformOf(GetComp(screen, "backText")),
+            };
+            List<Transform> roots = new List<Transform>();
+            foreach (Transform t in parts)
+            {
+                if (t == null || roots.Contains(t)) continue;
+                bool nested = false;
+                foreach (Transform o in parts)
+                    if (o != null && o != t && t.IsChildOf(o)) { nested = true; break; }
+                if (!nested) roots.Add(t);
+            }
+            if (roots.Count == 0)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("options inject: no BACK button found; it may overlap the voice rows.");
+                return;
+            }
+            Vector3 worldDelta = rowSpace.TransformPoint(localDelta) - rowSpace.TransformPoint(Vector3.zero);
+            foreach (Transform t in roots) t.position += worldDelta;
+        }
+
+        static Transform TransformOf(Component c) { return (c == null) ? null : c.transform; }
+
         static Component GetComp(MonoBehaviour screen, string field)
         {
             var f = AccessTools.Field(screen.GetType(), field);
@@ -335,7 +372,7 @@ namespace SRRVoices
             if (label == null) return;
             bool on = (Plugin.CfgPortraits != null) && Plugin.CfgPortraits.Value;
             var p = HarmonyLib.AccessTools.Property(label.GetType(), "text");
-            if (p != null) p.SetValue(label, "AI Portraits  " + (on ? "On" : "Off"), null);
+            if (p != null) p.SetValue(label, "AI PORTRAITS  " + (on ? "ON" : "OFF"), null);
         }
     }
 
@@ -362,7 +399,7 @@ namespace SRRVoices
         {
             if (spdLabel == null || Plugin.CfgSpeed == null) return;
             var p = HarmonyLib.AccessTools.Property(spdLabel.GetType(), "text");
-            if (p != null) p.SetValue(spdLabel, "Voice Speed  " + Plugin.CfgSpeed.Value.ToString("0.00") + "x", null);
+            if (p != null) p.SetValue(spdLabel, "VOICE SPEED  " + Plugin.CfgSpeed.Value.ToString("0.00") + "x", null);
         }
     }
 }
