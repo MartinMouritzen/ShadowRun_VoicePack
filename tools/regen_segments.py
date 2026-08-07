@@ -52,10 +52,21 @@ def tts_text(cid, l):
 BARKS = J("barks.json", {})
 BARK_OV = J("bark_overrides.json", {})
 
+BARK_SEGS = (J("bark_segments.json", {}) or {}).get("beats") or {}
+
 def text_for(cid, seg_key):
     """The exact string the lab would submit for this segment key."""
-    if seg_key in BARKS:            # combat barks live in their own store, not in characters.json
-        return BARK_OV.get(seg_key) or BARKS[seg_key]["text"]
+    bark_base = seg_key.split("~")[0]
+    if bark_base in BARKS:          # barks live in their own store, not in characters.json
+        # A hand edit still wins here, exactly as it does in the lab (genBark sends the edited
+        # script). bark_overrides.json is a VOICE map, not a text one — reading it here used to
+        # hand the TTS a {"voiceId": ...} dict for any bark with a per-line voice.
+        if EDITS.get(seg_key) is not None: return EDITS[seg_key]
+        if seg_key != bark_base:    # one beat of a long piece of narration
+            beats = BARK_SEGS.get(bark_base) or []
+            i = int(seg_key[len(bark_base) + 2:] or 0)
+            return beats[i] if i < len(beats) else None
+        return BARKS[bark_base]["text"]
     base = seg_key.split("~")[0]
     tail = seg_key[len(base):]
     if EDITS.get(seg_key) is not None: return EDITS[seg_key]
@@ -80,8 +91,10 @@ for cid, seg_key in pairs:
     if cid not in byid and cid not in takes: sys.exit(f"ERROR: unknown bucket '{cid}'")
     t = text_for(cid, seg_key)
     if not t: sys.exit(f"ERROR: no text for {cid}:{seg_key}")
-    if seg_key in BARKS:            # bark voices are cast per SPEAKER NAME, not per bucket
-        pick = J("bark_picks.json", {}).get(BARKS[seg_key]["speaker"])
+    bark_base = seg_key.split("~")[0]
+    if bark_base in BARKS:          # bark voices are cast per SPEAKER NAME, not per bucket
+        pick = (BARK_OV.get(bark_base)
+                or J("bark_picks.json", {}).get(BARKS[bark_base]["speaker"]))
     else:
         pick = SEGOV.get(seg_key) or picks.get(cid)
     if not pick:      # mixed bucket with no character pick: reuse whatever voice made the last take

@@ -1,0 +1,342 @@
+{
+ "_fingerprint": {
+  "barks.json": "f04b31348016be9b",
+  "text_edits.json": "28d022b008b51373"
+ },
+ "beats": {
+  "bark_9487139c4f5a251d": [
+   "You now command a team of Shadowrunners. When traveling to new mission locations you will be able to choose which members of your team to bring, and modify their loadout for the run.",
+   "When members of your team become permanently incapacitated on a mission, they'll be automatically extracted for emergency medical care. They will be patched up and ready for action the next time you return to your safehouse. Avoid this loss of firepower by always carrying some BuMoNa Trauma Kits into the field. These can be purchased at the Street Doc's office in the Kreuzbasar."
+  ],
+  "bark_d10a61f5d4d08292": [
+   "Das Kesselhaus-Hotel & Nightclub. Crown jewel of Drogenkippe, the filthiest kiez in Berlin.",
+   "Opening the door to the ground-level dance club is like bashing your head into a wall of sound. Flashing lights stab your eyes, and the air is perfumed with cheap synthohol and engine grease. Everything in here is cranked up to 11. A playground for the numb.",
+   "Green Winters is somewhere in this building. You steel yourself for the sensory assault and step inside. The team makes a quick check of their weapons and follows you into Das Kesselhaus."
+  ],
+  "bark_ab5364502d878d29": [
+   "Life was good. Easy jobs, regular pay, a reliable crew. But things went south and you had to drop off the grid. Put a bullet in the past and start fresh somewhere new.",
+   "The promise of opportunity and anonymity draws you to the free city of Berlin: The Flux-State, a grand experiment in social order. Corporations tread carefully here. Even the great dragon Lofwyr only has so much sway in the constantly evolving power structure of Berlin. The perfect place for a savvy shadowrunner to disappear and begin anew.",
+   "And, as luck would have it, home to your old partner-in-crime, Monika Schäfer.",
+   "It’s your third run with Monika and her team. An old castle holdfast, one hour east of Berlin, perched on a hill overlooking the countryside. The job is standard smash-and-grab: crack the vault, grab the data, get out in one piece. A mediocre payday, but work is work. As the team gathers for Monika's pre-run briefing, you pause to take in your surroundings..."
+  ],
+  "bark_c8a838e6f45f8bb5": [
+   "So far, so good. If your skirmish with security set off any alarms, you don't hear them. Monika leads the rest of the team downward, into the basement of the Harfeld Manor.",
+   "Your payday is waiting. The data vault lies ahead."
+  ],
+  "bark_deba38984d88fe81": [
+   "The ride to the Adenauerplatz is a dismal one. Your only company on the train is an elderly dwarf in a ragged peacoat, and he spends most of his time muttering to himself. When the train rattles to a stop, he slowly rises from his perch and begins to hobble toward the doorway.",
+   "The station itself isn't much different: an old, broken-down thing at the end of its useful life, feebly tottering toward obsolescence. This area of Berlin has clearly seen better days.",
+   "A window of light shines down from the surface, and even that looks stale. Slowly, you begin to climb."
+  ],
+  "bark_eece8eda2fe0175a": [
+   "Monolithic. Plastic. Sterile. The Berlin office of AG Chemie Europa is all of these things and more. The worst qualities of modern corporate culture, all mixed into a toxic stew and sluiced into a single prefab office building.",
+   "Thankfully, you shouldn't have to stay long. According to the intel that your client provided, this should be a simple smash-and-grab operation, and you've been given the tools to carry it out with a minimum of fuss.",
+   "The MKVI Prototype - whatever it is - is waiting for you on the 25th floor. It's time to go and get it."
+  ],
+  "bark_beeebd3114dc8b77": [
+   "The elevator whisks you upward, toward the executive-level 25th floor. As expected, the run has been relatively smooth sailing so far. A chime breaks the silence as the elevator glides to a stop.",
+   "The MKVI is somewhere on this floor. All that you have to do is find it."
+  ],
+  "bark_1678cf1e220bd1ae": [
+   "Aztechnology. A giant in the worlds of technological and magical research. One of the most powerful - and feared - corporations on the planet. There are very few places in this world that the tendrils of Aztechnology cannot reach.",
+   "Germany is no exception. The black glass edifice of an Azzie pyramid dominates the courtyard of the Zitadelle Spandau. And countless other, more innocuous facilities can be found all over Berlin.",
+   "The lab that they maintain in the Jewühl District is one of these. According to your client, the project that the Azzies are working on here is dangerous.",
+   "So dangerous that she's paying you to bring the entire building down."
+  ],
+  "bark_9732c7ca2e3820a6": [
+   "The glittering halls of the Aztechnology facility stand in sharp contrast to the megacorp’s unsavory reputation. Everything in here screams “money,” from the mirror-polish on the floors to the obsidian inlays in the walls.",
+   "The generators - and the Bloodline project - lie somewhere beneath your feet."
+  ],
+  "bark_b4fc13edac9f2145": [
+   "Your stomach lurches slightly as the elevator plummets downward, into the bowels of the Aztechnology facility. A faint but omnipresent thrumming sound raises the hair on the back of your neck.",
+   "The deeper you go, the more certain you become: this place is vibrating with power, both from the generators, and from... something else."
+  ],
+  "bark_90203cbb81c4a8f5": [
+   "OTK International is a small-time software developer, and it shows. The company’s main office is crammed up against the back wall of a massive shared office park, surrounded by competing businesses and larger corporations. A steady trickle of dead-eyed wageslaves flows in and out of the complex.",
+   "The office park’s main entrance is overflowing with hired security, but your forged keycard gets you past them easily enough. A few minutes later, you’re walking the winding corridors toward OTK International.",
+   "You’re only a few smashed computers away from putting Amsel’s plan into motion."
+  ],
+  "bark_c6de113f96399851": [
+   "The U-Bahn rattles to a halt at the edge of Kreuzberg. You’re only a few blocks away from Schattennest, the kiez that Maxim and his smugglers call home.",
+   "According to Samuel, they should be expecting you."
+  ],
+  "bark_3680929b360261c1": [
+   "The Humanis compound smells like a locker room, and doesn’t look much better. Calling the building “run down” would be an understatement; paint is peeling off of the cheap duraplast walls, and the tiles on the floor are mired with decades’ worth of grime. It’s an old, ugly place, perfectly suited to the old, ugly ideology being practiced here.",
+   "You enter the compound. The information that Samuel Beckenbauer sent you here to find lies somewhere ahead."
+  ],
+  "bark_e24dd7adb790ee44": [
+   "You burst through the door to the Humanis compound and into the crisp night air. You’re not far from your extraction point.",
+   "Time to go."
+  ],
+  "bark_0f26574e72121794": [
+   "Your subway car is empty on the return trip to the Kreuzbasar. This stretch of the sprawling U-Bahn tunnel system doesn’t see much use, it seems. At least not at this hour.",
+   "As the train rattles on, you find yourself lost in thought. Old memories creep, unbidden, to the forefront of your mind. Memories of Monika in the old days, and the crew that you used to run with. Memories of success and failure, of wealth and poverty, of good times and bad.",
+   "Halfway back to the Kreuzbasar, you are jolted out of your reverie by a buzzing sound. Your commlink. You’re receiving a call."
+  ],
+  "bark_0aed97977a20f548": [
+   "As the U-Bahn hums toward the Frankfurter Tor, you tug idly at the fabric of your maintenance uniform. You found it in a duffel bag on your seat when you boarded, along with a note from Duerr to put it on before your arrival.",
+   "\"The moment you step off this train,\" the note said, \"your trial run begins. You are to rendezvous with the rest of your team, reconnoiter the building, and plant the specified devices in Aleshire's suite. Beyond that, your approach will be left to you.",
+   "\"Do not disappoint us. You are being watched.\""
+  ],
+  "bark_d0fb8f4b2488ad6c": [
+   "Your client has hired you to \"tie up loose ends\" at a site of a botched cloak-and-dagger operation. One of the operatives from the failed mission has been captured by Knight Errant security forces, and it's only a matter of time before he talks.",
+   "Your job is simple: kick in the door, find the operative, and put a bullet in his guts before he can spill them."
+  ],
+  "bark_862b3205823adcb2": [
+   "A ghostly labyrinth of tunnels and dead-end passageways makes up the network of sewers beneath the Kreuzbasar. You climb down the ladder into this shallow underworld and reel at the wave of foul smells that washes over you, clogging your sinuses and saturating your clothing.",
+   "As your eyes adjust to the light, you find yourself standing at the edge of a narrow channel of murky gray-green water. The rush of churning water echoes down the tunnel.",
+   "You catch a flash of motion in your peripheral vision. Something man-sized, moving fast, flitting across the far end of the tunnel. You strain your eyes to see it, but to no avail. The thing - whatever it is - is gone."
+  ],
+  "bark_b6efed1e253ff581": [
+   "It is a short train ride to Gesundbrunnen. You exit the subway car, stepping onto the old, grungy platform. The place is deserted, though signs of life are everywhere. A gaping hole in the ceiling filters cool, hazy light in from above. To your right, a small plot of crops struggles to endure in the cold and the limited light of the station. Trash and junk litters the platform.",
+   "It’s clear this place hasn’t had anything resembling a janitorial staff in quite some time.",
+   "Somewhere in this old, run-down U-Bahn station lies the entrance to Gesundbrunnen kiez, and hopefully some leads on the whereabouts of the Rabengeister and Gunari’s missing shipment."
+  ],
+  "bark_c9971e981ef9aeef": [
+   "APEX. An artificial intelligence designed for Matrix warfare. The thought of it sends a chill down your spine.",
+   "For years, the shadows have been ripe with rumors of true AI. Names like “Mirage” and “Psychotrope” have fueled conspiracy boards on the Shadowland BBS since 2029. Most savvy shadowrunners dismiss these stories as bunk.",
+   "But from what Alice has told you, at least one of the stories is real. APEX is waiting for you, somewhere down in the basement of an abandoned Saeder-Krupp lab.",
+   "Unfortunately, you're going to have to wade through a lot of gang territory to get there..."
+  ],
+  "bark_c78afbafb9c9c77d": [
+   "The elevator rumbles and clanks its way downward, into the guts of the old Saeder-Krupp development lab. Eighteen years ago, this place - and the project that was being developed here - disappeared from the record books. Thanks to Alice, you are one of the few people alive today who understand why.",
+   "Alice was clear about one thing: you are here because APEX wants you to be. If the AI hadn’t wanted her to trace it here, she’d have wound up as dead as Monika. For better or worse, you’re here at APEX's invitation.",
+   "The elevator grinds to a halt. The doors slide open, and your nostrils are assaulted by eighteen years’ worth of stale air. APEX - and the kill switch that will deactivate it - await."
+  ],
+  "bark_b61ae5b024f51a39": [
+   "Your old van rattles over the uneven terrain as you make your way back to the Harfeld Manor. Vauclair's message to you was as short as it was cryptic: \"URGENT! Come back to the lab. Your assistance is needed.\"",
+   "In the year since Vauclair released his Panacea, the world has gone through a lot of changes. The balance of power has shifted from one megacorp to another; market shares have risen and fallen. A worldwide effort to find a cure for the \"Wyrm Flu\" continues.",
+   "The dragons are dead.",
+   "Vauclair's work was a rousing success. But over the past few months, strange things have been happening. Unexplained magical phenomena. The emergence of strange new creatures. Disasters, both natural and man-made.",
+   "Your van rolls to a halt. If anyone can explain what's happening to the world, Vauclair can. It's time to go and find him."
+  ],
+  "bark_8b1fb20b261d9b73": [
+   "The van lurches forward. The smell of anxious sweat hangs close and thick inside, making the cramped vehicle feel even smaller. The streets of Berlin are strangely quiet as you make your way past the city limits. It’s as if the whole of the Flux State is waiting for something. A calm before the storm.",
+   "An hour later, the van rounds a corner. In the distance you can see the silhouette of Harfeld Manor, backed by the light of the full moon. You switch the van’s headlights off and shift to electric. A short while later, you kill the ignition and roll quietly down the last hill, pulling to a stop on the side of the road.",
+   "A bird of prey takes wing from a tree above you, beginning its nocturnal pursuit.",
+   "You know how it feels."
+  ],
+  "bark_fe3640040c0aad3e": [
+   "After making your way across the manor grounds, you find the servants' entrance open and the immediate interior clear of any resistance.",
+   "You find the elevator that you used during your prior escape waiting patiently for your arrival. It shudders to life now, ready to carry you down into the facility below. To the place where Monika met APEX and the world turned upside down.",
+   "Where this whole thing began."
+  ],
+  "bark_d48c3f5b9b1f4cc1": [
+   "The sounds of machinery fade behind you as you venture further underground. Whoever built this facility was clearly well financed. It must have taken years to design, excavate, and build a complex like this in secrecy.",
+   "You continue through dimly lit halls, finally stepping into what appears to be another laboratory area. The corridor before you is deserted.",
+   "Dr. Adrian Vauclair is somewhere within this facility… and with him, the answers you seek."
+  ],
+  "bark_5303195008f32247": [
+   "You exit the clean-room to find yourself at the threshold of a vast underground chamber. If the abandoned facility that you just fought through was purgatory, then you now stand at the gateway to hell. The heat emanating from ahead hits you like a hammer - the smell of sulphur and ozone is enough to make your lunch want to find somewhere to hide.",
+   "Above the noise created by the whir of turbines, you can hear the deep rumble of something feral waking up. Something very, very big.",
+   "You check your weapons and step into the vast chamber."
+  ],
+  "bark_639e49e7e966e266": [
+   "The tiny credstick feels heavy in your pocket, fat with the weight of hard-won nuyen. The U-bahn station swallows you up and sends you hurtling down the rabbit hole. Towards Alice. Towards the information you’ve bled for.",
+   "The train pulls to a stop and the doors hiss open to the dark, old platform.",
+   "With luck, answers lie ahead."
+  ],
+  "bark_b189998eb62a33fb": [
+   "You and your team descend into the sewers, footsteps echoing off of the damp stone walls. You barely notice the smell - there’s no time to waste. Audran’s team of mercenaries is down here somewhere, racing to plant their explosive charges beneath the kiez.",
+   "The fate of the Kreuzbasar is in your hands."
+  ],
+  "bark_ef083cc2a4a9470c": [
+   "Drogenkippe. It'd be high up on anyone's list of places to avoid, but that's where you're headed... and you're going there alone this time. The last time that you saw Blitz, he was carting his portable terminal over to Cafe Cezve, presumably so that he could do his decking in the most comfortable environment possible.",
+   "Like everything else related to Drogenkippe, the U-bahn train that services it is in poor repair. The car that you're riding in stinks like a chemical toilet on a hot day. On the floor near the doorway, you catch sight of a trampled lump of tattered fur; the longer you stare at it, the more convinced you become that you're looking at the remains of a long-dead squirrel.",
+   "The train rumbles to a stop, and the doors slide open. Time to get this over with."
+  ],
+  "bark_f9a8b328e979b031": [
+   "Schattennest. The kiez next door to the Kreuzbasar, and an object lesson in anarchy gone wrong. Violent gangs rule the streets here, trading territory to the roar of gunfire. The streets are a warzone.",
+   "As dangerous as Schattennest already is, it could be worse. The gangs are vicious, but disorganized - they pose little risk to their neighbors. With little more than a makeshift barricade and a few volunteers, the Kreuzbasar has successfully insulated itself from the chaos of its neighboring kiez.",
+   "The Engineer could change all of that. He has to be stopped, and the F-State as a whole needs to be alerted to what his clients are trying to do. It's up to you and Eiger to make sure that happens."
+  ],
+  "bark_f8dd2cfc76052eb0": [
+   "The drive from the Kreuzbasar to the Schönbuch Forest was a long one. For over six hours, you and Glory rode in relative silence, with only the sounds of the road for company.",
+   "Now you find yourself crouching in the woods, watching, waiting. Off in the distance, the rustic exterior of Feuerstelle looks curiously warm and inviting, but you know what's waiting inside. The anticipation churns at your guts like a living thing.",
+   "Eventually, a van pulls out of the compound's driveway and rolls out along a service road before disappearing from view. Glory gives you a nod and begins to scramble forward.",
+   "Harrow has left the building. It's time for you to make your way inside."
+  ],
+  "bark_bd03acf6ff28e139": [
+   "You chose to leave town with nothing but a credstick, your wits, and your damaged reputation.",
+   "Oh, and your dog. He decided to stick around.",
+   "One year later, you die in an alley. The official story is, \"Cram overdose.\" But what do those autopsy technicians know, anyways? Just a little huff every once in a while never hurt anybody.",
+   "Oh, and the rest of your team died trying to avenge Monika without you. Good job, hero."
+  ],
+  "bark_61d53def7c396c45": [
+   "You chose to leave town with nothing but a credstick, your wits, and your damaged reputation.",
+   "Oh, and your dog. He decided to stick around.",
+   "One year later, you die in an alley. The official story is, \"Cram overdose.\" But what do those autopsy technicians know, anyways? Just a little huff every once in a while never hurt anybody.",
+   "Oh, and the rest of your team died trying to avenge Monika without you. Good job, hero."
+  ],
+  "bark_79572139fc0543f0": [
+   "Berlin NewsFax contains just one report of a large-scale explosion in the countryside east of Berlin. An abandoned castle is reportedly consumed in a massive fireball that shakes the countryside and leaves a crater 60 feet deep. A natural gas leak is suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It�s widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Memories of Feuerschwinge and of the Dragonfall fade further into obscurity, replaced by the media's fascination with the dating habits of the latest simsense stars.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_755f0022466027d1": [
+   "Berlin NewsFax contains just one report of a large-scale explosion in the countryside east of Berlin. An abandoned castle is reportedly consumed in a massive fireball that shakes the countryside and leaves a crater 60 feet deep. A natural gas leak is suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It�s widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Memories of Feuerschwinge and of the Dragonfall fade further into obscurity, replaced by the media's fascination with the dating habits of the latest simsense stars.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_53d9862a0e6a3ab0": [
+   "Berlin NewsFax contains just one report of a large-scale explosion in the countryside east of Berlin. An abandoned castle is reportedly consumed in a massive fireball that shakes the countryside and leaves a crater 60 feet deep. A natural gas leak is suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It�s widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Grainy photographs of a large winged creature crossing a full moon above the Harz Mountains circulate in Germany for several years. Conspiracy theorists take this as evidence that a new Great Dragon has emerged... but when no further sightings are reported, interest wanes.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_b1d7c67e4e809ff0": [
+   "Berlin NewsFax contains just one report of a large-scale explosion in the countryside east of Berlin. An abandoned castle is reportedly consumed in a massive fireball that shakes the countryside and leaves a crater 60 feet deep. A natural gas leak is suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It�s widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Grainy photographs of a large winged creature crossing a full moon above the Harz Mountains circulate in Germany for several years. Conspiracy theorists take this as evidence that a new Great Dragon has emerged... but when no further sightings are reported, interest wanes.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_6cbbc784fa091dc5": [
+   "Berlin NewsFax contains just one report of a shootout in an abandoned holdfast in the countryside, east of Berlin. In a matter of hours, the report vanishes without a trace, as do several prominent deckers who attempt to dig deeper into the event.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It's widely known that the Great Dragon Lofywr is responsible for orchestrating this action; the Golden Wyrm is said to be surprised by the speed and ferocity with which the F-State assembles to repel the attack.",
+   "In 2060, rumors surface of Lofwyr meeting with an unknown representative of the Flux State. Hostilities abruptly cease - a truce is signed the same year, and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Rumors of an exchange between a \"godlike\" artificial intelligence and the feathered serpent Mujaji, ruler of Azania, first begin to surface in 2061. A decker named Tolstoi claims that this is a new stage in ongoing negotiations between the AI and dragonkind, but this claim cannot be confirmed.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_67af81eda9fab1aa": [
+   "Berlin NewsFax contains just one report of a shootout in an abandoned holdfast in the countryside, east of Berlin. In a matter of hours, the report vanishes without a trace, as do several prominent deckers who attempt to dig deeper into the event.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It's widely known that the Great Dragon Lofywr is responsible for orchestrating this action; the Golden Wyrm is said to be surprised by the speed and ferocity with which the F-State assembles to repel the attack.",
+   "In 2060, rumors surface of Lofwyr meeting with an unknown representative of the Flux State. Hostilities abruptly cease - a truce is signed the same year, and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Rumors of an exchange between a \"godlike\" artificial intelligence and the feathered serpent Mujaji, ruler of Azania, first begin to surface in 2061. A decker named Tolstoi claims that this is a new stage in ongoing negotiations between the AI and dragonkind, but this claim cannot be confirmed.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_85cac3bd3f13c54a": [
+   "Berlin NewsFax contains just one report of a shootout in an abandoned holdfast in the countryside east of Berlin. The identity of the combatants remains unknown, though several rival political factions are suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It�s widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Memories of Feuerschwinge and of the Dragonfall fade further into obscurity, replaced by the media's fascination with the dating habits of the latest simsense stars.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_129a8debb65621ae": [
+   "Berlin NewsFax contains just one report of a shootout in an abandoned holdfast in the countryside east of Berlin. The identity of the combatants remains unknown, though several rival political factions are suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It�s widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Memories of Feuerschwinge and of the Dragonfall fade further into obscurity, replaced by the media's fascination with the dating habits of the latest simsense stars.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_911f86da30ad6750": [
+   "Berlin NewsFax contains just one report of a shootout in an abandoned holdfast in the countryside east of Berlin. The identity of the combatants remains unknown, though several rival political factions are suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It's widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Grainy photographs of a large winged creature crossing a full moon above the Harz Mountains circulate in Germany for several years. Conspiracy theorists take this as evidence that a new Great Dragon has emerged... but when no further sightings are reported, interest wanes.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_7dc2ff6fd6101969": [
+   "Berlin NewsFax contains just one report of a shootout in an abandoned holdfast in the countryside east of Berlin. The identity of the combatants remains unknown, though several rival political factions are suspected, and the location is soon cordoned off by unidentified corporate forces.",
+   "This news is eclipsed when Saeder-Krupp announces its acquisition of Arianespace, the last remaining arm of the European space program.",
+   "The Flux State's anarchist rule remains until 2055 when joint corporate forces, acting with the support of the German government, invade the city. It's widely known that the Great Dragon Lofywr is responsible for orchestrating this action. After weeks of fighting, the surviving anarchists are forced to retreat to the eastern part of the city.",
+   "A truce is signed in 2060 and Berlin is again divided by a wall.",
+   "The Great Dragon Dunkelzahn is elected President of the United Canadian and American States in 2057. He is promptly assassinated as he leaves an inauguration party at the Watergate Hotel while in human form. Popular opinion is that another great dragon is responsible, as \"only a dragon can kill a dragon\"... but those in the shadows hint that an act of powerful blood magic is the cause.",
+   "Grainy photographs of a large winged creature crossing a full moon above the Harz Mountains circulate in Germany for several years. Conspiracy theorists take this as evidence that a new Great Dragon has emerged... but when no further sightings are reported, interest wanes.",
+   "The name of Dr. Adrian Vauclair has since been lost to the shadows..."
+  ],
+  "bark_466efaa0639f2cdc": [
+   "By the year 2065, metahumanity has been reduced to an endangered species.",
+   "Huddling in sewers, subway tunnels and underground bunkers, desperate clusters of survivors fight with one another over dwindling supplies of food and water. They have long since learned to carry out their conflicts in silence; noise can attract the predators that now dominate the Earth's surface. To draw the attention of a Horror is to invite a hideous death.",
+   "On the surface, the Horrors congregate in roiling swarms. They slither, scuttle, and crawl over the bones of metahuman civilization, hunting in packs and eviscerating anything with a heartbeat.",
+   "The largest of these monstrosities hang impossibly in the sky above the ruins of the world's great cities, casting shadows that stretch miles across. These godlike leviathans gorge themselves on the residual misery of the long dead. Slowly but surely, they pick the carcass of mankind's reign clean.",
+   "Hope is a thing of the past. Metahumanity has reached its end.",
+   "But the scourge that has replaced it has just begun."
+  ],
+  "bark_c966f47604f877b9": [
+   "By the year 2065, metahumanity has been reduced to an endangered species.",
+   "Huddling in sewers, subway tunnels and underground bunkers, desperate clusters of survivors fight with one another over dwindling supplies of food and water. They have long since learned to carry out their conflicts in silence; noise can attract the predators that now dominate the Earth's surface. To draw the attention of a Horror is to invite a hideous death.",
+   "On the surface, the Horrors congregate in roiling swarms. They slither, scuttle, and crawl over the bones of metahuman civilization, hunting in packs and eviscerating anything with a heartbeat.",
+   "The largest of these monstrosities hang impossibly in the sky above the ruins of the world's great cities, casting shadows that stretch miles across. These godlike leviathans gorge themselves on the residual misery of the long dead. Slowly but surely, they pick the carcass of mankind's reign clean.",
+   "Hope is a thing of the past. Metahumanity has reached its end.",
+   "But the scourge that has replaced it has just begun."
+  ]
+ },
+ "aliases": {
+  "bark_61d53def7c396c45~g0": "bark_bd03acf6ff28e139~g0",
+  "bark_61d53def7c396c45~g1": "bark_bd03acf6ff28e139~g1",
+  "bark_61d53def7c396c45~g2": "bark_bd03acf6ff28e139~g2",
+  "bark_61d53def7c396c45~g3": "bark_bd03acf6ff28e139~g3",
+  "bark_755f0022466027d1~g0": "bark_79572139fc0543f0~g0",
+  "bark_53d9862a0e6a3ab0~g0": "bark_79572139fc0543f0~g0",
+  "bark_b1d7c67e4e809ff0~g0": "bark_79572139fc0543f0~g0",
+  "bark_755f0022466027d1~g1": "bark_79572139fc0543f0~g1",
+  "bark_53d9862a0e6a3ab0~g1": "bark_79572139fc0543f0~g1",
+  "bark_b1d7c67e4e809ff0~g1": "bark_79572139fc0543f0~g1",
+  "bark_85cac3bd3f13c54a~g1": "bark_79572139fc0543f0~g1",
+  "bark_129a8debb65621ae~g1": "bark_79572139fc0543f0~g1",
+  "bark_911f86da30ad6750~g1": "bark_79572139fc0543f0~g1",
+  "bark_7dc2ff6fd6101969~g1": "bark_79572139fc0543f0~g1",
+  "bark_755f0022466027d1~g2": "bark_79572139fc0543f0~g2",
+  "bark_53d9862a0e6a3ab0~g2": "bark_79572139fc0543f0~g2",
+  "bark_b1d7c67e4e809ff0~g2": "bark_79572139fc0543f0~g2",
+  "bark_85cac3bd3f13c54a~g2": "bark_79572139fc0543f0~g2",
+  "bark_129a8debb65621ae~g2": "bark_79572139fc0543f0~g2",
+  "bark_755f0022466027d1~g3": "bark_79572139fc0543f0~g3",
+  "bark_53d9862a0e6a3ab0~g3": "bark_79572139fc0543f0~g3",
+  "bark_b1d7c67e4e809ff0~g3": "bark_79572139fc0543f0~g3",
+  "bark_85cac3bd3f13c54a~g3": "bark_79572139fc0543f0~g3",
+  "bark_129a8debb65621ae~g3": "bark_79572139fc0543f0~g3",
+  "bark_911f86da30ad6750~g3": "bark_79572139fc0543f0~g3",
+  "bark_7dc2ff6fd6101969~g3": "bark_79572139fc0543f0~g3",
+  "bark_755f0022466027d1~g4": "bark_79572139fc0543f0~g4",
+  "bark_53d9862a0e6a3ab0~g4": "bark_79572139fc0543f0~g4",
+  "bark_b1d7c67e4e809ff0~g4": "bark_79572139fc0543f0~g4",
+  "bark_6cbbc784fa091dc5~g3": "bark_79572139fc0543f0~g4",
+  "bark_67af81eda9fab1aa~g3": "bark_79572139fc0543f0~g4",
+  "bark_85cac3bd3f13c54a~g4": "bark_79572139fc0543f0~g4",
+  "bark_129a8debb65621ae~g4": "bark_79572139fc0543f0~g4",
+  "bark_911f86da30ad6750~g4": "bark_79572139fc0543f0~g4",
+  "bark_7dc2ff6fd6101969~g4": "bark_79572139fc0543f0~g4",
+  "bark_755f0022466027d1~g5": "bark_79572139fc0543f0~g5",
+  "bark_85cac3bd3f13c54a~g5": "bark_79572139fc0543f0~g5",
+  "bark_129a8debb65621ae~g5": "bark_79572139fc0543f0~g5",
+  "bark_755f0022466027d1~g6": "bark_79572139fc0543f0~g6",
+  "bark_53d9862a0e6a3ab0~g6": "bark_79572139fc0543f0~g6",
+  "bark_b1d7c67e4e809ff0~g6": "bark_79572139fc0543f0~g6",
+  "bark_6cbbc784fa091dc5~g5": "bark_79572139fc0543f0~g6",
+  "bark_67af81eda9fab1aa~g5": "bark_79572139fc0543f0~g6",
+  "bark_85cac3bd3f13c54a~g6": "bark_79572139fc0543f0~g6",
+  "bark_129a8debb65621ae~g6": "bark_79572139fc0543f0~g6",
+  "bark_911f86da30ad6750~g6": "bark_79572139fc0543f0~g6",
+  "bark_7dc2ff6fd6101969~g6": "bark_79572139fc0543f0~g6",
+  "bark_b1d7c67e4e809ff0~g5": "bark_53d9862a0e6a3ab0~g5",
+  "bark_911f86da30ad6750~g5": "bark_53d9862a0e6a3ab0~g5",
+  "bark_7dc2ff6fd6101969~g5": "bark_53d9862a0e6a3ab0~g5",
+  "bark_67af81eda9fab1aa~g0": "bark_6cbbc784fa091dc5~g0",
+  "bark_67af81eda9fab1aa~g1": "bark_6cbbc784fa091dc5~g1",
+  "bark_67af81eda9fab1aa~g2": "bark_6cbbc784fa091dc5~g2",
+  "bark_67af81eda9fab1aa~g4": "bark_6cbbc784fa091dc5~g4",
+  "bark_129a8debb65621ae~g0": "bark_85cac3bd3f13c54a~g0",
+  "bark_911f86da30ad6750~g0": "bark_85cac3bd3f13c54a~g0",
+  "bark_7dc2ff6fd6101969~g0": "bark_85cac3bd3f13c54a~g0",
+  "bark_7dc2ff6fd6101969~g2": "bark_911f86da30ad6750~g2",
+  "bark_c966f47604f877b9~g0": "bark_466efaa0639f2cdc~g0",
+  "bark_c966f47604f877b9~g1": "bark_466efaa0639f2cdc~g1",
+  "bark_c966f47604f877b9~g2": "bark_466efaa0639f2cdc~g2",
+  "bark_c966f47604f877b9~g3": "bark_466efaa0639f2cdc~g3",
+  "bark_c966f47604f877b9~g4": "bark_466efaa0639f2cdc~g4",
+  "bark_c966f47604f877b9~g5": "bark_466efaa0639f2cdc~g5"
+ }
+}

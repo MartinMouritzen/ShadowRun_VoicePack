@@ -137,14 +137,81 @@ def main():
                 lines[key] = [sel]
                 stats["lines_voiced"] += 1; stats["segments_voiced"] += 1
 
-    # Combat barks: takes live under the "_barks" bucket keyed "bark_<md5(barkText)>". The plugin
-    # hashes the runtime bark text the same way (DisplayTextOverActor hook).
-    for key in list(takes.get("_barks", {}).keys()):
+    # Barks AND screen narration: takes live under the "_barks" bucket keyed "bark_<md5(text)>".
+    # The plugin hashes the runtime text the same way (DisplayTextOverActor / load screen /
+    # epilogue hooks).
+    #
+    # A loadscreen or epilogue runs to several paragraphs, so the lab generates it one beat at a
+    # time under "<key>~g<i>" and they are stitched back together here — the plugin plays a clip
+    # list in order, with SegmentGap between. bark_segments.json (how many beats a bark should
+    # have) is written by the private Voice Lab; without it the order is still recovered from the
+    # take keys themselves, so this repo stays standalone, exactly like dupes.json.
+    bark_doc = jload_opt("bark_segments.json", {})
+    bark_beats = bark_doc.get("beats") or {}
+    bark_stale = [n for n, fp in (bark_doc.get("_fingerprint") or {}).items()
+                  if fp != content_hash(n)]
+    if bark_stale:
+        # Without a current beat count this cannot tell "all four paragraphs are voiced" from
+        # "the last one is missing", so it stops trusting the file entirely and falls back to
+        # whole-bark takes. Truncated narration must never be the failure mode.
+        print(f"  NOTE: bark_segments.json is older than {', '.join(sorted(bark_stale))} — long "
+              f"narration falls back to whole-bark takes. Reload the lab to rewrite it.",
+              file=sys.stderr)
+        bark_beats = {}
+    bark_alias = bark_doc.get("aliases") or {}
+    if bark_stale:
+        bark_alias = {}
+    if not bark_alias:
+        # Standalone fallback (no lab-written file): at minimum, pair up whole barks that hold the
+        # exact same words. extract_epilogue.py emits both an exact and a whitespace-collapsed key
+        # for one text so a stray space can't lose the ending, and both must play.
+        same = {}
+        for k, b in jload_opt("barks.json", {}).items():
+            same.setdefault(re.sub(r"\s+", " ", (b.get("text") or "")).strip(), []).append(k)
+        bark_alias = {k: ks[0] for ks in same.values() if len(ks) > 1 for k in ks[1:]}
+
+    def on_disk(sel):
+        return sel if sel and os.path.exists(os.path.join(AUDIO, *sel.split("/"))) else None
+
+    def bark_clip(seg_key):
+        """This key's keeper, else the keeper of the key it says the same words as."""
+        return on_disk(selected("_barks", seg_key)) or on_disk(selected("_barks", bark_alias.get(seg_key)))
+
+    beat_takes = {}          # base bark key -> highest beat index that has a take
+    for k in takes.get("_barks", {}):
+        base, _, suffix = k.partition("~")
+        n = int(suffix[1:]) + 1 if suffix[:1] == "g" and suffix[1:].isdigit() else 0
+        beat_takes[base] = max(beat_takes.get(base, 0), n)
+
+    partial_barks = []
+    # Every bark that could have a clip: one with takes of its own, one the lab split into beats,
+    # and one that inherits another's words.
+    keys = set(beat_takes) | set(bark_beats) | {k.split("~")[0] for k in bark_alias}
+    for key in sorted(keys):
         stats["lines_total"] += 1
-        sel = selected("_barks", key)
-        if sel and os.path.exists(os.path.join(AUDIO, *sel.split("/"))):
-            lines[key] = [sel]
-            stats["lines_voiced"] += 1; stats["segments_voiced"] += 1
+        expected = len(bark_beats.get(key) or ())
+        nbeats = expected if expected > 1 else beat_takes.get(key, 0)
+        ordered = [c for c in (bark_clip(f"{key}~g{i}") for i in range(nbeats)) if c]
+        whole = bark_clip(key)
+        if nbeats and len(ordered) < nbeats:
+            # Half a load screen is worse than none: it stops mid-story with no way for the player
+            # to tell whether the mod broke. Prefer the complete one-piece take when the bark was
+            # voiced before it got split; otherwise ship nothing and say so.
+            if whole:
+                ordered = [whole]
+            elif ordered:
+                partial_barks.append(f"{key} ({len(ordered)}/{nbeats} beats)")
+                ordered = []
+        elif not nbeats:
+            ordered = [whole] if whole else []
+        if ordered:
+            lines[key] = ordered
+            stats["lines_voiced"] += 1; stats["segments_voiced"] += len(ordered)
+    if partial_barks:
+        print(f"  NOTE: {len(partial_barks)} narration bark(s) are only PARTLY voiced and were "
+              f"SKIPPED (voice the remaining beats in the lab):", file=sys.stderr)
+        for p in partial_barks[:20]:
+            print(f"    {p}", file=sys.stderr)
 
     # Detect selected takes that no current line-segment references (stale keys from a previous
     # segmentation model — e.g. a line that became interleaved after the take was made). These are
