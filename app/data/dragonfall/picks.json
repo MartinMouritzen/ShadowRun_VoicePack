@@ -10,5 +10,889 @@
  "name_eiger": {
   "voiceId": "mag_164",
   "voiceName": "Maya Collins"
+ },
+ "name_blitz": {
+  "voiceId": "mag_186",
+  "voiceName": "Ethan Clarke"
+ },
+ "name_dietrich": {
+  "voiceId": "mag_27",
+  "voiceName": "Ethan Brooks"
+ },
+ "name_computer": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_vauclair": {
+  "voiceId": "mag_841",
+  "voiceName": "Walter Hansen"
+ },
+ "name_paulamsel": {
+  "voiceId": "mag_385",
+  "voiceName": "Ethan Fraser"
+ },
+ "name_kami": {
+  "voiceId": "mag_596",
+  "voiceName": "Lauren Parker"
+ },
+ "name_monika": {
+  "voiceId": "mag_310",
+  "voiceName": "Merry Thompson"
+ },
+ "name_manonphone": {
+  "voiceId": "mag_37",
+  "voiceName": "Logan West"
+ },
+ "name_hasenkamp": {
+  "voiceId": "mag_264",
+  "voiceName": "Caleb Ryan"
+ },
+ "name_simmy": {
+  "voiceId": "mag_282",
+  "voiceName": "Mia Wilson"
+ },
+ "name_marta": {
+  "voiceId": "mag_158",
+  "voiceName": "Taylor Morgan"
+ },
+ "name_philiprex": {
+  "voiceId": "mag_516",
+  "voiceName": "Dominic Blaze"
+ },
+ "name_aljernon": {
+  "voiceId": "mag_501",
+  "voiceName": "Noah Bailey"
+ },
+ "name_jana": {
+  "voiceId": "mag_225",
+  "voiceName": "Claire van der Merwe"
+ },
+ "name_laine": {
+  "voiceId": "mag_519",
+  "voiceName": "Basil Thornecroft"
+ },
+ "name_lucaduerr": {
+  "voiceId": "mag_318",
+  "voiceName": "Oliver Whitmore"
+ },
+ "name_samuelbeckenbauer": {
+  "voiceId": "mag_270",
+  "voiceName": "Henry Arthur"
+ },
+ "name_greenwinters": {
+  "voiceId": "mag_526",
+  "voiceName": "Eldros the Wise"
+ },
+ "name_altugburakgazi": {
+  "voiceId": "mag_540",
+  "voiceName": "Nico Cantarini"
+ },
+ "name_absinthe": {
+  "voiceId": "mag_261",
+  "voiceName": "Harper Olivia"
+ },
+ "name_drxabierezkibel": {
+  "voiceId": "mag_520",
+  "voiceName": "Mortimer Nocturne"
+ },
+ "name_audran": {
+  "voiceId": "mag_441",
+  "voiceName": "Noah Reed"
+ },
+ "name_luckystrike": {
+  "voiceId": "mag_536",
+  "voiceName": "Dana Slate"
+ },
+ "name_apex": {
+  "voiceId": "mag_330",
+  "voiceName": "Ava Thompson"
+ },
+ "name_feuerschwinge": {
+  "voiceId": "mag_528",
+  "voiceName": "Lilith Vexmoor"
+ },
+ "name_silke": {
+  "voiceId": "mag_46",
+  "voiceName": "Sophia Blake"
+ },
+ "name_hansbrackhaus": {
+  "voiceId": "mag_523",
+  "voiceName": "Viremont LeNoir"
+ },
+ "name_theengineer": {
+  "voiceId": "mag_600",
+  "voiceName": "Jack Rawlins"
+ },
+ "name_james": {
+  "voiceId": "mag_597",
+  "voiceName": "Charles Haversham"
+ },
+ "name_volkerstahl": {
+  "voiceId": "mag_329",
+  "voiceName": "Daniel Richardson"
+ },
+ "name_maxim": {
+  "voiceId": "mag_447",
+  "voiceName": "Caleb Morgan"
+ },
+ "name_goldfish": {
+  "voiceId": "mag_258",
+  "voiceName": "Sophia Elizabeth"
+ },
+ "name_ullrich": {
+  "voiceId": "mag_439",
+  "voiceName": "Owen Parker"
+ },
+ "name_thorvaldenstad": {
+  "voiceId": "mag_534",
+  "voiceName": "Old Pip Quickroot"
+ },
+ "name_strangewoman": {
+  "voiceId": "mag_613",
+  "voiceName": "Amber Hayes"
+ },
+ "name_quorin": {
+  "voiceId": "mag_598",
+  "voiceName": "Tom Spencer"
+ },
+ "name_wanderer": {
+  "voiceId": "mag_390",
+  "voiceName": "James Carter"
+ },
+ "name_heimerich": {
+  "voiceId": "mag_266",
+  "voiceName": "Aiden Samuel"
+ },
+ "name_parson": {
+  "voiceId": "mag_184",
+  "voiceName": "Nathan Brooks"
+ },
+ "name_drexabierezkibel": {
+  "voiceId": "mag_520",
+  "voiceName": "Mortimer Nocturne"
+ },
+ "name_mira": {
+  "voiceId": "mag_587",
+  "voiceName": "Luna Sprout"
+ },
+ "name_gunarimettbach": {
+  "voiceId": "mag_517",
+  "voiceName": "Darian Voss"
+ },
+ "name_fraumuller": {
+  "voiceId": "mag_838",
+  "voiceName": "Imogen Hartley"
+ },
+ "name_zaakflash": {
+  "voiceId": "mag_269",
+  "voiceName": "Logan Christopher"
+ },
+ "name_janitor": {
+  "voiceId": "mag_518",
+  "voiceName": "Dr. Cosmo Fizzlebaum"
+ },
+ "name_schrotty": {
+  "voiceId": "mag_796",
+  "voiceName": "Winston Brown"
+ },
+ "name_maliitholyey": {
+  "voiceId": "mag_267",
+  "voiceName": "Sophia Grace"
+ },
+ "name_aztechnologybloodmage": {
+  "voiceId": "mag_183",
+  "voiceName": "Oliver Hayes"
+ },
+ "name_heartoffeuerstelle": {
+  "voiceId": "mag_524",
+  "voiceName": "Lord Nytherion"
+ },
+ "name_aztechnologyguard": {
+  "voiceId": "mag_47",
+  "voiceName": "Tyler Quinn"
+ },
+ "name_danni": {
+  "voiceId": "mag_157",
+  "voiceName": "Kendra Blake"
+ },
+ "name_ghoul": {
+  "voiceId": "mag_252",
+  "voiceName": "Noah Jackson"
+ },
+ "name_simulacrum": {
+  "voiceId": "mag_437",
+  "voiceName": "Emily Turner"
+ },
+ "name_aztechnologycaptain": {
+  "voiceId": "mag_241",
+  "voiceName": "Charlotte Grace"
+ },
+ "name_karl": {
+  "voiceId": "mag_502",
+  "voiceName": "Logan Price"
+ },
+ "name_dante": {
+  "voiceId": "mag_501",
+  "voiceName": "Noah Bailey"
+ },
+ "name_adrianvauclair": {
+  "voiceId": "mag_286",
+  "voiceName": "Benjamin Parker"
+ },
+ "name_franz": {
+  "voiceId": "mag_438",
+  "voiceName": "Jake Miller"
+ },
+ "name_testsubject": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_hearthspirit": {
+  "voiceId": "mag_442",
+  "voiceName": "Ben Watson"
+ },
+ "name_digitalarchiveterminal": {
+  "voiceId": "mag_664",
+  "voiceName": "Evelyn Vale"
+ },
+ "name_alice": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_bannik": {
+  "voiceId": "mag_231",
+  "voiceName": "Thabo Peterson"
+ },
+ "name_bouncer": {
+  "voiceId": "mag_260",
+  "voiceName": "Theodore William"
+ },
+ "name_guard": {
+  "voiceId": "mag_359",
+  "voiceName": "Jacob Harrison"
+ },
+ "name_corporateman": {
+  "voiceId": "mag_840",
+  "voiceName": "Daniel Koh"
+ },
+ "name_trithemius": {
+  "voiceId": "mag_36",
+  "voiceName": "Blake Hudson"
+ },
+ "name_newsdayworldreport": {
+  "voiceId": "mag_446",
+  "voiceName": "Logan Scott"
+ },
+ "name_frank": {
+  "voiceId": "mag_541",
+  "voiceName": "Jack Thornhill"
+ },
+ "name_console": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_janet": {
+  "voiceId": "mag_160",
+  "voiceName": "Vanessa Hayes"
+ },
+ "name_maintenanceworker": {
+  "voiceId": "mag_181",
+  "voiceName": "Lucas Bennett"
+ },
+ "name_oldwoman": {
+  "voiceId": "mag_308",
+  "voiceName": "Sophia Mitchell"
+ },
+ "name_meatgrinder": {
+  "voiceId": "mag_584",
+  "voiceName": "Titan Steele"
+ },
+ "name_communionist": {
+  "voiceId": "mag_154",
+  "voiceName": "Lexi Parker"
+ },
+ "name_companyman": {
+  "voiceId": "mag_206",
+  "voiceName": "Henry Carter"
+ },
+ "name_survivor": {
+  "voiceId": "mag_256",
+  "voiceName": "Mason Wyatt"
+ },
+ "name_harrowsmanifesto": {
+  "voiceId": "mag_298",
+  "voiceName": "Amelia Beckett"
+ },
+ "name_streetmagicquarterlyashadowfrontpublication": {
+  "voiceId": "mag_31",
+  "voiceName": "Jake Morrison"
+ },
+ "name_kroner": {
+  "voiceId": "mag_522",
+  "voiceName": "Malgorn the Hollow"
+ },
+ "name_kiezgatekeeper": {
+  "voiceId": "mag_300",
+  "voiceName": "Michael Johnson"
+ },
+ "name_partygirl": {
+  "voiceId": "mag_283",
+  "voiceName": "Charlotte Taylor"
+ },
+ "name_computerterminal": {
+  "voiceId": "mag_780",
+  "voiceName": "Rania Al-Zoubi"
+ },
+ "name_femaleinitiate": {
+  "voiceId": "mag_839",
+  "voiceName": "Isla MacKenzie"
+ },
+ "name_knighterrantgrenadier": {
+  "voiceId": "mag_41",
+  "voiceName": "Chase Reed"
+ },
+ "name_foreignelf": {
+  "voiceId": "mag_588",
+  "voiceName": "Chad Waters"
+ },
+ "name_foodcartvendor": {
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner"
+ },
+ "name_reporter": {
+  "voiceId": "mag_234",
+  "voiceName": "Michael Botha"
+ },
+ "name_shopkeeper": {
+  "voiceId": "mag_440",
+  "voiceName": "Liam Hayes"
+ },
+ "name_harrow": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks"
+ },
+ "name_controlpanel": {
+  "voiceId": "mag_807",
+  "voiceName": "Matthias Seidel"
+ },
+ "name_techvendor": {
+  "voiceId": "mag_499",
+  "voiceName": "Tessa Morgan"
+ },
+ "name_lady": {
+  "voiceId": "mag_29",
+  "voiceName": "Ava Jordan"
+ },
+ "name_waitress": {
+  "voiceId": "mag_34",
+  "voiceName": "Mia Brooks"
+ },
+ "name_knighterrantguard": {
+  "voiceId": "mag_295",
+  "voiceName": "William Brown"
+ },
+ "name_ltgworker": {
+  "voiceId": "mag_161",
+  "voiceName": "Riley Monroe"
+ },
+ "name_serverroomguard": {
+  "voiceId": "mag_180",
+  "voiceName": "Noah Rivers"
+ },
+ "name_controlconsole": {
+  "voiceId": "mag_47",
+  "voiceName": "Tyler Quinn"
+ },
+ "name_alexander": {
+  "voiceId": "mag_591",
+  "voiceName": "Ethan Cole"
+ },
+ "name_stressedsuit": {
+  "voiceId": "mag_24",
+  "voiceName": "Patrick International"
+ },
+ "name_frightenedman": {
+  "voiceId": "mag_182",
+  "voiceName": "Liam Parker"
+ },
+ "name_mkvicyberzombie": {
+  "voiceId": "mag_296",
+  "voiceName": "James Smith"
+ },
+ "name_humanispropaganda": {
+  "voiceId": "mag_291",
+  "voiceName": "Emma Johnson"
+ },
+ "name_maleinitiate": {
+  "voiceId": "mag_859",
+  "voiceName": "Archer Harrison"
+ },
+ "name_wageslave": {
+  "voiceId": "mag_22",
+  "voiceName": "Matt Carson"
+ },
+ "name_jangoldschmidt": {
+  "voiceId": "mag_535",
+  "voiceName": "Walter Briggs"
+ },
+ "name_smuggler": {
+  "voiceId": "mag_42",
+  "voiceName": "Ryan Fox"
+ },
+ "name_malevoice": {
+  "voiceId": "mag_297",
+  "voiceName": "Henry Whitaker"
+ },
+ "name_newsanchor": {
+  "voiceId": "mag_282",
+  "voiceName": "Mia Wilson"
+ },
+ "name_corporatewoman": {
+  "voiceId": "mag_631",
+  "voiceName": "Rhea Sterling"
+ },
+ "name_maninsuit": {
+  "voiceId": "mag_545",
+  "voiceName": "Elias Thornwell"
+ },
+ "name_aztechnologygrenadier": {
+  "voiceId": "mag_533",
+  "voiceName": "Zeke Rivers"
+ },
+ "name_rammbockboss": {
+  "voiceId": "mag_361",
+  "voiceName": "Olivia Roberts"
+ },
+ "name_note": {
+  "voiceId": "mag_174",
+  "voiceName": "Aidan Doyle"
+ },
+ "name_speaker": {
+  "voiceId": "mag_795",
+  "voiceName": "Zuri Bennett"
+ },
+ "name_militiacaptain": {
+  "voiceId": "mag_163",
+  "voiceName": "Vivian Lane"
+ },
+ "name_aztechnologyexec": {
+  "voiceId": "mag_294",
+  "voiceName": "Alexander Davis"
+ },
+ "name_securitycaptain": {
+  "voiceId": "mag_178",
+  "voiceName": "Ciaran Walsh"
+ },
+ "name_pumpconsole": {
+  "voiceId": "mag_318",
+  "voiceName": "Oliver Whitmore"
+ },
+ "name_bartender": {
+  "voiceId": "mag_337",
+  "voiceName": "Jackson Cooper"
+ },
+ "name_oldinformationterminal": {
+  "voiceId": "mag_664",
+  "voiceName": "Evelyn Vale"
+ },
+ "name_oddmerchant": {
+  "voiceId": "mag_802",
+  "voiceName": "Ada Okafor"
+ },
+ "name_parkranger": {
+  "voiceId": "mag_177",
+  "voiceName": "Adam Hughes"
+ },
+ "name_shadowfrontindependentnewssource": {
+  "voiceId": "mag_264",
+  "voiceName": "Caleb Ryan"
+ },
+ "name_taylornguyen": {
+  "voiceId": "mag_687",
+  "voiceName": "Clara Devon"
+ },
+ "name_servercomputer": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_terminal": {
+  "voiceId": "mag_780",
+  "voiceName": "Rania Al-Zoubi"
+ },
+ "name_dasfinanzwesen": {
+  "voiceId": "mag_446",
+  "voiceName": "Logan Scott"
+ },
+ "name_securityterminal": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_explosivecontrolpanel": {
+  "voiceId": "mag_807",
+  "voiceName": "Matthias Seidel"
+ },
+ "name_orkguard": {
+  "voiceId": "mag_307",
+  "voiceName": "Henry Fletcher"
+ },
+ "name_knighterrantenforcer": {
+  "voiceId": "mag_366",
+  "voiceName": "Ethan Parker"
+ },
+ "name_panaceaprojectterminal": {
+  "voiceId": "mag_47",
+  "voiceName": "Tyler Quinn"
+ },
+ "name_nasalwoman": {
+  "voiceId": "mag_162",
+  "voiceName": "Sasha Monroe"
+ },
+ "name_adminterminal": {
+  "voiceId": "mag_318",
+  "voiceName": "Oliver Whitmore"
+ },
+ "name_acolyte": {
+  "voiceId": "mag_347",
+  "voiceName": "Eleanor Hastings"
+ },
+ "name_raggedman": {
+  "voiceId": "mag_276",
+  "voiceName": "Sipho Dlamini"
+ },
+ "name_tailor": {
+  "voiceId": "mag_583",
+  "voiceName": "Reginald Ashworth"
+ },
+ "name_researcher": {
+  "voiceId": "mag_38",
+  "voiceName": "Cole Anderson"
+ },
+ "name_voiceonphone": {
+  "voiceId": "mag_44",
+  "voiceName": "Chloe Bennett"
+ },
+ "name_interviewer": {
+  "voiceId": "mag_629",
+  "voiceName": "Paige Turner"
+ },
+ "name_dronecontrolbox": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_gangenforcer": {
+  "voiceId": "mag_364",
+  "voiceName": "Sophia Morgan"
+ },
+ "name_emergencyaishutdownandpurge": {
+  "voiceId": "mag_298",
+  "voiceName": "Amelia Beckett"
+ },
+ "name_kunzel": {
+  "voiceId": "mag_176",
+  "voiceName": "Connor Keane"
+ },
+ "name_aztechnologyenforcer": {
+  "voiceId": "mag_35",
+  "voiceName": "Grant Walker"
+ },
+ "name_david": {
+  "voiceId": "mag_521",
+  "voiceName": "Mike Rodent"
+ },
+ "name_knighterrantcaptain": {
+  "voiceId": "mag_281",
+  "voiceName": "Logan Anderson"
+ },
+ "name_corruptedfile": {
+  "voiceId": "mag_329",
+  "voiceName": "Daniel Richardson"
+ },
+ "name_humanisterminal": {
+  "voiceId": "mag_664",
+  "voiceName": "Evelyn Vale"
+ },
+ "name_freightelevatordoorpanel": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_ltgpanel": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_schockwellenreitermessagedrop": {
+  "voiceId": "mag_442",
+  "voiceName": "Ben Watson"
+ },
+ "name_man": {
+  "voiceId": "mag_795",
+  "voiceName": "Zuri Bennett"
+ },
+ "name_elfactress": {
+  "voiceId": "mag_531",
+  "voiceName": "Vera Raze"
+ },
+ "name_aztecthnologyinventoryterminal": {
+  "voiceId": "mag_291",
+  "voiceName": "Emma Johnson"
+ },
+ "name_volunteerworker": {
+  "voiceId": "mag_596",
+  "voiceName": "Lauren Parker"
+ },
+ "name_deaddropmessage": {
+  "voiceId": "mag_174",
+  "voiceName": "Aidan Doyle"
+ },
+ "name_gatecontrol": {
+  "voiceId": "mag_780",
+  "voiceName": "Rania Al-Zoubi"
+ },
+ "name_vanguardmage": {
+  "voiceId": "mag_378",
+  "voiceName": "Arthur Kensington"
+ },
+ "name_messages": {
+  "voiceId": "mag_298",
+  "voiceName": "Amelia Beckett"
+ },
+ "name_emergencyfieldtraumaunit": {
+  "voiceId": "mag_342",
+  "voiceName": "Christopher Sullivan"
+ },
+ "name_jurgenplotz": {
+  "voiceId": "mag_685",
+  "voiceName": "Dusty Baxter"
+ },
+ "name_liamfoster": {
+  "voiceId": "mag_351",
+  "voiceName": "Daniel Brooks"
+ },
+ "name_securitydrone": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_streetrat": {
+  "voiceId": "mag_43",
+  "voiceName": "Ella Morgan"
+ },
+ "name_otksecuritydrone": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_bachmeier": {
+  "voiceId": "mag_350",
+  "voiceName": "Henry Beckett"
+ },
+ "name_generatorcontrolpanel": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_elevatorcontrols": {
+  "voiceId": "mag_807",
+  "voiceName": "Matthias Seidel"
+ },
+ "name_fromthedeskofwernerharding": {
+  "voiceId": "mag_500",
+  "voiceName": "Santa Claus"
+ },
+ "name_doorpanel": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_paramilitarysecurity": {
+  "voiceId": "mag_338",
+  "voiceName": "Elijah Bennett"
+ },
+ "name_strangeman": {
+  "voiceId": "mag_511",
+  "voiceName": "Dorian Malice"
+ },
+ "name_heavysecuritydrone": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_femalevoice": {
+  "voiceId": "mag_334",
+  "voiceName": "Madison Taylor"
+ },
+ "name_scaredmalevoice": {
+  "voiceId": "mag_26",
+  "voiceName": "Austin Lane"
+ },
+ "name_aleshire": {
+  "voiceId": "mag_385",
+  "voiceName": "Ethan Fraser"
+ },
+ "name_heiner": {
+  "voiceId": "mag_534",
+  "voiceName": "Old Pip Quickroot"
+ },
+ "name_trollactor": {
+  "voiceId": "mag_516",
+  "voiceName": "Dominic Blaze"
+ },
+ "name_elderlysoundingelfactor": {
+  "voiceId": "mag_436",
+  "voiceName": "Jamie Clarke"
+ },
+ "name_securitynode": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_scientist": {
+  "voiceId": "mag_507",
+  "voiceName": "Dylan Hayes"
+ },
+ "name_anonymousmessage": {
+  "voiceId": "mag_329",
+  "voiceName": "Daniel Richardson"
+ },
+ "name_diary": {
+  "voiceId": "mag_442",
+  "voiceName": "Ben Watson"
+ },
+ "name_doorconsole": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_messagefile": {
+  "voiceId": "mag_291",
+  "voiceName": "Emma Johnson"
+ },
+ "name_controlnodeterminal": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_mainframe": {
+  "voiceId": "mag_47",
+  "voiceName": "Tyler Quinn"
+ },
+ "name_voiceprintanalyzer": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_highpitchedman": {
+  "voiceId": "mag_333",
+  "voiceName": "Matthew Reynolds"
+ },
+ "name_gatekeeperic": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_watcheric": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_workstation": {
+  "voiceId": "mag_287",
+  "voiceName": "Sophia Brown"
+ },
+ "name_fromthedeskofjonbergfalk": {
+  "voiceId": "mag_174",
+  "voiceName": "Aidan Doyle"
+ },
+ "name_mysterydecker": {
+  "voiceId": "mag_686",
+  "voiceName": "Terry Dobson"
+ },
+ "name_malenewscaster": {
+  "voiceId": "mag_42",
+  "voiceName": "Ryan Fox"
+ },
+ "name_bodyguard": {
+  "voiceId": "mag_260",
+  "voiceName": "Theodore William"
+ },
+ "name_automatedsecuritydrone": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_alertsystem": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_turret": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_doorcontrols": {
+  "voiceId": "mag_318",
+  "voiceName": "Oliver Whitmore"
+ },
+ "name_warninglabel": {
+  "voiceId": "mag_298",
+  "voiceName": "Amelia Beckett"
+ },
+ "name_meetnmatesinglesdatingprofile": {
+  "voiceId": "mag_516",
+  "voiceName": "Dominic Blaze"
+ },
+ "name_lieutenant": {
+  "voiceId": "mag_541",
+  "voiceName": "Jack Thornhill"
+ },
+ "name_mercenary": {
+  "voiceId": "mag_319",
+  "voiceName": "Benjamin Walker"
+ },
+ "name_paramilitarysecurityenforcer": {
+  "voiceId": "mag_544",
+  "voiceName": "Jack Riker"
+ },
+ "name_hackerdecker": {
+  "voiceId": "mag_185",
+  "voiceName": "Amelia Carter"
+ },
+ "name_sidedoorpanel": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_brokenpda": {
+  "voiceId": "mag_329",
+  "voiceName": "Daniel Richardson"
+ },
+ "name_vanguardmercenary": {
+  "voiceId": "mag_441",
+  "voiceName": "Noah Reed"
+ },
+ "name_humanisdoorpanel": {
+  "voiceId": "mag_244",
+  "voiceName": "James Alexander"
+ },
+ "name_militiaman": {
+  "voiceId": "mag_284",
+  "voiceName": "Liam Cooper"
+ },
+ "name_disembodiedvoice": {
+  "voiceId": "mag_505",
+  "voiceName": "Lena Rivers"
+ },
+ "name_freedacolyte": {
+  "voiceId": "mag_501",
+  "voiceName": "Noah Bailey"
+ },
+ "name_serverdecker": {
+  "voiceId": "mag_513",
+  "voiceName": "Lila Kim"
+ },
+ "name_corpulenttroll": {
+  "voiceId": "mag_538",
+  "voiceName": "Wade “Red” Dawson"
+ },
+ "name_anonymousfileattachment": {
+  "voiceId": "mag_442",
+  "voiceName": "Ben Watson"
+ },
+ "name_femalenewscaster": {
+  "voiceId": "mag_503",
+  "voiceName": "Rachel Monroe"
+ },
+ "name_germanannouncer": {
+  "voiceId": "mag_292",
+  "voiceName": "Ethan Miller"
+ },
+ "name_knighterrantmage": {
+  "voiceId": "mag_288",
+  "voiceName": "Matthew Wilson"
  }
 }
