@@ -1,0 +1,13 @@
+{
+  "_comment": "Nodes the extractor attributed to a CHARACTER but which are narration: second-person description of what the player sees, with no speaker. The game gives them an actor slot (usually whoever the scene is about), so extraction has nothing to go on. Applied by apply_narration_fixes.py <game>, which wraps the node's whole text in {{GM}}...{{/GM}} inside app/data/<game>/characters.json. build_line_segments.py then emits it as a single 'gm' segment, so it is voiced by the narrator and follows the narrator's casting - unlike a per-line voice override, which would pin one voice and silently stop tracking a recast. Idempotent: a node already wrapped is skipped.",
+
+  "dragonfall": [
+    {
+      "convo": "5258897d6636614001005b04",
+      "convo_name": "examining Green Winters' corpse",
+      "nodes": [23, 28],
+      "from": "name_greenwinters",
+      "reason": "Both nodes are the player examining the body. Node 23 ('The memories of Monika's violent convulsions...') and node 28 ('Peering at the corpse's face, you confirm what you'd already suspected...') are addressed to 'you' and describe the corpse in the third person - Green Winters is dead on the floor in this scene and says nothing. The convo binds to his actor slot, which is why they landed on him. These are the only two nodes he has in this conversation."
+    }
+  ]
+}
