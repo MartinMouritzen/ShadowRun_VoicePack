@@ -19,10 +19,6 @@
   "voiceId": "mag_27",
   "voiceName": "Ethan Brooks"
  },
- "name_computer": {
-  "voiceId": "mag_532",
-  "voiceName": "Nyra- Robot Voice"
- },
  "name_vauclair": {
   "voiceId": "mag_841",
   "voiceName": "Walter Hansen"
@@ -104,8 +100,8 @@
   "voiceName": "Dana Slate"
  },
  "name_apex": {
-  "voiceId": "mag_330",
-  "voiceName": "Ava Thompson"
+  "voiceId": "mag_532",
+  "voiceName": "Nyra - Robot Voice"
  },
  "name_feuerschwinge": {
   "voiceId": "mag_528",
@@ -894,5 +890,9 @@
  "name_knighterrantmage": {
   "voiceId": "mag_288",
   "voiceName": "Matthew Wilson"
+ },
+ "name_computer": {
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  }
 }
