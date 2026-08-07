@@ -53,7 +53,15 @@ fmt = gcfg.get("textFormat") or "quotes"
 pad = gcfg.get("lineKeyPad")
 pad = 4 if pad is None else int(pad)
 
-by_id = {c["id"]: c for c in chars.get("characters") or []}
+# Some packs keep the narrator as a top-level object rather than a cast entry (the Shadowrun
+# extractors do), so a plain characters[] lookup cannot see them at all - and the narrator is the
+# single largest speaking part in the game. Normalise the same way lab/dupes.py and the server do.
+cast = list(chars.get("characters") or [])
+_n = chars.get("narrator")
+if isinstance(_n, dict) and not any(c.get("id") == "narrator" for c in cast):
+    cast.insert(0, {"id": "narrator", "name": _n.get("name") or "Narrator (GM)",
+                    "lines": _n.get("lines") or []})
+by_id = {c["id"]: c for c in cast}
 jobs = []
 for cid in a.chars.split(","):
     c = by_id.get(cid)
