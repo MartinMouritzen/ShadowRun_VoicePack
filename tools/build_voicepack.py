@@ -61,6 +61,46 @@ def main():
         e = takes.get(bucket, {}).get(seg_key)
         return e.get("selected") if e else None
 
+    # Repeated lines. Branching dialogue says the same words at many nodes, so the lab shows and
+    # generates only one of them; the others get their voice here by reusing that node's keeper.
+    # Clips are named after the SOURCE take path below, so two nodes sharing a take share one ogg
+    # automatically — this costs no extra disk and no extra generation.
+    #
+    # dupes.json is written by the Voice Lab (lab/tools/build_dupes.py) in the private repo. This
+    # repo stays standalone on purpose: no file, no dedup, still a correct pack.
+    dupes = jload_opt("dupes.json", {})
+    aliases = dupes.get("aliases", {})
+
+    def content_hash(name):
+        p = os.path.join(DATA, name)
+        if not os.path.exists(p):
+            return None
+        with open(p, "rb") as fh:
+            return hashlib.sha1(fh.read()).hexdigest()[:16]
+
+    stale_inputs = [n for n, fp in (dupes.get("_fingerprint") or {}).items()
+                    if fp != content_hash(n)]
+    if stale_inputs:
+        print(f"  NOTE: dupes.json is older than {', '.join(sorted(stale_inputs))} — repeated "
+              f"lines may be mapped from stale text. Re-run lab/tools/build_dupes.py --game "
+              f"srr-{GAME}", file=sys.stderr)
+
+    def pick(bucket, seg_key, allow_narrator):
+        """A node's own keeper take, else the keeper of the node whose line it repeats."""
+        canon = (aliases.get(bucket) or {}).get(seg_key)
+        if canon is None and allow_narrator:
+            canon = (aliases.get("narrator") or {}).get(seg_key)
+        for k in (seg_key, canon):
+            if not k:
+                continue
+            sel = selected(bucket, k)
+            # plain narrator-owned GM lines live under 'narrator' even if char_id differs
+            if sel is None and allow_narrator:
+                sel = selected("narrator", k)
+            if sel:
+                return sel
+        return None
+
     # Build ordered clip lists per line
     lines = {}          # base_key -> [source_rel_mp3, ...] (ordered, only selected)
     stats = {"lines_total": 0, "lines_voiced": 0, "segments_voiced": 0, "missing_files": 0}
@@ -72,10 +112,7 @@ def main():
             ordered = []
             for bucket, seg_key in seg_keys(char_id, base_key, SEGS):
                 b = char_id if bucket == "char_or_narr" else bucket
-                sel = selected(b, seg_key)
-                # plain narrator-owned GM lines live under 'narrator' bucket even if char_id differs
-                if sel is None and bucket == "char_or_narr":
-                    sel = selected("narrator", seg_key)
+                sel = pick(b, seg_key, bucket == "char_or_narr")
                 if sel:
                     if os.path.exists(os.path.join(AUDIO, *sel.split("/"))):
                         ordered.append(sel); stats["segments_voiced"] += 1

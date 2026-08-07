@@ -24,6 +24,9 @@ ov = L("spoken_overrides.json")
 directed = L("directed.json")
 edits = L("text_edits.json") if os.path.exists(os.path.join(D, "text_edits.json")) else {}
 inspect = L("inspect.json") if os.path.exists(os.path.join(D, "inspect.json")) else {}
+# Segment keys that merely repeat another node's line, written by the lab's build_dupes.py. They
+# are generated once, at the node they repeat, and inherit that clip in build_voicepack.py.
+ALIASES = (L("dupes.json") if os.path.exists(os.path.join(D, "dupes.json")) else {}).get("aliases", {})
 
 by_id = {c["id"]: c for c in chars["characters"]}
 by_id["narrator"] = {"id": "narrator", "name": "Narrator", "lines": chars["narrator"]["lines"]}
@@ -75,6 +78,7 @@ seen = set()
 def emit(bucket, segkey, text):
     if not text or segkey in seen: return
     seen.add(segkey)
+    if segkey in (ALIASES.get(bucket) or {}): return
     if has_take(bucket, segkey): return
     prov, vid, vname = provider(bucket)
     if prov is None: return
