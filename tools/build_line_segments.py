@@ -10,7 +10,7 @@ Usage: build_line_segments.py [dms|dragonfall|hk]   (default dms)
 Hand files: tools/spoken_hand_rewrites.json + spoken_hand_segments.json (dms, legacy names) /
             tools/spoken_hand_rewrites_<game>.json + spoken_hand_segments_<game>.json"""
 import json, re, sys, os
-from spoken_rules import mechanical, resolve_speaker_vars, they_disagreement
+from spoken_rules import mechanical, resolve_speaker_vars, they_disagreement, beats, SEG_MAX
 
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
 if GAME not in ("dms", "dragonfall", "hk"):
@@ -25,6 +25,9 @@ def jopt(p):
 HAND = jopt(os.path.join(HERE, f"spoken_hand_rewrites{SUF}.json"))
 HAND_SEG = jopt(os.path.join(HERE, f"spoken_hand_segments{SUF}.json"))
 NOTES = jopt(os.path.join(ROOT, f"app/data/{GAME}/char_notes.json"))
+# What the lab speaks for an UNSEGMENTED line, so a line that only becomes segmented
+# because it is long keeps exactly the words it had before.
+SPOKEN = jopt(os.path.join(ROOT, f"app/data/{GAME}/spoken_overrides.json"))
 
 def gender_of(cid, cname):
     n = NOTES.get(cid) or NOTES.get(cname) or {}
@@ -63,9 +66,19 @@ for ch in c["characters"]:
                 t = gm_text(l["t"], ch["name"], g)
             if "$(" in t or they_disagreement(t, l["t"]):
                 unresolved.append({"key": key, "char": ch["name"], "seg": "g0", "text": l["t"][:200]})
-            result[key] = [{"who": "gm", "t": t}]
+            result[key] = [{"who": "gm", "t": p} for p in (beats(t) or [t])]
             continue
-        if "{{GM}}" not in l["t"]: continue
+        if "{{GM}}" not in l["t"]:
+            # No narration in this node, so it was previously left unsegmented and shipped as one
+            # take however long it ran. If it is long enough to be miserable in the lab, emit it as
+            # beats instead. The text MUST match what the lab derives for an unsegmented line
+            # (spoken_overrides > hand rewrite > mechanical), or splitting would quietly change the
+            # words as well as the keys.
+            base = (SPOKEN.get(key) or {}).get("spoken") or HAND.get(key) or mechanical(clean(l["t"]))
+            parts = beats(base)
+            if len(parts) > 1:
+                result[key] = [{"who": "char", "t": p} for p in parts]
+            continue
         segs = raw_segments(l["t"])
         nchar = sum(1 for w, _ in segs if w == "char")
         out = []; ci = 0; gi = 0
@@ -77,7 +90,8 @@ for ch in c["characters"]:
                     t = gm_text(raw, ch["name"], g)
                 if "$(" in t or they_disagreement(t, raw):
                     unresolved.append({"key": key, "char": ch["name"], "seg": f"g{gi}", "text": raw.strip()[:200]})
-                out.append({"who": "gm", "t": t})
+                for part in (beats(t) or [t]):
+                    out.append({"who": "gm", "t": part})
                 gi += 1
             else:
                 if key in HAND_SEG and f"c{ci}" in HAND_SEG[key]:
@@ -88,7 +102,8 @@ for ch in c["characters"]:
                     t = mechanical(clean(raw))
                 if "$(" in t or they_disagreement(t, raw):
                     unresolved.append({"key": key, "char": ch["name"], "seg": f"c{ci}", "text": raw.strip()[:200]})
-                if t: out.append({"who": "char", "t": t})
+                for part in (beats(t) or []):
+                    out.append({"who": "char", "t": part})
                 ci += 1
         result[key] = out
 

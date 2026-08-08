@@ -45327,6 +45327,307 @@
      "n": 126,
      "cn": "Haven-Global_Doctor",
      "t": "Welcome to the Triage Cyberclinic, my friend.\n\n{{GM}}He extends his hand to you.{{/GM}}\n\nI am Dr. Xabier Ezkibel. And your name is...?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 2,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "If you're calling me to beg again, you might as well hang up now. \n\nI've been bled by you people for too long now. There are plenty of chop shops and organleggers out there who'd pay *good* money for--"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 4,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "$(l.name)?\n\n{{GM}}Ezkibel tries to hide the surprise in his voice. He doesn't do a very good job.{{/GM}}\n\nWhat... what are you doing on this line, my friend?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 5,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "I don't know what those things have told you, $(l.name), but they are *not* customers. They've never paid me a *thing* for my services, and--"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 6,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Well, yes, but I don't know why it's *my* responsibility to pay them for--"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 8,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Contracts don't last forever. And you'll forgive me for saying so, $(l.name), but I can see no good reason to continue honoring this one."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 9,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "My clinic is a business, not a charity. I'm not giving your new friends any more bio-material unless they pay me for it."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 10,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "{{GM}}His tone is incredulous.{{/GM}}\n\nDo that, and you'll be getting your ghoul friends killed! The Mettbachs will storm down there with their arsenal and wipe them out!"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 11,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "{{GM}}There is a pause. When he speaks again, his tone is guarded.{{/GM}}\n\nWhat do you mean by that?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 12,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "This whole plan was *your* friend's idea. Your sainted Monika--"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 13,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "There is a long pause. Finally, you hear a sigh.",
+     "y": 6
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 14,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Tell your friends that I've changed my mind. Their feedings will resume directly, at no additional cost.\n\n{{GM}}There is a click as he disconnects the line.{{/GM}}"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 15,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "That... that could be acceptable.\n\nIt won't be cheap, mind you. But I'm open to the offer."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 16,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "What I know is that I'm not doing this for free any more. Period."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 17,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Yes, for *the Kreuzbasar.* Not for *me.*\n\nWhy should *I* continue to give them valuable material for free when--"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 18,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "But... if you agree with me, why did you call?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 19,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Look, $(l.name). I don't know what those things have told you, but I am *well within* my rights to charge for that material. They've never paid me a *thing* for my services, and--"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 20,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Well, yes. Yes, it is.\n\n...So if you agree with me, why did you call?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 22,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "{{GM}}There is a short pause, then he replies in a bemused voice.{{/GM}}\n\nAll right, you've piqued my curiosity. I'm not an unreasonable man.\n\nSo go ahead. Make your pitch."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 23,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "What, like the barter system? I don't think so... I can't imagine that a bunch of sewer-dwelling monsters would have much of value to trade."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 24,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Hm. That's an interesting suggestion.\n\n{{GM}}The line goes quiet for a moment.{{/GM}}\n\nI might be able to work with that."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 25,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "I'll tell you what. You tell their leader that I'll continue feeding them.\n\nIn return, they'll keep the sewers maintained, like they used to, and they'll agree to do odd jobs for me when I call."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 26,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "The sort that a pack of bloodthirsty ghouls might be good at.\n\nUse your imagination."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 28,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Very good. And tell him that I'm looking forward to working with him."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 30,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Well, then, we are at an impasse. Because I won't continue to feed these monsters for free.\n\nOur previous deal was brokered by your dear departed Monika. And without wanting to sound indelicate, it died with her."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 32,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "To keep them fed indefinitely, you mean?\n\n{{GM}}There is a long pause.{{/GM}}\n\nIt won't be cheap. But maybe we can work something out."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 33,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "In light of my desire to foster a good working relationship with you, and the ghouls' past service to the Kreuzbasar, I suppose that I could continue feeding them for... oh, say...\n\n{{GM}}Another pause, punctuated by a soft tutting sound.{{/GM}}"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 34,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "...a thousand nuyen? Paid up front, here and now, via the commlink's input port."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 35,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "All right. Six hundred, but no less."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 36,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Oh? And what sort of solution were you thinking of?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 38,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Oh? And what sort of arrangement were you thinking of?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 39,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Well, that's tough for them.\n\nI'm sorry, but this is *my* material that we're talking about. If they want to keep getting it, they need to provide something of value to *me.* And as you well know, they have nothing else of value to provide."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 40,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "You've heard my offer. They can do what I tell them to, or they can find their food somewhere else. It doesn't matter to me either way."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 41,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Good. So will you convey my message to their leader? I think that my offer is more than fair."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 42,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "\"Indefinitely\" is a long time, my friend.\n\n{{GM}}There is a long pause.{{/GM}}\n\nBut maybe we can work something out."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 43,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "In light of my desire to foster a good working relationship with you, and the ghouls' past service to the Kreuzbasar, I suppose that I could continue feeding them for... oh, say...\n\n{{GM}}Another pause, punctuated by a soft tutting sound.{{/GM}}"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 44,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "...a thousand nuyen? Paid up front, here and now, via the commlink's input port."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 45,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "All right. Six hundred, but no less."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 46,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Oh? And what sort of solution were you thinking of?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 48,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Very well... everything seems to be in order...\n\nYes. Very nice."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 49,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Thank you, $(l.name). You can tell our friends that their feedings will resume within the next day or two."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 50,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "And you."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 51,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "On that count, you have nothing to worry about.\n\nGood day."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 52,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Oh? And what sort of arrangement were you thinking of?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 54,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "{{GM}}Ezkibel's voice goes ice cold.{{/GM}}\n\nIt's never a good idea to threaten your doctor, $(l.name). You never know what might happen the next time you're lying on the operating table."
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 55,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "Ah... yes. There is that.\n\n{{GM}}There is a long pause. Finally, you hear a sigh. When Ezkibel speaks again, his voice heavy with resignation.{{/GM}}"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 56,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "{{GM}}There is a brief pause.{{/GM}}\n\nWho the hell is this?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 58,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "What? Who the hell is this? And how did you get on this line?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 59,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "$(l.name)?\n\n{{GM}}Ezkibel tries to hide the surprise in his voice. He doesn't do a very good job.{{/GM}}\n\nWhat... a pleasant surprise! I was wondering when I'd have the good fortune to meet you!"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 60,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "{{GM}}There is a brief pause.{{/GM}}\n\nWho the hell is this?"
+    },
+    {
+     "c": "52b2266f346238601800433d",
+     "n": 61,
+     "cn": "a2_Sewer_s1-EzkibelCall",
+     "t": "$(l.name)?\n\n{{GM}}Ezkibel tries to hide the surprise in his voice. He doesn't do a very good job.{{/GM}}\n\nWhat a pleasant surprise! I was wondering when I'd have the good fortune to meet you!\n\nIf you don't mind me asking... what are you doing on this line?"
     }
    ],
    "portraitFile": "dragonfall/npc_elfmale_docxabier.png"
@@ -53460,317 +53761,6 @@
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_parsons.png"
-  },
-  {
-   "id": "name_drexabierezkibel",
-   "name": "Dr. Exabier Ezkibel",
-   "portrait": "NPC_ElfMale_DocXabier",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 2,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "If you're calling me to beg again, you might as well hang up now. \n\nI've been bled by you people for too long now. There are plenty of chop shops and organleggers out there who'd pay *good* money for--"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 4,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "$(l.name)?\n\n{{GM}}Ezkibel tries to hide the surprise in his voice. He doesn't do a very good job.{{/GM}}\n\nWhat... what are you doing on this line, my friend?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 5,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "I don't know what those things have told you, $(l.name), but they are *not* customers. They've never paid me a *thing* for my services, and--"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 6,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Well, yes, but I don't know why it's *my* responsibility to pay them for--"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 8,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Contracts don't last forever. And you'll forgive me for saying so, $(l.name), but I can see no good reason to continue honoring this one."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 9,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "My clinic is a business, not a charity. I'm not giving your new friends any more bio-material unless they pay me for it."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 10,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "{{GM}}His tone is incredulous.{{/GM}}\n\nDo that, and you'll be getting your ghoul friends killed! The Mettbachs will storm down there with their arsenal and wipe them out!"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 11,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "{{GM}}There is a pause. When he speaks again, his tone is guarded.{{/GM}}\n\nWhat do you mean by that?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 12,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "This whole plan was *your* friend's idea. Your sainted Monika--"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 13,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "There is a long pause. Finally, you hear a sigh.",
-     "y": 6
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 14,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Tell your friends that I've changed my mind. Their feedings will resume directly, at no additional cost.\n\n{{GM}}There is a click as he disconnects the line.{{/GM}}"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 15,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "That... that could be acceptable.\n\nIt won't be cheap, mind you. But I'm open to the offer."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 16,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "What I know is that I'm not doing this for free any more. Period."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 17,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Yes, for *the Kreuzbasar.* Not for *me.*\n\nWhy should *I* continue to give them valuable material for free when--"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 18,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "But... if you agree with me, why did you call?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 19,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Look, $(l.name). I don't know what those things have told you, but I am *well within* my rights to charge for that material. They've never paid me a *thing* for my services, and--"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 20,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Well, yes. Yes, it is.\n\n...So if you agree with me, why did you call?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 22,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "{{GM}}There is a short pause, then he replies in a bemused voice.{{/GM}}\n\nAll right, you've piqued my curiosity. I'm not an unreasonable man.\n\nSo go ahead. Make your pitch."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 23,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "What, like the barter system? I don't think so... I can't imagine that a bunch of sewer-dwelling monsters would have much of value to trade."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 24,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Hm. That's an interesting suggestion.\n\n{{GM}}The line goes quiet for a moment.{{/GM}}\n\nI might be able to work with that."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 25,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "I'll tell you what. You tell their leader that I'll continue feeding them.\n\nIn return, they'll keep the sewers maintained, like they used to, and they'll agree to do odd jobs for me when I call."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 26,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "The sort that a pack of bloodthirsty ghouls might be good at.\n\nUse your imagination."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 28,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Very good. And tell him that I'm looking forward to working with him."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 30,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Well, then, we are at an impasse. Because I won't continue to feed these monsters for free.\n\nOur previous deal was brokered by your dear departed Monika. And without wanting to sound indelicate, it died with her."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 32,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "To keep them fed indefinitely, you mean?\n\n{{GM}}There is a long pause.{{/GM}}\n\nIt won't be cheap. But maybe we can work something out."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 33,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "In light of my desire to foster a good working relationship with you, and the ghouls' past service to the Kreuzbasar, I suppose that I could continue feeding them for... oh, say...\n\n{{GM}}Another pause, punctuated by a soft tutting sound.{{/GM}}"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 34,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "...a thousand nuyen? Paid up front, here and now, via the commlink's input port."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 35,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "All right. Six hundred, but no less."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 36,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Oh? And what sort of solution were you thinking of?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 38,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Oh? And what sort of arrangement were you thinking of?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 39,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Well, that's tough for them.\n\nI'm sorry, but this is *my* material that we're talking about. If they want to keep getting it, they need to provide something of value to *me.* And as you well know, they have nothing else of value to provide."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 40,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "You've heard my offer. They can do what I tell them to, or they can find their food somewhere else. It doesn't matter to me either way."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 41,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Good. So will you convey my message to their leader? I think that my offer is more than fair."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 42,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "\"Indefinitely\" is a long time, my friend.\n\n{{GM}}There is a long pause.{{/GM}}\n\nBut maybe we can work something out."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 43,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "In light of my desire to foster a good working relationship with you, and the ghouls' past service to the Kreuzbasar, I suppose that I could continue feeding them for... oh, say...\n\n{{GM}}Another pause, punctuated by a soft tutting sound.{{/GM}}"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 44,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "...a thousand nuyen? Paid up front, here and now, via the commlink's input port."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 45,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "All right. Six hundred, but no less."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 46,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Oh? And what sort of solution were you thinking of?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 48,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Very well... everything seems to be in order...\n\nYes. Very nice."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 49,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Thank you, $(l.name). You can tell our friends that their feedings will resume within the next day or two."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 50,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "And you."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 51,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "On that count, you have nothing to worry about.\n\nGood day."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 52,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Oh? And what sort of arrangement were you thinking of?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 54,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "{{GM}}Ezkibel's voice goes ice cold.{{/GM}}\n\nIt's never a good idea to threaten your doctor, $(l.name). You never know what might happen the next time you're lying on the operating table."
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 55,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "Ah... yes. There is that.\n\n{{GM}}There is a long pause. Finally, you hear a sigh. When Ezkibel speaks again, his voice heavy with resignation.{{/GM}}"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 56,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "{{GM}}There is a brief pause.{{/GM}}\n\nWho the hell is this?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 58,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "What? Who the hell is this? And how did you get on this line?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 59,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "$(l.name)?\n\n{{GM}}Ezkibel tries to hide the surprise in his voice. He doesn't do a very good job.{{/GM}}\n\nWhat... a pleasant surprise! I was wondering when I'd have the good fortune to meet you!"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 60,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "{{GM}}There is a brief pause.{{/GM}}\n\nWho the hell is this?"
-    },
-    {
-     "c": "52b2266f346238601800433d",
-     "n": 61,
-     "cn": "a2_Sewer_s1-EzkibelCall",
-     "t": "$(l.name)?\n\n{{GM}}Ezkibel tries to hide the surprise in his voice. He doesn't do a very good job.{{/GM}}\n\nWhat a pleasant surprise! I was wondering when I'd have the good fortune to meet you!\n\nIf you don't mind me asking... what are you doing on this line?"
-    }
-   ],
-   "portraitFile": "dragonfall/npc_elfmale_docxabier.png"
   },
   {
    "id": "name_mira",

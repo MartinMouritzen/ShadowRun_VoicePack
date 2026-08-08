@@ -139,3 +139,40 @@ def resolve_speaker_vars(t, speaker_name, gender=None):
     s = re.sub(r'\$\(s\.him\)', him, s)
     s = re.sub(r'\$\(s\.(his|hisher)\)', his, s)
     return s
+
+# ---------------------------------------------------------------- long-line beats
+# A take you cannot audition is a take you cannot fix. A 600-character line is a 45-second clip:
+# checking it means sitting through the whole thing, and changing one sentence means regenerating
+# and re-listening to all of it. Splitting on the author's own paragraph breaks makes each beat
+# separately auditionable, regeneratable and payable-for, and the pack stitches them back together
+# so the game still hears one continuous line.
+#
+# NOTE: lab/spoken.py carries the same rule under bark_segments(), for the barks the lab produces
+# itself. The two must stay in step; they are duplicated because this repo is standalone and must
+# not import the private lab.
+SEG_MAX = 400          # chars; above this a paragraph is broken further, at sentence ends
+# Deliberately conservative: an ellipsis is NOT a sentence end, because this prose trails off
+# constantly and cutting there strands a fragment starting mid-thought. The next sentence must
+# also start like one (capital, digit, quote or bracket).
+_SENTENCE_END = re.compile(r"""(?<!\.\.)(?<=[.!?])["'”’]?\s+(?=["“'(\[A-Z0-9])""")
+
+def beats(text, maxlen=SEG_MAX):
+    """The beats a line is generated in. One element means it stays whole."""
+    out = []
+    for para in re.split(r"\n\s*\n+", text or ""):
+        para = re.sub(r"\s+", " ", para).strip()
+        if not para:
+            continue
+        if len(para) <= maxlen:
+            out.append(para)
+            continue
+        cur = ""
+        for sentence in _SENTENCE_END.split(para):
+            if cur and len(cur) + 1 + len(sentence) > maxlen:
+                out.append(cur)
+                cur = sentence
+            else:
+                cur = f"{cur} {sentence}".strip()
+        if cur:
+            out.append(cur)
+    return out

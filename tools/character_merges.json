@@ -5,6 +5,11 @@
    "from": "name_phil",
    "to": "name_philiprex",
    "reason": "a2_abandonedlab_s1 has props 'Phil', 'Philip Rex' and 'Flashback Phil 2/3/4' -- all the same man, Philip Rex, whom the lab dialogue calls Phil. Six lines in Lab_PC_RecordsRoom stayed under the short name once the owner fix moved the other 109 to Philip Rex."
+  },
+  {
+   "from": "name_drexabierezkibel",
+   "to": "name_drxabierezkibel",
+   "reason": "One man, spelled two ways by the game itself: the scene prop is 'Dr. Xabier Ezkibel' in convo 527028b86636614822004e81 and 'Dr. Exabier Ezkibel' in 52b2266f346238601800433d. Same Basque name with a stray leading E, the same way the data spells Blitz 'Bltiz' elsewhere. Both were cast as Mortimer Nocturne so nothing already generated changes voice; the merge stops him appearing in the lab as two people and being re-cast apart later."
   }
  ],
  "hk": [

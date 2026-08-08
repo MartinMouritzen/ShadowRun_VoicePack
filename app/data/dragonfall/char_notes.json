@@ -1973,53 +1973,6 @@
    }
   ]
  },
- "name_drexabierezkibel": {
-  "bio": "Dr. Exabier Ezkibel is a bitter Basque elf physician running a black clinic, squeezed dry by criminal clients who take his vat-grown organs without paying.",
-  "direction": "Prickly, defensive, and exhausted with a Spanish-inflected bite; indignation that keeps cracking into weary self-pity.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_686",
-    "name": "Terry Dobson",
-    "why": "Eccentric, husky-voiced Northerner with odd takes, sharp instincts, and charming contradic"
-   },
-   {
-    "voice_id": "mag_534",
-    "name": "Old Pip Quickroot",
-    "why": "A high-pitched, raspy British gnome voice with sharp comedic timing and surprising emotion"
-   },
-   {
-    "voice_id": "mag_519",
-    "name": "Basil Thornecroft",
-    "why": "Deep, cultured baritone laced with sharp cynicism and dry wit. This voice cuts through pre"
-   },
-   {
-    "voice_id": "mag_523",
-    "name": "Viremont LeNoir",
-    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
-   },
-   {
-    "voice_id": "mag_174",
-    "name": "Aidan Doyle",
-    "why": "Rich, engaging 30-year-old Irish male voice with a distinct accent, perfect for narrations"
-   },
-   {
-    "voice_id": "mag_26",
-    "name": "Austin Lane",
-    "why": "Middle-aged British male voice with a laid-back, velvety quality. Perfect for a relaxed, l"
-   },
-   {
-    "voice_id": "mag_319",
-    "name": "Benjamin Walker",
-    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
-   },
-   {
-    "voice_id": "mag_840",
-    "name": "Daniel Koh",
-    "why": "A steady, soothing Singaporean voice with effortless clarity, well suited to narration, co"
-   }
-  ]
- },
  "name_mira": {
   "bio": "Mira is a dwarf woman in a squatter community who frets over her girlfriend's dangerous errand against a well-guarded compound.",
   "direction": "Earthy and blunt, worry pushing through a tough practical exterior; snaps defensively when the worry gets pointed out.",
