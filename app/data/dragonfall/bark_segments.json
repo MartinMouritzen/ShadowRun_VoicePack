@@ -1,7 +1,7 @@
 {
  "_fingerprint": {
-  "barks.json": "f04b31348016be9b",
-  "text_edits.json": "b552fb410aa046cb"
+  "barks.json": "f5259af43f1f5ba4",
+  "text_edits.json": "caf82c74c0c3ed9a"
  },
  "beats": {
   "bark_9487139c4f5a251d": [
@@ -126,10 +126,21 @@
    "You continue through dimly lit halls, finally stepping into what appears to be another laboratory area. The corridor before you is deserted.",
    "Dr. Adrian Vauclair is somewhere within this facility… and with him, the answers you seek."
   ],
+  "bark_612321ee397959e6": [
+   "You squeeze through the narrow gap beneath the floor panels and climb down into a large space beneath the lab complex. Darkness surrounds you, and the air smells moldy and stale.",
+   "As your eyes slowly adjust to the light, you can make out the dim planes of cobweb-covered walls and scattered construction equipment. Judging by the dust and disrepair, this place appears to have been abandoned long ago.",
+   "Meanwhile, somewhere else beneath the Harfeld Manor, Paul Amsel's killer is preparing to wake a dragon and unleash it on an unsuspecting Berlin."
+  ],
   "bark_5303195008f32247": [
    "You exit the clean-room to find yourself at the threshold of a vast underground chamber. If the abandoned facility that you just fought through was purgatory, then you now stand at the gateway to hell. The heat emanating from ahead hits you like a hammer - the smell of sulphur and ozone is enough to make your lunch want to find somewhere to hide.",
    "Above the noise created by the whir of turbines, you can hear the deep rumble of something feral waking up. Something very, very big.",
    "You check your weapons and step into the vast chamber."
+  ],
+  "bark_321cdf2d4fe542da": [
+   "Kreuzberg. Home to nearly a half a million people and, until very recently, Monika Schäfer. Once a melting pot of cultural diversity, it's now a chaotic mess of wealth and poverty, crime and commerce, anarchy and control. It's also home to your own little slice of Berlin, a neighborhood that locals call \"the Kreuzbasar\" - a safe port in the eye of a storm.",
+   "The ride back to the Kreuzbasar is quiet. No one is in a talking mood. As the van veers past potholes and garbage piles, the glare of streetlights and neon signs plays across your window, painting the world in a kaleidoscope of garish colors.",
+   "Soon, the van rounds a corner and skids to a halt in a narrow, crumbling alley. This is as far as Berlin's chaotic streets will take you. Your team wordlessly debarks the vehicle and climbs down into a disused section of the U-Bahn tunnel system - a well-kept secret, providing your team safe passage into the Kreuzbasar.",
+   "Your safehouse waits on the other side."
   ],
   "bark_639e49e7e966e266": [
    "The tiny credstick feels heavy in your pocket, fat with the weight of hard-won nuyen. The U-bahn station swallows you up and sends you hurtling down the rabbit hole. Towards Alice. Towards the information you’ve bled for.",
@@ -274,6 +285,7 @@
   ]
  },
  "aliases": {
+  "bark_79dba94c24310564": "bark_63dd2c80d477b6f5",
   "bark_61d53def7c396c45~g0": "bark_bd03acf6ff28e139~g0",
   "bark_61d53def7c396c45~g1": "bark_bd03acf6ff28e139~g1",
   "bark_61d53def7c396c45~g2": "bark_bd03acf6ff28e139~g2",

@@ -63,6 +63,7 @@ takes, picks = J("takes.json", {}), J("picks.json", {})
 segov = J("seg_overrides.json", {})
 bark_picks = J("bark_picks.json", {})
 bark_over = J("bark_overrides.json", {})
+char_by_name = {c["name"]: c["id"] for c in (chars.get("characters") or [])}
 aliases = (J("dupes.json", {}).get("aliases") or {})
 official = set(J("official_keys.json", []))
 fmt = gcfg.get("textFormat") or "quotes"
@@ -102,13 +103,54 @@ def bark_jobs(speaker_query):
             # split - the MKVI's system messages are a machine and its reactions are Blitz. It was
             # not consulted here at all, so every bark took the speaker's voice regardless.
             voice = (({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice else None)
-                     or bark_over.get(key) or bark_over.get(sk)
-                     or segov.get(sk) or bark_picks.get(sp_name) or picks.get("narrator"))
+                     or bark_over.get(key) or bark_over.get(sk) or segov.get(sk)
+                     or bark_picks.get(sp_name)
+                     # A bark speaker is a NAME; when a character of that name exists, the bark is
+                     # that character talking and belongs in their voice. Without this the fallback
+                     # was the narrator, so Blitz's combat barks would have been read by Matt.
+                     or picks.get(char_by_name.get(sp_name, ""))
+                     or picks.get("narrator"))
             if not voice:
                 print(f"  WARN: no voice for bark speaker '{sp_name}'", file=sys.stderr)
                 break
             out.append({"charId": "_barks", "lineKey": sk, "text": text,
                         "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
+    return out
+
+# Inspect one-liners are a third surface, alongside dialogue and barks: the floating GM text the
+# game shows when you examine a prop. They live in inspect.json keyed insp_<md5 of the raw
+# inspectText>, are stored in the narrator's take bucket, and the plugin hashes the runtime string
+# to find them. Nothing generated them - the lab has no inspect page and this driver had no path -
+# so all 74 of Dragonfall's sat silent while every audit called the game fully voiced, because an
+# audit that walks characters[] cannot see a surface that is not in characters[].
+INSPECT_ID = "_inspect"
+
+def inspect_jobs():
+    insp = J("inspect.json", {})
+    done = takes.get("narrator") or {}
+    voice = picks.get("narrator")
+    out = []
+    for key, entry in insp.items():
+        if not a.redo and (done.get(key) or {}).get("takes"):
+            continue
+        raw = entry.get("spoken") if isinstance(entry, dict) else entry
+        text = spoken.effective_text(key, raw, edits, directed)
+        text = re.sub(r"\s+", " ", text or "").strip()
+        if not text or not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text), re.UNICODE):
+            continue
+        # A template variable here is not a name we can resolve: scene.CafeSpecial is re-set eight
+        # times as you play (caramel soykaf, apple pie chai, Wyrm-Rock energy cola...). One clip
+        # cannot be right for all of them, and speaking the wrong drink over the on-screen text is
+        # worse than silence, so leave it unvoiced rather than guess.
+        if re.search(r"\$\+*\(", text):
+            print(f"  SKIP {key}: unresolved variable — {text[:60]}", file=sys.stderr)
+            continue
+        v = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
+             else segov.get(key) or voice)
+        if not v:
+            print("  WARN: no narrator voice for inspect lines", file=sys.stderr); break
+        out.append({"charId": "narrator", "lineKey": key, "text": text,
+                    "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
     return out
 
 # Some packs keep the narrator as a top-level object rather than a cast entry (the Shadowrun
@@ -121,10 +163,13 @@ if isinstance(_n, dict) and not any(c.get("id") == "narrator" for c in cast):
                     "lines": _n.get("lines") or []})
 by_id = {c["id"]: c for c in cast}
 jobs = []
-wanted = [x for x in a.chars.split(",") if not x.startswith(BARK_PREFIX)]
+wanted = [x for x in a.chars.split(",")
+          if not x.startswith(BARK_PREFIX) and x != INSPECT_ID]
 for spec in a.chars.split(","):
     if spec.startswith(BARK_PREFIX):
         jobs += bark_jobs(spec[len(BARK_PREFIX):])
+    elif spec == INSPECT_ID:
+        jobs += inspect_jobs()
 for cid in wanted:
     if cid not in by_id:
         print(f"  WARN: no character '{cid}'", file=sys.stderr)

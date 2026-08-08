@@ -2,5 +2,45 @@
  "MKVI Cyberzombie": {
   "voiceId": "sapi_zira",
   "voiceName": "Microsoft Zira (SAPI)"
+ },
+ "Security Guard": {
+  "voiceId": "mag_35",
+  "voiceName": "Grant Walker"
+ },
+ "Magnifiker Mage": {
+  "voiceId": "mag_517",
+  "voiceName": "Darian Voss"
+ },
+ "Goon Boss": {
+  "voiceId": "mag_544",
+  "voiceName": "Jack Riker"
+ },
+ "Goon": {
+  "voiceId": "mag_533",
+  "voiceName": "Zeke Rivers"
+ },
+ "Elf Dancer": {
+  "voiceId": "mag_165",
+  "voiceName": "Lila Winters"
+ },
+ "Knight Errant Rigger": {
+  "voiceId": "mag_269",
+  "voiceName": "Logan Christopher"
+ },
+ "Kiez Enforcer": {
+  "voiceId": "mag_260",
+  "voiceName": "Theodore William"
+ },
+ "Busy Man": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks"
+ },
+ "Unknown": {
+  "voiceId": "mag_27",
+  "voiceName": "Ethan Brooks"
+ },
+ "Automated Drone": {
+  "voiceId": "sapi_zira",
+  "voiceName": "Microsoft Zira (SAPI)"
  }
 }

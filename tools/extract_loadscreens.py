@@ -39,6 +39,36 @@ def fields(b):
             else: return
         except IndexError: return
 
+# Two Dragonfall scenes do not store their narration inline: the synopsis is the single token
+# "$(story.Global_HavenLoadingScreen)" and the game substitutes the story variable before drawing
+# the screen. The plugin hashes the RAW synopsis (SceneLoader.sceneDef.scene_synopsis), so the key
+# must still come from the token - but the words to speak are the variable's value. Without this
+# the narrator reads the variable name aloud over the Kreuzbasar loading screen.
+STORY_REF = __import__("re").compile(r"^\$\(story\.([A-Za-z0-9_]+)\)$")
+_blobs = None
+def resolve_story_ref(name):
+    """The longest string literal assigned to a story variable, across every pack blob."""
+    global _blobs
+    if _blobs is None:
+        _blobs = [open(f, 'rb').read()
+                  for f in glob.glob(os.path.join(SR, "**", "*.bytes"), recursive=True)]
+    import re as _re
+    tgt, best = name.encode(), b""
+    for b in _blobs:
+        for m in _re.finditer(_re.escape(tgt), b):
+            i = m.end()
+            if i >= len(b) or b[i] != 0x12:            # the assignment's value field
+                continue
+            try:
+                _, j = rv(b, i + 1)
+                if j < len(b) and b[j] == 0x22:        # length-delimited string
+                    n, k = rv(b, j + 1)
+                    if 20 < n < 8000 and len(b[k:k + n]) > len(best):
+                        best = b[k:k + n]
+            except IndexError:
+                pass
+    return best.decode('utf-8', 'replace').strip()
+
 found = {}
 for p in PACKS:
     for sf in sorted(glob.glob(os.path.join(SR, p, "data/scenes/*.srt.bytes"))):
@@ -52,7 +82,14 @@ for p in PACKS:
             except Exception: pass
         if not syn or not syn.strip(): continue
         syn = syn.strip()
-        key = "bark_" + hashlib.md5(syn.encode('utf-8')).hexdigest()[:16]
+        key = "bark_" + hashlib.md5(syn.encode('utf-8')).hexdigest()[:16]   # keyed on the RAW token
+        ref = STORY_REF.match(syn)
+        if ref:
+            val = resolve_story_ref(ref.group(1))
+            if val:
+                syn = val
+            else:
+                print(f"  WARN: {syn} has no resolvable value — left as the raw token", file=sys.stderr)
         scene = os.path.basename(sf).split('.')[0]
         if key in found: found[key]["scenes"].append(scene)
         else: found[key] = {"text": syn, "speaker": "Narrator", "sheetId": None, "archetype": None,
