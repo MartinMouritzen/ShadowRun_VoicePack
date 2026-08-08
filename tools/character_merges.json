@@ -10,6 +10,11 @@
    "from": "name_drexabierezkibel",
    "to": "name_drxabierezkibel",
    "reason": "One man, spelled two ways by the game itself: the scene prop is 'Dr. Xabier Ezkibel' in convo 527028b86636614822004e81 and 'Dr. Exabier Ezkibel' in 52b2266f346238601800433d. Same Basque name with a stray leading E, the same way the data spells Blitz 'Bltiz' elsewhere. Both were cast as Mortimer Nocturne so nothing already generated changes voice; the merge stops him appearing in the lab as two people and being re-cast apart later."
+  },
+  {
+   "from": "name_adrianvauclair",
+   "to": "name_vauclair",
+   "reason": "One man. Adrian Vauclair's 29 lines are all inside Green Winters' recordings convo (5266f911663661b825003110), where he opens 'Hermie... I think we've found her. Feuerschwinge... I knew that she wasn't dead!' - Vauclair twenty years before you meet him, talking to his brother. Leaving them split gives the same character two voices: Walter Hansen in person with 390 takes, Benjamin Parker in the recordings."
   }
  ],
  "hk": [

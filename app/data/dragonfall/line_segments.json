@@ -18155,16 +18155,6 @@
    "t": "That's pretty vile, boss."
   }
  ],
- "527abf9e636134b83400302e_69": [
-  {
-   "who": "char",
-   "t": ">>>>>[Whoa. Scary stuff, man.]<<<<< - Big Pharma <13:55:20/09-12-38> >>>>>[Well, the goal of the APEX project was even scarier. IC waits for you to come to it. APEX wouldn't be bound by those restrictions. It could go out hunting, hit its targets when they least expected it."
-  },
-  {
-   "who": "char",
-   "t": "That's why they called it APEX... it was designed to be the apex predator of the digital world.]<<<<< - Clockwork <13:58:11/09-12-38>"
-  }
- ],
  "527abf9e636134b83400302e_110": [
   {
    "who": "gm",
@@ -18247,24 +18237,14 @@
    "t": "This will provide them with access to the building's surveillance camera feeds and control over the main service elevator."
   }
  ],
- "527abf9e636134b83400302e_439": [
-  {
-   "who": "char",
-   "t": ">>>>>[It's a gakking matrix predator! I saw it just a couple of hours ago! I was poking through a datastore with Clockwork, and it came outta nowhere. It was like... I dunno, like a shark made out of bands of light! It flew straight through Clock, and it slotting swallowed him whole!"
-  },
-  {
-   "who": "char",
-   "t": "I yanked my own datajack cable, and I've been throwing up from dumpshock ever since.]<<<<< - Ruby <02:55:11/11-17-54>"
-  }
- ],
  "527abf9e636134b83400302e_485": [
   {
    "who": "char",
-   "t": ">>>>>[Scheisse, what a thrill. Had to do a simple data steal on a S-K branch office, turned into an O.K. Corral shootout. Never seen first response team arrive that fast in my life! Had a decker off site running damage control, managed to distract the second team to a different building while we jacked the car the first team came in."
+   "t": "[Scheisse, what a thrill. Had to do a simple data steal on a S-K branch office, turned into an O.K. Corral shootout. Never seen first response team arrive that fast in my life! Had a decker off site running damage control, managed to distract the second team to a different building while we jacked the car the first team came in."
   },
   {
    "who": "char",
-   "t": "Lesson learned, “simple” when it comes to S-K means something else.]<<<<< - Maelstrom <20:40:15/11-14-54>"
+   "t": "Lesson learned, “simple” when it comes to S-K means something else.] - Maelstrom 20:40:15/11-14-54"
   }
  ],
  "53e93d9b323437c03d003e5c_14": [
@@ -20713,6 +20693,212 @@
   {
    "who": "char",
    "t": "Don't worry about me, I won't be keeling over anytime today. Now read up so that we can move on to talking about solutions."
+  }
+ ],
+ "5266f911663661b825003110_3": [
+  {
+   "who": "char",
+   "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!"
+  },
+  {
+   "who": "gm",
+   "t": "His speech is jittery. You can hear the urgency in his voice."
+  },
+  {
+   "who": "char",
+   "t": "She survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
+  }
+ ],
+ "5266f911663661b825003110_5": [
+  {
+   "who": "gm",
+   "t": "The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide."
+  },
+  {
+   "who": "char",
+   "t": "...Taking a team into the SOX to retrieve her, the radiation be damned. We will take appropriate precautions, of course, but we must go! Hermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
+  }
+ ],
+ "5266f911663661b825003110_6": [
+  {
+   "who": "gm",
+   "t": "The screen explodes into static again, then clears. The figure flickers across the screen."
+  },
+  {
+   "who": "char",
+   "t": "...May not be back for some time. Look after mom, okay? I worry about her. And Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
+  }
+ ],
+ "5266f911663661b825003110_89": [
+  {
+   "who": "char",
+   "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!"
+  },
+  {
+   "who": "gm",
+   "t": "His speech is jittery. You can hear the urgency in his voice."
+  },
+  {
+   "who": "char",
+   "t": "She survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
+  }
+ ],
+ "5266f911663661b825003110_91": [
+  {
+   "who": "gm",
+   "t": "The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide."
+  },
+  {
+   "who": "char",
+   "t": "...Taking a team into the SOX to retrieve her, the radiation be damned. We will use appropriate precautions, but we must go! Hermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
+  }
+ ],
+ "5266f911663661b825003110_92": [
+  {
+   "who": "gm",
+   "t": "The screen explodes into static again, then clears. The figure flickers across the screen."
+  },
+  {
+   "who": "char",
+   "t": "...May not be back for some time. Look after mom, okay? I worry about her. And Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
+  }
+ ],
+ "5266f911663661b825003110_191": [
+  {
+   "who": "gm",
+   "t": "Vauclair looks haggard. His eyes are heavily bagged and bloodshot, and his hair is mussed. He holds a cigarette in an unsteady hand."
+  },
+  {
+   "who": "char",
+   "t": "Hermie. It's me. I can't sleep."
+  }
+ ],
+ "5266f911663661b825003110_192": [
+  {
+   "who": "char",
+   "t": "I don't know where you are... out having fun, no doubt. Maybe flirting with one of those unattainable beauties that you're always chasing."
+  },
+  {
+   "who": "gm",
+   "t": "He tries on a smile, but it quickly disappears. He takes a drag on his cigarette."
+  },
+  {
+   "who": "char",
+   "t": "That's good. I want you to live a pleasant, normal life. After all, one of us should."
+  }
+ ],
+ "5266f911663661b825003110_193": [
+  {
+   "who": "gm",
+   "t": "Vauclair rubs his eyes."
+  },
+  {
+   "who": "char",
+   "t": "I... I can still smell the smoke, Hermie. It's almost a year later, and I can still taste the stench of burning corpses. When I sleep, I can hear the sirens and the screams. There is no sound in this world as horrible as a burn victim's screams."
+  }
+ ],
+ "5266f911663661b825003110_194": [
+  {
+   "who": "char",
+   "t": "The doctors would call this PTSD, I'm sure. They'd have me in therapy... maybe dose me up on SSRIs, like they do to our veteran soldiers."
+  },
+  {
+   "who": "gm",
+   "t": "He chuckles, then takes another drag."
+  },
+  {
+   "who": "char",
+   "t": "Quite a story for the tabloids... the great dragonslayer, Adrian Vauclair, mentally incapable of wrestling with his own demons."
+  }
+ ],
+ "5266f911663661b825003110_195": [
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "No. No therapy for me, and certainly no medication. I have a reputation to live up to... however poorly deserved it is, and however little I want it."
+  }
+ ],
+ "5266f911663661b825003110_196": [
+  {
+   "who": "gm",
+   "t": "He pauses. Stubs out his cigarette."
+  },
+  {
+   "who": "char",
+   "t": "The dragon is still alive, Hermie. Of that, I am certain. One day, I will find her. And then, perhaps, I'll be able to sleep through the night."
+  }
+ ],
+ "5266f911663661b825003110_258": [
+  {
+   "who": "gm",
+   "t": "There is a camera cut, and you find yourself looking at a young, handsome Dr. Adrian Vauclair. He wears a slight smile on his face."
+  },
+  {
+   "who": "char",
+   "t": "Oh. They're talking, are they? What a terrible shame."
+  }
+ ],
+ "5266f911663661b825003110_264": [
+  {
+   "who": "gm",
+   "t": "Vauclair's voice is quiet. Soft."
+  },
+  {
+   "who": "char",
+   "t": "Such is the cry of the cancer patient, unaware of what's killing him. \"I'm fine, not to worry! I'll smoke another cigarette, what's the harm?\" He doesn't see what's happening. But he winds up dead, all the same."
+  }
+ ],
+ "5266f911663661b825003110_266": [
+  {
+   "who": "gm",
+   "t": "Vauclair shakes his head. His smile has disappeared."
+  },
+  {
+   "who": "char",
+   "t": "You mark my words, Hermie. Within five years, corporations... even *countries*... will fall to these creatures. And the worst part is, nobody will care."
+  }
+ ],
+ "5266f911663661b825003110_269": [
+  {
+   "who": "gm",
+   "t": "Vauclair talks over his brother's interruption."
+  },
+  {
+   "who": "char",
+   "t": "We could solve the problem, of course. But we, as a species, are unwilling to invest our energy into problems that aren't staring us right in the face. As it was with climate change, so it is with dragons. I've accepted that. But you can't ask me to stop caring about it."
+  }
+ ],
+ "5266f911663661b825003110_271": [
+  {
+   "who": "gm",
+   "t": "Vauclair sighs. He looks incredibly tired."
+  },
+  {
+   "who": "char",
+   "t": "Yes, Hermie. You're right, of course... I mustn't jeopardize my credibility with the masses."
+  }
+ ],
+ "5266f911663661b825003110_273": [
+  {
+   "who": "gm",
+   "t": "Vauclair's tone softens again."
+  },
+  {
+   "who": "char",
+   "t": "Hermie, I--"
+  }
+ ],
+ "5266f911663661b825003110_275": [
+  {
+   "who": "gm",
+   "t": "Vauclair nods, then looks away from the screen."
+  },
+  {
+   "who": "char",
+   "t": "All right, Hermie. I'll try."
   }
  ],
  "522a1c5c30303174140018d7_4": [
@@ -40606,7 +40792,7 @@
  "53594e5c303031b40a000145_1": [
   {
    "who": "char",
-   "t": "<Marta. We welcome you back to our domain, child.>"
+   "t": "Marta. We welcome you back to our domain, child."
   },
   {
    "who": "gm",
@@ -40614,13 +40800,13 @@
   },
   {
    "who": "char",
-   "t": "<You will remain silent until you are addressed. Do you understand?>"
+   "t": "You will remain silent until you are addressed. Do you understand?"
   }
  ],
  "53594e5c303031b40a000145_3": [
   {
    "who": "char",
-   "t": "<Good.>"
+   "t": "Good."
   },
   {
    "who": "gm",
@@ -40630,7 +40816,7 @@
  "53594e5c303031b40a000145_6": [
   {
    "who": "char",
-   "t": "<Glory. Welcome, child.>"
+   "t": "Glory. Welcome, child."
   },
   {
    "who": "gm",
@@ -40638,7 +40824,7 @@
   },
   {
    "who": "char",
-   "t": "<What a pleasure it is to see you again.>"
+   "t": "What a pleasure it is to see you again."
   }
  ],
  "53594e5c303031b40a000145_10": [
@@ -40648,7 +40834,7 @@
   },
   {
    "who": "char",
-   "t": "<We are not in need of help. We are our Great Master's servant, just as Harrow is. Just as you are, despite your misguided attempt to cut away His love from your heart.>"
+   "t": "We are not in need of help. We are our Great Master's servant, just as Harrow is. Just as you are, despite your misguided attempt to cut away His love from your heart."
   }
  ],
  "53594e5c303031b40a000145_11": [
@@ -40658,13 +40844,13 @@
   },
   {
    "who": "char",
-   "t": "<You have mangled yourself beyond repair, and you did it to spite Him. He, who was your greatest benefactor... you betrayed Him, child. But He loves you, all the same.>"
+   "t": "You have mangled yourself beyond repair, and you did it to spite Him. He, who was your greatest benefactor... you betrayed Him, child. But He loves you, all the same."
   }
  ],
  "53594e5c303031b40a000145_13": [
   {
    "who": "char",
-   "t": "<Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.>"
+   "t": "Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth."
   },
   {
    "who": "gm",
@@ -40672,7 +40858,7 @@
   },
   {
    "who": "char",
-   "t": "<If the noise continues, we will educate them, and the babble will cease.>"
+   "t": "If the noise continues, we will educate them, and the babble will cease."
   }
  ],
  "53594e5c303031b40a000145_18": [
@@ -40682,7 +40868,7 @@
   },
   {
    "who": "char",
-   "t": "<This will cost you nothing. A simple gesture, a trifle... a show of good faith. If you demonstrate your love for Him, He will reward you beyond your wildest dreams. Remove the protective ward from your neck, and His gift is yours for the taking. Yours forevermore.>"
+   "t": "This will cost you nothing. A simple gesture, a trifle... a show of good faith. If you demonstrate your love for Him, He will reward you beyond your wildest dreams. Remove the protective ward from your neck, and His gift is yours for the taking. Yours forevermore."
   }
  ],
  "53594e5c303031b40a000145_19": [
@@ -40692,7 +40878,7 @@
   },
   {
    "who": "char",
-   "t": "<All that He requires of you is a show of good faith. Remove the protective ward from your neck, and His gift is yours for the taking. Yours forevermore.>"
+   "t": "All that He requires of you is a show of good faith. Remove the protective ward from your neck, and His gift is yours for the taking. Yours forevermore."
   }
  ],
  "53594e5c303031b40a000145_23": [
@@ -40702,7 +40888,7 @@
   },
   {
    "who": "char",
-   "t": "<If you rebuke our Great Master a second time, I will chew what's left of you into mulch. The marrow from your bones will nourish the garden. I promise you this, child. I promise it.>"
+   "t": "If you rebuke our Great Master a second time, I will chew what's left of you into mulch. The marrow from your bones will nourish the garden. I promise you this, child. I promise it."
   }
  ],
  "53594e5c303031b40a000145_26": [
@@ -40712,7 +40898,7 @@
   },
   {
    "who": "char",
-   "t": "<Very well, child. If pain is what you seek, we will bring it to you.>"
+   "t": "Very well, child. If pain is what you seek, we will bring it to you."
   },
   {
    "who": "gm",
@@ -40722,7 +40908,7 @@
  "53594e5c303031b40a000145_28": [
   {
    "who": "char",
-   "t": "<DEATH COMES IN MANY FORMS, CHILD.>"
+   "t": "DEATH COMES IN MANY FORMS, CHILD."
   },
   {
    "who": "gm",
@@ -40730,7 +40916,7 @@
   },
   {
    "who": "char",
-   "t": "<YOURS WILL BE SWIFT AND BRUTAL.>"
+   "t": "YOURS WILL BE SWIFT AND BRUTAL."
   }
  ],
  "53594e5c303031b40a000145_38": [
@@ -40740,7 +40926,7 @@
   },
   {
    "who": "char",
-   "t": "<If you rebuke our Great Master a second time, I will chew what's left of you into mulch. The marrow from your bones will nourish the garden. I promise you this, child. I promise it.>"
+   "t": "If you rebuke our Great Master a second time, I will chew what's left of you into mulch. The marrow from your bones will nourish the garden. I promise you this, child. I promise it."
   }
  ],
  "53594e5c303031b40a000145_39": [
@@ -40750,7 +40936,7 @@
   },
   {
    "who": "char",
-   "t": "<Your friend will remain here, I think. With me. I can find all manner of uses for such a succulent morsel.>"
+   "t": "Your friend will remain here, I think. With me. I can find all manner of uses for such a succulent morsel."
   }
  ],
  "53594e5c303031b40a000145_40": [
@@ -40760,13 +40946,13 @@
   },
   {
    "who": "char",
-   "t": "<Prosper or perish - the choice is yours. Embrace His love and have all of your wishes granted, or turn away from it and be destroyed.>"
+   "t": "Prosper or perish - the choice is yours. Embrace His love and have all of your wishes granted, or turn away from it and be destroyed."
   }
  ],
  "53594e5c303031b40a000145_49": [
   {
    "who": "char",
-   "t": "<Your friend - this outsider - slanders our Great Master. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.>"
+   "t": "Your friend - this outsider - slanders our Great Master. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth."
   },
   {
    "who": "gm",
@@ -40774,13 +40960,13 @@
   },
   {
    "who": "char",
-   "t": "<If the noise continues, we will teach them, and the babble will cease.>"
+   "t": "If the noise continues, we will teach them, and the babble will cease."
   }
  ],
  "53594e5c303031b40a000145_51": [
   {
    "who": "char",
-   "t": "<Your friend - this outsider - speaks out of turn. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth.>"
+   "t": "Your friend - this outsider - speaks out of turn. But we take no offense. Their words are like the babble of a newborn babe. They are ignorant of the truth."
   },
   {
    "who": "gm",
@@ -40788,7 +40974,7 @@
   },
   {
    "who": "char",
-   "t": "<If the noise continues, we will teach them, and the babble will cease.>"
+   "t": "If the noise continues, we will teach them, and the babble will cease."
   }
  ],
  "53594e5c303031b40a000145_54": [
@@ -40798,7 +40984,7 @@
   },
   {
    "who": "char",
-   "t": "<We knew why you had come, child. When you mutilated yourself - when you *cut away* your connection to Him - all became clear to us. We knew that one day you'd be back, and that you would lash out against our Great Master. It was inevitable.>"
+   "t": "We knew why you had come, child. When you mutilated yourself - when you *cut away* your connection to Him - all became clear to us. We knew that one day you'd be back, and that you would lash out against our Great Master. It was inevitable."
   }
  ],
  "5359caba3030316403004de3_11": [
@@ -40808,7 +40994,7 @@
   },
   {
    "who": "char",
-   "t": "<What... what has happened to us? What have we done?>"
+   "t": "What... what has happened to us? What have we done?"
   }
  ],
  "5359caba3030316403004de3_15": [
@@ -40824,13 +41010,13 @@
   },
   {
    "who": "char",
-   "t": "<Yes. We will help you.>"
+   "t": "Yes. We will help you."
   }
  ],
  "5359caba3030316403004de3_19": [
   {
    "who": "char",
-   "t": "<We have already done so. The cultists of Feuerstelle are themselves again.>"
+   "t": "We have already done so. The cultists of Feuerstelle are themselves again."
   },
   {
    "who": "gm",
@@ -40838,13 +41024,13 @@
   },
   {
    "who": "char",
-   "t": "<We... we wish to do more. We have much to atone for, as you said.>"
+   "t": "We... we wish to do more. We have much to atone for, as you said."
   }
  ],
  "5359caba3030316403004de3_23": [
   {
    "who": "char",
-   "t": "<We need an appropriate vessel to carry us out of the rock. Something touched by magic, but more dead than alive.>"
+   "t": "We need an appropriate vessel to carry us out of the rock. Something touched by magic, but more dead than alive."
   },
   {
    "who": "gm",
@@ -40852,7 +41038,7 @@
   },
   {
    "who": "char",
-   "t": "<Do you have anything that can help us?>"
+   "t": "Do you have anything that can help us?"
   }
  ],
  "5359caba3030316403004de3_28": [
@@ -40868,7 +41054,7 @@
   },
   {
    "who": "char",
-   "t": "<We have withdrawn ourselves from the minds of the people here. They are themselves again.>"
+   "t": "We have withdrawn ourselves from the minds of the people here. They are themselves again."
   }
  ],
  "5359caba3030316403004de3_42": [
@@ -40878,7 +41064,7 @@
   },
   {
    "who": "char",
-   "t": "<Wait! We... we wish to do more. We have much to atone for, as you said.>"
+   "t": "Wait! We... we wish to do more. We have much to atone for, as you said."
   }
  ],
  "538d1793303031a8080076fc_2": [
@@ -40888,7 +41074,7 @@
   },
   {
    "who": "char",
-   "t": "<Glory. Oh, my poor, dear *child.* First, your mother. Now, your lover. And no one to blame but yourself.>"
+   "t": "Glory. Oh, my poor, dear *child.* First, your mother. Now, your lover. And no one to blame but yourself."
   }
  ],
  "538d1793303031a8080076fc_4": [
@@ -40898,7 +41084,7 @@
   },
   {
    "who": "char",
-   "t": "<Your suffering has only just begun. We will grind your body to dust.>"
+   "t": "Your suffering has only just begun. We will grind your body to dust."
   },
   {
    "who": "gm",
@@ -40908,7 +41094,7 @@
  "538d1793303031a8080076fc_6": [
   {
    "who": "char",
-   "t": "<DEATH COMES IN MANY FORMS, CHILD.>"
+   "t": "DEATH COMES IN MANY FORMS, CHILD."
   },
   {
    "who": "gm",
@@ -40916,7 +41102,7 @@
   },
   {
    "who": "char",
-   "t": "<YOURS WILL BE SWIFT AND BRUTAL.>"
+   "t": "YOURS WILL BE SWIFT AND BRUTAL."
   }
  ],
  "5234a9dd3030310c120041c6_0": [
@@ -42247,212 +42433,6 @@
   {
    "who": "gm",
    "t": "Dante lifts his head and looks up at you mournfully. The feral aggression is gone from his eyes. He’s changed - you can see it - but he’s still Dante."
-  }
- ],
- "5266f911663661b825003110_3": [
-  {
-   "who": "char",
-   "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!"
-  },
-  {
-   "who": "gm",
-   "t": "His speech is jittery. You can hear the urgency in his voice."
-  },
-  {
-   "who": "char",
-   "t": "She survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
-  }
- ],
- "5266f911663661b825003110_5": [
-  {
-   "who": "gm",
-   "t": "The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide."
-  },
-  {
-   "who": "char",
-   "t": "...Taking a team into the SOX to retrieve her, the radiation be damned. We will take appropriate precautions, of course, but we must go! Hermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
-  }
- ],
- "5266f911663661b825003110_6": [
-  {
-   "who": "gm",
-   "t": "The screen explodes into static again, then clears. The figure flickers across the screen."
-  },
-  {
-   "who": "char",
-   "t": "...May not be back for some time. Look after mom, okay? I worry about her. And Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
-  }
- ],
- "5266f911663661b825003110_89": [
-  {
-   "who": "char",
-   "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!"
-  },
-  {
-   "who": "gm",
-   "t": "His speech is jittery. You can hear the urgency in his voice."
-  },
-  {
-   "who": "char",
-   "t": "She survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
-  }
- ],
- "5266f911663661b825003110_91": [
-  {
-   "who": "gm",
-   "t": "The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide."
-  },
-  {
-   "who": "char",
-   "t": "...Taking a team into the SOX to retrieve her, the radiation be damned. We will use appropriate precautions, but we must go! Hermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
-  }
- ],
- "5266f911663661b825003110_92": [
-  {
-   "who": "gm",
-   "t": "The screen explodes into static again, then clears. The figure flickers across the screen."
-  },
-  {
-   "who": "char",
-   "t": "...May not be back for some time. Look after mom, okay? I worry about her. And Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
-  }
- ],
- "5266f911663661b825003110_191": [
-  {
-   "who": "gm",
-   "t": "Vauclair looks haggard. His eyes are heavily bagged and bloodshot, and his hair is mussed. He holds a cigarette in an unsteady hand."
-  },
-  {
-   "who": "char",
-   "t": "Hermie. It's me. I can't sleep."
-  }
- ],
- "5266f911663661b825003110_192": [
-  {
-   "who": "char",
-   "t": "I don't know where you are... out having fun, no doubt. Maybe flirting with one of those unattainable beauties that you're always chasing."
-  },
-  {
-   "who": "gm",
-   "t": "He tries on a smile, but it quickly disappears. He takes a drag on his cigarette."
-  },
-  {
-   "who": "char",
-   "t": "That's good. I want you to live a pleasant, normal life. After all, one of us should."
-  }
- ],
- "5266f911663661b825003110_193": [
-  {
-   "who": "gm",
-   "t": "Vauclair rubs his eyes."
-  },
-  {
-   "who": "char",
-   "t": "I... I can still smell the smoke, Hermie. It's almost a year later, and I can still taste the stench of burning corpses. When I sleep, I can hear the sirens and the screams. There is no sound in this world as horrible as a burn victim's screams."
-  }
- ],
- "5266f911663661b825003110_194": [
-  {
-   "who": "char",
-   "t": "The doctors would call this PTSD, I'm sure. They'd have me in therapy... maybe dose me up on SSRIs, like they do to our veteran soldiers."
-  },
-  {
-   "who": "gm",
-   "t": "He chuckles, then takes another drag."
-  },
-  {
-   "who": "char",
-   "t": "Quite a story for the tabloids... the great dragonslayer, Adrian Vauclair, mentally incapable of wrestling with his own demons."
-  }
- ],
- "5266f911663661b825003110_195": [
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "No. No therapy for me, and certainly no medication. I have a reputation to live up to... however poorly deserved it is, and however little I want it."
-  }
- ],
- "5266f911663661b825003110_196": [
-  {
-   "who": "gm",
-   "t": "He pauses. Stubs out his cigarette."
-  },
-  {
-   "who": "char",
-   "t": "The dragon is still alive, Hermie. Of that, I am certain. One day, I will find her. And then, perhaps, I'll be able to sleep through the night."
-  }
- ],
- "5266f911663661b825003110_258": [
-  {
-   "who": "gm",
-   "t": "There is a camera cut, and you find yourself looking at a young, handsome Dr. Adrian Vauclair. He wears a slight smile on his face."
-  },
-  {
-   "who": "char",
-   "t": "Oh. They're talking, are they? What a terrible shame."
-  }
- ],
- "5266f911663661b825003110_264": [
-  {
-   "who": "gm",
-   "t": "Vauclair's voice is quiet. Soft."
-  },
-  {
-   "who": "char",
-   "t": "Such is the cry of the cancer patient, unaware of what's killing him. \"I'm fine, not to worry! I'll smoke another cigarette, what's the harm?\" He doesn't see what's happening. But he winds up dead, all the same."
-  }
- ],
- "5266f911663661b825003110_266": [
-  {
-   "who": "gm",
-   "t": "Vauclair shakes his head. His smile has disappeared."
-  },
-  {
-   "who": "char",
-   "t": "You mark my words, Hermie. Within five years, corporations... even *countries*... will fall to these creatures. And the worst part is, nobody will care."
-  }
- ],
- "5266f911663661b825003110_269": [
-  {
-   "who": "gm",
-   "t": "Vauclair talks over his brother's interruption."
-  },
-  {
-   "who": "char",
-   "t": "We could solve the problem, of course. But we, as a species, are unwilling to invest our energy into problems that aren't staring us right in the face. As it was with climate change, so it is with dragons. I've accepted that. But you can't ask me to stop caring about it."
-  }
- ],
- "5266f911663661b825003110_271": [
-  {
-   "who": "gm",
-   "t": "Vauclair sighs. He looks incredibly tired."
-  },
-  {
-   "who": "char",
-   "t": "Yes, Hermie. You're right, of course... I mustn't jeopardize my credibility with the masses."
-  }
- ],
- "5266f911663661b825003110_273": [
-  {
-   "who": "gm",
-   "t": "Vauclair's tone softens again."
-  },
-  {
-   "who": "char",
-   "t": "Hermie, I--"
-  }
- ],
- "5266f911663661b825003110_275": [
-  {
-   "who": "gm",
-   "t": "Vauclair nods, then looks away from the screen."
-  },
-  {
-   "who": "char",
-   "t": "All right, Hermie. I'll try."
   }
  ],
  "528676ab626164981e004f2a_1": [
@@ -45346,7 +45326,7 @@
   },
   {
    "who": "char",
-   "t": "<I... you will help... keep safe. Lodge-men bastards... no give harm. We... together go. Outside Berlin. Your people... out as well.>"
+   "t": "I... you will help... keep safe. Lodge-men bastards... no give harm. We... together go. Outside Berlin. Your people... out as well."
   }
  ],
  "53e2c232303031081d007ffa_32": [
@@ -47590,7 +47570,7 @@
   },
   {
    "who": "char",
-   "t": ">>Time since last update: 52:07:11:05:22. >>ERROR: Primary Database not found. Restarting in offline mode. >>Restarting..."
+   "t": "Time since last update: 52:07:11:05:22. ERROR: Primary Database not found. Restarting in offline mode. Restarting..."
   }
  ],
  "52af8984663661f820000fd9_2": [
@@ -47622,7 +47602,7 @@
  "52af8984663661f820000fd9_11": [
   {
    "who": "char",
-   "t": ">>WELCOME, ADMIN USER. CUSTOM PROCESS INITIATED."
+   "t": "WELCOME, ADMIN USER. CUSTOM PROCESS INITIATED."
   },
   {
    "who": "gm",
@@ -47806,7 +47786,7 @@
  "529bb0d6303031a012001068_10": [
   {
    "who": "char",
-   "t": ">>>EXPLOSIVES ARMED"
+   "t": "EXPLOSIVES ARMED"
   },
   {
    "who": "gm",
@@ -47872,7 +47852,7 @@
   },
   {
    "who": "char",
-   "t": ">>>#ERROR | 4ac43bc6 | >>>Primary security offline >>>#ERROR! Excess doors are floodlights please engage LTG your designated air duct. >>>Admin Access Granted! Press Any Key to Continue."
+   "t": "#ERROR | 4ac43bc6 | Primary security offline #ERROR! Excess doors are floodlights please engage LTG your designated air duct. Admin Access Granted! Press Any Key to Continue."
   }
  ],
  "52d3674b323437281e004b53_11": [
@@ -47956,7 +47936,7 @@
   },
   {
    "who": "char",
-   "t": ">>>#ERROR | 4ac43bc6 | >>>Primary security offline >>>#ERROR! Excess doors are floodlights please engage LTG your designated air duct. >>>Admin Access Granted! Press Any Key to Continue."
+   "t": "#ERROR | 4ac43bc6 | Primary security offline #ERROR! Excess doors are floodlights please engage LTG your designated air duct. Admin Access Granted! Press Any Key to Continue."
   }
  ],
  "536a763a303031d404004926_1": [
@@ -48272,7 +48252,7 @@
  "526988a33030319808003954_2": [
   {
    "who": "char",
-   "t": ">>>Operations Account Information Downloaded"
+   "t": "Operations Account Information Downloaded"
   },
   {
    "who": "gm",
@@ -48330,7 +48310,7 @@
   },
   {
    "who": "char",
-   "t": ">>>#ERROR 4ac43bc6 >>>Primary security is a late evacuation lab access level >>>Please contact four six six auxiliary air ducts for your notice primary turret controls >>>Please East stairwell..."
+   "t": "#ERROR 4ac43bc6 Primary security is a late evacuation lab access level Please contact four six six auxiliary air ducts for your notice primary turret controls Please East stairwell..."
   }
  ],
  "527ab4d8303031100800167f_0": [
@@ -48340,7 +48320,7 @@
   },
   {
    "who": "char",
-   "t": ">>>#ERROR 4ac43bc6 >>>Primary security offline >>>Reset override or contact your System Adminstrator"
+   "t": "#ERROR 4ac43bc6 Primary security offline Reset override or contact your System Adminstrator"
   }
  ],
  "52c73744626164982c004bf7_2": [
@@ -48350,7 +48330,7 @@
   },
   {
    "who": "char",
-   "t": ">>>>>Schockwellenreiter Contributor #1432 recognized. Welcome."
+   "t": "Schockwellenreiter Contributor #1432 recognized. Welcome."
   }
  ],
  "53ebc364323437ac45005b67_48": [
@@ -48436,7 +48416,7 @@
   },
   {
    "who": "char",
-   "t": "> Patient #291 - Multiple third-degree burns. > Patient #290 - Multiple third-degree burns. > Patient #289 - Multiple second-degree burns. > Patient #288 - Minor chemical burns. > Patient #287 - Multiple third-degree burns."
+   "t": "Patient #291 - Multiple third-degree burns. Patient #290 - Multiple third-degree burns. Patient #289 - Multiple second-degree burns. Patient #288 - Minor chemical burns. Patient #287 - Multiple third-degree burns."
   }
  ],
  "5372bc03636134901900494f_6": [
@@ -48810,7 +48790,7 @@
   },
   {
    "who": "char",
-   "t": ">>>#ERROR | 4ac43bc6 | >>>Primary security offline >>>#ERROR! Excess doors are floodlights please engage LTG your designated air duct."
+   "t": "#ERROR | 4ac43bc6 | Primary security offline #ERROR! Excess doors are floodlights please engage LTG your designated air duct."
   }
  ],
  "529565c1303031c815001312_1": [

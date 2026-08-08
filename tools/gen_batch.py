@@ -61,11 +61,50 @@ segs, edits = J("line_segments.json", {}), J("text_edits.json", {})
 directed, spoken_ov = J("directed.json", {}), J("spoken_overrides.json", {})
 takes, picks = J("takes.json", {}), J("picks.json", {})
 segov = J("seg_overrides.json", {})
+bark_picks = J("bark_picks.json", {})
 aliases = (J("dupes.json", {}).get("aliases") or {})
 official = set(J("official_keys.json", []))
 fmt = gcfg.get("textFormat") or "quotes"
 pad = gcfg.get("lineKeyPad")
 pad = 4 if pad is None else int(pad)
+
+# Barks are not lines: load screens, epilogues and screen text live in barks.json under a speaker
+# NAME, are split into beats by the lab (bark_segments.json), and are stored in the "_barks" take
+# bucket. Nothing about the cast walk below can see them, which is how 83 load-screen beats and
+# the entire 24-beat epilogue sat unvoiced while the narrator was reported as finished. Ask for
+# them with the pseudo-id "_barks:<Speaker Name>", e.g. _barks:Narrator.
+BARK_PREFIX = "_barks:"
+
+def bark_jobs(speaker_query):
+    barks = J("barks.json", {})
+    doc = J("bark_segments.json", {})
+    beats, aliases = doc.get("beats") or {}, doc.get("aliases") or {}
+    bt = takes.get("_barks") or {}
+    want = speaker_query.lower()
+    out = []
+    for key, b in barks.items():
+        sp_name = (b.get("speaker") or "")
+        if b.get("nonverbal") or not sp_name.lower().startswith(want):
+            continue
+        keys = [f"{key}~g{i}" for i in range(len(beats[key]))] if key in beats else [key]
+        texts = beats.get(key) or [b.get("text") or ""]
+        for sk, raw in zip(keys, texts):
+            if aliases.get(sk):                      # the same words voiced under another key
+                continue
+            if not a.redo and (bt.get(sk) or {}).get("takes"):
+                continue
+            text = edits.get(sk) if edits.get(sk) is not None else raw
+            text = re.sub(r"\s+", " ", text or "").strip()
+            if not text or not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text)):
+                continue
+            voice = (({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice else None)
+                     or segov.get(sk) or bark_picks.get(sp_name) or picks.get("narrator"))
+            if not voice:
+                print(f"  WARN: no voice for bark speaker '{sp_name}'", file=sys.stderr)
+                break
+            out.append({"charId": "_barks", "lineKey": sk, "text": text,
+                        "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
+    return out
 
 # Some packs keep the narrator as a top-level object rather than a cast entry (the Shadowrun
 # extractors do), so a plain characters[] lookup cannot see them at all - and the narrator is the
@@ -77,7 +116,10 @@ if isinstance(_n, dict) and not any(c.get("id") == "narrator" for c in cast):
                     "lines": _n.get("lines") or []})
 by_id = {c["id"]: c for c in cast}
 jobs = []
-wanted = a.chars.split(",")
+wanted = [x for x in a.chars.split(",") if not x.startswith(BARK_PREFIX)]
+for spec in a.chars.split(","):
+    if spec.startswith(BARK_PREFIX):
+        jobs += bark_jobs(spec[len(BARK_PREFIX):])
 for cid in wanted:
     if cid not in by_id:
         print(f"  WARN: no character '{cid}'", file=sys.stderr)

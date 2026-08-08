@@ -30213,6 +30213,180 @@
      "n": 100,
      "cn": "a3_Endgame_AltEnding_s1-VCConvo",
      "t": "{{GM}}He shoots you an irritable glance.{{/GM}}\n\nDon't worry about me, I won't be keeling over anytime today. Now read up so that we can move on to talking about solutions."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 3,
+     "cn": "Haven-Global_DVD",
+     "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!\n\n{{GM}}His speech is jittery. You can hear the urgency in his voice.{{/GM}}\n\nShe survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 5,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide.{{/GM}}\n\n...Taking a team into the SOX to retrieve her, the radiation be damned. We will take appropriate precautions, of course, but we must go!\n\nHermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 6,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}The screen explodes into static again, then clears. The figure flickers across the screen.{{/GM}}\n\n...May not be back for some time. Look after mom, okay? I worry about her.\n\nAnd Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 7,
+     "cn": "Haven-Global_DVD",
+     "t": "Student protests, civil uprising... you'll be in the middle of it, I'm sure. Just stay safe, all right? And I'll do my best to do the same.\n\nI don't know what's going to happen when I step into the SOX. But I do know one thing... if the Firewing is still a danger, I *will* put an end to her. Once and for all."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 89,
+     "cn": "Haven-Global_DVD",
+     "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!\n\n{{GM}}His speech is jittery. You can hear the urgency in his voice.{{/GM}}\n\nShe survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 91,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide.{{/GM}}\n\n...Taking a team into the SOX to retrieve her, the radiation be damned. We will use appropriate precautions, but we must go!\n\nHermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 92,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}The screen explodes into static again, then clears. The figure flickers across the screen.{{/GM}}\n\n...May not be back for some time. Look after mom, okay? I worry about her.\n\nAnd Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 93,
+     "cn": "Haven-Global_DVD",
+     "t": "Student protests, civil uprising... you'll be in the middle of it, I'm sure. Just stay safe, all right? And I'll do my best to do the same.\n\nI don't know what's going to happen when I step into the SOX. But I do know one thing... if the Firewing is still a danger, I *will* put an end to her. Once and for all."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 191,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair looks haggard. His eyes are heavily bagged and bloodshot, and his hair is mussed. He holds a cigarette in an unsteady hand.{{/GM}}\n\nHermie. It's me.\n\nI can't sleep."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 192,
+     "cn": "Haven-Global_DVD",
+     "t": "I don't know where you are... out having fun, no doubt. Maybe flirting with one of those unattainable beauties that you're always chasing.\n\n{{GM}}He tries on a smile, but it quickly disappears. He takes a drag on his cigarette.{{/GM}}\n\nThat's good. I want you to live a pleasant, normal life. After all, one of us should."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 193,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair rubs his eyes.{{/GM}}\n\nI... I can still smell the smoke, Hermie. It's almost a year later, and I can still taste the stench of burning corpses.\n\nWhen I sleep, I can hear the sirens and the screams. There is no sound in this world as horrible as a burn victim's screams."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 194,
+     "cn": "Haven-Global_DVD",
+     "t": "The doctors would call this PTSD, I'm sure. They'd have me in therapy... maybe dose me up on SSRIs, like they do to our veteran soldiers.\n\n{{GM}}He chuckles, then takes another drag.{{/GM}}\n\nQuite a story for the tabloids... the great dragonslayer, Adrian Vauclair, mentally incapable of wrestling with his own demons."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 195,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}He shakes his head.{{/GM}}\n\nNo. No therapy for me, and certainly no medication.\n\nI have a reputation to live up to... however poorly deserved it is, and however little I want it.\n"
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 196,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}He pauses. Stubs out his cigarette.{{/GM}}\n\nThe dragon is still alive, Hermie. Of that, I am certain.\n\nOne day, I will find her. And then, perhaps, I'll be able to sleep through the night."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 232,
+     "cn": "Haven-Global_DVD",
+     "t": "Killing the monster has proven difficult, to say the least. \n\nHer speed and maneuverability in the air are extraordinary, her scales repel small arms fire, and her breath can melt steel."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 233,
+     "cn": "Haven-Global_DVD",
+     "t": "Our R&D teams have been working around the clock to devise a weapon capable of downing the beast. \n\nIn the interim, we are providing material support for the Luftwaffe's attempts to shoot her down via conventional means."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 235,
+     "cn": "Haven-Global_DVD",
+     "t": "Corporate interests? No. This is a matter of human interest.\n\nInnocent lives are being extinguished at an appalling rate. I am in a position to help put an end to the slaughter, and so I must. \n\nIt really is that simple."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 237,
+     "cn": "Haven-Global_DVD",
+     "t": "I'm afraid that I don't have time to go back and forth on this. Your viewers can think whatever they wish; my concern is in helping the people affected by this tragedy."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 239,
+     "cn": "Haven-Global_DVD",
+     "t": "You're very welcome. \n\nTo the viewers at home, stay safe and watch the skies. \n\nSalvation is coming - I promise."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 258,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}There is a camera cut, and you find yourself looking at a young, handsome Dr. Adrian Vauclair. He wears a slight smile on his face.{{/GM}}\n\nOh. They're talking, are they? What a terrible shame."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 260,
+     "cn": "Haven-Global_DVD",
+     "t": "Hermie. My theories are not, as you call them, \"fairy tales.\"\n\nDragons are *real.* I saved Germany from one. Have you forgotten?"
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 262,
+     "cn": "Haven-Global_DVD",
+     "t": "Stopped. Not killed."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 264,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair's voice is quiet. Soft.{{/GM}}\n\nSuch is the cry of the cancer patient, unaware of what's killing him. \"I'm fine, not to worry! I'll smoke another cigarette, what's the harm?\"\n\nHe doesn't see what's happening. But he winds up dead, all the same."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 266,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair shakes his head. His smile has disappeared.{{/GM}}\n\nYou mark my words, Hermie. Within five years, corporations... even *countries*... will fall to these creatures. And the worst part is, nobody will care."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 267,
+     "cn": "Haven-Global_DVD",
+     "t": "Oh, people will tut-tut about it. There may be a protest or two. But nobody will actually *do* anything to stop them.\n\nThe immortal, all-powerful, utterly pitiless reptiles will seize more and more of our power, wealth, and territory.\n\nAnd we foolish, short-sighted mortals will never get it back."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 269,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair talks over his brother's interruption.{{/GM}}\n\nWe could solve the problem, of course. But we, as a species, are unwilling to invest our energy into problems that aren't staring us right in the face.\n\nAs it was with climate change, so it is with dragons. I've accepted that. But you can't ask me to stop caring about it."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 271,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair sighs. He looks incredibly tired.{{/GM}}\n\nYes, Hermie. You're right, of course... I mustn't jeopardize my credibility with the masses."
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 273,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair's tone softens again.{{/GM}}\n\nHermie, I--"
+    },
+    {
+     "c": "5266f911663661b825003110",
+     "n": 275,
+     "cn": "Haven-Global_DVD",
+     "t": "{{GM}}Vauclair nods, then looks away from the screen.{{/GM}}\n\nAll right, Hermie. I'll try."
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_vauclair.png"
@@ -57563,190 +57737,6 @@
     }
    ],
    "portraitFile": "dragonfall/npc_dog_dante.png"
-  },
-  {
-   "id": "name_adrianvauclair",
-   "name": "Adrian Vauclair",
-   "portrait": "NPC_HumanMale_Vauclair50",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "5266f911663661b825003110",
-     "n": 3,
-     "cn": "Haven-Global_DVD",
-     "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!\n\n{{GM}}His speech is jittery. You can hear the urgency in his voice.{{/GM}}\n\nShe survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 5,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide.{{/GM}}\n\n...Taking a team into the SOX to retrieve her, the radiation be damned. We will take appropriate precautions, of course, but we must go!\n\nHermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 6,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}The screen explodes into static again, then clears. The figure flickers across the screen.{{/GM}}\n\n...May not be back for some time. Look after mom, okay? I worry about her.\n\nAnd Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 7,
-     "cn": "Haven-Global_DVD",
-     "t": "Student protests, civil uprising... you'll be in the middle of it, I'm sure. Just stay safe, all right? And I'll do my best to do the same.\n\nI don't know what's going to happen when I step into the SOX. But I do know one thing... if the Firewing is still a danger, I *will* put an end to her. Once and for all."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 89,
-     "cn": "Haven-Global_DVD",
-     "t": "Hermie... I think we've found her. After all this time. Feuerschwinge... I knew that she wasn't dead!\n\n{{GM}}His speech is jittery. You can hear the urgency in his voice.{{/GM}}\n\nShe survived the Dragonfall. Just as I've always said. I knew it, and I was *right!*"
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 91,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}The screen clears, and the excited face is closer to the screen than it was before. The words spill out of him in a breathless tide.{{/GM}}\n\n...Taking a team into the SOX to retrieve her, the radiation be damned. We will use appropriate precautions, but we must go!\n\nHermie... I think that the body may be nearby as well. Somehow, it - *she* - has survived, for all of this time..."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 92,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}The screen explodes into static again, then clears. The figure flickers across the screen.{{/GM}}\n\n...May not be back for some time. Look after mom, okay? I worry about her.\n\nAnd Hermie... stay safe out there. I know that things are heating up in Berlin, and I know you."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 93,
-     "cn": "Haven-Global_DVD",
-     "t": "Student protests, civil uprising... you'll be in the middle of it, I'm sure. Just stay safe, all right? And I'll do my best to do the same.\n\nI don't know what's going to happen when I step into the SOX. But I do know one thing... if the Firewing is still a danger, I *will* put an end to her. Once and for all."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 191,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair looks haggard. His eyes are heavily bagged and bloodshot, and his hair is mussed. He holds a cigarette in an unsteady hand.{{/GM}}\n\nHermie. It's me.\n\nI can't sleep."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 192,
-     "cn": "Haven-Global_DVD",
-     "t": "I don't know where you are... out having fun, no doubt. Maybe flirting with one of those unattainable beauties that you're always chasing.\n\n{{GM}}He tries on a smile, but it quickly disappears. He takes a drag on his cigarette.{{/GM}}\n\nThat's good. I want you to live a pleasant, normal life. After all, one of us should."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 193,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair rubs his eyes.{{/GM}}\n\nI... I can still smell the smoke, Hermie. It's almost a year later, and I can still taste the stench of burning corpses.\n\nWhen I sleep, I can hear the sirens and the screams. There is no sound in this world as horrible as a burn victim's screams."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 194,
-     "cn": "Haven-Global_DVD",
-     "t": "The doctors would call this PTSD, I'm sure. They'd have me in therapy... maybe dose me up on SSRIs, like they do to our veteran soldiers.\n\n{{GM}}He chuckles, then takes another drag.{{/GM}}\n\nQuite a story for the tabloids... the great dragonslayer, Adrian Vauclair, mentally incapable of wrestling with his own demons."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 195,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}He shakes his head.{{/GM}}\n\nNo. No therapy for me, and certainly no medication.\n\nI have a reputation to live up to... however poorly deserved it is, and however little I want it.\n"
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 196,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}He pauses. Stubs out his cigarette.{{/GM}}\n\nThe dragon is still alive, Hermie. Of that, I am certain.\n\nOne day, I will find her. And then, perhaps, I'll be able to sleep through the night."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 232,
-     "cn": "Haven-Global_DVD",
-     "t": "Killing the monster has proven difficult, to say the least. \n\nHer speed and maneuverability in the air are extraordinary, her scales repel small arms fire, and her breath can melt steel."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 233,
-     "cn": "Haven-Global_DVD",
-     "t": "Our R&D teams have been working around the clock to devise a weapon capable of downing the beast. \n\nIn the interim, we are providing material support for the Luftwaffe's attempts to shoot her down via conventional means."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 235,
-     "cn": "Haven-Global_DVD",
-     "t": "Corporate interests? No. This is a matter of human interest.\n\nInnocent lives are being extinguished at an appalling rate. I am in a position to help put an end to the slaughter, and so I must. \n\nIt really is that simple."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 237,
-     "cn": "Haven-Global_DVD",
-     "t": "I'm afraid that I don't have time to go back and forth on this. Your viewers can think whatever they wish; my concern is in helping the people affected by this tragedy."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 239,
-     "cn": "Haven-Global_DVD",
-     "t": "You're very welcome. \n\nTo the viewers at home, stay safe and watch the skies. \n\nSalvation is coming - I promise."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 258,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}There is a camera cut, and you find yourself looking at a young, handsome Dr. Adrian Vauclair. He wears a slight smile on his face.{{/GM}}\n\nOh. They're talking, are they? What a terrible shame."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 260,
-     "cn": "Haven-Global_DVD",
-     "t": "Hermie. My theories are not, as you call them, \"fairy tales.\"\n\nDragons are *real.* I saved Germany from one. Have you forgotten?"
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 262,
-     "cn": "Haven-Global_DVD",
-     "t": "Stopped. Not killed."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 264,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair's voice is quiet. Soft.{{/GM}}\n\nSuch is the cry of the cancer patient, unaware of what's killing him. \"I'm fine, not to worry! I'll smoke another cigarette, what's the harm?\"\n\nHe doesn't see what's happening. But he winds up dead, all the same."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 266,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair shakes his head. His smile has disappeared.{{/GM}}\n\nYou mark my words, Hermie. Within five years, corporations... even *countries*... will fall to these creatures. And the worst part is, nobody will care."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 267,
-     "cn": "Haven-Global_DVD",
-     "t": "Oh, people will tut-tut about it. There may be a protest or two. But nobody will actually *do* anything to stop them.\n\nThe immortal, all-powerful, utterly pitiless reptiles will seize more and more of our power, wealth, and territory.\n\nAnd we foolish, short-sighted mortals will never get it back."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 269,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair talks over his brother's interruption.{{/GM}}\n\nWe could solve the problem, of course. But we, as a species, are unwilling to invest our energy into problems that aren't staring us right in the face.\n\nAs it was with climate change, so it is with dragons. I've accepted that. But you can't ask me to stop caring about it."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 271,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair sighs. He looks incredibly tired.{{/GM}}\n\nYes, Hermie. You're right, of course... I mustn't jeopardize my credibility with the masses."
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 273,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair's tone softens again.{{/GM}}\n\nHermie, I--"
-    },
-    {
-     "c": "5266f911663661b825003110",
-     "n": 275,
-     "cn": "Haven-Global_DVD",
-     "t": "{{GM}}Vauclair nods, then looks away from the screen.{{/GM}}\n\nAll right, Hermie. I'll try."
-    }
-   ],
-   "portraitFile": "dragonfall/npc_humanmale_vauclair50.png"
   },
   {
    "id": "name_franz",

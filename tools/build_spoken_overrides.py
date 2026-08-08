@@ -10,6 +10,7 @@ Hand files: tools/spoken_hand_rewrites.json (dms, legacy name) /
 Unresolved: tools/spoken_unresolved.json (dms) / tools/spoken_unresolved_<game>.json"""
 import json, re, sys, os
 from spoken_rules import mechanical, has_var, they_disagreement
+import re as _re
 
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
 if GAME not in ("dms", "dragonfall", "hk"):
@@ -32,7 +33,10 @@ overrides = {}
 unresolved = []
 def process(cid, cname, lines, is_narrator=False):
     for l in lines:
-        hv = has_var(l['t'])
+        # Angle-bracket speech needs an override for the same reason a variable does: what is
+        # on screen is not what should be spoken, and without an override an unsegmented line
+        # falls through to the raw text and reaches the TTS with the brackets still on it.
+        hv = has_var(l['t']) or _re.search(r'[<>]', l['t'] or '') is not None
         if not hv and (is_narrator or '{{' not in l['t']):
             continue
         key = f"{l['c']}_{l['n']}"

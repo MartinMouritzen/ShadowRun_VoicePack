@@ -116,8 +116,18 @@ def they_disagreement(t, original=None):
                      r"|\bthey['’]s\b"
                      r'|\b(?:is|was|does|has) they\b', t, re.I) is not None
 
+# Angle brackets are formatting, never speech. The game uses <...> for telepathy and spirit voices
+# (the Heart of Feuerstelle speaks entirely in them) and >>...<< for screen text. The provider
+# parses <...> as markup, strips it, and rejects what is left: "Input at position 0 has empty
+# text" - which is how 24 of the Heart's lines failed. They must come off before anything is sent.
+_ANGLE = re.compile(r"[<>]+")
+
+def strip_angles(t):
+    return re.sub(r"\s{2,}", " ", _ANGLE.sub(" ", t or "")).strip()
+
+
 def mechanical(t):
-    s = normalize(t)
+    s = strip_angles(normalize(t))
     # The engine writes the same variables three ways: $(l.name), $+(l.name) and $++(L.NAME) -
     # the plus marks an emphatic substitution and the case follows the surrounding sentence. Every
     # rule below matches a bare lower-case $(var), so a shouted "$++(L.NAME)" slipped through all

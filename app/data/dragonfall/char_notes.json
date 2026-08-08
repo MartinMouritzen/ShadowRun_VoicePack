@@ -2725,53 +2725,6 @@
    }
   ]
  },
- "name_adrianvauclair": {
-  "bio": "Adrian Vauclair is the brilliant scientist behind the Dragonfall, heard here in old recordings to his brother Hermes as his obsession with the dragon Feuerschwinge takes hold.",
-  "direction": "Cultured, warm, and articulate, but running feverish; genuine affection for family shot through with the escalating thrill of a man proving himself right.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_385",
-    "name": "Ethan Fraser",
-    "why": "With a soft and refined Australian accent, this 40-year-old male voice carries warmth and "
-   },
-   {
-    "voice_id": "mag_517",
-    "name": "Darian Voss",
-    "why": "A dark, brooding male voice, ideal for video games with intense, mysterious, or emotionall"
-   },
-   {
-    "voice_id": "mag_286",
-    "name": "Benjamin Parker",
-    "why": "Intense and dynamic, this middle-aged American male voice is perfect for character work. I"
-   },
-   {
-    "voice_id": "mag_351",
-    "name": "Daniel Brooks",
-    "why": "Warm and nostalgic, this voice feels like listening to your grandpa tell bedtime stories b"
-   },
-   {
-    "voice_id": "mag_586",
-    "name": "Dexter Glitch",
-    "why": "A warm, expressive voice tailored for heartfelt oddballs, shy leads, lovable nerds, and so"
-   },
-   {
-    "voice_id": "mag_333",
-    "name": "Matthew Reynolds",
-    "why": "Smooth and sultry, this young American male voice flows like molasses—slow, warm, and capt"
-   },
-   {
-    "voice_id": "mag_276",
-    "name": "Sipho Dlamini",
-    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
-   },
-   {
-    "voice_id": "mag_266",
-    "name": "Aiden Samuel",
-    "why": "Gentle, warm middle-aged American voice, soothing and relaxing. Perfect for all types of n"
-   }
-  ]
- },
  "name_franz": {
   "bio": "A local of the setting.",
   "direction": "Grounded, everyday delivery with a hint of street wariness.",
