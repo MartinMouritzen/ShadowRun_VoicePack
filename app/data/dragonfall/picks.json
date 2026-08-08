@@ -376,16 +376,16 @@
   "voiceName": "Mia Brooks"
  },
  "name_knighterrantguard": {
-  "voiceId": "mag_295",
-  "voiceName": "William Brown"
+  "voiceId": "mag_231",
+  "voiceName": "Thabo Peterson"
  },
  "name_ltgworker": {
   "voiceId": "mag_161",
   "voiceName": "Riley Monroe"
  },
  "name_serverroomguard": {
-  "voiceId": "mag_180",
-  "voiceName": "Noah Rivers"
+  "voiceId": "mag_440",
+  "voiceName": "Liam Hayes"
  },
  "name_controlconsole": {
   "voiceId": "sapi_david",
@@ -408,8 +408,8 @@
   "voiceName": "Malgorn the Hollow"
  },
  "name_humanispropaganda": {
-  "voiceId": "mag_291",
-  "voiceName": "Emma Johnson"
+  "voiceId": "mag_705",
+  "voiceName": "Erinome"
  },
  "name_maleinitiate": {
   "voiceId": "mag_859",
@@ -420,16 +420,16 @@
   "voiceName": "Matt Carson"
  },
  "name_jangoldschmidt": {
-  "voiceId": "mag_535",
-  "voiceName": "Walter Briggs"
+  "voiceId": "mag_708",
+  "voiceName": "Iapetus"
  },
  "name_smuggler": {
   "voiceId": "mag_42",
   "voiceName": "Ryan Fox"
  },
  "name_malevoice": {
-  "voiceId": "mag_297",
-  "voiceName": "Henry Whitaker"
+  "voiceId": "mag_714",
+  "voiceName": "Puck"
  },
  "name_newsanchor": {
   "voiceId": "mag_282",
@@ -448,16 +448,16 @@
   "voiceName": "Zeke Rivers"
  },
  "name_rammbockboss": {
-  "voiceId": "mag_361",
-  "voiceName": "Olivia Roberts"
+  "voiceId": "mag_713",
+  "voiceName": "Pulcherrima"
  },
  "name_note": {
-  "voiceId": "mag_174",
-  "voiceName": "Aidan Doyle"
+  "voiceId": "mag_718",
+  "voiceName": "Schedar"
  },
  "name_speaker": {
-  "voiceId": "mag_795",
-  "voiceName": "Zuri Bennett"
+  "voiceId": "OTMqA7lryJHXgAnPIQYt",
+  "voiceName": "Crazy Eddie"
  },
  "name_militiacaptain": {
   "voiceId": "mag_163",
@@ -468,28 +468,28 @@
   "voiceName": "Alexander Davis"
  },
  "name_securitycaptain": {
-  "voiceId": "mag_178",
-  "voiceName": "Ciaran Walsh"
+  "voiceId": "mag_712",
+  "voiceName": "Orus"
  },
  "name_pumpconsole": {
   "voiceId": "sapi_david",
   "voiceName": "Microsoft David (SAPI)"
  },
  "name_bartender": {
-  "voiceId": "mag_337",
-  "voiceName": "Jackson Cooper"
+  "voiceId": "mag_695",
+  "voiceName": "Achird"
  },
  "name_oldinformationterminal": {
-  "voiceId": "mag_664",
-  "voiceName": "Evelyn Vale"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_oddmerchant": {
   "voiceId": "mag_802",
   "voiceName": "Ada Okafor"
  },
  "name_parkranger": {
-  "voiceId": "mag_177",
-  "voiceName": "Adam Hughes"
+  "voiceId": "mag_702",
+  "voiceName": "Charon"
  },
  "name_shadowfrontindependentnewssource": {
   "voiceId": "mag_264",

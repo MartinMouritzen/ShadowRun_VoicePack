@@ -46,6 +46,120 @@
     }
    ],
    "not_split": "Node 4's \"background count\" and node 7's \"Deep shit\" are quoted terms, not speech. Node 10's \"In trouble,\" is Alder quoting Hansen back to herself in her closing line. Node 20's \"Laughing?\" and \"Like, hyena-laughing?\" are Alder's own questions inside the exchange, and stay hers."
+  },
+  {
+   "char": "name_newsdayworldreport",
+   "prop": "Newsday World Report",
+   "speakers": [
+    {
+     "name": "Jeni Acker",
+     "voiceId": "mag_165",
+     "voiceName": "Lila Winters",
+     "convo": "53b9efb63462385c1b00009a",
+     "nodes": {
+      "3": [
+       "\"It was awful,\"",
+       "\"She swooped down on us, crashing through buildings and vomiting flames. I thought that I was sure to die, but a strange-looking elf used his magic to save me.\""
+      ],
+      "4": [
+       "\"I never even learned his name,\"",
+       "\"He shielded me from harm, and then he was consumed by the flames. His companion, a pale elvish woman, went mad... I don't remember anything after that.\""
+      ]
+     }
+    },
+    {
+     "name": "Saeder-Krupp spokesman",
+     "voiceId": "mag_598",
+     "voiceName": "Tom Spencer",
+     "convo": "53b9efb63462385c1b00009a",
+     "nodes": {
+      "5": [
+       "\"tore through her armor like tinfoil.\""
+      ],
+      "6": [
+       "\"A lot has changed since 2012,\"",
+       "\"Conventional weapons technology is more than capable of bringing down a dragon these days - even one as fearsome as the Firewing. \""
+      ]
+     }
+    },
+    {
+     "name": "WHO spokesperson",
+     "voiceId": "mag_31",
+     "voiceName": "Jake Morrison",
+     "convo": "53b9efb63462385c1b00009a",
+     "nodes": {
+      "10": [
+       "\"The disaster conditions that still plague the city months after Feuerschwinge's second rampage might have contributed to the rapid spread of CSMDS,\"",
+       "\"Much of the city still lacks basic sanitation services, and clean water is difficult to come by. Disaster areas such as Berlin have repeatedly shown themselves to be ideal breeding grounds for disease.\""
+      ]
+     }
+    },
+    {
+     "name": "Sara Álvarez",
+     "voiceId": "mag_613",
+     "voiceName": "Amber Hayes",
+     "convo": "53bae95d636134dc2700035c",
+     "nodes": {
+      "3": [
+       "\"It looks to me like they're hunkering down,\"",
+       "\"preparing themselves for a defensive war. This is unusual for a couple of reasons. \""
+      ],
+      "4": [
+       "\"Short of a global conflict, I can't see what could threaten both Tír na nÓg *and* Tir Tairngire,\"",
+       "\"Maybe the Council of Princes knows something that the rest of us don't. But whatever they're thinking, it's making a lot of people nervous.\""
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "char": "name_shadowfrontindependentnewssource",
+   "prop": "Shadowfront // Independent News Source",
+   "speakers": [
+    {
+     "name": "Albrecht Haushofer",
+     "voiceId": "mag_388",
+     "voiceName": "Michael Brooks",
+     "convo": "53b9efb63462385c1b00009a",
+     "nodes": {
+      "13": [
+       "\"We [metahumans] dodged a bullet this time,\"",
+       "\"The dragons weren't so lucky. We're close to finding a cure, but I'm not sure that we're close enough to save them.\""
+      ],
+      "14": [
+       "\"In a way, this is good for us,\"",
+       "\"It is, of course, tragic that so many dragons are dying so horribly of this disease. But this is the first opportunity we've had to watch a slate-wiper virus at work against an intelligent population. \""
+      ]
+     }
+    },
+    {
+     "name": "Dr. Kristine Martin",
+     "voiceId": "mag_838",
+     "voiceName": "Imogen Hartley",
+     "convo": "53b9efb63462385c1b00009a",
+     "nodes": {
+      "15": [
+       "\"This disease - or a mutant strain of it - could still do to us what it's doing to the dragons. That's why it's imperative that we find a cure quickly. \""
+      ],
+      "16": [
+       "\"I can't give you a definite time line, but I can say that we'll be ready to move into human trials soon.\"",
+       "\"I'll keep you posted,\""
+      ]
+     }
+    },
+    {
+     "name": "President Thomas Steele",
+     "voiceId": "mag_584",
+     "voiceName": "Titan Steele",
+     "convo": "53b9efb63462385c1b00009a",
+     "nodes": {
+      "18": [
+       "\"Hestaby was one of the most magnificent creatures ever to have lived,\"",
+       "\"It is fitting that the Great Dragons of the world should be memorialized in her image.\""
+      ]
+     }
+    }
+   ]
   }
  ]
 }

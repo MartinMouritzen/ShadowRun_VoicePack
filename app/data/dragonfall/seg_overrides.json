@@ -3,6 +3,95 @@
   "voiceId": "0aXOy31Cjamp6gJcyqYu",
   "voiceName": "Matt - Deep Authoritative Narrator"
  },
+ "52697f8830303198080038b0_0": {
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator"
+ },
+ "52322da83531650c0500443b_3": {
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator"
+ },
+ "52699cc1303031bc14001052_2": {
+  "voiceId": "mag_698",
+  "voiceName": "Alnilam"
+ },
+ "52e6ade4303031d011001b76_1": {
+  "voiceId": "mag_698",
+  "voiceName": "Alnilam"
+ },
+ "53decaa6303031f80e007073_1": {
+  "voiceId": "mag_712",
+  "voiceName": "Orus"
+ },
+ "53decaa6303031f80e007073_0": {
+  "voiceId": "mag_712",
+  "voiceName": "Orus"
+ },
+ "53b9efb63462385c1b00009a_3~c1": {
+  "voiceId": "mag_165",
+  "voiceName": "Lila Winters",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_3~c3": {
+  "voiceId": "mag_165",
+  "voiceName": "Lila Winters",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_4~c0": {
+  "voiceId": "mag_165",
+  "voiceName": "Lila Winters",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_4~c2": {
+  "voiceId": "mag_165",
+  "voiceName": "Lila Winters",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_5~c1": {
+  "voiceId": "mag_598",
+  "voiceName": "Tom Spencer",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_6~c0": {
+  "voiceId": "mag_598",
+  "voiceName": "Tom Spencer",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_6~c2": {
+  "voiceId": "mag_598",
+  "voiceName": "Tom Spencer",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_10~c1": {
+  "voiceId": "mag_31",
+  "voiceName": "Jake Morrison",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_10~c3": {
+  "voiceId": "mag_31",
+  "voiceName": "Jake Morrison",
+  "source": "quote-split"
+ },
+ "53bae95d636134dc2700035c_3~c0": {
+  "voiceId": "mag_613",
+  "voiceName": "Amber Hayes",
+  "source": "quote-split"
+ },
+ "53bae95d636134dc2700035c_3~c2": {
+  "voiceId": "mag_613",
+  "voiceName": "Amber Hayes",
+  "source": "quote-split"
+ },
+ "53bae95d636134dc2700035c_4~c0": {
+  "voiceId": "mag_613",
+  "voiceName": "Amber Hayes",
+  "source": "quote-split"
+ },
+ "53bae95d636134dc2700035c_4~c2": {
+  "voiceId": "mag_613",
+  "voiceName": "Amber Hayes",
+  "source": "quote-split"
+ },
  "53bae96f636134dc27000365_2~c1": {
   "voiceId": "mag_388",
   "voiceName": "Michael Brooks",
@@ -56,6 +145,51 @@
  "53bae96f636134dc27000365_24~c3": {
   "voiceId": "mag_231",
   "voiceName": "Thabo Peterson",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_13~c0": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_13~c2": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_14~c0": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_14~c2": {
+  "voiceId": "mag_388",
+  "voiceName": "Michael Brooks",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_15~c1": {
+  "voiceId": "mag_838",
+  "voiceName": "Imogen Hartley",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_16~c1": {
+  "voiceId": "mag_838",
+  "voiceName": "Imogen Hartley",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_16~c2": {
+  "voiceId": "mag_838",
+  "voiceName": "Imogen Hartley",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_18~c1": {
+  "voiceId": "mag_584",
+  "voiceName": "Titan Steele",
+  "source": "quote-split"
+ },
+ "53b9efb63462385c1b00009a_18~c3": {
+  "voiceId": "mag_584",
+  "voiceName": "Titan Steele",
   "source": "quote-split"
  }
 }

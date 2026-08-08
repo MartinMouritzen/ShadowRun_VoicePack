@@ -40,7 +40,9 @@ QSPLIT = {}
 for _e in (jopt(os.path.join(HERE, "quote_splits.json")).get(GAME) or []):
     for _sp in _e.get("speakers", []):
         for _node, _quotes in (_sp.get("nodes") or {}).items():
-            QSPLIT.setdefault((_e["char"], _e["convo"], int(_node)), []).append(
+            # convo can sit on the entry or on the speaker: a news prop holds several articles,
+            # each its own conversation, and one source is only quoted within one of them.
+            QSPLIT.setdefault((_e["char"], _sp.get("convo") or _e.get("convo"), int(_node)), []).append(
                 {"voice": {"voiceId": _sp["voiceId"], "voiceName": _sp["voiceName"]},
                  "quotes": _quotes})
 QUOTE_VOICES = {}          # segKey -> voice, merged into seg_overrides.json at the end

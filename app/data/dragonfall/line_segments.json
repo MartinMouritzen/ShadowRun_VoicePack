@@ -43837,24 +43837,86 @@
    "t": "Return when he is dead."
   }
  ],
- "53b9efb63462385c1b00009a_4": [
+ "53b9efb63462385c1b00009a_3": [
   {
    "who": "char",
-   "t": "\"I never even learned his name,\" she continued. \"He shielded me from harm, and then he was consumed by the flames. His companion, a pale elvish woman, went mad... I don't remember anything after that. Similar sentiments have been pouring in from victims all over the city. Tens of thousands have been confirmed dead; many times that have been wounded."
+   "t": "FEUERSCHWINGE RETURNS, ATTACKS BERLIN 2054-11-22 The Great Dragon Feuerschwinge, believed dead since 2012, returned tonight to launch a surprise attack on the city of Berlin."
   },
   {
    "who": "char",
-   "t": "All across Berlin, fires rage of a magnitude that has not been seen since the Second World War."
+   "t": "\"It was awful,\""
+  },
+  {
+   "who": "char",
+   "t": "said Jeni Acker, a survivor of the attack."
+  },
+  {
+   "who": "char",
+   "t": "\"She swooped down on us, crashing through buildings and vomiting flames. I thought that I was sure to die, but a strange-looking elf used his magic to save me.\""
+  }
+ ],
+ "53b9efb63462385c1b00009a_4": [
+  {
+   "who": "char",
+   "t": "\"I never even learned his name,\""
+  },
+  {
+   "who": "char",
+   "t": "she continued."
+  },
+  {
+   "who": "char",
+   "t": "\"He shielded me from harm, and then he was consumed by the flames. His companion, a pale elvish woman, went mad... I don't remember anything after that.\""
+  },
+  {
+   "who": "char",
+   "t": "Similar sentiments have been pouring in from victims all over the city. Tens of thousands have been confirmed dead; many times that have been wounded. All across Berlin, fires rage of a magnitude that has not been seen since the Second World War."
+  }
+ ],
+ "53b9efb63462385c1b00009a_5": [
+  {
+   "who": "char",
+   "t": "The dragon's attack was brought to an end two hours after it began by a wing of Saeder-Krupp attack craft. The fighters were armed with experimental Gauss cannons, and to quote a Saeder-Krupp spokesman, they"
+  },
+  {
+   "who": "char",
+   "t": "\"tore through her armor like tinfoil.\""
+  }
+ ],
+ "53b9efb63462385c1b00009a_6": [
+  {
+   "who": "char",
+   "t": "\"A lot has changed since 2012,\""
+  },
+  {
+   "who": "char",
+   "t": "the spokesman continued."
+  },
+  {
+   "who": "char",
+   "t": "\"Conventional weapons technology is more than capable of bringing down a dragon these days - even one as fearsome as the Firewing. \""
+  },
+  {
+   "who": "char",
+   "t": "That said, the fight was not one-sided. We lost several craft in our pursuit of Feuerschwinge, at a cost of several hundred million nuyen.\""
   }
  ],
  "53b9efb63462385c1b00009a_10": [
   {
    "who": "char",
-   "t": "The WHO has traced the point of origin of CSMDS to Berlin. \"The disaster conditions that still plague the city months after Feuerschwinge's second rampage might have contributed to the rapid spread of CSMDS,\" a WHO spokesperson told us. \"Much of the city still lacks basic sanitation services, and clean water is difficult to come by."
+   "t": "The WHO has traced the point of origin of CSMDS to Berlin."
   },
   {
    "who": "char",
-   "t": "Disaster areas such as Berlin have repeatedly shown themselves to be ideal breeding grounds for disease.\""
+   "t": "\"The disaster conditions that still plague the city months after Feuerschwinge's second rampage might have contributed to the rapid spread of CSMDS,\""
+  },
+  {
+   "who": "char",
+   "t": "a WHO spokesperson told us."
+  },
+  {
+   "who": "char",
+   "t": "\"Much of the city still lacks basic sanitation services, and clean water is difficult to come by. Disaster areas such as Berlin have repeatedly shown themselves to be ideal breeding grounds for disease.\""
   }
  ],
  "53bae917636134dc27000353_7": [
@@ -43865,6 +43927,38 @@
   {
    "who": "char",
    "t": "Admitting that the CZ \"has not performed up to expectations,\" President Thomas Steele has appealed for assistance from corporate interests to stem the tide of monstrous insects flowing out of Chicago."
+  }
+ ],
+ "53bae95d636134dc2700035c_3": [
+  {
+   "who": "char",
+   "t": "\"It looks to me like they're hunkering down,\""
+  },
+  {
+   "who": "char",
+   "t": "military analyst Sara Álvarez told us,"
+  },
+  {
+   "who": "char",
+   "t": "\"preparing themselves for a defensive war. This is unusual for a couple of reasons. \""
+  },
+  {
+   "who": "char",
+   "t": "One, there have been no recent indications of hostilities between the Tir nations and their immediate neighbors. And two, the Tir nations are located on different continents from one another.\""
+  }
+ ],
+ "53bae95d636134dc2700035c_4": [
+  {
+   "who": "char",
+   "t": "\"Short of a global conflict, I can't see what could threaten both Tír na nÓg *and* Tir Tairngire,\""
+  },
+  {
+   "who": "char",
+   "t": "Álvarez continued."
+  },
+  {
+   "who": "char",
+   "t": "\"Maybe the Council of Princes knows something that the rest of us don't. But whatever they're thinking, it's making a lot of people nervous.\""
   }
  ],
  "525c4b3e6636611c07003bb3_0": [
@@ -47783,20 +47877,82 @@
    "t": "I owe you my life, Fräulein. I owe you all."
   }
  ],
- "53b9efb63462385c1b00009a_15": [
+ "53b9efb63462385c1b00009a_13": [
   {
    "who": "char",
-   "t": "Dr. Kristine Martin, director of research at Universal Omnitech, took a more cautious view of the CSMDS pandemic. \"This disease - or a mutant strain of it - could still do to us what it's doing to the dragons. That's why it's imperative that we find a cure quickly. \"Thankfully, we're getting close to doing just that."
+   "t": "\"We [metahumans] dodged a bullet this time,\""
   },
   {
    "who": "char",
-   "t": "While standard zeta-interferon treatments have proven ineffective, we have been working around the clock to gengineer a variant of Z-interferon that can combat the disease.\""
+   "t": "said Albrecht Haushofer, senior vice president of AG Chemie Europa."
+  },
+  {
+   "who": "char",
+   "t": "\"The dragons weren't so lucky. We're close to finding a cure, but I'm not sure that we're close enough to save them.\""
+  }
+ ],
+ "53b9efb63462385c1b00009a_14": [
+  {
+   "who": "char",
+   "t": "\"In a way, this is good for us,\""
+  },
+  {
+   "who": "char",
+   "t": "Haushofer continued."
+  },
+  {
+   "who": "char",
+   "t": "\"It is, of course, tragic that so many dragons are dying so horribly of this disease. But this is the first opportunity we've had to watch a slate-wiper virus at work against an intelligent population. \""
+  },
+  {
+   "who": "char",
+   "t": "We can learn a lot by studying CSMDS, and hopefully that knowledge will help us to avoid suffering a similar fate.\""
+  }
+ ],
+ "53b9efb63462385c1b00009a_15": [
+  {
+   "who": "char",
+   "t": "Dr. Kristine Martin, director of research at Universal Omnitech, took a more cautious view of the CSMDS pandemic."
+  },
+  {
+   "who": "char",
+   "t": "\"This disease - or a mutant strain of it - could still do to us what it's doing to the dragons. That's why it's imperative that we find a cure quickly. \""
+  },
+  {
+   "who": "char",
+   "t": "Thankfully, we're getting close to doing just that. While standard zeta-interferon treatments have proven ineffective, we have been working around the clock to gengineer a variant of Z-interferon that can combat the disease.\""
+  }
+ ],
+ "53b9efb63462385c1b00009a_16": [
+  {
+   "who": "char",
+   "t": "We asked Dr. Martin when Universal Omnitech's cure was expected to be ready for deployment."
+  },
+  {
+   "who": "char",
+   "t": "\"I can't give you a definite time line, but I can say that we'll be ready to move into human trials soon.\""
+  },
+  {
+   "who": "char",
+   "t": "\"I'll keep you posted,\""
+  },
+  {
+   "who": "char",
+   "t": "she added."
   }
  ],
  "53b9efb63462385c1b00009a_18": [
   {
    "who": "char",
-   "t": "She is remembered as one of the most popular Great Dragons, second only to the late Dunkelzahn in public opinion. She was also a champion of metahuman rights causes, and aid organizations around the world declared today a day of mourning. \"Hestaby was one of the most magnificent creatures ever to have lived,\" UCAS President Thomas Steele said in a prepared statement."
+   "t": "She is remembered as one of the most popular Great Dragons, second only to the late Dunkelzahn in public opinion. She was also a champion of metahuman rights causes, and aid organizations around the world declared today a day of mourning."
+  },
+  {
+   "who": "char",
+   "t": "\"Hestaby was one of the most magnificent creatures ever to have lived,\""
+  },
+  {
+   "who": "char",
+   "t": "UCAS President Thomas Steele said in a prepared statement."
   },
   {
    "who": "char",
