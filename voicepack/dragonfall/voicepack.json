@@ -973,7 +973,17 @@
   ],
   "523cb418346238d026006192_280": [
    "clips/274f554285edc8f4.ogg",
-   "clips/5c26ec51e2903bfe.ogg",
+   "clips/3b12f34eb5acc7bd.ogg",
+   "clips/86570f1a049d964b.ogg"
+  ],
+  "523cb418346238d026006192_280#f": [
+   "clips/274f554285edc8f4.ogg",
+   "clips/33ec626054244a19.ogg",
+   "clips/86570f1a049d964b.ogg"
+  ],
+  "523cb418346238d026006192_280#m": [
+   "clips/274f554285edc8f4.ogg",
+   "clips/9ff6a49241096767.ogg",
    "clips/86570f1a049d964b.ogg"
   ],
   "523cb418346238d026006192_281": [
@@ -8233,6 +8243,10 @@
    "clips/446482796128a25c.ogg",
    "clips/0eedea892c87ef55.ogg"
   ],
+  "536be8a36361341005007546_7#f": [
+   "clips/446482796128a25c.ogg",
+   "clips/0cbd0d39653127f7.ogg"
+  ],
   "536be8a36361341005007546_8": [
    "clips/f777e68c9de1205b.ogg"
   ],
@@ -10602,8 +10616,20 @@
   "52c74dbd6636616c27000046_97": [
    "clips/1195de10bf5ba4e2.ogg"
   ],
+  "52c74dbd6636616c27000046_97#f": [
+   "clips/47c82e62ff1f4bec.ogg"
+  ],
+  "52c74dbd6636616c27000046_97#m": [
+   "clips/7f7caf0dcee01e27.ogg"
+  ],
   "52c74dbd6636616c27000046_99": [
    "clips/1195de10bf5ba4e2.ogg"
+  ],
+  "52c74dbd6636616c27000046_99#f": [
+   "clips/47c82e62ff1f4bec.ogg"
+  ],
+  "52c74dbd6636616c27000046_99#m": [
+   "clips/7f7caf0dcee01e27.ogg"
   ],
   "52c74dbd6636616c27000046_104": [
    "clips/220a59edf3268576.ogg"
@@ -21124,6 +21150,11 @@
    "clips/1ad35a1deceebffa.ogg",
    "clips/b841f7ba95ff56c4.ogg"
   ],
+  "535f0b29373937801b006838_12#f": [
+   "clips/7b430c81cb4caedb.ogg",
+   "clips/1ad35a1deceebffa.ogg",
+   "clips/3a1db0fcd5cdb0db.ogg"
+  ],
   "536172cb37393720210066bc_1": [
    "clips/e3944c9531d80a30.ogg"
   ],
@@ -24116,8 +24147,28 @@
    "clips/02ef31d10d798ffb.ogg",
    "clips/07b7872e6574f06b.ogg"
   ],
+  "53cd96c1323437c03b00323e_23#f.dwarf": [
+   "clips/7f68fd064b38c512.ogg",
+   "clips/02ef31d10d798ffb.ogg",
+   "clips/07b7872e6574f06b.ogg"
+  ],
+  "53cd96c1323437c03b00323e_23#f.elf": [
+   "clips/fbdeae131049b6ce.ogg",
+   "clips/02ef31d10d798ffb.ogg",
+   "clips/07b7872e6574f06b.ogg"
+  ],
   "53cd96c1323437c03b00323e_23#f.human": [
    "clips/8ab17e518da16fe5.ogg",
+   "clips/02ef31d10d798ffb.ogg",
+   "clips/07b7872e6574f06b.ogg"
+  ],
+  "53cd96c1323437c03b00323e_23#f.ork": [
+   "clips/9dd0a47846f6e5ec.ogg",
+   "clips/02ef31d10d798ffb.ogg",
+   "clips/07b7872e6574f06b.ogg"
+  ],
+  "53cd96c1323437c03b00323e_23#f.troll": [
+   "clips/70d89f4486d0c3d3.ogg",
    "clips/02ef31d10d798ffb.ogg",
    "clips/07b7872e6574f06b.ogg"
   ],
@@ -24172,6 +24223,56 @@
   ],
   "53cd96c1323437c03b00323e_32": [
    "clips/8ef6d19b37212d05.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#f.dwarf": [
+   "clips/e12f8cb4db6ada50.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#f.elf": [
+   "clips/279fb78b1e645361.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#f.human": [
+   "clips/53ae4f1282ff1ae0.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#f.ork": [
+   "clips/6db01a6cc2f312a9.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#f.troll": [
+   "clips/d6380aa3472b672a.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#m.dwarf": [
+   "clips/748e747b3b6dbaf3.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#m.elf": [
+   "clips/213dd19cf2fcb1b1.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#m.human": [
+   "clips/c3a4d5f645614461.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#m.ork": [
+   "clips/0dfee4bad5e2a63f.ogg",
+   "clips/cf1364cedce829bf.ogg",
+   "clips/8a8d6a69ac0e4c00.ogg"
+  ],
+  "53cd96c1323437c03b00323e_32#m.troll": [
+   "clips/1640394a1bb9a4e7.ogg",
    "clips/cf1364cedce829bf.ogg",
    "clips/8a8d6a69ac0e4c00.ogg"
   ],
@@ -24237,6 +24338,36 @@
   ],
   "53cd96c1323437c03b00323e_58": [
    "clips/30b8b4f6ce0a9d0c.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#f.dwarf": [
+   "clips/2eaf42aad3a82b35.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#f.elf": [
+   "clips/1e24b4872c8efe89.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#f.human": [
+   "clips/ca1d29c3551e4be9.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#f.ork": [
+   "clips/93b63434ec31ea2e.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#f.troll": [
+   "clips/ecb8fe887907c86d.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#m.dwarf": [
+   "clips/3b8d37d564ddabec.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#m.elf": [
+   "clips/97d4191c0434c20c.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#m.human": [
+   "clips/1875792b97ce171f.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#m.ork": [
+   "clips/9d341467d7afeb59.ogg"
+  ],
+  "53cd96c1323437c03b00323e_58#m.troll": [
+   "clips/66b0c92035f559b1.ogg"
   ],
   "53cd96c1323437c03b00323e_61": [
    "clips/104df8d5d920d04d.ogg",
@@ -24531,6 +24662,14 @@
    "clips/8ea379c9d268ef56.ogg",
    "clips/b168109bcafbd640.ogg"
   ],
+  "53f0fa5463613480180096d5_7#f": [
+   "clips/8ea379c9d268ef56.ogg",
+   "clips/740978e5596a1ce6.ogg"
+  ],
+  "53f0fa5463613480180096d5_7#m": [
+   "clips/8ea379c9d268ef56.ogg",
+   "clips/7f6b631cfa2e2da8.ogg"
+  ],
   "53f0fa5463613480180096d5_9": [
    "clips/6667b8ba76473fb0.ogg"
   ],
@@ -24547,12 +24686,82 @@
   "53f7778d6361340021004fe8_3": [
    "clips/f0e09c69821f84d5.ogg"
   ],
+  "53f7778d6361340021004fe8_3#f.dwarf": [
+   "clips/f15b47f6e6405a02.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#f.elf": [
+   "clips/69de5a1c8b3f177c.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#f.human": [
+   "clips/466ff7869d607fb3.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#f.ork": [
+   "clips/c685e0d8864f5206.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#f.troll": [
+   "clips/6b9f34b8ef206ddc.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#m.dwarf": [
+   "clips/af63f6930f0d0c6f.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#m.elf": [
+   "clips/5aec783a886de21b.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#m.human": [
+   "clips/b20d69c8a9375634.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#m.ork": [
+   "clips/3a31deaf01bcbbf1.ogg"
+  ],
+  "53f7778d6361340021004fe8_3#m.troll": [
+   "clips/4d2ac20d8738c64d.ogg"
+  ],
   "53f7778d6361340021004fe8_4": [
    "clips/e2d5d5c54bb2ed07.ogg"
   ],
   "53f7778d6361340021004fe8_7": [
    "clips/61e1a9724d90878e.ogg",
    "clips/f0e09c69821f84d5.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#f.dwarf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/f15b47f6e6405a02.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#f.elf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/69de5a1c8b3f177c.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#f.human": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/466ff7869d607fb3.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#f.ork": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/c685e0d8864f5206.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#f.troll": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/6b9f34b8ef206ddc.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#m.dwarf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/af63f6930f0d0c6f.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#m.elf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/5aec783a886de21b.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#m.human": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/b20d69c8a9375634.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#m.ork": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/3a31deaf01bcbbf1.ogg"
+  ],
+  "53f7778d6361340021004fe8_7#m.troll": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/4d2ac20d8738c64d.ogg"
   ],
   "53f7778d6361340021004fe8_11": [
    "clips/0791393b917d807b.ogg",
@@ -24565,6 +24774,36 @@
   ],
   "53f7778d6361340021004fe8_13": [
    "clips/3778a071d04dbd0b.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#f.dwarf": [
+   "clips/e0cb75c9fdf190bc.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#f.elf": [
+   "clips/bb6668999ee4b184.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#f.human": [
+   "clips/53146dddce767443.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#f.ork": [
+   "clips/1d6dd97878c4fa1d.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#f.troll": [
+   "clips/553aaedd5cdd44d6.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#m.dwarf": [
+   "clips/bde8a50fa397aa06.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#m.elf": [
+   "clips/b14c79055d0f3782.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#m.human": [
+   "clips/756df307526b5206.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#m.ork": [
+   "clips/f77343381f6b0274.ogg"
+  ],
+  "53f7778d6361340021004fe8_13#m.troll": [
+   "clips/5c257eff46724449.ogg"
   ],
   "53f7778d6361340021004fe8_14": [
    "clips/e74c97895f2d2a6a.ogg"
@@ -24579,6 +24818,46 @@
    "clips/61e1a9724d90878e.ogg",
    "clips/f0e09c69821f84d5.ogg"
   ],
+  "53f7778d6361340021004fe8_21#f.dwarf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/f15b47f6e6405a02.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#f.elf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/69de5a1c8b3f177c.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#f.human": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/466ff7869d607fb3.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#f.ork": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/c685e0d8864f5206.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#f.troll": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/6b9f34b8ef206ddc.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#m.dwarf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/af63f6930f0d0c6f.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#m.elf": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/5aec783a886de21b.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#m.human": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/b20d69c8a9375634.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#m.ork": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/3a31deaf01bcbbf1.ogg"
+  ],
+  "53f7778d6361340021004fe8_21#m.troll": [
+   "clips/61e1a9724d90878e.ogg",
+   "clips/4d2ac20d8738c64d.ogg"
+  ],
   "53f7778d6361340021004fe8_27": [
    "clips/d3832d171cdf3c62.ogg"
   ],
@@ -24587,6 +24866,36 @@
   ],
   "53f7778d6361340021004fe8_33": [
    "clips/72643d23a9458827.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#f.dwarf": [
+   "clips/4cb5ce5238596818.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#f.elf": [
+   "clips/303f0bdd25cac949.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#f.human": [
+   "clips/31f1522400428e1e.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#f.ork": [
+   "clips/ac0aed1ebf686304.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#f.troll": [
+   "clips/0c986741a85973e9.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#m.dwarf": [
+   "clips/6e3dc4d6eac5f6a1.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#m.elf": [
+   "clips/023026c15e88c4c8.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#m.human": [
+   "clips/a4cbe23955cfb233.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#m.ork": [
+   "clips/bf8c9f1a2e07274d.ogg"
+  ],
+  "53f7778d6361340021004fe8_33#m.troll": [
+   "clips/a9d6877ddce79d26.ogg"
   ],
   "53ebc364323437ac45005b67_26": [
    "clips/2ec4b207d52a458e.ogg"
@@ -24636,6 +24945,12 @@
   "523c8edc346238e41d008a48_1": [
    "clips/3136a13ffde4dee0.ogg"
   ],
+  "523c8edc346238e41d008a48_1#f": [
+   "clips/714e3285325a3c19.ogg"
+  ],
+  "523c8edc346238e41d008a48_1#m": [
+   "clips/b80c3b9cd95122c0.ogg"
+  ],
   "523c8edc346238e41d008a48_2": [
    "clips/cc2382a4791dd7ee.ogg"
   ],
@@ -24683,6 +24998,12 @@
   ],
   "523c8edc346238e41d008a48_18": [
    "clips/81c1d3be31038724.ogg"
+  ],
+  "523c8edc346238e41d008a48_18#f": [
+   "clips/59eab90480f61c60.ogg"
+  ],
+  "523c8edc346238e41d008a48_18#m": [
+   "clips/93908ed1c9cd54d9.ogg"
   ],
   "523c8edc346238e41d008a48_19": [
    "clips/b655a2c66a0f2057.ogg"
@@ -24787,6 +25108,14 @@
    "clips/98b08581fa645ad0.ogg",
    "clips/536cefd982667642.ogg"
   ],
+  "523c8edc346238e41d008a48_49#f": [
+   "clips/98b08581fa645ad0.ogg",
+   "clips/a513d4817873a27f.ogg"
+  ],
+  "523c8edc346238e41d008a48_49#m": [
+   "clips/98b08581fa645ad0.ogg",
+   "clips/ed0c292ab9a8002f.ogg"
+  ],
   "523c8edc346238e41d008a48_50": [
    "clips/00c5ef02f510ef6f.ogg"
   ],
@@ -24839,6 +25168,21 @@
   ],
   "523c8edc346238e41d008a48_66": [
    "clips/c31e9d8ef35d069d.ogg"
+  ],
+  "523c8edc346238e41d008a48_66#dwarf": [
+   "clips/ce9e877851bcf4f1.ogg"
+  ],
+  "523c8edc346238e41d008a48_66#elf": [
+   "clips/29d34c60a699b57b.ogg"
+  ],
+  "523c8edc346238e41d008a48_66#human": [
+   "clips/2b2da55e6b729456.ogg"
+  ],
+  "523c8edc346238e41d008a48_66#ork": [
+   "clips/c7b845676dbbe83d.ogg"
+  ],
+  "523c8edc346238e41d008a48_66#troll": [
+   "clips/ae29d971982e97a0.ogg"
   ],
   "523c8edc346238e41d008a48_67": [
    "clips/ebd58a5db0f849c2.ogg"
@@ -24923,6 +25267,11 @@
   ],
   "53e2c232303031081d007ffa_46": [
    "clips/14ff357ba40a919b.ogg",
+   "clips/76487a85be852f51.ogg",
+   "clips/4e9358b5708c5885.ogg"
+  ],
+  "53e2c232303031081d007ffa_46#f": [
+   "clips/b0a6cc110425c4f0.ogg",
    "clips/76487a85be852f51.ogg",
    "clips/4e9358b5708c5885.ogg"
   ],
@@ -25049,11 +25398,34 @@
    "clips/77732f425dd18970.ogg",
    "clips/6c0f5f94e551d49c.ogg"
   ],
+  "523bfbe4346238e41d007f96_11#f": [
+   "clips/77732f425dd18970.ogg",
+   "clips/54dac9709881e966.ogg"
+  ],
+  "523bfbe4346238e41d007f96_11#m": [
+   "clips/77732f425dd18970.ogg",
+   "clips/3b4b58e641aa8994.ogg"
+  ],
   "523bfbe4346238e41d007f96_12": [
    "clips/d5c0dbec8270087b.ogg"
   ],
   "523bfbe4346238e41d007f96_13": [
    "clips/155047534bc861a9.ogg"
+  ],
+  "523bfbe4346238e41d007f96_13#dwarf": [
+   "clips/f38294214cc19385.ogg"
+  ],
+  "523bfbe4346238e41d007f96_13#elf": [
+   "clips/f3d7e0977921426e.ogg"
+  ],
+  "523bfbe4346238e41d007f96_13#human": [
+   "clips/1a72924b206d8609.ogg"
+  ],
+  "523bfbe4346238e41d007f96_13#ork": [
+   "clips/b15916d588225a26.ogg"
+  ],
+  "523bfbe4346238e41d007f96_13#troll": [
+   "clips/c66bafea4f61313a.ogg"
   ],
   "523bfbe4346238e41d007f96_15": [
    "clips/9c5ff0b5d89b7a73.ogg",
@@ -25126,6 +25498,10 @@
    "clips/9cf53d4a387a5e53.ogg",
    "clips/a5dd1be3563f24ab.ogg"
   ],
+  "523bfbe4346238e41d007f96_37#f": [
+   "clips/9cf53d4a387a5e53.ogg",
+   "clips/651604bf53242120.ogg"
+  ],
   "523bfbe4346238e41d007f96_38": [
    "clips/98d341d8e3c73242.ogg"
   ],
@@ -25197,6 +25573,12 @@
   "523bfbe4346238e41d007f96_61": [
    "clips/612a5fe4db5571a7.ogg"
   ],
+  "523bfbe4346238e41d007f96_61#f": [
+   "clips/cb4d8c670c98cf03.ogg"
+  ],
+  "523bfbe4346238e41d007f96_61#m": [
+   "clips/c2168f9059c6b522.ogg"
+  ],
   "523bfbe4346238e41d007f96_62": [
    "clips/9aa44537e38ba68d.ogg"
   ],
@@ -25213,6 +25595,14 @@
    "clips/127f00c1ba7ce4b4.ogg",
    "clips/f710779318d8e2ee.ogg"
   ],
+  "523bfbe4346238e41d007f96_67#f": [
+   "clips/127f00c1ba7ce4b4.ogg",
+   "clips/47279fb23d6f4aaf.ogg"
+  ],
+  "523bfbe4346238e41d007f96_67#m": [
+   "clips/127f00c1ba7ce4b4.ogg",
+   "clips/0e824b3d38936874.ogg"
+  ],
   "523bfbe4346238e41d007f96_68": [
    "clips/6487f95f9dc1a908.ogg",
    "clips/b37d017a709436ec.ogg"
@@ -25220,6 +25610,14 @@
   "523bfbe4346238e41d007f96_69": [
    "clips/07376b8db1909496.ogg",
    "clips/5eea9af37d289096.ogg"
+  ],
+  "523bfbe4346238e41d007f96_69#f": [
+   "clips/07376b8db1909496.ogg",
+   "clips/0485534a61ccd254.ogg"
+  ],
+  "523bfbe4346238e41d007f96_69#m": [
+   "clips/07376b8db1909496.ogg",
+   "clips/50f9ce89d346f467.ogg"
   ],
   "523bfbe4346238e41d007f96_70": [
    "clips/624e3d146845f4b6.ogg",
@@ -25252,6 +25650,12 @@
   ],
   "523bfbe4346238e41d007f96_83": [
    "clips/f6dbbb2ad349ecb6.ogg"
+  ],
+  "523bfbe4346238e41d007f96_83#f": [
+   "clips/338cb73387a3cc8b.ogg"
+  ],
+  "523bfbe4346238e41d007f96_83#m": [
+   "clips/8f9d121c0ebfcf5e.ogg"
   ],
   "523bfbe4346238e41d007f96_84": [
    "clips/b615c004a9f989ea.ogg"
@@ -25291,10 +25695,30 @@
    "clips/5e1383255f0570e3.ogg",
    "clips/9130a6cdafe615ce.ogg"
   ],
+  "523bfbe4346238e41d007f96_95#f": [
+   "clips/fcd19f0adc5e0b14.ogg",
+   "clips/5e1383255f0570e3.ogg",
+   "clips/9130a6cdafe615ce.ogg"
+  ],
+  "523bfbe4346238e41d007f96_95#m": [
+   "clips/0739f7b6bcea1275.ogg",
+   "clips/5e1383255f0570e3.ogg",
+   "clips/9130a6cdafe615ce.ogg"
+  ],
   "523bfbe4346238e41d007f96_97": [
    "clips/e594bafdddc4de93.ogg",
    "clips/73c247ec0978cb1a.ogg",
    "clips/1a7751121404ae82.ogg"
+  ],
+  "523bfbe4346238e41d007f96_97#f": [
+   "clips/e594bafdddc4de93.ogg",
+   "clips/73c247ec0978cb1a.ogg",
+   "clips/e5829559beae074f.ogg"
+  ],
+  "523bfbe4346238e41d007f96_97#m": [
+   "clips/e594bafdddc4de93.ogg",
+   "clips/73c247ec0978cb1a.ogg",
+   "clips/2d8f0c5d8dc112c8.ogg"
   ],
   "523bfbe4346238e41d007f96_98": [
    "clips/09538784be5375ec.ogg"
@@ -25369,8 +25793,38 @@
   "523bfbe4346238e41d007f96_120": [
    "clips/be935230815f1bcf.ogg"
   ],
+  "523bfbe4346238e41d007f96_120#dwarf": [
+   "clips/af2414a17c793eaf.ogg"
+  ],
+  "523bfbe4346238e41d007f96_120#elf": [
+   "clips/b21bbe596f37b251.ogg"
+  ],
+  "523bfbe4346238e41d007f96_120#human": [
+   "clips/2c2b449eba6ec990.ogg"
+  ],
+  "523bfbe4346238e41d007f96_120#ork": [
+   "clips/86fe0e4b7d4cb9a1.ogg"
+  ],
+  "523bfbe4346238e41d007f96_120#troll": [
+   "clips/10997350564b258a.ogg"
+  ],
   "523bfbe4346238e41d007f96_121": [
    "clips/b8b942dec59346f2.ogg"
+  ],
+  "523bfbe4346238e41d007f96_121#dwarf": [
+   "clips/4e9563dda85c253f.ogg"
+  ],
+  "523bfbe4346238e41d007f96_121#elf": [
+   "clips/9bcd5f6ffb817c3f.ogg"
+  ],
+  "523bfbe4346238e41d007f96_121#human": [
+   "clips/a8d1801ecb95eb0f.ogg"
+  ],
+  "523bfbe4346238e41d007f96_121#ork": [
+   "clips/32e5821f267c7373.ogg"
+  ],
+  "523bfbe4346238e41d007f96_121#troll": [
+   "clips/a4c3b8e50ffd6a5d.ogg"
   ],
   "523bfbe4346238e41d007f96_122": [
    "clips/8052576ceabade07.ogg"
@@ -25384,14 +25838,32 @@
   "523bfbe4346238e41d007f96_126": [
    "clips/3d698577ab8f0c97.ogg"
   ],
+  "523bfbe4346238e41d007f96_126#f": [
+   "clips/143521c0ab73f76a.ogg"
+  ],
+  "523bfbe4346238e41d007f96_126#m": [
+   "clips/8a73ce0b095fb40e.ogg"
+  ],
   "523bfbe4346238e41d007f96_127": [
    "clips/222c78af66094fd1.ogg"
   ],
   "523bfbe4346238e41d007f96_128": [
    "clips/809d1f46e57d9524.ogg"
   ],
+  "523bfbe4346238e41d007f96_128#f": [
+   "clips/3d5c2b6d6708e82e.ogg"
+  ],
+  "523bfbe4346238e41d007f96_128#m": [
+   "clips/2d3a998c2f9833cd.ogg"
+  ],
   "523bfbe4346238e41d007f96_129": [
    "clips/4faf49cfccd6c1d8.ogg"
+  ],
+  "523bfbe4346238e41d007f96_129#f": [
+   "clips/325ee96c6547bffc.ogg"
+  ],
+  "523bfbe4346238e41d007f96_129#m": [
+   "clips/ecaaced8d8768cc2.ogg"
   ],
   "5258897d6636614001005b04_23": [
    "clips/188916f77c241b32.ogg"
@@ -26144,6 +26616,12 @@
   "523bfc69346238e41d008008_105": [
    "clips/0041e3c246956672.ogg"
   ],
+  "523bfc69346238e41d008008_105#f": [
+   "clips/99b74b8ff3f1a7cc.ogg"
+  ],
+  "523bfc69346238e41d008008_105#m": [
+   "clips/19252aef323798aa.ogg"
+  ],
   "523bfc69346238e41d008008_106": [
    "clips/7ba0a1b99aed98ee.ogg"
   ],
@@ -26192,6 +26670,36 @@
   "523c8e7f346238e41d008a2d_1": [
    "clips/b5837d30e5253443.ogg"
   ],
+  "523c8e7f346238e41d008a2d_1#f.dwarf": [
+   "clips/3ae7e7aa18aa8ce1.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#f.elf": [
+   "clips/e6f0bb5b2682e353.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#f.human": [
+   "clips/4094c76261ef7995.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#f.ork": [
+   "clips/8b8ee2f64413acbe.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#f.troll": [
+   "clips/38a522a4d87a89fb.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#m.dwarf": [
+   "clips/bab04018269e88ac.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#m.elf": [
+   "clips/e59f569c9af09891.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#m.human": [
+   "clips/d54681896af76599.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#m.ork": [
+   "clips/d223347535831a33.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_1#m.troll": [
+   "clips/f0454971a6060860.ogg"
+  ],
   "523c8e7f346238e41d008a2d_3": [
    "clips/af3412024c07cc5f.ogg"
   ],
@@ -26209,6 +26717,21 @@
   "523c8e7f346238e41d008a2d_12": [
    "clips/96b7de917e28e511.ogg"
   ],
+  "523c8e7f346238e41d008a2d_12#dwarf": [
+   "clips/5a872a22946524fe.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_12#elf": [
+   "clips/5759a7b3f41d4d03.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_12#human": [
+   "clips/830aaf7f72fa9ceb.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_12#ork": [
+   "clips/08b331575728ec3a.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_12#troll": [
+   "clips/674a5002a6062782.ogg"
+  ],
   "523c8e7f346238e41d008a2d_15": [
    "clips/3857e66dfabd8e5f.ogg"
   ],
@@ -26225,6 +26748,36 @@
   ],
   "523c8e7f346238e41d008a2d_23": [
    "clips/fa53ae1615bdb84b.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#f.dwarf": [
+   "clips/3477bb698553fecb.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#f.elf": [
+   "clips/94c9deda6c7aafbb.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#f.human": [
+   "clips/3e042bfa7625469d.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#f.ork": [
+   "clips/b47eab613710d3bb.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#f.troll": [
+   "clips/8ba2947701f260f4.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#m.dwarf": [
+   "clips/d68fe76d1fad95fb.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#m.elf": [
+   "clips/1482e17fc85cbe6b.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#m.human": [
+   "clips/b1a24994d6af2505.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#m.ork": [
+   "clips/b84117c6810516dc.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_23#m.troll": [
+   "clips/4d729f97fee6d247.ogg"
   ],
   "523c8e7f346238e41d008a2d_24": [
    "clips/6a0aa65c30bc4ed5.ogg"
@@ -26264,6 +26817,36 @@
   "523c8e7f346238e41d008a2d_42": [
    "clips/4d6b4e6c35a473f7.ogg"
   ],
+  "523c8e7f346238e41d008a2d_42#f.dwarf": [
+   "clips/50ef57c4de02edfa.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#f.elf": [
+   "clips/e0c9c34eb8d2234c.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#f.human": [
+   "clips/118076d89791fc21.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#f.ork": [
+   "clips/046f0bc2d2e7dcb6.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#f.troll": [
+   "clips/988959645af2e13b.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#m.dwarf": [
+   "clips/0cb4a5f3a1d835e1.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#m.elf": [
+   "clips/c7ce4a19407c8c2f.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#m.human": [
+   "clips/708853e8155c1a7d.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#m.ork": [
+   "clips/74dc1e9261fbfdf5.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_42#m.troll": [
+   "clips/4fb346e74dfb54cb.ogg"
+  ],
   "523c8e7f346238e41d008a2d_48": [
    "clips/3bab06827eed08ec.ogg",
    "clips/0696e47cdba24ed9.ogg",
@@ -26287,12 +26870,65 @@
   "523c8e7f346238e41d008a2d_63": [
    "clips/74e3244778106ff1.ogg"
   ],
+  "523c8e7f346238e41d008a2d_63#f.dwarf": [
+   "clips/d90c781c50ffce4b.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#f.elf": [
+   "clips/8ca3f2062bc552be.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#f.human": [
+   "clips/ad3ddc1230567f05.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#f.ork": [
+   "clips/4ca70c0ad5b1b150.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#f.troll": [
+   "clips/6af57405a16d171b.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#m.dwarf": [
+   "clips/9da6494ee077f5b6.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#m.elf": [
+   "clips/d879434b60ce8a7f.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#m.human": [
+   "clips/e87160a5a8c28ca9.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#m.ork": [
+   "clips/5a427f4cb1542241.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_63#m.troll": [
+   "clips/f9f3aa93b78c5ff4.ogg"
+  ],
   "523c8e7f346238e41d008a2d_68": [
    "clips/4bdb30c382a43246.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_68#dwarf": [
+   "clips/a370c9c09d549071.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_68#elf": [
+   "clips/549f15334000f75b.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_68#human": [
+   "clips/a07b2b691cc3f655.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_68#ork": [
+   "clips/f6717e07e75a62b3.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_68#troll": [
+   "clips/241ef9e6c08ffdd9.ogg"
   ],
   "523c8e7f346238e41d008a2d_70": [
    "clips/61fd1b58d88842cf.ogg",
    "clips/af944339d16901d9.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_70#f": [
+   "clips/61fd1b58d88842cf.ogg",
+   "clips/d38aad0f633f6e71.ogg"
+  ],
+  "523c8e7f346238e41d008a2d_70#m": [
+   "clips/61fd1b58d88842cf.ogg",
+   "clips/3c194531a32d20d6.ogg"
   ],
   "523c8e7f346238e41d008a2d_71": [
    "clips/0696e47cdba24ed9.ogg",
@@ -26359,6 +26995,26 @@
    "clips/42af6eb165f9f5ea.ogg",
    "clips/0cdfad7fdb217e86.ogg"
   ],
+  "523c8e98346238e41d008a36_18#dwarf": [
+   "clips/42af6eb165f9f5ea.ogg",
+   "clips/e20c1991406cd11d.ogg"
+  ],
+  "523c8e98346238e41d008a36_18#elf": [
+   "clips/42af6eb165f9f5ea.ogg",
+   "clips/b8d3e1e940c72088.ogg"
+  ],
+  "523c8e98346238e41d008a36_18#human": [
+   "clips/42af6eb165f9f5ea.ogg",
+   "clips/40b66315fcb7f29a.ogg"
+  ],
+  "523c8e98346238e41d008a36_18#ork": [
+   "clips/42af6eb165f9f5ea.ogg",
+   "clips/726f792fe5a677ef.ogg"
+  ],
+  "523c8e98346238e41d008a36_18#troll": [
+   "clips/42af6eb165f9f5ea.ogg",
+   "clips/23494fa23ebf19fa.ogg"
+  ],
   "523c8e98346238e41d008a36_20": [
    "clips/dd0f1e8be553092b.ogg"
   ],
@@ -26418,6 +27074,21 @@
   "523c8e98346238e41d008a36_44": [
    "clips/e9cd70412ceb39e7.ogg"
   ],
+  "523c8e98346238e41d008a36_44#dwarf": [
+   "clips/404bac09458232b2.ogg"
+  ],
+  "523c8e98346238e41d008a36_44#elf": [
+   "clips/27b6ad40c0199574.ogg"
+  ],
+  "523c8e98346238e41d008a36_44#human": [
+   "clips/051f1b57706c2155.ogg"
+  ],
+  "523c8e98346238e41d008a36_44#ork": [
+   "clips/374c4398258d9ab1.ogg"
+  ],
+  "523c8e98346238e41d008a36_44#troll": [
+   "clips/bb4f09d2f912e38c.ogg"
+  ],
   "523c8e98346238e41d008a36_45": [
    "clips/61fc71edef0e46ab.ogg"
   ],
@@ -26476,6 +27147,21 @@
   ],
   "523c8e98346238e41d008a36_61": [
    "clips/a5b3875564b23ea7.ogg"
+  ],
+  "523c8e98346238e41d008a36_61#dwarf": [
+   "clips/7b9fed63ac1e1ab6.ogg"
+  ],
+  "523c8e98346238e41d008a36_61#elf": [
+   "clips/4609eae7a04812c1.ogg"
+  ],
+  "523c8e98346238e41d008a36_61#human": [
+   "clips/b72785807d9aaf5c.ogg"
+  ],
+  "523c8e98346238e41d008a36_61#ork": [
+   "clips/42332a6d4e698204.ogg"
+  ],
+  "523c8e98346238e41d008a36_61#troll": [
+   "clips/45516f7ae9b96909.ogg"
   ],
   "523c8e98346238e41d008a36_62": [
    "clips/19808a08f0494d3c.ogg",
@@ -26550,6 +27236,21 @@
   ],
   "53d2d63f63613404050083f9_11": [
    "clips/e9cd70412ceb39e7.ogg"
+  ],
+  "53d2d63f63613404050083f9_11#dwarf": [
+   "clips/404bac09458232b2.ogg"
+  ],
+  "53d2d63f63613404050083f9_11#elf": [
+   "clips/27b6ad40c0199574.ogg"
+  ],
+  "53d2d63f63613404050083f9_11#human": [
+   "clips/051f1b57706c2155.ogg"
+  ],
+  "53d2d63f63613404050083f9_11#ork": [
+   "clips/374c4398258d9ab1.ogg"
+  ],
+  "53d2d63f63613404050083f9_11#troll": [
+   "clips/bb4f09d2f912e38c.ogg"
   ],
   "53d2d63f63613404050083f9_12": [
    "clips/61fc71edef0e46ab.ogg"
@@ -26683,6 +27384,9 @@
   ],
   "527028b86636614822004e81_43": [
    "clips/a5fb3f4678ea7def.ogg"
+  ],
+  "527028b86636614822004e81_43#f": [
+   "clips/7c33bcf409479742.ogg"
   ],
   "527028b86636614822004e81_45": [
    "clips/15cfe00331cfb324.ogg"
@@ -27851,6 +28555,21 @@
   "5282af6b6361342453002bee_64": [
    "clips/1e0cd6bb88f873f0.ogg"
   ],
+  "5282af6b6361342453002bee_64#dwarf": [
+   "clips/f320e11fbd6e404e.ogg"
+  ],
+  "5282af6b6361342453002bee_64#elf": [
+   "clips/da3ca8864ee25958.ogg"
+  ],
+  "5282af6b6361342453002bee_64#human": [
+   "clips/c5a3a2e4fc56be12.ogg"
+  ],
+  "5282af6b6361342453002bee_64#ork": [
+   "clips/053656610e99363f.ogg"
+  ],
+  "5282af6b6361342453002bee_64#troll": [
+   "clips/929adc3cb3f06254.ogg"
+  ],
   "5282af6b6361342453002bee_92": [
    "clips/991f99812b9289b3.ogg"
   ],
@@ -27893,6 +28612,21 @@
   ],
   "5282af6b6361342453002bee_112": [
    "clips/06912c97dc764e21.ogg"
+  ],
+  "5282af6b6361342453002bee_112#dwarf": [
+   "clips/997c0129822d211d.ogg"
+  ],
+  "5282af6b6361342453002bee_112#elf": [
+   "clips/4b1e19233bcb649c.ogg"
+  ],
+  "5282af6b6361342453002bee_112#human": [
+   "clips/be407a5973d5c3bc.ogg"
+  ],
+  "5282af6b6361342453002bee_112#ork": [
+   "clips/0ab975e3091d289f.ogg"
+  ],
+  "5282af6b6361342453002bee_112#troll": [
+   "clips/4a289555e7ff732c.ogg"
   ],
   "5282af6b6361342453002bee_113": [
    "clips/33289840796eb114.ogg"
@@ -27950,6 +28684,21 @@
   ],
   "52b20f7b626164081c0068f6_74": [
    "clips/939e91440a17143f.ogg"
+  ],
+  "52b20f7b626164081c0068f6_74#dwarf": [
+   "clips/8cc8105a82ec6e8f.ogg"
+  ],
+  "52b20f7b626164081c0068f6_74#elf": [
+   "clips/e34313da0ce143be.ogg"
+  ],
+  "52b20f7b626164081c0068f6_74#human": [
+   "clips/631424621652ff9d.ogg"
+  ],
+  "52b20f7b626164081c0068f6_74#ork": [
+   "clips/bd6825328554d2e7.ogg"
+  ],
+  "52b20f7b626164081c0068f6_74#troll": [
+   "clips/1bf7e4d7cc1df636.ogg"
   ],
   "52b20f7b626164081c0068f6_75": [
    "clips/4f5178afd9b99213.ogg",
@@ -28033,6 +28782,21 @@
   "52d6068d6361349034008104_10": [
    "clips/437dd09bcd1b3177.ogg"
   ],
+  "52d6068d6361349034008104_10#dwarf": [
+   "clips/04c193cc5607b4ba.ogg"
+  ],
+  "52d6068d6361349034008104_10#elf": [
+   "clips/0e672cf5b5fe281f.ogg"
+  ],
+  "52d6068d6361349034008104_10#human": [
+   "clips/928d7f18a99e2948.ogg"
+  ],
+  "52d6068d6361349034008104_10#ork": [
+   "clips/7ef77b874444256b.ogg"
+  ],
+  "52d6068d6361349034008104_10#troll": [
+   "clips/2987abed42529aa1.ogg"
+  ],
   "52d6068d6361349034008104_11": [
    "clips/256ffd57fc2adea4.ogg"
   ],
@@ -28093,6 +28857,21 @@
   "52d6068d6361349034008104_31": [
    "clips/7e620cec2ae0775f.ogg"
   ],
+  "52d6068d6361349034008104_31#dwarf": [
+   "clips/dbdea8c86391042e.ogg"
+  ],
+  "52d6068d6361349034008104_31#elf": [
+   "clips/a9d62b6a0555577d.ogg"
+  ],
+  "52d6068d6361349034008104_31#human": [
+   "clips/2bde241ccfa390df.ogg"
+  ],
+  "52d6068d6361349034008104_31#ork": [
+   "clips/55ae5f0f8c998ad0.ogg"
+  ],
+  "52d6068d6361349034008104_31#troll": [
+   "clips/97b8715df1b9be2f.ogg"
+  ],
   "52d6068d6361349034008104_32": [
    "clips/4800d7cf38d92fad.ogg"
   ],
@@ -28116,6 +28895,21 @@
   ],
   "52d888ab373937f0430013b7_12": [
    "clips/8f8ab5310d7f3a7f.ogg"
+  ],
+  "52d888ab373937f0430013b7_12#dwarf": [
+   "clips/176b537d8d0ac06c.ogg"
+  ],
+  "52d888ab373937f0430013b7_12#elf": [
+   "clips/012722abd72e105d.ogg"
+  ],
+  "52d888ab373937f0430013b7_12#human": [
+   "clips/cffd1d67b293a1ee.ogg"
+  ],
+  "52d888ab373937f0430013b7_12#ork": [
+   "clips/0626f4ccd95d8377.ogg"
+  ],
+  "52d888ab373937f0430013b7_12#troll": [
+   "clips/265fc3e9c282ef3c.ogg"
   ],
   "52f95704636134041f00dd54_1": [
    "clips/0586294e09727020.ogg"
@@ -28144,6 +28938,21 @@
   "52c74dbd6636616c27000046_5": [
    "clips/42e6b5dd16067569.ogg"
   ],
+  "52c74dbd6636616c27000046_5#dwarf": [
+   "clips/ad46087ef5011ac4.ogg"
+  ],
+  "52c74dbd6636616c27000046_5#elf": [
+   "clips/fcce70431fc4e330.ogg"
+  ],
+  "52c74dbd6636616c27000046_5#human": [
+   "clips/fe8e14e04f71fed8.ogg"
+  ],
+  "52c74dbd6636616c27000046_5#ork": [
+   "clips/6837319a9091fe29.ogg"
+  ],
+  "52c74dbd6636616c27000046_5#troll": [
+   "clips/9669215681ec3c44.ogg"
+  ],
   "52c74dbd6636616c27000046_6": [
    "clips/6fd69e6b56f8a811.ogg"
   ],
@@ -28165,8 +28974,38 @@
   "52c74dbd6636616c27000046_19": [
    "clips/1df3e2835b2d53cd.ogg"
   ],
+  "52c74dbd6636616c27000046_19#dwarf": [
+   "clips/8320543f19a5e3ba.ogg"
+  ],
+  "52c74dbd6636616c27000046_19#elf": [
+   "clips/18ae43646580686f.ogg"
+  ],
+  "52c74dbd6636616c27000046_19#human": [
+   "clips/4efad7ffb52125a0.ogg"
+  ],
+  "52c74dbd6636616c27000046_19#ork": [
+   "clips/469e8a5a46371da4.ogg"
+  ],
+  "52c74dbd6636616c27000046_19#troll": [
+   "clips/40e4d387b3a7b40c.ogg"
+  ],
   "52c74dbd6636616c27000046_20": [
    "clips/53951b8ef91e4f6d.ogg"
+  ],
+  "52c74dbd6636616c27000046_20#dwarf": [
+   "clips/9ae7450d9dce9f0a.ogg"
+  ],
+  "52c74dbd6636616c27000046_20#elf": [
+   "clips/aa9c1f4638e057d5.ogg"
+  ],
+  "52c74dbd6636616c27000046_20#human": [
+   "clips/fcda57a39a46b76d.ogg"
+  ],
+  "52c74dbd6636616c27000046_20#ork": [
+   "clips/18a33be68ede8fd3.ogg"
+  ],
+  "52c74dbd6636616c27000046_20#troll": [
+   "clips/44be3afb24c232f5.ogg"
   ],
   "52c74dbd6636616c27000046_22": [
    "clips/387215d5ee11a844.ogg"
@@ -28186,6 +29025,21 @@
   "52c74dbd6636616c27000046_27": [
    "clips/2c3b0dcd58c87146.ogg"
   ],
+  "52c74dbd6636616c27000046_27#dwarf": [
+   "clips/5914e71d7273370e.ogg"
+  ],
+  "52c74dbd6636616c27000046_27#elf": [
+   "clips/e6648336d68ceef8.ogg"
+  ],
+  "52c74dbd6636616c27000046_27#human": [
+   "clips/83efb3c1c56d0dd8.ogg"
+  ],
+  "52c74dbd6636616c27000046_27#ork": [
+   "clips/300866e3d84b484f.ogg"
+  ],
+  "52c74dbd6636616c27000046_27#troll": [
+   "clips/3124aa6a68f36fb6.ogg"
+  ],
   "52c74dbd6636616c27000046_29": [
    "clips/bddd6c6447e4eacd.ogg"
   ],
@@ -28196,8 +29050,43 @@
    "clips/b4a5ff8f90d54b70.ogg",
    "clips/d06f3cb152728451.ogg"
   ],
+  "52c74dbd6636616c27000046_31#dwarf": [
+   "clips/b4a5ff8f90d54b70.ogg",
+   "clips/a014619edfd90cc8.ogg"
+  ],
+  "52c74dbd6636616c27000046_31#elf": [
+   "clips/b4a5ff8f90d54b70.ogg",
+   "clips/2185e7a8bcbc9451.ogg"
+  ],
+  "52c74dbd6636616c27000046_31#human": [
+   "clips/b4a5ff8f90d54b70.ogg",
+   "clips/609974bd633dfcd7.ogg"
+  ],
+  "52c74dbd6636616c27000046_31#ork": [
+   "clips/b4a5ff8f90d54b70.ogg",
+   "clips/68e06a3c071e67e8.ogg"
+  ],
+  "52c74dbd6636616c27000046_31#troll": [
+   "clips/b4a5ff8f90d54b70.ogg",
+   "clips/69568e724731741d.ogg"
+  ],
   "52c74dbd6636616c27000046_32": [
    "clips/0ff45fc986c046d2.ogg"
+  ],
+  "52c74dbd6636616c27000046_32#dwarf": [
+   "clips/06058b63e8b6a045.ogg"
+  ],
+  "52c74dbd6636616c27000046_32#elf": [
+   "clips/5f760f0113063584.ogg"
+  ],
+  "52c74dbd6636616c27000046_32#human": [
+   "clips/78aa7a711a51523e.ogg"
+  ],
+  "52c74dbd6636616c27000046_32#ork": [
+   "clips/42b0bda8b93efe06.ogg"
+  ],
+  "52c74dbd6636616c27000046_32#troll": [
+   "clips/3aee4d4ce855f80d.ogg"
   ],
   "52c74dbd6636616c27000046_34": [
    "clips/e92337b1cb9a0c16.ogg"
@@ -28214,6 +29103,21 @@
   "52c74dbd6636616c27000046_40": [
    "clips/49345eb7b17e8a36.ogg"
   ],
+  "52c74dbd6636616c27000046_40#dwarf": [
+   "clips/e6e337d46b6cb302.ogg"
+  ],
+  "52c74dbd6636616c27000046_40#elf": [
+   "clips/a8c42043221aa4df.ogg"
+  ],
+  "52c74dbd6636616c27000046_40#human": [
+   "clips/b3c98f7cc36a3dc5.ogg"
+  ],
+  "52c74dbd6636616c27000046_40#ork": [
+   "clips/61e28b40a55b96d7.ogg"
+  ],
+  "52c74dbd6636616c27000046_40#troll": [
+   "clips/e3fd47b7189e8805.ogg"
+  ],
   "52c74dbd6636616c27000046_42": [
    "clips/8a67ce9ef1674576.ogg"
   ],
@@ -28223,11 +29127,56 @@
   "52c74dbd6636616c27000046_45": [
    "clips/21dc3370c5982ba5.ogg"
   ],
+  "52c74dbd6636616c27000046_45#dwarf": [
+   "clips/5f641793dc3c6edb.ogg"
+  ],
+  "52c74dbd6636616c27000046_45#elf": [
+   "clips/7852393cc5110f44.ogg"
+  ],
+  "52c74dbd6636616c27000046_45#human": [
+   "clips/b2454ba4c04a5b33.ogg"
+  ],
+  "52c74dbd6636616c27000046_45#ork": [
+   "clips/0742150f4e51f2c9.ogg"
+  ],
+  "52c74dbd6636616c27000046_45#troll": [
+   "clips/c14c33b905458a14.ogg"
+  ],
   "52c74dbd6636616c27000046_46": [
    "clips/2e6a7f3f0cb280c7.ogg"
   ],
+  "52c74dbd6636616c27000046_46#dwarf": [
+   "clips/03c51715a02ba949.ogg"
+  ],
+  "52c74dbd6636616c27000046_46#elf": [
+   "clips/1a078dda5e6d3f3c.ogg"
+  ],
+  "52c74dbd6636616c27000046_46#human": [
+   "clips/f75a94667787fd3b.ogg"
+  ],
+  "52c74dbd6636616c27000046_46#ork": [
+   "clips/f5a167972a654076.ogg"
+  ],
+  "52c74dbd6636616c27000046_46#troll": [
+   "clips/a1bb5b1cde236003.ogg"
+  ],
   "52c74dbd6636616c27000046_47": [
    "clips/002bd1da17098e0d.ogg"
+  ],
+  "52c74dbd6636616c27000046_47#dwarf": [
+   "clips/bab8196c06ddcfb1.ogg"
+  ],
+  "52c74dbd6636616c27000046_47#elf": [
+   "clips/750d40f060fe28c9.ogg"
+  ],
+  "52c74dbd6636616c27000046_47#human": [
+   "clips/90a6ddcc6dc9e4c3.ogg"
+  ],
+  "52c74dbd6636616c27000046_47#ork": [
+   "clips/b438fe286e1e25bc.ogg"
+  ],
+  "52c74dbd6636616c27000046_47#troll": [
+   "clips/6ffa01705f6b8589.ogg"
   ],
   "52c74dbd6636616c27000046_49": [
    "clips/de93ae7114bad77d.ogg"
@@ -28267,6 +29216,21 @@
   "52c74dbd6636616c27000046_61": [
    "clips/fb9e9ec7a6f0e5f7.ogg"
   ],
+  "52c74dbd6636616c27000046_61#dwarf": [
+   "clips/25c9396431a999f1.ogg"
+  ],
+  "52c74dbd6636616c27000046_61#elf": [
+   "clips/b1bea73adc324719.ogg"
+  ],
+  "52c74dbd6636616c27000046_61#human": [
+   "clips/4ffbfd2ecae6be18.ogg"
+  ],
+  "52c74dbd6636616c27000046_61#ork": [
+   "clips/721857f8d15755b7.ogg"
+  ],
+  "52c74dbd6636616c27000046_61#troll": [
+   "clips/5d1cf3c153bf50c9.ogg"
+  ],
   "52c74dbd6636616c27000046_62": [
    "clips/95ca6bf83661264a.ogg"
   ],
@@ -28287,6 +29251,21 @@
   ],
   "52c74dbd6636616c27000046_69": [
    "clips/09989ecab30a0230.ogg"
+  ],
+  "52c74dbd6636616c27000046_69#dwarf": [
+   "clips/0837f5cb924706b1.ogg"
+  ],
+  "52c74dbd6636616c27000046_69#elf": [
+   "clips/e4433c5a787161b6.ogg"
+  ],
+  "52c74dbd6636616c27000046_69#human": [
+   "clips/e485378e976ecfab.ogg"
+  ],
+  "52c74dbd6636616c27000046_69#ork": [
+   "clips/74619c2347faf26e.ogg"
+  ],
+  "52c74dbd6636616c27000046_69#troll": [
+   "clips/5741e80aa6dcfd1d.ogg"
   ],
   "52c74dbd6636616c27000046_70": [
    "clips/18343255167afdde.ogg"
@@ -28327,6 +29306,21 @@
   "52c74dbd6636616c27000046_138": [
    "clips/ca3d019678181f01.ogg"
   ],
+  "52c74dbd6636616c27000046_138#dwarf": [
+   "clips/b285182b6447aba4.ogg"
+  ],
+  "52c74dbd6636616c27000046_138#elf": [
+   "clips/be9c45d023a7ff74.ogg"
+  ],
+  "52c74dbd6636616c27000046_138#human": [
+   "clips/64e33761e1af32d5.ogg"
+  ],
+  "52c74dbd6636616c27000046_138#ork": [
+   "clips/d8d04d02346a7c12.ogg"
+  ],
+  "52c74dbd6636616c27000046_138#troll": [
+   "clips/fe85f16db11612ed.ogg"
+  ],
   "52c74dbd6636616c27000046_140": [
    "clips/9aa570a87850d274.ogg"
   ],
@@ -28334,14 +29328,64 @@
    "clips/c425ce55802dcd19.ogg",
    "clips/6b01c51de3c5d2e4.ogg"
   ],
+  "52c74dbd6636616c27000046_141#dwarf": [
+   "clips/c425ce55802dcd19.ogg",
+   "clips/5dae132cdda9ba22.ogg"
+  ],
+  "52c74dbd6636616c27000046_141#elf": [
+   "clips/c425ce55802dcd19.ogg",
+   "clips/fa74ededdc31d34d.ogg"
+  ],
+  "52c74dbd6636616c27000046_141#human": [
+   "clips/c425ce55802dcd19.ogg",
+   "clips/2314747004df7262.ogg"
+  ],
+  "52c74dbd6636616c27000046_141#ork": [
+   "clips/c425ce55802dcd19.ogg",
+   "clips/5e5687be8c806013.ogg"
+  ],
+  "52c74dbd6636616c27000046_141#troll": [
+   "clips/c425ce55802dcd19.ogg",
+   "clips/8c9e4eae3bde7547.ogg"
+  ],
   "52c74dbd6636616c27000046_142": [
    "clips/0fb9d74c34554fc9.ogg"
+  ],
+  "52c74dbd6636616c27000046_142#dwarf": [
+   "clips/f01b4ceb789431f0.ogg"
+  ],
+  "52c74dbd6636616c27000046_142#elf": [
+   "clips/c879af1fc45651ad.ogg"
+  ],
+  "52c74dbd6636616c27000046_142#human": [
+   "clips/244cc34da257f942.ogg"
+  ],
+  "52c74dbd6636616c27000046_142#ork": [
+   "clips/1c03da85297d7859.ogg"
+  ],
+  "52c74dbd6636616c27000046_142#troll": [
+   "clips/d60b960f9beee8d5.ogg"
   ],
   "52c74dbd6636616c27000046_143": [
    "clips/09caaffe80b80e65.ogg"
   ],
   "52c74dbd6636616c27000046_144": [
    "clips/3f6720599caf9a2d.ogg"
+  ],
+  "52c74dbd6636616c27000046_144#dwarf": [
+   "clips/3064c3d6a86cb15e.ogg"
+  ],
+  "52c74dbd6636616c27000046_144#elf": [
+   "clips/8dcb0cb276b27a06.ogg"
+  ],
+  "52c74dbd6636616c27000046_144#human": [
+   "clips/811f1ecda3eb8885.ogg"
+  ],
+  "52c74dbd6636616c27000046_144#ork": [
+   "clips/c23f212db0830a84.ogg"
+  ],
+  "52c74dbd6636616c27000046_144#troll": [
+   "clips/3f624167e1301e32.ogg"
   ],
   "52c74dbd6636616c27000046_145": [
    "clips/52b703a9b2839696.ogg"
@@ -28383,6 +29427,21 @@
   "52c74dbd6636616c27000046_160": [
    "clips/e8f82bc4b603fbc9.ogg"
   ],
+  "52c74dbd6636616c27000046_160#dwarf": [
+   "clips/0550ec164ac32c02.ogg"
+  ],
+  "52c74dbd6636616c27000046_160#elf": [
+   "clips/8ebaaf2805ab261d.ogg"
+  ],
+  "52c74dbd6636616c27000046_160#human": [
+   "clips/14158413f90f4e5e.ogg"
+  ],
+  "52c74dbd6636616c27000046_160#ork": [
+   "clips/47cd55c87b9bff98.ogg"
+  ],
+  "52c74dbd6636616c27000046_160#troll": [
+   "clips/10bac868b63580e5.ogg"
+  ],
   "52c74dbd6636616c27000046_162": [
    "clips/acddb13dea17cac0.ogg"
   ],
@@ -28417,9 +29476,49 @@
    "clips/969011ea39c4063d.ogg",
    "clips/74db9a173d1a842a.ogg"
   ],
+  "52c74dbd6636616c27000046_197#dwarf": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/b50401e35261428a.ogg"
+  ],
+  "52c74dbd6636616c27000046_197#elf": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/f565cec9a5ad4d13.ogg"
+  ],
+  "52c74dbd6636616c27000046_197#human": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/abc485a013c7e997.ogg"
+  ],
+  "52c74dbd6636616c27000046_197#ork": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/fd6907418b117ee2.ogg"
+  ],
+  "52c74dbd6636616c27000046_197#troll": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/e9634b3c48bdc88b.ogg"
+  ],
   "52c74dbd6636616c27000046_198": [
    "clips/969011ea39c4063d.ogg",
    "clips/f07fcc3b04538081.ogg"
+  ],
+  "52c74dbd6636616c27000046_198#dwarf": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/28f8a90a59311c20.ogg"
+  ],
+  "52c74dbd6636616c27000046_198#elf": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/69b30a11a6908898.ogg"
+  ],
+  "52c74dbd6636616c27000046_198#human": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/8172d1fcc40a8886.ogg"
+  ],
+  "52c74dbd6636616c27000046_198#ork": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/f91953bebc8df843.ogg"
+  ],
+  "52c74dbd6636616c27000046_198#troll": [
+   "clips/969011ea39c4063d.ogg",
+   "clips/b1db6528dc7cbbaa.ogg"
   ],
   "52cb1fbd64343103bfa408b9_1": [
    "clips/89e41001812fd173.ogg",
@@ -28819,6 +29918,14 @@
    "clips/6b0ad93047646943.ogg",
    "clips/5314ffca610964d4.ogg"
   ],
+  "52c5d802643431411bb69ee2_22#f": [
+   "clips/6b0ad93047646943.ogg",
+   "clips/186118413129b0dd.ogg"
+  ],
+  "52c5d802643431411bb69ee2_22#m": [
+   "clips/6b0ad93047646943.ogg",
+   "clips/eaa4a3247fd5215e.ogg"
+  ],
   "52c5d802643431411bb69ee2_23": [
    "clips/c15c73627802edaa.ogg",
    "clips/5ce13073bce798d8.ogg"
@@ -28902,18 +30009,54 @@
    "clips/311c45a280050823.ogg",
    "clips/9f68361b5a2a8da8.ogg"
   ],
+  "52c5d802643431411bb69ee2_48#dwarf": [
+   "clips/311c45a280050823.ogg",
+   "clips/5660158ff8ab03d5.ogg"
+  ],
+  "52c5d802643431411bb69ee2_48#elf": [
+   "clips/311c45a280050823.ogg",
+   "clips/3db09fce8355cc74.ogg"
+  ],
+  "52c5d802643431411bb69ee2_48#human": [
+   "clips/311c45a280050823.ogg",
+   "clips/12fb6f9e9063b02e.ogg"
+  ],
+  "52c5d802643431411bb69ee2_48#ork": [
+   "clips/311c45a280050823.ogg",
+   "clips/d6f6393cc2a22db5.ogg"
+  ],
+  "52c5d802643431411bb69ee2_48#troll": [
+   "clips/311c45a280050823.ogg",
+   "clips/d8879882f135fc35.ogg"
+  ],
   "52c5d802643431411bb69ee2_49": [
    "clips/810a2d141a07009f.ogg"
   ],
   "52c5d802643431411bb69ee2_50": [
    "clips/5f27b1e5d1f87141.ogg"
   ],
+  "52c5d802643431411bb69ee2_50#f": [
+   "clips/73c752b59fe305bd.ogg"
+  ],
+  "52c5d802643431411bb69ee2_50#m": [
+   "clips/cf6878aec8da66d3.ogg"
+  ],
   "52c5d802643431411bb69ee2_51": [
    "clips/1fb853c3e91c90be.ogg"
+  ],
+  "52c5d802643431411bb69ee2_51#f": [
+   "clips/1839ea72f9f0dbe3.ogg"
+  ],
+  "52c5d802643431411bb69ee2_51#m": [
+   "clips/6c48f6f4ce53e278.ogg"
   ],
   "52c5d802643431411bb69ee2_52": [
    "clips/311c45a280050823.ogg",
    "clips/e0ad467c4a5803c0.ogg"
+  ],
+  "52c5d802643431411bb69ee2_52#f": [
+   "clips/311c45a280050823.ogg",
+   "clips/cb90c5a16eb1504c.ogg"
   ],
   "52c5d802643431411bb69ee2_53": [
    "clips/ef93be04cfe77a78.ogg"
@@ -28921,8 +30064,20 @@
   "52c5d802643431411bb69ee2_54": [
    "clips/5f27b1e5d1f87141.ogg"
   ],
+  "52c5d802643431411bb69ee2_54#f": [
+   "clips/73c752b59fe305bd.ogg"
+  ],
+  "52c5d802643431411bb69ee2_54#m": [
+   "clips/cf6878aec8da66d3.ogg"
+  ],
   "52c5d802643431411bb69ee2_55": [
    "clips/7a4b8a38b8d529b8.ogg"
+  ],
+  "52c5d802643431411bb69ee2_55#f": [
+   "clips/2a04cd1a7a5a0ddf.ogg"
+  ],
+  "52c5d802643431411bb69ee2_55#m": [
+   "clips/01f6599e27fbabd1.ogg"
   ],
   "52c5d802643431411bb69ee2_56": [
    "clips/ea903c24246a0b1a.ogg"
@@ -29054,6 +30209,31 @@
    "clips/0067bfed97bb9737.ogg",
    "clips/1a0c74a17a12097b.ogg"
   ],
+  "5356d86b323437d02500679a_13#dwarf": [
+   "clips/f5f404506b98e233.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1a0c74a17a12097b.ogg"
+  ],
+  "5356d86b323437d02500679a_13#elf": [
+   "clips/ebc91353559ec865.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1a0c74a17a12097b.ogg"
+  ],
+  "5356d86b323437d02500679a_13#human": [
+   "clips/8e0bfd2935c88f6a.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1a0c74a17a12097b.ogg"
+  ],
+  "5356d86b323437d02500679a_13#ork": [
+   "clips/1ef1cb0c24d2ba4a.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1a0c74a17a12097b.ogg"
+  ],
+  "5356d86b323437d02500679a_13#troll": [
+   "clips/d68a06b949f0ca5e.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1a0c74a17a12097b.ogg"
+  ],
   "5356d86b323437d02500679a_14": [
    "clips/cbfed35b9c0fd6bd.ogg",
    "clips/0ac8ff07a514aeb7.ogg",
@@ -29083,6 +30263,10 @@
   "5356d86b323437d02500679a_27": [
    "clips/af058670b714fd1e.ogg",
    "clips/dcf1a6235056563b.ogg"
+  ],
+  "5356d86b323437d02500679a_27#f": [
+   "clips/af058670b714fd1e.ogg",
+   "clips/31826a48f0e661b5.ogg"
   ],
   "5356d86b323437d02500679a_30": [
    "clips/364d98528040601d.ogg",
@@ -29121,13 +30305,38 @@
    "clips/0067bfed97bb9737.ogg",
    "clips/1e6fd43e72659ca1.ogg"
   ],
+  "5356d86b323437d02500679a_53#dwarf": [
+   "clips/eee5b7b21f64d582.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1e6fd43e72659ca1.ogg"
+  ],
+  "5356d86b323437d02500679a_53#elf": [
+   "clips/beafef65f94b15d3.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1e6fd43e72659ca1.ogg"
+  ],
+  "5356d86b323437d02500679a_53#human": [
+   "clips/dccc8adf7e47da0d.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1e6fd43e72659ca1.ogg"
+  ],
+  "5356d86b323437d02500679a_53#ork": [
+   "clips/f69873c6547cd5af.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1e6fd43e72659ca1.ogg"
+  ],
+  "5356d86b323437d02500679a_53#troll": [
+   "clips/e22a05af793b2834.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/1e6fd43e72659ca1.ogg"
+  ],
   "5356d86b323437d02500679a_54": [
    "clips/cbfed35b9c0fd6bd.ogg",
    "clips/0ac8ff07a514aeb7.ogg",
    "clips/90ea8dec9049614f.ogg"
   ],
   "5356d86b323437d02500679a_55": [
-   "clips/2257250443c88583.ogg",
+   "clips/fe93fbe6ff35d14d.ogg",
    "clips/0067bfed97bb9737.ogg",
    "clips/1e6fd43e72659ca1.ogg"
   ],
@@ -29135,6 +30344,31 @@
    "clips/f24e3c5d84dd047b.ogg",
    "clips/0067bfed97bb9737.ogg",
    "clips/16bdb4a22794eedb.ogg"
+  ],
+  "5356d86b323437d02500679a_57#dwarf": [
+   "clips/f24e3c5d84dd047b.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/f69b0eee15b90775.ogg"
+  ],
+  "5356d86b323437d02500679a_57#elf": [
+   "clips/f24e3c5d84dd047b.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/843667ae1f969c37.ogg"
+  ],
+  "5356d86b323437d02500679a_57#human": [
+   "clips/f24e3c5d84dd047b.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/d81f3821ce4e24a4.ogg"
+  ],
+  "5356d86b323437d02500679a_57#ork": [
+   "clips/f24e3c5d84dd047b.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/9b94588c0c4931f4.ogg"
+  ],
+  "5356d86b323437d02500679a_57#troll": [
+   "clips/f24e3c5d84dd047b.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/e64cd59dfec5b2ba.ogg"
   ],
   "5356d86b323437d02500679a_58": [
    "clips/6722f9b78fb6c3d9.ogg",
@@ -29158,12 +30392,50 @@
    "clips/84a4ae2221eadcda.ogg",
    "clips/0067bfed97bb9737.ogg"
   ],
+  "5356d86b323437d02500679a_67#dwarf": [
+   "clips/fcdfdee86ca1945a.ogg",
+   "clips/0067bfed97bb9737.ogg"
+  ],
+  "5356d86b323437d02500679a_67#elf": [
+   "clips/fcbe33735650fbce.ogg",
+   "clips/0067bfed97bb9737.ogg"
+  ],
+  "5356d86b323437d02500679a_67#human": [
+   "clips/95ecd528bf166d43.ogg",
+   "clips/0067bfed97bb9737.ogg"
+  ],
+  "5356d86b323437d02500679a_67#ork": [
+   "clips/4f1bc711f685c786.ogg",
+   "clips/0067bfed97bb9737.ogg"
+  ],
+  "5356d86b323437d02500679a_67#troll": [
+   "clips/c256178aa5e39b2a.ogg",
+   "clips/0067bfed97bb9737.ogg"
+  ],
   "5356d86b323437d02500679a_69": [
    "clips/ab06a5f45afdd9a8.ogg",
    "clips/0067bfed97bb9737.ogg"
   ],
+  "5356d86b323437d02500679a_69#f": [
+   "clips/8630a95baf3bf87b.ogg",
+   "clips/0067bfed97bb9737.ogg"
+  ],
+  "5356d86b323437d02500679a_69#m": [
+   "clips/4179214a3835465f.ogg",
+   "clips/0067bfed97bb9737.ogg"
+  ],
   "5356d86b323437d02500679a_70": [
    "clips/a6e2cbb459883c3e.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/0abf017763d1a36b.ogg"
+  ],
+  "5356d86b323437d02500679a_70#f": [
+   "clips/4d2b8cdf1426d06f.ogg",
+   "clips/0067bfed97bb9737.ogg",
+   "clips/0abf017763d1a36b.ogg"
+  ],
+  "5356d86b323437d02500679a_70#m": [
+   "clips/e7008ae23799aaef.ogg",
    "clips/0067bfed97bb9737.ogg",
    "clips/0abf017763d1a36b.ogg"
   ],
@@ -29596,6 +30868,12 @@
   "53e3fba73030318c1f0077be_0": [
    "clips/c1ca7ef0176231ce.ogg"
   ],
+  "53e3fba73030318c1f0077be_0#f": [
+   "clips/5358d9b4b2b318bb.ogg"
+  ],
+  "53e3fba73030318c1f0077be_0#m": [
+   "clips/299f7d80f5e70a26.ogg"
+  ],
   "53e400a83030318c1f0077de_1": [
    "clips/1c1ec3a5a7f6ec58.ogg"
   ],
@@ -29695,6 +30973,21 @@
   "5260599e303031cc10006e09_31": [
    "clips/81f1b52b65388e4a.ogg"
   ],
+  "5260599e303031cc10006e09_31#dwarf": [
+   "clips/d480bf1a87768ee7.ogg"
+  ],
+  "5260599e303031cc10006e09_31#elf": [
+   "clips/c94dbc3cf4157916.ogg"
+  ],
+  "5260599e303031cc10006e09_31#human": [
+   "clips/1e151db4ead13398.ogg"
+  ],
+  "5260599e303031cc10006e09_31#ork": [
+   "clips/bbaf597f5e32ab97.ogg"
+  ],
+  "5260599e303031cc10006e09_31#troll": [
+   "clips/3b0771999a93e863.ogg"
+  ],
   "5260599e303031cc10006e09_32": [
    "clips/ee9e81dd45f0f718.ogg",
    "clips/2486f3fed4bf9aed.ogg",
@@ -29731,6 +31024,21 @@
   "5260599e303031cc10006e09_40": [
    "clips/0238b8f19bf171dc.ogg"
   ],
+  "5260599e303031cc10006e09_40#dwarf": [
+   "clips/feebeda5bddd5790.ogg"
+  ],
+  "5260599e303031cc10006e09_40#elf": [
+   "clips/7cff30351c46228e.ogg"
+  ],
+  "5260599e303031cc10006e09_40#human": [
+   "clips/cb851c35288a85b4.ogg"
+  ],
+  "5260599e303031cc10006e09_40#ork": [
+   "clips/87845e13f6d18655.ogg"
+  ],
+  "5260599e303031cc10006e09_40#troll": [
+   "clips/627916815bd5f54f.ogg"
+  ],
   "5260599e303031cc10006e09_41": [
    "clips/37587c0719a8dc3d.ogg",
    "clips/6d21e60258d5176a.ogg",
@@ -29760,6 +31068,26 @@
   "5260599e303031cc10006e09_49": [
    "clips/e83e2010d895cbce.ogg",
    "clips/d29909ea9c5029fa.ogg"
+  ],
+  "5260599e303031cc10006e09_49#dwarf": [
+   "clips/e83e2010d895cbce.ogg",
+   "clips/8055d5221f1f3495.ogg"
+  ],
+  "5260599e303031cc10006e09_49#elf": [
+   "clips/e83e2010d895cbce.ogg",
+   "clips/f82d88fc1ad0e323.ogg"
+  ],
+  "5260599e303031cc10006e09_49#human": [
+   "clips/e83e2010d895cbce.ogg",
+   "clips/fa1035ec760397e8.ogg"
+  ],
+  "5260599e303031cc10006e09_49#ork": [
+   "clips/e83e2010d895cbce.ogg",
+   "clips/0b7949ca94284fef.ogg"
+  ],
+  "5260599e303031cc10006e09_49#troll": [
+   "clips/e83e2010d895cbce.ogg",
+   "clips/216186147ea2be9b.ogg"
   ],
   "5260599e303031cc10006e09_50": [
    "clips/37587c0719a8dc3d.ogg",
@@ -29846,6 +31174,31 @@
    "clips/06e0edca3c5c68e3.ogg",
    "clips/640e742b97c4c627.ogg",
    "clips/c4ffda8b7d9c4864.ogg"
+  ],
+  "5260599e303031cc10006e09_70#dwarf": [
+   "clips/06e0edca3c5c68e3.ogg",
+   "clips/640e742b97c4c627.ogg",
+   "clips/89acd958142f358a.ogg"
+  ],
+  "5260599e303031cc10006e09_70#elf": [
+   "clips/06e0edca3c5c68e3.ogg",
+   "clips/640e742b97c4c627.ogg",
+   "clips/12988032c8f62316.ogg"
+  ],
+  "5260599e303031cc10006e09_70#human": [
+   "clips/06e0edca3c5c68e3.ogg",
+   "clips/640e742b97c4c627.ogg",
+   "clips/c6de1d136188bd1c.ogg"
+  ],
+  "5260599e303031cc10006e09_70#ork": [
+   "clips/06e0edca3c5c68e3.ogg",
+   "clips/640e742b97c4c627.ogg",
+   "clips/3e4a4f53e3906542.ogg"
+  ],
+  "5260599e303031cc10006e09_70#troll": [
+   "clips/06e0edca3c5c68e3.ogg",
+   "clips/640e742b97c4c627.ogg",
+   "clips/8be43e6886a97e71.ogg"
   ],
   "52606754303031cc10006e9a_3": [
    "clips/02ce927d221ffaf6.ogg"
@@ -30050,6 +31403,9 @@
   "525d6f9e303031bc0a0072cd_6": [
    "clips/e0015c0e03188691.ogg"
   ],
+  "525d6f9e303031bc0a0072cd_6#f": [
+   "clips/592169e1b17a6b46.ogg"
+  ],
   "525d6f9e303031bc0a0072cd_7": [
    "clips/c3ebff3e0719ea2e.ogg"
   ],
@@ -30195,6 +31551,12 @@
   "52ab4537643431431fd37135_21": [
    "clips/034477f231316b37.ogg"
   ],
+  "52ab4537643431431fd37135_21#f": [
+   "clips/1e8990cc95e8e924.ogg"
+  ],
+  "52ab4537643431431fd37135_21#m": [
+   "clips/6e94693f1b046778.ogg"
+  ],
   "52ab4537643431431fd37135_23": [
    "clips/36c1a7e23cf3b114.ogg",
    "clips/6790a1a0666954a5.ogg",
@@ -30320,6 +31682,12 @@
   ],
   "52ab4537643431431fd37135_65": [
    "clips/034477f231316b37.ogg"
+  ],
+  "52ab4537643431431fd37135_65#f": [
+   "clips/1e8990cc95e8e924.ogg"
+  ],
+  "52ab4537643431431fd37135_65#m": [
+   "clips/6e94693f1b046778.ogg"
   ],
   "52ab4537643431431fd37135_67": [
    "clips/36c1a7e23cf3b114.ogg",
@@ -30588,6 +31956,16 @@
   ],
   "528519976261640406004f03_88": [
    "clips/8e27548fcee9745e.ogg",
+   "clips/9dee40c97e8c3a6d.ogg",
+   "clips/f2532cfd11c7be5d.ogg"
+  ],
+  "528519976261640406004f03_88#f": [
+   "clips/049c8b2fb01cd350.ogg",
+   "clips/9dee40c97e8c3a6d.ogg",
+   "clips/f2532cfd11c7be5d.ogg"
+  ],
+  "528519976261640406004f03_88#m": [
+   "clips/eb829e5774bbdac4.ogg",
    "clips/9dee40c97e8c3a6d.ogg",
    "clips/f2532cfd11c7be5d.ogg"
   ],
@@ -30882,6 +32260,14 @@
    "clips/50837be29e2960c1.ogg",
    "clips/61be57983e70da02.ogg"
   ],
+  "52953f9b636134f028000f21_14#f": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/7e08f231e5b71427.ogg"
+  ],
+  "52953f9b636134f028000f21_14#m": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/6e08a594a87b1104.ogg"
+  ],
   "52953f9b636134f028000f21_15": [
    "clips/16d7b9833aa38e50.ogg"
   ],
@@ -30914,6 +32300,14 @@
   "52953f9b636134f028000f21_27": [
    "clips/50837be29e2960c1.ogg",
    "clips/61be57983e70da02.ogg"
+  ],
+  "52953f9b636134f028000f21_27#f": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/7e08f231e5b71427.ogg"
+  ],
+  "52953f9b636134f028000f21_27#m": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/6e08a594a87b1104.ogg"
   ],
   "52953f9b636134f028000f21_28": [
    "clips/16d7b9833aa38e50.ogg"
@@ -30948,6 +32342,14 @@
    "clips/50837be29e2960c1.ogg",
    "clips/61be57983e70da02.ogg"
   ],
+  "52953f9b636134f028000f21_39#f": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/7e08f231e5b71427.ogg"
+  ],
+  "52953f9b636134f028000f21_39#m": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/6e08a594a87b1104.ogg"
+  ],
   "52953f9b636134f028000f21_40": [
    "clips/16d7b9833aa38e50.ogg"
   ],
@@ -30978,6 +32380,14 @@
   "52953f9b636134f028000f21_54": [
    "clips/50837be29e2960c1.ogg",
    "clips/61be57983e70da02.ogg"
+  ],
+  "52953f9b636134f028000f21_54#f": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/7e08f231e5b71427.ogg"
+  ],
+  "52953f9b636134f028000f21_54#m": [
+   "clips/50837be29e2960c1.ogg",
+   "clips/6e08a594a87b1104.ogg"
   ],
   "52953f9b636134f028000f21_61": [
    "clips/16d7b9833aa38e50.ogg"
@@ -31013,6 +32423,12 @@
   ],
   "52953f9b636134f028000f21_75": [
    "clips/28eb00fe0ad67c09.ogg"
+  ],
+  "52953f9b636134f028000f21_75#f": [
+   "clips/b3d6d0139058e425.ogg"
+  ],
+  "52953f9b636134f028000f21_75#m": [
+   "clips/6cd7ed683f543976.ogg"
   ],
   "52953f9b636134f028000f21_77": [
    "clips/7842aba316d48796.ogg",
@@ -31263,6 +32679,12 @@
   "52af576d6161362808001bbe_4": [
    "clips/f31f39f5daf5359f.ogg"
   ],
+  "52af576d6161362808001bbe_4#f": [
+   "clips/8f4593df434bac64.ogg"
+  ],
+  "52af576d6161362808001bbe_4#m": [
+   "clips/c841e86a21a8af84.ogg"
+  ],
   "52af576d6161362808001bbe_6": [
    "clips/eeb29289731743ba.ogg"
   ],
@@ -31481,6 +32903,16 @@
    "clips/241fb2d14ffafdea.ogg",
    "clips/103588b96c4fcc95.ogg"
   ],
+  "521d44a83030319015005ab9_23#f": [
+   "clips/e6ce5bff760ea93c.ogg",
+   "clips/241fb2d14ffafdea.ogg",
+   "clips/64d0ef54d1e1430b.ogg"
+  ],
+  "521d44a83030319015005ab9_23#m": [
+   "clips/e6ce5bff760ea93c.ogg",
+   "clips/241fb2d14ffafdea.ogg",
+   "clips/d04b4bc1864b0a25.ogg"
+  ],
   "521d44a83030319015005ab9_26": [
    "clips/86cbbd720c683149.ogg"
   ],
@@ -31571,6 +33003,9 @@
   ],
   "521e77003030318403005ff8_41": [
    "clips/d5c05c6f60ca459f.ogg"
+  ],
+  "521e77003030318403005ff8_41#f": [
+   "clips/6590f97efd5b98a8.ogg"
   ],
   "521e77003030318403005ff8_45": [
    "clips/9efee35a28375ec0.ogg"
@@ -32144,6 +33579,21 @@
   "523b9421346238e41d00754c_49": [
    "clips/6f668f6823a55db0.ogg"
   ],
+  "523b9421346238e41d00754c_49#dwarf": [
+   "clips/1276af4d6a0f5a5f.ogg"
+  ],
+  "523b9421346238e41d00754c_49#elf": [
+   "clips/de33634a5bec6ee4.ogg"
+  ],
+  "523b9421346238e41d00754c_49#human": [
+   "clips/ce2e514162551d7b.ogg"
+  ],
+  "523b9421346238e41d00754c_49#ork": [
+   "clips/63bb16f9a24561fd.ogg"
+  ],
+  "523b9421346238e41d00754c_49#troll": [
+   "clips/8badd06527409d5c.ogg"
+  ],
   "523b9421346238e41d00754c_50": [
    "clips/d43bdba4af0d31b2.ogg"
   ],
@@ -32219,6 +33669,9 @@
   "52b0f33b636134f804001950_22": [
    "clips/6e03651894f94ac0.ogg"
   ],
+  "52b0f33b636134f804001950_22#f": [
+   "clips/2a403744528565b4.ogg"
+  ],
   "52b0f33b636134f804001950_23": [
    "clips/c7332cba4b134ec3.ogg"
   ],
@@ -32261,6 +33714,9 @@
   ],
   "52b0f33b636134f804001950_36": [
    "clips/bf89a037d59a6b91.ogg"
+  ],
+  "52b0f33b636134f804001950_36#f": [
+   "clips/0a98a0712d353894.ogg"
   ],
   "52b0f33b636134f804001950_37": [
    "clips/7593c1f8aa25d3ac.ogg",
@@ -32308,6 +33764,12 @@
   "523b74fe346238e41d00704a_2": [
    "clips/7c9b4cdfda2b47cc.ogg"
   ],
+  "523b74fe346238e41d00704a_2#f": [
+   "clips/f75648057d4cbd20.ogg"
+  ],
+  "523b74fe346238e41d00704a_2#m": [
+   "clips/a2bc528e0a1aede3.ogg"
+  ],
   "523b74fe346238e41d00704a_3": [
    "clips/a57c3239d8ba10ec.ogg",
    "clips/ee9782ee207e1436.ogg",
@@ -32325,12 +33787,30 @@
    "clips/f1a65ae6439f0f08.ogg",
    "clips/2127d7b8eb8f53c7.ogg"
   ],
+  "523b74fe346238e41d00704a_6#f": [
+   "clips/f1a65ae6439f0f08.ogg",
+   "clips/fef90aa7886f5f20.ogg"
+  ],
+  "523b74fe346238e41d00704a_6#m": [
+   "clips/f1a65ae6439f0f08.ogg",
+   "clips/a3e80eb4cbc0add9.ogg"
+  ],
   "523b74fe346238e41d00704a_7": [
    "clips/190490971fd86930.ogg",
    "clips/8aafd45e8efbae58.ogg"
   ],
   "523b74fe346238e41d00704a_8": [
    "clips/c17d51ea77e9e16b.ogg",
+   "clips/65d75878b8a962e4.ogg",
+   "clips/2b083edb2ba78535.ogg"
+  ],
+  "523b74fe346238e41d00704a_8#f": [
+   "clips/85b828ed95a638eb.ogg",
+   "clips/65d75878b8a962e4.ogg",
+   "clips/2b083edb2ba78535.ogg"
+  ],
+  "523b74fe346238e41d00704a_8#m": [
+   "clips/97f9e287ff46c7f2.ogg",
    "clips/65d75878b8a962e4.ogg",
    "clips/2b083edb2ba78535.ogg"
   ],
@@ -32458,6 +33938,12 @@
   ],
   "523b74fe346238e41d00704a_42": [
    "clips/43016d1ce81f5553.ogg"
+  ],
+  "523b74fe346238e41d00704a_42#f": [
+   "clips/df53ed3a2edb5434.ogg"
+  ],
+  "523b74fe346238e41d00704a_42#m": [
+   "clips/3c2c494ef86692e6.ogg"
   ],
   "5232a5b5353165f00c005f96_1": [
    "clips/f5ea12472d3eaa30.ogg"
@@ -32964,6 +34450,14 @@
    "clips/dbcd5fbd9fe79258.ogg",
    "clips/b35f1b10b5091bc0.ogg"
   ],
+  "5241cc1f3030314c16003f68_21#f": [
+   "clips/dbcd5fbd9fe79258.ogg",
+   "clips/c3ce6ae83d4b149c.ogg"
+  ],
+  "5241cc1f3030314c16003f68_21#m": [
+   "clips/dbcd5fbd9fe79258.ogg",
+   "clips/1449437dd8e423b5.ogg"
+  ],
   "5241cc1f3030314c16003f68_22": [
    "clips/e9ddf8527bb8fd08.ogg"
   ],
@@ -33036,6 +34530,14 @@
    "clips/dbcd5fbd9fe79258.ogg",
    "clips/b35f1b10b5091bc0.ogg"
   ],
+  "52d41d4d3030312414000d16_13#f": [
+   "clips/dbcd5fbd9fe79258.ogg",
+   "clips/c3ce6ae83d4b149c.ogg"
+  ],
+  "52d41d4d3030312414000d16_13#m": [
+   "clips/dbcd5fbd9fe79258.ogg",
+   "clips/1449437dd8e423b5.ogg"
+  ],
   "52d41d4d3030312414000d16_14": [
    "clips/e9ddf8527bb8fd08.ogg"
   ],
@@ -33087,6 +34589,16 @@
    "clips/6e6a7e39861922db.ogg",
    "clips/4d94d68dd0bd16d3.ogg"
   ],
+  "53594e5c303031b40a000145_13#f": [
+   "clips/3b00b7b8881ef76d.ogg",
+   "clips/6e6a7e39861922db.ogg",
+   "clips/8665ee8976fa66fb.ogg"
+  ],
+  "53594e5c303031b40a000145_13#m": [
+   "clips/2f5affb5725e94b2.ogg",
+   "clips/6e6a7e39861922db.ogg",
+   "clips/70371afe2ffd5b07.ogg"
+  ],
   "53594e5c303031b40a000145_15": [
    "clips/6017531d5ea08259.ogg"
   ],
@@ -33118,6 +34630,12 @@
   "53594e5c303031b40a000145_36": [
    "clips/2cdfca6d8f01b7d5.ogg"
   ],
+  "53594e5c303031b40a000145_36#f": [
+   "clips/2a0ecc1e531fc9da.ogg"
+  ],
+  "53594e5c303031b40a000145_36#m": [
+   "clips/63ab59a239b040f5.ogg"
+  ],
   "53594e5c303031b40a000145_38": [
    "clips/d057e81eda9f57a4.ogg",
    "clips/8c4da5feb4d9fb96.ogg"
@@ -33135,10 +34653,30 @@
    "clips/6e6a7e39861922db.ogg",
    "clips/a1e290940da43133.ogg"
   ],
+  "53594e5c303031b40a000145_49#f": [
+   "clips/7a71c12aa751920b.ogg",
+   "clips/6e6a7e39861922db.ogg",
+   "clips/81760510d7052d44.ogg"
+  ],
+  "53594e5c303031b40a000145_49#m": [
+   "clips/8a8ca8409a6cf206.ogg",
+   "clips/6e6a7e39861922db.ogg",
+   "clips/3ab9c75a8ef4b203.ogg"
+  ],
   "53594e5c303031b40a000145_51": [
    "clips/844eb3c4f8a2401d.ogg",
    "clips/6e6a7e39861922db.ogg",
    "clips/a1e290940da43133.ogg"
+  ],
+  "53594e5c303031b40a000145_51#f": [
+   "clips/b81190c49e864c3a.ogg",
+   "clips/6e6a7e39861922db.ogg",
+   "clips/81760510d7052d44.ogg"
+  ],
+  "53594e5c303031b40a000145_51#m": [
+   "clips/38219906cb726aa2.ogg",
+   "clips/6e6a7e39861922db.ogg",
+   "clips/3ab9c75a8ef4b203.ogg"
   ],
   "53594e5c303031b40a000145_54": [
    "clips/c4118d7e82c5432f.ogg",
@@ -33446,6 +34984,14 @@
    "clips/c5f859fe4810f73e.ogg",
    "clips/dfee723e7eba2213.ogg"
   ],
+  "521e729d3030318403005fb6_0#f": [
+   "clips/c5f859fe4810f73e.ogg",
+   "clips/9bb21bf3f7bf53db.ogg"
+  ],
+  "521e729d3030318403005fb6_0#m": [
+   "clips/c5f859fe4810f73e.ogg",
+   "clips/843ed050272b215a.ogg"
+  ],
   "521e729d3030318403005fb6_3": [
    "clips/60b62fa1d29ccd0a.ogg"
   ],
@@ -33456,6 +35002,14 @@
   "521e77003030318403005ff8_0": [
    "clips/d06261a5cb826208.ogg",
    "clips/77cb397543ddc5f9.ogg"
+  ],
+  "521e77003030318403005ff8_0#f": [
+   "clips/d06261a5cb826208.ogg",
+   "clips/cc1db070f17f8366.ogg"
+  ],
+  "521e77003030318403005ff8_0#m": [
+   "clips/d06261a5cb826208.ogg",
+   "clips/35a571917e4f34c7.ogg"
   ],
   "521e77003030318403005ff8_7": [
    "clips/70255ae1edd48e0d.ogg",
@@ -33532,8 +35086,22 @@
    "clips/e9aa04c78155bbde.ogg",
    "clips/67168cac4953d6bc.ogg"
   ],
+  "527431c4663661902e0039a9_22#f": [
+   "clips/e9aa04c78155bbde.ogg",
+   "clips/4e65b731105dff59.ogg"
+  ],
+  "527431c4663661902e0039a9_22#m": [
+   "clips/e9aa04c78155bbde.ogg",
+   "clips/b1a49db15bce92a4.ogg"
+  ],
   "527431c4663661902e0039a9_23": [
    "clips/8c5cc2c4648cca44.ogg"
+  ],
+  "527431c4663661902e0039a9_23#f": [
+   "clips/727800d3a987c1e9.ogg"
+  ],
+  "527431c4663661902e0039a9_23#m": [
+   "clips/6736bd59ef670c8e.ogg"
   ],
   "527431c4663661902e0039a9_24": [
    "clips/775a09fd626282dc.ogg",
@@ -33541,6 +35109,12 @@
   ],
   "527431c4663661902e0039a9_25": [
    "clips/dcc36aad0bb7103f.ogg"
+  ],
+  "527431c4663661902e0039a9_25#f": [
+   "clips/93176b3fec84b776.ogg"
+  ],
+  "527431c4663661902e0039a9_25#m": [
+   "clips/5ffc21dcfe2b1142.ogg"
   ],
   "527431c4663661902e0039a9_26": [
    "clips/bbfe3480ee611993.ogg",
@@ -33704,6 +35278,12 @@
   ],
   "521fabb2303031bc14001670_1": [
    "clips/882296ad7ecce955.ogg"
+  ],
+  "521fabb2303031bc14001670_1#f": [
+   "clips/4b6e92a960b13119.ogg"
+  ],
+  "521fabb2303031bc14001670_1#m": [
+   "clips/07550a73a622a930.ogg"
   ],
   "521fabb2303031bc14001670_2": [
    "clips/19faf857e02a96a1.ogg",
@@ -34545,6 +36125,12 @@
   "5356dea16361341c15001aa7_33": [
    "clips/c3a8ac62bef3b52f.ogg"
   ],
+  "5356dea16361341c15001aa7_33#f": [
+   "clips/175f8a262fc88c4c.ogg"
+  ],
+  "5356dea16361341c15001aa7_33#m": [
+   "clips/991ddc44c5861f0a.ogg"
+  ],
   "5356dea16361341c15001aa7_35": [
    "clips/0eca3c2d32060cfc.ogg",
    "clips/a5e928b6962214c5.ogg",
@@ -34796,6 +36382,9 @@
   "53ce8f8e303031f014001550_14": [
    "clips/7243701397468b18.ogg"
   ],
+  "53ce8f8e303031f014001550_14#f": [
+   "clips/96b4743d77ef5fb2.ogg"
+  ],
   "53ce8f8e303031f014001550_16": [
    "clips/66e3ef3969c96be8.ogg"
   ],
@@ -34810,6 +36399,9 @@
   ],
   "53ce8f8e303031f014001550_22": [
    "clips/362469d94eeb9736.ogg"
+  ],
+  "53ce8f8e303031f014001550_22#f": [
+   "clips/429b03648556ea4b.ogg"
   ],
   "53ce8f8e303031f014001550_25": [
    "clips/5a5a846c1d572c53.ogg",
@@ -34827,6 +36419,16 @@
   ],
   "53e021c4303031d807002814_1": [
    "clips/69477d7025273043.ogg",
+   "clips/1d6f54e4945be37a.ogg",
+   "clips/af6172cb770baf1a.ogg"
+  ],
+  "53e021c4303031d807002814_1#f": [
+   "clips/d8fe53658e3054e8.ogg",
+   "clips/1d6f54e4945be37a.ogg",
+   "clips/af6172cb770baf1a.ogg"
+  ],
+  "53e021c4303031d807002814_1#m": [
+   "clips/6ce62e9e4a5ccc8a.ogg",
    "clips/1d6f54e4945be37a.ogg",
    "clips/af6172cb770baf1a.ogg"
   ],
@@ -35310,6 +36912,12 @@
   "529f95756636615817005f37_12": [
    "clips/9e7b4a15b094e37b.ogg"
   ],
+  "529f95756636615817005f37_12#f": [
+   "clips/45d7b5557676d633.ogg"
+  ],
+  "529f95756636615817005f37_12#m": [
+   "clips/2a720052d5fc4cb1.ogg"
+  ],
   "529f95756636615817005f37_13": [
    "clips/a5103e59d44e196e.ogg"
   ],
@@ -35318,6 +36926,12 @@
   ],
   "529f95756636615817005f37_15": [
    "clips/bbceb16cbbf1a5be.ogg"
+  ],
+  "529f95756636615817005f37_15#f": [
+   "clips/eb7cbf4d937a756b.ogg"
+  ],
+  "529f95756636615817005f37_15#m": [
+   "clips/ced908366609db22.ogg"
   ],
   "529f95756636615817005f37_16": [
    "clips/69a3f23cd992e840.ogg"
@@ -35394,6 +37008,12 @@
   "52af576d6161362808001bbe_215": [
    "clips/c44440adae9409ae.ogg"
   ],
+  "52af576d6161362808001bbe_215#f": [
+   "clips/a7ad015a63027d6e.ogg"
+  ],
+  "52af576d6161362808001bbe_215#m": [
+   "clips/e9f37385536a77db.ogg"
+  ],
   "52af576d6161362808001bbe_217": [
    "clips/0928da65c56addf2.ogg",
    "clips/61cc688dec68f730.ogg"
@@ -35403,6 +37023,12 @@
   ],
   "52af576d6161362808001bbe_221": [
    "clips/2719b280875e2882.ogg"
+  ],
+  "52af576d6161362808001bbe_221#f": [
+   "clips/db3febcb2c8b77fb.ogg"
+  ],
+  "52af576d6161362808001bbe_221#m": [
+   "clips/c30e688fc9f102ab.ogg"
   ],
   "52af576d6161362808001bbe_222": [
    "clips/3eb964b968dc018e.ogg"
@@ -35646,6 +37272,12 @@
   "52af8c8a6261642819001448_3": [
    "clips/d9074918b75d12e2.ogg"
   ],
+  "52af8c8a6261642819001448_3#f": [
+   "clips/ce3e89a2f34a3d8c.ogg"
+  ],
+  "52af8c8a6261642819001448_3#m": [
+   "clips/57993b180af4de4c.ogg"
+  ],
   "52af8c8a6261642819001448_4": [
    "clips/c076ae2b74515acd.ogg"
   ],
@@ -35879,6 +37511,12 @@
   "5260338a63613410230047f5_10": [
    "clips/c27e3c0d2142e904.ogg"
   ],
+  "5260338a63613410230047f5_10#f": [
+   "clips/44c9da31b6b0e9db.ogg"
+  ],
+  "5260338a63613410230047f5_10#m": [
+   "clips/889c948b8cebd74f.ogg"
+  ],
   "5260338a63613410230047f5_12": [
    "clips/6fce05ea6bde2d92.ogg",
    "clips/a3e310a1f04c2db5.ogg"
@@ -35912,6 +37550,12 @@
   ],
   "5260338a63613410230047f5_23": [
    "clips/947b6a66b20a5227.ogg"
+  ],
+  "5260338a63613410230047f5_23#f": [
+   "clips/66a185413a84a597.ogg"
+  ],
+  "5260338a63613410230047f5_23#m": [
+   "clips/3b726a59466e204e.ogg"
   ],
   "5260338a63613410230047f5_24": [
    "clips/179cd5938573d23f.ogg"
@@ -35951,6 +37595,31 @@
    "clips/100fbe396656eadb.ogg",
    "clips/8f74326a49cb02fa.ogg",
    "clips/40b6146778b05063.ogg"
+  ],
+  "525733c73030318804002cf6_8#dwarf": [
+   "clips/100fbe396656eadb.ogg",
+   "clips/8f74326a49cb02fa.ogg",
+   "clips/6d88ab2c478200e0.ogg"
+  ],
+  "525733c73030318804002cf6_8#elf": [
+   "clips/100fbe396656eadb.ogg",
+   "clips/8f74326a49cb02fa.ogg",
+   "clips/ab6d9951971d886f.ogg"
+  ],
+  "525733c73030318804002cf6_8#human": [
+   "clips/100fbe396656eadb.ogg",
+   "clips/8f74326a49cb02fa.ogg",
+   "clips/ea5fb118bcda0c74.ogg"
+  ],
+  "525733c73030318804002cf6_8#ork": [
+   "clips/100fbe396656eadb.ogg",
+   "clips/8f74326a49cb02fa.ogg",
+   "clips/67fe045effa41253.ogg"
+  ],
+  "525733c73030318804002cf6_8#troll": [
+   "clips/100fbe396656eadb.ogg",
+   "clips/8f74326a49cb02fa.ogg",
+   "clips/c181468204263889.ogg"
   ],
   "525733c73030318804002cf6_9": [
    "clips/a01e83581a979700.ogg",
@@ -35994,11 +37663,23 @@
   "5261d0f96361348409001bcb_1": [
    "clips/9e4764db9bd6d9e2.ogg"
   ],
+  "5261d0f96361348409001bcb_1#f": [
+   "clips/e18c9e7d6201a329.ogg"
+  ],
+  "5261d0f96361348409001bcb_1#m": [
+   "clips/8bfcf642f9d5e7c5.ogg"
+  ],
   "5261d0f96361348409001bcb_2": [
    "clips/0af5e16940e997e9.ogg"
   ],
   "5261d0f96361348409001bcb_3": [
    "clips/93512267119d2f13.ogg"
+  ],
+  "5261d0f96361348409001bcb_3#f": [
+   "clips/6237638f7d7c534b.ogg"
+  ],
+  "5261d0f96361348409001bcb_3#m": [
+   "clips/70d19a33567efac7.ogg"
   ],
   "5261d0f96361348409001bcb_5": [
    "clips/a141136637bcf2e8.ogg",
@@ -36438,6 +38119,12 @@
   "52abb7126636619429005443_17": [
    "clips/d8a244eb5b62d647.ogg"
   ],
+  "52abb7126636619429005443_17#f": [
+   "clips/c031a558d8bd7e58.ogg"
+  ],
+  "52abb7126636619429005443_17#m": [
+   "clips/892152218dd2fab0.ogg"
+  ],
   "5359b1b030303168150008a7_2": [
    "clips/9036b6b2800037ce.ogg",
    "clips/e4003d30ae333fcd.ogg",
@@ -36597,6 +38284,12 @@
   "53cea3413030316c09001713_16": [
    "clips/e23629882cd456e7.ogg"
   ],
+  "53cea3413030316c09001713_16#f": [
+   "clips/e46fa55fecec809c.ogg"
+  ],
+  "53cea3413030316c09001713_16#m": [
+   "clips/a3818dc702007827.ogg"
+  ],
   "53cea3413030316c09001713_17": [
    "clips/e9a76f12ad8c170d.ogg",
    "clips/3e644ec0328efb00.ogg"
@@ -36720,6 +38413,12 @@
   "53c5a0543030315803002800_3": [
    "clips/91590781bdf55941.ogg"
   ],
+  "53c5a0543030315803002800_3#f": [
+   "clips/e1c2f6d6dc9e8c53.ogg"
+  ],
+  "53c5a0543030315803002800_3#m": [
+   "clips/d94b13d34a0cc255.ogg"
+  ],
   "53c5a0543030315803002800_5": [
    "clips/42a6f1f2def4e47c.ogg",
    "clips/c19a865daaa45365.ogg"
@@ -36840,6 +38539,14 @@
    "clips/f7ca8e4480545442.ogg",
    "clips/980555954a3e02a8.ogg"
   ],
+  "52367040353165d4090012ee_7#f": [
+   "clips/f7ca8e4480545442.ogg",
+   "clips/535f006a260474ab.ogg"
+  ],
+  "52367040353165d4090012ee_7#m": [
+   "clips/f7ca8e4480545442.ogg",
+   "clips/9bfbc873892d6595.ogg"
+  ],
   "52367040353165d4090012ee_8": [
    "clips/0a0bf3751d00c3e2.ogg",
    "clips/1fdcd15d3abff06c.ogg",
@@ -36851,6 +38558,16 @@
   ],
   "52e2bf13373937707f00224d_1": [
    "clips/4cc8a95ff7a96c45.ogg",
+   "clips/5a49ebb01c08049a.ogg",
+   "clips/e43ac2c08b91a62d.ogg"
+  ],
+  "52e2bf13373937707f00224d_1#f": [
+   "clips/f10fff9b3988ef0d.ogg",
+   "clips/5a49ebb01c08049a.ogg",
+   "clips/e43ac2c08b91a62d.ogg"
+  ],
+  "52e2bf13373937707f00224d_1#m": [
+   "clips/5647d4237c0da35a.ogg",
    "clips/5a49ebb01c08049a.ogg",
    "clips/e43ac2c08b91a62d.ogg"
   ],
@@ -37200,6 +38917,16 @@
    "clips/002e2f77eb950386.ogg",
    "clips/f2a87f3eda8f446f.ogg"
   ],
+  "52409cd06261649814003f65_30#f": [
+   "clips/96a4a6b62b0fbeeb.ogg",
+   "clips/002e2f77eb950386.ogg",
+   "clips/0bcff410ed406ebb.ogg"
+  ],
+  "52409cd06261649814003f65_30#m": [
+   "clips/96a4a6b62b0fbeeb.ogg",
+   "clips/002e2f77eb950386.ogg",
+   "clips/f0472104d2bd9e2d.ogg"
+  ],
   "52409cd06261649814003f65_31": [
    "clips/c0d22da6f63619e8.ogg"
   ],
@@ -37213,12 +38940,32 @@
   "523bfc69346238e41d008008_31": [
    "clips/685a803d1bcb352b.ogg"
   ],
+  "523bfc69346238e41d008008_31#f": [
+   "clips/01fa3a8dd587ad14.ogg"
+  ],
+  "523bfc69346238e41d008008_31#m": [
+   "clips/630f358269c3dc85.ogg"
+  ],
   "523bfc69346238e41d008008_33": [
    "clips/c18f8c7cf6eaff4c.ogg"
+  ],
+  "523bfc69346238e41d008008_33#f": [
+   "clips/001cde4b773ac98c.ogg"
+  ],
+  "523bfc69346238e41d008008_33#m": [
+   "clips/fd00a186f54730a0.ogg"
   ],
   "523bfc69346238e41d008008_35": [
    "clips/6720c9f9717802ed.ogg",
    "clips/877564dea156704b.ogg"
+  ],
+  "523bfc69346238e41d008008_35#f": [
+   "clips/6720c9f9717802ed.ogg",
+   "clips/1ac1ed34799de098.ogg"
+  ],
+  "523bfc69346238e41d008008_35#m": [
+   "clips/6720c9f9717802ed.ogg",
+   "clips/a932b2b8f4455181.ogg"
   ],
   "523bfd34346238e41d0080bf_0": [
    "clips/2814c2592b6fe4e7.ogg",
@@ -37228,6 +38975,14 @@
   "523bfd34346238e41d0080bf_2": [
    "clips/cc8c2b927bcb59d7.ogg",
    "clips/279a625e34b97b8f.ogg"
+  ],
+  "523bfd34346238e41d0080bf_2#f": [
+   "clips/cc8c2b927bcb59d7.ogg",
+   "clips/33d487b187002caa.ogg"
+  ],
+  "523bfd34346238e41d0080bf_2#m": [
+   "clips/cc8c2b927bcb59d7.ogg",
+   "clips/be3231e5998ef6df.ogg"
   ],
   "523bfd34346238e41d0080bf_4": [
    "clips/bede5f3b1c80a33d.ogg",
@@ -37257,13 +39012,39 @@
    "clips/097b60bc83bc42fb.ogg",
    "clips/6897ff8e4b322e64.ogg"
   ],
+  "525d7184303031bc0a007314_1#f": [
+   "clips/097b60bc83bc42fb.ogg",
+   "clips/3b2d29a76583dd45.ogg"
+  ],
+  "525d7184303031bc0a007314_1#m": [
+   "clips/097b60bc83bc42fb.ogg",
+   "clips/3e0d08a19f075f72.ogg"
+  ],
   "525d7184303031bc0a007314_3": [
    "clips/b3fe665173adba96.ogg",
+   "clips/b860b68ddc3d60ba.ogg"
+  ],
+  "525d7184303031bc0a007314_3#f": [
+   "clips/e12f269913f5b7e3.ogg",
+   "clips/b860b68ddc3d60ba.ogg"
+  ],
+  "525d7184303031bc0a007314_3#m": [
+   "clips/22b2dfa038ddb7b3.ogg",
    "clips/b860b68ddc3d60ba.ogg"
   ],
   "525d7184303031bc0a007314_4": [
    "clips/958c454e8a2c1c37.ogg",
    "clips/915da53139184eba.ogg",
+   "clips/94dabfd9454978b8.ogg"
+  ],
+  "525d7184303031bc0a007314_4#f": [
+   "clips/958c454e8a2c1c37.ogg",
+   "clips/536d27a5aa71544b.ogg",
+   "clips/94dabfd9454978b8.ogg"
+  ],
+  "525d7184303031bc0a007314_4#m": [
+   "clips/958c454e8a2c1c37.ogg",
+   "clips/ee7310147a230f1c.ogg",
    "clips/94dabfd9454978b8.ogg"
   ],
   "525d7184303031bc0a007314_5": [
@@ -37278,6 +39059,9 @@
   "525d7184303031bc0a007314_10": [
    "clips/df626aaaacc1f846.ogg"
   ],
+  "525d7184303031bc0a007314_10#f": [
+   "clips/39db045e111844c8.ogg"
+  ],
   "525d7184303031bc0a007314_11": [
    "clips/87bca9b11b77ebb0.ogg"
   ],
@@ -37286,8 +39070,26 @@
    "clips/1119763a0b183ca7.ogg",
    "clips/2cd13cf2ddc3bdf4.ogg"
   ],
+  "526ad6e9303031ac160075d2_1#f": [
+   "clips/5dcb1c51dea480d9.ogg",
+   "clips/6148a52a3b776402.ogg",
+   "clips/2cd13cf2ddc3bdf4.ogg"
+  ],
+  "526ad6e9303031ac160075d2_1#m": [
+   "clips/5dcb1c51dea480d9.ogg",
+   "clips/f20c99aaf27e480d.ogg",
+   "clips/2cd13cf2ddc3bdf4.ogg"
+  ],
   "526ad6e9303031ac160075d2_2": [
    "clips/754871c4609a3edf.ogg",
+   "clips/6114ae4753036629.ogg"
+  ],
+  "526ad6e9303031ac160075d2_2#f": [
+   "clips/4a4c70e72d4fe5cc.ogg",
+   "clips/6114ae4753036629.ogg"
+  ],
+  "526ad6e9303031ac160075d2_2#m": [
+   "clips/8dc9e0a00f4a854e.ogg",
    "clips/6114ae4753036629.ogg"
   ],
   "53558fe830303114080016c6_5": [
@@ -37478,6 +39280,14 @@
    "clips/e26c880c1a2b0543.ogg",
    "clips/e022d869e68910fe.ogg"
   ],
+  "52449d8d30303170160026a4_4#f": [
+   "clips/e26c880c1a2b0543.ogg",
+   "clips/04021da0a7e5518b.ogg"
+  ],
+  "52449d8d30303170160026a4_4#m": [
+   "clips/e26c880c1a2b0543.ogg",
+   "clips/3a97ab99e27bfa2b.ogg"
+  ],
   "525c3d08303031d410005d43_3": [
    "clips/1074382e5201cb53.ogg"
   ],
@@ -37505,6 +39315,16 @@
    "clips/9287c42f1db694ac.ogg",
    "clips/5e37389a0de63917.ogg",
    "clips/6cda55969688c8fd.ogg"
+  ],
+  "525c3d08303031d410005d43_15#f": [
+   "clips/9287c42f1db694ac.ogg",
+   "clips/5e37389a0de63917.ogg",
+   "clips/2c49df59a7b9f6d7.ogg"
+  ],
+  "525c3d08303031d410005d43_15#m": [
+   "clips/9287c42f1db694ac.ogg",
+   "clips/5e37389a0de63917.ogg",
+   "clips/e3ef91eae507a50b.ogg"
   ],
   "525c3d08303031d410005d43_19": [
    "clips/b8e5c327bb839b1f.ogg"
@@ -37659,6 +39479,14 @@
    "clips/563acae80659f8c7.ogg",
    "clips/8d03f40c814b4e68.ogg"
   ],
+  "523749c0303031940c0001ec_10#f": [
+   "clips/563acae80659f8c7.ogg",
+   "clips/2229c0baaea261f4.ogg"
+  ],
+  "523749c0303031940c0001ec_10#m": [
+   "clips/563acae80659f8c7.ogg",
+   "clips/a610035b2b12186a.ogg"
+  ],
   "524c5c7a30303194170016ab_0": [
    "clips/c795ad534fd5cef0.ogg"
   ],
@@ -37679,6 +39507,14 @@
   ],
   "524c5c7a30303194170016ab_7": [
    "clips/65a60ade18ce5a2b.ogg",
+   "clips/c600465bf2b69017.ogg"
+  ],
+  "524c5c7a30303194170016ab_7#f": [
+   "clips/7df9f69d9676f3e6.ogg",
+   "clips/c600465bf2b69017.ogg"
+  ],
+  "524c5c7a30303194170016ab_7#m": [
+   "clips/82a754892d48105f.ogg",
    "clips/c600465bf2b69017.ogg"
   ],
   "524c5c7a30303194170016ab_8": [
@@ -37734,12 +39570,36 @@
    "clips/714036166cdc06c5.ogg",
    "clips/e39e40c58a50bf6e.ogg"
   ],
+  "52ab4537643431431fd37135_37#f": [
+   "clips/e7167b34ff060106.ogg",
+   "clips/e39e40c58a50bf6e.ogg"
+  ],
+  "52ab4537643431431fd37135_37#m": [
+   "clips/dc300c41f486fce2.ogg",
+   "clips/e39e40c58a50bf6e.ogg"
+  ],
   "52ab4537643431431fd37135_40": [
    "clips/714036166cdc06c5.ogg",
    "clips/58549af78cdb3241.ogg"
   ],
+  "52ab4537643431431fd37135_40#f": [
+   "clips/e7167b34ff060106.ogg",
+   "clips/58549af78cdb3241.ogg"
+  ],
+  "52ab4537643431431fd37135_40#m": [
+   "clips/dc300c41f486fce2.ogg",
+   "clips/58549af78cdb3241.ogg"
+  ],
   "52ab4537643431431fd37135_42": [
    "clips/714036166cdc06c5.ogg",
+   "clips/35c1f568bf9f4e7e.ogg"
+  ],
+  "52ab4537643431431fd37135_42#f": [
+   "clips/e7167b34ff060106.ogg",
+   "clips/35c1f568bf9f4e7e.ogg"
+  ],
+  "52ab4537643431431fd37135_42#m": [
+   "clips/dc300c41f486fce2.ogg",
    "clips/35c1f568bf9f4e7e.ogg"
   ],
   "52ab4537643431431fd37135_51": [
@@ -37799,6 +39659,9 @@
   ],
   "52b37b446636618815005944_7": [
    "clips/23c540e6c9fd7037.ogg"
+  ],
+  "52b37b446636618815005944_7#f": [
+   "clips/c167fdcbc9700ab7.ogg"
   ],
   "52b37b446636618815005944_8": [
    "clips/26ff1cb0e2822860.ogg"
@@ -38043,6 +39906,12 @@
   "52abaca1663661942900532e_2": [
    "clips/98d39bf7ad67e5bc.ogg"
   ],
+  "52abaca1663661942900532e_2#f": [
+   "clips/454c3c67e94adcd7.ogg"
+  ],
+  "52abaca1663661942900532e_2#m": [
+   "clips/6b04eab7c48acbed.ogg"
+  ],
   "52abaca1663661942900532e_7": [
    "clips/0919d2dbd53457ad.ogg"
   ],
@@ -38087,6 +39956,12 @@
   ],
   "53c818123030319016006c94_0": [
    "clips/653263efba0c9022.ogg"
+  ],
+  "53c818123030319016006c94_0#f": [
+   "clips/31c5c6b33c4e9ff5.ogg"
+  ],
+  "53c818123030319016006c94_0#m": [
+   "clips/7f2eb74a34469e3e.ogg"
   ],
   "53c818123030319016006c94_1": [
    "clips/308f9605d23cd89b.ogg"
@@ -38211,6 +40086,36 @@
   ],
   "53cd96c1323437c03b00323e_20": [
    "clips/158a30d53803055a.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#f.dwarf": [
+   "clips/ab191c94caa2ea3f.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#f.elf": [
+   "clips/3d373f05ba474f53.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#f.human": [
+   "clips/b17862bf7214b6eb.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#f.ork": [
+   "clips/8ebf4c5a7a99a55e.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#f.troll": [
+   "clips/81242ab99d3679e0.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#m.dwarf": [
+   "clips/0642d19edba3d7fc.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#m.elf": [
+   "clips/5b04587fd10395bd.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#m.human": [
+   "clips/95e998ca22b9c232.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#m.ork": [
+   "clips/498c5e30302de0fb.ogg"
+  ],
+  "53cd96c1323437c03b00323e_20#m.troll": [
+   "clips/dcdcfcad13fa88e8.ogg"
   ],
   "53cd96c1323437c03b00323e_22": [
    "clips/26ea6389370e8303.ogg",
@@ -38715,8 +40620,22 @@
    "clips/9e296c5970dc9747.ogg",
    "clips/b87ac9a3cb4e589c.ogg"
   ],
+  "523b948f346238e41d007555_22#f": [
+   "clips/9e296c5970dc9747.ogg",
+   "clips/638ec510c2d16c53.ogg"
+  ],
+  "523b948f346238e41d007555_22#m": [
+   "clips/9e296c5970dc9747.ogg",
+   "clips/2e1d647fa9d20469.ogg"
+  ],
   "523b948f346238e41d007555_23": [
    "clips/5d3a9b61ca03196d.ogg"
+  ],
+  "523b948f346238e41d007555_23#f": [
+   "clips/c625c5a578c93dc9.ogg"
+  ],
+  "523b948f346238e41d007555_23#m": [
+   "clips/f787d51ac3e34df2.ogg"
   ],
   "523b948f346238e41d007555_25": [
    "clips/cedc5185ce0ab57e.ogg"

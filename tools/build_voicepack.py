@@ -138,9 +138,20 @@ def main():
                 seq, whole = [], True
                 for bucket, seg_key in keys:
                     b = char_id if bucket == "char_or_narr" else bucket
-                    sel = (pick(b, f"{seg_key}#{vid}", bucket == "char_or_narr")
-                           if vid in ((VARIANTS.get(seg_key) or {}).get("v") or {})
-                           else pick(b, seg_key, bucket == "char_or_narr"))
+                    if vid in ((VARIANTS.get(seg_key) or {}).get("v") or {}):
+                        # A repeated line is generated once, so a node that is a copy has no
+                        # variant takes of its own — it inherits the canonical node's, exactly as
+                        # it already inherits the generic clip. Dedup groups now carry the variant
+                        # texts in their identity, so the canonical is guaranteed to say the same
+                        # words in every variant.
+                        canon = (aliases.get(b) or {}).get(seg_key)
+                        if canon is None and bucket == "char_or_narr":
+                            canon = (aliases.get("narrator") or {}).get(seg_key)
+                        sel = pick(b, f"{seg_key}#{vid}", bucket == "char_or_narr")
+                        if not sel and canon:
+                            sel = pick(b, f"{canon}#{vid}", bucket == "char_or_narr")
+                    else:
+                        sel = pick(b, seg_key, bucket == "char_or_narr")
                     if sel and os.path.exists(os.path.join(AUDIO, *sel.split("/"))):
                         seq.append(sel)
                     else:
@@ -264,8 +275,14 @@ def main():
         for l in ch.get("lines", []):
             bk = f'{l["c"]}_{l["n"]}'
             for bucket, sk in seg_keys(ch["id"], bk, SEGS):
-                reachable.add((ch["id"] if bucket == "char_or_narr" else bucket, sk))
+                b = ch["id"] if bucket == "char_or_narr" else bucket
+                reachable.add((b, sk))
                 reachable.add(("narrator", sk))
+                # A variant take is reached through its own key, not the segment's, so without this
+                # every one of them reads as an orphan from a dead segmentation.
+                for vid in (VARIANTS.get(sk) or {}).get("v") or {}:
+                    reachable.add((b, f"{sk}#{vid}"))
+                    reachable.add(("narrator", f"{sk}#{vid}"))
     for l in chars.get("narrator", {}).get("lines", []):
         reachable.add(("narrator", f'{l["c"]}_{l["n"]}'))
     for k in takes.get("_barks", {}):
@@ -273,6 +290,8 @@ def main():
     if os.path.exists(inspect_path):                       # inspect takes live under narrator, keyed insp_<md5>
         for k in json.load(open(inspect_path)):
             reachable.add(("narrator", k))
+            for vid in (VARIANTS.get(k) or {}).get("v") or {}:
+                reachable.add(("narrator", f"{k}#{vid}"))
     orphans = [(b, k) for b, lns in takes.items() for k, v in lns.items()
                if v.get("selected") and (b, k) not in reachable]
     if orphans:
