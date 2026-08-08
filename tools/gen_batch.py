@@ -13,7 +13,7 @@ Text is derived with lab/spoken.py - the same module the lab and the dedup use -
 generated is exactly what the lab shows. Repeated lines (dupes.json) and officially voiced lines
 are skipped, because the pack gets those from the canonical take and the game's own VO.
 """
-import argparse, json, math, os, queue, random, sys, threading, time, urllib.error, urllib.request
+import argparse, json, math, os, queue, random, re, sys, threading, time, urllib.error, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))     # ~/dev/voices
@@ -21,7 +21,13 @@ sys.path.insert(0, os.path.join(ROOT, "lab"))
 import spoken                                                      # noqa: E402
 
 LAB = os.environ.get("LAB_URL", "http://localhost:3719")
-credits = lambda n: 2 * math.ceil(math.ceil(n / 5) / 2)            # verified against simulate_cost
+def credits(n, voice_id=""):
+    """Magnific's price for n characters — verified against simulate_cost at eight lengths.
+    Locally synthesised voices cost nothing, and reporting them as spend makes the run's own
+    accounting a lie."""
+    if str(voice_id).startswith("sapi_"):
+        return 0
+    return 2 * math.ceil(math.ceil(n / 5) / 2)
 
 ap = argparse.ArgumentParser()
 ap.add_argument("game")
@@ -89,6 +95,13 @@ for cid in a.chars.split(","):
             text = spoken.effective_text(sk, raw, edits, directed)
             if not text.strip():
                 continue
+            # Nothing to say: the segment is punctuation or bare markup like '>><<', which the
+            # extractor keeps because it is part of the on-screen text. Direction tags are not
+            # spoken either, so a segment with no letters or digits outside them yields silence -
+            # SAPI returns an empty wav and a neural voice bills for a shrug. Seven of these exist
+            # in Dragonfall and each was a hard failure that no number of retries could clear.
+            if not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text), re.UNICODE):
+                continue
             voice = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice}
                      if a.voice else segov.get(sk) or picks.get(cid))
             if not voice:
@@ -99,7 +112,7 @@ for cid in a.chars.split(","):
 if a.limit:
     jobs = jobs[:a.limit]
 
-est = sum(credits(len(j["text"])) for j in jobs)
+est = sum(credits(len(j["text"]), j["voiceId"]) for j in jobs)
 print(f"{len(jobs)} segments, {sum(len(j['text']) for j in jobs):,} chars, ~{est:,} credits")
 if a.dry_run or not jobs:
     sys.exit(0)
@@ -182,7 +195,7 @@ def worker():
                 failures.append((job["charId"], job["lineKey"], err[:120]))
             else:
                 state["ok"] += 1
-                state["spent"] += credits(len(job["text"]))
+                state["spent"] += credits(len(job["text"]), job["voiceId"])
                 last_success[0] = time.time()
             if time.time() - last_success[0] > a.stall_minutes * 60:
                 print(f"  STOPPING: nothing has succeeded for {a.stall_minutes:.0f} min — "
