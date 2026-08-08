@@ -244,8 +244,8 @@
   "voiceName": "Ben Watson"
  },
  "name_digitalarchiveterminal": {
-  "voiceId": "mag_664",
-  "voiceName": "Evelyn Vale"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_alice": {
   "voiceId": "mag_532",
@@ -280,8 +280,8 @@
   "voiceName": "Jack Thornhill"
  },
  "name_console": {
-  "voiceId": "mag_244",
-  "voiceName": "James Alexander"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_janet": {
   "voiceId": "mag_160",
@@ -332,8 +332,8 @@
   "voiceName": "Charlotte Taylor"
  },
  "name_computerterminal": {
-  "voiceId": "mag_780",
-  "voiceName": "Rania Al-Zoubi"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_femaleinitiate": {
   "voiceId": "mag_839",
@@ -392,8 +392,8 @@
   "voiceName": "Noah Rivers"
  },
  "name_controlconsole": {
-  "voiceId": "mag_47",
-  "voiceName": "Tyler Quinn"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_alexander": {
   "voiceId": "mag_591",
@@ -476,8 +476,8 @@
   "voiceName": "Ciaran Walsh"
  },
  "name_pumpconsole": {
-  "voiceId": "mag_318",
-  "voiceName": "Oliver Whitmore"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_bartender": {
   "voiceId": "mag_337",
@@ -504,12 +504,12 @@
   "voiceName": "Clara Devon"
  },
  "name_servercomputer": {
-  "voiceId": "mag_532",
-  "voiceName": "Nyra- Robot Voice"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_terminal": {
-  "voiceId": "mag_780",
-  "voiceName": "Rania Al-Zoubi"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_dasfinanzwesen": {
   "voiceId": "mag_446",
@@ -520,8 +520,8 @@
   "voiceName": "Axel Virex"
  },
  "name_explosivecontrolpanel": {
-  "voiceId": "mag_807",
-  "voiceName": "Matthias Seidel"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_orkguard": {
   "voiceId": "mag_307",
@@ -568,8 +568,8 @@
   "voiceName": "Paige Turner"
  },
  "name_dronecontrolbox": {
-  "voiceId": "mag_244",
-  "voiceName": "James Alexander"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_gangenforcer": {
   "voiceId": "mag_364",
@@ -624,8 +624,8 @@
   "voiceName": "Vera Raze"
  },
  "name_aztecthnologyinventoryterminal": {
-  "voiceId": "mag_291",
-  "voiceName": "Emma Johnson"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_volunteerworker": {
   "voiceId": "mag_596",
@@ -660,24 +660,24 @@
   "voiceName": "Daniel Brooks"
  },
  "name_securitydrone": {
-  "voiceId": "mag_244",
-  "voiceName": "James Alexander"
+  "voiceId": "sapi_zira",
+  "voiceName": "Microsoft Zira (SAPI)"
  },
  "name_streetrat": {
   "voiceId": "mag_43",
   "voiceName": "Ella Morgan"
  },
  "name_otksecuritydrone": {
-  "voiceId": "mag_532",
-  "voiceName": "Nyra- Robot Voice"
+  "voiceId": "sapi_zira",
+  "voiceName": "Microsoft Zira (SAPI)"
  },
  "name_bachmeier": {
   "voiceId": "mag_350",
   "voiceName": "Henry Beckett"
  },
  "name_generatorcontrolpanel": {
-  "voiceId": "mag_543",
-  "voiceName": "Axel Virex"
+  "voiceId": "sapi_zira",
+  "voiceName": "Microsoft Zira (SAPI)"
  },
  "name_elevatorcontrols": {
   "voiceId": "mag_807",
@@ -744,8 +744,8 @@
   "voiceName": "Ben Watson"
  },
  "name_doorconsole": {
-  "voiceId": "mag_244",
-  "voiceName": "James Alexander"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_messagefile": {
   "voiceId": "mag_291",

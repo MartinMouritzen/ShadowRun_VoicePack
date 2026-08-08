@@ -27,6 +27,8 @@ def credits(n, voice_id=""):
     accounting a lie."""
     if str(voice_id).startswith("sapi_"):
         return 0
+    if not str(voice_id).startswith("mag_"):
+        return n          # ElevenLabs bills one credit per character, and it is a much smaller pot
     return 2 * math.ceil(math.ceil(n / 5) / 2)
 
 ap = argparse.ArgumentParser()
@@ -75,19 +77,26 @@ if isinstance(_n, dict) and not any(c.get("id") == "narrator" for c in cast):
                     "lines": _n.get("lines") or []})
 by_id = {c["id"]: c for c in cast}
 jobs = []
-for cid in a.chars.split(","):
-    c = by_id.get(cid)
-    if not c:
+wanted = a.chars.split(",")
+for cid in wanted:
+    if cid not in by_id:
         print(f"  WARN: no character '{cid}'", file=sys.stderr)
-        continue
-    alias, done = aliases.get(cid) or {}, takes.get(cid) or {}
-    for line in c.get("lines") or []:
+# A take store bucket is not the same thing as the character who owns the line. Narration is the
+# case that matters: {{GM}} segments inside anyone's dialogue belong to the 'narrator' bucket, and
+# in Dragonfall that is three quarters of everything the narrator says. Walking only the requested
+# character's own lines made all of it unreachable - the same shape of bug as the narrator not
+# being in characters[] at all. So scan every line and keep the segments whose BUCKET was asked for.
+for owner in cast:
+    ocid = owner.get("id")
+    for line in owner.get("lines") or []:
         key = spoken.line_key(line, pad)
         if line.get("locked") or key.split("~")[0] in official:
             continue
-        for bucket, sk, raw in spoken.segments_for(cid, key, line, segs, fmt, spoken_ov):
-            if bucket != cid:                       # narrator segments belong to the narrator
+        for bucket, sk, raw in spoken.segments_for(ocid, key, line, segs, fmt, spoken_ov):
+            if bucket not in wanted:
                 continue
+            cid = bucket
+            alias, done = aliases.get(cid) or {}, takes.get(cid) or {}
             if only is not None and sk not in only:
                 continue
             if alias.get(sk) or (not a.redo and (done.get(sk) or {}).get("takes")):
