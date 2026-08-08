@@ -13,7 +13,7 @@ Text is derived with lab/spoken.py - the same module the lab and the dedup use -
 generated is exactly what the lab shows. Repeated lines (dupes.json) and officially voiced lines
 are skipped, because the pack gets those from the canonical take and the game's own VO.
 """
-import argparse, json, math, os, queue, sys, threading, time, urllib.error, urllib.request
+import argparse, json, math, os, queue, random, sys, threading, time, urllib.error, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))     # ~/dev/voices
@@ -35,6 +35,12 @@ ap.add_argument("--voice", help="voiceId to use instead of the character's casti
 ap.add_argument("--voice-name", default="")
 ap.add_argument("--redo", action="store_true", help="generate even for lines that already have takes")
 ap.add_argument("--keys", help="comma-separated segment keys to restrict to")
+ap.add_argument("--pace", type=float, default=0.0,
+                help="minimum seconds between request starts, across all workers. The provider's "
+                     "cap replenishes in a lump; bursting drains it in minutes and then everything "
+                     "waits. Pacing just under the ceiling keeps it flowing instead.")
+ap.add_argument("--stall-minutes", type=float, default=45.0,
+                help="give up if nothing at all succeeds for this long")
 a = ap.parse_args()
 only = set(a.keys.split(",")) if a.keys else None
 
@@ -102,7 +108,7 @@ q = queue.Queue()
 for j in jobs:
     q.put(j)
 lock = threading.Lock()
-state = {"ok": 0, "fail": 0, "spent": 0}
+state = {"ok": 0, "fail": 0, "spent": 0, "throttled": 0}
 t0 = time.time()
 failures = []
 
@@ -114,10 +120,26 @@ def post(job):
         return json.loads(r.read())
 
 throttled_until = [0.0]                 # shared: one worker hitting the cap pauses all of them
+next_start = [0.0]                      # shared: proactive pacing, see --pace
+last_success = [time.time()]
+pace_lock = threading.Lock()
 
 def is_throttle(msg):
     m = (msg or "").lower()
     return "too many" in m or "rate limit" in m or "-32000" in m
+
+def take_slot():
+    """Space request starts out across all workers."""
+    if a.pace <= 0:
+        return
+    while True:
+        with pace_lock:
+            now = time.time()
+            if now >= next_start[0]:
+                next_start[0] = max(now, next_start[0]) + a.pace
+                return
+            wait = next_start[0] - now
+        time.sleep(min(wait, 5))
 
 def worker():
     while True:
@@ -126,41 +148,55 @@ def worker():
         except queue.Empty:
             return
         err = None
-        # Up to ~8 attempts, because the provider's hourly tool-call cap is a WAIT, not a failure.
-        # Marking a throttled job failed and moving on drains the queue in minutes and generates
-        # nothing; the first version of this did exactly that to 1,900 lines.
-        for attempt in range(8):
+        # A throttle is never a failed line and never costs the job an attempt: it goes back on
+        # the queue and something else is tried meanwhile. Only genuine errors are retried a fixed
+        # number of times and then given up on. An earlier version spent its attempts sleeping
+        # through a closed quota and then marked the line failed, which lost 1,900 of them.
+        for attempt in range(3):
             nap = throttled_until[0] - time.time()
             if nap > 0:
-                time.sleep(min(nap, 90))
+                time.sleep(min(nap, 30) + random.uniform(0, 3))   # jitter: avoid a thundering herd
+            take_slot()
             try:
                 res = post(job)
                 if res.get("error"):
                     err = res["error"]
                     if is_throttle(err):
                         with lock:
-                            throttled_until[0] = max(throttled_until[0],
-                                                     time.time() + min(20 * (attempt + 1), 120))
-                        continue
-                    break                # a real error: retry once more, then give up
+                            throttled_until[0] = max(throttled_until[0], time.time() + 30)
+                            state["throttled"] += 1
+                        q.put(job)                # try it again later, behind the rest
+                        err = "__requeued__"
+                        break
+                    continue                      # a real error: retry
                 err = None
                 break
             except Exception as e:
                 err = str(e)
                 time.sleep(2 * (attempt + 1))
         with lock:
-            if err:
+            if err == "__requeued__":
+                pass
+            elif err:
                 state["fail"] += 1
                 failures.append((job["charId"], job["lineKey"], err[:120]))
             else:
                 state["ok"] += 1
                 state["spent"] += credits(len(job["text"]))
+                last_success[0] = time.time()
+            if time.time() - last_success[0] > a.stall_minutes * 60:
+                print(f"  STOPPING: nothing has succeeded for {a.stall_minutes:.0f} min — "
+                      f"the quota looks closed. Re-run later to resume.", flush=True)
+                while not q.empty():
+                    try: q.get_nowait()
+                    except queue.Empty: break
+                return
             n = state["ok"] + state["fail"]
             if n % 25 == 0 or n == len(jobs):
                 el = time.time() - t0
                 rate = n / el if el else 0
                 left = (len(jobs) - n) / rate if rate else 0
-                print(f"  {n}/{len(jobs)}  ok={state['ok']} fail={state['fail']} "
+                print(f"  {n}/{len(jobs)}  ok={state['ok']} fail={state['fail']} thr={state['throttled']} "
                       f"~{state['spent']:,} credits  {rate:.2f}/s  eta {left/60:.0f} min", flush=True)
         q.task_done()
 
