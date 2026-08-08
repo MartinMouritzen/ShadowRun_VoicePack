@@ -10873,6 +10873,50 @@
    "t": "Don't engage with him. Just let him hang onto his little fantasy... we need to get out of here before those bioware samples start to thaw."
   }
  ],
+ "52ce01cf663661582b0023ff_1": [
+  {
+   "who": "char",
+   "t": "Shame it had to come to that. He just..."
+  },
+  {
+   "who": "gm",
+   "t": "Her voice trails off to nothing."
+  }
+ ],
+ "52ce01cf663661582b0023ff_4": [
+  {
+   "who": "char",
+   "t": "A few seconds later, the shooter was a red smear on the sidewalk, and Dante..."
+  },
+  {
+   "who": "gm",
+   "t": "Eiger stabs a thumb towards the motionless dog."
+  },
+  {
+   "who": "char",
+   "t": "...looked like that."
+  }
+ ],
+ "52ce01cf663661582b0023ff_6": [
+  {
+   "who": "gm",
+   "t": "She shakes her head, her eyes still focused on Dante's broken body."
+  },
+  {
+   "who": "char",
+   "t": "I'm sorry, Monika. Wherever you are."
+  }
+ ],
+ "52ce01cf663661582b0023ff_7": [
+  {
+   "who": "char",
+   "t": "He just snapped. When these mercs started gunning people down in the street..."
+  },
+  {
+   "who": "gm",
+   "t": "The words trail off again."
+  }
+ ],
  "52336c1638336110170073fa_0": [
   {
    "who": "gm",
@@ -14495,30 +14539,6 @@
    "t": "...Some reward. In terms of computing power, my PDA could probably run circles around this thing."
   }
  ],
- "5256e175636134002a002945_1": [
-  {
-   "who": "char",
-   "t": "See the cameras in the corner of the room?"
-  },
-  {
-   "who": "gm",
-   "t": "Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them."
-  },
-  {
-   "who": "char",
-   "t": "Wave hi. I'm on the other side of 'em."
-  }
- ],
- "5256e175636134002a002945_15": [
-  {
-   "who": "gm",
-   "t": "From the pause on the other end of the line, you can tell that you've caught Blitz off guard."
-  },
-  {
-   "who": "char",
-   "t": "Yeah? What's that?"
-  }
- ],
  "52675434626164703000513a_8": [
   {
    "who": "gm",
@@ -15021,6 +15041,30 @@
   {
    "who": "char",
    "t": "That's pretty vile, chief. I mean, seriously."
+  }
+ ],
+ "5256e175636134002a002945_1": [
+  {
+   "who": "char",
+   "t": "See the cameras in the corner of the room?"
+  },
+  {
+   "who": "gm",
+   "t": "Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them."
+  },
+  {
+   "who": "char",
+   "t": "Wave hi. I'm on the other side of 'em."
+  }
+ ],
+ "5256e175636134002a002945_15": [
+  {
+   "who": "gm",
+   "t": "From the pause on the other end of the line, you can tell that you've caught Blitz off guard."
+  },
+  {
+   "who": "char",
+   "t": "Yeah? What's that?"
   }
  ],
  "520a77823030315011001698_5": [
@@ -42187,6 +42231,12 @@
    "t": "Dante whimpers and looks up at you mournfully."
   }
  ],
+ "52b231cc663661f02100377b_14": [
+  {
+   "who": "gm",
+   "t": "Dante whimpers and looks up at you mournfully."
+  }
+ ],
  "52b4d9fb64343172ad63962e_18": [
   {
    "who": "gm",
@@ -42197,50 +42247,6 @@
   {
    "who": "gm",
    "t": "Dante lifts his head and looks up at you mournfully. The feral aggression is gone from his eyes. He’s changed - you can see it - but he’s still Dante."
-  }
- ],
- "52ce01cf663661582b0023ff_1": [
-  {
-   "who": "char",
-   "t": "Shame it had to come to that. He just..."
-  },
-  {
-   "who": "gm",
-   "t": "Her voice trails off to nothing."
-  }
- ],
- "52ce01cf663661582b0023ff_4": [
-  {
-   "who": "char",
-   "t": "A few seconds later, the shooter was a red smear on the sidewalk, and Dante..."
-  },
-  {
-   "who": "gm",
-   "t": "Eiger stabs a thumb towards the motionless dog."
-  },
-  {
-   "who": "char",
-   "t": "...looked like that."
-  }
- ],
- "52ce01cf663661582b0023ff_6": [
-  {
-   "who": "gm",
-   "t": "She shakes her head, her eyes still focused on Dante's broken body."
-  },
-  {
-   "who": "char",
-   "t": "I'm sorry, Monika. Wherever you are."
-  }
- ],
- "52ce01cf663661582b0023ff_7": [
-  {
-   "who": "char",
-   "t": "He just snapped. When these mercs started gunning people down in the street..."
-  },
-  {
-   "who": "gm",
-   "t": "The words trail off again."
   }
  ],
  "5266f911663661b825003110_3": [

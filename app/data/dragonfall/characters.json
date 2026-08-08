@@ -14042,6 +14042,48 @@
      "n": 32,
      "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
      "t": "Don't engage with him. Just let him hang onto his little fantasy... we need to get out of here before those bioware samples start to thaw."
+    },
+    {
+     "c": "52ce01cf663661582b0023ff",
+     "n": 1,
+     "cn": "a3_RabbitHole_s1-DanteDisloyal",
+     "t": "Shame it had to come to that. He just...\n\n{{GM}}Her voice trails off to nothing.{{/GM}}"
+    },
+    {
+     "c": "52ce01cf663661582b0023ff",
+     "n": 2,
+     "cn": "a3_RabbitHole_s1-DanteDisloyal",
+     "t": "Yeah. Monika might have been holding something back from us.\n\nOr maybe she didn't know what Dante really was. I sure as hell didn't."
+    },
+    {
+     "c": "52ce01cf663661582b0023ff",
+     "n": 3,
+     "cn": "a3_RabbitHole_s1-DanteDisloyal",
+     "t": "It happened just before you got here. I don't know how.\n\nI caught sight of him on the way down to the U-Bahn platform, and he looked normal enough. Then one of these bastards winged him, and Dante snapped.\n\nHe was on the guy before I could blink."
+    },
+    {
+     "c": "52ce01cf663661582b0023ff",
+     "n": 4,
+     "cn": "a3_RabbitHole_s1-DanteDisloyal",
+     "t": "A few seconds later, the shooter was a red smear on the sidewalk, and Dante... \n\n{{GM}}Eiger stabs a thumb towards the motionless dog.{{/GM}}\n\n...looked like that."
+    },
+    {
+     "c": "52ce01cf663661582b0023ff",
+     "n": 5,
+     "cn": "a3_RabbitHole_s1-DanteDisloyal",
+     "t": "He started coming towards me next, teeth bared. I've never seen anything like it before, $(l.name). It was terrifying.\n\nI dropped a flash grenade behind me and booked it down to the U-Bahn."
+    },
+    {
+     "c": "52ce01cf663661582b0023ff",
+     "n": 6,
+     "cn": "a3_RabbitHole_s1-DanteDisloyal",
+     "t": "{{GM}}She shakes her head, her eyes still focused on Dante's broken body.{{/GM}}\n\nI'm sorry, Monika. Wherever you are."
+    },
+    {
+     "c": "52ce01cf663661582b0023ff",
+     "n": 7,
+     "cn": "a3_RabbitHole_s1-DanteDisloyal",
+     "t": "He just snapped. When these mercs started gunning people down in the street...\n\n{{GM}}The words trail off again.{{/GM}}"
     }
    ],
    "portraitFile": "dragonfall/npc_trollfemale_eiger.png"
@@ -19702,168 +19744,6 @@
      "t": "When we're talking about tech, it might as well. I'm sure that Maliit has a whole warehouse full of drones that could outperform this thing."
     },
     {
-     "c": "5256e175636134002a002945",
-     "n": 0,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Hey there, chief. Don't hang up - I've got a proposition for ya."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 1,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "See the cameras in the corner of the room?\n\n{{GM}}Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them.{{/GM}}\n\nWave hi. I'm on the other side of 'em."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 2,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "You've probably noticed that this building is under new management, right? \n\nAnd judging by the fresh corpses that I'm seeing strewn all over the hotel, I'm gonna guess that you don't like the new guys any better than I do."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 3,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Well, I'd like to make you an offer. You help cover my escape, and I'll get you into a secure vault on the top floor. Belonged to the leader of the gang that used to run this place."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 4,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Trust me, it's still secure... I set up the security protocols myself. The last decker they brought in to take a crack at it came back out on a stretcher. \n\nThey haven't found too many volunteers since then."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 6,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "That'd be an understatement, chum. More accurate to say that I'm THE decker, in these parts at least. \n\nMy handle in the Matrix is \"Blitz.\" Maybe you've heard of me?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 7,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "'Sokay, I run in pretty rarefied circles."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 8,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "The one and only.\n\nGlad to be talking to a fan."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 9,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "'Course it does. In Berlin's decker community, I'm a household name."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 10,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "They called themselves the \"Schwarze Herzen,\" and they pretty much ran Drogenkippe until a few days ago. \n\nThey weren't a pleasant bunch, but they were better than the jackasses we've got in here now."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 12,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "They're terrible people. Real bad guys, all of 'em.\n\nLook, I don't mean to rush you, but we can discuss all of this later. Y'know, *after* we get out of the building full of murderous thugs."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 13,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "I was in the hotel when it got taken over, and the new gang decided to keep me... \"on staff,\" I guess you could call it. \n\nThey put me in charge of Matrix security."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 14,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "I may be one of the hottest deckers in Berlin, but a bullet in the head will kill me just as dead as anyone else. \n\nGiven the circumstances, I didn't see how I could refuse."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 15,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "{{GM}}From the pause on the other end of the line, you can tell that you've caught Blitz off guard.{{/GM}} \n\nYeah? What's that?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 16,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Yeah, okay, I was a member. For a while. \n\nBut the old boss got himself killed in a firefight, and his second-in-command took over."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 17,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "That was when the new guys moved in... I guess that they sensed weakness, and the Schwarze Herzen were still disorganized from the transition. \n\nAnyway, long story short, I don't consider myself a member any more... I just wanna get out and do my own thing."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 18,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Good. Yeah, that's good. \n\nOkay, you wanna clear out the safe, or what?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 19,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Look, what does it matter to you if I WAS a member of Schwarze Herzen? I'm sure that you have some shady friends, too, but I'm not gonna ask about 'em 'cause it's none of my business. \n\nLet's just clean out the safe and get out of here, okay?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 20,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Gear. Money. You know, lots of good stuff."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 21,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Look, buddy, I just set up the Matrix security for the thing. The old boss didn't let me set foot into the vault. He was a little paranoid, you know? \n\nBut he was adamant that he wanted me to rig up some really killer IC, so there must be *something* of value in there."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 22,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "So how about it? You want a crack at that vault, or not?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 24,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Room 505, on the Penthouse floor. Come rendezvous with me here, and I'll take you to the vault."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 25,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "All right. Your loss.\n\nLook, if you change your mind, come meet me in Room 505 on the Penthouse floor.\n\nI'm tellin' you, you don't want to pass up this deal."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 26,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Well... no. I mean, I've never actually *seen* what's in the vault. Not personally."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 27,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "As are we all. So, shall we go grab it?"
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 28,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "You've probably noticed that this building is under new management, right?\n\nAnd judging by the way you've been tiptoeing around since you showed up, I'm gonna guess that you don't wanna tangle with the new guys any more than I do."
-    },
-    {
-     "c": "5256e175636134002a002945",
-     "n": 29,
-     "cn": "a1_Hotel_s1-Blitz",
-     "t": "Yeah, I get that... from what I'm seeing on my monitors, you've had a busy day.\n\nYou'll wanna hear me out, all the same. Trust me on this."
-    },
-    {
      "c": "52675434626164703000513a",
      "n": 8,
      "cn": "a2_AGChemie-S2-Lodge",
@@ -20757,6 +20637,168 @@
      "n": 2,
      "cn": "a2_AbandonedLab_s1-Streets_DumpsterDive",
      "t": "{{GM}}Blitz chokes out a startled chuckle.{{/GM}}\n\nThat's pretty vile, chief. I mean, seriously."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 0,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Hey there, chief. Don't hang up - I've got a proposition for ya."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 1,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "See the cameras in the corner of the room?\n\n{{GM}}Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them.{{/GM}}\n\nWave hi. I'm on the other side of 'em."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 2,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "You've probably noticed that this building is under new management, right? \n\nAnd judging by the fresh corpses that I'm seeing strewn all over the hotel, I'm gonna guess that you don't like the new guys any better than I do."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 3,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Well, I'd like to make you an offer. You help cover my escape, and I'll get you into a secure vault on the top floor. Belonged to the leader of the gang that used to run this place."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 4,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Trust me, it's still secure... I set up the security protocols myself. The last decker they brought in to take a crack at it came back out on a stretcher. \n\nThey haven't found too many volunteers since then."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 6,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "That'd be an understatement, chum. More accurate to say that I'm THE decker, in these parts at least. \n\nMy handle in the Matrix is \"Blitz.\" Maybe you've heard of me?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 7,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "'Sokay, I run in pretty rarefied circles."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 8,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "The one and only.\n\nGlad to be talking to a fan."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 9,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "'Course it does. In Berlin's decker community, I'm a household name."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 10,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "They called themselves the \"Schwarze Herzen,\" and they pretty much ran Drogenkippe until a few days ago. \n\nThey weren't a pleasant bunch, but they were better than the jackasses we've got in here now."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 12,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "They're terrible people. Real bad guys, all of 'em.\n\nLook, I don't mean to rush you, but we can discuss all of this later. Y'know, *after* we get out of the building full of murderous thugs."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 13,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "I was in the hotel when it got taken over, and the new gang decided to keep me... \"on staff,\" I guess you could call it. \n\nThey put me in charge of Matrix security."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 14,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "I may be one of the hottest deckers in Berlin, but a bullet in the head will kill me just as dead as anyone else. \n\nGiven the circumstances, I didn't see how I could refuse."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 15,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "{{GM}}From the pause on the other end of the line, you can tell that you've caught Blitz off guard.{{/GM}} \n\nYeah? What's that?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 16,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Yeah, okay, I was a member. For a while. \n\nBut the old boss got himself killed in a firefight, and his second-in-command took over."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 17,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "That was when the new guys moved in... I guess that they sensed weakness, and the Schwarze Herzen were still disorganized from the transition. \n\nAnyway, long story short, I don't consider myself a member any more... I just wanna get out and do my own thing."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 18,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Good. Yeah, that's good. \n\nOkay, you wanna clear out the safe, or what?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 19,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Look, what does it matter to you if I WAS a member of Schwarze Herzen? I'm sure that you have some shady friends, too, but I'm not gonna ask about 'em 'cause it's none of my business. \n\nLet's just clean out the safe and get out of here, okay?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 20,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Gear. Money. You know, lots of good stuff."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 21,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Look, buddy, I just set up the Matrix security for the thing. The old boss didn't let me set foot into the vault. He was a little paranoid, you know? \n\nBut he was adamant that he wanted me to rig up some really killer IC, so there must be *something* of value in there."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 22,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "So how about it? You want a crack at that vault, or not?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 24,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Room 505, on the Penthouse floor. Come rendezvous with me here, and I'll take you to the vault."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 25,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "All right. Your loss.\n\nLook, if you change your mind, come meet me in Room 505 on the Penthouse floor.\n\nI'm tellin' you, you don't want to pass up this deal."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 26,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Well... no. I mean, I've never actually *seen* what's in the vault. Not personally."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 27,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "As are we all. So, shall we go grab it?"
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 28,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "You've probably noticed that this building is under new management, right?\n\nAnd judging by the way you've been tiptoeing around since you showed up, I'm gonna guess that you don't wanna tangle with the new guys any more than I do."
+    },
+    {
+     "c": "5256e175636134002a002945",
+     "n": 29,
+     "cn": "a1_Hotel_s1-Blitz",
+     "t": "Yeah, I get that... from what I'm seeing on my monitors, you've had a busy day.\n\nYou'll wanna hear me out, all the same. Trust me on this."
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_blitz.png"
@@ -57370,7 +57412,7 @@
      "c": "52154ced663661680f000225",
      "n": 0,
      "cn": "Haven-Global_Dante",
-     "t": "You look down to see a pair of bright eyes set into a scruffy face looking back up at you.\n\nDante. Monika's old dog.\n\nLooking down into those huge brown eyes, you see intelligence and sadness.",
+     "t": "{{GM}}You look down to see a pair of bright eyes set into a scruffy face looking back up at you.\n\nDante. Monika's old dog.\n\nLooking down into those huge brown eyes, you see intelligence and sadness.{{/GM}}",
      "y": 6
     },
     {
@@ -57391,14 +57433,14 @@
      "c": "52154ced663661680f000225",
      "n": 6,
      "cn": "Haven-Global_Dante",
-     "t": "He looks up at you quizzically.",
+     "t": "{{GM}}He looks up at you quizzically.{{/GM}}",
      "y": 6
     },
     {
      "c": "52154ced663661680f000225",
      "n": 7,
      "cn": "Haven-Global_Dante",
-     "t": "He wags his tail.",
+     "t": "{{GM}}He wags his tail.{{/GM}}",
      "y": 6
     },
     {
@@ -57440,7 +57482,7 @@
      "c": "52869ce4636134b045006e9a",
      "n": 17,
      "cn": "a3_RabbitHole_s1-Dante",
-     "t": "You can see the dog struggle to obey. He makes a sound that's not quite a whimper.",
+     "t": "{{GM}}You can see the dog struggle to obey. He makes a sound that's not quite a whimper.{{/GM}}",
      "y": 6
     },
     {
@@ -57454,7 +57496,7 @@
      "c": "52869ce4636134b045006e9a",
      "n": 20,
      "cn": "a3_RabbitHole_s1-Dante",
-     "t": "Slowly, the wind begins to shift, and he sniffs the air, looking from you, to Eiger, then back to you. \n\nAcknowledgment washes across his face, and his expression softens. ",
+     "t": "{{GM}}Slowly, the wind begins to shift, and he sniffs the air, looking from you, to Eiger, then back to you. \n\nAcknowledgment washes across his face, and his expression softens.{{/GM}}",
      "y": 6
     },
     {
@@ -57475,7 +57517,7 @@
      "c": "52b231cc663661f02100377b",
      "n": 5,
      "cn": "Haven-PostIntro_Dante",
-     "t": "Looking down into those huge brown eyes, you see intelligence and sadness.\n\nHe lets out a small whine and rubs his head against you.",
+     "t": "{{GM}}Looking down into those huge brown eyes, you see intelligence and sadness.\n\nHe lets out a small whine and rubs his head against you.{{/GM}}",
      "y": 6
     },
     {
@@ -57496,14 +57538,14 @@
      "c": "52b231cc663661f02100377b",
      "n": 12,
      "cn": "Haven-PostIntro_Dante",
-     "t": "Dante whimpers and looks up at you mournfully.",
+     "t": "{{GM}}Dante whimpers and looks up at you mournfully.{{/GM}}",
      "y": 6
     },
     {
      "c": "52b231cc663661f02100377b",
      "n": 14,
      "cn": "Haven-PostIntro_Dante",
-     "t": "Dante whimpers and looks up at you mournfully."
+     "t": "{{GM}}Dante whimpers and looks up at you mournfully.{{/GM}}"
     },
     {
      "c": "52b4d9fb64343172ad63962e",
@@ -57518,48 +57560,6 @@
      "cn": "Haven-a3_Dante",
      "t": "{{GM}}Dante lifts his head and looks up at you mournfully. The feral aggression is gone from his eyes. He’s changed - you can see it - but he’s still Dante.{{/GM}}",
      "y": 6
-    },
-    {
-     "c": "52ce01cf663661582b0023ff",
-     "n": 1,
-     "cn": "a3_RabbitHole_s1-DanteDisloyal",
-     "t": "Shame it had to come to that. He just...\n\n{{GM}}Her voice trails off to nothing.{{/GM}}"
-    },
-    {
-     "c": "52ce01cf663661582b0023ff",
-     "n": 2,
-     "cn": "a3_RabbitHole_s1-DanteDisloyal",
-     "t": "Yeah. Monika might have been holding something back from us.\n\nOr maybe she didn't know what Dante really was. I sure as hell didn't."
-    },
-    {
-     "c": "52ce01cf663661582b0023ff",
-     "n": 3,
-     "cn": "a3_RabbitHole_s1-DanteDisloyal",
-     "t": "It happened just before you got here. I don't know how.\n\nI caught sight of him on the way down to the U-Bahn platform, and he looked normal enough. Then one of these bastards winged him, and Dante snapped.\n\nHe was on the guy before I could blink."
-    },
-    {
-     "c": "52ce01cf663661582b0023ff",
-     "n": 4,
-     "cn": "a3_RabbitHole_s1-DanteDisloyal",
-     "t": "A few seconds later, the shooter was a red smear on the sidewalk, and Dante... \n\n{{GM}}Eiger stabs a thumb towards the motionless dog.{{/GM}}\n\n...looked like that."
-    },
-    {
-     "c": "52ce01cf663661582b0023ff",
-     "n": 5,
-     "cn": "a3_RabbitHole_s1-DanteDisloyal",
-     "t": "He started coming towards me next, teeth bared. I've never seen anything like it before, $(l.name). It was terrifying.\n\nI dropped a flash grenade behind me and booked it down to the U-Bahn."
-    },
-    {
-     "c": "52ce01cf663661582b0023ff",
-     "n": 6,
-     "cn": "a3_RabbitHole_s1-DanteDisloyal",
-     "t": "{{GM}}She shakes her head, her eyes still focused on Dante's broken body.{{/GM}}\n\nI'm sorry, Monika. Wherever you are."
-    },
-    {
-     "c": "52ce01cf663661582b0023ff",
-     "n": 7,
-     "cn": "a3_RabbitHole_s1-DanteDisloyal",
-     "t": "He just snapped. When these mercs started gunning people down in the street...\n\n{{GM}}The words trail off again.{{/GM}}"
     }
    ],
    "portraitFile": "dragonfall/npc_dog_dante.png"

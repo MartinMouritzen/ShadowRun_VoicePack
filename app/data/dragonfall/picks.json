@@ -124,8 +124,8 @@
   "voiceName": "Charles Haversham"
  },
  "name_volkerstahl": {
-  "voiceId": "mag_329",
-  "voiceName": "Daniel Richardson"
+  "voiceId": "mag_301",
+  "voiceName": "Tobias Meyer"
  },
  "name_maxim": {
   "voiceId": "mag_447",
@@ -136,24 +136,24 @@
   "voiceName": "Sophia Elizabeth"
  },
  "name_ullrich": {
-  "voiceId": "mag_439",
-  "voiceName": "Owen Parker"
+  "voiceId": "mag_544",
+  "voiceName": "Jack Riker"
  },
  "name_thorvaldenstad": {
   "voiceId": "mag_534",
   "voiceName": "Old Pip Quickroot"
  },
  "name_strangewoman": {
-  "voiceId": "mag_613",
-  "voiceName": "Amber Hayes"
+  "voiceId": "mag_703",
+  "voiceName": "Despina"
  },
  "name_quorin": {
-  "voiceId": "mag_598",
-  "voiceName": "Tom Spencer"
+  "voiceId": "mag_168",
+  "voiceName": "Friedrich Weber"
  },
  "name_wanderer": {
-  "voiceId": "mag_390",
-  "voiceName": "James Carter"
+  "voiceId": "mag_645",
+  "voiceName": "Ramona Weiss"
  },
  "name_heimerich": {
   "voiceId": "mag_266",
@@ -164,24 +164,24 @@
   "voiceName": "Nathan Brooks"
  },
  "name_mira": {
-  "voiceId": "mag_587",
-  "voiceName": "Luna Sprout"
+  "voiceId": "mag_707",
+  "voiceName": "Gacrux"
  },
  "name_gunarimettbach": {
   "voiceId": "mag_517",
   "voiceName": "Darian Voss"
  },
  "name_fraumuller": {
-  "voiceId": "mag_838",
-  "voiceName": "Imogen Hartley"
+  "voiceId": "mag_95",
+  "voiceName": "Emilia Álvarez"
  },
  "name_zaakflash": {
   "voiceId": "mag_269",
   "voiceName": "Logan Christopher"
  },
  "name_janitor": {
-  "voiceId": "mag_518",
-  "voiceName": "Dr. Cosmo Fizzlebaum"
+  "voiceId": "mag_504",
+  "voiceName": "Brielle Carter"
  },
  "name_schrotty": {
   "voiceId": "mag_796",
@@ -200,16 +200,16 @@
   "voiceName": "Lord Nytherion"
  },
  "name_aztechnologyguard": {
-  "voiceId": "mag_47",
-  "voiceName": "Tyler Quinn"
+  "voiceId": "mag_390",
+  "voiceName": "James Carter"
  },
  "name_danni": {
   "voiceId": "mag_157",
   "voiceName": "Kendra Blake"
  },
  "name_ghoul": {
-  "voiceId": "mag_252",
-  "voiceName": "Noah Jackson"
+  "voiceId": "mag_544",
+  "voiceName": "Jack Riker"
  },
  "name_simulacrum": {
   "voiceId": "mag_437",
@@ -248,8 +248,8 @@
   "voiceName": "Microsoft David (SAPI)"
  },
  "name_alice": {
-  "voiceId": "mag_532",
-  "voiceName": "Nyra- Robot Voice"
+  "voiceId": "mag_437",
+  "voiceName": "Emily Turner"
  },
  "name_bannik": {
   "voiceId": "mag_231",

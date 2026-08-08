@@ -1861,6 +1861,22 @@
    "from": "name_manonphone",
    "to": "name_blitz",
    "reason": "'Man on Phone' is Blitz. He introduces himself in 5256e175636134002a002945_6 (\"My handle in the Matrix is 'Blitz.'\"); 22 of these nodes' own {{GM}} stage directions name Blitz, and 57 use \"chief\", his verbal tic. The game gives the intro phone call its own actor slot and the extractor kept binding later Blitz lines to it. In the 4 conversations where both labels appear, both are him."
+  },
+  {
+   "convo": "52ce01cf663661582b0023ff",
+   "convo_name": "a3_RabbitHole_s1-DanteDisloyal",
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "from": "name_dante",
+   "to": "name_eiger",
+   "reason": "Dante is a dog and says nothing. This whole conversation is Eiger, bound to the dog's actor slot: node 4's own stage direction is 'Eiger stabs a thumb towards the motionless dog' mid-sentence, and nodes 1 and 6 use 'her voice trails off' and 'she shakes her head'. The sibling scene a3_RabbitHole_s1-Dante carries nearly the same dialogue correctly under Eiger, including the identical 'a red smear on the sidewalk' beat with 'Eiger stabs a thumb in the dog's direction' - so this is the variant where Dante turns on you, and the speaker never changed."
   }
  ],
  "hk": [
