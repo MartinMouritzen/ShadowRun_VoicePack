@@ -191,7 +191,10 @@ def worker():
             take_slot()
             try:
                 res = post(job)
-                if res.get("ok") and a.redo and res.get("file"):
+                # --voice means this is an AUDITION: several candidates on one line, compared in
+                # the lab. The keeper is the user's decision there, so forcing it here would mean
+                # whichever candidate ran last silently became the shipped take.
+                if res.get("ok") and a.redo and not a.voice and res.get("file"):
                     # A retake does not become the keeper on its own: /api/generate only fills
                     # `selected` when it was empty, so that auditioning in the lab never silently
                     # replaces a chosen take. But --redo exists precisely because the current
