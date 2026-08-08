@@ -1,13 +1,611 @@
 {
-  "_comment": "Nodes the extractor attributed to a CHARACTER but which are narration: second-person description of what the player sees, with no speaker. The game gives them an actor slot (usually whoever the scene is about), so extraction has nothing to go on. Applied by apply_narration_fixes.py <game>, which wraps the node's whole text in {{GM}}...{{/GM}} inside app/data/<game>/characters.json. build_line_segments.py then emits it as a single 'gm' segment, so it is voiced by the narrator and follows the narrator's casting - unlike a per-line voice override, which would pin one voice and silently stop tracking a recast. Idempotent: a node already wrapped is skipped.",
-
-  "dragonfall": [
-    {
-      "convo": "5258897d6636614001005b04",
-      "convo_name": "examining Green Winters' corpse",
-      "nodes": [23, 28],
-      "from": "name_greenwinters",
-      "reason": "Both nodes are the player examining the body. Node 23 ('The memories of Monika's violent convulsions...') and node 28 ('Peering at the corpse's face, you confirm what you'd already suspected...') are addressed to 'you' and describe the corpse in the third person - Green Winters is dead on the floor in this scene and says nothing. The convo binds to his actor slot, which is why they landed on him. These are the only two nodes he has in this conversation."
-    }
-  ]
+ "_comment": "Nodes the extractor attributed to a CHARACTER but which are narration: second-person description of what the player sees, with no speaker. The game gives them an actor slot (usually whoever the scene is about), so extraction has nothing to go on. Applied by apply_narration_fixes.py <game>, which wraps the node's whole text in {{GM}}...{{/GM}} inside app/data/<game>/characters.json. build_line_segments.py then emits it as a single 'gm' segment, so it is voiced by the narrator and follows the narrator's casting - unlike a per-line voice override, which would pin one voice and silently stop tracking a recast. Idempotent: a node already wrapped is skipped.",
+ "dragonfall": [
+  {
+   "convo": "5258897d6636614001005b04",
+   "convo_name": "examining Green Winters' corpse",
+   "nodes": [
+    23,
+    28
+   ],
+   "from": "name_greenwinters",
+   "reason": "Both nodes are the player examining the body. Node 23 ('The memories of Monika's violent convulsions...') and node 28 ('Peering at the corpse's face, you confirm what you'd already suspected...') are addressed to 'you' and describe the corpse in the third person - Green Winters is dead on the floor in this scene and says nothing. The convo binds to his actor slot, which is why they landed on him. These are the only two nodes he has in this conversation."
+  },
+  {
+   "convo": "523c8e98346238e41d008a36",
+   "from": "name_absinthe",
+   "nodes": [
+    3
+   ],
+   "reason": "Narration attributed to Absinthe. The text names Absinthe in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "526839f36636619c0a001769",
+   "from": "name_alice",
+   "nodes": [
+    5
+   ],
+   "reason": "Narration attributed to Alice. The text names Alice in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "527a93bd636134b83400260e",
+   "from": "name_alice",
+   "nodes": [
+    9
+   ],
+   "reason": "Narration attributed to Alice. The text names Alice in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "523c8e7f346238e41d008a2d",
+   "from": "name_aljernon",
+   "nodes": [
+    67
+   ],
+   "reason": "Narration attributed to Aljernon. The text names Aljernon in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5282af6b6361342453002bee",
+   "from": "name_apex",
+   "nodes": [
+    61,
+    92
+   ],
+   "reason": "Narration attributed to APEX. The text names APEX in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52b20f7b626164081c0068f6",
+   "from": "name_apex",
+   "nodes": [
+    116
+   ],
+   "reason": "Narration attributed to APEX. The text names APEX in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52d888ab373937f0430013b7",
+   "from": "name_apex",
+   "nodes": [
+    9
+   ],
+   "reason": "Narration attributed to APEX. The text names APEX in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52d1da70636134f049006672",
+   "from": "name_audran",
+   "nodes": [
+    8
+   ],
+   "reason": "Narration attributed to Audran. The text names Audran in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "53bae97e636134dc2700036e",
+   "from": "name_audran",
+   "nodes": [
+    37
+   ],
+   "reason": "Narration attributed to Audran. The text names Audran in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52336c1638336110170073fa",
+   "from": "name_blitz",
+   "nodes": [
+    131
+   ],
+   "reason": "Narration attributed to Blitz. The text names Blitz in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52a90f6b6361340408008351",
+   "from": "name_blitz",
+   "nodes": [
+    29
+   ],
+   "reason": "Narration attributed to Blitz. The text names Blitz in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5372bc03636134901900494f",
+   "from": "name_blitz",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Blitz. The text names Blitz in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "527abf9e636134b83400302e",
+   "from": "name_computer",
+   "nodes": [
+    110,
+    142
+   ],
+   "reason": "Narration attributed to Computer. The text names Computer in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52c5f14e663661d81d007fc6",
+   "from": "name_computerterminal",
+   "nodes": [
+    14,
+    17,
+    20,
+    23,
+    25
+   ],
+   "reason": "Narration attributed to Computer Terminal. The text names Computer Terminal in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "521e4028303031501600601e",
+   "from": "name_danni",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Danni. The text names Danni in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52154ced663661680f000225",
+   "from": "name_dante",
+   "nodes": [
+    1,
+    5
+   ],
+   "reason": "Narration attributed to Dante. The text names Dante in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52869ce4636134b045006e9a",
+   "from": "name_dante",
+   "nodes": [
+    1,
+    12,
+    14,
+    15,
+    16,
+    18,
+    21,
+    23
+   ],
+   "reason": "Narration attributed to Dante. The text names Dante in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52b231cc663661f02100377b",
+   "from": "name_dante",
+   "nodes": [
+    6,
+    11
+   ],
+   "reason": "Narration attributed to Dante. The text names Dante in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52b4d9fb64343172ad63962e",
+   "from": "name_dante",
+   "nodes": [
+    18
+   ],
+   "reason": "Narration attributed to Dante. The text names Dante in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52b4e4af64343172ad639989",
+   "from": "name_dante",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Dante. The text names Dante in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "523cc440346238d0260069af",
+   "from": "name_dietrich",
+   "nodes": [
+    38,
+    66
+   ],
+   "reason": "Narration attributed to Dietrich. The text names Dietrich in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52a90f6b6361340408008351",
+   "from": "name_dietrich",
+   "nodes": [
+    28
+   ],
+   "reason": "Narration attributed to Dietrich. The text names Dietrich in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "523b948f346238e41d007555",
+   "from": "name_eiger",
+   "nodes": [
+    173
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "523cb4ff346238d026006513",
+   "from": "name_eiger",
+   "nodes": [
+    61
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52532b32626164681700018f",
+   "from": "name_eiger",
+   "nodes": [
+    26
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5266f911663661b825003110",
+   "from": "name_eiger",
+   "nodes": [
+    56
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "527d88376636619c42003e15",
+   "from": "name_eiger",
+   "nodes": [
+    1
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "528519976261640406004f03",
+   "from": "name_eiger",
+   "nodes": [
+    15
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52a90f6b6361340408008351",
+   "from": "name_eiger",
+   "nodes": [
+    27
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52d5d21e323437a012004f71",
+   "from": "name_eiger",
+   "nodes": [
+    73
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5356d86b323437d02500679a",
+   "from": "name_eiger",
+   "nodes": [
+    31
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "53eb9277323437ac45005a9f",
+   "from": "name_eiger",
+   "nodes": [
+    7
+   ],
+   "reason": "Narration attributed to Eiger. The text names Eiger in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "523cb418346238d026006192",
+   "from": "name_glory",
+   "nodes": [
+    56,
+    57,
+    58,
+    63,
+    64,
+    67,
+    71,
+    73,
+    114,
+    115,
+    118,
+    122,
+    124,
+    185,
+    186,
+    189,
+    193,
+    195,
+    243,
+    278,
+    279,
+    282,
+    286,
+    288,
+    332,
+    352
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "525ccb07626164e02600603b",
+   "from": "name_glory",
+   "nodes": [
+    27
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "528519976261640406004f03",
+   "from": "name_glory",
+   "nodes": [
+    66
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52a90f6b6361340408008351",
+   "from": "name_glory",
+   "nodes": [
+    5
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "530036f4346238d8190033b4",
+   "from": "name_glory",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "53556496303031c810000f4f",
+   "from": "name_glory",
+   "nodes": [
+    25
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5355a5313030316c16006cca",
+   "from": "name_glory",
+   "nodes": [
+    13
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5355c3e7303031a40200431d",
+   "from": "name_glory",
+   "nodes": [
+    3
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5356e43c30303124170043af",
+   "from": "name_glory",
+   "nodes": [
+    61
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "535840893030314406006a79",
+   "from": "name_glory",
+   "nodes": [
+    2
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "537bd8fd636134f80d005787",
+   "from": "name_glory",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Glory. The text names Glory in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5359c8b7373937e81a004d1a",
+   "from": "name_hasenkamp",
+   "nodes": [
+    27,
+    34
+   ],
+   "reason": "Narration attributed to Hasenkamp. The text names Hasenkamp in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "536eb9303739372c1c004378",
+   "from": "name_hasenkamp",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Hasenkamp. The text names Hasenkamp in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "536ebbed3739372c1c004394",
+   "from": "name_hasenkamp",
+   "nodes": [
+    1
+   ],
+   "reason": "Narration attributed to Hasenkamp. The text names Hasenkamp in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5359caba3030316403004de3",
+   "from": "name_heartoffeuerstelle",
+   "nodes": [
+    28
+   ],
+   "reason": "Narration attributed to Heart of Feuerstelle. The text names Heart of Feuerstelle in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "527abf9e636134b83400302e",
+   "from": "name_heimerich",
+   "nodes": [
+    131,
+    135,
+    181,
+    185
+   ],
+   "reason": "Narration attributed to Heimerich. The text names Heimerich in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "53e2c232303031081d007ffa",
+   "from": "name_james",
+   "nodes": [
+    47
+   ],
+   "reason": "Narration attributed to James. The text names James in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5282c72d643431973972f5f7",
+   "from": "name_kami",
+   "nodes": [
+    149,
+    229
+   ],
+   "reason": "Narration attributed to Kami. The text names Kami in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "527abf9e636134b83400302e",
+   "from": "name_maliitholyey",
+   "nodes": [
+    121,
+    171
+   ],
+   "reason": "Narration attributed to Maliit Holyey. The text names Maliit Holyey in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5356e43c30303124170043af",
+   "from": "name_marta",
+   "nodes": [
+    89,
+    149
+   ],
+   "reason": "Narration attributed to Marta. The text names Marta in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "53594e5c303031b40a000145",
+   "from": "name_marta",
+   "nodes": [
+    53
+   ],
+   "reason": "Narration attributed to Marta. The text names Marta in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5257431e3030318804002ee6",
+   "from": "name_maxim",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Maxim. The text names Maxim in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "527abf9e636134b83400302e",
+   "from": "name_maxim",
+   "nodes": [
+    139,
+    189
+   ],
+   "reason": "Narration attributed to Maxim. The text names Maxim in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52619cb6626164a00b00490c",
+   "from": "name_mkvicyberzombie",
+   "nodes": [
+    0,
+    6,
+    8,
+    10
+   ],
+   "reason": "Narration attributed to MKVI Cyberzombie. The text names MKVI Cyberzombie in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "521289d63030314008002d2b",
+   "from": "name_monika",
+   "nodes": [
+    12,
+    15,
+    38
+   ],
+   "reason": "Narration attributed to Monika. The text names Monika in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52129dc23030310815002cdb",
+   "from": "name_monika",
+   "nodes": [
+    4,
+    5
+   ],
+   "reason": "Narration attributed to Monika. The text names Monika in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "527abf9e636134b83400302e",
+   "from": "name_monika",
+   "nodes": [
+    214
+   ],
+   "reason": "Narration attributed to Monika. The text names Monika in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52af8984663661f820000fd9",
+   "from": "name_oldinformationterminal",
+   "nodes": [
+    2
+   ],
+   "reason": "Narration attributed to Old Information Terminal. The text names Old Information Terminal in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "525c3d08303031d410005d43",
+   "from": "name_rammbockboss",
+   "nodes": [
+    19
+   ],
+   "reason": "Narration attributed to Rammbock Boss. The text names Rammbock Boss in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "5282e39c3030315c04000fa2",
+   "from": "name_securityterminal",
+   "nodes": [
+    0,
+    2
+   ],
+   "reason": "Narration attributed to Security Terminal. The text names Security Terminal in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52cef1a830303170110028a9",
+   "from": "name_terminal",
+   "nodes": [
+    1
+   ],
+   "reason": "Narration attributed to Terminal. The text names Terminal in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52a8a94f636134242200491f",
+   "from": "name_thorvaldenstad",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Thorvald Enstad. The text names Thorvald Enstad in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52940263636134d43100009a",
+   "from": "name_vauclair",
+   "nodes": [
+    216,
+    217,
+    218,
+    219,
+    221
+   ],
+   "reason": "Narration attributed to Vauclair. The text names Vauclair in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "52f2877c323437940500498c",
+   "from": "name_vauclair",
+   "nodes": [
+    0
+   ],
+   "reason": "Narration attributed to Vauclair. The text names Vauclair in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  },
+  {
+   "convo": "523b74fe346238e41d00704a",
+   "from": "name_zaakflash",
+   "nodes": [
+    25
+   ],
+   "reason": "Narration attributed to Zaak Flash. The text names Zaak Flash in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  }
+ ]
 }

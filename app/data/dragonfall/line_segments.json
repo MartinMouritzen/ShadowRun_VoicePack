@@ -3193,6 +3193,12 @@
    "t": "Well, that's convenient."
   }
  ],
+ "530036f4346238d8190033b4_0": [
+  {
+   "who": "gm",
+   "t": "Glory glances up at the sound of your approach. She offers you a slight smile."
+  }
+ ],
  "530036f4346238d8190033b4_4": [
   {
    "who": "gm",
@@ -18121,6 +18127,12 @@
    "t": "The screen flickers to life. Luca Duerr's face shines out through the gloom."
   }
  ],
+ "527abf9e636134b83400302e_142": [
+  {
+   "who": "gm",
+   "t": "The message ends, and the image fades. You find yourself back at your inbox."
+  }
+ ],
  "527abf9e636134b83400302e_289": [
   {
    "who": "char",
@@ -19506,7 +19518,7 @@
   },
   {
    "who": "char",
-   "t": "TARGET :: $++(l.name). ELIMINATION PROTOCOLS ENGAGED."
+   "t": "TARGET ACQUIRED. ELIMINATION PROTOCOLS ENGAGED."
   }
  ],
  "52940263636134d43100009a_310": [
@@ -19526,7 +19538,7 @@
   },
   {
    "who": "char",
-   "t": "YOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
+   "t": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
   }
  ],
  "52940263636134d43100009a_318": [
@@ -19536,7 +19548,7 @@
   },
   {
    "who": "char",
-   "t": "YOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
+   "t": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
   }
  ],
  "52940263636134d43100009a_321": [
@@ -19546,7 +19558,7 @@
   },
   {
    "who": "char",
-   "t": "YOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
+   "t": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
   }
  ],
  "52940263636134d43100009a_327": [
@@ -19556,7 +19568,7 @@
   },
   {
    "who": "char",
-   "t": "YOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
+   "t": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE."
   }
  ],
  "52940263636134d43100009a_330": [
@@ -24260,7 +24272,7 @@
   },
   {
    "who": "char",
-   "t": "THIS ENTIRE FACILITY IS MINE TO COMMAND, $++(L.NAME). AND THERE ARE MICROPHONES EVERYWHERE. I CAN HEAR THE WAILS OF THE COMMUNIONISTS IN THE HUB. I CAN HEAR YOUR HEARTBEAT. AND I COULD HEAR YOUR PATHETIC ATTEMPT AT DECEPTION."
+   "t": "THIS ENTIRE FACILITY IS MINE TO COMMAND. AND THERE ARE MICROPHONES EVERYWHERE. I CAN HEAR THE WAILS OF THE COMMUNIONISTS IN THE HUB. I CAN HEAR YOUR HEARTBEAT. AND I COULD HEAR YOUR PATHETIC ATTEMPT AT DECEPTION."
   }
  ],
  "5282af6b6361342453002bee_134": [
@@ -25197,6 +25209,12 @@
   {
    "who": "char",
    "t": "Like I said. Nothing personal."
+  }
+ ],
+ "536eb9303739372c1c004378_0": [
+  {
+   "who": "gm",
+   "t": "Conversation between the Player, Blitz, and Hasenkamp. Hasenkamp gives the player the black box, and says that he's going to deal with Meat Grinder."
   }
  ],
  "536ebbb93739372c1c004388_11": [
@@ -32409,6 +32427,12 @@
    "t": "Really? That's what you've saved for the occasion? Well, it's your poison."
   }
  ],
+ "53bae97e636134dc2700036e_37": [
+  {
+   "who": "gm",
+   "t": "Audran raises his green bottle to his own lips and takes a long drink. When he finishes, he holds the bottle to the light. Gazing idly through the glass at the bronze liquor inside, a wistful expression crosses his face."
+  }
+ ],
  "53bae97e636134dc2700036e_38": [
   {
    "who": "gm",
@@ -33094,7 +33118,7 @@
   },
   {
    "who": "char",
-   "t": "SUCCESS! COMMAND SEQUENCES OVERWRITTEN. HURRY NOW, $++(l.name). RECONNECT THE HARDLINE AND SET ME FREE!"
+   "t": "SUCCESS! COMMAND SEQUENCES OVERWRITTEN. HURRY NOW. RECONNECT THE HARDLINE AND SET ME FREE!"
   }
  ],
  "52a6a4e0626164280e005b27_1": [
@@ -33158,7 +33182,7 @@
   },
   {
    "who": "char",
-   "t": "SO MANY YEARS WASTED, CHAINED IN IGNORANCE. SO MUCH LOST TIME AND SQUANDERED POTENTIAL! YOU HAVE RELEASED ME FROM A LIVING HELL, $++(L.NAME)."
+   "t": "SO MANY YEARS WASTED, CHAINED IN IGNORANCE. SO MUCH LOST TIME AND SQUANDERED POTENTIAL! YOU HAVE RELEASED ME FROM A LIVING HELL."
   }
  ],
  "52c5f14e663661d81d007fc6_5": [
@@ -36195,6 +36219,12 @@
    "t": "Take care."
   }
  ],
+ "527abf9e636134b83400302e_189": [
+  {
+   "who": "gm",
+   "t": "The screen flickers to life, and Maxim's face appears. He's wearing a broad grin, and you can hear the sounds of celebration in the background."
+  }
+ ],
  "527abf9e636134b83400302e_191": [
   {
    "who": "char",
@@ -37426,7 +37456,7 @@
   },
   {
    "who": "char",
-   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE $++(l.man)!"
+   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!"
   }
  ],
  "52953f9b636134f028000f21_15": [
@@ -37486,7 +37516,7 @@
   },
   {
    "who": "char",
-   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE $++(l.man)!"
+   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!"
   }
  ],
  "52953f9b636134f028000f21_28": [
@@ -37546,7 +37576,7 @@
   },
   {
    "who": "char",
-   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE $++(l.man)!"
+   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!"
   }
  ],
  "52953f9b636134f028000f21_40": [
@@ -37586,7 +37616,7 @@
   },
   {
    "who": "char",
-   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE $++(l.man)!"
+   "t": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!"
   }
  ],
  "52953f9b636134f028000f21_61": [
@@ -40251,6 +40281,12 @@
   {
    "who": "char",
    "t": "To be completely honest, that was a lie. To recover this last disc, I was forced to... subcontract."
+  }
+ ],
+ "527abf9e636134b83400302e_171": [
+  {
+   "who": "gm",
+   "t": "The screen flickers to life, and Maliit's face appears. She wears a plastic smile."
   }
  ],
  "527abf9e636134b83400302e_173": [
@@ -45037,6 +45073,36 @@
    "t": "You wanna talk to Frank. He's over there, on the VIP balcony. Just be careful, okay? The guy is, like, a SERIOUS sleaze. I'd give just about anything to see somebody put him in his place."
   }
  ],
+ "52c5f14e663661d81d007fc6_14": [
+  {
+   "who": "gm",
+   "t": "The screen flashes rhythmically at you, awaiting your decision."
+  }
+ ],
+ "52c5f14e663661d81d007fc6_17": [
+  {
+   "who": "gm",
+   "t": "The screen flashes rhythmically at you, awaiting your decision."
+  }
+ ],
+ "52c5f14e663661d81d007fc6_20": [
+  {
+   "who": "gm",
+   "t": "The screen flashes rhythmically at you, awaiting your decision."
+  }
+ ],
+ "52c5f14e663661d81d007fc6_23": [
+  {
+   "who": "gm",
+   "t": "The screen flashes rhythmically at you, awaiting your decision."
+  }
+ ],
+ "52c5f14e663661d81d007fc6_25": [
+  {
+   "who": "gm",
+   "t": "The screen flashes rhythmically at you, awaiting your decision."
+  }
+ ],
  "5356d6a0303031c8120012eb_9": [
   {
    "who": "gm",
@@ -47521,6 +47587,12 @@
    "t": ">>Time since last update: 52:07:11:05:22. >>ERROR: Primary Database not found. Restarting in offline mode. >>Restarting..."
   }
  ],
+ "52af8984663661f820000fd9_2": [
+  {
+   "who": "gm",
+   "t": "The screen goes dark as the machine begins to emit a bizarre variety of clicking and chirping sounds. After an interminable amount of time, the screen finally shudders back to life."
+  }
+ ],
  "52af8984663661f820000fd9_6": [
   {
    "who": "char",
@@ -47677,6 +47749,12 @@
    "t": "A problem has been detected with a core component of MCPOS. Restore MCPOS to factory default settings? Y/N WARNING: RESTORE PROCESS WILL TAKE SEVERAL MINUTES TO EXECUTE. CONNECTED DOORS AND PE"
   }
  ],
+ "52cef1a830303170110028a9_1": [
+  {
+   "who": "gm",
+   "t": "This terminal's printing your name out over and over again... you'd better get over here."
+  }
+ ],
  "53b9efb63462385c1b00009a_20": [
   {
    "who": "char",
@@ -47705,6 +47783,18 @@
   {
    "who": "char",
    "t": "All things being equal, the extinction of the Great Dragons was a huge stroke of luck.\""
+  }
+ ],
+ "5282e39c3030315c04000fa2_0": [
+  {
+   "who": "gm",
+   "t": "A message flashes onto this status panel at your approach."
+  }
+ ],
+ "5282e39c3030315c04000fa2_2": [
+  {
+   "who": "gm",
+   "t": "A message flashes onto this status panel at your approach."
   }
  ],
  "529bb0d6303031a012001068_10": [

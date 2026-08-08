@@ -191,6 +191,22 @@ def worker():
             take_slot()
             try:
                 res = post(job)
+                if res.get("ok") and a.redo and res.get("file"):
+                    # A retake does not become the keeper on its own: /api/generate only fills
+                    # `selected` when it was empty, so that auditioning in the lab never silently
+                    # replaces a chosen take. But --redo exists precisely because the current
+                    # keeper is wrong - it was made from a script that has since changed - so
+                    # leaving it selected reships the audio this run was meant to replace. That
+                    # happened three times before this line existed.
+                    try:
+                        sel = json.dumps({"game": a.game, "charId": job["charId"],
+                                          "lineKey": job["lineKey"], "file": res["file"]}).encode()
+                        urllib.request.urlopen(urllib.request.Request(
+                            f"{LAB}/api/take/select", data=sel,
+                            headers={"Content-Type": "application/json"}), timeout=60).read()
+                    except Exception as e:
+                        print(f"  WARN: generated but could not select {job['lineKey']}: {e}",
+                              file=sys.stderr)
                 if res.get("error"):
                     err = res["error"]
                     if is_throttle(err):

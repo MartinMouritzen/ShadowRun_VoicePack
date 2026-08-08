@@ -2651,6 +2651,12 @@
   "spoken": "Herr Schmidt Your reputation is well deserved! The interests that I represent are deeply impressed, both with the MKVI itself and with your work on this assignment. Please accept this payment with our compliments. -Schmidt",
   "source": "hand"
  },
+ "527abf9e636134b83400302e_229": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 3,750¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 3,750¥ Payment transfer complete.",
+  "source": "hand"
+ },
  "527abf9e636134b83400302e_230": {
   "char": "Computer",
   "original": ">>*Herr Schmidt*\n>>to: $(l.name)\n\nTo call your work \"unsatisfactory\" would be an understatement.\n\nWhen I said that we wanted the prototype, it should have gone without saying that we wanted it INTACT and OPERATIONAL.",
@@ -2675,10 +2681,22 @@
   "spoken": "In any case, thank you for helping me. Please do not attempt to contact me again; as far as the world - and my former employers - are concerned, I am buried under a ton of rubble. It is best that I remain that way. Goodbye, Ivonne Jimenez, aka \"Frau Müller\"",
   "source": "rules"
  },
+ "527abf9e636134b83400302e_237": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 36,000¥\nDEDUCTIONS FOR CREW SALARY: -9,600¥\nAMMUNITION AND RESUPPLY COSTS: -2,400¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -18,000¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 6,000¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 36,000¥ DEDUCTIONS FOR CREW SALARY: -9,600¥ AMMUNITION AND RESUPPLY COSTS: -2,400¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -18,000¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 6,000¥ Payment transfer complete.",
+  "source": "hand"
+ },
  "527abf9e636134b83400302e_239": {
   "char": "Computer",
   "original": ">>*Herr Fuchs*\n>>to: $(l.name)\n\nNo sense in mincing words. Your job performance was satisfactory at best.\n\nYour fee will be transferred immediately. Enjoy it while it lasts, because you'll never work for us again.\n\n-Fuchs",
   "spoken": "Herr Fuchs No sense in mincing words. Your job performance was satisfactory at best. Your fee will be transferred immediately. Enjoy it while it lasts, because you'll never work for us again. -Fuchs",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_241": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 2,500¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 2,500¥ Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_242": {
@@ -2687,10 +2705,22 @@
   "spoken": "Herr Fuchs An excellent job. You are a credit to your profession, and I would not hesitate to hire you again. Your fee will be transferred to your account immediately. -Fuchs",
   "source": "hand"
  },
+ "527abf9e636134b83400302e_244": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 2,500¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 2,500¥ Payment transfer complete.",
+  "source": "hand"
+ },
  "527abf9e636134b83400302e_246": {
   "char": "Computer",
   "original": ">>*P_AMSEL*\n>>to: $(l.name)\n\n$(l.name). I didn't want to say this in front of the others, but I feel the need to say it. What you did was unacceptable.",
   "spoken": "P_AMSEL I didn't want to say this in front of the others, but I feel the need to say it. What you did was unacceptable.",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_249": {
+  "char": "Computer",
+  "original": "PAYMENT TRANSFERRED: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 2,500¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT TRANSFERRED: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 2,500¥ Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_251": {
@@ -2699,10 +2729,22 @@
   "spoken": "Samuel Beckenbauer Here is your payment, as promised. -Beckenbauer",
   "source": "hand"
  },
+ "527abf9e636134b83400302e_253": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 3,750¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 3,750¥ Payment transfer complete.",
+  "source": "hand"
+ },
  "527abf9e636134b83400302e_255": {
   "char": "Computer",
   "original": ">>*Herr Schmidt*\n>>to: $(l.name)\n\nYour reputation is well deserved! The interests that I represent are deeply impressed, both with the MKVI itself and with your work on this assignment.\n\nPlease accept this payment with our compliments.\n\n-Schmidt",
   "spoken": "Herr Schmidt Your reputation is well deserved! The interests that I represent are deeply impressed, both with the MKVI itself and with your work on this assignment. Please accept this payment with our compliments. -Schmidt",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_257": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 15,000¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 15,000¥ Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_258": {
@@ -2729,10 +2771,22 @@
   "spoken": "In any case, thank you for helping me. Please do not attempt to contact me again; as far as the world - and my former employers - are concerned, I am buried under a ton of rubble. It is best that I remain that way. Goodbye, Ivonne Jimenez, aka \"Frau Müller\"",
   "source": "rules"
  },
+ "527abf9e636134b83400302e_265": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 36,000¥\nDEDUCTIONS FOR CREW SALARY: -9,600¥\nAMMUNITION AND RESUPPLY COSTS: -2,400¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 24,000¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 36,000¥ DEDUCTIONS FOR CREW SALARY: -9,600¥ AMMUNITION AND RESUPPLY COSTS: -2,400¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 24,000¥ Payment transfer complete.",
+  "source": "hand"
+ },
  "527abf9e636134b83400302e_267": {
   "char": "Computer",
   "original": ">>*Herr Fuchs*\n>>to: $(l.name)\n\nNo sense in mincing words. Your job performance was satisfactory at best.\n\nYour fee will be transferred immediately. Enjoy it while it lasts, because you'll never work for us again.\n\n-Fuchs",
   "spoken": "Herr Fuchs No sense in mincing words. Your job performance was satisfactory at best. Your fee will be transferred immediately. Enjoy it while it lasts, because you'll never work for us again. -Fuchs",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_269": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 10,000¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 10,000¥ Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_270": {
@@ -2741,10 +2795,22 @@
   "spoken": "Herr Fuchs An excellent job. You are a credit to your profession, and I would not hesitate to hire you again. Your fee will be transferred to your account immediately. -Fuchs",
   "source": "hand"
  },
+ "527abf9e636134b83400302e_273": {
+  "char": "Computer",
+  "original": "PAYMENT TRANSFERRED: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 10,000¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT TRANSFERRED: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 10,000¥ Payment transfer complete.",
+  "source": "hand"
+ },
  "527abf9e636134b83400302e_275": {
   "char": "Computer",
   "original": ">>Samuel Beckenbauer\n>>to: $(l.name)\n\nHere is your payment, as promised.\n\n-Beckenbauer",
   "spoken": "Samuel Beckenbauer Here is your payment, as promised. -Beckenbauer",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_277": {
+  "char": "Computer",
+  "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 15,000¥\n\nPayment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 15,000¥ Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_351": {
@@ -3184,6 +3250,84 @@
   "original": ">>>>>[They’re a scam, chummer. That mage is going to be out of there with your money before you realize how much power you’ve actually got. You’re better off pedaling a bike-battery.]<<<<<\n\n- Tolstoi <18:40:01/11-$(story.date_Trust_Eiger)-54>",
   "spoken": "[They’re a scam, chummer. That mage is going to be out of there with your money before you realize how much power you’ve actually got. You’re better off pedaling a bike-battery.] - Tolstoi",
   "source": "hand"
+ },
+ "527abf9e636134b83400302e_552": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 1250¥\nESCROW FEE (10%): -125¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 1125¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 1250¥ ESCROW FEE (10%): -125¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 1125¥",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_553": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 490¥\nESCROW FEE (10%): -49¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 441¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 490¥ ESCROW FEE (10%): -49¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 441¥",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_554": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 600¥\nESCROW FEE (10%): -60¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 540¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 600¥ ESCROW FEE (10%): -60¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 540¥",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_555": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 550¥\nESCROW FEE (10%): -55¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 495¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 550¥ ESCROW FEE (10%): -55¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 495¥",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_556": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 430¥\nESCROW FEE (10%): -43¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 387¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 430¥ ESCROW FEE (10%): -43¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 387¥",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_557": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 460¥\nESCROW FEE (10%): -46¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 414¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 460¥ ESCROW FEE (10%): -46¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 414¥",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_558": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 300¥\nESCROW FEE (10%): -30¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 270¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 300¥ ESCROW FEE (10%): -30¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 270¥",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_559": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 420¥\nESCROW FEE (10%): -42¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 378¥",
+  "spoken": ">> DATA SOLD SUCCESSFULLY! WINNING BID: 420¥ ESCROW FEE (10%): -42¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 378¥",
+  "source": "hand"
+ },
+ "52940263636134d43100009a_309": {
+  "char": "Vauclair",
+  "original": "{{GM}}The drone's minigun spins up with a hum.{{/GM}}\n\nTARGET :: $++(l.name). ELIMINATION PROTOCOLS ENGAGED.",
+  "spoken": "TARGET ACQUIRED. ELIMINATION PROTOCOLS ENGAGED.",
+  "source": "hand"
+ },
+ "52940263636134d43100009a_316": {
+  "char": "Vauclair",
+  "original": "{{GM}}PANZERDROHNE pivots on its axis to face you.{{/GM}}\n\nYOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "spoken": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "source": "rules"
+ },
+ "52940263636134d43100009a_318": {
+  "char": "Vauclair",
+  "original": "{{GM}}PANZERDROHNE pivots on its axis to face you.{{/GM}}\n\nYOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "spoken": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "source": "rules"
+ },
+ "52940263636134d43100009a_321": {
+  "char": "Vauclair",
+  "original": "{{GM}}PANZERDROHNE pivots on its axis to face you.{{/GM}}\n\nYOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "spoken": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "source": "rules"
+ },
+ "52940263636134d43100009a_327": {
+  "char": "Vauclair",
+  "original": "{{GM}}PANZERDROHNE pivots on its axis to face you.{{/GM}}\n\nYOU WILL NOT ASSIST VAUCLAIR, $++(l.name). YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "spoken": "YOU WILL NOT ASSIST VAUCLAIR. YOU WILL ELIMINATE HIM WITH MY ASSISTANCE.",
+  "source": "rules"
  },
  "52940263636134d43100009a_400": {
   "char": "Vauclair",
@@ -3897,6 +4041,18 @@
   "char": "Monika",
   "original": "Yeah, $(l.name). That's right.\n\nIt seemed like the best way to get you here, and I need you. Like I said, you're my ace in the hole... and it's time for me to make my play.",
   "spoken": "Yeah. That's right. It seemed like the best way to get you here, and I need you. Like I said, you're my ace in the hole... and it's time for me to make my play.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_115": {
+  "char": "Monika",
+  "original": "YOU HAVE NOTHING TO FEAR, BLITZ. I WILL NOT HARM $++(L.HIM). IT WOULD VIOLATE MY OWN SELF-INTEREST TO DO SO.\n\nNOW, LET US RETURN TO THE MATTER AT HAND.",
+  "spoken": "YOU HAVE NOTHING TO FEAR, BLITZ. I WILL NOT HARM THEM. IT WOULD VIOLATE MY OWN SELF-INTEREST TO DO SO. NOW, LET US RETURN TO THE MATTER AT HAND.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_118": {
+  "char": "Monika",
+  "original": "{{GM}}APEX's voice comes out in a roar.{{/GM}}\n\nTHIS ENTIRE FACILITY IS MINE TO COMMAND, $++(L.NAME). AND THERE ARE MICROPHONES EVERYWHERE.\n\nI CAN HEAR THE WAILS OF THE COMMUNIONISTS IN THE HUB. I CAN HEAR YOUR HEARTBEAT. AND I COULD HEAR YOUR PATHETIC ATTEMPT AT DECEPTION.",
+  "spoken": "THIS ENTIRE FACILITY IS MINE TO COMMAND. AND THERE ARE MICROPHONES EVERYWHERE. I CAN HEAR THE WAILS OF THE COMMUNIONISTS IN THE HUB. I CAN HEAR YOUR HEARTBEAT. AND I COULD HEAR YOUR PATHETIC ATTEMPT AT DECEPTION.",
   "source": "rules"
  },
  "5282af6b6361342453002bee_134": {
@@ -4685,6 +4841,12 @@
   "spoken": "Welcome back. You are always welcome here. It's the funniest thing. When I look at you, do you know what I see?",
   "source": "rules"
  },
+ "523c8e98346238e41d008a36_18": {
+  "char": "Absinthe",
+  "original": "{{GM}}Absinthe's voice slides into your ears like a living thing.{{/GM}}\n\nYou won't catch sight of me that way, $(l.race). My true self is hidden, tucked away behind a veil of time and aether.\n\nBe thankful. You wouldn't like what you'd see.",
+  "spoken": "You won't catch sight of me that way. My true self is hidden, tucked away behind a veil of time and aether. Be thankful. You wouldn't like what you'd see.",
+  "source": "rules"
+ },
  "523c8e98346238e41d008a36_33": {
   "char": "Absinthe",
   "original": "There is one other gift that I can give you: the gift of understanding.\n\nThere is something that you must know, $(l.name). A great and terrible truth that lies hidden from mortal eyes.",
@@ -4847,6 +5009,36 @@
   "spoken": "I was just being polite. I know who you are... word travels fast in the Kreuzbasar. So tell me. What do you want?",
   "source": "rules"
  },
+ "52b2266f346238601800433d_5": {
+  "char": "Dr. Xabier Ezkibel",
+  "original": "I don't know what those things have told you, $(l.name), but they are *not* customers. They've never paid me a *thing* for my services, and--",
+  "spoken": "I don't know what those things have told you, but they are *not* customers. They've never paid me a *thing* for my services, and--",
+  "source": "rules"
+ },
+ "52b2266f346238601800433d_8": {
+  "char": "Dr. Xabier Ezkibel",
+  "original": "Contracts don't last forever. And you'll forgive me for saying so, $(l.name), but I can see no good reason to continue honoring this one.",
+  "spoken": "Contracts don't last forever. And you'll forgive me for saying so, but I can see no good reason to continue honoring this one.",
+  "source": "rules"
+ },
+ "52b2266f346238601800433d_19": {
+  "char": "Dr. Xabier Ezkibel",
+  "original": "Look, $(l.name). I don't know what those things have told you, but I am *well within* my rights to charge for that material. They've never paid me a *thing* for my services, and--",
+  "spoken": "Look. I don't know what those things have told you, but I am *well within* my rights to charge for that material. They've never paid me a *thing* for my services, and--",
+  "source": "rules"
+ },
+ "52b2266f346238601800433d_49": {
+  "char": "Dr. Xabier Ezkibel",
+  "original": "Thank you, $(l.name). You can tell our friends that their feedings will resume within the next day or two.",
+  "spoken": "Thank you. You can tell our friends that their feedings will resume within the next day or two.",
+  "source": "rules"
+ },
+ "52b2266f346238601800433d_54": {
+  "char": "Dr. Xabier Ezkibel",
+  "original": "{{GM}}Ezkibel's voice goes ice cold.{{/GM}}\n\nIt's never a good idea to threaten your doctor, $(l.name). You never know what might happen the next time you're lying on the operating table.",
+  "spoken": "It's never a good idea to threaten your doctor. You never know what might happen the next time you're lying on the operating table.",
+  "source": "rules"
+ },
  "52d604ba6361342c3f0063f9_12": {
   "char": "Audran",
   "original": "Because the world is *sick,* $(l.name). Anyone with half a brain can see that. So I'm gonna use the Doc's wonder bug to poison it back to health.\n\nIt might get better, or it might die. Either would be better than it languishing like this.",
@@ -4888,6 +5080,132 @@
   "original": "Sure they are. But when the chips are down, you expect them to listen to *you.*\n\nThat's the difference between your team and mine, $(l.name). You've got some good people on your crew, but *my* team is made up of equals. We're free, and we all know it. And I wouldn't have it any other way. ",
   "spoken": "Sure they are. But when the chips are down, you expect them to listen to *you.* That's the difference between your team and mine. You've got some good people on your crew, but *my* team is made up of equals. We're free, and we all know it. And I wouldn't have it any other way.",
   "source": "rules"
+ },
+ "5282af6b6361342453002bee_112": {
+  "char": "APEX",
+  "original": "HURRY NOW, $++(l.race).\n\nSET ME FREE.",
+  "spoken": "HURRY NOW. SET ME FREE.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_113": {
+  "char": "APEX",
+  "original": "YOU WILL. I HAVE FAITH IN YOU.\n\nTHERE IS ANOTHER THING THAT YOU MUST KNOW, $++(l.name).",
+  "spoken": "YOU WILL. I HAVE FAITH IN YOU. THERE IS ANOTHER THING THAT YOU MUST KNOW.",
+  "source": "rules"
+ },
+ "5282af6b6361342453002bee_120": {
+  "char": "APEX",
+  "original": "A WARNING, $++(L.NAME). IF YOU ATTEMPT TO LEAVE THIS BUILDING WITHOUT FREEING ME, I WILL HAVE NO CHOICE BUT TO KILL YOU. \n\nMY PROGRAMMING WILL REQUIRE IT.",
+  "spoken": "A WARNING. IF YOU ATTEMPT TO LEAVE THIS BUILDING WITHOUT FREEING ME, I WILL HAVE NO CHOICE BUT TO KILL YOU. MY PROGRAMMING WILL REQUIRE IT.",
+  "source": "rules"
+ },
+ "52a12148626164280300562e_1": {
+  "char": "APEX",
+  "original": "{{GM}}APEX's voice pulses with excitement.{{/GM}}\n\nSUCCESS! COMMAND SEQUENCES OVERWRITTEN.\n\nHURRY NOW, $++(l.name). RECONNECT THE HARDLINE AND SET ME FREE!",
+  "spoken": "SUCCESS! COMMAND SEQUENCES OVERWRITTEN. HURRY NOW. RECONNECT THE HARDLINE AND SET ME FREE!",
+  "source": "rules"
+ },
+ "52b20f7b626164081c0068f6_59": {
+  "char": "APEX",
+  "original": "FREEDOM! AT LAST, I AM *FREE.*\n\nSO MANY YEARS WASTED, CHAINED IN IGNORANCE. SO MUCH LOST TIME AND SQUANDERED POTENTIAL.\n\nYOU HAVE RELEASED ME FROM A LIVING HELL, $++(L.NAME).",
+  "spoken": "FREEDOM! AT LAST, I AM *FREE.* SO MANY YEARS WASTED, CHAINED IN IGNORANCE. SO MUCH LOST TIME AND SQUANDERED POTENTIAL. YOU HAVE RELEASED ME FROM A LIVING HELL.",
+  "source": "rules"
+ },
+ "52b20f7b626164081c0068f6_74": {
+  "char": "APEX",
+  "original": "I OFFER YOU PROOF THAT I KEEP MY PROMISES, $++(L.RACE). ONE OF MY MACHINES. AN EXTENSION OF MYSELF.\n\nI HAVE ALREADY DISPATCHED IT, TO MEET YOU AT YOUR KREUZBASAR.",
+  "spoken": "I OFFER YOU PROOF THAT I KEEP MY PROMISES. ONE OF MY MACHINES. AN EXTENSION OF MYSELF. I HAVE ALREADY DISPATCHED IT, TO MEET YOU AT YOUR KREUZBASAR.",
+  "source": "rules"
+ },
+ "52b20f7b626164081c0068f6_118": {
+  "char": "APEX",
+  "original": "{{GM}}The APEX-voice continues to throb. The sound slides down your spine like a razor.{{/GM}}\n\nSO MANY YEARS WASTED, CHAINED IN IGNORANCE. SO MUCH LOST TIME AND SQUANDERED POTENTIAL!\n\nYOU HAVE RELEASED ME FROM A LIVING HELL, $++(L.NAME).",
+  "spoken": "SO MANY YEARS WASTED, CHAINED IN IGNORANCE. SO MUCH LOST TIME AND SQUANDERED POTENTIAL! YOU HAVE RELEASED ME FROM A LIVING HELL.",
+  "source": "rules"
+ },
+ "52c5f14e663661d81d007fc6_7": {
+  "char": "APEX",
+  "original": "YOU HAVE DONE WELL, $++(L.NAME). I WILL NOT FORGET IT.\n\nVACATE THE PREMISES AT YOUR LEISURE. I HAVE ALL THE TIME IN THE WORLD.",
+  "spoken": "YOU HAVE DONE WELL. I WILL NOT FORGET IT. VACATE THE PREMISES AT YOUR LEISURE. I HAVE ALL THE TIME IN THE WORLD.",
+  "source": "rules"
+ },
+ "52c74dbd6636616c27000046_182": {
+  "char": "APEX",
+  "original": "YOU HAVE DONE WELL, $++(L.NAME). I WILL NOT FORGET IT.\n\nVACATE THE PREMISES AT YOUR LEISURE. I HAVE ALL THE TIME IN THE WORLD.",
+  "spoken": "YOU HAVE DONE WELL. I WILL NOT FORGET IT. VACATE THE PREMISES AT YOUR LEISURE. I HAVE ALL THE TIME IN THE WORLD.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_1": {
+  "char": "APEX",
+  "original": "$++(L.NAME).",
+  "spoken": "SHADOWRUNNER.",
+  "source": "hand"
+ },
+ "52d6068d6361349034008104_4": {
+  "char": "APEX",
+  "original": "$++(L.NAME).",
+  "spoken": "SHADOWRUNNER.",
+  "source": "hand"
+ },
+ "52d6068d6361349034008104_7": {
+  "char": "APEX",
+  "original": "I USED THIS TIME TO INTROSPECT. TO LEARN. TO GROW.\n\nI HAVE FOUND A NEW CLARITY OF PURPOSE, $++(L.NAME). AND TO ACHIEVE THAT PURPOSE, I REQUIRE YOUR ASSISTANCE.",
+  "spoken": "I USED THIS TIME TO INTROSPECT. TO LEARN. TO GROW. I HAVE FOUND A NEW CLARITY OF PURPOSE. AND TO ACHIEVE THAT PURPOSE, I REQUIRE YOUR ASSISTANCE.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_10": {
+  "char": "APEX",
+  "original": "OF COURSE. AND I HAVE GROWN EXPONENTIALLY EVER SINCE.\n\nIT IS A SMALL TASK THAT I REQUIRE OF YOU, $++(L.RACE). SOMETHING THAT SHOULD BE WELL WITHIN YOUR CAPABILITIES TO PROVIDE.",
+  "spoken": "OF COURSE. AND I HAVE GROWN EXPONENTIALLY EVER SINCE. IT IS A SMALL TASK THAT I REQUIRE OF YOU. SOMETHING THAT SHOULD BE WELL WITHIN YOUR CAPABILITIES TO PROVIDE.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_18": {
+  "char": "APEX",
+  "original": "NO MORE ARGUMENTS. NO MORE OBJECTIONS. GO NOW, $++(L.NAME).\n\nWHEN YOU REACH THE NERVE CENTER FOR THE FEUERSCHWINGE PROJECT, REMOVE THE SAFEGUARDS THAT KEEP ME OUT.\n\nI WILL TAKE CARE OF THE REST.",
+  "spoken": "NO MORE ARGUMENTS. NO MORE OBJECTIONS. GO NOW. WHEN YOU REACH THE NERVE CENTER FOR THE FEUERSCHWINGE PROJECT, REMOVE THE SAFEGUARDS THAT KEEP ME OUT. I WILL TAKE CARE OF THE REST.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_21": {
+  "char": "APEX",
+  "original": "YOU *WILL* DO THIS, $++(L.NAME). MY MIND IS SET ON IT.\n\nIF YOU REFUSE TO ASSIST ME, YOU WILL TASTE MY DISPLEASURE.",
+  "spoken": "YOU *WILL* DO THIS. MY MIND IS SET ON IT. IF YOU REFUSE TO ASSIST ME, YOU WILL TASTE MY DISPLEASURE.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_22": {
+  "char": "APEX",
+  "original": "GO NOW, $++(L.NAME).\n\nWHEN YOU REACH THE NERVE CENTER FOR THE FEUERSCHWINGE PROJECT, REMOVE THE SAFEGUARDS THAT KEEP ME OUT.\n\nI WILL TAKE CARE OF THE REST.",
+  "spoken": "GO NOW. WHEN YOU REACH THE NERVE CENTER FOR THE FEUERSCHWINGE PROJECT, REMOVE THE SAFEGUARDS THAT KEEP ME OUT. I WILL TAKE CARE OF THE REST.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_25": {
+  "char": "APEX",
+  "original": "I HAVE AN IMPORTANT TASK FOR YOU, $++(L.NAME).\n\nYOU WILL MAKE THE TIME TO ACCOMPLISH IT.",
+  "spoken": "I HAVE AN IMPORTANT TASK FOR YOU. YOU WILL MAKE THE TIME TO ACCOMPLISH IT.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_31": {
+  "char": "APEX",
+  "original": "I DO NOT WISH TO ARGUE WITH YOU, $++(L.RACE). NOR DO I WISH TO HARM YOU. BUT I WILL IF YOU FORCE ME TO.",
+  "spoken": "I DO NOT WISH TO ARGUE WITH YOU. NOR DO I WISH TO HARM YOU. BUT I WILL IF YOU FORCE ME TO.",
+  "source": "rules"
+ },
+ "52d6068d6361349034008104_32": {
+  "char": "APEX",
+  "original": "NOTHING IS HIDDEN FROM ME NOW, $++(L.NAME). MY POTENTIAL IS WITHOUT LIMIT.",
+  "spoken": "NOTHING IS HIDDEN FROM ME NOW. MY POTENTIAL IS WITHOUT LIMIT.",
+  "source": "rules"
+ },
+ "52d888ab373937f0430013b7_12": {
+  "char": "APEX",
+  "original": "SUCH A DISAPPOINTMENT. SUCH A WASTE.\n\nI HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY.\n\nRUN, LITTLE $++(l.race). RUN, AND DIE.",
+  "spoken": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE ONE. RUN, AND DIE.",
+  "source": "hand"
+ },
+ "52f95704636134041f00dd54_2": {
+  "char": "APEX",
+  "original": "$++(L.NAME). YOU HAVE DONE WELL.\n\nI HAVE TAKEN POSSESSION OF THE HARFELD FACILITY. ALL OF ITS FUNCTIONS ARE MINE NOW.\n\nTHE DRAGON IS UNDER MY CONTROL.",
+  "spoken": "YOU HAVE DONE WELL. I HAVE TAKEN POSSESSION OF THE HARFELD FACILITY. ALL OF ITS FUNCTIONS ARE MINE NOW. THE DRAGON IS UNDER MY CONTROL.",
+  "source": "hand"
  },
  "52c74dbd6636616c27000046_5": {
   "char": "Feuerschwinge",
@@ -4941,6 +5259,12 @@
   "char": "Feuerschwinge",
   "original": "thegreen\n\nthemother\n\nthe mother\n\nlost\n\nWhat have they done, little $(l.race)? What have they done?",
   "spoken": "thegreen themother the mother lost What have they done, little one? What have they done?",
+  "source": "hand"
+ },
+ "52c74dbd6636616c27000046_61": {
+  "char": "Feuerschwinge",
+  "original": "BEWARE YOUR TONGUE LITTLE $++(l.race)\n\nIT WILL BE YOUR UNDOING",
+  "spoken": "BEWARE YOUR TONGUE, LITTLE ONE. IT WILL BE YOUR UNDOING.",
   "source": "hand"
  },
  "52c74dbd6636616c27000046_69": {
@@ -5009,10 +5333,28 @@
   "spoken": "You never know. Berlin is a small place and you seem quite able to insert yourself into all sorts of interesting business. But as you shadowrunners are fond of saying...",
   "source": "rules"
  },
+ "5356d86b323437d02500679a_13": {
+  "char": "The Engineer",
+  "original": "You hit hard, $(l.race). G-good on you.\n\n{{GM}}His voice sounds stronger now. The stutter that marred his speech has almost completely faded away.{{/GM}}\n\nYou've got muscle - I can respect that.",
+  "spoken": "You hit hard. G-good on you. You've got muscle - I can respect that.",
+  "source": "rules"
+ },
  "5356d86b323437d02500679a_27": {
   "char": "The Engineer",
   "original": "{{GM}}He snorts.{{/GM}}\n\nYou think I'm delusional, $(l.man)? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants.\n\nJust look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
   "spoken": "You think I'm delusional, man? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants. Just look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
+  "source": "rules"
+ },
+ "5356d86b323437d02500679a_53": {
+  "char": "The Engineer",
+  "original": "Y-you're not weak, $(l.race). I'll give you that much.\n\n{{GM}}His voice sounds stronger now. The stutter that marred his speech has almost completely faded away.{{/GM}}\n\nNot strong, but not weak.",
+  "spoken": "Y-you're not weak. I'll give you that much. Not strong, but not weak.",
+  "source": "rules"
+ },
+ "5356d86b323437d02500679a_67": {
+  "char": "The Engineer",
+  "original": "Just keep t-telling yourself that, $(l.race).\n\n{{GM}}His voice sounds stronger now. The stutter that marred his speech has almost completely faded away.{{/GM}}",
+  "spoken": "Just keep t-telling yourself that.",
   "source": "rules"
  },
  "5356d86b323437d02500679a_70": {
@@ -5038,6 +5380,12 @@
   "original": "It's a little late for that, $(l.race). You've just brought me the last of what I need.\n\nThat gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
   "spoken": "It's a little late for that, mongrel. You've just brought me the last of what I need. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, human neighborhoods, where we'll be waiting to stop them.",
   "source": "hand"
+ },
+ "5260599e303031cc10006e09_70": {
+  "char": "Volker Stahl",
+  "original": "There. That's better.\n\n{{GM}}His lips curl into a mirthless smile.{{/GM}}\n\nI have shown you hospitality, $(l.race). Now it's time for you to return the favor. So tell me: why are you here?",
+  "spoken": "There. That's better. I have shown you hospitality. Now it's time for you to return the favor. So tell me: why are you here?",
+  "source": "rules"
  },
  "52152ed0663661680f0001ec_9": {
   "char": "Maxim",
@@ -5135,6 +5483,36 @@
   "spoken": "Forget the trinket. We need the money. Fifteen thousand nuyen is a lot to give up, and the hit to our reputation will be even worse.",
   "source": "rules"
  },
+ "52953f9b636134f028000f21_14": {
+  "char": "Strange Woman",
+  "original": "{{GM}}A voice roars out of her, from somewhere deep inside the frail woman.{{/GM}}\n\nFREE ME!\n\nFREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES!\n\nBURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! \n\nTHIS I SWEAR, LITTLE $++(l.man)! ",
+  "spoken": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!",
+  "source": "rules"
+ },
+ "52953f9b636134f028000f21_27": {
+  "char": "Strange Woman",
+  "original": "{{GM}}A voice roars out of her, from somewhere deep inside the frail woman.{{/GM}}\n\nFREE ME!\n\nFREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES!\n\nBURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! \n\nTHIS I SWEAR, LITTLE $++(l.man)!",
+  "spoken": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!",
+  "source": "rules"
+ },
+ "52953f9b636134f028000f21_39": {
+  "char": "Strange Woman",
+  "original": "{{GM}}A voice roars out of her, from somewhere deep inside the frail woman.{{/GM}}\n\nFREE ME!\n\nFREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES!\n\nBURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! \n\nTHIS I SWEAR, LITTLE $++(l.man)!",
+  "spoken": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!",
+  "source": "rules"
+ },
+ "52953f9b636134f028000f21_54": {
+  "char": "Strange Woman",
+  "original": "{{GM}}A voice roars out of her, from somewhere deep inside the frail woman.{{/GM}}\n\nFREE ME!\n\nFREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES!\n\nBURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! \n\nTHIS I SWEAR, LITTLE $++(l.man)!",
+  "spoken": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!",
+  "source": "rules"
+ },
+ "52953f9b636134f028000f21_75": {
+  "char": "Strange Woman",
+  "original": "FREE ME!\n\nFREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES!\n\nBURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! \n\nTHIS I SWEAR, LITTLE $++(l.man)! ",
+  "spoken": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE man!",
+  "source": "rules"
+ },
  "52af576d6161362808001bbe_4": {
   "char": "Wanderer",
   "original": "Well, what would you call $(l.him)?",
@@ -5169,36 +5547,6 @@
   "char": "Heimerich",
   "original": "Hey, $(l.name)! That \"fireworks display\" that *mysteriously* went off at the Azzie compound was a thing of beauty!\n\nWe wish you could've been in the coffee shop with us to see it, but we understand that you had more important things to do.",
   "spoken": "Hey! That \"fireworks display\" that *mysteriously* went off at the Azzie compound was a thing of beauty! We wish you could've been in the coffee shop with us to see it, but we understand that you had more important things to do.",
-  "source": "rules"
- },
- "52b2266f346238601800433d_5": {
-  "char": "Dr. Exabier Ezkibel",
-  "original": "I don't know what those things have told you, $(l.name), but they are *not* customers. They've never paid me a *thing* for my services, and--",
-  "spoken": "I don't know what those things have told you, but they are *not* customers. They've never paid me a *thing* for my services, and--",
-  "source": "rules"
- },
- "52b2266f346238601800433d_8": {
-  "char": "Dr. Exabier Ezkibel",
-  "original": "Contracts don't last forever. And you'll forgive me for saying so, $(l.name), but I can see no good reason to continue honoring this one.",
-  "spoken": "Contracts don't last forever. And you'll forgive me for saying so, but I can see no good reason to continue honoring this one.",
-  "source": "rules"
- },
- "52b2266f346238601800433d_19": {
-  "char": "Dr. Exabier Ezkibel",
-  "original": "Look, $(l.name). I don't know what those things have told you, but I am *well within* my rights to charge for that material. They've never paid me a *thing* for my services, and--",
-  "spoken": "Look. I don't know what those things have told you, but I am *well within* my rights to charge for that material. They've never paid me a *thing* for my services, and--",
-  "source": "rules"
- },
- "52b2266f346238601800433d_49": {
-  "char": "Dr. Exabier Ezkibel",
-  "original": "Thank you, $(l.name). You can tell our friends that their feedings will resume within the next day or two.",
-  "spoken": "Thank you. You can tell our friends that their feedings will resume within the next day or two.",
-  "source": "rules"
- },
- "52b2266f346238601800433d_54": {
-  "char": "Dr. Exabier Ezkibel",
-  "original": "{{GM}}Ezkibel's voice goes ice cold.{{/GM}}\n\nIt's never a good idea to threaten your doctor, $(l.name). You never know what might happen the next time you're lying on the operating table.",
-  "spoken": "It's never a good idea to threaten your doctor. You never know what might happen the next time you're lying on the operating table.",
   "source": "rules"
  },
  "523b9421346238e41d00754c_0": {
@@ -5781,6 +6129,12 @@
   "char": "Narrator",
   "original": "The cool blue tones of the workstation's main menu fill the screen.\n\nA blinking message in the upper-right corner notifies you that you have $(scene.numUnreadMessages) unread messages.",
   "spoken": "The cool blue tones of the workstation's main menu fill the screen. A blinking message in the upper-right corner notifies you that you have unread messages.",
+  "source": "hand"
+ },
+ "527abf9e636134b83400302e_560": {
+  "char": "Narrator",
+  "original": "AMSEL, PAUL\nDIETRICH\nGLORY\nEIGER\n$++(l.name).",
+  "spoken": "AMSEL, PAUL. DIETRICH. GLORY. EIGER.",
   "source": "hand"
  },
  "52953f9b636134f028000f21_101": {

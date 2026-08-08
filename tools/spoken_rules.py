@@ -24,10 +24,12 @@ def normalize(t):
     return s
 
 def has_var(t):
-    return re.search(r'\$\+?\(', t) is not None
+    # \$\+?\( matched $( and $+( but NOT $++(, so every emphatic variable was invisible to the
+    # detector that decides which lines need resolving - which is how 54 of them reached the TTS.
+    return re.search(r'\$\+*\(', t) is not None
 
 # player-address variables safe to DROP when used as a vocative ("..., $(l.name)?" etc.)
-_VOC = r'l\.name|l\.Name|l\.firstname|l\.lastname|l\.sir|l\.Sir|l\.honorific|l\.freund|s\.name'
+_VOC = r'l\.name|l\.Name|l\.firstname|l\.lastname|l\.sir|l\.Sir|l\.honorific|l\.freund|s\.name|l\.race|l\.metatype'
 
 # ---------------------------------------------------------------- $(l.he) -> "they"
 # The writers wrote every player pronoun as third-person SINGULAR, because at runtime the game
@@ -44,14 +46,25 @@ _TOK_THEM, _TOK_THEIR = "\x01THEM\x01", "\x01THEIR\x01"
 _SUBBED = {_TOK: "they", _TOK_THEM: "them", _TOK_THEIR: "their"}
 
 
+def _shouting(s):
+    """Is this line written in caps? APEX, the Strange Woman and the cyberzombie all shout whole
+    lines, and v3 reads caps as volume."""
+    letters = [ch for ch in s if ch.isalpha()]
+    return len(letters) > 12 and sum(ch.isupper() for ch in letters) / len(letters) > 0.8
+
+
 def _cap_substituted(s):
     """Replace the pronoun tokens with their words, capitalizing any that opens a sentence.
-    Only tokens THIS module inserted are considered, so the writers' own casing is untouched."""
+    Only tokens THIS module inserted are considered, so the writers' own casing is untouched.
+
+    In a shouted line the inserted word is upper-cased to match: dropping a lower-case "them" into
+    "I WILL NOT HARM $++(L.HIM)" tells v3 to stop shouting for one word in the middle of a threat."""
+    shout = _shouting(s)
     rx = '|'.join(_SUBBED)
     s = re.sub(r'(^|[.!?]\s+|["“]\s*)(' + rx + r')',
                lambda m: m.group(1) + _SUBBED[m.group(2)].capitalize(), s)
     for tok, word in _SUBBED.items():
-        s = s.replace(tok, word)
+        s = s.replace(tok, word.upper() if shout else word)
     return s
 _AUX_AFTER = {"is": "are", "was": "were", "has": "have", "does": "do",
               "isn't": "aren't", "wasn't": "weren't", "hasn't": "haven't", "doesn't": "don't"}
@@ -105,24 +118,30 @@ def they_disagreement(t, original=None):
 
 def mechanical(t):
     s = normalize(t)
+    # The engine writes the same variables three ways: $(l.name), $+(l.name) and $++(L.NAME) -
+    # the plus marks an emphatic substitution and the case follows the surrounding sentence. Every
+    # rule below matches a bare lower-case $(var), so a shouted "$++(L.NAME)" slipped through all
+    # of them untouched and was read out as "dollar plus plus paren L dot name" - 54 segments of
+    # it, 40 already generated. Fold the prefix here and match the player variables case-insensitively.
+    s = re.sub(r"\$\++\(", "$(", s)
     # canonical story strings (HK) — substitute BEFORE vocative logic so they read in character
     s = re.sub(r'\$\(story\.Global_Gobbet_Nickname\)', 'Seattle', s)
     s = re.sub(r'\$\(story\.Global_HK_Hub_SafeBoatName\)', 'Bolthole', s, flags=re.I)
     # vocative drops: ", $(l.name)?" -> "?"  (also sir/first/lastname/honorific/freund etc.)
-    s = re.sub(r',\s*\$\((%s)\)\s*([.!?,])' % _VOC, r'\2', s)
-    s = re.sub(r'^\s*\$\((l\.name|l\.Name|l\.firstname|l\.honorific)\)\s*[,-]\s*', '', s)
+    s = re.sub(r',\s*\$\((%s)\)\s*([.!?,])' % _VOC, r'\2', s, flags=re.I)
+    s = re.sub(r'^\s*\$\((l\.name|l\.firstname|l\.honorific)\)\s*[,-]\s*', '', s, flags=re.I)
     # greetings: "Welcome $(scene.BroSis)!" -> "Welcome, friend!"
     s = re.sub(r'\$\(scene\.BroSis\)', 'friend', s)
     # gendered address words: 'man' works cross-gender in street slang
-    s = re.sub(r',\s*\$\(l\.man\)\s*([.!?,])', r', man\1', s)
-    s = re.sub(r'\$\(l\.man\)', 'man', s)
+    s = re.sub(r',\s*\$\(l\.man\)\s*([.!?,])', r', man\1', s, flags=re.I)
+    s = re.sub(r'\$\(l\.man\)', 'man', s, flags=re.I)
     # "quite a $(l.guy)" -> "really something"
     s = re.sub(r'quite (a|the) \$\(l\.guy\)', 'really something', s)
     # pronouns about the player: neutral 'they' forms
     s = re.sub(r'([Tt])here \$\(l\.he\) is', r'\1here they are', s)
     s = _they(s)
-    s = re.sub(r'\$\(l\.him\)', _TOK_THEM, s)
-    s = re.sub(r'\$\(l\.(his|hisher)\)', _TOK_THEIR, s)
+    s = re.sub(r'\$\(l\.him\)', _TOK_THEM, s, flags=re.I)
+    s = re.sub(r'\$\(l\.(his|hisher)\)', _TOK_THEIR, s, flags=re.I)
     s = _cap_substituted(s)
     # tidy whitespace/punctuation artifacts
     s = re.sub(r'\s+', ' ', s).strip()
