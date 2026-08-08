@@ -320,8 +320,8 @@
   "voiceName": "Malgorn the Hollow"
  },
  "name_kiezgatekeeper": {
-  "voiceId": "mag_300",
-  "voiceName": "Michael Johnson"
+  "voiceId": "mag_286",
+  "voiceName": "Benjamin Parker"
  },
  "name_partygirl": {
   "voiceId": "mag_283",
@@ -336,12 +336,12 @@
   "voiceName": "Isla MacKenzie"
  },
  "name_knighterrantgrenadier": {
-  "voiceId": "mag_41",
-  "voiceName": "Chase Reed"
+  "voiceId": "mag_296",
+  "voiceName": "James Smith"
  },
  "name_foreignelf": {
-  "voiceId": "mag_588",
-  "voiceName": "Chad Waters"
+  "voiceId": "mag_68",
+  "voiceName": "Hae Jin"
  },
  "name_foodcartvendor": {
   "voiceId": "mag_585",
@@ -352,16 +352,16 @@
   "voiceName": "Michael Botha"
  },
  "name_shopkeeper": {
-  "voiceId": "mag_440",
-  "voiceName": "Liam Hayes"
+  "voiceId": "mag_716",
+  "voiceName": "Sadachbia"
  },
  "name_harrow": {
   "voiceId": "mag_697",
   "voiceName": "Algieba"
  },
  "name_controlpanel": {
-  "voiceId": "mag_807",
-  "voiceName": "Matthias Seidel"
+  "voiceId": "mag_706",
+  "voiceName": "Fenrir"
  },
  "name_techvendor": {
   "voiceId": "mag_499",
