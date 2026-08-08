@@ -172641,7 +172641,7 @@
  },
  "name_lady": {
   "5355946532343720180045a9_0": {
-   "selected": "name_lady/takes/5355946532343720180045a9_0__mag29__1786105628.mp3",
+   "selected": "name_lady/takes/5355946532343720180045a9_0__mag159__1786207896.mp3",
    "takes": [
     {
      "file": "name_lady/takes/5355946532343720180045a9_0__mag29__1786105628.mp3",
@@ -172650,11 +172650,19 @@
      "stability": 0,
      "chars": 44,
      "ts": 1786105628
+    },
+    {
+     "file": "name_lady/takes/5355946532343720180045a9_0__mag159__1786207896.mp3",
+     "voiceId": "mag_159",
+     "voiceName": "Avery Grant",
+     "stability": 0,
+     "chars": 44,
+     "ts": 1786207896
     }
    ]
   },
   "5355946532343720180045a9_1": {
-   "selected": "name_lady/takes/5355946532343720180045a9_1__mag29__1786207838.mp3",
+   "selected": "name_lady/takes/5355946532343720180045a9_1__mag159__1786207897.mp3",
    "takes": [
     {
      "file": "name_lady/takes/5355946532343720180045a9_1__mag29__1786207838.mp3",
@@ -172663,11 +172671,19 @@
      "stability": 0,
      "chars": 35,
      "ts": 1786207838
+    },
+    {
+     "file": "name_lady/takes/5355946532343720180045a9_1__mag159__1786207897.mp3",
+     "voiceId": "mag_159",
+     "voiceName": "Avery Grant",
+     "stability": 0,
+     "chars": 35,
+     "ts": 1786207897
     }
    ]
   },
   "5355946532343720180045a9_2": {
-   "selected": "name_lady/takes/5355946532343720180045a9_2__mag29__1786207842.mp3",
+   "selected": "name_lady/takes/5355946532343720180045a9_2__mag159__1786207898.mp3",
    "takes": [
     {
      "file": "name_lady/takes/5355946532343720180045a9_2__mag29__1786207842.mp3",
@@ -172676,6 +172692,14 @@
      "stability": 0,
      "chars": 193,
      "ts": 1786207842
+    },
+    {
+     "file": "name_lady/takes/5355946532343720180045a9_2__mag159__1786207898.mp3",
+     "voiceId": "mag_159",
+     "voiceName": "Avery Grant",
+     "stability": 0,
+     "chars": 193,
+     "ts": 1786207898
     }
    ]
   }
