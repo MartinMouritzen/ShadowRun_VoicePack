@@ -138,8 +138,18 @@ def post(job):
     body = json.dumps({**job, "game": a.game, "stability": 0}).encode()
     req = urllib.request.Request(f"{LAB}/api/generate", data=body,
                                  headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=300) as r:
-        return json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        # The server answers a refused generation with 502 AND a JSON body saying why. urlopen
+        # raises before that body is read, so every such line was reported as a bare
+        # "HTTP Error 502: Bad Gateway" - which is exactly the message the server was changed to
+        # stop giving. Read the body and hand back the real reason.
+        try:
+            return json.loads(e.read())
+        except Exception:
+            return {"error": f"HTTP {e.code}"}
 
 throttled_until = [0.0]                 # shared: one worker hitting the cap pauses all of them
 next_start = [0.0]                      # shared: proactive pacing, see --pace
