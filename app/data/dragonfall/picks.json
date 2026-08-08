@@ -724,8 +724,8 @@
   "voiceName": "Jamie Clarke"
  },
  "name_securitynode": {
-  "voiceId": "mag_543",
-  "voiceName": "Axel Virex"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_scientist": {
   "voiceId": "mag_507",

@@ -105,12 +105,23 @@ def main():
     lines = {}          # base_key -> [source_rel_mp3, ...] (ordered, only selected)
     stats = {"lines_total": 0, "lines_voiced": 0, "segments_voiced": 0, "missing_files": 0}
 
+    # Template-variable variants. A line that says $(l.race) is shipped once per metatype under
+    # "<key>#<variantId>"; the plugin resolves the playthrough's values, tries the matching key and
+    # falls back to the plain key when that variant was never generated. Empty when the game has no
+    # variants.json, which keeps this repo standalone.
+    VARIANTS = jload_opt("variants.json", {}).get("segments") or {}
+    stats["variant_clips"] = 0
+
     def process(char_id, line_list):
         for l in line_list:
             base_key = f'{l["c"]}_{l["n"]}'
             stats["lines_total"] += 1
             ordered = []
-            for bucket, seg_key in seg_keys(char_id, base_key, SEGS):
+            keys = seg_keys(char_id, base_key, SEGS)
+            vids = set()
+            for _, seg_key in keys:
+                vids |= set((VARIANTS.get(seg_key) or {}).get("v") or {})
+            for bucket, seg_key in keys:
                 b = char_id if bucket == "char_or_narr" else bucket
                 sel = pick(b, seg_key, bucket == "char_or_narr")
                 if sel:
@@ -121,6 +132,22 @@ def main():
             if ordered:
                 lines[base_key] = ordered
                 stats["lines_voiced"] += 1
+            for vid in sorted(vids):
+                # Segments that do not vary reuse the generic clip, so a variant line is only as
+                # long as the words that actually change.
+                seq, whole = [], True
+                for bucket, seg_key in keys:
+                    b = char_id if bucket == "char_or_narr" else bucket
+                    sel = (pick(b, f"{seg_key}#{vid}", bucket == "char_or_narr")
+                           if vid in ((VARIANTS.get(seg_key) or {}).get("v") or {})
+                           else pick(b, seg_key, bucket == "char_or_narr"))
+                    if sel and os.path.exists(os.path.join(AUDIO, *sel.split("/"))):
+                        seq.append(sel)
+                    else:
+                        whole = False; break
+                if whole and seq and seq != ordered:
+                    lines[f"{base_key}#{vid}"] = seq
+                    stats["variant_clips"] += 1
 
     for ch in chars["characters"]:
         process(ch["id"], ch.get("lines", []))
@@ -136,6 +163,22 @@ def main():
             if sel and os.path.exists(os.path.join(AUDIO, *sel.split("/"))):
                 lines[key] = [sel]
                 stats["lines_voiced"] += 1; stats["segments_voiced"] += 1
+            # A variable-bearing inspect ("The special today is a $(scene.CafeSpecial).") ships one
+            # clip per value, keyed by the md5 of the RESOLVED sentence. The plugin expands the raw
+            # text through the game's own substitution and hashes the result, so it needs to know
+            # nothing about which variable this was or what its values are.
+            ent = VARIANTS.get(key) or {}
+            if ent.get("hashed"):
+                voiced_any = False
+                for vid, vtext in (ent.get("v") or {}).items():
+                    vsel = selected("narrator", f"{key}#{vid}")
+                    if vsel and os.path.exists(os.path.join(AUDIO, *vsel.split("/"))):
+                        h = "insp_" + hashlib.md5(vtext.encode("utf-8")).hexdigest()[:16]
+                        lines[h] = [vsel]
+                        stats["variant_clips"] += 1
+                        voiced_any = True
+                if voiced_any and not sel:
+                    stats["lines_voiced"] += 1
 
     # Barks AND screen narration: takes live under the "_barks" bucket keyed "bark_<md5(text)>".
     # The plugin hashes the runtime text the same way (DisplayTextOverActor / load screen /
@@ -317,6 +360,9 @@ def main():
                    for f in os.listdir(CLIPS)) / 1e6 if os.path.isdir(CLIPS) else 0
     print(f"voicepack: {len(manifest_lines)} voiced nodes, "
           f"{len(src_to_ogg)} unique clips ({total_mb:.1f} MB)")
+    if stats.get("variant_clips"):
+        print(f"  variants: {stats['variant_clips']} variant line(s) shipped "
+              f"(race / gender / scene-string alternatives)")
     print(f"  lines total={stats['lines_total']} voiced={stats['lines_voiced']} "
           f"segments={stats['segments_voiced']} missing_files={stats['missing_files']}")
     # Assert no MP3 leaked into the pack

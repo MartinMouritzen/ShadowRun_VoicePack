@@ -61,6 +61,7 @@ segs, edits = J("line_segments.json", {}), J("text_edits.json", {})
 directed, spoken_ov = J("directed.json", {}), J("spoken_overrides.json", {})
 takes, picks = J("takes.json", {}), J("picks.json", {})
 segov = J("seg_overrides.json", {})
+variants_doc = J("variants.json", {}).get("segments") or {}
 bark_picks = J("bark_picks.json", {})
 bark_over = J("bark_overrides.json", {})
 char_by_name = {c["name"]: c["id"] for c in (chars.get("characters") or [])}
@@ -143,7 +144,20 @@ def inspect_jobs():
         # cannot be right for all of them, and speaking the wrong drink over the on-screen text is
         # worse than silence, so leave it unvoiced rather than guess.
         if re.search(r"\$\+*\(", text):
-            print(f"  SKIP {key}: unresolved variable — {text[:60]}", file=sys.stderr)
+            if not (variants_doc.get(key) or {}).get("v"):
+                print(f"  SKIP {key}: unresolved variable — {text[:60]}", file=sys.stderr)
+                continue
+            # It has a closed value set, so the variants below carry the real words and the
+            # generic take is skipped rather than reading the token aloud.
+            for vid, vtext in variants_doc[key]["v"].items():
+                vk = f"{key}#{vid}"
+                if not a.redo and (done.get(vk) or {}).get("takes"):
+                    continue
+                vv = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
+                      else segov.get(key) or voice)
+                out.append({"charId": "narrator", "lineKey": vk,
+                            "text": re.sub(r"\s+", " ", vtext).strip(),
+                            "voiceId": vv["voiceId"], "voiceName": vv.get("voiceName")})
             continue
         v = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
              else segov.get(key) or voice)
@@ -151,6 +165,14 @@ def inspect_jobs():
             print("  WARN: no narrator voice for inspect lines", file=sys.stderr); break
         out.append({"charId": "narrator", "lineKey": key, "text": text,
                     "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
+        for vid, vtext in (variants_doc.get(key, {}).get("v") or {}).items():
+            vk = f"{key}#{vid}"
+            if not a.redo and (done.get(vk) or {}).get("takes"):
+                continue
+            vtext = re.sub(r"\s+", " ", vtext or "").strip()
+            if vtext and vtext != text:
+                out.append({"charId": "narrator", "lineKey": vk, "text": vtext,
+                            "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
     return out
 
 # Some packs keep the narrator as a top-level object rather than a cast entry (the Shadowrun
@@ -191,8 +213,11 @@ for owner in cast:
             alias, done = aliases.get(cid) or {}, takes.get(cid) or {}
             if only is not None and sk not in only:
                 continue
-            if alias.get(sk) or (not a.redo and (done.get(sk) or {}).get("takes")):
+            if alias.get(sk):
                 continue
+            # A segment can need its variants even when its generic take is already made, so the
+            # "already voiced" test is applied per KEY below rather than skipping the segment here.
+            have_generic = not a.redo and bool((done.get(sk) or {}).get("takes"))
             text = spoken.effective_text(sk, raw, edits, directed)
             if not text.strip():
                 continue
@@ -208,8 +233,25 @@ for owner in cast:
             if not voice:
                 print(f"  WARN: {cid} has no voice — skipped", file=sys.stderr)
                 break
-            jobs.append({"charId": cid, "lineKey": sk, "text": text,
-                         "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
+            if not have_generic:
+                jobs.append({"charId": cid, "lineKey": sk, "text": text,
+                             "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
+            # Template-variable variants: the same segment said once per value the game can
+            # substitute (five metatypes, two genders...). Keyed "<segKey>#<variantId>"; the pack
+            # ships them alongside the generic take and the plugin falls back to the generic when
+            # a variant was never generated.
+            for vid, vtext in (variants_doc.get(sk, {}).get("v") or {}).items():
+                vk = f"{sk}#{vid}"
+                if alias.get(vk) or (not a.redo and (done.get(vk) or {}).get("takes")):
+                    continue
+                vtext = re.sub(r"\s+", " ", vtext or "").strip()
+                if not vtext or vtext == text:
+                    continue
+                jobs.append({"charId": cid, "lineKey": vk, "text": vtext,
+                             "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
+if os.environ.get("GEN_BREAKDOWN"):
+    v=[j for j in jobs if "#" in j["lineKey"]]
+    print(f"  breakdown: {len(jobs)-len(v)} generic, {len(v)} variant clips", file=sys.stderr)
 if a.limit:
     jobs = jobs[:a.limit]
 

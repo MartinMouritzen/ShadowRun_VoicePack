@@ -30,6 +30,23 @@ namespace SRRVoices
                 string key = "insp_" + Md5Hex16(raw);
                 bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
                 string[] clips;
+                // An inspect whose text holds a template variable ("The special today is a
+                // $(scene.CafeSpecial).") ships one clip per value, keyed by the hash of the
+                // SUBSTITUTED sentence. Expanding the raw text through the game's own routine and
+                // hashing that finds it; when nothing was substituted the hash is unchanged and
+                // this costs one dictionary miss.
+                string shown = Variants.ExpandText(raw);
+                if (shown != null && shown != raw)
+                {
+                    string vkey = "insp_" + Md5Hex16(shown);
+                    if (Plugin.Pack.TryGet(vkey, out clips))
+                    {
+                        if (Plugin.InspectDebounced(vkey)) return;
+                        if (log) Plugin.Log.LogInfo("play inspect " + vkey + " (variant)");
+                        Plugin.Player.PlaySequence(clips);
+                        return;
+                    }
+                }
                 if (Plugin.Pack.TryGet(key, out clips))
                 {
                     if (Plugin.InspectDebounced(key)) return;

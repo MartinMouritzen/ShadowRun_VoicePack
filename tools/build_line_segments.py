@@ -10,6 +10,7 @@ Usage: build_line_segments.py [dms|dragonfall|hk]   (default dms)
 Hand files: tools/spoken_hand_rewrites.json + spoken_hand_segments.json (dms, legacy names) /
             tools/spoken_hand_rewrites_<game>.json + spoken_hand_segments_<game>.json"""
 import json, re, sys, os
+import variants
 from spoken_rules import mechanical, resolve_speaker_vars, they_disagreement, beats, SEG_MAX
 
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
@@ -100,68 +101,166 @@ def raw_segments(t):
 
 result = {}
 unresolved = []
+
+def derive(raw_line, ch, g, key, line, record=True, bypass=False):
+    """The segment list for one node's raw text. Factored out so the variant pass can re-derive
+    the SAME way with template variables substituted, rather than reimplementing the rules."""
+    out = []
+    if line.get("y") == 6 and "{{GM}}" not in raw_line:
+        # GM_Speaker_Voice without markers: the whole node is narration -> narrator voices it
+        if not bypass and key in HAND_SEG and "g0" in HAND_SEG[key]:
+            t = HAND_SEG[key]["g0"]
+        else:
+            t = gm_text(raw_line, ch["name"], g)
+        if record and ("$(" in t or they_disagreement(t, raw_line)):
+            unresolved.append({"key": key, "char": ch["name"], "seg": "g0", "text": raw_line[:200]})
+        return [{"who": "gm", "t": p} for p in (beats(t) or [t])]
+    if "{{GM}}" not in raw_line:
+        # No narration in this node, so it was previously left unsegmented and shipped as one
+        # take however long it ran. If it is long enough to be miserable in the lab, emit it as
+        # beats instead. The text MUST match what the lab derives for an unsegmented line
+        # (spoken_overrides > hand rewrite > mechanical), or splitting would quietly change the
+        # words as well as the keys.
+        base = (None if bypass else ((SPOKEN.get(key) or {}).get("spoken") or HAND.get(key))) \
+               or mechanical(clean(raw_line))
+        quoted = split_quotes(ch["id"], dict(line, t=raw_line), key, base) if record else []
+        if quoted:
+            for t_, voice in quoted:
+                for part in (beats(t_) or [t_]):
+                    if voice:
+                        QUOTE_VOICES[f"{key}~c{len(out)}"] = voice
+                    out.append({"who": "char", "t": part})
+            return out
+        parts = beats(base)
+        return [{"who": "char", "t": p} for p in parts] if len(parts) > 1 else []
+    segs = raw_segments(raw_line)
+    nchar = sum(1 for w, _ in segs if w == "char")
+    ci = gi = 0
+    for who, raw in segs:
+        if who == "gm":
+            if not bypass and key in HAND_SEG and f"g{gi}" in HAND_SEG[key]:
+                t = HAND_SEG[key][f"g{gi}"]
+            else:
+                t = gm_text(raw, ch["name"], g)
+            if record and ("$(" in t or they_disagreement(t, raw)):
+                unresolved.append({"key": key, "char": ch["name"], "seg": f"g{gi}", "text": raw.strip()[:200]})
+            for part in (beats(t) or [t]):
+                out.append({"who": "gm", "t": part})
+            gi += 1
+        else:
+            if not bypass and key in HAND_SEG and f"c{ci}" in HAND_SEG[key]:
+                t = HAND_SEG[key][f"c{ci}"]
+            elif not bypass and nchar == 1 and key in HAND:
+                t = HAND[key]
+            else:
+                t = mechanical(clean(raw))
+            if record and ("$(" in t or they_disagreement(t, raw)):
+                unresolved.append({"key": key, "char": ch["name"], "seg": f"c{ci}", "text": raw.strip()[:200]})
+            for part in (beats(t) or []):
+                out.append({"who": "char", "t": part})
+            ci += 1
+    return out
+
 for ch in c["characters"]:
     g = gender_of(ch["id"], ch["name"])
     for l in ch["lines"]:
         key = f'{l["c"]}_{l["n"]}'
-        if l.get("y") == 6 and "{{GM}}" not in l["t"]:
-            # GM_Speaker_Voice without markers: the whole node is narration -> narrator voices it
-            if key in HAND_SEG and "g0" in HAND_SEG[key]:
-                t = HAND_SEG[key]["g0"]
-            else:
-                t = gm_text(l["t"], ch["name"], g)
-            if "$(" in t or they_disagreement(t, l["t"]):
-                unresolved.append({"key": key, "char": ch["name"], "seg": "g0", "text": l["t"][:200]})
-            result[key] = [{"who": "gm", "t": p} for p in (beats(t) or [t])]
+        segs_out = derive(l["t"], ch, g, key, l)
+        if segs_out:
+            result[key] = segs_out
+
+# ---------------------------------------------------------------- template-variable variants
+# A line like "Greetings, young $(l.race)." is authored once and displayed five ways. The rewrite
+# layer used to dodge those (spoken_overrides rephrased the sentence so the word never had to be
+# said), which is why an ork player never heard "ork". Here each such line is ALSO derived once per
+# value, so the pack can ship a clip per variant and the plugin can play the matching one. Anything
+# open-ended - the player's typed name, a counter, a date - has no closed value set and keeps its
+# single generic take exactly as before.
+#
+# Overrides are deliberately bypassed for these lines: the override IS the dodge, so honouring it
+# would produce five identical clips that all avoid the word.
+CONTENT_PACKS = os.environ.get("SRR_CONTENT_PACKS", "")
+SCENE_SETS = {}
+if CONTENT_PACKS and os.path.isdir(CONTENT_PACKS):
+    for _tok in ("scene.cafespecial", "scene.str_redorgreen"):
+        _v = variants.scan_scene_values(CONTENT_PACKS, _tok)
+        if _v:
+            SCENE_SETS[_tok] = _v
+
+def seg_keys_for(key, segs):
+    """Segment keys in playback order - the same rule lab/spoken.py's segment_plan() uses."""
+    nchar = sum(1 for s in segs if s["who"] == "char")
+    out, gi, ci = [], 0, 0
+    for s in segs:
+        if s["who"] == "gm":
+            out.append(f"{key}~g{gi}"); gi += 1
+        else:
+            out.append(key if nchar == 1 else f"{key}~c{ci}"); ci += 1
+    return out
+
+var_out, var_skipped, var_bypassed, var_dropped = {}, [], 0, []
+for ch in c["characters"]:
+    g = gender_of(ch["id"], ch["name"])
+    for l in ch["lines"]:
+        key = f'{l["c"]}_{l["n"]}'
+        ax = variants.axes(l["t"], SCENE_SETS)
+        if not ax:
             continue
-        if "{{GM}}" not in l["t"]:
-            # No narration in this node, so it was previously left unsegmented and shipped as one
-            # take however long it ran. If it is long enough to be miserable in the lab, emit it as
-            # beats instead. The text MUST match what the lab derives for an unsegmented line
-            # (spoken_overrides > hand rewrite > mechanical), or splitting would quietly change the
-            # words as well as the keys.
-            base = (SPOKEN.get(key) or {}).get("spoken") or HAND.get(key) or mechanical(clean(l["t"]))
-            quoted = split_quotes(ch["id"], l, key, base)
-            if quoted:
-                out = []
-                for t_, voice in quoted:
-                    for part in (beats(t_) or [t_]):
-                        if voice:
-                            QUOTE_VOICES[f"{key}~c{len(out)}"] = voice
-                        out.append({"who": "char", "t": part})
-                result[key] = out
+        base_segs = result.get(key) or derive(l["t"], ch, g, key, l, record=False, bypass=True)
+        if not base_segs:
+            base_segs = [{"who": "char", "t": mechanical(clean(l["t"]))}]
+        base_keys = seg_keys_for(key, base_segs)
+        if (SPOKEN.get(key) or HAND.get(key) or HAND_SEG.get(key)):
+            var_bypassed += 1
+        per_seg = {}
+        for vid, binding in variants.combos(ax, SCENE_SETS):
+            segs_v = derive(variants.render(l["t"], binding, SCENE_SETS), ch, g, key, l,
+                            record=False, bypass=True)
+            if not segs_v:
+                segs_v = [{"who": "char",
+                           "t": mechanical(clean(variants.render(l["t"], binding, SCENE_SETS)))}]
+            if len(segs_v) != len(base_segs):
+                # Substitution changed how the line splits into beats, so the keys would not line
+                # up with the generic take. Report rather than ship a mismatched clip.
+                var_skipped.append({"key": key, "variant": vid,
+                                    "beats": [len(base_segs), len(segs_v)]})
                 continue
-            parts = beats(base)
-            if len(parts) > 1:
-                result[key] = [{"who": "char", "t": p} for p in parts]
+            for sk, sv in zip(base_keys, segs_v):
+                per_seg.setdefault(sk, {})[vid] = sv["t"]
+        for sk, vs in per_seg.items():
+            # Only worth shipping where the words actually differ between variants.
+            if len(set(vs.values())) <= 1:
+                continue
+            # Bypassing the override also discarded whatever dodge it applied to an UNBOUNDED
+            # variable in the same sentence ("$(l.name) went to the trouble... let him do the
+            # honors"). Voicing that would read the token aloud, so the segment keeps its generic
+            # dodged take and simply gets no variants.
+            if any(variants.VAR_RE.search(t) for t in vs.values()):
+                var_dropped.append(sk)
+                continue
+            var_out[sk] = {"axes": sorted(ax), "v": vs}
+# Inspect one-liners are keyed by a hash of their text, not by a node id, so their variants are
+# carried the same way: one entry per value, and the pack emits a key per RESOLVED text so the
+# plugin can simply hash what the game is about to display.
+_insp_path = os.path.join(ROOT, f"app/data/{GAME}/inspect.json")
+if os.path.exists(_insp_path):
+    for _k, _e in json.load(open(_insp_path)).items():
+        _t = _e.get("spoken") if isinstance(_e, dict) else _e
+        _ax = variants.axes(_t or "", SCENE_SETS)
+        if not _ax:
             continue
-        segs = raw_segments(l["t"])
-        nchar = sum(1 for w, _ in segs if w == "char")
-        out = []; ci = 0; gi = 0
-        for who, raw in segs:
-            if who == "gm":
-                if key in HAND_SEG and f"g{gi}" in HAND_SEG[key]:
-                    t = HAND_SEG[key][f"g{gi}"]
-                else:
-                    t = gm_text(raw, ch["name"], g)
-                if "$(" in t or they_disagreement(t, raw):
-                    unresolved.append({"key": key, "char": ch["name"], "seg": f"g{gi}", "text": raw.strip()[:200]})
-                for part in (beats(t) or [t]):
-                    out.append({"who": "gm", "t": part})
-                gi += 1
-            else:
-                if key in HAND_SEG and f"c{ci}" in HAND_SEG[key]:
-                    t = HAND_SEG[key][f"c{ci}"]
-                elif nchar == 1 and key in HAND:
-                    t = HAND[key]
-                else:
-                    t = mechanical(clean(raw))
-                if "$(" in t or they_disagreement(t, raw):
-                    unresolved.append({"key": key, "char": ch["name"], "seg": f"c{ci}", "text": raw.strip()[:200]})
-                for part in (beats(t) or []):
-                    out.append({"who": "char", "t": part})
-                ci += 1
-        result[key] = out
+        _v = {vid: variants.render(_t, b, SCENE_SETS) for vid, b in variants.combos(_ax, SCENE_SETS)}
+        if len(set(_v.values())) > 1 and not any(variants.VAR_RE.search(x) for x in _v.values()):
+            var_out[_k] = {"axes": sorted(_ax), "v": _v, "hashed": True}
+
+json.dump({"_scene_sets": SCENE_SETS, "segments": var_out},
+          open(os.path.join(ROOT, f"app/data/{GAME}/variants.json"), "w"),
+          ensure_ascii=False, indent=1)
+_clips = sum(len(v["v"]) - 1 for v in var_out.values())
+print(f"[{GAME}] variants: {len(var_out)} segments vary, {_clips} extra clips"
+      + (f", {var_bypassed} bypassed a dodge-rewrite" if var_bypassed else "")
+      + (f", {len(var_skipped)} skipped (beat mismatch)" if var_skipped else "")
+      + (f", {len(var_dropped)} left generic (unbounded var in the same sentence)" if var_dropped else ""))
 
 json.dump(result, open(os.path.join(ROOT, f"app/data/{GAME}/line_segments.json"), "w"), ensure_ascii=False, indent=1)
 

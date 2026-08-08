@@ -32,7 +32,9 @@ namespace SRRVoices
 
             string key = convo.idRef.id + "_" + node.index;
             string[] clips;
-            if (Plugin.Pack.TryGet(key, out clips))
+            // Variants first: a line that says $(l.race) has a clip per metatype. Falls back to the
+            // generic clip when this line does not vary, or when that variant was never generated.
+            if (Variants.TryGet(Plugin.Pack, key, out clips))
             {
                 if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value)
                     Plugin.Log.LogInfo("play " + key + " (" + clips.Length + " clips)");

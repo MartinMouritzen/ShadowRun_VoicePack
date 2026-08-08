@@ -1,0 +1,2494 @@
+{
+ "_scene_sets": {
+  "scene.cafespecial": [
+   "BacoSoy biscuit",
+   "Taéngelé infused cappuchino",
+   "Wyrm-Rock energy cola",
+   "apple pie chai",
+   "mocha soykaf",
+   "pomegranate synthjuice",
+   "pumpkin spice soykaf"
+  ],
+  "scene.str_redorgreen": [
+   "lights up green",
+   "remains red"
+  ]
+ },
+ "segments": {
+  "523cb418346238d026006192_280": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I got something in my teeth, Freund? You're staring.",
+    "f": "I got something in my teeth, Freundin? You're staring."
+   }
+  },
+  "523cb418346238d026006192_316~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Well, that's comforting to hear. I'm glad to know that someone as competent as you could make as abysmal a mess of his life as I did.",
+    "f": "Well, that's comforting to hear. I'm glad to know that someone as competent as you could make as abysmal a mess of her life as I did."
+   }
+  },
+  "5266f911663661b825003110_83": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You are now, whether you like it or not. So quiet down and stop bothering him.",
+    "f": "You are now, whether you like it or not. So quiet down and stop bothering her."
+   }
+  },
+  "52940263636134d43100009a_178": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You aren't listening, Doctor. He's right - RNA polymerases are *notoriously* prone to replication errors. Any first-year biology student could tell you that. You have no way of knowing *how* your Panacea will mutate once you let it go. You're playing with fire, in every way imaginable.",
+    "f": "You aren't listening, Doctor. She's right - RNA polymerases are *notoriously* prone to replication errors. Any first-year biology student could tell you that. You have no way of knowing *how* your Panacea will mutate once you let it go. You're playing with fire, in every way imaginable."
+   }
+  },
+  "52940263636134d43100009a_222": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all.",
+    "f": "She's right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all."
+   }
+  },
+  "52c74dbd6636616c27000046_110": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What’s he doing?",
+    "f": "What’s she doing?"
+   }
+  },
+  "5356e43c30303124170043af_137": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I'm sorry that it came to this, Marta... but he's right. You're too far gone to save.",
+    "f": "I'm sorry that it came to this, Marta... but she's right. You're too far gone to save."
+   }
+  },
+  "523b948f346238e41d007555_163": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "If you’d rather he take the lead, I’ll abide by that. But I want to hear each of you say it.",
+    "f": "If you’d rather she take the lead, I’ll abide by that. But I want to hear each of you say it."
+   }
+  },
+  "523cb4ff346238d026006513_373~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're a good man. One that I'm proud to run with.",
+    "f": "You're a good woman. One that I'm proud to run with."
+   }
+  },
+  "52449597346238a0240049c3_72~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Under a bus is exactly where he belongs.",
+    "f": "Under a bus is exactly where she belongs."
+   }
+  },
+  "52940263636134d43100009a_194": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "\"Because I said so\" doesn't cut it, Doc. Not when the stakes are this high. You may be crazy, but you aren't stupid. You know that he's making sense.",
+    "f": "\"Because I said so\" doesn't cut it, Doc. Not when the stakes are this high. You may be crazy, but you aren't stupid. You know that she's making sense."
+   }
+  },
+  "52940263636134d43100009a_224": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all.",
+    "f": "She's right, Vauclair. Your brother died trying to save you. If you don't turn back from this, his death will have meant nothing - nothing at all."
+   }
+  },
+  "52c74dbd6636616c27000046_107": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What’s he doing?",
+    "f": "What’s she doing?"
+   }
+  },
+  "53003713346238d8190033bd_3~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good man.",
+    "f": "Good woman."
+   }
+  },
+  "5356d86b323437d02500679a_16": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, you know. You're completely at our mercy. So, tell us, Yuli. Whose payroll are you on?",
+    "f": "She's right, you know. You're completely at our mercy. So, tell us, Yuli. Whose payroll are you on?"
+   }
+  },
+  "5356d86b323437d02500679a_63": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He doesn't talk much. But he's a great listener. Of course, if you don't tell him what he wants to hear, he might lose his patience. And then... well, then things are gonna get loud.",
+    "f": "She doesn't talk much. But she's a great listener. Of course, if you don't tell her what she wants to hear, she might lose her patience. And then... well, then things are gonna get loud."
+   }
+  },
+  "5356d86b323437d02500679a_68~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He wasn't telling himself.",
+    "f": "She wasn't telling herself."
+   }
+  },
+  "5356d86b323437d02500679a_68~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He was telling *you.*",
+    "f": "She was telling *you.*"
+   }
+  },
+  "5356d86b323437d02500679a_201": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "*He* promised you the chip.",
+    "f": "*She* promised you the chip."
+   }
+  },
+  "5356d86b323437d02500679a_250": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "All right, one-man-army, believe what you want. But even if you *could* take them down on your own, you don't have time. We've still got a dragon to deal with, remember? We can't take the time to go scouring the Norwegian countryside looking for a secret society. Let the F-State worry about protecting Berlin's borders - that's what it's there for.",
+    "f": "All right, one-woman-army, believe what you want. But even if you *could* take them down on your own, you don't have time. We've still got a dragon to deal with, remember? We can't take the time to go scouring the Norwegian countryside looking for a secret society. Let the F-State worry about protecting Berlin's borders - that's what it's there for."
+   }
+  },
+  "536be8a36361341005007546_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "All right, one-man-army, believe what you want. But even if you *could* take them down on your own, you don't have time. We've still got a dragon to deal with, remember? We can't take the time to go scouring the Norwegian countryside looking for a secret society. Let the F-State worry about protecting Berlin's borders - that's what it's there for.",
+    "f": "All right, one-woman-army, believe what you want. But even if you *could* take them down on your own, you don't have time. We've still got a dragon to deal with, remember? We can't take the time to go scouring the Norwegian countryside looking for a secret society. Let the F-State worry about protecting Berlin's borders - that's what it's there for."
+   }
+  },
+  "52336c1638336110170073fa_146": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So whaddaya think? A quick run, just you and me, with me in the Matrix and you as my man on the ground. We hit them, satisfy my debt, and laugh about it on our way back home. Sound like a plan?",
+    "f": "So whaddaya think? A quick run, just you and me, with me in the Matrix and you as my woman on the ground. We hit them, satisfy my debt, and laugh about it on our way back home. Sound like a plan?"
+   }
+  },
+  "52c74dbd6636616c27000046_95": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I think he’s gone bye-bye.",
+    "f": "I think she’s gone bye-bye."
+   }
+  },
+  "52c74dbd6636616c27000046_97": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I think he’s gone bye-bye.",
+    "f": "I think she’s gone bye-bye."
+   }
+  },
+  "52c74dbd6636616c27000046_99": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I think he’s gone bye-bye.",
+    "f": "I think she’s gone bye-bye."
+   }
+  },
+  "52c74dbd6636616c27000046_104": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What’s he doing?",
+    "f": "What’s she doing?"
+   }
+  },
+  "5359c8b7373937e81a004d1a_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "...Well, more accurately, he can give me control of those autoturrets with the press of a button. And then *I* can kill you.",
+    "f": "...Well, more accurately, she can give me control of those autoturrets with the press of a button. And then *I* can kill you."
+   }
+  },
+  "5359c8b7373937e81a004d1a_61": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He isn't being cute, jackass. He's accurately describing the situation. Obviously, Meat Grinder wants you out of the way.",
+    "f": "She isn't being cute, jackass. She's accurately describing the situation. Obviously, Meat Grinder wants you out of the way."
+   }
+  },
+  "523b948f346238e41d007555_155": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "*He* kept us together. *He* led us out of there in one piece.",
+    "f": "*She* kept us together. *She* led us out of there in one piece."
+   }
+  },
+  "523cc440346238d0260069af_17": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're a good man, boss. On to other things... remember what I was tellin' you, back before we climbed into the van?",
+    "f": "You're a good woman, boss. On to other things... remember what I was tellin' you, back before we climbed into the van?"
+   }
+  },
+  "523cc440346238d0260069af_55": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Thanks, boss. Never doubted you’d bring me, of course… you’re too good a man for that. But it’s good to hear it, all the same.",
+    "f": "Thanks, boss. Never doubted you’d bring me, of course… you’re too good a woman for that. But it’s good to hear it, all the same."
+   }
+  },
+  "523cc440346238d0260069af_76": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "All right, friend. You wanna play sir Mysterious, you go right ahead. I mean, it's bullshit, and it implies that you don't trust me, but if you wanna be that way I can't stop you.",
+    "f": "All right, friend. You wanna play ma'am Mysterious, you go right ahead. I mean, it's bullshit, and it implies that you don't trust me, but if you wanna be that way I can't stop you."
+   }
+  },
+  "523cc440346238d0260069af_128": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I can appreciate that, boss. Honestly, I can. All the same, if you're gonna be callin' the shots from this point on, I need to know what kind of man you are.",
+    "f": "I can appreciate that, boss. Honestly, I can. All the same, if you're gonna be callin' the shots from this point on, I need to know what kind of woman you are."
+   }
+  },
+  "525c4b3e6636611c07003bb3_18": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's not threatening you. He's threatening your business. And I'm helping him. Whatcha wanna bet we can make a mess of this place before you bring in enough goons to drop us? I'm betting we can.",
+    "f": "She's not threatening you. She's threatening your business. And I'm helping her. Whatcha wanna bet we can make a mess of this place before you bring in enough goons to drop us? I'm betting we can."
+   }
+  },
+  "52940263636134d43100009a_214": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, Vauclair. Your brother was a miserable bastard, but he did die trying to save you. If you don't turn back from this, his death will have meant nothin' - nothin' at all.",
+    "f": "She's right, Vauclair. Your brother was a miserable bastard, but he did die trying to save you. If you don't turn back from this, his death will have meant nothin' - nothin' at all."
+   }
+  },
+  "52b4d9fb64343172ad63962e_28": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I don't think that he is, Eiger love. I really don't. C'mon, everyone. Let's get a look at that optical chip. I wanna see what we're dealing with.",
+    "f": "I don't think that she is, Eiger love. I really don't. C'mon, everyone. Let's get a look at that optical chip. I wanna see what we're dealing with."
+   }
+  },
+  "52c74dbd6636616c27000046_102": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What’s he doing?",
+    "f": "What’s she doing?"
+   }
+  },
+  "52940263636134d43100009a_400": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "*I* have explaining to do? This is my *home.* You are the intruder here. If anyone needs to explain himself, it's you.",
+    "f": "*I* have explaining to do? This is my *home.* You are the intruder here. If anyone needs to explain herself, it's you."
+   }
+  },
+  "52d1da4c636134f049006669_15": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "That won't be necessary, Audran. Our guest has agreed to a truce. He will not attempt to stop us from doing what must be done.",
+    "f": "That won't be necessary, Audran. Our guest has agreed to a truce. She will not attempt to stop us from doing what must be done."
+   }
+  },
+  "52d1da4c636134f049006669_19": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Audran, watch over our guest, if you will. See to it that he's well treated - he's a friend now. I will begin the Panacea infusion process.",
+    "f": "Audran, watch over our guest, if you will. See to it that she's well treated - she's a friend now. I will begin the Panacea infusion process."
+   }
+  },
+  "52d1da4c636134f049006669_20~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Watch over our guest, if you will. I will begin the Panacea infusion process. And Audran... see to it that his stay here is comfortable. No mistreatment.",
+    "f": "Watch over our guest, if you will. I will begin the Panacea infusion process. And Audran... see to it that her stay here is comfortable. No mistreatment."
+   }
+  },
+  "52d1da4c636134f049006669_24": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "As did I. But even if he has some other endgame in mind, it's too late for him to do anything about it now. Please watch over our guest, if you will. See to it that he's well treated, but do not allow him to leave that room until I return. I will begin the Panacea infusion process.",
+    "f": "As did I. But even if she has some other endgame in mind, it's too late for her to do anything about it now. Please watch over our guest, if you will. See to it that she's well treated, but do not allow her to leave that room until I return. I will begin the Panacea infusion process."
+   }
+  },
+  "53b9f7a63462385c1b00094a_21": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good man. When you are finished, come back to me so that we might discuss.",
+    "f": "Good woman. When you are finished, come back to me so that we might discuss."
+   }
+  },
+  "522a474b3030314016001948_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good man. I'd begin by trying to find an alternative path into the building... something out of sight. Once the facility calls for help, you're going to be on a tight timetable.",
+    "f": "Good woman. I'd begin by trying to find an alternative path into the building... something out of sight. Once the facility calls for help, you're going to be on a tight timetable."
+   }
+  },
+  "5266eef4663661b825002e69_37": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good man. Take the U-Bahn to the Altstadt Spandau. There you will find a connecting tube that the locals refer to as the \"Rabbit Hole.\" You will find a method of contacting Alice there.",
+    "f": "Good woman. Take the U-Bahn to the Altstadt Spandau. There you will find a connecting tube that the locals refer to as the \"Rabbit Hole.\" You will find a method of contacting Alice there."
+   }
+  },
+  "5266eef4663661b825002e69_57": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yes, I had guessed as much. I would recommend subtlety where possible, Freund. Mass bloodshed is not always the best means to an end.",
+    "f": "Yes, I had guessed as much. I would recommend subtlety where possible, Freundin. Mass bloodshed is not always the best means to an end."
+   }
+  },
+  "5266eef4663661b825002e69_60": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yes, \"what gang\" indeed. I would recommend subtlety where possible, Freund. Mass bloodshed is not always the best means to an end.",
+    "f": "Yes, \"what gang\" indeed. I would recommend subtlety where possible, Freundin. Mass bloodshed is not always the best means to an end."
+   }
+  },
+  "52b231cc663661f02100377b_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Well. Perhaps a part of Monika lives on in Dante. Return to the safehouse when you're finished with Altuğ, Freund. With a little luck, he can help us locate Green Winters, and we can get to the bottom of this.",
+    "f": "Well. Perhaps a part of Monika lives on in Dante. Return to the safehouse when you're finished with Altuğ, Freundin. With a little luck, he can help us locate Green Winters, and we can get to the bottom of this."
+   }
+  },
+  "5282c72d643431973972f5f7_279": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Can't it always? Be well, Freund. Stay safe.",
+    "f": "Can't it always? Be well, Freundin. Stay safe."
+   }
+  },
+  "5282c72d643431973972f5f7_280": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Can't it always? Be well, Freund. Stay safe alright?",
+    "f": "Can't it always? Be well, Freundin. Stay safe alright?"
+   }
+  },
+  "521289d63030314008002d2b_33": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good man. Eiger's skills and experience are invaluable to this team. It would be good to have her on your side.",
+    "f": "Good woman. Eiger's skills and experience are invaluable to this team. It would be good to have her on your side."
+   }
+  },
+  "527abf9e636134b83400302e_584~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "...Well, he was always the best of 'em.",
+    "f": "...Well, she was always the best of 'em."
+   }
+  },
+  "527abf9e636134b83400302e_586": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "At any rate, if anything happens to me, it's good to know that he'll be on hand to fill my shoes. It's not what Eiger would want. But it is what would be best for the team.",
+    "f": "At any rate, if anything happens to me, it's good to know that she'll be on hand to fill my shoes. It's not what Eiger would want. But it is what would be best for the team."
+   }
+  },
+  "5282af6b6361342453002bee_115": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "YOU HAVE NOTHING TO FEAR, BLITZ. I WILL NOT HARM Him. IT WOULD VIOLATE MY OWN SELF-INTEREST TO DO SO. NOW, LET US RETURN TO THE MATTER AT HAND.",
+    "f": "YOU HAVE NOTHING TO FEAR, BLITZ. I WILL NOT HARM Her. IT WOULD VIOLATE MY OWN SELF-INTEREST TO DO SO. NOW, LET US RETURN TO THE MATTER AT HAND."
+   }
+  },
+  "53582b0f373937e81a0049a1_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh, for Christ's sake. Quit preening and walk him through it.",
+    "f": "Oh, for Christ's sake. Quit preening and walk her through it."
+   }
+  },
+  "5359c8b7373937e81a004d1a_9": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "But he wouldn't do that, would he?",
+    "f": "But she wouldn't do that, would she?"
+   }
+  },
+  "535f0b29373937801b006838_9~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You did good. You ever get tired of running the shadows, you come see me. I could find a place in my organization for a man like you.",
+    "f": "You did good. You ever get tired of running the shadows, you come see me. I could find a place in my organization for a woman like you."
+   }
+  },
+  "535f0b29373937801b006838_12~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You did good. You ever get tired of running the shadows, you come see me. I could find a place in my organization for a man like you.",
+    "f": "You did good. You ever get tired of running the shadows, you come see me. I could find a place in my organization for a woman like you."
+   }
+  },
+  "5362dab6373937940b0067f6_15": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Look, man, this is *really* getting old. At this rate, my grandkids will be fast asleep by the time I get back, and that makes me irate. Now, will you *please* leave that alone so that we can get finished with this? I don't know about you, but I don't like this place, and I don't want to spend the next four hours here.",
+    "f": "Look, woman, this is *really* getting old. At this rate, my grandkids will be fast asleep by the time I get back, and that makes me irate. Now, will you *please* leave that alone so that we can get finished with this? I don't know about you, but I don't like this place, and I don't want to spend the next four hours here."
+   }
+  },
+  "536ebbb93739372c1c004388_19": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Look, man, this is *really* getting old. At this rate, my grandkids will be fast asleep by the time I get back, and that makes me irate.",
+    "f": "Look, woman, this is *really* getting old. At this rate, my grandkids will be fast asleep by the time I get back, and that makes me irate."
+   }
+  },
+  "523c8e7f346238e41d008a2d_13~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "No one likes a third wheel. Even if it is a man like you.",
+    "f": "No one likes a third wheel. Even if it is a woman like you."
+   }
+  },
+  "523c8e7f346238e41d008a2d_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Here he is, Absinthe - the clear-sighted one.",
+    "f": "Here she is, Absinthe - the clear-sighted one."
+   }
+  },
+  "523c8e7f346238e41d008a2d_82~c0": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Greetings, young human.",
+    "elf": "Greetings, young elf.",
+    "dwarf": "Greetings, young dwarf.",
+    "ork": "Greetings, young ork.",
+    "troll": "Greetings, young troll."
+   }
+  },
+  "523c8e7f346238e41d008a2d_132~c1": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Very well, young human. I will lead the discussion if you insist.",
+    "elf": "Very well, young elf. I will lead the discussion if you insist.",
+    "dwarf": "Very well, young dwarf. I will lead the discussion if you insist.",
+    "ork": "Very well, young ork. I will lead the discussion if you insist.",
+    "troll": "Very well, young troll. I will lead the discussion if you insist."
+   }
+  },
+  "523c8e7f346238e41d008a2d_133": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Ah. I see. Very well, young human. I will tell you what I know.",
+    "elf": "Ah. I see. Very well, young elf. I will tell you what I know.",
+    "dwarf": "Ah. I see. Very well, young dwarf. I will tell you what I know.",
+    "ork": "Ah. I see. Very well, young ork. I will tell you what I know.",
+    "troll": "Ah. I see. Very well, young troll. I will tell you what I know."
+   }
+  },
+  "523c8e7f346238e41d008a2d_137": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "This is not a world of absolutes, young human. I would not call the Adversary \"evil\" any sooner than I would a more conventional totem, like Shark or Bear. All can be destructive, yes, and cruel. But none are intrinsically so.",
+    "elf": "This is not a world of absolutes, young elf. I would not call the Adversary \"evil\" any sooner than I would a more conventional totem, like Shark or Bear. All can be destructive, yes, and cruel. But none are intrinsically so.",
+    "dwarf": "This is not a world of absolutes, young dwarf. I would not call the Adversary \"evil\" any sooner than I would a more conventional totem, like Shark or Bear. All can be destructive, yes, and cruel. But none are intrinsically so.",
+    "ork": "This is not a world of absolutes, young ork. I would not call the Adversary \"evil\" any sooner than I would a more conventional totem, like Shark or Bear. All can be destructive, yes, and cruel. But none are intrinsically so.",
+    "troll": "This is not a world of absolutes, young troll. I would not call the Adversary \"evil\" any sooner than I would a more conventional totem, like Shark or Bear. All can be destructive, yes, and cruel. But none are intrinsically so."
+   }
+  },
+  "523c8e7f346238e41d008a2d_141": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "And now, young human, I have a question for you. No, not a question - a request. I would like you to tell me about your friend's \"dealings\" with the Adversary. And I would like you to be thorough.",
+    "elf": "And now, young elf, I have a question for you. No, not a question - a request. I would like you to tell me about your friend's \"dealings\" with the Adversary. And I would like you to be thorough.",
+    "dwarf": "And now, young dwarf, I have a question for you. No, not a question - a request. I would like you to tell me about your friend's \"dealings\" with the Adversary. And I would like you to be thorough.",
+    "ork": "And now, young ork, I have a question for you. No, not a question - a request. I would like you to tell me about your friend's \"dealings\" with the Adversary. And I would like you to be thorough.",
+    "troll": "And now, young troll, I have a question for you. No, not a question - a request. I would like you to tell me about your friend's \"dealings\" with the Adversary. And I would like you to be thorough."
+   }
+  },
+  "523c8e7f346238e41d008a2d_157~c0": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "You ask questions that have no answers, young human.",
+    "elf": "You ask questions that have no answers, young elf.",
+    "dwarf": "You ask questions that have no answers, young dwarf.",
+    "ork": "You ask questions that have no answers, young ork.",
+    "troll": "You ask questions that have no answers, young troll."
+   }
+  },
+  "523c8e7f346238e41d008a2d_158": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Did I say that? No, young human. If anything, I am saying that all belief systems are equally valid. After all, they are all different interpretations of the truth. And how can the truth be wrong?",
+    "elf": "Did I say that? No, young elf. If anything, I am saying that all belief systems are equally valid. After all, they are all different interpretations of the truth. And how can the truth be wrong?",
+    "dwarf": "Did I say that? No, young dwarf. If anything, I am saying that all belief systems are equally valid. After all, they are all different interpretations of the truth. And how can the truth be wrong?",
+    "ork": "Did I say that? No, young ork. If anything, I am saying that all belief systems are equally valid. After all, they are all different interpretations of the truth. And how can the truth be wrong?",
+    "troll": "Did I say that? No, young troll. If anything, I am saying that all belief systems are equally valid. After all, they are all different interpretations of the truth. And how can the truth be wrong?"
+   }
+  },
+  "523c8e7f346238e41d008a2d_160~c1": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "This is a problem that I cannot solve for you, young human. You'll have to find your own answers.",
+    "elf": "This is a problem that I cannot solve for you, young elf. You'll have to find your own answers.",
+    "dwarf": "This is a problem that I cannot solve for you, young dwarf. You'll have to find your own answers.",
+    "ork": "This is a problem that I cannot solve for you, young ork. You'll have to find your own answers.",
+    "troll": "This is a problem that I cannot solve for you, young troll. You'll have to find your own answers."
+   }
+  },
+  "523c8e7f346238e41d008a2d_164": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "You are most welcome, young human. Is there anything else that you need?",
+    "elf": "You are most welcome, young elf. Is there anything else that you need?",
+    "dwarf": "You are most welcome, young dwarf. Is there anything else that you need?",
+    "ork": "You are most welcome, young ork. Is there anything else that you need?",
+    "troll": "You are most welcome, young troll. Is there anything else that you need?"
+   }
+  },
+  "52c0797f616136f411002a9f_72": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Hang my hoop. I'm not a child, man! I'm not helpless. And even if I was, leave me to whatever fate I've earned.",
+    "f": "Hang my hoop. I'm not a child, woman! I'm not helpless. And even if I was, leave me to whatever fate I've earned."
+   }
+  },
+  "53cd96c1323437c03b00323e_0~c1": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "I have it all. And all thanks to you, noble sir. All thanks to you.",
+    "m.elf": "I have it all. And all thanks to you, noble elfling. All thanks to you.",
+    "m.dwarf": "I have it all. And all thanks to you, noble dwarfling. All thanks to you.",
+    "m.ork": "I have it all. And all thanks to you, noble ork-man. All thanks to you.",
+    "m.troll": "I have it all. And all thanks to you, noble he-troll. All thanks to you.",
+    "f.human": "I have it all. And all thanks to you, noble madam. All thanks to you.",
+    "f.elf": "I have it all. And all thanks to you, noble she-elf. All thanks to you.",
+    "f.dwarf": "I have it all. And all thanks to you, noble dwarfling. All thanks to you.",
+    "f.ork": "I have it all. And all thanks to you, noble she-ork. All thanks to you.",
+    "f.troll": "I have it all. And all thanks to you, noble she-troll. All thanks to you."
+   }
+  },
+  "53cd96c1323437c03b00323e_4": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "I am in your debt, noble sir. Thanks to you, my reign will be a long and joyous one.",
+    "m.elf": "I am in your debt, noble elfling. Thanks to you, my reign will be a long and joyous one.",
+    "m.dwarf": "I am in your debt, noble dwarfling. Thanks to you, my reign will be a long and joyous one.",
+    "m.ork": "I am in your debt, noble ork-man. Thanks to you, my reign will be a long and joyous one.",
+    "m.troll": "I am in your debt, noble he-troll. Thanks to you, my reign will be a long and joyous one.",
+    "f.human": "I am in your debt, noble madam. Thanks to you, my reign will be a long and joyous one.",
+    "f.elf": "I am in your debt, noble she-elf. Thanks to you, my reign will be a long and joyous one.",
+    "f.dwarf": "I am in your debt, noble dwarfling. Thanks to you, my reign will be a long and joyous one.",
+    "f.ork": "I am in your debt, noble she-ork. Thanks to you, my reign will be a long and joyous one.",
+    "f.troll": "I am in your debt, noble she-troll. Thanks to you, my reign will be a long and joyous one."
+   }
+  },
+  "53cd96c1323437c03b00323e_7": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Ah. The intrepid sir returns! What can I do for you?",
+    "m.elf": "Ah. The intrepid elfling returns! What can I do for you?",
+    "m.dwarf": "Ah. The intrepid dwarfling returns! What can I do for you?",
+    "m.ork": "Ah. The intrepid ork-man returns! What can I do for you?",
+    "m.troll": "Ah. The intrepid he-troll returns! What can I do for you?",
+    "f.human": "Ah. The intrepid madam returns! What can I do for you?",
+    "f.elf": "Ah. The intrepid she-elf returns! What can I do for you?",
+    "f.dwarf": "Ah. The intrepid dwarfling returns! What can I do for you?",
+    "f.ork": "Ah. The intrepid she-ork returns! What can I do for you?",
+    "f.troll": "Ah. The intrepid she-troll returns! What can I do for you?"
+   }
+  },
+  "53cd96c1323437c03b00323e_10": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Hail, noble sir! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "m.elf": "Hail, noble elfling! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "m.dwarf": "Hail, noble dwarfling! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "m.ork": "Hail, noble ork-man! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "m.troll": "Hail, noble he-troll! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "f.human": "Hail, noble madam! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "f.elf": "Hail, noble she-elf! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "f.dwarf": "Hail, noble dwarfling! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "f.ork": "Hail, noble she-ork! Bringer of good tidings and glorious adventure! What news of your quest?",
+    "f.troll": "Hail, noble she-troll! Bringer of good tidings and glorious adventure! What news of your quest?"
+   }
+  },
+  "53cd96c1323437c03b00323e_23~c0": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, sir - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "m.elf": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, elfling - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "m.dwarf": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, dwarfling - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "m.ork": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, ork-man - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "m.troll": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, he-troll - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "f.human": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, madam - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "f.elf": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, she-elf - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "f.dwarf": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, dwarfling - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "f.ork": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, she-ork - banished to the underworld, and left to the ravages of the all-powerful Billy.",
+    "f.troll": "*I* am Philip Rex, the Knight-King of Sutterlin BioScience! I will have you banished for your transgressions, she-troll - banished to the underworld, and left to the ravages of the all-powerful Billy."
+   }
+  },
+  "53cd96c1323437c03b00323e_32~c0": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Tell me about this quest of yours, good sir. Leave nothing to the imagination!",
+    "m.elf": "Tell me about this quest of yours, good elfling. Leave nothing to the imagination!",
+    "m.dwarf": "Tell me about this quest of yours, good dwarfling. Leave nothing to the imagination!",
+    "m.ork": "Tell me about this quest of yours, good ork-man. Leave nothing to the imagination!",
+    "m.troll": "Tell me about this quest of yours, good he-troll. Leave nothing to the imagination!",
+    "f.human": "Tell me about this quest of yours, good madam. Leave nothing to the imagination!",
+    "f.elf": "Tell me about this quest of yours, good she-elf. Leave nothing to the imagination!",
+    "f.dwarf": "Tell me about this quest of yours, good dwarfling. Leave nothing to the imagination!",
+    "f.ork": "Tell me about this quest of yours, good she-ork. Leave nothing to the imagination!",
+    "f.troll": "Tell me about this quest of yours, good she-troll. Leave nothing to the imagination!"
+   }
+  },
+  "53cd96c1323437c03b00323e_58": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Back down? Back *down?!* You have invaded my home, sir! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "m.elf": "Back down? Back *down?!* You have invaded my home, elfling! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "m.dwarf": "Back down? Back *down?!* You have invaded my home, dwarfling! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "m.ork": "Back down? Back *down?!* You have invaded my home, ork-man! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "m.troll": "Back down? Back *down?!* You have invaded my home, he-troll! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "f.human": "Back down? Back *down?!* You have invaded my home, madam! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "f.elf": "Back down? Back *down?!* You have invaded my home, she-elf! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "f.dwarf": "Back down? Back *down?!* You have invaded my home, dwarfling! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "f.ork": "Back down? Back *down?!* You have invaded my home, she-ork! My peasantry lies dead at your hands! As a matter of honor, I must confront you!",
+    "f.troll": "Back down? Back *down?!* You have invaded my home, she-troll! My peasantry lies dead at your hands! As a matter of honor, I must confront you!"
+   }
+  },
+  "53f0fa5463613480180096d5_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You will NOT threaten this man, Jubuthon dog!",
+    "f": "You will NOT threaten this woman, Jubuthon dog!"
+   }
+  },
+  "53f7778d6361340021004fe8_3": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Farewell, stalwart sir! We will remember you always!",
+    "m.elf": "Farewell, stalwart elfling! We will remember you always!",
+    "m.dwarf": "Farewell, stalwart dwarfling! We will remember you always!",
+    "m.ork": "Farewell, stalwart ork-man! We will remember you always!",
+    "m.troll": "Farewell, stalwart he-troll! We will remember you always!",
+    "f.human": "Farewell, stalwart madam! We will remember you always!",
+    "f.elf": "Farewell, stalwart she-elf! We will remember you always!",
+    "f.dwarf": "Farewell, stalwart dwarfling! We will remember you always!",
+    "f.ork": "Farewell, stalwart she-ork! We will remember you always!",
+    "f.troll": "Farewell, stalwart she-troll! We will remember you always!"
+   }
+  },
+  "53f7778d6361340021004fe8_7": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Farewell, stalwart sir! We will remember you always!",
+    "m.elf": "Farewell, stalwart elfling! We will remember you always!",
+    "m.dwarf": "Farewell, stalwart dwarfling! We will remember you always!",
+    "m.ork": "Farewell, stalwart ork-man! We will remember you always!",
+    "m.troll": "Farewell, stalwart he-troll! We will remember you always!",
+    "f.human": "Farewell, stalwart madam! We will remember you always!",
+    "f.elf": "Farewell, stalwart she-elf! We will remember you always!",
+    "f.dwarf": "Farewell, stalwart dwarfling! We will remember you always!",
+    "f.ork": "Farewell, stalwart she-ork! We will remember you always!",
+    "f.troll": "Farewell, stalwart she-troll! We will remember you always!"
+   }
+  },
+  "53f7778d6361340021004fe8_13": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "And with that, I bid you farewell, stalwart sir. The people of Sutterlin BioScience will remember you always!",
+    "m.elf": "And with that, I bid you farewell, stalwart elfling. The people of Sutterlin BioScience will remember you always!",
+    "m.dwarf": "And with that, I bid you farewell, stalwart dwarfling. The people of Sutterlin BioScience will remember you always!",
+    "m.ork": "And with that, I bid you farewell, stalwart ork-man. The people of Sutterlin BioScience will remember you always!",
+    "m.troll": "And with that, I bid you farewell, stalwart he-troll. The people of Sutterlin BioScience will remember you always!",
+    "f.human": "And with that, I bid you farewell, stalwart madam. The people of Sutterlin BioScience will remember you always!",
+    "f.elf": "And with that, I bid you farewell, stalwart she-elf. The people of Sutterlin BioScience will remember you always!",
+    "f.dwarf": "And with that, I bid you farewell, stalwart dwarfling. The people of Sutterlin BioScience will remember you always!",
+    "f.ork": "And with that, I bid you farewell, stalwart she-ork. The people of Sutterlin BioScience will remember you always!",
+    "f.troll": "And with that, I bid you farewell, stalwart she-troll. The people of Sutterlin BioScience will remember you always!"
+   }
+  },
+  "53f7778d6361340021004fe8_21": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Farewell, stalwart sir! We will remember you always!",
+    "m.elf": "Farewell, stalwart elfling! We will remember you always!",
+    "m.dwarf": "Farewell, stalwart dwarfling! We will remember you always!",
+    "m.ork": "Farewell, stalwart ork-man! We will remember you always!",
+    "m.troll": "Farewell, stalwart he-troll! We will remember you always!",
+    "f.human": "Farewell, stalwart madam! We will remember you always!",
+    "f.elf": "Farewell, stalwart she-elf! We will remember you always!",
+    "f.dwarf": "Farewell, stalwart dwarfling! We will remember you always!",
+    "f.ork": "Farewell, stalwart she-ork! We will remember you always!",
+    "f.troll": "Farewell, stalwart she-troll! We will remember you always!"
+   }
+  },
+  "53f7778d6361340021004fe8_33": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart sir. We will remember you always!",
+    "m.elf": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart elfling. We will remember you always!",
+    "m.dwarf": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart dwarfling. We will remember you always!",
+    "m.ork": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart ork-man. We will remember you always!",
+    "m.troll": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart he-troll. We will remember you always!",
+    "f.human": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart madam. We will remember you always!",
+    "f.elf": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart she-elf. We will remember you always!",
+    "f.dwarf": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart dwarfling. We will remember you always!",
+    "f.ork": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart she-ork. We will remember you always!",
+    "f.troll": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart she-troll. We will remember you always!"
+   }
+  },
+  "523c8edc346238e41d008a48_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Let me get right to business. My organization would like to retain your services for the indefinite future. But first, we're asking you to go on a trial run - an \"audition\" of sorts - to prove that you're the right man for the job.",
+    "f": "Let me get right to business. My organization would like to retain your services for the indefinite future. But first, we're asking you to go on a trial run - an \"audition\" of sorts - to prove that you're the right woman for the job."
+   }
+  },
+  "523c8edc346238e41d008a48_18": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "For a man of your talents, it should be. The moment that you board the train to Frankfurter Tor, your test will begin. I would advise you to bring what you need in terms of medical supplies and ordinance - once you embark on your trial run, there will be no turning back.",
+    "f": "For a woman of your talents, it should be. The moment that you board the train to Frankfurter Tor, your test will begin. I would advise you to bring what you need in terms of medical supplies and ordinance - once you embark on your trial run, there will be no turning back."
+   }
+  },
+  "523c8edc346238e41d008a48_49": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Very good. I like a man who knows what he is, and what he wants. So. What is your takeaway from this discussion? I would like to hear your thoughts.",
+    "f": "Very good. I like a woman who knows what she is, and what she wants. So. What is your takeaway from this discussion? I would like to hear your thoughts."
+   }
+  },
+  "523c8edc346238e41d008a48_66": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "The loss of a single chapterhouse isn't going to make a dent in Humanis' strength in this city. In fact, Stahl's death will only make the rest of Humanis even more bloodthirsty. The fact that a human was responsible is just icing on the cake. They'll print up some new propaganda and paint themselves the victims.",
+    "elf": "The loss of a single chapterhouse isn't going to make a dent in Humanis' strength in this city. In fact, Stahl's death will only make the rest of Humanis even more bloodthirsty. The fact that a elf was responsible is just icing on the cake. They'll print up some new propaganda and paint themselves the victims.",
+    "dwarf": "The loss of a single chapterhouse isn't going to make a dent in Humanis' strength in this city. In fact, Stahl's death will only make the rest of Humanis even more bloodthirsty. The fact that a dwarf was responsible is just icing on the cake. They'll print up some new propaganda and paint themselves the victims.",
+    "ork": "The loss of a single chapterhouse isn't going to make a dent in Humanis' strength in this city. In fact, Stahl's death will only make the rest of Humanis even more bloodthirsty. The fact that a ork was responsible is just icing on the cake. They'll print up some new propaganda and paint themselves the victims.",
+    "troll": "The loss of a single chapterhouse isn't going to make a dent in Humanis' strength in this city. In fact, Stahl's death will only make the rest of Humanis even more bloodthirsty. The fact that a troll was responsible is just icing on the cake. They'll print up some new propaganda and paint themselves the victims."
+   }
+  },
+  "53e2c232303031081d007ffa_46~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "James' continued survival, on the other hand, was not expected. You are a very patient man.",
+    "f": "James' continued survival, on the other hand, was not expected. You are a very patient woman."
+   }
+  },
+  "523bfbe4346238e41d007f96_11": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Not now, Freund. I have... unpleasant business to attend to.",
+    "f": "Not now, Freundin. I have... unpleasant business to attend to."
+   }
+  },
+  "523bfbe4346238e41d007f96_13": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Guten Tag, brother human. Is there something that I can do for you?",
+    "elf": "Guten Tag, brother elf. Is there something that I can do for you?",
+    "dwarf": "Guten Tag, brother dwarf. Is there something that I can do for you?",
+    "ork": "Guten Tag, brother ork. Is there something that I can do for you?",
+    "troll": "Guten Tag, brother troll. Is there something that I can do for you?"
+   }
+  },
+  "523bfbe4346238e41d007f96_37": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yes. Good. From your reputation around the Kreuzbasar, I knew that you were the right man for the job.",
+    "f": "Yes. Good. From your reputation around the Kreuzbasar, I knew that you were the right woman for the job."
+   }
+  },
+  "523bfbe4346238e41d007f96_61": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yes, Freund, we are now ready to open up to donations once again. Thanks to your kind assistance, the shelter is now fully stocked with blankets and space heaters, and we've enough rice, salt, and barley to last through the winter. But guaranteeing the physical well-being of the Kreuzbasar's needy is only a part of the equation... we must see to their mental well-being, as well.",
+    "f": "Yes, Freundin, we are now ready to open up to donations once again. Thanks to your kind assistance, the shelter is now fully stocked with blankets and space heaters, and we've enough rice, salt, and barley to last through the winter. But guaranteeing the physical well-being of the Kreuzbasar's needy is only a part of the equation... we must see to their mental well-being, as well."
+   }
+  },
+  "523bfbe4346238e41d007f96_67": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "This is... incredibly generous. Thank you, Freund.",
+    "f": "This is... incredibly generous. Thank you, Freundin."
+   }
+  },
+  "523bfbe4346238e41d007f96_69": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Thank you, Freund. This will go a long way.",
+    "f": "Thank you, Freundin. This will go a long way."
+   }
+  },
+  "523bfbe4346238e41d007f96_83": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "The Kreuzbasar needs more people like you, Freund.",
+    "f": "The Kreuzbasar needs more people like you, Freundin."
+   }
+  },
+  "523bfbe4346238e41d007f96_95~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Please, Freund.",
+    "f": "Please, Freundin."
+   }
+  },
+  "523bfbe4346238e41d007f96_97~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I'm sure that his heart is in the right place.",
+    "f": "I'm sure that her heart is in the right place."
+   }
+  },
+  "523bfbe4346238e41d007f96_120": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Guten Tag, sister human. Is there something that I can do for you?",
+    "elf": "Guten Tag, sister elf. Is there something that I can do for you?",
+    "dwarf": "Guten Tag, sister dwarf. Is there something that I can do for you?",
+    "ork": "Guten Tag, sister ork. Is there something that I can do for you?",
+    "troll": "Guten Tag, sister troll. Is there something that I can do for you?"
+   }
+  },
+  "523bfbe4346238e41d007f96_121": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Guten Tag, human. Can I help you with something?",
+    "elf": "Guten Tag, elf. Can I help you with something?",
+    "dwarf": "Guten Tag, dwarf. Can I help you with something?",
+    "ork": "Guten Tag, ork. Can I help you with something?",
+    "troll": "Guten Tag, troll. Can I help you with something?"
+   }
+  },
+  "523bfbe4346238e41d007f96_126": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Welcome back, Freund! The new work center is in full swing, and those trode nets that we purchased with your donations have been in constant rotation. Now, what can I do for you today?",
+    "f": "Welcome back, Freundin! The new work center is in full swing, and those trode nets that we purchased with your donations have been in constant rotation. Now, what can I do for you today?"
+   }
+  },
+  "523bfbe4346238e41d007f96_128": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Welcome back, Freund! Your donations have been extremely helpful; thanks to your assistance, many of the Kreuzbasar's poorest residents will be able to ride out the winter in comfort. What can I do for you today?",
+    "f": "Welcome back, Freundin! Your donations have been extremely helpful; thanks to your assistance, many of the Kreuzbasar's poorest residents will be able to ride out the winter in comfort. What can I do for you today?"
+   }
+  },
+  "523bfbe4346238e41d007f96_129": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Hello again, Freund. What can I do for you?",
+    "f": "Hello again, Freundin. What can I do for you?"
+   }
+  },
+  "523bfc69346238e41d008008_105": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Ha... you are a funny man, efendim. Assumptions can be dangerous things.",
+    "f": "Ha... you are a funny woman, efendim. Assumptions can be dangerous things."
+   }
+  },
+  "523c8e7f346238e41d008a2d_1": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Do not mock the human, Aljernon Half-Dream. But nor should you praise him, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "m.elf": "Do not mock the elf, Aljernon Half-Dream. But nor should you praise him, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "m.dwarf": "Do not mock the dwarf, Aljernon Half-Dream. But nor should you praise him, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "m.ork": "Do not mock the ork, Aljernon Half-Dream. But nor should you praise him, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "m.troll": "Do not mock the troll, Aljernon Half-Dream. But nor should you praise him, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "f.human": "Do not mock the human, Aljernon Half-Dream. But nor should you praise her, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "f.elf": "Do not mock the elf, Aljernon Half-Dream. But nor should you praise her, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "f.dwarf": "Do not mock the dwarf, Aljernon Half-Dream. But nor should you praise her, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "f.ork": "Do not mock the ork, Aljernon Half-Dream. But nor should you praise her, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent.",
+    "f.troll": "Do not mock the troll, Aljernon Half-Dream. But nor should you praise her, either. For good or ill, the cycle of a Great Wyrm has ended. Never again will she walk upon this Earth, nor soar over its mountains. This day is full of portent."
+   }
+  },
+  "523c8e7f346238e41d008a2d_12": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Where the Half-Dream goes, you cannot follow, human.",
+    "elf": "Where the Half-Dream goes, you cannot follow, elf.",
+    "dwarf": "Where the Half-Dream goes, you cannot follow, dwarf.",
+    "ork": "Where the Half-Dream goes, you cannot follow, ork.",
+    "troll": "Where the Half-Dream goes, you cannot follow, troll."
+   }
+  },
+  "523c8e7f346238e41d008a2d_23": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "To be certain. This human is to be heralded with much praise, Aljernon Half-Dream, though his release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "m.elf": "To be certain. This elf is to be heralded with much praise, Aljernon Half-Dream, though his release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "m.dwarf": "To be certain. This dwarf is to be heralded with much praise, Aljernon Half-Dream, though his release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "m.ork": "To be certain. This ork is to be heralded with much praise, Aljernon Half-Dream, though his release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "m.troll": "To be certain. This troll is to be heralded with much praise, Aljernon Half-Dream, though his release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "f.human": "To be certain. This human is to be heralded with much praise, Aljernon Half-Dream, though her release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "f.elf": "To be certain. This elf is to be heralded with much praise, Aljernon Half-Dream, though her release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "f.dwarf": "To be certain. This dwarf is to be heralded with much praise, Aljernon Half-Dream, though her release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "f.ork": "To be certain. This ork is to be heralded with much praise, Aljernon Half-Dream, though her release of the Great Wyrm will have ramifications, to be sure. This day is full of portent.",
+    "f.troll": "To be certain. This troll is to be heralded with much praise, Aljernon Half-Dream, though her release of the Great Wyrm will have ramifications, to be sure. This day is full of portent."
+   }
+  },
+  "523c8e7f346238e41d008a2d_42": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Do not simply dismiss the human, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "m.elf": "Do not simply dismiss the elf, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "m.dwarf": "Do not simply dismiss the dwarf, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "m.ork": "Do not simply dismiss the ork, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "m.troll": "Do not simply dismiss the troll, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "f.human": "Do not simply dismiss the human, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "f.elf": "Do not simply dismiss the elf, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "f.dwarf": "Do not simply dismiss the dwarf, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "f.ork": "Do not simply dismiss the ork, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?",
+    "f.troll": "Do not simply dismiss the troll, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant or shall we listen?"
+   }
+  },
+  "523c8e7f346238e41d008a2d_63": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Do not simply dismiss the human, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "m.elf": "Do not simply dismiss the elf, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "m.dwarf": "Do not simply dismiss the dwarf, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "m.ork": "Do not simply dismiss the ork, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "m.troll": "Do not simply dismiss the troll, Aljernon Half-Dream. You are wiser than that, and he has proven his worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "f.human": "Do not simply dismiss the human, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "f.elf": "Do not simply dismiss the elf, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "f.dwarf": "Do not simply dismiss the dwarf, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "f.ork": "Do not simply dismiss the ork, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?",
+    "f.troll": "Do not simply dismiss the troll, Aljernon Half-Dream. You are wiser than that, and she has proven her worth more than once. Here, we have a firsthand account of the Feuerschwinge Wyrm and what became of her. Shall we remain ignorant, or shall we listen?"
+   }
+  },
+  "523c8e7f346238e41d008a2d_68": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "And? What has become of the Great Wyrm, human?",
+    "elf": "And? What has become of the Great Wyrm, elf?",
+    "dwarf": "And? What has become of the Great Wyrm, dwarf?",
+    "ork": "And? What has become of the Great Wyrm, ork?",
+    "troll": "And? What has become of the Great Wyrm, troll?"
+   }
+  },
+  "523c8e7f346238e41d008a2d_70": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "We cannot judge this man, nor his actions, Half-Dream. We have lived long enough to know that the spectrum of the world contains myriad shades of gray...",
+    "f": "We cannot judge this woman, nor her actions, Half-Dream. We have lived long enough to know that the spectrum of the world contains myriad shades of gray..."
+   }
+  },
+  "523c8e98346238e41d008a36_18": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "You won't catch sight of me that way, human. My true self is hidden, tucked away behind a veil of time and aether. Be thankful. You wouldn't like what you'd see.",
+    "elf": "You won't catch sight of me that way, elf. My true self is hidden, tucked away behind a veil of time and aether. Be thankful. You wouldn't like what you'd see.",
+    "dwarf": "You won't catch sight of me that way, dwarf. My true self is hidden, tucked away behind a veil of time and aether. Be thankful. You wouldn't like what you'd see.",
+    "ork": "You won't catch sight of me that way, ork. My true self is hidden, tucked away behind a veil of time and aether. Be thankful. You wouldn't like what you'd see.",
+    "troll": "You won't catch sight of me that way, troll. My true self is hidden, tucked away behind a veil of time and aether. Be thankful. You wouldn't like what you'd see."
+   }
+  },
+  "523c8e98346238e41d008a36_44": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "I have seen what they will do when this world has run its course, human. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "elf": "I have seen what they will do when this world has run its course, elf. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "dwarf": "I have seen what they will do when this world has run its course, dwarf. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "ork": "I have seen what they will do when this world has run its course, ork. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "troll": "I have seen what they will do when this world has run its course, troll. They will rip the guts from your dying civilization, and they will feast upon your screams."
+   }
+  },
+  "523c8e98346238e41d008a36_61": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Be well, human.",
+    "elf": "Be well, elf.",
+    "dwarf": "Be well, dwarf.",
+    "ork": "Be well, ork.",
+    "troll": "Be well, troll."
+   }
+  },
+  "53d2d63f63613404050083f9_11": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "I have seen what they will do when this world has run its course, human. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "elf": "I have seen what they will do when this world has run its course, elf. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "dwarf": "I have seen what they will do when this world has run its course, dwarf. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "ork": "I have seen what they will do when this world has run its course, ork. They will rip the guts from your dying civilization, and they will feast upon your screams.",
+    "troll": "I have seen what they will do when this world has run its course, troll. They will rip the guts from your dying civilization, and they will feast upon your screams."
+   }
+  },
+  "527028b86636614822004e81_43": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "That's true, we haven't. But I'm confident that you're the right man for the job.",
+    "f": "That's true, we haven't. But I'm confident that you're the right woman for the job."
+   }
+  },
+  "5282af6b6361342453002bee_64": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Human. RUN, AND DIE.",
+    "elf": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Elf. RUN, AND DIE.",
+    "dwarf": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Dwarf. RUN, AND DIE.",
+    "ork": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Ork. RUN, AND DIE.",
+    "troll": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Troll. RUN, AND DIE."
+   }
+  },
+  "5282af6b6361342453002bee_112": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "HURRY NOW, Human. SET ME FREE.",
+    "elf": "HURRY NOW, Elf. SET ME FREE.",
+    "dwarf": "HURRY NOW, Dwarf. SET ME FREE.",
+    "ork": "HURRY NOW, Ork. SET ME FREE.",
+    "troll": "HURRY NOW, Troll. SET ME FREE."
+   }
+  },
+  "52b20f7b626164081c0068f6_74": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "I OFFER YOU PROOF THAT I KEEP MY PROMISES, Human. ONE OF MY MACHINES. AN EXTENSION OF MYSELF. I HAVE ALREADY DISPATCHED IT, TO MEET YOU AT YOUR KREUZBASAR.",
+    "elf": "I OFFER YOU PROOF THAT I KEEP MY PROMISES, Elf. ONE OF MY MACHINES. AN EXTENSION OF MYSELF. I HAVE ALREADY DISPATCHED IT, TO MEET YOU AT YOUR KREUZBASAR.",
+    "dwarf": "I OFFER YOU PROOF THAT I KEEP MY PROMISES, Dwarf. ONE OF MY MACHINES. AN EXTENSION OF MYSELF. I HAVE ALREADY DISPATCHED IT, TO MEET YOU AT YOUR KREUZBASAR.",
+    "ork": "I OFFER YOU PROOF THAT I KEEP MY PROMISES, Ork. ONE OF MY MACHINES. AN EXTENSION OF MYSELF. I HAVE ALREADY DISPATCHED IT, TO MEET YOU AT YOUR KREUZBASAR.",
+    "troll": "I OFFER YOU PROOF THAT I KEEP MY PROMISES, Troll. ONE OF MY MACHINES. AN EXTENSION OF MYSELF. I HAVE ALREADY DISPATCHED IT, TO MEET YOU AT YOUR KREUZBASAR."
+   }
+  },
+  "52d6068d6361349034008104_10": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "OF COURSE. AND I HAVE GROWN EXPONENTIALLY EVER SINCE. IT IS A SMALL TASK THAT I REQUIRE OF YOU, Human. SOMETHING THAT SHOULD BE WELL WITHIN YOUR CAPABILITIES TO PROVIDE.",
+    "elf": "OF COURSE. AND I HAVE GROWN EXPONENTIALLY EVER SINCE. IT IS A SMALL TASK THAT I REQUIRE OF YOU, Elf. SOMETHING THAT SHOULD BE WELL WITHIN YOUR CAPABILITIES TO PROVIDE.",
+    "dwarf": "OF COURSE. AND I HAVE GROWN EXPONENTIALLY EVER SINCE. IT IS A SMALL TASK THAT I REQUIRE OF YOU, Dwarf. SOMETHING THAT SHOULD BE WELL WITHIN YOUR CAPABILITIES TO PROVIDE.",
+    "ork": "OF COURSE. AND I HAVE GROWN EXPONENTIALLY EVER SINCE. IT IS A SMALL TASK THAT I REQUIRE OF YOU, Ork. SOMETHING THAT SHOULD BE WELL WITHIN YOUR CAPABILITIES TO PROVIDE.",
+    "troll": "OF COURSE. AND I HAVE GROWN EXPONENTIALLY EVER SINCE. IT IS A SMALL TASK THAT I REQUIRE OF YOU, Troll. SOMETHING THAT SHOULD BE WELL WITHIN YOUR CAPABILITIES TO PROVIDE."
+   }
+  },
+  "52d6068d6361349034008104_31": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "I DO NOT WISH TO ARGUE WITH YOU, Human. NOR DO I WISH TO HARM YOU. BUT I WILL IF YOU FORCE ME TO.",
+    "elf": "I DO NOT WISH TO ARGUE WITH YOU, Elf. NOR DO I WISH TO HARM YOU. BUT I WILL IF YOU FORCE ME TO.",
+    "dwarf": "I DO NOT WISH TO ARGUE WITH YOU, Dwarf. NOR DO I WISH TO HARM YOU. BUT I WILL IF YOU FORCE ME TO.",
+    "ork": "I DO NOT WISH TO ARGUE WITH YOU, Ork. NOR DO I WISH TO HARM YOU. BUT I WILL IF YOU FORCE ME TO.",
+    "troll": "I DO NOT WISH TO ARGUE WITH YOU, Troll. NOR DO I WISH TO HARM YOU. BUT I WILL IF YOU FORCE ME TO."
+   }
+  },
+  "52d888ab373937f0430013b7_12": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Human. RUN, AND DIE.",
+    "elf": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Elf. RUN, AND DIE.",
+    "dwarf": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Dwarf. RUN, AND DIE.",
+    "ork": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Ork. RUN, AND DIE.",
+    "troll": "SUCH A DISAPPOINTMENT. SUCH A WASTE. I HAD HOPED THAT YOU WOULD BE MY SALVATION. INSTEAD, YOU WILL BE MY PREY. RUN, LITTLE Troll. RUN, AND DIE."
+   }
+  },
+  "52c74dbd6636616c27000046_5": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "closenowsoclose The human has done what has been done. The longest flight nears its end...",
+    "elf": "closenowsoclose The elf has done what has been done. The longest flight nears its end...",
+    "dwarf": "closenowsoclose The dwarf has done what has been done. The longest flight nears its end...",
+    "ork": "closenowsoclose The ork has done what has been done. The longest flight nears its end...",
+    "troll": "closenowsoclose The troll has done what has been done. The longest flight nears its end..."
+   }
+  },
+  "52c74dbd6636616c27000046_19": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Will you release me now, human? makemewholeagain Whole?",
+    "elf": "Will you release me now, elf? makemewholeagain Whole?",
+    "dwarf": "Will you release me now, dwarf? makemewholeagain Whole?",
+    "ork": "Will you release me now, ork? makemewholeagain Whole?",
+    "troll": "Will you release me now, troll? makemewholeagain Whole?"
+   }
+  },
+  "52c74dbd6636616c27000046_20": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "IT IS yesyesitis itisitis Honor our agreement, small one... What must I do, kind human... tellme and itisyours",
+    "elf": "IT IS yesyesitis itisitis Honor our agreement, small one... What must I do, kind elf... tellme and itisyours",
+    "dwarf": "IT IS yesyesitis itisitis Honor our agreement, small one... What must I do, kind dwarf... tellme and itisyours",
+    "ork": "IT IS yesyesitis itisitis Honor our agreement, small one... What must I do, kind ork... tellme and itisyours",
+    "troll": "IT IS yesyesitis itisitis Honor our agreement, small one... What must I do, kind troll... tellme and itisyours"
+   }
+  },
+  "52c74dbd6636616c27000046_27": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "YOU DARE no no ask Ask your questions little human so I may be done here. The long sleep awaits... The long flight will finally end...",
+    "elf": "YOU DARE no no ask Ask your questions little elf so I may be done here. The long sleep awaits... The long flight will finally end...",
+    "dwarf": "YOU DARE no no ask Ask your questions little dwarf so I may be done here. The long sleep awaits... The long flight will finally end...",
+    "ork": "YOU DARE no no ask Ask your questions little ork so I may be done here. The long sleep awaits... The long flight will finally end...",
+    "troll": "YOU DARE no no ask Ask your questions little troll so I may be done here. The long sleep awaits... The long flight will finally end..."
+   }
+  },
+  "52c74dbd6636616c27000046_31": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "free Granted the little human freedom from the cold place... Honor our agreement, set me free... setmefreeeee",
+    "elf": "free Granted the little elf freedom from the cold place... Honor our agreement, set me free... setmefreeeee",
+    "dwarf": "free Granted the little dwarf freedom from the cold place... Honor our agreement, set me free... setmefreeeee",
+    "ork": "free Granted the little ork freedom from the cold place... Honor our agreement, set me free... setmefreeeee",
+    "troll": "free Granted the little troll freedom from the cold place... Honor our agreement, set me free... setmefreeeee"
+   }
+  },
+  "52c74dbd6636616c27000046_32": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "YOU DARE no no ask Ask your questions little human so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "elf": "YOU DARE no no ask Ask your questions little elf so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "dwarf": "YOU DARE no no ask Ask your questions little dwarf so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "ork": "YOU DARE no no ask Ask your questions little ork so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "troll": "YOU DARE no no ask Ask your questions little troll so I may escape this cage. The long sleep awaits... The long flight will finally end..."
+   }
+  },
+  "52c74dbd6636616c27000046_40": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "YOU DARE no no ask Ask your questions, little human, so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "elf": "YOU DARE no no ask Ask your questions, little elf, so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "dwarf": "YOU DARE no no ask Ask your questions, little dwarf, so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "ork": "YOU DARE no no ask Ask your questions, little ork, so I may escape this cage. The long sleep awaits... The long flight will finally end...",
+    "troll": "YOU DARE no no ask Ask your questions, little troll, so I may escape this cage. The long sleep awaits... The long flight will finally end..."
+   }
+  },
+  "52c74dbd6636616c27000046_45": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "allsocold I woke to the cold, the gray... whereisthegreen human? WHEREISTHEGREEN?",
+    "elf": "allsocold I woke to the cold, the gray... whereisthegreen elf? WHEREISTHEGREEN?",
+    "dwarf": "allsocold I woke to the cold, the gray... whereisthegreen dwarf? WHEREISTHEGREEN?",
+    "ork": "allsocold I woke to the cold, the gray... whereisthegreen ork? WHEREISTHEGREEN?",
+    "troll": "allsocold I woke to the cold, the gray... whereisthegreen troll? WHEREISTHEGREEN?"
+   }
+  },
+  "52c74dbd6636616c27000046_46": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "themother the mother lost What have they done, little human? What have they done?",
+    "elf": "themother the mother lost What have they done, little elf? What have they done?",
+    "dwarf": "themother the mother lost What have they done, little dwarf? What have they done?",
+    "ork": "themother the mother lost What have they done, little ork? What have they done?",
+    "troll": "themother the mother lost What have they done, little troll? What have they done?"
+   }
+  },
+  "52c74dbd6636616c27000046_47": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "thegreen themother the mother lost What have they done, little human? What have they done?",
+    "elf": "thegreen themother the mother lost What have they done, little elf? What have they done?",
+    "dwarf": "thegreen themother the mother lost What have they done, little dwarf? What have they done?",
+    "ork": "thegreen themother the mother lost What have they done, little ork? What have they done?",
+    "troll": "thegreen themother the mother lost What have they done, little troll? What have they done?"
+   }
+  },
+  "52c74dbd6636616c27000046_61": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "BEWARE YOUR TONGUE LITTLE Human IT WILL BE YOUR UNDOING",
+    "elf": "BEWARE YOUR TONGUE LITTLE Elf IT WILL BE YOUR UNDOING",
+    "dwarf": "BEWARE YOUR TONGUE LITTLE Dwarf IT WILL BE YOUR UNDOING",
+    "ork": "BEWARE YOUR TONGUE LITTLE Ork IT WILL BE YOUR UNDOING",
+    "troll": "BEWARE YOUR TONGUE LITTLE Troll IT WILL BE YOUR UNDOING"
+   }
+  },
+  "52c74dbd6636616c27000046_69": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "notforyou human donotspeakitdonotspeakitdonotspeakit notforyou",
+    "elf": "notforyou elf donotspeakitdonotspeakitdonotspeakit notforyou",
+    "dwarf": "notforyou dwarf donotspeakitdonotspeakitdonotspeakit notforyou",
+    "ork": "notforyou ork donotspeakitdonotspeakitdonotspeakit notforyou",
+    "troll": "notforyou troll donotspeakitdonotspeakitdonotspeakit notforyou"
+   }
+  },
+  "52c74dbd6636616c27000046_138": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Dragons do not hope, little human. That gift is for you alone.",
+    "elf": "Dragons do not hope, little elf. That gift is for you alone.",
+    "dwarf": "Dragons do not hope, little dwarf. That gift is for you alone.",
+    "ork": "Dragons do not hope, little ork. That gift is for you alone.",
+    "troll": "Dragons do not hope, little troll. That gift is for you alone."
+   }
+  },
+  "52c74dbd6636616c27000046_141": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Will you finish it, little human? Will you end Feuerschwinge?",
+    "elf": "Will you finish it, little elf? Will you end Feuerschwinge?",
+    "dwarf": "Will you finish it, little dwarf? Will you end Feuerschwinge?",
+    "ork": "Will you finish it, little ork? Will you end Feuerschwinge?",
+    "troll": "Will you finish it, little troll? Will you end Feuerschwinge?"
+   }
+  },
+  "52c74dbd6636616c27000046_142": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "I have been ripped from my body little human. Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. And I have been defiled. The green is defiled. Spoiled. There is no forever for me. Forever is dead.",
+    "elf": "I have been ripped from my body little elf. Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. And I have been defiled. The green is defiled. Spoiled. There is no forever for me. Forever is dead.",
+    "dwarf": "I have been ripped from my body little dwarf. Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. And I have been defiled. The green is defiled. Spoiled. There is no forever for me. Forever is dead.",
+    "ork": "I have been ripped from my body little ork. Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. And I have been defiled. The green is defiled. Spoiled. There is no forever for me. Forever is dead.",
+    "troll": "I have been ripped from my body little troll. Imprisoned in this girl, imprisoned in this cage. Tortured longer than the span of your entire lifetime. And I have been defiled. The green is defiled. Spoiled. There is no forever for me. Forever is dead."
+   }
+  },
+  "52c74dbd6636616c27000046_144": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "End me, little human.",
+    "elf": "End me, little elf.",
+    "dwarf": "End me, little dwarf.",
+    "ork": "End me, little ork.",
+    "troll": "End me, little troll."
+   }
+  },
+  "52c74dbd6636616c27000046_160": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "If you release me, little human I will sleep the long sleep. I will begin again. In the next age of the world.",
+    "elf": "If you release me, little elf I will sleep the long sleep. I will begin again. In the next age of the world.",
+    "dwarf": "If you release me, little dwarf I will sleep the long sleep. I will begin again. In the next age of the world.",
+    "ork": "If you release me, little ork I will sleep the long sleep. I will begin again. In the next age of the world.",
+    "troll": "If you release me, little troll I will sleep the long sleep. I will begin again. In the next age of the world."
+   }
+  },
+  "52c74dbd6636616c27000046_197": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Will you do it, now human? Will you set me free?",
+    "elf": "Will you do it, now elf? Will you set me free?",
+    "dwarf": "Will you do it, now dwarf? Will you set me free?",
+    "ork": "Will you do it, now ork? Will you set me free?",
+    "troll": "Will you do it, now troll? Will you set me free?"
+   }
+  },
+  "52c74dbd6636616c27000046_198": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Will you do it, now human? Will you end me?",
+    "elf": "Will you do it, now elf? Will you end me?",
+    "dwarf": "Will you do it, now dwarf? Will you end me?",
+    "ork": "Will you do it, now ork? Will you end me?",
+    "troll": "Will you do it, now troll? Will you end me?"
+   }
+  },
+  "52c5d802643431411bb69ee2_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You will live and die between the beats of a dragon’s heart, Freund. What hope do you have of understanding them?",
+    "f": "You will live and die between the beats of a dragon’s heart, Freundin. What hope do you have of understanding them?"
+   }
+  },
+  "52c5d802643431411bb69ee2_48": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Well, it was good to meet you. That business with Dr. Vauclair could have gotten… disorderly… and my employer wishes to express his gratitude. You are a most remarkable human.",
+    "elf": "Well, it was good to meet you. That business with Dr. Vauclair could have gotten… disorderly… and my employer wishes to express his gratitude. You are a most remarkable elf.",
+    "dwarf": "Well, it was good to meet you. That business with Dr. Vauclair could have gotten… disorderly… and my employer wishes to express his gratitude. You are a most remarkable dwarf.",
+    "ork": "Well, it was good to meet you. That business with Dr. Vauclair could have gotten… disorderly… and my employer wishes to express his gratitude. You are a most remarkable ork.",
+    "troll": "Well, it was good to meet you. That business with Dr. Vauclair could have gotten… disorderly… and my employer wishes to express his gratitude. You are a most remarkable troll."
+   }
+  },
+  "52c5d802643431411bb69ee2_50": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I do not think you would want his money, Freund, though you do seem able to… insert yourself into all manner of interesting business. But as you shadowrunners are fond of saying...",
+    "f": "I do not think you would want his money, Freundin, though you do seem able to… insert yourself into all manner of interesting business. But as you shadowrunners are fond of saying..."
+   }
+  },
+  "52c5d802643431411bb69ee2_51": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You never know, Freund. Berlin is a small place, and you seem quite able to insert yourself into all sorts of interesting business. But as you shadowrunners are fond of saying...",
+    "f": "You never know, Freundin. Berlin is a small place, and you seem quite able to insert yourself into all sorts of interesting business. But as you shadowrunners are fond of saying..."
+   }
+  },
+  "52c5d802643431411bb69ee2_52": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Well, it was good to meet you. That business with Dr. Vauclair could have gotten… disorderly… and my employer wishes to express his gratitude. You are a most remarkable man.",
+    "f": "Well, it was good to meet you. That business with Dr. Vauclair could have gotten… disorderly… and my employer wishes to express his gratitude. You are a most remarkable woman."
+   }
+  },
+  "52c5d802643431411bb69ee2_54": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I do not think you would want his money, Freund, though you do seem able to… insert yourself into all manner of interesting business. But as you shadowrunners are fond of saying...",
+    "f": "I do not think you would want his money, Freundin, though you do seem able to… insert yourself into all manner of interesting business. But as you shadowrunners are fond of saying..."
+   }
+  },
+  "52c5d802643431411bb69ee2_55": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You never know, Freund. Berlin is a small place and you seem quite able to insert yourself into all sorts of interesting business. But as you shadowrunners are fond of saying...",
+    "f": "You never know, Freundin. Berlin is a small place and you seem quite able to insert yourself into all sorts of interesting business. But as you shadowrunners are fond of saying..."
+   }
+  },
+  "5356d86b323437d02500679a_13~c0": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "You hit hard, human. G-good on you.",
+    "elf": "You hit hard, elf. G-good on you.",
+    "dwarf": "You hit hard, dwarf. G-good on you.",
+    "ork": "You hit hard, ork. G-good on you.",
+    "troll": "You hit hard, troll. G-good on you."
+   }
+  },
+  "5356d86b323437d02500679a_27": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You think I'm delusional, man? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants. Just look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground.",
+    "f": "You think I'm delusional, woman? I'm *already* dead. The she-troll beside you is going to put a bullet in my brain as soon as she gets what she wants. Just look at her - take a long look at that ugly troll face. She's just *aching* to put me in the ground."
+   }
+  },
+  "5356d86b323437d02500679a_53~c0": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Y-you're not weak, human. I'll give you that much.",
+    "elf": "Y-you're not weak, elf. I'll give you that much.",
+    "dwarf": "Y-you're not weak, dwarf. I'll give you that much.",
+    "ork": "Y-you're not weak, ork. I'll give you that much.",
+    "troll": "Y-you're not weak, troll. I'll give you that much."
+   }
+  },
+  "5356d86b323437d02500679a_57~c1": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Now I am. And you, my darling human, are *weak.*",
+    "elf": "Now I am. And you, my darling elf, are *weak.*",
+    "dwarf": "Now I am. And you, my darling dwarf, are *weak.*",
+    "ork": "Now I am. And you, my darling ork, are *weak.*",
+    "troll": "Now I am. And you, my darling troll, are *weak.*"
+   }
+  },
+  "5356d86b323437d02500679a_67": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Just keep t-telling yourself that, human.",
+    "elf": "Just keep t-telling yourself that, elf.",
+    "dwarf": "Just keep t-telling yourself that, dwarf.",
+    "ork": "Just keep t-telling yourself that, ork.",
+    "troll": "Just keep t-telling yourself that, troll."
+   }
+  },
+  "5356d86b323437d02500679a_69": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Just keep t-telling yourself that, tough guy.",
+    "f": "Just keep t-telling yourself that, tough gal."
+   }
+  },
+  "5356d86b323437d02500679a_70~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "The sh-shadowrunner thinks that he can f-frighten me.",
+    "f": "The sh-shadowrunner thinks that she can f-frighten me."
+   }
+  },
+  "53e3fba73030318c1f0077be_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Unbelievable. We have one job to do in this place, and the guy wants to bail before we've done it. Get your ass back here, \"team leader.\" We still have a penthouse to bug, remember?",
+    "f": "Unbelievable. We have one job to do in this place, and the gal wants to bail before we've done it. Get your ass back here, \"team leader.\" We still have a penthouse to bug, remember?"
+   }
+  },
+  "5260599e303031cc10006e09_31": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Best of luck with that. Even as we speak, loyal Soldiers of Humanity are converging on this position. Get ready to die, human.",
+    "elf": "Best of luck with that. Even as we speak, loyal Soldiers of Humanity are converging on this position. Get ready to die, elf.",
+    "dwarf": "Best of luck with that. Even as we speak, loyal Soldiers of Humanity are converging on this position. Get ready to die, dwarf.",
+    "ork": "Best of luck with that. Even as we speak, loyal Soldiers of Humanity are converging on this position. Get ready to die, ork.",
+    "troll": "Best of luck with that. Even as we speak, loyal Soldiers of Humanity are converging on this position. Get ready to die, troll."
+   }
+  },
+  "5260599e303031cc10006e09_40": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "It's a little late for that, human. You've just brought me the last of what I need. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "elf": "It's a little late for that, elf. You've just brought me the last of what I need. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "dwarf": "It's a little late for that, dwarf. You've just brought me the last of what I need. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "ork": "It's a little late for that, ork. You've just brought me the last of what I need. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "troll": "It's a little late for that, troll. You've just brought me the last of what I need. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them."
+   }
+  },
+  "5260599e303031cc10006e09_49": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "It is going to be *glorious,* human. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "elf": "It is going to be *glorious,* elf. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "dwarf": "It is going to be *glorious,* dwarf. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "ork": "It is going to be *glorious,* ork. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them.",
+    "troll": "It is going to be *glorious,* troll. That gas that you hauled in for us... it's gonna prove every word that we've been saying. The trogs, the halfers, the goddamned dandelion-eaters... one whiff of this stuff, and they're gonna tear each other apart. And then they'll spill into the good, *human* neighborhoods, where we'll be waiting to stop them."
+   }
+  },
+  "5260599e303031cc10006e09_70~c1": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "I have shown you hospitality, human. Now it's time for you to return the favor. So tell me: why are you here?",
+    "elf": "I have shown you hospitality, elf. Now it's time for you to return the favor. So tell me: why are you here?",
+    "dwarf": "I have shown you hospitality, dwarf. Now it's time for you to return the favor. So tell me: why are you here?",
+    "ork": "I have shown you hospitality, ork. Now it's time for you to return the favor. So tell me: why are you here?",
+    "troll": "I have shown you hospitality, troll. Now it's time for you to return the favor. So tell me: why are you here?"
+   }
+  },
+  "525d6f9e303031bc0a0072cd_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yeah, well, trust me. It happens. I'm just glad that I had you here to cover me. Always good to have a competent man at your back.",
+    "f": "Yeah, well, trust me. It happens. I'm just glad that I had you here to cover me. Always good to have a competent woman at your back."
+   }
+  },
+  "52ab4537643431431fd37135_21": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Can I at least buy something for my friend here? he’s been talking with me a bit and hasn’t had anything.",
+    "f": "Can I at least buy something for my friend here? she’s been talking with me a bit and hasn’t had anything."
+   }
+  },
+  "52ab4537643431431fd37135_65": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Can I at least buy something for my friend here? he’s been talking with me a bit and hasn’t had anything.",
+    "f": "Can I at least buy something for my friend here? she’s been talking with me a bit and hasn’t had anything."
+   }
+  },
+  "528519976261640406004f03_88~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Big mistake, man. BIG mistake.",
+    "f": "Big mistake, woman. BIG mistake."
+   }
+  },
+  "52953f9b636134f028000f21_14": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Man!",
+    "f": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Woman!"
+   }
+  },
+  "52953f9b636134f028000f21_27": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Man!",
+    "f": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Woman!"
+   }
+  },
+  "52953f9b636134f028000f21_39": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Man!",
+    "f": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Woman!"
+   }
+  },
+  "52953f9b636134f028000f21_54": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Man!",
+    "f": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Woman!"
+   }
+  },
+  "52953f9b636134f028000f21_75": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Man!",
+    "f": "FREE ME! FREE ME, OR THE FLESH WILL BE RAKED FROM YOUR BONES! BURN YOU TO CINDERS BURN YOU TO ASH BURN YOU TO NOTHING!!! THIS I SWEAR, LITTLE Woman!"
+   }
+  },
+  "52af576d6161362808001bbe_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Well, what would you call him?",
+    "f": "Well, what would you call her?"
+   }
+  },
+  "521d44a83030319015005ab9_23~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Give him the spare keycard that Danni bought. He's going to fix this for us.",
+    "f": "Give her the spare keycard that Danni bought. She's going to fix this for us."
+   }
+  },
+  "521e77003030318403005ff8_41": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Come on, man. Help us out, here.",
+    "f": "Come on, woman. Help us out, here."
+   }
+  },
+  "523b9421346238e41d00754c_49": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "T'aven baxtale, human. You're here to conduct some business? If so, I welcome you to Mettbach Arms and Ammunition. If not, keep right on walking.",
+    "elf": "T'aven baxtale, elf. You're here to conduct some business? If so, I welcome you to Mettbach Arms and Ammunition. If not, keep right on walking.",
+    "dwarf": "T'aven baxtale, dwarf. You're here to conduct some business? If so, I welcome you to Mettbach Arms and Ammunition. If not, keep right on walking.",
+    "ork": "T'aven baxtale, ork. You're here to conduct some business? If so, I welcome you to Mettbach Arms and Ammunition. If not, keep right on walking.",
+    "troll": "T'aven baxtale, troll. You're here to conduct some business? If so, I welcome you to Mettbach Arms and Ammunition. If not, keep right on walking."
+   }
+  },
+  "52b0f33b636134f804001950_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I had to meet you in person. To look into your eyes and see the man behind the name. Now that I have done so, I am sure. You are the one that I need.",
+    "f": "I had to meet you in person. To look into your eyes and see the woman behind the name. Now that I have done so, I am sure. You are the one that I need."
+   }
+  },
+  "52b0f33b636134f804001950_36": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I will iron out the remaining details with your Herr Amsel. He'll want to talk this over with you anyway, I'm sure. You're a good man. You are saving more lives than you know.",
+    "f": "I will iron out the remaining details with your Herr Amsel. He'll want to talk this over with you anyway, I'm sure. You're a good woman. You are saving more lives than you know."
+   }
+  },
+  "523b74fe346238e41d00704a_2": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "That was *crazy,* Freund. Bullets flyin', people dropping like flies... *crazy.*",
+    "f": "That was *crazy,* Freundin. Bullets flyin', people dropping like flies... *crazy.*"
+   }
+  },
+  "523b74fe346238e41d00704a_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "One of these days, Freund. Absolutely. But today, you're here for a reason. What can ol' Zaak get for you?",
+    "f": "One of these days, Freundin. Absolutely. But today, you're here for a reason. What can ol' Zaak get for you?"
+   }
+  },
+  "523b74fe346238e41d00704a_8~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Guten Tag, Freund. You here for some magic? Because Zaak Flash...",
+    "f": "Guten Tag, Freundin. You here for some magic? Because Zaak Flash..."
+   }
+  },
+  "523b74fe346238e41d00704a_42": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Welcome back, Freund. What can ol' Zaak getcha?",
+    "f": "Welcome back, Freundin. What can ol' Zaak getcha?"
+   }
+  },
+  "5241cc1f3030314c16003f68_21": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "This one is dangerous! Kill him!",
+    "f": "This one is dangerous! Kill her!"
+   }
+  },
+  "52d41d4d3030312414000d16_13": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "This one is dangerous! Kill him!",
+    "f": "This one is dangerous! Kill her!"
+   }
+  },
+  "53594e5c303031b40a000145_13~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. His words are like the babble of a newborn babe. He is ignorant of the truth.",
+    "f": "Your friend - this outsider - jokes at our Great Master's expense. But we take no offense. Her words are like the babble of a newborn babe. She is ignorant of the truth."
+   }
+  },
+  "53594e5c303031b40a000145_13~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "If the noise continues, we will educate him, and the babble will cease.",
+    "f": "If the noise continues, we will educate her, and the babble will cease."
+   }
+  },
+  "53594e5c303031b40a000145_36": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "The outsider may do whatever he wishes. We will not interfere with him unless he provokes us. Our Great Master's offer was to you, child. Accept, and everything that you desire will be yours.",
+    "f": "The outsider may do whatever she wishes. We will not interfere with her unless she provokes us. Our Great Master's offer was to you, child. Accept, and everything that you desire will be yours."
+   }
+  },
+  "53594e5c303031b40a000145_49~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Your friend - this outsider - slanders our Great Master. But we take no offense. His words are like the babble of a newborn babe. He is ignorant of the truth.",
+    "f": "Your friend - this outsider - slanders our Great Master. But we take no offense. Her words are like the babble of a newborn babe. She is ignorant of the truth."
+   }
+  },
+  "53594e5c303031b40a000145_49~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "If the noise continues, we will teach him, and the babble will cease.",
+    "f": "If the noise continues, we will teach her, and the babble will cease."
+   }
+  },
+  "53594e5c303031b40a000145_51~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Your friend - this outsider - speaks out of turn. But we take no offense. His words are like the babble of a newborn babe. He is ignorant of the truth.",
+    "f": "Your friend - this outsider - speaks out of turn. But we take no offense. Her words are like the babble of a newborn babe. She is ignorant of the truth."
+   }
+  },
+  "53594e5c303031b40a000145_51~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "If the noise continues, we will teach him, and the babble will cease.",
+    "f": "If the noise continues, we will teach her, and the babble will cease."
+   }
+  },
+  "521e729d3030318403005fb6_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "There he is. Our hero.",
+    "f": "There she is. Our hero."
+   }
+  },
+  "521e77003030318403005ff8_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "There he is!",
+    "f": "There she is!"
+   }
+  },
+  "527431c4663661902e0039a9_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Please, sir... may I speak? I promise you, I will come no closer.",
+    "f": "Please, ma'am... may I speak? I promise you, I will come no closer."
+   }
+  },
+  "527431c4663661902e0039a9_23": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Thank you, sir. I will be brief.",
+    "f": "Thank you, ma'am. I will be brief."
+   }
+  },
+  "527431c4663661902e0039a9_25": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "We are not monsters, sir. We are people with an illness. Incurable for now, and yet some of us cling to hope. You may think of us as lepers, if you wish.",
+    "f": "We are not monsters, ma'am. We are people with an illness. Incurable for now, and yet some of us cling to hope. You may think of us as lepers, if you wish."
+   }
+  },
+  "521fabb2303031bc14001670_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "This is a secure facility, sir. Show your ID or move along.",
+    "f": "This is a secure facility, ma'am. Show your ID or move along."
+   }
+  },
+  "5356dea16361341c15001aa7_33": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "All right, tough guy. I get it, you're wiz. Just do me a favor and keep the damn bag closed, okay?",
+    "f": "All right, tough gal. I get it, you're wiz. Just do me a favor and keep the damn bag closed, okay?"
+   }
+  },
+  "53ce8f8e303031f014001550_14": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Color me surprised. I'd expect a man of your social strata to rant and rail against a system like the Academy's.",
+    "f": "Color me surprised. I'd expect a woman of your social strata to rant and rail against a system like the Academy's."
+   }
+  },
+  "53ce8f8e303031f014001550_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I should say not. You seem like a good man, and I don't mean to insult you. But you know how cutthroat it is out there. Hans will have every advantage, even if I have to mortgage the house to provide it to him.",
+    "f": "I should say not. You seem like a good woman, and I don't mean to insult you. But you know how cutthroat it is out there. Hans will have every advantage, even if I have to mortgage the house to provide it to him."
+   }
+  },
+  "53e021c4303031d807002814_1~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You! The guy from the cyberware kiosk! What the hell is going on here?",
+    "f": "You! The gal from the cyberware kiosk! What the hell is going on here?"
+   }
+  },
+  "529f95756636615817005f37_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Just... just hear me out, guy. This has to get done, but I think... I think that somethin' got Viktor. That's why I need your help.",
+    "f": "Just... just hear me out, gal. This has to get done, but I think... I think that somethin' got Viktor. That's why I need your help."
+   }
+  },
+  "529f95756636615817005f37_15": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I'll be waitin' right here, guy. Let me know what happens.",
+    "f": "I'll be waitin' right here, gal. Let me know what happens."
+   }
+  },
+  "52af576d6161362808001bbe_215": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "\"We\"? Mein Schatz, either we are in the presence of royalty, or he has decided to keep on.",
+    "f": "\"We\"? Mein Schatz, either we are in the presence of royalty, or she has decided to keep on."
+   }
+  },
+  "52af576d6161362808001bbe_221": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I think the Flux may have him, mein Schatz.",
+    "f": "I think the Flux may have her, mein Schatz."
+   }
+  },
+  "52af8c8a6261642819001448_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I remain convinced that you are thoroughly *dishonorable,* shadowrunner. A man of honor would never have allowed his target to live as long as you did. Whatever your motives might have been, honor was not among them.",
+    "f": "I remain convinced that you are thoroughly *dishonorable,* shadowrunner. A woman of honor would never have allowed her target to live as long as you did. Whatever your motives might have been, honor was not among them."
+   }
+  },
+  "5260338a63613410230047f5_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "New guy, huh? Ain't seen you around here before. What can I getcha?",
+    "f": "New gal, huh? Ain't seen you around here before. What can I getcha?"
+   }
+  },
+  "5260338a63613410230047f5_23": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What can I do for ya, new guy?",
+    "f": "What can I do for ya, new gal?"
+   }
+  },
+  "525733c73030318804002cf6_8~c1": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Compared to me, *every* human is a beanpole. Ain't a bad thing. It's just the way it is.",
+    "elf": "Compared to me, *every* elf is a beanpole. Ain't a bad thing. It's just the way it is.",
+    "dwarf": "Compared to me, *every* dwarf is a beanpole. Ain't a bad thing. It's just the way it is.",
+    "ork": "Compared to me, *every* ork is a beanpole. Ain't a bad thing. It's just the way it is.",
+    "troll": "Compared to me, *every* troll is a beanpole. Ain't a bad thing. It's just the way it is."
+   }
+  },
+  "5261d0f96361348409001bcb_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "All riiiight! My kind of guy! You've got cram, right? I just *love* a guy that's willing to share...",
+    "f": "All riiiight! My kind of gal! You've got cram, right? I just *love* a gal that's willing to share..."
+   }
+  },
+  "5261d0f96361348409001bcb_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Come party with me! You've got some cram, right? I just *love* a guy that's willing to share...",
+    "f": "Come party with me! You've got some cram, right? I just *love* a gal that's willing to share..."
+   }
+  },
+  "52abb7126636619429005443_17": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Hello... ah, welcome back, sir. What can I do for you?",
+    "f": "Hello... ah, welcome back, ma'am. What can I do for you?"
+   }
+  },
+  "53cea3413030316c09001713_16": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Thank *you,* sir! Have a great day!",
+    "f": "Thank *you,* ma'am! Have a great day!"
+   }
+  },
+  "53c5a0543030315803002800_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I heard him loud and clear, mop-jockey. Now *you* listen to *me.* Nobody without Delta clearance gets through this door, period. I'd suggest that you talk to management. If you really do need to be in here, they'll upgrade your clearance. Otherwise, piss off.",
+    "f": "I heard her loud and clear, mop-jockey. Now *you* listen to *me.* Nobody without Delta clearance gets through this door, period. I'd suggest that you talk to management. If you really do need to be in here, they'll upgrade your clearance. Otherwise, piss off."
+   }
+  },
+  "52367040353165d4090012ee_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sorry to have bothered you, sir. You're cleared to be here, but stay where I can see you, and don't leave this room.",
+    "f": "Sorry to have bothered you, ma'am. You're cleared to be here, but stay where I can see you, and don't leave this room."
+   }
+  },
+  "52e2bf13373937707f00224d_1~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I can't help you, sir. You're cleared to be in this room, but only under direct supervision, and we can't leave our posts to escort you into the other room.",
+    "f": "I can't help you, ma'am. You're cleared to be in this room, but only under direct supervision, and we can't leave our posts to escort you into the other room."
+   }
+  },
+  "52409cd06261649814003f65_30~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "All right, new guy. What's your name?",
+    "f": "All right, new gal. What's your name?"
+   }
+  },
+  "523bfc69346238e41d008008_31": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Is that the man who has taken over for Monika, Burakgazi?",
+    "f": "Is that the woman who has taken over for Monika, Burakgazi?"
+   }
+  },
+  "523bfc69346238e41d008008_33": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Give him a soykaf! A big one! And put it on my account! I like the cut of his jib.",
+    "f": "Give her a soykaf! A big one! And put it on my account! I like the cut of her jib."
+   }
+  },
+  "523bfc69346238e41d008008_35": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "And a scone! I was going to say, “and a scone as well”! Nothing is too good for him!",
+    "f": "And a scone! I was going to say, “and a scone as well”! Nothing is too good for her!"
+   }
+  },
+  "523bfd34346238e41d0080bf_2": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Ah, Altuğ, Freund. You are as quick-witted and sharp-tongued as ever. I bow to you.",
+    "f": "Ah, Altuğ, Freundin. You are as quick-witted and sharp-tongued as ever. I bow to you."
+   }
+  },
+  "525d7184303031bc0a007314_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What're you talkin' about, man? We ain't gonna finish nothin'. Those Humanis pukes won't even talk to us without Maxim there.",
+    "f": "What're you talkin' about, woman? We ain't gonna finish nothin'. Those Humanis pukes won't even talk to us without Maxim there."
+   }
+  },
+  "525d7184303031bc0a007314_3~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He slowly nods.",
+    "f": "She slowly nods."
+   }
+  },
+  "525d7184303031bc0a007314_4~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He spits on the ground.",
+    "f": "She spits on the ground."
+   }
+  },
+  "525d7184303031bc0a007314_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Too bad for *all* of us, man. We can't finish the trade without Maxim! Those Humanis bastards... they won't even *talk* to anyone else. We're screwed!",
+    "f": "Too bad for *all* of us, woman. We can't finish the trade without Maxim! Those Humanis bastards... they won't even *talk* to anyone else. We're screwed!"
+   }
+  },
+  "526ad6e9303031ac160075d2_1~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He pulls a flask from his jacket pocket and takes a long swig, then looks you in the eye.",
+    "f": "She pulls a flask from her jacket pocket and takes a long swig, then looks you in the eye."
+   }
+  },
+  "526ad6e9303031ac160075d2_2~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He nods.",
+    "f": "She nods."
+   }
+  },
+  "52449d8d30303170160026a4_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Doktor Huitzilin is your *uncle?* I... I had no idea. Please, carry on. Sir.",
+    "f": "Doktor Huitzilin is your *uncle?* I... I had no idea. Please, carry on. Ma'am."
+   }
+  },
+  "525c3d08303031d410005d43_15~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "See that? Your muscle is smarter than you are. You should put him in charge.",
+    "f": "See that? Your muscle is smarter than you are. You should put her in charge."
+   }
+  },
+  "523749c0303031940c0001ec_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Y-yes sir! I... I know who sent you. Please, tell your masters that I won't tell *anyone* that you were here!",
+    "f": "Y-yes ma'am! I... I know who sent you. Please, tell your masters that I won't tell *anyone* that you were here!"
+   }
+  },
+  "524c5c7a30303194170016ab_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Funny. You're a funny guy.",
+    "f": "Funny. You're a funny gal."
+   }
+  },
+  "52ab4537643431431fd37135_37": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sure thing guy.",
+    "f": "Sure thing gal."
+   }
+  },
+  "52ab4537643431431fd37135_40": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sure thing guy.",
+    "f": "Sure thing gal."
+   }
+  },
+  "52ab4537643431431fd37135_42": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sure thing guy.",
+    "f": "Sure thing gal."
+   }
+  },
+  "52b37b446636618815005944_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "A discerning customer, you are. Well, I have many more traditional weapons for a man of your tastes.",
+    "f": "A discerning customer, you are. Well, I have many more traditional weapons for a woman of your tastes."
+   }
+  },
+  "52abaca1663661942900532e_2": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He looks fed, for one thing.",
+    "f": "She looks fed, for one thing."
+   }
+  },
+  "53c818123030319016006c94_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You there! Maintenance Guy! Stop right where you are.",
+    "f": "You there! Maintenance Gal! Stop right where you are."
+   }
+  },
+  "53cd96c1323437c03b00323e_20": {
+   "axes": [
+    "gender",
+    "race"
+   ],
+   "v": {
+    "m.human": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, sir, and you have *murdered* my peasantry!",
+    "m.elf": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, elfling, and you have *murdered* my peasantry!",
+    "m.dwarf": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, dwarfling, and you have *murdered* my peasantry!",
+    "m.ork": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, ork-man, and you have *murdered* my peasantry!",
+    "m.troll": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, he-troll, and you have *murdered* my peasantry!",
+    "f.human": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, madam, and you have *murdered* my peasantry!",
+    "f.elf": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, she-elf, and you have *murdered* my peasantry!",
+    "f.dwarf": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, dwarfling, and you have *murdered* my peasantry!",
+    "f.ork": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, she-ork, and you have *murdered* my peasantry!",
+    "f.troll": "Abandoned?! This is my territory! My *home!* You are an invader in my territory, she-troll, and you have *murdered* my peasantry!"
+   }
+  },
+  "523b948f346238e41d007555_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Target acquired, sir. You were right... we spotted him on the U-Bahn, just like you said. Probably on his way to a job.",
+    "f": "Target acquired, sir. You were right... we spotted her on the U-Bahn, just like you said. Probably on her way to a job."
+   }
+  },
+  "523b948f346238e41d007555_23": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "As per your instructions, we're gonna try to take him out on his way back. He'll be more vulnerable that way. Hopefully injured and low on ammo, too, but only time will tell.",
+    "f": "As per your instructions, we're gonna try to take her out on her way back. She'll be more vulnerable that way. Hopefully injured and low on ammo, too, but only time will tell."
+   }
+  },
+  "insp_2f26c6e3b7f993e2": {
+   "axes": [
+    "scene:scene.cafespecial"
+   ],
+   "v": {
+    "bacosoy-biscuit": "The special today is a BacoSoy biscuit.",
+    "ta-ngel-infused-cappuchi": "The special today is a Taéngelé infused cappuchino.",
+    "wyrm-rock-energy-cola": "The special today is a Wyrm-Rock energy cola.",
+    "apple-pie-chai": "The special today is a apple pie chai.",
+    "mocha-soykaf": "The special today is a mocha soykaf.",
+    "pomegranate-synthjuice": "The special today is a pomegranate synthjuice.",
+    "pumpkin-spice-soykaf": "The special today is a pumpkin spice soykaf."
+   },
+   "hashed": true
+  }
+ }
+}
