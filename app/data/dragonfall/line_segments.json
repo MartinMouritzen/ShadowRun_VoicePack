@@ -44758,7 +44758,11 @@
   },
   {
    "who": "char",
-   "t": "\"We're in trouble, Liz,\" he says."
+   "t": "\"We're in trouble, Liz,\""
+  },
+  {
+   "who": "char",
+   "t": "he says."
   }
  ],
  "53bae96f636134dc27000365_5": [
@@ -44781,6 +44785,28 @@
    "t": "They've exploded into full-fledged mana storms."
   }
  ],
+ "53bae96f636134dc27000365_9": [
+  {
+   "who": "char",
+   "t": "Back in my lab, Dr. Hansen is still staring."
+  },
+  {
+   "who": "char",
+   "t": "\"You need to get the word out about this, Liz,\""
+  },
+  {
+   "who": "char",
+   "t": "he tells me."
+  },
+  {
+   "who": "char",
+   "t": "\"I'll back you. The community needs to know.\""
+  },
+  {
+   "who": "char",
+   "t": "He's right, of course. We, as a community, need to pool our resources to find a way to reverse this trend. And we need to do it quickly."
+  }
+ ],
  "53bae96f636134dc27000365_19": [
   {
    "who": "char",
@@ -44791,14 +44817,76 @@
    "t": "It's disgusting."
   }
  ],
- "53bae96f636134dc27000365_23": [
+ "53bae96f636134dc27000365_20": [
   {
    "who": "char",
-   "t": "\"The emergence of magic some forty years ago put a new wrinkle into biological field work,\" Dr. Okinyi tells me. \"New species are being discovered all the time. But this... this is something different. \"These creatures that have been popping up recently fall outside of any meaningful system of classification."
+   "t": "Dr. Okinyi sees my reaction, and he laughs."
   },
   {
    "who": "char",
-   "t": "And what's more, I have conducted enough autopsies on them to know that they do not belong here.\""
+   "t": "\"What you see now is nothing,\""
+  },
+  {
+   "who": "char",
+   "t": "he tells me."
+  },
+  {
+   "who": "char",
+   "t": "\"When it was alive, it killed six men - ripped the faces and genitals off of two, and bathed the other four in some sort of caustic fluid. And all the while, it was laughing.\""
+  },
+  {
+   "who": "char",
+   "t": "\"Laughing?\" I ask. \"Like, hyena-laughing?\""
+  },
+  {
+   "who": "char",
+   "t": "\"No. It was laughing like a man.\""
+  }
+ ],
+ "53bae96f636134dc27000365_21": [
+  {
+   "who": "char",
+   "t": "He must see my brow furrow, because he continues on."
+  },
+  {
+   "who": "char",
+   "t": "\"This was not a simple animal, Dr. Alder. It acted with *purpose* when it killed those men, and the only surviving witness tells me that it grew fat on their screams.\""
+  },
+  {
+   "who": "char",
+   "t": "Sure enough, the creature's belly does look distended. I know that the thing is dead, but that doesn't stop me from edging away."
+  }
+ ],
+ "53bae96f636134dc27000365_23": [
+  {
+   "who": "char",
+   "t": "\"The emergence of magic some forty years ago put a new wrinkle into biological field work,\""
+  },
+  {
+   "who": "char",
+   "t": "Dr. Okinyi tells me."
+  },
+  {
+   "who": "char",
+   "t": "\"New species are being discovered all the time. But this... this is something different. \"These creatures that have been popping up recently fall outside of any meaningful system of classification. And what's more, I have conducted enough autopsies on them to know that they do not belong here.\""
+  }
+ ],
+ "53bae96f636134dc27000365_24": [
+  {
+   "who": "char",
+   "t": "I press him for clarification on that point."
+  },
+  {
+   "who": "char",
+   "t": "\"What I mean to tell you is that their internal anatomy is all wrong. It doesn't even make sense,\""
+  },
+  {
+   "who": "char",
+   "t": "he explains."
+  },
+  {
+   "who": "char",
+   "t": "\"These creatures could not exist were it not for magic. And six months ago, I would have told you that they could not exist at all.\""
   }
  ],
  "5260338a63613410230047f5_9": [

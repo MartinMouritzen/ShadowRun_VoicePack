@@ -29,6 +29,50 @@ NOTES = jopt(os.path.join(ROOT, f"app/data/{GAME}/char_notes.json"))
 # because it is long keeps exactly the words it had before.
 SPOKEN = jopt(os.path.join(ROOT, f"app/data/{GAME}/spoken_overrides.json"))
 
+# ---------------------------------------------------------------- quoted speech in readable props
+# An in-world article quotes the people it interviews. Left whole, the author impersonates every
+# one of them. quote_splits.json lists, by hand, which quoted spans are actually speech and who
+# says them - by hand because quotation marks alone cannot tell speech from a quoted TERM
+# ("background count"), from a phrase ("Deep shit"), or from the author's own interjections inside
+# someone else's answer. Splitting produces ordinary ~cN segments, and the voice for each quote
+# segment is written into seg_overrides.json, which the lab and the generator already honour.
+QSPLIT = {}
+for _e in (jopt(os.path.join(HERE, "quote_splits.json")).get(GAME) or []):
+    for _sp in _e.get("speakers", []):
+        for _node, _quotes in (_sp.get("nodes") or {}).items():
+            QSPLIT.setdefault((_e["char"], _e["convo"], int(_node)), []).append(
+                {"voice": {"voiceId": _sp["voiceId"], "voiceName": _sp["voiceName"]},
+                 "quotes": _quotes})
+QUOTE_VOICES = {}          # segKey -> voice, merged into seg_overrides.json at the end
+
+def split_quotes(cid, line, key, text):
+    """[(text, voice_or_None)] for a line with hand-listed quotes; [] when it has none."""
+    plan = QSPLIT.get((cid, line["c"], line["n"]))
+    if not plan:
+        return []
+    spans = []
+    for entry in plan:
+        for q in entry["quotes"]:
+            at = text.find(q)
+            if at < 0:
+                print(f"  WARN: quote not found verbatim in {key}: {q[:48]}...", file=sys.stderr)
+                continue
+            spans.append((at, at + len(q), entry["voice"]))
+    if not spans:
+        return []
+    spans.sort()
+    out, pos = [], 0
+    for a, b, voice in spans:
+        if a < pos:
+            continue                      # overlapping listing; keep the first
+        if text[pos:a].strip():
+            out.append((text[pos:a].strip(), None))
+        out.append((text[a:b].strip(), voice))
+        pos = b
+    if text[pos:].strip():
+        out.append((text[pos:].strip(), None))
+    return out
+
 def gender_of(cid, cname):
     n = NOTES.get(cid) or NOTES.get(cname) or {}
     return n.get("gender")
@@ -75,6 +119,16 @@ for ch in c["characters"]:
             # (spoken_overrides > hand rewrite > mechanical), or splitting would quietly change the
             # words as well as the keys.
             base = (SPOKEN.get(key) or {}).get("spoken") or HAND.get(key) or mechanical(clean(l["t"]))
+            quoted = split_quotes(ch["id"], l, key, base)
+            if quoted:
+                out = []
+                for t_, voice in quoted:
+                    for part in (beats(t_) or [t_]):
+                        if voice:
+                            QUOTE_VOICES[f"{key}~c{len(out)}"] = voice
+                        out.append({"who": "char", "t": part})
+                result[key] = out
+                continue
             parts = beats(base)
             if len(parts) > 1:
                 result[key] = [{"who": "char", "t": p} for p in parts]
@@ -108,6 +162,18 @@ for ch in c["characters"]:
         result[key] = out
 
 json.dump(result, open(os.path.join(ROOT, f"app/data/{GAME}/line_segments.json"), "w"), ensure_ascii=False, indent=1)
+
+# Merge the quote voices into seg_overrides.json. Entries this script owns are tagged so it can
+# rewrite its own without disturbing a per-line voice chosen by hand in the lab.
+if QUOTE_VOICES or True:
+    sp_path = os.path.join(ROOT, f"app/data/{GAME}/seg_overrides.json")
+    segov = jopt(sp_path)
+    segov = {k: v for k, v in segov.items() if not (isinstance(v, dict) and v.get("source") == "quote-split")}
+    for k, v in QUOTE_VOICES.items():
+        segov[k] = dict(v, source="quote-split")
+    json.dump(segov, open(sp_path, "w"), ensure_ascii=False, indent=1)
+    if QUOTE_VOICES:
+        print(f"[{GAME}] quote splits: {len(QUOTE_VOICES)} quoted segment(s) given their speaker's voice")
 multi = sum(1 for v in result.values() if sum(1 for s in v if s["who"] == "char") >= 2)
 print(f"[{GAME}] segmented lines: {len(result)} ({multi} with interleaved speech); unresolved segs: {len(unresolved)}")
 json.dump(unresolved, open(os.path.join(HERE, f"segs_unresolved{SUF}.json"), "w"), ensure_ascii=False, indent=1)

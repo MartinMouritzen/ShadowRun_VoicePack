@@ -62,6 +62,7 @@ directed, spoken_ov = J("directed.json", {}), J("spoken_overrides.json", {})
 takes, picks = J("takes.json", {}), J("picks.json", {})
 segov = J("seg_overrides.json", {})
 bark_picks = J("bark_picks.json", {})
+bark_over = J("bark_overrides.json", {})
 aliases = (J("dupes.json", {}).get("aliases") or {})
 official = set(J("official_keys.json", []))
 fmt = gcfg.get("textFormat") or "quotes"
@@ -97,7 +98,11 @@ def bark_jobs(speaker_query):
             text = re.sub(r"\s+", " ", text or "").strip()
             if not text or not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text)):
                 continue
+            # bark_overrides.json is the per-BARK voice, which is how one speaker's barks can be
+            # split - the MKVI's system messages are a machine and its reactions are Blitz. It was
+            # not consulted here at all, so every bark took the speaker's voice regardless.
             voice = (({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice else None)
+                     or bark_over.get(key) or bark_over.get(sk)
                      or segov.get(sk) or bark_picks.get(sp_name) or picks.get("narrator"))
             if not voice:
                 print(f"  WARN: no voice for bark speaker '{sp_name}'", file=sys.stderr)

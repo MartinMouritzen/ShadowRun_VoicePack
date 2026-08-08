@@ -1,0 +1,51 @@
+{
+ "_comment": "Readable props that quote people: an in-world article or report where the author narrates and an interviewee is quoted. Splitting these gives the quoted speech its own voice instead of the author impersonating everyone. Applied by build_line_segments.py, which cuts the line at each listed quote and emits alternating segments (author, quote, author, ...) exactly as it does for {{GM}} narration - so the keys are the ordinary ~c0/~c1 ones the lab, the dedup and the pack builder already handle, and the pack stitches them back into one continuous read.\n\nThe quotes are listed BY HAND on purpose. Splitting on quotation marks automatically gets it wrong in every direction: Street Magic Quarterly quotes the TERM \"background count\" and the phrase \"Deep shit\" (not speech at all), and in node 20 the author's own interjections \"Laughing?\" and \"Like, hyena-laughing?\" sit inside the interviewee's answer. A rule that could tell those apart reliably does not exist; a list does.\n\nEach entry: the exact quoted substring (verbatim, including its trailing comma) and the voice that says it. Anything not listed stays with the prop's own casting.",
+ "dragonfall": [
+  {
+   "char": "name_streetmagicquarterlyashadowfrontpublication",
+   "convo": "53bae96f636134dc27000365",
+   "prop": "Street Magic Quarterly // a Shadowfront Publication",
+   "author": "Dr. Elizabeth Alder — signed at the end of both articles, called 'Liz' by Hansen and 'Dr. Alder' by Okinyi",
+   "speakers": [
+    {
+     "name": "Dr. Jake Hansen",
+     "voiceId": "mag_388",
+     "voiceName": "Michael Brooks",
+     "nodes": {
+      "2": [
+       "\"We're in trouble, Liz,\""
+      ],
+      "9": [
+       "\"You need to get the word out about this, Liz,\"",
+       "\"I'll back you. The community needs to know.\""
+      ]
+     }
+    },
+    {
+     "name": "Dr. Jacob Okinyi",
+     "voiceId": "mag_231",
+     "voiceName": "Thabo Peterson",
+     "nodes": {
+      "20": [
+       "\"What you see now is nothing,\"",
+       "\"When it was alive, it killed six men - ripped the faces and genitals off of two, and bathed the other four in some sort of caustic fluid. And all the while, it was laughing.\"",
+       "\"No. It was laughing like a man.\""
+      ],
+      "21": [
+       "\"This was not a simple animal, Dr. Alder. It acted with *purpose* when it killed those men, and the only surviving witness tells me that it grew fat on their screams.\""
+      ],
+      "23": [
+       "\"The emergence of magic some forty years ago put a new wrinkle into biological field work,\"",
+       "\"New species are being discovered all the time. But this... this is something different. \"These creatures that have been popping up recently fall outside of any meaningful system of classification. And what's more, I have conducted enough autopsies on them to know that they do not belong here.\""
+      ],
+      "24": [
+       "\"What I mean to tell you is that their internal anatomy is all wrong. It doesn't even make sense,\"",
+       "\"These creatures could not exist were it not for magic. And six months ago, I would have told you that they could not exist at all.\""
+      ]
+     }
+    }
+   ],
+   "not_split": "Node 4's \"background count\" and node 7's \"Deep shit\" are quoted terms, not speech. Node 10's \"In trouble,\" is Alder quoting Hansen back to herself in her closing line. Node 20's \"Laughing?\" and \"Like, hyena-laughing?\" are Alder's own questions inside the exchange, and stay hers."
+  }
+ ]
+}
