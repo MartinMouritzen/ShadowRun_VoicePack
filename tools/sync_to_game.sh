@@ -42,9 +42,9 @@ if [ -f "portraits_pack/$GAME_ID/portraits.index" ]; then
   mkdir -p "$PLUG/portraits"
   cp -f "portraits_pack/$GAME_ID/portraits.index" "$PLUG/portraits/portraits.index"
   cp -f portraits_pack/$GAME_ID/*.png "$PLUG/portraits/" 2>/dev/null || true
-  # prune portraits the index no longer references (same reason as the clip prune below: a
-  # re-picked portrait, or a character that turned out not to exist, otherwise leaves its PNG
-  # behind in the install forever)
+  # prune portraits the index no longer references (same reason the clip install reconciles both
+  # ways: a re-picked portrait, or a character that turned out not to exist, otherwise leaves its
+  # PNG behind in the install forever)
   [ "$GAME_RUNNING" = 1 ] || python3 - "$PLUG/portraits" <<'PY'
 import sys, os
 d = sys.argv[1]
@@ -67,28 +67,39 @@ mkdir -p "$PLUG/voicepack/clips"
 # clips FIRST, then the manifest that names them: the plugin reloads the manifest when its mtime
 # changes (VoicePack.IndexChanged), so a live game can read it the instant it lands. Writing the
 # index before its clips arrive gives it a window where every new line resolves to a file that is
-# still being copied. Clips are hash-named and immutable, so -n only copies what is genuinely new.
-cp -rn "$VP/clips/." "$PLUG/voicepack/clips/" 2>/dev/null || true
+# still being copied.
+#
+# This was `cp -rn`, which is correct but stats every destination file to decide whether to skip
+# it. Across the WSL->NTFS boundary that costs ~1.5s per 500 files, so a no-op sync of 9,287 clips
+# spent 3.7 of its 4.4 seconds deciding to do nothing. One readdir of the same directory costs
+# 0.02s, so the difference is worked out in Python and only genuinely missing files are copied.
+# Clips are hash-named and immutable, so "missing by name" is the whole test. The prune shares
+# this listing instead of taking its own.
+python3 - "$VP/clips" "$PLUG/voicepack/clips" "$GAME_RUNNING" <<'CLIPS'
+import os, shutil, sys
+src, dst, running = sys.argv[1], sys.argv[2], sys.argv[3] == "1"
+os.makedirs(dst, exist_ok=True)
+have = set(os.listdir(dst))
+want = set(os.listdir(src)) if os.path.isdir(src) else set()
+added = 0
+for f in sorted(want - have):
+    shutil.copy2(os.path.join(src, f), os.path.join(dst, f))
+    added += 1
+removed = 0
+if not running:
+    for f in have - want:
+        try:
+            os.remove(os.path.join(dst, f))
+            removed += 1
+        except OSError:
+            pass
+bits = []
+if added: bits.append("+%d new" % added)
+if removed: bits.append("-%d stale" % removed)
+print("  clips: " + (", ".join(bits) if bits else "unchanged"))
+CLIPS
 cp -f "$VP/voicepack.json"  "$PLUG/voicepack/voicepack.json" 2>/dev/null || true
 cp -f "$VP/voicepack.index" "$PLUG/voicepack/voicepack.index"
-# prune clips no longer referenced by the manifest (keeps the install from growing unbounded)
-[ "$GAME_RUNNING" = 1 ] || python3 - "$PLUG/voicepack" <<'PY'
-import sys, os
-vp=sys.argv[1]
-idx=os.path.join(vp,"voicepack.index")
-keep=set()
-for line in open(idx):
-    if line.startswith('#') or '\t' not in line: continue
-    for c in line.rstrip('\n').split('\t')[1:]:
-        keep.add(os.path.basename(c))
-cd=os.path.join(vp,"clips")
-removed=0
-for f in os.listdir(cd):
-    if f not in keep:
-        os.remove(os.path.join(cd,f)); removed+=1
-print(f"  pruned {removed} stale clips" if removed else "", end="")
-PY
-
 N=$(grep -vc '^#' "$PLUG/voicepack/voicepack.index" 2>/dev/null || echo 0)
 echo "SYNCED: $N voiced nodes installed to $GAME_ID. A running game picks this up within ~2s."
 if [ "$GAME_RUNNING" = 1 ]; then
