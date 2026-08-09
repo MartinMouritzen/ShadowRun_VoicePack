@@ -105224,7 +105224,7 @@
    ]
   },
   "523cc440346238d0260069af_90": {
-   "selected": "name_dietrich/takes/523cc440346238d0260069af_90__mag307__1786215062.mp3",
+   "selected": "name_dietrich/takes/523cc440346238d0260069af_90__mag307__1786299232.mp3",
    "takes": [
     {
      "file": "name_dietrich/takes/523cc440346238d0260069af_90__mag307__1786215062.mp3",
@@ -105233,6 +105233,14 @@
      "stability": 0,
      "chars": 158,
      "ts": 1786215062
+    },
+    {
+     "file": "name_dietrich/takes/523cc440346238d0260069af_90__mag307__1786299232.mp3",
+     "voiceId": "mag_307",
+     "voiceName": "Henry Fletcher",
+     "stability": 0,
+     "chars": 158,
+     "ts": 1786299232
     }
    ]
   },
@@ -123223,7 +123231,7 @@
    ]
   },
   "52b231cc663661f02100377b_3": {
-   "selected": "name_paulamsel/takes/52b231cc663661f02100377b_3__mag40__1786145467.mp3",
+   "selected": "name_paulamsel/takes/52b231cc663661f02100377b_3__mag40__1786299327.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52b231cc663661f02100377b_3__mag40__1786145467.mp3",
@@ -123232,11 +123240,27 @@
      "stability": 0,
      "chars": 114,
      "ts": 1786145467
+    },
+    {
+     "file": "name_paulamsel/takes/52b231cc663661f02100377b_3__mag40__1786299306.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1786299306
+    },
+    {
+     "file": "name_paulamsel/takes/52b231cc663661f02100377b_3__mag40__1786299327.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1786299327
     }
    ]
   },
   "52b231cc663661f02100377b_4": {
-   "selected": "name_paulamsel/takes/52b231cc663661f02100377b_4__mag40__1786145468.mp3",
+   "selected": "name_paulamsel/takes/52b231cc663661f02100377b_4__mag40__1786299349.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52b231cc663661f02100377b_4__mag40__1786145468.mp3",
@@ -123245,6 +123269,22 @@
      "stability": 0,
      "chars": 50,
      "ts": 1786145468
+    },
+    {
+     "file": "name_paulamsel/takes/52b231cc663661f02100377b_4__mag40__1786299337.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 55,
+     "ts": 1786299337
+    },
+    {
+     "file": "name_paulamsel/takes/52b231cc663661f02100377b_4__mag40__1786299349.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 55,
+     "ts": 1786299349
     }
    ]
   },
@@ -145812,6 +145852,14 @@
      "stability": 0,
      "chars": 76,
      "ts": 1786297994
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_0__mag198__1786299000.mp3",
+     "voiceId": "mag_198",
+     "voiceName": "Can Özkan",
+     "stability": 0,
+     "chars": 76,
+     "ts": 1786299000
     }
    ]
   },

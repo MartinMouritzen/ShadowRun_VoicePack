@@ -12,11 +12,20 @@ namespace SRRVoices
     // right one plays.
     //
     // The values are not guessed from the player object. The game already owns a substitution
-    // routine (ParseTextExpansion), and asking it to expand "$(l.race)" returns exactly the word
-    // the on-screen text will use — so the audio can never disagree with what is written, even if
-    // a mod or a later patch changes how a metatype is spelled. If that method cannot be found the
-    // resolver simply reports "no variant" and every line falls back to its generic clip, which is
-    // the behaviour the pack had before variants existed.
+    // routine, and asking it to expand "$(l.race)" returns exactly the word the on-screen text
+    // will use — so the audio can never disagree with what is written, even if a mod or a later
+    // patch changes how a metatype is spelled. If that method cannot be found the resolver simply
+    // reports "no variant" and every line falls back to its generic clip, which is the behaviour
+    // the pack had before variants existed.
+    //
+    // WHICH routine matters, and so does what it is handed. This bound to the private
+    // ParseTextExpansion(text, startIndex, listener, speaker, type, storyVars) and filled every
+    // parameter after the text with a default — null for the two Players. But "l." in $(l.race)
+    // MEANS the listener, and the engine's first act is `player = listener`, so a null listener
+    // expands nothing: every probe came back unchanged, Current() was null, and the pack used
+    // generic clips for the entire playthrough. The variant clips were built, shipped, and never
+    // once played. So bind to the PUBLIC entry point the game itself calls,
+    // Utilities.TextExpansion(text, listener, speaker[, storyVars]), and hand it a real listener.
     public static class Variants
     {
         static MethodInfo _expand;
@@ -34,24 +43,88 @@ namespace SRRVoices
                 MethodInfo m;
                 try
                 {
-                    m = t.GetMethod("ParseTextExpansion",
+                    m = t.GetMethod("TextExpansion",
                         BindingFlags.Public | BindingFlags.NonPublic |
                         BindingFlags.Static | BindingFlags.Instance);
                 }
                 catch { continue; }
                 if (m == null) continue;
                 ParameterInfo[] ps = m.GetParameters();
-                if (m.ReturnType == typeof(string) && ps.Length >= 1 && ps[0].ParameterType == typeof(string))
+                // (string text, Player listener, Player speaker, ...) — the two Players are the
+                // whole point, so a candidate without them is not the method we want.
+                if (m.ReturnType == typeof(string) && ps.Length >= 3
+                    && ps[0].ParameterType == typeof(string)
+                    && !ps[1].ParameterType.IsValueType
+                    && ps[1].ParameterType == ps[2].ParameterType)
                 {
                     _expand = m;
                     if (Plugin.Log != null)
-                        Plugin.Log.LogInfo("variants: using " + t.FullName + ".ParseTextExpansion");
+                        Plugin.Log.LogInfo("variants: using " + t.FullName + ".TextExpansion");
                     break;
                 }
             }
             if (_expand == null && Plugin.Log != null)
-                Plugin.Log.LogWarning("variants: ParseTextExpansion not found — every line uses its generic clip");
+                Plugin.Log.LogWarning("variants: TextExpansion not found — every line uses its generic clip");
             return _expand;
+        }
+
+        /// The player $(l....) refers to: whoever is being spoken TO.
+        static object Listener()
+        {
+            // During a conversation, the manager's own listener — the exact player the words on
+            // screen were expanded with, so the clip cannot disagree with the text.
+            try
+            {
+                ConversationManager cm =
+                    UnityEngine.Object.FindObjectOfType(typeof(ConversationManager)) as ConversationManager;
+                if (cm != null)
+                {
+                    object p = cm.GetThisPlayer();
+                    if (p != null) return p;
+                }
+            }
+            catch { }
+            // Outside a conversation (inspects, barks, load screens) there is no listener, but
+            // $(l.race) still means the player character. TurnDirector owns it; PlayerZero is the
+            // PC, FocusedPlayer is whoever is selected, which in combat can be a crew member.
+            try
+            {
+                Type td = AccessTools.TypeByName("TurnDirector");
+                if (td != null)
+                {
+                    object inst = UnityEngine.Object.FindObjectOfType(td);
+                    if (inst != null)
+                    {
+                        PropertyInfo pz = td.GetProperty("PlayerZero") ?? td.GetProperty("FocusedPlayer");
+                        if (pz != null)
+                        {
+                            object p = pz.GetValue(inst, null);
+                            if (p != null) return p;
+                        }
+                    }
+                }
+            }
+            catch { }
+            return null;
+        }
+
+        static object Invoke(MethodInfo m, string text, object listener)
+        {
+            ParameterInfo[] ps = m.GetParameters();
+            object[] args = new object[ps.Length];
+            args[0] = text;
+            args[1] = listener;
+            args[2] = listener;      // $(s....) is the speaker; nothing we probe uses it
+            for (int i = 3; i < ps.Length; i++)
+                args[i] = ps[i].ParameterType.IsValueType ? Activator.CreateInstance(ps[i].ParameterType) : null;
+            object inst = null;
+            if (!m.IsStatic)
+            {
+                // An instance method needs the live manager; the scene owns exactly one.
+                inst = UnityEngine.Object.FindObjectOfType(m.DeclaringType);
+                if (inst == null) return null;
+            }
+            return m.Invoke(inst, args);
         }
 
         static string Expand(string probe)
@@ -60,19 +133,9 @@ namespace SRRVoices
             if (m == null) return null;
             try
             {
-                ParameterInfo[] ps = m.GetParameters();
-                object[] args = new object[ps.Length];
-                args[0] = probe;
-                for (int i = 1; i < ps.Length; i++)
-                    args[i] = ps[i].ParameterType.IsValueType ? Activator.CreateInstance(ps[i].ParameterType) : null;
-                object inst = null;
-                if (!m.IsStatic)
-                {
-                    // An instance method needs the live manager; the scene owns exactly one.
-                    inst = UnityEngine.Object.FindObjectOfType(m.DeclaringType);
-                    if (inst == null) return null;
-                }
-                string s = m.Invoke(inst, args) as string;
+                object listener = Listener();
+                if (listener == null) return null;      // nothing to expand against
+                string s = Invoke(m, probe, listener) as string;
                 if (string.IsNullOrEmpty(s) || s == probe) return null;
                 return s.Trim().ToLowerInvariant();
             }
@@ -88,18 +151,7 @@ namespace SRRVoices
             if (m == null || string.IsNullOrEmpty(raw)) return null;
             try
             {
-                ParameterInfo[] ps = m.GetParameters();
-                object[] args = new object[ps.Length];
-                args[0] = raw;
-                for (int i = 1; i < ps.Length; i++)
-                    args[i] = ps[i].ParameterType.IsValueType ? Activator.CreateInstance(ps[i].ParameterType) : null;
-                object inst = null;
-                if (!m.IsStatic)
-                {
-                    inst = UnityEngine.Object.FindObjectOfType(m.DeclaringType);
-                    if (inst == null) return null;
-                }
-                return m.Invoke(inst, args) as string;
+                return Invoke(m, raw, Listener()) as string;
             }
             catch { return null; }
         }
