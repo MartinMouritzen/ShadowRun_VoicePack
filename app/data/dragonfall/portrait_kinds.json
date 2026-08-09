@@ -1,0 +1,635 @@
+{
+ "_comment": "What each portrait-less character IS, so a terminal never gets a face. kind: person | machine | drone | document | spirit. Derived from the name plus the SAPI-voice signal (a character cast to a Windows voice is a machine by construction), with a hand table for the ones the name gets wrong - 'Server Room Guard' is a man, 'Meat Grinder' is a troll's nickname, 'Speaker' is a PA panel.",
+ "characters": {
+  "name_computer": {
+   "name": "Computer",
+   "kind": "machine",
+   "lines": 401
+  },
+  "name_marta": {
+   "name": "Marta",
+   "kind": "person",
+   "lines": 142
+  },
+  "name_wanderer": {
+   "name": "Wanderer",
+   "kind": "person",
+   "lines": 57
+  },
+  "name_janitor": {
+   "name": "Janitor",
+   "kind": "person",
+   "lines": 40
+  },
+  "name_aztechnologyguard": {
+   "name": "Aztechnology Guard",
+   "kind": "person",
+   "lines": 35
+  },
+  "name_aztechnologycaptain": {
+   "name": "Aztechnology Captain",
+   "kind": "person",
+   "lines": 30
+  },
+  "name_karl": {
+   "name": "Karl",
+   "kind": "person",
+   "lines": 30
+  },
+  "name_digitalarchiveterminal": {
+   "name": "Digital Archive Terminal",
+   "kind": "machine",
+   "lines": 27
+  },
+  "name_guard": {
+   "name": "Guard",
+   "kind": "person",
+   "lines": 25
+  },
+  "name_corporateman": {
+   "name": "Corporate Man",
+   "kind": "person",
+   "lines": 25
+  },
+  "name_newsdayworldreport": {
+   "name": "Newsday World Report",
+   "kind": "document",
+   "lines": 23
+  },
+  "name_console": {
+   "name": "Console",
+   "kind": "machine",
+   "lines": 22
+  },
+  "name_janet": {
+   "name": "Janet",
+   "kind": "person",
+   "lines": 22
+  },
+  "name_oldwoman": {
+   "name": "Old Woman",
+   "kind": "person",
+   "lines": 22
+  },
+  "name_communionist": {
+   "name": "Communionist",
+   "kind": "person",
+   "lines": 21
+  },
+  "name_companyman": {
+   "name": "Company Man",
+   "kind": "person",
+   "lines": 20
+  },
+  "name_harrowsmanifesto": {
+   "name": "Harrow's Manifesto",
+   "kind": "document",
+   "lines": 20
+  },
+  "name_streetmagicquarterlyashadowfrontpublication": {
+   "name": "Street Magic Quarterly // a Shadowfront Publication",
+   "kind": "document",
+   "lines": 19
+  },
+  "name_kiezgatekeeper": {
+   "name": "Kiez Gatekeeper",
+   "kind": "person",
+   "lines": 17
+  },
+  "name_partygirl": {
+   "name": "Party Girl",
+   "kind": "person",
+   "lines": 17
+  },
+  "name_computerterminal": {
+   "name": "Computer Terminal",
+   "kind": "machine",
+   "lines": 17
+  },
+  "name_femaleinitiate": {
+   "name": "Female Initiate",
+   "kind": "person",
+   "lines": 17
+  },
+  "name_foodcartvendor": {
+   "name": "Food Cart Vendor",
+   "kind": "person",
+   "lines": 16
+  },
+  "name_techvendor": {
+   "name": "Tech Vendor",
+   "kind": "person",
+   "lines": 15
+  },
+  "name_lady": {
+   "name": "Lady",
+   "kind": "person",
+   "lines": 14
+  },
+  "name_waitress": {
+   "name": "Waitress",
+   "kind": "person",
+   "lines": 14
+  },
+  "name_ltgworker": {
+   "name": "LTG worker",
+   "kind": "person",
+   "lines": 13
+  },
+  "name_serverroomguard": {
+   "name": "Server Room Guard",
+   "kind": "person",
+   "lines": 13
+  },
+  "name_controlconsole": {
+   "name": "Control Console",
+   "kind": "machine",
+   "lines": 13
+  },
+  "name_stressedsuit": {
+   "name": "Stressed Suit",
+   "kind": "person",
+   "lines": 13
+  },
+  "name_frightenedman": {
+   "name": "Frightened Man",
+   "kind": "person",
+   "lines": 12
+  },
+  "name_humanispropaganda": {
+   "name": "Humanis Propaganda",
+   "kind": "document",
+   "lines": 12
+  },
+  "name_maleinitiate": {
+   "name": "Male Initiate",
+   "kind": "person",
+   "lines": 12
+  },
+  "name_wageslave": {
+   "name": "Wageslave",
+   "kind": "person",
+   "lines": 11
+  },
+  "name_smuggler": {
+   "name": "Smuggler",
+   "kind": "person",
+   "lines": 11
+  },
+  "name_malevoice": {
+   "name": "Male Voice",
+   "kind": "person",
+   "lines": 11
+  },
+  "name_newsanchor": {
+   "name": "News Anchor",
+   "kind": "person",
+   "lines": 11
+  },
+  "name_corporatewoman": {
+   "name": "Corporate Woman",
+   "kind": "person",
+   "lines": 11
+  },
+  "name_maninsuit": {
+   "name": "Man in Suit",
+   "kind": "person",
+   "lines": 11
+  },
+  "name_aztechnologygrenadier": {
+   "name": "Aztechnology Grenadier",
+   "kind": "person",
+   "lines": 10
+  },
+  "name_note": {
+   "name": "Note",
+   "kind": "document",
+   "lines": 10
+  },
+  "name_aztechnologyexec": {
+   "name": "Aztechnology Exec",
+   "kind": "person",
+   "lines": 9
+  },
+  "name_pumpconsole": {
+   "name": "Pump Console",
+   "kind": "machine",
+   "lines": 9
+  },
+  "name_bartender": {
+   "name": "Bartender",
+   "kind": "person",
+   "lines": 9
+  },
+  "name_oldinformationterminal": {
+   "name": "Old Information Terminal",
+   "kind": "machine",
+   "lines": 9
+  },
+  "name_oddmerchant": {
+   "name": "Odd Merchant",
+   "kind": "person",
+   "lines": 9
+  },
+  "name_parkranger": {
+   "name": "Park Ranger",
+   "kind": "person",
+   "lines": 9
+  },
+  "name_shadowfrontindependentnewssource": {
+   "name": "Shadowfront // Independent News Source",
+   "kind": "document",
+   "lines": 9
+  },
+  "name_taylornguyen": {
+   "name": "Taylor Nguyen",
+   "kind": "person",
+   "lines": 9
+  },
+  "name_servercomputer": {
+   "name": "Server Computer",
+   "kind": "machine",
+   "lines": 8
+  },
+  "name_terminal": {
+   "name": "Terminal",
+   "kind": "machine",
+   "lines": 8
+  },
+  "name_dasfinanzwesen": {
+   "name": "das Finanzwesen",
+   "kind": "person",
+   "lines": 8
+  },
+  "name_securityterminal": {
+   "name": "Security Terminal",
+   "kind": "machine",
+   "lines": 8
+  },
+  "name_explosivecontrolpanel": {
+   "name": "Explosive Control Panel",
+   "kind": "machine",
+   "lines": 8
+  },
+  "name_orkguard": {
+   "name": "Ork Guard",
+   "kind": "person",
+   "lines": 8
+  },
+  "name_panaceaprojectterminal": {
+   "name": "PANACEA Project Terminal",
+   "kind": "machine",
+   "lines": 7
+  },
+  "name_nasalwoman": {
+   "name": "Nasal Woman",
+   "kind": "person",
+   "lines": 7
+  },
+  "name_adminterminal": {
+   "name": "Admin Terminal",
+   "kind": "machine",
+   "lines": 7
+  },
+  "name_acolyte": {
+   "name": "Acolyte",
+   "kind": "person",
+   "lines": 7
+  },
+  "name_tailor": {
+   "name": "Tailor",
+   "kind": "person",
+   "lines": 7
+  },
+  "name_researcher": {
+   "name": "Researcher",
+   "kind": "person",
+   "lines": 7
+  },
+  "name_voiceonphone": {
+   "name": "Voice on Phone",
+   "kind": "person",
+   "lines": 6
+  },
+  "name_dronecontrolbox": {
+   "name": "Drone Control Box",
+   "kind": "machine",
+   "lines": 6
+  },
+  "name_gangenforcer": {
+   "name": "Gang Enforcer",
+   "kind": "person",
+   "lines": 6
+  },
+  "name_emergencyaishutdownandpurge": {
+   "name": "Emergency AI Shutdown And Purge",
+   "kind": "machine",
+   "lines": 6
+  },
+  "name_kunzel": {
+   "name": "Künzel",
+   "kind": "person",
+   "lines": 6
+  },
+  "name_aztechnologyenforcer": {
+   "name": "Aztechnology Enforcer",
+   "kind": "person",
+   "lines": 5
+  },
+  "name_david": {
+   "name": "David",
+   "kind": "person",
+   "lines": 5
+  },
+  "name_corruptedfile": {
+   "name": "Corrupted File",
+   "kind": "document",
+   "lines": 5
+  },
+  "name_humanisterminal": {
+   "name": "Humanis Terminal",
+   "kind": "machine",
+   "lines": 5
+  },
+  "name_freightelevatordoorpanel": {
+   "name": "Freight Elevator Door Panel",
+   "kind": "machine",
+   "lines": 5
+  },
+  "name_ltgpanel": {
+   "name": "LTG Panel",
+   "kind": "machine",
+   "lines": 5
+  },
+  "name_schockwellenreitermessagedrop": {
+   "name": "Schockwellenreiter Message Drop",
+   "kind": "document",
+   "lines": 5
+  },
+  "name_man": {
+   "name": "Man",
+   "kind": "person",
+   "lines": 5
+  },
+  "name_elfactress": {
+   "name": "Elf \"Actress\"",
+   "kind": "person",
+   "lines": 5
+  },
+  "name_aztecthnologyinventoryterminal": {
+   "name": "Aztecthnology Inventory Terminal",
+   "kind": "machine",
+   "lines": 4
+  },
+  "name_volunteerworker": {
+   "name": "Volunteer Worker",
+   "kind": "person",
+   "lines": 4
+  },
+  "name_deaddropmessage": {
+   "name": "Dead Drop Message",
+   "kind": "document",
+   "lines": 4
+  },
+  "name_gatecontrol": {
+   "name": "Gate Control",
+   "kind": "machine",
+   "lines": 4
+  },
+  "name_vanguardmage": {
+   "name": "Vanguard Mage",
+   "kind": "person",
+   "lines": 4
+  },
+  "name_messages": {
+   "name": "Messages",
+   "kind": "document",
+   "lines": 4
+  },
+  "name_emergencyfieldtraumaunit": {
+   "name": "Emergency Field Trauma Unit",
+   "kind": "machine",
+   "lines": 4
+  },
+  "name_liamfoster": {
+   "name": "Liam Foster",
+   "kind": "person",
+   "lines": 4
+  },
+  "name_streetrat": {
+   "name": "Street Rat",
+   "kind": "person",
+   "lines": 4
+  },
+  "name_generatorcontrolpanel": {
+   "name": "Generator Control Panel",
+   "kind": "machine",
+   "lines": 3
+  },
+  "name_elevatorcontrols": {
+   "name": "Elevator Controls",
+   "kind": "machine",
+   "lines": 3
+  },
+  "name_fromthedeskofwernerharding": {
+   "name": "From the Desk of Werner Harding",
+   "kind": "document",
+   "lines": 3
+  },
+  "name_doorpanel": {
+   "name": "Door Panel",
+   "kind": "machine",
+   "lines": 3
+  },
+  "name_paramilitarysecurity": {
+   "name": "Paramilitary Security",
+   "kind": "person",
+   "lines": 3
+  },
+  "name_femalevoice": {
+   "name": "Female Voice",
+   "kind": "person",
+   "lines": 3
+  },
+  "name_scaredmalevoice": {
+   "name": "Scared Male Voice",
+   "kind": "person",
+   "lines": 3
+  },
+  "name_aleshire": {
+   "name": "Aleshire",
+   "kind": "person",
+   "lines": 3
+  },
+  "name_trollactor": {
+   "name": "Troll \"Actor\"",
+   "kind": "person",
+   "lines": 3
+  },
+  "name_elderlysoundingelfactor": {
+   "name": "Elderly-Sounding Elf \"Actor\"",
+   "kind": "person",
+   "lines": 3
+  },
+  "name_securitynode": {
+   "name": "Security Node",
+   "kind": "machine",
+   "lines": 2
+  },
+  "name_scientist": {
+   "name": "Scientist",
+   "kind": "person",
+   "lines": 2
+  },
+  "name_diary": {
+   "name": "Diary",
+   "kind": "document",
+   "lines": 2
+  },
+  "name_doorconsole": {
+   "name": "Door Console",
+   "kind": "machine",
+   "lines": 2
+  },
+  "name_messagefile": {
+   "name": "Message File",
+   "kind": "document",
+   "lines": 2
+  },
+  "name_mainframe": {
+   "name": "Mainframe",
+   "kind": "machine",
+   "lines": 2
+  },
+  "name_voiceprintanalyzer": {
+   "name": "Voiceprint Analyzer",
+   "kind": "machine",
+   "lines": 2
+  },
+  "name_highpitchedman": {
+   "name": "High-Pitched Man",
+   "kind": "person",
+   "lines": 2
+  },
+  "name_gatekeeperic": {
+   "name": "Gatekeeper IC",
+   "kind": "machine",
+   "lines": 2
+  },
+  "name_watcheric": {
+   "name": "Watcher IC",
+   "kind": "machine",
+   "lines": 2
+  },
+  "name_malenewscaster": {
+   "name": "Male Newscaster",
+   "kind": "person",
+   "lines": 2
+  },
+  "name_bodyguard": {
+   "name": "Bodyguard",
+   "kind": "person",
+   "lines": 2
+  },
+  "name_alertsystem": {
+   "name": "Alert System",
+   "kind": "machine",
+   "lines": 1
+  },
+  "name_turret": {
+   "name": "Turret",
+   "kind": "machine",
+   "lines": 1
+  },
+  "name_doorcontrols": {
+   "name": "Door Controls",
+   "kind": "machine",
+   "lines": 1
+  },
+  "name_warninglabel": {
+   "name": "Warning Label",
+   "kind": "document",
+   "lines": 1
+  },
+  "name_lieutenant": {
+   "name": "Lieutenant",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_mercenary": {
+   "name": "Mercenary",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_paramilitarysecurityenforcer": {
+   "name": "Paramilitary Security Enforcer",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_hackerdecker": {
+   "name": "Hacker Decker",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_sidedoorpanel": {
+   "name": "Side Door Panel",
+   "kind": "machine",
+   "lines": 1
+  },
+  "name_brokenpda": {
+   "name": "Broken PDA",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_vanguardmercenary": {
+   "name": "Vanguard Mercenary",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_ventilationcontrols": {
+   "name": "Ventilation Controls",
+   "kind": "machine",
+   "lines": 1
+  },
+  "name_humanisdoorpanel": {
+   "name": "Humanis Door Panel",
+   "kind": "machine",
+   "lines": 1
+  },
+  "name_militiaman": {
+   "name": "Militiaman",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_disembodiedvoice": {
+   "name": "Disembodied Voice",
+   "kind": "spirit",
+   "lines": 1
+  },
+  "name_freedacolyte": {
+   "name": "Freed Acolyte",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_serverdecker": {
+   "name": "Server Decker",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_femalenewscaster": {
+   "name": "Female Newscaster",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_germanannouncer": {
+   "name": "German Announcer",
+   "kind": "person",
+   "lines": 1
+  },
+  "name_knighterrantmage": {
+   "name": "Knight Errant Mage",
+   "kind": "person",
+   "lines": 1
+  }
+ }
+}
