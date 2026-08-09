@@ -168,6 +168,30 @@ namespace SRRVoices
             StartCoroutine(PlaySeq(relPaths, myToken));
         }
 
+        // Narration and inspect text carry the same Wait, but they share the one voice channel with
+        // conversation VO, so a scheduled line gives way instead of talking over whatever started
+        // while it was waiting. (Barks have their own channel and no such rule.)
+        public void PlaySequenceDelayed(string[] relPaths, float wait)
+        {
+            if (relPaths == null || relPaths.Length == 0) return;
+            if (wait <= 0.01f) { PlaySequence(relPaths); return; }
+            StartCoroutine(SequenceAfter(relPaths, wait, Application.loadedLevel));
+        }
+
+        IEnumerator SequenceAfter(string[] relPaths, float wait, int level)
+        {
+            float t = 0f;
+            while (t < wait)
+            {
+                if (Application.loadedLevel != level) yield break;
+                t += Time.deltaTime;
+                yield return null;
+            }
+            if (Application.loadedLevel != level) yield break;
+            if (src != null && src.isPlaying) yield break;
+            PlaySequence(relPaths);
+        }
+
         // ---- combat barks -------------------------------------------------------
         // Barks play on their own small pool of AudioSources so a new bark never truncates one
         // already playing: two actors shouting at once overlap, the same way their text bubbles
@@ -203,7 +227,54 @@ namespace SRRVoices
             return -1;
         }
 
+        // A floating-text action can hold its own bubble back. The scene author gives it a Wait, and
+        // the engine builds the bubble immediately but keeps it hidden until that many seconds have
+        // passed (SpeechBubble.delayTime counts down in Update, then shows it). One Dragonfall
+        // trigger outside the Haven fires Glory's "Let's get inside." with Wait 1 and Dietrich's
+        // reply with Wait 6: speaking both when the action ran shouted them over each other, five
+        // seconds before Dietrich's bubble existed on screen. 78 triggers across the three packs
+        // fire two or more barks at once, 60 of them with different waits.
+        //
+        // So a bark with a wait is scheduled rather than played, and it does NOT hold a bark slot
+        // while it waits - the slot is claimed when it actually speaks, or three staggered barks
+        // from one trigger would occupy the whole pool for six seconds of silence.
         public void PlayBark(string[] relPaths)
+        {
+            PlayBark(relPaths, 0f);
+        }
+
+        public void PlayBark(string[] relPaths, float wait)
+        {
+            if (relPaths == null || relPaths.Length == 0) return;
+            if (wait > 0.01f)
+            {
+                StartCoroutine(BarkAfter(relPaths, wait, Application.loadedLevel));
+                return;
+            }
+            PlayBarkNow(relPaths);
+        }
+
+        IEnumerator BarkAfter(string[] relPaths, float wait, int level)
+        {
+            // Scaled time (Time.deltaTime), because the engine's own countdown is scaled: whatever
+            // holds the bubble back has to hold the voice back by exactly as much.
+            //
+            // Deliberately NOT cancelled by barkGen. A conversation opening mid-wait bumps that, and
+            // the bubble this bark belongs to is still going to appear on screen regardless - the
+            // post-combat reaction barks this channel exists for fire the same beat a conversation
+            // auto-opens. A scene change is the one event that means the speaker is gone.
+            float t = 0f;
+            while (t < wait)
+            {
+                if (Application.loadedLevel != level) yield break;
+                t += Time.deltaTime;
+                yield return null;
+            }
+            if (Application.loadedLevel != level) yield break;
+            PlayBarkNow(relPaths);
+        }
+
+        void PlayBarkNow(string[] relPaths)
         {
             if (relPaths == null || relPaths.Length == 0) return;
             bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null;

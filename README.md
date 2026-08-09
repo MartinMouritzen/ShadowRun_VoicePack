@@ -18,7 +18,9 @@ Each game is shipped as **its own release / Nexus mod** — same repo, separate 
 
 - **Every cast character speaks**, including the narrator game-wide (all `{{GM}}` narration, even inside un-cast characters' lines).
 - **Inspect one-liners** ("examine object" descriptions) are voiced by the narrator.
-- **Combat barks** (lines actors shout in a fight) are voiced per speaker.
+- **Combat barks** (lines actors shout in a fight) are voiced per speaker, and spoken when the bubble
+  actually appears: a scene action that holds its text back by a few seconds holds the voice back too,
+  so two characters staged as a back-and-forth are no longer shouted over each other at once.
 - **Terminals / machines** use local Windows SAPI voices (David / Zira / Mark) for a synthetic feel, at zero API cost.
 - Segmented lines play in order (narrator, then character) with a natural beat between voice swaps.
 - Config toggles to enable/disable inspect voicing and combat-bark voicing independently (both default on).

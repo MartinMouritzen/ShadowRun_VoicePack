@@ -62962,7 +62962,7 @@
    ]
   },
   "52449597346238a0240049c3_18": {
-   "selected": "name_glory/takes/52449597346238a0240049c3_18__mag332__1786130243.mp3",
+   "selected": "name_glory/takes/52449597346238a0240049c3_18__mag332__1786296824.mp3",
    "takes": [
     {
      "file": "name_glory/takes/52449597346238a0240049c3_18__mag332__1786130243.mp3",
@@ -62971,11 +62971,19 @@
      "stability": 0,
      "chars": 195,
      "ts": 1786130243
+    },
+    {
+     "file": "name_glory/takes/52449597346238a0240049c3_18__mag332__1786296824.mp3",
+     "voiceId": "mag_332",
+     "voiceName": "Charlotte Winslow",
+     "stability": 0,
+     "chars": 208,
+     "ts": 1786296824
     }
    ]
   },
   "524b4ce43030312c040004e9_13": {
-   "selected": "name_glory/takes/524b4ce43030312c040004e9_13__mag332__1786130249.mp3",
+   "selected": "name_glory/takes/524b4ce43030312c040004e9_13__mag332__1786293145.mp3",
    "takes": [
     {
      "file": "name_glory/takes/524b4ce43030312c040004e9_13__mag332__1786130249.mp3",
@@ -62984,6 +62992,14 @@
      "stability": 0,
      "chars": 45,
      "ts": 1786130249
+    },
+    {
+     "file": "name_glory/takes/524b4ce43030312c040004e9_13__mag332__1786293145.mp3",
+     "voiceId": "mag_332",
+     "voiceName": "Charlotte Winslow",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1786293145
     }
    ]
   },
@@ -78728,7 +78744,7 @@
    ]
   },
   "52449597346238a0240049c3_6~c1": {
-   "selected": "name_eiger/takes/52449597346238a0240049c3_6~c1__mag164__1786136549.mp3",
+   "selected": "name_eiger/takes/52449597346238a0240049c3_6~c1__mag164__1786296473.mp3",
    "takes": [
     {
      "file": "name_eiger/takes/52449597346238a0240049c3_6~c1__mag164__1786136549.mp3",
@@ -78737,6 +78753,14 @@
      "stability": 0,
      "chars": 42,
      "ts": 1786136549
+    },
+    {
+     "file": "name_eiger/takes/52449597346238a0240049c3_6~c1__mag164__1786296473.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 51,
+     "ts": 1786296473
     }
    ]
   },
@@ -78767,7 +78791,7 @@
    ]
   },
   "52449597346238a0240049c3_9~c1": {
-   "selected": "name_eiger/takes/52449597346238a0240049c3_9~c1__mag164__1786136556.mp3",
+   "selected": "name_eiger/takes/52449597346238a0240049c3_9~c1__mag164__1786296554.mp3",
    "takes": [
     {
      "file": "name_eiger/takes/52449597346238a0240049c3_9~c1__mag164__1786136556.mp3",
@@ -78776,6 +78800,14 @@
      "stability": 0,
      "chars": 89,
      "ts": 1786136556
+    },
+    {
+     "file": "name_eiger/takes/52449597346238a0240049c3_9~c1__mag164__1786296554.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 101,
+     "ts": 1786296554
     }
    ]
   },
@@ -78793,7 +78825,7 @@
    ]
   },
   "52449597346238a0240049c3_10": {
-   "selected": "name_eiger/takes/52449597346238a0240049c3_10__mag164__1786136556.mp3",
+   "selected": "name_eiger/takes/52449597346238a0240049c3_10__mag164__1786296598.mp3",
    "takes": [
     {
      "file": "name_eiger/takes/52449597346238a0240049c3_10__mag164__1786136556.mp3",
@@ -78802,11 +78834,19 @@
      "stability": 0,
      "chars": 163,
      "ts": 1786136556
+    },
+    {
+     "file": "name_eiger/takes/52449597346238a0240049c3_10__mag164__1786296598.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 170,
+     "ts": 1786296598
     }
    ]
   },
   "52449597346238a0240049c3_11": {
-   "selected": "name_eiger/takes/52449597346238a0240049c3_11__mag164__1786136559.mp3",
+   "selected": "name_eiger/takes/52449597346238a0240049c3_11__mag164__1786296599.mp3",
    "takes": [
     {
      "file": "name_eiger/takes/52449597346238a0240049c3_11__mag164__1786136559.mp3",
@@ -78815,11 +78855,19 @@
      "stability": 0,
      "chars": 151,
      "ts": 1786136559
+    },
+    {
+     "file": "name_eiger/takes/52449597346238a0240049c3_11__mag164__1786296599.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 158,
+     "ts": 1786296599
     }
    ]
   },
   "52449597346238a0240049c3_13": {
-   "selected": "name_eiger/takes/52449597346238a0240049c3_13__mag164__1786136561.mp3",
+   "selected": "name_eiger/takes/52449597346238a0240049c3_13__mag164__1786296653.mp3",
    "takes": [
     {
      "file": "name_eiger/takes/52449597346238a0240049c3_13__mag164__1786136561.mp3",
@@ -78828,6 +78876,14 @@
      "stability": 0,
      "chars": 182,
      "ts": 1786136561
+    },
+    {
+     "file": "name_eiger/takes/52449597346238a0240049c3_13__mag164__1786296653.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 195,
+     "ts": 1786296653
     }
    ]
   },
@@ -78845,7 +78901,7 @@
    ]
   },
   "52449597346238a0240049c3_14": {
-   "selected": "name_eiger/takes/52449597346238a0240049c3_14__mag164__1786136564.mp3",
+   "selected": "name_eiger/takes/52449597346238a0240049c3_14__mag164__1786296681.mp3",
    "takes": [
     {
      "file": "name_eiger/takes/52449597346238a0240049c3_14__mag164__1786136564.mp3",
@@ -78854,6 +78910,14 @@
      "stability": 0,
      "chars": 118,
      "ts": 1786136564
+    },
+    {
+     "file": "name_eiger/takes/52449597346238a0240049c3_14__mag164__1786296681.mp3",
+     "voiceId": "mag_164",
+     "voiceName": "Maya Collins",
+     "stability": 0,
+     "chars": 125,
+     "ts": 1786296681
     }
    ]
   },
@@ -107409,7 +107473,7 @@
    ]
   },
   "524b4ce43030312c040004e9_17": {
-   "selected": "name_dietrich/takes/524b4ce43030312c040004e9_17__mag307__1786215653.mp3",
+   "selected": "name_dietrich/takes/524b4ce43030312c040004e9_17__mag307__1786293201.mp3",
    "takes": [
     {
      "file": "name_dietrich/takes/524b4ce43030312c040004e9_17__mag307__1786215653.mp3",
@@ -107418,6 +107482,22 @@
      "stability": 0,
      "chars": 53,
      "ts": 1786215653
+    },
+    {
+     "file": "name_dietrich/takes/524b4ce43030312c040004e9_17__mag307__1786293191.mp3",
+     "voiceId": "mag_307",
+     "voiceName": "Henry Fletcher",
+     "stability": 0,
+     "chars": 53,
+     "ts": 1786293191
+    },
+    {
+     "file": "name_dietrich/takes/524b4ce43030312c040004e9_17__mag307__1786293201.mp3",
+     "voiceId": "mag_307",
+     "voiceName": "Henry Fletcher",
+     "stability": 0,
+     "chars": 46,
+     "ts": 1786293201
     }
    ]
   },
@@ -121332,7 +121412,7 @@
    ]
   },
   "52449597346238a0240049c3_3~c0": {
-   "selected": "name_paulamsel/takes/52449597346238a0240049c3_3~c0__mag40__1786145246.mp3",
+   "selected": "name_paulamsel/takes/52449597346238a0240049c3_3~c0__mag40__1786296426.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52449597346238a0240049c3_3~c0__mag40__1786145246.mp3",
@@ -121341,6 +121421,14 @@
      "stability": 0,
      "chars": 32,
      "ts": 1786145246
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_3~c0__mag40__1786296426.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 43,
+     "ts": 1786296426
     }
    ]
   },
@@ -121358,7 +121446,7 @@
    ]
   },
   "52449597346238a0240049c3_3~c1": {
-   "selected": "name_paulamsel/takes/52449597346238a0240049c3_3~c1__mag40__1786145249.mp3",
+   "selected": "name_paulamsel/takes/52449597346238a0240049c3_3~c1__mag40__1786296408.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52449597346238a0240049c3_3~c1__mag40__1786145249.mp3",
@@ -121367,6 +121455,14 @@
      "stability": 0,
      "chars": 21,
      "ts": 1786145249
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_3~c1__mag40__1786296408.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1786296408
     }
    ]
   },
@@ -121397,7 +121493,7 @@
    ]
   },
   "52449597346238a0240049c3_15~c0": {
-   "selected": "name_paulamsel/takes/52449597346238a0240049c3_15~c0__mag40__1786145251.mp3",
+   "selected": "name_paulamsel/takes/52449597346238a0240049c3_15~c0__mag40__1786296739.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52449597346238a0240049c3_15~c0__mag40__1786145251.mp3",
@@ -121406,11 +121502,27 @@
      "stability": 0,
      "chars": 15,
      "ts": 1786145251
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_15~c0__mag40__1786296739.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 21,
+     "ts": 1786296739
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_15~c0__mag40__1786296769.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 32,
+     "ts": 1786296769
     }
    ]
   },
   "52449597346238a0240049c3_15~c1": {
-   "selected": "name_paulamsel/takes/52449597346238a0240049c3_15~c1__mag40__1786145253.mp3",
+   "selected": "name_paulamsel/takes/52449597346238a0240049c3_15~c1__mag40__1786296743.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52449597346238a0240049c3_15~c1__mag40__1786145253.mp3",
@@ -121419,6 +121531,14 @@
      "stability": 0,
      "chars": 73,
      "ts": 1786145253
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_15~c1__mag40__1786296743.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 73,
+     "ts": 1786296743
     }
    ]
   },

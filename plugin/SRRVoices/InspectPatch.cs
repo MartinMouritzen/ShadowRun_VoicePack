@@ -247,6 +247,43 @@ namespace SRRVoices
             return found;
         }
 
+        // How long the engine holds this text back before the player can read it. Every
+        // 'Display Text ...' scene action takes a Wait; the bubble is built at once but stays hidden
+        // until the wait elapses, which is how a single trigger draws two barks seconds apart. We
+        // used to ignore it and speak everything the instant the action ran.
+        //
+        // Two layers can deliver the same text and only the FIRST one through wins the debounce, so
+        // both have to know about the wait. Speech bubbles (type 0, i.e. the barks) only reach us at
+        // the scene-action layer, where the wait is the last input and is read back through the same
+        // TsEnvironment the engine uses - so a wait held in a variable resolves identically. GM text
+        // (type 1) reaches us first at GMText.CreateGMText, called BY PopupManager.CreateGMText, and
+        // there the wait is already a float parameter.
+        static float WaitOf(object[] args, System.Reflection.MethodBase m)
+        {
+            if (args == null || m == null) return 0f;
+            string name = m.Name;
+            string owner = (m.DeclaringType != null) ? m.DeclaringType.Name : "";
+            float w = 0f;
+            if (name.StartsWith("DisplayText"))
+            {
+                // ...OverActor/OverProp/OverPoint put it at 9; AtScreenPoint carries an extra x,y.
+                // DisplayTextInPopup has no wait at all and simply runs short of the index.
+                int di = (name == "DisplayTextAtScreenPoint") ? 10 : 9;
+                TScript.TsEnvironment env = (args.Length > 0) ? args[0] as TScript.TsEnvironment : null;
+                object[] inputs = (args.Length > 1) ? args[1] as object[] : null;
+                if (env == null || inputs == null || inputs.Length <= di) return 0f;
+                try { w = env.ToFloat(inputs[di]); } catch (Exception) { return 0f; }
+            }
+            else if (name == "CreateGMText")
+            {
+                int di = (owner == "GMText") ? 5 : 4;
+                if (args.Length <= di || !(args[di] is float)) return 0f;
+                w = (float)args[di];
+            }
+            if (w < 0.05f) return 0f;
+            return (w > 60f) ? 60f : w;   // a cue a minute out is a data error, not a stagger
+        }
+
         public static void Postfix(object[] __args, System.Reflection.MethodBase __originalMethod)
         {
             if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
@@ -289,11 +326,13 @@ namespace SRRVoices
                     if (key[0] == 'b' && Plugin.CfgBarks != null && !Plugin.CfgBarks.Value) return;      // bark_ disabled
                     if (key[0] == 'i' && Plugin.CfgInspect != null && !Plugin.CfgInspect.Value) return;  // insp_ disabled
                     if (Plugin.InspectDebounced(key)) return;
-                    if (log) Plugin.Log.LogInfo("play FT[" + __originalMethod.Name + "] " + key + " (" + clips.Length + " clips)");
+                    float wait = WaitOf(__args, __originalMethod);
+                    if (log) Plugin.Log.LogInfo("play FT[" + __originalMethod.Name + "] " + key + " (" + clips.Length + " clips)"
+                                                + (wait > 0f ? ", after the bubble's " + wait + "s wait" : ""));
                     // Combat barks go to the bark channel: they never truncate an already-playing
                     // bark (simultaneous shouts overlap) and never preempt dialogue/narration.
-                    if (key[0] == 'b') Plugin.Player.PlayBark(clips);
-                    else Plugin.Player.PlaySequence(clips);
+                    if (key[0] == 'b') Plugin.Player.PlayBark(clips, wait);
+                    else Plugin.Player.PlaySequenceDelayed(clips, wait);
                 }
                 else if (log && text.Length > 12 && text.IndexOf(' ') > 0)
                 {
