@@ -125,6 +125,32 @@ def bark_jobs(speaker_query):
 # so all 74 of Dragonfall's sat silent while every audit called the game fully voiced, because an
 # audit that walks characters[] cannot see a surface that is not in characters[].
 INSPECT_ID = "_inspect"
+# The engine's own help-screen tutorials (tutorials.json, keyed tut_<md5>). A fourth surface, and
+# the last one nothing could reach: they are not scene data, so no extractor saw them.
+TUTORIAL_ID = "_tutorial"
+
+def tutorial_jobs():
+    tut = J("tutorials.json", {})
+    done = takes.get("narrator") or {}
+    voice = bark_picks.get("Tutorial") or picks.get("narrator")
+    out = []
+    for key, entry in tut.items():
+        if entry.get("nonverbal"):
+            continue
+        if not a.redo and (done.get(key) or {}).get("takes"):
+            continue
+        text = spoken.effective_text(key, entry.get("text") or "", edits, directed)
+        text = re.sub(r"\s+", " ", text or "").strip()
+        if not text or not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text), re.UNICODE):
+            continue
+        v = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
+             else segov.get(key) or voice)
+        if not v:
+            print("  WARN: no voice for tutorials", file=sys.stderr); break
+        out.append({"charId": "narrator", "lineKey": key, "text": text,
+                    "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
+    return out
+
 
 def inspect_jobs():
     insp = J("inspect.json", {})
@@ -186,12 +212,14 @@ if isinstance(_n, dict) and not any(c.get("id") == "narrator" for c in cast):
 by_id = {c["id"]: c for c in cast}
 jobs = []
 wanted = [x for x in a.chars.split(",")
-          if not x.startswith(BARK_PREFIX) and x != INSPECT_ID]
+          if not x.startswith(BARK_PREFIX) and x not in (INSPECT_ID, TUTORIAL_ID)]
 for spec in a.chars.split(","):
     if spec.startswith(BARK_PREFIX):
         jobs += bark_jobs(spec[len(BARK_PREFIX):])
     elif spec == INSPECT_ID:
         jobs += inspect_jobs()
+    elif spec == TUTORIAL_ID:
+        jobs += tutorial_jobs()
 for cid in wanted:
     if cid not in by_id:
         print(f"  WARN: no character '{cid}'", file=sys.stderr)

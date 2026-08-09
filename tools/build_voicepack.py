@@ -103,6 +103,7 @@ def main():
 
     # Build ordered clip lists per line
     lines = {}          # base_key -> [source_rel_mp3, ...] (ordered, only selected)
+    reachable_extra = set()   # keys on surfaces the orphan check below cannot derive from lines
     stats = {"lines_total": 0, "lines_voiced": 0, "segments_voiced": 0, "missing_files": 0}
 
     # Template-variable variants. A line that says $(l.race) is shipped once per metatype under
@@ -190,6 +191,19 @@ def main():
                         voiced_any = True
                 if voiced_any and not sel:
                     stats["lines_voiced"] += 1
+
+    # Help-screen tutorials: keyed "tut_<md5(text)>" under the narrator bucket, matching what the
+    # plugin hashes off the popup at runtime. A separate surface from the scene popups in
+    # barks.json - same idea, different origin.
+    tut_path = os.path.join(DATA, "tutorials.json")
+    if os.path.exists(tut_path):
+        for key in json.load(open(tut_path)):
+            stats["lines_total"] += 1
+            sel = selected("narrator", key)
+            if sel and os.path.exists(os.path.join(AUDIO, *sel.split("/"))):
+                lines[key] = [sel]
+                stats["lines_voiced"] += 1; stats["segments_voiced"] += 1
+                reachable_extra.add(("narrator", key))
 
     # Barks AND screen narration: takes live under the "_barks" bucket keyed "bark_<md5(text)>".
     # The plugin hashes the runtime text the same way (DisplayTextOverActor / load screen /
@@ -292,6 +306,7 @@ def main():
             reachable.add(("narrator", k))
             for vid in (VARIANTS.get(k) or {}).get("v") or {}:
                 reachable.add(("narrator", f"{k}#{vid}"))
+    reachable |= reachable_extra
     orphans = [(b, k) for b, lns in takes.items() for k, v in lns.items()
                if v.get("selected") and (b, k) not in reachable]
     if orphans:

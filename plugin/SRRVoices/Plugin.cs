@@ -116,6 +116,27 @@ namespace SRRVoices
                 Log.LogWarning("Floating-text patch setup failed: " + e.Message);
             }
 
+            // The engine's own help-screen tutorials. A separate family from the floating text
+            // above: those are authored in scenes, these come out of the UI string table and had
+            // no hook at all, so they had never been voiced.
+            try
+            {
+                var post = new HarmonyMethod(typeof(Patch_HelpScreen).GetMethod("Postfix"));
+                var methods = Patch_HelpScreen.FindAll();
+                int n = 0;
+                foreach (var m in methods)
+                {
+                    try { harmony.CreateProcessor(m).AddPostfix(post).Patch(); n++; }
+                    catch (Exception e) { Log.LogWarning("help patch skip " + m.DeclaringType.Name + "." + m.Name + ": " + e.Message); }
+                }
+                if (n > 0) Log.LogInfo("Patched " + n + "/" + methods.Count + " help-screen methods (tutorials).");
+                else Log.LogWarning("No help-screen method found — tutorial popups stay unvoiced.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("Help-screen patch setup failed: " + e.Message);
+            }
+
             // Load-screen narration hook (isolated: SceneLoader may differ in sequels).
             try
             {

@@ -1,0 +1,32 @@
+{
+ "tut_2de1f827ad32d7c4": {
+  "text": "Archetypes are quick way to create a character. They are pre-generated characters with attributes and skills tuned around a specific function. They are ready to select and play. You are not locked to this archetype and can grow your character however you wish.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_446f86e6485c9c0a": {
+  "text": "Etiquette is about knowing how to behave in various social situations. The right etiquette can give you an edge in certain conversations. Choose an Etiquette from the list below. Choosing an Etiquette does not cost karma, and each Etiquette can only be chosen once.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_d1260c1b85679964": {
+  "text": "If you feel comfortable with the way characters are built in Shadowrun, you may create your own character by mixing skills and attributes as you wish.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_51d80195e39a5fdc": {
+  "text": "Karma represents the experience characters earn while running the shadows and achieving goals. Karma is used to improve Attributes and Skills. An Attribute or Skill rating can be increased by spending Karma equal to the next increment of that rating. Thus, improving your Body from 4 to 5 requires you to spend 5 Karma points. You have some karma available now to customize your character.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_d394308e722a2fcb": {
+  "text": "Many runners use a streetname, handle, or working name - names like \"Half-Jack\" or \"Lady Z\". Others stick with their given name, or adopt a nickname. Please choose a name for your character.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ }
+}

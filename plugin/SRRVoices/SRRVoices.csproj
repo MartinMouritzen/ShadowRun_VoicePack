@@ -35,6 +35,7 @@
     <Compile Include="BorderlessWindow.cs" />
     <Compile Include="InspectPatch.cs" />
     <Compile Include="Variants.cs" />
+    <Compile Include="TutorialPatch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
