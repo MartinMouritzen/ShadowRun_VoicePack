@@ -17,8 +17,19 @@ namespace SRRVoices
     // the extractor missed simply logs a MISS instead of playing the wrong clip.
     public static class Patch_HelpScreen
     {
-        // The popup is built by one of these; which one varies by build, so take whichever exists.
-        static readonly string[] NAMES = { "CreateHelpScreenPopup", "ShowHelpScreenPopup", "ShowHelpScreen" };
+        // The help-screen methods carry no text: the character-creation screen has one method per
+        // popup (OpenPopupSpend for "Spend your Karma", OpenPopupEtiquette, OpenPopupTotem...) and
+        // they look their own text up, handing it to the popup system as a PopupContents object.
+        // Hooking them by name therefore yields nothing, which is exactly what the first attempt
+        // did: 3/3 methods patched, not one line of audio. Anything that RECEIVES a PopupContents
+        // is the real seam, and that is found by parameter type rather than by guessing names.
+        static readonly string[] NAMES = {
+            "CreateHelpScreenPopup", "ShowHelpScreenPopup", "ShowHelpScreen",
+            "OpenPopupSpend", "OpenPopupEtiquette", "OpenPopupTotem", "OpenPopupIntro",
+            "OpenPopupMageVision", "OpenPopupLaunch", "CreateFullscreenPopup",
+            "CreateUnspentKarmaPopup",
+        };
+        const string CONTENTS = "PopupContents";
         static string _last;
         static float _lastAt;
 
@@ -33,36 +44,123 @@ namespace SRRVoices
                 try { ms = t.GetMethods(flags); } catch (Exception) { continue; }
                 foreach (var m in ms)
                 {
-                    if (Array.IndexOf(NAMES, m.Name) < 0) continue;
                     if (m.IsAbstract || m.ContainsGenericParameters) continue;
-                    found.Add(m);
+                    bool want = Array.IndexOf(NAMES, m.Name) >= 0;
+                    if (!want)
+                    {
+                        foreach (var pi in m.GetParameters())
+                            if (pi.ParameterType != null && pi.ParameterType.Name == CONTENTS) { want = true; break; }
+                    }
+                    if (want && !found.Contains(m)) found.Add(m);
                 }
             }
             return found;
         }
 
         // Any string argument long enough to be the body rather than a header or a button label.
+        // The longest string on or in the arguments: a plain string argument when there is one,
+        // otherwise the body carried on the PopupContents. Headers and button labels are short, so
+        // "longest" finds the body without needing that field's name in this particular build.
+        static string LongestString(object o)
+        {
+            if (o == null) return null;
+            string s = o as string;
+            if (s != null) return s;
+            Type t = o.GetType();
+            if (t.IsPrimitive) return null;
+            string best = null;
+            var flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
+            foreach (var f in t.GetFields(flags))
+            {
+                if (f.FieldType != typeof(string)) continue;
+                try { string v = f.GetValue(o) as string;
+                      if (v != null && (best == null || v.Length > best.Length)) best = v; }
+                catch (Exception) { }
+            }
+            foreach (var pr in t.GetProperties(flags))
+            {
+                if (pr.PropertyType != typeof(string) || pr.GetIndexParameters().Length > 0) continue;
+                try { string v = pr.GetValue(o, null) as string;
+                      if (v != null && (best == null || v.Length > best.Length)) best = v; }
+                catch (Exception) { }
+            }
+            return best;
+        }
+
         static string BodyOf(object[] args)
         {
             string best = null;
             if (args == null) return null;
             foreach (object a in args)
             {
-                string s = a as string;
+                string s = LongestString(a);
                 if (string.IsNullOrEmpty(s)) continue;
                 if (best == null || s.Length > best.Length) best = s;
             }
             return (best != null && best.Length >= 60) ? best : null;
         }
 
-        public static void Postfix(object[] __args, MethodBase __originalMethod)
+        // Any string held by an object, one level deep: the popup's text is set on a field or a
+        // property somewhere, and naming it is the whole point of the probe.
+        static void Describe(System.Text.StringBuilder sb, string label, object o)
+        {
+            if (o == null) { sb.Append("\n").Append(label).Append("=null"); return; }
+            string s = o as string;
+            if (s != null) { sb.Append("\n").Append(label).Append("(string)=").Append(Trim(s)); return; }
+            Type t = o.GetType();
+            sb.Append("\n").Append(label).Append('(').Append(t.Name).Append(')');
+            var flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
+            foreach (var f in t.GetFields(flags))
+            {
+                if (f.FieldType != typeof(string)) continue;
+                try { string v = f.GetValue(o) as string;
+                      if (!string.IsNullOrEmpty(v)) sb.Append("\n     .").Append(f.Name).Append("=").Append(Trim(v)); }
+                catch (Exception) { }
+            }
+            foreach (var pr in t.GetProperties(flags))
+            {
+                if (pr.PropertyType != typeof(string) || pr.GetIndexParameters().Length > 0) continue;
+                try { string v = pr.GetValue(o, null) as string;
+                      if (!string.IsNullOrEmpty(v)) sb.Append("\n     .").Append(pr.Name).Append("=").Append(Trim(v)); }
+                catch (Exception) { }
+            }
+        }
+        static string Trim(string v)
+        {
+            v = System.Text.RegularExpressions.Regex.Replace(v, @"\s+", " ").Trim();
+            return v.Length > 90 ? v.Substring(0, 90) + "..." : v;
+        }
+
+        public static void Postfix(object __instance, object[] __args, MethodBase __originalMethod)
         {
             try
             {
                 if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
                 if (Plugin.Pack == null || Plugin.Player == null) return;
                 string body = BodyOf(__args);
-                if (body == null) return;
+                if (body == null)
+                {
+                    // DIAGNOSTIC: the hook installs (3/3 patched) but never yields text, so the
+                    // body is not in the arguments. Dump the real signature and anything
+                    // string-shaped on the arguments and on the popup itself, so the source can be
+                    // identified from one log rather than guessed at.
+                    try
+                    {
+                        var sb = new System.Text.StringBuilder();
+                        sb.Append("tutorial PROBE ").Append(__originalMethod.DeclaringType.Name)
+                          .Append('.').Append(__originalMethod.Name).Append('(');
+                        foreach (var pi in __originalMethod.GetParameters())
+                            sb.Append(pi.ParameterType.Name).Append(' ').Append(pi.Name).Append(", ");
+                        sb.Append(") args=").Append(__args == null ? -1 : __args.Length);
+                        if (__args != null)
+                            for (int i = 0; i < __args.Length; i++)
+                                Describe(sb, "  arg" + i, __args[i]);
+                        Describe(sb, "  instance", __instance);
+                        Plugin.Log.LogInfo(sb.ToString());
+                    }
+                    catch (Exception pe) { Plugin.Log.LogWarning("probe: " + pe.Message); }
+                    return;
+                }
                 body = System.Text.RegularExpressions.Regex.Replace(body, @"\s+", " ").Trim();
 
                 // The screen is rebuilt on resize and on every navigation back to it, so the same

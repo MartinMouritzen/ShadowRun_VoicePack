@@ -28,5 +28,11 @@
   "speaker": "Tutorial",
   "kind": "helpscreen",
   "nonverbal": false
+ },
+ "tut_60e1571cdcb689f1": {
+  "text": "You have unspent Karma. Are you sure you want to finish character creation and start the game? You may spend Karma later at any time by accessing the character screen.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
  }
 }

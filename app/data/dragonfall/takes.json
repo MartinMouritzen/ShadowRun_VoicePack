@@ -58663,6 +58663,19 @@
      "ts": 1786285012
     }
    ]
+  },
+  "tut_60e1571cdcb689f1": {
+   "selected": "narrator/takes/tut_60e1571cdcb689f1__mag503__1786286276.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_60e1571cdcb689f1__mag503__1786286276.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 167,
+     "ts": 1786286276
+    }
+   ]
   }
  },
  "name_glory": {
