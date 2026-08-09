@@ -37349,7 +37349,7 @@
   {
    "id": "name_marta",
    "name": "Marta",
-   "portrait": "\n\u0000",
+   "portrait": "NPC_ElfFemale_Marta",
    "archetype": "Guard - Seek And Destroy",
    "bio": null,
    "lines": [
@@ -38215,7 +38215,8 @@
      "t": "She nods again and offers him a weak smile.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "dragonfall/npc_elffemale_marta.png"
   },
   {
    "id": "name_aljernon",

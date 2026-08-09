@@ -73,7 +73,6 @@ malenewscaster	srrv_malenewscaster.png
 malevoice	srrv_malevoice.png
 man	srrv_man.png
 maninsuit	srrv_maninsuit.png
-marta	srrv_marta.png
 mercenary	srrv_mercenary.png
 messagefile	srrv_messagefile.png
 messages	srrv_messages.png
@@ -235,13 +234,11 @@ conv:5355c8a1373937c40a00030d	srrv_gatekeeperic.png
 conv:5356ac8d373937f80a004d31	srrv_watcheric.png
 conv:5356d1b5303031e00e004929	srrv_maleinitiate.png
 conv:5356d6a0303031c8120012eb	srrv_femaleinitiate.png
-conv:5356e43c30303124170043af	srrv_marta.png
-conv:53582818303031440600692f	srrv_marta.png
+conv:5356e2b23030312417004366	srrv_maleinitiate.png
 conv:535840893030314406006a79	srrv_disembodiedvoice.png
-conv:53585c083030314406006b0c	srrv_marta.png
-conv:53594e5c303031b40a000145	srrv_marta.png
-conv:5359b1b030303168150008a7	srrv_marta.png
 conv:5362c867373937040e006702	srrv_serverdecker.png
+conv:536a763a303031d404004926	srrv_acolyte.png
+conv:5387cc6d636134001b008359	srrv_parkranger.png
 conv:53bb14cf3030316c02003f30	srrv_waitress.png
 conv:53c44895303031e81e0013ae	srrv_stressedsuit.png
 conv:53cea3413030316c09001713	srrv_techvendor.png

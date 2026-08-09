@@ -65,6 +65,23 @@ def s_(b):
     if b is None: return None
     try: return b.decode('utf-8')
     except Exception: return None
+
+def pname_(v):
+    """A portrait NAME out of a portrait field, or None.
+
+    The field is a nested message holding the name in field 1. When a character instance leaves it
+    EMPTY the nested bytes are b"\n\x00" - field 1, length zero - and the old
+    `s_(sub(v,1)) or s_(v)` decoded that raw wrapper into the literal string "\n\x00". Being
+    truthy, it then shadowed the character SHEET's real portrait at `ci_portrait or sheet[...]`,
+    so 82 of Dragonfall's characters were recorded as having no portrait while the game happily
+    drew one - Marta among them. Anything that is not a plausible asset name is None, so the
+    fallback to the sheet works as intended."""
+    # ONLY field 1. Decoding the wrapper itself as a fallback does not just yield the "\n\x00"
+    # garbage - when field 1 is absent it returns whatever bytes sit there, which handed a
+    # Waitress and a printed manifesto the cyberzombie's portrait. No name here means no name;
+    # the caller falls back to the character sheet, which is the correct source.
+    t = (s_(sub(v, 1)) or "").strip()
+    return t if re.fullmatch(r"[A-Za-z0-9_][A-Za-z0-9_\- ]*", t or "") else None
 def varint_field(msg, fieldno, default=None):
     for f, wt, v in fields(msg):
         if f == fieldno and wt == 0: return v
@@ -89,7 +106,7 @@ for pack in glob.glob(SR + "/*/data/chars/*.ch_sht.bytes"):
     for f, wt, v in fields(data):
         if f == 1 and wt == 2: uid = s_(v)
         elif f == 2 and wt == 2: arch = s_(v)
-        elif f == 11 and wt == 2: portrait = s_(sub(v, 1)) or s_(v)
+        elif f == 11 and wt == 2: portrait = pname_(v)
         elif f == 13 and wt == 2: name = s_(v)
     if uid: sheets[uid] = {"archetype": arch, "portrait": portrait, "name": name, "file": os.path.basename(pack)}
 
@@ -139,7 +156,7 @@ for sf in scene_files:
                 elif f == 11 and wt == 2:
                     t = s_(v)
                     if t: tags.add(t)
-                elif f == 40 and wt == 2: ci_portrait = s_(sub(v, 1)) or s_(v)
+                elif f == 40 and wt == 2: ci_portrait = pname_(v)
                 elif f == 41 and wt == 2: ci_bio = s_(v)
         sheet = sheets.get(sheet_id or "", {})
         name = ci_name or disp or sheet.get("name") or pname
