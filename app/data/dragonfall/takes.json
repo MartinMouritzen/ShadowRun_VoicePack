@@ -90647,6 +90647,19 @@
      "ts": 1786221985
     }
    ]
+  },
+  "bark_df5e76ebb521edaa": {
+   "selected": "_barks/takes/bark_df5e76ebb521edaa__mag538__1786266221.mp3",
+   "takes": [
+    {
+     "file": "_barks/takes/bark_df5e76ebb521edaa__mag538__1786266221.mp3",
+     "voiceId": "mag_538",
+     "voiceName": "Wade “Red” Dawson",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1786266221
+    }
+   ]
   }
  },
  "name_blitz": {

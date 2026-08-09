@@ -111,12 +111,12 @@
  },
  "bark_df5e76ebb521edaa": {
   "text": "DEEEESSSSTRRROOOOYYYYY!",
-  "speaker": "Unknown",
+  "speaker": "Enraged Troll",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
   "portrait": null,
-  "nonverbal": true,
+  "nonverbal": false,
   "count": 1,
   "kind": "actor"
  },

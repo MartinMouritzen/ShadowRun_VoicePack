@@ -42,5 +42,9 @@
  "Automated Drone": {
   "voiceId": "sapi_zira",
   "voiceName": "Microsoft Zira (SAPI)"
+ },
+ "Enraged Troll": {
+  "voiceId": "mag_538",
+  "voiceName": "Wade “Red” Dawson"
  }
 }

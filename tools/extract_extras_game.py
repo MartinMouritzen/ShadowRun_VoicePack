@@ -114,10 +114,19 @@ def gender_of(portrait, name):
     if re.search(r'female', p, re.I): return "female"
     if re.search(r'male', p, re.I): return "male"
     return "?"
+# Drawn-out letters usually mean a grunt ("Grrrr", "Aaaah") - but a WORD can be drawn out too,
+# and the Enraged Troll's "DEEEESSSSTRRROOOOYYYYY!" was flagged as noise and left unvoiced by
+# exactly this rule. Collapsing the runs first tells the two apart: "destroy" is a word, "grr"
+# is not.
+_WORDS = set("""destroy die run help no yes stop kill fire go get out back down up
+mine gold blood boss cover reload move hold left right north south east west""".split())
+
 def is_nonverbal(t):
     core = re.sub(r'[^a-zA-Z]', '', t)
     if len(core) < 2: return True
-    if re.search(r'([a-zA-Z])\1{2,}', t) and len(t.split()) <= 2: return True
+    if re.search(r'([a-zA-Z])\1{2,}', t) and len(t.split()) <= 2:
+        collapsed = re.sub(r'([a-zA-Z])\1+', r'\1', core).lower()
+        return collapsed not in _WORDS
     return False
 
 # 3. barks: the whole 'Display Text ...' floating-text action family. The plugin's
