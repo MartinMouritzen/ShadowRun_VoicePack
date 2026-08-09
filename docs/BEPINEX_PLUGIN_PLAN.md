@@ -191,7 +191,7 @@ Create `plugin/SRRVoices/` — a C# class library, `net35`, x86.
   `volume = configVolume`).
 - `Harmony harmony = new Harmony("com.mmo.srrvoices"); harmony.PatchAll();`
 - Read config (BepInEx `Config.Bind`): `Volume` (0–1, default 0.9), `Enabled` (bool),
-  `BorderlessFullscreen` (bool, default false — see Part E), `DuckMusic` (bool, optional).
+  `BorderlessFullscreen` (bool, default **true** — see Part E), `DuckMusic` (bool, optional).
 
 **`ConversationPatches.cs`** — the Harmony patches from §2. On `ShowNodeText` Postfix:
 ```
@@ -269,16 +269,27 @@ NOT viable (it only distributes editor content packs, cannot install DLLs).
 
 ## PART E — Borderless fullscreen (user asked for this; include as a config toggle)
 
-Two options, ship both:
-1. **Zero-code:** Steam launch option `-popupwindow` + set in-game resolution = desktop resolution,
-   fullscreen off. Document this. Works on Unity 4 out of the box.
-2. **In-plugin (config `BorderlessFullscreen=true`):** on startup, force it so the user needn't fiddle:
-   - `Screen.SetResolution(desktopW, desktopH, false);` (windowed at desktop size), then
-   - Strip the window chrome via user32 P/Invoke on the Unity HWND:
-     `GetActiveWindow()` (or `FindWindow` by the Unity window class/title) →
-     `SetWindowLong(hwnd, GWL_STYLE, WS_POPUP | WS_VISIBLE)` → `SetWindowPos(hwnd, 0,0,0, w,h, ...)`.
-   - `Display.main` / `Screen.currentResolution` gives desktop size.
-   Guard with `#if` for Windows only; this game is Windows-first for the mod.
+**DONE** — shipped, default on. Full write-up: [BORDERLESS.md](BORDERLESS.md). Both routes exist:
+
+1. **Zero-code:** Steam launch option `-popupwindow` **plus** in-game Fullscreen OFF at desktop
+   resolution. Both are required — `-popupwindow` only affects how the *windowed* window is built,
+   so with Fullscreen still ticked it stays an exclusive-fullscreen window that minimizes on focus
+   loss (verified on Hong Kong: ticked = minimized after 21s, unticked = stable for the whole run).
+   This is the only route for Hong Kong until it gets a voicepack.
+2. **In-plugin (`BorderlessFullscreen`, default true):** `BorderlessWindow.Watch()`, a coroutine
+   watchdog rather than a one-shot, because the naive version fights the player:
+   - Decisions come from Win32 state (`GetWindowLong` / `GetWindowRect`), never `Screen.width` —
+     Unity reports the client size of the frame it *thinks* it has and lags an external restyle.
+   - Leave exclusive fullscreen with `Screen.fullScreen = false`, not `SetResolution`: asking for a
+     resolution makes the player enforce a matching client size afterwards, and it wins.
+   - Only restyle a window that has held still for ~1s. Unity re-creates and re-styles the window
+     over several frames while leaving fullscreen, and restyling mid-transition produces a visibly
+     flickering, jumping window.
+   - `SetWindowLong(WS_POPUP|WS_VISIBLE)` then `SetWindowPos(monitor rect, SWP_FRAMECHANGED)`;
+     the monitor comes from `MonitorFromWindow`, so it covers whichever screen the game is on.
+   - Re-apply whenever the player takes the window back (options screen, alt+enter), restore the
+     original style/rect when the option is switched off, and give up after 8 losing attempts.
+   Windows only (`BorderlessWindow.Supported`); the Mac/Linux players get no toggle.
 
 ---
 
@@ -349,7 +360,7 @@ The user wants to generate the first ~20 dialogues before running. Determining e
 - [ ] `plugin/SRRVoices/` csproj (net35/x86) + `Plugin.cs` + `ConversationPatches.cs` + `VoicePlayer.cs`.
 - [ ] BepInEx.cfg Camera-entrypoint documented + set by installer.
 - [ ] `install.ps1` (or documented manual install) per Part D.
-- [ ] Borderless-fullscreen config toggle (Part E).
+- [x] Borderless-fullscreen config toggle (Part E) — default on, plus an in-game options row.
 - [ ] In-game verification by the user (Part F) — the only acceptable "it works".
 
 ## Key file references (verified this session)

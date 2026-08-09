@@ -97,6 +97,20 @@ namespace SRRVoices
                     row3.Refresh();
                 }
 
+                // Borderless fullscreen: same clickable-label treatment. Windows only - it is a
+                // Win32 window restyle, so there is nothing to offer on the Mac/Linux builds.
+                int rows = (portLabel != null) ? 3 : 2;
+                Component bdrLabel = BorderlessWindow.Supported
+                    ? CloneLabel(soundText, shift + dText * (rows + 1f), "BORDERLESS") : null;
+                if (bdrLabel != null)
+                {
+                    rows++;
+                    AddWidgetCollider(bdrLabel.gameObject);
+                    BorderlessToggleRow row4 = bdrLabel.gameObject.AddComponent<BorderlessToggleRow>();
+                    row4.label = bdrLabel;
+                    row4.Refresh();
+                }
+
                 if (sidePanel)
                 {
                     Bounds all = WidgetBounds(parent, handler.volLabel.transform);
@@ -105,14 +119,15 @@ namespace SRRVoices
                     if (volSlider != null) Encapsulate(ref all, WidgetBounds(parent, volSlider.transform));
                     if (spdSlider != null) Encapsulate(ref all, WidgetBounds(parent, spdSlider.transform));
                     if (portLabel != null) Encapsulate(ref all, WidgetBounds(parent, portLabel.transform));
+                    if (bdrLabel != null) Encapsulate(ref all, WidgetBounds(parent, bdrLabel.transform));
                     MakeBackdrop(parent, all, 30f, 26f, MinWidgetDepth(holder, title, handler, volSlider, spdSlider) - 1, bg);
                 }
                 else if (bg != null)
                 {
                     // main menu: grow the audio panel background to make room for the extra rows
-                    // (Volume + Speed, plus the AI-portraits toggle when a pack shipped)
+                    // (Volume + Speed, plus the AI-portraits and borderless toggles when shown)
                     Vector3 s = bg.transform.localScale;
-                    float grow = Mathf.Abs(dText.y) * (portLabel != null ? 3f : 2f);
+                    float grow = Mathf.Abs(dText.y) * rows;
                     bg.transform.localScale = new Vector3(s.x, s.y + grow, s.z);
                     // extend toward wherever the new rows went (rows stack in the dText direction)
                     bg.transform.localPosition += new Vector3(0f, Mathf.Sign(dText.y) * grow / 2f, 0f);
@@ -123,7 +138,8 @@ namespace SRRVoices
                 if (Plugin.Log != null)
                     Plugin.Log.LogInfo("Options (" + screen.GetType().Name + "): voice rows injected" +
                                        (sidePanel ? " as side panel." : " inline.") +
-                                       (portLabel != null ? " (with AI portraits toggle)" : ""));
+                                       (portLabel != null ? " (with AI portraits toggle)" : "") +
+                                       (bdrLabel != null ? " (with borderless toggle)" : ""));
             }
             catch (Exception e)
             {
@@ -373,6 +389,27 @@ namespace SRRVoices
             bool on = (Plugin.CfgPortraits != null) && Plugin.CfgPortraits.Value;
             var p = HarmonyLib.AccessTools.Property(label.GetType(), "text");
             if (p != null) p.SetValue(label, "AI PORTRAITS  " + (on ? "ON" : "OFF"), null);
+        }
+    }
+
+    public class BorderlessToggleRow : MonoBehaviour
+    {
+        public Component label;
+
+        public void OnClick()
+        {
+            if (Plugin.CfgBorderless == null) return;
+            Plugin.CfgBorderless.Value = !Plugin.CfgBorderless.Value;
+            Refresh();
+            // the watchdog picks it up on its next tick, so there is nothing to apply here
+        }
+
+        public void Refresh()
+        {
+            if (label == null) return;
+            bool on = (Plugin.CfgBorderless != null) && Plugin.CfgBorderless.Value;
+            var p = HarmonyLib.AccessTools.Property(label.GetType(), "text");
+            if (p != null) p.SetValue(label, "BORDERLESS  " + (on ? "ON" : "OFF"), null);
         }
     }
 

@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace SRRVoices
 {
-    [BepInPlugin(GUID, "SRR AI Voices", "1.8.0")]
+    [BepInPlugin(GUID, "SRR AI Voices", "1.9.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string GUID = "com.mmo.srrvoices";
@@ -61,8 +61,10 @@ namespace SRRVoices
                 "Keep the voice's natural pitch when PlaybackSpeed is not 1.0 (time-stretch). Set false for raw tape-style speedup, where pitch rises with speed.");
             CfgSegmentGap = Config.Bind("General", "SegmentGap", 0.3f,
                 "Pause in seconds between a line's segments (narrator -> character swap). 0 = instant.");
-            CfgBorderless = Config.Bind("Display", "BorderlessFullscreen", false,
-                "Force borderless fullscreen at desktop resolution on startup.");
+            CfgBorderless = Config.Bind("Display", "BorderlessFullscreen", true,
+                "Run the game as a borderless window covering the monitor, instead of Unity's exclusive "
+                + "fullscreen (which minimizes the game whenever it loses focus). Set false to leave the "
+                + "window alone and use the game's own Fullscreen setting.");
             CfgPortraits = Config.Bind("General", "AIPortraits", true,
                 "Show AI-generated portraits for characters the game ships without one. "
                 + "Characters with their own portrait art are never changed.");
@@ -270,11 +272,10 @@ namespace SRRVoices
                 Log.LogWarning("AI portraits unavailable: " + e.Message);
             }
 
-            if (CfgBorderless.Value)
-            {
-                try { BorderlessWindow.Apply(); Log.LogInfo("Borderless fullscreen applied."); }
-                catch (Exception e) { Log.LogWarning("Borderless fullscreen failed: " + e.Message); }
-            }
+            // Started unconditionally: the watchdog reads the setting every tick, so the in-game
+            // toggle takes effect (both ways) without a restart.
+            try { StartCoroutine(BorderlessWindow.Watch()); }
+            catch (Exception e) { Log.LogWarning("Borderless fullscreen unavailable: " + e.Message); }
 
             Log.LogInfo("SRR AI Voices ready.");
         }

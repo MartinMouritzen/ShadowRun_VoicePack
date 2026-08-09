@@ -34,6 +34,8 @@
     <Compile Include="ConversationPatches.cs" />
     <Compile Include="BorderlessWindow.cs" />
     <Compile Include="InspectPatch.cs" />
+    <Compile Include="OptionsPatch.cs" />
+    <Compile Include="PortraitPatches.cs" />
     <Compile Include="Variants.cs" />
     <Compile Include="TutorialPatch.cs" />
   </ItemGroup>

@@ -21,7 +21,8 @@ Each game is shipped as **its own release / Nexus mod** — same repo, separate 
 - **Combat barks** (lines actors shout in a fight) are voiced per speaker.
 - **Terminals / machines** use local Windows SAPI voices (David / Zira / Mark) for a synthetic feel, at zero API cost.
 - Segmented lines play in order (narrator, then character) with a natural beat between voice swaps.
-- Config toggles to enable/disable inspect voicing and combat-bark voicing independently (both default on), plus a borderless-fullscreen toggle.
+- Config toggles to enable/disable inspect voicing and combat-bark voicing independently (both default on).
+- **Borderless fullscreen (default on)**, so the game stops minimizing every time it loses focus. Toggle it in-game from the options panel, or with `BorderlessFullscreen` in the config. See [docs/BORDERLESS.md](docs/BORDERLESS.md) (including the launch-option route for Hong Kong, which has no plugin yet).
 
 ## Repo layout
 
