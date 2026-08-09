@@ -204,6 +204,13 @@ def main():
                 lines[key] = [sel]
                 stats["lines_voiced"] += 1; stats["segments_voiced"] += 1
                 reachable_extra.add(("narrator", key))
+                # A popup can append a live counter to its body - the Etiquette screen ends
+                # "...can only be chosen once. 0/1" - so the exact hash never matches at runtime.
+                # A second key over the first 90 characters is immune to anything appended.
+                body = (json.load(open(tut_path))[key].get("text") or "")
+                head = re.sub(r"\s+", " ", body).strip()[:90]
+                if len(head) >= 40:
+                    lines["tutp_" + hashlib.md5(head.encode("utf-8")).hexdigest()[:16]] = [sel]
 
     # Barks AND screen narration: takes live under the "_barks" bucket keyed "bark_<md5(text)>".
     # The plugin hashes the runtime text the same way (DisplayTextOverActor / load screen /

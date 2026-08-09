@@ -1,0 +1,21 @@
+{
+ "_comment": "Which strings from the UI table are POPUPS the player reads, listed by a distinctive substring. A list rather than a rule, because shape cannot tell them apart: the table holds skill tooltips ('Main component used to calculate the chance to hit with ranged weapons.'), store errors and a developer placeholder in exactly the same form as the tutorials. Tooltips especially must never be voiced - they fire on mouseover, so a voice would talk over the whole character sheet. The popup names in Assembly-CSharp (OpenPopupSpend, OpenPopupEtiquette, OpenPopupTotem, OpenPopupIntro, OpenPopupMageVision) are what this list was checked against.",
+ "keep": [
+  "Karma represents the experience characters earn",
+  "Etiquette is about knowing how to behave",
+  "Many runners use a streetname",
+  "Some runners choose their own name",
+  "Archetypes are quick way to create a character",
+  "If you feel comfortable with the way characters are built",
+  "It is time for you to pick a spirit totem",
+  "Mage Aura allows you to see into the veil",
+  "Since the Awakening in 2012, five races",
+  "In the world of Shadowrun, there are no statistical differences",
+  "Use the arrows to change your portrait and model",
+  "You have unspent Karma. Are you sure",
+  "You have Karma available to improve your character",
+  "You cannot spend karma while in conversation",
+  "WARNING: You can still hire more runners",
+  "Are you sure you want to restart this level"
+ ]
+}

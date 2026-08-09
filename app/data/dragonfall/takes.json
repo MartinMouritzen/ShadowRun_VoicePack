@@ -58676,6 +58676,123 @@
      "ts": 1786286276
     }
    ]
+  },
+  "tut_3a34ef573da647a0": {
+   "selected": "narrator/takes/tut_3a34ef573da647a0__mag503__1786286810.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_3a34ef573da647a0__mag503__1786286810.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 90,
+     "ts": 1786286810
+    }
+   ]
+  },
+  "tut_6556480114015584": {
+   "selected": "narrator/takes/tut_6556480114015584__mag503__1786286811.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_6556480114015584__mag503__1786286811.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 111,
+     "ts": 1786286811
+    }
+   ]
+  },
+  "tut_98e448463e42814c": {
+   "selected": "narrator/takes/tut_98e448463e42814c__mag503__1786286812.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_98e448463e42814c__mag503__1786286812.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 85,
+     "ts": 1786286812
+    }
+   ]
+  },
+  "tut_358de65235afd20e": {
+   "selected": "narrator/takes/tut_358de65235afd20e__mag503__1786286817.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_358de65235afd20e__mag503__1786286817.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 80,
+     "ts": 1786286817
+    }
+   ]
+  },
+  "tut_d08ff9b2cadc25d9": {
+   "selected": "narrator/takes/tut_d08ff9b2cadc25d9__mag503__1786286819.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_d08ff9b2cadc25d9__mag503__1786286819.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 74,
+     "ts": 1786286819
+    }
+   ]
+  },
+  "tut_b37be95bbd4a5ea4": {
+   "selected": "narrator/takes/tut_b37be95bbd4a5ea4__mag503__1786286816.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_b37be95bbd4a5ea4__mag503__1786286816.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 153,
+     "ts": 1786286816
+    }
+   ]
+  },
+  "tut_aa158b5edcdb79ad": {
+   "selected": "narrator/takes/tut_aa158b5edcdb79ad__mag503__1786286824.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_aa158b5edcdb79ad__mag503__1786286824.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 81,
+     "ts": 1786286824
+    }
+   ]
+  },
+  "tut_d2a819bbbd797488": {
+   "selected": "narrator/takes/tut_d2a819bbbd797488__mag503__1786286827.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_d2a819bbbd797488__mag503__1786286827.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 98,
+     "ts": 1786286827
+    }
+   ]
+  },
+  "tut_1324713bb7a40ec5": {
+   "selected": "narrator/takes/tut_1324713bb7a40ec5__mag503__1786286828.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/tut_1324713bb7a40ec5__mag503__1786286828.mp3",
+     "voiceId": "mag_503",
+     "voiceName": "Rachel Monroe",
+     "stability": 0,
+     "chars": 80,
+     "ts": 1786286828
+    }
+   ]
   }
  },
  "name_glory": {

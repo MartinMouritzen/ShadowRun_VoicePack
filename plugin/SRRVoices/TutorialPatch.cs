@@ -172,7 +172,16 @@ namespace SRRVoices
                 string key = "tut_" + Patch_Inspect.Md5Hex16(body);
                 string[] clips;
                 bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
-                if (Plugin.Pack.TryGet(key, out clips))
+                // Some popups append a live counter to the body ("...can only be chosen once. 0/1"),
+                // which changes the hash every time the count changes. The pack therefore also
+                // carries a key over the first 90 characters, which nothing appended can disturb.
+                if (!Plugin.Pack.TryGet(key, out clips) && body.Length >= 40)
+                {
+                    string head = body.Substring(0, Math.Min(90, body.Length));
+                    string pkey = "tutp_" + Patch_Inspect.Md5Hex16(head);
+                    if (Plugin.Pack.TryGet(pkey, out clips)) key = pkey;
+                }
+                if (clips != null || Plugin.Pack.TryGet(key, out clips))
                 {
                     if (log) Plugin.Log.LogInfo("play tutorial " + key + " (" + clips.Length + " clips)");
                     Plugin.Player.PlaySequence(clips);

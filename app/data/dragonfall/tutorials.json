@@ -17,8 +17,26 @@
   "kind": "helpscreen",
   "nonverbal": false
  },
+ "tut_3a34ef573da647a0": {
+  "text": "In the world of Shadowrun, there are no statistical differences between males and females.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_98e448463e42814c": {
+  "text": "It is time for you to pick a spirit totem. The choice is permanent, so choose wisely.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
  "tut_51d80195e39a5fdc": {
   "text": "Karma represents the experience characters earn while running the shadows and achieving goals. Karma is used to improve Attributes and Skills. An Attribute or Skill rating can be increased by spending Karma equal to the next increment of that rating. Thus, improving your Body from 4 to 5 requires you to spend 5 Karma points. You have some karma available now to customize your character.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_6556480114015584": {
+  "text": "Mage Aura allows you to see into the veil, eventually allowing you to see directly into the Essence of a being.",
   "speaker": "Tutorial",
   "kind": "helpscreen",
   "nonverbal": false
@@ -29,8 +47,44 @@
   "kind": "helpscreen",
   "nonverbal": false
  },
+ "tut_b37be95bbd4a5ea4": {
+  "text": "Since the Awakening in 2012, five races have come to be considered metahuman. The races that now make up the world are Dwarf, Elf, Human, Ork, and Troll.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_358de65235afd20e": {
+  "text": "Use the arrows to change your portrait and model to customize your shadowrunner.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_d08ff9b2cadc25d9": {
+  "text": "WARNING: You can still hire more runners. Do you want to continue anyways?",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_aa158b5edcdb79ad": {
+  "text": "You cannot spend karma while in conversation. Try again when out of conversation.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_d2a819bbbd797488": {
+  "text": "You have Karma available to improve your character's Attributes and Skills. Open the Karma screen?",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
  "tut_60e1571cdcb689f1": {
   "text": "You have unspent Karma. Are you sure you want to finish character creation and start the game? You may spend Karma later at any time by accessing the character screen.",
+  "speaker": "Tutorial",
+  "kind": "helpscreen",
+  "nonverbal": false
+ },
+ "tut_1324713bb7a40ec5": {
+  "text": "Are you sure you want to restart this level? You will lose any unsaved progress.",
   "speaker": "Tutorial",
   "kind": "helpscreen",
   "nonverbal": false

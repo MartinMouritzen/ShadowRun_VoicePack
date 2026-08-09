@@ -50,15 +50,24 @@ def strings_around(blob, anchor):
     return out
 
 
-def looks_like_tutorial(s):
-    """Long second-person prose that explains a rule, rather than labelling a button."""
-    if len(s) < 140 or s.count(" ") < 18:
+def looks_like_tutorial(s, use_reject=True):
+    """A popup body: a sentence, in English, long enough to be prose.
+
+    Shape alone gets this wrong in both directions - the 140-character floor this used to have
+    dropped the Totem and Mage Aura popups, which are one sentence each - so the real selection is
+    the hand list in tutorial_keep_<game>.json and this only narrows the field for it.
+    """
+    if len(s) < 60 or s.count(" ") < 10:
         return False
-    if not re.search(r"\b(you|your)\b", s, re.I):
+    if not all(32 <= ord(c) < 127 for c in s):
+        return False        # the table holds French, German, Spanish and Italian copies too
+    if not re.match(r"^[A-Z]", s) or not re.search(r"[.!?]$", s.strip()):
         return False
-    if REJECT.search(s):
+    # REJECT is only a default sieve for when there is no hand list. An explicit list must win:
+    # "You have unspent Karma. Are you sure..." is a real character-creation popup and was being
+    # thrown out by the "are you sure" rule before the list ever got to see it.
+    if use_reject and REJECT.search(s):
         return False
-    # Item and ability text is templated or statty; tutorials are sentences.
     if re.search(r"\{0\}|Cooldown:|\+\d+ AP|-\d+ HP|Key Attributes:", s):
         return False
     return True
@@ -71,15 +80,16 @@ def main():
     strs = strings_around(blob, b"Karma represents the experience")
     if not strs:
         sys.exit("could not find the UI string table (anchor string missing)")
-    cands = [s for s in dict.fromkeys(strs) if looks_like_tutorial(s)]
-
     keep = None
     if os.path.exists(HAND):
-        keep = set(json.load(open(HAND)).get("keep") or [])
+        keep = list(json.load(open(HAND)).get("keep") or [])
+    cands = [s for s in dict.fromkeys(strs) if looks_like_tutorial(s, use_reject=keep is None)]
     out = {}
     for s in cands:
         text = re.sub(r"\s+", " ", s).strip()
-        if keep is not None and hashlib.md5(text.encode()).hexdigest()[:16] not in keep:
+        # Matched on a distinctive opening substring, so the list survives a wording tweak that a
+        # hash would not - and reads as English rather than as sixteen md5s.
+        if keep is not None and not any(text.startswith(k) or k in text for k in keep):
             continue
         out["tut_" + hashlib.md5(text.encode()).hexdigest()[:16]] = {
             "text": text, "speaker": "Tutorial", "kind": "helpscreen", "nonverbal": False,
