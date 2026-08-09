@@ -2,7 +2,9 @@
  "name_computer": {
   "files": [
    "name_computer.png",
-   "name_computer_v2.png"
+   "name_computer_v2.png",
+   "name_computer_v3.png",
+   "name_computer_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -17,83 +19,94 @@
  "name_janitor": {
   "files": [
    "name_janitor.png",
-   "name_janitor_v2.png"
+   "name_janitor_v2.png",
+   "name_janitor_v3.png",
+   "name_janitor_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_orkmale_samuel.png",
-    "npc_dwarfmale_badrigger.png",
-    "npc_dwarfmale_bannik.png"
+    "npc_humanfemale_militiacaptain.png",
+    "npc_humanfemale_goldfish.png",
+    "npc_humanfemale_muller.png"
    ],
    [
-    "npc_humanmale_vauclair50.png",
-    "npc_trollmale_meatgrinder.png",
-    "npc_humanmale_quorin.png"
+    "npc_humanfemale_glory.png",
+    "backer_humanfemale_wren.png",
+    "npc_humanfemale_muller.png"
    ]
   ]
  },
  "name_wanderer": {
   "files": [
    "name_wanderer.png",
-   "name_wanderer_v2.png"
+   "name_wanderer_v2.png",
+   "name_oldwoman_v2.png",
+   "name_wanderer_v3.png",
+   "name_wanderer_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "backer_humanmale_dennisjandt.png",
-    "npc_humanmale_humanis.png",
-    "npc_orkmale_audran.png"
+    "npc_humanfemale_glory.png",
+    "npc_dwarffemale_mira.png",
+    "npc_humanfemale_alice.png"
    ],
    [
-    "npc_humanmale_vauclair50.png",
-    "npc_orkmale_engineerinjured1.png",
-    "npc_humanmale_jan.png"
+    "npc_humanfemale_simmy.png",
+    "npc_elffemale_danni.png",
+    "npc_humanfemale_newsreporter2.png"
    ]
   ]
  },
  "name_marta": {
   "files": [
    "name_marta.png",
-   "name_marta_v2.png"
+   "name_marta_v2.png",
+   "name_marta_v3.png",
+   "name_marta_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_humanfemale_monika.png",
-    "npc_humanfemale_muller.png",
-    "npc_humanfemale_kami.png"
+    "npc_humanfemale_alice.png",
+    "npc_elffemale_absinthe.png",
+    "npc_elffemale_danni.png"
    ],
    [
-    "backerpc_humanfemale_luckystrike.png",
-    "npc_humanfemale_simmy.png",
-    "npc_humanfemale_alicesim.png"
+    "npc_elffemale_absinthe.png",
+    "npc_humanfemale_monika.png",
+    "npc_humanfemale_newsreporter2.png"
    ]
   ]
  },
  "name_aztechnologyguard": {
   "files": [
    "name_aztechnologyguard.png",
-   "name_aztechnologyguard_v2.png"
+   "name_aztechnologyguard_v2.png",
+   "name_aztechnologyguard_v3.png",
+   "name_aztechnologyguard_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_trollmale_cyberzombie.png",
-    "npc_humanmale_lodgerep.png",
-    "npc_humanmale_alexander.png"
+    "backer_humanmale_dennisjandt.png",
+    "npc_humanmale_hasenkamp.png",
+    "npc_orkmale_engineerinjured2.png"
    ],
    [
-    "generic_humanmale_urbanpoor01.png",
-    "npc_humanmale_mulvihill.png",
-    "npc_humanmale_amsel.png"
+    "npc_elfmale_longhair.png",
+    "npc_humanmale_humanis.png",
+    "npc_elfmale_zakkflash.png"
    ]
   ]
  },
  "name_digitalarchiveterminal": {
   "files": [
    "name_digitalarchiveterminal.png",
-   "name_digitalarchiveterminal_v2.png"
+   "name_digitalarchiveterminal_v2.png",
+   "name_digitalarchiveterminal_v3.png",
+   "name_digitalarchiveterminal_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -108,28 +121,36 @@
  "name_aztechnologycaptain": {
   "files": [
    "name_aztechnologycaptain.png",
-   "name_aztechnologycaptain_v2.png"
+   "name_aztechnologycaptain_v2.png",
+   "name_aztechnologycaptain_v3.png",
+   "name_aztechnologycaptain_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_humanfemale_alicesim.png",
-    "npc_humanfemale_kami.png",
-    "npc_humanfemale_militiacaptain.png"
+    "npc_humanfemale_feuerschwinge.png",
+    "npc_humanfemale_muller.png",
+    "npc_dwarffemale_maliit.png"
    ],
    [
-    "backerpc_humanfemale_luckystrike.png",
-    "npc_humanfemale_muller.png",
-    "npc_humanfemale_feuerschwinge.png"
+    "npc_orkfemale_silke.png",
+    "npc_humanfemale_simmy.png",
+    "npc_trollfemale_eiger.png"
    ]
   ]
  },
  "name_computerterminal": {
   "files": [
-   "name_computerterminal.png"
+   "name_computerterminal.png",
+   "name_computerterminal_v2.png",
+   "name_computerterminal_v3.png",
+   "name_computerterminal_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
    [
     "generic_machine.png"
    ]
@@ -138,7 +159,9 @@
  "name_newsdayworldreport": {
   "files": [
    "name_newsdayworldreport.png",
-   "name_newsdayworldreport_v2.png"
+   "name_newsdayworldreport_v2.png",
+   "name_newsdayworldreport_v3.png",
+   "name_newsdayworldreport_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -153,64 +176,72 @@
  "name_corporateman": {
   "files": [
    "name_corporateman.png",
-   "name_corporateman_v2.png"
+   "name_corporateman_v2.png",
+   "name_corporateman_v3.png",
+   "name_corporateman_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_elfmale_docxabier.png",
-    "npc_humanmale_parsons.png",
-    "npc_trollmale_bouncer.png"
+    "npc_humanmale_winters.png",
+    "npc_humanmale_hasenkamp.png",
+    "backer_elfmale_andygoolsby.png"
    ],
    [
-    "npc_elfmale_longhair.png",
-    "npc_trollmale_cyberzombie.png",
-    "npc_humanmale_dietrich.png"
+    "npc_elfmale_magicdealer.png",
+    "npc_orkmale_engineerinjured1.png",
+    "npc_trollmale_bouncer.png"
    ]
   ]
  },
  "name_guard": {
   "files": [
    "name_guard.png",
-   "name_guard_v2.png"
+   "name_guard_v2.png",
+   "name_guard_v3.png",
+   "name_guard_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_humanmale_amsel.png",
-    "npc_humanmale_newsreporter1.png",
-    "npc_trollmale_laine.png"
+    "npc_elfmale_zakkflash.png",
+    "npc_humanmale_dietrich.png",
+    "npc_orkmale_ulrike.png"
    ],
    [
-    "npc_elfmale_longhair.png",
-    "npc_humanmale_harrow.png",
-    "npc_humanmale_clone.png"
+    "npc_humanmale_hasenkamp.png",
+    "npc_humanmale_vauclair50.png",
+    "npc_humanmale_alexander.png"
    ]
   ]
  },
  "name_karl": {
   "files": [
    "name_karl.png",
-   "name_karl_v2.png"
+   "name_karl_v2.png",
+   "name_karl_v3.png",
+   "name_karl_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_humanmale_ghoulleader.png",
-    "npc_elfmale_zakkflash.png",
-    "generic_humanmale_knighterrant.png"
+    "npc_humanmale_jan.png",
+    "npc_humanmale_maintenanceworker.png",
+    "npc_humanmale_mulvihill.png"
    ],
    [
     "npc_trollmale_laine.png",
-    "npc_humanmale_lodgerep.png",
-    "npc_orkmale_samuel.png"
+    "npc_humanmale_attacksurvivor.png",
+    "npc_humanmale_humanis.png"
    ]
   ]
  },
  "name_console": {
   "files": [
    "name_console.png",
-   "name_console_v2.png"
+   "name_console_v2.png",
+   "name_console_v3.png",
+   "name_console_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -244,64 +275,72 @@
  "name_janet": {
   "files": [
    "name_janet.png",
-   "name_janet_v2.png"
+   "name_janet_v2.png",
+   "name_janet_v3.png",
+   "name_janet_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
+    "npc_elffemale_danni.png",
     "npc_humanfemale_feuerschwinge.png",
-    "npc_elfmale_magicdealer.png",
-    "npc_elffemale_absinthe.png"
+    "npc_trollfemale_eiger.png"
    ],
    [
-    "backer_humanmale_dennisjandt.png",
-    "npc_humanmale_mulvihill.png",
-    "npc_orkmale_ulrike.png"
+    "npc_humanfemale_alicesim.png",
+    "npc_humanfemale_alice.png",
+    "npc_elffemale_danni.png"
    ]
   ]
  },
  "name_communionist": {
   "files": [
    "name_communionist.png",
-   "name_communionist_v2.png"
+   "name_communionist_v2.png",
+   "name_communionist_v3.png",
+   "name_communionist_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "npc_orkmale_audran.png",
-    "npc_elfmale_magicdealer.png",
-    "npc_humanmale_mulvihill.png"
+    "npc_humanmale_calmscientist.png",
+    "npc_trollmale_cyberzombie.png",
+    "npc_orkmale_audran.png"
    ],
    [
-    "npc_humanfemale_alicesim.png",
-    "npc_humanmale_lodgerep.png",
-    "npc_trollfemale_eiger.png"
+    "npc_elfmale_docxabier.png",
+    "npc_humanmale_amsel.png",
+    "npc_humanmale_magicalsecurityexpert.png"
    ]
   ]
  },
  "name_companyman": {
   "files": [
    "name_companyman.png",
-   "name_companyman_v2.png"
+   "name_companyman_v2.png",
+   "name_companyman_v3.png",
+   "name_companyman_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
    [
-    "backer_humanmale_dennisjandt.png",
-    "generic_humanmale_urbanpoor01.png",
-    "npc_orkmale_audran.png"
+    "backer_trollmale_ericeccher.png",
+    "npc_humanmale_parsons.png",
+    "npc_humanmale_winters.png"
    ],
    [
-    "npc_humanmale_calmscientist.png",
-    "npc_trollmale_meatgrinder.png",
-    "npc_orkmale_audran.png"
+    "npc_humanmale_dietrich.png",
+    "npc_humanmale_frank.png",
+    "npc_humanmale_vauclair.png"
    ]
   ]
  },
  "name_harrowsmanifesto": {
   "files": [
    "name_harrowsmanifesto.png",
-   "name_harrowsmanifesto_v2.png"
+   "name_harrowsmanifesto_v2.png",
+   "name_harrowsmanifesto_v3.png",
+   "name_harrowsmanifesto_v4.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -310,6 +349,2098 @@
    ],
    [
     "generic_machine.png"
+   ]
+  ]
+ },
+ "name_streetmagicquarterlyashadowfrontpublication": {
+  "files": [
+   "name_streetmagicquarterlyashadowfrontpublication.png",
+   "name_streetmagicquarterlyashadowfrontpublication_v2.png",
+   "name_streetmagicquarterlyashadowfrontpublication_v3.png",
+   "name_streetmagicquarterlyashadowfrontpublication_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_kiezgatekeeper": {
+  "files": [
+   "name_kiezgatekeeper.png",
+   "name_kiezgatekeeper_v2.png",
+   "name_kiezgatekeeper_v3.png",
+   "name_kiezgatekeeper_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_mulvihill.png",
+    "npc_humanmale_altug.png",
+    "npc_elfmale_zakkflash.png"
+   ],
+   [
+    "npc_humanmale_humanis.png",
+    "npc_humanmale_jan.png",
+    "npc_elfmale_longhair.png"
+   ]
+  ]
+ },
+ "name_partygirl": {
+  "files": [
+   "name_partygirl.png",
+   "name_partygirl_v2.png",
+   "name_partygirl_v3.png",
+   "name_partygirl_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elffemale_absinthe.png",
+    "npc_humanfemale_goldfish.png",
+    "npc_dwarffemale_mira.png"
+   ],
+   [
+    "npc_humanfemale_alicesim.png",
+    "npc_humanfemale_monika.png",
+    "npc_humanfemale_militiacaptain.png"
+   ]
+  ]
+ },
+ "name_femaleinitiate": {
+  "files": [
+   "name_femaleinitiate.png",
+   "name_femaleinitiate_v2.png",
+   "name_femaleinitiate_v3.png",
+   "name_femaleinitiate_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_trollfemale_eiger.png",
+    "npc_dwarffemale_electrician.png",
+    "npc_humanfemale_militiacaptain.png"
+   ],
+   [
+    "npc_humanfemale_alice.png",
+    "npc_dwarffemale_electrician.png",
+    "npc_humanfemale_kami.png"
+   ]
+  ]
+ },
+ "name_foodcartvendor": {
+  "files": [
+   "name_foodcartvendor.png",
+   "name_foodcartvendor_v2.png",
+   "name_foodcartvendor_v3.png",
+   "name_foodcartvendor_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_feralscientist.png",
+    "npc_humanmale_jan.png",
+    "npc_humanmale_humanis.png"
+   ],
+   [
+    "npc_humanmale_hansbrackhaus.png",
+    "backer_humanmale_dennisjandt.png",
+    "npc_humanmale_ghoulleader.png"
+   ]
+  ]
+ },
+ "name_techvendor": {
+  "files": [
+   "name_techvendor.png",
+   "name_techvendor_v2.png",
+   "name_techvendor_v3.png",
+   "name_techvendor_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_trollfemale_eiger.png",
+    "npc_humanfemale_alice.png",
+    "npc_orkfemale_silke.png"
+   ],
+   [
+    "npc_humanfemale_alice.png",
+    "npc_humanfemale_goldfish.png",
+    "npc_humanfemale_alicesim.png"
+   ]
+  ]
+ },
+ "name_lady": {
+  "files": [
+   "name_lady.png",
+   "name_lady_v2.png",
+   "name_lady_v3.png",
+   "name_lady_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_monika.png",
+    "npc_humanfemale_militiacaptain.png",
+    "npc_trollfemale_eiger.png"
+   ],
+   [
+    "npc_humanfemale_monika.png",
+    "npc_humanfemale_muller.png",
+    "npc_humanfemale_newsreporter2.png"
+   ]
+  ]
+ },
+ "name_waitress": {
+  "files": [
+   "name_waitress.png",
+   "name_waitress_v2.png",
+   "name_waitress_v3.png",
+   "name_waitress_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_alicesim.png",
+    "npc_humanfemale_alice.png",
+    "npc_humanfemale_newsreporter2.png"
+   ],
+   [
+    "npc_humanfemale_glory.png",
+    "npc_dwarffemale_maliit.png",
+    "npc_humanfemale_alicesim.png"
+   ]
+  ]
+ },
+ "name_ltgworker": {
+  "files": [
+   "name_ltgworker.png",
+   "name_ltgworker_v2.png",
+   "name_ltgworker_v3.png",
+   "name_ltgworker_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_dwarffemale_maliit.png",
+    "npc_humanfemale_monika.png",
+    "npc_dwarffemale_mira.png"
+   ],
+   [
+    "npc_humanfemale_kami.png",
+    "npc_humanfemale_alicesim.png",
+    "npc_dwarffemale_mira.png"
+   ]
+  ]
+ },
+ "name_controlconsole": {
+  "files": [
+   "name_controlconsole.png",
+   "name_controlconsole_v2.png",
+   "name_controlconsole_v3.png",
+   "name_controlconsole_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_serverroomguard": {
+  "files": [
+   "name_serverroomguard.png",
+   "name_serverroomguard_v2.png",
+   "name_serverroomguard_v3.png",
+   "name_serverroomguard_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_gunari.png",
+    "npc_humanmale_amsel.png",
+    "npc_elfmale_longhair.png"
+   ],
+   [
+    "backer_elfmale_andygoolsby.png",
+    "npc_humanmale_blitz.png",
+    "npc_humanmale_bloodmage.png"
+   ]
+  ]
+ },
+ "name_stressedsuit": {
+  "files": [
+   "name_stressedsuit.png",
+   "name_stressedsuit_v2.png",
+   "name_stressedsuit_v3.png",
+   "name_stressedsuit_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_elfmale_andygoolsby.png",
+    "npc_humanmale_calmscientist.png",
+    "npc_elfmale_zakkflash.png"
+   ],
+   [
+    "npc_humanmale_gunari.png",
+    "npc_humanmale_vauclair.png",
+    "npc_humanmale_clone.png"
+   ]
+  ]
+ },
+ "name_frightenedman": {
+  "files": [
+   "name_frightenedman.png",
+   "name_frightenedman_v2.png",
+   "name_frightenedman_v3.png",
+   "name_frightenedman_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_dietrich.png",
+    "npc_humanmale_attacksurvivor.png",
+    "npc_humanmale_alexander.png"
+   ],
+   [
+    "npc_humanmale_lodgerep.png",
+    "npc_dwarfmale_bannik.png",
+    "npc_humanmale_quorin.png"
+   ]
+  ]
+ },
+ "name_humanispropaganda": {
+  "files": [
+   "name_humanispropaganda.png",
+   "name_humanispropaganda_v2.png",
+   "name_humanispropaganda_v3.png",
+   "name_humanispropaganda_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_maleinitiate": {
+  "files": [
+   "name_maleinitiate.png",
+   "name_maleinitiate_v2.png",
+   "name_maleinitiate_v3.png",
+   "name_maleinitiate_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_dietrich.png",
+    "npc_humanmale_alexander.png",
+    "npc_trollmale_meatgrinder.png"
+   ],
+   [
+    "npc_humanmale_blister.png",
+    "npc_humanmale_humanis.png",
+    "npc_humanmale_harrow.png"
+   ]
+  ]
+ },
+ "name_wageslave": {
+  "files": [
+   "name_wageslave.png",
+   "name_wageslave_v2.png",
+   "name_wageslave_v3.png",
+   "name_wageslave_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_trollmale_bouncer.png",
+    "backer_elfmale_andygoolsby.png",
+    "npc_humanmale_winters.png"
+   ],
+   [
+    "npc_humanmale_harrow.png",
+    "npc_humanmale_magicalsecurityexpert.png",
+    "npc_humanmale_winters.png"
+   ]
+  ]
+ },
+ "name_smuggler": {
+  "files": [
+   "name_smuggler.png",
+   "name_smuggler_v2.png",
+   "name_smuggler_v3.png",
+   "name_smuggler_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elfmale_docxabier.png",
+    "npc_humanmale_ghoulleader.png",
+    "npc_trollmale_bouncer.png"
+   ],
+   [
+    "npc_humanmale_altug.png",
+    "npc_humanmale_blister.png",
+    "npc_humanmale_alexander.png"
+   ]
+  ]
+ },
+ "name_malevoice": {
+  "files": [
+   "name_malevoice.png",
+   "name_malevoice_v2.png",
+   "name_malevoice_v3.png",
+   "name_malevoice_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_jan.png",
+    "npc_trollmale_laine.png",
+    "npc_humanmale_magicalsecurityexpert.png"
+   ],
+   [
+    "npc_humanmale_feralscientist.png",
+    "npc_humanmale_attacksurvivor.png",
+    "npc_orkmale_ulrike.png"
+   ]
+  ]
+ },
+ "name_newsanchor": {
+  "files": [
+   "name_newsanchor.png",
+   "name_newsanchor_v2.png",
+   "name_newsanchor_v3.png",
+   "name_newsanchor_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_simmy.png",
+    "npc_trollfemale_eiger.png",
+    "npc_dwarffemale_mira.png"
+   ],
+   [
+    "backer_humanfemale_wren.png",
+    "npc_humanfemale_feuerschwinge.png",
+    "npc_dwarffemale_maliit.png"
+   ]
+  ]
+ },
+ "name_corporatewoman": {
+  "files": [
+   "name_corporatewoman.png",
+   "name_corporatewoman_v2.png",
+   "name_corporatewoman_v3.png",
+   "name_corporatewoman_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanfemale_wren.png",
+    "npc_dwarffemale_mira.png",
+    "npc_humanfemale_feuerschwinge.png"
+   ],
+   [
+    "npc_humanfemale_militiacaptain.png",
+    "npc_elffemale_absinthe.png",
+    "npc_humanfemale_glory.png"
+   ]
+  ]
+ },
+ "name_maninsuit": {
+  "files": [
+   "name_maninsuit.png",
+   "name_maninsuit_v2.png",
+   "name_maninsuit_v3.png",
+   "name_maninsuit_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_maintenanceworker.png",
+    "npc_orkmale_samuel.png",
+    "npc_humanmale_quorin.png"
+   ],
+   [
+    "generic_humanmale_knighterrant.png",
+    "npc_humanmale_feralscientist.png",
+    "npc_humanmale_amsel.png"
+   ]
+  ]
+ },
+ "name_aztechnologygrenadier": {
+  "files": [
+   "name_aztechnologygrenadier.png",
+   "name_aztechnologygrenadier_v2.png",
+   "name_aztechnologygrenadier_v3.png",
+   "name_aztechnologygrenadier_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_parsons.png",
+    "npc_humanmale_dietrich.png",
+    "npc_orkmale_samuel.png"
+   ],
+   [
+    "npc_trollmale_meatgrinder.png",
+    "npc_dwarfmale_badrigger.png",
+    "npc_orkmale_ulrike.png"
+   ]
+  ]
+ },
+ "name_note": {
+  "files": [
+   "name_note.png",
+   "name_note_v2.png",
+   "name_note_v3.png",
+   "name_note_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_pumpconsole": {
+  "files": [
+   "name_pumpconsole.png",
+   "name_pumpconsole_v2.png",
+   "name_pumpconsole_v3.png",
+   "name_pumpconsole_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_oldinformationterminal": {
+  "files": [
+   "name_oldinformationterminal.png",
+   "name_oldinformationterminal_v2.png",
+   "name_oldinformationterminal_v3.png",
+   "name_oldinformationterminal_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_aztechnologyexec": {
+  "files": [
+   "name_aztechnologyexec.png",
+   "name_aztechnologyexec_v2.png",
+   "name_aztechnologyexec_v3.png",
+   "name_aztechnologyexec_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_amsel.png",
+    "npc_humanmale_blitz.png",
+    "npc_humanmale_clone.png"
+   ],
+   [
+    "npc_trollmale_bouncer.png",
+    "npc_humanmale_jan.png",
+    "npc_humanmale_vauclair.png"
+   ]
+  ]
+ },
+ "name_bartender": {
+  "files": [
+   "name_bartender.png",
+   "name_bartender_v2.png",
+   "name_bartender_v3.png",
+   "name_bartender_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_orkmale_ulrike.png",
+    "npc_humanmale_ghoulleader.png",
+    "npc_humanmale_attacksurvivor.png"
+   ],
+   [
+    "npc_trollmale_laine.png",
+    "npc_humanmale_enemeydeckeravatar.png",
+    "npc_humanmale_bloodmage.png"
+   ]
+  ]
+ },
+ "name_oddmerchant": {
+  "files": [
+   "name_oddmerchant.png",
+   "name_oddmerchant_v2.png",
+   "name_oddmerchant_v3.png",
+   "name_oddmerchant_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_feuerschwinge.png",
+    "npc_humanfemale_alicesim.png",
+    "npc_humanfemale_kami.png"
+   ],
+   [
+    "npc_humanfemale_militiacaptain.png",
+    "npc_dwarffemale_mira.png",
+    "backerpc_humanfemale_luckystrike.png"
+   ]
+  ]
+ },
+ "name_shadowfrontindependentnewssource": {
+  "files": [
+   "name_shadowfrontindependentnewssource.png",
+   "name_shadowfrontindependentnewssource_v2.png",
+   "name_shadowfrontindependentnewssource_v3.png",
+   "name_shadowfrontindependentnewssource_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_parkranger": {
+  "files": [
+   "name_parkranger.png",
+   "name_parkranger_v2.png",
+   "name_parkranger_v3.png",
+   "name_parkranger_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_humanis.png",
+    "npc_humanmale_calmscientist.png",
+    "npc_elfmale_magicdealer.png"
+   ],
+   [
+    "npc_humanmale_newsreporter1.png",
+    "npc_elfmale_longhair.png",
+    "npc_humanmale_ghoulleader.png"
+   ]
+  ]
+ },
+ "name_servercomputer": {
+  "files": [
+   "name_servercomputer.png",
+   "name_servercomputer_v2.png",
+   "name_servercomputer_v3.png",
+   "name_servercomputer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_taylornguyen": {
+  "files": [
+   "name_taylornguyen.png",
+   "name_taylornguyen_v2.png",
+   "name_taylornguyen_v3.png",
+   "name_taylornguyen_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_alicesim.png",
+    "npc_humanfemale_newsreporter2.png",
+    "npc_trollfemale_eiger.png"
+   ],
+   [
+    "npc_humanfemale_alice.png",
+    "npc_humanfemale_simmy.png",
+    "npc_humanfemale_glory.png"
+   ]
+  ]
+ },
+ "name_terminal": {
+  "files": [
+   "name_terminal.png",
+   "name_terminal_v2.png",
+   "name_terminal_v3.png",
+   "name_terminal_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_securityterminal": {
+  "files": [
+   "name_securityterminal.png",
+   "name_securityterminal_v2.png",
+   "name_securityterminal_v3.png",
+   "name_securityterminal_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_explosivecontrolpanel": {
+  "files": [
+   "name_explosivecontrolpanel.png",
+   "name_explosivecontrolpanel_v2.png",
+   "name_explosivecontrolpanel_v3.png",
+   "name_explosivecontrolpanel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_dasfinanzwesen": {
+  "files": [
+   "name_dasfinanzwesen.png",
+   "name_dasfinanzwesen_v2.png",
+   "name_dasfinanzwesen_v3.png",
+   "name_dasfinanzwesen_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_parsons.png",
+    "backer_humanmale_dennisjandt.png",
+    "generic_humanmale_urbanpoor01.png"
+   ],
+   [
+    "npc_dwarfmale_badrigger.png",
+    "npc_trollmale_laine.png",
+    "npc_humanmale_bloodmage.png"
+   ]
+  ]
+ },
+ "name_panaceaprojectterminal": {
+  "files": [
+   "name_panaceaprojectterminal.png",
+   "name_panaceaprojectterminal_v2.png",
+   "name_panaceaprojectterminal_v3.png",
+   "name_panaceaprojectterminal_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_orkguard": {
+  "files": [
+   "name_orkguard.png",
+   "name_orkguard_v2.png",
+   "name_orkguard_v3.png",
+   "name_orkguard_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_orkmale_ulrike.png",
+    "npc_orkmale_engineerinjured2.png",
+    "npc_humanmale_maintenanceworker.png"
+   ],
+   [
+    "npc_orkmale_samuel.png",
+    "npc_humanmale_maintenanceworker.png",
+    "npc_orkmale_audran.png"
+   ]
+  ]
+ },
+ "name_adminterminal": {
+  "files": [
+   "name_adminterminal.png",
+   "name_adminterminal_v2.png",
+   "name_adminterminal_v3.png",
+   "name_adminterminal_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_nasalwoman": {
+  "files": [
+   "name_nasalwoman.png",
+   "name_nasalwoman_v2.png",
+   "name_nasalwoman_v3.png",
+   "name_nasalwoman_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_kami.png",
+    "npc_humanfemale_monika.png",
+    "npc_humanfemale_feuerschwinge.png"
+   ],
+   [
+    "npc_orkfemale_silke.png",
+    "npc_elffemale_danni.png",
+    "npc_humanfemale_glory.png"
+   ]
+  ]
+ },
+ "name_acolyte": {
+  "files": [
+   "name_acolyte.png",
+   "name_acolyte_v2.png",
+   "name_acolyte_v3.png",
+   "name_acolyte_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_dwarffemale_maliit.png",
+    "npc_humanfemale_alice.png",
+    "npc_elffemale_absinthe.png"
+   ],
+   [
+    "npc_humanfemale_glory.png",
+    "npc_humanfemale_alicesim.png",
+    "npc_humanfemale_simmy.png"
+   ]
+  ]
+ },
+ "name_researcher": {
+  "files": [
+   "name_researcher.png",
+   "name_researcher_v2.png",
+   "name_researcher_v3.png",
+   "name_researcher_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_orkmale_samuel.png",
+    "npc_humanmale_mulvihill.png",
+    "generic_humanmale_urbanpoor01.png"
+   ],
+   [
+    "npc_trollmale_laine.png",
+    "npc_trollmale_cyberzombie.png",
+    "npc_humanmale_winters.png"
+   ]
+  ]
+ },
+ "name_tailor": {
+  "files": [
+   "name_tailor.png",
+   "name_tailor_v2.png",
+   "name_tailor_v3.png",
+   "name_tailor_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_humanmale_urbanpoor01.png",
+    "npc_orkmale_engineerinjured1.png",
+    "npc_humanmale_hasenkamp.png"
+   ],
+   [
+    "npc_humanmale_calmscientist.png",
+    "npc_humanmale_altug.png",
+    "npc_humanmale_bloodmage.png"
+   ]
+  ]
+ },
+ "name_voiceonphone": {
+  "files": [
+   "name_voiceonphone.png",
+   "name_voiceonphone_v2.png",
+   "name_voiceonphone_v3.png",
+   "name_voiceonphone_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_dwarffemale_mira.png",
+    "npc_humanfemale_newsreporter2.png",
+    "npc_humanfemale_glory.png"
+   ],
+   [
+    "npc_humanfemale_simmy.png",
+    "npc_humanfemale_militiacaptain.png",
+    "npc_dwarffemale_mira.png"
+   ]
+  ]
+ },
+ "name_dronecontrolbox": {
+  "files": [
+   "name_dronecontrolbox.png",
+   "name_dronecontrolbox_v2.png",
+   "name_dronecontrolbox_v3.png",
+   "name_dronecontrolbox_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_emergencyaishutdownandpurge": {
+  "files": [
+   "name_emergencyaishutdownandpurge.png",
+   "name_emergencyaishutdownandpurge_v2.png",
+   "name_emergencyaishutdownandpurge_v3.png",
+   "name_emergencyaishutdownandpurge_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_gangenforcer": {
+  "files": [
+   "name_gangenforcer.png",
+   "name_gangenforcer_v2.png",
+   "name_gangenforcer_v3.png",
+   "name_gangenforcer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_orkfemale_silke.png",
+    "npc_trollfemale_eiger.png",
+    "npc_humanfemale_alicesim.png"
+   ],
+   [
+    "npc_humanfemale_militiacaptain.png",
+    "npc_humanfemale_glory.png",
+    "npc_humanfemale_goldfish.png"
+   ]
+  ]
+ },
+ "name_kunzel": {
+  "files": [
+   "name_kunzel.png",
+   "name_kunzel_v2.png",
+   "name_kunzel_v3.png",
+   "name_kunzel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_humanis.png",
+    "npc_humanmale_vauclair50.png",
+    "npc_humanmale_winters.png"
+   ],
+   [
+    "npc_dwarfmale_bannik.png",
+    "npc_humanmale_vauclair.png",
+    "npc_humanmale_mulvihill.png"
+   ]
+  ]
+ },
+ "name_aztechnologyenforcer": {
+  "files": [
+   "name_aztechnologyenforcer.png",
+   "name_aztechnologyenforcer_v2.png",
+   "name_aztechnologyenforcer_v3.png",
+   "name_aztechnologyenforcer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_trollmale_meatgrinder.png",
+    "npc_humanmale_harrow.png",
+    "npc_humanmale_quorin.png"
+   ],
+   [
+    "npc_humanmale_bloodmage.png",
+    "npc_humanmale_feralscientist.png",
+    "npc_elfmale_docxabier.png"
+   ]
+  ]
+ },
+ "name_david": {
+  "files": [
+   "name_david.png",
+   "name_david_v2.png",
+   "name_david_v3.png",
+   "name_david_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_hasenkamp.png",
+    "npc_humanmale_attacksurvivor.png",
+    "npc_humanmale_magicalsecurityexpert.png"
+   ],
+   [
+    "npc_humanmale_heimerich.png",
+    "backer_elfmale_andygoolsby.png",
+    "npc_humanmale_parsons.png"
+   ]
+  ]
+ },
+ "name_corruptedfile": {
+  "files": [
+   "name_corruptedfile.png",
+   "name_corruptedfile_v2.png",
+   "name_corruptedfile_v3.png",
+   "name_corruptedfile_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_humanisterminal": {
+  "files": [
+   "name_humanisterminal.png",
+   "name_humanisterminal_v2.png",
+   "name_humanisterminal_v3.png",
+   "name_humanisterminal_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_freightelevatordoorpanel": {
+  "files": [
+   "name_freightelevatordoorpanel.png",
+   "name_freightelevatordoorpanel_v2.png",
+   "name_freightelevatordoorpanel_v3.png",
+   "name_freightelevatordoorpanel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_ltgpanel": {
+  "files": [
+   "name_ltgpanel.png",
+   "name_ltgpanel_v2.png",
+   "name_ltgpanel_v3.png",
+   "name_ltgpanel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_schockwellenreitermessagedrop": {
+  "files": [
+   "name_schockwellenreitermessagedrop.png",
+   "name_schockwellenreitermessagedrop_v2.png",
+   "name_schockwellenreitermessagedrop_v3.png",
+   "name_schockwellenreitermessagedrop_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_man": {
+  "files": [
+   "name_man.png",
+   "name_man_v2.png",
+   "name_man_v3.png",
+   "name_man_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_orkfemale_silke.png",
+    "npc_trollfemale_eiger.png",
+    "npc_elffemale_absinthe.png"
+   ],
+   [
+    "npc_humanfemale_muller.png",
+    "npc_humanfemale_alice.png",
+    "npc_elffemale_danni.png"
+   ]
+  ]
+ },
+ "name_elfactress": {
+  "files": [
+   "name_elfactress.png",
+   "name_elfactress_v2.png",
+   "name_elfactress_v3.png",
+   "name_elfactress_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_humanfemale_wren.png",
+    "npc_elffemale_danni.png",
+    "backerpc_humanfemale_luckystrike.png"
+   ],
+   [
+    "backer_elfmale_andygoolsby.png",
+    "npc_dwarffemale_mira.png",
+    "backer_humanfemale_wren.png"
+   ]
+  ]
+ },
+ "name_deaddropmessage": {
+  "files": [
+   "name_deaddropmessage.png",
+   "name_deaddropmessage_v2.png",
+   "name_deaddropmessage_v3.png",
+   "name_deaddropmessage_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_aztecthnologyinventoryterminal": {
+  "files": [
+   "name_aztecthnologyinventoryterminal.png",
+   "name_aztecthnologyinventoryterminal_v2.png",
+   "name_aztecthnologyinventoryterminal_v3.png",
+   "name_aztecthnologyinventoryterminal_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_gatecontrol": {
+  "files": [
+   "name_gatecontrol.png",
+   "name_gatecontrol_v2.png",
+   "name_gatecontrol_v3.png",
+   "name_gatecontrol_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_volunteerworker": {
+  "files": [
+   "name_volunteerworker.png",
+   "name_volunteerworker_v2.png",
+   "name_volunteerworker_v3.png",
+   "name_volunteerworker_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_trollfemale_eiger.png",
+    "npc_humanfemale_muller.png",
+    "npc_dwarffemale_mira.png"
+   ],
+   [
+    "npc_humanfemale_muller.png",
+    "npc_trollfemale_eiger.png",
+    "npc_orkfemale_silke.png"
+   ]
+  ]
+ },
+ "name_emergencyfieldtraumaunit": {
+  "files": [
+   "name_emergencyfieldtraumaunit.png",
+   "name_emergencyfieldtraumaunit_v2.png",
+   "name_emergencyfieldtraumaunit_v3.png",
+   "name_emergencyfieldtraumaunit_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_messages": {
+  "files": [
+   "name_messages.png",
+   "name_messages_v2.png",
+   "name_messages_v3.png",
+   "name_messages_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_liamfoster": {
+  "files": [
+   "name_liamfoster.png",
+   "name_liamfoster_v2.png",
+   "name_liamfoster_v3.png",
+   "name_liamfoster_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_humanmale_urbanpoor01.png",
+    "npc_humanmale_maintenanceworker.png",
+    "npc_trollmale_bouncer.png"
+   ],
+   [
+    "npc_humanmale_bloodmage.png",
+    "npc_dwarfmale_badrigger.png",
+    "npc_orkmale_audran.png"
+   ]
+  ]
+ },
+ "name_vanguardmage": {
+  "files": [
+   "name_vanguardmage.png",
+   "name_vanguardmage_v2.png",
+   "name_vanguardmage_v3.png",
+   "name_vanguardmage_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_amsel.png",
+    "npc_orkmale_engineerinjured1.png",
+    "npc_humanmale_vauclair.png"
+   ],
+   [
+    "npc_humanmale_quorin.png",
+    "npc_humanmale_feralscientist.png",
+    "npc_humanmale_humanis.png"
+   ]
+  ]
+ },
+ "name_generatorcontrolpanel": {
+  "files": [
+   "name_generatorcontrolpanel.png",
+   "name_generatorcontrolpanel_v2.png",
+   "name_generatorcontrolpanel_v3.png",
+   "name_generatorcontrolpanel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_streetrat": {
+  "files": [
+   "name_streetrat.png",
+   "name_streetrat_v2.png",
+   "name_streetrat_v3.png",
+   "name_streetrat_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_muller.png",
+    "npc_humanfemale_kami.png",
+    "npc_dwarffemale_mira.png"
+   ],
+   [
+    "npc_elffemale_absinthe.png",
+    "npc_humanfemale_simmy.png",
+    "npc_humanfemale_monika.png"
+   ]
+  ]
+ },
+ "name_elevatorcontrols": {
+  "files": [
+   "name_elevatorcontrols.png",
+   "name_elevatorcontrols_v2.png",
+   "name_elevatorcontrols_v3.png",
+   "name_elevatorcontrols_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_fromthedeskofwernerharding": {
+  "files": [
+   "name_fromthedeskofwernerharding.png",
+   "name_fromthedeskofwernerharding_v2.png",
+   "name_fromthedeskofwernerharding_v3.png",
+   "name_fromthedeskofwernerharding_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_doorpanel": {
+  "files": [
+   "name_doorpanel.png",
+   "name_doorpanel_v2.png",
+   "name_doorpanel_v3.png",
+   "name_doorpanel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_paramilitarysecurity": {
+  "files": [
+   "name_paramilitarysecurity.png",
+   "name_paramilitarysecurity_v2.png",
+   "name_paramilitarysecurity_v3.png",
+   "name_paramilitarysecurity_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_mulvihill.png",
+    "npc_humanmale_clone.png",
+    "npc_humanmale_parsons.png"
+   ],
+   [
+    "npc_humanmale_dietrich.png",
+    "npc_humanmale_enemeydeckeravatar.png",
+    "npc_humanmale_lodgerep.png"
+   ]
+  ]
+ },
+ "name_scaredmalevoice": {
+  "files": [
+   "name_scaredmalevoice.png",
+   "name_scaredmalevoice_v2.png",
+   "name_scaredmalevoice_v3.png",
+   "name_scaredmalevoice_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_bloodmage.png",
+    "npc_humanmale_parsons.png",
+    "npc_orkmale_samuel.png"
+   ],
+   [
+    "npc_humanmale_hansbrackhaus.png",
+    "npc_humanmale_gunari.png",
+    "npc_elfmale_zakkflash.png"
+   ]
+  ]
+ },
+ "name_aleshire": {
+  "files": [
+   "name_aleshire.png",
+   "name_aleshire_v2.png",
+   "name_aleshire_v3.png",
+   "name_aleshire_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_alexander.png",
+    "npc_humanmale_hansbrackhaus.png",
+    "npc_elfmale_docxabier.png"
+   ],
+   [
+    "npc_humanmale_harrow.png",
+    "npc_humanmale_blitz.png",
+    "npc_humanmale_calmscientist.png"
+   ]
+  ]
+ },
+ "name_femalevoice": {
+  "files": [
+   "name_femalevoice.png",
+   "name_femalevoice_v2.png",
+   "name_femalevoice_v3.png",
+   "name_femalevoice_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_monika.png",
+    "npc_humanfemale_militiacaptain.png",
+    "npc_dwarffemale_mira.png"
+   ],
+   [
+    "npc_humanfemale_feuerschwinge.png",
+    "npc_orkfemale_silke.png",
+    "npc_dwarffemale_electrician.png"
+   ]
+  ]
+ },
+ "name_trollactor": {
+  "files": [
+   "name_trollactor.png",
+   "name_trollactor_v2.png",
+   "name_trollactor_v3.png",
+   "name_trollactor_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "backer_trollmale_ericeccher.png",
+    "npc_trollmale_meatgrinder.png",
+    "npc_trollmale_laine.png"
+   ],
+   [
+    "npc_trollmale_bouncer.png",
+    "npc_trollmale_cyberzombie.png",
+    "npc_trollmale_meatgrinder.png"
+   ]
+  ]
+ },
+ "name_elderlysoundingelfactor": {
+  "files": [
+   "name_elderlysoundingelfactor.png",
+   "name_elderlysoundingelfactor_v2.png",
+   "name_elderlysoundingelfactor_v3.png",
+   "name_elderlysoundingelfactor_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elfmale_magicdealer.png",
+    "npc_elfmale_docxabier.png",
+    "backer_elfmale_andygoolsby.png"
+   ],
+   [
+    "npc_elfmale_longhair.png",
+    "npc_elfmale_magicdealer.png",
+    "backer_elfmale_andygoolsby.png"
+   ]
+  ]
+ },
+ "name_securitynode": {
+  "files": [
+   "name_securitynode.png",
+   "name_securitynode_v2.png",
+   "name_securitynode_v3.png",
+   "name_securitynode_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_diary": {
+  "files": [
+   "name_diary.png",
+   "name_diary_v2.png",
+   "name_diary_v3.png",
+   "name_diary_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_scientist": {
+  "files": [
+   "name_scientist.png",
+   "name_scientist_v2.png",
+   "name_scientist_v3.png",
+   "name_scientist_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_lodgerep.png",
+    "npc_humanmale_clone.png",
+    "npc_orkmale_engineerinjured2.png"
+   ],
+   [
+    "npc_humanmale_humanis.png",
+    "npc_humanmale_calmscientist.png",
+    "npc_humanmale_blister.png"
+   ]
+  ]
+ },
+ "name_doorconsole": {
+  "files": [
+   "name_doorconsole.png",
+   "name_doorconsole_v2.png",
+   "name_doorconsole_v3.png",
+   "name_doorconsole_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_messagefile": {
+  "files": [
+   "name_messagefile.png",
+   "name_messagefile_v2.png",
+   "name_messagefile_v3.png",
+   "name_messagefile_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_mainframe": {
+  "files": [
+   "name_mainframe.png",
+   "name_mainframe_v2.png",
+   "name_mainframe_v3.png",
+   "name_mainframe_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_voiceprintanalyzer": {
+  "files": [
+   "name_voiceprintanalyzer.png",
+   "name_voiceprintanalyzer_v2.png",
+   "name_voiceprintanalyzer_v3.png",
+   "name_voiceprintanalyzer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_watcheric": {
+  "files": [
+   "name_watcheric.png",
+   "name_watcheric_v2.png",
+   "name_watcheric_v3.png",
+   "name_watcheric_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_gatekeeperic": {
+  "files": [
+   "name_gatekeeperic.png",
+   "name_gatekeeperic_v2.png",
+   "name_gatekeeperic_v3.png",
+   "name_gatekeeperic_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_highpitchedman": {
+  "files": [
+   "name_highpitchedman.png",
+   "name_highpitchedman_v2.png",
+   "name_highpitchedman_v3.png",
+   "name_highpitchedman_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_heimerich.png",
+    "npc_humanmale_calmscientist.png",
+    "npc_orkmale_samuel.png"
+   ],
+   [
+    "npc_orkmale_ulrike.png",
+    "npc_humanmale_clone.png",
+    "npc_humanmale_feralscientist.png"
+   ]
+  ]
+ },
+ "name_malenewscaster": {
+  "files": [
+   "name_malenewscaster.png",
+   "name_malenewscaster_v2.png",
+   "name_malenewscaster_v3.png",
+   "name_malenewscaster_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_vauclair50.png",
+    "npc_humanmale_blitz.png",
+    "npc_humanmale_alexander.png"
+   ],
+   [
+    "npc_humanmale_feralscientist.png",
+    "npc_elfmale_magicdealer.png",
+    "npc_humanmale_bloodmage.png"
+   ]
+  ]
+ },
+ "name_alertsystem": {
+  "files": [
+   "name_alertsystem.png",
+   "name_alertsystem_v2.png",
+   "name_alertsystem_v3.png",
+   "name_alertsystem_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_turret": {
+  "files": [
+   "name_turret.png",
+   "name_turret_v2.png",
+   "name_turret_v3.png",
+   "name_turret_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_bodyguard": {
+  "files": [
+   "name_bodyguard.png",
+   "name_bodyguard_v2.png",
+   "name_bodyguard_v3.png",
+   "name_bodyguard_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_elfmale_longhair.png",
+    "npc_humanmale_quorin.png",
+    "npc_humanmale_attacksurvivor.png"
+   ],
+   [
+    "npc_humanmale_vauclair.png",
+    "npc_trollmale_laine.png",
+    "npc_orkmale_samuel.png"
+   ]
+  ]
+ },
+ "name_doorcontrols": {
+  "files": [
+   "name_doorcontrols.png",
+   "name_doorcontrols_v2.png",
+   "name_doorcontrols_v3.png",
+   "name_doorcontrols_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_warninglabel": {
+  "files": [
+   "name_warninglabel.png",
+   "name_warninglabel_v2.png",
+   "name_warninglabel_v3.png",
+   "name_warninglabel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_lieutenant": {
+  "files": [
+   "name_lieutenant.png",
+   "name_lieutenant_v2.png",
+   "name_lieutenant_v3.png",
+   "name_lieutenant_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_attacksurvivor.png",
+    "npc_humanmale_vauclair.png",
+    "npc_humanmale_amsel.png"
+   ],
+   [
+    "npc_humanmale_bloodmage.png",
+    "npc_humanmale_harrow.png",
+    "backer_elfmale_andygoolsby.png"
+   ]
+  ]
+ },
+ "name_paramilitarysecurityenforcer": {
+  "files": [
+   "name_paramilitarysecurityenforcer.png",
+   "name_paramilitarysecurityenforcer_v2.png",
+   "name_paramilitarysecurityenforcer_v3.png",
+   "name_paramilitarysecurityenforcer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_humanis.png",
+    "npc_trollmale_bouncer.png",
+    "npc_elfmale_docxabier.png"
+   ],
+   [
+    "npc_humanmale_jan.png",
+    "npc_humanmale_hansbrackhaus.png",
+    "npc_humanmale_blitz.png"
+   ]
+  ]
+ },
+ "name_mercenary": {
+  "files": [
+   "name_mercenary.png",
+   "name_mercenary_v2.png",
+   "name_mercenary_v3.png",
+   "name_mercenary_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_quorin.png",
+    "npc_humanmale_gunari.png",
+    "npc_humanmale_amsel.png"
+   ],
+   [
+    "npc_orkmale_ulrike.png",
+    "npc_elfmale_longhair.png",
+    "npc_humanmale_bloodmage.png"
+   ]
+  ]
+ },
+ "name_sidedoorpanel": {
+  "files": [
+   "name_sidedoorpanel.png",
+   "name_sidedoorpanel_v2.png",
+   "name_sidedoorpanel_v3.png",
+   "name_sidedoorpanel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_hackerdecker": {
+  "files": [
+   "name_hackerdecker.png",
+   "name_hackerdecker_v2.png",
+   "name_hackerdecker_v3.png",
+   "name_hackerdecker_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_militiacaptain.png",
+    "npc_humanfemale_kami.png",
+    "backer_humanfemale_wren.png"
+   ],
+   [
+    "npc_humanfemale_feuerschwinge.png",
+    "npc_dwarffemale_maliit.png",
+    "npc_humanfemale_monika.png"
+   ]
+  ]
+ },
+ "name_brokenpda": {
+  "files": [
+   "name_brokenpda.png",
+   "name_brokenpda_v2.png",
+   "name_brokenpda_v3.png",
+   "name_brokenpda_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_dwarfmale_bannik.png",
+    "npc_humanmale_hansbrackhaus.png",
+    "npc_humanmale_quorin.png"
+   ],
+   [
+    "npc_humanmale_clone.png",
+    "npc_humanmale_attacksurvivor.png",
+    "npc_humanmale_humanis.png"
+   ]
+  ]
+ },
+ "name_ventilationcontrols": {
+  "files": [
+   "name_ventilationcontrols.png",
+   "name_ventilationcontrols_v2.png",
+   "name_ventilationcontrols_v3.png",
+   "name_ventilationcontrols_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_humanisdoorpanel": {
+  "files": [
+   "name_humanisdoorpanel.png",
+   "name_humanisdoorpanel_v2.png",
+   "name_humanisdoorpanel_v3.png",
+   "name_humanisdoorpanel_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_machine.png"
+   ],
+   [
+    "generic_machine.png"
+   ]
+  ]
+ },
+ "name_vanguardmercenary": {
+  "files": [
+   "name_vanguardmercenary.png",
+   "name_vanguardmercenary_v2.png",
+   "name_vanguardmercenary_v3.png",
+   "name_vanguardmercenary_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_vauclair50.png",
+    "backer_humanmale_dennisjandt.png",
+    "npc_trollmale_meatgrinder.png"
+   ],
+   [
+    "npc_humanmale_vauclair.png",
+    "generic_humanmale_urbanpoor01.png",
+    "backer_trollmale_ericeccher.png"
+   ]
+  ]
+ },
+ "name_disembodiedvoice": {
+  "files": [
+   "name_disembodiedvoice.png",
+   "name_disembodiedvoice_v2.png",
+   "name_disembodiedvoice_v3.png",
+   "name_disembodiedvoice_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_esp_shield.png",
+    "generic_esp_attacker.png",
+    "generic_esp_kamikaze.png"
+   ],
+   [
+    "generic_esp_assassin.png",
+    "generic_esp_shield.png",
+    "generic_esp_kamikaze.png"
+   ]
+  ]
+ },
+ "name_militiaman": {
+  "files": [
+   "name_militiaman.png",
+   "name_militiaman_v2.png",
+   "name_militiaman_v3.png",
+   "name_militiaman_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_trollmale_bouncer.png",
+    "npc_trollmale_cyberzombie.png",
+    "npc_humanmale_newsreporter1.png"
+   ],
+   [
+    "npc_humanmale_ghoulleader.png",
+    "backer_humanmale_dennisjandt.png",
+    "npc_elfmale_zakkflash.png"
+   ]
+  ]
+ },
+ "name_freedacolyte": {
+  "files": [
+   "name_freedacolyte.png",
+   "name_freedacolyte_v2.png",
+   "name_freedacolyte_v3.png",
+   "name_freedacolyte_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_alexander.png",
+    "backer_trollmale_ericeccher.png",
+    "npc_humanmale_hansbrackhaus.png"
+   ],
+   [
+    "npc_humanmale_attacksurvivor.png",
+    "npc_humanmale_humanis.png",
+    "npc_humanmale_bloodmage.png"
+   ]
+  ]
+ },
+ "name_serverdecker": {
+  "files": [
+   "name_serverdecker.png",
+   "name_serverdecker_v2.png",
+   "name_serverdecker_v3.png",
+   "name_serverdecker_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_kami.png",
+    "npc_humanfemale_militiacaptain.png",
+    "npc_humanfemale_goldfish.png"
+   ],
+   [
+    "backer_humanfemale_wren.png",
+    "npc_humanfemale_monika.png",
+    "npc_dwarffemale_mira.png"
+   ]
+  ]
+ },
+ "name_femalenewscaster": {
+  "files": [
+   "name_femalenewscaster.png",
+   "name_femalenewscaster_v2.png",
+   "name_femalenewscaster_v3.png",
+   "name_femalenewscaster_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_feuerschwinge.png",
+    "backer_humanfemale_wren.png",
+    "npc_orkfemale_silke.png"
+   ],
+   [
+    "npc_trollfemale_eiger.png",
+    "npc_humanfemale_glory.png",
+    "npc_elffemale_absinthe.png"
+   ]
+  ]
+ },
+ "name_germanannouncer": {
+  "files": [
+   "name_germanannouncer.png",
+   "name_germanannouncer_v2.png",
+   "name_germanannouncer_v3.png",
+   "name_germanannouncer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "generic_humanmale_knighterrant.png",
+    "npc_humanmale_parsons.png",
+    "npc_humanmale_calmscientist.png"
+   ],
+   [
+    "npc_trollmale_laine.png",
+    "npc_orkmale_audran.png",
+    "npc_orkmale_samuel.png"
+   ]
+  ]
+ },
+ "name_knighterrantmage": {
+  "files": [
+   "name_knighterrantmage.png",
+   "name_knighterrantmage_v2.png",
+   "name_knighterrantmage_v3.png",
+   "name_knighterrantmage_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanmale_calmscientist.png",
+    "npc_humanmale_frank.png",
+    "backer_trollmale_ericeccher.png"
+   ],
+   [
+    "npc_humanmale_newsreporter1.png",
+    "npc_humanmale_harrow.png",
+    "npc_humanmale_winters.png"
    ]
   ]
  }

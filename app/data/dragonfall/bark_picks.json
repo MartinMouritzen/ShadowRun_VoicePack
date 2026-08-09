@@ -46,5 +46,9 @@
  "Enraged Troll": {
   "voiceId": "mag_538",
   "voiceName": "Wade “Red” Dawson"
+ },
+ "Tutorial": {
+  "voiceId": "mag_503",
+  "voiceName": "Rachel Monroe"
  }
 }

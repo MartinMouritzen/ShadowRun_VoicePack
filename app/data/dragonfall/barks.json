@@ -1959,7 +1959,7 @@
  },
  "bark_fffe802fa894e492": {
   "text": "Crew Advancement Available",
-  "speaker": "Unknown",
+  "speaker": "Tutorial",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -2003,7 +2003,7 @@
  },
  "bark_9487139c4f5a251d": {
   "text": "You now command a team of Shadowrunners. When traveling to new mission locations you will be able to choose which members of your team to bring, and modify their loadout for the run.\n\nWhen members of your team become permanently incapacitated on a mission, they'll be automatically extracted for emergency medical care. They will be patched up and ready for action the next time you return to your safehouse. Avoid this loss of firepower by always carrying some BuMoNa Trauma Kits into the field. These can be purchased at the Street Doc's office in the Kreuzbasar.",
-  "speaker": "Unknown",
+  "speaker": "Tutorial",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -2091,7 +2091,7 @@
  },
  "bark_8ce91c5e6aadb915": {
   "text": "Hired Runners",
-  "speaker": "Unknown",
+  "speaker": "Tutorial",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
