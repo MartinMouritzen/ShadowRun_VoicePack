@@ -4,6 +4,8 @@ Resolves each segment's spoken text exactly like the lab (edits > directed > seg
 routes each segment to its bucket's picked voice, and classifies EL (account voice) vs Magnific (mag_).
 Skips segments that already have a take. Writes tools/gen/el_jobs.json and tools/gen/mag_jobs.json.
 
+Usage: build_gen_manifest.py [dms|dragonfall|hk] [--recast [charId ...]]   (game defaults to dms)
+
   --recast [charId ...]   Also emit segments that DO have takes but none in the bucket's currently
                           picked voice. Without this a recast character is silently skipped, because
                           "has a take" is true even when every take is in the voice we just replaced.
@@ -13,7 +15,12 @@ Skips segments that already have a take. Writes tools/gen/el_jobs.json and tools
 import json, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-D = os.path.join(ROOT, "app", "data", "dms")
+# The game is the first positional argument. This tool predates Dragonfall and Hong Kong and read
+# app/data/dms unconditionally, so asking it for another pack's jobs silently produced DMS's.
+GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("--") else "dms"
+D = os.path.join(ROOT, "app", "data", GAME)
+if not os.path.isdir(D):
+    sys.exit(f"no such game data dir: {D}")
 def L(n): return json.load(open(os.path.join(D, n)))
 
 picks = L("picks.json")
@@ -112,6 +119,7 @@ json.dump(el_jobs, open(os.path.join(ROOT, "tools/gen/el_jobs.json"), "w"), ensu
 json.dump(mag_jobs, open(os.path.join(ROOT, "tools/gen/mag_jobs.json"), "w"), ensure_ascii=False)
 el_c = sum(len(j["text"]) for j in el_jobs)
 mag_c = sum(len(j["text"]) for j in mag_jobs)
+print(f"game: {GAME}   (tools/gen/*.json is one shared pair — pass the same game to gen_el.py)")
 print(f"EL jobs:  {len(el_jobs):>4}  {el_c:,} chars")
 print(f"MAG jobs: {len(mag_jobs):>4}  {mag_c:,} chars  (~{int(mag_c*0.2):,} credits)")
 from collections import Counter

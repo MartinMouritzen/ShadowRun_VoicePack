@@ -42,6 +42,15 @@ ap.add_argument("--dry-run", action="store_true")
 ap.add_argument("--voice", help="voiceId to use instead of the character's casting, e.g. mag_537")
 ap.add_argument("--voice-name", default="")
 ap.add_argument("--redo", action="store_true", help="generate even for lines that already have takes")
+# A recast is not the same request as --redo. "Has a take" is true for every line of a character
+# who was just recast, because the takes are all in the voice that was replaced, so a plain run
+# reports the character finished and generates nothing; --redo would work but also re-buys the
+# lines already remade in the new voice. This asks the only question that matters after a recast:
+# is there a take in the voice this bucket is cast with NOW? Same flag, same meaning, as
+# build_gen_manifest.py --recast.
+ap.add_argument("--recast", action="store_true",
+                help="regenerate lines that have no take in the bucket's CURRENT voice, and make "
+                     "the new take the keeper")
 ap.add_argument("--keys", help="comma-separated segment keys to restrict to")
 ap.add_argument("--pace", type=float, default=0.0,
                 help="minimum seconds between request starts, across all workers. The provider's "
@@ -51,6 +60,15 @@ ap.add_argument("--stall-minutes", type=float, default=45.0,
                 help="give up if nothing at all succeeds for this long")
 a = ap.parse_args()
 only = set(a.keys.split(",")) if a.keys else None
+
+def already_voiced(entry, voice=None):
+    """Is this key done, for the purposes of THIS run?"""
+    ts = (entry or {}).get("takes") or []
+    if a.redo or not ts:
+        return False
+    if a.recast and voice and voice.get("voiceId"):
+        return any(str(t.get("voiceId")) == str(voice["voiceId"]) for t in ts)
+    return True
 
 gcfg = json.load(open(os.path.join(ROOT, "games", a.game, "game.json")))
 DATA = os.path.normpath(os.path.join(ROOT, "games", a.game, gcfg.get("dataDir") or "data"))
@@ -94,8 +112,6 @@ def bark_jobs(speaker_query):
         for sk, raw in zip(keys, texts):
             if aliases.get(sk):                      # the same words voiced under another key
                 continue
-            if not a.redo and (bt.get(sk) or {}).get("takes"):
-                continue
             text = edits.get(sk) if edits.get(sk) is not None else raw
             text = re.sub(r"\s+", " ", text or "").strip()
             if not text or not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text)):
@@ -114,6 +130,10 @@ def bark_jobs(speaker_query):
             if not voice:
                 print(f"  WARN: no voice for bark speaker '{sp_name}'", file=sys.stderr)
                 break
+            # after the voice, not before it: whether this bark still needs generating depends on
+            # which voice it was made in once --recast is in play
+            if already_voiced(bt.get(sk), voice):
+                continue
             out.append({"charId": "_barks", "lineKey": sk, "text": text,
                         "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
     return out
@@ -137,7 +157,7 @@ def tutorial_jobs():
     for key, entry in tut.items():
         if entry.get("nonverbal"):
             continue
-        if not a.redo and (done.get(key) or {}).get("takes"):
+        if already_voiced(done.get(key), voice):
             continue
         text = spoken.effective_text(key, entry.get("text") or "", edits, directed)
         text = re.sub(r"\s+", " ", text or "").strip()
@@ -158,7 +178,10 @@ def inspect_jobs():
     voice = picks.get("narrator")
     out = []
     for key, entry in insp.items():
-        if not a.redo and (done.get(key) or {}).get("takes"):
+        # the voice first: after a recast, whether a key still needs generating depends on it
+        v = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
+             else segov.get(key) or voice)
+        if already_voiced(done.get(key), v):
             continue
         raw = entry.get("spoken") if isinstance(entry, dict) else entry
         text = spoken.effective_text(key, raw, edits, directed)
@@ -177,23 +200,20 @@ def inspect_jobs():
             # generic take is skipped rather than reading the token aloud.
             for vid, vtext in variants_doc[key]["v"].items():
                 vk = f"{key}#{vid}"
-                if not a.redo and (done.get(vk) or {}).get("takes"):
+                vv = v
+                if already_voiced(done.get(vk), vv):
                     continue
-                vv = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
-                      else segov.get(key) or voice)
                 out.append({"charId": "narrator", "lineKey": vk,
                             "text": re.sub(r"\s+", " ", vtext).strip(),
                             "voiceId": vv["voiceId"], "voiceName": vv.get("voiceName")})
             continue
-        v = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
-             else segov.get(key) or voice)
         if not v:
             print("  WARN: no narrator voice for inspect lines", file=sys.stderr); break
         out.append({"charId": "narrator", "lineKey": key, "text": text,
                     "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
         for vid, vtext in (variants_doc.get(key, {}).get("v") or {}).items():
             vk = f"{key}#{vid}"
-            if not a.redo and (done.get(vk) or {}).get("takes"):
+            if already_voiced(done.get(vk), v):
                 continue
             vtext = re.sub(r"\s+", " ", vtext or "").strip()
             if vtext and vtext != text:
@@ -243,9 +263,6 @@ for owner in cast:
                 continue
             if alias.get(sk):
                 continue
-            # A segment can need its variants even when its generic take is already made, so the
-            # "already voiced" test is applied per KEY below rather than skipping the segment here.
-            have_generic = not a.redo and bool((done.get(sk) or {}).get("takes"))
             text = spoken.effective_text(sk, raw, edits, directed)
             if not text.strip():
                 continue
@@ -261,7 +278,9 @@ for owner in cast:
             if not voice:
                 print(f"  WARN: {cid} has no voice — skipped", file=sys.stderr)
                 break
-            if not have_generic:
+            # A segment can need its variants even when its generic take is already made, so the
+            # "already voiced" test is applied per KEY rather than skipping the segment outright.
+            if not already_voiced(done.get(sk), voice):
                 jobs.append({"charId": cid, "lineKey": sk, "text": text,
                              "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
             # Template-variable variants: the same segment said once per value the game can
@@ -270,7 +289,7 @@ for owner in cast:
             # a variant was never generated.
             for vid, vtext in (variants_doc.get(sk, {}).get("v") or {}).items():
                 vk = f"{sk}#{vid}"
-                if alias.get(vk) or (not a.redo and (done.get(vk) or {}).get("takes")):
+                if alias.get(vk) or already_voiced(done.get(vk), voice):
                     continue
                 vtext = re.sub(r"\s+", " ", vtext or "").strip()
                 if not vtext or vtext == text:
@@ -356,13 +375,15 @@ def worker():
                 # --voice means this is an AUDITION: several candidates on one line, compared in
                 # the lab. The keeper is the user's decision there, so forcing it here would mean
                 # whichever candidate ran last silently became the shipped take.
-                if res.get("ok") and a.redo and not a.voice and res.get("file"):
+                if res.get("ok") and (a.redo or a.recast) and not a.voice and res.get("file"):
                     # A retake does not become the keeper on its own: /api/generate only fills
                     # `selected` when it was empty, so that auditioning in the lab never silently
                     # replaces a chosen take. But --redo exists precisely because the current
                     # keeper is wrong - it was made from a script that has since changed - so
                     # leaving it selected reships the audio this run was meant to replace. That
-                    # happened three times before this line existed.
+                    # happened three times before this line existed. --recast is the same story
+                    # with a different cause: the keeper is in the voice that was just replaced,
+                    # and a recast nobody can hear is not a recast.
                     try:
                         sel = json.dumps({"game": a.game, "charId": job["charId"],
                                           "lineKey": job["lineKey"], "file": res["file"]}).encode()

@@ -121634,7 +121634,7 @@
    ]
   },
   "52449597346238a0240049c3_31": {
-   "selected": "name_paulamsel/takes/52449597346238a0240049c3_31__mag40__1786145263.mp3",
+   "selected": "name_paulamsel/takes/52449597346238a0240049c3_31__mag40__1786297008.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52449597346238a0240049c3_31__mag40__1786145263.mp3",
@@ -121643,6 +121643,38 @@
      "stability": 0,
      "chars": 126,
      "ts": 1786145263
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_31__mag40__1786296968.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 134,
+     "ts": 1786296968
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_31__mag40__1786296981.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 136,
+     "ts": 1786296981
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_31__mag40__1786297002.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 134,
+     "ts": 1786297002
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_31__mag40__1786297008.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 134,
+     "ts": 1786297008
     }
    ]
   },
@@ -121764,7 +121796,7 @@
    ]
   },
   "52449597346238a0240049c3_46": {
-   "selected": "name_paulamsel/takes/52449597346238a0240049c3_46__mag40__1786145286.mp3",
+   "selected": "name_paulamsel/takes/52449597346238a0240049c3_46__mag40__1786297592.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52449597346238a0240049c3_46__mag40__1786145286.mp3",
@@ -121773,6 +121805,30 @@
      "stability": 0,
      "chars": 104,
      "ts": 1786145286
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_46__mag40__1786297574.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 134,
+     "ts": 1786297574
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_46__mag40__1786297585.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 117,
+     "ts": 1786297585
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_46__mag40__1786297592.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 130,
+     "ts": 1786297592
     }
    ]
   },
@@ -121920,7 +121976,7 @@
    ]
   },
   "52449597346238a0240049c3_58~c1": {
-   "selected": "name_paulamsel/takes/52449597346238a0240049c3_58~c1__mag40__1786145305.mp3",
+   "selected": "name_paulamsel/takes/52449597346238a0240049c3_58~c1__mag40__1786297869.mp3",
    "takes": [
     {
      "file": "name_paulamsel/takes/52449597346238a0240049c3_58~c1__mag40__1786145305.mp3",
@@ -121929,6 +121985,22 @@
      "stability": 0,
      "chars": 106,
      "ts": 1786145305
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_58~c1__mag40__1786297856.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 115,
+     "ts": 1786297856
+    },
+    {
+     "file": "name_paulamsel/takes/52449597346238a0240049c3_58~c1__mag40__1786297869.mp3",
+     "voiceId": "mag_40",
+     "voiceName": "Dylan Scott",
+     "stability": 0,
+     "chars": 117,
+     "ts": 1786297869
     }
    ]
   },
@@ -145723,7 +145795,7 @@
  },
  "name_altugburakgazi": {
   "523bfc69346238e41d008008_0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_0__mag540__1786104845.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_0__mag197__1786297994.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_0__mag540__1786104845.mp3",
@@ -145732,11 +145804,19 @@
      "stability": 0,
      "chars": 76,
      "ts": 1786104845
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_0__mag197__1786297994.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 76,
+     "ts": 1786297994
     }
    ]
   },
   "523bfc69346238e41d008008_1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_1__mag540__1786152950.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_1__mag197__1786297996.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_1__mag540__1786152950.mp3",
@@ -145745,11 +145825,19 @@
      "stability": 0,
      "chars": 74,
      "ts": 1786152950
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_1__mag197__1786297996.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 74,
+     "ts": 1786297996
     }
    ]
   },
   "523bfc69346238e41d008008_2": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_2__mag540__1786152955.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_2__mag197__1786298026.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_2__mag540__1786152955.mp3",
@@ -145758,11 +145846,19 @@
      "stability": 0,
      "chars": 205,
      "ts": 1786152955
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_2__mag197__1786298026.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 205,
+     "ts": 1786298026
     }
    ]
   },
   "523bfc69346238e41d008008_3": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_3__mag540__1786152959.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_3__mag197__1786298494.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_3__mag540__1786152959.mp3",
@@ -145771,11 +145867,19 @@
      "stability": 0,
      "chars": 248,
      "ts": 1786152959
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_3__mag197__1786298494.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 248,
+     "ts": 1786298494
     }
    ]
   },
   "523bfc69346238e41d008008_4": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_4__mag540__1786152963.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_4__mag197__1786298494.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_4__mag540__1786152963.mp3",
@@ -145784,11 +145888,19 @@
      "stability": 0,
      "chars": 214,
      "ts": 1786152963
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_4__mag197__1786298494.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 214,
+     "ts": 1786298494
     }
    ]
   },
   "523bfc69346238e41d008008_5": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_5__mag540__1786152969.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_5__mag197__1786298494.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_5__mag540__1786152969.mp3",
@@ -145797,11 +145909,19 @@
      "stability": 0,
      "chars": 283,
      "ts": 1786152969
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_5__mag197__1786298494.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 283,
+     "ts": 1786298494
     }
    ]
   },
   "523bfc69346238e41d008008_6": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_6__mag540__1786152974.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_6__mag197__1786298494.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_6__mag540__1786152974.mp3",
@@ -145810,11 +145930,19 @@
      "stability": 0,
      "chars": 144,
      "ts": 1786152974
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_6__mag197__1786298494.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 144,
+     "ts": 1786298494
     }
    ]
   },
   "523bfc69346238e41d008008_7": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_7__mag540__1786152980.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_7__mag197__1786298502.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_7__mag540__1786152980.mp3",
@@ -145823,11 +145951,19 @@
      "stability": 0,
      "chars": 120,
      "ts": 1786152980
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_7__mag197__1786298502.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 120,
+     "ts": 1786298502
     }
    ]
   },
   "523bfc69346238e41d008008_9": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_9__mag540__1786152984.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_9__mag197__1786298504.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_9__mag540__1786152984.mp3",
@@ -145836,11 +145972,19 @@
      "stability": 0,
      "chars": 61,
      "ts": 1786152984
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_9__mag197__1786298504.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 61,
+     "ts": 1786298504
     }
    ]
   },
   "523bfc69346238e41d008008_11": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_11__mag540__1786152988.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_11__mag197__1786298505.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_11__mag540__1786152988.mp3",
@@ -145849,11 +145993,19 @@
      "stability": 0,
      "chars": 245,
      "ts": 1786152988
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_11__mag197__1786298505.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 245,
+     "ts": 1786298505
     }
    ]
   },
   "523bfc69346238e41d008008_12": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_12__mag540__1786152992.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_12__mag197__1786298505.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_12__mag540__1786152992.mp3",
@@ -145862,11 +146014,19 @@
      "stability": 0,
      "chars": 255,
      "ts": 1786152992
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_12__mag197__1786298505.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 255,
+     "ts": 1786298505
     }
    ]
   },
   "523bfc69346238e41d008008_13": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_13__mag540__1786153000.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_13__mag197__1786298509.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_13__mag540__1786153000.mp3",
@@ -145875,11 +146035,19 @@
      "stability": 0,
      "chars": 205,
      "ts": 1786153000
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_13__mag197__1786298509.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 205,
+     "ts": 1786298509
     }
    ]
   },
   "523bfc69346238e41d008008_14": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_14__mag540__1786153004.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_14__mag197__1786298509.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_14__mag540__1786153004.mp3",
@@ -145888,11 +146056,19 @@
      "stability": 0,
      "chars": 214,
      "ts": 1786153004
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_14__mag197__1786298509.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 214,
+     "ts": 1786298509
     }
    ]
   },
   "523bfc69346238e41d008008_15": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_15__mag540__1786153009.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_15__mag197__1786298515.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_15__mag540__1786153009.mp3",
@@ -145901,11 +146077,19 @@
      "stability": 0,
      "chars": 195,
      "ts": 1786153009
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_15__mag197__1786298515.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 195,
+     "ts": 1786298515
     }
    ]
   },
   "523bfc69346238e41d008008_16": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_16__mag540__1786153013.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_16__mag197__1786298516.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_16__mag540__1786153013.mp3",
@@ -145914,11 +146098,19 @@
      "stability": 0,
      "chars": 43,
      "ts": 1786153013
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_16__mag197__1786298516.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 43,
+     "ts": 1786298516
     }
    ]
   },
   "523bfc69346238e41d008008_18": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_18__mag540__1786153021.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_18__mag197__1786298520.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_18__mag540__1786153021.mp3",
@@ -145927,11 +146119,19 @@
      "stability": 0,
      "chars": 43,
      "ts": 1786153021
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_18__mag197__1786298520.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 43,
+     "ts": 1786298520
     }
    ]
   },
   "523bfc69346238e41d008008_17": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_17__mag540__1786153017.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_17__mag197__1786298519.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_17__mag540__1786153017.mp3",
@@ -145940,11 +146140,19 @@
      "stability": 0,
      "chars": 337,
      "ts": 1786153017
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_17__mag197__1786298519.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 337,
+     "ts": 1786298519
     }
    ]
   },
   "523bfc69346238e41d008008_19": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_19__mag540__1786153026.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_19__mag197__1786298522.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_19__mag540__1786153026.mp3",
@@ -145953,11 +146161,19 @@
      "stability": 0,
      "chars": 136,
      "ts": 1786153026
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_19__mag197__1786298522.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 136,
+     "ts": 1786298522
     }
    ]
   },
   "523bfc69346238e41d008008_21": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_21__mag540__1786153030.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_21__mag197__1786298526.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_21__mag540__1786153030.mp3",
@@ -145966,11 +146182,19 @@
      "stability": 0,
      "chars": 96,
      "ts": 1786153030
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_21__mag197__1786298526.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 96,
+     "ts": 1786298526
     }
    ]
   },
   "523bfc69346238e41d008008_22": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_22__mag540__1786153034.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_22__mag197__1786298527.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_22__mag540__1786153034.mp3",
@@ -145979,11 +146203,19 @@
      "stability": 0,
      "chars": 175,
      "ts": 1786153034
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_22__mag197__1786298527.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 175,
+     "ts": 1786298527
     }
    ]
   },
   "523bfc69346238e41d008008_23": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_23__mag540__1786153038.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_23__mag197__1786298530.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_23__mag540__1786153038.mp3",
@@ -145992,11 +146224,19 @@
      "stability": 0,
      "chars": 306,
      "ts": 1786153038
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_23__mag197__1786298530.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 306,
+     "ts": 1786298530
     }
    ]
   },
   "523bfc69346238e41d008008_24": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_24__mag540__1786153042.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_24__mag197__1786298531.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_24__mag540__1786153042.mp3",
@@ -146005,11 +146245,19 @@
      "stability": 0,
      "chars": 208,
      "ts": 1786153042
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_24__mag197__1786298531.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 208,
+     "ts": 1786298531
     }
    ]
   },
   "523bfc69346238e41d008008_25": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_25__mag540__1786153050.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_25__mag197__1786298533.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_25__mag540__1786153050.mp3",
@@ -146018,11 +146266,19 @@
      "stability": 0,
      "chars": 193,
      "ts": 1786153050
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_25__mag197__1786298533.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 193,
+     "ts": 1786298533
     }
    ]
   },
   "523bfc69346238e41d008008_26": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_26__mag540__1786153054.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_26__mag197__1786298536.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_26__mag540__1786153054.mp3",
@@ -146031,11 +146287,19 @@
      "stability": 0,
      "chars": 166,
      "ts": 1786153054
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_26__mag197__1786298536.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 166,
+     "ts": 1786298536
     }
    ]
   },
   "523bfc69346238e41d008008_28": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_28__mag540__1786153059.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_28__mag197__1786298540.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_28__mag540__1786153059.mp3",
@@ -146044,11 +146308,19 @@
      "stability": 0,
      "chars": 82,
      "ts": 1786153059
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_28__mag197__1786298540.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 82,
+     "ts": 1786298540
     }
    ]
   },
   "523bfc69346238e41d008008_29": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_29__mag540__1786153063.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_29__mag197__1786298542.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_29__mag540__1786153063.mp3",
@@ -146057,11 +146329,19 @@
      "stability": 0,
      "chars": 73,
      "ts": 1786153063
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_29__mag197__1786298542.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 73,
+     "ts": 1786298542
     }
    ]
   },
   "523bfc69346238e41d008008_30": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_30__mag540__1786153067.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_30__mag197__1786298543.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_30__mag540__1786153067.mp3",
@@ -146070,11 +146350,19 @@
      "stability": 0,
      "chars": 131,
      "ts": 1786153067
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_30__mag197__1786298543.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 131,
+     "ts": 1786298543
     }
    ]
   },
   "523bfc69346238e41d008008_32": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_32__mag540__1786153071.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_32__mag197__1786298545.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_32__mag540__1786153071.mp3",
@@ -146083,11 +146371,19 @@
      "stability": 0,
      "chars": 65,
      "ts": 1786153071
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_32__mag197__1786298545.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 65,
+     "ts": 1786298545
     }
    ]
   },
   "523bfc69346238e41d008008_34": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_34__mag540__1786153075.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_34__mag197__1786298546.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_34__mag540__1786153075.mp3",
@@ -146096,11 +146392,19 @@
      "stability": 0,
      "chars": 104,
      "ts": 1786153075
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_34__mag197__1786298546.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 104,
+     "ts": 1786298546
     }
    ]
   },
   "523bfc69346238e41d008008_36~c0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c0__mag540__1786153079.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c0__mag197__1786298548.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c0__mag540__1786153079.mp3",
@@ -146109,11 +146413,19 @@
      "stability": 0,
      "chars": 27,
      "ts": 1786153079
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c0__mag197__1786298548.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1786298548
     }
    ]
   },
   "523bfc69346238e41d008008_36~c1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c1__mag540__1786153083.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c1__mag197__1786298550.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c1__mag540__1786153083.mp3",
@@ -146122,11 +146434,19 @@
      "stability": 0,
      "chars": 100,
      "ts": 1786153083
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_36~c1__mag197__1786298550.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 100,
+     "ts": 1786298550
     }
    ]
   },
   "523bfc69346238e41d008008_37": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_37__mag540__1786153087.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_37__mag197__1786298551.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_37__mag540__1786153087.mp3",
@@ -146135,11 +146455,19 @@
      "stability": 0,
      "chars": 36,
      "ts": 1786153087
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_37__mag197__1786298551.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 36,
+     "ts": 1786298551
     }
    ]
   },
   "523bfc69346238e41d008008_38": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_38__mag540__1786153091.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_38__mag197__1786298552.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_38__mag540__1786153091.mp3",
@@ -146148,11 +146476,19 @@
      "stability": 0,
      "chars": 77,
      "ts": 1786153091
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_38__mag197__1786298552.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 77,
+     "ts": 1786298552
     }
    ]
   },
   "523bfc69346238e41d008008_39": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_39__mag540__1786153095.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_39__mag197__1786298554.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_39__mag540__1786153095.mp3",
@@ -146161,11 +146497,19 @@
      "stability": 0,
      "chars": 107,
      "ts": 1786153095
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_39__mag197__1786298554.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 107,
+     "ts": 1786298554
     }
    ]
   },
   "523bfc69346238e41d008008_40": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_40__mag540__1786153099.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_40__mag197__1786298557.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_40__mag540__1786153099.mp3",
@@ -146174,11 +146518,19 @@
      "stability": 0,
      "chars": 115,
      "ts": 1786153099
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_40__mag197__1786298557.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 115,
+     "ts": 1786298557
     }
    ]
   },
   "523bfc69346238e41d008008_42": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_42__mag540__1786153103.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_42__mag197__1786298558.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_42__mag540__1786153103.mp3",
@@ -146187,11 +146539,19 @@
      "stability": 0,
      "chars": 48,
      "ts": 1786153103
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_42__mag197__1786298558.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 48,
+     "ts": 1786298558
     }
    ]
   },
   "523bfc69346238e41d008008_44": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_44__mag540__1786153107.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_44__mag197__1786298559.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_44__mag540__1786153107.mp3",
@@ -146200,11 +146560,19 @@
      "stability": 0,
      "chars": 98,
      "ts": 1786153107
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_44__mag197__1786298559.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 98,
+     "ts": 1786298559
     }
    ]
   },
   "523bfc69346238e41d008008_46": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_46__mag540__1786153111.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_46__mag197__1786298561.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_46__mag540__1786153111.mp3",
@@ -146213,11 +146581,19 @@
      "stability": 0,
      "chars": 125,
      "ts": 1786153111
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_46__mag197__1786298561.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 125,
+     "ts": 1786298561
     }
    ]
   },
   "523bfc69346238e41d008008_47": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_47__mag540__1786153115.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_47__mag197__1786298563.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_47__mag540__1786153115.mp3",
@@ -146226,11 +146602,19 @@
      "stability": 0,
      "chars": 23,
      "ts": 1786153115
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_47__mag197__1786298563.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1786298563
     }
    ]
   },
   "523bfc69346238e41d008008_48": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_48__mag540__1786153119.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_48__mag197__1786298565.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_48__mag540__1786153119.mp3",
@@ -146239,11 +146623,19 @@
      "stability": 0,
      "chars": 215,
      "ts": 1786153119
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_48__mag197__1786298565.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 215,
+     "ts": 1786298565
     }
    ]
   },
   "523bfc69346238e41d008008_49": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_49__mag540__1786153123.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_49__mag197__1786298565.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_49__mag540__1786153123.mp3",
@@ -146252,11 +146644,19 @@
      "stability": 0,
      "chars": 214,
      "ts": 1786153123
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_49__mag197__1786298565.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 214,
+     "ts": 1786298565
     }
    ]
   },
   "523bfc69346238e41d008008_50": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_50__mag540__1786153127.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_50__mag197__1786298568.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_50__mag540__1786153127.mp3",
@@ -146265,11 +146665,19 @@
      "stability": 0,
      "chars": 62,
      "ts": 1786153127
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_50__mag197__1786298568.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 62,
+     "ts": 1786298568
     }
    ]
   },
   "523bfc69346238e41d008008_51": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_51__mag540__1786153131.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_51__mag197__1786298569.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_51__mag540__1786153131.mp3",
@@ -146278,11 +146686,19 @@
      "stability": 0,
      "chars": 62,
      "ts": 1786153131
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_51__mag197__1786298569.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 62,
+     "ts": 1786298569
     }
    ]
   },
   "523bfc69346238e41d008008_52": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_52__mag540__1786153135.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_52__mag197__1786298573.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_52__mag540__1786153135.mp3",
@@ -146291,11 +146707,19 @@
      "stability": 0,
      "chars": 34,
      "ts": 1786153135
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_52__mag197__1786298573.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 34,
+     "ts": 1786298573
     }
    ]
   },
   "523bfc69346238e41d008008_53": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_53__mag540__1786153139.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_53__mag197__1786298574.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_53__mag540__1786153139.mp3",
@@ -146304,11 +146728,19 @@
      "stability": 0,
      "chars": 116,
      "ts": 1786153139
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_53__mag197__1786298574.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 116,
+     "ts": 1786298574
     }
    ]
   },
   "523bfc69346238e41d008008_54": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_54__mag540__1786153143.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_54__mag197__1786298574.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_54__mag540__1786153143.mp3",
@@ -146317,11 +146749,19 @@
      "stability": 0,
      "chars": 79,
      "ts": 1786153143
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_54__mag197__1786298574.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 79,
+     "ts": 1786298574
     }
    ]
   },
   "523bfc69346238e41d008008_55": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_55__mag540__1786153147.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_55__mag197__1786298574.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_55__mag540__1786153147.mp3",
@@ -146330,11 +146770,19 @@
      "stability": 0,
      "chars": 101,
      "ts": 1786153147
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_55__mag197__1786298574.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 101,
+     "ts": 1786298574
     }
    ]
   },
   "523bfc69346238e41d008008_56": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_56__mag540__1786153151.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_56__mag197__1786298580.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_56__mag540__1786153151.mp3",
@@ -146343,11 +146791,19 @@
      "stability": 0,
      "chars": 67,
      "ts": 1786153151
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_56__mag197__1786298580.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 67,
+     "ts": 1786298580
     }
    ]
   },
   "523bfc69346238e41d008008_57": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_57__mag540__1786153155.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_57__mag197__1786298580.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_57__mag540__1786153155.mp3",
@@ -146356,11 +146812,19 @@
      "stability": 0,
      "chars": 172,
      "ts": 1786153155
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_57__mag197__1786298580.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 172,
+     "ts": 1786298580
     }
    ]
   },
   "523bfc69346238e41d008008_58": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_58__mag540__1786153159.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_58__mag197__1786298580.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_58__mag540__1786153159.mp3",
@@ -146369,11 +146833,19 @@
      "stability": 0,
      "chars": 101,
      "ts": 1786153159
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_58__mag197__1786298580.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 101,
+     "ts": 1786298580
     }
    ]
   },
   "523bfc69346238e41d008008_60": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_60__mag540__1786153168.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_60__mag197__1786298586.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_60__mag540__1786153168.mp3",
@@ -146382,11 +146854,19 @@
      "stability": 0,
      "chars": 57,
      "ts": 1786153168
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_60__mag197__1786298586.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 57,
+     "ts": 1786298586
     }
    ]
   },
   "523bfc69346238e41d008008_59": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_59__mag540__1786153164.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_59__mag197__1786298581.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_59__mag540__1786153164.mp3",
@@ -146395,11 +146875,19 @@
      "stability": 0,
      "chars": 391,
      "ts": 1786153164
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_59__mag197__1786298581.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 391,
+     "ts": 1786298581
     }
    ]
   },
   "523bfc69346238e41d008008_61": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_61__mag540__1786153173.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_61__mag197__1786298587.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_61__mag540__1786153173.mp3",
@@ -146408,11 +146896,19 @@
      "stability": 0,
      "chars": 65,
      "ts": 1786153173
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_61__mag197__1786298587.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 65,
+     "ts": 1786298587
     }
    ]
   },
   "523bfc69346238e41d008008_62": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_62__mag540__1786153178.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_62__mag197__1786298590.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_62__mag540__1786153178.mp3",
@@ -146421,11 +146917,19 @@
      "stability": 0,
      "chars": 100,
      "ts": 1786153178
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_62__mag197__1786298590.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 100,
+     "ts": 1786298590
     }
    ]
   },
   "523bfc69346238e41d008008_63": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_63__mag540__1786153182.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_63__mag197__1786298592.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_63__mag540__1786153182.mp3",
@@ -146434,11 +146938,19 @@
      "stability": 0,
      "chars": 70,
      "ts": 1786153182
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_63__mag197__1786298592.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 70,
+     "ts": 1786298592
     }
    ]
   },
   "523bfc69346238e41d008008_64": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_64__mag540__1786153186.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_64__mag197__1786298594.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_64__mag540__1786153186.mp3",
@@ -146447,11 +146959,19 @@
      "stability": 0,
      "chars": 182,
      "ts": 1786153186
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_64__mag197__1786298594.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 182,
+     "ts": 1786298594
     }
    ]
   },
   "523bfc69346238e41d008008_66": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_66__mag540__1786153195.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_66__mag197__1786298595.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_66__mag540__1786153195.mp3",
@@ -146460,11 +146980,19 @@
      "stability": 0,
      "chars": 22,
      "ts": 1786153195
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_66__mag197__1786298595.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 22,
+     "ts": 1786298595
     }
    ]
   },
   "523bfc69346238e41d008008_65": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_65__mag540__1786153190.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_65__mag197__1786298594.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_65__mag540__1786153190.mp3",
@@ -146473,11 +147001,19 @@
      "stability": 0,
      "chars": 243,
      "ts": 1786153190
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_65__mag197__1786298594.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 243,
+     "ts": 1786298594
     }
    ]
   },
   "523bfc69346238e41d008008_67": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_67__mag540__1786153200.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_67__mag197__1786298599.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_67__mag540__1786153200.mp3",
@@ -146486,11 +147022,19 @@
      "stability": 0,
      "chars": 18,
      "ts": 1786153200
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_67__mag197__1786298599.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 18,
+     "ts": 1786298599
     }
    ]
   },
   "523bfc69346238e41d008008_68": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_68__mag540__1786153204.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_68__mag197__1786298600.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_68__mag540__1786153204.mp3",
@@ -146499,11 +147043,19 @@
      "stability": 0,
      "chars": 31,
      "ts": 1786153204
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_68__mag197__1786298600.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 31,
+     "ts": 1786298600
     }
    ]
   },
   "523bfc69346238e41d008008_69": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_69__mag540__1786153208.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_69__mag197__1786298602.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_69__mag540__1786153208.mp3",
@@ -146512,11 +147064,19 @@
      "stability": 0,
      "chars": 155,
      "ts": 1786153208
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_69__mag197__1786298602.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 155,
+     "ts": 1786298602
     }
    ]
   },
   "523bfc69346238e41d008008_71": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_71__mag540__1786153216.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_71__mag197__1786298604.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_71__mag540__1786153216.mp3",
@@ -146525,11 +147085,19 @@
      "stability": 0,
      "chars": 52,
      "ts": 1786153216
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_71__mag197__1786298604.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 52,
+     "ts": 1786298604
     }
    ]
   },
   "523bfc69346238e41d008008_70": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_70__mag540__1786153212.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_70__mag197__1786298603.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_70__mag540__1786153212.mp3",
@@ -146538,11 +147106,19 @@
      "stability": 0,
      "chars": 167,
      "ts": 1786153212
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_70__mag197__1786298603.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 167,
+     "ts": 1786298603
     }
    ]
   },
   "523bfc69346238e41d008008_73": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_73__mag540__1786153223.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_73__mag197__1786298606.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_73__mag540__1786153223.mp3",
@@ -146551,11 +147127,19 @@
      "stability": 0,
      "chars": 128,
      "ts": 1786153223
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_73__mag197__1786298606.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 128,
+     "ts": 1786298606
     }
    ]
   },
   "523bfc69346238e41d008008_74": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_74__mag540__1786153227.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_74__mag197__1786298610.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_74__mag540__1786153227.mp3",
@@ -146564,11 +147148,19 @@
      "stability": 0,
      "chars": 239,
      "ts": 1786153227
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_74__mag197__1786298610.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 239,
+     "ts": 1786298610
     }
    ]
   },
   "523bfc69346238e41d008008_75": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_75__mag540__1786153231.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_75__mag197__1786298611.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_75__mag540__1786153231.mp3",
@@ -146577,11 +147169,19 @@
      "stability": 0,
      "chars": 190,
      "ts": 1786153231
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_75__mag197__1786298611.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 190,
+     "ts": 1786298611
     }
    ]
   },
   "523bfc69346238e41d008008_76": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_76__mag540__1786153235.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_76__mag197__1786298612.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_76__mag540__1786153235.mp3",
@@ -146590,11 +147190,19 @@
      "stability": 0,
      "chars": 246,
      "ts": 1786153235
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_76__mag197__1786298612.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 246,
+     "ts": 1786298612
     }
    ]
   },
   "523bfc69346238e41d008008_78": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_78__mag540__1786153243.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_78__mag197__1786298620.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_78__mag540__1786153243.mp3",
@@ -146603,11 +147211,19 @@
      "stability": 0,
      "chars": 83,
      "ts": 1786153243
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_78__mag197__1786298620.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 83,
+     "ts": 1786298620
     }
    ]
   },
   "523bfc69346238e41d008008_77": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_77__mag540__1786153239.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_77__mag197__1786298612.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_77__mag540__1786153239.mp3",
@@ -146616,11 +147232,19 @@
      "stability": 0,
      "chars": 197,
      "ts": 1786153239
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_77__mag197__1786298612.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 197,
+     "ts": 1786298612
     }
    ]
   },
   "523bfc69346238e41d008008_80": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_80__mag540__1786153253.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_80__mag197__1786298621.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_80__mag540__1786153253.mp3",
@@ -146629,11 +147253,19 @@
      "stability": 0,
      "chars": 88,
      "ts": 1786153253
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_80__mag197__1786298621.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 88,
+     "ts": 1786298621
     }
    ]
   },
   "523bfc69346238e41d008008_79": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_79__mag540__1786153249.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_79__mag197__1786298620.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_79__mag540__1786153249.mp3",
@@ -146642,11 +147274,19 @@
      "stability": 0,
      "chars": 299,
      "ts": 1786153249
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_79__mag197__1786298620.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 299,
+     "ts": 1786298620
     }
    ]
   },
   "523bfc69346238e41d008008_81": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_81__mag540__1786153259.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_81__mag197__1786298622.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_81__mag540__1786153259.mp3",
@@ -146655,11 +147295,19 @@
      "stability": 0,
      "chars": 152,
      "ts": 1786153259
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_81__mag197__1786298622.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 152,
+     "ts": 1786298622
     }
    ]
   },
   "523bfc69346238e41d008008_82~c0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c0__mag540__1786153263.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c0__mag197__1786298627.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c0__mag540__1786153263.mp3",
@@ -146668,11 +147316,19 @@
      "stability": 0,
      "chars": 10,
      "ts": 1786153263
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c0__mag197__1786298627.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 10,
+     "ts": 1786298627
     }
    ]
   },
   "523bfc69346238e41d008008_82~c1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c1__mag540__1786153267.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c1__mag197__1786298628.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c1__mag540__1786153267.mp3",
@@ -146681,11 +147337,19 @@
      "stability": 0,
      "chars": 97,
      "ts": 1786153267
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_82~c1__mag197__1786298628.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 97,
+     "ts": 1786298628
     }
    ]
   },
   "523bfc69346238e41d008008_83": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_83__mag540__1786153271.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_83__mag197__1786298630.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_83__mag540__1786153271.mp3",
@@ -146694,11 +147358,19 @@
      "stability": 0,
      "chars": 306,
      "ts": 1786153271
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_83__mag197__1786298630.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 306,
+     "ts": 1786298630
     }
    ]
   },
   "523bfc69346238e41d008008_84": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_84__mag540__1786153275.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_84__mag197__1786298631.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_84__mag540__1786153275.mp3",
@@ -146707,11 +147379,19 @@
      "stability": 0,
      "chars": 234,
      "ts": 1786153275
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_84__mag197__1786298631.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 234,
+     "ts": 1786298631
     }
    ]
   },
   "523bfc69346238e41d008008_85~c0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c0__mag540__1786153281.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c0__mag197__1786298632.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c0__mag540__1786153281.mp3",
@@ -146720,11 +147400,19 @@
      "stability": 0,
      "chars": 28,
      "ts": 1786153281
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c0__mag197__1786298632.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1786298632
     }
    ]
   },
   "523bfc69346238e41d008008_85~c1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c1__mag540__1786153285.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c1__mag197__1786298633.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c1__mag540__1786153285.mp3",
@@ -146733,11 +147421,19 @@
      "stability": 0,
      "chars": 58,
      "ts": 1786153285
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_85~c1__mag197__1786298633.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 58,
+     "ts": 1786298633
     }
    ]
   },
   "523bfc69346238e41d008008_87": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_87__mag540__1786153293.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_87__mag197__1786298639.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_87__mag540__1786153293.mp3",
@@ -146746,11 +147442,19 @@
      "stability": 0,
      "chars": 20,
      "ts": 1786153293
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_87__mag197__1786298639.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 20,
+     "ts": 1786298639
     }
    ]
   },
   "523bfc69346238e41d008008_86": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_86__mag540__1786153289.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_86__mag197__1786298637.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_86__mag540__1786153289.mp3",
@@ -146759,11 +147463,19 @@
      "stability": 0,
      "chars": 148,
      "ts": 1786153289
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_86__mag197__1786298637.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 148,
+     "ts": 1786298637
     }
    ]
   },
   "523bfc69346238e41d008008_88": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_88__mag540__1786153297.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_88__mag197__1786298639.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_88__mag540__1786153297.mp3",
@@ -146772,11 +147484,19 @@
      "stability": 0,
      "chars": 19,
      "ts": 1786153297
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_88__mag197__1786298639.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1786298639
     }
    ]
   },
   "523bfc69346238e41d008008_89": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_89__mag540__1786153301.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_89__mag197__1786298641.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_89__mag540__1786153301.mp3",
@@ -146785,11 +147505,19 @@
      "stability": 0,
      "chars": 148,
      "ts": 1786153301
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_89__mag197__1786298641.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 148,
+     "ts": 1786298641
     }
    ]
   },
   "523bfc69346238e41d008008_90": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_90__mag540__1786153305.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_90__mag197__1786298643.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_90__mag540__1786153305.mp3",
@@ -146798,11 +147526,19 @@
      "stability": 0,
      "chars": 45,
      "ts": 1786153305
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_90__mag197__1786298643.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 45,
+     "ts": 1786298643
     }
    ]
   },
   "523bfc69346238e41d008008_92": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_92__mag540__1786153309.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_92__mag197__1786298643.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_92__mag540__1786153309.mp3",
@@ -146811,11 +147547,19 @@
      "stability": 0,
      "chars": 23,
      "ts": 1786153309
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_92__mag197__1786298643.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 23,
+     "ts": 1786298643
     }
    ]
   },
   "523bfc69346238e41d008008_93~c0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c0__mag540__1786153313.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c0__mag197__1786298644.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c0__mag540__1786153313.mp3",
@@ -146824,11 +147568,19 @@
      "stability": 0,
      "chars": 89,
      "ts": 1786153313
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c0__mag197__1786298644.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 89,
+     "ts": 1786298644
     }
    ]
   },
   "523bfc69346238e41d008008_93~c1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c1__mag540__1786153317.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c1__mag197__1786298648.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c1__mag540__1786153317.mp3",
@@ -146837,11 +147589,19 @@
      "stability": 0,
      "chars": 143,
      "ts": 1786153317
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_93~c1__mag197__1786298648.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 143,
+     "ts": 1786298648
     }
    ]
   },
   "523bfc69346238e41d008008_94": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_94__mag540__1786153321.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_94__mag197__1786298649.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_94__mag540__1786153321.mp3",
@@ -146850,11 +147610,19 @@
      "stability": 0,
      "chars": 197,
      "ts": 1786153321
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_94__mag197__1786298649.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 197,
+     "ts": 1786298649
     }
    ]
   },
   "523bfc69346238e41d008008_95": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_95__mag540__1786153325.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_95__mag197__1786298650.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_95__mag540__1786153325.mp3",
@@ -146863,11 +147631,19 @@
      "stability": 0,
      "chars": 139,
      "ts": 1786153325
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_95__mag197__1786298650.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 139,
+     "ts": 1786298650
     }
    ]
   },
   "523bfc69346238e41d008008_97": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_97__mag540__1786153329.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_97__mag197__1786298651.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_97__mag540__1786153329.mp3",
@@ -146876,11 +147652,19 @@
      "stability": 0,
      "chars": 101,
      "ts": 1786153329
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_97__mag197__1786298651.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 101,
+     "ts": 1786298651
     }
    ]
   },
   "523bfc69346238e41d008008_98~c0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c0__mag540__1786153333.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c0__mag197__1786298656.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c0__mag540__1786153333.mp3",
@@ -146889,11 +147673,19 @@
      "stability": 0,
      "chars": 10,
      "ts": 1786153333
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c0__mag197__1786298656.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 10,
+     "ts": 1786298656
     }
    ]
   },
   "523bfc69346238e41d008008_98~c1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c1__mag540__1786153338.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c1__mag197__1786298658.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c1__mag540__1786153338.mp3",
@@ -146902,11 +147694,19 @@
      "stability": 0,
      "chars": 42,
      "ts": 1786153338
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_98~c1__mag197__1786298658.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1786298658
     }
    ]
   },
   "523bfc69346238e41d008008_99": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_99__mag540__1786153342.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_99__mag197__1786298658.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_99__mag540__1786153342.mp3",
@@ -146915,11 +147715,19 @@
      "stability": 0,
      "chars": 91,
      "ts": 1786153342
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_99__mag197__1786298658.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 91,
+     "ts": 1786298658
     }
    ]
   },
   "523bfc69346238e41d008008_100": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_100__mag540__1786153346.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_100__mag197__1786298659.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_100__mag540__1786153346.mp3",
@@ -146928,11 +147736,19 @@
      "stability": 0,
      "chars": 134,
      "ts": 1786153346
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_100__mag197__1786298659.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 134,
+     "ts": 1786298659
     }
    ]
   },
   "523bfc69346238e41d008008_101": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_101__mag540__1786153350.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_101__mag197__1786298661.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_101__mag540__1786153350.mp3",
@@ -146941,11 +147757,19 @@
      "stability": 0,
      "chars": 55,
      "ts": 1786153350
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_101__mag197__1786298661.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 55,
+     "ts": 1786298661
     }
    ]
   },
   "523bfc69346238e41d008008_102~c0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c0__mag540__1786153354.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c0__mag197__1786298663.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c0__mag540__1786153354.mp3",
@@ -146954,11 +147778,19 @@
      "stability": 0,
      "chars": 145,
      "ts": 1786153354
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c0__mag197__1786298663.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 145,
+     "ts": 1786298663
     }
    ]
   },
   "523bfc69346238e41d008008_102~c1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c1__mag540__1786153358.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c1__mag197__1786298664.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c1__mag540__1786153358.mp3",
@@ -146967,11 +147799,19 @@
      "stability": 0,
      "chars": 56,
      "ts": 1786153358
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_102~c1__mag197__1786298664.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 56,
+     "ts": 1786298664
     }
    ]
   },
   "523bfc69346238e41d008008_104": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_104__mag540__1786153367.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_104__mag197__1786298666.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_104__mag540__1786153367.mp3",
@@ -146980,11 +147820,19 @@
      "stability": 0,
      "chars": 58,
      "ts": 1786153367
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_104__mag197__1786298666.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 58,
+     "ts": 1786298666
     }
    ]
   },
   "523bfc69346238e41d008008_103": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_103__mag540__1786153363.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_103__mag197__1786298666.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_103__mag540__1786153363.mp3",
@@ -146993,11 +147841,19 @@
      "stability": 0,
      "chars": 264,
      "ts": 1786153363
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_103__mag197__1786298666.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 264,
+     "ts": 1786298666
     }
    ]
   },
   "523bfc69346238e41d008008_105": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_105__mag540__1786153374.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_105__mag197__1786298668.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_105__mag540__1786153374.mp3",
@@ -147006,11 +147862,19 @@
      "stability": 0,
      "chars": 82,
      "ts": 1786153374
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_105__mag197__1786298668.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 82,
+     "ts": 1786298668
     }
    ]
   },
   "523bfc69346238e41d008008_106": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_106__mag540__1786153378.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_106__mag197__1786298674.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_106__mag540__1786153378.mp3",
@@ -147019,11 +147883,19 @@
      "stability": 0,
      "chars": 157,
      "ts": 1786153378
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_106__mag197__1786298674.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 157,
+     "ts": 1786298674
     }
    ]
   },
   "523bfc69346238e41d008008_107": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_107__mag540__1786153382.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_107__mag197__1786298676.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_107__mag540__1786153382.mp3",
@@ -147032,11 +147904,19 @@
      "stability": 0,
      "chars": 58,
      "ts": 1786153382
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_107__mag197__1786298676.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 58,
+     "ts": 1786298676
     }
    ]
   },
   "523bfc69346238e41d008008_108~c0": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c0__mag540__1786153386.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c0__mag197__1786298677.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c0__mag540__1786153386.mp3",
@@ -147045,11 +147925,19 @@
      "stability": 0,
      "chars": 57,
      "ts": 1786153386
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c0__mag197__1786298677.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 57,
+     "ts": 1786298677
     }
    ]
   },
   "523bfc69346238e41d008008_108~c1": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c1__mag540__1786153390.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c1__mag197__1786298678.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c1__mag540__1786153390.mp3",
@@ -147058,11 +147946,19 @@
      "stability": 0,
      "chars": 154,
      "ts": 1786153390
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_108~c1__mag197__1786298678.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 154,
+     "ts": 1786298678
     }
    ]
   },
   "523bfc69346238e41d008008_109": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_109__mag540__1786153394.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_109__mag197__1786298681.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_109__mag540__1786153394.mp3",
@@ -147071,11 +147967,19 @@
      "stability": 0,
      "chars": 42,
      "ts": 1786153394
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_109__mag197__1786298681.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 42,
+     "ts": 1786298681
     }
    ]
   },
   "523bfc69346238e41d008008_110": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_110__mag540__1786153398.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_110__mag197__1786298681.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_110__mag540__1786153398.mp3",
@@ -147084,11 +147988,19 @@
      "stability": 0,
      "chars": 202,
      "ts": 1786153398
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_110__mag197__1786298681.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 202,
+     "ts": 1786298681
     }
    ]
   },
   "523bfc69346238e41d008008_111": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_111__mag540__1786153402.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_111__mag197__1786298682.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_111__mag540__1786153402.mp3",
@@ -147097,11 +148009,19 @@
      "stability": 0,
      "chars": 102,
      "ts": 1786153402
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_111__mag197__1786298682.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 102,
+     "ts": 1786298682
     }
    ]
   },
   "523bfc69346238e41d008008_113": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_113__mag540__1786153407.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_113__mag197__1786298686.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_113__mag540__1786153407.mp3",
@@ -147110,11 +148030,19 @@
      "stability": 0,
      "chars": 27,
      "ts": 1786153407
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_113__mag197__1786298686.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 27,
+     "ts": 1786298686
     }
    ]
   },
   "523bfc69346238e41d008008_114": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_114__mag540__1786153411.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_114__mag197__1786298687.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_114__mag540__1786153411.mp3",
@@ -147123,11 +148051,19 @@
      "stability": 0,
      "chars": 39,
      "ts": 1786153411
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_114__mag197__1786298687.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 39,
+     "ts": 1786298687
     }
    ]
   },
   "523bfc69346238e41d008008_115": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_115__mag540__1786153415.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_115__mag197__1786298690.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_115__mag540__1786153415.mp3",
@@ -147136,11 +148072,19 @@
      "stability": 0,
      "chars": 58,
      "ts": 1786153415
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_115__mag197__1786298690.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 58,
+     "ts": 1786298690
     }
    ]
   },
   "523bfd34346238e41d0080bf_1~c0": {
-   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c0__mag540__1786153419.mp3",
+   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c0__mag197__1786298691.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c0__mag540__1786153419.mp3",
@@ -147149,11 +148093,19 @@
      "stability": 0,
      "chars": 130,
      "ts": 1786153419
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c0__mag197__1786298691.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 130,
+     "ts": 1786298691
     }
    ]
   },
   "523bfd34346238e41d0080bf_1~c1": {
-   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c1__mag540__1786153423.mp3",
+   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c1__mag197__1786298693.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c1__mag540__1786153423.mp3",
@@ -147162,11 +148114,19 @@
      "stability": 0,
      "chars": 70,
      "ts": 1786153423
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_1~c1__mag197__1786298693.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 70,
+     "ts": 1786298693
     }
    ]
   },
   "523bfd34346238e41d0080bf_3~c0": {
-   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c0__mag540__1786153427.mp3",
+   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c0__mag197__1786298694.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c0__mag540__1786153427.mp3",
@@ -147175,11 +148135,19 @@
      "stability": 0,
      "chars": 56,
      "ts": 1786153427
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c0__mag197__1786298694.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 56,
+     "ts": 1786298694
     }
    ]
   },
   "523bfd34346238e41d0080bf_3~c1": {
-   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c1__mag540__1786153431.mp3",
+   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c1__mag197__1786298696.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c1__mag540__1786153431.mp3",
@@ -147188,11 +148156,19 @@
      "stability": 0,
      "chars": 143,
      "ts": 1786153431
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_3~c1__mag197__1786298696.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 143,
+     "ts": 1786298696
     }
    ]
   },
   "523bfd34346238e41d0080bf_8": {
-   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_8__mag540__1786153435.mp3",
+   "selected": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_8__mag197__1786298697.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_8__mag540__1786153435.mp3",
@@ -147201,11 +148177,19 @@
      "stability": 0,
      "chars": 47,
      "ts": 1786153435
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfd34346238e41d0080bf_8__mag197__1786298697.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 47,
+     "ts": 1786298697
     }
    ]
   },
   "523bfc69346238e41d008008_105#m": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#m__mag540__1786224200.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#m__mag197__1786298670.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#m__mag540__1786224200.mp3",
@@ -147214,11 +148198,19 @@
      "stability": 0,
      "chars": 72,
      "ts": 1786224200
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#m__mag197__1786298670.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 72,
+     "ts": 1786298670
     }
    ]
   },
   "523bfc69346238e41d008008_105#f": {
-   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#f__mag540__1786224204.mp3",
+   "selected": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#f__mag197__1786298672.mp3",
    "takes": [
     {
      "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#f__mag540__1786224204.mp3",
@@ -147227,6 +148219,14 @@
      "stability": 0,
      "chars": 74,
      "ts": 1786224204
+    },
+    {
+     "file": "name_altugburakgazi/takes/523bfc69346238e41d008008_105#f__mag197__1786298672.mp3",
+     "voiceId": "mag_197",
+     "voiceName": "Mehmet Arslan",
+     "stability": 0,
+     "chars": 74,
+     "ts": 1786298672
     }
    ]
   }
