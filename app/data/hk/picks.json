@@ -1047,10 +1047,6 @@
   "voiceId": "mag_284",
   "voiceName": "Liam Cooper"
  },
- "name_steelarmlu": {
-  "voiceId": "mag_26",
-  "voiceName": "Austin Lane"
- },
  "name_vchu": {
   "voiceId": "mag_500",
   "voiceName": "Santa Claus"
@@ -1058,22 +1054,6 @@
  "name_walledcityresident": {
   "voiceId": "mag_445",
   "voiceName": "Sophie Walker"
- },
- "name_shenzhenjoe": {
-  "voiceId": "mag_713",
-  "voiceName": "Pulcherrima"
- },
- "name_gimmesomenuyen888": {
-  "voiceId": "mag_719",
-  "voiceName": "Sulafat"
- },
- "name_whiteprism": {
-  "voiceId": "mag_721",
-  "voiceName": "Vindemiatrix"
- },
- "name_jivebert": {
-  "voiceId": "mag_722",
-  "voiceName": "Zephyr"
  },
  "name_pinkyswear": {
   "voiceId": "mag_703",
@@ -1095,21 +1075,9 @@
   "voiceId": "mag_710",
   "voiceName": "Laomedeia"
  },
- "name_freedomcowboy": {
-  "voiceId": "mag_711",
-  "voiceName": "Leda"
- },
  "name_ratstar123": {
   "voiceId": "mag_700",
   "voiceName": "Autonoe"
- },
- "name_snozzbert": {
-  "voiceId": "mag_701",
-  "voiceName": "Callirrhoe"
- },
- "name_amonita": {
-  "voiceId": "mag_723",
-  "voiceName": "Zubenelgenubi"
  },
  "name_bloodmeridian": {
   "voiceId": "mag_694",
@@ -1175,17 +1143,9 @@
   "voiceId": "mag_361",
   "voiceName": "Olivia Roberts"
  },
- "name_icysasha": {
-  "voiceId": "mag_596",
-  "voiceName": "Lauren Parker"
- },
  "name_inxtremis": {
   "voiceId": "mag_697",
   "voiceName": "Algieba"
- },
- "name_jackiechen": {
-  "voiceId": "mag_698",
-  "voiceName": "Alnilam"
  },
  "name_pandacuddles49": {
   "voiceId": "mag_702",
@@ -1199,10 +1159,6 @@
   "voiceId": "mag_706",
   "voiceName": "Fenrir"
  },
- "name_wharfrat": {
-  "voiceId": "mag_532",
-  "voiceName": "Nyra- Robot Voice"
- },
  "name_anonymous9746": {
   "voiceId": "mag_631",
   "voiceName": "Rhea Sterling"
@@ -1210,18 +1166,6 @@
  "name_beeli": {
   "voiceId": "mag_695",
   "voiceName": "Achird"
- },
- "name_blackjack": {
-  "voiceId": "mag_696",
-  "voiceName": "Algenib"
- },
- "name_camellia": {
-  "voiceId": "mag_225",
-  "voiceName": "Claire van der Merwe"
- },
- "name_captainscone": {
-  "voiceId": "mag_316",
-  "voiceName": "Merry Cooper"
  },
  "name_gustoes": {
   "voiceId": "mag_366",
@@ -1239,17 +1183,9 @@
   "voiceId": "mag_260",
   "voiceName": "Theodore William"
  },
- "name_muffintopninja": {
-  "voiceId": "mag_261",
-  "voiceName": "Harper Olivia"
- },
  "name_rockollektor": {
   "voiceId": "mag_281",
   "voiceName": "Logan Anderson"
- },
- "name_runswithscissors2056": {
-  "voiceId": "mag_332",
-  "voiceName": "Charlotte Winslow"
  },
  "name_saywhut12358": {
   "voiceId": "mag_388",
@@ -1274,10 +1210,6 @@
  "name_archaeopteryx": {
   "voiceId": "mag_245",
   "voiceName": "Ava Madison"
- },
- "name_bookishbetty": {
-  "voiceId": "mag_252",
-  "voiceName": "Noah Jackson"
  },
  "name_codex": {
   "voiceId": "mag_300",
@@ -1319,14 +1251,6 @@
   "voiceId": "mag_44",
   "voiceName": "Chloe Bennett"
  },
- "name_happyvalleygirl": {
-  "voiceId": "mag_524",
-  "voiceName": "Lord Nytherion"
- },
- "name_mistresstiny": {
-  "voiceId": "mag_796",
-  "voiceName": "Winston Brown"
- },
  "name_nuyenk": {
   "voiceId": "mag_185",
   "voiceName": "Amelia Carter"
@@ -1347,10 +1271,6 @@
   "voiceId": "mag_164",
   "voiceName": "Maya Collins"
  },
- "name_redqueen": {
-  "voiceId": "mag_297",
-  "voiceName": "Henry Whitaker"
- },
  "name_vanisher": {
   "voiceId": "mag_298",
   "voiceName": "Amelia Beckett"
@@ -1370,10 +1290,6 @@
  "name_bornintheucas": {
   "voiceId": "mag_31",
   "voiceName": "Jake Morrison"
- },
- "name_brother6": {
-  "voiceId": "mag_48",
-  "voiceName": "Lily Evans"
  },
  "name_bulgari": {
   "voiceId": "mag_180",
@@ -1406,10 +1322,6 @@
  "name_fenghuang": {
   "voiceId": "mag_176",
   "voiceName": "Connor Keane"
- },
- "name_funkmastermind": {
-  "voiceId": "mag_228",
-  "voiceName": "Jenny Steyn"
  },
  "name_giantrobotspewpewpew": {
   "voiceId": "mag_276",
@@ -1447,14 +1359,6 @@
   "voiceId": "mag_364",
   "voiceName": "Sophia Morgan"
  },
- "name_makatimike": {
-  "voiceId": "mag_288",
-  "voiceName": "Matthew Wilson"
- },
- "name_mrprowess": {
-  "voiceId": "mag_290",
-  "voiceName": "Charlotte Harrington"
- },
  "name_peaches": {
   "voiceId": "mag_303",
   "voiceName": "Isla Kensington"
@@ -1467,17 +1371,9 @@
   "voiceId": "mag_533",
   "voiceName": "Zeke Rivers"
  },
- "name_princessreyes": {
-  "voiceId": "mag_154",
-  "voiceName": "Lexi Parker"
- },
  "name_rollinthunder": {
   "voiceId": "mag_206",
   "voiceName": "Henry Carter"
- },
- "name_sammyboy": {
-  "voiceId": "mag_501",
-  "voiceName": "Noah Bailey"
  },
  "name_sandwichesaresexy": {
   "voiceId": "mag_841",
@@ -1486,10 +1382,6 @@
  "name_shandytown": {
   "voiceId": "mag_684",
   "voiceName": "Avery Quinn"
- },
- "name_siryumyumcha": {
-  "voiceId": "mag_34",
-  "voiceName": "Mia Brooks"
  },
  "name_skry00": {
   "voiceId": "mag_311",
@@ -1511,17 +1403,9 @@
   "voiceId": "mag_181",
   "voiceName": "Lucas Bennett"
  },
- "name_thousandyearkevin": {
-  "voiceId": "mag_296",
-  "voiceName": "James Smith"
- },
  "name_tigerbomb": {
   "voiceId": "mag_503",
   "voiceName": "Rachel Monroe"
- },
- "name_titadarling": {
-  "voiceId": "mag_583",
-  "voiceName": "Reginald Ashworth"
  },
  "name_traumahound": {
   "voiceId": "mag_27",
@@ -1550,5 +1434,121 @@
  "name_yangsy": {
   "voiceId": "mag_339",
   "voiceName": "Infernal Colossus"
+ },
+ "name_shenzhenjoe": {
+  "voiceId": "mag_723",
+  "voiceName": "Zubenelgenubi"
+ },
+ "name_gimmesomenuyen888": {
+  "voiceId": "mag_698",
+  "voiceName": "Alnilam"
+ },
+ "name_whiteprism": {
+  "voiceId": "mag_696",
+  "voiceName": "Algenib"
+ },
+ "name_jivebert": {
+  "voiceId": "mag_252",
+  "voiceName": "Noah Jackson"
+ },
+ "name_freedomcowboy": {
+  "voiceId": "mag_524",
+  "voiceName": "Lord Nytherion"
+ },
+ "name_snozzbert": {
+  "voiceId": "mag_796",
+  "voiceName": "Winston Brown"
+ },
+ "name_amonita": {
+  "voiceId": "mag_713",
+  "voiceName": "Pulcherrima"
+ },
+ "name_icysasha": {
+  "voiceId": "mag_719",
+  "voiceName": "Sulafat"
+ },
+ "name_jackiechen": {
+  "voiceId": "mag_297",
+  "voiceName": "Henry Whitaker"
+ },
+ "name_wharfrat": {
+  "voiceId": "mag_288",
+  "voiceName": "Matthew Wilson"
+ },
+ "name_blackjack": {
+  "voiceId": "mag_501",
+  "voiceName": "Noah Bailey"
+ },
+ "name_camellia": {
+  "voiceId": "mag_721",
+  "voiceName": "Vindemiatrix"
+ },
+ "name_captainscone": {
+  "voiceId": "mag_296",
+  "voiceName": "James Smith"
+ },
+ "name_muffintopninja": {
+  "voiceId": "mag_583",
+  "voiceName": "Reginald Ashworth"
+ },
+ "name_runswithscissors2056": {
+  "voiceId": "mag_722",
+  "voiceName": "Zephyr"
+ },
+ "name_bookishbetty": {
+  "voiceId": "mag_711",
+  "voiceName": "Leda"
+ },
+ "name_happyvalleygirl": {
+  "voiceId": "mag_701",
+  "voiceName": "Callirrhoe"
+ },
+ "name_mistresstiny": {
+  "voiceId": "mag_596",
+  "voiceName": "Lauren Parker"
+ },
+ "name_redqueen": {
+  "voiceId": "mag_532",
+  "voiceName": "Nyra- Robot Voice"
+ },
+ "name_brother6": {
+  "voiceId": "mag_26",
+  "voiceName": "Austin Lane"
+ },
+ "name_funkmastermind": {
+  "voiceId": "mag_295",
+  "voiceName": "William Brown"
+ },
+ "name_makatimike": {
+  "voiceId": "mag_385",
+  "voiceName": "Ethan Fraser"
+ },
+ "name_mrprowess": {
+  "voiceId": "mag_307",
+  "voiceName": "Henry Fletcher"
+ },
+ "name_princessreyes": {
+  "voiceId": "mag_225",
+  "voiceName": "Claire van der Merwe"
+ },
+ "name_sammyboy": {
+  "voiceId": "mag_292",
+  "voiceName": "Ethan Miller"
+ },
+ "name_siryumyumcha": {
+  "voiceId": "mag_264",
+  "voiceName": "Caleb Ryan"
+ },
+ "name_thousandyearkevin": {
+  "voiceId": "mag_502",
+  "voiceName": "Logan Price"
+ },
+ "name_titadarling": {
+  "voiceId": "mag_316",
+  "voiceName": "Merry Cooper"
+ },
+ "name_steelarmlu": {
+  "voiceId": "mag_519",
+  "voiceName": "Basil Thornecroft"
  }
 }

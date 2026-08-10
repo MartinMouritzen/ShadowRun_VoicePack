@@ -394,13 +394,15 @@
    "id": "name_blackjack",
    "name": "BlackJack",
    "kind": "bbs",
-   "posts": 3
+   "posts": 3,
+   "gender": "male"
   },
   "RedQueen": {
    "id": "name_redqueen",
    "name": "RedQueen",
    "kind": "bbs",
-   "posts": 2
+   "posts": 2,
+   "gender": "female"
   },
   "Dongjiang": {
    "id": "name_dongjiang",
@@ -412,7 +414,8 @@
    "id": "name_wharfrat",
    "name": "Wharf Rat",
    "kind": "bbs",
-   "posts": 4
+   "posts": 4,
+   "gender": "male"
   },
   "H34v3nShot": {
    "id": "name_h34v3nshot",
@@ -424,7 +427,8 @@
    "id": "name_freedomcowboy",
    "name": "Freedom Cowboy",
    "kind": "bbs",
-   "posts": 8
+   "posts": 8,
+   "gender": "male"
   },
   "MatrixBard": {
    "id": "name_matrixbard",
@@ -436,7 +440,8 @@
    "id": "name_jivebert",
    "name": "Jivebert",
    "kind": "bbs",
-   "posts": 12
+   "posts": 12,
+   "gender": "male"
   },
   "T3nn1s0n": {
    "id": "name_t3nn1s0n",
@@ -460,7 +465,8 @@
    "id": "name_brother6",
    "name": "Brother-6",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "male"
   },
   "Fenghuang": {
    "id": "name_fenghuang",
@@ -478,7 +484,8 @@
    "id": "name_snozzbert",
    "name": "Snozzbert",
    "kind": "bbs",
-   "posts": 8
+   "posts": 8,
+   "gender": "male"
   },
   "HarbourRat": {
    "id": "name_harbourrat",
@@ -490,7 +497,8 @@
    "id": "name_shenzhenjoe",
    "name": "ShenzhenJoe",
    "kind": "bbs",
-   "posts": 29
+   "posts": 29,
+   "gender": "male"
   },
   "HotPot888": {
    "id": "name_hotpot888",
@@ -502,7 +510,8 @@
    "id": "name_whiteprism",
    "name": "White Prism",
    "kind": "bbs",
-   "posts": 13
+   "posts": 13,
+   "gender": "male"
   },
   "Blood Meridian": {
    "id": "name_bloodmeridian",
@@ -526,7 +535,8 @@
    "id": "name_gimmesomenuyen888",
    "name": "gimmesomenuyen888",
    "kind": "bbs",
-   "posts": 21
+   "posts": 21,
+   "gender": "male"
   },
   "AmaZ00m": {
    "id": "name_amaz00m",
@@ -538,7 +548,8 @@
    "id": "name_captainscone",
    "name": "CaptainScone",
    "kind": "bbs",
-   "posts": 3
+   "posts": 3,
+   "gender": "male"
   },
   "JiveBot": {
    "id": "name_jivebot",
@@ -616,7 +627,8 @@
    "id": "name_princessreyes",
    "name": "PrincessReyes",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "female"
   },
   "TalagaTalaga": {
    "id": "name_talagatalaga",
@@ -628,19 +640,22 @@
    "id": "name_makatimike",
    "name": "MakatiMike",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "male"
   },
   "TitaDarling": {
    "id": "name_titadarling",
    "name": "TitaDarling",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "female"
   },
   "SammyBoy": {
    "id": "name_sammyboy",
    "name": "SammyBoy",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "male"
   },
   "HappyDays": {
    "id": "name_happydays",
@@ -652,13 +667,15 @@
    "id": "name_runswithscissors2056",
    "name": "runswithscissors2056",
    "kind": "bbs",
-   "posts": 3
+   "posts": 3,
+   "gender": "female"
   },
   "MuffinTopNinja": {
    "id": "name_muffintopninja",
    "name": "MuffinTopNinja",
    "kind": "bbs",
-   "posts": 3
+   "posts": 3,
+   "gender": "male"
   },
   "shankmeister007": {
    "id": "name_shankmeister007",
@@ -694,7 +711,8 @@
    "id": "name_siryumyumcha",
    "name": "SirYumYumCha",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "male"
   },
   "Maofuu": {
    "id": "name_maofuu",
@@ -712,7 +730,8 @@
    "id": "name_amonita",
    "name": "Amonita",
    "kind": "bbs",
-   "posts": 7
+   "posts": 7,
+   "gender": "female"
   },
   "Tungsten": {
    "id": "name_tungsten",
@@ -766,7 +785,8 @@
    "id": "name_camellia",
    "name": "Camellia",
    "kind": "bbs",
-   "posts": 3
+   "posts": 3,
+   "gender": "female"
   },
   "CrimsonComet": {
    "id": "name_crimsoncomet",
@@ -844,7 +864,8 @@
    "id": "name_mistresstiny",
    "name": "MistressTiny",
    "kind": "bbs",
-   "posts": 2
+   "posts": 2,
+   "gender": "female"
   },
   "sandwichesaresexy": {
    "id": "name_sandwichesaresexy",
@@ -922,7 +943,8 @@
    "id": "name_jackiechen",
    "name": "Jackie Chen",
    "kind": "bbs",
-   "posts": 4
+   "posts": 4,
+   "gender": "male"
   },
   "dragoneyes": {
    "id": "name_dragoneyes",
@@ -958,7 +980,8 @@
    "id": "name_thousandyearkevin",
    "name": "Thousand Year Kevin",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "male"
   },
   "WHAMpoan2056": {
    "id": "name_whampoan2056",
@@ -1000,7 +1023,8 @@
    "id": "name_funkmastermind",
    "name": "Funk Mastermind",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "male"
   },
   "shandytown": {
    "id": "name_shandytown",
@@ -1018,7 +1042,8 @@
    "id": "name_mrprowess",
    "name": "MrProwess",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "gender": "male"
   },
   "NuyenK": {
    "id": "name_nuyenk",
@@ -1042,13 +1067,15 @@
    "id": "name_happyvalleygirl",
    "name": "happyvalleygirl",
    "kind": "bbs",
-   "posts": 2
+   "posts": 2,
+   "gender": "female"
   },
   "IcySasha": {
    "id": "name_icysasha",
    "name": "IcySasha",
    "kind": "bbs",
-   "posts": 4
+   "posts": 4,
+   "gender": "female"
   },
   "tigerbomb": {
    "id": "name_tigerbomb",
@@ -1060,7 +1087,8 @@
    "id": "name_bookishbetty",
    "name": "Bookish Betty",
    "kind": "bbs",
-   "posts": 2
+   "posts": 2,
+   "gender": "female"
   },
   "adeptitude": {
    "id": "name_adeptitude",
