@@ -1,0 +1,2009 @@
+{
+ "_scene_sets": {},
+ "segments": {
+  "54cff281303031f808007fca_32~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He'd better. If he doesn't, it's all of our asses.",
+    "f": "She'd better. If she doesn't, it's all of our asses."
+   }
+  },
+  "54d96c4e3030316814006f9b_226~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Ha. Funny guy.",
+    "f": "Ha. Funny gal."
+   }
+  },
+  "54eb9f4a3430617007000f3f_4~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Under him breath.",
+    "f": "Under her breath."
+   }
+  },
+  "54ecfca8343061e01b00108f_5~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You heard the man. If you know what's good for ya, you'll clap your trap, chicken man.",
+    "f": "You heard the woman. If you know what's good for ya, you'll clap your trap, chicken man."
+   }
+  },
+  "5536c5c5323431e810007d45_36": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "It's all right, Izz. He's right - it *was* a bad idea. One that Malvina's to blame for. I gave her the damned thing to fight Tsui. I didn't tell her to keep it.",
+    "f": "It's all right, Izz. She's right - it *was* a bad idea. One that Malvina's to blame for. I gave her the damned thing to fight Tsui. I didn't tell her to keep it."
+   }
+  },
+  "5543c201323431601600390f_12~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Helpless tears stream down his cheeks, clinging to his skin like beads of dew on a leaf.",
+    "f": "Helpless tears stream down her cheeks, clinging to her skin like beads of dew on a leaf."
+   }
+  },
+  "555a5164323437080f00276b_77": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+    "f": "She's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way."
+   }
+  },
+  "555a5164323437080f00276b_78": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So I've made a decision. If he *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can die with us.",
+    "f": "So I've made a decision. If she *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can die with us."
+   }
+  },
+  "561444d664366150150022f8_50": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You heard the man, Pang! We want chicken parts and an ancient rock, and we want 'em *now.* With extra sauce, and a bucket of lobster rolls, and a whole fistful of napkins! Wet wipes, too, if you have them!",
+    "f": "You heard the woman, Pang! We want chicken parts and an ancient rock, and we want 'em *now.* With extra sauce, and a bucket of lobster rolls, and a whole fistful of napkins! Wet wipes, too, if you have them!"
+   }
+  },
+  "5633e0113063644416006cf6_18": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He means that we're on the top floor of one of the most secure buildings in Hong Kong. You think one freelancer and some rank and file Fuchi guards are enough to stop us? They're not paying you enough to take on a crew like us.",
+    "f": "She means that we're on the top floor of one of the most secure buildings in Hong Kong. You think one freelancer and some rank and file Fuchi guards are enough to stop us? They're not paying you enough to take on a crew like us."
+   }
+  },
+  "563a7eb8306364fc140006b9_88": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Uh-oh. Now you've got him riled up. Seriously, lady, don't push him - this man is merciless. You're pretty lucky we're all *friends* here.",
+    "f": "Uh-oh. Now you've got her riled up. Seriously, lady, don't push her - this woman is merciless. You're pretty lucky we're all *friends* here."
+   }
+  },
+  "566f0c4f643661780f0042a2_17": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He can't, Duncan. Not if he wants the team to survive. I get where you're coming from, but you're putting yourself ahead of everyone else on this team, and that shit ain't right.",
+    "f": "She can't, Duncan. Not if she wants the team to survive. I get where you're coming from, but you're putting yourself ahead of everyone else on this team, and that shit ain't right."
+   }
+  },
+  "54c007ae306364f4160019ce_2": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What is wrong with you, man?! D'you usually dip into people's wine collections while illegally searching their houses?",
+    "f": "What is wrong with you, woman?! D'you usually dip into people's wine collections while illegally searching their houses?"
+   }
+  },
+  "54cff281303031f808007fca_31": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He'll behave himself. Won't you?",
+    "f": "She'll behave herself. Won't you?"
+   }
+  },
+  "54d3f034323437f057003738_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I'd listen to him if I were you. You turn us away, you might piss Cheng off enough for those soldiers to come knocking.",
+    "f": "I'd listen to her if I were you. You turn us away, you might piss Cheng off enough for those soldiers to come knocking."
+   }
+  },
+  "54d96ae73030316814006f45_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, Ray. I don't know what sort of justice you're looking for, but coming here alone... facing Qian Ya... I was wrong, little man. You're no coward.",
+    "f": "She's right, Ray. I don't know what sort of justice you're looking for, but coming here alone... facing Qian Ya... I was wrong, little man. You're no coward."
+   }
+  },
+  "55495f8a303031a814005481_38~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Don't mess with me, man.",
+    "f": "Don't mess with me, woman."
+   }
+  },
+  "55495f8a303031a814005481_41~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Don't mess with me, man. You know I've got anger management issues.",
+    "f": "Don't mess with me, woman. You know I've got anger management issues."
+   }
+  },
+  "55496bb3303031a8140055ca_92": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Why him?",
+    "f": "Why her?"
+   }
+  },
+  "555a5164323437080f00276b_79": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+    "f": "She's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way."
+   }
+  },
+  "555a5164323437080f00276b_80": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So I've made a decision. If he *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can die with us.",
+    "f": "So I've made a decision. If she *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can die with us."
+   }
+  },
+  "561d66de306364f42300703c_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You heard the man. We're in this up to our armpits already, and we've got no intention of turning back now. All that you're doing right now is pissing me off.",
+    "f": "You heard the woman. We're in this up to our armpits already, and we've got no intention of turning back now. All that you're doing right now is pissing me off."
+   }
+  },
+  "563a7eb8306364fc140006b9_87": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Don't test him, lady. I've seen this man break tables in half with a kick - by accident. Thankfully, we're peaceful people... given the right motivation.",
+    "f": "Don't test her, lady. I've seen this woman break tables in half with a kick - by accident. Thankfully, we're peaceful people... given the right motivation."
+   }
+  },
+  "56ad342b626632980d007eb8_7~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "But *he* doesn't fuckin' talk to me on the trip.",
+    "f": "But *she* doesn't fuckin' talk to me on the trip."
+   }
+  },
+  "54d96b813030316814006f66_97": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I'm surprised. You're awfully good at killing for a man who wants to live an ordinary life.",
+    "f": "I'm surprised. You're awfully good at killing for a woman who wants to live an ordinary life."
+   }
+  },
+  "5530352a323431c41a003ddb_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "That wasn't what he meant. Tell us about the devil rats.",
+    "f": "That wasn't what she meant. Tell us about the devil rats."
+   }
+  },
+  "5543c201323431601600390f_43": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He isn't second guessing anything. We haven't seen enough to make a decision yet. You may have, but *we* haven't.",
+    "f": "She isn't second guessing anything. We haven't seen enough to make a decision yet. You may have, but *we* haven't."
+   }
+  },
+  "555a5164323437080f00276b_49": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+    "f": "She's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way."
+   }
+  },
+  "557650c5623666c02b003595_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "This is the man I told you about. He needs the software that you developed to inhibit your cortical implant.",
+    "f": "This is the woman I told you about. She needs the software that you developed to inhibit your cortical implant."
+   }
+  },
+  "561d66de306364f42300703c_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You heard the man, lady. If you want us to leave, you're out of luck. We're deep in a corporate black laboratory, and we shot the place up on our way in. What makes you think that we're gonna stop now?",
+    "f": "You heard the woman, lady. If you want us to leave, you're out of luck. We're deep in a corporate black laboratory, and we shot the place up on our way in. What makes you think that we're gonna stop now?"
+   }
+  },
+  "563a7eb8306364fc140006b9_91": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "It's a good thing we're all *friends* here, lady. I've seen this man rip the horns off a troll with his bare hands.",
+    "f": "It's a good thing we're all *friends* here, lady. I've seen this woman rip the horns off a troll with her bare hands."
+   }
+  },
+  "566f0c4f643661780f0042a2_23": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He can't, Duncan. Not if he wants the team to survive. I get where you're coming from, but you're being selfish. The needs of the team comes first.",
+    "f": "She can't, Duncan. Not if she wants the team to survive. I get where you're coming from, but you're being selfish. The needs of the team comes first."
+   }
+  },
+  "54b99b13306364e41b000280_7~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Talk to my agent. He can fill you in on the details.",
+    "f": "Talk to my agent. She can fill you in on the details."
+   }
+  },
+  "555a5164323437080f00276b_81": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+    "f": "She's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way."
+   }
+  },
+  "555a5164323437080f00276b_82": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So I've made a decision. If he *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can perish with us. I look forward to laying open as many of your kind as I can before I die.",
+    "f": "So I've made a decision. If she *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can perish with us. I look forward to laying open as many of your kind as I can before I die."
+   }
+  },
+  "562144fc643661e80d004512_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He really is. And if things should go awry, we will simply kill anyone who resists. It is a remarkably efficient solution.",
+    "f": "She really is. And if things should go awry, we will simply kill anyone who resists. It is a remarkably efficient solution."
+   }
+  },
+  "566f0c4f643661780f0042a2_32": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "The shadows have forged you into the man that you are today. To retreat back to the person you used to be would be a mistake. I would not make such a choice. Nor would I associate with anyone who would.",
+    "f": "The shadows have forged you into the woman that you are today. To retreat back to the person you used to be would be a mistake. I would not make such a choice. Nor would I associate with anyone who would."
+   }
+  },
+  "54d96c983030316814006fac_60": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So sorry to have kept you waiting, sir...?",
+    "f": "So sorry to have kept you waiting, ma'am...?"
+   }
+  },
+  "54d96c983030316814006fac_290": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Now think of the circumstances surrounding your own birth, and the building blocks that shaped you into the man you are today. Your mother and father exchanged fluids - sloppily, no doubt, and with all the mindless abandon that such biological imperatives entail.",
+    "f": "Now think of the circumstances surrounding your own birth, and the building blocks that shaped you into the woman you are today. Your mother and father exchanged fluids - sloppily, no doubt, and with all the mindless abandon that such biological imperatives entail."
+   }
+  },
+  "54d96c983030316814006fac_477": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "A man after my own heart. I wish that others were so open-minded. I am not a broken thing to be fixed. I'm exactly what I was meant to be. You don't know how rare it is to find others who accept me as such.",
+    "f": "A woman after my own heart. I wish that others were so open-minded. I am not a broken thing to be fixed. I'm exactly what I was meant to be. You don't know how rare it is to find others who accept me as such."
+   }
+  },
+  "54d96c983030316814006fac_496": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Of course it does. You do not share our selective advantage. You see what is to come, and it repels you. For a man in your position, this is only natural. Revulsion is the expected response.",
+    "f": "Of course it does. You do not share our selective advantage. You see what is to come, and it repels you. For a woman in your position, this is only natural. Revulsion is the expected response."
+   }
+  },
+  "555a5164323437080f00276b_83": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way.",
+    "f": "She's right. From our perspective, there isn't much difference between one demon-god ruling the Walled City and a hundred. The place is doomed either way."
+   }
+  },
+  "555a5164323437080f00276b_84": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So I've made a decision. If he *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can die with us.",
+    "f": "So I've made a decision. If she *doesn't* go through with this, *I* will. You need to go back where you came from, or I'll open the choke on the machine and you can die with us."
+   }
+  },
+  "54d545e23030312c0c00300c_49~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Hey, my fellow countryman returns! You want some chips and dip? Help yourself, it's on the engine block.",
+    "f": "Hey, my fellow countrywoman returns! You want some chips and dip? Help yourself, it's on the engine block."
+   }
+  },
+  "54d545e23030312c0c00300c_319": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "That's about all a guy can do.",
+    "f": "That's about all a gal can do."
+   }
+  },
+  "54d5743c3030314013003009_112": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yo, you got it. Anybody ever tell you you're kinda a spooky guy? You kinda are.",
+    "f": "Yo, you got it. Anybody ever tell you you're kinda a spooky gal? You kinda are."
+   }
+  },
+  "54d5743c3030314013003009_153~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're a guy who appreciates the good stuff. I like that.",
+    "f": "You're a gal who appreciates the good stuff. I like that."
+   }
+  },
+  "565f3a6b62663208210043e7_58": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "[No. I was against you having him scanned in the first place, remember? Why would I give authorization for two different mages to poke around in his brain?] - Qiu_Fiona",
+    "f": "[No. I was against you having her scanned in the first place, remember? Why would I give authorization for two different mages to poke around in her brain?] - Qiu_Fiona"
+   }
+  },
+  "565f3a6b62663208210043e7_60": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "[I didn't authorize anything, Lam. And unless we have a second magical interrogator that I don't know about on the task force, I'm gonna go ahead and guess that he's making it up.] - Qiu_Fiona",
+    "f": "[I didn't authorize anything, Lam. And unless we have a second magical interrogator that I don't know about on the task force, I'm gonna go ahead and guess that she's making it up.] - Qiu_Fiona"
+   }
+  },
+  "566f0c4f643661780f0042a2_26": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Please repeat your statement, sir.",
+    "f": "Please repeat your statement, ma'am."
+   }
+  },
+  "566f0c4f643661780f0042a2_28": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Please stay on the line, sir. I'm going to get my manager--",
+    "f": "Please stay on the line, ma'am. I'm going to get my manager--"
+   }
+  },
+  "54d56f243030316013003007_55": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh! A man after my own heart!",
+    "f": "Oh! A woman after my own heart!"
+   }
+  },
+  "54d56f243030316013003007_169": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You, sir, are an asshole.",
+    "f": "You, ma'am, are an asshole."
+   }
+  },
+  "54d56f243030316013003007_218": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I'm glad you understand... you're a scholar as well as a gentleman!",
+    "f": "I'm glad you understand... you're a scholar as well as a gentlewoman!"
+   }
+  },
+  "54d56f243030316013003007_223": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh! A man after my own heart!",
+    "f": "Oh! A woman after my own heart!"
+   }
+  },
+  "555a5164323437080f00276b_50": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I believe that I have... m-made a decision. If he doesn't go through with this... *I* will.",
+    "f": "I believe that I have... m-made a decision. If she doesn't go through with this... *I* will."
+   }
+  },
+  "555a5164323437080f00276b_85": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right. From our p-perspective... there isn't much difference between one d-demon-god ruling the Walled City... and a hundred. The place is doomed either way.",
+    "f": "She's right. From our p-perspective... there isn't much difference between one d-demon-god ruling the Walled City... and a hundred. The place is doomed either way."
+   }
+  },
+  "555a5164323437080f00276b_86": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So I have... m-made a decision. If he *doesn't* go through with this... *I* will. You need to go back where you c-came from or I will...l open the choke on the machine... and you can d-die with us.",
+    "f": "So I have... m-made a decision. If she *doesn't* go through with this... *I* will. You need to go back where you c-came from or I will...l open the choke on the machine... and you can d-die with us."
+   }
+  },
+  "558898d6623666a012005538_27~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I don't want to be s-separated from you either sir...",
+    "f": "I don't want to be s-separated from you either ma'am..."
+   }
+  },
+  "5546946b39393684190077c9_25": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "No, sir. No regrets. No regrets at all.",
+    "f": "No, ma'am. No regrets. No regrets at all."
+   }
+  },
+  "5546946b39393684190077c9_144": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're a strange man. But here it is.",
+    "f": "You're a strange woman. But here it is."
+   }
+  },
+  "55924316303035cc1d0042e3_70": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sorry. If I give away any more product, I'll wind up a charity case myself. Be a good man and give that sample to Stephen. I can't claim that it will cure his bad dreams, but it should provide him some modicum of relief.",
+    "f": "Sorry. If I give away any more product, I'll wind up a charity case myself. Be a good woman and give that sample to Stephen. I can't claim that it will cure his bad dreams, but it should provide him some modicum of relief."
+   }
+  },
+  "54be84343063641c1f00153f_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Just so. My servants have been watching you since you arrived. I suspect that you are an evil man, and that you are here to do harm to Neville. And so I came to stop you.",
+    "f": "Just so. My servants have been watching you since you arrived. I suspect that you are an evil woman, and that you are here to do harm to Neville. And so I came to stop you."
+   }
+  },
+  "54be84343063641c1f00153f_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You may call me Ku Feng. My servants have been watching you since you arrived. I suspect that you are an evil man, and that you are here to do harm to Neville. And so I came to stop you.",
+    "f": "You may call me Ku Feng. My servants have been watching you since you arrived. I suspect that you are an evil woman, and that you are here to do harm to Neville. And so I came to stop you."
+   }
+  },
+  "54be84343063641c1f00153f_29~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I suspect that you are an evil man. I think that you are here to do harm to Neville, and I am here to stop you.",
+    "f": "I suspect that you are an evil woman. I think that you are here to do harm to Neville, and I am here to stop you."
+   }
+  },
+  "54be84343063641c1f00153f_31": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You think yourself so clever, sniffing around Neville's affairs like an amateur detective. So sly. So quiet. But you are not quiet enough to escape my ears, little man.",
+    "f": "You think yourself so clever, sniffing around Neville's affairs like an amateur detective. So sly. So quiet. But you are not quiet enough to escape my ears, little woman."
+   }
+  },
+  "54be866c3063641c1f001550_1": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Are you prepared to become my servant, human? You must not resist, or I'll be forced to kill you. Should it come to that, I'll endeavor to make it swift and painless... but no promises.",
+    "elf": "Are you prepared to become my servant, elf? You must not resist, or I'll be forced to kill you. Should it come to that, I'll endeavor to make it swift and painless... but no promises.",
+    "dwarf": "Are you prepared to become my servant, dwarf? You must not resist, or I'll be forced to kill you. Should it come to that, I'll endeavor to make it swift and painless... but no promises.",
+    "ork": "Are you prepared to become my servant, ork? You must not resist, or I'll be forced to kill you. Should it come to that, I'll endeavor to make it swift and painless... but no promises.",
+    "troll": "Are you prepared to become my servant, troll? You must not resist, or I'll be forced to kill you. Should it come to that, I'll endeavor to make it swift and painless... but no promises."
+   }
+  },
+  "54be866c3063641c1f001550_2": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "This will be entertaining. Kill him!",
+    "f": "This will be entertaining. Kill her!"
+   }
+  },
+  "54be866c3063641c1f001550_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "This will be entertaining. Kill him!",
+    "f": "This will be entertaining. Kill her!"
+   }
+  },
+  "54d55f873030311411003a6c_47~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Saves you a world of trouble, man.",
+    "f": "Saves you a world of trouble, woman."
+   }
+  },
+  "54d55f873030311411003a6c_60~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You stand out, man. That's a good thing. It means you're becoming somebody, not staying one of the forgettables.",
+    "f": "You stand out, woman. That's a good thing. It means you're becoming somebody, not staying one of the forgettables."
+   }
+  },
+  "5600347d626632e015004458_46": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're correct, of course. Guava juice, freshly pressed from fruit grown in the Yuen Long District. I respect a man who knows his fruit. Extravagances such as this serve us well on the open sea; scurvy is no joke, after all.",
+    "f": "You're correct, of course. Guava juice, freshly pressed from fruit grown in the Yuen Long District. I respect a woman who knows her fruit. Extravagances such as this serve us well on the open sea; scurvy is no joke, after all."
+   }
+  },
+  "5616dd7530636484010066e6_9": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Now that you've been treated, will you leave the remaining antidote in the sub bay? Please, do this for me. You know that I run a Shiawase lab... I've got money, believe it. Give me the vials that you don't need, and you'll be a very rich man.",
+    "f": "Now that you've been treated, will you leave the remaining antidote in the sub bay? Please, do this for me. You know that I run a Shiawase lab... I've got money, believe it. Give me the vials that you don't need, and you'll be a very rich woman."
+   }
+  },
+  "56182456306364e415006ab9_18": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Now, unlike you, this shadowrunner dealt straight with me - he let me and my team live. Somehow I doubt that you would have done the same. The way that I see it, I owe a lot to this runner, and I intend to return the favor. *Now.*",
+    "f": "Now, unlike you, this shadowrunner dealt straight with me - she let me and my team live. Somehow I doubt that you would have done the same. The way that I see it, I owe a lot to this runner, and I intend to return the favor. *Now.*"
+   }
+  },
+  "56182456306364e415006ab9_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Now, unlike you, this shadowrunner dealt straight with me - he let me and my team live. Somehow I doubt that you would have done the same. The way that I see it, I owe a lot to this runner, and I intend to return the favor. *Now.*",
+    "f": "Now, unlike you, this shadowrunner dealt straight with me - she let me and my team live. Somehow I doubt that you would have done the same. The way that I see it, I owe a lot to this runner, and I intend to return the favor. *Now.*"
+   }
+  },
+  "5640cca7306364b811003b46_27~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Man, I *got* this.",
+    "f": "Woman, I *got* this."
+   }
+  },
+  "557109403234316c1c0044d9_56": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, Izz. That's exactly what this is. Look, you want the encryption key for the memories that we locked away? It's yours. I don't envy you the pain that you'll feel when you unlock them, but that's your decision to make.",
+    "f": "She's right, Izz. That's exactly what this is. Look, you want the encryption key for the memories that we locked away? It's yours. I don't envy you the pain that you'll feel when you unlock them, but that's your decision to make."
+   }
+  },
+  "553835c33234318c0f0043ab_13~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Tapping his foot impatiently.",
+    "f": "Tapping her foot impatiently."
+   }
+  },
+  "563a7eb8306364fc140006b9_81": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "If anyone asks, this man here is an associate of mine. Now, my new friend and I have business to attend to. *Step aside.*",
+    "f": "If anyone asks, this woman here is an associate of mine. Now, my new friend and I have business to attend to. *Step aside.*"
+   }
+  },
+  "54dbe9e13030316c15006ca2_60": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You can't come in here demanding this and that of us! Show some respect to your elders, young man. Just what makes you think we'd be comfortable telling a stranger about our dreams, anyway?",
+    "f": "You can't come in here demanding this and that of us! Show some respect to your elders, young woman. Just what makes you think we'd be comfortable telling a stranger about our dreams, anyway?"
+   }
+  },
+  "54dbe9e13030316c15006ca2_119": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I can see right through that ennui of yours, young man. Trying to appear \"cool\" and \"hip\" - well, you don't need to play it up here. We're already unimpressed.",
+    "f": "I can see right through that ennui of yours, young woman. Trying to appear \"cool\" and \"hip\" - well, you don't need to play it up here. We're already unimpressed."
+   }
+  },
+  "54c2c61f30636498210021b1_24": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good man! That's what I like to hear! When you're done, drop Cheng a line - I'll come meet you back here and I'll hand over the money.",
+    "f": "Good woman! That's what I like to hear! When you're done, drop Cheng a line - I'll come meet you back here and I'll hand over the money."
+   }
+  },
+  "54dbe9e13030316c15006ca2_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I believe that's the first time you've ever called our friend here by his name, Gin. Don't tell me you're growing *fond* of him!",
+    "f": "I believe that's the first time you've ever called our friend here by her name, Gin. Don't tell me you're growing *fond* of her!"
+   }
+  },
+  "54dbe9e13030316c15006ca2_44": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Why, hello young man. Something you need?",
+    "f": "Why, hello young woman. Something you need?"
+   }
+  },
+  "54dbe9e13030316c15006ca2_52~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Why, hello there, young man. Something you need?",
+    "f": "Why, hello there, young woman. Something you need?"
+   }
+  },
+  "54dbe9e13030316c15006ca2_70": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Nonsense! Master Lau and I have both told him our dreams. And now it's your turn.",
+    "f": "Nonsense! Master Lau and I have both told her our dreams. And now it's your turn."
+   }
+  },
+  "54dbe9e13030316c15006ca2_92": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Appreciated, young man. We'll be seeing you.",
+    "f": "Appreciated, young woman. We'll be seeing you."
+   }
+  },
+  "55a59bbf306364900e0061a5_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're a man after my own heart, that's for sure. I can drink to that attitude.",
+    "f": "You're a woman after my own heart, that's for sure. I can drink to that attitude."
+   }
+  },
+  "55a7e9de6236664014000aa4_42": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good luck. You look like just the guy to do it.",
+    "f": "Good luck. You look like just the gal to do it."
+   }
+  },
+  "55a7e9de6236664014000aa4_78": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good luck. You look like just the guy to do it.",
+    "f": "Good luck. You look like just the gal to do it."
+   }
+  },
+  "5525b55b30636400170026dc_76~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You believe this vermin? This creature that feasts on metahuman flesh, that kills and dismembers our tribesmen? You are a naive and foolish man, if that's the case.",
+    "f": "You believe this vermin? This creature that feasts on metahuman flesh, that kills and dismembers our tribesmen? You are a naive and foolish woman, if that's the case."
+   }
+  },
+  "54b99b13306364e41b000280_25": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Enjoy the party, sir.",
+    "f": "Enjoy the party, ma'am."
+   }
+  },
+  "54b99b13306364e41b000280_26": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yeah... Yeah, I remember you. Talking to Kevin Chiu. Terribly sorry, sir. Won't happen again.",
+    "f": "Yeah... Yeah, I remember you. Talking to Kevin Chiu. Terribly sorry, ma'am. Won't happen again."
+   }
+  },
+  "54eb9f4a3430617007000f3f_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Believe me, sir, you'd find the consequences of such an outburst most…unsavory. Behave yourself, and you'll get to indulge in the fine cuisine here at Shangri-La. Good evening.",
+    "f": "Believe me, ma'am, you'd find the consequences of such an outburst most…unsavory. Behave yourself, and you'll get to indulge in the fine cuisine here at Shangri-La. Good evening."
+   }
+  },
+  "54eb9f4a3430617007000f3f_9": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Certainly not, sir. Most of our weekday business is confined to the private rooms upstairs. Corporate affairs and such...",
+    "f": "Certainly not, ma'am. Most of our weekday business is confined to the private rooms upstairs. Corporate affairs and such..."
+   }
+  },
+  "54f1208b3430615c05005793_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sorry, sir. This area's off limits.",
+    "f": "Sorry, ma'am. This area's off limits."
+   }
+  },
+  "54fe12ff343061c813005052_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You seem confused, sir. Something I can help you with?",
+    "f": "You seem confused, ma'am. Something I can help you with?"
+   }
+  },
+  "54fe12ff343061c813005052_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You seem confused, sir. Something I can help you with?",
+    "f": "You seem confused, ma'am. Something I can help you with?"
+   }
+  },
+  "54fe12ff343061c813005052_11": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I... I don't... please forgive me, sir. Just let me see your ID, and I'll let you through.",
+    "f": "I... I don't... please forgive me, ma'am. Just let me see your ID, and I'll let you through."
+   }
+  },
+  "5525b32a30636444150020a1_18~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Knock yourself out, man. There's an entrance up by the Jade Mountain restaurant. Can't miss it.",
+    "f": "Knock yourself out, woman. There's an entrance up by the Jade Mountain restaurant. Can't miss it."
+   }
+  },
+  "557650c5623666c02b003595_8~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He needs *what?*",
+    "f": "She needs *what?*"
+   }
+  },
+  "557650c5623666c02b003595_60": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I don't know, man. I'm kinda done with the business.",
+    "f": "I don't know, woman. I'm kinda done with the business."
+   }
+  },
+  "569ed20a306364a81f0057b1_16~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You wound me, sir!",
+    "f": "You wound me, ma'am!"
+   }
+  },
+  "562fe16f6436613011007f9b_16~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yes! Yes sir! Right away.",
+    "f": "Yes! Yes ma'am! Right away."
+   }
+  },
+  "566719dd3063645018002877_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You don't know the half of it, man. Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things. The man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him.",
+    "f": "You don't know the half of it, woman. Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things. The man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him."
+   }
+  },
+  "5588a592303031e827004f11_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Then you've decided. A pity. I was hoping that we could do business together. Well, let's not drag this out... get him!",
+    "f": "Then you've decided. A pity. I was hoping that we could do business together. Well, let's not drag this out... get her!"
+   }
+  },
+  "5588a592303031e827004f11_8~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I knew you were a reasonable man.",
+    "f": "I knew you were a reasonable woman."
+   }
+  },
+  "55a59ab130636420200089d6_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What the hell do you think, man? Look at you. We're obviously working the same angle here in Heoi.",
+    "f": "What the hell do you think, woman? Look at you. We're obviously working the same angle here in Heoi."
+   }
+  },
+  "54f6285b306364140400187c_33": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're just stringing business-related words together, sir. You have no idea what those mean, do you?",
+    "f": "You're just stringing business-related words together, ma'am. You have no idea what those mean, do you?"
+   }
+  },
+  "54f6285b306364140400187c_37": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "...If you say so, sir. Not my sort of party, I suppose. Please go inside, but don't leave this floor. Your friend can escort you up.",
+    "f": "...If you say so, ma'am. Not my sort of party, I suppose. Please go inside, but don't leave this floor. Your friend can escort you up."
+   }
+  },
+  "54f6285b306364140400187c_46": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Excuse me, sir, you have to check in before entering the building.",
+    "f": "Excuse me, ma'am, you have to check in before entering the building."
+   }
+  },
+  "54f6285b306364140400187c_47": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good evening, sir. How may I assist you?",
+    "f": "Good evening, ma'am. How may I assist you?"
+   }
+  },
+  "559f14f7303031181b0064f0_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "There he is! he's the one who used his silver tongue to lull me into a state of trust. Then, when my defenses were down, he beat the containment code out of me!",
+    "f": "There she is! she's the one who used her silver tongue to lull me into a state of trust. Then, when my defenses were down, she beat the containment code out of me!"
+   }
+  },
+  "54dd4f1c653937e81300425c_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Talon, this miscreant has distracted us from our meal. And now, I'm afraid, it's grown cold. We must repay him in kind. Let his corpse cool out back when you're done.",
+    "f": "Talon, this miscreant has distracted us from our meal. And now, I'm afraid, it's grown cold. We must repay her in kind. Let her corpse cool out back when you're done."
+   }
+  },
+  "550b0530306364f8110000d8_92": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You, sir, are a real stand up individual. So what now? Do you want us to leave, or can we stick with you until we get to the MTR station?",
+    "f": "You, ma'am, are a real stand up individual. So what now? Do you want us to leave, or can we stick with you until we get to the MTR station?"
+   }
+  },
+  "5589ee2a303031b009007f83_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Absolutely. We have no problems here. But my office rarely does - our Sales team is Tsang's top performer. The Contracts & Acquisitions team to the south of us, however... I'd check in with them, sir. They're bound to be mired in technical problems, as one would expect from professional slackers.",
+    "f": "Absolutely. We have no problems here. But my office rarely does - our Sales team is Tsang's top performer. The Contracts & Acquisitions team to the south of us, however... I'd check in with them, ma'am. They're bound to be mired in technical problems, as one would expect from professional slackers."
+   }
+  },
+  "5589ee2a303031b009007f83_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "How can I help you, sir?",
+    "f": "How can I help you, ma'am?"
+   }
+  },
+  "5589ee2a303031b009007f83_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Y-yes, sir!",
+    "f": "Y-yes, ma'am!"
+   }
+  },
+  "5589ee2a303031b009007f83_14": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Everyone, this man has just informed me that there's a maintenance emergency in our area. I need all of you to drop what you're doing and leave so he can make his repairs.",
+    "f": "Everyone, this woman has just informed me that there's a maintenance emergency in our area. I need all of you to drop what you're doing and leave so she can make her repairs."
+   }
+  },
+  "560c5be2643661ac15004d4e_17": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "There. You've got your money, now go away. Leave us to our fuckin' work, man.",
+    "f": "There. You've got your money, now go away. Leave us to our fuckin' work, woman."
+   }
+  },
+  "560c5be2643661ac15004d4e_94~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I'm done talking to you, man. Walk away and let us get back to our business.",
+    "f": "I'm done talking to you, woman. Walk away and let us get back to our business."
+   }
+  },
+  "5589ef11303031b009007f94_18": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Thank you again, sir. If there's anything my team can do to help you in the future, you let me know.",
+    "f": "Thank you again, ma'am. If there's anything my team can do to help you in the future, you let me know."
+   }
+  },
+  "56393981306364d40d007911_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh, shut *up,* Keenan. Let him speak for himself. Go on, stranger. Tell us what you need.",
+    "f": "Oh, shut *up,* Keenan. Let her speak for herself. Go on, stranger. Tell us what you need."
+   }
+  },
+  "56393981306364d40d007911_17~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I saw him this time, you limpdick!",
+    "f": "I saw her this time, you limpdick!"
+   }
+  },
+  "54beba923063641c1f0019a1_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good evening, sir. Welcome to the Veranda at the Repulse Bay. How may I be of service?",
+    "f": "Good evening, ma'am. Welcome to the Veranda at the Repulse Bay. How may I be of service?"
+   }
+  },
+  "54beba923063641c1f0019a1_44": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Alright, sir. Enjoy your day.",
+    "f": "Alright, ma'am. Enjoy your day."
+   }
+  },
+  "54beba923063641c1f0019a1_47": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good evening, sir. Welcome to the Veranda at... Oh, it's you again. What do you need this time?",
+    "f": "Good evening, ma'am. Welcome to the Veranda at... Oh, it's you again. What do you need this time?"
+   }
+  },
+  "556d2c843234316c180010b2_15": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I don't need cash. I need someone to help me out. You look like the kind of guy who could do that, so just hear me out. This'll take you five minutes, tops, and then you'll have your uniform free of charge.",
+    "f": "I don't need cash. I need someone to help me out. You look like the kind of gal who could do that, so just hear me out. This'll take you five minutes, tops, and then you'll have your uniform free of charge."
+   }
+  },
+  "54bd87f83063648803001820_1~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good evening, sir. I'm sorry, I don't believe we've been formally introduced.",
+    "f": "Good evening, ma'am. I'm sorry, I don't believe we've been formally introduced."
+   }
+  },
+  "54bd87f83063648803001820_17": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Ah. That was... very careless of him. He should not have been discussing my private purchases without my permission. I am sorry, sir Argyle. I do not feel comfortable discussing this matter, especially not in the midst of such a large crowd. Perhaps another time.",
+    "f": "Ah. That was... very careless of him. He should not have been discussing my private purchases without my permission. I am sorry, ma'am Argyle. I do not feel comfortable discussing this matter, especially not in the midst of such a large crowd. Perhaps another time."
+   }
+  },
+  "54bd87f83063648803001820_33": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Hello again, sir Argent. What can I do for you?",
+    "f": "Hello again, ma'am Argent. What can I do for you?"
+   }
+  },
+  "569ecd67306364a81f00521a_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Man, you don't know the half of it. You tally up the runs I've been on, I think I might have seen more stuff than even FastJack. I might not be as old as him, but I think that I take jobs a lot more regularly than he does.",
+    "f": "Woman, you don't know the half of it. You tally up the runs I've been on, I think I might have seen more stuff than even FastJack. I might not be as old as him, but I think that I take jobs a lot more regularly than he does."
+   }
+  },
+  "569ecd67306364a81f00521a_26": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Good man. Never hurts to be careful.",
+    "f": "Good woman. Never hurts to be careful."
+   }
+  },
+  "55860475303031b027004d1b_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Excuse me, sir. The Tsang employees on this floor may only be seen through a pre-approved appointment. Do you... Do you have an appointment?",
+    "f": "Excuse me, ma'am. The Tsang employees on this floor may only be seen through a pre-approved appointment. Do you... Do you have an appointment?"
+   }
+  },
+  "55860475303031b027004d1b_5": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You would do that? I'm up for my quarterly review next week and I'm *really* hoping to go from facilitator four to facilitator five... A positive mention from you will help - I'm sure of it. Oh, sorry, I'm holding you up. Good luck with your report, sir!",
+    "f": "You would do that? I'm up for my quarterly review next week and I'm *really* hoping to go from facilitator four to facilitator five... A positive mention from you will help - I'm sure of it. Oh, sorry, I'm holding you up. Good luck with your report, ma'am!"
+   }
+  },
+  "55860475303031b027004d1b_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Pardon me, mister security guard - yes, you - may I please get your opinion on something? It seems to me that this man should have a security escort if he's doing a security sweep. Is that correct?",
+    "f": "Pardon me, mister security guard - yes, you - may I please get your opinion on something? It seems to me that this woman should have a security escort if she's doing a security sweep. Is that correct?"
+   }
+  },
+  "55860475303031b027004d1b_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Excuse me, sir. The Tsang employees on this floor may only be seen through a pre-approved appointment. Not even maintenance is exempt. Do you... Do you have an appointment?",
+    "f": "Excuse me, ma'am. The Tsang employees on this floor may only be seen through a pre-approved appointment. Not even maintenance is exempt. Do you... Do you have an appointment?"
+   }
+  },
+  "55860475303031b027004d1b_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You too, sir.",
+    "f": "You too, ma'am."
+   }
+  },
+  "55244c803063647812004d1f_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What have we here? A curious little pest, come looking for things that don't concern him. What do we do with pests, Galina?",
+    "f": "What have we here? A curious little pest, come looking for things that don't concern her. What do we do with pests, Galina?"
+   }
+  },
+  "55244c803063647812004d1f_24": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, Galina. Andrey would have our heads if we had to break cover before the shipment was ready.",
+    "f": "She's right, Galina. Andrey would have our heads if we had to break cover before the shipment was ready."
+   }
+  },
+  "55244c803063647812004d1f_28": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He's right, Galina. You know how sounds can echo through these tunnels.",
+    "f": "She's right, Galina. You know how sounds can echo through these tunnels."
+   }
+  },
+  "55244c803063647812004d1f_30": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're an idiot. Kill him.",
+    "f": "You're an idiot. Kill her."
+   }
+  },
+  "55244c803063647812004d1f_40": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You think we'll let you do that? You seemed smarter than that. Kill him.",
+    "f": "You think we'll let you do that? You seemed smarter than that. Kill her."
+   }
+  },
+  "555a76a5323431800800153f_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yeah, we're backing down. For now. But you watch your back, man.",
+    "f": "Yeah, we're backing down. For now. But you watch your back, woman."
+   }
+  },
+  "555a76a5323431800800153f_27": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Walk away, man. And don't let us see you here again!",
+    "f": "Walk away, woman. And don't let us see you here again!"
+   }
+  },
+  "555a76a5323431800800153f_28": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're making a big mistake, man. Lucky for you I'm busy. You know what's good for you, you'll turn and run, *right now.* Your call.",
+    "f": "You're making a big mistake, woman. Lucky for you I'm busy. You know what's good for you, you'll turn and run, *right now.* Your call."
+   }
+  },
+  "555a76a5323431800800153f_36~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Get out of my hair, man!",
+    "f": "Get out of my hair, woman!"
+   }
+  },
+  "556d09653234312c01003b35_11~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh, thank you, sir!",
+    "f": "Oh, thank you, ma'am!"
+   }
+  },
+  "556d09653234312c01003b35_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "A gala event, you say? In that case, please forgive me. I hadn't realized that I was speaking with a man of quality.",
+    "f": "A gala event, you say? In that case, please forgive me. I hadn't realized that I was speaking with a woman of quality."
+   }
+  },
+  "556e2a46323431bc19001ad9_11": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I could say the same about you. Where's your deck, man?",
+    "f": "I could say the same about you. Where's your deck, woman?"
+   }
+  },
+  "54da5dae306364a88e0035e1_50": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Quite frankly, your employer doesn't know the first thing about Matrix security. We've hacked his commlink and his rental car. I simply re-dialed you once you called him. My apologies for such an unorthodox introduction. A man of your stature should be afforded more respect, but time is short.",
+    "f": "Quite frankly, your employer doesn't know the first thing about Matrix security. We've hacked his commlink and his rental car. I simply re-dialed you once you called him. My apologies for such an unorthodox introduction. A woman of your stature should be afforded more respect, but time is short."
+   }
+  },
+  "54e3b9f43063640c0c00288f_9": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What is *wrong* with you, man?! I laid everything out for you, and you're still not--",
+    "f": "What is *wrong* with you, woman?! I laid everything out for you, and you're still not--"
+   }
+  },
+  "54dbef30653937cc15006dd1_5": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Much appreciated. Thank you, my good man.",
+    "f": "Much appreciated. Thank you, my good woman."
+   }
+  },
+  "5525b2803063644415002063_2": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Your wish is my command, good sir!",
+    "f": "Your wish is my command, good ma'am!"
+   }
+  },
+  "56182456306364e415006ab9_5": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Says the man who rang our doorbell and murdered the greeting party. I expect that you won't be crying yourself to sleep over the people you've killed here, so spare me the theatrics.",
+    "f": "Says the woman who rang our doorbell and murdered the greeting party. I expect that you won't be crying yourself to sleep over the people you've killed here, so spare me the theatrics."
+   }
+  },
+  "56182456306364e415006ab9_31~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You owe me fifty nuyen, Hwang - he actually bought it! All personnel, open fire!",
+    "f": "You owe me fifty nuyen, Hwang - she actually bought it! All personnel, open fire!"
+   }
+  },
+  "559d82ed62663268440067a6_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Smart man. Nothing can fix what's coming for the Walled City, and Heoi is *way* too close to that place for comfort.",
+    "f": "Smart woman. Nothing can fix what's coming for the Walled City, and Heoi is *way* too close to that place for comfort."
+   }
+  },
+  "54bd54a5306364641300167d_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What brings you to our little soirée, sir Argyle? I don't believe I've seen you around the studio before.",
+    "f": "What brings you to our little soirée, ma'am Argyle? I don't believe I've seen you around the studio before."
+   }
+  },
+  "54bd54a5306364641300167d_17": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "So, sir Argyle, tell me... what brings you here if you're not interested in these sorts of affairs?",
+    "f": "So, ma'am Argyle, tell me... what brings you here if you're not interested in these sorts of affairs?"
+   }
+  },
+  "54bd54a5306364641300167d_22": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Welcome back, sir Argyle. To what do I owe the pleasure?",
+    "f": "Welcome back, ma'am Argyle. To what do I owe the pleasure?"
+   }
+  },
+  "54dbb4eb653937cc150069a2_11": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Ah. A fellow epicure? I suppose I can make time for a fan all the way from... where is it you said? Seattle? Quite the trip you've made. What is it you need, sir?",
+    "f": "Ah. A fellow epicure? I suppose I can make time for a fan all the way from... where is it you said? Seattle? Quite the trip you've made. What is it you need, ma'am?"
+   }
+  },
+  "550a053a306364fc1b000156_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Hell with you, little man. You think you're so smart? Let's see how smart you are with a bullet in your skull.",
+    "f": "Hell with you, little woman. You think you're so smart? Let's see how smart you are with a bullet in your skull."
+   }
+  },
+  "550a053a306364fc1b000156_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Better keep your dog over there on a shorter leash, man, or he's likely to get put down.",
+    "f": "Better keep your dog over there on a shorter leash, woman, or he's likely to get put down."
+   }
+  },
+  "55860475303031b027004d1b_7~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "he'd damn well better.",
+    "f": "she'd damn well better."
+   }
+  },
+  "55a2f552303031a41000808a_1~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Got someone here saying he's a company consultant. We have anything like that scheduled?",
+    "f": "Got someone here saying she's a company consultant. We have anything like that scheduled?"
+   }
+  },
+  "55a2f552303031a41000808a_2~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yeah. Here at the labs. Should I give him clearance?",
+    "f": "Yeah. Here at the labs. Should I give her clearance?"
+   }
+  },
+  "55a2f552303031a41000808a_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Got someone here who left his ID at home. Anyone come through security like that? Yeah. Here at the labs.",
+    "f": "Got someone here who left her ID at home. Anyone come through security like that? Yeah. Here at the labs."
+   }
+  },
+  "55a2f552303031a41000808a_15~c1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Got someone here saying he's with maintenance. We have anything like that scheduled?",
+    "f": "Got someone here saying she's with maintenance. We have anything like that scheduled?"
+   }
+  },
+  "552c2a54306364300300505f_0~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "That's far enough, guy.",
+    "f": "That's far enough, gal."
+   }
+  },
+  "552c2a54306364300300505f_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Man, are you deaf? What the hell did I tell you? No, you goddamn well can't wander around our turf.",
+    "f": "Woman, are you deaf? What the hell did I tell you? No, you goddamn well can't wander around our turf."
+   }
+  },
+  "556e0b27323431681a000f44_31": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What he's saying makes sense, guys. It might not be a fun answer, but it's a good one.",
+    "f": "What she's saying makes sense, guys. It might not be a fun answer, but it's a good one."
+   }
+  },
+  "556e0b27323431681a000f44_36~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Leave him alone, guys. He didn't ask to get sucked into this conversation.",
+    "f": "Leave her alone, guys. She didn't ask to get sucked into this conversation."
+   }
+  },
+  "5570e6b6323431541e005e1d_15": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Leave him alone, Matchstick. He's with us.",
+    "f": "Leave her alone, Matchstick. She's with us."
+   }
+  },
+  "5570e6b6323431541e005e1d_62": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Leave him alone, Matchstick. He's with us.",
+    "f": "Leave her alone, Matchstick. She's with us."
+   }
+  },
+  "563a46753063643417003e71_26": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Not at all, sir. Building security is more than capable of protecting you. But until we apprehend whoever triggered our alarms, access between floors is restricted. Just sit tight, and wait for the lockdown to end. You'll be safe here with us.",
+    "f": "Not at all, ma'am. Building security is more than capable of protecting you. But until we apprehend whoever triggered our alarms, access between floors is restricted. Just sit tight, and wait for the lockdown to end. You'll be safe here with us."
+   }
+  },
+  "54dbe235303031a019006c74_6": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "\"Merchant,\" he says. That crook didn't so much as leave as he was chased off by Kindly. No sales permit. Not a big loss, though - the local shops have way better stuff than that smalltime hustler.",
+    "f": "\"Merchant,\" she says. That crook didn't so much as leave as he was chased off by Kindly. No sales permit. Not a big loss, though - the local shops have way better stuff than that smalltime hustler."
+   }
+  },
+  "5581d35e3234375439001ad9_4~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Ah, a man of action. Good.",
+    "f": "Ah, a woman of action. Good."
+   }
+  },
+  "5581d35e3234375439001ad9_13~c1": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Will this be sufficient, human? Will you accept my offer?",
+    "elf": "Will this be sufficient, elf? Will you accept my offer?",
+    "dwarf": "Will this be sufficient, dwarf? Will you accept my offer?",
+    "ork": "Will this be sufficient, ork? Will you accept my offer?",
+    "troll": "Will this be sufficient, troll? Will you accept my offer?"
+   }
+  },
+  "556e0b27323431681a000f44_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "I think that he's right. Villiers is no fool. He has to have some sort of ulterior motive for plundering the Fuchi coffers. This wouldn't have gotten out at all if he didn't have some reason to want it to.",
+    "f": "I think that she's right. Villiers is no fool. He has to have some sort of ulterior motive for plundering the Fuchi coffers. This wouldn't have gotten out at all if he didn't have some reason to want it to."
+   }
+  },
+  "5570e6b6323431541e005e1d_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "New here? You must be joking, man. You've been on that kiosk for twenty minutes now!",
+    "f": "New here? You must be joking, woman. You've been on that kiosk for twenty minutes now!"
+   }
+  },
+  "5570e6b6323431541e005e1d_16": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "But he's been hogging the kiosk for nearly a half an hour already--",
+    "f": "But she's been hogging the kiosk for nearly a half an hour already--"
+   }
+  },
+  "5570e6b6323431541e005e1d_63": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "But he's been hogging the kiosk for nearly a half an hour already--",
+    "f": "But she's been hogging the kiosk for nearly a half an hour already--"
+   }
+  },
+  "5570e6b6323431541e005e1d_95": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You didn't read the instructions? You must be joking, man. You've been on that kiosk for twenty minutes now!",
+    "f": "You didn't read the instructions? You must be joking, woman. You've been on that kiosk for twenty minutes now!"
+   }
+  },
+  "54d3f034323437f057003738_16~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Man, you don't listen, do you?",
+    "f": "Woman, you don't listen, do you?"
+   }
+  },
+  "54f6495b30636444130071ba_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sorry, sir. The elevator systems are experiencing a temporary interruption of service. Until they're back up, I'm afraid you'll have to use the stairs.",
+    "f": "Sorry, ma'am. The elevator systems are experiencing a temporary interruption of service. Until they're back up, I'm afraid you'll have to use the stairs."
+   }
+  },
+  "54f6495b30636444130071ba_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sorry, sir. The elevator systems are experiencing a temporary interruption of service. Until they're back up, I'm afraid you'll have to use the stairs.",
+    "f": "Sorry, ma'am. The elevator systems are experiencing a temporary interruption of service. Until they're back up, I'm afraid you'll have to use the stairs."
+   }
+  },
+  "54da97d0653937300b002dc0_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh! W-welcome to the Shangri-La, sir.",
+    "f": "Oh! W-welcome to the Shangri-La, ma'am."
+   }
+  },
+  "54da97d0653937300b002dc0_2": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Absolutely, sir. What is it you need?",
+    "f": "Absolutely, ma'am. What is it you need?"
+   }
+  },
+  "54da97d0653937300b002dc0_9": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sir, this is the *Shangri-La.* We have over two dozen private dining rooms in addition to our main dining floor. As I've already said, I serve out here. Your friend could be in any of our other rooms. Now, excuse me, I need to place these orders. Enjoy your meal.",
+    "f": "Ma'am, this is the *Shangri-La.* We have over two dozen private dining rooms in addition to our main dining floor. As I've already said, I serve out here. Your friend could be in any of our other rooms. Now, excuse me, I need to place these orders. Enjoy your meal."
+   }
+  },
+  "54da97d0653937300b002dc0_10": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Sir, this is the *Shangri-La.* We have over two dozen private dining rooms in addition to our main dining floor. As I've already said, I serve out here. Your friend could be in any of our other rooms. Now, excuse me, I need to place these orders. Enjoy your meal.",
+    "f": "Ma'am, this is the *Shangri-La.* We have over two dozen private dining rooms in addition to our main dining floor. As I've already said, I serve out here. Your friend could be in any of our other rooms. Now, excuse me, I need to place these orders. Enjoy your meal."
+   }
+  },
+  "54da97d0653937300b002dc0_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Wish I could help more, sir, but I need to place these orders. Enjoy your meal.",
+    "f": "Wish I could help more, ma'am, but I need to place these orders. Enjoy your meal."
+   }
+  },
+  "5585e03e626632881500678d_1": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "What do you want, man? We're talking here.",
+    "f": "What do you want, woman? We're talking here."
+   }
+  },
+  "54f8ce523430612c15004d70_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Evening, sir. Swipe yourself in.",
+    "f": "Evening, ma'am. Swipe yourself in."
+   }
+  },
+  "54f8ce523430612c15004d70_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Right. Go ahead and grab your new creds at the check-in terminal. Have a good night, sir.",
+    "f": "Right. Go ahead and grab your new creds at the check-in terminal. Have a good night, ma'am."
+   }
+  },
+  "54fe2ee0343061c8130053e9_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Just a moment, sir. The scanner says your credentials didn't take. Let me see your ID.",
+    "f": "Just a moment, ma'am. The scanner says your credentials didn't take. Let me see your ID."
+   }
+  },
+  "54fe2ee0343061c8130053e9_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Trespasser alert! Guards, detain him - this ID's a fake!",
+    "f": "Trespasser alert! Guards, detain her - this ID's a fake!"
+   }
+  },
+  "54fe2ee0343061c8130053e9_5~g0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "He nods.",
+    "f": "She nods."
+   }
+  },
+  "556e0b27323431681a000f44_44": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Look, he's back. What do you want? You're interrupting a serious conversation.",
+    "f": "Look, she's back. What do you want? You're interrupting a serious conversation."
+   }
+  },
+  "561304f56436613816004e54_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "See? This guy agrees. It isn't safe here for us. The police will protect us if we ask them to.",
+    "f": "See? This gal agrees. It isn't safe here for us. The police will protect us if we ask them to."
+   }
+  },
+  "55383ac63234379836002154_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh, I know I got what you need! As soon as you walked in that door, I was thinking, I know exactly what that man is lookin' for. No doubts, no questions. It's you. You are that man. The one with the NEED. The HUNGER.",
+    "f": "Oh, I know I got what you need! As soon as you walked in that door, I was thinking, I know exactly what that woman is lookin' for. No doubts, no questions. It's you. You are that woman. The one with the NEED. The HUNGER."
+   }
+  },
+  "560dba1d643661e016004ecf_3": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Later, constable. We'll catch the looters when we're done here. But look at this man's clothes, his gear. These people are armed criminals, and they're breaking curfew. You have your orders.",
+    "f": "Later, constable. We'll catch the looters when we're done here. But look at this woman's clothes, her gear. These people are armed criminals, and they're breaking curfew. You have your orders."
+   }
+  },
+  "560dba1d643661e016004ecf_7": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Later, constable. We can go cordon off the bodies when we're done here. But look at this man's clothes, his gear. These people are armed criminals, and they're breaking curfew. You have your orders.",
+    "f": "Later, constable. We can go cordon off the bodies when we're done here. But look at this woman's clothes, her gear. These people are armed criminals, and they're breaking curfew. You have your orders."
+   }
+  },
+  "560dba1d643661e016004ecf_9": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Later, constable. If there are gangers out there, we'll catch them when we continue our sweep. But look at this man's clothes, his gear. These people are armed criminals, and they're breaking curfew. You have your orders.",
+    "f": "Later, constable. If there are gangers out there, we'll catch them when we continue our sweep. But look at this woman's clothes, her gear. These people are armed criminals, and they're breaking curfew. You have your orders."
+   }
+  },
+  "560dba1d643661e016004ecf_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Save your breath, constable. Look at this man's clothes, his gear. These people are armed criminals, and they're breaking curfew. You have your orders.",
+    "f": "Save your breath, constable. Look at this woman's clothes, her gear. These people are armed criminals, and they're breaking curfew. You have your orders."
+   }
+  },
+  "566f64316436613815007b72_3~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Drink order, sir?",
+    "f": "Drink order, ma'am?"
+   }
+  },
+  "566f64316436613815007b72_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Very good, sir.",
+    "f": "Very good, ma'am."
+   }
+  },
+  "566f64316436613815007b72_5": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Yes, sir. Timmy will be by with the cart in a jiff.",
+    "f": "Yes, ma'am. Timmy will be by with the cart in a jiff."
+   }
+  },
+  "566f64316436613815007b72_8": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Thank you, sir. Timmy will be by with your drink in a jiff.",
+    "f": "Thank you, ma'am. Timmy will be by with your drink in a jiff."
+   }
+  },
+  "566f64316436613815007b72_9": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Of course, sir. Timmy will be by with the cart in a jiff.",
+    "f": "Of course, ma'am. Timmy will be by with the cart in a jiff."
+   }
+  },
+  "566f64316436613815007b72_13": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "You're a very generous man! I'll head back and let Timmy know... he should be by with the cart in a jiff!",
+    "f": "You're a very generous woman! I'll head back and let Timmy know... he should be by with the cart in a jiff!"
+   }
+  },
+  "5525b2a13063644415002071_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Ho there. You look like a man who understands the value of self-defense. Breaker Hui, at your service - and I can promise you I can help you defend yourself. What do you say? Want to take a look?",
+    "f": "Ho there. You look like a woman who understands the value of self-defense. Breaker Hui, at your service - and I can promise you I can help you defend yourself. What do you say? Want to take a look?"
+   }
+  },
+  "55a81618323431f01b008037_11": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "It's like I told you before... we're full up, sir.",
+    "f": "It's like I told you before... we're full up, ma'am."
+   }
+  },
+  "564cf2b66436611c0f00324f_30": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Gun him down, men! He doesn't walk out of here alive!",
+    "f": "Gun her down, men! She doesn't walk out of here alive!"
+   }
+  },
+  "5525b45c30636400170026af_0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Welcome, sir! Welcome to Kwok Atelier, home of the finest clothing in Whampoa Garden. I am the owner, master tailor Wing-Kei Kwok. How may I serve you today?",
+    "f": "Welcome, ma'am! Welcome to Kwok Atelier, home of the finest clothing in Whampoa Garden. I am the owner, master tailor Wing-Kei Kwok. How may I serve you today?"
+   }
+  },
+  "54d50af63234372c68007117_4": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Business is good here, man. Real good. Yeah, it's disgusting, but you go where the market is.",
+    "f": "Business is good here, woman. Real good. Yeah, it's disgusting, but you go where the market is."
+   }
+  },
+  "5693de1c3063641c0e0012f0_12": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "And you couldn't just buy a bottle in one of the convenience stores out there? C'mon, guy. Get the hell out of here before I throw you out.",
+    "f": "And you couldn't just buy a bottle in one of the convenience stores out there? C'mon, gal. Get the hell out of here before I throw you out."
+   }
+  },
+  "54e2771c653937bc1600027f_7~c0": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Shit - a runner? Don't let him take off with Rooster!",
+    "f": "Shit - a runner? Don't let her take off with Rooster!"
+   }
+  },
+  "560475116436614812001385_1~c0": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Automated Health Service Station (#1-7730S) Patient Recognized as: Male :: Human :: Adult.",
+    "elf": "Automated Health Service Station (#1-7730S) Patient Recognized as: Male :: Elf :: Adult.",
+    "dwarf": "Automated Health Service Station (#1-7730S) Patient Recognized as: Male :: Dwarf :: Adult.",
+    "ork": "Automated Health Service Station (#1-7730S) Patient Recognized as: Male :: Ork :: Adult.",
+    "troll": "Automated Health Service Station (#1-7730S) Patient Recognized as: Male :: Troll :: Adult."
+   }
+  },
+  "560475116436614812001385_5~c0": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "Automated Health Service Station (#1-7730S) Patient Recognized as: Female :: Human :: Adult.",
+    "elf": "Automated Health Service Station (#1-7730S) Patient Recognized as: Female :: Elf :: Adult.",
+    "dwarf": "Automated Health Service Station (#1-7730S) Patient Recognized as: Female :: Dwarf :: Adult.",
+    "ork": "Automated Health Service Station (#1-7730S) Patient Recognized as: Female :: Ork :: Adult.",
+    "troll": "Automated Health Service Station (#1-7730S) Patient Recognized as: Female :: Troll :: Adult."
+   }
+  },
+  "56393981306364d40d007911_26": {
+   "axes": [
+    "gender"
+   ],
+   "v": {
+    "m": "Oh shit, *ohhh shit.* He looks like he'll do it, man. And then I'll be next! Just give him the goddamn code, Francis! I need my fingers!",
+    "f": "Oh shit, *ohhh shit.* She looks like she'll do it, man. And then I'll be next! Just give her the goddamn code, Francis! I need my fingers!"
+   }
+  },
+  "54dcfec1303031bc0a006c6f_199": {
+   "axes": [
+    "race"
+   ],
+   "v": {
+    "human": "[Ming Pao said there were four of them that got away - one human, two orks and a dwarf. A troll, an elf and a human were all killed on the scene. Word is that they're members of the White Star out of Henan, coming here to start trouble against the Executive Council.] - Wharf Rat 08:24:12/08-12-56",
+    "elf": "[Ming Pao said there were four of them that got away - one elf, two orks and a dwarf. A troll, an elf and a human were all killed on the scene. Word is that they're members of the White Star out of Henan, coming here to start trouble against the Executive Council.] - Wharf Rat 08:24:12/08-12-56",
+    "dwarf": "[Ming Pao said there were four of them that got away - one dwarf, two orks and a dwarf. A troll, an elf and a human were all killed on the scene. Word is that they're members of the White Star out of Henan, coming here to start trouble against the Executive Council.] - Wharf Rat 08:24:12/08-12-56",
+    "ork": "[Ming Pao said there were four of them that got away - one ork, two orks and a dwarf. A troll, an elf and a human were all killed on the scene. Word is that they're members of the White Star out of Henan, coming here to start trouble against the Executive Council.] - Wharf Rat 08:24:12/08-12-56",
+    "troll": "[Ming Pao said there were four of them that got away - one troll, two orks and a dwarf. A troll, an elf and a human were all killed on the scene. Word is that they're members of the White Star out of Henan, coming here to start trouble against the Executive Council.] - Wharf Rat 08:24:12/08-12-56"
+   }
+  }
+ }
+}

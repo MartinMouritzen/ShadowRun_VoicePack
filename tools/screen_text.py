@@ -37,6 +37,12 @@ MAIL_FIELD = re.compile(r'^>>[ \t]*(?:to|subject|from|cc)[ \t]*:', re.M | re.I)
 SIGNOFF = re.compile(r'^[ \t]*[-–][ \t]*(?P<who>[A-Za-z][A-Za-z0-9 .\'_-]{1,34})[.!]?[ \t]*$')
 SIGNOFF_LEAD = re.compile(r'^[ \t]*(?:Yours|Sincerely|Regards|Best|Love)[,.]?[ \t]*$', re.I)
 
+# A signed post on an internal board: "- J. Ngai, Senior Researcher". The role is what separates it
+# from prose ending in a dash, so it is required, and it must read like a title rather than a
+# sentence. The Namazu lab boards in Hong Kong are written entirely this way.
+SIGNED_ROLE = re.compile(r"^[ \t]*[-–][ \t]*(?P<who>[A-Z][A-Za-z0-9.'’ -]{1,30}?)[ \t]*,"
+                         r"[ \t]*(?P<role>[A-Z][A-Za-z0-9/&' -]{2,44})[ \t]*$")
+
 # ---------------------------------------------------------------- transcripts
 # Two or more "SPEAKER:" prefixes inside one node: the job-negotiation logs, where GUEST and
 # P_AMSEL trade lines inside a single screen of text.
@@ -113,6 +119,28 @@ def signoff(text):
         if len(lines) >= 2 and SIGNOFF_LEAD.match(lines[-2]) and line is lines[-1]:
             return line.strip().rstrip('.')
         break
+    return None
+
+
+def signed_by(text):
+    """The author of a node that ends in a signature but carries no header, else None.
+
+    An internal message board has no ">>From:" line: the post is simply signed at the bottom.
+    Checked only after the header and BBS forms have been ruled out, so a Shadowland signature
+    ("- Maelstrom <10:55:01/…>") never reaches it.
+    """
+    lines = [l for l in text.rstrip().split('\n') if l.strip()]
+    if not lines:
+        return None
+    m = SIGNED_ROLE.match(lines[-1])
+    if m:
+        return m.group('who').strip()
+    m = SIGNOFF.match(lines[-1])
+    if m and len(lines) > 1:
+        who = m.group('who').strip()
+        # A one-word closing on a line of its own is a name; a sentence fragment is not.
+        if who[:1].isupper() and len(who.split()) <= 3:
+            return who
     return None
 
 
@@ -224,17 +252,45 @@ def parse_conversation(nodes):
         # need a human to say whose they are.
         if run_owner and prev is not None and n == prev + 1:
             out[n] = {'kind': MAIL, 'who': run_owner, 'span': [n], 'note': 'continuation'}
-            end = signoff(text)
-            if end:
-                run_owner = None
+            if signoff(text):
+                run_owner = None       # the letter closed; the next node is a new screen
         else:
-            out[n] = {'kind': UNKNOWN, 'who': None, 'span': [n]}
+            # No header and no open run, but the post signs itself at the bottom: an internal
+            # message board writes every post that way ("- J. Ngai, Senior Researcher"). Checked
+            # AFTER the continuation branch, or a letter's own closing line would be read as the
+            # start of a new message by someone with the same name.
+            author = signed_by(text)
+            if author:
+                out[n] = {'kind': MAIL, 'who': author, 'span': [n], 'note': 'signed'}
+            else:
+                out[n] = {'kind': UNKNOWN, 'who': None, 'span': [n]}
             run_owner = None
         prev = n
 
     if pending is not None:
         for m in pending['nodes']:
             out[m] = {'kind': UNKNOWN, 'who': None, 'span': [m], 'note': 'unclosed post'}
+
+    # A signature sits at the BOTTOM of a post, so a long one attributes the nodes ABOVE it too:
+    # Dr. Cheung's four-node status report is unsigned until its last node. Walk back over
+    # contiguous unplaced nodes and stop at anything that already has an owner or is machine.
+    order = [n for n, _ in nodes]
+    index = {n: i for i, n in enumerate(order)}
+    for n in order:
+        e = out.get(n)
+        if not e or e.get('note') != 'signed':
+            continue
+        i = index[n] - 1
+        while i >= 0:
+            prev_n = order[i]
+            back = out.get(prev_n)
+            if not back or back['kind'] != UNKNOWN or prev_n != order[i]:
+                break
+            if prev_n + 1 != order[i + 1]:
+                break                      # a gap in the conversation is a different screen
+            out[prev_n] = {'kind': MAIL, 'who': e['who'], 'span': [prev_n],
+                           'note': 'signed (carried back)'}
+            i -= 1
     return out
 
 
@@ -297,6 +353,9 @@ def spoken_body(text, kind):
     t = OPEN.sub(' ', t)
     t = CLOSE.sub(' ', t)
     t = re.sub(r'^[ \t]*>+[ \t]*', '', t, flags=re.M)
+    # Routing preamble left behind once the >> comes off: ">>//-preface:null_field". It is the
+    # envelope, not the message, and reads as "slash slash dash preface colon null underscore field".
+    t = '\n'.join(l for l in t.split('\n') if not re.match(r'^[ \t]*//', l))
     t = re.sub(r'[ \t]{2,}', ' ', t)
     t = strip_signoff(t)
     return re.sub(r'\n{3,}', '\n\n', t).strip()

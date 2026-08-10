@@ -47,9 +47,13 @@ by_id = {c["id"]: c for c in cast}
 by_name = {c["name"]: c for c in cast}
 
 hand = json.load(open(HAND_PATH)) if os.path.exists(HAND_PATH) else {}
-# The plan from the last run, used only to pull already-moved lines back into the parse so a re-run
-# reproduces itself instead of quietly emitting an empty plan.
-PREVIOUS = (json.load(open(OUT_PATH)).get("moves") or []) if os.path.exists(OUT_PATH) else []
+# What apply_screen_splits.py actually moved, used to pull those lines back into the parse so a
+# re-run sees the whole surface again. Deliberately NOT this script's own output: the plan is both
+# input and output, so one bad intermediate run would drop nodes from the pool and every run after
+# it would inherit the hole. The applied file only changes when lines physically move.
+APPLIED_PATH = os.path.join(HERE, f"screen_splits_{GAME}.applied.json")
+_prev_src = APPLIED_PATH if os.path.exists(APPLIED_PATH) else OUT_PATH
+PREVIOUS = (json.load(open(_prev_src)).get("moves") or []) if os.path.exists(_prev_src) else []
 CONVS = hand.get("conversations") or {}
 NODES = hand.get("nodes") or {}
 PEOPLE = hand.get("people") or {}

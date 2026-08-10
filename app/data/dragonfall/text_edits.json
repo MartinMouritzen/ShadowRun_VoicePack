@@ -162,5 +162,11 @@
  "527abf9e636134b83400302e_355": "TOPICS MATCHING LOCAL KEYWORDS...",
  "527abf9e636134b83400302e_354": "Shadowland connection... established successfully. link strength 100%. spoofing is 1. group info is null, anon WELCOME TO SHADOWLAND",
  "525c7c176636614821003cf6_18": "HRServ Hotel Registration & Security Services version 1.1. Welcome, Administrator! 1: View Guest Register Log. 2: Search Current Guest Register by Name. 3: Search Guest Register by Room Number. 4: View All Current Guest Notes",
- "525c7c176636614821003cf6_19": "HRServ Hotel Registration & Security Services version 1.1. Guest Registration Log Room 112. Last Guest: Findler-Man. Room 121. Last Guest: Sheila Sunrise. Room 301. Last Guest: Vandal. Room 304 . Current Guests: Silke Schröder, Sara Neumann, Nadja Bauer. Room 311 . Last Guest: Hatchetman. Room 405 . Current Guest: Green Winters. Room 415 . Last Guest: FastJack."
+ "525c7c176636614821003cf6_19": "HRServ Hotel Registration & Security Services version 1.1. Guest Registration Log Room 112. Last Guest: Findler-Man. Room 121. Last Guest: Sheila Sunrise. Room 301. Last Guest: Vandal. Room 304 . Current Guests: Silke Schröder, Sara Neumann, Nadja Bauer. Room 311 . Last Guest: Hatchetman. Room 405 . Current Guest: Green Winters. Room 415 . Last Guest: FastJack.",
+ "527405216636614c32003ae6_2": "Pump is restarting... Done. South turbine water flow... FAILED. The south turbine has been deactivated. Steady water flow has stopped. Pump test running... PASSED. The pump is operational, but not receiving full water flow from the south turbine.",
+ "527405216636614c32003ae6_3": "Pump is restarting... Done. Pump #1 is fully operational.",
+ "527405216636614c32003ae6_4": "Pump is deactivating... Blockage detected. Clearing obstruction... Water flow insufficient to clear obstruction. [voice cracking, pleading] Please make sure all turbines have been activated before restarting pump. Pump restart has completed with ERROR: FAILED.",
+ "527405216636614c32003ae6_5": "Pump is deactivating... Blockage detected. Clearing obstruction... Done. Pump restart has completed with SUCCESS. Running diagnostic... success. Pump #2 operating within normal parameters.",
+ "527405216636614c32003ae6_6": "Pump is restarting... Done. Pump #2 is fully operational.",
+ "527abf9e636134b83400302e_3": "WARNING: This is a one-way operation. Deleted files will be NON-RECOVERABLE. Are you sure that you wish to proceed? YES or NO"
 }

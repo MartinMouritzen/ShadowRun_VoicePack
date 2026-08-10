@@ -1,0 +1,1132 @@
+{
+ "_comment": "Who wrote each line the Hong Kong terminals display. Read by build_screen_splits.py; see docs/SCREEN_SPEAKERS.md. BBS handles carry no voice yet: HK's main cast is picked first, then the handles get what is left (Martin, 2026-08-10).",
+ "containers": [
+  "name_computer"
+ ],
+ "conversations": {
+  "54d55065306364bc730001da": {
+   "cn": "a2_Whistleblower_s1-CrewComputer",
+   "default": "machine",
+   "why": "designer placeholder text that shipped ('Here is a root ship's log entry area.', 'Hey, it's private diaries!') - left machine pending Martin's call"
+  },
+  "54dcfec1303031bc0a006c6f": {
+   "cn": "HK_Hub-Global_MissionComputer",
+   "default": "machine"
+  },
+  "54ebb78f343061700700140c": {
+   "cn": "a2_ShangriLa_s1-OrderComputerDialog",
+   "default": "machine"
+  },
+  "5524518b3234376c45004dca": {
+   "cn": "a2_Museum_s1-CEOComputer",
+   "default": "machine"
+  },
+  "5589da2e323431781400188a": {
+   "cn": "a2_BadQi_s1-WeaponComputer",
+   "default": "machine"
+  },
+  "560196f43063640011003b25": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab1Computer1",
+   "default": "machine"
+  },
+  "5601caa73063640011003c69": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab2ComputerSystem1",
+   "default": "machine"
+  },
+  "5601e315626632941e0014eb": {
+   "cn": "MC_Hub_Global-MissionComputer",
+   "default": "machine"
+  },
+  "56200dc33063645c120042c6": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab1Computer2",
+   "default": "machine"
+  },
+  "56200fb93063645c12004357": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab2Computer2",
+   "default": "machine"
+  }
+ },
+ "nodes": {
+  "54dcfec1303031bc0a006c6f_44": "Kindly Cheng",
+  "54dcfec1303031bc0a006c6f_46": "Gobbet",
+  "54dcfec1303031bc0a006c6f_47": "Gobbet",
+  "54dcfec1303031bc0a006c6f_48": "Gobbet",
+  "54dcfec1303031bc0a006c6f_49": "Gobbet",
+  "54dcfec1303031bc0a006c6f_50": "Gobbet",
+  "54dcfec1303031bc0a006c6f_51": "Gobbet",
+  "54dcfec1303031bc0a006c6f_56": "Maximum Law",
+  "54dcfec1303031bc0a006c6f_111": "Maximum Law",
+  "54dcfec1303031bc0a006c6f_131": "Maximum Law",
+  "54dcfec1303031bc0a006c6f_113": "Is0bel",
+  "54dcfec1303031bc0a006c6f_114": "Is0bel",
+  "54dcfec1303031bc0a006c6f_115": "Is0bel",
+  "54dcfec1303031bc0a006c6f_116": "Is0bel",
+  "54dcfec1303031bc0a006c6f_117": "Is0bel",
+  "54dcfec1303031bc0a006c6f_118": "Is0bel",
+  "54dcfec1303031bc0a006c6f_119": "Is0bel",
+  "54dcfec1303031bc0a006c6f_120": "Is0bel",
+  "54dcfec1303031bc0a006c6f_121": "Is0bel",
+  "54dcfec1303031bc0a006c6f_122": "Is0bel",
+  "54dcfec1303031bc0a006c6f_123": "Is0bel",
+  "54dcfec1303031bc0a006c6f_124": "Is0bel",
+  "54dcfec1303031bc0a006c6f_617": "Is0bel",
+  "54dcfec1303031bc0a006c6f_218": "Sunny Cheung",
+  "54dcfec1303031bc0a006c6f_219": "Sunny Cheung",
+  "54dcfec1303031bc0a006c6f_220": "Sunny Cheung",
+  "54dcfec1303031bc0a006c6f_221": "Walled City Resident",
+  "54dcfec1303031bc0a006c6f_222": "Sunny Cheung",
+  "54dcfec1303031bc0a006c6f_267": "Newscaster",
+  "54dcfec1303031bc0a006c6f_268": "Newscaster",
+  "54dcfec1303031bc0a006c6f_269": "Newscaster",
+  "54dcfec1303031bc0a006c6f_270": "Newscaster",
+  "54dcfec1303031bc0a006c6f_271": "Newscaster",
+  "54dcfec1303031bc0a006c6f_272": "Newscaster",
+  "54dcfec1303031bc0a006c6f_273": "Newscaster",
+  "54dcfec1303031bc0a006c6f_308": "Newscaster",
+  "54dcfec1303031bc0a006c6f_309": "Newscaster",
+  "54dcfec1303031bc0a006c6f_380": "Consolidated Press",
+  "54dcfec1303031bc0a006c6f_381": "Consolidated Press",
+  "54dcfec1303031bc0a006c6f_382": "Consolidated Press",
+  "54dcfec1303031bc0a006c6f_383": "Li Quishan",
+  "54dcfec1303031bc0a006c6f_384": "Li Quishan",
+  "54dcfec1303031bc0a006c6f_385": "Gertrude Schoen",
+  "54dcfec1303031bc0a006c6f_386": "Gertrude Schoen",
+  "54dcfec1303031bc0a006c6f_396": "Newscaster",
+  "54dcfec1303031bc0a006c6f_397": "Newscaster",
+  "54dcfec1303031bc0a006c6f_398": "Newscaster",
+  "54dcfec1303031bc0a006c6f_399": "Newscaster",
+  "54dcfec1303031bc0a006c6f_406": "Josephine Tsang",
+  "54dcfec1303031bc0a006c6f_407": "Josephine Tsang",
+  "54dcfec1303031bc0a006c6f_408": "Josephine Tsang",
+  "54dcfec1303031bc0a006c6f_435": "Consolidated Press",
+  "54dcfec1303031bc0a006c6f_436": "Consolidated Press",
+  "54dcfec1303031bc0a006c6f_437": "Dr. Au Mingxa",
+  "54dcfec1303031bc0a006c6f_438": "Consolidated Press",
+  "54dcfec1303031bc0a006c6f_557": "Newscaster",
+  "54dcfec1303031bc0a006c6f_558": "Newscaster",
+  "54dcfec1303031bc0a006c6f_559": "Newscaster",
+  "54dcfec1303031bc0a006c6f_560": "Newscaster",
+  "54dcfec1303031bc0a006c6f_561": "Newscaster",
+  "54dcfec1303031bc0a006c6f_562": "Newscaster",
+  "54dcfec1303031bc0a006c6f_563": "Newscaster",
+  "54dcfec1303031bc0a006c6f_564": "Newscaster",
+  "54dcfec1303031bc0a006c6f_565": "Newscaster",
+  "54dcfec1303031bc0a006c6f_566": "Newscaster",
+  "54dcfec1303031bc0a006c6f_567": "Newscaster",
+  "54dcfec1303031bc0a006c6f_568": "Newscaster",
+  "54dcfec1303031bc0a006c6f_569": "Newscaster",
+  "54dcfec1303031bc0a006c6f_570": "Newscaster",
+  "54dcfec1303031bc0a006c6f_571": "Newscaster",
+  "54dcfec1303031bc0a006c6f_572": "Newscaster",
+  "54dcfec1303031bc0a006c6f_573": "Newscaster",
+  "54dcfec1303031bc0a006c6f_574": "Newscaster",
+  "54dcfec1303031bc0a006c6f_575": "Newscaster",
+  "54dcfec1303031bc0a006c6f_576": "Newscaster",
+  "54dcfec1303031bc0a006c6f_577": "Newscaster",
+  "54dcfec1303031bc0a006c6f_578": "Newscaster",
+  "54dcfec1303031bc0a006c6f_588": "Newscaster",
+  "54dcfec1303031bc0a006c6f_589": "Newscaster",
+  "54dcfec1303031bc0a006c6f_590": "Newscaster",
+  "54dcfec1303031bc0a006c6f_591": "Newscaster",
+  "54dcfec1303031bc0a006c6f_592": "Newscaster",
+  "54dcfec1303031bc0a006c6f_593": "Newscaster",
+  "54dcfec1303031bc0a006c6f_594": "Johnathan Chou",
+  "54dcfec1303031bc0a006c6f_595": "Newscaster",
+  "54dcfec1303031bc0a006c6f_596": "Johnathan Chou",
+  "54dcfec1303031bc0a006c6f_597": "Johnathan Chou",
+  "54dcfec1303031bc0a006c6f_598": "Johnathan Chou",
+  "54dcfec1303031bc0a006c6f_85": "Crafty Xu",
+  "54dcfec1303031bc0a006c6f_86": "Crafty Xu",
+  "54dcfec1303031bc0a006c6f_87": "Crafty Xu",
+  "5601e315626632941e0014eb_4": "Kindly Cheng",
+  "5601e315626632941e0014eb_5": "Kindly Cheng",
+  "5601e315626632941e0014eb_6": "Kindly Cheng",
+  "5601e315626632941e0014eb_7": "Kindly Cheng",
+  "5601e315626632941e0014eb_9": "Raymond Black",
+  "5601e315626632941e0014eb_10": "Raymond Black",
+  "5601e315626632941e0014eb_11": "Raymond Black",
+  "5601e315626632941e0014eb_12": "Raymond Black",
+  "5601e315626632941e0014eb_13": "Raymond Black",
+  "5601caa73063640011003c69_11": "Dr. Cheung",
+  "5601caa73063640011003c69_12": "Dr. Cheung",
+  "5601caa73063640011003c69_13": "Dr. Cheung",
+  "5601caa73063640011003c69_14": "Dr. Cheung",
+  "5601caa73063640011003c69_15": "Dr. Cheung",
+  "56200dc33063645c120042c6_6": "machine",
+  "56200dc33063645c120042c6_7": "machine",
+  "56200dc33063645c120042c6_8": "machine"
+ },
+ "aliases": {
+  "From Dr. Shenyang": "Dr. Shenyang",
+  "Crafty": "Crafty Xu"
+ },
+ "keep": [
+  "SYSOP"
+ ],
+ "transcripts": {},
+ "people": {
+  "Kindly Cheng": {
+   "id": "name_kindlycheng",
+   "name": "Kindly Cheng",
+   "kind": "existing"
+  },
+  "Bao JianJun": {
+   "id": "name_stranglerbao",
+   "name": "Bao JianJun",
+   "kind": "existing"
+  },
+  "Crafty Xu": {
+   "id": "name_craftyxu",
+   "name": "Crafty Xu",
+   "kind": "existing"
+  },
+  "Sergeant Lee": {
+   "id": "name_lee",
+   "name": "Sergeant Lee",
+   "kind": "existing"
+  },
+  "Jomo": {
+   "id": "name_jomo",
+   "name": "Jomo",
+   "kind": "existing"
+  },
+  "Is0bel": {
+   "id": "name_is0bel",
+   "name": "Is0bel",
+   "kind": "existing"
+  },
+  "Gobbet": {
+   "id": "name_gobbet",
+   "name": "Gobbet",
+   "kind": "existing"
+  },
+  "Gaichu": {
+   "id": "name_gaichu",
+   "name": "Gaichu",
+   "kind": "existing"
+  },
+  "Senior Inspector Lam": {
+   "id": "name_inspectorlam",
+   "name": "Senior Inspector Lam",
+   "kind": "existing"
+  },
+  "Lillian Lai": {
+   "id": "name_lilylai",
+   "name": "Lillian Lai",
+   "kind": "existing"
+  },
+  "Dr. Shenyang": {
+   "id": "name_drshenyang",
+   "name": "Dr. Shenyang",
+   "kind": "existing"
+  },
+  "Tigath Wright": {
+   "id": "name_tigathwright",
+   "name": "Tigath Wright",
+   "kind": "existing"
+  },
+  "Hwang Jae-Min": {
+   "id": "name_hwangjaemin",
+   "name": "Hwang Jae-Min",
+   "kind": "existing"
+  },
+  "Maximum Law": {
+   "id": "name_maximumlaw",
+   "name": "Maximum Law",
+   "kind": "existing"
+  },
+  "Tin Helmet": {
+   "id": "name_maximumlaw",
+   "name": "Tin Helmet",
+   "kind": "existing"
+  },
+  "Raymond Black": {
+   "id": "name_raymond",
+   "name": "Raymond Black",
+   "kind": "existing"
+  },
+  "Newscaster": {
+   "id": "name_newscaster",
+   "name": "Newscaster",
+   "kind": "existing"
+  },
+  "Dreamland": {
+   "id": "name_dreamland",
+   "name": "Dreamland",
+   "kind": "new",
+   "gender": "male",
+   "note": "a decker whose neural-inhibitor program the team took; dry, unbothered"
+  },
+  "J. Ngai": {
+   "id": "name_jngai",
+   "name": "J. Ngai",
+   "kind": "new",
+   "gender": "male",
+   "note": "Senior Researcher on Project SILVER DREAM at the Namazu lab; brisk, careerist, entirely untroubled by what he is doing"
+  },
+  "Dr. Cheung": {
+   "id": "name_drcheung",
+   "name": "Dr. Cheung",
+   "kind": "new",
+   "gender": "male",
+   "note": "Neural Engineering Team Lead at Namazu; technical, faintly resentful of Ngai's deadlines"
+  },
+  "T. Kendrick": {
+   "id": "name_tkendrick",
+   "name": "T. Kendrick",
+   "kind": "new",
+   "gender": "male",
+   "note": "SILVER DREAM Logistics Officer; treats living subjects as stock"
+  },
+  "V. Chu": {
+   "id": "name_vchu",
+   "name": "V. Chu",
+   "kind": "new",
+   "gender": "male",
+   "note": "Drone Research at Namazu; the one asking about the medical closet code"
+  },
+  "Winston Deng": {
+   "id": "name_winstondeng",
+   "name": "Winston Deng",
+   "kind": "new",
+   "gender": "male",
+   "note": "Logistics Officer at Namazu; the only one on the board who sounds uneasy"
+  },
+  "Y. Furukawa": {
+   "id": "name_yfurukawa",
+   "name": "Y. Furukawa",
+   "kind": "new",
+   "gender": "male",
+   "note": "Security Division at Namazu; weapons-locker notices"
+  },
+  "Dr. Aoki": {
+   "id": "name_draoki",
+   "name": "Dr. Aoki",
+   "kind": "new",
+   "gender": "female",
+   "note": "Pharmaceuticals Research at Namazu; sardonic"
+  },
+  "Lao Zheng": {
+   "id": "name_laozheng",
+   "name": "Lao Zheng",
+   "kind": "new",
+   "gender": "male",
+   "note": "museum insider selling the blueprints; formal, careful"
+  },
+  "Melissa Sung": {
+   "id": "name_melissasung",
+   "name": "Melissa Sung",
+   "kind": "new",
+   "gender": "female",
+   "note": "museum administrator covering up an on-site accident"
+  },
+  "Mr. Drake": {
+   "id": "name_mrdrake",
+   "name": "Mr. Drake",
+   "kind": "new",
+   "gender": "male",
+   "note": "the artifact client; cultured, pleased with himself"
+  },
+  "Steel Arm Lu": {
+   "id": "name_steelarmlu",
+   "name": "Steel Arm Lu",
+   "kind": "new",
+   "gender": "male",
+   "note": "a client paying for delicate work; courteous and dangerous"
+  },
+  "Sunny Cheung": {
+   "id": "name_sunnycheung",
+   "name": "Sunny Cheung",
+   "kind": "new",
+   "gender": "female",
+   "note": "Horizon News anchor, 'Sunny Side Up'; bright daytime-TV delivery over hard subjects"
+  },
+  "Johnathan Chou": {
+   "id": "name_johnathanchou",
+   "name": "Johnathan Chou",
+   "kind": "new",
+   "gender": "male",
+   "note": "Consolidated Press economic analyst; donnish, patrician, faintly bored"
+  },
+  "Li Quishan": {
+   "id": "name_liquishan",
+   "name": "Li Quishan",
+   "kind": "new",
+   "gender": "male",
+   "note": "Tsang Mechanical Services legal spokesman; smooth corporate denial"
+  },
+  "Gertrude Schoen": {
+   "id": "name_gertrudeschoen",
+   "name": "Gertrude Schoen",
+   "kind": "new",
+   "gender": "female",
+   "note": "Consolidated Press financial analyst; precise and unimpressed"
+  },
+  "Dr. Au Mingxa": {
+   "id": "name_draumingxa",
+   "name": "Dr. Au Mingxa",
+   "kind": "new",
+   "gender": "male",
+   "note": "government geologist quoted on sea-level rise; measured, grim"
+  },
+  "Josephine Tsang": {
+   "id": "name_josephinetsang",
+   "name": "Josephine Tsang",
+   "kind": "new",
+   "gender": "female",
+   "note": "CEO of Tsang Mechanical Services at a podium; polished, combative"
+  },
+  "Walled City Resident": {
+   "id": "name_walledcityresident",
+   "name": "Walled City Resident",
+   "kind": "new",
+   "gender": "female",
+   "note": "interviewed in her own home by Horizon News; proud, unsentimental"
+  },
+  "Consolidated Press": {
+   "id": "name_consolidatedpress",
+   "name": "Consolidated Press",
+   "kind": "new",
+   "gender": "male",
+   "note": "the wire-service byline reading its own copy; neutral broadsheet register"
+  },
+  "BlackJack": {
+   "id": "name_blackjack",
+   "name": "BlackJack",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "RedQueen": {
+   "id": "name_redqueen",
+   "name": "RedQueen",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Dongjiang": {
+   "id": "name_dongjiang",
+   "name": "Dongjiang",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "Wharf Rat": {
+   "id": "name_wharfrat",
+   "name": "Wharf Rat",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "H34v3nShot": {
+   "id": "name_h34v3nshot",
+   "name": "H34v3nShot",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "Freedom Cowboy": {
+   "id": "name_freedomcowboy",
+   "name": "Freedom Cowboy",
+   "kind": "bbs",
+   "posts": 8
+  },
+  "MatrixBard": {
+   "id": "name_matrixbard",
+   "name": "MatrixBard",
+   "kind": "bbs",
+   "posts": 9
+  },
+  "Jivebert": {
+   "id": "name_jivebert",
+   "name": "Jivebert",
+   "kind": "bbs",
+   "posts": 12
+  },
+  "T3nn1s0n": {
+   "id": "name_t3nn1s0n",
+   "name": "T3nn1s0n",
+   "kind": "bbs",
+   "posts": 6
+  },
+  "nowyourmad": {
+   "id": "name_nowyourmad",
+   "name": "nowyourmad",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "Hantu Raya": {
+   "id": "name_hanturaya",
+   "name": "Hantu Raya",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Brother-6": {
+   "id": "name_brother6",
+   "name": "Brother-6",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Fenghuang": {
+   "id": "name_fenghuang",
+   "name": "Fenghuang",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "ROLLINTHUNDER!": {
+   "id": "name_rollinthunder",
+   "name": "ROLLINTHUNDER!",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Snozzbert": {
+   "id": "name_snozzbert",
+   "name": "Snozzbert",
+   "kind": "bbs",
+   "posts": 8
+  },
+  "HarbourRat": {
+   "id": "name_harbourrat",
+   "name": "HarbourRat",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "ShenzhenJoe": {
+   "id": "name_shenzhenjoe",
+   "name": "ShenzhenJoe",
+   "kind": "bbs",
+   "posts": 29
+  },
+  "HotPot888": {
+   "id": "name_hotpot888",
+   "name": "HotPot888",
+   "kind": "bbs",
+   "posts": 7
+  },
+  "White Prism": {
+   "id": "name_whiteprism",
+   "name": "White Prism",
+   "kind": "bbs",
+   "posts": 13
+  },
+  "Blood Meridian": {
+   "id": "name_bloodmeridian",
+   "name": "Blood Meridian",
+   "kind": "bbs",
+   "posts": 11
+  },
+  "Speculus": {
+   "id": "name_speculus",
+   "name": "Speculus",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Hatch": {
+   "id": "name_hatch",
+   "name": "Hatch",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "gimmesomenuyen888": {
+   "id": "name_gimmesomenuyen888",
+   "name": "gimmesomenuyen888",
+   "kind": "bbs",
+   "posts": 21
+  },
+  "AmaZ00m": {
+   "id": "name_amaz00m",
+   "name": "AmaZ00m",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "CaptainScone": {
+   "id": "name_captainscone",
+   "name": "CaptainScone",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "JiveBot": {
+   "id": "name_jivebot",
+   "name": "JiveBot",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "Kohbataar": {
+   "id": "name_kohbataar",
+   "name": "Kohbataar",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Liu_v2.0": {
+   "id": "name_liuv20",
+   "name": "Liu_v2.0",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "RatStar123": {
+   "id": "name_ratstar123",
+   "name": "RatStar123",
+   "kind": "bbs",
+   "posts": 8
+  },
+  "Scorpion": {
+   "id": "name_scorpion",
+   "name": "Scorpion",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "Hangfire": {
+   "id": "name_hangfire",
+   "name": "Hangfire",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "D-Ray": {
+   "id": "name_dray",
+   "name": "D-Ray",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Underwatch": {
+   "id": "name_underwatch",
+   "name": "Underwatch",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Pha3dra": {
+   "id": "name_pha3dra",
+   "name": "Pha3dra",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Adarael": {
+   "id": "name_adarael",
+   "name": "Adarael",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "QuezonCityBlues": {
+   "id": "name_quezoncityblues",
+   "name": "QuezonCityBlues",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "Peaches": {
+   "id": "name_peaches",
+   "name": "Peaches",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "PrincessReyes": {
+   "id": "name_princessreyes",
+   "name": "PrincessReyes",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "TalagaTalaga": {
+   "id": "name_talagatalaga",
+   "name": "TalagaTalaga",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "MakatiMike": {
+   "id": "name_makatimike",
+   "name": "MakatiMike",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "TitaDarling": {
+   "id": "name_titadarling",
+   "name": "TitaDarling",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "SammyBoy": {
+   "id": "name_sammyboy",
+   "name": "SammyBoy",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "HappyDays": {
+   "id": "name_happydays",
+   "name": "HappyDays",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "runswithscissors2056": {
+   "id": "name_runswithscissors2056",
+   "name": "runswithscissors2056",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "MuffinTopNinja": {
+   "id": "name_muffintopninja",
+   "name": "MuffinTopNinja",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "shankmeister007": {
+   "id": "name_shankmeister007",
+   "name": "shankmeister007",
+   "kind": "bbs",
+   "posts": 6
+  },
+  "SquintyFace": {
+   "id": "name_squintyface",
+   "name": "SquintyFace",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "lextalionis": {
+   "id": "name_lextalionis",
+   "name": "lextalionis",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "HunkyDory71": {
+   "id": "name_hunkydory71",
+   "name": "HunkyDory71",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Beeli": {
+   "id": "name_beeli",
+   "name": "Beeli",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "SirYumYumCha": {
+   "id": "name_siryumyumcha",
+   "name": "SirYumYumCha",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Maofuu": {
+   "id": "name_maofuu",
+   "name": "Maofuu",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "LeTipex": {
+   "id": "name_letipex",
+   "name": "LeTipex",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Amonita": {
+   "id": "name_amonita",
+   "name": "Amonita",
+   "kind": "bbs",
+   "posts": 7
+  },
+  "Tungsten": {
+   "id": "name_tungsten",
+   "name": "Tungsten",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "The Chromed Accountant": {
+   "id": "name_thechromedaccountant",
+   "name": "The Chromed Accountant",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "BlueShift": {
+   "id": "name_blueshift",
+   "name": "BlueShift",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "TraumaHound": {
+   "id": "name_traumahound",
+   "name": "TraumaHound",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "RocKollektor": {
+   "id": "name_rockollektor",
+   "name": "RocKollektor",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "pööksteräma": {
+   "id": "name_pksterma",
+   "name": "pööksteräma",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "BetaTown": {
+   "id": "name_betatown",
+   "name": "BetaTown",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "inXtremis": {
+   "id": "name_inxtremis",
+   "name": "inXtremis",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "Camellia": {
+   "id": "name_camellia",
+   "name": "Camellia",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "CrimsonComet": {
+   "id": "name_crimsoncomet",
+   "name": "CrimsonComet",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Bulgari": {
+   "id": "name_bulgari",
+   "name": "Bulgari",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Ignition_99": {
+   "id": "name_ignition99",
+   "name": "Ignition_99",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Pi": {
+   "id": "name_pi",
+   "name": "Pi",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "pandacuddles49": {
+   "id": "name_pandacuddles49",
+   "name": "pandacuddles49",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "8TriggerRig8": {
+   "id": "name_8triggerrig8",
+   "name": "8TriggerRig8",
+   "kind": "bbs",
+   "posts": 9
+  },
+  "Pier2Pier": {
+   "id": "name_pier2pier",
+   "name": "Pier2Pier",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "HakkaThon": {
+   "id": "name_hakkathon",
+   "name": "HakkaThon",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "octoblast": {
+   "id": "name_octoblast",
+   "name": "octoblast",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Vampwire": {
+   "id": "name_vampwire",
+   "name": "Vampwire",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Codex": {
+   "id": "name_codex",
+   "name": "Codex",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "saywhut12358": {
+   "id": "name_saywhut12358",
+   "name": "saywhut12358",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "MistressTiny": {
+   "id": "name_mistresstiny",
+   "name": "MistressTiny",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "sandwichesaresexy": {
+   "id": "name_sandwichesaresexy",
+   "name": "sandwichesaresexy",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "blinkigotcha23": {
+   "id": "name_blinkigotcha23",
+   "name": "blinkigotcha23",
+   "kind": "bbs",
+   "posts": 8
+  },
+  "Archaeopteryx": {
+   "id": "name_archaeopteryx",
+   "name": "Archaeopteryx",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Escape Velocity": {
+   "id": "name_escapevelocity",
+   "name": "Escape Velocity",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Skry-00": {
+   "id": "name_skry00",
+   "name": "Skry-00",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Frenetix": {
+   "id": "name_frenetix",
+   "name": "Frenetix",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Vanisher": {
+   "id": "name_vanisher",
+   "name": "Vanisher",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "CrazyTaste": {
+   "id": "name_crazytaste",
+   "name": "CrazyTaste",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "K0ngMing": {
+   "id": "name_k0ngming",
+   "name": "K0ngMing",
+   "kind": "bbs",
+   "posts": 6
+  },
+  "Contrail": {
+   "id": "name_contrail",
+   "name": "Contrail",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "georgiecorgi": {
+   "id": "name_georgiecorgi",
+   "name": "georgiecorgi",
+   "kind": "bbs",
+   "posts": 9
+  },
+  "oxfist": {
+   "id": "name_oxfist",
+   "name": "oxfist",
+   "kind": "bbs",
+   "posts": 7
+  },
+  "Jackie Chen": {
+   "id": "name_jackiechen",
+   "name": "Jackie Chen",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "dragoneyes": {
+   "id": "name_dragoneyes",
+   "name": "dragoneyes",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "phoenixascending": {
+   "id": "name_phoenixascending",
+   "name": "phoenixascending",
+   "kind": "bbs",
+   "posts": 7
+  },
+  "tweedle3000": {
+   "id": "name_tweedle3000",
+   "name": "tweedle3000",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Yangsy": {
+   "id": "name_yangsy",
+   "name": "Yangsy",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Little Yu": {
+   "id": "name_littleyu",
+   "name": "Little Yu",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Thousand Year Kevin": {
+   "id": "name_thousandyearkevin",
+   "name": "Thousand Year Kevin",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "WHAMpoan2056": {
+   "id": "name_whampoan2056",
+   "name": "WHAMpoan2056",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "typhoonstrike": {
+   "id": "name_typhoonstrike",
+   "name": "typhoonstrike",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "tagimit": {
+   "id": "name_tagimit",
+   "name": "tagimit",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "PinkySwear": {
+   "id": "name_pinkyswear",
+   "name": "PinkySwear",
+   "kind": "bbs",
+   "posts": 10
+  },
+  "stickywicket36": {
+   "id": "name_stickywicket36",
+   "name": "stickywicket36",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "yankeenoodle": {
+   "id": "name_yankeenoodle",
+   "name": "yankeenoodle",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "Funk Mastermind": {
+   "id": "name_funkmastermind",
+   "name": "Funk Mastermind",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "shandytown": {
+   "id": "name_shandytown",
+   "name": "shandytown",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "crumpeteer": {
+   "id": "name_crumpeteer",
+   "name": "crumpeteer",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "MrProwess": {
+   "id": "name_mrprowess",
+   "name": "MrProwess",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "NuyenK": {
+   "id": "name_nuyenk",
+   "name": "NuyenK",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "GnuEye": {
+   "id": "name_gnueye",
+   "name": "GnuEye",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "PandAttax": {
+   "id": "name_pandattax",
+   "name": "PandAttax",
+   "kind": "bbs",
+   "posts": 5
+  },
+  "happyvalleygirl": {
+   "id": "name_happyvalleygirl",
+   "name": "happyvalleygirl",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "IcySasha": {
+   "id": "name_icysasha",
+   "name": "IcySasha",
+   "kind": "bbs",
+   "posts": 4
+  },
+  "tigerbomb": {
+   "id": "name_tigerbomb",
+   "name": "tigerbomb",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "Bookish Betty": {
+   "id": "name_bookishbetty",
+   "name": "Bookish Betty",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "adeptitude": {
+   "id": "name_adeptitude",
+   "name": "adeptitude",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "Gustoes": {
+   "id": "name_gustoes",
+   "name": "Gustoes",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "Partytoon33": {
+   "id": "name_partytoon33",
+   "name": "Partytoon33",
+   "kind": "bbs",
+   "posts": 2
+  },
+  "anonymous9746": {
+   "id": "name_anonymous9746",
+   "name": "anonymous9746",
+   "kind": "bbs",
+   "posts": 3
+  },
+  "datasurfsup37": {
+   "id": "name_datasurfsup37",
+   "name": "datasurfsup37",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "canigetawh00pwh00p": {
+   "id": "name_canigetawh00pwh00p",
+   "name": "canigetawh00pwh00p",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "circuitcircus": {
+   "id": "name_circuitcircus",
+   "name": "circuitcircus",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "LantauLin": {
+   "id": "name_lantaulin",
+   "name": "LantauLin",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "GiantRobotsPewPewPew": {
+   "id": "name_giantrobotspewpewpew",
+   "name": "GiantRobotsPewPewPew",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "aggrav8or": {
+   "id": "name_aggrav8or",
+   "name": "aggrav8or",
+   "kind": "bbs",
+   "posts": 1
+  },
+  "bornintheUCAS": {
+   "id": "name_bornintheucas",
+   "name": "bornintheUCAS",
+   "kind": "bbs",
+   "posts": 1
+  }
+ }
+}

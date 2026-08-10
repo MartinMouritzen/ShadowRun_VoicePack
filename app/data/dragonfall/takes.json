@@ -202973,7 +202973,7 @@
    ]
   },
   "527abf9e636134b83400302e_3": {
-   "selected": "name_computer/takes/527abf9e636134b83400302e_3__sapi_david__1786156949.mp3",
+   "selected": "name_computer/takes/527abf9e636134b83400302e_3__sapi_david__1786382873.mp3",
    "takes": [
     {
      "file": "name_computer/takes/527abf9e636134b83400302e_3__sapi_david__1786156949.mp3",
@@ -202982,6 +202982,14 @@
      "stability": 0,
      "chars": 119,
      "ts": 1786156949
+    },
+    {
+     "file": "name_computer/takes/527abf9e636134b83400302e_3__sapi_david__1786382873.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 125,
+     "ts": 1786382873
     }
    ]
   },
@@ -204794,6 +204802,32 @@
     }
    ],
    "selected": "name_computer/takes/527abf9e636134b83400302e_252__sapi_david__1786156971.mp3"
+  },
+  "527abf9e636134b83400302e_62~c1": {
+   "selected": "name_computer/takes/527abf9e636134b83400302e_62~c1__mag586__1786382897.mp3",
+   "takes": [
+    {
+     "file": "name_computer/takes/527abf9e636134b83400302e_62~c1__mag586__1786382897.mp3",
+     "voiceId": "mag_586",
+     "voiceName": "Dexter Glitch",
+     "stability": 0,
+     "chars": 26,
+     "ts": 1786382897
+    }
+   ]
+  },
+  "527abf9e636134b83400302e_62~c0": {
+   "selected": "name_computer/takes/527abf9e636134b83400302e_62~c0__mag535__1786382897.mp3",
+   "takes": [
+    {
+     "file": "name_computer/takes/527abf9e636134b83400302e_62~c0__mag535__1786382897.mp3",
+     "voiceId": "mag_535",
+     "voiceName": "Walter Briggs",
+     "stability": 0,
+     "chars": 155,
+     "ts": 1786382897
+    }
+   ]
   }
  },
  "name_digitalarchiveterminal": {

@@ -147,7 +147,7 @@ def mechanical(t):
     # English, so that one takes the neutral relationship word; the rest just lose the name.
     s = re.sub(r'^[ \t]*Dear[ \t,]*\$\((?:l\.name|l\.firstname)\)\s*,',
                'Dear friend,', s, flags=re.I | re.M)
-    s = re.sub(r'^[ \t]*(Hi|Hello|Hey|Hoi|Greetings)[ \t,]*\$\((?:l\.name|l\.firstname)\)\s*,',
+    s = re.sub(r'^[ \t]*(Hi|Hello|Hey|Hoi|Yo|Greetings)[ \t,]*\$\((?:l\.name|l\.firstname)\)\s*[,.!]',
                r'\1,', s, flags=re.I | re.M)
     # greetings: "Welcome $(scene.BroSis)!" -> "Welcome, friend!"
     s = re.sub(r'\$\(scene\.BroSis\)', 'friend', s)
