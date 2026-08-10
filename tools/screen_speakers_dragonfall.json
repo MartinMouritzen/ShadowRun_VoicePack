@@ -561,5 +561,42 @@
    "name": "SCHOCKWELLENREITER",
    "kind": "existing"
   }
- }
+ },
+ "machines": [
+  "name_adminterminal",
+  "name_alertsystem",
+  "name_automatedsecuritydrone",
+  "name_aztecthnologyinventoryterminal",
+  "name_computer",
+  "name_computerterminal",
+  "name_console",
+  "name_controlconsole",
+  "name_controlnodeterminal",
+  "name_digitalarchiveterminal",
+  "name_doorconsole",
+  "name_doorcontrols",
+  "name_doorpanel",
+  "name_dronecontrolbox",
+  "name_elevatorcontrols",
+  "name_explosivecontrolpanel",
+  "name_freightelevatordoorpanel",
+  "name_gatecontrol",
+  "name_generatorcontrolpanel",
+  "name_humanisdoorpanel",
+  "name_humanisterminal",
+  "name_ltgpanel",
+  "name_oldinformationterminal",
+  "name_otksecuritydrone",
+  "name_panaceaprojectterminal",
+  "name_pumpconsole",
+  "name_securitydrone",
+  "name_securitynode",
+  "name_securityterminal",
+  "name_servercomputer",
+  "name_sidedoorpanel",
+  "name_terminal",
+  "name_turret",
+  "name_ventilationcontrols"
+ ],
+ "_machines_comment": "Characters that are equipment, not people. build_directed.py refuses to put a mood on them ('[nervous] AZTECHNOLOGY INVENTORY SERVICES'). Proposed by keyword and then hand-filtered: the keyword also catches people speaking THROUGH a fixture (Dragonfall's Control Panel and Speaker), a person whose name contains one (German Announcer), and APEX talking out of a drone. Message-board handles are never machines."
 }

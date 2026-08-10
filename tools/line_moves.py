@@ -42,6 +42,13 @@ def move_takes(takes, audio_root, src, dst, convo, nodes, clear_selected=False, 
     `clear_selected` drops the keeper. Use it whenever the words the clip says are no longer the
     words the line is going to say: a take record stores no text and no hash of it, so a stale clip
     is indistinguishable from a good one and build_voicepack.py would ship it.
+
+    "No keeper" is written as `"selected": None`, NEVER by removing the key. The take store's
+    convention is that the key is always present — server.py's /api/generate reads arr["selected"]
+    directly — and popping it made every subsequent generate on that line raise KeyError, kill the
+    request thread and close the socket with no response. From the lab that reads as "generate
+    failed: Failed to fetch"; from gen_batch.py as "Remote end closed connection without response".
+    208 Dragonfall entries were left in that state for an hour on 2026-08-10.
     """
     if src not in takes:
         return []
@@ -70,9 +77,9 @@ def move_takes(takes, audio_root, src, dst, convo, nodes, clear_selected=False, 
                 log(f"    WARN: take audio missing for {k}, kept the record: {old_rel}")
                 tk["file"] = new_rel
                 if entry.get("selected") == old_rel:
-                    entry.pop("selected", None)
+                    entry["selected"] = None
         if clear_selected:
-            entry.pop("selected", None)
+            entry["selected"] = None
         cur = takes.setdefault(dst, {}).get(k)
         if cur is None:
             takes[dst][k] = entry
@@ -95,7 +102,7 @@ def clear_selected(takes, bucket, keys, log=print):
     for k in keys:
         entry = (takes.get(bucket) or {}).get(k)
         if entry and entry.get("selected"):
-            entry.pop("selected")
+            entry["selected"] = None
             n += 1
     return n
 

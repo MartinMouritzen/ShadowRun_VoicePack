@@ -43377,7 +43377,8 @@
      "cn": "MC_a2_Plaguebearer_s1-Lab2Computer2",
      "t": "> Undersea Research Laboratory \"Namazu\"\n> Gamma Four Annex: Cyberware Implantation Clinic\n>>Mail Server: Forums\n\n>>ADMIN:// 1. TIMELINE ON SPECIAL PROJECT?\n>>MAINT:// 2. ITEMS MISSING FROM WEAPONS LOCKER"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_kindlycheng",
@@ -91176,7 +91177,8 @@
      "cn": "MC_a2_StationRun_s1-SouthTurretAmmo_2",
      "t": "A standard autoturret, currently loaded with nonlethal rounds for training purposes."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_sceneglobalnamelocal5",
@@ -92775,7 +92777,8 @@
      "cn": "a2_Is0belTrust_s1-AdminComputer",
      "t": "{{GM}}She shrugs.{{/GM}}\n\nAll right. Your call."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_aresworker",
@@ -98395,7 +98398,8 @@
      "cn": "MC_Hub_Global-MedicalSupplyKiosk",
      "t": "Automated Health Service Station (#1-7730S)\nPatient Recognized as: Female :: $+(l.race) :: Adult.\n\n{{GM}}A bright red smiley face appears on the screen.{{/GM}}\n\nHow may I serve you today?"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_fuchitechnician",
@@ -98977,7 +98981,8 @@
      "cn": "MC_Hub_Global-CyberwareMachine",
      "t": "Welcome to the 'Warehouse, a product of CryoGen Incorporated.\n\nPlease select your desired service."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_frightenedresident",

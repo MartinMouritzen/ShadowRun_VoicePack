@@ -118,6 +118,23 @@ for name, p in PEOPLE.items():
     picks[p["id"]] = {"voiceId": p["voiceId"], "voiceName": p.get("voiceName")}
     cast_now.append(f"{p['name']} -> {p.get('voiceName')}")
 
+# Equipment, not people. build_directed.py refuses to put a mood on a character carrying this flag
+# (see MACHINES in that file); the lab and the packs are otherwise indifferent to it. Kept in the
+# hand file rather than derived from the name at read time, because a keyword test catches people
+# speaking through a fixture as readily as the fixture itself.
+machines = set(hand.get("machines") or [])
+flagged = 0
+for c in chars["characters"]:
+    want = c["id"] in machines and not c.get("screenSpeaker")
+    if want and not c.get("machine"):
+        c["machine"] = True
+        flagged += 1
+    elif c.get("machine") and not want:
+        c.pop("machine")
+        flagged += 1
+if flagged:
+    print(f"[{GAME}] machine flag changed on {flagged} character(s); {len(machines)} are equipment")
+
 print(f"[{GAME}] moved {moved_total} line(s) in {len(plan['moves']) - skipped} rule(s) "
       f"({skipped} already applied); carried {take_groups} take group(s)")
 if created:

@@ -1156,5 +1156,13 @@
    "kind": "bbs",
    "posts": 1
   }
- }
+ },
+ "machines": [
+  "name_admincomputer",
+  "name_computer",
+  "name_cyberwaremachine",
+  "name_medicalsupplykiosk",
+  "name_turret"
+ ],
+ "_machines_comment": "Characters that are equipment, not people. build_directed.py refuses to put a mood on them ('[nervous] AZTECHNOLOGY INVENTORY SERVICES'). Proposed by keyword and then hand-filtered: the keyword also catches people speaking THROUGH a fixture (Dragonfall's Control Panel and Speaker), a person whose name contains one (German Announcer), and APEX talking out of a drone. Message-board handles are never machines."
 }

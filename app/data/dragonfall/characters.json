@@ -26346,7 +26346,8 @@
      "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
      "t": "Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut.\n\nIn the end, Titonius saves Lightninghold by rallying a peasant revolt. It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_vauclair",
@@ -57158,7 +57159,8 @@
      "cn": "a2_AGChemie-S2-RecordsRoomComputer",
      "t": "AUTHORIZATION FAILED."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_alice",
@@ -58573,7 +58575,8 @@
      "cn": "a2_Lodge_s1-2ndFloorInterior_PenthouseConsole",
      "t": ">>Code Rejected!\n"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_janet",
@@ -60238,7 +60241,8 @@
      "cn": "a3_Endgame_s5-PumpStationB",
      "t": ">>Vent B Safety Protocol disengaged. // Vent B is now unlocked for manual venting.\n\n>>NOTE: Virus infusion process will automatically reinitiate after emergency venting."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_femaleinitiate",
@@ -61745,7 +61749,8 @@
      "cn": "a2_AGChemie-S1-CZConsole",
      "t": ">>EXTRACTION PROCESS COMPLETE<<"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_alexander",
@@ -63361,7 +63366,8 @@
      "cn": "a2_Sewer_s1-Pump1Status",
      "t": ">> ERROR\n\nPUMP OPERATIONS HAVE BEEN REROUTED TO THE FACILITY'S CENTRAL COMPUTER SYSTEM."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_bartender",
@@ -63487,7 +63493,8 @@
      "cn": "a2_SubwaySlums_s1-OldInfoTerminal",
      "t": ">> ERROR\n\nSCRIPT FAILED WITH NULLREFERENCE ;HATCH"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_oddmerchant",
@@ -63796,7 +63803,8 @@
      "cn": "a2_Earwig_s1-ServerComputerConvo",
      "t": "Drone Targeting Override: Engaged\nTargeting Data: Accepted\nEngaging New Target"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_terminal",
@@ -63853,7 +63861,8 @@
      "cn": "a1_Intro_s2-ElevatorTerminal_NotWithPlayer0",
      "t": "Well, you'd better have a look."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_dasfinanzwesen",
@@ -63967,7 +63976,8 @@
      "cn": "a3_Endgame_s2-SecurityTerminal",
      "t": ">>>Direct-rig of automated drone controls engaged. Connect via standard rigger port located on Drone Remote Control Box."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_explosivecontrolpanel",
@@ -64024,7 +64034,8 @@
      "cn": "a3_Endgame_s4-ExplosivesRadioControl",
      "t": ">>>EXPLOSIVES ARMED\n\n{{GM}}A button under a plastic shield labeled \"DETONATE\" is now lit.{{/GM}}"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_orkguard",
@@ -64190,7 +64201,8 @@
      "cn": "a3_Endgame_s2-DoomPlans",
      "t": "WELCOME, ADMINISTRATOR. PLEASE SELECT FROM THE FOLLOWING OPTIONS.\n\n>>PF_01:// HYPERTHERMOPHILE STUDIES\n>>PF_02:// ARTIFICIAL LYMPHOCYTES AND MONOCLONAL ANTIBODY PRODUCTION\n>>PF_03:// HERMETIC TECHNIQUES FOR SLOWING RADIOACTIVE DECAY\n>>PF_04:// RECENT DEVELOPMENT NOTES"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_nasalwoman",
@@ -64292,7 +64304,8 @@
      "cn": "a3_Endgame_s2-EmailTerminal",
      "t": ">>*DeNeuf, Ingrid*\n>>to: Admin\n\nI just wanted to thank you for pushing to bring the new hermetic lab online. It's good to know that you're listening to our requests.\n\nThe research that the hermetic researchers have been doing should make our work with the Panacea much more manageable.\n\n-DeNeuf"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_acolyte",
@@ -64633,7 +64646,8 @@
      "cn": "a3_Endgame_s2-DroneControlBoxUsedUp",
      "t": ">>>Available Drone(s) 0"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_gangenforcer",
@@ -64964,7 +64978,8 @@
      "cn": "a2_Humanis_s2-RecruitComputer",
      "t": "All right, here's the latest group of recruits. Some of them are already showing signs of promise.\n\nRECRUIT 1\nAnne Klein\n\nRECRUIT 2\nEgon Kappel\n\nRECRUIT 3\nAlexander Färber\n\nRECRUIT 4\nFriedrich Bauer\n\nRECRUIT 5\nShin Yomada\n\nRECRUIT 6\nGernot Schuhmacher\n\nMake sure that they get assigned to their bunks in alphabetical order this time, Sayed. I kept losing track of who was who in the last batch.\n\nAs always, I am changing the code for my office. The new code is \"Pride.\"\n\n - Volker Stahl"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_freightelevatordoorpanel",
@@ -65007,7 +65022,8 @@
      "cn": "a3_Endgame_s1-FrieightElevatorDoorPanel",
      "t": "{{GM}}The screen on the elevator control panel displays randomly flickering characters and error messages.{{/GM}}\n\n>>>#ERROR 4ac43bc6\n>>>Primary security is a late evacuation lab access level\n>>>Please contact four six six auxiliary air ducts for your notice primary turret controls\n\n>>>Please East stairwell..."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_ltgpanel",
@@ -65046,7 +65062,8 @@
      "cn": "a3_Endgame_s1-BlownPanelInspect",
      "t": "Yow. When APEX went offline, the security systems around here got *really* unhappy.  \n\nThink they're lonely?"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_schockwellenreitermessagedrop",
@@ -65220,7 +65237,8 @@
      "cn": "a2_aztechnologyRaid_s2-WorkerNotes",
      "t": "Uh oh. I've gotta run... just got a message over the comm. Looks like Central wants to see me about something.\n\nI'll catch you back at your apartment, later tonight. Let's talk about this over a bottle of wine... I know that I could use it.\n\n-F"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_volunteerworker",
@@ -65321,7 +65339,8 @@
      "cn": "a3_Endgame_s1-MainDoorPanel",
      "t": ">>>Automated Security System OFFLINE\n>>>Manual door locks ENGAGED"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_vanguardmage",
@@ -65521,7 +65540,8 @@
      "t": "Please Clear the Area."
     }
    ],
-   "portraitFile": "dragonfall/generic_drone_strat9.png"
+   "portraitFile": "dragonfall/generic_drone_strat9.png",
+   "machine": true
   },
   {
    "id": "name_streetrat",
@@ -65582,7 +65602,8 @@
      "t": "AUTHORIZATION CHECK FAILED. SECURITY VIOLATION IN PROGRESS.\n\nTARGET ACQUIRED. LETHAL FORCE AUTHORIZED."
     }
    ],
-   "portraitFile": "dragonfall/generic_drone_corporate.png"
+   "portraitFile": "dragonfall/generic_drone_corporate.png",
+   "machine": true
   },
   {
    "id": "name_bachmeier",
@@ -65637,7 +65658,8 @@
      "cn": "a2_aztechnologyRaid_s3-GeneratorPanel",
      "t": "ILLEGAL OPERATION.\n\nError code 1569800000004\n\nPlease contact an administrator for further information."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_elevatorcontrols",
@@ -65664,7 +65686,8 @@
      "cn": "a2_AGChemie-S2-VPElevatorConsole",
      "t": ">>ACCESS GRANTED<<\n\nFLOOR 25"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_fromthedeskofwernerharding",
@@ -65718,7 +65741,8 @@
      "cn": "a3_Endgame_s2-StorageRoomPanel",
      "t": ">>Override Accepted"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_paramilitarysecurity",
@@ -66016,7 +66040,8 @@
      "cn": "a1_Intro_s1-SecurityNode",
      "t": ">>>Matrix Operations Unlocked."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_scientist",
@@ -66101,7 +66126,8 @@
      "cn": "a2_AGChemie-S1-24DoorBypass",
      "t": ">>ACCESS DENIED<<\n\nSecurity Lockdown Engaged"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_messagefile",
@@ -66144,7 +66170,8 @@
      "t": "{{GM}}The intercom system crackles to life. The familiar synthetic voice of the facility's mainframe drones out of the speakers.{{/GM}}\n\n*WARNING.* *WARNING.*\n\nControl subroutines compromised. Matrix uplink restored. System isloation compromised.\n\nInitiate emergency system purge immedi..."
     }
    ],
-   "portraitFile": "dragonfall/generic_machine.png"
+   "portraitFile": "dragonfall/generic_machine.png",
+   "machine": true
   },
   {
    "id": "name_mainframe",
@@ -66373,7 +66400,8 @@
      "t": "{{GM}}An instant later, the drones' sensors alert them to your presence. They spin in unison to face you.{{/GM}}\n\nINTRUDERS DETECTED. WEAPONS DETECTED.\n\nLETHAL FORCE AUTHORIZED."
     }
    ],
-   "portraitFile": "dragonfall/generic_drone_corporate.png"
+   "portraitFile": "dragonfall/generic_drone_corporate.png",
+   "machine": true
   },
   {
    "id": "name_alertsystem",
@@ -66388,7 +66416,8 @@
      "cn": "a2_aztechnologyRaid_s3-GeneratorPanel",
      "t": "{{GM}}Over the building's speakers, a synthesized female voice repeatedly states the obvious.{{/GM}}\n\nGenerator overload imminent. Please evacuate the facility."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_turret",
@@ -66403,7 +66432,8 @@
      "cn": "a2_Pharma_s1-Turret Control",
      "t": ">>>TURRET CONTROL v. 1.11<<<"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_doorcontrols",
@@ -66418,7 +66448,8 @@
      "cn": "a2_AGChemie-S2-AnnikasDoor",
      "t": "Code Accepted, Door Unlocked"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_warninglabel",
@@ -66524,7 +66555,8 @@
      "cn": "a3_Endgame_s1-SideDoorPanel",
      "t": "{{GM}}The screen on the door's access panel flickers off and on and displays a flashing error code.{{/GM}}\n\n>>>#ERROR | 4ac43bc6 |\n>>>Primary security offline\n>>>#ERROR! Excess doors are floodlights please engage LTG your designated air duct. \n "
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_brokenpda",
@@ -66569,7 +66601,8 @@
      "cn": "a3_Endgame_s4-VentilationControls",
      "t": "{{GM}}The air currents fade away to stillness as the vent closes.{{/GM}}"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_humanisdoorpanel",
@@ -66584,7 +66617,8 @@
      "cn": "a2_Humanis_s2-LeaderRoomPanel",
      "t": "{{GM}}The Humanis Policlub logo fills the majority of the screen on the panel. A welcome message, written in a cartoonishly aggressive font, appears below.{{/GM}}\n\nENTER DOOR CODE."
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_militiaman",
