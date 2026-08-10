@@ -26,6 +26,20 @@ handfile = os.path.join(HERE, f"spoken_hand_rewrites{SUF}.json")
 if os.path.exists(handfile):
     HAND = json.load(open(handfile))
 
+# Lines a terminal only DISPLAYS, written by a person: the spoken text is the body alone, with the
+# >>>>>[...]<<<<< markers, the ">>From:" header block and the "- Handle <10:55:01/...>" signature
+# taken off (docs/SCREEN_SPEAKERS.md). Without this the brackets and the timestamps are read out.
+#
+# This wins over the HAND file, which it has to: 129 of Dragonfall's Computer lines have a hand
+# rewrite and they bake in exactly what is being removed ("Mettbach, Gunari If you value new
+# hardware coming into the Kreuzbasar..."). Where the stripped body still holds an unresolved $()
+# the hand rewrite is kept and the line is reported, so a rewrite is never lost to a regression.
+SCREEN = {}
+screenfile = os.path.join(HERE, f"screen_splits_{GAME}.json")
+if os.path.exists(screenfile):
+    SCREEN = json.load(open(screenfile)).get("spoken") or {}
+screen_kept_hand = []
+
 def strip_gm(t):
     return re.sub(r'\{\{GM\}\}.*?(\{\{/GM\}\}|$)', ' ', t, flags=re.S)
 
@@ -37,9 +51,20 @@ def process(cid, cname, lines, is_narrator=False):
         # on screen is not what should be spoken, and without an override an unsegmented line
         # falls through to the raw text and reaches the TTS with the brackets still on it.
         hv = has_var(l['t']) or _re.search(r'[<>]', l['t'] or '') is not None
+        key = f"{l['c']}_{l['n']}"
+        if key in SCREEN:
+            s = mechanical(re.sub(r'\{\{/?[A-Za-z]*\}\}', '', strip_gm(SCREEN[key]))).strip()
+            if s and '$(' not in s and not they_disagreement(s, SCREEN[key]):
+                overrides[key] = {"char": cname, "original": l['t'], "spoken": s,
+                                  "source": "screen-speaker"}
+                continue
+            if key in HAND:
+                screen_kept_hand.append({"key": key, "char": cname, "body": SCREEN[key][:160]})
+            else:
+                unresolved.append({"key": key, "char": cname, "text": l['t']})
+                continue
         if not hv and (is_narrator or '{{' not in l['t']):
             continue
-        key = f"{l['c']}_{l['n']}"
         if key in HAND:
             overrides[key] = {"char": cname, "original": l['t'], "spoken": HAND[key], "source": "hand"}
             continue
@@ -65,7 +90,14 @@ if "narrator" in c:
 
 json.dump(overrides, open(os.path.join(ROOT, f"app/data/{GAME}/spoken_overrides.json"), "w"),
           ensure_ascii=False, indent=1)
-print(f"[{GAME}] overrides: {len(overrides)} ({sum(1 for v in overrides.values() if v['source']=='hand')} hand)")
+print(f"[{GAME}] overrides: {len(overrides)} ({sum(1 for v in overrides.values() if v['source']=='hand')} hand"
+      + (f", {sum(1 for v in overrides.values() if v['source']=='screen-speaker')} screen-speaker" if SCREEN else "")
+      + ")")
+if screen_kept_hand:
+    print(f"[{GAME}] {len(screen_kept_hand)} screen-speaker line(s) still hold an unresolved $() "
+          f"after stripping, so their hand rewrite was kept — these still say the sender's name:")
+    for e in screen_kept_hand[:20]:
+        print("  !", e["key"], "|", e["char"], "|", e["body"][:90].replace("\n", " | "))
 print(f"[{GAME}] unresolved (need hand rewrite): {len(unresolved)}")
 json.dump(unresolved, open(os.path.join(HERE, f"spoken_unresolved{SUF}.json"), "w"),
           ensure_ascii=False, indent=1)

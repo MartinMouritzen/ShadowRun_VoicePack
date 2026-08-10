@@ -1,0 +1,565 @@
+{
+ "_comment": "Who wrote each line the Dragonfall terminals display. Read by build_screen_splits.py; see docs/SCREEN_SPEAKERS.md. The parser proposes, this file decides: a speaker not named here is reported, never guessed at.",
+ "containers": [
+  "name_computer"
+ ],
+ "conversations": {
+  "527abf9e636134b83400302e": {
+   "cn": "Haven-Global_MissionComputer",
+   "default": "machine",
+   "why": "the shell itself is machine; the BBS posts and the inbox mail inside it are parsed"
+  },
+  "525c7c176636614821003cf6": {
+   "cn": "a1_Hotel_s1-SecurityOfficeComputer",
+   "default": "machine",
+   "why": "registration records and menus, except the shift notes listed under 'nodes'"
+  },
+  "5267484c6261647030004e42": {
+   "cn": "a2_AGChemie-S2-LabNotes",
+   "default": "Jensen",
+   "why": "the whole terminal is one technician's journal, first person throughout"
+  },
+  "527405216636614c32003ae6": {
+   "cn": "a2_Sewer_s1-ComputerStation",
+   "default": "machine"
+  },
+  "525d7598663661ac04001e51": {
+   "cn": "a1_Hotel_s1-Computer_Room101",
+   "default": "machine"
+  },
+  "53e93d9b323437c03d003e5c": {
+   "cn": "a2_AbandonedLab_s1-Lab_SpecimenNotes",
+   "default": "machine"
+  },
+  "53e93dc7323437c03d003e68": {
+   "cn": "a2_AbandonedLab_s1-Lab_ObservationPC",
+   "default": "machine"
+  },
+  "53ebc364323437ac45005b67": {
+   "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
+   "default": "machine"
+  },
+  "53b9efb63462385c1b00009a": {
+   "cn": "a3_Endgame_AltEnding_s1-InfoTerminal",
+   "default": "machine",
+   "why": "already split by hand in the lab via seg_overrides — do not touch"
+  },
+  "53bae917636134dc27000353": {
+   "cn": "a3_Endgame_AltEnding_s1-HorrorInfo03",
+   "default": "machine",
+   "why": "already split by hand in the lab via seg_overrides — do not touch"
+  },
+  "53bae95d636134dc2700035c": {
+   "cn": "a3_Endgame_AltEnding_s1-HorrorInfo02",
+   "default": "machine",
+   "why": "already split by hand in the lab via seg_overrides — do not touch"
+  },
+  "53bae96f636134dc27000365": {
+   "cn": "a3_Endgame_AltEnding_s1-HorrorInfo01",
+   "default": "machine",
+   "why": "already split by hand in the lab via seg_overrides — do not touch"
+  }
+ },
+ "nodes": {
+  "525c7c176636614821003cf6_4": "Hotel Manager",
+  "525c7c176636614821003cf6_23": "Hotel Manager",
+  "525c7c176636614821003cf6_38": "Hotel Manager",
+  "525c7c176636614821003cf6_7": "Hotel Manager",
+  "525c7c176636614821003cf6_13": "Hotel Manager",
+  "525c7c176636614821003cf6_26": "Hotel Manager",
+  "525c7c176636614821003cf6_32": "Hotel Manager",
+  "525c7c176636614821003cf6_37": "Hotel Manager",
+  "527abf9e636134b83400302e_308": "Herr Fuchs",
+  "527abf9e636134b83400302e_317": "Herr Fuchs",
+  "527abf9e636134b83400302e_325": "Paul Amsel",
+  "527abf9e636134b83400302e_326": "Paul Amsel",
+  "527abf9e636134b83400302e_327": "Paul Amsel",
+  "527abf9e636134b83400302e_329": "Paul Amsel",
+  "527abf9e636134b83400302e_330": "Paul Amsel",
+  "527abf9e636134b83400302e_331": "Paul Amsel"
+ },
+ "aliases": {
+  "Malestrom": "Maelstrom",
+  "SCHOCKWELLEN_REITERS": "SCHOCKWELLENREITER"
+ },
+ "keep": [
+  "System Daemon"
+ ],
+ "transcripts": {
+  "527abf9e636134b83400302e_283": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_284": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_285": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_286": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_287": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_288": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_289": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_290": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_291": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_292": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_293": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_294": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_295": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_296": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_297": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_298": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_299": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_300": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_301": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_334": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_335": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_336": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_337": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_338": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_339": {
+   "GUEST": "Herr Schmidt",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_305": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_306": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_307": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_308": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_309": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_310": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_311": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_312": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_313": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_314": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_315": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_316": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_317": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_318": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_319": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_320": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_340": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_341": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_342": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_343": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_344": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  },
+  "527abf9e636134b83400302e_345": {
+   "GUEST": "Herr Fuchs",
+   "P_AMSEL": "P_AMSEL"
+  }
+ },
+ "people": {
+  "Tolstoi": {
+   "id": "name_tolstoi",
+   "name": "Tolstoi",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_704",
+   "voiceName": "Enceladus",
+   "note": "Shadowland's best-sourced poster; measured, cites his own contacts, never shouts — Martin cast Enceladus on his lines by hand before the split; that choice wins"
+  },
+  "WraithLike44": {
+   "id": "name_wraithlike44",
+   "name": "WraithLike44",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_180",
+   "voiceName": "Noah Rivers",
+   "note": "young, flippant, answers everything with a shrug and a joke"
+  },
+  "Clockwork": {
+   "id": "name_clockwork",
+   "name": "Clockwork",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_535",
+   "voiceName": "Walter Briggs",
+   "note": "conspiracy-minded hotshot decker; theatrical certainty, enjoys being the one who knows"
+  },
+  "Ruby": {
+   "id": "name_ruby",
+   "name": "Ruby",
+   "kind": "bbs",
+   "gender": "female",
+   "voiceId": "mag_290",
+   "voiceName": "Charlotte Harrington",
+   "note": "the board's newshound; reports what she has seen, crisp and unsentimental"
+  },
+  "Maelstrom": {
+   "id": "name_maelstrom",
+   "name": "Maelstrom",
+   "kind": "bbs",
+   "gender": "female",
+   "voiceId": "mag_29",
+   "voiceName": "Ava Jordan",
+   "note": "hard, unsentimental, no patience for sob stories (Martin's casting)"
+  },
+  "The Smiling Bandit": {
+   "id": "name_thesmilingbandit",
+   "name": "The Smiling Bandit",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_297",
+   "voiceName": "Henry Whitaker",
+   "note": "arch and courtly, addresses the board as 'my esteemed colleague'; never signs a timestamp"
+  },
+  "ProShot": {
+   "id": "name_proshot",
+   "name": "ProShot",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_41",
+   "voiceName": "Chase Reed",
+   "note": "sniper for hire, terse, 'cheers mate'; talks about work like a tradesman"
+  },
+  "Jast": {
+   "id": "name_jast",
+   "name": "Jast",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_300",
+   "voiceName": "Michael Johnson",
+   "note": "principled anarchist; the one who worries about the kids in the building"
+  },
+  "Big Pharma": {
+   "id": "name_bigpharma",
+   "name": "Big Pharma",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_586",
+   "voiceName": "Dexter Glitch",
+   "note": "genial sceptic, the straight man in the APEX thread"
+  },
+  "Mr. Mayhem": {
+   "id": "name_mrmayhem",
+   "name": "Mr. Mayhem",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_372",
+   "voiceName": "William Anderson",
+   "note": "loud and jokey, types in exclamation marks"
+  },
+  "RollinTHUNDER": {
+   "id": "name_rollinthunder",
+   "name": "RollinTHUNDER",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_521",
+   "voiceName": "Mike Rodent",
+   "note": "panicking newbie decker, txt-speak, out of his depth"
+  },
+  "BlueBeerd": {
+   "id": "name_bluebeerd",
+   "name": "BlueBeerd",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_720",
+   "voiceName": "Umbriel",
+   "note": "bar-talk and classifieds; heard it from a chummer over drinks"
+  },
+  "Lumens": {
+   "id": "name_lumens",
+   "name": "Lumens",
+   "kind": "bbs",
+   "gender": "female",
+   "voiceId": "mag_267",
+   "voiceName": "Sophia Grace",
+   "note": "runs a shop and a trid host; practical, asks the board for tech help"
+  },
+  "NeoRevolutionaryAlpha": {
+   "id": "name_neorevolutionaryalpha",
+   "name": "NeoRevolutionaryAlpha",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_337",
+   "voiceName": "Jackson Cooper",
+   "note": "agitator; every post is a call to rise up, mostly in capitals"
+  },
+  "AlanAltbit": {
+   "id": "name_alanaltbit",
+   "name": "AlanAltbit",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_840",
+   "voiceName": "Daniel Koh",
+   "note": "off-grid tinkerer trading practical advice about jamming grids and mana turbines"
+  },
+  "AlexTusk": {
+   "id": "name_alextusk",
+   "name": "AlexTusk",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_178",
+   "voiceName": "Ciaran Walsh",
+   "note": "young, guileless, asks the board where to meet elves"
+  },
+  "Brewmeister": {
+   "id": "name_brewmeister",
+   "name": "Brewmeister",
+   "kind": "bbs",
+   "gender": "female",
+   "voiceId": "mag_361",
+   "voiceName": "Olivia Roberts",
+   "note": "a drug cook delighted by a new recipe; camp, gleeful, 'I do declare'"
+  },
+  "WorriedMother004": {
+   "id": "name_worriedmother004",
+   "name": "WorriedMother004",
+   "kind": "bbs",
+   "gender": "female",
+   "voiceId": "mag_179",
+   "voiceName": "Grace O'Neil",
+   "note": "a mother looking for a runaway daughter, out of place and desperate"
+  },
+  "Captain Chaos": {
+   "id": "name_captainchaos",
+   "name": "Captain Chaos",
+   "kind": "bbs",
+   "gender": "male",
+   "voiceId": "mag_696",
+   "voiceName": "Algenib",
+   "note": "Shadowland's sysop; closes threads that have gone off the rails"
+  },
+  "Herr Schmidt": {
+   "id": "name_herrschmidt",
+   "name": "Herr Schmidt",
+   "kind": "new",
+   "gender": "male",
+   "voiceId": "mag_708",
+   "voiceName": "Iapetus",
+   "note": "a Mr. Johnson alias; precise, corporate, never raises his voice"
+  },
+  "Herr Fuchs": {
+   "id": "name_herrfuchs",
+   "name": "Herr Fuchs",
+   "kind": "new",
+   "gender": "male",
+   "voiceId": "mag_717",
+   "voiceName": "Sadaltager",
+   "note": "a second Johnson alias; smoother than Schmidt and less honest"
+  },
+  "WITHHELD": {
+   "id": "name_withheld",
+   "name": "WITHHELD",
+   "kind": "new",
+   "gender": "neutral",
+   "voiceId": "mag_684",
+   "voiceName": "Avery Quinn",
+   "note": "the anonymous client's message account; deliberately unplaceable"
+  },
+  "Em": {
+   "id": "name_em",
+   "name": "Em",
+   "kind": "new",
+   "gender": "female",
+   "voiceId": "mag_721",
+   "voiceName": "Vindemiatrix",
+   "note": "Blitz's mother, writing to a stranger about her son; warm and careful"
+  },
+  "Jensen": {
+   "id": "name_jensen",
+   "name": "Jensen",
+   "kind": "new",
+   "gender": "male",
+   "voiceId": "mag_518",
+   "voiceName": "Dr. Cosmo Fizzlebaum",
+   "note": "AG Chemie lab technician; the Formula 17 journal, exhausted and manic by turns"
+  },
+  "Hotel Manager": {
+   "id": "name_hotelmanager",
+   "name": "Hotel Manager",
+   "kind": "new",
+   "gender": "male",
+   "voiceId": "mag_723",
+   "voiceName": "Zubenelgenubi",
+   "note": "runs the front desk and the drug trade out of it; cynical shift notes"
+  },
+  "Enstad, Thorvald": {
+   "id": "name_thorvaldenstad",
+   "name": "Enstad, Thorvald",
+   "kind": "existing"
+  },
+  "Jana": {
+   "id": "name_jana",
+   "name": "Jana",
+   "kind": "existing"
+  },
+  "Alexander": {
+   "id": "name_alexander",
+   "name": "Alexander",
+   "kind": "existing"
+  },
+  "Silke": {
+   "id": "name_silke",
+   "name": "Silke",
+   "kind": "existing"
+  },
+  "Samuel Beckenbauer": {
+   "id": "name_samuelbeckenbauer",
+   "name": "Samuel Beckenbauer",
+   "kind": "existing"
+  },
+  "Frau Müller": {
+   "id": "name_fraumuller",
+   "name": "Frau Müller",
+   "kind": "existing"
+  },
+  "Mettbach, Gunari": {
+   "id": "name_gunarimettbach",
+   "name": "Mettbach, Gunari",
+   "kind": "existing"
+  },
+  "Ezkibel, Dr. Xabier": {
+   "id": "name_drxabierezkibel",
+   "name": "Ezkibel, Dr. Xabier",
+   "kind": "existing"
+  },
+  "P_AMSEL": {
+   "id": "name_paulamsel",
+   "name": "P_AMSEL",
+   "kind": "existing"
+  },
+  "Paul Amsel": {
+   "id": "name_paulamsel",
+   "name": "Paul Amsel",
+   "kind": "existing"
+  },
+  "Blitz": {
+   "id": "name_blitz",
+   "name": "Blitz",
+   "kind": "existing"
+  },
+  "SCHOCKWELLENREITER": {
+   "id": "name_schockwellenreitermessagedrop",
+   "name": "SCHOCKWELLENREITER",
+   "kind": "existing"
+  }
+ }
+}

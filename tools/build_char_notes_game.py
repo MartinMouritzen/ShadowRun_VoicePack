@@ -64,6 +64,12 @@ def main():
     todo = [{"id": "narrator", "name": "Narrator (GM)", "portrait": None}] + chars["characters"]
     for c in todo:
         cid = c["id"]
+        # Message-board handles are cast in screen_speakers_<game>.json, by hand, from their actual
+        # posts. Generating suggestions for them anyway would be worse than useless: `used_count`
+        # is a diversity penalty across everything suggested in this run, so a hundred handles
+        # would push their voices down the list for the characters that still need choosing.
+        if c.get("screenSpeaker"):
+            continue
         e = src.get(cid)
         if e:
             bio, direction, kws, gender, age = e["bio"], e["direction"], e.get("kw", []), e.get("gender"), e.get("age")

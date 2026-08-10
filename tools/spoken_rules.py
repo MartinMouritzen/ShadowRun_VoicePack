@@ -139,7 +139,16 @@ def mechanical(t):
     s = re.sub(r'\$\(story\.Global_HK_Hub_SafeBoatName\)', 'Bolthole', s, flags=re.I)
     # vocative drops: ", $(l.name)?" -> "?"  (also sir/first/lastname/honorific/freund etc.)
     s = re.sub(r',\s*\$\((%s)\)\s*([.!?,])' % _VOC, r'\2', s, flags=re.I)
-    s = re.sub(r'^\s*\$\((l\.name|l\.firstname|l\.honorific)\)\s*[,-]\s*', '', s, flags=re.I)
+    # A line that OPENS by naming the player: "$(l.name). I didn't want to say this in front of the
+    # others" — the full stop belongs in the class as much as the comma does.
+    s = re.sub(r'^\s*\$\((l\.name|l\.firstname|l\.honorific)\)\s*[,.-]\s*', '', s, flags=re.I)
+    # Letter salutations. Screen mail is written as a letter and opens on one, which no vocative
+    # rule above reaches because it is a line of its own inside the body. "Dear," alone is not
+    # English, so that one takes the neutral relationship word; the rest just lose the name.
+    s = re.sub(r'^[ \t]*Dear[ \t,]*\$\((?:l\.name|l\.firstname)\)\s*,',
+               'Dear friend,', s, flags=re.I | re.M)
+    s = re.sub(r'^[ \t]*(Hi|Hello|Hey|Hoi|Greetings)[ \t,]*\$\((?:l\.name|l\.firstname)\)\s*,',
+               r'\1,', s, flags=re.I | re.M)
     # greetings: "Welcome $(scene.BroSis)!" -> "Welcome, friend!"
     s = re.sub(r'\$\(scene\.BroSis\)', 'friend', s)
     # gendered address words: 'man' works cross-gender in street slang

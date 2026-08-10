@@ -1121,27 +1121,6 @@
    ]
   ]
  },
- "name_nasalwoman": {
-  "files": [
-   "name_nasalwoman.png",
-   "name_nasalwoman_v2.png",
-   "name_nasalwoman_v3.png",
-   "name_nasalwoman_v4.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_humanfemale_kami.png",
-    "npc_humanfemale_monika.png",
-    "npc_humanfemale_feuerschwinge.png"
-   ],
-   [
-    "npc_orkfemale_silke.png",
-    "npc_elffemale_danni.png",
-    "npc_humanfemale_glory.png"
-   ]
-  ]
- },
  "name_acolyte": {
   "files": [
    "name_acolyte.png",
@@ -1527,7 +1506,9 @@
    "name_volunteerworker.png",
    "name_volunteerworker_v2.png",
    "name_volunteerworker_v3.png",
-   "name_volunteerworker_v4.png"
+   "name_volunteerworker_v4.png",
+   "name_volunteerworker_eb5385dc.png",
+   "name_volunteerworker_eb5386bc.png"
   ],
   "usedRef": false,
   "sourceArt": [
@@ -1988,27 +1969,6 @@
    ],
    [
     "generic_machine.png"
-   ]
-  ]
- },
- "name_highpitchedman": {
-  "files": [
-   "name_highpitchedman.png",
-   "name_highpitchedman_v2.png",
-   "name_highpitchedman_v3.png",
-   "name_highpitchedman_v4.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_humanmale_heimerich.png",
-    "npc_humanmale_calmscientist.png",
-    "npc_orkmale_samuel.png"
-   ],
-   [
-    "npc_orkmale_ulrike.png",
-    "npc_humanmale_clone.png",
-    "npc_humanmale_feralscientist.png"
    ]
   ]
  },

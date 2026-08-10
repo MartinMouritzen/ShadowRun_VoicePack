@@ -48,6 +48,32 @@ for _e in (jopt(os.path.join(HERE, "quote_splits.json")).get(GAME) or []):
                  "quotes": _quotes})
 QUOTE_VOICES = {}          # segKey -> voice, merged into seg_overrides.json at the end
 
+# ---------------------------------------------------------------- several people in one screen
+# A Shadowland thread puts three posters in one node, and a job negotiation puts both sides of the
+# call in one. tools/screen_splits_<game>.json (build_screen_splits.py) already knows who says what,
+# in order, so those segments are built STRAIGHT from the plan rather than by locating each span in
+# the spoken text the way split_quotes() does: that search fails to a WARN and silently collapses
+# the node back to a single voice, which is invisible in the lab.
+SCREEN_INLINE = {}
+_sp = os.path.join(HERE, f"screen_splits_{GAME}.json")
+if os.path.exists(_sp):
+    SCREEN_INLINE = json.load(open(_sp)).get("inline") or {}
+SCREEN_PEOPLE = {p["id"]: p for p in
+                 (jopt(os.path.join(HERE, f"screen_speakers_{GAME}.json")).get("people") or {}).values()}
+PICKS = jopt(os.path.join(ROOT, f"app/data/{GAME}/picks.json"))
+
+
+def screen_voice(pid):
+    """The voice for a person in a shared node: their cast pick, else the hand file's choice.
+
+    Preferring the pick means recasting in the lab actually reaches these segments on the next
+    build. Someone who only ever appears inside a shared node has no cast entry at all, and falls
+    back to the voice named alongside them in screen_speakers_<game>.json."""
+    p = PICKS.get(pid) or SCREEN_PEOPLE.get(pid) or {}
+    if p.get("voiceId"):
+        return {"voiceId": p["voiceId"], "voiceName": p.get("voiceName")}
+    return None
+
 def split_quotes(cid, line, key, text):
     """[(text, voice_or_None)] for a line with hand-listed quotes; [] when it has none."""
     plan = QSPLIT.get((cid, line["c"], line["n"]))
@@ -106,6 +132,24 @@ def derive(raw_line, ch, g, key, line, record=True, bypass=False):
     """The segment list for one node's raw text. Factored out so the variant pass can re-derive
     the SAME way with template variables substituted, rather than reimplementing the rules."""
     out = []
+    if record and not bypass and key in SCREEN_INLINE:
+        missing = []
+        for part in SCREEN_INLINE[key]:
+            t = mechanical(clean(part["text"]))
+            if "$(" in t or they_disagreement(t, part["text"]):
+                unresolved.append({"key": key, "char": part["name"], "seg": f"c{len(out)}",
+                                   "text": part["text"][:200]})
+            voice = screen_voice(part["id"])
+            if not voice:
+                missing.append(part["name"])
+            for beat in (beats(t) or [t]):
+                if voice:
+                    QUOTE_VOICES[f"{key}~c{len(out)}"] = voice
+                out.append({"who": "char", "t": beat})
+        if missing:
+            print(f"  WARN: {key} has no voice for {', '.join(sorted(set(missing)))} — those "
+                  f"segments keep the container's voice", file=sys.stderr)
+        return out
     if line.get("y") == 6 and "{{GM}}" not in raw_line:
         # GM_Speaker_Voice without markers: the whole node is narration -> narrator voices it
         if not bypass and key in HAND_SEG and "g0" in HAND_SEG[key]:
@@ -269,9 +313,10 @@ json.dump(result, open(os.path.join(ROOT, f"app/data/{GAME}/line_segments.json")
 if QUOTE_VOICES or True:
     sp_path = os.path.join(ROOT, f"app/data/{GAME}/seg_overrides.json")
     segov = jopt(sp_path)
-    segov = {k: v for k, v in segov.items() if not (isinstance(v, dict) and v.get("source") == "quote-split")}
+    segov = {k: v for k, v in segov.items()
+             if not (isinstance(v, dict) and v.get("source") in ("quote-split", "screen-split"))}
     for k, v in QUOTE_VOICES.items():
-        segov[k] = dict(v, source="quote-split")
+        segov[k] = dict(v, source="screen-split" if k.split("~")[0] in SCREEN_INLINE else "quote-split")
     json.dump(segov, open(sp_path, "w"), ensure_ascii=False, indent=1)
     if QUOTE_VOICES:
         print(f"[{GAME}] quote splits: {len(QUOTE_VOICES)} quoted segment(s) given their speaker's voice")

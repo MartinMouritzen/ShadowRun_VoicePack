@@ -15,6 +15,9 @@ and the 'file' path in takes.json is rewritten to match. GM segments (~gN) live 
 and never move; character segments (~cN) do."""
 import json, os, shutil, sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import line_moves
+
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
 if GAME not in ("dms", "dragonfall", "hk"):
     sys.exit(f"ERROR: unknown game '{GAME}'")
@@ -34,35 +37,7 @@ takes = json.load(open(TAKES_PATH)) if os.path.exists(TAKES_PATH) else {}
 
 def move_takes(src, dst, convo, nodes):
     """Carry every take for these nodes from bucket src to bucket dst; returns keys moved."""
-    if src not in takes: return []
-    bases = {f"{convo}_{n}" for n in nodes}
-    keys = [k for k in takes[src]
-            if k in bases or (k.split("~")[0] in bases and k.split("~")[1].startswith("c"))]
-    for k in keys:
-        entry = takes[src].pop(k)
-        for tk in entry.get("takes", []):
-            old_rel = tk["file"]
-            if not old_rel.startswith(src + "/"): continue
-            new_rel = dst + old_rel[len(src):]
-            old_abs = os.path.join(AUDIO, *old_rel.split("/"))
-            new_abs = os.path.join(AUDIO, *new_rel.split("/"))
-            if os.path.exists(new_abs) or os.path.exists(old_abs):
-                if not os.path.exists(new_abs):
-                    os.makedirs(os.path.dirname(new_abs), exist_ok=True)
-                    shutil.move(old_abs, new_abs)
-                if entry.get("selected") == old_rel: entry["selected"] = new_rel
-                tk["file"] = new_rel
-            else:
-                print(f"    WARN: take audio missing, left path as-is: {old_rel}")
-        cur = takes.setdefault(dst, {}).get(k)
-        if cur is None:
-            takes[dst][k] = entry
-        else:   # target already had takes for this line: keep both, target's keeper wins
-            have = {t["file"] for t in cur["takes"]}
-            cur["takes"].extend(t for t in entry["takes"] if t["file"] not in have)
-            cur["selected"] = cur.get("selected") or entry.get("selected")
-    if not takes[src]: takes.pop(src)
-    return keys
+    return line_moves.move_takes(takes, AUDIO, src, dst, convo, nodes)
 
 total = 0
 dropped = []

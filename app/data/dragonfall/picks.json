@@ -188,8 +188,8 @@
   "voiceName": "Winston Brown"
  },
  "name_maliitholyey": {
-  "voiceId": "mag_267",
-  "voiceName": "Sophia Grace"
+  "voiceId": "mag_171",
+  "voiceName": "Greta Wagner"
  },
  "name_aztechnologybloodmage": {
   "voiceId": "mag_183",
@@ -420,8 +420,8 @@
   "voiceName": "Matt Carson"
  },
  "name_jangoldschmidt": {
-  "voiceId": "mag_708",
-  "voiceName": "Iapetus"
+  "voiceId": "CVP7d0EDsPO8YR2fweYp",
+  "voiceName": "Victor Hale"
  },
  "name_smuggler": {
   "voiceId": "mag_42",
@@ -584,8 +584,8 @@
   "voiceName": "Grant Walker"
  },
  "name_david": {
-  "voiceId": "mag_521",
-  "voiceName": "Mike Rodent"
+  "voiceId": "mag_186",
+  "voiceName": "Ethan Clarke"
  },
  "name_knighterrantcaptain": {
   "voiceId": "mag_281",
@@ -760,8 +760,8 @@
   "voiceName": "Axel Virex"
  },
  "name_highpitchedman": {
-  "voiceId": "mag_333",
-  "voiceName": "Matthew Reynolds"
+  "voiceId": "mag_584",
+  "voiceName": "Titan Steele"
  },
  "name_gatekeeperic": {
   "voiceId": "mag_244",
@@ -886,5 +886,93 @@
  "name_computer": {
   "voiceId": "sapi_david",
   "voiceName": "Microsoft David (SAPI)"
+ },
+ "name_tolstoi": {
+  "voiceId": "mag_704",
+  "voiceName": "Enceladus"
+ },
+ "name_wraithlike44": {
+  "voiceId": "mag_180",
+  "voiceName": "Noah Rivers"
+ },
+ "name_clockwork": {
+  "voiceId": "mag_535",
+  "voiceName": "Walter Briggs"
+ },
+ "name_ruby": {
+  "voiceId": "mag_290",
+  "voiceName": "Charlotte Harrington"
+ },
+ "name_maelstrom": {
+  "voiceId": "mag_29",
+  "voiceName": "Ava Jordan"
+ },
+ "name_thesmilingbandit": {
+  "voiceId": "mag_297",
+  "voiceName": "Henry Whitaker"
+ },
+ "name_proshot": {
+  "voiceId": "mag_41",
+  "voiceName": "Chase Reed"
+ },
+ "name_jast": {
+  "voiceId": "mag_300",
+  "voiceName": "Michael Johnson"
+ },
+ "name_rollinthunder": {
+  "voiceId": "mag_521",
+  "voiceName": "Mike Rodent"
+ },
+ "name_bluebeerd": {
+  "voiceId": "mag_720",
+  "voiceName": "Umbriel"
+ },
+ "name_lumens": {
+  "voiceId": "mag_267",
+  "voiceName": "Sophia Grace"
+ },
+ "name_neorevolutionaryalpha": {
+  "voiceId": "mag_337",
+  "voiceName": "Jackson Cooper"
+ },
+ "name_alanaltbit": {
+  "voiceId": "mag_840",
+  "voiceName": "Daniel Koh"
+ },
+ "name_alextusk": {
+  "voiceId": "mag_178",
+  "voiceName": "Ciaran Walsh"
+ },
+ "name_brewmeister": {
+  "voiceId": "mag_361",
+  "voiceName": "Olivia Roberts"
+ },
+ "name_worriedmother004": {
+  "voiceId": "mag_179",
+  "voiceName": "Grace O'Neil"
+ },
+ "name_herrschmidt": {
+  "voiceId": "mag_708",
+  "voiceName": "Iapetus"
+ },
+ "name_herrfuchs": {
+  "voiceId": "mag_717",
+  "voiceName": "Sadaltager"
+ },
+ "name_withheld": {
+  "voiceId": "mag_684",
+  "voiceName": "Avery Quinn"
+ },
+ "name_em": {
+  "voiceId": "mag_721",
+  "voiceName": "Vindemiatrix"
+ },
+ "name_jensen": {
+  "voiceId": "mag_518",
+  "voiceName": "Dr. Cosmo Fizzlebaum"
+ },
+ "name_hotelmanager": {
+  "voiceId": "mag_723",
+  "voiceName": "Zubenelgenubi"
  }
 }

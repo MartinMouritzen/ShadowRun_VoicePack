@@ -52,7 +52,6 @@ germanannouncer	srrv_germanannouncer.png
 guard	srrv_guard.png
 hackerdecker	srrv_hackerdecker.png
 harrowsmanifesto	srrv_harrowsmanifesto.png
-highpitchedman	srrv_highpitchedman.png
 humanisdoorpanel	srrv_humanisdoorpanel.png
 humanispropaganda	srrv_humanispropaganda.png
 humanisterminal	srrv_humanisterminal.png
@@ -77,7 +76,6 @@ mercenary	srrv_mercenary.png
 messagefile	srrv_messagefile.png
 messages	srrv_messages.png
 militiaman	srrv_militiaman.png
-nasalwoman	srrv_nasalwoman.png
 newsanchor	srrv_newsanchor.png
 newsdayworldreport	srrv_newsdayworldreport.png
 note	srrv_note.png
@@ -160,7 +158,6 @@ conv:52608279626164942e002702	srrv_elevatorcontrols.png
 conv:526168fe626164cc2d00133c	srrv_doorcontrols.png
 conv:5261d0f96361348409001bcb	srrv_partygirl.png
 conv:52656ec3303031fc140043c1	srrv_warninglabel.png
-conv:5267484c6261647030004e42	srrv_computer.png
 conv:5267edc86261649834000de0	srrv_digitalarchiveterminal.png
 conv:526839236261649834001bb1	srrv_doorconsole.png
 conv:52697f8830303198080038b0	srrv_humanispropaganda.png
@@ -179,7 +176,6 @@ conv:527a888f303031240b00306a	srrv_freightelevatordoorpanel.png
 conv:527a93bd636134b83400260e	srrv_messagefile.png
 conv:527a99aa303031240b003094	srrv_gatecontrol.png
 conv:527ab4d8303031100800167f	srrv_ltgpanel.png
-conv:527abf9e636134b83400302e	srrv_computer.png
 conv:5280057e303031f40b001619	srrv_freightelevatordoorpanel.png
 conv:52815302303031d405007ff6	srrv_gatecontrol.png
 conv:528170ed3030316c0b001954	srrv_doorpanel.png

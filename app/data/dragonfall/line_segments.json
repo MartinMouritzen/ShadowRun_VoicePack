@@ -10927,6 +10927,102 @@
    "t": "The words trail off again."
   }
  ],
+ "521e4028303031501600601e_10": [
+  {
+   "who": "gm",
+   "t": "Blitz leans in to inspect her work."
+  },
+  {
+   "who": "char",
+   "t": "Yeah... yeah, that looks like a pretty solid connection. Nice soldering job on those contacts, there. I'd say that you're good to go."
+  }
+ ],
+ "521e4028303031501600601e_11": [
+  {
+   "who": "gm",
+   "t": "He straightens. Casts a glance back at you."
+  },
+  {
+   "who": "char",
+   "t": "You know, chief... we *could* use this setup to our advantage."
+  }
+ ],
+ "521e4028303031501600601e_13": [
+  {
+   "who": "gm",
+   "t": "He shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Your call, of course. Just thought I should bring it up."
+  }
+ ],
+ "521e77003030318403005ff8_5": [
+  {
+   "who": "gm",
+   "t": "He smirks."
+  },
+  {
+   "who": "char",
+   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
+  },
+  {
+   "who": "gm",
+   "t": "He raises an eyebrow at you."
+  },
+  {
+   "who": "char",
+   "t": "Your call, though, chief. Obviously."
+  }
+ ],
+ "521e77003030318403005ff8_10": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
+  }
+ ],
+ "521e77003030318403005ff8_27": [
+  {
+   "who": "gm",
+   "t": "He smirks."
+  },
+  {
+   "who": "char",
+   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
+  },
+  {
+   "who": "gm",
+   "t": "He raises an eyebrow at you."
+  },
+  {
+   "who": "char",
+   "t": "Your call, though, chief. Obviously."
+  }
+ ],
+ "521e77003030318403005ff8_32": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
+  }
+ ],
+ "521e77003030318403005ff8_43": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
+  }
+ ],
  "52336c1638336110170073fa_0": [
   {
    "who": "gm",
@@ -13069,6 +13165,88 @@
    "t": "I dunno, boss. If you were hoping for something more profound, I'd talk to one of the others."
   }
  ],
+ "523749c0303031940c0001ec_12": [
+  {
+   "who": "gm",
+   "t": "As you turn to leave, Blitz leans in and whispers to you."
+  },
+  {
+   "who": "char",
+   "t": "Um... chief? What the hell was that about?"
+  }
+ ],
+ "525378a1626164c822001545_4": [
+  {
+   "who": "char",
+   "t": "...So you're a getaway driver?"
+  },
+  {
+   "who": "gm",
+   "t": "Blitz shoots the rigger a sidelong glance."
+  },
+  {
+   "who": "char",
+   "t": "Vehicle riggers are even *less* likely to be found on the front lines."
+  }
+ ],
+ "5256e175636134002a002945_1": [
+  {
+   "who": "char",
+   "t": "See the cameras in the corner of the room?"
+  },
+  {
+   "who": "gm",
+   "t": "Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them."
+  },
+  {
+   "who": "char",
+   "t": "Wave hi. I'm on the other side of 'em."
+  }
+ ],
+ "5256e175636134002a002945_15": [
+  {
+   "who": "gm",
+   "t": "From the pause on the other end of the line, you can tell that you've caught Blitz off guard."
+  },
+  {
+   "who": "char",
+   "t": "Yeah? What's that?"
+  }
+ ],
+ "525add9b3030315c17005fce_2": [
+  {
+   "who": "char",
+   "t": "Well, that's handy. I'm all for avoiding a firefight if we can get away with it."
+  },
+  {
+   "who": "gm",
+   "t": "He claps you on the shoulder."
+  },
+  {
+   "who": "char",
+   "t": "Good find, chief."
+  }
+ ],
+ "525ccb07626164e02600603b_2": [
+  {
+   "who": "gm",
+   "t": "Blitz's eyes go wide."
+  },
+  {
+   "who": "char",
+   "t": "Chief. Did you just read that? I am going to drive the *hell* out of this thing."
+  }
+ ],
+ "525ccb07626164e02600603b_5": [
+  {
+   "who": "gm",
+   "t": "Blitz looks sullen."
+  },
+  {
+   "who": "char",
+   "t": "Yeah, well, screw you, too."
+  }
+ ],
  "525ccb07626164e02600603b_43": [
   {
    "who": "gm",
@@ -13147,6 +13325,20 @@
    "t": "Listen to your friend! Seriously, I'm pretty great! I promise that if you let me sign on with you, you won't regret it."
   }
  ],
+ "52619975626164a00b0048cf_25": [
+  {
+   "who": "char",
+   "t": "Decisions, decisions, huh, chief?"
+  },
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "Can't say that I like the idea of handin' this thing over to Schmidt... Lord knows what he's going to do with it."
+  }
+ ],
  "5266eef4663661b825002e69_25": [
   {
    "who": "gm",
@@ -13177,6 +13369,64 @@
    "t": "What the hell is this? Why didn't you warn me about this before I came here?"
   }
  ],
+ "52675434626164703000513a_8": [
+  {
+   "who": "gm",
+   "t": "Blitz stops short."
+  },
+  {
+   "who": "char",
+   "t": "What's going on, chief?"
+  }
+ ],
+ "52675434626164703000513a_22": [
+  {
+   "who": "char",
+   "t": "We still have a dragon to deal with. We need resources more than we need Herr Schmidt to like us. And if this contact of yours has access to those resources, well..."
+  },
+  {
+   "who": "gm",
+   "t": "He shrugs."
+  },
+  {
+   "who": "char",
+   "t": "You do the math."
+  }
+ ],
+ "52675434626164703000513a_25": [
+  {
+   "who": "char",
+   "t": "I don't want to be on anyone else's bad side... especially not theirs. I didn't even think that they existed."
+  },
+  {
+   "who": "gm",
+   "t": "He turns to stare at you."
+  },
+  {
+   "who": "char",
+   "t": "What the hell have you gotten us into, chief?"
+  }
+ ],
+ "52675434626164703000513a_77": [
+  {
+   "who": "gm",
+   "t": "He rolls his eyes."
+  },
+  {
+   "who": "char",
+   "t": "Typical. \"Hey, go do this, and follow my instructions to the letter. You doing it yet? Okay, plan's changed.\""
+  }
+ ],
+ "526aaa786261648c3a004bb6_2": [
+  {
+   "who": "gm",
+   "t": "Bltiz steps up to a console built into the wall beside the elevator."
+  },
+  {
+   "who": "char",
+   "t": "This is it, chief. All the camera feeds are right here. Shall I?"
+  }
+ ],
  "527a888f303031240b00306a_26": [
   {
    "who": "gm",
@@ -13195,6 +13445,40 @@
   {
    "who": "char",
    "t": "Lead the way. Let's get this over with."
+  }
+ ],
+ "527abf9e636134b83400302e_58": [
+  {
+   "who": "gm",
+   "t": "Blitz stares at the text on the screen."
+  },
+  {
+   "who": "char",
+   "t": "She… uh, *it*... isn’t kidding, chief. This discussion is dated back to 2036. That's ancient history in the decking community. It probably isn't even correct to call these guys \"deckers.\" \"Hackers\" would be the more appropriate term."
+  }
+ ],
+ "527abf9e636134b83400302e_75": [
+  {
+   "who": "gm",
+   "t": "Blitz raises his hand."
+  },
+  {
+   "who": "char",
+   "t": "Hold up. Uh, Alice, I have a question. I thought they said that Lofwyr killed APEX?"
+  }
+ ],
+ "527abf9e636134b83400302e_92": [
+  {
+   "who": "char",
+   "t": "I don't like the smell of this, chief. It said that APEX *let* Alice escape."
+  },
+  {
+   "who": "gm",
+   "t": "He turns to address the simulacrum on the screen."
+  },
+  {
+   "who": "char",
+   "t": "Alice, why would a Matrix warfare AI allow you to run a trace on it?"
   }
  ],
  "528170ed3030316c0b001954_3": [
@@ -13553,6 +13837,84 @@
    "t": "Nothing deserves that. But we can't just let her free. She's a dragon. And she's nuts."
   }
  ],
+ "52a8a94f636134242200491f_14": [
+  {
+   "who": "gm",
+   "t": "He gives Dietrich a solemn nod."
+  },
+  {
+   "who": "char",
+   "t": "You said it."
+  }
+ ],
+ "52a8a94f636134242200491f_18": [
+  {
+   "who": "char",
+   "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job."
+  },
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "I dunno. It doesn't feel like we're on the right side of this one."
+  }
+ ],
+ "52a90f6b6361340408008351_14": [
+  {
+   "who": "char",
+   "t": "If you don't wanna kill him, that's fine."
+  },
+  {
+   "who": "gm",
+   "t": "Blitz looks you in the eye."
+  },
+  {
+   "who": "char",
+   "t": "Let *me* do it."
+  }
+ ],
+ "52a90f6b6361340408008351_29": [
+  {
+   "who": "gm",
+   "t": "Blitz gives you a significant glance. You can see the disgust in his eyes."
+  }
+ ],
+ "52ab6b846361340c1900670a_10": [
+  {
+   "who": "char",
+   "t": "That ain't \"living.\" It's a slow death."
+  },
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "I just don't get wageslaves, man. I really, really don't."
+  }
+ ],
+ "52ab6b846361340c1900670a_15": [
+  {
+   "who": "gm",
+   "t": "He shakes his head."
+  },
+  {
+   "who": "char",
+   "t": "I can't imagine a much worse way to live, chief. Makes my skin crawl just thinking about it."
+  }
+ ],
+ "52ab6b846361340c1900670a_16": [
+  {
+   "who": "gm",
+   "t": "He nods."
+  },
+  {
+   "who": "char",
+   "t": "Well. Might as well get to it."
+  }
+ ],
  "52b20f7b626164081c0068f6_29": [
   {
    "who": "gm",
@@ -13603,6 +13965,20 @@
    "t": "Fuck me. What have we *done?*"
   }
  ],
+ "52b4d9fb64343172ad63962e_15": [
+  {
+   "who": "char",
+   "t": "Well, uh... I didn't know Paul as well as the rest of you. But he seemed like a good guy."
+  },
+  {
+   "who": "gm",
+   "t": "He shuffles his feet."
+  },
+  {
+   "who": "char",
+   "t": "I didn't want to see this happen, at any rate."
+  }
+ ],
  "52b4d9fb64343172ad63962e_17": [
   {
    "who": "char",
@@ -13615,6 +13991,26 @@
   {
    "who": "char",
    "t": "I'll live."
+  }
+ ],
+ "52b4e06e64343172ad639884_17": [
+  {
+   "who": "gm",
+   "t": "Blitz surveys the rest of the group. Sees the determination in their faces. Finally, he sighs."
+  },
+  {
+   "who": "char",
+   "t": "...But if you're really doing this, you'll want the best decker you can find along for the ride. And I guess that nominates... me. Woo."
+  }
+ ],
+ "52b4e06e64343172ad639884_23": [
+  {
+   "who": "gm",
+   "t": "Blitz glances at you. The worry is painted all over his face."
+  },
+  {
+   "who": "char",
+   "t": "I can't believe I'm saying this, but you'd better bring me along. You try going up against an AI without a novahot decker at your side, and you're probably going to regret it."
   }
  ],
  "52b9ead8643431e75a3c9ada_8": [
@@ -13933,6 +14329,36 @@
    "t": "Too bad about the “no treasure” thing, though. Just sayin'."
   }
  ],
+ "52ceffd16361348c270034ae_1": [
+  {
+   "who": "gm",
+   "t": "Blitz stares down at the MKVI's ruined skull, his eyes wide."
+  },
+  {
+   "who": "char",
+   "t": "Well. That was... unexpected. And also disgusting."
+  }
+ ],
+ "52ceffd16361348c270034ae_3": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
+  }
+ ],
+ "52ceffd16361348c270034ae_20": [
+  {
+   "who": "gm",
+   "t": "Blitz shrugs."
+  },
+  {
+   "who": "char",
+   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
+  }
+ ],
  "52d5d21e323437a012004f71_64": [
   {
    "who": "char",
@@ -14121,6 +14547,34 @@
   {
    "who": "char",
    "t": "All right. Works for me. Good talkin' to you."
+  }
+ ],
+ "534f16e43030315008005311_4": [
+  {
+   "who": "char",
+   "t": "Yeah."
+  },
+  {
+   "who": "gm",
+   "t": "He eyes the crater."
+  },
+  {
+   "who": "char",
+   "t": "I guess that's true."
+  }
+ ],
+ "534f16e43030315008005311_5": [
+  {
+   "who": "char",
+   "t": "If you say so."
+  },
+  {
+   "who": "gm",
+   "t": "He eyes the crater."
+  },
+  {
+   "who": "char",
+   "t": "...But next time, lets try to find some work that *doesn't* end in a giant fireball, okay?"
   }
  ],
  "5355b099373937c40a0002a7_7": [
@@ -14549,68 +15003,6 @@
    "t": "...Some reward. In terms of computing power, my PDA could probably run circles around this thing."
   }
  ],
- "52675434626164703000513a_8": [
-  {
-   "who": "gm",
-   "t": "Blitz stops short."
-  },
-  {
-   "who": "char",
-   "t": "What's going on, chief?"
-  }
- ],
- "52675434626164703000513a_22": [
-  {
-   "who": "char",
-   "t": "We still have a dragon to deal with. We need resources more than we need Herr Schmidt to like us. And if this contact of yours has access to those resources, well..."
-  },
-  {
-   "who": "gm",
-   "t": "He shrugs."
-  },
-  {
-   "who": "char",
-   "t": "You do the math."
-  }
- ],
- "52675434626164703000513a_25": [
-  {
-   "who": "char",
-   "t": "I don't want to be on anyone else's bad side... especially not theirs. I didn't even think that they existed."
-  },
-  {
-   "who": "gm",
-   "t": "He turns to stare at you."
-  },
-  {
-   "who": "char",
-   "t": "What the hell have you gotten us into, chief?"
-  }
- ],
- "52675434626164703000513a_77": [
-  {
-   "who": "gm",
-   "t": "He rolls his eyes."
-  },
-  {
-   "who": "char",
-   "t": "Typical. \"Hey, go do this, and follow my instructions to the letter. You doing it yet? Okay, plan's changed.\""
-  }
- ],
- "52619975626164a00b0048cf_25": [
-  {
-   "who": "char",
-   "t": "Decisions, decisions, huh, chief?"
-  },
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "Can't say that I like the idea of handin' this thing over to Schmidt... Lord knows what he's going to do with it."
-  }
- ],
  "53cd96c1323437c03b00323e_54": [
   {
    "who": "gm",
@@ -14629,302 +15021,6 @@
   {
    "who": "char",
    "t": "Wow. Must be rough, being that big a fan and not having seen the ending."
-  }
- ],
- "521e77003030318403005ff8_5": [
-  {
-   "who": "gm",
-   "t": "He smirks."
-  },
-  {
-   "who": "char",
-   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
-  },
-  {
-   "who": "gm",
-   "t": "He raises an eyebrow at you."
-  },
-  {
-   "who": "char",
-   "t": "Your call, though, chief. Obviously."
-  }
- ],
- "521e77003030318403005ff8_10": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
-  }
- ],
- "521e77003030318403005ff8_27": [
-  {
-   "who": "gm",
-   "t": "He smirks."
-  },
-  {
-   "who": "char",
-   "t": "Sure! Wouldn't be a big deal. I used to do it all the time back in Drogenkippe."
-  },
-  {
-   "who": "gm",
-   "t": "He raises an eyebrow at you."
-  },
-  {
-   "who": "char",
-   "t": "Your call, though, chief. Obviously."
-  }
- ],
- "521e77003030318403005ff8_32": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
-  }
- ],
- "521e77003030318403005ff8_43": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well, yeah. *Of course* I was gonna do that. I just, uh... y'know. I thought that it went without saying."
-  }
- ],
- "527abf9e636134b83400302e_58": [
-  {
-   "who": "gm",
-   "t": "Blitz stares at the text on the screen."
-  },
-  {
-   "who": "char",
-   "t": "She… uh, *it*... isn’t kidding, chief. This discussion is dated back to 2036. That's ancient history in the decking community. It probably isn't even correct to call these guys \"deckers.\" \"Hackers\" would be the more appropriate term."
-  }
- ],
- "527abf9e636134b83400302e_75": [
-  {
-   "who": "gm",
-   "t": "Blitz raises his hand."
-  },
-  {
-   "who": "char",
-   "t": "Hold up. Uh, Alice, I have a question. I thought they said that Lofwyr killed APEX?"
-  }
- ],
- "527abf9e636134b83400302e_92": [
-  {
-   "who": "char",
-   "t": "I don't like the smell of this, chief. It said that APEX *let* Alice escape."
-  },
-  {
-   "who": "gm",
-   "t": "He turns to address the simulacrum on the screen."
-  },
-  {
-   "who": "char",
-   "t": "Alice, why would a Matrix warfare AI allow you to run a trace on it?"
-  }
- ],
- "525ccb07626164e02600603b_2": [
-  {
-   "who": "gm",
-   "t": "Blitz's eyes go wide."
-  },
-  {
-   "who": "char",
-   "t": "Chief. Did you just read that? I am going to drive the *hell* out of this thing."
-  }
- ],
- "525ccb07626164e02600603b_5": [
-  {
-   "who": "gm",
-   "t": "Blitz looks sullen."
-  },
-  {
-   "who": "char",
-   "t": "Yeah, well, screw you, too."
-  }
- ],
- "52b4e06e64343172ad639884_17": [
-  {
-   "who": "gm",
-   "t": "Blitz surveys the rest of the group. Sees the determination in their faces. Finally, he sighs."
-  },
-  {
-   "who": "char",
-   "t": "...But if you're really doing this, you'll want the best decker you can find along for the ride. And I guess that nominates... me. Woo."
-  }
- ],
- "52b4e06e64343172ad639884_23": [
-  {
-   "who": "gm",
-   "t": "Blitz glances at you. The worry is painted all over his face."
-  },
-  {
-   "who": "char",
-   "t": "I can't believe I'm saying this, but you'd better bring me along. You try going up against an AI without a novahot decker at your side, and you're probably going to regret it."
-  }
- ],
- "53ebc364323437ac45005b67_8": [
-  {
-   "who": "char",
-   "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut. In the end, Titonius saves Lightninghold by rallying a peasant revolt."
-  },
-  {
-   "who": "char",
-   "t": "It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
-  }
- ],
- "521e4028303031501600601e_10": [
-  {
-   "who": "gm",
-   "t": "Blitz leans in to inspect her work."
-  },
-  {
-   "who": "char",
-   "t": "Yeah... yeah, that looks like a pretty solid connection. Nice soldering job on those contacts, there. I'd say that you're good to go."
-  }
- ],
- "521e4028303031501600601e_11": [
-  {
-   "who": "gm",
-   "t": "He straightens. Casts a glance back at you."
-  },
-  {
-   "who": "char",
-   "t": "You know, chief... we *could* use this setup to our advantage."
-  }
- ],
- "521e4028303031501600601e_13": [
-  {
-   "who": "gm",
-   "t": "He shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Your call, of course. Just thought I should bring it up."
-  }
- ],
- "52a8a94f636134242200491f_14": [
-  {
-   "who": "gm",
-   "t": "He gives Dietrich a solemn nod."
-  },
-  {
-   "who": "char",
-   "t": "You said it."
-  }
- ],
- "52a8a94f636134242200491f_18": [
-  {
-   "who": "char",
-   "t": "Poor bastard. His team gets iced on a run, he gets captured... probably tortured... and now, the cleaning crew shows up to finish the job."
-  },
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "I dunno. It doesn't feel like we're on the right side of this one."
-  }
- ],
- "52ab6b846361340c1900670a_10": [
-  {
-   "who": "char",
-   "t": "That ain't \"living.\" It's a slow death."
-  },
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "I just don't get wageslaves, man. I really, really don't."
-  }
- ],
- "52ab6b846361340c1900670a_15": [
-  {
-   "who": "gm",
-   "t": "He shakes his head."
-  },
-  {
-   "who": "char",
-   "t": "I can't imagine a much worse way to live, chief. Makes my skin crawl just thinking about it."
-  }
- ],
- "52ab6b846361340c1900670a_16": [
-  {
-   "who": "gm",
-   "t": "He nods."
-  },
-  {
-   "who": "char",
-   "t": "Well. Might as well get to it."
-  }
- ],
- "52ceffd16361348c270034ae_1": [
-  {
-   "who": "gm",
-   "t": "Blitz stares down at the MKVI's ruined skull, his eyes wide."
-  },
-  {
-   "who": "char",
-   "t": "Well. That was... unexpected. And also disgusting."
-  }
- ],
- "52ceffd16361348c270034ae_3": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
-  }
- ],
- "52ceffd16361348c270034ae_20": [
-  {
-   "who": "gm",
-   "t": "Blitz shrugs."
-  },
-  {
-   "who": "char",
-   "t": "Well... I guess we might as well load the body into the van. Herr Schmidt won't be happy, but it's better than nothing."
-  }
- ],
- "534f16e43030315008005311_4": [
-  {
-   "who": "char",
-   "t": "Yeah."
-  },
-  {
-   "who": "gm",
-   "t": "He eyes the crater."
-  },
-  {
-   "who": "char",
-   "t": "I guess that's true."
-  }
- ],
- "534f16e43030315008005311_5": [
-  {
-   "who": "char",
-   "t": "If you say so."
-  },
-  {
-   "who": "gm",
-   "t": "He eyes the crater."
-  },
-  {
-   "who": "char",
-   "t": "...But next time, lets try to find some work that *doesn't* end in a giant fireball, okay?"
   }
  ],
  "53e93d9b323437c03d003e5c_10": [
@@ -14947,24 +15043,24 @@
    "t": "It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
   }
  ],
- "52a90f6b6361340408008351_14": [
-  {
-   "who": "char",
-   "t": "If you don't wanna kill him, that's fine."
-  },
+ "53eb9277323437ac45005a9f_2": [
   {
    "who": "gm",
-   "t": "Blitz looks you in the eye."
+   "t": "Blitz chokes out a startled chuckle."
   },
   {
    "who": "char",
-   "t": "Let *me* do it."
+   "t": "That's pretty vile, chief. I mean, seriously."
   }
  ],
- "52a90f6b6361340408008351_29": [
+ "53ebc364323437ac45005b67_8": [
   {
-   "who": "gm",
-   "t": "Blitz gives you a significant glance. You can see the disgust in his eyes."
+   "who": "char",
+   "t": "Too bad, 'cause I'm tellin' you anyway: Titonius Rex and his elf sweetie's dad make up, a bunch of elves fight the Jubuthons and get their asses kicked, and the whole \"Karabork the Demon Lord\" subplot is dropped because the show's effects budget got cut. In the end, Titonius saves Lightninghold by rallying a peasant revolt."
+  },
+  {
+   "who": "char",
+   "t": "It comes out of nowhere, barely makes sense, and the whole thing ends in a vomit-inducing love scene. It's a goddamned train wreck."
   }
  ],
  "53f7778d6361340021004fe8_18": [
@@ -14979,102 +15075,6 @@
   {
    "who": "char",
    "t": "You go get 'em, man! Show the world! You can do it!"
-  }
- ],
- "525378a1626164c822001545_4": [
-  {
-   "who": "char",
-   "t": "...So you're a getaway driver?"
-  },
-  {
-   "who": "gm",
-   "t": "Blitz shoots the rigger a sidelong glance."
-  },
-  {
-   "who": "char",
-   "t": "Vehicle riggers are even *less* likely to be found on the front lines."
-  }
- ],
- "525add9b3030315c17005fce_2": [
-  {
-   "who": "char",
-   "t": "Well, that's handy. I'm all for avoiding a firefight if we can get away with it."
-  },
-  {
-   "who": "gm",
-   "t": "He claps you on the shoulder."
-  },
-  {
-   "who": "char",
-   "t": "Good find, chief."
-  }
- ],
- "526aaa786261648c3a004bb6_2": [
-  {
-   "who": "gm",
-   "t": "Bltiz steps up to a console built into the wall beside the elevator."
-  },
-  {
-   "who": "char",
-   "t": "This is it, chief. All the camera feeds are right here. Shall I?"
-  }
- ],
- "523749c0303031940c0001ec_12": [
-  {
-   "who": "gm",
-   "t": "As you turn to leave, Blitz leans in and whispers to you."
-  },
-  {
-   "who": "char",
-   "t": "Um... chief? What the hell was that about?"
-  }
- ],
- "52b4d9fb64343172ad63962e_15": [
-  {
-   "who": "char",
-   "t": "Well, uh... I didn't know Paul as well as the rest of you. But he seemed like a good guy."
-  },
-  {
-   "who": "gm",
-   "t": "He shuffles his feet."
-  },
-  {
-   "who": "char",
-   "t": "I didn't want to see this happen, at any rate."
-  }
- ],
- "53eb9277323437ac45005a9f_2": [
-  {
-   "who": "gm",
-   "t": "Blitz chokes out a startled chuckle."
-  },
-  {
-   "who": "char",
-   "t": "That's pretty vile, chief. I mean, seriously."
-  }
- ],
- "5256e175636134002a002945_1": [
-  {
-   "who": "char",
-   "t": "See the cameras in the corner of the room?"
-  },
-  {
-   "who": "gm",
-   "t": "Glancing up, you notice a pair of security cameras. They're tiny things, their casings colored to blend in with the dingy wallpaper... easy to miss if you didn't know to look for them."
-  },
-  {
-   "who": "char",
-   "t": "Wave hi. I'm on the other side of 'em."
-  }
- ],
- "5256e175636134002a002945_15": [
-  {
-   "who": "gm",
-   "t": "From the pause on the other end of the line, you can tell that you've caught Blitz off guard."
-  },
-  {
-   "who": "char",
-   "t": "Yeah? What's that?"
   }
  ],
  "520a77823030315011001698_5": [
@@ -18165,6 +18165,118 @@
    "t": "That's pretty vile, boss."
   }
  ],
+ "527abf9e636134b83400302e_62": [
+  {
+   "who": "char",
+   "t": "You all hear about the S-K team that got crisped a few hours ago? A whole lab's worth of researchers, all burned and broken beyond recognition. Ugly stuff."
+  },
+  {
+   "who": "char",
+   "t": "At this point, who hasn't?"
+  }
+ ],
+ "527abf9e636134b83400302e_63": [
+  {
+   "who": "char",
+   "t": "Power spike. Got 'em right through their datajacks, like a bolt of lightning to the brain. A one-in-a-million accident, is what they're saying."
+  },
+  {
+   "who": "char",
+   "t": "...and you believe that?"
+  },
+  {
+   "who": "char",
+   "t": "Got a more plausible explanation?"
+  }
+ ],
+ "527abf9e636134b83400302e_64": [
+  {
+   "who": "char",
+   "t": "Yes, actually. It was a clean-up operation."
+  },
+  {
+   "who": "char",
+   "t": "Color me intrigued. What were they cleaning up?"
+  },
+  {
+   "who": "char",
+   "t": "A secret project that Lofwyr didn't want anything to do with. You might've heard rumors about it... the project name was APEX."
+  }
+ ],
+ "527abf9e636134b83400302e_65": [
+  {
+   "who": "char",
+   "t": "Aaaaaaand you've lost me."
+  },
+  {
+   "who": "char",
+   "t": "APEX, Clockwork? Seriously? That old line of drek?"
+  },
+  {
+   "who": "char",
+   "t": "I'm tellin' you jokers, APEX is real. Or at least, it was... until the wizworm pulled the plug."
+  }
+ ],
+ "527abf9e636134b83400302e_66": [
+  {
+   "who": "char",
+   "t": "C'mon, Clockwork. We're still decades away from seeing a fully functional AI, you know that. Those APEX stories that've been floating around... they're just some conspiracy nut's wet dream."
+  },
+  {
+   "who": "char",
+   "t": "Fine. Keep your heads in the sand. Some of us know the truth when we read it."
+  }
+ ],
+ "527abf9e636134b83400302e_67": [
+  {
+   "who": "char",
+   "t": "Okay, Clock. I'll humor you. But riddle me this: if Lofwyr had an armed and operational AI in his claws, why kill it?"
+  },
+  {
+   "who": "char",
+   "t": "You remember what happened to most of Echo Mirage?"
+  }
+ ],
+ "527abf9e636134b83400302e_68": [
+  {
+   "who": "char",
+   "t": "The Crash Virus killed them. Fried their brains. But I don't see what that has to do with anything."
+  },
+  {
+   "who": "char",
+   "t": "With the commercial release of the CDT-1000, some security firms are working on counterintrusion software that could do the same thing. \"Black IC.\" You can look it up if you don't believe me."
+  }
+ ],
+ "527abf9e636134b83400302e_69": [
+  {
+   "who": "char",
+   "t": "Whoa. Scary stuff, man."
+  },
+  {
+   "who": "char",
+   "t": "Well, the goal of the APEX project was even scarier. IC waits for you to come to it. APEX wouldn't be bound by those restrictions. It could go out hunting, hit its targets when they least expected it. That's why they called it APEX... it was designed to be the apex predator of the digital world."
+  }
+ ],
+ "527abf9e636134b83400302e_70": [
+  {
+   "who": "char",
+   "t": "...and so, rather than using it to his advantage, Lofwyr decided to kill it in the cradle?"
+  },
+  {
+   "who": "char",
+   "t": "The wizworm's no fool. Some things are too dangerous to play around with. How would you put that genie back in the bottle if it ever slipped out of your control? Answer: you couldn't."
+  }
+ ],
+ "527abf9e636134b83400302e_71": [
+  {
+   "who": "char",
+   "t": "And then it would TAKE OVER THE WORLD!!!111!11!"
+  },
+  {
+   "who": "char",
+   "t": "Okay, this thread has officially gone off the rails. I'm closing it down for the good of mankind."
+  }
+ ],
  "527abf9e636134b83400302e_110": [
   {
    "who": "gm",
@@ -18177,14 +18289,104 @@
    "t": "The message ends, and the image fades. You find yourself back at your inbox."
   }
  ],
- "527abf9e636134b83400302e_289": [
+ "527abf9e636134b83400302e_283": [
   {
    "who": "char",
-   "t": "P_AMSEL: Very well. I will pass your offer on to my team. Are there any further details that you can provide? GUEST: Haushofer's office will be locked behind a vault door. The lock is old-fashioned, of the mechanical variety. I will provide your team with a copy of the key."
+   "t": "Greetings, Herr Amsel. I trust that this connection is secure?"
   },
   {
    "who": "char",
-   "t": "GUEST: I will also supply you with a \"little black box\"... a solid-state device that your team can use to override a variety of building systems."
+   "t": "Naturally. To whom do I have the pleasure of speaking?"
+  },
+  {
+   "who": "char",
+   "t": "Call me Herr Schmidt."
+  }
+ ],
+ "527abf9e636134b83400302e_284": [
+  {
+   "who": "char",
+   "t": "Very well, Herr Schmidt. You have some business for me?"
+  },
+  {
+   "who": "char",
+   "t": "Indeed. I have a job for your team... a simple matter. Judging by what I have heard of your team, I imagine that they will be well suited to the task."
+  },
+  {
+   "who": "char",
+   "t": "Go on."
+  }
+ ],
+ "527abf9e636134b83400302e_285": [
+  {
+   "who": "char",
+   "t": "The interests that I represent have learned that AG Chemie Europa is working on a company-wide project. Something very secret, very new. Reliable sources inform me that they're keeping a working prototype of this new venture at their Berlin facility."
+  },
+  {
+   "who": "char",
+   "t": "I see. And your employers wish us to acquire this prototype for them?"
+  },
+  {
+   "who": "char",
+   "t": "Naturally."
+  }
+ ],
+ "527abf9e636134b83400302e_286": [
+  {
+   "who": "char",
+   "t": "What is this \"project?\" If you want my team to grab the prototype for you, they'll need to know what they're looking for."
+  },
+  {
+   "who": "char",
+   "t": "I'm not at liberty to say. I can tell you that the prototype has been branded \"MKVI.\" I can also tell you that your team will find it on the 25th floor of the Berlin facility, in the office of one Albrecht Haushofer."
+  }
+ ],
+ "527abf9e636134b83400302e_287": [
+  {
+   "who": "char",
+   "t": "Further, I can assist your team in disabling building security and gaining access to the 24th floor. From there, however, they will be on their own."
+  },
+  {
+   "who": "char",
+   "t": "Such vagueness can be dangerous, Herr Schmidt. I will not commit my team to a run without a better understanding of what the job entails."
+  }
+ ],
+ "527abf9e636134b83400302e_288": [
+  {
+   "who": "char",
+   "t": "Facing such dangers is the purpose of a shadowrunner, Herr Amsel. Your team will be rewarded handsomely for their services... my employers have set aside 20,000 nuyen for the job. Consider it hazard pay if you wish."
+  },
+  {
+   "who": "char",
+   "t": "Make it 25,000 nuyen, or look somewhere else."
+  },
+  {
+   "who": "char",
+   "t": "22,500 nuyen. Final offer."
+  }
+ ],
+ "527abf9e636134b83400302e_289": [
+  {
+   "who": "char",
+   "t": "Very well. I will pass your offer on to my team. Are there any further details that you can provide?"
+  },
+  {
+   "who": "char",
+   "t": "Haushofer's office will be locked behind a vault door. The lock is old-fashioned, of the mechanical variety. I will provide your team with a copy of the key. I will also supply you with a \"little black box\"... a solid-state device that your team can use to override a variety of building systems."
+  }
+ ],
+ "527abf9e636134b83400302e_290": [
+  {
+   "who": "char",
+   "t": "Your team will enter through the facility's underground garage. When your team has acquired the MKVI, have them exit through the same garage. I will have a van there waiting to extract them."
+  },
+  {
+   "who": "char",
+   "t": "Thank you, Herr Schmidt. I will pass your offer on to my team."
+  },
+  {
+   "who": "char",
+   "t": "Good day, Herr Amsel."
   }
  ],
  "527abf9e636134b83400302e_291": [
@@ -18197,24 +18399,172 @@
    "t": "ACCEPT JOB? Y/N"
   }
  ],
- "527abf9e636134b83400302e_297": [
+ "527abf9e636134b83400302e_294": [
   {
    "who": "char",
-   "t": "P_AMSEL: What is this \"project? If you want my team to grab the prototype for you, they'll need to know what they're looking for. GUEST: I'm not at liberty to say. I can tell you that the prototype has been branded \"MKVI. I can also tell you that your team will find it on the 25th floor of the Berlin facility, in the office of one Albrecht Haushofer."
+   "t": "Greetings, Herr Amsel. I trust that this connection is secure?"
   },
   {
    "who": "char",
+   "t": "Naturally. To whom do I have the pleasure of speaking?"
+  },
+  {
+   "who": "char",
+   "t": "Call me Herr Schmidt."
+  }
+ ],
+ "527abf9e636134b83400302e_295": [
+  {
+   "who": "char",
+   "t": "Very well, Herr Schmidt. You have some business for me?"
+  },
+  {
+   "who": "char",
+   "t": "Indeed. I have a job for your team... a simple matter. Judging by what I have heard of your team, I imagine that they will be well suited to the task."
+  },
+  {
+   "who": "char",
+   "t": "Go on."
+  }
+ ],
+ "527abf9e636134b83400302e_296": [
+  {
+   "who": "char",
+   "t": "The interests that I represent have learned that AG Chemie Europa is working on a company-wide project. Something very secret, very new. Reliable sources inform me that they're keeping a working prototype of this new venture at their Berlin facility."
+  },
+  {
+   "who": "char",
+   "t": "I see. And your employers wish us to acquire this prototype for them?"
+  },
+  {
+   "who": "char",
+   "t": "Naturally."
+  }
+ ],
+ "527abf9e636134b83400302e_297": [
+  {
+   "who": "char",
+   "t": "What is this \"project?\" If you want my team to grab the prototype for you, they'll need to know what they're looking for."
+  },
+  {
+   "who": "char",
+   "t": "I'm not at liberty to say. I can tell you that the prototype has been branded \"MKVI.\" I can also tell you that your team will find it on the 25th floor of the Berlin facility, in the office of one Albrecht Haushofer. Further, I can assist your team in disabling building security and gaining access to the 24th floor. From there, however, they will be on their own."
+  }
+ ],
+ "527abf9e636134b83400302e_298": [
+  {
+   "who": "char",
    "t": "Further, I can assist your team in disabling building security and gaining access to the 24th floor. From there, however, they will be on their own."
+  },
+  {
+   "who": "char",
+   "t": "Such vagueness can be dangerous, Herr Schmidt. I will not commit my team to a run without a better understanding of what the job entails."
+  }
+ ],
+ "527abf9e636134b83400302e_299": [
+  {
+   "who": "char",
+   "t": "Facing such dangers is the purpose of a shadowrunner, Herr Amsel. Your team will be rewarded handsomely for their services... my employers have set aside 20,000 nuyen for the job. Consider it hazard pay if you wish."
+  },
+  {
+   "who": "char",
+   "t": "Make it 25,000 nuyen, or look somewhere else."
+  },
+  {
+   "who": "char",
+   "t": "22,500 nuyen. Final offer."
   }
  ],
  "527abf9e636134b83400302e_300": [
   {
    "who": "char",
-   "t": "P_AMSEL: Very well. I will pass your offer on to my team. Are there any further details that you can provide? GUEST: Haushofer's office will be locked behind a vault door. The lock is old-fashioned, of the mechanical variety. I will provide your team with a copy of the key. GUEST: I will also supply you with a solid-state device that your team can use to override building security."
+   "t": "Very well. I will pass your offer on to my team. Are there any further details that you can provide?"
   },
   {
    "who": "char",
-   "t": "This will provide them with access to the building's surveillance camera feeds and control over the main service elevator."
+   "t": "Haushofer's office will be locked behind a vault door. The lock is old-fashioned, of the mechanical variety. I will provide your team with a copy of the key. I will also supply you with a solid-state device that your team can use to override building security. This will provide them with access to the building's surveillance camera feeds and control over the main service elevator."
+  }
+ ],
+ "527abf9e636134b83400302e_301": [
+  {
+   "who": "char",
+   "t": "Your team will enter through the facility's underground garage. When your team has acquired the MKVI, have them exit through the same garage. I will have a van there waiting to extract them."
+  },
+  {
+   "who": "char",
+   "t": "Thank you, Herr Schmidt. I will pass your offer on to my team."
+  },
+  {
+   "who": "char",
+   "t": "Good day, Herr Amsel."
+  }
+ ],
+ "527abf9e636134b83400302e_305": [
+  {
+   "who": "char",
+   "t": "Herr Amsel?"
+  },
+  {
+   "who": "char",
+   "t": "Yes, I am here. To whom am I speaking?"
+  },
+  {
+   "who": "char",
+   "t": "You may call me Herr Fuchs."
+  }
+ ],
+ "527abf9e636134b83400302e_306": [
+  {
+   "who": "char",
+   "t": "Very well. Please describe the work that you would like to have done."
+  },
+  {
+   "who": "char",
+   "t": "Straight to the point. I like that. Very well. I would like to retain your team's services to clean up a mess."
+  }
+ ],
+ "527abf9e636134b83400302e_307": [
+  {
+   "who": "char",
+   "t": "Go on."
+  },
+  {
+   "who": "char",
+   "t": "My employers dispatched a team of operatives to conduct a quiet operation at a local SCHERING Pharma AG lab. Unfortunately, they botched the job. The team was eliminated, but we have reliable information that one of the operatives has been taken captive."
+  }
+ ],
+ "527abf9e636134b83400302e_309": [
+  {
+   "who": "char",
+   "t": "Ah. I see. And you wish to retain my team's services to tie up loose ends?"
+  },
+  {
+   "who": "char",
+   "t": "Exactly. The captive operative is a rigger by the name of Thorvald Enstad. We need him neutralized before he can inform on us to his captors."
+  }
+ ],
+ "527abf9e636134b83400302e_310": [
+  {
+   "who": "char",
+   "t": "As Enstad and his team have already put the facility on high alert, stealth will not be an option. Your team will need to shoot its way in, eliminate Enstad, and exit the facility."
+  },
+  {
+   "who": "char",
+   "t": "A straightforward enough task, and well within my team's capabilities. What are you offering in terms of pay?"
+  }
+ ],
+ "527abf9e636134b83400302e_311": [
+  {
+   "who": "char",
+   "t": "¥15,000. This offer is non-negotiable."
+  },
+  {
+   "who": "char",
+   "t": "Very well. I will pass the offer on to my team."
+  },
+  {
+   "who": "char",
+   "t": "Very good. Good day, Herr Amsel."
   }
  ],
  "527abf9e636134b83400302e_312": [
@@ -18227,34 +18577,220 @@
    "t": "ACCEPT JOB? Y/N"
   }
  ],
- "527abf9e636134b83400302e_336": [
+ "527abf9e636134b83400302e_314": [
   {
    "who": "char",
-   "t": "P_AMSEL: What is this \"project? If you want my team to grab the prototype for you, they'll need to know what they're looking for. GUEST: I'm not at liberty to say. I can tell you that the prototype has been branded \"MKVI. I can also tell you that your team will find it on the 25th floor of the Berlin facility, in the office of one Albrecht Haushofer."
+   "t": "Herr Amsel?"
   },
   {
    "who": "char",
-   "t": "Further, I can assist your team in disabling building security and gaining access to the 24th floor. From there, however, they will be on their own. P_AMSEL: Such vagueness can be dangerous, Herr Schmidt. I will not commit my team to a run without a better understanding of what the job entails."
+   "t": "Yes, I am here. To whom am I speaking?"
+  },
+  {
+   "who": "char",
+   "t": "You may call me Herr Fuchs."
+  }
+ ],
+ "527abf9e636134b83400302e_315": [
+  {
+   "who": "char",
+   "t": "Very well. Please describe the work that you would like to have done."
+  },
+  {
+   "who": "char",
+   "t": "Straight to the point. I like that. Very well. I would like to retain your team's services to clean up a mess."
+  }
+ ],
+ "527abf9e636134b83400302e_316": [
+  {
+   "who": "char",
+   "t": "Go on."
+  },
+  {
+   "who": "char",
+   "t": "My employers dispatched a team of operatives to conduct a quiet operation at a local SCHERING Pharma AG lab. Unfortunately, the team went rogue and botched the job. The team was eliminated, but we have reliable information that one of the operatives has been taken captive."
+  }
+ ],
+ "527abf9e636134b83400302e_318": [
+  {
+   "who": "char",
+   "t": "Ah. I see. And you wish to retain my team's services to tie up loose ends?"
+  },
+  {
+   "who": "char",
+   "t": "Exactly. The captive operative is a rigger by the name of Thorvald Enstad. We need him neutralized before he can inform on us to his captors."
+  }
+ ],
+ "527abf9e636134b83400302e_319": [
+  {
+   "who": "char",
+   "t": "As Enstad and his team have already put the facility on high alert, stealth will not be an option. Your team will need to shoot its way in, eliminate Enstad, and exit the facility."
+  },
+  {
+   "who": "char",
+   "t": "A straightforward enough task, and well within my team's capabilities. What are you offering in terms of pay?"
+  }
+ ],
+ "527abf9e636134b83400302e_320": [
+  {
+   "who": "char",
+   "t": "¥15,000. This offer is non-negotiable."
+  },
+  {
+   "who": "char",
+   "t": "Very well. I will pass the offer on to my team."
+  },
+  {
+   "who": "char",
+   "t": "Very good. Good day, Herr Amsel."
+  }
+ ],
+ "527abf9e636134b83400302e_334": [
+  {
+   "who": "char",
+   "t": "Very well, Herr Schmidt. You have some business for me?"
+  },
+  {
+   "who": "char",
+   "t": "Indeed. I have a job for your team... a simple matter. Judging by what I have heard of your team, I imagine that they will be well suited to the task."
+  },
+  {
+   "who": "char",
+   "t": "Go on."
+  }
+ ],
+ "527abf9e636134b83400302e_335": [
+  {
+   "who": "char",
+   "t": "The interests that I represent have learned that AG Chemie Europa is working on a company-wide project. Something very secret, very new. Reliable sources inform me that they're keeping a working prototype of this new venture at their Berlin facility."
+  },
+  {
+   "who": "char",
+   "t": "I see. And your employers wish us to acquire this prototype for them?"
+  },
+  {
+   "who": "char",
+   "t": "Naturally."
+  }
+ ],
+ "527abf9e636134b83400302e_336": [
+  {
+   "who": "char",
+   "t": "What is this \"project?\" If you want my team to grab the prototype for you, they'll need to know what they're looking for."
+  },
+  {
+   "who": "char",
+   "t": "I'm not at liberty to say. I can tell you that the prototype has been branded \"MKVI.\" I can also tell you that your team will find it on the 25th floor of the Berlin facility, in the office of one Albrecht Haushofer. Further, I can assist your team in disabling building security and gaining access to the 24th floor. From there, however, they will be on their own."
+  },
+  {
+   "who": "char",
+   "t": "Such vagueness can be dangerous, Herr Schmidt. I will not commit my team to a run without a better understanding of what the job entails."
+  }
+ ],
+ "527abf9e636134b83400302e_337": [
+  {
+   "who": "char",
+   "t": "Facing such dangers is the purpose of a shadowrunner, Herr Amsel. Your team will be rewarded handsomely for their services... my employers have set aside 20,000 nuyen for the job. Consider it hazard pay if you wish."
+  },
+  {
+   "who": "char",
+   "t": "Make it 25,000 nuyen, or look somewhere else."
+  },
+  {
+   "who": "char",
+   "t": "22,500 nuyen. Final offer."
   }
  ],
  "527abf9e636134b83400302e_338": [
   {
    "who": "char",
-   "t": "P_AMSEL: Very well. I will pass your offer on to my team. Are there any further details that you can provide? GUEST: Haushofer's office will be locked behind a vault door. The lock is old-fashioned, of the mechanical variety. I will provide your team with a copy of the key. GUEST: I will also supply you with a solid-state device that your team can use to override building security."
+   "t": "Very well. I will pass your offer on to my team. Are there any further details that you can provide?"
   },
   {
    "who": "char",
-   "t": "This will provide them with access to the building's surveillance camera feeds and control over the main service elevator."
+   "t": "Haushofer's office will be locked behind a vault door. The lock is old-fashioned, of the mechanical variety. I will provide your team with a copy of the key. I will also supply you with a solid-state device that your team can use to override building security. This will provide them with access to the building's surveillance camera feeds and control over the main service elevator."
   }
  ],
- "527abf9e636134b83400302e_485": [
+ "527abf9e636134b83400302e_339": [
   {
    "who": "char",
-   "t": "[Scheisse, what a thrill. Had to do a simple data steal on a S-K branch office, turned into an O.K. Corral shootout. Never seen first response team arrive that fast in my life! Had a decker off site running damage control, managed to distract the second team to a different building while we jacked the car the first team came in."
+   "t": "Your team will enter through the facility's underground garage. When your team has acquired the MKVI, have them exit through the same garage. I will have a van there waiting to extract them."
   },
   {
    "who": "char",
-   "t": "Lesson learned, “simple” when it comes to S-K means something else.] - Maelstrom 20:40:15/11-14-54"
+   "t": "Thank you, Herr Schmidt. I will pass your offer on to my team."
+  },
+  {
+   "who": "char",
+   "t": "Good day, Herr Amsel."
+  }
+ ],
+ "527abf9e636134b83400302e_340": [
+  {
+   "who": "char",
+   "t": "Herr Amsel?"
+  },
+  {
+   "who": "char",
+   "t": "Yes, I am here. To whom am I speaking?"
+  },
+  {
+   "who": "char",
+   "t": "You may call me Herr Fuchs."
+  }
+ ],
+ "527abf9e636134b83400302e_341": [
+  {
+   "who": "char",
+   "t": "Very well. Please describe the work that you would like to have done."
+  },
+  {
+   "who": "char",
+   "t": "Straight to the point. I like that. Very well. I would like to retain your team's services to clean up a mess."
+  }
+ ],
+ "527abf9e636134b83400302e_342": [
+  {
+   "who": "char",
+   "t": "Go on."
+  },
+  {
+   "who": "char",
+   "t": "My employers dispatched a team of operatives to conduct a quiet operation at a local SCHERING Pharma AG lab. Unfortunately, they botched the job. The team was eliminated, but we have reliable information that one of the operatives has been taken captive."
+  }
+ ],
+ "527abf9e636134b83400302e_343": [
+  {
+   "who": "char",
+   "t": "Ah. I see. And you wish to retain my team's services to tie up loose ends?"
+  },
+  {
+   "who": "char",
+   "t": "Exactly. The captive operative is a rigger by the name of Thorvald Enstad. We need him neutralized before he can inform on us to his captors."
+  }
+ ],
+ "527abf9e636134b83400302e_344": [
+  {
+   "who": "char",
+   "t": "As Enstad and his team have already put the facility on high alert, stealth will not be an option. Your team will need to shoot its way in, eliminate Enstad, and exit the facility."
+  },
+  {
+   "who": "char",
+   "t": "A straightforward enough task, and well within my team's capabilities. What are you offering in terms of pay?"
+  }
+ ],
+ "527abf9e636134b83400302e_345": [
+  {
+   "who": "char",
+   "t": "¥15,000. This offer is non-negotiable."
+  },
+  {
+   "who": "char",
+   "t": "Very well. I will pass the offer on to my team."
+  },
+  {
+   "who": "char",
+   "t": "Very good. Good day, Herr Amsel."
   }
  ],
  "53e93d9b323437c03d003e5c_14": [
