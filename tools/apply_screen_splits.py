@@ -82,6 +82,18 @@ for rule in plan["moves"]:
     if src not in by_id:
         sys.exit(f"ERROR: container '{src}' is not in the cast")
 
+    if dst == "narrator":
+        # The narrator is not a cast entry in these packs, it is a top-level bucket. Lines routed
+        # here are prose the writers never tagged, so nothing downstream would ever have found it.
+        n = line_moves.move_lines(by_id[src], chars["narrator"], convo, nodes)
+        moved_total += n
+        if n:
+            take_groups += len(line_moves.move_takes(takes, AUDIO, src, "narrator", convo, nodes,
+                                                     clear_selected=True))
+        else:
+            skipped += 1
+        continue
+
     p = by_person.get(dst, {})
     target, is_new = line_moves.ensure_character(
         chars, by_id, dst, rule["to_name"],

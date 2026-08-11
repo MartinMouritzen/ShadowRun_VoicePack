@@ -36935,16 +36935,6 @@
    "t": "Their only requests are that we pay a percentage of our sales back to them, and we keep anyone nosy out of our turf. Works for me."
   }
  ],
- "55834c0d30303120180000a8_2": [
-  {
-   "who": "gm",
-   "t": "A muffled, annoyed voice shouts from the other side."
-  },
-  {
-   "who": "char",
-   "t": "WHAT?"
-  }
- ],
  "5584a811303031601e000345_2": [
   {
    "who": "gm",
@@ -36953,16 +36943,6 @@
   {
    "who": "char",
    "t": "Li, I need you to get your team together and fix the climate turbine. Make it top priority."
-  }
- ],
- "55a83fa1303031401e006bb0_4": [
-  {
-   "who": "char",
-   "t": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more clearheaded. The effect has lasted and appears to be permanent. Further investigation revealed that the reason for the Else's aural retreat was due to the superheated formula's astral reaction."
-  },
-  {
-   "who": "char",
-   "t": "Its explosion apparently ripped holes into the astral plane, cutting off influence from the aura of the Else."
   }
  ],
  "55a83fa1303031401e006bb0_5": [
@@ -37069,30 +37049,6 @@
   {
    "who": "char",
    "t": "SDU_MEDICAL"
-  }
- ],
- "564397ba643661780e006f09_10": [
-  {
-   "who": "gm",
-   "t": "She raises a hand to stop you."
-  },
-  {
-   "who": "char",
-   "t": "Spare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? My problem."
-  }
- ],
- "564397ba643661780e006f09_15": [
-  {
-   "who": "char",
-   "t": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck."
-  },
-  {
-   "who": "gm",
-   "t": "She raises a hand."
-  },
-  {
-   "who": "char",
-   "t": "And before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*"
   }
  ],
  "54c696f3303031301d005190_4": [
@@ -86125,6 +86081,16 @@
    "t": "Leave them alone, Matchstick. They are with us."
   }
  ],
+ "55834c0d30303120180000a8_2": [
+  {
+   "who": "gm",
+   "t": "A muffled, annoyed voice shouts from the other side."
+  },
+  {
+   "who": "char",
+   "t": "WHAT?"
+  }
+ ],
  "55834c0d30303120180000a8_4": [
   {
    "who": "gm",
@@ -86363,6 +86329,30 @@
   {
    "who": "char",
    "t": "This is a secure elevator. You can't be here unless you get authorization to go upstairs."
+  }
+ ],
+ "564397ba643661780e006f09_10": [
+  {
+   "who": "gm",
+   "t": "She raises a hand to stop you."
+  },
+  {
+   "who": "char",
+   "t": "Spare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? My problem."
+  }
+ ],
+ "564397ba643661780e006f09_15": [
+  {
+   "who": "char",
+   "t": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck."
+  },
+  {
+   "who": "gm",
+   "t": "She raises a hand."
+  },
+  {
+   "who": "char",
+   "t": "And before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*"
   }
  ],
  "564397ba643661780e006f09_17": [

@@ -8,8 +8,8 @@
  "conversations": {
   "54d55065306364bc730001da": {
    "cn": "a2_Whistleblower_s1-CrewComputer",
-   "default": "machine",
-   "why": "designer placeholder text that shipped ('Here is a root ship's log entry area.', 'Hey, it's private diaries!') - left machine pending Martin's call"
+   "default": "narrator",
+   "why": "Not a machine and not a diarist: this is the writers' own OUTLINE, shipped unwritten. 'Here is a root ship's log entry area.', 'Talk about attempted pirate boarding outside of Perth', 'Hey, it's private diaries!', and third-person summaries of entries that were never actually written ('He suspects something is up', '(sperethiel)'). Node 0 of this same conversation is already the narrator, in exactly this register, so the rest follows him. Martin flagged the Computer attribution 2026-08-11."
   },
   "54dcfec1303031bc0a006c6f": {
    "cn": "HK_Hub-Global_MissionComputer",
@@ -87,7 +87,8 @@
   },
   "564397ba643661780e006f09": {
    "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-   "default": "machine"
+   "default": "HKPF Enforcer",
+   "why": "The constable posted by the elevator, not the panel. She owns half this conversation already ('A constable posted by the elevator turns to face you'); the rest of her dialogue was filed under the reader she is standing next to."
   },
   "560304c33063643816003264": {
    "cn": "MC_a2_Plaguebearer_s1-Lab3MainDoorTerminal",
@@ -140,6 +141,31 @@
   "565370f6626632d423006c5d": {
    "cn": "MC_a2_StationRun_s1-EvidenceTerminal",
    "default": "machine"
+  },
+  "55834c0d30303120180000a8": {
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "default": "Tsang Captain",
+   "why": "The muffled voice behind the door. Node 4 carries the identical line under Tsang Captain, so the extractor bound half of one exchange to the keypad."
+  },
+  "55a83fa1303031401e006bb0": {
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "default": "narrator",
+   "why": "Third-person description of what the files contain ('The files are a collection of research notes', 'It appears the researcher in charge...'), not the terminal's own words."
+  },
+  "559b0021303031281d001b57": {
+   "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
+   "default": "narrator",
+   "why": "describes the lock to the player ('This room is secured by a small keypad'); the lock does not speak"
+  },
+  "55847bc2303031201800016e": {
+   "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
+   "default": "narrator",
+   "why": "describes the lock to the player ('This room is secured by a small keypad'); the lock does not speak"
+  },
+  "559efc5a303031d41c00654d": {
+   "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
+   "default": "narrator",
+   "why": "describes the lock to the player ('This room is secured by a small keypad'); the lock does not speak"
   }
  },
  "nodes": {
@@ -260,7 +286,9 @@
   "5578c5833234318018008611_19": "Is0bel",
   "558f20f53234311c0f00323e_5": "Is0bel",
   "558f20f53234311c0f00323e_6": "Racter",
-  "558f20f53234311c0f00323e_7": "Racter"
+  "558f20f53234311c0f00323e_7": "Racter",
+  "564397ba643661780e006f09_3": "narrator",
+  "55834c0d30303120180000a8_0": "narrator"
  },
  "aliases": {
   "From Dr. Shenyang": "Dr. Shenyang",
@@ -268,9 +296,7 @@
   "Dr. Taylor": "Taylor",
   "Dr. Hardingham": "Hardingham"
  },
- "keep": [
-  "SYSOP"
- ],
+ "keep": [],
  "transcripts": {},
  "people": {
   "Kindly Cheng": {
@@ -1338,6 +1364,23 @@
   "Vasilisa": {
    "id": "name_vasilisa",
    "name": "Vasilisa",
+   "kind": "existing"
+  },
+  "SYSOP": {
+   "id": "name_sysop",
+   "name": "SYSOP",
+   "kind": "bbs",
+   "gender": "male",
+   "note": "the Shadowland moderator, losing patience with a poetry slam on his board"
+  },
+  "HKPF Enforcer": {
+   "id": "name_hkpfenforcer",
+   "name": "HKPF Enforcer",
+   "kind": "existing"
+  },
+  "Tsang Captain": {
+   "id": "name_tsangcaptain",
+   "name": "Tsang Captain",
    "kind": "existing"
   }
  },

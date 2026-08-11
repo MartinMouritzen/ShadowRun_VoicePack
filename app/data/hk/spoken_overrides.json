@@ -4625,24 +4625,6 @@
   "spoken": "[TOPIC(S) MATCHING LOCAL KEYWORDS...]",
   "source": "rules"
  },
- "54dcfec1303031bc0a006c6f_213": {
-  "char": "Computer",
-  "original": ">>>>>[Hey - you people know the rules. Poetry slams have been out of bounds on this BBS since the Laughing Man debacle of '55.\n\nIf you want to sling your fancy words, do it on a different forum. I'm shutting this thread down.]<<<<<\n \n- SYSOP <10:57:51/08-12-56>",
-  "spoken": "Hey - you people know the rules. Poetry slams have been out of bounds on this BBS since the Laughing Man debacle of '55. If you want to sling your fancy words, do it on a different forum. I'm shutting this thread down.",
-  "source": "screen-speaker"
- },
- "54dcfec1303031bc0a006c6f_250": {
-  "char": "Computer",
-  "original": ">>>>>[All right, Shakespeares. This is strike two. This thread is getting locked, and you aren't doing this again, got me?\n\nThis board is for deckers who wanna talk shop. There are plenty of other forums that you can use for your stupid amateur poetry. I'd suggest that you go find one.]<<<<<\n \n- SYSOP <06:02:07/08-13-56>",
-  "spoken": "All right, Shakespeares. This is strike two. This thread is getting locked, and you aren't doing this again, got me? This board is for deckers who wanna talk shop. There are plenty of other forums that you can use for your stupid amateur poetry. I'd suggest that you go find one.",
-  "source": "screen-speaker"
- },
- "54dcfec1303031bc0a006c6f_306": {
-  "char": "Computer",
-  "original": ">>>>>[You fucking people.]<<<<<\n \n- SYSOP <11:06:41/08-14-56>",
-  "spoken": "You fucking people.",
-  "source": "screen-speaker"
- },
  "54dcfec1303031bc0a006c6f_434": {
   "char": "Computer",
   "original": ">>>>>[from: HK NEWSWIRE: HONG KONG'S WATERY FUTURE; images and external links redacted.]<<<<<\n\nThe Joint Corporate Development Bureau has released a report on sea-level rise in Hong Kong over the next fifty years.",
@@ -9617,6 +9599,72 @@
   "spoken": "Leave them alone, Matchstick. They are with us.",
   "source": "rules"
  },
+ "55834c0d30303120180000a8_3": {
+  "char": "Tsang Captain",
+  "original": "All deliveries go through the maintenance manager.\n\nHer office is right around the corner. Got a big sign on the front. Can't miss it.",
+  "spoken": "All deliveries go through the maintenance manager. Her office is right around the corner. Got a big sign on the front. Can't miss it.",
+  "source": "screen-speaker"
+ },
+ "55834c0d30303120180000a8_5": {
+  "char": "Tsang Captain",
+  "original": "Lucky you. One second, and I'll let you fill out the property-damage forms on our terminal.",
+  "spoken": "Lucky you. One second, and I'll let you fill out the property-damage forms on our terminal.",
+  "source": "screen-speaker"
+ },
+ "55834c0d30303120180000a8_6": {
+  "char": "Tsang Captain",
+  "original": "All right, come on in.\n\nJust don't go poking around the security system - stick to the forms. Terminal's in the back.",
+  "spoken": "All right, come on in. Just don't go poking around the security system - stick to the forms. Terminal's in the back.",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_8": {
+  "char": "HKPF Enforcer",
+  "original": "Of course I do. I've got a keycard. But if you think I'm gonna use it to let someone without the proper clearance up there, you're dreaming.\n\nNow get to the front desk, and talk to the sergeant on duty. And don't bother me again unless you've gotten your badge upgraded.",
+  "spoken": "Of course I do. I've got a keycard. But if you think I'm gonna use it to let someone without the proper clearance up there, you're dreaming. Now get to the front desk, and talk to the sergeant on duty. And don't bother me again unless you've gotten your badge upgraded.",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_9": {
+  "char": "HKPF Enforcer",
+  "original": "...Oh, and take that ghoul with you. He doesn't bother me none - my uncle has HMHVV. But he's liable to give my fellow constables a heart attack.",
+  "spoken": "...Oh, and take that ghoul with you. He doesn't bother me none - my uncle has HMHVV. But he's liable to give my fellow constables a heart attack.",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_10": {
+  "char": "HKPF Enforcer",
+  "original": "{{GM}}She raises a hand to stop you.{{/GM}}\n\nSpare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? \n\nMy problem.",
+  "spoken": "Spare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? My problem.",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_11": {
+  "char": "HKPF Enforcer",
+  "original": "Asking why he's in here and isn't dead yet is way above my pay grade. All that I do is babysit this elevator.\n\nAs long as you don't make your gray-skinned pal my problem, I couldn't care less what he is.",
+  "spoken": "Asking why he's in here and isn't dead yet is way above my pay grade. All that I do is babysit this elevator. As long as you don't make your gray-skinned pal my problem, I couldn't care less what he is.",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_12": {
+  "char": "HKPF Enforcer",
+  "original": "Pal, my job to guard an elevator. In a police station. My boss hates my guts, and I'm about two demerits from getting fired.\n\nI'm not gonna stick my neck out asking why the ghoul is here and why nobody's killing him. That kind of thing is above my pay grade.",
+  "spoken": "Pal, my job to guard an elevator. In a police station. My boss hates my guts, and I'm about two demerits from getting fired. I'm not gonna stick my neck out asking why the ghoul is here and why nobody's killing him. That kind of thing is above my pay grade.",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_13": {
+  "char": "HKPF Enforcer",
+  "original": "See that he does. He goes wandering off, somebody might kill him.",
+  "spoken": "See that he does. He goes wandering off, somebody might kill him.",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_15": {
+  "char": "HKPF Enforcer",
+  "original": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck. \n\n{{GM}}She raises a hand.{{/GM}}\n\nAnd before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*",
+  "spoken": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck. And before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*",
+  "source": "screen-speaker"
+ },
+ "564397ba643661780e006f09_22": {
+  "char": "HKPF Enforcer",
+  "original": "Best of luck, then. Now get the hell out of my face.\n\nIf you try to swipe that badge again without the proper clearance, I promise you, you're gonna regret it.",
+  "spoken": "Best of luck, then. Now get the hell out of my face. If you try to swipe that badge again without the proper clearance, I promise you, you're gonna regret it.",
+  "source": "screen-speaker"
+ },
  "563a46753063643417003e71_26": {
   "char": "Fuchi Enforcer",
   "original": "Not at all, $(l.sir). Building security is more than capable of protecting you. But until we apprehend whoever triggered our alarms, access between floors is restricted.\n\nJust sit tight, and wait for the lockdown to end. You'll be safe here with us.",
@@ -13415,6 +13463,24 @@
   "spoken": "No, Vasilisa, I can't delay the hand-off. The ship will leave when it leaves... If Aleksandr's not back in time to make it, it's his own damn fault. Now get your crew in high gear and make sure we've got the goods by the time things are set!",
   "source": "screen-speaker"
  },
+ "54dcfec1303031bc0a006c6f_213": {
+  "char": "SYSOP",
+  "original": ">>>>>[Hey - you people know the rules. Poetry slams have been out of bounds on this BBS since the Laughing Man debacle of '55.\n\nIf you want to sling your fancy words, do it on a different forum. I'm shutting this thread down.]<<<<<\n \n- SYSOP <10:57:51/08-12-56>",
+  "spoken": "Hey - you people know the rules. Poetry slams have been out of bounds on this BBS since the Laughing Man debacle of '55. If you want to sling your fancy words, do it on a different forum. I'm shutting this thread down.",
+  "source": "screen-speaker"
+ },
+ "54dcfec1303031bc0a006c6f_250": {
+  "char": "SYSOP",
+  "original": ">>>>>[All right, Shakespeares. This is strike two. This thread is getting locked, and you aren't doing this again, got me?\n\nThis board is for deckers who wanna talk shop. There are plenty of other forums that you can use for your stupid amateur poetry. I'd suggest that you go find one.]<<<<<\n \n- SYSOP <06:02:07/08-13-56>",
+  "spoken": "All right, Shakespeares. This is strike two. This thread is getting locked, and you aren't doing this again, got me? This board is for deckers who wanna talk shop. There are plenty of other forums that you can use for your stupid amateur poetry. I'd suggest that you go find one.",
+  "source": "screen-speaker"
+ },
+ "54dcfec1303031bc0a006c6f_306": {
+  "char": "SYSOP",
+  "original": ">>>>>[You fucking people.]<<<<<\n \n- SYSOP <11:06:41/08-14-56>",
+  "spoken": "You fucking people.",
+  "source": "screen-speaker"
+ },
  "54d96ae73030316814006f45_78": {
   "char": "Narrator",
   "original": "Wu's cabin appears to be the only clean spot on the $(story.Global_HK_Hub_SafeBoatName). His equipment is neatly laid out on his bedding, grouped by type, arranged just so.\n\nHe's currently in the process of cleaning his weapon with meticulous care.",
@@ -13480,6 +13546,12 @@
   "original": "$++(l.name). ENTER THE FOLLOWING KEYCODE INTO THIS KIOSK:\n\n1052RGF-KLLPE98-XVL0237-ZZKP0NV",
   "spoken": "ENTER THE FOLLOWING KEYCODE INTO THIS KIOSK: 1052RGF-KLLPE98-XVL0237-ZZKP0NV",
   "source": "rules"
+ },
+ "55847bc2303031201800016e_0": {
+  "char": "Narrator",
+  "original": "This room is secured by a small keypad.",
+  "spoken": "This room is secured by a small keypad.",
+  "source": "screen-speaker"
  },
  "558c873d3030319409006a83_1": {
   "char": "Narrator",
@@ -13552,6 +13624,42 @@
   "original": ">>CHECKING_ENGRAMS\n...\n>>ENGRAM_INTEGRATION::SUCCESS!\n...\n...\n>>HOST_REINTEGRATION_PROCESS::INITIATED",
   "spoken": "CHECKING_ENGRAMS... ENGRAM_INTEGRATION::SUCCESS!...... HOST_REINTEGRATION_PROCESS::INITIATED",
   "source": "rules"
+ },
+ "559b0021303031281d001b57_0": {
+  "char": "Narrator",
+  "original": "This dated door lock looks like it's recently been upgraded with a keycard scanner.",
+  "spoken": "This dated door lock looks like it's recently been upgraded with a keycard scanner.",
+  "source": "screen-speaker"
+ },
+ "559efc5a303031d41c00654d_0": {
+  "char": "Narrator",
+  "original": "A simple keypad with worn buttons.",
+  "spoken": "A simple keypad with worn buttons.",
+  "source": "screen-speaker"
+ },
+ "55a83fa1303031401e006bb0_1": {
+  "char": "Narrator",
+  "original": "The files are a collection of research notes regarding a creature, simply referred to as the \"subject,\" held within the containment chamber. After clicking through a few files, you manage to find a few choice bits.",
+  "spoken": "The files are a collection of research notes regarding a creature, simply referred to as the \"subject,\" held within the containment chamber. After clicking through a few files, you manage to find a few choice bits.",
+  "source": "screen-speaker"
+ },
+ "55a83fa1303031401e006bb0_2": {
+  "char": "Narrator",
+  "original": "It appears the researcher in charge of this project was tasked with destroying the creature's connection to what's vaguely called \"Something Else.\" According to the notes, the creature's tie to the Else is through its aura. Experiments to sever the connection have thus far been unsuccessful, and have yielded unpredictable results.",
+  "spoken": "It appears the researcher in charge of this project was tasked with destroying the creature's connection to what's vaguely called \"Something Else.\" According to the notes, the creature's tie to the Else is through its aura. Experiments to sever the connection have thus far been unsuccessful, and have yielded unpredictable results.",
+  "source": "screen-speaker"
+ },
+ "55a83fa1303031401e006bb0_3": {
+  "char": "Narrator",
+  "original": "One of the more productive experiments involved igniting a magical powder under extreme heat to sever the connection via shock. It was ultimately ineffective, but the researcher highlights the ending result as significant. While the method failed, the aural influence of the Else retreated from the auras of all the metahumans in the vicinity.",
+  "spoken": "One of the more productive experiments involved igniting a magical powder under extreme heat to sever the connection via shock. It was ultimately ineffective, but the researcher highlights the ending result as significant. While the method failed, the aural influence of the Else retreated from the auras of all the metahumans in the vicinity.",
+  "source": "screen-speaker"
+ },
+ "55a83fa1303031401e006bb0_4": {
+  "char": "Narrator",
+  "original": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more clearheaded. The effect has lasted and appears to be permanent. Further investigation revealed that the reason for the Else's aural retreat was due to the superheated formula's astral reaction. Its explosion apparently ripped holes into the astral plane, cutting off influence from the aura of the Else.",
+  "spoken": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more clearheaded. The effect has lasted and appears to be permanent. Further investigation revealed that the reason for the Else's aural retreat was due to the superheated formula's astral reaction. Its explosion apparently ripped holes into the astral plane, cutting off influence from the aura of the Else.",
+  "source": "screen-speaker"
  },
  "55a928d46236667419006738_1": {
   "char": "Narrator",
@@ -13648,6 +13756,12 @@
   "original": "A watchful guard commander - a mage, judging by the talismans on her lapel - scans the faces of the people in the plaza. As $(l.name) approaches, she looks over.\n\nAfter a split second before her eyes go wide, and she begins shouting.",
   "spoken": "A watchful guard commander - a mage, judging by the talismans on her lapel - scans the faces of the people in the plaza. As you approach, she looks over. After a split second, her eyes go wide, and she begins shouting.",
   "source": "hand"
+ },
+ "564397ba643661780e006f09_3": {
+  "char": "Narrator",
+  "original": "You slide the barcoded section of your visitor pass through the reader.\n\nA moment later, a light above the elevator flashes red, and a harsh warning tone screeches out from the door panel's speakers.",
+  "spoken": "You slide the barcoded section of your visitor pass through the reader. A moment later, a light above the elevator flashes red, and a harsh warning tone screeches out from the door panel's speakers.",
+  "source": "screen-speaker"
  },
  "5645228f643661a012003253_6": {
   "char": "Narrator",

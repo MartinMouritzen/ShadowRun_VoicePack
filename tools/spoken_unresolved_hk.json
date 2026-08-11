@@ -105,6 +105,11 @@
   "text": ">>LIVECHAT\n\n[1] [CHAT] >>$++(L.NAME)."
  },
  {
+  "key": "55834c0d30303120180000a8_2",
+  "char": "Tsang Captain",
+  "text": "{{GM}}A muffled, annoyed voice shouts from the other side.{{/GM}}\n\nWHAT?"
+ },
+ {
   "key": "54c004f4323437dc27001556_4",
   "char": "Officer on Megaphone",
   "text": "DUNCAN WU! $++(l.fullname)! \n\nCome out where we can see you! You have three seconds."

@@ -969,6 +969,24 @@
   },
   {
    "from": "name_computer",
+   "to": "name_hkpfenforcer",
+   "to_name": "HKPF Enforcer",
+   "kind": "existing",
+   "convo": "564397ba643661780e006f09",
+   "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+   "nodes": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    22
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_hotpot888",
    "to_name": "HotPot888",
    "kind": "bbs",
@@ -2273,6 +2291,19 @@
   },
   {
    "from": "name_computer",
+   "to": "name_sysop",
+   "to_name": "SYSOP",
+   "kind": "bbs",
+   "convo": "54dcfec1303031bc0a006c6f",
+   "cn": "HK_Hub-Global_MissionComputer",
+   "nodes": [
+    213,
+    250,
+    306
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_t3nn1s0n",
    "to_name": "T3nn1s0n",
    "kind": "bbs",
@@ -2389,6 +2420,20 @@
    "cn": "HK_Hub-Global_MissionComputer",
    "nodes": [
     411
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_tsangcaptain",
+   "to_name": "Tsang Captain",
+   "kind": "existing",
+   "convo": "55834c0d30303120180000a8",
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "nodes": [
+    2,
+    3,
+    5,
+    6
    ]
   },
   {
@@ -2623,6 +2668,64 @@
    "nodes": [
     6,
     7
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "55847bc2303031201800016e",
+   "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
+   "nodes": [
+    0
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "559b0021303031281d001b57",
+   "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
+   "nodes": [
+    0
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "559efc5a303031d41c00654d",
+   "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
+   "nodes": [
+    0
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "55a83fa1303031401e006bb0",
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "nodes": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "564397ba643661780e006f09",
+   "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+   "nodes": [
+    3
    ]
   }
  ]

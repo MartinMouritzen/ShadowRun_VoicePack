@@ -522,32 +522,9 @@
    ]
   }
  },
- "name_computer": {
-  "54d55065306364bc730001da_1": {
-   "selected": "name_computer/takes/54d55065306364bc730001da_1__sapi_david__1786442850.mp3",
-   "takes": [
-    {
-     "file": "name_computer/takes/54d55065306364bc730001da_1__mag543__1786436104.mp3",
-     "voiceId": "mag_543",
-     "voiceName": "Axel Virex",
-     "stability": 0,
-     "chars": 37,
-     "ts": 1786436104
-    },
-    {
-     "file": "name_computer/takes/54d55065306364bc730001da_1__sapi_david__1786442850.mp3",
-     "voiceId": "sapi_david",
-     "voiceName": "Microsoft David (SAPI)",
-     "stability": 0,
-     "chars": 37,
-     "ts": 1786442850
-    }
-   ]
-  }
- },
  "name_tenarmedambrose": {
   "54d545e23030312c0c00300c_1~c0": {
-   "selected": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_1~c0__mag544__1786436112.mp3",
+   "selected": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_1~c0__mag37__1786448901.mp3",
    "takes": [
     {
      "file": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_1~c0__mag544__1786436112.mp3",
@@ -556,6 +533,74 @@
      "stability": 0,
      "chars": 53,
      "ts": 1786436112
+    },
+    {
+     "file": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_1~c0__mag544__1786448880.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0,
+     "chars": 53,
+     "ts": 1786448880
+    },
+    {
+     "file": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_1~c0__mag37__1786448901.mp3",
+     "voiceId": "mag_37",
+     "voiceName": "Logan West",
+     "stability": 0,
+     "chars": 44,
+     "ts": 1786448901
+    }
+   ]
+  },
+  "54d545e23030312c0c00300c_1~c1": {
+   "selected": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_1~c1__mag37__1786448882.mp3",
+   "takes": [
+    {
+     "file": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_1~c1__mag37__1786448882.mp3",
+     "voiceId": "mag_37",
+     "voiceName": "Logan West",
+     "stability": 0,
+     "chars": 70,
+     "ts": 1786448882
+    }
+   ]
+  },
+  "54d545e23030312c0c00300c_3": {
+   "selected": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_3__mag37__1786448917.mp3",
+   "takes": [
+    {
+     "file": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_3__mag37__1786448917.mp3",
+     "voiceId": "mag_37",
+     "voiceName": "Logan West",
+     "stability": 0,
+     "chars": 54,
+     "ts": 1786448917
+    }
+   ]
+  },
+  "54d545e23030312c0c00300c_4~c0": {
+   "selected": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_4~c0__mag37__1786448922.mp3",
+   "takes": [
+    {
+     "file": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_4~c0__mag37__1786448922.mp3",
+     "voiceId": "mag_37",
+     "voiceName": "Logan West",
+     "stability": 0,
+     "chars": 53,
+     "ts": 1786448922
+    }
+   ]
+  },
+  "54d545e23030312c0c00300c_4~c1": {
+   "selected": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_4~c1__mag37__1786448925.mp3",
+   "takes": [
+    {
+     "file": "name_tenarmedambrose/takes/54d545e23030312c0c00300c_4~c1__mag37__1786448925.mp3",
+     "voiceId": "mag_37",
+     "voiceName": "Logan West",
+     "stability": 0,
+     "chars": 74,
+     "ts": 1786448925
     }
    ]
   }
@@ -680,6 +725,32 @@
      "stability": 0,
      "chars": 38,
      "ts": 1786436125
+    }
+   ]
+  },
+  "54d96ae73030316814006f45_4": {
+   "selected": "name_raymond/takes/54d96ae73030316814006f45_4__mag526__1786449024.mp3",
+   "takes": [
+    {
+     "file": "name_raymond/takes/54d96ae73030316814006f45_4__mag526__1786449024.mp3",
+     "voiceId": "mag_526",
+     "voiceName": "Eldros the Wise",
+     "stability": 0,
+     "chars": 29,
+     "ts": 1786449024
+    }
+   ]
+  },
+  "54d96ae73030316814006f45_5": {
+   "selected": "name_raymond/takes/54d96ae73030316814006f45_5__mag526__1786449026.mp3",
+   "takes": [
+    {
+     "file": "name_raymond/takes/54d96ae73030316814006f45_5__mag526__1786449026.mp3",
+     "voiceId": "mag_526",
+     "voiceName": "Eldros the Wise",
+     "stability": 0,
+     "chars": 119,
+     "ts": 1786449026
     }
    ]
   }
@@ -1817,7 +1888,7 @@
  },
  "name_elduce": {
   "55a59c51306364900e0061c3_0": {
-   "selected": "name_elduce/takes/55a59c51306364900e0061c3_0__mag37__1786436323.mp3",
+   "selected": "name_elduce/takes/55a59c51306364900e0061c3_0__mag584__1786449404.mp3",
    "takes": [
     {
      "file": "name_elduce/takes/55a59c51306364900e0061c3_0__mag37__1786436323.mp3",
@@ -1826,6 +1897,14 @@
      "stability": 0,
      "chars": 77,
      "ts": 1786436323
+    },
+    {
+     "file": "name_elduce/takes/55a59c51306364900e0061c3_0__mag584__1786449404.mp3",
+     "voiceId": "mag_584",
+     "voiceName": "Titan Steele",
+     "stability": 0,
+     "chars": 77,
+     "ts": 1786449404
     }
    ]
   }
@@ -4445,15 +4524,28 @@
  },
  "name_wuxinggeomancer": {
   "5512fe7a6539372010004d1b_1~c0": {
-   "selected": "name_wuxinggeomancer/takes/5512fe7a6539372010004d1b_1~c0__mag37__1786436934.mp3",
+   "selected": "name_wuxinggeomancer/takes/5512fe7a6539372010004d1b_1~c0__mag544__1786448973.mp3",
    "takes": [
     {
-     "file": "name_wuxinggeomancer/takes/5512fe7a6539372010004d1b_1~c0__mag37__1786436934.mp3",
-     "voiceId": "mag_37",
-     "voiceName": "Logan West",
+     "file": "name_wuxinggeomancer/takes/5512fe7a6539372010004d1b_1~c0__mag544__1786448973.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
      "stability": 0,
      "chars": 203,
-     "ts": 1786436934
+     "ts": 1786448973
+    }
+   ]
+  },
+  "5512fe7a6539372010004d1b_1~c1": {
+   "selected": "name_wuxinggeomancer/takes/5512fe7a6539372010004d1b_1~c1__mag544__1786448973.mp3",
+   "takes": [
+    {
+     "file": "name_wuxinggeomancer/takes/5512fe7a6539372010004d1b_1~c1__mag544__1786448973.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0,
+     "chars": 19,
+     "ts": 1786448973
     }
    ]
   }
@@ -6939,6 +7031,79 @@
      "ts": 1786440432
     }
    ]
+  },
+  "54d545e23030312c0c00300c_1~g0": {
+   "selected": "narrator/takes/54d545e23030312c0c00300c_1~g0__0aXOy31Cjamp__1786448881.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/54d545e23030312c0c00300c_1~g0__0aXOy31Cjamp__1786448881.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 40,
+     "ts": 1786448881
+    }
+   ]
+  },
+  "54d545e23030312c0c00300c_4~g0": {
+   "selected": "narrator/takes/54d545e23030312c0c00300c_4~g0__0aXOy31Cjamp__1786448924.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/54d545e23030312c0c00300c_4~g0__0aXOy31Cjamp__1786448924.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 81,
+     "ts": 1786448924
+    }
+   ]
+  },
+  "5512fe7a6539372010004d1b_1~g0": {
+   "selected": "narrator/takes/5512fe7a6539372010004d1b_1~g0__0aXOy31Cjamp__1786448974.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/5512fe7a6539372010004d1b_1~g0__0aXOy31Cjamp__1786448974.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 50,
+     "ts": 1786448974
+    }
+   ]
+  },
+  "54d96ae73030316814006f45_5~g0": {
+   "selected": "narrator/takes/54d96ae73030316814006f45_5~g0__0aXOy31Cjamp__1786449027.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/54d96ae73030316814006f45_5~g0__0aXOy31Cjamp__1786449027.mp3",
+     "voiceId": "0aXOy31Cjamp6gJcyqYu",
+     "voiceName": "Matt - Deep Authoritative Narrator",
+     "stability": 0,
+     "chars": 33,
+     "ts": 1786449027
+    }
+   ]
+  },
+  "54d55065306364bc730001da_1": {
+   "selected": null,
+   "takes": [
+    {
+     "file": "narrator/takes/54d55065306364bc730001da_1__mag543__1786436104.mp3",
+     "voiceId": "mag_543",
+     "voiceName": "Axel Virex",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1786436104
+    },
+    {
+     "file": "narrator/takes/54d55065306364bc730001da_1__sapi_david__1786442850.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 37,
+     "ts": 1786442850
+    }
+   ]
   }
  },
  "_barks": {
@@ -7131,6 +7296,36 @@
      "stability": 0,
      "chars": 288,
      "ts": 1786442929
+    }
+   ]
+  }
+ },
+ "name_computer": {
+  "54dcfec1303031bc0a006c6f_142": {
+   "selected": "name_computer/takes/54dcfec1303031bc0a006c6f_142__sapi_david__1786449389.mp3",
+   "takes": [
+    {
+     "file": "name_computer/takes/54dcfec1303031bc0a006c6f_142__sapi_david__1786449389.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 28,
+     "ts": 1786449389
+    }
+   ]
+  }
+ },
+ "name_sysop": {
+  "54dcfec1303031bc0a006c6f_213": {
+   "selected": "name_sysop/takes/54dcfec1303031bc0a006c6f_213__mag544__1786449389.mp3",
+   "takes": [
+    {
+     "file": "name_sysop/takes/54dcfec1303031bc0a006c6f_213__mag544__1786449389.mp3",
+     "voiceId": "mag_544",
+     "voiceName": "Jack Riker",
+     "stability": 0,
+     "chars": 226,
+     "ts": 1786449389
     }
    ]
   }

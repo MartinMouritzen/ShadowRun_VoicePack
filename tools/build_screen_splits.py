@@ -63,6 +63,12 @@ TRANSCRIPTS = hand.get("transcripts") or {}
 CONTAINERS = hand.get("containers") or []
 
 MACHINE = "machine"
+# A whole line can belong to the NARRATOR rather than to any character: third-person prose the
+# writers never wrapped in {{GM}} tags, so the segmenter cannot see it as narration. Hong Kong's
+# crew computer is the clearest case - eight nodes of unwritten outline ("Talk about attempted
+# pirate boarding outside of Perth", "Hey, it's private diaries!") in the same register as node 0,
+# which the extractor DID give the narrator.
+NARRATOR = "narrator"
 
 
 def canonical(who):
@@ -129,6 +135,14 @@ def main():
                     override = cdefault
                 if override == MACHINE:
                     stats["machine"] += 1
+                    continue
+                if override == NARRATOR:
+                    m = moves[(container, conv, NARRATOR)]
+                    m["nodes"].append(l["n"])
+                    m["from"], m["to"], m["convo"], m["cn"] = container, NARRATOR, conv, l["cn"]
+                    m["to_name"], m["kind"] = "Narrator", NARRATOR
+                    spoken[key] = st.spoken_body(l["t"], st.MAIL)
+                    stats["moved"] += 1
                     continue
                 if override:
                     who, kind = override, kind if kind != st.UNKNOWN else "hand"

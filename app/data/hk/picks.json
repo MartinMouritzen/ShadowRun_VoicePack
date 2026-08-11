@@ -32,8 +32,8 @@
   "voiceName": "Liu Zihan"
  },
  "name_tenarmedambrose": {
-  "voiceId": "mag_544",
-  "voiceName": "Jack Riker"
+  "voiceId": "mag_37",
+  "voiceName": "Logan West"
  },
  "name_erminekafai": {
   "voiceId": "mag_159",
@@ -350,10 +350,6 @@
  "name_tsangworker": {
   "voiceId": "mag_684",
   "voiceName": "Avery Quinn"
- },
- "name_elduce": {
-  "voiceId": "mag_37",
-  "voiceName": "Logan West"
  },
  "name_briancoats": {
   "voiceId": "mag_244",
@@ -920,8 +916,8 @@
   "voiceName": "Matthew Reynolds"
  },
  "name_wuxinggeomancer": {
-  "voiceId": "mag_37",
-  "voiceName": "Logan West"
+  "voiceId": "mag_544",
+  "voiceName": "Jack Riker"
  },
  "name_minhvuong": {
   "voiceId": "mag_124",
@@ -1574,5 +1570,13 @@
  "name_securitydirectordeng": {
   "voiceId": "mag_446",
   "voiceName": "Logan Scott"
+ },
+ "name_sysop": {
+  "voiceId": "mag_544",
+  "voiceName": "Jack Riker"
+ },
+ "name_elduce": {
+  "voiceId": "mag_584",
+  "voiceName": "Titan Steele"
  }
 }

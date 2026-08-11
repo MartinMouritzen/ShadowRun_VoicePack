@@ -971,6 +971,24 @@
   },
   {
    "from": "name_computer",
+   "to": "name_hkpfenforcer",
+   "to_name": "HKPF Enforcer",
+   "kind": "existing",
+   "convo": "564397ba643661780e006f09",
+   "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+   "nodes": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    22
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_hotpot888",
    "to_name": "HotPot888",
    "kind": "bbs",
@@ -2275,6 +2293,19 @@
   },
   {
    "from": "name_computer",
+   "to": "name_sysop",
+   "to_name": "SYSOP",
+   "kind": "bbs",
+   "convo": "54dcfec1303031bc0a006c6f",
+   "cn": "HK_Hub-Global_MissionComputer",
+   "nodes": [
+    213,
+    250,
+    306
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_t3nn1s0n",
    "to_name": "T3nn1s0n",
    "kind": "bbs",
@@ -2391,6 +2422,20 @@
    "cn": "HK_Hub-Global_MissionComputer",
    "nodes": [
     411
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_tsangcaptain",
+   "to_name": "Tsang Captain",
+   "kind": "existing",
+   "convo": "55834c0d30303120180000a8",
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "nodes": [
+    2,
+    3,
+    5,
+    6
    ]
   },
   {
@@ -2625,6 +2670,64 @@
    "nodes": [
     6,
     7
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "55847bc2303031201800016e",
+   "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
+   "nodes": [
+    0
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "559b0021303031281d001b57",
+   "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
+   "nodes": [
+    0
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "559efc5a303031d41c00654d",
+   "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
+   "nodes": [
+    0
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "55a83fa1303031401e006bb0",
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "nodes": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "narrator",
+   "to_name": "Narrator",
+   "kind": "narrator",
+   "convo": "564397ba643661780e006f09",
+   "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+   "nodes": [
+    3
    ]
   }
  ],
@@ -3339,18 +3442,6 @@
   "56200fb93063645c12004357_5": "Got it. We'll shift priorities immediately.\n\n- Winston Deng, Logistics Officer",
   "56200fb93063645c12004357_6": "Okay, people. We've had to change the code for the weapons locker again. Our security drones kept crashing whenever anyone input the previous code.\n\nQA has managed to track the problem down to an easter egg that somebody wrote into their object recognition code. I guess that '1337' has some significance to some joker on the Engineering team.",
   "56200fb93063645c12004357_7": "Given this new information, we've changed the code to 4077. Hopefully this will resolve our random drone crashes.\n\n- Y. Furukawa, Security Division",
-  "54d501c5306364544f000196_0": "Eastern Tiger FileOS 2.2.1\n\nFiles:\n1.) Development Diary - Project Overview\n2.) Development Diary - Phenotypic Alteration\n3.) Development Diary - Longevity research\n\nPlease select file data.",
-  "54d501c5306364544f000196_1": "Initial research into metagenetics presents a singular challenge: to wit, the study not of genes themselves, but of the interaction between genetics and the unseen world of astral space.\n\nIf the creation of a particular metatype or magically-expressed phenotype was as simple as the recombination of given amino acid sequences, then the creation of mages would be as simple as the expression of a given eye color or skin tone.",
-  "54d501c5306364544f000196_2": "Unfortunately, such expressions are far more complex. The expression of traits previously considered to be 'supernatural' is a complex interplay between mundane DNA, the condition of the ambient manasphere at the time of development, and the interactions between genes and what we have dubbed 'astral shadows.'\n\nAny research into these is fraught with difficulty, due to their resistance to traditional - that is to say - technological - instruments.",
-  "54d501c5306364544f000196_3": "Ergo, Omega Sequence #358G is a project de-coupled from the usual safeguards against project overruns. We have been granted extensive magical assistance in our pursuit of higher metagenetic understanding - as well as autonomy from legal concerns.\n\nAs such, Omega Sequence project materials must be kept in Eastern Tiger secure facilities only. Deviation from this may result in local law enforcement interest, and subsequent cleanup costs can be prohibitive. <<",
-  "54d501c5306364544f000196_4": "Phenotypic alteration is the key process which allows for the Omega Sequence project to progress. Ordinarily, an organism's phenotype is set and cannot be changed after a very early point in development. Morphology, phenology, replication processes: any alteration in the coding sequence of a living organism is invariably fatal.\n\nExcept in the case of the Omega Sequence.",
-  "54d501c5306364544f000196_5": "A combination of alkylating agents, ambient mana control, and potent alpha emitters allow us to control the replication of the Omega Sequence metagene. \n\nThis is accomplished through alteration of the interactions between DNA and their astral shadows - the building blocks of metagenetics and mana-based abilities.",
-  "54d501c5306364544f000196_6": "To understand this concept, consider an Indonesian shadowplay. The story one watches is not of the puppets, but the shadows they cast. A skillful puppeteer manipulates not just the puppets, but the space between the screen and the viewer.\n\nSo, too, is it with metagenetics. Magical aptitude, metagenetic traits, and formerly unknown parazoology are revealed when mana levels reach a sufficient point to allow the astral shadows of DNA to engage in their delicate, powerful dance of replication.",
-  "54d501c5306364544f000196_7": "To change the metagenetics of an organism, we do not manipulate only the subject's DNA, but the space between that DNA and the astral plane. We cast the requisite shadows, engendering change that cannot be explained solely by base pairs, alleles, and nucleotides.\n\nControl is our challenge. Control is a delicate art: it requires patience and perseverance, as well as scientific acumen. But with a fine enough degree of control, we will be able to replicate magical abilities, trait expression, and 'black swan' effects.",
-  "54d501c5306364544f000196_8": "What are these 'black swan' traits? Individuals born during events which cause ambient mana to spike have been known to express extreme magical potential and metatraits not possessed by the majority of their metatype. Research into Homo Sapiens Nobilis subjects born during the Awakening, for instance, indicate that ordinary Elven longevity simply does not apply - that there is no upper bound to their telometric regeneration. \n\nEffectively, they appear to be immortal. <<",
-  "54d501c5306364544f000196_9": "The goal of the Omega Sequence project is to harness and unlock these black swan metatraits, beginning with the question of the longevity factor in Homo Sapiens Nobilis. \n\nTreatments for extending human lifespans already exist, of course: organ transplantation can extend life by up to fifty years, and Leonization treatment can theoretically extend life for several hundred. Yet the drawbacks of these are apparent to any who scratch the surface.",
-  "54d501c5306364544f000196_10": "Leonization is prohibitively expensive, and erodes the patient's essence with every treatment, leading to eventual systemic collapse. Organ transplants can preserve the body, but plaques build up in the patient's neural tissue, and the patient must take a cornucopia of immunosuppressants for the duration of their life.\n\nTrue longevity lies in preventing aging from occurring at all.",
-  "54d501c5306364544f000196_11": "Omega Sequence #358G represents our most advanced metagenetic prototype yet. Preliminary results indicate that the test clone's age will lock at 19 years, and progress no further. In order to test this, we have induced artificial aging of the clone through our FastGro organ replacement process.\n\nUnfortunately, this has lead to an explosive cancer and mutation rate, rendering it non-viable for any other types of metagenetic research. Even so, the value of this test subject cannot be overstated. <<",
   "54f9e71c30636498130044b1_4": "Attention: Ares Asia Holdings employees and residents.\n\nLast week, Knight-Errant officers responsible for the security of this facility received several reports of suspicious activity in the public area of the building. At 13:31 last Tuesday, security footage shows a Troll, approximately 20-28 years of age, entering the public mezzanine areas of the building. The subject was seen attempting to gain access to restricted areas.",
   "54f9e71c30636498130044b1_5": "The subject exited the facility before Knight-Errant could intercept and question him. Reports from Ares citizenry indicates the subject was asking about research labs working on directed energy weapons.\n\nSeveral hours later, the subject was seen re-entering the building from a side entrance, wearing a custodial uniform.",
   "54f9e71c30636498130044b1_6": "Knight-Errant guards attempted to detain the subject, but during their arrest attempt both guards were severely injured.\n\nAny employee or resident should contact security immediately if they see this troll. Do not attempt to detain him or interact with him in any way. The subject is considered highly dangerous.",
@@ -3388,6 +3479,38 @@
   "55393bf1306364bc13007a89_3": "Vasilisa - We've got a window for the shipment. We're going to have to get to the harbor in the next few hours. Tell Galina and the others to pack up everything you've got and get ready to haul it through the storm drains toward the meeting spot.\n\nWe can't afford to miss this opportunity.",
   "55393bf1306364bc13007a89_4": "Hey, Yaroslav... Aleksandr's still not back from his scouting trip yet. He said he found a stockroom behind Mrs. Yang's Jade Mountain restaurant. There were also a bunch of keycards for it - belonged to some woman named Magpie. He's out through it now. We can't just leave him behind! Can't you delay this hand-off a few more hours?",
   "55393bf1306364bc13007a89_6": "No, Vasilisa, I can't delay the hand-off. The ship will leave when it leaves... If Aleksandr's not back in time to make it, it's his own damn fault.\n\nNow get your crew in high gear and make sure we've got the goods by the time things are set!",
+  "55834c0d30303120180000a8_2": "{{GM}}A muffled, annoyed voice shouts from the other side.{{/GM}}",
+  "55834c0d30303120180000a8_3": "All deliveries go through the maintenance manager.\n\nHer office is right around the corner. Got a big sign on the front. Can't miss it.",
+  "55834c0d30303120180000a8_5": "Lucky you. One second, and I'll let you fill out the property-damage forms on our terminal.",
+  "55834c0d30303120180000a8_6": "All right, come on in.\n\nJust don't go poking around the security system - stick to the forms. Terminal's in the back.",
+  "55847bc2303031201800016e_0": "This room is secured by a small keypad.",
+  "559b0021303031281d001b57_0": "This dated door lock looks like it's recently been upgraded with a keycard scanner.",
+  "559efc5a303031d41c00654d_0": "A simple keypad with worn buttons.",
+  "55a83fa1303031401e006bb0_1": "The files are a collection of research notes regarding a creature, simply referred to as the \"subject,\" held within the containment chamber. After clicking through a few files, you manage to find a few choice bits.",
+  "55a83fa1303031401e006bb0_2": "It appears the researcher in charge of this project was tasked with destroying the creature's connection to what's vaguely called \"Something Else.\" According to the notes, the creature's tie to the Else is through its aura. Experiments to sever the connection have thus far been unsuccessful, and have yielded unpredictable results.",
+  "55a83fa1303031401e006bb0_3": "One of the more productive experiments involved igniting a magical powder under extreme heat to sever the connection via shock. It was ultimately ineffective, but the researcher highlights the ending result as significant. While the method failed, the aural influence of the Else retreated from the auras of all the metahumans in the vicinity.",
+  "55a83fa1303031401e006bb0_4": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more clearheaded. The effect has lasted and appears to be permanent. Further investigation revealed that the reason for the Else's aural retreat was due to the superheated formula's astral reaction. Its explosion apparently ripped holes into the astral plane, cutting off influence from the aura of the Else.",
+  "564397ba643661780e006f09_3": "You slide the barcoded section of your visitor pass through the reader.\n\nA moment later, a light above the elevator flashes red, and a harsh warning tone screeches out from the door panel's speakers.",
+  "564397ba643661780e006f09_8": "Of course I do. I've got a keycard. But if you think I'm gonna use it to let someone without the proper clearance up there, you're dreaming.\n\nNow get to the front desk, and talk to the sergeant on duty. And don't bother me again unless you've gotten your badge upgraded.",
+  "564397ba643661780e006f09_9": "...Oh, and take that ghoul with you. He doesn't bother me none - my uncle has HMHVV. But he's liable to give my fellow constables a heart attack.",
+  "564397ba643661780e006f09_10": "{{GM}}She raises a hand to stop you.{{/GM}}\n\nSpare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? \n\nMy problem.",
+  "564397ba643661780e006f09_11": "Asking why he's in here and isn't dead yet is way above my pay grade. All that I do is babysit this elevator.\n\nAs long as you don't make your gray-skinned pal my problem, I couldn't care less what he is.",
+  "564397ba643661780e006f09_12": "Pal, my job to guard an elevator. In a police station. My boss hates my guts, and I'm about two demerits from getting fired.\n\nI'm not gonna stick my neck out asking why the ghoul is here and why nobody's killing him. That kind of thing is above my pay grade.",
+  "564397ba643661780e006f09_13": "See that he does. He goes wandering off, somebody might kill him.",
+  "564397ba643661780e006f09_15": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck. \n\n{{GM}}She raises a hand.{{/GM}}\n\nAnd before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*",
+  "564397ba643661780e006f09_22": "Best of luck, then. Now get the hell out of my face.\n\nIf you try to swipe that badge again without the proper clearance, I promise you, you're gonna regret it.",
+  "54d501c5306364544f000196_0": "Eastern Tiger FileOS 2.2.1\n\nFiles:\n1.) Development Diary - Project Overview\n2.) Development Diary - Phenotypic Alteration\n3.) Development Diary - Longevity research\n\nPlease select file data.",
+  "54d501c5306364544f000196_1": "Initial research into metagenetics presents a singular challenge: to wit, the study not of genes themselves, but of the interaction between genetics and the unseen world of astral space.\n\nIf the creation of a particular metatype or magically-expressed phenotype was as simple as the recombination of given amino acid sequences, then the creation of mages would be as simple as the expression of a given eye color or skin tone.",
+  "54d501c5306364544f000196_2": "Unfortunately, such expressions are far more complex. The expression of traits previously considered to be 'supernatural' is a complex interplay between mundane DNA, the condition of the ambient manasphere at the time of development, and the interactions between genes and what we have dubbed 'astral shadows.'\n\nAny research into these is fraught with difficulty, due to their resistance to traditional - that is to say - technological - instruments.",
+  "54d501c5306364544f000196_3": "Ergo, Omega Sequence #358G is a project de-coupled from the usual safeguards against project overruns. We have been granted extensive magical assistance in our pursuit of higher metagenetic understanding - as well as autonomy from legal concerns.\n\nAs such, Omega Sequence project materials must be kept in Eastern Tiger secure facilities only. Deviation from this may result in local law enforcement interest, and subsequent cleanup costs can be prohibitive. <<",
+  "54d501c5306364544f000196_4": "Phenotypic alteration is the key process which allows for the Omega Sequence project to progress. Ordinarily, an organism's phenotype is set and cannot be changed after a very early point in development. Morphology, phenology, replication processes: any alteration in the coding sequence of a living organism is invariably fatal.\n\nExcept in the case of the Omega Sequence.",
+  "54d501c5306364544f000196_5": "A combination of alkylating agents, ambient mana control, and potent alpha emitters allow us to control the replication of the Omega Sequence metagene. \n\nThis is accomplished through alteration of the interactions between DNA and their astral shadows - the building blocks of metagenetics and mana-based abilities.",
+  "54d501c5306364544f000196_6": "To understand this concept, consider an Indonesian shadowplay. The story one watches is not of the puppets, but the shadows they cast. A skillful puppeteer manipulates not just the puppets, but the space between the screen and the viewer.\n\nSo, too, is it with metagenetics. Magical aptitude, metagenetic traits, and formerly unknown parazoology are revealed when mana levels reach a sufficient point to allow the astral shadows of DNA to engage in their delicate, powerful dance of replication.",
+  "54d501c5306364544f000196_7": "To change the metagenetics of an organism, we do not manipulate only the subject's DNA, but the space between that DNA and the astral plane. We cast the requisite shadows, engendering change that cannot be explained solely by base pairs, alleles, and nucleotides.\n\nControl is our challenge. Control is a delicate art: it requires patience and perseverance, as well as scientific acumen. But with a fine enough degree of control, we will be able to replicate magical abilities, trait expression, and 'black swan' effects.",
+  "54d501c5306364544f000196_8": "What are these 'black swan' traits? Individuals born during events which cause ambient mana to spike have been known to express extreme magical potential and metatraits not possessed by the majority of their metatype. Research into Homo Sapiens Nobilis subjects born during the Awakening, for instance, indicate that ordinary Elven longevity simply does not apply - that there is no upper bound to their telometric regeneration. \n\nEffectively, they appear to be immortal. <<",
+  "54d501c5306364544f000196_9": "The goal of the Omega Sequence project is to harness and unlock these black swan metatraits, beginning with the question of the longevity factor in Homo Sapiens Nobilis. \n\nTreatments for extending human lifespans already exist, of course: organ transplantation can extend life by up to fifty years, and Leonization treatment can theoretically extend life for several hundred. Yet the drawbacks of these are apparent to any who scratch the surface.",
+  "54d501c5306364544f000196_10": "Leonization is prohibitively expensive, and erodes the patient's essence with every treatment, leading to eventual systemic collapse. Organ transplants can preserve the body, but plaques build up in the patient's neural tissue, and the patient must take a cornucopia of immunosuppressants for the duration of their life.\n\nTrue longevity lies in preventing aging from occurring at all.",
+  "54d501c5306364544f000196_11": "Omega Sequence #358G represents our most advanced metagenetic prototype yet. Preliminary results indicate that the test clone's age will lock at 19 years, and progress no further. In order to test this, we have induced artificial aging of the clone through our FastGro organ replacement process.\n\nUnfortunately, this has lead to an explosive cancer and mutation rate, rendering it non-viable for any other types of metagenetic research. Even so, the value of this test subject cannot be overstated. <<",
   "5578c5833234318018008611_0": "{{GM}}Is0bel takes a quick glance at the terminal.{{/GM}}\n\nI'll be damned. It's logged into an admin inbox, and somebody left it unlocked.\n\nI can't open the door for you from here, but we can read the messages if you want.",
   "5578c5833234318018008611_4": "Look. I'm gonna come right out and say it: the security guys are right. There's something horribly wrong with that Noodle Extruder.",
   "5578c5833234318018008611_5": "I ran a diagnostic on it this afternoon. I was halfway through recalibrating the broth nozzles when the damned thing started humming. And, sure enough, it started churning out steaming-hot jook-sing noodles... just dumping 'em into the palms of my hands.\n\nYou don't even want to see the blisters I'm sporting right now.",
@@ -3544,36 +3667,6 @@
    "text": ">> Nadir O.S. 3.11 Email Client\n\nPlease select a file."
   },
   {
-   "key": "55834c0d30303120180000a8_2",
-   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-   "why": "unknown, no speaker",
-   "text": "{{GM}}A muffled, annoyed voice shouts from the other side.{{/GM}}\n\nWHAT?"
-  },
-  {
-   "key": "55834c0d30303120180000a8_3",
-   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-   "why": "unknown, no speaker",
-   "text": "All deliveries go through the maintenance manager.\n\nHer office is right around the corner. Got a big sign on the front. Can't miss it."
-  },
-  {
-   "key": "55834c0d30303120180000a8_5",
-   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-   "why": "unknown, no speaker",
-   "text": "Lucky you. One second, and I'll let you fill out the property-damage forms on our terminal."
-  },
-  {
-   "key": "55834c0d30303120180000a8_6",
-   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-   "why": "unknown, no speaker",
-   "text": "All right, come on in.\n\nJust don't go poking around the security system - stick to the forms. Terminal's in the back."
-  },
-  {
-   "key": "55847bc2303031201800016e_0",
-   "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
-   "why": "unknown, no speaker",
-   "text": "This room is secured by a small keypad."
-  },
-  {
    "key": "55946dcd303031e01100856b_1",
    "cn": "a3_TsangTower_s1-Office_NorthDataTerminal",
    "why": "unknown, no speaker",
@@ -3584,42 +3677,6 @@
    "cn": "a3_TsangTower_s1-Office_NorthDataTerminal",
    "why": "unknown, no speaker",
    "text": "A quick look is all it takes to reveal that this terminal is an unnetworked workstation.\n\nSitting there all unattended and vulnerable, it's just asking - beggin"
-  },
-  {
-   "key": "559b0021303031281d001b57_0",
-   "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
-   "why": "unknown, no speaker",
-   "text": "This dated door lock looks like it's recently been upgraded with a keycard scanner."
-  },
-  {
-   "key": "559efc5a303031d41c00654d_0",
-   "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
-   "why": "unknown, no speaker",
-   "text": "A simple keypad with worn buttons."
-  },
-  {
-   "key": "55a83fa1303031401e006bb0_1",
-   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-   "why": "unknown, no speaker",
-   "text": "The files are a collection of research notes regarding a creature, simply referred to as the \"subject,\" held within the containment chamber. After clicking thro"
-  },
-  {
-   "key": "55a83fa1303031401e006bb0_2",
-   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-   "why": "unknown, no speaker",
-   "text": "It appears the researcher in charge of this project was tasked with destroying the creature's connection to what's vaguely called \"Something Else.\" According to"
-  },
-  {
-   "key": "55a83fa1303031401e006bb0_3",
-   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-   "why": "unknown, no speaker",
-   "text": "One of the more productive experiments involved igniting a magical powder under extreme heat to sever the connection via shock. It was ultimately ineffective, b"
-  },
-  {
-   "key": "55a83fa1303031401e006bb0_4",
-   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-   "why": "unknown, no speaker",
-   "text": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more cle"
   },
   {
    "key": "5609b6333063641833004dad_0",

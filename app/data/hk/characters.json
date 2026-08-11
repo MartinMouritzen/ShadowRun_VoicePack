@@ -43294,54 +43294,6 @@
    "bio": null,
    "lines": [
     {
-     "c": "54d55065306364bc730001da",
-     "n": 1,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Here is a root ship's log entry area."
-    },
-    {
-     "c": "54d55065306364bc730001da",
-     "n": 2,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Talkin' about being in port in Tacoma and taking on cargo from Eastern Tiger."
-    },
-    {
-     "c": "54d55065306364bc730001da",
-     "n": 3,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Talk about attempted pirate boarding outside of Perth. Elves! Why elves, he wonders?"
-    },
-    {
-     "c": "54d55065306364bc730001da",
-     "n": 4,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Talk about nearing Hong Kong and increasing pirate attempts. He suspects something is up and this is a targeted series of events. Didn't recognize their language (sperethiel)"
-    },
-    {
-     "c": "54d55065306364bc730001da",
-     "n": 5,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Hey, it's private diaries!"
-    },
-    {
-     "c": "54d55065306364bc730001da",
-     "n": 6,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Suspicions about cargo from Eastern Tiger. Horrible stuff. Extra power precautions to make sure if the ship loses power, it doesn't."
-    },
-    {
-     "c": "54d55065306364bc730001da",
-     "n": 7,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Today when he was checking the cargo, he could swear it was watching him with one of its eyes."
-    },
-    {
-     "c": "54d55065306364bc730001da",
-     "n": 8,
-     "cn": "a2_Whistleblower_s1-CrewComputer",
-     "t": "Today, it moved! He'll be glad to be done with it."
-    },
-    {
      "c": "54dcfec1303031bc0a006c6f",
      "n": 142,
      "cn": "HK_Hub-Global_MissionComputer",
@@ -43394,24 +43346,6 @@
      "n": 182,
      "cn": "HK_Hub-Global_MissionComputer",
      "t": ">>[TOPIC(S) MATCHING LOCAL KEYWORDS...]<<"
-    },
-    {
-     "c": "54dcfec1303031bc0a006c6f",
-     "n": 213,
-     "cn": "HK_Hub-Global_MissionComputer",
-     "t": ">>>>>[Hey - you people know the rules. Poetry slams have been out of bounds on this BBS since the Laughing Man debacle of '55.\n\nIf you want to sling your fancy words, do it on a different forum. I'm shutting this thread down.]<<<<<\n \n- SYSOP <10:57:51/08-12-56>"
-    },
-    {
-     "c": "54dcfec1303031bc0a006c6f",
-     "n": 250,
-     "cn": "HK_Hub-Global_MissionComputer",
-     "t": ">>>>>[All right, Shakespeares. This is strike two. This thread is getting locked, and you aren't doing this again, got me?\n\nThis board is for deckers who wanna talk shop. There are plenty of other forums that you can use for your stupid amateur poetry. I'd suggest that you go find one.]<<<<<\n \n- SYSOP <06:02:07/08-13-56>"
-    },
-    {
-     "c": "54dcfec1303031bc0a006c6f",
-     "n": 306,
-     "cn": "HK_Hub-Global_MissionComputer",
-     "t": ">>>>>[You fucking people.]<<<<<\n \n- SYSOP <11:06:41/08-14-56>"
     },
     {
      "c": "54dcfec1303031bc0a006c6f",
@@ -44230,36 +44164,6 @@
      "t": ">> Nadir O.S. 3.11 Email Client\n\nPlease select a file."
     },
     {
-     "c": "55834c0d30303120180000a8",
-     "n": 2,
-     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-     "t": "{{GM}}A muffled, annoyed voice shouts from the other side.{{/GM}}\n\nWHAT?"
-    },
-    {
-     "c": "55834c0d30303120180000a8",
-     "n": 3,
-     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-     "t": "All deliveries go through the maintenance manager.\n\nHer office is right around the corner. Got a big sign on the front. Can't miss it."
-    },
-    {
-     "c": "55834c0d30303120180000a8",
-     "n": 5,
-     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-     "t": "Lucky you. One second, and I'll let you fill out the property-damage forms on our terminal."
-    },
-    {
-     "c": "55834c0d30303120180000a8",
-     "n": 6,
-     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
-     "t": "All right, come on in.\n\nJust don't go poking around the security system - stick to the forms. Terminal's in the back."
-    },
-    {
-     "c": "55847bc2303031201800016e",
-     "n": 0,
-     "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
-     "t": "This room is secured by a small keypad."
-    },
-    {
      "c": "5584a811303031601e000345",
      "n": 0,
      "cn": "a3_TsangTower_s1-SubBasement_MaintenanceTerminal",
@@ -44308,12 +44212,6 @@
      "t": "A quick look is all it takes to reveal that this terminal is an unnetworked workstation.\n\nSitting there all unattended and vulnerable, it's just asking - begging - to be hacked."
     },
     {
-     "c": "559b0021303031281d001b57",
-     "n": 0,
-     "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
-     "t": "This dated door lock looks like it's recently been upgraded with a keycard scanner."
-    },
-    {
      "c": "559c578d303031141700325c",
      "n": 3,
      "cn": "a3_TsangTower_s1-ServitorConsole",
@@ -44354,36 +44252,6 @@
      "n": 12,
      "cn": "a3_TsangTower_s1-ServitorConsole",
      "t": "SCANNING...\n\nHostiles detected. Terminal locked."
-    },
-    {
-     "c": "559efc5a303031d41c00654d",
-     "n": 0,
-     "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
-     "t": "A simple keypad with worn buttons."
-    },
-    {
-     "c": "55a83fa1303031401e006bb0",
-     "n": 1,
-     "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-     "t": "The files are a collection of research notes regarding a creature, simply referred to as the \"subject,\" held within the containment chamber. After clicking through a few files, you manage to find a few choice bits."
-    },
-    {
-     "c": "55a83fa1303031401e006bb0",
-     "n": 2,
-     "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-     "t": "It appears the researcher in charge of this project was tasked with destroying the creature's connection to what's vaguely called \"Something Else.\" According to the notes, the creature's tie to the Else is through its aura. Experiments to sever the connection have thus far been unsuccessful, and have yielded unpredictable results."
-    },
-    {
-     "c": "55a83fa1303031401e006bb0",
-     "n": 3,
-     "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-     "t": "One of the more productive experiments involved igniting a magical powder under extreme heat to sever the connection via shock. It was ultimately ineffective, but the researcher highlights the ending result as significant. While the method failed, the aural influence of the Else retreated from the auras of all the metahumans in the vicinity."
-    },
-    {
-     "c": "55a83fa1303031401e006bb0",
-     "n": 4,
-     "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
-     "t": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more clearheaded. The effect has lasted and appears to be permanent. Further investigation revealed that the reason for the Else's aural retreat was due to the superheated formula's astral reaction. Its explosion apparently ripped holes into the astral plane, cutting off influence from the aura of the Else."
     },
     {
      "c": "55a83fa1303031401e006bb0",
@@ -44618,60 +44486,6 @@
      "n": 0,
      "cn": "MC_a2_StationRun_s1-MedicalDoorConsole",
      "t": "{{GM}}The terminal's screen glows cheerfully as you take your place at the keyboard.{{/GM}}\n\n>>>SDU_MEDICAL"
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 3,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "You slide the barcoded section of your visitor pass through the reader.\n\nA moment later, a light above the elevator flashes red, and a harsh warning tone screeches out from the door panel's speakers."
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 8,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "Of course I do. I've got a keycard. But if you think I'm gonna use it to let someone without the proper clearance up there, you're dreaming.\n\nNow get to the front desk, and talk to the sergeant on duty. And don't bother me again unless you've gotten your badge upgraded."
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 9,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "...Oh, and take that ghoul with you. He doesn't bother me none - my uncle has HMHVV. But he's liable to give my fellow constables a heart attack."
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 10,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "{{GM}}She raises a hand to stop you.{{/GM}}\n\nSpare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? \n\nMy problem."
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 11,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "Asking why he's in here and isn't dead yet is way above my pay grade. All that I do is babysit this elevator.\n\nAs long as you don't make your gray-skinned pal my problem, I couldn't care less what he is."
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 12,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "Pal, my job to guard an elevator. In a police station. My boss hates my guts, and I'm about two demerits from getting fired.\n\nI'm not gonna stick my neck out asking why the ghoul is here and why nobody's killing him. That kind of thing is above my pay grade."
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 13,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "See that he does. He goes wandering off, somebody might kill him."
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 15,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck. \n\n{{GM}}She raises a hand.{{/GM}}\n\nAnd before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*"
-    },
-    {
-     "c": "564397ba643661780e006f09",
-     "n": 22,
-     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
-     "t": "Best of luck, then. Now get the hell out of my face.\n\nIf you try to swipe that badge again without the proper clearance, I promise you, you're gonna regret it."
     },
     {
      "c": "5643e22b3063649c0b008011",
@@ -94545,9 +94359,33 @@
    "lines": [
     {
      "c": "55834c0d30303120180000a8",
+     "n": 2,
+     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+     "t": "{{GM}}A muffled, annoyed voice shouts from the other side.{{/GM}}\n\nWHAT?"
+    },
+    {
+     "c": "55834c0d30303120180000a8",
+     "n": 3,
+     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+     "t": "All deliveries go through the maintenance manager.\n\nHer office is right around the corner. Got a big sign on the front. Can't miss it."
+    },
+    {
+     "c": "55834c0d30303120180000a8",
      "n": 4,
      "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
      "t": "{{GM}}A muffled, annoyed voice shouts from the other side.{{/GM}}\n\nWHAT?"
+    },
+    {
+     "c": "55834c0d30303120180000a8",
+     "n": 5,
+     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+     "t": "Lucky you. One second, and I'll let you fill out the property-damage forms on our terminal."
+    },
+    {
+     "c": "55834c0d30303120180000a8",
+     "n": 6,
+     "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+     "t": "All right, come on in.\n\nJust don't go poking around the security system - stick to the forms. Terminal's in the back."
     },
     {
      "c": "5584860f303031201800028f",
@@ -94734,6 +94572,48 @@
     },
     {
      "c": "564397ba643661780e006f09",
+     "n": 8,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "Of course I do. I've got a keycard. But if you think I'm gonna use it to let someone without the proper clearance up there, you're dreaming.\n\nNow get to the front desk, and talk to the sergeant on duty. And don't bother me again unless you've gotten your badge upgraded."
+    },
+    {
+     "c": "564397ba643661780e006f09",
+     "n": 9,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "...Oh, and take that ghoul with you. He doesn't bother me none - my uncle has HMHVV. But he's liable to give my fellow constables a heart attack."
+    },
+    {
+     "c": "564397ba643661780e006f09",
+     "n": 10,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "{{GM}}She raises a hand to stop you.{{/GM}}\n\nSpare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? \n\nMy problem."
+    },
+    {
+     "c": "564397ba643661780e006f09",
+     "n": 11,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "Asking why he's in here and isn't dead yet is way above my pay grade. All that I do is babysit this elevator.\n\nAs long as you don't make your gray-skinned pal my problem, I couldn't care less what he is."
+    },
+    {
+     "c": "564397ba643661780e006f09",
+     "n": 12,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "Pal, my job to guard an elevator. In a police station. My boss hates my guts, and I'm about two demerits from getting fired.\n\nI'm not gonna stick my neck out asking why the ghoul is here and why nobody's killing him. That kind of thing is above my pay grade."
+    },
+    {
+     "c": "564397ba643661780e006f09",
+     "n": 13,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "See that he does. He goes wandering off, somebody might kill him."
+    },
+    {
+     "c": "564397ba643661780e006f09",
+     "n": 15,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck. \n\n{{GM}}She raises a hand.{{/GM}}\n\nAnd before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*"
+    },
+    {
+     "c": "564397ba643661780e006f09",
      "n": 16,
      "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
      "t": "It's only good for the ground level. You'll need special clearance to use the elevator.\n\nIf you've got reason to be up there, go talk to the desk sergeant at the front of the station. He can help you. If not, please step away from the console and enjoy the rest of your day."
@@ -94755,6 +94635,12 @@
      "n": 20,
      "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
      "t": "{{GM}}The guard chuckles to herself.{{/GM}}\n\nWell, best of luck at the Academy. In a few years, maybe you'll get your certification, work your way up the ranks, and earn one for yourself."
+    },
+    {
+     "c": "564397ba643661780e006f09",
+     "n": 22,
+     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+     "t": "Best of luck, then. Now get the hell out of my face.\n\nIf you try to swipe that badge again without the proper clearance, I promise you, you're gonna regret it."
     },
     {
      "c": "564397ba643661780e006f09",
@@ -106162,6 +106048,35 @@
     }
    ],
    "gender": "male"
+  },
+  {
+   "id": "name_sysop",
+   "name": "SYSOP",
+   "portrait": null,
+   "archetype": null,
+   "bio": null,
+   "lines": [
+    {
+     "c": "54dcfec1303031bc0a006c6f",
+     "n": 213,
+     "cn": "HK_Hub-Global_MissionComputer",
+     "t": ">>>>>[Hey - you people know the rules. Poetry slams have been out of bounds on this BBS since the Laughing Man debacle of '55.\n\nIf you want to sling your fancy words, do it on a different forum. I'm shutting this thread down.]<<<<<\n \n- SYSOP <10:57:51/08-12-56>"
+    },
+    {
+     "c": "54dcfec1303031bc0a006c6f",
+     "n": 250,
+     "cn": "HK_Hub-Global_MissionComputer",
+     "t": ">>>>>[All right, Shakespeares. This is strike two. This thread is getting locked, and you aren't doing this again, got me?\n\nThis board is for deckers who wanna talk shop. There are plenty of other forums that you can use for your stupid amateur poetry. I'd suggest that you go find one.]<<<<<\n \n- SYSOP <06:02:07/08-13-56>"
+    },
+    {
+     "c": "54dcfec1303031bc0a006c6f",
+     "n": 306,
+     "cn": "HK_Hub-Global_MissionComputer",
+     "t": ">>>>>[You fucking people.]<<<<<\n \n- SYSOP <11:06:41/08-14-56>"
+    }
+   ],
+   "screenSpeaker": "bbs",
+   "gender": "male"
   }
  ],
  "narrator": {
@@ -107302,6 +107217,54 @@
     "cn": "a2_Whistleblower_s1-CrewComputer",
     "t": "It's a crew computer",
     "y": 4
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 1,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Here is a root ship's log entry area."
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 2,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Talkin' about being in port in Tacoma and taking on cargo from Eastern Tiger."
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 3,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Talk about attempted pirate boarding outside of Perth. Elves! Why elves, he wonders?"
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 4,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Talk about nearing Hong Kong and increasing pirate attempts. He suspects something is up and this is a targeted series of events. Didn't recognize their language (sperethiel)"
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 5,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Hey, it's private diaries!"
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 6,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Suspicions about cargo from Eastern Tiger. Horrible stuff. Extra power precautions to make sure if the ship loses power, it doesn't."
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 7,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Today when he was checking the cargo, he could swear it was watching him with one of its eyes."
+   },
+   {
+    "c": "54d55065306364bc730001da",
+    "n": 8,
+    "cn": "a2_Whistleblower_s1-CrewComputer",
+    "t": "Today, it moved! He'll be glad to be done with it."
    },
    {
     "c": "54d55f873030311411003a6c",
@@ -114010,6 +113973,12 @@
     "y": 4
    },
    {
+    "c": "55847bc2303031201800016e",
+    "n": 0,
+    "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
+    "t": "This room is secured by a small keypad."
+   },
+   {
     "c": "5584860f303031201800028f",
     "n": 6,
     "cn": "a3_TsangTower_s1-SubBasement_MaintenanceBoss",
@@ -114060,6 +114029,26 @@
    },
    {
     "c": "5584c4ef623666c42b0054df",
+    "n": 34,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "Raymond turns his head towards Wu's voice. His eyes are cloudy but he concentrates on the ork, trying to focus."
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
+    "n": 50,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "Raymond turns his head towards your voice. His eyes remain cloudy but he concentrates on you, trying to focus.",
+    "y": 6
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
+    "n": 61,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "Raymond inhales sharply mid-sentence. His body goes rigid and his eyes jerk hard to the left. When he speaks again, his voice is the old Raymond's. \n\nLike Seattle.\n\nHe's still exhausted. Still haunted. But he's Raymond.",
+    "y": 6
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
     "n": 63,
     "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
     "t": "The subway car is silent as the crew absorbs the shift in the old man's demeanor. ",
@@ -114067,10 +114056,43 @@
    },
    {
     "c": "5584c4ef623666c42b0054df",
+    "n": 76,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "He drifts off for a moment, remembering. Then he squeezes his eyes shut and lowers his head.",
+    "y": 6
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
+    "n": 89,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "The old man bows his head. Doesn't answer.",
+    "y": 6
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
+    "n": 92,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "The old man gets a confused look on his face. His lips move soundlessly for several moments.",
+    "y": 6
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
+    "n": 122,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "Raymond shrinks from Wu's aggression. "
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
     "n": 128,
     "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
     "t": "Raymond growls in anger and stalks to the opposite side of the train. He buries his head in his hands, begins rocking and muttering to himself again.",
     "y": 4
+   },
+   {
+    "c": "5584c4ef623666c42b0054df",
+    "n": 130,
+    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+    "t": "Wu stops bouncing his head on the wall. Stands still with his back to the crew. Then a small chuckle begins somewhere deep inside him. Raymond joins him and the two men turn back to each other, laughing softly."
    },
    {
     "c": "5584c4ef623666c42b0054df",
@@ -114900,6 +114922,12 @@
    },
    {
     "c": "559b0021303031281d001b57",
+    "n": 0,
+    "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
+    "t": "This dated door lock looks like it's recently been upgraded with a keycard scanner."
+   },
+   {
+    "c": "559b0021303031281d001b57",
     "n": 1,
     "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
     "t": "The door opens with a series of creaks and groans - clearly as old, if not older, than the keypad.",
@@ -115002,6 +115030,12 @@
     "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar_PART 2",
     "t": "No answer. \n\nWu spins to find Raymond cowering, his head in his hands, shuddering and weeping.",
     "y": 4
+   },
+   {
+    "c": "559efc5a303031d41c00654d",
+    "n": 0,
+    "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
+    "t": "A simple keypad with worn buttons."
    },
    {
     "c": "559efc5a303031d41c00654d",
@@ -115240,6 +115274,30 @@
     "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
     "t": "The terminal's screen is lit, and you can see that the station's unlocked. It seems someone logged into it and then left it unattended.",
     "y": 4
+   },
+   {
+    "c": "55a83fa1303031401e006bb0",
+    "n": 1,
+    "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+    "t": "The files are a collection of research notes regarding a creature, simply referred to as the \"subject,\" held within the containment chamber. After clicking through a few files, you manage to find a few choice bits."
+   },
+   {
+    "c": "55a83fa1303031401e006bb0",
+    "n": 2,
+    "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+    "t": "It appears the researcher in charge of this project was tasked with destroying the creature's connection to what's vaguely called \"Something Else.\" According to the notes, the creature's tie to the Else is through its aura. Experiments to sever the connection have thus far been unsuccessful, and have yielded unpredictable results."
+   },
+   {
+    "c": "55a83fa1303031401e006bb0",
+    "n": 3,
+    "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+    "t": "One of the more productive experiments involved igniting a magical powder under extreme heat to sever the connection via shock. It was ultimately ineffective, but the researcher highlights the ending result as significant. While the method failed, the aural influence of the Else retreated from the auras of all the metahumans in the vicinity."
+   },
+   {
+    "c": "55a83fa1303031401e006bb0",
+    "n": 4,
+    "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+    "t": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more clearheaded. The effect has lasted and appears to be permanent. Further investigation revealed that the reason for the Else's aural retreat was due to the superheated formula's astral reaction. Its explosion apparently ripped holes into the astral plane, cutting off influence from the aura of the Else."
    },
    {
     "c": "55a928d46236667419006738",
@@ -116479,6 +116537,13 @@
     "cn": "MC_Hub_Impound-TeamSafeboatConvo",
     "t": "You tap Kindly Cheng's personal commlink number into your PDA and hit the send button.\n\nA moment later, the old woman's face appears on the screen.",
     "y": 4
+   },
+   {
+    "c": "56098865643661c8160012df",
+    "n": 29,
+    "cn": "MC_Hub_Impound-TeamSafeboatConvo",
+    "t": "Duncan clenches his jaw. He's clearly furious, but he says nothing.",
+    "y": 6
    },
    {
     "c": "56098865643661c8160012df",
@@ -118012,6 +118077,12 @@
     "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
     "t": "The elevator's access panel is simple in design: a chamfered box of hard-anodized aluminum, outfitted with a card reader and a set of inset speakers.\n\nThere is no screen to look at, no button to press. The card reader is the panel's only input.",
     "y": 4
+   },
+   {
+    "c": "564397ba643661780e006f09",
+    "n": 3,
+    "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+    "t": "You slide the barcoded section of your visitor pass through the reader.\n\nA moment later, a light above the elevator flashes red, and a harsh warning tone screeches out from the door panel's speakers."
    },
    {
     "c": "564397ba643661780e006f09",
@@ -119608,66 +119679,6 @@
     "cn": "MC_a3_TaiPo_s1-ExecutiveTerminal_Matrix",
     "t": "The data archive contains folder upon folder of documents regarding Ares' use of outside contractors, along with internal memos detailing the corporation's intentions regarding those contractors.\n\nA quick search locates a memo that mentions Krait by name.",
     "y": 4
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 34,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "Raymond turns his head towards Wu's voice. His eyes are cloudy but he concentrates on the ork, trying to focus."
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 50,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "Raymond turns his head towards your voice. His eyes remain cloudy but he concentrates on you, trying to focus.",
-    "y": 6
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 61,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "Raymond inhales sharply mid-sentence. His body goes rigid and his eyes jerk hard to the left. When he speaks again, his voice is the old Raymond's. \n\nLike Seattle.\n\nHe's still exhausted. Still haunted. But he's Raymond.",
-    "y": 6
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 76,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "He drifts off for a moment, remembering. Then he squeezes his eyes shut and lowers his head.",
-    "y": 6
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 89,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "The old man bows his head. Doesn't answer.",
-    "y": 6
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 92,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "The old man gets a confused look on his face. His lips move soundlessly for several moments.",
-    "y": 6
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 122,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "Raymond shrinks from Wu's aggression. "
-   },
-   {
-    "c": "5584c4ef623666c42b0054df",
-    "n": 130,
-    "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
-    "t": "Wu stops bouncing his head on the wall. Stands still with his back to the crew. Then a small chuckle begins somewhere deep inside him. Raymond joins him and the two men turn back to each other, laughing softly."
-   },
-   {
-    "c": "56098865643661c8160012df",
-    "n": 29,
-    "cn": "MC_Hub_Impound-TeamSafeboatConvo",
-    "t": "Duncan clenches his jaw. He's clearly furious, but he says nothing.",
-    "y": 6
    }
   ]
  },
