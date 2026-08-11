@@ -940,20 +940,6 @@
   },
   {
    "from": "name_computer",
-   "to": "name_inspectorlam",
-   "to_name": "Senior Inspector Lam",
-   "kind": "existing",
-   "convo": "5601e315626632941e0014eb",
-   "cn": "MC_Hub_Global-MissionComputer",
-   "nodes": [
-    38,
-    39,
-    40,
-    42
-   ]
-  },
-  {
-   "from": "name_computer",
    "to": "name_inxtremis",
    "to_name": "inXtremis",
    "kind": "bbs",
@@ -994,6 +980,34 @@
     226,
     379,
     617
+   ]
+  },
+  {
+   "from": "name_admincomputer",
+   "to": "name_is0bel",
+   "to_name": "Is0bel",
+   "kind": "existing",
+   "convo": "5578c5833234318018008611",
+   "cn": "a2_Is0belTrust_s1-AdminComputer",
+   "nodes": [
+    0,
+    7,
+    10,
+    13,
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "from": "name_turret",
+   "to": "name_is0bel",
+   "to_name": "Is0bel",
+   "kind": "existing",
+   "convo": "558f20f53234311c0f00323e",
+   "cn": "a3_Showdown_s1-TurretJunction",
+   "nodes": [
+    5
    ]
   },
   {
@@ -1257,6 +1271,20 @@
   },
   {
    "from": "name_computer",
+   "to": "name_lam",
+   "to_name": "Senior Inspector Lam",
+   "kind": "existing",
+   "convo": "5601e315626632941e0014eb",
+   "cn": "MC_Hub_Global-MissionComputer",
+   "nodes": [
+    38,
+    39,
+    40,
+    42
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_lantaulin",
    "to_name": "LantauLin",
    "kind": "bbs",
@@ -1500,6 +1528,23 @@
     352,
     354,
     356
+   ]
+  },
+  {
+   "from": "name_admincomputer",
+   "to": "name_nancyhopang",
+   "to_name": "Nancy Ho-Pang",
+   "kind": "new",
+   "convo": "5578c5833234318018008611",
+   "cn": "a2_Is0belTrust_s1-AdminComputer",
+   "nodes": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    11,
+    12
    ]
   },
   {
@@ -1768,6 +1813,18 @@
     337,
     341,
     347
+   ]
+  },
+  {
+   "from": "name_turret",
+   "to": "name_racter",
+   "to_name": "Racter",
+   "kind": "existing",
+   "convo": "558f20f53234311c0f00323e",
+   "cn": "a3_Showdown_s1-TurretJunction",
+   "nodes": [
+    6,
+    7
    ]
   },
   {
@@ -2251,6 +2308,19 @@
    "cn": "MC_Hub_Global-MissionComputer",
    "nodes": [
     90
+   ]
+  },
+  {
+   "from": "name_admincomputer",
+   "to": "name_tziwing",
+   "to_name": "Tzi Wing",
+   "kind": "new",
+   "convo": "5578c5833234318018008611",
+   "cn": "a2_Is0belTrust_s1-AdminComputer",
+   "nodes": [
+    14,
+    15,
+    16
    ]
   },
   {
@@ -3129,7 +3199,27 @@
   "56200fb93063645c12004357_4": "Okay, Cheung, you win. You can have Deng and his two assistants.\n\nDeng, I want you to help Cheung out with whatever he needs. This is a red ball - the end of the fiscal quarter is coming up, and I will *not* have another bad review.\n\n- J. Ngai, Senior Researcher",
   "56200fb93063645c12004357_5": "Got it. We'll shift priorities immediately.\n\n- Winston Deng, Logistics Officer",
   "56200fb93063645c12004357_6": "Okay, people. We've had to change the code for the weapons locker again. Our security drones kept crashing whenever anyone input the previous code.\n\nQA has managed to track the problem down to an easter egg that somebody wrote into their object recognition code. I guess that '1337' has some significance to some joker on the Engineering team.",
-  "56200fb93063645c12004357_7": "Given this new information, we've changed the code to 4077. Hopefully this will resolve our random drone crashes.\n\n- Y. Furukawa, Security Division"
+  "56200fb93063645c12004357_7": "Given this new information, we've changed the code to 4077. Hopefully this will resolve our random drone crashes.\n\n- Y. Furukawa, Security Division",
+  "5578c5833234318018008611_0": "{{GM}}Is0bel takes a quick glance at the terminal.{{/GM}}\n\nI'll be damned. It's logged into an admin inbox, and somebody left it unlocked.\n\nI can't open the door for you from here, but we can read the messages if you want.",
+  "5578c5833234318018008611_4": "Look. I'm gonna come right out and say it: the security guys are right. There's something horribly wrong with that Noodle Extruder.",
+  "5578c5833234318018008611_5": "I ran a diagnostic on it this afternoon. I was halfway through recalibrating the broth nozzles when the damned thing started humming. And, sure enough, it started churning out steaming-hot jook-sing noodles... just dumping 'em into the palms of my hands.\n\nYou don't even want to see the blisters I'm sporting right now.",
+  "5578c5833234318018008611_6": "Now, here's the freaky thing: *the dough-hopper was empty.* I unloaded it myself prior to beginning the diagnostic.\n\nI want to repeat that. *It was producing dough out of thin air.*\n\nThat machine is haunted. You want my advice, you'll get rid of it before the show.\n\n- Ho-Pang, Nancy",
+  "5578c5833234318018008611_7": "{{GM}}Is0bel blinks, nonplussed.{{/GM}}\n\nHuh. I don't know what I was expecting this message to be, but that wasn't it.\n\nYou want me to keep going...?",
+  "5578c5833234318018008611_8": "(ADMIN) Wing, Tzi\nDeckCon_All\n\nThe Noodle Extruder in the food court area is out of order, and should be left unplugged until further notice. Under no circumstances should any hotel or DeckCon employee tamper with this device. Maintenance is looking into it.",
+  "5578c5833234318018008611_9": "Again: DO NOT PLUG IN THE EXTRUDER. Severe disciplinary action will be taken against any employee caught disobeying these instructions.\n\n- Wing, Tzi",
+  "5578c5833234318018008611_10": "...All right.\n\nYou want me to open another message?",
+  "5578c5833234318018008611_11": "Okay, I'm getting *seriously* creeped out over here. The damned Noodle Extruder is *back,* Tzi.\n\nI can't explain it. We boxed the thing up yesterday and sent it to the manufacturer. It wasn't here five minutes ago. But now that we've opened the doors and the show is under way, I'm strolling through the food court, and there it is. Just sitting there, with a line already forming.",
+  "5578c5833234318018008611_12": "What the hell do we do? You and I both know that it doesn't have any dough in it. There's no seasoning in the spice reservoir, we don't have it hooked up to the hotel's water supply. The fucking thing isn't even plugged in!\n\nWHERE ARE THE NOODLES COMING FROM? What do we do?!\n\n- Ho-Pang, Nancy",
+  "5578c5833234318018008611_13": "Um. What do you want me to do, $(l.name)?",
+  "5578c5833234318018008611_14": "It's too late, Nancy. At least a dozen people have already eaten from the thing. We can't shut it down now, and we sure as hell can't let anyone know about it. If people were to get sick, the show could be held liable!",
+  "5578c5833234318018008611_15": "Look. If it's any consolation, I've been poring through the logs of old shows to see if anyone had mentioned the Noodle Extruder, and I found something. This exact conversation.\n\nFourteen years in a row.",
+  "5578c5833234318018008611_16": "I don't know what's happening with this machine. I don't know where it came from, or how, or why. But it's a part of DeckCon. Nobody can get rid of it. Nobody knows how it works. It just does, and people keep coming back to visit it.\n\nI think that this is a blessing in disguise. That's what I'm telling myself, anyway. Just... don't question it, and everything will be okay.\n\n- Wing, Tzi",
+  "5578c5833234318018008611_17": "I don't even know what to say about this.\n\nWhat do you want me to do...?",
+  "5578c5833234318018008611_18": "{{GM}}She steps back away from the terminal.{{/GM}}\n\nOkay. I'm on it.",
+  "5578c5833234318018008611_19": "{{GM}}She shrugs.{{/GM}}\n\nAll right. Your call.",
+  "558f20f53234311c0f00323e_5": "{{GM}}She manipulates the electrical panel in front of her and some lights flicker and fade from the display.{{/GM}}",
+  "558f20f53234311c0f00323e_6": "It is rudimentary. Poorly secured.\n\n{{GM}}His voice takes on a scolding tone.{{/GM}}\n\nShoddy handiwork, all around. To be fair, this shouldn't come as a surprise, given how quickly Tsang's people must have thrown this up.\n\nNow, if they were really smart, they would have interla--",
+  "558f20f53234311c0f00323e_7": "Yes, yes, of course. Rewiring it to unleash hell on the Tsang security forces would be a trivial matter - wouldn't take me five minutes.\n\n{{GM}}He raises an eyebrow with a smile.{{/GM}}\n\nWould you like me to do that?"
  },
  "unplaced": {},
  "unknown": []

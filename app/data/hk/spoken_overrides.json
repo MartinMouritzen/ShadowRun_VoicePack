@@ -2879,6 +2879,12 @@
   "spoken": "Places like this all have one thing in common. The rich bastards who live in 'em always treat the wait staff like crap. I'm thinking that we could use that to our advantage. Your choice. What should we do first? Sniff around the apartment, or mingle with the idle rich?",
   "source": "rules"
  },
+ "54d5426a323437e81a005d05_19": {
+  "char": "Is0bel",
+  "original": "{{GM}}Is0bel gives you a sidelong glance.{{/GM}}\n\nCheng didn't want any Yellow Lotus killed, $(l.lastname).",
+  "spoken": "Cheng didn't want any Yellow Lotus killed.",
+  "source": "rules"
+ },
  "54d5495c306364bc7300017a_15": {
   "char": "Is0bel",
   "original": "{{GM}}Is0bel puts a hand over her mouth, stifling a retch.{{/GM}}\n\nWe need to put this thing out of its misery, $(l.name). Nothing deserves to be kept alive in this state.",
@@ -3227,6 +3233,12 @@
   "spoken": "Really? REALLY?! That's what you care about? Come on - get your head in the game! He's a client, and that's all he is. If we don't look out for ourselves first and foremost, we're going to be pushing up daisies come morning.",
   "source": "hand"
  },
+ "54eb63293234375428006ec6_11": {
+  "char": "Is0bel",
+  "original": "I don't offer a lot of compliments, $(l.name). Not my style. But that... that was a thing of beauty.",
+  "spoken": "I don't offer a lot of compliments. Not my style. But that... that was a thing of beauty.",
+  "source": "rules"
+ },
  "550a053a306364fc1b000156_13": {
   "char": "Is0bel",
   "original": "{{GM}}Is0bel closes her eyes and takes a deep breath. When she opens them, she casts a tired look toward you.{{/GM}}\n\nI don't care what you want to do, $(l.name), so long as we get home soon. I'm tired of this goddamn run.",
@@ -3424,6 +3436,48 @@
   "original": "Okay, this is the right place, $(l.name). Emilie should be in the first apartment. ",
   "spoken": "Okay, this is the right place. Emilie should be in the first apartment.",
   "source": "rules"
+ },
+ "5578c5833234318018008611_0": {
+  "char": "Is0bel",
+  "original": "{{GM}}Is0bel takes a quick glance at the terminal.{{/GM}}\n\nI'll be damned. It's logged into an admin inbox, and somebody left it unlocked.\n\nI can't open the door for you from here, but we can read the messages if you want.",
+  "spoken": "I'll be damned. It's logged into an admin inbox, and somebody left it unlocked. I can't open the door for you from here, but we can read the messages if you want.",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_7": {
+  "char": "Is0bel",
+  "original": "{{GM}}Is0bel blinks, nonplussed.{{/GM}}\n\nHuh. I don't know what I was expecting this message to be, but that wasn't it.\n\nYou want me to keep going...?",
+  "spoken": "Huh. I don't know what I was expecting this message to be, but that wasn't it. You want me to keep going...?",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_10": {
+  "char": "Is0bel",
+  "original": "...All right.\n\nYou want me to open another message?",
+  "spoken": "...All right. You want me to open another message?",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_13": {
+  "char": "Is0bel",
+  "original": "Um. What do you want me to do, $(l.name)?",
+  "spoken": "Um. What do you want me to do?",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_17": {
+  "char": "Is0bel",
+  "original": "I don't even know what to say about this.\n\nWhat do you want me to do...?",
+  "spoken": "I don't even know what to say about this. What do you want me to do...?",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_18": {
+  "char": "Is0bel",
+  "original": "{{GM}}She steps back away from the terminal.{{/GM}}\n\nOkay. I'm on it.",
+  "spoken": "Okay. I'm on it.",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_19": {
+  "char": "Is0bel",
+  "original": "{{GM}}She shrugs.{{/GM}}\n\nAll right. Your call.",
+  "spoken": "All right. Your call.",
+  "source": "screen-speaker"
  },
  "557f44ae323431e8180054fd_9": {
   "char": "Is0bel",
@@ -4426,6 +4480,18 @@
   "original": "He must be disoriented from the ASIST programming.  It appears that we got to him just in time. \n\nThere is no time for discussion, $(l.name). We must move.",
   "spoken": "He must be disoriented from the ASIST programming. It appears that we got to him just in time. There is no time for discussion. We must move.",
   "source": "rules"
+ },
+ "558f20f53234311c0f00323e_6": {
+  "char": "Racter",
+  "original": "It is rudimentary. Poorly secured.\n\n{{GM}}His voice takes on a scolding tone.{{/GM}}\n\nShoddy handiwork, all around. To be fair, this shouldn't come as a surprise, given how quickly Tsang's people must have thrown this up.\n\nNow, if they were really smart, they would have interla--",
+  "spoken": "It is rudimentary. Poorly secured. Shoddy handiwork, all around. To be fair, this shouldn't come as a surprise, given how quickly Tsang's people must have thrown this up. Now, if they were really smart, they would have interla--",
+  "source": "screen-speaker"
+ },
+ "558f20f53234311c0f00323e_7": {
+  "char": "Racter",
+  "original": "Yes, yes, of course. Rewiring it to unleash hell on the Tsang security forces would be a trivial matter - wouldn't take me five minutes.\n\n{{GM}}He raises an eyebrow with a smile.{{/GM}}\n\nWould you like me to do that?",
+  "spoken": "Yes, yes, of course. Rewiring it to unleash hell on the Tsang security forces would be a trivial matter - wouldn't take me five minutes. Would you like me to do that?",
+  "source": "screen-speaker"
  },
  "5594b0843234312019001a4a_22": {
   "char": "Racter",
@@ -7817,6 +7883,30 @@
   "spoken": "Attached are the passcodes for my department's core system terminal. You will access the system only under my direct supervision.",
   "source": "rules"
  },
+ "5601e315626632941e0014eb_38": {
+  "char": "Lam",
+  "original": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Gearing up.\n\nIf you find yourself in need of gear or supplies before your run on the Tigers' Den, speak with Sergeant Lee. He's the task force's quartermaster, and he has been instructed to equip and supply you as if you were one of us. You'll still need to pay for your gear, but he has an extensive stock of security-rated firearms that might interest you.",
+  "spoken": "If you find yourself in need of gear or supplies before your run on the Tigers' Den, speak with Sergeant Lee. He's the task force's quartermaster, and he has been instructed to equip and supply you as if you were one of us. You'll still need to pay for your gear, but he has an extensive stock of security-rated firearms that might interest you.",
+  "source": "screen-speaker"
+ },
+ "5601e315626632941e0014eb_39": {
+  "char": "Lam",
+  "original": "If you need medical supplies or cybernetic enhancements, you'll find automated kiosks in the yard that can serve your needs.\n\nFor anything else, I'd recommend talking to Captain Jomo. He can supply you with whatever we can't. I only ask that you keep your business between yourselves, and that you leave me out of it.",
+  "spoken": "If you need medical supplies or cybernetic enhancements, you'll find automated kiosks in the yard that can serve your needs. For anything else, I'd recommend talking to Captain Jomo. He can supply you with whatever we can't. I only ask that you keep your business between yourselves, and that you leave me out of it.",
+  "source": "screen-speaker"
+ },
+ "5601e315626632941e0014eb_40": {
+  "char": "Lam",
+  "original": "Even if you feel prepared, I'd recommend that you look at what the yard has on offer before you head to the Tigers' Den. It's better to be overprepared than it is to get caught flat-footed.\n\nBest of luck.\nLam.",
+  "spoken": "Even if you feel prepared, I'd recommend that you look at what the yard has on offer before you head to the Tigers' Den. It's better to be overprepared than it is to get caught flat-footed. Best of luck.",
+  "source": "screen-speaker"
+ },
+ "5601e315626632941e0014eb_42": {
+  "char": "Lam",
+  "original": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Tigers' Den Infiltration - Recap\n\nAttached to this mail, you will find a brief recap of our conversation regarding the Tigers' Den. Please save this for your records and review as necessary.\n\n-Lam",
+  "spoken": "Attached to this mail, you will find a brief recap of our conversation regarding the Tigers' Den. Please save this for your records and review as necessary.",
+  "source": "screen-speaker"
+ },
  "56097ecf643661801100391d_3": {
   "char": "Lam",
   "original": "Yes, of course.\n\n{{GM}}He offers her a slight bow.{{/GM}}\n\nMy apologies, Senior Inspector Qiu. And as for you, $(l.name)... you must be wondering what you and your team are doing here.",
@@ -7865,8 +7955,14 @@
   "spoken": "Those protocols will be revisited soon enough, believe me. There are going to be a lot of changes inside of the HKPF after we've completed this mission. I promise you that.",
   "source": "hand"
  },
+ "564d03236266328c12006ba2_11": {
+  "char": "Lam",
+  "original": "Don't try to fight it, $(l.name). You'll only hurt yourself. We all know what has to happen here, but there's no reason why it can't be quick and painless.\n\nJust look at Fiona... she isn't struggling. She's accepted it.",
+  "spoken": "Don't try to fight it. You'll only hurt yourself. We all know what has to happen here, but there's no reason why it can't be quick and painless. Just look at Fiona... she isn't struggling. She's accepted it.",
+  "source": "rules"
+ },
  "563a7eb8306364fc140006b9_81": {
-  "char": "$(scene.apt_ExecName)",
+  "char": "Apartment Executive",
   "original": "If anyone asks, this $(l.man) here is an associate of mine.\n\nNow, my new friend and I have business to attend to. *Step aside.*",
   "spoken": "If anyone asks, this man here is an associate of mine. Now, my new friend and I have business to attend to. *Step aside.*",
   "source": "rules"
@@ -8148,7 +8244,7 @@
   "source": "rules"
  },
  "569ed20a306364a81f0057b1_16": {
-  "char": "$(story.MC_Hub-charName_Decker)",
+  "char": "Impound Decker",
   "original": "You wound me, $(l.sir)!\n\n{{GM}}He takes a slice from the plate and pops it into his mouth, and a blissful expression washes over his face.{{/GM}}\n\nFood of the gods, I promise you.",
   "spoken": "You wound me! Food of the gods, I promise you.",
   "source": "rules"
@@ -8211,18 +8307,6 @@
   "char": "Chastity Blackwell",
   "original": "You don't know the half of it, $(l.man). Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things.\n\nThe man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him.",
   "spoken": "You don't know the half of it, man. Take my advice and cook your own food while you're here. Utama's got a \"chef\" on her crew, but his skill set begins and ends with adding packets of instant noodle flavoring to things. The man is a culinary butcher, wanted for flavor murder across southeast Asia. Don't trust him.",
-  "source": "rules"
- },
- "54d5426a323437e81a005d05_19": {
-  "char": "Shy Dwarf",
-  "original": "{{GM}}Is0bel gives you a sidelong glance.{{/GM}}\n\nCheng didn't want any Yellow Lotus killed, $(l.lastname).",
-  "spoken": "Cheng didn't want any Yellow Lotus killed.",
-  "source": "rules"
- },
- "54eb63293234375428006ec6_11": {
-  "char": "Shy Dwarf",
-  "original": "I don't offer a lot of compliments, $(l.name). Not my style. But that... that was a thing of beauty.",
-  "spoken": "I don't offer a lot of compliments. Not my style. But that... that was a thing of beauty.",
   "source": "rules"
  },
  "5588a592303031e827004f11_7": {
@@ -8933,36 +9017,6 @@
   "spoken": "HRServ Hotel Messaging Service v 2.0 Read Messages MAINT:// 1. GHOST IN THE MACHINE? ADMIN:// 2. LEAVE IT UNPLUGGED! MAINT:// 3. IT CAME BACK. ADMIN:// 4. DAMAGE CONTROL",
   "source": "rules"
  },
- "5578c5833234318018008611_4": {
-  "char": "Admin Computer",
-  "original": ">> *Ho-Pang, Nancy*\n>>to: (ADMIN) Wing, Tzi\n\nLook. I'm gonna come right out and say it: the security guys are right. There's something horribly wrong with that Noodle Extruder.",
-  "spoken": "*Ho-Pang, Nancy* to: (ADMIN) Wing, Tzi Look. I'm gonna come right out and say it: the security guys are right. There's something horribly wrong with that Noodle Extruder.",
-  "source": "rules"
- },
- "5578c5833234318018008611_8": {
-  "char": "Admin Computer",
-  "original": ">>(ADMIN) Wing, Tzi\n>>DeckCon_All\n\nThe Noodle Extruder in the food court area is out of order, and should be left unplugged until further notice. Under no circumstances should any hotel or DeckCon employee tamper with this device. Maintenance is looking into it.",
-  "spoken": "(ADMIN) Wing, Tzi DeckCon_All The Noodle Extruder in the food court area is out of order, and should be left unplugged until further notice. Under no circumstances should any hotel or DeckCon employee tamper with this device. Maintenance is looking into it.",
-  "source": "rules"
- },
- "5578c5833234318018008611_11": {
-  "char": "Admin Computer",
-  "original": ">> *Ho-Pang, Nancy*\n>>to: (ADMIN) Wing, Tzi\n\nOkay, I'm getting *seriously* creeped out over here. The damned Noodle Extruder is *back,* Tzi.\n\nI can't explain it. We boxed the thing up yesterday and sent it to the manufacturer. It wasn't here five minutes ago. But now that we've opened the doors and the show is under way, I'm strolling through the food court, and there it is. Just sitting there, with a line already forming.",
-  "spoken": "*Ho-Pang, Nancy* to: (ADMIN) Wing, Tzi Okay, I'm getting *seriously* creeped out over here. The damned Noodle Extruder is *back,* Tzi. I can't explain it. We boxed the thing up yesterday and sent it to the manufacturer. It wasn't here five minutes ago. But now that we've opened the doors and the show is under way, I'm strolling through the food court, and there it is. Just sitting there, with a line already forming.",
-  "source": "rules"
- },
- "5578c5833234318018008611_13": {
-  "char": "Admin Computer",
-  "original": "Um. What do you want me to do, $(l.name)?",
-  "spoken": "Um. What do you want me to do?",
-  "source": "rules"
- },
- "5578c5833234318018008611_14": {
-  "char": "Admin Computer",
-  "original": ">>*(ADMIN) Wing, Tzi*\n>>to: Ho-Pang, Nancy\n\nIt's too late, Nancy. At least a dozen people have already eaten from the thing. We can't shut it down now, and we sure as hell can't let anyone know about it. If people were to get sick, the show could be held liable!",
-  "spoken": "*(ADMIN) Wing, Tzi* to: Ho-Pang, Nancy It's too late, Nancy. At least a dozen people have already eaten from the thing. We can't shut it down now, and we sure as hell can't let anyone know about it. If people were to get sick, the show could be held liable!",
-  "source": "rules"
- },
  "55367aab3234377c22007a88_1": {
   "char": "Xiaozhi",
   "original": "Ah yes, the new-on-the-scene runner, $(l.name)! Nnn-nnn...\n\n{{GM}}She rocks in place, humming a soft reply to herself.{{/GM}}\n\nMy friend in Heoi said you'd be coming to see me. ",
@@ -9033,36 +9087,6 @@
   "char": "Angry Convention Goer",
   "original": "{{GM}}You become dimly aware of a figure looming behind you in the convention hall.{{/GM}}\n\nYou didn't read the instructions? You must be joking, $(l.man).\n\nYou've been on that kiosk for twenty minutes now!",
   "spoken": "You didn't read the instructions? You must be joking, man. You've been on that kiosk for twenty minutes now!",
-  "source": "rules"
- },
- "5601e315626632941e0014eb_38": {
-  "char": "Inspector Lam",
-  "original": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Gearing up.\n\nIf you find yourself in need of gear or supplies before your run on the Tigers' Den, speak with Sergeant Lee. He's the task force's quartermaster, and he has been instructed to equip and supply you as if you were one of us. You'll still need to pay for your gear, but he has an extensive stock of security-rated firearms that might interest you.",
-  "spoken": "If you find yourself in need of gear or supplies before your run on the Tigers' Den, speak with Sergeant Lee. He's the task force's quartermaster, and he has been instructed to equip and supply you as if you were one of us. You'll still need to pay for your gear, but he has an extensive stock of security-rated firearms that might interest you.",
-  "source": "screen-speaker"
- },
- "5601e315626632941e0014eb_39": {
-  "char": "Inspector Lam",
-  "original": "If you need medical supplies or cybernetic enhancements, you'll find automated kiosks in the yard that can serve your needs.\n\nFor anything else, I'd recommend talking to Captain Jomo. He can supply you with whatever we can't. I only ask that you keep your business between yourselves, and that you leave me out of it.",
-  "spoken": "If you need medical supplies or cybernetic enhancements, you'll find automated kiosks in the yard that can serve your needs. For anything else, I'd recommend talking to Captain Jomo. He can supply you with whatever we can't. I only ask that you keep your business between yourselves, and that you leave me out of it.",
-  "source": "screen-speaker"
- },
- "5601e315626632941e0014eb_40": {
-  "char": "Inspector Lam",
-  "original": "Even if you feel prepared, I'd recommend that you look at what the yard has on offer before you head to the Tigers' Den. It's better to be overprepared than it is to get caught flat-footed.\n\nBest of luck.\nLam.",
-  "spoken": "Even if you feel prepared, I'd recommend that you look at what the yard has on offer before you head to the Tigers' Den. It's better to be overprepared than it is to get caught flat-footed. Best of luck.",
-  "source": "screen-speaker"
- },
- "5601e315626632941e0014eb_42": {
-  "char": "Inspector Lam",
-  "original": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Tigers' Den Infiltration - Recap\n\nAttached to this mail, you will find a brief recap of our conversation regarding the Tigers' Den. Please save this for your records and review as necessary.\n\n-Lam",
-  "spoken": "Attached to this mail, you will find a brief recap of our conversation regarding the Tigers' Den. Please save this for your records and review as necessary.",
-  "source": "screen-speaker"
- },
- "564d03236266328c12006ba2_11": {
-  "char": "Inspector Lam",
-  "original": "Don't try to fight it, $(l.name). You'll only hurt yourself. We all know what has to happen here, but there's no reason why it can't be quick and painless.\n\nJust look at Fiona... she isn't struggling. She's accepted it.",
-  "spoken": "Don't try to fight it. You'll only hurt yourself. We all know what has to happen here, but there's no reason why it can't be quick and painless. Just look at Fiona... she isn't struggling. She's accepted it.",
   "source": "rules"
  },
  "54d3f034323437f057003738_16": {
@@ -12423,6 +12447,66 @@
   "char": "Y. Furukawa",
   "original": "Given this new information, we've changed the code to 4077. Hopefully this will resolve our random drone crashes.\n\n- Y. Furukawa, Security Division",
   "spoken": "Given this new information, we've changed the code to 4077. Hopefully this will resolve our random drone crashes. - Y. Furukawa, Security Division",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_4": {
+  "char": "Nancy Ho-Pang",
+  "original": ">> *Ho-Pang, Nancy*\n>>to: (ADMIN) Wing, Tzi\n\nLook. I'm gonna come right out and say it: the security guys are right. There's something horribly wrong with that Noodle Extruder.",
+  "spoken": "Look. I'm gonna come right out and say it: the security guys are right. There's something horribly wrong with that Noodle Extruder.",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_5": {
+  "char": "Nancy Ho-Pang",
+  "original": "I ran a diagnostic on it this afternoon. I was halfway through recalibrating the broth nozzles when the damned thing started humming. And, sure enough, it started churning out steaming-hot jook-sing noodles... just dumping 'em into the palms of my hands.\n\nYou don't even want to see the blisters I'm sporting right now.",
+  "spoken": "I ran a diagnostic on it this afternoon. I was halfway through recalibrating the broth nozzles when the damned thing started humming. And, sure enough, it started churning out steaming-hot jook-sing noodles... just dumping 'em into the palms of my hands. You don't even want to see the blisters I'm sporting right now.",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_6": {
+  "char": "Nancy Ho-Pang",
+  "original": "Now, here's the freaky thing: *the dough-hopper was empty.* I unloaded it myself prior to beginning the diagnostic.\n\nI want to repeat that. *It was producing dough out of thin air.*\n\nThat machine is haunted. You want my advice, you'll get rid of it before the show.\n\n- Ho-Pang, Nancy",
+  "spoken": "Now, here's the freaky thing: *the dough-hopper was empty.* I unloaded it myself prior to beginning the diagnostic. I want to repeat that. *It was producing dough out of thin air.* That machine is haunted. You want my advice, you'll get rid of it before the show. - Ho-Pang, Nancy",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_8": {
+  "char": "Nancy Ho-Pang",
+  "original": ">>(ADMIN) Wing, Tzi\n>>DeckCon_All\n\nThe Noodle Extruder in the food court area is out of order, and should be left unplugged until further notice. Under no circumstances should any hotel or DeckCon employee tamper with this device. Maintenance is looking into it.",
+  "spoken": "(ADMIN) Wing, Tzi DeckCon_All The Noodle Extruder in the food court area is out of order, and should be left unplugged until further notice. Under no circumstances should any hotel or DeckCon employee tamper with this device. Maintenance is looking into it.",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_9": {
+  "char": "Nancy Ho-Pang",
+  "original": "Again: DO NOT PLUG IN THE EXTRUDER. Severe disciplinary action will be taken against any employee caught disobeying these instructions.\n\n- Wing, Tzi",
+  "spoken": "Again: DO NOT PLUG IN THE EXTRUDER. Severe disciplinary action will be taken against any employee caught disobeying these instructions. - Wing, Tzi",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_11": {
+  "char": "Nancy Ho-Pang",
+  "original": ">> *Ho-Pang, Nancy*\n>>to: (ADMIN) Wing, Tzi\n\nOkay, I'm getting *seriously* creeped out over here. The damned Noodle Extruder is *back,* Tzi.\n\nI can't explain it. We boxed the thing up yesterday and sent it to the manufacturer. It wasn't here five minutes ago. But now that we've opened the doors and the show is under way, I'm strolling through the food court, and there it is. Just sitting there, with a line already forming.",
+  "spoken": "Okay, I'm getting *seriously* creeped out over here. The damned Noodle Extruder is *back,* Tzi. I can't explain it. We boxed the thing up yesterday and sent it to the manufacturer. It wasn't here five minutes ago. But now that we've opened the doors and the show is under way, I'm strolling through the food court, and there it is. Just sitting there, with a line already forming.",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_12": {
+  "char": "Nancy Ho-Pang",
+  "original": "What the hell do we do? You and I both know that it doesn't have any dough in it. There's no seasoning in the spice reservoir, we don't have it hooked up to the hotel's water supply. The fucking thing isn't even plugged in!\n\nWHERE ARE THE NOODLES COMING FROM? What do we do?!\n\n- Ho-Pang, Nancy",
+  "spoken": "What the hell do we do? You and I both know that it doesn't have any dough in it. There's no seasoning in the spice reservoir, we don't have it hooked up to the hotel's water supply. The fucking thing isn't even plugged in! WHERE ARE THE NOODLES COMING FROM? What do we do?! - Ho-Pang, Nancy",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_14": {
+  "char": "Tzi Wing",
+  "original": ">>*(ADMIN) Wing, Tzi*\n>>to: Ho-Pang, Nancy\n\nIt's too late, Nancy. At least a dozen people have already eaten from the thing. We can't shut it down now, and we sure as hell can't let anyone know about it. If people were to get sick, the show could be held liable!",
+  "spoken": "It's too late, Nancy. At least a dozen people have already eaten from the thing. We can't shut it down now, and we sure as hell can't let anyone know about it. If people were to get sick, the show could be held liable!",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_15": {
+  "char": "Tzi Wing",
+  "original": "Look. If it's any consolation, I've been poring through the logs of old shows to see if anyone had mentioned the Noodle Extruder, and I found something. This exact conversation.\n\nFourteen years in a row.",
+  "spoken": "Look. If it's any consolation, I've been poring through the logs of old shows to see if anyone had mentioned the Noodle Extruder, and I found something. This exact conversation. Fourteen years in a row.",
+  "source": "screen-speaker"
+ },
+ "5578c5833234318018008611_16": {
+  "char": "Tzi Wing",
+  "original": "I don't know what's happening with this machine. I don't know where it came from, or how, or why. But it's a part of DeckCon. Nobody can get rid of it. Nobody knows how it works. It just does, and people keep coming back to visit it.\n\nI think that this is a blessing in disguise. That's what I'm telling myself, anyway. Just... don't question it, and everything will be okay.\n\n- Wing, Tzi",
+  "spoken": "I don't know what's happening with this machine. I don't know where it came from, or how, or why. But it's a part of DeckCon. Nobody can get rid of it. Nobody knows how it works. It just does, and people keep coming back to visit it. I think that this is a blessing in disguise. That's what I'm telling myself, anyway. Just... don't question it, and everything will be okay. - Wing, Tzi",
   "source": "screen-speaker"
  },
  "54d96ae73030316814006f45_78": {

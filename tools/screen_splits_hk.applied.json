@@ -938,20 +938,6 @@
   },
   {
    "from": "name_computer",
-   "to": "name_inspectorlam",
-   "to_name": "Senior Inspector Lam",
-   "kind": "existing",
-   "convo": "5601e315626632941e0014eb",
-   "cn": "MC_Hub_Global-MissionComputer",
-   "nodes": [
-    38,
-    39,
-    40,
-    42
-   ]
-  },
-  {
-   "from": "name_computer",
    "to": "name_inxtremis",
    "to_name": "inXtremis",
    "kind": "bbs",
@@ -992,6 +978,34 @@
     226,
     379,
     617
+   ]
+  },
+  {
+   "from": "name_admincomputer",
+   "to": "name_is0bel",
+   "to_name": "Is0bel",
+   "kind": "existing",
+   "convo": "5578c5833234318018008611",
+   "cn": "a2_Is0belTrust_s1-AdminComputer",
+   "nodes": [
+    0,
+    7,
+    10,
+    13,
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "from": "name_turret",
+   "to": "name_is0bel",
+   "to_name": "Is0bel",
+   "kind": "existing",
+   "convo": "558f20f53234311c0f00323e",
+   "cn": "a3_Showdown_s1-TurretJunction",
+   "nodes": [
+    5
    ]
   },
   {
@@ -1255,6 +1269,20 @@
   },
   {
    "from": "name_computer",
+   "to": "name_lam",
+   "to_name": "Senior Inspector Lam",
+   "kind": "existing",
+   "convo": "5601e315626632941e0014eb",
+   "cn": "MC_Hub_Global-MissionComputer",
+   "nodes": [
+    38,
+    39,
+    40,
+    42
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_lantaulin",
    "to_name": "LantauLin",
    "kind": "bbs",
@@ -1498,6 +1526,23 @@
     352,
     354,
     356
+   ]
+  },
+  {
+   "from": "name_admincomputer",
+   "to": "name_nancyhopang",
+   "to_name": "Nancy Ho-Pang",
+   "kind": "new",
+   "convo": "5578c5833234318018008611",
+   "cn": "a2_Is0belTrust_s1-AdminComputer",
+   "nodes": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    11,
+    12
    ]
   },
   {
@@ -1766,6 +1811,18 @@
     337,
     341,
     347
+   ]
+  },
+  {
+   "from": "name_turret",
+   "to": "name_racter",
+   "to_name": "Racter",
+   "kind": "existing",
+   "convo": "558f20f53234311c0f00323e",
+   "cn": "a3_Showdown_s1-TurretJunction",
+   "nodes": [
+    6,
+    7
    ]
   },
   {
@@ -2249,6 +2306,19 @@
    "cn": "MC_Hub_Global-MissionComputer",
    "nodes": [
     90
+   ]
+  },
+  {
+   "from": "name_admincomputer",
+   "to": "name_tziwing",
+   "to_name": "Tzi Wing",
+   "kind": "new",
+   "convo": "5578c5833234318018008611",
+   "cn": "a2_Is0belTrust_s1-AdminComputer",
+   "nodes": [
+    14,
+    15,
+    16
    ]
   },
   {

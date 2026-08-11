@@ -1,7 +1,9 @@
 {
  "_comment": "Who wrote each line the Hong Kong terminals display. Read by build_screen_splits.py; see docs/SCREEN_SPEAKERS.md. BBS handles carry no voice yet: HK's main cast is picked first, then the handles get what is left (Martin, 2026-08-10).",
  "containers": [
-  "name_computer"
+  "name_computer",
+  "name_admincomputer",
+  "name_turret"
  ],
  "conversations": {
   "54d55065306364bc730001da": {
@@ -44,6 +46,31 @@
   "56200fb93063645c12004357": {
    "cn": "MC_a2_Plaguebearer_s1-Lab2Computer2",
    "default": "machine"
+  },
+  "5578c5833234318018008611": {
+   "cn": "a2_Is0belTrust_s1-AdminComputer",
+   "default": "machine",
+   "why": "the HRServ menu is the machine; Is0bel reads the mail out and the mail is Nancy's and Tzi's"
+  },
+  "558f20f53234311c0f00323e": {
+   "cn": "a3_Showdown_s1-TurretJunction",
+   "default": "machine",
+   "why": "the turret system talks; Is0bel and Racter stand at the panel arguing about its wiring"
+  },
+  "5644116f6436619c0f003120": {
+   "cn": "MC_a2_StationRun_s1-NorthTurretAmmo_2",
+   "default": "machine",
+   "why": "autoturret status readout"
+  },
+  "5644cdf16436615411003256": {
+   "cn": "MC_a2_StationRun_s1-SouthTurretAmmo_1",
+   "default": "machine",
+   "why": "autoturret status readout"
+  },
+  "5644ce8364366154110032f3": {
+   "cn": "MC_a2_StationRun_s1-SouthTurretAmmo_2",
+   "default": "machine",
+   "why": "autoturret status readout"
   }
  },
  "nodes": {
@@ -154,7 +181,17 @@
   "5601caa73063640011003c69_15": "Dr. Cheung",
   "56200dc33063645c120042c6_6": "machine",
   "56200dc33063645c120042c6_7": "machine",
-  "56200dc33063645c120042c6_8": "machine"
+  "56200dc33063645c120042c6_8": "machine",
+  "5578c5833234318018008611_0": "Is0bel",
+  "5578c5833234318018008611_7": "Is0bel",
+  "5578c5833234318018008611_10": "Is0bel",
+  "5578c5833234318018008611_13": "Is0bel",
+  "5578c5833234318018008611_17": "Is0bel",
+  "5578c5833234318018008611_18": "Is0bel",
+  "5578c5833234318018008611_19": "Is0bel",
+  "558f20f53234311c0f00323e_5": "Is0bel",
+  "558f20f53234311c0f00323e_6": "Racter",
+  "558f20f53234311c0f00323e_7": "Racter"
  },
  "aliases": {
   "From Dr. Shenyang": "Dr. Shenyang",
@@ -206,7 +243,7 @@
    "kind": "existing"
   },
   "Senior Inspector Lam": {
-   "id": "name_inspectorlam",
+   "id": "name_lam",
    "name": "Senior Inspector Lam",
    "kind": "existing"
   },
@@ -1158,6 +1195,25 @@
    "name": "bornintheUCAS",
    "kind": "bbs",
    "posts": 1
+  },
+  "Ho-Pang, Nancy": {
+   "id": "name_nancyhopang",
+   "name": "Nancy Ho-Pang",
+   "kind": "new",
+   "gender": "female",
+   "note": "Kowloon hotel kitchen staff; writes to her admin about the Noodle Extruder that will not stop running. Rattled, then genuinely frightened."
+  },
+  "(ADMIN) Wing, Tzi": {
+   "id": "name_tziwing",
+   "name": "Tzi Wing",
+   "kind": "new",
+   "gender": "male",
+   "note": "the hotel's admin; issues the DO NOT PLUG IN THE EXTRUDER notice and then quietly admits he has no idea what the machine is."
+  },
+  "Racter": {
+   "id": "name_racter",
+   "name": "Racter",
+   "kind": "existing"
   }
  },
  "machines": [

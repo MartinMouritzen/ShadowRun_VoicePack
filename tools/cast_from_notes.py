@@ -44,6 +44,7 @@ chars = J(os.path.join(D, "characters.json"), {"characters": []})
 notes = J(os.path.join(D, "char_notes.json"), {})
 picks = J(os.path.join(D, "picks.json"), {})
 scene_actors = J(os.path.join(D, "scene_actors.json"), {})
+hand = J(os.path.join(HERE, f"screen_speakers_{GAME}.json"), {})
 catalog = J(os.path.join(LAB, "magnific_voices.json"), {"voices": []})["voices"]
 local = J(os.path.join(LAB, "local_voices.json"), {"voices": []}).get("voices") or []
 by_vid = {v["voice_id"]: v for v in catalog + local}
@@ -147,8 +148,26 @@ for cid, p in picks.items():
 voice_of = {cid: p.get("voiceId") for cid, p in picks.items() if p.get("voiceId")}
 
 
+# Two machines in one room SHOULD sound alike - a terminal and a console are the same synthesised
+# voice on purpose, and Dragonfall casts fourteen of them on one. Counting that as a clash buries
+# the handful of real ones: 20 of its 27 were machine-to-machine or an AI speaking through its own
+# drone. `same` names pairs that are deliberately one voice - a character and the alias the game
+# hides them behind, or a person and the document they wrote.
+same_pairs = set()
+for _a, _b in (hand.get("same_voice") or []):
+    same_pairs.add((_a, _b))
+    same_pairs.add((_b, _a))
+
+
+def deliberate(a, b):
+    if (by_id.get(a) or {}).get("machine") and (by_id.get(b) or {}).get("machine"):
+        return True
+    return (a, b) in same_pairs
+
+
 def taken_nearby(vid, cid):
-    return any(voice_of.get(other) == vid for other in neighbours.get(cid, ()))
+    return any(voice_of.get(other) == vid and not deliberate(cid, other)
+               for other in neighbours.get(cid, ()))
 
 
 def choose(cid):
@@ -211,7 +230,7 @@ if POOL in ("screen", "all"):
 
 clashes = [(by_id[a]["name"], by_id[b]["name"], voice_of[a])
            for a in voice_of for b in neighbours.get(a, ())
-           if b in voice_of and a < b and voice_of[a] == voice_of[b]]
+           if b in voice_of and a < b and voice_of[a] == voice_of[b] and not deliberate(a, b)]
 print(f"[{GAME}] same-scene/thread voice clashes: {len(clashes)}")
 for c in clashes[:10]:
     print("   !", c[0], "/", c[1], "->", by_vid.get(c[2], {}).get("name"))

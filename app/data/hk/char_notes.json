@@ -12312,5 +12312,99 @@
     "why": "Polished and approachable British voice, ideal for radio links, casual reads, TV promos, o"
    }
   ]
+ },
+ "name_nancyhopang": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_329",
+    "name": "Daniel Richardson",
+    "why": "Factual and clear, this mature adult male voice is objective and authoritative, perfect fo"
+   },
+   {
+    "voice_id": "mag_685",
+    "name": "Dusty Baxter",
+    "why": "Gruff, overly confident, and always wrong but never in doubt. A comedic disaster of mispla"
+   },
+   {
+    "voice_id": "mag_437",
+    "name": "Emily Turner",
+    "why": "Natural and expressive, this female voice feels like a real conversation—complete with chu"
+   },
+   {
+    "voice_id": "mag_838",
+    "name": "Imogen Hartley",
+    "why": "A youthful British voice with elegant RP clarity and a sweet, rhythmic delivery that conve"
+   },
+   {
+    "voice_id": "mag_839",
+    "name": "Isla MacKenzie",
+    "why": "A soft, animated Scottish voice with a natural, authentic Edinburgh accent — warm and expr"
+   },
+   {
+    "voice_id": "mag_544",
+    "name": "Jack Riker",
+    "why": "A gruff, energetic voice with the grit of a middle-aged character—perfect for high-intensi"
+   },
+   {
+    "voice_id": "mag_244",
+    "name": "James Alexander",
+    "why": "A very clear and crisp voice with a slightly monotone delivery, perfect for tech video nar"
+   },
+   {
+    "voice_id": "mag_505",
+    "name": "Lena Rivers",
+    "why": "Cute and Candid, this young female voice is ideal for charming narration. It also brings e"
+   }
+  ]
+ },
+ "name_tziwing": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_154",
+    "name": "Lexi Parker",
+    "why": "Friendly, natural conversational voice of an American young adult female. Perfect for eLea"
+   },
+   {
+    "voice_id": "mag_284",
+    "name": "Liam Cooper",
+    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
+   },
+   {
+    "voice_id": "mag_446",
+    "name": "Logan Scott",
+    "why": "Clear, crisp, professional American voice with a broadcast news tone. Excellent for reader"
+   },
+   {
+    "voice_id": "mag_181",
+    "name": "Lucas Bennett",
+    "why": "Casual and conversational voice of a 40-year-old Canadian man."
+   },
+   {
+    "voice_id": "mag_288",
+    "name": "Matthew Wilson",
+    "why": "Articulate and clear, this young American male voice is well-suited for narration. Perfect"
+   },
+   {
+    "voice_id": "mag_282",
+    "name": "Mia Wilson",
+    "why": "Soft and clear, this young American female voice is perfect for news content. Ideal for de"
+   },
+   {
+    "voice_id": "mag_234",
+    "name": "Michael Botha",
+    "why": "Deep and clear, this middle-aged South African male voice carries a youthful yet professio"
+   },
+   {
+    "voice_id": "mag_252",
+    "name": "Noah Jackson",
+    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   }
+  ]
  }
 }

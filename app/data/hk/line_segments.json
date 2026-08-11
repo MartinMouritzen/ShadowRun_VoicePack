@@ -17957,6 +17957,36 @@
    "t": "What. The hell. Was that. Y'know what, don't answer that. I'm just glad that it worked."
   }
  ],
+ "54bd886b323437742d0012df_30": [
+  {
+   "who": "gm",
+   "t": "The dwarf cuts in. Her voice is soft, but strong."
+  },
+  {
+   "who": "char",
+   "t": "*Criminal* mercenary operatives."
+  }
+ ],
+ "54bd886b323437742d0012df_42": [
+  {
+   "who": "gm",
+   "t": "The dwarf standing next to her nods and jumps in."
+  },
+  {
+   "who": "char",
+   "t": "Wouldn't say. He mumbled a lot, too. Just kept rambling on and on about how he *had* to get in."
+  }
+ ],
+ "54c004f4323437dc27001556_7": [
+  {
+   "who": "gm",
+   "t": "The dwarf shakes her head at him. Her voice is flat."
+  },
+  {
+   "who": "char",
+   "t": "Save your breath. They won't listen."
+  }
+ ],
  "54c29f6a3063649821001844_9": [
   {
    "who": "char",
@@ -17969,6 +17999,12 @@
   {
    "who": "char",
    "t": "Let's have a look."
+  }
+ ],
+ "54c2c193323437f024003921_32": [
+  {
+   "who": "gm",
+   "t": "Is0bel isn't listening. She is staring open-mouthed at her own PDA, its bluish glow illuminating her horrified expression."
   }
  ],
  "54c696f3303031301d005190_84": [
@@ -18249,6 +18285,104 @@
    "t": "Guess we'll have to search his apartment. There has to be *something* helpful in here."
   }
  ],
+ "54d2941f32343734920026a7_21": [
+  {
+   "who": "char",
+   "t": "I like the way you think."
+  },
+  {
+   "who": "gm",
+   "t": "The decker looks around her. Wrinkles her nose."
+  },
+  {
+   "who": "char",
+   "t": "I want out of this place as fast as possible."
+  }
+ ],
+ "54d2941f32343734920026a7_25": [
+  {
+   "who": "char",
+   "t": "Who knows? He'd have to be insane to travel *to* the Walled City... As I think we said, it's the worst slum in the eastern hemisphere. Maybe the worst in the world."
+  },
+  {
+   "who": "gm",
+   "t": "She does her best to suppress a shudder. Can't keep the dread from creeping into her voice."
+  },
+  {
+   "who": "char",
+   "t": "Can't believe I grew up here."
+  }
+ ],
+ "54d2941f32343734920026a7_27": [
+  {
+   "who": "gm",
+   "t": "Is0bel looks around her. Closes her eyes."
+  },
+  {
+   "who": "char",
+   "t": "You could've brought Gobbet instead. I would've been cool with that."
+  }
+ ],
+ "54d2941f32343734920026a7_28": [
+  {
+   "who": "gm",
+   "t": "She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance."
+  },
+  {
+   "who": "char",
+   "t": "There was a market over there when I was a kid. Might not be a bad place to start."
+  }
+ ],
+ "54d2941f32343734920026a7_31": [
+  {
+   "who": "gm",
+   "t": "Is0bel looks around her. Closes her eyes."
+  },
+  {
+   "who": "char",
+   "t": "I wish that I didn't."
+  }
+ ],
+ "54d2941f32343734920026a7_32": [
+  {
+   "who": "gm",
+   "t": "She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance."
+  },
+  {
+   "who": "char",
+   "t": "There was a market over there when I was a kid. Might not be a bad place to start."
+  }
+ ],
+ "54d2941f32343734920026a7_33": [
+  {
+   "who": "gm",
+   "t": "Is0bel looks around her. Closes her eyes."
+  },
+  {
+   "who": "char",
+   "t": "Tell me about it."
+  }
+ ],
+ "54d2941f32343734920026a7_34": [
+  {
+   "who": "gm",
+   "t": "She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance."
+  },
+  {
+   "who": "char",
+   "t": "There was a market over there when I was a kid. Might not be a bad place to start."
+  }
+ ],
+ "54d3ae4932343774800026f2_3": [
+  {
+   "who": "char",
+   "t": "Nothing to it."
+  },
+  {
+   "who": "gm",
+   "t": "She loads up a program on her deck and effortlessly decodes the door lock."
+  }
+ ],
  "54d4ef50306364544f00014a_3": [
   {
    "who": "gm",
@@ -18257,6 +18391,16 @@
   {
    "who": "char",
    "t": "We're all set. They must have bought this setup from some cut-rate junk dealer in the Golden Mile. What a piece of junk..."
+  }
+ ],
+ "54d5426a323437e81a005d05_19": [
+  {
+   "who": "gm",
+   "t": "Is0bel gives you a sidelong glance."
+  },
+  {
+   "who": "char",
+   "t": "Cheng didn't want any Yellow Lotus killed."
   }
  ],
  "54d5495c306364bc7300017a_3": [
@@ -21745,6 +21889,56 @@
    "t": "Looks like this box is feeding power to that door over there. If we were to short it, we might be able to get the thing open."
   }
  ],
+ "553fde68323437a42300787b_5": [
+  {
+   "who": "gm",
+   "t": "Is0bel ignores the barb. She exhales in relief."
+  },
+  {
+   "who": "char",
+   "t": "We're lucky that we were able to stop that spirit before it killed Bao. I don't think Cheng would have appreciated losing one of her best enforcers right after losing some of her best runners."
+  }
+ ],
+ "553fde68323437a42300787b_9": [
+  {
+   "who": "gm",
+   "t": "Is0bel ignores the barb. She inhales with a little tremble."
+  },
+  {
+   "who": "char",
+   "t": "Well, we got the job done, but a couple Yellow Lotus members had to be put down to do it. Hopefully, Kindly Cheng will understand that she had to lose a few to accomplish her goal."
+  }
+ ],
+ "553fde68323437a42300787b_12": [
+  {
+   "who": "gm",
+   "t": "She looks around. Shudders."
+  },
+  {
+   "who": "char",
+   "t": "Every time."
+  }
+ ],
+ "553fde68323437a42300787b_13": [
+  {
+   "who": "gm",
+   "t": "Is0bel ignores the barb. She's too pleased."
+  },
+  {
+   "who": "char",
+   "t": "I can't believe it. We actually delivered Auntie's message without anyone dying."
+  }
+ ],
+ "55400d643234375820006888_11": [
+  {
+   "who": "gm",
+   "t": "Is0bel watches the spirit thrash."
+  },
+  {
+   "who": "char",
+   "t": "Okay, *that's* interesting."
+  }
+ ],
  "554151b23234370831001a80_1": [
   {
    "who": "char",
@@ -23243,6 +23437,46 @@
    "t": "I'm ready to do *my* part. You can handle the talking."
   }
  ],
+ "5578c5833234318018008611_0": [
+  {
+   "who": "gm",
+   "t": "Is0bel takes a quick glance at the terminal."
+  },
+  {
+   "who": "char",
+   "t": "I'll be damned. It's logged into an admin inbox, and somebody left it unlocked. I can't open the door for you from here, but we can read the messages if you want."
+  }
+ ],
+ "5578c5833234318018008611_7": [
+  {
+   "who": "gm",
+   "t": "Is0bel blinks, nonplussed."
+  },
+  {
+   "who": "char",
+   "t": "Huh. I don't know what I was expecting this message to be, but that wasn't it. You want me to keep going...?"
+  }
+ ],
+ "5578c5833234318018008611_18": [
+  {
+   "who": "gm",
+   "t": "She steps back away from the terminal."
+  },
+  {
+   "who": "char",
+   "t": "Okay. I'm on it."
+  }
+ ],
+ "5578c5833234318018008611_19": [
+  {
+   "who": "gm",
+   "t": "She shrugs."
+  },
+  {
+   "who": "char",
+   "t": "All right. Your call."
+  }
+ ],
  "557f39083234374414000810_7": [
   {
    "who": "gm",
@@ -23333,6 +23567,16 @@
   {
    "who": "char",
    "t": "I've made a habit of cracking Tsang encryption, it's basically as easy flipping a switch at this point."
+  }
+ ],
+ "558f20f53234311c0f00323e_5": [
+  {
+   "who": "gm",
+   "t": "She manipulates the electrical panel in front of her and some lights flicker and fade from the display."
+  },
+  {
+   "who": "char",
+   "t": "Done."
   }
  ],
  "559072573030316c180039b3_4": [
@@ -34663,6 +34907,34 @@
   {
    "who": "gm",
    "t": "Koschei crouches, ready to attack."
+  }
+ ],
+ "558f20f53234311c0f00323e_6": [
+  {
+   "who": "char",
+   "t": "It is rudimentary. Poorly secured."
+  },
+  {
+   "who": "gm",
+   "t": "His voice takes on a scolding tone."
+  },
+  {
+   "who": "char",
+   "t": "Shoddy handiwork, all around. To be fair, this shouldn't come as a surprise, given how quickly Tsang's people must have thrown this up. Now, if they were really smart, they would have interla--"
+  }
+ ],
+ "558f20f53234311c0f00323e_7": [
+  {
+   "who": "char",
+   "t": "Yes, yes, of course. Rewiring it to unleash hell on the Tsang security forces would be a trivial matter - wouldn't take me five minutes."
+  },
+  {
+   "who": "gm",
+   "t": "He raises an eyebrow with a smile."
+  },
+  {
+   "who": "char",
+   "t": "Would you like me to do that?"
   }
  ],
  "5594a808303031e011008b3b_7": [
@@ -62297,6 +62569,128 @@
    "t": "Typical."
   }
  ],
+ "55943ab8306364c82b0008b2_0": [
+  {
+   "who": "gm",
+   "t": "Captain Jomo is busily playing some kind of gambling game on his commlink. It beeps and flashes as he taps away."
+  },
+  {
+   "who": "char",
+   "t": "Come on, Jomo. Win, not lose! Maybe buy yourself that new hat!"
+  },
+  {
+   "who": "gm",
+   "t": "He doesn't appear to have noticed you at all."
+  }
+ ],
+ "55943ab8306364c82b0008b2_1": [
+  {
+   "who": "gm",
+   "t": "The game makes a sad, defeated noise. Jomo curses under his breath, nose wrinkling in disgust. Finally, he seems to notice you."
+  },
+  {
+   "who": "char",
+   "t": "Stupid game. Always, it cheats me! Never a good hand... Now! Kindly Cheng sends you, lah? You need Captain Jomo to take you to play pirate?"
+  }
+ ],
+ "55943ab8306364c82b0008b2_3": [
+  {
+   "who": "gm",
+   "t": "Jomo stands at the edge of the dock, smoking a hand-rolled cigarette as he stares out over the river. As you approach, he lifts a hand in greeting."
+  },
+  {
+   "who": "char",
+   "t": "Ho there! Come to admire the river with Jomo? I have a bottle of baiju we can share."
+  }
+ ],
+ "55943ab8306364c82b0008b2_4": [
+  {
+   "who": "char",
+   "t": "Ahh, best choice!"
+  },
+  {
+   "who": "gm",
+   "t": "The ork pirate grins from ear to ear and produces a bottle half-full of clear liquid. There is no label, and the cork appears to be hand-carved."
+  },
+  {
+   "who": "char",
+   "t": "It is the best my meager money can buy. Not many ships worth raiding, lately. God damned weather!"
+  }
+ ],
+ "55943ab8306364c82b0008b2_5": [
+  {
+   "who": "gm",
+   "t": "A small sip was probably the better choice - the taste is like unto acetone, kerosene, and old tires. It burns in your mouth, a pile of tiny liquid coals, and you stifle a cough. Jomo claps you on the back, still grinning."
+  },
+  {
+   "who": "char",
+   "t": "See? This is how Kindly stays looking so young! Chinese elixir of life!"
+  }
+ ],
+ "55943ab8306364c82b0008b2_6": [
+  {
+   "who": "char",
+   "t": "What favor can Jomo do for you? You need a body dumped at sea? I can do it fast, no one will see. Maybe you need to hide some cargo on a beach, make a map with 'X marks the spot'?"
+  },
+  {
+   "who": "gm",
+   "t": "Captain Jomo bursts into hearty laughter, slapping his side in mirth."
+  }
+ ],
+ "55943ab8306364c82b0008b2_9": [
+  {
+   "who": "gm",
+   "t": "A smaller drink may have been a better idea. Your eyes begin to water as the baiju fills your mouth with the flavor of kerosene and old tires. Your throat feels like someone's poured molten glass down it. Stifling a cough, you hand the bottle back to Jomo. He's still grinning."
+  },
+  {
+   "who": "char",
+   "t": "With this, you are ready to conquer the world!"
+  }
+ ],
+ "55943ab8306364c82b0008b2_10": [
+  {
+   "who": "char",
+   "t": "Suit yourself, my friend!"
+  },
+  {
+   "who": "gm",
+   "t": "Raising the bottle to his lips, Jomo takes a long pull. When he finishes, he coughs a few times."
+  },
+  {
+   "who": "char",
+   "t": "Woosh! Rocket fuel!"
+  }
+ ],
+ "55943ab8306364c82b0008b2_11": [
+  {
+   "who": "gm",
+   "t": "Jomo raises a hand in greeting as you approach."
+  },
+  {
+   "who": "char",
+   "t": "All done now? I take you to your ship now? Faster than you can blink, lah!"
+  }
+ ],
+ "55943ab8306364c82b0008b2_12": [
+  {
+   "who": "gm",
+   "t": "Jomo raises a hand in greeting as you approach."
+  },
+  {
+   "who": "char",
+   "t": "Welcome back, friend. Maybe now you tell me what favor you need from me? Jomo is a good friend to all in Heoi."
+  }
+ ],
+ "56002e56306364541f00015b_11": [
+  {
+   "who": "gm",
+   "t": "Jomo nods as you approach, his expression stern."
+  },
+  {
+   "who": "char",
+   "t": "Had enough of kicking the hornets today? My radio sounds like a whole nest of them is after you."
+  }
+ ],
  "5600327e626632e01500440a_1": [
   {
    "who": "gm",
@@ -63915,6 +64309,132 @@
   {
    "who": "char",
    "t": "You wanna get us stared, Fiona?"
+  }
+ ],
+ "563e7751643661b00e0012c3_6": [
+  {
+   "who": "gm",
+   "t": "Lam lets out a sigh."
+  },
+  {
+   "who": "char",
+   "t": "...Yes, Qiu. You are."
+  }
+ ],
+ "563e8d70643661b00e001344_1": [
+  {
+   "who": "gm",
+   "t": "Lam glances down at you, frowning."
+  },
+  {
+   "who": "char",
+   "t": "Sorry about this. If there were another way, I would've taken it. You know how it is. Nothing personal."
+  }
+ ],
+ "563e8d70643661b00e001344_4": [
+  {
+   "who": "gm",
+   "t": "He turns away, peering down the darkened hallway ahead of you."
+  },
+  {
+   "who": "char",
+   "t": "You can come out now, Wallace. It worked."
+  }
+ ],
+ "564d03236266328c12006ba2_1": [
+  {
+   "who": "char",
+   "t": "Of course it worked. It was my plan."
+  },
+  {
+   "who": "gm",
+   "t": "He sneers down at Qiu."
+  },
+  {
+   "who": "char",
+   "t": "And there she is, the company woman herself. Got anything to say for yourself, Qiu? Any more edicts from Mitsuhama to deliver?"
+  }
+ ],
+ "564d03236266328c12006ba2_3": [
+  {
+   "who": "gm",
+   "t": "His lips curl into a smug grin."
+  },
+  {
+   "who": "char",
+   "t": "Didn't think so."
+  }
+ ],
+ "564d03236266328c12006ba2_4": [
+  {
+   "who": "gm",
+   "t": "Lam frowns at the mage."
+  },
+  {
+   "who": "char",
+   "t": "Quit gloating, Koo. I brought her here because she's a threat to what we're trying to accomplish, but she's still worthy of respect. Did Krait fill you in on what happens next?"
+  }
+ ],
+ "564d03236266328c12006ba2_5": [
+  {
+   "who": "gm",
+   "t": "He rolls his eyes."
+  },
+  {
+   "who": "char",
+   "t": "Of course she did. We strip everything that Mitsuhama and the Executive Council's task force know about our operation from Qiu's mind via magical interrogation. Then she suffers an \"accident.\""
+  },
+  {
+   "who": "gm",
+   "t": "He nods his head at you."
+  },
+  {
+   "who": "char",
+   "t": "And your pet shadowrunner takes the fall for it."
+  }
+ ],
+ "564d03236266328c12006ba2_7": [
+  {
+   "who": "gm",
+   "t": "The pockmarked mage butts in, cutting him off."
+  },
+  {
+   "who": "char",
+   "t": "Remember who you're talking to, golden boy. I recruited you into this organization. I don't need instructions from you."
+  }
+ ],
+ "564d03236266328c12006ba2_10": [
+  {
+   "who": "gm",
+   "t": "Koo jerks his head in your direction."
+  },
+  {
+   "who": "char",
+   "t": "Look, the poor fool is trying to move. We've ensnared your essence, asshole. You belong to us now."
+  }
+ ],
+ "564d03236266328c12006ba2_14": [
+  {
+   "who": "char",
+   "t": "Your partner. I can't read her aura at all."
+  },
+  {
+   "who": "gm",
+   "t": "The frown deepens."
+  },
+  {
+   "who": "char",
+   "t": "It's... strange. It's like there's nothing there."
+  }
+ ],
+ "564d03236266328c12006ba2_15": [
+  {
+   "who": "gm",
+   "t": "He turns to look at her, blinking."
+  },
+  {
+   "who": "char",
+   "t": "What are you saying? How can she have no aur--"
   }
  ],
  "563a7eb8306364fc140006b9_1": [
@@ -72329,200 +72849,6 @@
   {
    "who": "char",
    "t": "I have no idea what you're talking about. But I *do* know that you've been acquiring my clientèle unfairly! And I'll tell all who will listen just what kind of a man you are: a thieving shitstain!"
-  }
- ],
- "54bd886b323437742d0012df_30": [
-  {
-   "who": "gm",
-   "t": "The dwarf cuts in. Her voice is soft, but strong."
-  },
-  {
-   "who": "char",
-   "t": "*Criminal* mercenary operatives."
-  }
- ],
- "54bd886b323437742d0012df_42": [
-  {
-   "who": "gm",
-   "t": "The dwarf standing next to her nods and jumps in."
-  },
-  {
-   "who": "char",
-   "t": "Wouldn't say. He mumbled a lot, too. Just kept rambling on and on about how he *had* to get in."
-  }
- ],
- "54c004f4323437dc27001556_7": [
-  {
-   "who": "gm",
-   "t": "The dwarf shakes her head at him. Her voice is flat."
-  },
-  {
-   "who": "char",
-   "t": "Save your breath. They won't listen."
-  }
- ],
- "54c2c193323437f024003921_32": [
-  {
-   "who": "gm",
-   "t": "Is0bel isn't listening. She is staring open-mouthed at her own PDA, its bluish glow illuminating her horrified expression."
-  }
- ],
- "54d2941f32343734920026a7_21": [
-  {
-   "who": "char",
-   "t": "I like the way you think."
-  },
-  {
-   "who": "gm",
-   "t": "The decker looks around her. Wrinkles her nose."
-  },
-  {
-   "who": "char",
-   "t": "I want out of this place as fast as possible."
-  }
- ],
- "54d2941f32343734920026a7_25": [
-  {
-   "who": "char",
-   "t": "Who knows? He'd have to be insane to travel *to* the Walled City... As I think we said, it's the worst slum in the eastern hemisphere. Maybe the worst in the world."
-  },
-  {
-   "who": "gm",
-   "t": "She does her best to suppress a shudder. Can't keep the dread from creeping into her voice."
-  },
-  {
-   "who": "char",
-   "t": "Can't believe I grew up here."
-  }
- ],
- "54d2941f32343734920026a7_27": [
-  {
-   "who": "gm",
-   "t": "Is0bel looks around her. Closes her eyes."
-  },
-  {
-   "who": "char",
-   "t": "You could've brought Gobbet instead. I would've been cool with that."
-  }
- ],
- "54d2941f32343734920026a7_28": [
-  {
-   "who": "gm",
-   "t": "She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance."
-  },
-  {
-   "who": "char",
-   "t": "There was a market over there when I was a kid. Might not be a bad place to start."
-  }
- ],
- "54d2941f32343734920026a7_31": [
-  {
-   "who": "gm",
-   "t": "Is0bel looks around her. Closes her eyes."
-  },
-  {
-   "who": "char",
-   "t": "I wish that I didn't."
-  }
- ],
- "54d2941f32343734920026a7_32": [
-  {
-   "who": "gm",
-   "t": "She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance."
-  },
-  {
-   "who": "char",
-   "t": "There was a market over there when I was a kid. Might not be a bad place to start."
-  }
- ],
- "54d2941f32343734920026a7_33": [
-  {
-   "who": "gm",
-   "t": "Is0bel looks around her. Closes her eyes."
-  },
-  {
-   "who": "char",
-   "t": "Tell me about it."
-  }
- ],
- "54d2941f32343734920026a7_34": [
-  {
-   "who": "gm",
-   "t": "She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance."
-  },
-  {
-   "who": "char",
-   "t": "There was a market over there when I was a kid. Might not be a bad place to start."
-  }
- ],
- "54d3ae4932343774800026f2_3": [
-  {
-   "who": "char",
-   "t": "Nothing to it."
-  },
-  {
-   "who": "gm",
-   "t": "She loads up a program on her deck and effortlessly decodes the door lock."
-  }
- ],
- "54d5426a323437e81a005d05_19": [
-  {
-   "who": "gm",
-   "t": "Is0bel gives you a sidelong glance."
-  },
-  {
-   "who": "char",
-   "t": "Cheng didn't want any Yellow Lotus killed."
-  }
- ],
- "553fde68323437a42300787b_5": [
-  {
-   "who": "gm",
-   "t": "Is0bel ignores the barb. She exhales in relief."
-  },
-  {
-   "who": "char",
-   "t": "We're lucky that we were able to stop that spirit before it killed Bao. I don't think Cheng would have appreciated losing one of her best enforcers right after losing some of her best runners."
-  }
- ],
- "553fde68323437a42300787b_9": [
-  {
-   "who": "gm",
-   "t": "Is0bel ignores the barb. She inhales with a little tremble."
-  },
-  {
-   "who": "char",
-   "t": "Well, we got the job done, but a couple Yellow Lotus members had to be put down to do it. Hopefully, Kindly Cheng will understand that she had to lose a few to accomplish her goal."
-  }
- ],
- "553fde68323437a42300787b_12": [
-  {
-   "who": "gm",
-   "t": "She looks around. Shudders."
-  },
-  {
-   "who": "char",
-   "t": "Every time."
-  }
- ],
- "553fde68323437a42300787b_13": [
-  {
-   "who": "gm",
-   "t": "Is0bel ignores the barb. She's too pleased."
-  },
-  {
-   "who": "char",
-   "t": "I can't believe it. We actually delivered Auntie's message without anyone dying."
-  }
- ],
- "55400d643234375820006888_11": [
-  {
-   "who": "gm",
-   "t": "Is0bel watches the spirit thrash."
-  },
-  {
-   "who": "char",
-   "t": "Okay, *that's* interesting."
   }
  ],
  "5588a592303031e827004f11_3": [
@@ -83577,44 +83903,6 @@
    "t": "Not a step farther. Everybody has to check in - no exceptions. Please do so immediately, or I'll have to escort you off the premises."
   }
  ],
- "558f20f53234311c0f00323e_5": [
-  {
-   "who": "gm",
-   "t": "She manipulates the electrical panel in front of her and some lights flicker and fade from the display."
-  },
-  {
-   "who": "char",
-   "t": "Done."
-  }
- ],
- "558f20f53234311c0f00323e_6": [
-  {
-   "who": "char",
-   "t": "It is rudimentary. Poorly secured."
-  },
-  {
-   "who": "gm",
-   "t": "His voice takes on a scolding tone."
-  },
-  {
-   "who": "char",
-   "t": "Shoddy handiwork, all around. To be fair, this shouldn't come as a surprise, given how quickly Tsang's people must have thrown this up. Now, if they were really smart, they would have interla--"
-  }
- ],
- "558f20f53234311c0f00323e_7": [
-  {
-   "who": "char",
-   "t": "Yes, yes, of course. Rewiring it to unleash hell on the Tsang security forces would be a trivial matter - wouldn't take me five minutes."
-  },
-  {
-   "who": "gm",
-   "t": "He raises an eyebrow with a smile."
-  },
-  {
-   "who": "char",
-   "t": "Would you like me to do that?"
-  }
- ],
  "5535917c32343160100041bd_1": [
   {
    "who": "char",
@@ -85141,56 +85429,6 @@
    "t": "You have questions 'bout them dreams, you go ask Crafty. She runs the Five Phases. Smart girl. Might know a thing or two about this blight."
   }
  ],
- "5578c5833234318018008611_0": [
-  {
-   "who": "gm",
-   "t": "Is0bel takes a quick glance at the terminal."
-  },
-  {
-   "who": "char",
-   "t": "I'll be damned. It's logged into an admin inbox, and somebody left it unlocked. I can't open the door for you from here, but we can read the messages if you want."
-  }
- ],
- "5578c5833234318018008611_7": [
-  {
-   "who": "gm",
-   "t": "Is0bel blinks, nonplussed."
-  },
-  {
-   "who": "char",
-   "t": "Huh. I don't know what I was expecting this message to be, but that wasn't it. You want me to keep going...?"
-  }
- ],
- "5578c5833234318018008611_11": [
-  {
-   "who": "char",
-   "t": "*Ho-Pang, Nancy* to: (ADMIN) Wing, Tzi Okay, I'm getting *seriously* creeped out over here. The damned Noodle Extruder is *back,* Tzi. I can't explain it. We boxed the thing up yesterday and sent it to the manufacturer. It wasn't here five minutes ago. But now that we've opened the doors and the show is under way, I'm strolling through the food court, and there it is."
-  },
-  {
-   "who": "char",
-   "t": "Just sitting there, with a line already forming."
-  }
- ],
- "5578c5833234318018008611_18": [
-  {
-   "who": "gm",
-   "t": "She steps back away from the terminal."
-  },
-  {
-   "who": "char",
-   "t": "Okay. I'm on it."
-  }
- ],
- "5578c5833234318018008611_19": [
-  {
-   "who": "gm",
-   "t": "She shrugs."
-  },
-  {
-   "who": "char",
-   "t": "All right. Your call."
-  }
- ],
  "5666003b6436613c12000635_2": [
   {
    "who": "gm",
@@ -86299,132 +86537,6 @@
    "t": "Please, return to me when you can deliver me from my bondage! And hurry, lest the beauty of the heavens fade from my eyes!"
   }
  ],
- "563e7751643661b00e0012c3_6": [
-  {
-   "who": "gm",
-   "t": "Lam lets out a sigh."
-  },
-  {
-   "who": "char",
-   "t": "...Yes, Qiu. You are."
-  }
- ],
- "563e8d70643661b00e001344_1": [
-  {
-   "who": "gm",
-   "t": "Lam glances down at you, frowning."
-  },
-  {
-   "who": "char",
-   "t": "Sorry about this. If there were another way, I would've taken it. You know how it is. Nothing personal."
-  }
- ],
- "563e8d70643661b00e001344_4": [
-  {
-   "who": "gm",
-   "t": "He turns away, peering down the darkened hallway ahead of you."
-  },
-  {
-   "who": "char",
-   "t": "You can come out now, Wallace. It worked."
-  }
- ],
- "564d03236266328c12006ba2_1": [
-  {
-   "who": "char",
-   "t": "Of course it worked. It was my plan."
-  },
-  {
-   "who": "gm",
-   "t": "He sneers down at Qiu."
-  },
-  {
-   "who": "char",
-   "t": "And there she is, the company woman herself. Got anything to say for yourself, Qiu? Any more edicts from Mitsuhama to deliver?"
-  }
- ],
- "564d03236266328c12006ba2_3": [
-  {
-   "who": "gm",
-   "t": "His lips curl into a smug grin."
-  },
-  {
-   "who": "char",
-   "t": "Didn't think so."
-  }
- ],
- "564d03236266328c12006ba2_4": [
-  {
-   "who": "gm",
-   "t": "Lam frowns at the mage."
-  },
-  {
-   "who": "char",
-   "t": "Quit gloating, Koo. I brought her here because she's a threat to what we're trying to accomplish, but she's still worthy of respect. Did Krait fill you in on what happens next?"
-  }
- ],
- "564d03236266328c12006ba2_5": [
-  {
-   "who": "gm",
-   "t": "He rolls his eyes."
-  },
-  {
-   "who": "char",
-   "t": "Of course she did. We strip everything that Mitsuhama and the Executive Council's task force know about our operation from Qiu's mind via magical interrogation. Then she suffers an \"accident.\""
-  },
-  {
-   "who": "gm",
-   "t": "He nods his head at you."
-  },
-  {
-   "who": "char",
-   "t": "And your pet shadowrunner takes the fall for it."
-  }
- ],
- "564d03236266328c12006ba2_7": [
-  {
-   "who": "gm",
-   "t": "The pockmarked mage butts in, cutting him off."
-  },
-  {
-   "who": "char",
-   "t": "Remember who you're talking to, golden boy. I recruited you into this organization. I don't need instructions from you."
-  }
- ],
- "564d03236266328c12006ba2_10": [
-  {
-   "who": "gm",
-   "t": "Koo jerks his head in your direction."
-  },
-  {
-   "who": "char",
-   "t": "Look, the poor fool is trying to move. We've ensnared your essence, asshole. You belong to us now."
-  }
- ],
- "564d03236266328c12006ba2_14": [
-  {
-   "who": "char",
-   "t": "Your partner. I can't read her aura at all."
-  },
-  {
-   "who": "gm",
-   "t": "The frown deepens."
-  },
-  {
-   "who": "char",
-   "t": "It's... strange. It's like there's nothing there."
-  }
- ],
- "564d03236266328c12006ba2_15": [
-  {
-   "who": "gm",
-   "t": "He turns to look at her, blinking."
-  },
-  {
-   "who": "char",
-   "t": "What are you saying? How can she have no aur--"
-  }
- ],
  "54d3f034323437f057003738_3": [
   {
    "who": "gm",
@@ -87217,128 +87329,6 @@
   {
    "who": "char",
    "t": "You think... You think I'm scared of you?!"
-  }
- ],
- "55943ab8306364c82b0008b2_0": [
-  {
-   "who": "gm",
-   "t": "Captain Jomo is busily playing some kind of gambling game on his commlink. It beeps and flashes as he taps away."
-  },
-  {
-   "who": "char",
-   "t": "Come on, Jomo. Win, not lose! Maybe buy yourself that new hat!"
-  },
-  {
-   "who": "gm",
-   "t": "He doesn't appear to have noticed you at all."
-  }
- ],
- "55943ab8306364c82b0008b2_1": [
-  {
-   "who": "gm",
-   "t": "The game makes a sad, defeated noise. Jomo curses under his breath, nose wrinkling in disgust. Finally, he seems to notice you."
-  },
-  {
-   "who": "char",
-   "t": "Stupid game. Always, it cheats me! Never a good hand... Now! Kindly Cheng sends you, lah? You need Captain Jomo to take you to play pirate?"
-  }
- ],
- "55943ab8306364c82b0008b2_3": [
-  {
-   "who": "gm",
-   "t": "Jomo stands at the edge of the dock, smoking a hand-rolled cigarette as he stares out over the river. As you approach, he lifts a hand in greeting."
-  },
-  {
-   "who": "char",
-   "t": "Ho there! Come to admire the river with Jomo? I have a bottle of baiju we can share."
-  }
- ],
- "55943ab8306364c82b0008b2_4": [
-  {
-   "who": "char",
-   "t": "Ahh, best choice!"
-  },
-  {
-   "who": "gm",
-   "t": "The ork pirate grins from ear to ear and produces a bottle half-full of clear liquid. There is no label, and the cork appears to be hand-carved."
-  },
-  {
-   "who": "char",
-   "t": "It is the best my meager money can buy. Not many ships worth raiding, lately. God damned weather!"
-  }
- ],
- "55943ab8306364c82b0008b2_5": [
-  {
-   "who": "gm",
-   "t": "A small sip was probably the better choice - the taste is like unto acetone, kerosene, and old tires. It burns in your mouth, a pile of tiny liquid coals, and you stifle a cough. Jomo claps you on the back, still grinning."
-  },
-  {
-   "who": "char",
-   "t": "See? This is how Kindly stays looking so young! Chinese elixir of life!"
-  }
- ],
- "55943ab8306364c82b0008b2_6": [
-  {
-   "who": "char",
-   "t": "What favor can Jomo do for you? You need a body dumped at sea? I can do it fast, no one will see. Maybe you need to hide some cargo on a beach, make a map with 'X marks the spot'?"
-  },
-  {
-   "who": "gm",
-   "t": "Captain Jomo bursts into hearty laughter, slapping his side in mirth."
-  }
- ],
- "55943ab8306364c82b0008b2_9": [
-  {
-   "who": "gm",
-   "t": "A smaller drink may have been a better idea. Your eyes begin to water as the baiju fills your mouth with the flavor of kerosene and old tires. Your throat feels like someone's poured molten glass down it. Stifling a cough, you hand the bottle back to Jomo. He's still grinning."
-  },
-  {
-   "who": "char",
-   "t": "With this, you are ready to conquer the world!"
-  }
- ],
- "55943ab8306364c82b0008b2_10": [
-  {
-   "who": "char",
-   "t": "Suit yourself, my friend!"
-  },
-  {
-   "who": "gm",
-   "t": "Raising the bottle to his lips, Jomo takes a long pull. When he finishes, he coughs a few times."
-  },
-  {
-   "who": "char",
-   "t": "Woosh! Rocket fuel!"
-  }
- ],
- "55943ab8306364c82b0008b2_11": [
-  {
-   "who": "gm",
-   "t": "Jomo raises a hand in greeting as you approach."
-  },
-  {
-   "who": "char",
-   "t": "All done now? I take you to your ship now? Faster than you can blink, lah!"
-  }
- ],
- "55943ab8306364c82b0008b2_12": [
-  {
-   "who": "gm",
-   "t": "Jomo raises a hand in greeting as you approach."
-  },
-  {
-   "who": "char",
-   "t": "Welcome back, friend. Maybe now you tell me what favor you need from me? Jomo is a good friend to all in Heoi."
-  }
- ],
- "56002e56306364541f00015b_11": [
-  {
-   "who": "gm",
-   "t": "Jomo nods as you approach, his expression stern."
-  },
-  {
-   "who": "char",
-   "t": "Had enough of kicking the hornets today? My radio sounds like a whole nest of them is after you."
   }
  ],
  "54da97d0653937300b002dc0_0": [

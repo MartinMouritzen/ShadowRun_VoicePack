@@ -261,3 +261,21 @@ Casting is free. Generation is not, and is a separate, explicitly-approved step:
 - Machine lines that stay behind keep SAPI and are free to re-cut when their spoken text changes.
 
 No generation happens in this pass.
+
+## Stale takes have a detector now
+
+`lab/tools/audit_stale_takes.py --game <id>` compares every selected take against the line's
+CURRENT effective text and the bucket's current casting, and reports two failures:
+
+- **says the wrong words** — the stored `textHash` does not match. New takes carry one
+  (`server.py`'s `/api/generate`); anything generated before 2026-08-11 has none and is counted as
+  `predate hashing` rather than passed, because "cannot tell" is not "fine".
+- **wrong voice** — the keeper is not in the voice the bucket is cast with now.
+
+This exists because the same failure happened three times in one pass: splitting a terminal's lines
+onto their authors, banning direction on narration and machines, and every recast. In all three the
+clip kept saying the old thing and nothing noticed — `build_voicepack.py` only checks the file
+exists, and `audit_takes.py` compares stored `chars` against audio duration, both of which come
+from the same stale generation and therefore agree with each other.
+
+Run it after anything that changes text, direction, segmentation or casting.

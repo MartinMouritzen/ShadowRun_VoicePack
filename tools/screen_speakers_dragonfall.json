@@ -596,7 +596,39 @@
   "name_sidedoorpanel",
   "name_terminal",
   "name_turret",
-  "name_ventilationcontrols"
+  "name_ventilationcontrols",
+  "name_corruptedfile"
  ],
- "_machines_comment": "Characters that are equipment, not people. build_directed.py refuses to put a mood on them ('[nervous] AZTECHNOLOGY INVENTORY SERVICES'). Proposed by keyword and then hand-filtered: the keyword also catches people speaking THROUGH a fixture (Dragonfall's Control Panel and Speaker), a person whose name contains one (German Announcer), and APEX talking out of a drone. Message-board handles are never machines."
+ "_machines_comment": "Characters that are equipment, not people. build_directed.py refuses to put a mood on them ('[nervous] AZTECHNOLOGY INVENTORY SERVICES'). Proposed by keyword and then hand-filtered: the keyword also catches people speaking THROUGH a fixture (Dragonfall's Control Panel and Speaker), a person whose name contains one (German Announcer), and APEX talking out of a drone. Message-board handles are never machines.",
+ "same_voice": [
+  [
+   "name_feuerschwinge",
+   "name_strangewoman"
+  ],
+  [
+   "name_hansbrackhaus",
+   "name_strangeman"
+  ],
+  [
+   "name_alice",
+   "name_simulacrum"
+  ],
+  [
+   "name_harrow",
+   "name_harrowsmanifesto"
+  ],
+  [
+   "name_apex",
+   "name_controlnodeterminal"
+  ],
+  [
+   "name_apex",
+   "name_heavysecuritydrone"
+  ],
+  [
+   "name_controlnodeterminal",
+   "name_heavysecuritydrone"
+  ]
+ ],
+ "_same_voice_comment": "Pairs that are deliberately one voice and must not be reported as a same-scene clash: a character and the label the game hides them behind (Feuerschwinge is the Strange Woman, Hans Brackhaus the Strange Man), an AI and the hardware it talks through (APEX), a person and the document they wrote (Harrow's manifesto), an entity and its simulacrum."
 }

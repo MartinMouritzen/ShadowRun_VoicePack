@@ -747,42 +747,6 @@
    "reason": "Conversation owner is 'Strange Woman'; the convo name matched 'Feuerschwinge' instead. Same defect as the DMS Acolyte split: a conversation FILE name describes a role, not the speaker the designer bound it to."
   },
   {
-   "convo": "5256e175636134002a002945",
-   "convo_name": "a1_Hotel_s1-Blitz",
-   "nodes": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    6,
-    7,
-    8,
-    9,
-    10,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    24,
-    25,
-    26,
-    27,
-    28,
-    29
-   ],
-   "from": "name_blitz",
-   "to": "name_manonphone",
-   "reason": "Conversation owner is 'Man on Phone'; the convo name matched 'Blitz' instead. Same defect as the DMS Acolyte split: a conversation FILE name describes a role, not the speaker the designer bound it to."
-  },
-  {
    "convo": "528676ab626164981e004f2a",
    "convo_name": "a3_ApexRising_S1-DisplacedMetahumans",
    "nodes": [

@@ -4091,7 +4091,7 @@
  "name_foodcartvendor": {
   "bio": "A cheerful Kreuzbasar street vendor selling soy currywurst and soup to cold Berliners.",
   "direction": "Bright, hearty sales patter with a friendly German accent; genuinely pleased to feed you, always closing the sale.",
-  "gender": "male",
+  "gender": "female",
   "suggestions": [
    {
     "voice_id": "mag_585",
@@ -5545,53 +5545,6 @@
    }
   ]
  },
- "name_securitycaptain": {
-  "bio": "A local of the setting.",
-  "direction": "Grounded, everyday delivery with a hint of street wariness.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_252",
-    "name": "Noah Jackson",
-    "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
-   },
-   {
-    "voice_id": "mag_438",
-    "name": "Jake Miller",
-    "why": "Clear and steady, this middle-aged American male voice brings a natural tone and approacha"
-   },
-   {
-    "voice_id": "mag_439",
-    "name": "Owen Parker",
-    "why": "A conversational, middle-aged American male voice with a relaxed and approachable tone. Pr"
-   },
-   {
-    "voice_id": "mag_231",
-    "name": "Thabo Peterson",
-    "why": "Dynamic and mature, this professional middle-aged South African male voice is perfect for "
-   },
-   {
-    "voice_id": "mag_41",
-    "name": "Chase Reed",
-    "why": "Young Australian male voice, natural and engaging. Great for narration, advertising, and s"
-   },
-   {
-    "voice_id": "mag_178",
-    "name": "Ciaran Walsh",
-    "why": "A young American male voice, clear and neutral, ideal for news or daily talk shows."
-   },
-   {
-    "voice_id": "mag_284",
-    "name": "Liam Cooper",
-    "why": "Natural and relatable, this middle-aged Australian male voice is perfect for conversationa"
-   },
-   {
-    "voice_id": "mag_181",
-    "name": "Lucas Bennett",
-    "why": "Casual and conversational voice of a 40-year-old Canadian man."
-   }
-  ]
- },
  "name_pumpconsole": {
   "bio": "The operations control console for Pump #2 at the water facility, reporting turbine failures and clogged pump diagnostics.",
   "direction": "Dry automated status readout; toneless diagnostic speech with mechanical pauses between test results.",
@@ -6394,7 +6347,7 @@
  "name_acolyte": {
   "bio": "A young acolyte of Harrow's Feuerstelle cult, eager and deferential, parroting the leader's teachings and flinching the moment anyone frowns.",
   "direction": "Young, eager-to-please and easily cowed; bright true-believer energy that collapses into stammering apology under the slightest pushback.",
-  "gender": null,
+  "gender": "male",
   "suggestions": [
    {
     "voice_id": "mag_501",
@@ -6435,53 +6388,6 @@
     "voice_id": "mag_308",
     "name": "Sophia Mitchell",
     "why": "Kindness given, returns as warmth in unexpected ways."
-   }
-  ]
- },
- "name_raggedman": {
-  "bio": "A feral, half-mad hermit ruling over the vermin of a ruined facility as his private kingdom, raging at invaders who murder his 'peasantry'.",
-  "direction": "Cracked, screechy, wildly swinging between imperial grandeur and animal panic; a once-educated voice long since curdled into stuttering mania.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_534",
-    "name": "Old Pip Quickroot",
-    "why": "A high-pitched, raspy British gnome voice with sharp comedic timing and surprising emotion"
-   },
-   {
-    "voice_id": "mag_796",
-    "name": "Winston Brown",
-    "why": "An authentic Jamaican voice with a raspy, edgy character and unmistakable Caribbean island"
-   },
-   {
-    "voice_id": "mag_500",
-    "name": "Santa Claus",
-    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
-   },
-   {
-    "voice_id": "mag_276",
-    "name": "Sipho Dlamini",
-    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
-   },
-   {
-    "voice_id": "mag_589",
-    "name": "Skryth the Withered",
-    "why": "A haunting, Gollum-like voice blending feral madness with childlike vulnerability. Featuri"
-   },
-   {
-    "voice_id": "mag_36",
-    "name": "Blake Hudson",
-    "why": "Warm and engaging grandpa voice. Ideal for telling adventurous stories and captivating tal"
-   },
-   {
-    "voice_id": "mag_526",
-    "name": "Eldros the Wise",
-    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
-   },
-   {
-    "voice_id": "mag_545",
-    "name": "Elias Thornwell",
-    "why": "A seasoned storyteller with a rich, resonant voice that combines gravitas and warmth. Comm"
    }
   ]
  },
@@ -6535,7 +6441,7 @@
  "name_researcher": {
   "bio": "One of Vauclair's scientists, reduced to shell-shocked despair when the doctor dies and the plan to save the world dies with him.",
   "direction": "Hollow, trembling fatalism; a broken academic repeating doom in a numb whisper rather than screaming it.",
-  "gender": "male",
+  "gender": "female",
   "suggestions": [
    {
     "voice_id": "mag_585",
@@ -9258,53 +9164,6 @@
    }
   ]
  },
- "name_mysterydecker": {
-  "bio": "A hostile unknown decker encountered inside a bank's Matrix system, furious to find another intruder on his turf.",
-  "direction": "Cocky, venomous, and territorial; a sneering Matrix predator spitting insults through digital distortion.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_686",
-    "name": "Terry Dobson",
-    "why": "Eccentric, husky-voiced Northerner with odd takes, sharp instincts, and charming contradic"
-   },
-   {
-    "voice_id": "mag_519",
-    "name": "Basil Thornecroft",
-    "why": "Deep, cultured baritone laced with sharp cynicism and dry wit. This voice cuts through pre"
-   },
-   {
-    "voice_id": "mag_339",
-    "name": "Infernal Colossus",
-    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
-   },
-   {
-    "voice_id": "mag_523",
-    "name": "Viremont LeNoir",
-    "why": "The ultimate voice for refined antagonists—sophisticated, sardonic, and dripping with aris"
-   },
-   {
-    "voice_id": "mag_534",
-    "name": "Old Pip Quickroot",
-    "why": "A high-pitched, raspy British gnome voice with sharp comedic timing and surprising emotion"
-   },
-   {
-    "voice_id": "mag_585",
-    "name": "Brad Spinner",
-    "why": "A classic FM disc jockey voice inspired by 1950s–1980s American radio. Energetic, nostalgi"
-   },
-   {
-    "voice_id": "mag_38",
-    "name": "Cole Anderson",
-    "why": "Upbeat, professional male voice with an energetic edge. Great for narrations that convey b"
-   },
-   {
-    "voice_id": "mag_176",
-    "name": "Connor Keane",
-    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
-   }
-  ]
- },
  "name_malenewscaster": {
   "bio": "A studio newscaster relaying crackpot public theories about the wave of violent attacks with practiced anchor-desk polish.",
   "direction": "Smooth anchor-desk delivery with a faint smirk; polished, chatty broadcast tone that stays breezy even when the news is madness.",
@@ -10289,53 +10148,6 @@
     "voice_id": "mag_527",
     "name": "Lumi Pipetwirl",
     "why": "A sweet, cheerful fairy voice, light and sparkly—perfect for charming elves, magical creat"
-   }
-  ]
- },
- "name_corpulenttroll": {
-  "bio": "A massive, self-satisfied troll underworld figure who greets the punctual Hasenkamp with lazy approval.",
-  "direction": "Huge, slow, subterranean rumble; a boss's unhurried satisfaction, every word heavy and faintly amused.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_538",
-    "name": "Wade “Red” Dawson",
-    "why": "A deep, gravelly Texan voice with the soul of the South and the charm of a fireside storyt"
-   },
-   {
-    "voice_id": "mag_339",
-    "name": "Infernal Colossus",
-    "why": "Dark and menacing, this deep demon monster voice is perfect for video games, characters, a"
-   },
-   {
-    "voice_id": "mag_520",
-    "name": "Mortimer Nocturne",
-    "why": "Deep male voice with an Eastern European accent, ideal for gothic horror, vampire narratio"
-   },
-   {
-    "voice_id": "mag_366",
-    "name": "Ethan Parker",
-    "why": "Powerful and expressive, this hyper-deep US narrator brings authority and charisma. Perfec"
-   },
-   {
-    "voice_id": "mag_440",
-    "name": "Liam Hayes",
-    "why": "Deep and velvety, this baritone voice blends classical richness with modern clarity. Comma"
-   },
-   {
-    "voice_id": "mag_37",
-    "name": "Logan West",
-    "why": "Middle-aged American male with a smooth, deep voice. Rich, smooth, and rugged tone, ideal "
-   },
-   {
-    "voice_id": "mag_524",
-    "name": "Lord Nytherion",
-    "why": "A deep, commanding voice with cinematic gravitas—rich, resonant, and sculpted with precisi"
-   },
-   {
-    "voice_id": "mag_260",
-    "name": "Theodore William",
-    "why": "Deep, controlled British urban voice, ideal for adding authenticity and character to diver"
    }
   ]
  },

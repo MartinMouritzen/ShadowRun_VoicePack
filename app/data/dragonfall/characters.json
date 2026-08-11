@@ -40020,6 +40020,48 @@
      "n": 35,
      "cn": "a2_AbandonedLab_s1-Lab_PC_RecordsRoom",
      "t": "No.\n\nI'm talking about eating meat."
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 12,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Y-you there! Who are you? \n\n{{GM}}He stalks toward you, his hands twitching. When he gets within a few feet of you, his nostrils flare and he begins to choke.{{/GM}}\n\nGood LORD! W-what is that gut-churning *stench?*"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 18,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Y-you there! Who are you? \n\n{{GM}}He stalks toward you, his hands twitching.{{/GM}}\n\nHow *dare* you enter my domain!"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 20,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Abandoned?! This is my territory! My *home!*\n\nYou are an invader in my territory, $(scene.badfantasy), and you have *murdered* my peasantry!"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 22,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "{{GM}}He continues his rant without pausing for breath.{{/GM}}\n\nYou are a murderer! A monster! You will pay!"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 57,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Like hell you will! You have trespassed on my sovereign territory and *murdered* my peasantry!\n\nYou have invaded my home!"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 60,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "You are a murderer! A monster! You will pay!"
+    },
+    {
+     "c": "53cd96c1323437c03b00323e",
+     "n": 62,
+     "cn": "a2_AbandonedLab_s1-Lab_Phil",
+     "t": "Well, $(l.name), I am *not* pleased to meet you! You stand as a trespasser in my sovereign territory, and you have *murdered* my citizens!\n\nYou have invaded my home!"
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_feralscientist.png"
@@ -45066,6 +45108,61 @@
      "n": 39,
      "cn": "a3_Endgame_AltEnding_s1-AudranConvo",
      "t": "{{GM}}Audran looks surprised.{{/GM}}\n\nI'm guessing you lifted that from someone with much better taste."
+    },
+    {
+     "c": "524c5c7a30303194170016ab",
+     "n": 0,
+     "cn": "a1_Intro_s2-AudranSeesThePlayer",
+     "t": "The figure loping toward you is big, even for an ork. The majority of his body is sheathed in a suit of heavy, overlapping plates.\n\nWhat you can see of his face looks raw and slick, like old scar tissue stretched tight over his skull. He wears an expression of supreme confidence.",
+     "y": 6
+    },
+    {
+     "c": "524c5c7a30303194170016ab",
+     "n": 1,
+     "cn": "a1_Intro_s2-AudranSeesThePlayer",
+     "t": "All right, friends. Playtime's over. \n\nAll you shadowrunners are the same - skulking, sneaking. Steal a vase or two from the museum - no harm. Maybe I'd let you scamper away into the night. "
+    },
+    {
+     "c": "524c5c7a30303194170016ab",
+     "n": 2,
+     "cn": "a1_Intro_s2-AudranSeesThePlayer",
+     "t": "But now it's too late for that sort of generosity. Visitors aren't welcome down here.\n\n{{GM}}The gaping maw of the minigun jerks upward. An impatient gesture, loaded with malice.{{/GM}}\n\nDrop your weapons and surrender."
+    },
+    {
+     "c": "524c5c7a30303194170016ab",
+     "n": 5,
+     "cn": "a1_Intro_s2-AudranSeesThePlayer",
+     "t": "You have three seconds before I open the hose. Step out here and surrender, and I promise I'll make this easy."
+    },
+    {
+     "c": "524c5c7a30303194170016ab",
+     "n": 6,
+     "cn": "a1_Intro_s2-AudranSeesThePlayer",
+     "t": "True! I can't deny it. But wouldn't it be easier if you didn't fight back? \n\n{{GM}}The ork shrugs, and you hear the distinctive whir of his Vindicator's motor spinning up to speed. The barrels begin to blur as he wheels the weapon to face you.{{/GM}}"
+    },
+    {
+     "c": "524c5c7a30303194170016ab",
+     "n": 7,
+     "cn": "a1_Intro_s2-AudranSeesThePlayer",
+     "t": "Funny. You're a funny $(l.guy).\n\n{{GM}}The ork's gauntleted fist tightens, and you hear the distinctive whir of his Vindicator's motor spinning up to speed. The barrels begin to blur as he wheels the weapon to face you.{{/GM}}"
+    },
+    {
+     "c": "524c5c7a30303194170016ab",
+     "n": 8,
+     "cn": "a1_Intro_s2-AudranSeesThePlayer",
+     "t": "No.\n\n{{GM}}The ork's gauntleted fist tightens, and you hear the distinctive whir of his Vindicator's motor spinning up to speed. The barrels begin to blur as he wheels the weapon to face you.{{/GM}}"
+    },
+    {
+     "c": "524da75c303031e410001654",
+     "n": 0,
+     "cn": "a1_Intro_s2-AudranGetsCalledAway",
+     "t": "{{GM}}The ork suddenly pauses, inclining his head to one side and covering his ear with a finger. His Vindicator starts to spin down.{{/GM}}\n\nYes, sir. Acknowledged.\n\n{{GM}}He grunts, briefly tapping the finger against his ear.{{/GM}}"
+    },
+    {
+     "c": "524da75c303031e410001654",
+     "n": 1,
+     "cn": "a1_Intro_s2-AudranGetsCalledAway",
+     "t": "Squads three and five report to main entrance. Do *not* let the intruders escape.\n\n{{GM}}Without another word, he slings his weapon over an armored shoulder and turns to leave the room.{{/GM}}"
     }
    ],
    "portraitFile": "dragonfall/npc_orkmale_audran.png"
@@ -59141,6 +59238,12 @@
      "n": 27,
      "cn": "Bonus_Trust_Blitz-PreBoss-SideWithHasenkamp_02",
      "t": "{{GM}}He leers at you through the security grate.{{/GM}}\n\nIf you had that kind of muscle, you should've used it to take me out from the get-go.\n\nOh, well. Live and learn."
+    },
+    {
+     "c": "536e77cd373937481a004520",
+     "n": 4,
+     "cn": "Bonus_Trust_Blitz-PreBoss-SideWithHasenkamp_01",
+     "t": "Punctual as always, Hasenkamp.\n\n{{GM}}The troll smiles.{{/GM}}\n\nNicely done."
     }
    ],
    "portraitFile": "dragonfall/npc_trollmale_meatgrinder.png"
@@ -63241,71 +63344,6 @@
    ]
   },
   {
-   "id": "name_securitycaptain",
-   "name": "Security Captain",
-   "portrait": "NPC_OrkMale_Audran",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "524c5c7a30303194170016ab",
-     "n": 0,
-     "cn": "a1_Intro_s2-AudranSeesThePlayer",
-     "t": "The figure loping toward you is big, even for an ork. The majority of his body is sheathed in a suit of heavy, overlapping plates.\n\nWhat you can see of his face looks raw and slick, like old scar tissue stretched tight over his skull. He wears an expression of supreme confidence.",
-     "y": 6
-    },
-    {
-     "c": "524c5c7a30303194170016ab",
-     "n": 1,
-     "cn": "a1_Intro_s2-AudranSeesThePlayer",
-     "t": "All right, friends. Playtime's over. \n\nAll you shadowrunners are the same - skulking, sneaking. Steal a vase or two from the museum - no harm. Maybe I'd let you scamper away into the night. "
-    },
-    {
-     "c": "524c5c7a30303194170016ab",
-     "n": 2,
-     "cn": "a1_Intro_s2-AudranSeesThePlayer",
-     "t": "But now it's too late for that sort of generosity. Visitors aren't welcome down here.\n\n{{GM}}The gaping maw of the minigun jerks upward. An impatient gesture, loaded with malice.{{/GM}}\n\nDrop your weapons and surrender."
-    },
-    {
-     "c": "524c5c7a30303194170016ab",
-     "n": 5,
-     "cn": "a1_Intro_s2-AudranSeesThePlayer",
-     "t": "You have three seconds before I open the hose. Step out here and surrender, and I promise I'll make this easy."
-    },
-    {
-     "c": "524c5c7a30303194170016ab",
-     "n": 6,
-     "cn": "a1_Intro_s2-AudranSeesThePlayer",
-     "t": "True! I can't deny it. But wouldn't it be easier if you didn't fight back? \n\n{{GM}}The ork shrugs, and you hear the distinctive whir of his Vindicator's motor spinning up to speed. The barrels begin to blur as he wheels the weapon to face you.{{/GM}}"
-    },
-    {
-     "c": "524c5c7a30303194170016ab",
-     "n": 7,
-     "cn": "a1_Intro_s2-AudranSeesThePlayer",
-     "t": "Funny. You're a funny $(l.guy).\n\n{{GM}}The ork's gauntleted fist tightens, and you hear the distinctive whir of his Vindicator's motor spinning up to speed. The barrels begin to blur as he wheels the weapon to face you.{{/GM}}"
-    },
-    {
-     "c": "524c5c7a30303194170016ab",
-     "n": 8,
-     "cn": "a1_Intro_s2-AudranSeesThePlayer",
-     "t": "No.\n\n{{GM}}The ork's gauntleted fist tightens, and you hear the distinctive whir of his Vindicator's motor spinning up to speed. The barrels begin to blur as he wheels the weapon to face you.{{/GM}}"
-    },
-    {
-     "c": "524da75c303031e410001654",
-     "n": 0,
-     "cn": "a1_Intro_s2-AudranGetsCalledAway",
-     "t": "{{GM}}The ork suddenly pauses, inclining his head to one side and covering his ear with a finger. His Vindicator starts to spin down.{{/GM}}\n\nYes, sir. Acknowledged.\n\n{{GM}}He grunts, briefly tapping the finger against his ear.{{/GM}}"
-    },
-    {
-     "c": "524da75c303031e410001654",
-     "n": 1,
-     "cn": "a1_Intro_s2-AudranGetsCalledAway",
-     "t": "Squads three and five report to main entrance. Do *not* let the intruders escape.\n\n{{GM}}Without another word, he slings his weapon over an armored shoulder and turns to leave the room.{{/GM}}"
-    }
-   ],
-   "portraitFile": "dragonfall/npc_orkmale_audran.png"
-  },
-  {
    "id": "name_pumpconsole",
    "name": "Pump Console",
    "portrait": null,
@@ -64359,58 +64397,6 @@
    ]
   },
   {
-   "id": "name_raggedman",
-   "name": "Ragged Man",
-   "portrait": "NPC_HumanMale_FeralScientist",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 12,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Y-you there! Who are you? \n\n{{GM}}He stalks toward you, his hands twitching. When he gets within a few feet of you, his nostrils flare and he begins to choke.{{/GM}}\n\nGood LORD! W-what is that gut-churning *stench?*"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 18,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Y-you there! Who are you? \n\n{{GM}}He stalks toward you, his hands twitching.{{/GM}}\n\nHow *dare* you enter my domain!"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 20,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Abandoned?! This is my territory! My *home!*\n\nYou are an invader in my territory, $(scene.badfantasy), and you have *murdered* my peasantry!"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 22,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "{{GM}}He continues his rant without pausing for breath.{{/GM}}\n\nYou are a murderer! A monster! You will pay!"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 57,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Like hell you will! You have trespassed on my sovereign territory and *murdered* my peasantry!\n\nYou have invaded my home!"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 60,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "You are a murderer! A monster! You will pay!"
-    },
-    {
-     "c": "53cd96c1323437c03b00323e",
-     "n": 62,
-     "cn": "a2_AbandonedLab_s1-Lab_Phil",
-     "t": "Well, $(l.name), I am *not* pleased to meet you! You stand as a trespasser in my sovereign territory, and you have *murdered* my citizens!\n\nYou have invaded my home!"
-    }
-   ],
-   "portraitFile": "dragonfall/npc_humanmale_feralscientist.png"
-  },
-  {
    "id": "name_tailor",
    "name": "Tailor",
    "portrait": "\n\u0000",
@@ -64939,7 +64925,8 @@
      "cn": "Haven-Global_DVD",
      "t": "JXKEL___NXXXX12LKNV33_*.*/12364KDS0SKDJVEWX\nXPSDXXXXXX1MF0N4K0F9X______.INISE/E3UDXXXX_\n13IFIE_____W.XLFNNX__2302VF3__*/123JIIMNR____\nASLSLIECCEW________XXXXX12LKNV33_*.*/1236VX\n912IASK3331___6KV1QXZ444XEETY4K0F9____.OLD/E\n13I0KSDCE___ADDE!90XXLL10-44NNX__20496L-1.*/1\nXYECK___*.EXEFALEIRXX__203KSIE_*/123JIILMRIEXX\nASH_XKEVEYLI____SEIXXXXXX12LKNV33_*.*/1236VX\n857IASK4231___3KVDOCEWPXXXXX4K0F91___.INF/E\n13I0KSDCE___AAIXWOOQE_L0-44NNX__20496L-1.*/1"
     }
-   ]
+   ],
+   "machine": true
   },
   {
    "id": "name_humanisterminal",
@@ -65471,6 +65458,18 @@
      "n": 6,
      "cn": "Bonus_Trust_Blitz-boss-DeckerIntro",
      "t": "You should be, punk."
+    },
+    {
+     "c": "5372bc03636134901900494f",
+     "n": 2,
+     "cn": "Bonus_Trust_Blitz-PreBoss-DeckerConvo",
+     "t": "I could ask the same of you. You're in *my* banking system, you little bastard."
+    },
+    {
+     "c": "538367fc346238201700840e",
+     "n": 2,
+     "cn": "Bonus_Trust_Blitz-boss-DeckerIntro",
+     "t": "I could ask the same of you. You're in *my* banking system, you little bastard."
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_enemeydeckeravatar.png"
@@ -66323,28 +66322,6 @@
    "portraitFile": "dragonfall/generic_static_blank.png"
   },
   {
-   "id": "name_mysterydecker",
-   "name": "Mystery Decker",
-   "portrait": "NPC_HumanMale_EnemeyDeckerAvatar",
-   "archetype": "Guard - Seek And Destroy",
-   "bio": null,
-   "lines": [
-    {
-     "c": "5372bc03636134901900494f",
-     "n": 2,
-     "cn": "Bonus_Trust_Blitz-PreBoss-DeckerConvo",
-     "t": "I could ask the same of you. You're in *my* banking system, you little bastard."
-    },
-    {
-     "c": "538367fc346238201700840e",
-     "n": 2,
-     "cn": "Bonus_Trust_Blitz-boss-DeckerIntro",
-     "t": "I could ask the same of you. You're in *my* banking system, you little bastard."
-    }
-   ],
-   "portraitFile": "dragonfall/npc_humanmale_enemeydeckeravatar.png"
-  },
-  {
    "id": "name_malenewscaster",
    "name": "Male Newscaster",
    "portrait": null,
@@ -66679,22 +66656,6 @@
      "t": "{{GM}}The door slams open. On the other side, a disheveled middle-aged man with wild eyes clutches a fountain pen in one hand and a gun in the other.{{/GM}}\n\nYou're not Albert! NOT ALBERT!"
     }
    ]
-  },
-  {
-   "id": "name_corpulenttroll",
-   "name": "Corpulent Troll",
-   "portrait": "NPC_TrollMale_Meatgrinder",
-   "archetype": "Guard - Seek And Destroy",
-   "bio": null,
-   "lines": [
-    {
-     "c": "536e77cd373937481a004520",
-     "n": 4,
-     "cn": "Bonus_Trust_Blitz-PreBoss-SideWithHasenkamp_01",
-     "t": "Punctual as always, Hasenkamp.\n\n{{GM}}The troll smiles.{{/GM}}\n\nNicely done."
-    }
-   ],
-   "portraitFile": "dragonfall/npc_trollmale_meatgrinder.png"
   },
   {
    "id": "name_anonymousfileattachment",

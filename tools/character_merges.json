@@ -15,6 +15,26 @@
    "from": "name_adrianvauclair",
    "to": "name_vauclair",
    "reason": "One man. Adrian Vauclair's 29 lines are all inside Green Winters' recordings convo (5266f911663661b825003110), where he opens 'Hermie... I think we've found her. Feuerschwinge... I knew that she wasn't dead!' - Vauclair twenty years before you meet him, talking to his brother. Leaving them split gives the same character two voices: Walter Hansen in person with 390 takes, Benjamin Parker in the recordings."
+  },
+  {
+   "from": "name_raggedman",
+   "to": "name_philiprex",
+   "reason": "Philip Rex before you know his name, in his own conversation (a2_AbandonedLab_s1-Lab_Phil). Same portrait key (NPC_HumanMale_FeralScientist) and the same stammer: 'Y-you there! Who are you? ... How *dare* you enter my domain!' Same class as the existing name_phil -> name_philiprex rule."
+  },
+  {
+   "from": "name_securitycaptain",
+   "to": "name_audran",
+   "reason": "Audran. Same portrait (NPC_OrkMale_Audran) and the conversations are named after him - a1_Intro_s2-AudranSeesThePlayer, a1_Intro_s2-AudranGetsCalledAway - so the bucket is the intro scene's label for the man the scene is about."
+  },
+  {
+   "from": "name_corpulenttroll",
+   "to": "name_meatgrinder",
+   "reason": "One line, in Meat Grinder's own scene, on his portrait (NPC_TrollMale_Meatgrinder): 'Punctual as always, Hasenkamp. The troll smiles.'"
+  },
+  {
+   "from": "name_mysterydecker",
+   "to": "name_jurgenplotz",
+   "reason": "Same portrait (NPC_HumanMale_EnemeyDeckerAvatar), same two conversations, and the line is verbatim identical in both buckets: 'I could ask the same of you. You're in *my* banking system, you little bastard.'"
   }
  ],
  "hk": [

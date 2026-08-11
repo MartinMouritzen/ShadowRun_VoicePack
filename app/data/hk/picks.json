@@ -20,12 +20,12 @@
   "voiceName": "Dana Slate"
  },
  "name_gaichu": {
-  "voiceId": "mag_50",
-  "voiceName": "Yamamoto Daiki"
+  "voiceId": "mag_54",
+  "voiceName": "Tanaka Hiroshi"
  },
  "name_racter": {
-  "voiceId": "mag_130",
-  "voiceName": "Leonid Kuznetsov"
+  "voiceId": "mag_132",
+  "voiceName": "Igor Petrov"
  },
  "name_kindlycheng": {
   "voiceId": "mag_787",
@@ -112,8 +112,8 @@
   "voiceName": "Riley Monroe"
  },
  "name_computer": {
-  "voiceId": "mag_543",
-  "voiceName": "Axel Virex"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_tigathwright": {
   "voiceId": "mag_42",
@@ -328,8 +328,8 @@
   "voiceName": "Dominic Blaze"
  },
  "name_rainbow": {
-  "voiceId": "mag_531",
-  "voiceName": "Vera Raze"
+  "voiceId": "mag_208",
+  "voiceName": "Sophie Harper"
  },
  "name_tsangmanager": {
   "voiceId": "mag_311",
@@ -472,8 +472,8 @@
   "voiceName": "Vivian Lane"
  },
  "name_turret": {
-  "voiceId": "mag_504",
-  "voiceName": "Brielle Carter"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_tsangresearchmage": {
   "voiceId": "mag_629",
@@ -516,8 +516,8 @@
   "voiceName": "Jack Thornhill"
  },
  "name_admincomputer": {
-  "voiceId": "mag_185",
-  "voiceName": "Amelia Carter"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_aresworker": {
   "voiceId": "mag_588",
@@ -820,8 +820,8 @@
   "voiceName": "Kore"
  },
  "name_medicalsupplykiosk": {
-  "voiceId": "mag_710",
-  "voiceName": "Laomedeia"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_fuchitechnician": {
   "voiceId": "mag_40",
@@ -884,8 +884,8 @@
   "voiceName": "Alexander Davis"
  },
  "name_cyberwaremachine": {
-  "voiceId": "mag_543",
-  "voiceName": "Axel Virex"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_frightenedresident": {
   "voiceId": "mag_174",
