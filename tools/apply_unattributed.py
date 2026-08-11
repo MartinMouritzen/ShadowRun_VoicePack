@@ -1,13 +1,22 @@
 #!/usr/bin/env python3
-"""Apply tools/unattributed_hand_attribution.json to app/data/dms/characters.json:
+"""Apply tools/unattributed_hand_attribution[_<game>].json to app/data/<game>/characters.json:
 move hand-attributed lines from the 'unattributed' bucket to their character (or narrator),
 creating new character entries where needed. Lines marked skip/review stay unattributed.
-Idempotent: re-running moves nothing twice (moved lines are gone from unattributed)."""
+Idempotent: re-running moves nothing twice (moved lines are gone from unattributed).
+
+Usage: apply_unattributed.py [dms|dragonfall|hk]   (default dms)
+The tool was hardcoded to DMS, which is why Dragonfall's 165 and Hong Kong's 540 unattributed
+lines had never been through it - and an unattributed line is invisible in the lab and silent in
+the pack, so they were not merely mis-filed, they were unvoiceable."""
 import json, os, sys
 
+GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
+if GAME not in ("dms", "dragonfall", "hk"):
+    sys.exit(f"ERROR: unknown game '{GAME}'")
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-CH_PATH = os.path.join(ROOT, "app", "data", "dms", "characters.json")
-MAP_PATH = os.path.join(os.path.dirname(__file__), "unattributed_hand_attribution.json")
+CH_PATH = os.path.join(ROOT, "app", "data", GAME, "characters.json")
+_suffix = "" if GAME == "dms" else f"_{GAME}"
+MAP_PATH = os.path.join(os.path.dirname(__file__), f"unattributed_hand_attribution{_suffix}.json")
 
 amap = json.load(open(MAP_PATH))
 ch = json.load(open(CH_PATH))
@@ -29,6 +38,11 @@ for rec in ch["unattributed"]["lines"]:
         kept.append(rec)
         continue
     target = (rule.get("nodes") or {}).get(str(rec["n"])) or rule.get("to")
+    # A single node can opt out of its conversation's default: two lines of the safeboat call are a
+    # farewell from runners the game never names, and guessing at them would be worse than silence.
+    if target in ("skip", "review"):
+        kept.append(rec)
+        continue
     if not target:
         kept.append(rec)
         continue

@@ -532,6 +532,35 @@
   },
   {
    "from": "name_computer",
+   "to": "name_drhardingham",
+   "to_name": "Dr. I. Hardingham",
+   "kind": "new",
+   "convo": "54fa209630636430190044d6",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "nodes": [
+    3,
+    4,
+    5,
+    12,
+    13,
+    14,
+    15,
+    17
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_drishiguro",
+   "to_name": "Dr. Ishiguro",
+   "kind": "new",
+   "convo": "54fa290d3063643019004546",
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "nodes": [
+    25
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_drshenyang",
    "to_name": "Dr. Shenyang",
    "kind": "existing",
@@ -541,6 +570,82 @@
     146,
     177,
     178
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_drtaylor",
+   "to_name": "Dr. P. Taylor",
+   "kind": "new",
+   "convo": "54f9e71c30636498130044b1",
+   "cn": "a2_FalseFlag_s1-2ndTaylorComp",
+   "nodes": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16,
+    18
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_drtaylor",
+   "to_name": "Dr. P. Taylor",
+   "kind": "new",
+   "convo": "54fa290d3063643019004546",
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    12,
+    13,
+    26
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_dryan",
+   "to_name": "Dr. Yan",
+   "kind": "new",
+   "convo": "54fa290d3063643019004546",
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "nodes": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_easterntigerresearcher",
+   "to_name": "Eastern Tiger Researcher",
+   "kind": "new",
+   "convo": "54d501c5306364544f000196",
+   "cn": "a2_Whistleblower_s1-TestDataComp",
+   "nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
    ]
   },
   {
@@ -1960,6 +2065,17 @@
   },
   {
    "from": "name_computer",
+   "to": "name_securitydirectordeng",
+   "to_name": "Security Director Deng",
+   "kind": "new",
+   "convo": "54fa209630636430190044d6",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "nodes": [
+    16
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_shandytown",
    "to_name": "shandytown",
    "kind": "bbs",
@@ -2359,6 +2475,17 @@
   },
   {
    "from": "name_computer",
+   "to": "name_vasilisa",
+   "to_name": "Vasilisa",
+   "kind": "existing",
+   "convo": "55393bf1306364bc13007a89",
+   "cn": "a2_Grendel_s1-VoryPDA",
+   "nodes": [
+    4
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_vchu",
    "to_name": "V. Chu",
    "kind": "new",
@@ -2474,6 +2601,18 @@
     117,
     120,
     146
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_yaroslav",
+   "to_name": "Yaroslav",
+   "kind": "new",
+   "convo": "55393bf1306364bc13007a89",
+   "cn": "a2_Grendel_s1-VoryPDA",
+   "nodes": [
+    3,
+    6
    ]
   },
   {
@@ -3200,6 +3339,55 @@
   "56200fb93063645c12004357_5": "Got it. We'll shift priorities immediately.\n\n- Winston Deng, Logistics Officer",
   "56200fb93063645c12004357_6": "Okay, people. We've had to change the code for the weapons locker again. Our security drones kept crashing whenever anyone input the previous code.\n\nQA has managed to track the problem down to an easter egg that somebody wrote into their object recognition code. I guess that '1337' has some significance to some joker on the Engineering team.",
   "56200fb93063645c12004357_7": "Given this new information, we've changed the code to 4077. Hopefully this will resolve our random drone crashes.\n\n- Y. Furukawa, Security Division",
+  "54d501c5306364544f000196_0": "Eastern Tiger FileOS 2.2.1\n\nFiles:\n1.) Development Diary - Project Overview\n2.) Development Diary - Phenotypic Alteration\n3.) Development Diary - Longevity research\n\nPlease select file data.",
+  "54d501c5306364544f000196_1": "Initial research into metagenetics presents a singular challenge: to wit, the study not of genes themselves, but of the interaction between genetics and the unseen world of astral space.\n\nIf the creation of a particular metatype or magically-expressed phenotype was as simple as the recombination of given amino acid sequences, then the creation of mages would be as simple as the expression of a given eye color or skin tone.",
+  "54d501c5306364544f000196_2": "Unfortunately, such expressions are far more complex. The expression of traits previously considered to be 'supernatural' is a complex interplay between mundane DNA, the condition of the ambient manasphere at the time of development, and the interactions between genes and what we have dubbed 'astral shadows.'\n\nAny research into these is fraught with difficulty, due to their resistance to traditional - that is to say - technological - instruments.",
+  "54d501c5306364544f000196_3": "Ergo, Omega Sequence #358G is a project de-coupled from the usual safeguards against project overruns. We have been granted extensive magical assistance in our pursuit of higher metagenetic understanding - as well as autonomy from legal concerns.\n\nAs such, Omega Sequence project materials must be kept in Eastern Tiger secure facilities only. Deviation from this may result in local law enforcement interest, and subsequent cleanup costs can be prohibitive. <<",
+  "54d501c5306364544f000196_4": "Phenotypic alteration is the key process which allows for the Omega Sequence project to progress. Ordinarily, an organism's phenotype is set and cannot be changed after a very early point in development. Morphology, phenology, replication processes: any alteration in the coding sequence of a living organism is invariably fatal.\n\nExcept in the case of the Omega Sequence.",
+  "54d501c5306364544f000196_5": "A combination of alkylating agents, ambient mana control, and potent alpha emitters allow us to control the replication of the Omega Sequence metagene. \n\nThis is accomplished through alteration of the interactions between DNA and their astral shadows - the building blocks of metagenetics and mana-based abilities.",
+  "54d501c5306364544f000196_6": "To understand this concept, consider an Indonesian shadowplay. The story one watches is not of the puppets, but the shadows they cast. A skillful puppeteer manipulates not just the puppets, but the space between the screen and the viewer.\n\nSo, too, is it with metagenetics. Magical aptitude, metagenetic traits, and formerly unknown parazoology are revealed when mana levels reach a sufficient point to allow the astral shadows of DNA to engage in their delicate, powerful dance of replication.",
+  "54d501c5306364544f000196_7": "To change the metagenetics of an organism, we do not manipulate only the subject's DNA, but the space between that DNA and the astral plane. We cast the requisite shadows, engendering change that cannot be explained solely by base pairs, alleles, and nucleotides.\n\nControl is our challenge. Control is a delicate art: it requires patience and perseverance, as well as scientific acumen. But with a fine enough degree of control, we will be able to replicate magical abilities, trait expression, and 'black swan' effects.",
+  "54d501c5306364544f000196_8": "What are these 'black swan' traits? Individuals born during events which cause ambient mana to spike have been known to express extreme magical potential and metatraits not possessed by the majority of their metatype. Research into Homo Sapiens Nobilis subjects born during the Awakening, for instance, indicate that ordinary Elven longevity simply does not apply - that there is no upper bound to their telometric regeneration. \n\nEffectively, they appear to be immortal. <<",
+  "54d501c5306364544f000196_9": "The goal of the Omega Sequence project is to harness and unlock these black swan metatraits, beginning with the question of the longevity factor in Homo Sapiens Nobilis. \n\nTreatments for extending human lifespans already exist, of course: organ transplantation can extend life by up to fifty years, and Leonization treatment can theoretically extend life for several hundred. Yet the drawbacks of these are apparent to any who scratch the surface.",
+  "54d501c5306364544f000196_10": "Leonization is prohibitively expensive, and erodes the patient's essence with every treatment, leading to eventual systemic collapse. Organ transplants can preserve the body, but plaques build up in the patient's neural tissue, and the patient must take a cornucopia of immunosuppressants for the duration of their life.\n\nTrue longevity lies in preventing aging from occurring at all.",
+  "54d501c5306364544f000196_11": "Omega Sequence #358G represents our most advanced metagenetic prototype yet. Preliminary results indicate that the test clone's age will lock at 19 years, and progress no further. In order to test this, we have induced artificial aging of the clone through our FastGro organ replacement process.\n\nUnfortunately, this has lead to an explosive cancer and mutation rate, rendering it non-viable for any other types of metagenetic research. Even so, the value of this test subject cannot be overstated. <<",
+  "54f9e71c30636498130044b1_4": "Attention: Ares Asia Holdings employees and residents.\n\nLast week, Knight-Errant officers responsible for the security of this facility received several reports of suspicious activity in the public area of the building. At 13:31 last Tuesday, security footage shows a Troll, approximately 20-28 years of age, entering the public mezzanine areas of the building. The subject was seen attempting to gain access to restricted areas.",
+  "54f9e71c30636498130044b1_5": "The subject exited the facility before Knight-Errant could intercept and question him. Reports from Ares citizenry indicates the subject was asking about research labs working on directed energy weapons.\n\nSeveral hours later, the subject was seen re-entering the building from a side entrance, wearing a custodial uniform.",
+  "54f9e71c30636498130044b1_6": "Knight-Errant guards attempted to detain the subject, but during their arrest attempt both guards were severely injured.\n\nAny employee or resident should contact security immediately if they see this troll. Do not attempt to detain him or interact with him in any way. The subject is considered highly dangerous.",
+  "54f9e71c30636498130044b1_7": "{{GM}}There is a note attached from Knight-Errant security.{{/GM}}\n\nDr. Taylor, it's come to our attention that you have not been treating this threat with the seriousness we believe it deserves. Please remember that the safety of your person and your research is not solely your concern - a strike against you is a strike against all of Ares Macrotechnology. When engaging in off-site entertainment from now on, we would request that you travel with a group. Thank you.",
+  "54f9e71c30636498130044b1_8": "I've had to change the emitter and focusing array in our latest MP IV \"Redline\" prototype. Prior to this, we were using the same emitter array as the MP Laser III, since it's a proven design. Unfortunately, that array is too large to continue using at this point, and there's legacy software that we need to update. The largest problem is that the outer lens is 3 milimeters too large for our new housing.",
+  "54f9e71c30636498130044b1_9": "In light of that, I've commissioned twenty new focusing arrays. They're being manufactured in Detroit, but should arrive next week at the latest. The fabrication technique is the same type that we acquired from Zeiss last year - it should give us superior beam coherence even in high dust and fog situations.",
+  "54f9e71c30636498130044b1_10": "Personal notes on MP Laser I research.\n\nI've been going back through the files from Ares Arms research on the original MP Laser. A lot of the work was done by one Dr. Elliot Mills-Fargo. Unfortunately, Mills-Fargo is dead. From what I can gather, his son killed him during a drunken argument. What's curious is that most of the research files have been heavily redacted. It's all very curious.",
+  "54f9e71c30636498130044b1_11": "It's almost as if Ares Arms doesn't want anyone to know anything about the initial research. It's very curious, given that we're all supposed to be working toward the same thing. Aren't we?\n\nFrom what I can gather, Mills-Fargo had a radically different design philosophy than Hardingham and I.",
+  "54f9e71c30636498130044b1_12": "Most of Mills-Fargo's notes indicate he was primarily interested in purely vector soliton fiber lasers, rather than our own dye-doped Matrix technology. From what I understand, that's also the basis for Winter Systems' own attempts at a man-portable laser solution. I can't find any evidence of how they would have developed that technology without access to Mills-Fargo's work, though. Curious.",
+  "54f9e71c30636498130044b1_15": "Hardingham, I cannot BELIEVE you. Did you tattle on me to Knight-Errant, saying I'd blown off the security brief and ran to go drink alone? Psh, I'm a senior researcher, not a bloody prisoner. If I decide to go have a drink on my own, that's my business. Besides, Central and Admiralty are both crawling with police at any hour. They're AAA-secure, for god's sake.",
+  "54f9e71c30636498130044b1_16": "Listen, H. I really do hear what you're saying about security, and I promise I'm not taking it lightly. I was thinking we could hit up The Pawn after the meeting tomorrow. I've got eight or so takers from the lab, and Knight-Errant promised to loan us a low-profile bodyguard to make sure nothing goes awry. How's that sound to you?",
+  "54f9e71c30636498130044b1_18": "H, one of the researchers downstairs hit me up in a meeting about supporting something called \"Project 2231\". It's headquartered in the Algonquin-Manitou Council - some godforsaken black site called Complex #68G. I guess it has something to do with that debacle in Chicago - research into cleaning up the CEZ and whatnot. I thought it'd be nice if we could give them a hand - just lend them a prototype or the specs, let 'em test the laser out there.",
+  "54fa209630636430190044d6_3": "Preliminary reports aren't good. We can miniaturize the aperture and emission array from the MP Laser III, and it's definitely possible to get down to a handheld size, but that's never been a problem. \n\nEnergy density is the core concern. Our batteries just aren't up to snuff if we shrink them down to pistol size.",
+  "54fa209630636430190044d6_4": "Without the MP Laser III's battery pack, we'll be lucky if we ever find a way to break six or seven shots. It's a terrible problem, and one the boys over in Materials Science have been dragging their feet on.\n\nI've been checking into using some of the new dual-phase batteries, but the cost seems prohibitive.",
+  "54fa209630636430190044d6_5": "I've made a note to Director Hui asking if we could get some help from Ares Arms Europe - the Firelance research team's made a great deal of headway using staged graphene capacitors. Maybe there's something we could learn from them.",
+  "54fa209630636430190044d6_12": "I believe we can increase efficiency in these cases by including a supercooling medium - liquid nitrogen or the like - to reduce the heat pump's draw from the power systems. Maybe something like we worked out for the Sentinel P Series berths.",
+  "54fa209630636430190044d6_13": "Ares Asia Holdings integrated email system.\n\"Security. Safety. Progress.\"\n\nEnter query.",
+  "54fa209630636430190044d6_14": "Taylor, I don't think you're taking this security breach seriously enough. A bloody troll tried to waltz into the building not just once, but twice. He beat up some of the bullyboys downstairs, and he's definitely after our work. And you want to waltz off to the pub like nothing's happened? At least go in a group, man!",
+  "54fa209630636430190044d6_15": "Listen, I don't know how you managed to beat me in that last game, but I know you're cheating. All the data checks out, but I can't believe your aim's suddenly gotten so much better than mine. When I find out what hack you cooked up, you're going to owe me fifty nuyen. Either that, or your characters are all going to be wearing bright green lime costumes from now on.",
+  "54fa209630636430190044d6_16": "Dr. Taylor, we appreciate your concern about the threat neutalization system leaking from your office air vent. Your safety - and the safety of the lab - are our topmost priorities. Until we can get maintenance to inspect the valve, you can access the security control for Vent 3 via the Matrix. The Blocker IC code is c0rt3xFRZ. \n\nShould any further leaks occur, please contact us again.",
+  "54fa209630636430190044d6_17": "Okay, Taylor. If you've gotten eight people AND a bodyguard together for a pint or two after we have our meeting, I'm game. Sorry about being so testy earlier. I just don't relish the idea of being beaten to a bloody pulp by some trog with an interest in my research.",
+  "54fa290d3063643019004546_0": "Ares Asia Directed Energy Weapons Laboratory Annex\n\"Aut viam inveniam aut faciam\"\n\nPlease direct your query.",
+  "54fa290d3063643019004546_1": "Auto-Repair Project\n\nAttention: all information contained herein is considered SECRET/ORCON. Duplication of files forbidden. Authorized eyes only.\n\nSelect file.",
+  "54fa290d3063643019004546_2": "Ares Asia Holdings laboratory records system.\n\"Security. Safety. Progress.\"\n\nEnter query.",
+  "54fa290d3063643019004546_3": "Congratulations, everyone! \n\nAres Europe's given us the go-ahead on entering the Griffin drone prototypes into this season of Desert Wars. Between the auto-repair circuitry, the MP laser prototypes, and the self-organizing threat assessment programs, I think we've got a great chance at being one of the stand-out stars this season. Obviously, we have a lot of work to do between now and the kickoff event, so I'm expecting plenty of crunch time.",
+  "54fa290d3063643019004546_4": "I know each and every one of you wants this as much as I do. It's hard for me to express how proud I am of this team and all the hard work you've put in over the past year. If we can pull this off, we're positioned to be one of the biggest teams in security drone hardware in the past ten years. If we buckle down and put in the hours required, I know we can do it.\n\nGlenlivet my office. Come get some.",
+  "54fa290d3063643019004546_8": "Hey, Ian... I've been encountering a worrying bug in the latest multi-drone mesh network tests. After checking on it, I'm pretty sure it originates in the self-organization subroutines. \n\nWhen the Griffin drones go into self-diagnostic mode and start sharing their telemetry data after field activity, they stop responding to external commands. Even kicking the debugger over to admin mode won't stop them.",
+  "54fa290d3063643019004546_9": "It looks like they're not responding to outside commands because they're identifying activity orders as non-critical in comparison to their attempts to share and learn from each other's telemetry.",
+  "54fa290d3063643019004546_10": "It's downright spooky. They tried to push me out of the room during one of the tests, because one started firing the onShareCleanupBasecamp function, and the rest picked up on it. They identified me as an object to be removed from their secure space - and the worst part is that the trigger condition was me trying to shut down the mesh network.",
+  "54fa290d3063643019004546_11": "I don't know, Ian. I don't like the idea of drones making value judgements about administrator orders. I'd like to strip out the self-organization code for future tests until I can debug it. I understand that we're trying to play catch-up with Renraku on the pseudo-intelligence front, but the fallout if this bug spreads could be pretty catastrophic.",
+  "54fa290d3063643019004546_12": "Just a heads up for the team - hold on further self-organization tests until you get the all clear from me, Taylor, or Yan.\n\nThere's a bug where the drone network refuses external orders while they're pursuing their self-generated directives: data sharing, learning, battle examination, et cetera.",
+  "54fa290d3063643019004546_13": "It's nothing critical, but it's going to make debugging other systems a pain in the ass until we get it sorted out. General tests are still a go.",
+  "54fa290d3063643019004546_25": "I mean, yeah, I'm all for equality... But the olympics? That's about brotherly love, the spirit of cooperation, and the unity of mankind. I can't imagine anyone using them for such transparently political purposes. It breaks my heart.",
+  "54fa290d3063643019004546_26": "Xia, I was hoping to take a look at your power output test data some time soon. I'm going to be in and out of the office all day, so just let yourself in and put them on my desk. The code is 98144.",
+  "55393bf1306364bc13007a89_3": "Vasilisa - We've got a window for the shipment. We're going to have to get to the harbor in the next few hours. Tell Galina and the others to pack up everything you've got and get ready to haul it through the storm drains toward the meeting spot.\n\nWe can't afford to miss this opportunity.",
+  "55393bf1306364bc13007a89_4": "Hey, Yaroslav... Aleksandr's still not back from his scouting trip yet. He said he found a stockroom behind Mrs. Yang's Jade Mountain restaurant. There were also a bunch of keycards for it - belonged to some woman named Magpie. He's out through it now. We can't just leave him behind! Can't you delay this hand-off a few more hours?",
+  "55393bf1306364bc13007a89_6": "No, Vasilisa, I can't delay the hand-off. The ship will leave when it leaves... If Aleksandr's not back in time to make it, it's his own damn fault.\n\nNow get your crew in high gear and make sure we've got the goods by the time things are set!",
   "5578c5833234318018008611_0": "{{GM}}Is0bel takes a quick glance at the terminal.{{/GM}}\n\nI'll be damned. It's logged into an admin inbox, and somebody left it unlocked.\n\nI can't open the door for you from here, but we can read the messages if you want.",
   "5578c5833234318018008611_4": "Look. I'm gonna come right out and say it: the security guys are right. There's something horribly wrong with that Noodle Extruder.",
   "5578c5833234318018008611_5": "I ran a diagnostic on it this afternoon. I was halfway through recalibrating the broth nozzles when the damned thing started humming. And, sure enough, it started churning out steaming-hot jook-sing noodles... just dumping 'em into the palms of my hands.\n\nYou don't even want to see the blisters I'm sporting right now.",
@@ -3222,5 +3410,222 @@
   "558f20f53234311c0f00323e_7": "Yes, yes, of course. Rewiring it to unleash hell on the Tsang security forces would be a trivial matter - wouldn't take me five minutes.\n\n{{GM}}He raises an eyebrow with a smile.{{/GM}}\n\nWould you like me to do that?"
  },
  "unplaced": {},
- "unknown": []
+ "unknown": [
+  {
+   "key": "54f600cd30636414040016c0_5",
+   "cn": "a2_FalseFlag_s1-1stOfficeComp",
+   "why": "unknown, no speaker",
+   "text": ">> I don't know why you're having such difficulty understanding our Matrix upgrades, Cheung. I've given you the bypass codes for the blocker IC at least three t"
+  },
+  {
+   "key": "54f600cd30636414040016c0_7",
+   "cn": "a2_FalseFlag_s1-1stOfficeComp",
+   "why": "unknown, no speaker",
+   "text": ">> Now, every time I make a pull request from our depot, that damn IC gets in my persona's face and demands another set of passcodes.\n\nThank you for the bypass "
+  },
+  {
+   "key": "54f600cd30636414040016c0_9",
+   "cn": "a2_FalseFlag_s1-1stOfficeComp",
+   "why": "unknown, no speaker",
+   "text": ">> Dr. Cheung, I'm concerned about the amount of resources you've requested to pursue Project 2231, particularly because we are Ares ASIA Holdings, not Ares AME"
+  },
+  {
+   "key": "54f600cd30636414040016c0_10",
+   "cn": "a2_FalseFlag_s1-1stOfficeComp",
+   "why": "unknown, no speaker",
+   "text": ">> I understand your concerns, director, but you should be aware that ALL divisions of Ares Macrotechnology have been ordered to support Project 2231 where poss"
+  },
+  {
+   "key": "54f600cd30636414040016c0_11",
+   "cn": "a2_FalseFlag_s1-1stOfficeComp",
+   "why": "unknown, no speaker",
+   "text": ">> The risk involved in local research is unacceptable at this time. This is the entire reason the bulk of 2231-related research takes place at Complex 68G - an"
+  },
+  {
+   "key": "54f600cd30636414040016c0_12",
+   "cn": "a2_FalseFlag_s1-1stOfficeComp",
+   "why": "unknown, no speaker",
+   "text": ">> I'll talk to them about it, Director. If you think it's not possible any other way, I'll impress that upon them.\n\n--Dr. Cheung, Ares Asia Research"
+  },
+  {
+   "key": "54f9e71c30636498130044b1_0",
+   "cn": "a2_FalseFlag_s1-2ndTaylorComp",
+   "why": "unknown, no speaker",
+   "text": ">>User: Dr. Taylor, P.\n\nAres Asia Holdings wishes you a productive day."
+  },
+  {
+   "key": "54f9e71c30636498130044b1_2",
+   "cn": "a2_FalseFlag_s1-2ndTaylorComp",
+   "why": "unknown, no speaker",
+   "text": ">>\"Redline\" Prototype directory active. Authorized users only.\nRemember: security is everyone's business.\n\nEnter query."
+  },
+  {
+   "key": "54f9e71c30636498130044b1_13",
+   "cn": "a2_FalseFlag_s1-2ndTaylorComp",
+   "why": "unknown, no speaker",
+   "text": ">>Ares Asia Holdings integrated email system.\n\"Security. Safety. Progress.\"\n\nEnter query."
+  },
+  {
+   "key": "54fa209630636430190044d6_0",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "why": "unknown, no speaker",
+   "text": ">>User: Dr. Hardingham, I. \n\nAres Asia Holdings wishes you a productive day."
+  },
+  {
+   "key": "54fa209630636430190044d6_1",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "why": "unknown, no speaker",
+   "text": ">>\"Redline\" Prototype directory active. Authorized users only.\nRemember: security is everyone's business.\n\nEnter query."
+  },
+  {
+   "key": "54fa209630636430190044d6_6",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "why": "unknown, no speaker",
+   "text": "Attention: Ares Asia Holdings employees and residents.\n\nLast week, Knight-Errant officers responsible for the security of this facility received several reports"
+  },
+  {
+   "key": "54fa209630636430190044d6_7",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "why": "unknown, no speaker",
+   "text": "The subject exited the facility before Knight-Errant could intercept and question him. Reports from Ares citizenry indicates the subject was asking about resear"
+  },
+  {
+   "key": "54fa209630636430190044d6_8",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "why": "unknown, no speaker",
+   "text": "Knight-Errant guards attempted to detain the subject, but during their arrest attempt both guards were severely injured.\n\nAny employee or resident should contac"
+  },
+  {
+   "key": "54fa209630636430190044d6_9",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "why": "unknown, no speaker",
+   "text": "{{GM}}There is a note attached from Knight-Errant security.{{/GM}}\n\nDr. Hardingham, it's our belief that the troll we recorded is interested in the research you"
+  },
+  {
+   "key": "54fa290d3063643019004546_22",
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "why": "unknown, no speaker",
+   "text": "> Recent Messages\n\nAttention: all information contained herein is considered SECRET/ORCON. Duplication of files forbidden. Authorized eyes only.\n\nSelect file."
+  },
+  {
+   "key": "54fdd9da3430610419004db9_5",
+   "cn": "a2_BadQi_s1-CheckInTerminal",
+   "why": "multi-speaker, unplaced",
+   "text": "CREDENTIALS: Identity verified. \n\nNAME: C. Pang.\n\nCHECK-IN TIME: 21:23:43"
+  },
+  {
+   "key": "54fdd9da3430610419004db9_11",
+   "cn": "a2_BadQi_s1-CheckInTerminal",
+   "why": "multi-speaker, unplaced",
+   "text": "EMPLOYEE FILE: \n\nNAME: Charles Pang\nPOSITION: Data Analyst\nOFFICE: FLOOR 23\nACCESS LEVEL: Limited. Floor 1 - 24. Maintenance & Research Access.\nLAST CHECK-IN: 1"
+  },
+  {
+   "key": "5500c9a3343061ac1b004de3_2",
+   "cn": "a2_BadQi_s1-MainframePowerTerminal",
+   "why": "unknown, no speaker",
+   "text": "Passcode confirmed. System access now granted.\n\nChoose Action:"
+  },
+  {
+   "key": "552845bc323437943b0066bc_2",
+   "cn": "a2_Museum_s1-SecurityOfficeTerminal",
+   "why": "unknown, no speaker",
+   "text": "This is the one. Flip the switch on the bottom right, then plug in my datachip. The script will doctor the security logs so we can sneak you out."
+  },
+  {
+   "key": "552845bc323437943b0066bc_3",
+   "cn": "a2_Museum_s1-SecurityOfficeTerminal",
+   "why": "unknown, no speaker",
+   "text": "It's executing now.\n\n{{GM}}There's a pause. You can hear him clicking his tongue like a metronome.{{/GM}}\n\nAnd... done. Get out of there."
+  },
+  {
+   "key": "55393bf1306364bc13007a89_1",
+   "cn": "a2_Grendel_s1-VoryPDA",
+   "why": "unknown, no speaker",
+   "text": ">> Nadir O.S. 3.11 Email Client\n\nPlease select a file."
+  },
+  {
+   "key": "55834c0d30303120180000a8_2",
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "why": "unknown, no speaker",
+   "text": "{{GM}}A muffled, annoyed voice shouts from the other side.{{/GM}}\n\nWHAT?"
+  },
+  {
+   "key": "55834c0d30303120180000a8_3",
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "why": "unknown, no speaker",
+   "text": "All deliveries go through the maintenance manager.\n\nHer office is right around the corner. Got a big sign on the front. Can't miss it."
+  },
+  {
+   "key": "55834c0d30303120180000a8_5",
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "why": "unknown, no speaker",
+   "text": "Lucky you. One second, and I'll let you fill out the property-damage forms on our terminal."
+  },
+  {
+   "key": "55834c0d30303120180000a8_6",
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "why": "unknown, no speaker",
+   "text": "All right, come on in.\n\nJust don't go poking around the security system - stick to the forms. Terminal's in the back."
+  },
+  {
+   "key": "55847bc2303031201800016e_0",
+   "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
+   "why": "unknown, no speaker",
+   "text": "This room is secured by a small keypad."
+  },
+  {
+   "key": "55946dcd303031e01100856b_1",
+   "cn": "a3_TsangTower_s1-Office_NorthDataTerminal",
+   "why": "unknown, no speaker",
+   "text": "What does it look like, asshole? Get out of here!"
+  },
+  {
+   "key": "55946dcd303031e01100856b_3",
+   "cn": "a3_TsangTower_s1-Office_NorthDataTerminal",
+   "why": "unknown, no speaker",
+   "text": "A quick look is all it takes to reveal that this terminal is an unnetworked workstation.\n\nSitting there all unattended and vulnerable, it's just asking - beggin"
+  },
+  {
+   "key": "559b0021303031281d001b57_0",
+   "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
+   "why": "unknown, no speaker",
+   "text": "This dated door lock looks like it's recently been upgraded with a keycard scanner."
+  },
+  {
+   "key": "559efc5a303031d41c00654d_0",
+   "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
+   "why": "unknown, no speaker",
+   "text": "A simple keypad with worn buttons."
+  },
+  {
+   "key": "55a83fa1303031401e006bb0_1",
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "why": "unknown, no speaker",
+   "text": "The files are a collection of research notes regarding a creature, simply referred to as the \"subject,\" held within the containment chamber. After clicking thro"
+  },
+  {
+   "key": "55a83fa1303031401e006bb0_2",
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "why": "unknown, no speaker",
+   "text": "It appears the researcher in charge of this project was tasked with destroying the creature's connection to what's vaguely called \"Something Else.\" According to"
+  },
+  {
+   "key": "55a83fa1303031401e006bb0_3",
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "why": "unknown, no speaker",
+   "text": "One of the more productive experiments involved igniting a magical powder under extreme heat to sever the connection via shock. It was ultimately ineffective, b"
+  },
+  {
+   "key": "55a83fa1303031401e006bb0_4",
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "why": "unknown, no speaker",
+   "text": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more cle"
+  },
+  {
+   "key": "5609b6333063641833004dad_0",
+   "cn": "MC_a2_Plaguebearer_s1-Lab3Comp3",
+   "why": "unknown, no speaker",
+   "text": "> Undersea Research Laboratory \"Namazu\"\n> Virology Containment Laboratory\n>>MATRIX ACCESS TERMINAL\n\nWelcome, DR. TANG."
+  }
+ ]
 }

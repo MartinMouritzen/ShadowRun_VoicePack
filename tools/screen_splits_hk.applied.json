@@ -530,6 +530,35 @@
   },
   {
    "from": "name_computer",
+   "to": "name_drhardingham",
+   "to_name": "Dr. I. Hardingham",
+   "kind": "new",
+   "convo": "54fa209630636430190044d6",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "nodes": [
+    3,
+    4,
+    5,
+    12,
+    13,
+    14,
+    15,
+    17
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_drishiguro",
+   "to_name": "Dr. Ishiguro",
+   "kind": "new",
+   "convo": "54fa290d3063643019004546",
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "nodes": [
+    25
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_drshenyang",
    "to_name": "Dr. Shenyang",
    "kind": "existing",
@@ -539,6 +568,82 @@
     146,
     177,
     178
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_drtaylor",
+   "to_name": "Dr. P. Taylor",
+   "kind": "new",
+   "convo": "54f9e71c30636498130044b1",
+   "cn": "a2_FalseFlag_s1-2ndTaylorComp",
+   "nodes": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16,
+    18
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_drtaylor",
+   "to_name": "Dr. P. Taylor",
+   "kind": "new",
+   "convo": "54fa290d3063643019004546",
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    12,
+    13,
+    26
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_dryan",
+   "to_name": "Dr. Yan",
+   "kind": "new",
+   "convo": "54fa290d3063643019004546",
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "nodes": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_easterntigerresearcher",
+   "to_name": "Eastern Tiger Researcher",
+   "kind": "new",
+   "convo": "54d501c5306364544f000196",
+   "cn": "a2_Whistleblower_s1-TestDataComp",
+   "nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
    ]
   },
   {
@@ -1958,6 +2063,17 @@
   },
   {
    "from": "name_computer",
+   "to": "name_securitydirectordeng",
+   "to_name": "Security Director Deng",
+   "kind": "new",
+   "convo": "54fa209630636430190044d6",
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "nodes": [
+    16
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_shandytown",
    "to_name": "shandytown",
    "kind": "bbs",
@@ -2357,6 +2473,17 @@
   },
   {
    "from": "name_computer",
+   "to": "name_vasilisa",
+   "to_name": "Vasilisa",
+   "kind": "existing",
+   "convo": "55393bf1306364bc13007a89",
+   "cn": "a2_Grendel_s1-VoryPDA",
+   "nodes": [
+    4
+   ]
+  },
+  {
+   "from": "name_computer",
    "to": "name_vchu",
    "to_name": "V. Chu",
    "kind": "new",
@@ -2472,6 +2599,18 @@
     117,
     120,
     146
+   ]
+  },
+  {
+   "from": "name_computer",
+   "to": "name_yaroslav",
+   "to_name": "Yaroslav",
+   "kind": "new",
+   "convo": "55393bf1306364bc13007a89",
+   "cn": "a2_Grendel_s1-VoryPDA",
+   "nodes": [
+    3,
+    6
    ]
   },
   {

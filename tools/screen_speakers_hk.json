@@ -71,6 +71,75 @@
    "cn": "MC_a2_StationRun_s1-SouthTurretAmmo_2",
    "default": "machine",
    "why": "autoturret status readout"
+  },
+  "54d501c5306364544f000196": {
+   "cn": "a2_Whistleblower_s1-TestDataComp",
+   "default": "Eastern Tiger Researcher",
+   "why": "the Omega Sequence development diary - one researcher's first-person write-up, not the machine's own words"
+  },
+  "54fdd9da3430610419004db9": {
+   "cn": "a2_BadQi_s1-CheckInTerminal",
+   "default": "machine"
+  },
+  "563a9c5e64366184140001a6": {
+   "cn": "MC_a2_StationRun_s1-Matrix_MailArchive",
+   "default": "machine"
+  },
+  "564397ba643661780e006f09": {
+   "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+   "default": "machine"
+  },
+  "560304c33063643816003264": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3MainDoorTerminal",
+   "default": "machine"
+  },
+  "54f8842d3063649c09000127": {
+   "cn": "a2_FalseFlag_s1-1stPublicTerm",
+   "default": "machine"
+  },
+  "54fa5ce23430614c0f004dee": {
+   "cn": "a2_BadQi_s1-FireSystemTerminal",
+   "default": "machine"
+  },
+  "559c578d303031141700325c": {
+   "cn": "a3_TsangTower_s1-ServitorConsole",
+   "default": "machine"
+  },
+  "552c314230636430030050c4": {
+   "cn": "a2_Grendel_s1-GaragePDAInfo",
+   "default": "machine"
+  },
+  "54fe2ee0343061c8130053e9": {
+   "cn": "a2_BadQi_s1-ElevatorAccessTerminal",
+   "default": "machine"
+  },
+  "54fe16ea306364c40e004a5d": {
+   "cn": "a2_FalseFlag_s1-2ndLabLaserShutters",
+   "default": "machine"
+  },
+  "5643f47e643661941400680b": {
+   "cn": "MC_a2_StationRun_s1-TrainingCourseNorth",
+   "default": "machine"
+  },
+  "564400da643661941400696e": {
+   "cn": "MC_a2_StationRun_s1-TrainingCourseSouth",
+   "default": "machine"
+  },
+  "5584a811303031601e000345": {
+   "cn": "a3_TsangTower_s1-SubBasement_MaintenanceTerminal",
+   "default": "machine"
+  },
+  "5609b0db3063641833004d4f": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3Comp1",
+   "default": "machine"
+  },
+  "5609b4a73063641833004d6d": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3Comp2",
+   "default": "machine"
+  },
+  "565370f6626632d423006c5d": {
+   "cn": "MC_a2_StationRun_s1-EvidenceTerminal",
+   "default": "machine"
   }
  },
  "nodes": {
@@ -195,7 +264,9 @@
  },
  "aliases": {
   "From Dr. Shenyang": "Dr. Shenyang",
-  "Crafty": "Crafty Xu"
+  "Crafty": "Crafty Xu",
+  "Dr. Taylor": "Taylor",
+  "Dr. Hardingham": "Hardingham"
  },
  "keep": [
   "SYSOP"
@@ -1213,6 +1284,60 @@
   "Racter": {
    "id": "name_racter",
    "name": "Racter",
+   "kind": "existing"
+  },
+  "Taylor": {
+   "id": "name_drtaylor",
+   "name": "Dr. P. Taylor",
+   "kind": "new",
+   "gender": "male",
+   "note": "Ares Asia weapons researcher on the Redline prototype; one of the two colleagues Racter says stole his work"
+  },
+  "Hardingham": {
+   "id": "name_drhardingham",
+   "name": "Dr. I. Hardingham",
+   "kind": "new",
+   "gender": "male",
+   "note": "the other Redline researcher; writes the progress reports that keep promising miniaturisation"
+  },
+  "Dr. Yan.": {
+   "id": "name_dryan",
+   "name": "Dr. Yan",
+   "kind": "new",
+   "gender": "female",
+   "note": "Ares Asia lab staff on the internal board"
+  },
+  "Dr. Ishiguro": {
+   "id": "name_drishiguro",
+   "name": "Dr. Ishiguro",
+   "kind": "new",
+   "gender": "male",
+   "note": "Ares Asia lab staff on the internal board"
+  },
+  "Security Director Deng.": {
+   "id": "name_securitydirectordeng",
+   "name": "Security Director Deng",
+   "kind": "new",
+   "gender": "male",
+   "note": "Ares Asia facility security, posting notices to the staff board"
+  },
+  "Yaroslav": {
+   "id": "name_yaroslav",
+   "name": "Yaroslav",
+   "kind": "new",
+   "gender": "male",
+   "note": "Vory contact on the Grendel garage PDA"
+  },
+  "Eastern Tiger Researcher": {
+   "id": "name_easterntigerresearcher",
+   "name": "Eastern Tiger Researcher",
+   "kind": "new",
+   "gender": "male",
+   "note": "keeps the Omega Sequence development diary on the freighter's test-data computer; clinical, entirely untroubled by what the cargo is"
+  },
+  "Vasilisa": {
+   "id": "name_vasilisa",
+   "name": "Vasilisa",
    "kind": "existing"
   }
  },

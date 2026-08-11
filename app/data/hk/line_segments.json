@@ -17947,6 +17947,50 @@
    "t": "He shrugs."
   }
  ],
+ "5584c4ef623666c42b0054df_106": [
+  {
+   "who": "gm",
+   "t": "Wu's tone turns icy cold."
+  },
+  {
+   "who": "char",
+   "t": "Why?"
+  }
+ ],
+ "5584c4ef623666c42b0054df_121": [
+  {
+   "who": "char",
+   "t": "Who is she, Raymond?"
+  },
+  {
+   "who": "gm",
+   "t": "Wu growls his question."
+  },
+  {
+   "who": "char",
+   "t": "WHAT DID YOU DO?"
+  }
+ ],
+ "5584c4ef623666c42b0054df_124": [
+  {
+   "who": "gm",
+   "t": "Wu ignores you. Snarls at his foster-father."
+  },
+  {
+   "who": "char",
+   "t": "There's a THING in there, little man. A thing *you* brought here!"
+  }
+ ],
+ "5584c4ef623666c42b0054df_138": [
+  {
+   "who": "gm",
+   "t": "Wu looks down at your hand. Snarls at you."
+  },
+  {
+   "who": "char",
+   "t": "There's a THING in the Walled City. A thing *he* brought here!"
+  }
+ ],
  "54b99b13306364e41b000280_15": [
   {
    "who": "gm",
@@ -21655,6 +21699,120 @@
    "t": "The words come muttered under her breath."
   }
  ],
+ "5536962e3234375434000be4_0": [
+  {
+   "who": "char",
+   "t": "Xiaozhi left her computer unlocked."
+  },
+  {
+   "who": "gm",
+   "t": "She plugs her deck into it and scans the screen."
+  },
+  {
+   "who": "char",
+   "t": "She has the Plastic-Faced Man's complete itinerary. This will tell us everywhere he's going to be for the next 24 hours."
+  }
+ ],
+ "5536962e3234375434000be4_1": [
+  {
+   "who": "char",
+   "t": "Sounds good to me."
+  },
+  {
+   "who": "gm",
+   "t": "She pauses. Accesses a few files, does some searches."
+  },
+  {
+   "who": "char",
+   "t": "First, the bad news. He's got a security detail that drives him from place to place - six corporate agents, plus the driver. Any time he's on the move, he's in a reinforced bulletproof limo. He's also got a personal bodyguard that's with him at all times."
+  }
+ ],
+ "5536962e3234375434000be4_2": [
+  {
+   "who": "char",
+   "t": "But there are some windows of opportunity we can take advantage of. When he's going someplace, they drop him off and leave him in the hands of local security, if any. The bodyguard stays behind, but the other six guards stay with the driver. The detail itself is shared by a few executives, so they will be with someone else until his next pick-up time."
+  },
+  {
+   "who": "char",
+   "t": "The convoys are on a schedule managed by the master system at Tsang HQ."
+  }
+ ],
+ "5536962e3234375434000be4_3": [
+  {
+   "who": "char",
+   "t": "Okay, I've got three good leads here. I think we can run an extraction on any one of these. Number one: the parking garage at Central Plaza. He's there for a meeting in an hour. We can grab him on the way out. It's still secured corporate property, so there will be resistance. But it's the weakest out of the corporate properties he visits."
+  },
+  {
+   "who": "char",
+   "t": "Plus side, there won't be any civilians - access is limited, and he's listed as a VIP in their system."
+  }
+ ],
+ "5536962e3234375434000be4_10": [
+  {
+   "who": "char",
+   "t": "Next one is a bit personal. Mr. Plastic has a mistress, visits her twice a week. Today's the day. He'll be at the Fa Yuen Tower building for two hours. It's not corporate property, but it is privately owned. The management company has a security contract on it, so it's likely we'll have a fight on our hands trying to get out of there with him in tow."
+  },
+  {
+   "who": "char",
+   "t": "It'll be less crowded than the parking garage, but the lady might complicate things."
+  }
+ ],
+ "5536962e3234375434000be4_29": [
+  {
+   "who": "char",
+   "t": "In that case..."
+  },
+  {
+   "who": "gm",
+   "t": "Is0bel taps a few more keys on her deck."
+  },
+  {
+   "who": "char",
+   "t": "I've got the code to the front door, here. It's 112798. You'll need it to get in."
+  }
+ ],
+ "5536962e3234375434000be4_32": [
+  {
+   "who": "char",
+   "t": "This is good intel. Let's see where it can take us."
+  },
+  {
+   "who": "gm",
+   "t": "She pauses. Accesses a few files, does some searches."
+  },
+  {
+   "who": "char",
+   "t": "First, the bad news. He's got a security detail that drives him from place to place - six corporate agents, plus the driver. Any time he's on the move, he's in a reinforced bulletproof limo. He's also got a personal bodyguard that's with him at all times."
+  }
+ ],
+ "5536962e3234375434000be4_33": [
+  {
+   "who": "char",
+   "t": "Absolutely. I just need to run some searches on these locations... see if I can get blueprints, photos."
+  },
+  {
+   "who": "gm",
+   "t": "She pauses, typing on her deck."
+  },
+  {
+   "who": "char",
+   "t": "First, the bad news. He's got a security detail that drives him from place to place - six corporate agents, plus the driver. Any time he's on the move, he's in a reinforced bulletproof limo. He's also got a personal bodyguard that's with him at all times."
+  }
+ ],
+ "5536962e3234375434000be4_41": [
+  {
+   "who": "char",
+   "t": "This won't take long. The data is already indexed."
+  },
+  {
+   "who": "gm",
+   "t": "She pauses. Accesses a few files, does some searches."
+  },
+  {
+   "who": "char",
+   "t": "It looks like this itinerary tell us everywhere he's going to be for the next 24 hours."
+  }
+ ],
  "55369fa7323437682800451d_13": [
   {
    "who": "char",
@@ -23525,6 +23683,24 @@
    "t": "Really? You *do* know that there are alternatives to fixing things with methods other than \"Try random thing. Watch thing explode.\" Right?"
   }
  ],
+ "5584c4ef623666c42b0054df_2": [
+  {
+   "who": "gm",
+   "t": "Is0bel fiddles with her deck, her face ashen. She looks around nervously."
+  },
+  {
+   "who": "char",
+   "t": "Um... did you guys..."
+  },
+  {
+   "who": "gm",
+   "t": "She shudders."
+  },
+  {
+   "who": "char",
+   "t": "...Uh...*see* anything a few minutes ago?"
+  }
+ ],
  "5584c4ef623666c42b0054df_8": [
   {
    "who": "gm",
@@ -23533,6 +23709,16 @@
   {
    "who": "char",
    "t": "I saw some sort of *machine* inside the Walled City. It's geometry felt... wrong. Impossible. It ripped a hole in... I don't know..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_136": [
+  {
+   "who": "gm",
+   "t": "The train comes to a stop. Is0bel looks up at the illuminated map above the door."
+  },
+  {
+   "who": "char",
+   "t": "We're here. Heoi. Let's head topside and figure out how we're gonna tackle this."
   }
  ],
  "5584c4ef623666c42b0054df_143": [
@@ -35953,6 +36139,16 @@
    "t": "Are they really police officers, or are we dealing with something else here?"
   }
  ],
+ "56098865643661c8160012df_44": [
+  {
+   "who": "gm",
+   "t": "He nods."
+  },
+  {
+   "who": "char",
+   "t": "Agreed, my friend. You go back to Lam and Qiu and accept the job. I will run a calibration pass on Koschei and ready my gear."
+  }
+ ],
  "56098865643661c8160012df_47": [
   {
    "who": "char",
@@ -36643,6 +36839,260 @@
   {
    "who": "char",
    "t": "AMBIANCE: CANDLELIGHT AMBIANCE: BUSINESS CASUAL RESTRICTED ACCESS: LAO ZHENG"
+  }
+ ],
+ "54f600cd30636414040016c0_10": [
+  {
+   "who": "char",
+   "t": "I understand your concerns, director, but you should be aware that ALL divisions of Ares Macrotechnology have been ordered to support Project 2231 where possible. Dr. Taylor and Dr. Hardingham are particularly interested in testing their prototype in support of Project 2231. I am simply requesting enough manpower to find suitable subjects to test the prototype against. --Dr."
+  },
+  {
+   "who": "char",
+   "t": "Cheung, Ares Asia Research"
+  }
+ ],
+ "54f600cd30636414040016c0_11": [
+  {
+   "who": "char",
+   "t": "The risk involved in local research is unacceptable at this time. This is the entire reason the bulk of 2231-related research takes place at Complex 68G - and why 68G is in the middle of the frozen tundra."
+  },
+  {
+   "who": "char",
+   "t": "I would be willing to divert additional engineers for Taylor and Hardingham's project, if they would be willing to create another prototype with the intent of shipping it to Complex 68G. --Director Hui, Ares Asia Finance"
+  }
+ ],
+ "54f8842d3063649c09000127_9": [
+  {
+   "who": "char",
+   "t": "Current Research: As joint chair of the Ares Asia Drone Research Laboratories, Dr. Hardingham's duties are primarily related to the research and development of new artificial intelligence solutions that will keep Ares Macrotechnology competitive in this rapidly changing world."
+  },
+  {
+   "who": "char",
+   "t": "While the specific work of the Drone Research Laboratories is classified, previous efforts have been centered around self-repairing machinery, robotic game theory, and collective machine learning."
+  }
+ ],
+ "54fa209630636430190044d6_6": [
+  {
+   "who": "char",
+   "t": "Attention: Ares Asia Holdings employees and residents. Last week, Knight-Errant officers responsible for the security of this facility received several reports of suspicious activity in the public area of the building. At 13:31 last Tuesday, security footage shows a Troll, approximately 20-28 years of age, entering the public mezzanine areas of the building."
+  },
+  {
+   "who": "char",
+   "t": "The subject was seen attempting to gain access to restricted areas."
+  }
+ ],
+ "54fa209630636430190044d6_9": [
+  {
+   "who": "gm",
+   "t": "There is a note attached from Knight-Errant security."
+  },
+  {
+   "who": "char",
+   "t": "Dr. Hardingham, it's our belief that the troll we recorded is interested in the research you and Dr. Taylor are undertaking. As such, we will be providing extra security for your off-site team building exercise. Please be extremely careful when not within the facility - your research and person are under threat at the moment."
+  }
+ ],
+ "54fa209630636430190044d6_10": [
+  {
+   "who": "gm",
+   "t": "These appear to be Dr. Hardingham's notes on attaching the prototype to security drones."
+  },
+  {
+   "who": "char",
+   "t": "Things proceed apace. Assuming a standard medium drone like the Inquisitor or Rover 9230 models, the drone provides sufficient power to enable the prototype effectively unlimited bursts, though there's a thirty second charge time if the capacitors are drained rapidly. The small size of the emitter lens also means that the prototype can be mounted modularly or internally as the platform dictates."
+  }
+ ],
+ "54fe16ea306364c40e004a5d_1": [
+  {
+   "who": "gm",
+   "t": "There is a small note attached to the panel."
+  },
+  {
+   "who": "char",
+   "t": "The shutter controls are currently also closing the security room shutters. I've talked to maintenence about it, but they haven't had a chance to fix it yet. So bear in mind: when you close the shutters for laser testing, security CANNOT respond, as the side door auto-locks! Make sure nobody goes in or out of the main lab while the shutters are down."
+  }
+ ],
+ "552845bc323437943b0066bc_3": [
+  {
+   "who": "char",
+   "t": "It's executing now."
+  },
+  {
+   "who": "gm",
+   "t": "There's a pause. You can hear him clicking his tongue like a metronome."
+  },
+  {
+   "who": "char",
+   "t": "And... done. Get out of there."
+  }
+ ],
+ "552c314230636430030050c4_3": [
+  {
+   "who": "char",
+   "t": "Wilson - we've got the go-ahead from the Whampoan Elders to move into the parking garage. Whatever fight happened there has really spooked the locals, and they're superstitious about moving back into a place that could be filled with angry ghosts. It's a bunch of bull, but whatever - the bottom line is, we have a new place to set up shop."
+  },
+  {
+   "who": "char",
+   "t": "Their only requests are that we pay a percentage of our sales back to them, and we keep anyone nosy out of our turf. Works for me."
+  }
+ ],
+ "55834c0d30303120180000a8_2": [
+  {
+   "who": "gm",
+   "t": "A muffled, annoyed voice shouts from the other side."
+  },
+  {
+   "who": "char",
+   "t": "WHAT?"
+  }
+ ],
+ "5584a811303031601e000345_2": [
+  {
+   "who": "gm",
+   "t": "URGENT *Yung, Thomas* to: Maintenance Office"
+  },
+  {
+   "who": "char",
+   "t": "Li, I need you to get your team together and fix the climate turbine. Make it top priority."
+  }
+ ],
+ "55a83fa1303031401e006bb0_4": [
+  {
+   "who": "char",
+   "t": "Immediately afterward, all the researchers involved with the test felt different. Better. Their fears surrounding the project lessened, and they became more clearheaded. The effect has lasted and appears to be permanent. Further investigation revealed that the reason for the Else's aural retreat was due to the superheated formula's astral reaction."
+  },
+  {
+   "who": "char",
+   "t": "Its explosion apparently ripped holes into the astral plane, cutting off influence from the aura of the Else."
+  }
+ ],
+ "55a83fa1303031401e006bb0_5": [
+  {
+   "who": "gm",
+   "t": "The file downloads directly to your PDA."
+  }
+ ],
+ "560304c33063643816003264_0": [
+  {
+   "who": "gm",
+   "t": "The door is sealed tight. An access panel beside it flashes red."
+  },
+  {
+   "who": "char",
+   "t": "LABORATORY GAMMA-4 QUARANTINED. SECURITY LOCK-DOWN ENGAGED. ACCESS LEVEL OMEGA-4 REQUIRED FOR ENTRY."
+  }
+ ],
+ "560304c33063643816003264_8": [
+  {
+   "who": "char",
+   "t": "I told you before, you can't come in here."
+  },
+  {
+   "who": "gm",
+   "t": "Her breaths come in tight, panicked gasps. She's doing her best to stay calm, but she's clearly terrified."
+  }
+ ],
+ "560304c33063643816003264_11": [
+  {
+   "who": "gm",
+   "t": "She recoils, visibly shaken by your response. Her eyes widen as your words sink in."
+  },
+  {
+   "who": "char",
+   "t": "It'd be crazy for you *not* to care. If anything in this lab gets out, we're *all* going to be dead."
+  }
+ ],
+ "560304c33063643816003264_19": [
+  {
+   "who": "gm",
+   "t": "Dr. Tang shifts anxiously."
+  },
+  {
+   "who": "char",
+   "t": "Just... Just leave the facility, and everyone can walk away. No one will get hurt, or sick, or maimed or anything. Leave, and we can all make it home tonight."
+  }
+ ],
+ "560304c33063643816003264_21": [
+  {
+   "who": "gm",
+   "t": "Beads of sweat trace their way down her forehead."
+  },
+  {
+   "who": "char",
+   "t": "Are you joking, or are you just crazy?! How many times do I have to tell you what'll happen if you come in here and make a mistake?"
+  }
+ ],
+ "560304c33063643816003264_22": [
+  {
+   "who": "gm",
+   "t": "The doctor's face is painted with terror."
+  },
+  {
+   "who": "char",
+   "t": "No. I'm worried that you'll *kill* us and release a global pandemic!"
+  }
+ ],
+ "5609b0db3063641833004d4f_5": [
+  {
+   "who": "gm",
+   "t": "A word at the bottom of the window stands out from the rest in bold red text."
+  },
+  {
+   "who": "char",
+   "t": "Proceed?"
+  }
+ ],
+ "5609b4a73063641833004d6d_5": [
+  {
+   "who": "gm",
+   "t": "A word at the bottom of the window stands out from the rest in bolded red font."
+  },
+  {
+   "who": "char",
+   "t": "Proceed?"
+  }
+ ],
+ "56427445643661901a003b35_0": [
+  {
+   "who": "gm",
+   "t": "The terminal's screen glows cheerfully as you take your place at the keyboard."
+  },
+  {
+   "who": "char",
+   "t": "SDU_ARMORY"
+  }
+ ],
+ "5642776d643661901a003b94_0": [
+  {
+   "who": "gm",
+   "t": "The terminal's screen glows cheerfully as you take your place at the keyboard."
+  },
+  {
+   "who": "char",
+   "t": "SDU_MEDICAL"
+  }
+ ],
+ "564397ba643661780e006f09_10": [
+  {
+   "who": "gm",
+   "t": "She raises a hand to stop you."
+  },
+  {
+   "who": "char",
+   "t": "Spare me. I know a ghoul when I see one. But right at this moment, you know what he isn't? My problem."
+  }
+ ],
+ "564397ba643661780e006f09_15": [
+  {
+   "who": "char",
+   "t": "Look. If the desk sergeant didn't upgrade your badge, you're out of luck."
+  },
+  {
+   "who": "gm",
+   "t": "She raises a hand."
+  },
+  {
+   "who": "char",
+   "t": "And before you ask, don't even think about trying to convince me to use my keycard. It isn't my job to let you up there, it's my job to keep unauthorized people *out.*"
   }
  ],
  "54c696f3303031301d005190_4": [
@@ -41279,6 +41729,274 @@
    "t": "She selects a glass, raises it, and pours the contents down her throat."
   }
  ],
+ "56098865643661c8160012df_18": [
+  {
+   "who": "char",
+   "t": "A pleasure to see you, dear - I've been worried sick."
+  },
+  {
+   "who": "gm",
+   "t": "She swills something the color of rotten plums out of a highball glass."
+  },
+  {
+   "who": "char",
+   "t": "Now. Would you kindly tell me where the fuck you've been?"
+  }
+ ],
+ "56098865643661c8160012df_19": [
+  {
+   "who": "char",
+   "t": "Ah. I see."
+  },
+  {
+   "who": "gm",
+   "t": "Her voice goes cold."
+  },
+  {
+   "who": "char",
+   "t": "You're calling me from police custody?"
+  }
+ ],
+ "56098865643661c8160012df_20": [
+  {
+   "who": "gm",
+   "t": "There is a long pause. Then, finally:"
+  },
+  {
+   "who": "char",
+   "t": "Tell me exactly what they said to you. Don't leave anything out."
+  }
+ ],
+ "56098865643661c8160012df_25": [
+  {
+   "who": "char",
+   "t": "Hm."
+  },
+  {
+   "who": "gm",
+   "t": "She lifts the glass to her lips and takes another slurp of the dirty, viscous liquid."
+  },
+  {
+   "who": "char",
+   "t": "They're after the filth who ambushed you, then. The ones that killed Nightjar."
+  }
+ ],
+ "56098865643661c8160012df_28": [
+  {
+   "who": "char",
+   "t": "Nobody gives a fuck about Carter. You should know better than to interrupt me by now, Gun Show."
+  },
+  {
+   "who": "gm",
+   "t": "She dismisses the outburst with a wave of her hand."
+  },
+  {
+   "who": "char",
+   "t": "Now be a good boy and keep your mouth shut."
+  }
+ ],
+ "56098865643661c8160012df_49": [
+  {
+   "who": "gm",
+   "t": "The old lady's lip curls into an ugly sneer."
+  },
+  {
+   "who": "char",
+   "t": "Your adoptive brother was a cop. You worked with him just fine, up until you killed him. Now quit whining and do what I tell you."
+  }
+ ],
+ "56098865643661c8160012df_51": [
+  {
+   "who": "gm",
+   "t": "The old lady's lip curls into an ugly sneer."
+  },
+  {
+   "who": "char",
+   "t": "Your adoptive brother was a cop, and you've been working with him since you got here. Now quit whining and do what I tell you."
+  }
+ ],
+ "56098865643661c8160012df_56": [
+  {
+   "who": "char",
+   "t": "That isn't what this is about."
+  },
+  {
+   "who": "gm",
+   "t": "She looks into her glass, swirling the liquid inside with a flick of her wrist."
+  },
+  {
+   "who": "char",
+   "t": "Not entirely."
+  }
+ ],
+ "56098865643661c8160012df_67": [
+  {
+   "who": "gm",
+   "t": "Her eyes flash dangerously."
+  },
+  {
+   "who": "char",
+   "t": "I know who she is. Keep talking."
+  }
+ ],
+ "56098865643661c8160012df_69": [
+  {
+   "who": "char",
+   "t": "They scanned you? How... disappointing."
+  },
+  {
+   "who": "gm",
+   "t": "There is a long pause. Then, finally:"
+  },
+  {
+   "who": "char",
+   "t": "Tell me exactly what they said to you. Don't leave anything out."
+  }
+ ],
+ "56098865643661c8160012df_70": [
+  {
+   "who": "char",
+   "t": "Remember who you're speaking to, you insolent little shit. I'm still the boss in this relationship."
+  },
+  {
+   "who": "gm",
+   "t": "There is a long pause. Then, finally:"
+  },
+  {
+   "who": "char",
+   "t": "Tell me exactly what they said to you. Don't leave anything out."
+  }
+ ],
+ "566b7ee964366170030042d4_1": [
+  {
+   "who": "char",
+   "t": "Hello, dear."
+  },
+  {
+   "who": "gm",
+   "t": "She swills something the color of overripe plums from a rocks glass."
+  },
+  {
+   "who": "char",
+   "t": "I take it you've secured the Ares facility in Tai Po?"
+  }
+ ],
+ "566b7ee964366170030042d4_14": [
+  {
+   "who": "char",
+   "t": "There you have it, dear. You've heard my offer, and what I'm willing to pay if you do the right thing."
+  },
+  {
+   "who": "gm",
+   "t": "Opening her eyes again, she raises her glass to the screen. Her voice goes cold."
+  },
+  {
+   "who": "char",
+   "t": "I pray that you make the right decision, for all of our sakes."
+  }
+ ],
+ "566b7ee964366170030042d4_16": [
+  {
+   "who": "gm",
+   "t": "Her eyes snap back open. The placid expression on her face is washed away by a wave of irritation."
+  },
+  {
+   "who": "char",
+   "t": "I was having a moment, dear. You really need to learn when to keep your mouth shut."
+  }
+ ],
+ "566b7ee964366170030042d4_17": [
+  {
+   "who": "char",
+   "t": "As for Qiu... why would I give a fuck? As soon as you burn the warehouse, she'll become irrelevant anyway."
+  },
+  {
+   "who": "gm",
+   "t": "She huffs in indignation. Then her face seems to brighten."
+  },
+  {
+   "who": "char",
+   "t": "I'll tell you what. Choose a fate for Senior Inspector Qiu that you think will make me happy. Surprise me."
+  }
+ ],
+ "566b7ee964366170030042d4_19": [
+  {
+   "who": "gm",
+   "t": "She raises her glass to the screen, and her voice goes cold."
+  },
+  {
+   "who": "char",
+   "t": "You've heard my offer. And you know what I'm willing to pay. I pray that you make the right decision, for all of our sakes."
+  }
+ ],
+ "566b7ee964366170030042d4_20": [
+  {
+   "who": "gm",
+   "t": "Her eyes snap back open, and her cheeks flush red with rage."
+  },
+  {
+   "who": "char",
+   "t": "Who broke it? Was it Qiu? Did that incompetent bitch drop my stone?"
+  }
+ ],
+ "566b7ee964366170030042d4_21": [
+  {
+   "who": "gm",
+   "t": "She makes a visible effort to calm herself."
+  },
+  {
+   "who": "char",
+   "t": "dear... when you burn the warehouse, see to it that Qiu understands what it means to cross the Yellow Lotus. What it means to cost us *money.*"
+  }
+ ],
+ "566b7ee964366170030042d4_22": [
+  {
+   "who": "gm",
+   "t": "She makes a visible effort to calm herself."
+  },
+  {
+   "who": "char",
+   "t": "Yes, but all the same..."
+  },
+  {
+   "who": "gm",
+   "t": "A deep scowl overtakes her face. Her cheeks have turned an ugly shade of crimson."
+  }
+ ],
+ "566b7ee964366170030042d4_24": [
+  {
+   "who": "gm",
+   "t": "She waves your suggestion away as if it were a bad smell."
+  },
+  {
+   "who": "char",
+   "t": "Don't be daft. The warehouse, and everything in it, is Ares property. If we were to claim it, how would we hold it? Further, how would it benefit the Yellow Lotus to declare war on one of the most powerful megacorps in the Sixth World?"
+  }
+ ],
+ "566b7ee964366170030042d4_29": [
+  {
+   "who": "gm",
+   "t": "She shakes her head."
+  },
+  {
+   "who": "char",
+   "t": "No. Turning that facility over to Mitsuhama won't stop Ares. It'll force their hand, push them into acting *sooner* than they'd intended to. And that would not help us."
+  }
+ ],
+ "566b7ee964366170030042d4_34": [
+  {
+   "who": "char",
+   "t": "If I can't get the information out of you, I'll pay Captain Jomo to waltz over there and gather it for me himself. He won't turn down an easy paycheck, dear... you should know that by now."
+  },
+  {
+   "who": "gm",
+   "t": "Her lip curls into a sneer."
+  },
+  {
+   "who": "char",
+   "t": "And then, when I do see you again... and I *will*... we will have a long and unpleasant conversation about the consequences of wasting my time."
+  }
+ ],
  "54d545e23030312c0c00300c_1": [
   {
    "who": "char",
@@ -43325,6 +44043,60 @@
   {
    "who": "char",
    "t": "Essence is cool stuff... cool stuff. At the end of the day, I don't know *what* is. I just know I'm almost out of it."
+  }
+ ],
+ "556b68d4383063b01c005620_3": [
+  {
+   "who": "char",
+   "t": "What do you want?"
+  },
+  {
+   "who": "gm",
+   "t": "The voice's Cantonese is precise, but the accent sounds American."
+  }
+ ],
+ "556b68d4383063b01c005620_9": [
+  {
+   "who": "gm",
+   "t": "There's a long silence on the intercom."
+  },
+  {
+   "who": "char",
+   "t": "Crying shame if that's true... and I saw that one coming."
+  }
+ ],
+ "556b68d4383063b01c005620_14": [
+  {
+   "who": "char",
+   "t": "Really, huh? I'll just check on that..."
+  },
+  {
+   "who": "gm",
+   "t": "There's a long, static-laden silence on the intercom. Then it reactivates long enough for two words to reach you:"
+  },
+  {
+   "who": "char",
+   "t": "Fuck off."
+  }
+ ],
+ "556b68d4383063b01c005620_15": [
+  {
+   "who": "char",
+   "t": "Yeah? You just idle your engine there for a minute, and I'll check on that..."
+  },
+  {
+   "who": "gm",
+   "t": "There's a long silence on the intercom."
+  }
+ ],
+ "556b68d4383063b01c005620_20": [
+  {
+   "who": "gm",
+   "t": "The intercom buzzes to life."
+  },
+  {
+   "who": "char",
+   "t": "You again? I thought I told you to fuck off."
   }
  ],
  "554693e9393936841900720a_0": [
@@ -51069,6 +51841,88 @@
    "t": "You... you came."
   }
  ],
+ "5584c4ef623666c42b0054df_13": [
+  {
+   "who": "gm",
+   "t": "Raymond stands eerily still, looks past all of you. Focuses his attention on someone only he can see."
+  },
+  {
+   "who": "char",
+   "t": "I'm *warning you,* Mother. We are in *very dangerous territory* here. You can't simply build a concrete barrier around it and pretend it doesn't exist! Those people will *continue to suffer.*"
+  }
+ ],
+ "5584c4ef623666c42b0054df_15": [
+  {
+   "who": "gm",
+   "t": "The old man stares ahead, listening. Then he shakes his head in frustration."
+  },
+  {
+   "who": "char",
+   "t": "I can *fix* it, Momma. You just need to give me *time!*"
+  }
+ ],
+ "5584c4ef623666c42b0054df_17": [
+  {
+   "who": "gm",
+   "t": "Raymond continues making his point. His tone is energetic, more youthful."
+  },
+  {
+   "who": "char",
+   "t": "It's going to continue pooling, do you understand? Did you even *read* the memo I sent you?"
+  }
+ ],
+ "5584c4ef623666c42b0054df_18": [
+  {
+   "who": "gm",
+   "t": "The old man's breathing quickens, his face reddens."
+  },
+  {
+   "who": "char",
+   "t": "Don't patronize me, Mother! It was *your* idea to put it in the construction site!"
+  }
+ ],
+ "5584c4ef623666c42b0054df_23": [
+  {
+   "who": "char",
+   "t": "Don't patronize me, Mother!"
+  },
+  {
+   "who": "gm",
+   "t": "The old man's breathing quickens, his face reddens."
+  },
+  {
+   "who": "char",
+   "t": "You know all about the machine! It was *your* idea to put it in the construction site!"
+  }
+ ],
+ "5584c4ef623666c42b0054df_25": [
+  {
+   "who": "gm",
+   "t": "The old man sighs heavily, clearly relieved."
+  },
+  {
+   "who": "char",
+   "t": "Thank you!"
+  },
+  {
+   "who": "gm",
+   "t": "He sighs again, more relaxed."
+  },
+  {
+   "who": "char",
+   "t": "Thank you."
+  }
+ ],
+ "5584c4ef623666c42b0054df_26": [
+  {
+   "who": "gm",
+   "t": "Raymond turns to you, blinking."
+  },
+  {
+   "who": "char",
+   "t": "Are w-w-we in the s-subway?"
+  }
+ ],
  "5584c4ef623666c42b0054df_28": [
   {
    "who": "gm",
@@ -51103,6 +51957,538 @@
   {
    "who": "char",
    "t": "Isn't it, d-d-d-Duncan?"
+  }
+ ],
+ "5584c4ef623666c42b0054df_37": [
+  {
+   "who": "char",
+   "t": "Oh yes, $(l.honorific) $(l.lastname). I've been p-plagued by ni-ni-ni-nightmares a l-long time."
+  },
+  {
+   "who": "gm",
+   "t": "His lips start to tremble.{{/GM} They began... a f-f-few years ago... sporadically at first. Vague dreams wrapped tight with guilt. Blanketed in dread. Raymond's eyes roll back in his head and he closes them tight."
+  },
+  {
+   "who": "char",
+   "t": "}"
+  }
+ ],
+ "5584c4ef623666c42b0054df_38": [
+  {
+   "who": "gm",
+   "t": "The old man's breathing becomes erratic."
+  },
+  {
+   "who": "char",
+   "t": "...Until this last year... when... the... the..."
+  },
+  {
+   "who": "gm",
+   "t": "He searches for the word."
+  },
+  {
+   "who": "char",
+   "t": "...The *frequency* began to increase. Then the imagery clarified... started to repeat."
+  }
+ ],
+ "5584c4ef623666c42b0054df_39": [
+  {
+   "who": "char",
+   "t": "And the sound... the s-sounds of suff-ffering... started to drown out... even my waking thoughts."
+  },
+  {
+   "who": "gm",
+   "t": "He teeters for a moment, dizzy."
+  }
+ ],
+ "5584c4ef623666c42b0054df_41": [
+  {
+   "who": "char",
+   "t": "To correct a mistake... I made a long time ago."
+  },
+  {
+   "who": "gm",
+   "t": "He puts a hand out and steadies himself on Wu's arm."
+  },
+  {
+   "who": "char",
+   "t": "My fault... Prosperity... All those p-p-people... those p-poor, poor p-p-p-people..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_42": [
+  {
+   "who": "char",
+   "t": "To stop me from correcting a mistake... a mistake I made a long time ago."
+  },
+  {
+   "who": "gm",
+   "t": "He puts a hand out and steadies himself on Wu's arm."
+  },
+  {
+   "who": "char",
+   "t": "My fault... Prosperity... All those p-p-people... those p-poor, poor p-p-p-people..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_44": [
+  {
+   "who": "gm",
+   "t": "Raymond turns his head towards your voice. His eyes remain cloudy but he concentrates on you, trying to focus."
+  },
+  {
+   "who": "char",
+   "t": "I understand the f-f-feeling... It was only... recently... that I f-figured out what was... going on, $(l.honorific) $(l.lastname)."
+  }
+ ],
+ "5584c4ef623666c42b0054df_45": [
+  {
+   "who": "gm",
+   "t": "He puts a hand out and steadies himself on Wu's arm."
+  },
+  {
+   "who": "char",
+   "t": "My fault... Prosperity... All those p-p-people... those p-poor, poor p-p-p-people..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_46": [
+  {
+   "who": "gm",
+   "t": "Raymond turns his head towards your voice. His eyes remain cloudy but he concentrates on you, trying to focus."
+  },
+  {
+   "who": "char",
+   "t": "I don't just have... s-something to do with it... $(l.honorific) $(l.lastname). This is my fault."
+  }
+ ],
+ "5584c4ef623666c42b0054df_47": [
+  {
+   "who": "gm",
+   "t": "He puts a hand out and steadies himself on Wu's arm."
+  },
+  {
+   "who": "char",
+   "t": "My fault... Prosperity... All those p-p-people... those p-poor, poor p-p-p-people..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_48": [
+  {
+   "who": "gm",
+   "t": "Raymond turns his head towards your voice. His eyes remain cloudy but he concentrates on you, trying to focus."
+  },
+  {
+   "who": "char",
+   "t": "I understand... it's just a s-story that I'm... ahhh..."
+  },
+  {
+   "who": "gm",
+   "t": "He snarls it out."
+  },
+  {
+   "who": "char",
+   "t": "...*Ashamed to tell.*"
+  }
+ ],
+ "5584c4ef623666c42b0054df_51": [
+  {
+   "who": "char",
+   "t": "This is all b-because of me... and m-m-m-my mother. Something we did... a long time ago."
+  },
+  {
+   "who": "gm",
+   "t": "He puts a hand out and steadies himself on Wu's arm."
+  },
+  {
+   "who": "char",
+   "t": "My fault... Prosperity... All those p-p-people... those p-poor, poor p-p-p-people..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_53": [
+  {
+   "who": "char",
+   "t": "Yes. We r-rebuilt it in 2031. A new approach to... to..."
+  },
+  {
+   "who": "gm",
+   "t": "He fidgets with his gauze bandage."
+  },
+  {
+   "who": "char",
+   "t": "...Low-income housing. I was in charge of a s-special project... an... experimental project. One that would help c-countless p--p-people... if we were successful."
+  }
+ ],
+ "5584c4ef623666c42b0054df_55": [
+  {
+   "who": "gm",
+   "t": "Shame eclipses the old man's face."
+  },
+  {
+   "who": "char",
+   "t": "You know... about Prosperity?"
+  }
+ ],
+ "5584c4ef623666c42b0054df_59": [
+  {
+   "who": "char",
+   "t": "M-my... mother was awarded the..."
+  },
+  {
+   "who": "gm",
+   "t": "He searches the train car for the word."
+  },
+  {
+   "who": "char",
+   "t": "...It was the biggest p-project we'd ever undertaken... the Walled City..."
+  },
+  {
+   "who": "gm",
+   "t": "Still searching for the word."
+  },
+  {
+   "who": "char",
+   "t": "The CONTRACT!... the contract."
+  }
+ ],
+ "5584c4ef623666c42b0054df_60": [
+  {
+   "who": "char",
+   "t": "...The... contract to rebuild th-the... housing development... the W-w-w..."
+  },
+  {
+   "who": "gm",
+   "t": "He grunts in frustration."
+  },
+  {
+   "who": "char",
+   "t": "Walled City! Must've been some time in the '20s..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_65": [
+  {
+   "who": "gm",
+   "t": "Understanding dawns in the old man's tired eyes."
+  },
+  {
+   "who": "char",
+   "t": "You're missing a vital element of my mother's plan. The Walled City wasn't the Prosperity project. Prosperity was the machine that I built at the *center* of the Walled City. My special project. The Fortune Engine."
+  }
+ ],
+ "5584c4ef623666c42b0054df_75": [
+  {
+   "who": "gm",
+   "t": "Raymond corrects her."
+  },
+  {
+   "who": "char",
+   "t": "Like a low-income housing project. I believed that with the Fortune Engine, the newly revitalized Walled City might never *become* a slum."
+  }
+ ],
+ "5584c4ef623666c42b0054df_78": [
+  {
+   "who": "char",
+   "t": "The mechanism I created to... circulate negative qi in the Walled City..."
+  },
+  {
+   "who": "gm",
+   "t": "He brings a liver-spotted hand to his mouth."
+  },
+  {
+   "who": "char",
+   "t": "...It... got stuck."
+  }
+ ],
+ "5584c4ef623666c42b0054df_80": [
+  {
+   "who": "char",
+   "t": "Something..."
+  },
+  {
+   "who": "gm",
+   "t": "The old man's expression becomes confused and his lips move soundlessly for a moment."
+  },
+  {
+   "who": "char",
+   "t": "...S-s-something in Astral Space."
+  }
+ ],
+ "5584c4ef623666c42b0054df_82": [
+  {
+   "who": "gm",
+   "t": "Raymond takes the tone he often used when explaining a new concept. But this time, his explanation is halting and weary."
+  },
+  {
+   "who": "char",
+   "t": "Think of the Fortune Engine... as a sort of... propeller blade... moving through... through... Astral Space... circulating qi... keeping it..."
+  },
+  {
+   "who": "gm",
+   "t": "He hunts for the word."
+  },
+  {
+   "who": "char",
+   "t": "...Fresh..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_84": [
+  {
+   "who": "char",
+   "t": "When I brought my... proposal for a Fortune Engine to my mother, she... *embraced* it."
+  },
+  {
+   "who": "gm",
+   "t": "He exhales."
+  },
+  {
+   "who": "char",
+   "t": "She more than embraced it... she bankrolled it... put an entire *division* of Tsang Mechanical under me to develop it."
+  }
+ ],
+ "5584c4ef623666c42b0054df_86": [
+  {
+   "who": "gm",
+   "t": "Raymond nods rapidly."
+  },
+  {
+   "who": "char",
+   "t": "The biggest of her career. Momma said that if the machine could bring... fortune to the *less* fortunate... it would prove my theory..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_90": [
+  {
+   "who": "char",
+   "t": "It got... stuck."
+  },
+  {
+   "who": "gm",
+   "t": "He doesn't raise his head."
+  },
+  {
+   "who": "char",
+   "t": "The mechanism I created to circulate negative qi in the Walled City got stuck."
+  }
+ ],
+ "5584c4ef623666c42b0054df_94": [
+  {
+   "who": "gm",
+   "t": "Raymond winces at Wu's tone and stumbles back a step. But it does the job and the old man focuses."
+  },
+  {
+   "who": "char",
+   "t": "S-s-s... hhuuuhhh... s-something in a-Astral S-s-space... I wasn't sure what."
+  }
+ ],
+ "5584c4ef623666c42b0054df_96": [
+  {
+   "who": "gm",
+   "t": "The old man's breathing begins to accelerate."
+  },
+  {
+   "who": "char",
+   "t": "The machine... started... *p-pooling* negative qi... and... the... the Walled City started to fill with it..."
+  }
+ ],
+ "5584c4ef623666c42b0054df_97": [
+  {
+   "who": "char",
+   "t": "Then the pooling qi became toxic. Fortunes turned... b-bad. Then... they turned w-w-worse."
+  },
+  {
+   "who": "gm",
+   "t": "Raymond's shoulders slump."
+  },
+  {
+   "who": "char",
+   "t": "Momma's vision for a rebuilt... revitalized Walled City fell to ruin. It only took a few years... for the trapped toxic qi... to turn a brand new housing development into a hellish slum."
+  }
+ ],
+ "5584c4ef623666c42b0054df_100": [
+  {
+   "who": "char",
+   "t": "Nothing."
+  },
+  {
+   "who": "gm",
+   "t": "Raymond can't meet Wu's eyes."
+  },
+  {
+   "who": "char",
+   "t": "Not one damn thing."
+  }
+ ],
+ "5584c4ef623666c42b0054df_109": [
+  {
+   "who": "gm",
+   "t": "Words start spilling out of the old man."
+  },
+  {
+   "who": "char",
+   "t": "She sealed off the maintenance room... our engineers poured a...a...a...*sarcophagus* of thick concrete around it......So n-no one would ever find it... e-ever find out... ever find out... what we had done."
+  }
+ ],
+ "5584c4ef623666c42b0054df_111": [
+  {
+   "who": "char",
+   "t": "Yes."
+  },
+  {
+   "who": "gm",
+   "t": "His face flushes and he fidgets with the gauze bandage on his head."
+  },
+  {
+   "who": "char",
+   "t": "After that, I... left H-hong Kong... started a new life in Seattle... Found you two."
+  }
+ ],
+ "5584c4ef623666c42b0054df_113": [
+  {
+   "who": "char",
+   "t": "Yes."
+  },
+  {
+   "who": "gm",
+   "t": "Raymond stands up straight, takes a shaky step towards Wu."
+  },
+  {
+   "who": "char",
+   "t": "Yes, Duncan. I was a coward. And the guilt... the burden of my cowardice... gripped me like a vise that never loosens... it's eaten me from the inside for *twenty years.*"
+  }
+ ],
+ "5584c4ef623666c42b0054df_114": [
+  {
+   "who": "char",
+   "t": "And then the nightmares began..."
+  },
+  {
+   "who": "gm",
+   "t": "He licks his lips, tries to breathe."
+  },
+  {
+   "who": "char",
+   "t": "...Horrible. Still, I kept working on the problem, night and day."
+  }
+ ],
+ "5584c4ef623666c42b0054df_117": [
+  {
+   "who": "char",
+   "t": "When the machine... malfunctioned... when the circulator became... stuck in Astral Space... it lodged in another... domain."
+  },
+  {
+   "who": "gm",
+   "t": "Raymond sways a bit and his lips tremble."
+  },
+  {
+   "who": "char",
+   "t": "And something lives there."
+  }
+ ],
+ "5584c4ef623666c42b0054df_119": [
+  {
+   "who": "char",
+   "t": "After twenty years of... c-constant force... the circulator finally tore a... a... *rift* in Astral Space... created an hole in *her* domain."
+  },
+  {
+   "who": "gm",
+   "t": "He swallows hard."
+  },
+  {
+   "who": "char",
+   "t": "The d-dreams... are c-coming from... *her.*"
+  }
+ ],
+ "5584c4ef623666c42b0054df_123": [
+  {
+   "who": "char",
+   "t": "I've *got* to go into W-w-w-walled City... find a way through the c-c-concrete barrier... find a way to r-reach the Fortune Engine."
+  },
+  {
+   "who": "gm",
+   "t": "The old man hugs himself. Begins rocking back and forth."
+  },
+  {
+   "who": "char",
+   "t": "I left prosperity in there. I left prosperity in there. I left prosperity in there."
+  }
+ ],
+ "5584c4ef623666c42b0054df_125": [
+  {
+   "who": "gm",
+   "t": "Raymond stops his rocking. Becomes fully lucid. Snaps back at Wu."
+  },
+  {
+   "who": "char",
+   "t": "I *understand* that, Mr. Wu! That's why I came BACK!"
+  },
+  {
+   "who": "gm",
+   "t": "The emotional strain of his own response rattles him again. His breathing gets faster, shallower."
+  },
+  {
+   "who": "char",
+   "t": "I know *what to do* now! How to e-e-extract the circulator! Shut the machine down... close the rift."
+  }
+ ],
+ "5584c4ef623666c42b0054df_127": [
+  {
+   "who": "char",
+   "t": "You're... you're... you're shutting down again, Duncan."
+  },
+  {
+   "who": "gm",
+   "t": "Wu continues to bounce his forehead against the wall."
+  },
+  {
+   "who": "char",
+   "t": "Don't you ignore me, Duncan! Duncan!"
+  }
+ ],
+ "5584c4ef623666c42b0054df_132": [
+  {
+   "who": "char",
+   "t": "That guilt is nothing... when I think of... what... the circulator... the... the... *rift*..."
+  },
+  {
+   "who": "gm",
+   "t": "The old man's eyes open up big."
+  },
+  {
+   "who": "char",
+   "t": "More of them could get in. More like *her.*"
+  }
+ ],
+ "5584c4ef623666c42b0054df_139": [
+  {
+   "who": "char",
+   "t": "IT GOT STUCK! That's what happened!"
+  },
+  {
+   "who": "gm",
+   "t": "He grabs his head with both hands, squeezes his eyes shut."
+  },
+  {
+   "who": "char",
+   "t": "The mechanism to circulate negative qi in the Walled City got stuck."
+  }
+ ],
+ "5584c4ef623666c42b0054df_140": [
+  {
+   "who": "gm",
+   "t": "His response is barely audible."
+  },
+  {
+   "who": "char",
+   "t": "It got stuck. The mechanism I created to circulate negative qi in the Walled City got stuck."
+  }
+ ],
+ "5584c4ef623666c42b0054df_141": [
+  {
+   "who": "char",
+   "t": "I am. I also have several advanced degrees... doctorates in Physics... Taoist Alchemy."
+  },
+  {
+   "who": "gm",
+   "t": "The old man shrugs shakily."
+  },
+  {
+   "who": "char",
+   "t": "My m-mother pushed me... hard... to reach my p-potential."
   }
  ],
  "558898d6623666a012005538_12": [
@@ -72313,6 +73699,16 @@
    "t": "So, unless there's anything else that I can do for you..."
   }
  ],
+ "56156f3e626632781c0025ed_10": [
+  {
+   "who": "char",
+   "t": "Yeah. Yeah, that's right."
+  },
+  {
+   "who": "gm",
+   "t": "She stares down at Lam's cooling body, a contemplative frown on her face."
+  }
+ ],
  "566719dd3063645018002877_0": [
   {
    "who": "gm",
@@ -91397,6 +92793,50 @@
    "t": "Tsang pounds the podium with a closed fist, nodding for emphasis."
   }
  ],
+ "55a5eef9623666b819004add_2": [
+  {
+   "who": "gm",
+   "t": "The elder woman nods with queenly composure."
+  },
+  {
+   "who": "char",
+   "t": "Thank you, Sunny. I only wish that we were speaking in happier times."
+  }
+ ],
+ "55a5eef9623666b819004add_5": [
+  {
+   "who": "char",
+   "t": "Exactly, Sunny."
+  },
+  {
+   "who": "gm",
+   "t": "Josephine Tsang leans forward towards the camera."
+  },
+  {
+   "who": "char",
+   "t": "Without hope, these children are left to create their own opportunities the only way that they know how. By turning to crime. They're often brought up in single-parent households, without strong guidance to put them on the right path. They are surrounded by thugs and criminals, eager to put them to work in all manner of unsavory activities."
+  }
+ ],
+ "55a5eef9623666b819004add_6": [
+  {
+   "who": "char",
+   "t": "And it's events such as this one that call our attention to the plight of these poor, poor children. That is why, today, I call on my Executive Council colleagues to join with me in supporting a new project - Operation Hope."
+  },
+  {
+   "who": "char",
+   "t": "Under the auspices of this program, we will pull these children out of poverty and place them in loving, stable homes while their parents are rehabilitated, reeducated, and reinvigorated with a new sense of purpose."
+  }
+ ],
+ "55a5eef9623666b819004add_10": [
+  {
+   "who": "gm",
+   "t": "The older woman smiles contentedly."
+  },
+  {
+   "who": "char",
+   "t": "Of course."
+  }
+ ],
  "5524518b3234376c45004dca_9": [
   {
    "who": "char",
@@ -91461,6 +92901,62 @@
    "t": "The video suddenly stutters, freezes, and ends."
   }
  ],
+ "55a5eef9623666b819004add_3": [
+  {
+   "who": "char",
+   "t": "Of course, madam. This is, indeed, a stressful day for the citizens of the Walled City. But who knows?"
+  },
+  {
+   "who": "gm",
+   "t": "The newscaster brightens, flashing the best smile money can buy."
+  },
+  {
+   "who": "char",
+   "t": "For one of them, it might be their *lucky* day! Stay tuned, because we're going to cut away shortly to this week's Giga-Ball drawing where some lucky winner *could* walk away with almost one trillion nuyen!"
+  }
+ ],
+ "55a5eef9623666b819004add_4": [
+  {
+   "who": "gm",
+   "t": "The newscaster returns her focus to her guest, a look of practiced concern back on her face."
+  },
+  {
+   "who": "char",
+   "t": "Now madam, you were saying that this sort of situation is inevitable when masses of underprivileged children are raised in a world without hope."
+  }
+ ],
+ "55a5eef9623666b819004add_9": [
+  {
+   "who": "gm",
+   "t": "The newscaster puts her finger to her ear."
+  },
+  {
+   "who": "char",
+   "t": "Madam Councilwoman, I'm afraid I need to cut you off there. As always, you are doing *amazing* work for the people of Hong Kong but..."
+  },
+  {
+   "who": "gm",
+   "t": "Her dazzling smile returns."
+  },
+  {
+   "who": "char",
+   "t": "It's time for Giga-Ball!"
+  }
+ ],
+ "55a5eef9623666b819004add_11": [
+  {
+   "who": "char",
+   "t": "Again, thank you *so* much for joining us and offering your perspective."
+  },
+  {
+   "who": "gm",
+   "t": "The newscaster checks the notes in front of her."
+  },
+  {
+   "who": "char",
+   "t": "We have been speaking with Josephine Tsang, entrepreneur, philanthropist, and front-runner to be the next Chair of the Executive Committee..."
+  }
+ ],
  "54dcfec1303031bc0a006c6f_404": [
   {
    "who": "char",
@@ -91469,6 +92965,160 @@
   {
    "who": "char",
    "t": "Despite Wuxing CEO Kent Zhouling's rivalry with Chu, he had the support of both Yang Lin Fat of Shibata and Adrian Chung of Hildebrandt-Kleinfort-Bernal"
+  }
+ ],
+ "54f9e71c30636498130044b1_4": [
+  {
+   "who": "char",
+   "t": "Attention: Ares Asia Holdings employees and residents. Last week, Knight-Errant officers responsible for the security of this facility received several reports of suspicious activity in the public area of the building. At 13:31 last Tuesday, security footage shows a Troll, approximately 20-28 years of age, entering the public mezzanine areas of the building."
+  },
+  {
+   "who": "char",
+   "t": "The subject was seen attempting to gain access to restricted areas."
+  }
+ ],
+ "54f9e71c30636498130044b1_7": [
+  {
+   "who": "gm",
+   "t": "There is a note attached from Knight-Errant security."
+  },
+  {
+   "who": "char",
+   "t": "Dr. Taylor, it's come to our attention that you have not been treating this threat with the seriousness we believe it deserves. Please remember that the safety of your person and your research is not solely your concern - a strike against you is a strike against all of Ares Macrotechnology. When engaging in off-site entertainment from now on, we would request that you travel with a group."
+  },
+  {
+   "who": "char",
+   "t": "Thank you."
+  }
+ ],
+ "54f9e71c30636498130044b1_8": [
+  {
+   "who": "char",
+   "t": "I've had to change the emitter and focusing array in our latest MP IV \"Redline\" prototype. Prior to this, we were using the same emitter array as the MP Laser III, since it's a proven design. Unfortunately, that array is too large to continue using at this point, and there's legacy software that we need to update."
+  },
+  {
+   "who": "char",
+   "t": "The largest problem is that the outer lens is 3 milimeters too large for our new housing."
+  }
+ ],
+ "54f9e71c30636498130044b1_18": [
+  {
+   "who": "char",
+   "t": "H, one of the researchers downstairs hit me up in a meeting about supporting something called \"Project 2231\". It's headquartered in the Algonquin-Manitou Council - some godforsaken black site called Complex #68G. I guess it has something to do with that debacle in Chicago - research into cleaning up the CEZ and whatnot."
+  },
+  {
+   "who": "char",
+   "t": "I thought it'd be nice if we could give them a hand - just lend them a prototype or the specs, let 'em test the laser out there."
+  }
+ ],
+ "54fa290d3063643019004546_3": [
+  {
+   "who": "char",
+   "t": "Congratulations, everyone! Ares Europe's given us the go-ahead on entering the Griffin drone prototypes into this season of Desert Wars. Between the auto-repair circuitry, the MP laser prototypes, and the self-organizing threat assessment programs, I think we've got a great chance at being one of the stand-out stars this season."
+  },
+  {
+   "who": "char",
+   "t": "Obviously, we have a lot of work to do between now and the kickoff event, so I'm expecting plenty of crunch time."
+  }
+ ],
+ "54fa290d3063643019004546_4": [
+  {
+   "who": "char",
+   "t": "I know each and every one of you wants this as much as I do. It's hard for me to express how proud I am of this team and all the hard work you've put in over the past year. If we can pull this off, we're positioned to be one of the biggest teams in security drone hardware in the past ten years. If we buckle down and put in the hours required, I know we can do it. Glenlivet my office."
+  },
+  {
+   "who": "char",
+   "t": "Come get some."
+  }
+ ],
+ "54fa290d3063643019004546_8": [
+  {
+   "who": "char",
+   "t": "Hey, Ian... I've been encountering a worrying bug in the latest multi-drone mesh network tests. After checking on it, I'm pretty sure it originates in the self-organization subroutines. When the Griffin drones go into self-diagnostic mode and start sharing their telemetry data after field activity, they stop responding to external commands."
+  },
+  {
+   "who": "char",
+   "t": "Even kicking the debugger over to admin mode won't stop them."
+  }
+ ],
+ "54d501c5306364544f000196_1": [
+  {
+   "who": "char",
+   "t": "Initial research into metagenetics presents a singular challenge: to wit, the study not of genes themselves, but of the interaction between genetics and the unseen world of astral space."
+  },
+  {
+   "who": "char",
+   "t": "If the creation of a particular metatype or magically-expressed phenotype was as simple as the recombination of given amino acid sequences, then the creation of mages would be as simple as the expression of a given eye color or skin tone."
+  }
+ ],
+ "54d501c5306364544f000196_2": [
+  {
+   "who": "char",
+   "t": "Unfortunately, such expressions are far more complex. The expression of traits previously considered to be 'supernatural' is a complex interplay between mundane DNA, the condition of the ambient manasphere at the time of development, and the interactions between genes and what we have dubbed 'astral shadows."
+  },
+  {
+   "who": "char",
+   "t": "Any research into these is fraught with difficulty, due to their resistance to traditional - that is to say - technological - instruments."
+  }
+ ],
+ "54d501c5306364544f000196_3": [
+  {
+   "who": "char",
+   "t": "Ergo, Omega Sequence #358G is a project de-coupled from the usual safeguards against project overruns. We have been granted extensive magical assistance in our pursuit of higher metagenetic understanding - as well as autonomy from legal concerns. As such, Omega Sequence project materials must be kept in Eastern Tiger secure facilities only."
+  },
+  {
+   "who": "char",
+   "t": "Deviation from this may result in local law enforcement interest, and subsequent cleanup costs can be prohibitive."
+  }
+ ],
+ "54d501c5306364544f000196_6": [
+  {
+   "who": "char",
+   "t": "To understand this concept, consider an Indonesian shadowplay. The story one watches is not of the puppets, but the shadows they cast. A skillful puppeteer manipulates not just the puppets, but the space between the screen and the viewer. So, too, is it with metagenetics."
+  },
+  {
+   "who": "char",
+   "t": "Magical aptitude, metagenetic traits, and formerly unknown parazoology are revealed when mana levels reach a sufficient point to allow the astral shadows of DNA to engage in their delicate, powerful dance of replication."
+  }
+ ],
+ "54d501c5306364544f000196_7": [
+  {
+   "who": "char",
+   "t": "To change the metagenetics of an organism, we do not manipulate only the subject's DNA, but the space between that DNA and the astral plane. We cast the requisite shadows, engendering change that cannot be explained solely by base pairs, alleles, and nucleotides. Control is our challenge. Control is a delicate art: it requires patience and perseverance, as well as scientific acumen."
+  },
+  {
+   "who": "char",
+   "t": "But with a fine enough degree of control, we will be able to replicate magical abilities, trait expression, and 'black swan' effects."
+  }
+ ],
+ "54d501c5306364544f000196_8": [
+  {
+   "who": "char",
+   "t": "What are these 'black swan' traits? Individuals born during events which cause ambient mana to spike have been known to express extreme magical potential and metatraits not possessed by the majority of their metatype."
+  },
+  {
+   "who": "char",
+   "t": "Research into Homo Sapiens Nobilis subjects born during the Awakening, for instance, indicate that ordinary Elven longevity simply does not apply - that there is no upper bound to their telometric regeneration. Effectively, they appear to be immortal."
+  }
+ ],
+ "54d501c5306364544f000196_9": [
+  {
+   "who": "char",
+   "t": "The goal of the Omega Sequence project is to harness and unlock these black swan metatraits, beginning with the question of the longevity factor in Homo Sapiens Nobilis. Treatments for extending human lifespans already exist, of course: organ transplantation can extend life by up to fifty years, and Leonization treatment can theoretically extend life for several hundred."
+  },
+  {
+   "who": "char",
+   "t": "Yet the drawbacks of these are apparent to any who scratch the surface."
+  }
+ ],
+ "54d501c5306364544f000196_11": [
+  {
+   "who": "char",
+   "t": "Omega Sequence #358G represents our most advanced metagenetic prototype yet. Preliminary results indicate that the test clone's age will lock at 19 years, and progress no further. In order to test this, we have induced artificial aging of the clone through our FastGro organ replacement process."
+  },
+  {
+   "who": "char",
+   "t": "Unfortunately, this has lead to an explosive cancer and mutation rate, rendering it non-viable for any other types of metagenetic research. Even so, the value of this test subject cannot be overstated."
   }
  ]
 }

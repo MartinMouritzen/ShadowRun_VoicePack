@@ -1,0 +1,211 @@
+{
+ "_comment": "Hand attribution for Hong Kong's unattributed bucket - lines the extractor could not bind to a speaker. Same shape and same applier as the DMS file. A conversation is only listed when the evidence is IN the lines: the speaker's own stage directions, a name they use, or screen furniture with no actor at all. Everything else stays unattributed on purpose.",
+ "new_characters": [],
+ "convos": {
+  "54fdd9da3430610419004db9": {
+   "cn": "a2_BadQi_s1-CheckInTerminal",
+   "to": "name_computer"
+  },
+  "54fa5ce23430614c0f004dee": {
+   "cn": "a2_BadQi_s1-FireSystemTerminal",
+   "to": "name_computer"
+  },
+  "565370f6626632d423006c5d": {
+   "cn": "MC_a2_StationRun_s1-EvidenceTerminal",
+   "to": "name_computer"
+  },
+  "563a9c5e64366184140001a6": {
+   "cn": "MC_a2_StationRun_s1-Matrix_MailArchive",
+   "to": "name_computer"
+  },
+  "564397ba643661780e006f09": {
+   "cn": "MC_a2_StationRun_s1-PanelForSecondFloorElevator",
+   "to": "name_computer"
+  },
+  "560304c33063643816003264": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3MainDoorTerminal",
+   "to": "name_computer"
+  },
+  "54f8842d3063649c09000127": {
+   "cn": "a2_FalseFlag_s1-1stPublicTerm",
+   "to": "name_computer"
+  },
+  "559c578d303031141700325c": {
+   "cn": "a3_TsangTower_s1-ServitorConsole",
+   "to": "name_computer"
+  },
+  "5584a811303031601e000345": {
+   "cn": "a3_TsangTower_s1-SubBasement_MaintenanceTerminal",
+   "to": "name_computer"
+  },
+  "552c314230636430030050c4": {
+   "cn": "a2_Grendel_s1-GaragePDAInfo",
+   "to": "name_computer"
+  },
+  "566b7ee964366170030042d4": {
+   "cn": "MC_a3_TaiPo_s1-KindlyCall",
+   "to": "name_kindlycheng",
+   "why": "'Hello, dear' over a drink 'the color of overripe plums' - her exact business elsewhere in the pack"
+  },
+  "5536962e3234375434000be4": {
+   "cn": "a2_Extraction_s1-InfoBrokerData",
+   "to": "name_is0bel",
+   "why": "the crew's decker reading a stolen machine: 'She plugs her deck into it and scans the screen'"
+  },
+  "556b68d4383063b01c005620": {
+   "cn": "HK_Hub-a1_ChromeAlley",
+   "to": "name_tenarmedambrose",
+   "why": "the voice on his own shop's door intercom, refusing entry until Nightjar vouches for you"
+  },
+  "56156f3e626632781c0025ed": {
+   "cn": "MC_ARCHIVE",
+   "to": "name_lockupguard",
+   "why": "'You're gonna remain seated until I'm out of the room... I could leave you locked in this box' - the impound jailer"
+  },
+  "5584c4ef623666c42b0054df": {
+   "cn": "HK_Hub-a3_PostRun_TeamConvoInSubwayCar",
+   "to": "name_raymond",
+   "why": "Raymond Black's dementia episode on the way back to Heoi - almost the whole scene is him, and his own stage directions name him throughout ('The old man stares ahead', 'Raymond turns to you, blinking'). Exceptions below: Duncan Wu's four interruptions, Is0bel opening and closing the ride, and eight nodes that are pure narration the writers never wrapped in {{GM}} tags, which the segmenter therefore cannot route to the narrator by itself.",
+   "nodes": {
+    "34": "narrator",
+    "50": "narrator",
+    "61": "narrator",
+    "76": "narrator",
+    "89": "narrator",
+    "92": "narrator",
+    "122": "narrator",
+    "130": "narrator",
+    "106": "name_duncan",
+    "121": "name_duncan",
+    "124": "name_duncan",
+    "138": "name_duncan",
+    "2": "name_is0bel",
+    "136": "name_is0bel"
+   }
+  },
+  "56098865643661c8160012df": {
+   "cn": "MC_Hub_Impound-TeamSafeboatConvo",
+   "to": "name_kindlycheng",
+   "why": "Kindly Cheng on the comm from the safeboat: 'dear' in nearly every line, the drink 'the color of rotten plums' she is always holding, and 'the Yellow Lotus or myself'.",
+   "nodes": {
+    "29": "narrator",
+    "44": "name_racter",
+    "143": "skip",
+    "144": "skip"
+   }
+  },
+  "55a5eef9623666b819004add": {
+   "cn": "a3_Epilogue_s1-BigScreenTV",
+   "to": "name_sunnycheung",
+   "why": "A Horizon News interview. Sunny Cheung asks the questions - the narration calls her 'the newscaster' and her guest thanks her by name - and Councilwoman Josephine Tsang answers.",
+   "nodes": {
+    "2": "name_josephinetsang",
+    "5": "name_josephinetsang",
+    "6": "name_josephinetsang",
+    "8": "name_josephinetsang",
+    "10": "name_josephinetsang"
+   }
+  },
+  "54d501c5306364544f000196": {
+   "cn": "a2_Whistleblower_s1-TestDataComp",
+   "to": "name_computer"
+  },
+  "54f600cd30636414040016c0": {
+   "cn": "a2_FalseFlag_s1-1stOfficeComp",
+   "to": "name_computer"
+  },
+  "54f9e71c30636498130044b1": {
+   "cn": "a2_FalseFlag_s1-2ndTaylorComp",
+   "to": "name_computer"
+  },
+  "54fa209630636430190044d6": {
+   "cn": "a2_FalseFlag_s1-2ndHardinghamComp",
+   "to": "name_computer"
+  },
+  "54fa290d3063643019004546": {
+   "cn": "a2_FalseFlag_s1-2ndOuterLabComp",
+   "to": "name_computer"
+  },
+  "54fe16ea306364c40e004a5d": {
+   "cn": "a2_FalseFlag_s1-2ndLabLaserShutters",
+   "to": "name_computer"
+  },
+  "54fe2ee0343061c8130053e9": {
+   "cn": "a2_BadQi_s1-ElevatorAccessTerminal",
+   "to": "name_computer"
+  },
+  "5500c9a3343061ac1b004de3": {
+   "cn": "a2_BadQi_s1-MainframePowerTerminal",
+   "to": "name_computer"
+  },
+  "552845bc323437943b0066bc": {
+   "cn": "a2_Museum_s1-SecurityOfficeTerminal",
+   "to": "name_computer"
+  },
+  "55393bf1306364bc13007a89": {
+   "cn": "a2_Grendel_s1-VoryPDA",
+   "to": "name_computer"
+  },
+  "55834c0d30303120180000a8": {
+   "cn": "a3_TsangTower_s1-SB_SecurityStationKeypad",
+   "to": "name_computer"
+  },
+  "55847bc2303031201800016e": {
+   "cn": "a3_TsangTower_s1-SB_FirstAidRoomKeypad",
+   "to": "name_computer"
+  },
+  "55946dcd303031e01100856b": {
+   "cn": "a3_TsangTower_s1-Office_NorthDataTerminal",
+   "to": "name_computer"
+  },
+  "559b0021303031281d001b57": {
+   "cn": "a3_TsangTower_s1-MagicLab_SecurityStationKeypad",
+   "to": "name_computer"
+  },
+  "559efc5a303031d41c00654d": {
+   "cn": "a3_TsangTower_s1-MagicLab_MiniLabKeypad",
+   "to": "name_computer"
+  },
+  "55a83fa1303031401e006bb0": {
+   "cn": "a3_TsangTower_s1-ContainmentLabTerminalWithFormula",
+   "to": "name_computer"
+  },
+  "5609b0db3063641833004d4f": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3Comp1",
+   "to": "name_computer"
+  },
+  "5609b4a73063641833004d6d": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3Comp2",
+   "to": "name_computer"
+  },
+  "5609b6333063641833004dad": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3Comp3",
+   "to": "name_computer"
+  },
+  "563936e2306364d40d0078ea": {
+   "cn": "MC_a2_Kidnapping_s1-AptsMatrixKeypad",
+   "to": "name_computer"
+  },
+  "56427445643661901a003b35": {
+   "cn": "MC_a2_StationRun_s1-ArmoryDoorConsole",
+   "to": "name_computer"
+  },
+  "5642776d643661901a003b94": {
+   "cn": "MC_a2_StationRun_s1-MedicalDoorConsole",
+   "to": "name_computer"
+  },
+  "5643e22b3063649c0b008011": {
+   "cn": "MC_a2_Kidnapping_s1-PlazaDroneRoomKeypad",
+   "to": "name_computer"
+  },
+  "5643f47e643661941400680b": {
+   "cn": "MC_a2_StationRun_s1-TrainingCourseNorth",
+   "to": "name_computer"
+  },
+  "564400da643661941400696e": {
+   "cn": "MC_a2_StationRun_s1-TrainingCourseSouth",
+   "to": "name_computer"
+  }
+ },
+ "_terminals_note": "Terminal conversations are attributed to the terminal bucket rather than left unattributed, because unattributed lines are invisible to the lab and silent in the pack. Once they are in a container, build_screen_splits.py parses them like any other screen and moves the human-written parts - Dr. Taylor's and Dr. Hardingham's lab notes, the Eastern Tiger development diaries - to the people who wrote them."
+}

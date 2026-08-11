@@ -2873,6 +2873,12 @@
   "spoken": "No. Can't say that I do. When you see Kindly Cheng, tell the old bitch that I've tendered my resignation.",
   "source": "rules"
  },
+ "5584c4ef623666c42b0054df_138": {
+  "char": "Duncan",
+  "original": "{{GM}}Wu looks down at your hand. Snarls at you.{{/GM}}\n\nThere's a THING in the Walled City, $(l.firstname). A thing *he* brought here!",
+  "spoken": "There's a THING in the Walled City. A thing *he* brought here!",
+  "source": "rules"
+ },
  "54cfdf5b306364a06a008577_25": {
   "char": "Is0bel",
   "original": "Places like this all have one thing in common, $(l.name). The rich bastards who live in 'em always treat the wait staff like crap. I'm thinking that we could use that to our advantage.\n\nYour choice. What should we do first? Sniff around the apartment, or mingle with the idle rich?",
@@ -3285,6 +3291,12 @@
   "char": "Is0bel",
   "original": "So we walk in, and you go right for the food and scarf it down?\n\n{{GM}}Is0bel shakes her head slowly.{{/GM}}\n\nYou're strange, $(l.name). Real strange.",
   "spoken": "So we walk in, and you go right for the food and scarf it down? You're strange. Real strange.",
+  "source": "rules"
+ },
+ "5536962e3234375434000be4_40": {
+  "char": "Is0bel",
+  "original": "C'mon, $(l.name). It's me.",
+  "spoken": "C'mon. It's me.",
   "source": "rules"
  },
  "55369fa7323437682800451d_13": {
@@ -4817,6 +4829,582 @@
   "spoken": "Undersea Research Laboratory \"Namazu\" Gamma Four Annex: Cyberware Implantation Clinic Mail Server: Forums ADMIN:// 1. TIMELINE ON SPECIAL PROJECT? MAINT:// 2. ITEMS MISSING FROM WEAPONS LOCKER",
   "source": "rules"
  },
+ "54f600cd30636414040016c0_5": {
+  "char": "Computer",
+  "original": ">> I don't know why you're having such difficulty understanding our Matrix upgrades, Cheung. I've given you the bypass codes for the blocker IC at least three times already. Maybe you should write them down or something?\n\nAnyway, here they are again. These codes should allow you to bypass the Blocker IC in our secure datastore, and also for security scheduling.\n\n--Cpl. Kwok, Matrix Security Division",
+  "spoken": "I don't know why you're having such difficulty understanding our Matrix upgrades, Cheung. I've given you the bypass codes for the blocker IC at least three times already. Maybe you should write them down or something? Anyway, here they are again. These codes should allow you to bypass the Blocker IC in our secure datastore, and also for security scheduling. --Cpl. Kwok, Matrix Security Division",
+  "source": "rules"
+ },
+ "54f600cd30636414040016c0_6": {
+  "char": "Computer",
+  "original": ">> Don't sass me, Corporal. I wouldn't be in this situation if you hadn't been promising the Matrix upgrades would be complete \"next week\" for the past six months. After four months of waiting, I stopped thinking about it. ",
+  "spoken": "Don't sass me, Corporal. I wouldn't be in this situation if you hadn't been promising the Matrix upgrades would be complete \"next week\" for the past six months. After four months of waiting, I stopped thinking about it.",
+  "source": "rules"
+ },
+ "54f600cd30636414040016c0_7": {
+  "char": "Computer",
+  "original": ">> Now, every time I make a pull request from our depot, that damn IC gets in my persona's face and demands another set of passcodes.\n\nThank you for the bypass codes, though. I'll write them on the back of my hand or something.\n--Dr. Cheung, Ares Asia Research",
+  "spoken": "Now, every time I make a pull request from our depot, that damn IC gets in my persona's face and demands another set of passcodes. Thank you for the bypass codes, though. I'll write them on the back of my hand or something. --Dr. Cheung, Ares Asia Research",
+  "source": "rules"
+ },
+ "54f600cd30636414040016c0_9": {
+  "char": "Computer",
+  "original": ">> Dr. Cheung, I'm concerned about the amount of resources you've requested to pursue Project 2231, particularly because we are Ares ASIA Holdings, not Ares AMERICA. 2231 is an Ares America project, not one of ours. What explanation can you offer for this request? How can it be justified?\n\n--Director Hui, Ares Asia Finance",
+  "spoken": "Dr. Cheung, I'm concerned about the amount of resources you've requested to pursue Project 2231, particularly because we are Ares ASIA Holdings, not Ares AMERICA. 2231 is an Ares America project, not one of ours. What explanation can you offer for this request? How can it be justified? --Director Hui, Ares Asia Finance",
+  "source": "rules"
+ },
+ "54f600cd30636414040016c0_10": {
+  "char": "Computer",
+  "original": ">> I understand your concerns, director, but you should be aware that ALL divisions of Ares Macrotechnology have been ordered to support Project 2231 where possible. Dr. Taylor and Dr. Hardingham are particularly interested in testing their prototype in support of Project 2231. I am simply requesting enough manpower to find suitable subjects to test the prototype against. \n\n--Dr. Cheung, Ares Asia Research",
+  "spoken": "I understand your concerns, director, but you should be aware that ALL divisions of Ares Macrotechnology have been ordered to support Project 2231 where possible. Dr. Taylor and Dr. Hardingham are particularly interested in testing their prototype in support of Project 2231. I am simply requesting enough manpower to find suitable subjects to test the prototype against. --Dr. Cheung, Ares Asia Research",
+  "source": "rules"
+ },
+ "54f600cd30636414040016c0_11": {
+  "char": "Computer",
+  "original": ">> The risk involved in local research is unacceptable at this time. This is the entire reason the bulk of 2231-related research takes place at Complex 68G - and why 68G is in the middle of the frozen tundra. I would be willing to divert additional engineers for Taylor and Hardingham's project, if they would be willing to create another prototype with the intent of shipping it to Complex 68G.\n\n--Director Hui, Ares Asia Finance",
+  "spoken": "The risk involved in local research is unacceptable at this time. This is the entire reason the bulk of 2231-related research takes place at Complex 68G - and why 68G is in the middle of the frozen tundra. I would be willing to divert additional engineers for Taylor and Hardingham's project, if they would be willing to create another prototype with the intent of shipping it to Complex 68G. --Director Hui, Ares Asia Finance",
+  "source": "rules"
+ },
+ "54f600cd30636414040016c0_12": {
+  "char": "Computer",
+  "original": ">> I'll talk to them about it, Director. If you think it's not possible any other way, I'll impress that upon them.\n\n--Dr. Cheung, Ares Asia Research",
+  "spoken": "I'll talk to them about it, Director. If you think it's not possible any other way, I'll impress that upon them. --Dr. Cheung, Ares Asia Research",
+  "source": "rules"
+ },
+ "54f8842d3063649c09000127_1": {
+  "char": "Computer",
+  "original": ">> Welcome to Ares Asia Holdings. Please note, all activity on public terminals is logged and recorded for security purposes.\n\nPlease state your query.",
+  "spoken": "Welcome to Ares Asia Holdings. Please note, all activity on public terminals is logged and recorded for security purposes. Please state your query.",
+  "source": "rules"
+ },
+ "54f8842d3063649c09000127_4": {
+  "char": "Computer",
+  "original": ">> Dr. Taylor, P. \n\ntaylor_p@aresasia.HKCentral.HKFEZ\n\nDrone Automation Division, Floor 27. ",
+  "spoken": "Dr. Taylor, P. taylor_p@aresasia.HKCentral.HKFEZ Drone Automation Division, Floor 27.",
+  "source": "rules"
+ },
+ "54f8842d3063649c09000127_5": {
+  "char": "Computer",
+  "original": ">> Biography: \n\nDr. Taylor has transferred to the Hong Kong offices of Ares Asia Holdings from his previous post in London, with Ares Europe. Dr. Taylor's research focuses primarily on drone weapons technology, although previous work has centered on cryogenics technology and the impact of the Matrix on social structures and human development.",
+  "spoken": "Biography: Dr. Taylor has transferred to the Hong Kong offices of Ares Asia Holdings from his previous post in London, with Ares Europe. Dr. Taylor's research focuses primarily on drone weapons technology, although previous work has centered on cryogenics technology and the impact of the Matrix on social structures and human development.",
+  "source": "rules"
+ },
+ "54f8842d3063649c09000127_6": {
+  "char": "Computer",
+  "original": ">>Current Research:\n\nDr. Taylor is joint chair of the Ares Asia Drone Research Laboratories with Dr. Ian Hardingham. Current projects include expansion of the Hangzhou Bay tidal power system, a proposal to expand the Hong Kong MTR maintenance program, and further research into machine learning.",
+  "spoken": "Current Research: Dr. Taylor is joint chair of the Ares Asia Drone Research Laboratories with Dr. Ian Hardingham. Current projects include expansion of the Hangzhou Bay tidal power system, a proposal to expand the Hong Kong MTR maintenance program, and further research into machine learning.",
+  "source": "rules"
+ },
+ "54f8842d3063649c09000127_7": {
+  "char": "Computer",
+  "original": ">> Dr. Hardingham, I. \n\nhardhingam_i@aresasia.HKCentral.HKFEZ\n\nAdvanced Drone Weaponry Division, Floor 27. ",
+  "spoken": "Dr. Hardingham, I. hardhingam_i@aresasia.HKCentral.HKFEZ Advanced Drone Weaponry Division, Floor 27.",
+  "source": "rules"
+ },
+ "54f8842d3063649c09000127_8": {
+  "char": "Computer",
+  "original": ">> Biography: \n\nDr. Hardhingham has transferred to the Hong Kong offices of Ares Asia Holdings from his previous post in London, with Ares Europe. Dr. Hardingham holds advanced degrees in weapons design, mechanical engineering, and holds several patents in the field of artificial intelligence research.",
+  "spoken": "Biography: Dr. Hardhingham has transferred to the Hong Kong offices of Ares Asia Holdings from his previous post in London, with Ares Europe. Dr. Hardingham holds advanced degrees in weapons design, mechanical engineering, and holds several patents in the field of artificial intelligence research.",
+  "source": "rules"
+ },
+ "54f8842d3063649c09000127_9": {
+  "char": "Computer",
+  "original": ">>Current Research:\n\nAs joint chair of the Ares Asia Drone Research Laboratories, Dr. Hardingham's duties are primarily related to the research and development of new artificial intelligence solutions that will keep Ares Macrotechnology competitive in this rapidly changing world. While the specific work of the Drone Research Laboratories is classified, previous efforts have been centered around self-repairing machinery, robotic game theory, and collective machine learning.",
+  "spoken": "Current Research: As joint chair of the Ares Asia Drone Research Laboratories, Dr. Hardingham's duties are primarily related to the research and development of new artificial intelligence solutions that will keep Ares Macrotechnology competitive in this rapidly changing world. While the specific work of the Drone Research Laboratories is classified, previous efforts have been centered around self-repairing machinery, robotic game theory, and collective machine learning.",
+  "source": "rules"
+ },
+ "54f9e71c30636498130044b1_0": {
+  "char": "Computer",
+  "original": ">>User: Dr. Taylor, P.\n\nAres Asia Holdings wishes you a productive day.",
+  "spoken": "User: Dr. Taylor, P. Ares Asia Holdings wishes you a productive day.",
+  "source": "rules"
+ },
+ "54f9e71c30636498130044b1_2": {
+  "char": "Computer",
+  "original": ">>\"Redline\" Prototype directory active. Authorized users only.\nRemember: security is everyone's business.\n\nEnter query.",
+  "spoken": "\"Redline\" Prototype directory active. Authorized users only. Remember: security is everyone's business. Enter query.",
+  "source": "rules"
+ },
+ "54f9e71c30636498130044b1_13": {
+  "char": "Computer",
+  "original": ">>Ares Asia Holdings integrated email system.\n\"Security. Safety. Progress.\"\n\nEnter query.",
+  "spoken": "Ares Asia Holdings integrated email system. \"Security. Safety. Progress.\" Enter query.",
+  "source": "rules"
+ },
+ "54f9e71c30636498130044b1_17": {
+  "char": "Computer",
+  "original": ">> They changed your door code while you were out on vacation. The chips got a little fried when someone forgot to close the shutters in the laser lab when they were testing one of the new emitters. It's 23847.",
+  "spoken": "They changed your door code while you were out on vacation. The chips got a little fried when someone forgot to close the shutters in the laser lab when they were testing one of the new emitters. It's 23847.",
+  "source": "rules"
+ },
+ "54fa209630636430190044d6_0": {
+  "char": "Computer",
+  "original": ">>User: Dr. Hardingham, I. \n\nAres Asia Holdings wishes you a productive day.",
+  "spoken": "User: Dr. Hardingham, I. Ares Asia Holdings wishes you a productive day.",
+  "source": "rules"
+ },
+ "54fa209630636430190044d6_1": {
+  "char": "Computer",
+  "original": ">>\"Redline\" Prototype directory active. Authorized users only.\nRemember: security is everyone's business.\n\nEnter query.",
+  "spoken": "\"Redline\" Prototype directory active. Authorized users only. Remember: security is everyone's business. Enter query.",
+  "source": "rules"
+ },
+ "54fa209630636430190044d6_10": {
+  "char": "Computer",
+  "original": "{{GM}}These appear to be Dr. Hardingham's notes on attaching the prototype to security drones.{{/GM}}\n\n>> Things proceed apace. Assuming a standard medium drone like the Inquisitor or Rover 9230 models, the drone provides sufficient power to enable the prototype effectively unlimited bursts, though there's a thirty second charge time if the capacitors are drained rapidly. The small size of the emitter lens also means that the prototype can be mounted modularly or internally as the platform dictates.",
+  "spoken": "Things proceed apace. Assuming a standard medium drone like the Inquisitor or Rover 9230 models, the drone provides sufficient power to enable the prototype effectively unlimited bursts, though there's a thirty second charge time if the capacitors are drained rapidly. The small size of the emitter lens also means that the prototype can be mounted modularly or internally as the platform dictates.",
+  "source": "rules"
+ },
+ "54fa209630636430190044d6_11": {
+  "char": "Computer",
+  "original": ">> For smaller drone sizes, the output is more restricted but still valuable - charge times increase to between two and five minutes assuming standard battery power. This does, unfortunately, reduce the drones loiter time. Each shot reduces the loiter time by approximately two and a half minutes - more than enough for a sustained engagement, but something we'll want to keep an eye on.",
+  "spoken": "For smaller drone sizes, the output is more restricted but still valuable - charge times increase to between two and five minutes assuming standard battery power. This does, unfortunately, reduce the drones loiter time. Each shot reduces the loiter time by approximately two and a half minutes - more than enough for a sustained engagement, but something we'll want to keep an eye on.",
+  "source": "rules"
+ },
+ "54fa290d3063643019004546_22": {
+  "char": "Computer",
+  "original": "> Recent Messages\n\nAttention: all information contained herein is considered SECRET/ORCON. Duplication of files forbidden. Authorized eyes only.\n\nSelect file.",
+  "spoken": "Recent Messages Attention: all information contained herein is considered SECRET/ORCON. Duplication of files forbidden. Authorized eyes only. Select file.",
+  "source": "rules"
+ },
+ "54fa290d3063643019004546_24": {
+  "char": "Computer",
+  "original": "> Can't stinking believe it, Jung. After spending all that time and money tracking down tickets to the 2060 Neo-Tokyo Olympics... The OIC's cancelled them entirely. Some crap about not having enough participants. I guess a ton of countries pulled out in protest over Japan's treatment of metahumans and the way they've handled their holdings in California.",
+  "spoken": "Can't stinking believe it, Jung. After spending all that time and money tracking down tickets to the 2060 Neo-Tokyo Olympics... The OIC's cancelled them entirely. Some crap about not having enough participants. I guess a ton of countries pulled out in protest over Japan's treatment of metahumans and the way they've handled their holdings in California.",
+  "source": "rules"
+ },
+ "54fe16ea306364c40e004a5d_0": {
+  "char": "Computer",
+  "original": ">>Laser Laboratory Shutter Controls\n\nShutters MUST be closed during energy emittance testing. Failure to close shutters is grounds for immediate disciplinary action!",
+  "spoken": "Laser Laboratory Shutter Controls Shutters MUST be closed during energy emittance testing. Failure to close shutters is grounds for immediate disciplinary action!",
+  "source": "rules"
+ },
+ "552c314230636430030050c4_1": {
+  "char": "Computer",
+  "original": ">> Nadir O.S. 3.11 Email Client\n\nPlease select a file.",
+  "spoken": "Nadir O.S. 3.11 Email Client Please select a file.",
+  "source": "rules"
+ },
+ "55393bf1306364bc13007a89_1": {
+  "char": "Computer",
+  "original": ">> Nadir O.S. 3.11 Email Client\n\nPlease select a file.",
+  "spoken": "Nadir O.S. 3.11 Email Client Please select a file.",
+  "source": "rules"
+ },
+ "5584a811303031601e000345_2": {
+  "char": "Computer",
+  "original": "{{GM}}>>URGENT\n>>*Yung, Thomas*\n>>to: Maintenance Office{{/GM}}\n\nLi,\n\nI need you to get your team together and fix the climate turbine. Make it top priority.",
+  "spoken": "Li, I need you to get your team together and fix the climate turbine. Make it top priority.",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_0": {
+  "char": "Computer",
+  "original": "> Undersea Research Laboratory \"Namazu\"\n> Virology Containment Laboratory\n>>SYSTEMS ADMINISTRATION\n\nWelcome, DR. TANG.\nPlease select from the following options:",
+  "spoken": "Undersea Research Laboratory \"Namazu\" Virology Containment Laboratory SYSTEMS ADMINISTRATION Welcome, DR. TANG. Please select from the following options:",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_1": {
+  "char": "Computer",
+  "original": ">> ACCESSING CREDENTIALS...",
+  "spoken": "ACCESSING CREDENTIALS...",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_2": {
+  "char": "Computer",
+  "original": ">> USER: Dr. Tang, Janet C.\n>> SECURITY LEVEL: Omega-4\n\n>> Command accepted. Interlocks now disengaged.",
+  "spoken": "USER: Dr. Tang, Janet C. SECURITY LEVEL: Omega-4 Command accepted. Interlocks now disengaged.",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_3": {
+  "char": "Computer",
+  "original": ">> Disconnecting the subjects may result in a premature termination of program Silver Dream.",
+  "spoken": "Disconnecting the subjects may result in a premature termination of program Silver Dream.",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_5": {
+  "char": "Computer",
+  "original": "{{GM}}A word at the bottom of the window stands out from the rest in bold red text.{{/GM}}\n\n>> Proceed?",
+  "spoken": "Proceed?",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_6": {
+  "char": "Computer",
+  "original": ">> PROCESSING...\n\n>> Subjects disconnected.",
+  "spoken": "PROCESSING... Subjects disconnected.",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_7": {
+  "char": "Computer",
+  "original": ">> A lockdown of the Silver Dream pods will render the subjects inaccessible until admin-level unlocking procedures are initiated.\n\n>> Proceed?",
+  "spoken": "A lockdown of the Silver Dream pods will render the subjects inaccessible until admin-level unlocking procedures are initiated. Proceed?",
+  "source": "rules"
+ },
+ "5609b0db3063641833004d4f_8": {
+  "char": "Computer",
+  "original": ">> PROCESSING...\n\n>> Silver Dream pods sealed.",
+  "spoken": "PROCESSING... Silver Dream pods sealed.",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_0": {
+  "char": "Computer",
+  "original": "> Undersea Research Laboratory \"Namazu\"\n> Virology Containment Laboratory\n>>SYSTEMS ADMINISTRATION\n\nWelcome, DR. TANG.\nPlease select from the following options:",
+  "spoken": "Undersea Research Laboratory \"Namazu\" Virology Containment Laboratory SYSTEMS ADMINISTRATION Welcome, DR. TANG. Please select from the following options:",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_1": {
+  "char": "Computer",
+  "original": ">> Command selected.\n\n>> Are you sure you want to override the Simsense feeds? This may cause erratic connectivity issues to subjects inside the Matrix.",
+  "spoken": "Command selected. Are you sure you want to override the Simsense feeds? This may cause erratic connectivity issues to subjects inside the Matrix.",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_2": {
+  "char": "Computer",
+  "original": ">> PROCESSING...\n\n>> Simsense feeds overridden.",
+  "spoken": "PROCESSING... Simsense feeds overridden.",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_3": {
+  "char": "Computer",
+  "original": ">> Disconnecting the subjects may result in a premature termination of program Silver Dream.",
+  "spoken": "Disconnecting the subjects may result in a premature termination of program Silver Dream.",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_5": {
+  "char": "Computer",
+  "original": "{{GM}}A word at the bottom of the window stands out from the rest in bolded red font.{{/GM}}\n\n>> Proceed?",
+  "spoken": "Proceed?",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_6": {
+  "char": "Computer",
+  "original": ">> PROCESSING...\n\n>> Subjects disconnected.",
+  "spoken": "PROCESSING... Subjects disconnected.",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_7": {
+  "char": "Computer",
+  "original": ">> A lockdown of the Silver Dream pods will render the subjects inaccessible until admin-level unlocking procedures are initiated.\n\n>> Proceed?",
+  "spoken": "A lockdown of the Silver Dream pods will render the subjects inaccessible until admin-level unlocking procedures are initiated. Proceed?",
+  "source": "rules"
+ },
+ "5609b4a73063641833004d6d_8": {
+  "char": "Computer",
+  "original": ">> PROCESSING...\n\n>> Silver Dream pods sealed.",
+  "spoken": "PROCESSING... Silver Dream pods sealed.",
+  "source": "rules"
+ },
+ "5609b6333063641833004dad_0": {
+  "char": "Computer",
+  "original": "> Undersea Research Laboratory \"Namazu\"\n> Virology Containment Laboratory\n>>MATRIX ACCESS TERMINAL\n\nWelcome, DR. TANG.",
+  "spoken": "Undersea Research Laboratory \"Namazu\" Virology Containment Laboratory MATRIX ACCESS TERMINAL Welcome, DR. TANG.",
+  "source": "rules"
+ },
+ "563936e2306364d40d0078ea_1": {
+  "char": "Computer",
+  "original": "> Greetings, user NAKATOMI, SHIKEI.\n> Priority Override Granted\n\n> Door Status: UNLOCKED",
+  "spoken": "Greetings, user NAKATOMI, SHIKEI. Priority Override Granted Door Status: UNLOCKED",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_1": {
+  "char": "Computer",
+  "original": ">>Hey, could you hook me up with Matrix-based access to the infirmary and the armory? I'm sick of using the biometric locks, they take forever.\n\n--Mui, Vincent | Data Analyst",
+  "spoken": "Hey, could you hook me up with Matrix-based access to the infirmary and the armory? I'm sick of using the biometric locks, they take forever. --Mui, Vincent | Data Analyst",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_2": {
+  "char": "Computer",
+  "original": ">>You know the regs, Mui. We use the biometrics for a reason.\n\n--Ma, Amber | Matrix Security Specialist",
+  "spoken": "You know the regs, Mui. We use the biometrics for a reason. --Ma, Amber | Matrix Security Specialist",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_3": {
+  "char": "Computer",
+  "original": ">>Oh, come on. Everybody knows that you Matrix Security guys bypass the biometrics all the time. Hell, I've watched Shiu go waltzing into the infirmary with a wave of her PDA - no retinal scan, no thumb on the reader, nothing.\n\n--Mui, Vincent | Data Analyst",
+  "spoken": "Oh, come on. Everybody knows that you Matrix Security guys bypass the biometrics all the time. Hell, I've watched Shiu go waltzing into the infirmary with a wave of her PDA - no retinal scan, no thumb on the reader, nothing. --Mui, Vincent | Data Analyst",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_4": {
+  "char": "Computer",
+  "original": ">>...\n\n--Ma, Amber | Matrix Security Specialist",
+  "spoken": "... --Ma, Amber | Matrix Security Specialist",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_5": {
+  "char": "Computer",
+  "original": ">>So what's it gonna hurt for one guy from Data Analysis to do the same? You know me, I'm at least as trustworthy as Shiu, security clearance or no.\n\n--Mui, Vincent | Data Analyst",
+  "spoken": "So what's it gonna hurt for one guy from Data Analysis to do the same? You know me, I'm at least as trustworthy as Shiu, security clearance or no. --Mui, Vincent | Data Analyst",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_6": {
+  "char": "Computer",
+  "original": ">>...\n\n--Ma, Amber | Matrix Security Specialist",
+  "spoken": "... --Ma, Amber | Matrix Security Specialist",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_7": {
+  "char": "Computer",
+  "original": ">>I'll let you drive my '45 776TI.\n\n--Mui, Vincent | Data Analyst",
+  "spoken": "I'll let you drive my '45 776TI. --Mui, Vincent | Data Analyst",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_8": {
+  "char": "Computer",
+  "original": ">>DEAL! The codes are attached to this chat.\n\n--Ma, Amber | Matrix Security Specialist",
+  "spoken": "DEAL! The codes are attached to this chat. --Ma, Amber | Matrix Security Specialist",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_9": {
+  "char": "Computer",
+  "original": ">>That's what I love about you, Ma - you can always be counted on to listen to reason.\n\n--Mui, Vincent | Data Analyst",
+  "spoken": "That's what I love about you, Ma - you can always be counted on to listen to reason. --Mui, Vincent | Data Analyst",
+  "source": "rules"
+ },
+ "563a9c5e64366184140001a6_10": {
+  "char": "Computer",
+  "original": ">>Save it. I'm going to do indecent things to that beautiful ride of yours when we get it out on the track.\n>>Oh, and Mui... for the love of all that is holy, delete this chat log. Nobody can know that I did this for you.\n\n--Ma, Amber | Matrix Security Specialist",
+  "spoken": "Save it. I'm going to do indecent things to that beautiful ride of yours when we get it out on the track. Oh, and Mui... for the love of all that is holy, delete this chat log. Nobody can know that I did this for you. --Ma, Amber | Matrix Security Specialist",
+  "source": "rules"
+ },
+ "56427445643661901a003b35_0": {
+  "char": "Computer",
+  "original": "{{GM}}The terminal's screen glows cheerfully as you take your place at the keyboard.{{/GM}}\n\n>>>SDU_ARMORY",
+  "spoken": "SDU_ARMORY",
+  "source": "rules"
+ },
+ "5642776d643661901a003b94_0": {
+  "char": "Computer",
+  "original": "{{GM}}The terminal's screen glows cheerfully as you take your place at the keyboard.{{/GM}}\n\n>>>SDU_MEDICAL",
+  "spoken": "SDU_MEDICAL",
+  "source": "rules"
+ },
+ "5643e22b3063649c0b008011_1": {
+  "char": "Computer",
+  "original": "> Greetings, user NAKATOMI, SHIKEI.\n> Priority Override Granted!\n\n> Door opening.",
+  "spoken": "Greetings, user NAKATOMI, SHIKEI. Priority Override Granted! Door opening.",
+  "source": "rules"
+ },
+ "5643f47e643661941400680b_2": {
+  "char": "Computer",
+  "original": ">>N. Turret System :: ONLINE\n>>FoF Targeting :: ACTIVE\n>>Safety Interlocks :: ENGAGED\n>>Turret Status: TRAINING MODE\n\nSafety Interlocks may be disengaged via local Matrix access.",
+  "spoken": "N. Turret System :: ONLINE FoF Targeting :: ACTIVE Safety Interlocks :: ENGAGED Turret Status: TRAINING MODE Safety Interlocks may be disengaged via local Matrix access.",
+  "source": "rules"
+ },
+ "5643f47e643661941400680b_3": {
+  "char": "Computer",
+  "original": ">>N. Turret System :: ONLINE\n>>FoF Targeting :: ACTIVE\n>>Safety Interlocks :: DISENGAGED\n>>Turret Status :: DEFENSIVE MODE\n\nSafety Interlocks may be engaged via local Matrix access.",
+  "spoken": "N. Turret System :: ONLINE FoF Targeting :: ACTIVE Safety Interlocks :: DISENGAGED Turret Status :: DEFENSIVE MODE Safety Interlocks may be engaged via local Matrix access.",
+  "source": "rules"
+ },
+ "5643f47e643661941400680b_4": {
+  "char": "Computer",
+  "original": ">>N. Launcher System :: ONLINE\n\n>>WARNING! SAFETY OVERRIDES DISENGAGED!\n>>WARNING! AMMO FEED EMPTY!\nPlease reload launchers via manual ammo hopper feed.",
+  "spoken": "N. Launcher System :: ONLINE WARNING! SAFETY OVERRIDES DISENGAGED! WARNING! AMMO FEED EMPTY! Please reload launchers via manual ammo hopper feed.",
+  "source": "rules"
+ },
+ "5643f47e643661941400680b_5": {
+  "char": "Computer",
+  "original": ">>N. Launcher System :: ONLINE",
+  "spoken": "N. Launcher System :: ONLINE",
+  "source": "rules"
+ },
+ "564400da643661941400696e_2": {
+  "char": "Computer",
+  "original": ">>S. Turret System :: ONLINE\n>>FoF Targeting :: ACTIVE\n>>Safety Interlocks :: ENGAGED\n>>Turret Status: TRAINING MODE\n\nSafety Interlocks may be disengaged via local Matrix access.",
+  "spoken": "S. Turret System :: ONLINE FoF Targeting :: ACTIVE Safety Interlocks :: ENGAGED Turret Status: TRAINING MODE Safety Interlocks may be disengaged via local Matrix access.",
+  "source": "rules"
+ },
+ "564400da643661941400696e_3": {
+  "char": "Computer",
+  "original": ">>S. Turret System :: ONLINE\n>>FoF Targeting :: ACTIVE\n>>Safety Interlocks :: DISENGAGED\n>>Turret Status :: DEFENSIVE MODE\n\nSafety Interlocks may be engaged via local Matrix access.",
+  "spoken": "S. Turret System :: ONLINE FoF Targeting :: ACTIVE Safety Interlocks :: DISENGAGED Turret Status :: DEFENSIVE MODE Safety Interlocks may be engaged via local Matrix access.",
+  "source": "rules"
+ },
+ "564400da643661941400696e_4": {
+  "char": "Computer",
+  "original": ">>S. Launcher System :: ONLINE\n\n>>WARNING! SAFETY OVERRIDES DISENGAGED!\n>>WARNING! AMMO FEED EMPTY!\n>>Please reload launchers via manual ammo hopper feed.",
+  "spoken": "S. Launcher System :: ONLINE WARNING! SAFETY OVERRIDES DISENGAGED! WARNING! AMMO FEED EMPTY! Please reload launchers via manual ammo hopper feed.",
+  "source": "rules"
+ },
+ "564400da643661941400696e_5": {
+  "char": "Computer",
+  "original": ">>S. Launcher System :: ONLINE",
+  "spoken": "S. Launcher System :: ONLINE",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_1": {
+  "char": "Computer",
+  "original": ">>HONG KONG POLICE FORCE::DEPARTMENTAL EVIDENCE DATABASE\n>>ABERDEEN STATION\n>\n>\n>\n>\n>\n>Press any key to begin.",
+  "spoken": "HONG KONG POLICE FORCE::DEPARTMENTAL EVIDENCE DATABASE ABERDEEN STATION Press any key to begin.",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_3": {
+  "char": "Computer",
+  "original": ">>DEPARTMENTAL EVIDENCE DATABASE::DATABASE SEARCH\n>\n>\n>\n>\n>\n>\n>>Please enter search term:: \"\"",
+  "spoken": "DEPARTMENTAL EVIDENCE DATABASE::DATABASE SEARCH Please enter search term:: \"\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_5": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Project Zeta\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Project Zeta\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_6": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"project zeta\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"project zeta\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_7": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Krait\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Krait\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_8": {
+  "char": "Computer",
+  "original": ">>File not found.\n\n>>Volume in Drive C has no label.\n>>Volume Serial Number is 15ZZ24-HK917\n\n>>0 File(s) :: 0 Dir(s)",
+  "spoken": "File not found. Volume in Drive C has no label. Volume Serial Number is 15ZZ24-HK917 0 File(s) :: 0 Dir(s)",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_28": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"krait\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"krait\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_29": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"hkpf\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"hkpf\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_30": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Krait\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Krait\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_31": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"SDU\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"SDU\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_32": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"sdu\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"sdu\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_33": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Tsang\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Tsang\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_34": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"tsang\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"tsang\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_35": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Josephine Tsang\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Josephine Tsang\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_36": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"josephine tsang\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"josephine tsang\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_37": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Evidence\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Evidence\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_38": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"evidence\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"evidence\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_39": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Police\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Police\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_40": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"police\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"police\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_41": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Corruption\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Corruption\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_42": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"corruption\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"corruption\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_43": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Client\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Client\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_44": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"client\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"client\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_45": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Qiu\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Qiu\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_46": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"qiu\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"qiu\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_47": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Lam\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Lam\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_48": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"lam\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"lam\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_49": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"Records\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"Records\"",
+  "source": "rules"
+ },
+ "565370f6626632d423006c5d_50": {
+  "char": "Computer",
+  "original": ">>Searching C:\\ for term :: \"records\"\n>\n>\n>\n>\n>\n>\n>\n>",
+  "spoken": "Searching C:\\ for term :: \"records\"",
+  "source": "rules"
+ },
  "54c696f3303031301d005190_32": {
   "char": "Kindly Cheng",
   "original": "And have you got a first name, $(l.lastname)? A profession?\n\nI mean, you do want me to erase your identities, don't you, dear? \n\nI'll need to know who you are first. ",
@@ -5584,6 +6172,30 @@
   "original": "For your part, the rules are the same as they were when we spoke on the comm. Stay alive. Don't trust the cops.\n\nAnd above all, don't fuck it up.",
   "spoken": "For your part, the rules are the same as they were when we spoke on the comm. Stay alive. Don't trust the cops. And above all, don't fuck it up.",
   "source": "screen-speaker"
+ },
+ "56098865643661c8160012df_18": {
+  "char": "Kindly Cheng",
+  "original": "$(l.name). A pleasure to see you, dear - I've been worried sick.\n\n{{GM}}She swills something the color of rotten plums out of a highball glass.{{/GM}}\n\nNow. Would you kindly tell me where the fuck you've been?",
+  "spoken": "A pleasure to see you, dear - I've been worried sick. Now. Would you kindly tell me where the fuck you've been?",
+  "source": "rules"
+ },
+ "56098865643661c8160012df_35": {
+  "char": "Kindly Cheng",
+  "original": "You're already in their custody, dear. It couldn't do any harm for you to play along.\n\nJust be smart, $(l.name). Do nothing that could endanger the Yellow Lotus or myself, and report back to me if you see anything that could constitute a threat.\n\nAbove all, keep your eyes open. And don't trust this task force of yours, whatever you do. ",
+  "spoken": "You're already in their custody, dear. It couldn't do any harm for you to play along. Just be smart. Do nothing that could endanger the Yellow Lotus or myself, and report back to me if you see anything that could constitute a threat. Above all, keep your eyes open. And don't trust this task force of yours, whatever you do.",
+  "source": "rules"
+ },
+ "566b7ee964366170030042d4_19": {
+  "char": "Kindly Cheng",
+  "original": "{{GM}}She raises her glass to the screen, and her voice goes cold.{{/GM}}\n\nYou've heard my offer, $(l.name). And you know what I'm willing to pay.\n\nI pray that you make the right decision, for all of our sakes.",
+  "spoken": "You've heard my offer. And you know what I'm willing to pay. I pray that you make the right decision, for all of our sakes.",
+  "source": "rules"
+ },
+ "566b7ee964366170030042d4_21": {
+  "char": "Kindly Cheng",
+  "original": "{{GM}}She makes a visible effort to calm herself.{{/GM}}\n\n$(l.name), dear... when you burn the warehouse, see to it that Qiu understands what it means to cross the Yellow Lotus.\n\nWhat it means to cost us *money.*",
+  "spoken": "dear... when you burn the warehouse, see to it that Qiu understands what it means to cross the Yellow Lotus. What it means to cost us *money.*",
+  "source": "rules"
  },
  "54d545e23030312c0c00300c_18": {
   "char": "Ten-Armed Ambrose",
@@ -8674,6 +9286,12 @@
   "original": "{{GM}}Vasilisa snorts derisively.{{/GM}}\n\nYou think we'll let you do that? You seemed smarter than that.\n\nKill $(l.him).",
   "spoken": "You think we'll let you do that? You seemed smarter than that. Kill them.",
   "source": "rules"
+ },
+ "55393bf1306364bc13007a89_4": {
+  "char": "Vasilisa",
+  "original": "Hey, Yaroslav... Aleksandr's still not back from his scouting trip yet. He said he found a stockroom behind Mrs. Yang's Jade Mountain restaurant. There were also a bunch of keycards for it - belonged to some woman named Magpie. He's out through it now. We can't just leave him behind! Can't you delay this hand-off a few more hours?\n\n-Vasilisa",
+  "spoken": "Hey, Yaroslav... Aleksandr's still not back from his scouting trip yet. He said he found a stockroom behind Mrs. Yang's Jade Mountain restaurant. There were also a bunch of keycards for it - belonged to some woman named Magpie. He's out through it now. We can't just leave him behind! Can't you delay this hand-off a few more hours?",
+  "source": "screen-speaker"
  },
  "555a76a5323431800800153f_22": {
   "char": "Red Pole Triad",
@@ -12507,6 +13125,294 @@
   "char": "Tzi Wing",
   "original": "I don't know what's happening with this machine. I don't know where it came from, or how, or why. But it's a part of DeckCon. Nobody can get rid of it. Nobody knows how it works. It just does, and people keep coming back to visit it.\n\nI think that this is a blessing in disguise. That's what I'm telling myself, anyway. Just... don't question it, and everything will be okay.\n\n- Wing, Tzi",
   "spoken": "I don't know what's happening with this machine. I don't know where it came from, or how, or why. But it's a part of DeckCon. Nobody can get rid of it. Nobody knows how it works. It just does, and people keep coming back to visit it. I think that this is a blessing in disguise. That's what I'm telling myself, anyway. Just... don't question it, and everything will be okay. - Wing, Tzi",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_3": {
+  "char": "Dr. I. Hardingham",
+  "original": "Preliminary reports aren't good. We can miniaturize the aperture and emission array from the MP Laser III, and it's definitely possible to get down to a handheld size, but that's never been a problem. \n\nEnergy density is the core concern. Our batteries just aren't up to snuff if we shrink them down to pistol size. ",
+  "spoken": "Preliminary reports aren't good. We can miniaturize the aperture and emission array from the MP Laser III, and it's definitely possible to get down to a handheld size, but that's never been a problem. Energy density is the core concern. Our batteries just aren't up to snuff if we shrink them down to pistol size.",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_4": {
+  "char": "Dr. I. Hardingham",
+  "original": "Without the MP Laser III's battery pack, we'll be lucky if we ever find a way to break six or seven shots. It's a terrible problem, and one the boys over in Materials Science have been dragging their feet on.\n\nI've been checking into using some of the new dual-phase batteries, but the cost seems prohibitive.",
+  "spoken": "Without the MP Laser III's battery pack, we'll be lucky if we ever find a way to break six or seven shots. It's a terrible problem, and one the boys over in Materials Science have been dragging their feet on. I've been checking into using some of the new dual-phase batteries, but the cost seems prohibitive.",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_5": {
+  "char": "Dr. I. Hardingham",
+  "original": " I've made a note to Director Hui asking if we could get some help from Ares Arms Europe - the Firelance research team's made a great deal of headway using staged graphene capacitors. Maybe there's something we could learn from them.\n\n-Hardingham",
+  "spoken": "I've made a note to Director Hui asking if we could get some help from Ares Arms Europe - the Firelance research team's made a great deal of headway using staged graphene capacitors. Maybe there's something we could learn from them.",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_12": {
+  "char": "Dr. I. Hardingham",
+  "original": ">> I believe we can increase efficiency in these cases by including a supercooling medium - liquid nitrogen or the like - to reduce the heat pump's draw from the power systems. Maybe something like we worked out for the Sentinel P Series berths.\n\n-Dr. Hardingham",
+  "spoken": "I believe we can increase efficiency in these cases by including a supercooling medium - liquid nitrogen or the like - to reduce the heat pump's draw from the power systems. Maybe something like we worked out for the Sentinel P Series berths.",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_13": {
+  "char": "Dr. I. Hardingham",
+  "original": ">>Ares Asia Holdings integrated email system.\n\"Security. Safety. Progress.\"\n\nEnter query.",
+  "spoken": "Ares Asia Holdings integrated email system. \"Security. Safety. Progress.\" Enter query.",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_14": {
+  "char": "Dr. I. Hardingham",
+  "original": ">> Taylor, I don't think you're taking this security breach seriously enough. A bloody troll tried to waltz into the building not just once, but twice. He beat up some of the bullyboys downstairs, and he's definitely after our work. And you want to waltz off to the pub like nothing's happened? At least go in a group, man!\n\n-Hardingham",
+  "spoken": "Taylor, I don't think you're taking this security breach seriously enough. A bloody troll tried to waltz into the building not just once, but twice. He beat up some of the bullyboys downstairs, and he's definitely after our work. And you want to waltz off to the pub like nothing's happened? At least go in a group, man!",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_15": {
+  "char": "Dr. I. Hardingham",
+  "original": ">> Listen, I don't know how you managed to beat me in that last game, but I know you're cheating. All the data checks out, but I can't believe your aim's suddenly gotten so much better than mine. When I find out what hack you cooked up, you're going to owe me fifty nuyen. Either that, or your characters are all going to be wearing bright green lime costumes from now on.\n\n-Hardingham",
+  "spoken": "Listen, I don't know how you managed to beat me in that last game, but I know you're cheating. All the data checks out, but I can't believe your aim's suddenly gotten so much better than mine. When I find out what hack you cooked up, you're going to owe me fifty nuyen. Either that, or your characters are all going to be wearing bright green lime costumes from now on.",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_17": {
+  "char": "Dr. I. Hardingham",
+  "original": ">> Okay, Taylor. If you've gotten eight people AND a bodyguard together for a pint or two after we have our meeting, I'm game. Sorry about being so testy earlier. I just don't relish the idea of being beaten to a bloody pulp by some trog with an interest in my research. \n\n-Hardingham",
+  "spoken": "Okay, Taylor. If you've gotten eight people AND a bodyguard together for a pint or two after we have our meeting, I'm game. Sorry about being so testy earlier. I just don't relish the idea of being beaten to a bloody pulp by some trog with an interest in my research.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_25": {
+  "char": "Dr. Ishiguro",
+  "original": " I mean, yeah, I'm all for equality... But the olympics? That's about brotherly love, the spirit of cooperation, and the unity of mankind. I can't imagine anyone using them for such transparently political purposes. It breaks my heart.\n\n- Dr. Ishiguro",
+  "spoken": "I mean, yeah, I'm all for equality... But the olympics? That's about brotherly love, the spirit of cooperation, and the unity of mankind. I can't imagine anyone using them for such transparently political purposes. It breaks my heart.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_4": {
+  "char": "Dr. P. Taylor",
+  "original": "Attention: Ares Asia Holdings employees and residents.\n\nLast week, Knight-Errant officers responsible for the security of this facility received several reports of suspicious activity in the public area of the building. At 13:31 last Tuesday, security footage shows a Troll, approximately 20-28 years of age, entering the public mezzanine areas of the building. The subject was seen attempting to gain access to restricted areas.",
+  "spoken": "Attention: Ares Asia Holdings employees and residents. Last week, Knight-Errant officers responsible for the security of this facility received several reports of suspicious activity in the public area of the building. At 13:31 last Tuesday, security footage shows a Troll, approximately 20-28 years of age, entering the public mezzanine areas of the building. The subject was seen attempting to gain access to restricted areas.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_5": {
+  "char": "Dr. P. Taylor",
+  "original": "The subject exited the facility before Knight-Errant could intercept and question him. Reports from Ares citizenry indicates the subject was asking about research labs working on directed energy weapons.\n\nSeveral hours later, the subject was seen re-entering the building from a side entrance, wearing a custodial uniform.",
+  "spoken": "The subject exited the facility before Knight-Errant could intercept and question him. Reports from Ares citizenry indicates the subject was asking about research labs working on directed energy weapons. Several hours later, the subject was seen re-entering the building from a side entrance, wearing a custodial uniform.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_6": {
+  "char": "Dr. P. Taylor",
+  "original": "Knight-Errant guards attempted to detain the subject, but during their arrest attempt both guards were severely injured.\n\nAny employee or resident should contact security immediately if they see this troll. Do not attempt to detain him or interact with him in any way. The subject is considered highly dangerous.",
+  "spoken": "Knight-Errant guards attempted to detain the subject, but during their arrest attempt both guards were severely injured. Any employee or resident should contact security immediately if they see this troll. Do not attempt to detain him or interact with him in any way. The subject is considered highly dangerous.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_7": {
+  "char": "Dr. P. Taylor",
+  "original": "{{GM}}There is a note attached from Knight-Errant security.{{/GM}}\n\nDr. Taylor, it's come to our attention that you have not been treating this threat with the seriousness we believe it deserves. Please remember that the safety of your person and your research is not solely your concern - a strike against you is a strike against all of Ares Macrotechnology. When engaging in off-site entertainment from now on, we would request that you travel with a group. Thank you.",
+  "spoken": "Dr. Taylor, it's come to our attention that you have not been treating this threat with the seriousness we believe it deserves. Please remember that the safety of your person and your research is not solely your concern - a strike against you is a strike against all of Ares Macrotechnology. When engaging in off-site entertainment from now on, we would request that you travel with a group. Thank you.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_8": {
+  "char": "Dr. P. Taylor",
+  "original": "I've had to change the emitter and focusing array in our latest MP IV \"Redline\" prototype. Prior to this, we were using the same emitter array as the MP Laser III, since it's a proven design. Unfortunately, that array is too large to continue using at this point, and there's legacy software that we need to update. The largest problem is that the outer lens is 3 milimeters too large for our new housing.",
+  "spoken": "I've had to change the emitter and focusing array in our latest MP IV \"Redline\" prototype. Prior to this, we were using the same emitter array as the MP Laser III, since it's a proven design. Unfortunately, that array is too large to continue using at this point, and there's legacy software that we need to update. The largest problem is that the outer lens is 3 milimeters too large for our new housing.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_9": {
+  "char": "Dr. P. Taylor",
+  "original": "In light of that, I've commissioned twenty new focusing arrays. They're being manufactured in Detroit, but should arrive next week at the latest. The fabrication technique is the same type that we acquired from Zeiss last year - it should give us superior beam coherence even in high dust and fog situations.\n\n-Taylor",
+  "spoken": "In light of that, I've commissioned twenty new focusing arrays. They're being manufactured in Detroit, but should arrive next week at the latest. The fabrication technique is the same type that we acquired from Zeiss last year - it should give us superior beam coherence even in high dust and fog situations.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_10": {
+  "char": "Dr. P. Taylor",
+  "original": ">>Personal notes on MP Laser I research.\n\nI've been going back through the files from Ares Arms research on the original MP Laser. A lot of the work was done by one Dr. Elliot Mills-Fargo. Unfortunately, Mills-Fargo is dead. From what I can gather, his son killed him during a drunken argument. What's curious is that most of the research files have been heavily redacted. It's all very curious.",
+  "spoken": "Personal notes on MP Laser I research. I've been going back through the files from Ares Arms research on the original MP Laser. A lot of the work was done by one Dr. Elliot Mills-Fargo. Unfortunately, Mills-Fargo is dead. From what I can gather, his son killed him during a drunken argument. What's curious is that most of the research files have been heavily redacted. It's all very curious.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_11": {
+  "char": "Dr. P. Taylor",
+  "original": "It's almost as if Ares Arms doesn't want anyone to know anything about the initial research. It's very curious, given that we're all supposed to be working toward the same thing. Aren't we?\n\nFrom what I can gather, Mills-Fargo had a radically different design philosophy than Hardingham and I. ",
+  "spoken": "It's almost as if Ares Arms doesn't want anyone to know anything about the initial research. It's very curious, given that we're all supposed to be working toward the same thing. Aren't we? From what I can gather, Mills-Fargo had a radically different design philosophy than Hardingham and I.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_12": {
+  "char": "Dr. P. Taylor",
+  "original": "Most of Mills-Fargo's notes indicate he was primarily interested in purely vector soliton fiber lasers, rather than our own dye-doped Matrix technology. From what I understand, that's also the basis for Winter Systems' own attempts at a man-portable laser solution. I can't find any evidence of how they would have developed that technology without access to Mills-Fargo's work, though. Curious.\n\n-Taylor",
+  "spoken": "Most of Mills-Fargo's notes indicate he was primarily interested in purely vector soliton fiber lasers, rather than our own dye-doped Matrix technology. From what I understand, that's also the basis for Winter Systems' own attempts at a man-portable laser solution. I can't find any evidence of how they would have developed that technology without access to Mills-Fargo's work, though. Curious.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_15": {
+  "char": "Dr. P. Taylor",
+  "original": ">> Hardingham, I cannot BELIEVE you. Did you tattle on me to Knight-Errant, saying I'd blown off the security brief and ran to go drink alone? Psh, I'm a senior researcher, not a bloody prisoner. If I decide to go have a drink on my own, that's my business. Besides, Central and Admiralty are both crawling with police at any hour. They're AAA-secure, for god's sake. \n\n-Taylor",
+  "spoken": "Hardingham, I cannot BELIEVE you. Did you tattle on me to Knight-Errant, saying I'd blown off the security brief and ran to go drink alone? Psh, I'm a senior researcher, not a bloody prisoner. If I decide to go have a drink on my own, that's my business. Besides, Central and Admiralty are both crawling with police at any hour. They're AAA-secure, for god's sake.",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_16": {
+  "char": "Dr. P. Taylor",
+  "original": ">> Listen, H. I really do hear what you're saying about security, and I promise I'm not taking it lightly. I was thinking we could hit up The Pawn after the meeting tomorrow. I've got eight or so takers from the lab, and Knight-Errant promised to loan us a low-profile bodyguard to make sure nothing goes awry. How's that sound to you?\n\n-Taylor",
+  "spoken": "Listen, H. I really do hear what you're saying about security, and I promise I'm not taking it lightly. I was thinking we could hit up The Pawn after the meeting tomorrow. I've got eight or so takers from the lab, and Knight-Errant promised to loan us a low-profile bodyguard to make sure nothing goes awry. How's that sound to you?",
+  "source": "screen-speaker"
+ },
+ "54f9e71c30636498130044b1_18": {
+  "char": "Dr. P. Taylor",
+  "original": ">> H, one of the researchers downstairs hit me up in a meeting about supporting something called \"Project 2231\". It's headquartered in the Algonquin-Manitou Council - some godforsaken black site called Complex #68G. I guess it has something to do with that debacle in Chicago - research into cleaning up the CEZ and whatnot. I thought it'd be nice if we could give them a hand - just lend them a prototype or the specs, let 'em test the laser out there.\n\n-Taylor",
+  "spoken": "H, one of the researchers downstairs hit me up in a meeting about supporting something called \"Project 2231\". It's headquartered in the Algonquin-Manitou Council - some godforsaken black site called Complex #68G. I guess it has something to do with that debacle in Chicago - research into cleaning up the CEZ and whatnot. I thought it'd be nice if we could give them a hand - just lend them a prototype or the specs, let 'em test the laser out there.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_0": {
+  "char": "Dr. P. Taylor",
+  "original": "> Ares Asia Directed Energy Weapons Laboratory Annex\n\"Aut viam inveniam aut faciam\"\n\nPlease direct your query.",
+  "spoken": "Ares Asia Directed Energy Weapons Laboratory Annex \"Aut viam inveniam aut faciam\" Please direct your query.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_1": {
+  "char": "Dr. P. Taylor",
+  "original": ">Auto-Repair Project\n\nAttention: all information contained herein is considered SECRET/ORCON. Duplication of files forbidden. Authorized eyes only.\n\nSelect file.",
+  "spoken": "Auto-Repair Project Attention: all information contained herein is considered SECRET/ORCON. Duplication of files forbidden. Authorized eyes only. Select file.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_2": {
+  "char": "Dr. P. Taylor",
+  "original": ">>Ares Asia Holdings laboratory records system.\n\"Security. Safety. Progress.\"\n\nEnter query.",
+  "spoken": "Ares Asia Holdings laboratory records system. \"Security. Safety. Progress.\" Enter query.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_3": {
+  "char": "Dr. P. Taylor",
+  "original": ">> Congratulations, everyone! \n\nAres Europe's given us the go-ahead on entering the Griffin drone prototypes into this season of Desert Wars. Between the auto-repair circuitry, the MP laser prototypes, and the self-organizing threat assessment programs, I think we've got a great chance at being one of the stand-out stars this season. Obviously, we have a lot of work to do between now and the kickoff event, so I'm expecting plenty of crunch time.",
+  "spoken": "Congratulations, everyone! Ares Europe's given us the go-ahead on entering the Griffin drone prototypes into this season of Desert Wars. Between the auto-repair circuitry, the MP laser prototypes, and the self-organizing threat assessment programs, I think we've got a great chance at being one of the stand-out stars this season. Obviously, we have a lot of work to do between now and the kickoff event, so I'm expecting plenty of crunch time.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_4": {
+  "char": "Dr. P. Taylor",
+  "original": "I know each and every one of you wants this as much as I do. It's hard for me to express how proud I am of this team and all the hard work you've put in over the past year. If we can pull this off, we're positioned to be one of the biggest teams in security drone hardware in the past ten years. If we buckle down and put in the hours required, I know we can do it.\n\nGlenlivet my office. Come get some.\n-Dr. Taylor",
+  "spoken": "I know each and every one of you wants this as much as I do. It's hard for me to express how proud I am of this team and all the hard work you've put in over the past year. If we can pull this off, we're positioned to be one of the biggest teams in security drone hardware in the past ten years. If we buckle down and put in the hours required, I know we can do it. Glenlivet my office. Come get some.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_12": {
+  "char": "Dr. P. Taylor",
+  "original": "> Just a heads up for the team - hold on further self-organization tests until you get the all clear from me, Taylor, or Yan.\n\nThere's a bug where the drone network refuses external orders while they're pursuing their self-generated directives: data sharing, learning, battle examination, et cetera.",
+  "spoken": "Just a heads up for the team - hold on further self-organization tests until you get the all clear from me, Taylor, or Yan. There's a bug where the drone network refuses external orders while they're pursuing their self-generated directives: data sharing, learning, battle examination, et cetera.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_13": {
+  "char": "Dr. P. Taylor",
+  "original": " It's nothing critical, but it's going to make debugging other systems a pain in the ass until we get it sorted out. General tests are still a go.\n\n- Dr. Taylor",
+  "spoken": "It's nothing critical, but it's going to make debugging other systems a pain in the ass until we get it sorted out. General tests are still a go.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_26": {
+  "char": "Dr. P. Taylor",
+  "original": "> Xia, I was hoping to take a look at your power output test data some time soon. I'm going to be in and out of the office all day, so just let yourself in and put them on my desk. The code is 98144.\n\n- Dr. Taylor",
+  "spoken": "Xia, I was hoping to take a look at your power output test data some time soon. I'm going to be in and out of the office all day, so just let yourself in and put them on my desk. The code is 98144.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_8": {
+  "char": "Dr. Yan",
+  "original": ">> Hey, Ian... I've been encountering a worrying bug in the latest multi-drone mesh network tests. After checking on it, I'm pretty sure it originates in the self-organization subroutines. \n\nWhen the Griffin drones go into self-diagnostic mode and start sharing their telemetry data after field activity, they stop responding to external commands. Even kicking the debugger over to admin mode won't stop them.",
+  "spoken": "Hey, Ian... I've been encountering a worrying bug in the latest multi-drone mesh network tests. After checking on it, I'm pretty sure it originates in the self-organization subroutines. When the Griffin drones go into self-diagnostic mode and start sharing their telemetry data after field activity, they stop responding to external commands. Even kicking the debugger over to admin mode won't stop them.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_9": {
+  "char": "Dr. Yan",
+  "original": "It looks like they're not responding to outside commands because they're identifying activity orders as non-critical in comparison to their attempts to share and learn from each other's telemetry. ",
+  "spoken": "It looks like they're not responding to outside commands because they're identifying activity orders as non-critical in comparison to their attempts to share and learn from each other's telemetry.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_10": {
+  "char": "Dr. Yan",
+  "original": "It's downright spooky. They tried to push me out of the room during one of the tests, because one started firing the onShareCleanupBasecamp function, and the rest picked up on it. They identified me as an object to be removed from their secure space - and the worst part is that the trigger condition was me trying to shut down the mesh network.",
+  "spoken": "It's downright spooky. They tried to push me out of the room during one of the tests, because one started firing the onShareCleanupBasecamp function, and the rest picked up on it. They identified me as an object to be removed from their secure space - and the worst part is that the trigger condition was me trying to shut down the mesh network.",
+  "source": "screen-speaker"
+ },
+ "54fa290d3063643019004546_11": {
+  "char": "Dr. Yan",
+  "original": "I don't know, Ian. I don't like the idea of drones making value judgements about administrator orders. I'd like to strip out the self-organization code for future tests until I can debug it. I understand that we're trying to play catch-up with Renraku on the pseudo-intelligence front, but the fallout if this bug spreads could be pretty catastrophic.\n\n- Dr. Yan.",
+  "spoken": "I don't know, Ian. I don't like the idea of drones making value judgements about administrator orders. I'd like to strip out the self-organization code for future tests until I can debug it. I understand that we're trying to play catch-up with Renraku on the pseudo-intelligence front, but the fallout if this bug spreads could be pretty catastrophic.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_0": {
+  "char": "Eastern Tiger Researcher",
+  "original": ">>Eastern Tiger FileOS 2.2.1\n\nFiles:\n1.) Development Diary - Project Overview\n2.) Development Diary - Phenotypic Alteration\n3.) Development Diary - Longevity research\n\nPlease select file data.",
+  "spoken": "Eastern Tiger FileOS 2.2.1 Files: 1.) Development Diary - Project Overview 2.) Development Diary - Phenotypic Alteration 3.) Development Diary - Longevity research Please select file data.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_1": {
+  "char": "Eastern Tiger Researcher",
+  "original": ">> Initial research into metagenetics presents a singular challenge: to wit, the study not of genes themselves, but of the interaction between genetics and the unseen world of astral space.\n\nIf the creation of a particular metatype or magically-expressed phenotype was as simple as the recombination of given amino acid sequences, then the creation of mages would be as simple as the expression of a given eye color or skin tone.",
+  "spoken": "Initial research into metagenetics presents a singular challenge: to wit, the study not of genes themselves, but of the interaction between genetics and the unseen world of astral space. If the creation of a particular metatype or magically-expressed phenotype was as simple as the recombination of given amino acid sequences, then the creation of mages would be as simple as the expression of a given eye color or skin tone.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_2": {
+  "char": "Eastern Tiger Researcher",
+  "original": "Unfortunately, such expressions are far more complex. The expression of traits previously considered to be 'supernatural' is a complex interplay between mundane DNA, the condition of the ambient manasphere at the time of development, and the interactions between genes and what we have dubbed 'astral shadows.'\n\nAny research into these is fraught with difficulty, due to their resistance to traditional - that is to say - technological - instruments.",
+  "spoken": "Unfortunately, such expressions are far more complex. The expression of traits previously considered to be 'supernatural' is a complex interplay between mundane DNA, the condition of the ambient manasphere at the time of development, and the interactions between genes and what we have dubbed 'astral shadows.' Any research into these is fraught with difficulty, due to their resistance to traditional - that is to say - technological - instruments.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_3": {
+  "char": "Eastern Tiger Researcher",
+  "original": "Ergo, Omega Sequence #358G is a project de-coupled from the usual safeguards against project overruns. We have been granted extensive magical assistance in our pursuit of higher metagenetic understanding - as well as autonomy from legal concerns.\n\nAs such, Omega Sequence project materials must be kept in Eastern Tiger secure facilities only. Deviation from this may result in local law enforcement interest, and subsequent cleanup costs can be prohibitive. <<",
+  "spoken": "Ergo, Omega Sequence #358G is a project de-coupled from the usual safeguards against project overruns. We have been granted extensive magical assistance in our pursuit of higher metagenetic understanding - as well as autonomy from legal concerns. As such, Omega Sequence project materials must be kept in Eastern Tiger secure facilities only. Deviation from this may result in local law enforcement interest, and subsequent cleanup costs can be prohibitive.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_4": {
+  "char": "Eastern Tiger Researcher",
+  "original": ">> Phenotypic alteration is the key process which allows for the Omega Sequence project to progress. Ordinarily, an organism's phenotype is set and cannot be changed after a very early point in development. Morphology, phenology, replication processes: any alteration in the coding sequence of a living organism is invariably fatal.\n\nExcept in the case of the Omega Sequence.",
+  "spoken": "Phenotypic alteration is the key process which allows for the Omega Sequence project to progress. Ordinarily, an organism's phenotype is set and cannot be changed after a very early point in development. Morphology, phenology, replication processes: any alteration in the coding sequence of a living organism is invariably fatal. Except in the case of the Omega Sequence.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_5": {
+  "char": "Eastern Tiger Researcher",
+  "original": "A combination of alkylating agents, ambient mana control, and potent alpha emitters allow us to control the replication of the Omega Sequence metagene. \n\nThis is accomplished through alteration of the interactions between DNA and their astral shadows - the building blocks of metagenetics and mana-based abilities.",
+  "spoken": "A combination of alkylating agents, ambient mana control, and potent alpha emitters allow us to control the replication of the Omega Sequence metagene. This is accomplished through alteration of the interactions between DNA and their astral shadows - the building blocks of metagenetics and mana-based abilities.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_6": {
+  "char": "Eastern Tiger Researcher",
+  "original": "To understand this concept, consider an Indonesian shadowplay. The story one watches is not of the puppets, but the shadows they cast. A skillful puppeteer manipulates not just the puppets, but the space between the screen and the viewer.\n\nSo, too, is it with metagenetics. Magical aptitude, metagenetic traits, and formerly unknown parazoology are revealed when mana levels reach a sufficient point to allow the astral shadows of DNA to engage in their delicate, powerful dance of replication. ",
+  "spoken": "To understand this concept, consider an Indonesian shadowplay. The story one watches is not of the puppets, but the shadows they cast. A skillful puppeteer manipulates not just the puppets, but the space between the screen and the viewer. So, too, is it with metagenetics. Magical aptitude, metagenetic traits, and formerly unknown parazoology are revealed when mana levels reach a sufficient point to allow the astral shadows of DNA to engage in their delicate, powerful dance of replication.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_7": {
+  "char": "Eastern Tiger Researcher",
+  "original": "To change the metagenetics of an organism, we do not manipulate only the subject's DNA, but the space between that DNA and the astral plane. We cast the requisite shadows, engendering change that cannot be explained solely by base pairs, alleles, and nucleotides.\n\nControl is our challenge. Control is a delicate art: it requires patience and perseverance, as well as scientific acumen. But with a fine enough degree of control, we will be able to replicate magical abilities, trait expression, and 'black swan' effects.",
+  "spoken": "To change the metagenetics of an organism, we do not manipulate only the subject's DNA, but the space between that DNA and the astral plane. We cast the requisite shadows, engendering change that cannot be explained solely by base pairs, alleles, and nucleotides. Control is our challenge. Control is a delicate art: it requires patience and perseverance, as well as scientific acumen. But with a fine enough degree of control, we will be able to replicate magical abilities, trait expression, and 'black swan' effects.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_8": {
+  "char": "Eastern Tiger Researcher",
+  "original": "What are these 'black swan' traits? Individuals born during events which cause ambient mana to spike have been known to express extreme magical potential and metatraits not possessed by the majority of their metatype. Research into Homo Sapiens Nobilis subjects born during the Awakening, for instance, indicate that ordinary Elven longevity simply does not apply - that there is no upper bound to their telometric regeneration. \n\nEffectively, they appear to be immortal. <<",
+  "spoken": "What are these 'black swan' traits? Individuals born during events which cause ambient mana to spike have been known to express extreme magical potential and metatraits not possessed by the majority of their metatype. Research into Homo Sapiens Nobilis subjects born during the Awakening, for instance, indicate that ordinary Elven longevity simply does not apply - that there is no upper bound to their telometric regeneration. Effectively, they appear to be immortal.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_9": {
+  "char": "Eastern Tiger Researcher",
+  "original": ">> The goal of the Omega Sequence project is to harness and unlock these black swan metatraits, beginning with the question of the longevity factor in Homo Sapiens Nobilis. \n\nTreatments for extending human lifespans already exist, of course: organ transplantation can extend life by up to fifty years, and Leonization treatment can theoretically extend life for several hundred. Yet the drawbacks of these are apparent to any who scratch the surface.",
+  "spoken": "The goal of the Omega Sequence project is to harness and unlock these black swan metatraits, beginning with the question of the longevity factor in Homo Sapiens Nobilis. Treatments for extending human lifespans already exist, of course: organ transplantation can extend life by up to fifty years, and Leonization treatment can theoretically extend life for several hundred. Yet the drawbacks of these are apparent to any who scratch the surface.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_10": {
+  "char": "Eastern Tiger Researcher",
+  "original": "Leonization is prohibitively expensive, and erodes the patient's essence with every treatment, leading to eventual systemic collapse. Organ transplants can preserve the body, but plaques build up in the patient's neural tissue, and the patient must take a cornucopia of immunosuppressants for the duration of their life.\n\nTrue longevity lies in preventing aging from occurring at all.",
+  "spoken": "Leonization is prohibitively expensive, and erodes the patient's essence with every treatment, leading to eventual systemic collapse. Organ transplants can preserve the body, but plaques build up in the patient's neural tissue, and the patient must take a cornucopia of immunosuppressants for the duration of their life. True longevity lies in preventing aging from occurring at all.",
+  "source": "screen-speaker"
+ },
+ "54d501c5306364544f000196_11": {
+  "char": "Eastern Tiger Researcher",
+  "original": "Omega Sequence #358G represents our most advanced metagenetic prototype yet. Preliminary results indicate that the test clone's age will lock at 19 years, and progress no further. In order to test this, we have induced artificial aging of the clone through our FastGro organ replacement process.\n\nUnfortunately, this has lead to an explosive cancer and mutation rate, rendering it non-viable for any other types of metagenetic research. Even so, the value of this test subject cannot be overstated. <<",
+  "spoken": "Omega Sequence #358G represents our most advanced metagenetic prototype yet. Preliminary results indicate that the test clone's age will lock at 19 years, and progress no further. In order to test this, we have induced artificial aging of the clone through our FastGro organ replacement process. Unfortunately, this has lead to an explosive cancer and mutation rate, rendering it non-viable for any other types of metagenetic research. Even so, the value of this test subject cannot be overstated.",
+  "source": "screen-speaker"
+ },
+ "54fa209630636430190044d6_16": {
+  "char": "Security Director Deng",
+  "original": ">> Dr. Taylor, we appreciate your concern about the threat neutalization system leaking from your office air vent. Your safety - and the safety of the lab - are our topmost priorities. Until we can get maintenance to inspect the valve, you can access the security control for Vent 3 via the Matrix. The Blocker IC code is c0rt3xFRZ. \n\nShould any further leaks occur, please contact us again.\n\n-Security Director Deng.",
+  "spoken": "Dr. Taylor, we appreciate your concern about the threat neutalization system leaking from your office air vent. Your safety - and the safety of the lab - are our topmost priorities. Until we can get maintenance to inspect the valve, you can access the security control for Vent 3 via the Matrix. The Blocker IC code is c0rt3xFRZ. Should any further leaks occur, please contact us again.",
+  "source": "screen-speaker"
+ },
+ "55393bf1306364bc13007a89_3": {
+  "char": "Yaroslav",
+  "original": "Vasilisa - We've got a window for the shipment. We're going to have to get to the harbor in the next few hours. Tell Galina and the others to pack up everything you've got and get ready to haul it through the storm drains toward the meeting spot.\n\nWe can't afford to miss this opportunity.\n- Yaroslav",
+  "spoken": "Vasilisa - We've got a window for the shipment. We're going to have to get to the harbor in the next few hours. Tell Galina and the others to pack up everything you've got and get ready to haul it through the storm drains toward the meeting spot. We can't afford to miss this opportunity.",
+  "source": "screen-speaker"
+ },
+ "55393bf1306364bc13007a89_6": {
+  "char": "Yaroslav",
+  "original": "No, Vasilisa, I can't delay the hand-off. The ship will leave when it leaves... If Aleksandr's not back in time to make it, it's his own damn fault.\n\nNow get your crew in high gear and make sure we've got the goods by the time things are set!\n\n-Yaroslav",
+  "spoken": "No, Vasilisa, I can't delay the hand-off. The ship will leave when it leaves... If Aleksandr's not back in time to make it, it's his own damn fault. Now get your crew in high gear and make sure we've got the goods by the time things are set!",
   "source": "screen-speaker"
  },
  "54d96ae73030316814006f45_78": {

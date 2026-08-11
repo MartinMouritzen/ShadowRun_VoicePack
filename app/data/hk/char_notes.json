@@ -12034,7 +12034,7 @@
  "name_sunnycheung": {
   "bio": "A local of the setting.",
   "direction": "Grounded, everyday delivery with a hint of street wariness.",
-  "gender": null,
+  "gender": "female",
   "suggestions": [
    {
     "voice_id": "mag_596",
@@ -12404,6 +12404,335 @@
     "voice_id": "mag_252",
     "name": "Noah Jackson",
     "why": "Podcast-style voice with a natural tone, perfect for ad readings and promotional content."
+   }
+  ]
+ },
+ "name_drhardingham": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_318",
+    "name": "Oliver Whitmore",
+    "why": "Calm and conversational, this British voice in their 30s is ideal for AI agents, deliverin"
+   },
+   {
+    "voice_id": "mag_503",
+    "name": "Rachel Monroe",
+    "why": "Grounded and Professional, this middle-aged female voice is ideal for conversational forma"
+   },
+   {
+    "voice_id": "mag_258",
+    "name": "Sophia Elizabeth",
+    "why": "Elegant yet relaxed British female voice, warm and clear. Trustworthy and engaging, ideal "
+   },
+   {
+    "voice_id": "mag_598",
+    "name": "Tom Spencer",
+    "why": "Tom Spencer is a British male voice with a clear, neutral tone and a subtle West Country a"
+   },
+   {
+    "voice_id": "mag_160",
+    "name": "Vanessa Hayes",
+    "why": "Young girl with a relaxed tone, casual and approachable. Ideal for informal conversations "
+   },
+   {
+    "voice_id": "mag_372",
+    "name": "William Anderson",
+    "why": "Cheerful and playful, this young American male voice is perfect for humorous dialogues and"
+   },
+   {
+    "voice_id": "mag_295",
+    "name": "William Brown",
+    "why": "A casual and approachable middle-aged American male voice, perfect for conversational cont"
+   },
+   {
+    "voice_id": "mag_533",
+    "name": "Zeke Rivers",
+    "why": "Young American male voice, casual and versatile—great for video games, sci-fi, comedy narr"
+   }
+  ]
+ },
+ "name_drishiguro": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_795",
+    "name": "Zuri Bennett",
+    "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
+   },
+   {
+    "voice_id": "mag_294",
+    "name": "Alexander Davis",
+    "why": "Warm and friendly, this middle-aged American male voice is ideal for conversational conten"
+   },
+   {
+    "voice_id": "mag_298",
+    "name": "Amelia Beckett",
+    "why": "A warm and engaging middle-aged British female voice, ideal for narration and storytelling"
+   },
+   {
+    "voice_id": "mag_185",
+    "name": "Amelia Carter",
+    "why": "Canadian female voice with a distinctive tone."
+   },
+   {
+    "voice_id": "mag_245",
+    "name": "Ava Madison",
+    "why": "Clean and easy-to-listen-to young American female voice, ideal for YouTube videos, social "
+   },
+   {
+    "voice_id": "mag_159",
+    "name": "Avery Grant",
+    "why": "Deep and slightly sassy female voice. Perfect for bold and fun content, with a hint of att"
+   },
+   {
+    "voice_id": "mag_684",
+    "name": "Avery Quinn",
+    "why": "An androgynous, poetic storyteller voice that blends theatrical depth with cinematic rhyth"
+   },
+   {
+    "voice_id": "mag_286",
+    "name": "Benjamin Parker",
+    "why": "Intense and dynamic, this middle-aged American male voice is perfect for character work. I"
+   }
+  ]
+ },
+ "name_drtaylor": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_319",
+    "name": "Benjamin Walker",
+    "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
+   },
+   {
+    "voice_id": "mag_36",
+    "name": "Blake Hudson",
+    "why": "Warm and engaging grandpa voice. Ideal for telling adventurous stories and captivating tal"
+   },
+   {
+    "voice_id": "mag_585",
+    "name": "Brad Spinner",
+    "why": "A classic FM disc jockey voice inspired by 1950s–1980s American radio. Energetic, nostalgi"
+   },
+   {
+    "voice_id": "mag_504",
+    "name": "Brielle Carter",
+    "why": "Youthful and Authentic, this young female voice is ideal for relatable narration. It also "
+   },
+   {
+    "voice_id": "mag_283",
+    "name": "Charlotte Taylor",
+    "why": "Upbeat and energetic, this young American female voice is ideal for social media content. "
+   },
+   {
+    "voice_id": "mag_332",
+    "name": "Charlotte Winslow",
+    "why": "Versatile and engaging, this middle-aged British female voice is well-suited for character"
+   },
+   {
+    "voice_id": "mag_44",
+    "name": "Chloe Bennett",
+    "why": "Middle-aged American female voice, calm and soothing. Perfect for narrations requiring a c"
+   },
+   {
+    "voice_id": "mag_342",
+    "name": "Christopher Sullivan",
+    "why": "Calm and introspective, this soothing voice is ideal for meditation and contemplation, pro"
+   }
+  ]
+ },
+ "name_dryan": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_225",
+    "name": "Claire van der Merwe",
+    "why": "Young and expressive, this South African female voice is well-suited for narrations."
+   },
+   {
+    "voice_id": "mag_176",
+    "name": "Connor Keane",
+    "why": "Warm and trustworthy Irish male voice, ideal for educational and informational videos."
+   },
+   {
+    "voice_id": "mag_536",
+    "name": "Dana Slate",
+    "why": "Dana’s voice oozes sarcasm with a slow, droll rhythm and impeccable timing. She’s the quee"
+   },
+   {
+    "voice_id": "mag_351",
+    "name": "Daniel Brooks",
+    "why": "Warm and nostalgic, this voice feels like listening to your grandpa tell bedtime stories b"
+   },
+   {
+    "voice_id": "mag_586",
+    "name": "Dexter Glitch",
+    "why": "A warm, expressive voice tailored for heartfelt oddballs, shy leads, lovable nerds, and so"
+   },
+   {
+    "voice_id": "mag_516",
+    "name": "Dominic Blaze",
+    "why": "Smug and Theatrical, this middle-aged male voice is ideal for villainous characters. It al"
+   },
+   {
+    "voice_id": "mag_518",
+    "name": "Dr. Cosmo Fizzlebaum",
+    "why": "Lively and quirky, this voice bursts with character and charm. Ideal for oddball roles, wh"
+   },
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
+   }
+  ]
+ },
+ "name_easterntigerresearcher": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_43",
+    "name": "Ella Morgan",
+    "why": "Young female with an Australian accent and Asian background. Ideal for bringing multicultu"
+   },
+   {
+    "voice_id": "mag_311",
+    "name": "Emily Carter",
+    "why": "Hope shines brightest, when embraced with an open heart."
+   },
+   {
+    "voice_id": "mag_291",
+    "name": "Emma Johnson",
+    "why": "Friendly and approachable, this middle-aged American female voice is perfect for narration"
+   },
+   {
+    "voice_id": "mag_33",
+    "name": "Emma Monroe",
+    "why": "Young American girl's voice, ideal for social media and everyday storytelling. Sweet and a"
+   },
+   {
+    "voice_id": "mag_27",
+    "name": "Ethan Brooks",
+    "why": "American male voice with a slight rasp, mixing East Coast and Midwest accents. Perfect for"
+   },
+   {
+    "voice_id": "mag_186",
+    "name": "Ethan Clarke",
+    "why": "Energetic and lively male voice, ideal for bringing audiobooks to life."
+   },
+   {
+    "voice_id": "mag_591",
+    "name": "Ethan Cole",
+    "why": "Cynical but romantic. Hurt but hopeful. A flawed character or emotional storyteller for al"
+   },
+   {
+    "voice_id": "mag_179",
+    "name": "Grace O'Neil",
+    "why": "Measured and calm female voice with an Irish accent."
+   }
+  ]
+ },
+ "name_securitydirectordeng": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_261",
+    "name": "Harper Olivia",
+    "why": "Velvety smooth voice exuding charm and sophistication. Playful yet wise, it captivates lis"
+   },
+   {
+    "voice_id": "mag_350",
+    "name": "Henry Beckett",
+    "why": "Professional and well-spoken, this British narrator exudes intrigue and wonder. Perfect fo"
+   },
+   {
+    "voice_id": "mag_303",
+    "name": "Isla Kensington",
+    "why": "A pleasant and cute voice, perfect for children's content. Ideal for cartoons, kids' shows"
+   },
+   {
+    "voice_id": "mag_541",
+    "name": "Jack Thornhill",
+    "why": "British man with grit in his voice and weight in his words. His tone is rough, grounded, a"
+   },
+   {
+    "voice_id": "mag_337",
+    "name": "Jackson Cooper",
+    "why": "Rich and textured, this aged American male voice carries the gravel of countless tales and"
+   },
+   {
+    "voice_id": "mag_390",
+    "name": "James Carter",
+    "why": "Rugged and wise, this older American male voice carries the grit of a cowboy who’s lived a"
+   },
+   {
+    "voice_id": "mag_296",
+    "name": "James Smith",
+    "why": "With a deep and resonant tone, this middle-aged American male voice is ideal for narration"
+   },
+   {
+    "voice_id": "mag_436",
+    "name": "Jamie Clarke",
+    "why": "A pleasant voice of a young male. Great for Social Media, Narrative & Story and Informativ"
+   }
+  ]
+ },
+ "name_yaroslav": {
+  "bio": "A local of the setting.",
+  "direction": "Grounded, everyday delivery with a hint of street wariness.",
+  "gender": null,
+  "suggestions": [
+   {
+    "voice_id": "mag_228",
+    "name": "Jenny Steyn",
+    "why": "With a formal and polished tone, this young South African female voice is perfect for audi"
+   },
+   {
+    "voice_id": "mag_157",
+    "name": "Kendra Blake",
+    "why": "Gentle yet confident young woman’s voice with an American accent. Suitable for a wide rang"
+   },
+   {
+    "voice_id": "mag_596",
+    "name": "Lauren Parker",
+    "why": "Lauren Parker is a professional American female voice that strikes the perfect balance bet"
+   },
+   {
+    "voice_id": "mag_182",
+    "name": "Liam Parker",
+    "why": "Upbeat tone tailored for podcasts, radio, and advertisements."
+   },
+   {
+    "voice_id": "mag_513",
+    "name": "Lila Kim",
+    "why": "Cute and Energetic, this young female voice is ideal for anime-style content. It also brin"
+   },
+   {
+    "voice_id": "mag_165",
+    "name": "Lila Winters",
+    "why": "Soothing and calm British female voice, ideal for audiobooks, narration, and videos."
+   },
+   {
+    "voice_id": "mag_528",
+    "name": "Lilith Vexmoor",
+    "why": "Calm, clever, and dangerously composed. This female voice drips with sarcasm and intellige"
+   },
+   {
+    "voice_id": "mag_48",
+    "name": "Lily Evans",
+    "why": "Bright, expressive young girl's voice. Radiates adventure and curiosity, perfect for captu"
    }
   ]
  }

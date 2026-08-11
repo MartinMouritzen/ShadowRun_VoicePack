@@ -1538,5 +1538,41 @@
  "name_cadmussupporter": {
   "voiceId": "mag_361",
   "voiceName": "Olivia Roberts"
+ },
+ "name_drtaylor": {
+  "voiceId": "mag_270",
+  "voiceName": "Henry Arthur"
+ },
+ "name_easterntigerresearcher": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_drhardingham": {
+  "voiceId": "mag_31",
+  "voiceName": "Jake Morrison"
+ },
+ "name_nancyhopang": {
+  "voiceId": "mag_513",
+  "voiceName": "Lila Kim"
+ },
+ "name_dryan": {
+  "voiceId": "mag_670",
+  "voiceName": "Serene Harper"
+ },
+ "name_tziwing": {
+  "voiceId": "mag_543",
+  "voiceName": "Axel Virex"
+ },
+ "name_yaroslav": {
+  "voiceId": "mag_270",
+  "voiceName": "Henry Arthur"
+ },
+ "name_drishiguro": {
+  "voiceId": "mag_206",
+  "voiceName": "Henry Carter"
+ },
+ "name_securitydirectordeng": {
+  "voiceId": "mag_446",
+  "voiceName": "Logan Scott"
  }
 }

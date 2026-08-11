@@ -55,6 +55,51 @@
   "text": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 1444¥\nESCROW FEE (10%): -144¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 1300¥"
  },
  {
+  "key": "5643f47e643661941400680b_1",
+  "char": "Computer",
+  "text": ">>SDU_TRAININGROOM_NORTH\n\n>>TURRET STATUS:: $(scene.NorthTurretsStatus)\n>>LAUNCHER STATUS:: $(scene.NorthLauncherStatus)"
+ },
+ {
+  "key": "564400da643661941400696e_1",
+  "char": "Computer",
+  "text": ">>SDU_TRAININGROOM_SOUTH\n\n>>TURRET STATUS:: $(scene.SouthTurretsStatus)\n>>LAUNCHER STATUS:: $(scene.SouthLauncherStatus)"
+ },
+ {
+  "key": "56098865643661c8160012df_37",
+  "char": "Kindly Cheng",
+  "text": "See that you do. I'll be waiting.\n\nOh, and $(l.name)... I'm sure that the police confiscated the cong that you procured from Eddie Tang. The one that I paid you to retrieve for me.\n\nGet it back."
+ },
+ {
+  "key": "56098865643661c8160012df_50",
+  "char": "Kindly Cheng",
+  "text": "Oh, and $(l.name)... I'm sure that the police confiscated the cong that you procured from Eddie Tang. The one that I paid you to retrieve for me.\n\nGet it back."
+ },
+ {
+  "key": "56098865643661c8160012df_53",
+  "char": "Kindly Cheng",
+  "text": "Good boy.\n\nOh, and $(l.name)... I'm sure that the police confiscated the cong that you procured from Eddie Tang. The one that I paid you to retrieve for me.\n\nGet it back."
+ },
+ {
+  "key": "56098865643661c8160012df_54",
+  "char": "Kindly Cheng",
+  "text": "Good girl.\n\nOh, and $(l.name)... I'm sure that the police confiscated the cong that you procured from Eddie Tang. The one that I paid you to retrieve for me.\n\nGet it back."
+ },
+ {
+  "key": "566b7ee964366170030042d4_23",
+  "char": "Kindly Cheng",
+  "text": "...$(l.name). When you burn the warehouse, see to it that Qiu understands what it means to cross the Yellow Lotus.\n\nWhat it means to cost us *money.*"
+ },
+ {
+  "key": "556b68d4383063b01c005620_6",
+  "char": "Ten-Armed Ambrose",
+  "text": "Yeah, that's me. But listen $(l.guy), I don't know you. I don't like people I don't know.\n\nWho sent you?"
+ },
+ {
+  "key": "556b68d4383063b01c005620_19",
+  "char": "Ten-Armed Ambrose",
+  "text": "Ha ha, very funny. Listen $(L.guy), I don't know you. I don't like people I don't know.\n\nWhat are you doing here? Who sent you?"
+ },
+ {
   "key": "565f3a6b62663208210043e7_56",
   "char": "Qiu",
   "text": ">>LIVECHAT\n\n[1] [CHAT] >>$++(L.NAME)."
