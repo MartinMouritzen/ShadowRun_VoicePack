@@ -32,6 +32,9 @@ if not rules:
     print(f"no reattributions for {GAME}"); sys.exit(0)
 
 ch = json.load(open(CH_PATH))
+# Where a character ended up if it was merged away (written by merge_characters.py / the lab).
+merges_map = json.load(open(os.path.join(ROOT, "app", "data", GAME, "merges.json"))) \
+    if os.path.exists(os.path.join(ROOT, "app", "data", GAME, "merges.json")) else {}
 by_id = {c["id"]: c for c in ch["characters"]}
 takes = json.load(open(TAKES_PATH)) if os.path.exists(TAKES_PATH) else {}
 
@@ -53,6 +56,22 @@ for rule in rules:
         ch["characters"].append(by_id[dst])
         print(f"  created target character {dst} ({rule['to_name']!r})")
     if dst not in by_id:
+        # The target may have been folded into someone else since: these rules deliberately compose
+        # with character_merges.json (Raymond's call is reattributed to 'Raymond Tsang', which is
+        # then merged back into Raymond, because it is the same stuttering man under a prop
+        # mislabel). Re-running after the merge must recognise that rather than die - and dying
+        # here is not harmless, it aborts the renames and the orphan sweep further down.
+        chain, seen_ids = dst, set()
+        while chain in merges_map and chain not in seen_ids:
+            seen_ids.add(chain)
+            chain = merges_map[chain]
+        if chain in by_id:
+            here = sum(1 for ln in by_id[chain]["lines"]
+                       if ln.get("c") == convo and ln.get("n") in nodes)
+            if here == len(nodes):
+                print(f"  {rule.get('convo_name', convo)}: already applied "
+                      f"({dst} merged into {chain}, {here}/{len(nodes)} nodes there)")
+                continue
         sys.exit(f"ERROR: target char '{dst}' not found (convo {convo})")
     if src not in by_id:
         # A previous run emptied the source and dropped it. That is only OK if the lines really

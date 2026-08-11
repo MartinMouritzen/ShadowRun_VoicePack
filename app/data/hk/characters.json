@@ -28663,6 +28663,217 @@
      "n": 133,
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "This is it, $(l.name). This is where we part ways.\n\nWhen your medevac transport gets here, enjoy the flight. We won't be seeing each other again."
+    },
+    {
+     "c": "54bd886b323437742d0012df",
+     "n": 30,
+     "cn": "a1_Docks_s1-RunnersMeeting",
+     "t": "{{GM}}The dwarf cuts in. Her voice is soft, but strong.{{/GM}}\n\n*Criminal* mercenary operatives."
+    },
+    {
+     "c": "54bd886b323437742d0012df",
+     "n": 42,
+     "cn": "a1_Docks_s1-RunnersMeeting",
+     "t": "{{GM}}The dwarf standing next to her nods and jumps in.{{/GM}}\n\nWouldn't say. He mumbled a lot, too. Just kept rambling on and on about how he *had* to get in."
+    },
+    {
+     "c": "54c004f4323437dc27001556",
+     "n": 7,
+     "cn": "a1_Docks_s1-GobbetInCover",
+     "t": "{{GM}}The dwarf shakes her head at him. Her voice is flat.{{/GM}}\n\nSave your breath. They won't listen."
+    },
+    {
+     "c": "54c004f4323437dc27001556",
+     "n": 13,
+     "cn": "a1_Docks_s1-GobbetInCover",
+     "t": "Everyone?! We don't need the rent-a-cops, Gobbet! We're the only ones--"
+    },
+    {
+     "c": "54c2c193323437f024003921",
+     "n": 32,
+     "cn": "a1_Docks_s1-SceneExit_Recap",
+     "t": "Is0bel isn't listening. She is staring open-mouthed at her own PDA, its bluish glow illuminating her horrified expression.",
+     "y": 6
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 16,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "Kindly doesn't want them dead, she wants them to remember where their loyalties lie. It's tough to remember much of anything when you've got a bullet in your head."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 19,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "If they don't try and kill us, they live. Got it."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 21,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "I like the way you think. \n\n{{GM}}The decker looks around her. Wrinkles her nose.{{/GM}}\n\nI want out of this place as fast as possible."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 23,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "That's a good head space to stay in."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 25,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "Who knows? He'd have to be insane to travel *to* the Walled City... As I think we said, it's the worst slum in the eastern hemisphere. Maybe the worst in the world. \n\n{{GM}}She does her best to suppress a shudder. Can't keep the dread from creeping into her voice.{{/GM}}\n\nCan't believe I grew up here."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 27,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "{{GM}}Is0bel looks around her. Closes her eyes.{{/GM}}\n\nYou could've brought Gobbet instead. I would've been cool with that."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 28,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "{{GM}}She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance.{{/GM}}\n\nThere was a market over there when I was a kid. Might not be a bad place to start."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 30,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "I do. We need to get into the Lotus Den. That's what Bao calls the little island of control that he's carved out for himself here. \n\nIt's a stupid name, but it stuck.\n\nHe'll have guards posted at every entrance, but we might be able to find a way around them through the market. That's what Kindly would prefer."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 31,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "{{GM}}Is0bel looks around her. Closes her eyes.{{/GM}}\n\nI wish that I didn't."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 32,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "{{GM}}She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance.{{/GM}}\n\nThere was a market over there when I was a kid. Might not be a bad place to start."
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 33,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "{{GM}}Is0bel looks around her. Closes her eyes.{{/GM}}\n\nTell me about it. "
+    },
+    {
+     "c": "54d2941f32343734920026a7",
+     "n": 34,
+     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+     "t": "{{GM}}She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance.{{/GM}}\n\nThere was a market over there when I was a kid. Might not be a bad place to start."
+    },
+    {
+     "c": "54d3ae4932343774800026f2",
+     "n": 3,
+     "cn": "a1_WalledCity_s1-Canal_DeckerPath_Keypad",
+     "t": "Nothing to it.\n\n{{GM}}She loads up a program on her deck and effortlessly decodes the door lock.{{/GM}}"
+    },
+    {
+     "c": "54d3f034323437f057003738",
+     "n": 12,
+     "cn": "a1_WalledCity_s1-Streets_Guards",
+     "t": "Uh-huh."
+    },
+    {
+     "c": "54d3f034323437f057003738",
+     "n": 21,
+     "cn": "a1_WalledCity_s1-Streets_Guards",
+     "t": "I'm a local. I work for Kindly Cheng. Show some respect."
+    },
+    {
+     "c": "54d4f0fb3234372c68007025",
+     "n": 0,
+     "cn": "a1_WalledCity_s1-Canal_DeckerPath_Terminal",
+     "t": "This terminal belongs to Bao's people. I bet that we can get something useful out of it."
+    },
+    {
+     "c": "54d5426a323437e81a005d05",
+     "n": 19,
+     "cn": "a1_WalledCity_s1-Streets_SpiritCommunicate",
+     "t": "{{GM}}Is0bel gives you a sidelong glance.{{/GM}}\n\nCheng didn't want any Yellow Lotus killed, $(l.lastname)."
+    },
+    {
+     "c": "54eb63293234375428006ec6",
+     "n": 11,
+     "cn": "a1_WalledCity_s1-Canal_MuggerConfront",
+     "t": "I don't offer a lot of compliments, $(l.name). Not my style. But that... that was a thing of beauty."
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 5,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "{{GM}}Is0bel ignores the barb. She exhales in relief.{{/GM}}\n\nWe're lucky that we were able to stop that spirit before it killed Bao. I don't think Cheng would have appreciated losing one of her best enforcers right after losing some of her best runners."
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 7,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "You'll have to take that one up with Gobbet, Gun Show. \n\nShe's a shaman. Summoning's part of her gig."
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 9,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "{{GM}}Is0bel ignores the barb. She inhales with a little tremble.{{/GM}}\n\nWell, we got the job done, but a couple Yellow Lotus members had to be put down to do it. Hopefully, Kindly Cheng will understand that she had to lose a few to accomplish her goal."
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 11,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "I'll take talking to lost spirits over this place."
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 12,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "{{GM}}She looks around. Shudders.{{/GM}}\n\nEvery time."
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 13,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "{{GM}}Is0bel ignores the barb. She's too pleased.{{/GM}}\n\nI can't believe it. We actually delivered Auntie's message without anyone dying. "
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 15,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "I'm with you, Gun Show. I don't need to see this place ever again."
+    },
+    {
+     "c": "553fde68323437a42300787b",
+     "n": 16,
+     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+     "t": "It's a life... the only one I've got. Beats living in this cesspool.\n\nNow can we please get out of here?"
+    },
+    {
+     "c": "5540090f323437582000680d",
+     "n": 4,
+     "cn": "a1_WalledCity_s1-LotusDen_SpiritSpotted",
+     "t": "That spirit doesn't look like it's gonna take a break any time soon. What should we do?"
+    },
+    {
+     "c": "55400d643234375820006888",
+     "n": 11,
+     "cn": "a1_WalledCity_s1-LotusDen_TalkDownSpirit",
+     "t": "{{GM}}Is0bel watches the spirit thrash.{{/GM}}\n\nOkay, *that's* interesting."
+    },
+    {
+     "c": "55931338323437243a000ee8",
+     "n": 3,
+     "cn": "a1_WalledCity_s1-Repair_SparkingWires",
+     "t": "Sure, it's just basic electrical work. I patch cables in my deck all the time."
+    },
+    {
+     "c": "560030b9306364541f000190",
+     "n": 4,
+     "cn": "CREW TAGS PLACEHOLDER",
+     "t": "Isobel"
     }
    ],
    "portraitFile": "hk/npc_dwarffemale_is0bel.png"
@@ -70960,6 +71171,90 @@
      "n": 16,
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "Why, to the new home of the Yellow Lotus, my friend!\n\n{{GM}}His smile gleams.{{/GM}}\n\nCome, now - we must go. But trust Jomo... all will be made clear in time!"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 0,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "{{GM}}Captain Jomo is busily playing some kind of gambling game on his commlink. It beeps and flashes as he taps away.{{/GM}}\n\nCome on, Jomo. Win, not lose! Maybe buy yourself that new hat!\n\n{{GM}}He doesn't appear to have noticed you at all.{{/GM}}"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 1,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "{{GM}}The game makes a sad, defeated noise. Jomo curses under his breath, nose wrinkling in disgust. Finally, he seems to notice you.{{/GM}}\n\nStupid game. Always, it cheats me! Never a good hand...\n\nNow! Kindly Cheng sends you, lah? You need Captain Jomo to take you to play pirate?"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 3,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "{{GM}}Jomo stands at the edge of the dock, smoking a hand-rolled cigarette as he stares out over the river. As you approach, he lifts a hand in greeting.{{/GM}}\n\nHo there! Come to admire the river with Jomo? I have a bottle of baiju we can share."
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 4,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "Ahh, best choice!\n\n{{GM}}The ork pirate grins from ear to ear and produces a bottle half-full of clear liquid. There is no label, and the cork appears to be hand-carved.{{/GM}}\n\nIt is the best my meager money can buy. Not many ships worth raiding, lately. God damned weather!"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 5,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "{{GM}}A small sip was probably the better choice - the taste is like unto acetone, kerosene, and old tires. It burns in your mouth, a pile of tiny liquid coals, and you stifle a cough. Jomo claps you on the back, still grinning.{{/GM}}\n\nSee? This is how Kindly stays looking so young! Chinese elixir of life!"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 6,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "What favor can Jomo do for you? You need a body dumped at sea? I can do it fast, no one will see. Maybe you need to hide some cargo on a beach, make a map with 'X marks the spot'? \n\n{{GM}}Captain Jomo bursts into hearty laughter, slapping his side in mirth.{{/GM}}"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 8,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "Ahh! Easy, lah. I know exactly where that heap of junk is."
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 9,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "{{GM}}A smaller drink may have been a better idea. Your eyes begin to water as the baiju fills your mouth with the flavor of kerosene and old tires. Your throat feels like someone's poured molten glass down it. Stifling a cough, you hand the bottle back to Jomo. He's still grinning.{{/GM}}\n\nWith this, you are ready to conquer the world!"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 10,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "Suit yourself, my friend!\n\n{{GM}}Raising the bottle to his lips, Jomo takes a long pull. When he finishes, he coughs a few times.{{/GM}}\n\nWoosh! Rocket fuel!"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 11,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "{{GM}}Jomo raises a hand in greeting as you approach.{{/GM}}\n\nAll done now? I take you to your ship now? Faster than you can blink, lah!"
+    },
+    {
+     "c": "55943ab8306364c82b0008b2",
+     "n": 12,
+     "cn": "HK_Hub-Global_Jomo",
+     "t": "{{GM}}Jomo raises a hand in greeting as you approach.{{/GM}}\n\nWelcome back, friend. Maybe now you tell me what favor you need from me? Jomo is a good friend to all in Heoi."
+    },
+    {
+     "c": "56002e56306364541f00015b",
+     "n": 2,
+     "cn": "MC_a2_Plaguebearer_s1-IntroConvo",
+     "t": "You asked Jomo, he delivered. Welcome to Shiawase's foremost bioengineering labs. Great location, lah?\n\nI'll lock the door once you leave this room to keep uninvited guests away from our sub."
+    },
+    {
+     "c": "56002e56306364541f00015b",
+     "n": 3,
+     "cn": "MC_a2_Plaguebearer_s1-IntroConvo",
+     "t": "This bay isn't on the same level as the labs, but there should be an elevator that you can take deeper into this... sea hive. Some trams, too, according to the blueprints. \n\nGo, do your job - I will keep the sub prepped and ready for your return. But places like this... they make me uncomfortable. Too clean. Try not to keep Jomo waiting too long."
+    },
+    {
+     "c": "56002e56306364541f00015b",
+     "n": 11,
+     "cn": "MC_a2_Plaguebearer_s1-IntroConvo",
+     "t": "{{GM}}Jomo nods as you approach, his expression stern.{{/GM}}\n\nHad enough of kicking the hornets today? My radio sounds like a whole nest of them is after you."
     }
    ],
    "portraitFile": "hk/npc_orkmale_whistleblower_capjomo.png"
@@ -72512,13 +72807,133 @@
      "n": 89,
      "cn": "MC_Hub_Impound-InspectorBriefing_Pt2",
      "t": "Straight to the point. Good.\n\n{{GM}}He throws Qiu a sidelong glance.{{/GM}}\n\nYou wanna get us stared, Fiona?"
+    },
+    {
+     "c": "5601e315626632941e0014eb",
+     "n": 38,
+     "cn": "MC_Hub_Global-MissionComputer",
+     "t": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Gearing up.\n\nIf you find yourself in need of gear or supplies before your run on the Tigers' Den, speak with Sergeant Lee. He's the task force's quartermaster, and he has been instructed to equip and supply you as if you were one of us. You'll still need to pay for your gear, but he has an extensive stock of security-rated firearms that might interest you."
+    },
+    {
+     "c": "5601e315626632941e0014eb",
+     "n": 39,
+     "cn": "MC_Hub_Global-MissionComputer",
+     "t": "If you need medical supplies or cybernetic enhancements, you'll find automated kiosks in the yard that can serve your needs.\n\nFor anything else, I'd recommend talking to Captain Jomo. He can supply you with whatever we can't. I only ask that you keep your business between yourselves, and that you leave me out of it."
+    },
+    {
+     "c": "5601e315626632941e0014eb",
+     "n": 40,
+     "cn": "MC_Hub_Global-MissionComputer",
+     "t": "Even if you feel prepared, I'd recommend that you look at what the yard has on offer before you head to the Tigers' Den. It's better to be overprepared than it is to get caught flat-footed.\n\nBest of luck.\nLam."
+    },
+    {
+     "c": "5601e315626632941e0014eb",
+     "n": 42,
+     "cn": "MC_Hub_Global-MissionComputer",
+     "t": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Tigers' Den Infiltration - Recap\n\nAttached to this mail, you will find a brief recap of our conversation regarding the Tigers' Den. Please save this for your records and review as necessary.\n\n-Lam"
+    },
+    {
+     "c": "563e7751643661b00e0012c3",
+     "n": 4,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_1",
+     "t": "Wait, Qiu. We don't know--"
+    },
+    {
+     "c": "563e7751643661b00e0012c3",
+     "n": 6,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_1",
+     "t": "{{GM}}Lam lets out a sigh.{{/GM}}\n\n...Yes, Qiu. You are."
+    },
+    {
+     "c": "563e8d70643661b00e001344",
+     "n": 1,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2",
+     "t": "{{GM}}Lam glances down at you, frowning.{{/GM}}\n\nSorry about this, $(l.honorific) $(l.lastname). If there were another way, I would've taken it.\n\nYou know how it is. Nothing personal."
+    },
+    {
+     "c": "563e8d70643661b00e001344",
+     "n": 3,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2",
+     "t": "Believe it or not, I'm not doing this to hurt you, either. Hell, I'm trying to fix things... but you're in too deep with Mitsuhama to see that.\n\nI could try to explain it forever, but you'd never understand."
+    },
+    {
+     "c": "563e8d70643661b00e001344",
+     "n": 4,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2",
+     "t": "{{GM}}He turns away, peering down the darkened hallway ahead of you.{{/GM}}\n\nYou can come out now, Wallace. It worked."
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 1,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "Of course it worked. It was my plan.\n\n{{GM}}He sneers down at Qiu.{{/GM}}\n\nAnd there she is, the company woman herself. Got anything to say for yourself, Qiu? Any more edicts from Mitsuhama to deliver?"
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 3,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "{{GM}}His lips curl into a smug grin.{{/GM}}\n\nDidn't think so."
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 4,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "{{GM}}Lam frowns at the mage.{{/GM}}\n\nQuit gloating, Koo. I brought her here because she's a threat to what we're trying to accomplish, but she's still worthy of respect.\n\nDid Krait fill you in on what happens next?"
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 5,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "{{GM}}He rolls his eyes.{{/GM}}\n\nOf course she did. We strip everything that Mitsuhama and the Executive Council's task force know about our operation from Qiu's mind via magical interrogation. Then she suffers an \"accident.\" \n\n{{GM}}He nods his head at you.{{/GM}}\n\nAnd your pet shadowrunner takes the fall for it."
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 6,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "Okay, that sounds about right. Krait also said that--"
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 7,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "{{GM}}The pockmarked mage butts in, cutting him off.{{/GM}}\n\nRemember who you're talking to, golden boy. I recruited you into this organization.\n\nI don't need instructions from you."
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 10,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "{{GM}}Koo jerks his head in your direction.{{/GM}}\n\nLook, the poor fool is trying to move.\n\nWe've ensnared your essence, asshole. You belong to us now."
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 11,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "Don't try to fight it, $(l.name). You'll only hurt yourself. We all know what has to happen here, but there's no reason why it can't be quick and painless.\n\nJust look at Fiona... she isn't struggling. She's accepted it."
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 13,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "What? Has something gone wrong? What is it?"
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 14,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "Your partner. I can't read her aura at all.\n\n{{GM}}The frown deepens.{{/GM}}\n\nIt's... strange. It's like there's nothing there."
+    },
+    {
+     "c": "564d03236266328c12006ba2",
+     "n": 15,
+     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
+     "t": "{{GM}}He turns to look at her, blinking.{{/GM}}\n\nWhat are you saying? How can she have no aur--"
     }
    ],
    "portraitFile": "hk/npc_humanmale_shadows_andy.png"
   },
   {
-   "id": "name_sceneaptexecname",
-   "name": "$(scene.apt_ExecName)",
+   "id": "name_apartmentexecutive",
+   "name": "Apartment Executive",
    "portrait": "Backer_HumanMale_RickardJohansson",
    "archetype": null,
    "bio": null,
@@ -77315,8 +77730,8 @@
    "portraitFile": "hk/npc_humanfemale_extraction_emilie.png"
   },
   {
-   "id": "name_storymchubcharnamedecker",
-   "name": "$(story.MC_Hub-charName_Decker)",
+   "id": "name_impounddecker",
+   "name": "Impound Decker",
    "portrait": "Backer_MaleHuman_LevicStolls",
    "archetype": null,
    "bio": null,
@@ -80236,227 +80651,6 @@
    ]
   },
   {
-   "id": "name_shydwarf",
-   "name": "Shy Dwarf",
-   "portrait": "npc_dwarfFemale_Is0bel",
-   "archetype": "Guard - Protect",
-   "bio": "",
-   "lines": [
-    {
-     "c": "54bd886b323437742d0012df",
-     "n": 30,
-     "cn": "a1_Docks_s1-RunnersMeeting",
-     "t": "{{GM}}The dwarf cuts in. Her voice is soft, but strong.{{/GM}}\n\n*Criminal* mercenary operatives."
-    },
-    {
-     "c": "54bd886b323437742d0012df",
-     "n": 42,
-     "cn": "a1_Docks_s1-RunnersMeeting",
-     "t": "{{GM}}The dwarf standing next to her nods and jumps in.{{/GM}}\n\nWouldn't say. He mumbled a lot, too. Just kept rambling on and on about how he *had* to get in."
-    },
-    {
-     "c": "54c004f4323437dc27001556",
-     "n": 7,
-     "cn": "a1_Docks_s1-GobbetInCover",
-     "t": "{{GM}}The dwarf shakes her head at him. Her voice is flat.{{/GM}}\n\nSave your breath. They won't listen."
-    },
-    {
-     "c": "54c004f4323437dc27001556",
-     "n": 13,
-     "cn": "a1_Docks_s1-GobbetInCover",
-     "t": "Everyone?! We don't need the rent-a-cops, Gobbet! We're the only ones--"
-    },
-    {
-     "c": "54c2c193323437f024003921",
-     "n": 32,
-     "cn": "a1_Docks_s1-SceneExit_Recap",
-     "t": "Is0bel isn't listening. She is staring open-mouthed at her own PDA, its bluish glow illuminating her horrified expression.",
-     "y": 6
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 16,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "Kindly doesn't want them dead, she wants them to remember where their loyalties lie. It's tough to remember much of anything when you've got a bullet in your head."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 19,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "If they don't try and kill us, they live. Got it."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 21,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "I like the way you think. \n\n{{GM}}The decker looks around her. Wrinkles her nose.{{/GM}}\n\nI want out of this place as fast as possible."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 23,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "That's a good head space to stay in."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 25,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "Who knows? He'd have to be insane to travel *to* the Walled City... As I think we said, it's the worst slum in the eastern hemisphere. Maybe the worst in the world. \n\n{{GM}}She does her best to suppress a shudder. Can't keep the dread from creeping into her voice.{{/GM}}\n\nCan't believe I grew up here."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 27,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "{{GM}}Is0bel looks around her. Closes her eyes.{{/GM}}\n\nYou could've brought Gobbet instead. I would've been cool with that."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 28,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "{{GM}}She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance.{{/GM}}\n\nThere was a market over there when I was a kid. Might not be a bad place to start."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 30,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "I do. We need to get into the Lotus Den. That's what Bao calls the little island of control that he's carved out for himself here. \n\nIt's a stupid name, but it stuck.\n\nHe'll have guards posted at every entrance, but we might be able to find a way around them through the market. That's what Kindly would prefer."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 31,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "{{GM}}Is0bel looks around her. Closes her eyes.{{/GM}}\n\nI wish that I didn't."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 32,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "{{GM}}She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance.{{/GM}}\n\nThere was a market over there when I was a kid. Might not be a bad place to start."
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 33,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "{{GM}}Is0bel looks around her. Closes her eyes.{{/GM}}\n\nTell me about it. "
-    },
-    {
-     "c": "54d2941f32343734920026a7",
-     "n": 34,
-     "cn": "a1_WalledCity_s1-Streets_TeamIntro",
-     "t": "{{GM}}She peers up at the catwalks and sky bridges that connect the rotting tenement's sagging architecture. Frowning, she points to a spot in the distance.{{/GM}}\n\nThere was a market over there when I was a kid. Might not be a bad place to start."
-    },
-    {
-     "c": "54d3ae4932343774800026f2",
-     "n": 3,
-     "cn": "a1_WalledCity_s1-Canal_DeckerPath_Keypad",
-     "t": "Nothing to it.\n\n{{GM}}She loads up a program on her deck and effortlessly decodes the door lock.{{/GM}}"
-    },
-    {
-     "c": "54d3f034323437f057003738",
-     "n": 12,
-     "cn": "a1_WalledCity_s1-Streets_Guards",
-     "t": "Uh-huh."
-    },
-    {
-     "c": "54d3f034323437f057003738",
-     "n": 21,
-     "cn": "a1_WalledCity_s1-Streets_Guards",
-     "t": "I'm a local. I work for Kindly Cheng. Show some respect."
-    },
-    {
-     "c": "54d4f0fb3234372c68007025",
-     "n": 0,
-     "cn": "a1_WalledCity_s1-Canal_DeckerPath_Terminal",
-     "t": "This terminal belongs to Bao's people. I bet that we can get something useful out of it."
-    },
-    {
-     "c": "54d5426a323437e81a005d05",
-     "n": 19,
-     "cn": "a1_WalledCity_s1-Streets_SpiritCommunicate",
-     "t": "{{GM}}Is0bel gives you a sidelong glance.{{/GM}}\n\nCheng didn't want any Yellow Lotus killed, $(l.lastname)."
-    },
-    {
-     "c": "54eb63293234375428006ec6",
-     "n": 11,
-     "cn": "a1_WalledCity_s1-Canal_MuggerConfront",
-     "t": "I don't offer a lot of compliments, $(l.name). Not my style. But that... that was a thing of beauty."
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 5,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "{{GM}}Is0bel ignores the barb. She exhales in relief.{{/GM}}\n\nWe're lucky that we were able to stop that spirit before it killed Bao. I don't think Cheng would have appreciated losing one of her best enforcers right after losing some of her best runners."
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 7,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "You'll have to take that one up with Gobbet, Gun Show. \n\nShe's a shaman. Summoning's part of her gig."
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 9,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "{{GM}}Is0bel ignores the barb. She inhales with a little tremble.{{/GM}}\n\nWell, we got the job done, but a couple Yellow Lotus members had to be put down to do it. Hopefully, Kindly Cheng will understand that she had to lose a few to accomplish her goal."
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 11,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "I'll take talking to lost spirits over this place."
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 12,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "{{GM}}She looks around. Shudders.{{/GM}}\n\nEvery time."
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 13,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "{{GM}}Is0bel ignores the barb. She's too pleased.{{/GM}}\n\nI can't believe it. We actually delivered Auntie's message without anyone dying. "
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 15,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "I'm with you, Gun Show. I don't need to see this place ever again."
-    },
-    {
-     "c": "553fde68323437a42300787b",
-     "n": 16,
-     "cn": "a1_WalledCity_s1-Streets_TeamOutro",
-     "t": "It's a life... the only one I've got. Beats living in this cesspool.\n\nNow can we please get out of here?"
-    },
-    {
-     "c": "5540090f323437582000680d",
-     "n": 4,
-     "cn": "a1_WalledCity_s1-LotusDen_SpiritSpotted",
-     "t": "That spirit doesn't look like it's gonna take a break any time soon. What should we do?"
-    },
-    {
-     "c": "55400d643234375820006888",
-     "n": 11,
-     "cn": "a1_WalledCity_s1-LotusDen_TalkDownSpirit",
-     "t": "{{GM}}Is0bel watches the spirit thrash.{{/GM}}\n\nOkay, *that's* interesting."
-    },
-    {
-     "c": "55931338323437243a000ee8",
-     "n": 3,
-     "cn": "a1_WalledCity_s1-Repair_SparkingWires",
-     "t": "Sure, it's just basic electrical work. I patch cables in my deck all the time."
-    },
-    {
-     "c": "560030b9306364541f000190",
-     "n": 4,
-     "cn": "CREW TAGS PLACEHOLDER",
-     "t": "Isobel"
-    }
-   ],
-   "portraitFile": "hk/npc_dwarffemale_is0bel.png"
-  },
-  {
    "id": "name_tsangvp",
    "name": "Tsang VP",
    "portrait": "NPC_HumanMale_TsangTower_BusinessMan",
@@ -83345,8 +83539,8 @@
    "portraitFile": "hk/npc_dwarfmale_gobbettrust_patrick.png"
   },
   {
-   "id": "name_sceneglobalnamelocal1",
-   "name": "$(scene.Global_Name_Local1)",
+   "id": "name_middeckcroaker",
+   "name": "Mid-Deck Croaker",
    "portrait": null,
    "archetype": null,
    "bio": null,
@@ -87702,8 +87896,8 @@
    ]
   },
   {
-   "id": "name_sceneglobalnamelocalfriend",
-   "name": "$(scene.Global_Name_LocalFriend)",
+   "id": "name_yasmin",
+   "name": "Yasmin",
    "portrait": "NPC_HumanFemale_GobbetTrust_Yasmin",
    "archetype": null,
    "bio": null,
@@ -90019,8 +90213,8 @@
    "portraitFile": "hk/npc_humanmale_grendel_elderip.png"
   },
   {
-   "id": "name_sceneglobalnamelocal3",
-   "name": "$(scene.Global_Name_Local3)",
+   "id": "name_middeckgrinner",
+   "name": "Mid-Deck Grinner",
    "portrait": null,
    "archetype": null,
    "bio": null,
@@ -91276,8 +91470,8 @@
    "machine": true
   },
   {
-   "id": "name_sceneglobalnamelocal5",
-   "name": "$(scene.Global_Name_Local5)",
+   "id": "name_middeckguard",
+   "name": "Mid-Deck Guard",
    "portrait": null,
    "archetype": null,
    "bio": null,
@@ -91912,8 +92106,8 @@
    ]
   },
   {
-   "id": "name_sceneglobalnamelocal2",
-   "name": "$(scene.Global_Name_Local2)",
+   "id": "name_middecksickwoman",
+   "name": "Mid-Deck Sick Woman",
    "portrait": null,
    "archetype": null,
    "bio": null,
@@ -93870,136 +94064,6 @@
    "portraitFile": "hk/backer_elfmale_rowynshoremaker.png"
   },
   {
-   "id": "name_inspectorlam",
-   "name": "Inspector Lam",
-   "portrait": "NPC_HumanMale_Shadows_Andy",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "5601e315626632941e0014eb",
-     "n": 38,
-     "cn": "MC_Hub_Global-MissionComputer",
-     "t": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Gearing up.\n\nIf you find yourself in need of gear or supplies before your run on the Tigers' Den, speak with Sergeant Lee. He's the task force's quartermaster, and he has been instructed to equip and supply you as if you were one of us. You'll still need to pay for your gear, but he has an extensive stock of security-rated firearms that might interest you."
-    },
-    {
-     "c": "5601e315626632941e0014eb",
-     "n": 39,
-     "cn": "MC_Hub_Global-MissionComputer",
-     "t": "If you need medical supplies or cybernetic enhancements, you'll find automated kiosks in the yard that can serve your needs.\n\nFor anything else, I'd recommend talking to Captain Jomo. He can supply you with whatever we can't. I only ask that you keep your business between yourselves, and that you leave me out of it."
-    },
-    {
-     "c": "5601e315626632941e0014eb",
-     "n": 40,
-     "cn": "MC_Hub_Global-MissionComputer",
-     "t": "Even if you feel prepared, I'd recommend that you look at what the yard has on offer before you head to the Tigers' Den. It's better to be overprepared than it is to get caught flat-footed.\n\nBest of luck.\nLam."
-    },
-    {
-     "c": "5601e315626632941e0014eb",
-     "n": 42,
-     "cn": "MC_Hub_Global-MissionComputer",
-     "t": ">>From: Senior Inspector Lam\n>>To: $(l.name)\n>>Subject: Tigers' Den Infiltration - Recap\n\nAttached to this mail, you will find a brief recap of our conversation regarding the Tigers' Den. Please save this for your records and review as necessary.\n\n-Lam"
-    },
-    {
-     "c": "563e7751643661b00e0012c3",
-     "n": 4,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_1",
-     "t": "Wait, Qiu. We don't know--"
-    },
-    {
-     "c": "563e7751643661b00e0012c3",
-     "n": 6,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_1",
-     "t": "{{GM}}Lam lets out a sigh.{{/GM}}\n\n...Yes, Qiu. You are."
-    },
-    {
-     "c": "563e8d70643661b00e001344",
-     "n": 1,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2",
-     "t": "{{GM}}Lam glances down at you, frowning.{{/GM}}\n\nSorry about this, $(l.honorific) $(l.lastname). If there were another way, I would've taken it.\n\nYou know how it is. Nothing personal."
-    },
-    {
-     "c": "563e8d70643661b00e001344",
-     "n": 3,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2",
-     "t": "Believe it or not, I'm not doing this to hurt you, either. Hell, I'm trying to fix things... but you're in too deep with Mitsuhama to see that.\n\nI could try to explain it forever, but you'd never understand."
-    },
-    {
-     "c": "563e8d70643661b00e001344",
-     "n": 4,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2",
-     "t": "{{GM}}He turns away, peering down the darkened hallway ahead of you.{{/GM}}\n\nYou can come out now, Wallace. It worked."
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 1,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "Of course it worked. It was my plan.\n\n{{GM}}He sneers down at Qiu.{{/GM}}\n\nAnd there she is, the company woman herself. Got anything to say for yourself, Qiu? Any more edicts from Mitsuhama to deliver?"
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 3,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "{{GM}}His lips curl into a smug grin.{{/GM}}\n\nDidn't think so."
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 4,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "{{GM}}Lam frowns at the mage.{{/GM}}\n\nQuit gloating, Koo. I brought her here because she's a threat to what we're trying to accomplish, but she's still worthy of respect.\n\nDid Krait fill you in on what happens next?"
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 5,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "{{GM}}He rolls his eyes.{{/GM}}\n\nOf course she did. We strip everything that Mitsuhama and the Executive Council's task force know about our operation from Qiu's mind via magical interrogation. Then she suffers an \"accident.\" \n\n{{GM}}He nods his head at you.{{/GM}}\n\nAnd your pet shadowrunner takes the fall for it."
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 6,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "Okay, that sounds about right. Krait also said that--"
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 7,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "{{GM}}The pockmarked mage butts in, cutting him off.{{/GM}}\n\nRemember who you're talking to, golden boy. I recruited you into this organization.\n\nI don't need instructions from you."
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 10,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "{{GM}}Koo jerks his head in your direction.{{/GM}}\n\nLook, the poor fool is trying to move.\n\nWe've ensnared your essence, asshole. You belong to us now."
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 11,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "Don't try to fight it, $(l.name). You'll only hurt yourself. We all know what has to happen here, but there's no reason why it can't be quick and painless.\n\nJust look at Fiona... she isn't struggling. She's accepted it."
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 13,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "What? Has something gone wrong? What is it?"
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 14,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "Your partner. I can't read her aura at all.\n\n{{GM}}The frown deepens.{{/GM}}\n\nIt's... strange. It's like there's nothing there."
-    },
-    {
-     "c": "564d03236266328c12006ba2",
-     "n": 15,
-     "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
-     "t": "{{GM}}He turns to look at her, blinking.{{/GM}}\n\nWhat are you saying? How can she have no aur--"
-    }
-   ],
-   "portraitFile": "hk/npc_humanmale_shadows_andy.png"
-  },
-  {
    "id": "name_yellowlotuscaptain",
    "name": "Yellow Lotus Captain",
    "portrait": null,
@@ -94791,100 +94855,6 @@
     }
    ],
    "portraitFile": "hk/npc_humanfemale_grendel_galina.png"
-  },
-  {
-   "id": "name_captainjomo",
-   "name": "Captain Jomo",
-   "portrait": "NPC_OrkMale_Whistleblower_CapJomo",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 0,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "{{GM}}Captain Jomo is busily playing some kind of gambling game on his commlink. It beeps and flashes as he taps away.{{/GM}}\n\nCome on, Jomo. Win, not lose! Maybe buy yourself that new hat!\n\n{{GM}}He doesn't appear to have noticed you at all.{{/GM}}"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 1,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "{{GM}}The game makes a sad, defeated noise. Jomo curses under his breath, nose wrinkling in disgust. Finally, he seems to notice you.{{/GM}}\n\nStupid game. Always, it cheats me! Never a good hand...\n\nNow! Kindly Cheng sends you, lah? You need Captain Jomo to take you to play pirate?"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 3,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "{{GM}}Jomo stands at the edge of the dock, smoking a hand-rolled cigarette as he stares out over the river. As you approach, he lifts a hand in greeting.{{/GM}}\n\nHo there! Come to admire the river with Jomo? I have a bottle of baiju we can share."
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 4,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "Ahh, best choice!\n\n{{GM}}The ork pirate grins from ear to ear and produces a bottle half-full of clear liquid. There is no label, and the cork appears to be hand-carved.{{/GM}}\n\nIt is the best my meager money can buy. Not many ships worth raiding, lately. God damned weather!"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 5,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "{{GM}}A small sip was probably the better choice - the taste is like unto acetone, kerosene, and old tires. It burns in your mouth, a pile of tiny liquid coals, and you stifle a cough. Jomo claps you on the back, still grinning.{{/GM}}\n\nSee? This is how Kindly stays looking so young! Chinese elixir of life!"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 6,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "What favor can Jomo do for you? You need a body dumped at sea? I can do it fast, no one will see. Maybe you need to hide some cargo on a beach, make a map with 'X marks the spot'? \n\n{{GM}}Captain Jomo bursts into hearty laughter, slapping his side in mirth.{{/GM}}"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 8,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "Ahh! Easy, lah. I know exactly where that heap of junk is."
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 9,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "{{GM}}A smaller drink may have been a better idea. Your eyes begin to water as the baiju fills your mouth with the flavor of kerosene and old tires. Your throat feels like someone's poured molten glass down it. Stifling a cough, you hand the bottle back to Jomo. He's still grinning.{{/GM}}\n\nWith this, you are ready to conquer the world!"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 10,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "Suit yourself, my friend!\n\n{{GM}}Raising the bottle to his lips, Jomo takes a long pull. When he finishes, he coughs a few times.{{/GM}}\n\nWoosh! Rocket fuel!"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 11,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "{{GM}}Jomo raises a hand in greeting as you approach.{{/GM}}\n\nAll done now? I take you to your ship now? Faster than you can blink, lah!"
-    },
-    {
-     "c": "55943ab8306364c82b0008b2",
-     "n": 12,
-     "cn": "HK_Hub-Global_Jomo",
-     "t": "{{GM}}Jomo raises a hand in greeting as you approach.{{/GM}}\n\nWelcome back, friend. Maybe now you tell me what favor you need from me? Jomo is a good friend to all in Heoi."
-    },
-    {
-     "c": "56002e56306364541f00015b",
-     "n": 2,
-     "cn": "MC_a2_Plaguebearer_s1-IntroConvo",
-     "t": "You asked Jomo, he delivered. Welcome to Shiawase's foremost bioengineering labs. Great location, lah?\n\nI'll lock the door once you leave this room to keep uninvited guests away from our sub."
-    },
-    {
-     "c": "56002e56306364541f00015b",
-     "n": 3,
-     "cn": "MC_a2_Plaguebearer_s1-IntroConvo",
-     "t": "This bay isn't on the same level as the labs, but there should be an elevator that you can take deeper into this... sea hive. Some trams, too, according to the blueprints. \n\nGo, do your job - I will keep the sub prepped and ready for your return. But places like this... they make me uncomfortable. Too clean. Try not to keep Jomo waiting too long."
-    },
-    {
-     "c": "56002e56306364541f00015b",
-     "n": 11,
-     "cn": "MC_a2_Plaguebearer_s1-IntroConvo",
-     "t": "{{GM}}Jomo nods as you approach, his expression stern.{{/GM}}\n\nHad enough of kicking the hornets today? My radio sounds like a whole nest of them is after you."
-    }
-   ],
-   "portraitFile": "hk/npc_orkmale_whistleblower_capjomo.png"
   },
   {
    "id": "name_waitress",
@@ -97325,8 +97295,8 @@
    "portraitFile": "hk/npc_humanfemale_grendel_wingkeikwok.png"
   },
   {
-   "id": "name_sceneglobalnamecadmussupporter1",
-   "name": "$(scene.Global_Name_CadmusSupporter1)",
+   "id": "name_cadmussupporter",
+   "name": "Cadmus Supporter",
    "portrait": null,
    "archetype": null,
    "bio": null,

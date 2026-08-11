@@ -680,7 +680,7 @@
    "young",
    "tense"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "young"
  },
  "name_whampoanpuppet": {
@@ -1666,7 +1666,7 @@
    "chinese",
    "harried"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "middle_aged"
  },
  "name_opti": {
@@ -1799,7 +1799,7 @@
    "casual",
    "plain"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "middle_aged"
  },
  "name_breakerhui": {
@@ -1891,7 +1891,7 @@
    "fanatical",
    "harsh"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "young"
  },
  "name_outspokencivilian": {
@@ -2993,7 +2993,7 @@
    "petty",
    "conversational"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "middle_aged"
  },
  "name_sceneouterringlocalshamanname": {

@@ -23,6 +23,21 @@ def main():
     chars = json.load(open(os.path.join(ROOT, f"app/data/{game}/characters.json")))
     src = json.load(open(os.path.join(ROOT, f"tools/char_notes_src/{game}.json")))
 
+    # The game's own stage directions are better evidence of a character's gender than their
+    # portrait filename, which is what generic_for() has to guess from. "Leung" carries a male
+    # portrait key and 101 uses of "she" in her own narration; the guess lost her 96 lines to a
+    # male voice. Authored notes still win — those are Martin's, and a name is not a pronoun.
+    import re as _re
+    _GM = _re.compile(r"\{\{GM\}\}([\s\S]*?)(?:\{\{/GM\}\}|$)")
+
+    def narrated_gender(c):
+        gm = " ".join(_GM.findall(" ".join(l.get("t") or "" for l in c.get("lines") or [])))
+        m = len(_re.findall(r"\b(he|his|him)\b", gm, _re.I))
+        f = len(_re.findall(r"\b(she|her|hers)\b", gm, _re.I))
+        if m + f < 4 or abs(m - f) < max(3, 0.4 * (m + f)):
+            return None            # too little evidence, or the scene simply has both sexes in it
+        return "male" if m > f else "female"
+
     def generic_for(name, portrait):
         n, p = name.lower(), (portrait or "").lower()
         if any(w in n for w in ["terminal", "computer", "console", "drone", "system", "camera", "turret"]):
@@ -76,6 +91,7 @@ def main():
             from_src += 1
         else:
             bio, direction, kws, gender, age = generic_for(c["name"], c.get("portrait"))
+            gender = narrated_gender(c) or gender
             from_generic.append(cid)
         notes[cid] = {"bio": bio, "direction": direction, "gender": gender,
                       "suggestions": suggest(kws, gender, age)}

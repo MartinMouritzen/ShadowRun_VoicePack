@@ -15,5 +15,58 @@
    "name": "Streetwalker",
    "reason": "Same cross-scene name match, and a rename rather than a reattribution because every one of these lines is hers: 'Hooker' matched a prop of that name in c03-s1_barrens which has no dialogue at all, while the woman actually working the Planeyard in c08-s1 is the 'Streetwalker' prop that owns the conversation. Renaming rather than merging keeps her separate from the Barrens woman, who is a different NPC. Audio unchanged. NOTE: her takes were generated with Sasha Monroe while picks.json says Selene Vex -- a pre-existing mismatch carried over untouched, not introduced here."
   }
+ ],
+ "hk": [
+  {
+   "from": "name_sceneaptexecname",
+   "to": "name_apartmentexecutive",
+   "name": "Apartment Executive",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not.",
+   "portrait": "Backer_HumanMale_RickardJohansson"
+  },
+  {
+   "from": "name_storymchubcharnamedecker",
+   "to": "name_impounddecker",
+   "name": "Impound Decker",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not.",
+   "portrait": "Backer_MaleHuman_LevicStolls"
+  },
+  {
+   "from": "name_sceneglobalnamelocalfriend",
+   "to": "name_yasmin",
+   "name": "Yasmin",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not.",
+   "portrait": "NPC_HumanFemale_GobbetTrust_Yasmin"
+  },
+  {
+   "from": "name_sceneglobalnamelocal1",
+   "to": "name_middeckcroaker",
+   "name": "Mid-Deck Croaker",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not."
+  },
+  {
+   "from": "name_sceneglobalnamelocal2",
+   "to": "name_middecksickwoman",
+   "name": "Mid-Deck Sick Woman",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not."
+  },
+  {
+   "from": "name_sceneglobalnamelocal3",
+   "to": "name_middeckgrinner",
+   "name": "Mid-Deck Grinner",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not."
+  },
+  {
+   "from": "name_sceneglobalnamelocal5",
+   "to": "name_middeckguard",
+   "name": "Mid-Deck Guard",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not."
+  },
+  {
+   "from": "name_sceneglobalnamecadmussupporter1",
+   "to": "name_cadmussupporter",
+   "name": "Cadmus Supporter",
+   "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not."
+  }
  ]
 }

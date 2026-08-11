@@ -27,6 +27,21 @@
    "from": "name_chiefinspectorkrait",
    "to": "name_krait",
    "reason": "One person: the broadcast lines are self-identifying ('Constables. This is Krait.') and both buckets are the same female Chief Inspector. Prop is 'Chief Inspector Krait' in mc_a1_intro_s1 and 'Krait' in mc_a3_taipo."
+  },
+  {
+   "from": "name_shydwarf",
+   "to": "name_is0bel",
+   "reason": "Is0bel before you learn her name. Same portrait key (npc_dwarfFemale_Is0bel), and her own stage directions say so: 'The dwarf cuts in. Her voice is soft, but strong', 'Is0bel isn't listening. She is staring open-mouthed at her own PDA'. She also argues with Gobbet by name. 35 lines in the a1_Docks runners' meeting."
+  },
+  {
+   "from": "name_captainjomo",
+   "to": "name_jomo",
+   "reason": "One man. Same portrait (NPC_OrkMale_Whistleblower_CapJomo) and the narration names him both ways in the same breath: 'Captain Jomo is busily playing some kind of gambling game', then 'Jomo curses under his breath'."
+  },
+  {
+   "from": "name_inspectorlam",
+   "to": "name_lam",
+   "reason": "Senior Inspector Andy Lam, who introduces himself by that full title in MC_Hub_Impound-InspectorBriefing. Same portrait (NPC_HumanMale_Shadows_Andy); the short entry holds his briefing dialogue and the long one his mission-computer mail signed 'Senior Inspector Lam'."
   }
  ]
 }

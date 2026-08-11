@@ -1,7 +1,7 @@
 {
  "_fingerprint": {
-  "barks.json": "ca172a46cc63e50e",
-  "text_edits.json": null
+  "barks.json": "103973e2791ffae6",
+  "text_edits.json": "ab7fdb220f3ed09c"
  },
  "beats": {
   "bark_c34f585d2814c5a4": [
@@ -76,6 +76,11 @@
    "As Jomo pulls your small craft directly up to the bow of the Nalchi, where you're least likely to be spotted. He throws a rope ladder up over the side, hustling you aboard before pulling away.",
    "Time to get to work."
   ],
+  "bark_1bc21e54a0daee63": [
+   "The boat heaves and pitches over the bay as your driver plows through the choppy waves to the drop-off point, leaving the Shangri-La restaurant far behind. Inside, restlessness fills the cabin. You've finished the job. The extraction was a success. And now your client awaits his prize: the triad red pole, Rooster.",
+   "It wasn't easy. It should have been - it *would* have been - if that damned Talon hadn't mangled your plans with his visceral determination. But a little anaphylactic shock, and even a streets-forged ork like the Talon could be incapacitated.",
+   "With the Talon out of the way, your escape from the restaurant to the getaway boat was made smoother. Well, as smooth as wading through a small army of triads and skirting the HKPF dragnet could be. Luckily, Rooster got through the pursuit unharmed - a bonus, according to your client. Sounds like it might even earn you a few extra nuyen. Time to get paid."
+  ],
   "bark_97e9678d30543b2d": [
    "The typhoon pours down as the triad soldiers fan out in front of you, leading the way into Kowloon Walled City. Raymond shuffles along, alert and intent. Although exhausted by all that has gone on, he drives himself forward, and will not accept help from anyone. Wu watches the windows and rooftops, his rifle never leaving his shoulder.",
    "He occasionally risks a glance at his foster-father, concern, frustration, and anger playing over his face like a slideshow.",
@@ -86,6 +91,11 @@
    "The deafening rattle of machinegun fire fills the air behind you, and the metallic tang of blood cuts through the stench of garbage. You press forward, wading through block after block of insanity, chaos, and death. All around you, the Walled City is descending into a churning cauldron of depravity and violence.",
    "The comm's of no use. You've tried several times, but there's still no word from the B-Team - no sign of Raymond, or of Kindly Cheng's triad soldiers. Finally, you reach the center of this hellhole: an industrial hatch with its door ajar.",
    "This is the place where Raymond Black built his infernal machine. The threshold across which Qian Ya, the Queen With a Thousand Teeth, clawed her way into this world."
+  ],
+  "bark_4ac31c506b2c43ca": [
+   "Infiltrating the headquarters of a megacorp and locating Raymond Black will be challenge enough. Extricating him from his mother’s ASIST device before his memories are permanently altered is another thing altogether.",
+   "You hop the MTR South Island Line and roll noisily down to the nearby island of Ap Lei Chau, a dense forest of soaring skyscrapers and corporate greed. Amid them blending innocuously with its neighbors, stands Prosperity Tower. Emerging from the MTR station, you find a delivery van waiting for you. Just where Strangler Bao said it would be.",
+   "You pull the van around the building to the loading dock of Tsang Mechanical Services and its CEO, Josephine Tsang."
   ],
   "bark_f4d622f5bddc2e3a": [
    "Something is wrong.",
@@ -112,12 +122,379 @@
    "The incriminating data from the Den's evidence room should be more than enough to bury Krait, expose her client, and cement your position with Kindly Cheng forever.",
    "Jomo cuts the engines, and the Drunken Mistake drifts toward the station's loading dock. It's go time."
   ],
+  "bark_ccada9b14608e268": [
+   "The sound of gunfire echoes through the halls behind you. You press forward, a sea of blood and corpses in your wake. So far, so good - now all that you need to contend with is a police station overflowing with SDU officers, all of whom want you dead.",
+   "The roof seems the most likely way to get out quickly - with luck you'll be able to dodge the police and take a fire escape down to the docks, where Jomo is waiting to extract you.",
+   "Qiu is deathly silent as you ascend toward the roof, her eyes narrowed to slits. As the door swings open and you step out into the light, you steel yourself for whatever comes next."
+  ],
+  "bark_2440ddaae6e390f6": [
+   "The fire-wreathed warehouse burns at your back - the last of Ares and its legacy, soon to be nothing but a mound of embers. You return to Jomo and the Drunken Mistake. The pirate revs his engine and tears out of the harbor ahead of the medevac transport you called in for Qiu.",
+   "Your mind is a blur, thoughts crashing through it like the Mistake crashes through the waves. You know the inspector will live, but your opportunity to flee back to your old life has now left the table, gone from the moment you torched the warehouse. Just like Duncan - but this time for good, from the sound of things.",
+   "His words echo in the back of your mind, their anger leaving little room for reconciliation.",
+   "The Drunken Mistake speeds away from the Tai Po harbor, carrying you back toward the Benteng. If there's anything you gleaned from Kindly Cheng, it's that you and your team have a long sea voyage ahead of you."
+  ],
   "bark_e149e27c04a4a2b8": [
    "You watch the Benteng drift slowly out of view as the Drunken Mistake bobs turbulently on dark, choppy waves. Angry rain dimples the water's surface and obscures the world around you in a haze. Before long, the warehouses appear on the horizon - great grey silhouettes looming just beyond the docks.",
    "Krait and her people are guarding a warehouse here. You don't know what you're going to find inside, but this is the last lead that you have to follow. If the conspiracy within the SDU is going to be stopped, it has to happen tonight, in that warehouse.",
    "Qiu sits nearby, her fingers pressing into her temples - a sign of her distress, no doubt. But despite her evident discomfort, she still looks present and alert.",
    "Tai Po - once a small fishing village, now encrusted with cheap industrial warehouses - grows ever closer. Water whips down from the sky as you bump up against the docks. You've arrived."
+  ],
+  "bark_74a446c44a276366": [
+   "The night sky stretches out around you like neon-streaked velvet. A pile of corpses litter the streets in your wake.",
+   "If Fuchi or Yamatetsu sent any aircraft to pursue you, Jomo has managed to evade them. Eventually, the faint running lights of the Benteng and the smaller vessels surrounding her appear on the horizon.",
+   "You think back on Lily and her predicament as Jomo brings the chopper in for a landing. With luck, maybe she'll find a doctor to cure her condition. Yamatetsu and Fuchi were probably better options for survival, but is it really survival if you're forced to live as a slave?",
+   "If she dies now, at least she'll do so on her own terms."
+  ],
+  "bark_e9c76dbf4085c0b7": [
+   "The Drunken Mistake's turbocharged motors churn through the open water, leaving a trail of frothy sea behind you. The Aberdeen docks quickly recede into the distance, and Jomo powers you steadily deeper into international waters.",
+   "In the back of the boat, Qiu stands alone, one hand cupped over her ear, shouting into her commlink. You can't make out what she's saying over the roar of the Drunken Mistake's engines, but from the expression on her face, it isn't going well.",
+   "Jomo throttles down the engines, nervously staring into the water just beyond the speedboat's hull. You soon discover why: sea mines. With careful precision, the pirate steers the nimble craft around them, aided only by his skill and a handful of Indonesian curses.",
+   "As Jomo pilots you through the minefield, a jagged shape in the distance begins to grow larger. It's huge - a slab-like ship surrounded by a number of smaller vessels. Grinning, the pirate steers you straight ahead to join them."
+  ],
+  "bark_34fefa6490b9d94e": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, and of an old man who sacrificed his soul to banish her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the lucky streak that propelled Tsang Mechanical Services into the limelight slowly comes to an end. While CEO Josephine Tsang remains a beloved public figure, her influence begins to wane, and she is eventually removed from the Executive Council. Within three years of the Walled City riots, Tsang Mechanical Services loses its AAA status.",
+   "From this point on, it is widely considered to be a B-grade corporation.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_7c17ef74a9477dca": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, and of an old man who sacrificed his soul to banish her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the lucky streak that propelled Tsang Mechanical Services into the limelight slowly comes to an end. While CEO Josephine Tsang remains a beloved public figure, her influence begins to wane, and she is eventually removed from the Executive Council. Within three years of the Walled City riots, Tsang Mechanical Services loses its AAA status.",
+   "From this point on, it is widely considered to be a B-grade corporation.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_bd5f7e290760c344": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, and of an old man who sacrificed his soul to banish her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_31fa892519685909": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, and of an old man who sacrificed his soul to banish her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_49ebc1b1263b25c2": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, finally driven away by one old man and a rabble of outsiders. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the lucky streak that propelled Tsang Mechanical Services into the limelight slowly comes to an end. While CEO Josephine Tsang remains a beloved public figure, her influence begins to wane, and she is eventually removed from the Executive Council. Within three years of the Walled City riots, Tsang Mechanical Services loses its AAA status.",
+   "From this point on, it is widely considered to be a B-grade corporation.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_1606b10c2f65bb60": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, finally driven away by one old man and a rabble of outsiders. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the lucky streak that propelled Tsang Mechanical Services into the limelight slowly comes to an end. While CEO Josephine Tsang remains a beloved public figure, her influence begins to wane, and she is eventually removed from the Executive Council. Within three years of the Walled City riots, Tsang Mechanical Services loses its AAA status.",
+   "From this point on, it is widely considered to be a B-grade corporation.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_44933f3365ce05e5": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, finally driven away by one old man and a rabble of outsiders. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_76aad3fbcf2578a7": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess, finally driven away by one old man and a rabble of outsiders. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_03c50dd27fb1ea1e": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess that came to the Walled City, claimed a host of slaves, and then mysteriously departed again, dragging her servants to hell behind her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the lucky streak that propelled Tsang Mechanical Services into the limelight slowly comes to an end. While CEO Josephine Tsang remains a beloved public figure, her influence begins to wane, and she is eventually removed from the Executive Council. Within three years of the Walled City riots, Tsang Mechanical Services loses its AAA status.",
+   "From this point on, it is widely considered to be a B-grade corporation.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_4c07391c7df71242": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess that came to the Walled City, claimed a host of slaves, and then mysteriously departed again, dragging her servants to hell behind her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the lucky streak that propelled Tsang Mechanical Services into the limelight slowly comes to an end. While CEO Josephine Tsang remains a beloved public figure, her influence begins to wane, and she is eventually removed from the Executive Council. Within three years of the Walled City riots, Tsang Mechanical Services loses its AAA status.",
+   "From this point on, it is widely considered to be a B-grade corporation.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_be714a717a6ab325": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess that came to the Walled City, claimed a host of slaves, and then mysteriously departed again, dragging her servants to hell behind her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_91d7cef33e20569e": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. By the end of the month, the city is back to business as usual.",
+   "In Heoi, the flow of refugees eventually slows to a trickle; those who do escape tell stories of a terrifying demon-goddess that came to the Walled City, claimed a host of slaves, and then mysteriously departed again, dragging her servants to hell behind her. Their mad ramblings are generally met with pity or contempt.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Heoi remains a safe port of call for smugglers, gangsters, and shadowrunners alike. You are no exception. The shadows here welcome you, in a way that Seattle never did. You've earned the respect of your fixer, your clients, and your community. And now that the APB on you and your team has been lifted - by parties unknown - you are free to operate openly in Hong Kong.",
+   "This place is yours now. You're home."
+  ],
+  "bark_119845e55ac7aeeb": [
+   "The riots in Kowloon Walled City circulate local news networks for nearly a week. Few outside of the Free Enterprise Zone hear about the incident, and of those that do, even fewer care. Within the Walled City, a strange new cult comes into power, reshaping the core of the massive tenement into a grand court worthy of their queen.",
+   "Stories of Qian Ya and the Yama Kings grow from urban legends to religious parables. The Queen With a Thousand Teeth holds sway over Kowloon Walled City, and all those who trespass within its walls run the risk of capture and enslavement.",
+   "Tsang Mechanical Services continues its meteoric rise. Josephine Tsang remains a beloved figure in Hong Kong society, a philanthropist and an entreprenuer of the highest order. A year after the Walled City riots, Tsang Mechanical Services lands a contract with the UCAS government to handle the construction of emergency facilities and government housing projects.",
+   "Within the next five years, hundreds of thousands of people across the globe find themselves relocated into homes bearing the Tsang logo.",
+   "Your own fortunes have never looked better. Qian Ya lived up to her end of your bargain; ever since you accepted her deal, fate has conspired to help you. Money flows easily. Life in the shadows quickly loses all sense of risk and challenge.",
+   "You have fourteen years to enjoy the fruits of your bargain. Fourteen years to prepare for the day when your luck finally runs out..."
+  ],
+  "bark_fc6c6a88ab4befd6": [
+   "The riots in Kowloon Walled City circulate local news networks for nearly a week. Few outside of the Free Enterprise Zone hear about the incident, and of those that do, even fewer care. Within the Walled City, a strange new cult comes into power, reshaping the core of the massive tenement into a grand court worthy of their queen.",
+   "Stories of Qian Ya and the Yama Kings grow from urban legends to religious parables. The Queen With a Thousand Teeth holds sway over Kowloon Walled City, and all those who trespass within its walls run the risk of capture and enslavement.",
+   "Tsang Mechanical Services continues its meteoric rise. Josephine Tsang remains a beloved figure in Hong Kong society, a philanthropist and an entreprenuer of the highest order. A year after the Walled City riots, Tsang Mechanical Services lands a contract with the UCAS government to handle the construction of emergency facilities and government housing projects.",
+   "Within the next five years, hundreds of thousands of people across the globe find themselves relocated into homes bearing the Tsang logo.",
+   "Your own fortunes have never looked better. Qian Ya lived up to her end of your bargain; ever since you accepted her deal, fate has conspired to help you. Money flows easily. Life in the shadows quickly loses all sense of risk and challenge.",
+   "You have fourteen years to enjoy the fruits of your bargain. Fourteen years to prepare for the day when your luck finally runs out..."
+  ],
+  "bark_4d85d7c5ac825d96": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. Within the Walled City, a strange new cult comes into power, reshaping the core of the massive tenement into a grand court worthy of their queen.",
+   "Stories of Qian Ya and the Yama Kings grow from urban legends to religious parables. The Queen With a Thousand Teeth holds sway over Kowloon Walled City, and all those who trespass within its walls run the risk of capture and enslavement.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Your own fortunes have never looked better. Qian Ya lived up to her end of your bargain; ever since you accepted her deal, fate has conspired to help you. Money flows easily. Life in the shadows quickly loses all sense of risk and challenge.",
+   "You have fourteen years to enjoy the fruits of your bargain. Fourteen years to prepare for the day when your luck finally runs out..."
+  ],
+  "bark_9c6ea40fbbc35c49": [
+   "The story of the Walled City riots circulates local news networks for nearly a week. Few outside of Hong Kong hear about the incident, and of those that do, even fewer care. Within the Walled City, a strange new cult comes into power, reshaping the core of the massive tenement into a grand court worthy of their queen.",
+   "Stories of Qian Ya and the Yama Kings grow from urban legends to religious parables. The Queen With a Thousand Teeth holds sway over Kowloon Walled City, and all those who trespass within its walls run the risk of capture and enslavement.",
+   "After the incident in the Walled City, the unbroken lucky streak that propelled Tsang Mechanical Services into the limelight comes to an abrupt end. Evidence of Josephine Tsang's culpability in the Walled City riots - as delivered by a \"reliable source\" - is aired on the Horizon News Network, and the corporation's stock prices go into a freefall.",
+   "Within a year, Wuxing, Inc. buys out, absorbs, and dismantles the company, and Josephine Tsang is quietly filed away in a corporate prison. She remains there, buried behind walls of concrete and rebar, until she hangs herself three months later.",
+   "Your own fortunes have never looked better. Qian Ya lived up to her end of your bargain; ever since you accepted her deal, fate has conspired to help you. Money flows easily. Life in the shadows quickly loses all sense of risk and challenge.",
+   "You have fourteen years to enjoy the fruits of your bargain. Fourteen years to prepare for the day when your luck finally runs out..."
+  ],
+  "bark_ddf03d91634f31c3": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. Everyone you knew in the city is gone, either through violence or by simply disappearing into the shadows. Almost as soon as you arrive, however, things start going your way.",
+   "A lucky combination of circumstances finds you firmly ensconced in a luxury suite, with a huge cash advance and a nice, cushy job to keep you occupied.",
+   "Even after that job ends, your skills are always in demand; no matter where you go, people who need your help find you. You rapidly find yourself with more money than you know how to spend, and more respect than you've ever known before. Wealth and power flow to you like a river to the sea.",
+   "It might be a lonely way to live, were it not for all the people who go out of their way to become your friends.",
+   "The world turns, seasons change, and life moves on. In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong. Little changes in the lives of the common people, however.",
+   "The feud between the Red Dragon Association and the Yellow Lotus erupts into a full-scale gang war in the early 2060s, resulting in the total destruction of the Yellow Lotus. The triad's traditions live on only in the Seattle Metroplex, a pale shadow of their former glory.",
+   "For you, all that matters are comfort and prosperity, and you those you have in spades. No matter how close Lone Star or your enemies are to catching you, you always slip away at the last minute. Untouchable. Unchallenged. Life is good - almost good enough to let you forget about the dreams of teeth and blood that haunt your sleep.",
+   "You sometimes hear a voice in those dreams - deep and sibilant all at once, reminding you how little time you have left before your luck runs out..."
+  ],
+  "bark_97220b9b62575ad5": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. Everyone you knew in the city is gone, either through violence or by simply disappearing into the shadows. Almost as soon as you arrive, however, things start going your way.",
+   "A lucky combination of circumstances finds you firmly ensconced in a luxury suite, with a huge cash advance and a nice, cushy job to keep you occupied.",
+   "Even after that job ends, your skills are always in demand; no matter where you go, people who need your help find you. You rapidly find yourself with more money than you know how to spend, and more respect than you've ever known before. Wealth and power flow to you like a river to the sea.",
+   "It might be a lonely way to live, were it not for all the people who go out of their way to become your friends.",
+   "The world turns, seasons change, and life moves on. In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong. Little changes in the lives of the common people, however.",
+   "The feud between the Red Dragon Association and the Yellow Lotus erupts into a full-scale gang war in the early 2060s, resulting in the total destruction of the Yellow Lotus. The triad's traditions live on only in the Seattle Metroplex, a pale shadow of their former glory.",
+   "For you, all that matters are comfort and prosperity, and you those you have in spades. No matter how close Lone Star or your enemies are to catching you, you always slip away at the last minute. Untouchable. Unchallenged. Life is good - almost good enough to let you forget about the dreams of teeth and blood that haunt your sleep.",
+   "You sometimes hear a voice in those dreams - deep and sibilant all at once, reminding you how little time you have left before your luck runs out..."
+  ],
+  "bark_937ca1f07a45f0f6": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. With your SINs back, you and Duncan set about rebuilding the lives that you once had. Rather than returning to Lone Star, Duncan uses the money he's saved up to start his own private security firm, taking legitimate work from smaller companies.",
+   "It's not as glamorous as your old life, but it's safer. More stable. You remain friends, but without Raymond's influence, there is a distance between you that no amount of trust seems to bridge.",
+   "For your part, your skills are always in demand - be it helping Duncan when he needs extra backup, investigating mysterious occurrences, or helping corporate clients out of tough situations. It's less of an adrenaline rush than the constant danger of your life in Hong Kong, but it pays well, and it's rewarding enough to keep you satisfied.",
+   "The world turns, seasons change, and life moves on. In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong.",
+   "Back in Seattle, the city is thrown into chaos when the Renraku Arcology inexplicably closes itself off from the outside world, trapping its hundred thousand residents inside. The UCAS military cordons the structure off, casting a pall over the Metroplex.",
+   "The feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s, resulting in the total destruction of the Yellow Lotus. You are unsure of what has become of Kindly Cheng, Gobbet, or Is0bel - and you never hear word of them again.",
+   "You sometimes think back to your time in the shadows, but not often. Over time the memories fade, dissipating into dreams of friends long gone, and nightmares of monsters best left in the past. But for now, it's time to look to the future, and to the promise that it still holds."
+  ],
+  "bark_1ce8f59753c6c0af": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. With your SINs back, you and Duncan set about rebuilding the lives that you once had. Rather than returning to Lone Star, Duncan uses the money he's saved up to start his own private security firm, taking legitimate work from smaller companies.",
+   "It's not as glamorous as your old life, but it's safer. More stable. You remain friends, but without Raymond's influence, there is a distance between you that no amount of trust seems to bridge.",
+   "For your part, your skills are always in demand - be it helping Duncan when he needs extra backup, investigating mysterious occurrences, or helping corporate clients out of tough situations. It's less of an adrenaline rush than the constant danger of your life in Hong Kong, but it pays well, and it's rewarding enough to keep you satisfied.",
+   "The world turns, seasons change, and life moves on. In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong.",
+   "Back in Seattle, the city is thrown into chaos when the Renraku Arcology inexplicably closes itself off from the outside world, trapping its hundred thousand residents inside. The UCAS military cordons the structure off, casting a pall over the Metroplex.",
+   "The feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s, resulting in the total destruction of the Yellow Lotus. You are unsure of what has become of Kindly Cheng, Gobbet, or Is0bel - and you never hear word of them again.",
+   "You sometimes think back to your time in the shadows, but not often. Over time the memories fade, dissipating into dreams of friends long gone, and nightmares of monsters best left in the past. But for now, it's time to look to the future, and to the promise that it still holds."
+  ],
+  "bark_4f5da681c19a0b0d": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. With your SINs restored, you and Duncan set about rebuilding the lives that you once had. Rather than returning to Lone Star, Duncan launches his own private security firm, taking legitimate work from smaller companies.",
+   "You, Duncan, and Raymond mend old wounds and knit yourselves into something resembling a family once again. You spend your spare time helping the poor and disadvantaged of Seattle. Whether your efforts will make a difference in the long run remains to be seen.",
+   "For your part, your skills are always in demand - be it helping Duncan when he needs extra backup, investigating mysterious occurrences, or helping corporate clients out of tough situations. It's less of an adrenaline rush than the constant danger of your life in Hong Kong, but it pays well, and it's rewarding enough to keep you satisfied.",
+   "In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong. Back in Seattle, the city is thrown into chaos when the Renraku Arcology inexplicably closes itself off from the outside world, trapping its hundred thousand residents inside.",
+   "The UCAS military cordons the structure off, casting a pall over the Metroplex.",
+   "The feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s, resulting in the total destruction of the Yellow Lotus. You are unsure of what has become of Kindly Cheng, Gobbet, or Is0bel - and you never hear word of them again.",
+   "You sometimes think back to your time in the shadows, but not often. Over time the memories fade, dissipating into dreams of friends long gone, and nightmares of monsters best left in the past. But for now, it's time to look to the future, and to the promise that it still holds."
+  ],
+  "bark_da61d8295fd983b5": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. With your SINs restored, you and Duncan set about rebuilding the lives that you once had. Rather than returning to Lone Star, Duncan launches his own private security firm, taking legitimate work from smaller companies.",
+   "You, Duncan, and Raymond mend old wounds and knit yourselves into something resembling a family once again. You spend your spare time helping the poor and disadvantaged of Seattle. Whether your efforts will make a difference in the long run remains to be seen.",
+   "For your part, your skills are always in demand - be it helping Duncan when he needs extra backup, investigating mysterious occurrences, or helping corporate clients out of tough situations. It's less of an adrenaline rush than the constant danger of your life in Hong Kong, but it pays well, and it's rewarding enough to keep you satisfied.",
+   "In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong. Back in Seattle, the city is thrown into chaos when the Renraku Arcology inexplicably closes itself off from the outside world, trapping its hundred thousand residents inside.",
+   "The UCAS military cordons the structure off, casting a pall over the Metroplex.",
+   "The feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s, resulting in the total destruction of the Yellow Lotus. You are unsure of what has become of Kindly Cheng, Gobbet, or Is0bel - and you never hear word of them again.",
+   "You sometimes think back to your time in the shadows, but not often. Over time the memories fade, dissipating into dreams of friends long gone, and nightmares of monsters best left in the past. But for now, it's time to look to the future, and to the promise that it still holds."
+  ],
+  "bark_c1f101842c62bcdc": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. But with Kindly Cheng and your crew on your side, you rapidly make it feel like you never left Hong Kong. Kindly introduces you to Zheng Li-kwan, the Seattle Mountain Master of the Yellow Lotus, and through him you find both work and safety.",
+   "With your help, the Yellow Lotus rapidly expands its influence in the Puyallup Barrens.",
+   "Business booms in 2058 when Don James \"The Hammer\" O'Malley is assassinated, kicking off a gangland war that affords the Yellow Lotus rapid gains in both influence and territory. Through your own skill and Kindly Cheng's trademark ruthlessness, your team steadily carves out a large chunk of the Seattle Metroplex for the triad.",
+   "This expansion continues until the Renraku Arcology inexplicably seals itself off from the outside world, trapping its hundred thousand residents inside. The UCAS military cordons the structure off, casting a pall over the Metroplex. In response, the Yellow Lotus wisely chooses to slow their expansion, the better to remain off of the military's radar.",
+   "The world turns, seasons change, and life moves on. In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong.",
+   "In Hong Kong, the feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s. The Red Dragons prevail in the conflict, and the Hong Kong branch of the Yellow Lotus is completely annihilated; the triad's traditions live on in the Seattle Metroplex, under the stewardship of Zheng Li-kwan and Kindly Cheng.",
+   "Duncan's fate is forever a mystery to you. If he lives, you never hear from him again.",
+   "You and your team remain as tightly-knit as ever. Together, you look to the future, and the promise that it still holds."
+  ],
+  "bark_40a790e2a3223fc7": [
+   "Seattle feels strange after so much time away; it still feels like home, but it's curiously foreign at the same time. But with Kindly Cheng and your crew on your side, you rapidly make it feel like you never left Hong Kong. Kindly introduces you to Zheng Li-kwan, the Seattle Mountain Master of the Yellow Lotus, and through him you find both work and safety.",
+   "With your help, the Yellow Lotus rapidly expands its influence in the Puyallup Barrens.",
+   "Business booms in 2058 when Don James \"The Hammer\" O'Malley is assassinated, kicking off a gangland war that affords the Yellow Lotus rapid gains in both influence and territory. Through your own skill and Kindly Cheng's trademark ruthlessness, your team steadily carves out a large chunk of the Seattle Metroplex for the triad.",
+   "This expansion continues until the Renraku Arcology inexplicably seals itself off from the outside world, trapping its hundred thousand residents inside. The UCAS military cordons the structure off, casting a pall over the Metroplex. In response, the Yellow Lotus wisely chooses to slow their expansion, the better to remain off of the military's radar.",
+   "The world turns, seasons change, and life moves on. In the following months, Ares Macrotechnology takes over the contract for the HKPF from Mitsuhama. The Tolo Harbor Complex is completed, and a new, heavily-militarized police force walks the streets of Hong Kong.",
+   "In Hong Kong, the feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s. The Red Dragons prevail in the conflict, and the Hong Kong branch of the Yellow Lotus is completely annihilated; the triad's traditions live on in the Seattle Metroplex, under the stewardship of Zheng Li-kwan and Kindly Cheng.",
+   "Duncan's fate is forever a mystery to you. If he lives, you never hear from him again.",
+   "You and your team remain as tightly-knit as ever. Together, you look to the future, and the promise that it still holds."
+  ],
+  "bark_9ef0c5f65aa7d51d": [
+   "Seattle feels strange after so much time away; like home, but curiously foreign at the same time. Kindly Cheng introduces you to Zheng Li-kwan, the Seattle Mountain Master of the Yellow Lotus, and through him you find both work and safety. With your help, the Yellow Lotus rapidly expands its influence in the Puyallup Barrens.",
+   "Business booms in 2058 when Don James \"The Hammer\" O'Malley is assassinated, kicking off a gangland war that affords the Yellow Lotus rapid gains in both influence and territory. Through a series of lucky jobs and unexpected windfalls, you carve out a large chunk of the Seattle Metroplex for your employers.",
+   "Triad expansion continues until the Renraku Arcology inexplicably seals itself off from the outside world, trapping its hundred thousand residents inside. The UCAS military cordons the structure off, casting a pall over the Metroplex. The Yellow Lotus wisely chooses to slow their expansion, so as to stay off of the military's radar.",
+   "The world turns, seasons change, and life moves on. In Hong Kong, the feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s.",
+   "The Red Dragons prevail in the conflict, and the Hong Kong branch of the Yellow Lotus is completely annihilated; the triad's traditions live on in the Seattle Metroplex, under the stewardship of Zheng Li-kwan and Kindly Cheng. Ares Macrotechnology also takes the contract for the HKPF from Mitsuhama, but you scarcely care by that point. Your life is in Seattle, a half a world away.",
+   "For you, all that matters are comfort and prosperity, and those you have in spades. No matter how close your enemies are to catching you, you always slip away at the last minute. Untouchable. Unchallenged. Life is good - almost good enough to let you forget about the dreams of teeth that haunt your sleep.",
+   "You sometimes hear a voice in those dreams - deep and sibilant all at once, reminding you how little time you have left before your luck runs out..."
+  ],
+  "bark_97e75896737b8712": [
+   "Seattle feels strange after so much time away; like home, but curiously foreign at the same time. Kindly Cheng introduces you to Zheng Li-kwan, the Seattle Mountain Master of the Yellow Lotus, and through him you find both work and safety. With your help, the Yellow Lotus rapidly expands its influence in the Puyallup Barrens.",
+   "Business booms in 2058 when Don James \"The Hammer\" O'Malley is assassinated, kicking off a gangland war that affords the Yellow Lotus rapid gains in both influence and territory. Through a series of lucky jobs and unexpected windfalls, you carve out a large chunk of the Seattle Metroplex for your employers.",
+   "Triad expansion continues until the Renraku Arcology inexplicably seals itself off from the outside world, trapping its hundred thousand residents inside. The UCAS military cordons the structure off, casting a pall over the Metroplex. The Yellow Lotus wisely chooses to slow their expansion, so as to stay off of the military's radar.",
+   "The world turns, seasons change, and life moves on. In Hong Kong, the feud between the Red Dragon Association and the Yellow Lotus erupts into a full scale gang war in the early 2060s.",
+   "The Red Dragons prevail in the conflict, and the Hong Kong branch of the Yellow Lotus is completely annihilated; the triad's traditions live on in the Seattle Metroplex, under the stewardship of Zheng Li-kwan and Kindly Cheng. Ares Macrotechnology also takes the contract for the HKPF from Mitsuhama, but you scarcely care by that point. Your life is in Seattle, a half a world away.",
+   "For you, all that matters are comfort and prosperity, and those you have in spades. No matter how close your enemies are to catching you, you always slip away at the last minute. Untouchable. Unchallenged. Life is good - almost good enough to let you forget about the dreams of teeth that haunt your sleep.",
+   "You sometimes hear a voice in those dreams - deep and sibilant all at once, reminding you how little time you have left before your luck runs out..."
   ]
  },
- "aliases": {}
+ "aliases": {
+  "bark_7c17ef74a9477dca~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_bd5f7e290760c344~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_31fa892519685909~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_49ebc1b1263b25c2~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_1606b10c2f65bb60~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_44933f3365ce05e5~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_76aad3fbcf2578a7~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_03c50dd27fb1ea1e~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_4c07391c7df71242~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_be714a717a6ab325~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_91d7cef33e20569e~g0": "bark_34fefa6490b9d94e~g0",
+  "bark_7c17ef74a9477dca~g1": "bark_34fefa6490b9d94e~g1",
+  "bark_bd5f7e290760c344~g1": "bark_34fefa6490b9d94e~g1",
+  "bark_31fa892519685909~g1": "bark_34fefa6490b9d94e~g1",
+  "bark_7c17ef74a9477dca~g2": "bark_34fefa6490b9d94e~g2",
+  "bark_49ebc1b1263b25c2~g2": "bark_34fefa6490b9d94e~g2",
+  "bark_1606b10c2f65bb60~g2": "bark_34fefa6490b9d94e~g2",
+  "bark_03c50dd27fb1ea1e~g2": "bark_34fefa6490b9d94e~g2",
+  "bark_4c07391c7df71242~g2": "bark_34fefa6490b9d94e~g2",
+  "bark_7c17ef74a9477dca~g3": "bark_34fefa6490b9d94e~g3",
+  "bark_49ebc1b1263b25c2~g3": "bark_34fefa6490b9d94e~g3",
+  "bark_1606b10c2f65bb60~g3": "bark_34fefa6490b9d94e~g3",
+  "bark_03c50dd27fb1ea1e~g3": "bark_34fefa6490b9d94e~g3",
+  "bark_4c07391c7df71242~g3": "bark_34fefa6490b9d94e~g3",
+  "bark_7c17ef74a9477dca~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_bd5f7e290760c344~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_31fa892519685909~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_49ebc1b1263b25c2~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_1606b10c2f65bb60~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_44933f3365ce05e5~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_76aad3fbcf2578a7~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_03c50dd27fb1ea1e~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_4c07391c7df71242~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_be714a717a6ab325~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_91d7cef33e20569e~g4": "bark_34fefa6490b9d94e~g4",
+  "bark_7c17ef74a9477dca~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_bd5f7e290760c344~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_31fa892519685909~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_49ebc1b1263b25c2~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_1606b10c2f65bb60~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_44933f3365ce05e5~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_76aad3fbcf2578a7~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_03c50dd27fb1ea1e~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_4c07391c7df71242~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_be714a717a6ab325~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_91d7cef33e20569e~g5": "bark_34fefa6490b9d94e~g5",
+  "bark_31fa892519685909~g2": "bark_bd5f7e290760c344~g2",
+  "bark_44933f3365ce05e5~g2": "bark_bd5f7e290760c344~g2",
+  "bark_76aad3fbcf2578a7~g2": "bark_bd5f7e290760c344~g2",
+  "bark_be714a717a6ab325~g2": "bark_bd5f7e290760c344~g2",
+  "bark_91d7cef33e20569e~g2": "bark_bd5f7e290760c344~g2",
+  "bark_4d85d7c5ac825d96~g2": "bark_bd5f7e290760c344~g2",
+  "bark_9c6ea40fbbc35c49~g2": "bark_bd5f7e290760c344~g2",
+  "bark_31fa892519685909~g3": "bark_bd5f7e290760c344~g3",
+  "bark_44933f3365ce05e5~g3": "bark_bd5f7e290760c344~g3",
+  "bark_76aad3fbcf2578a7~g3": "bark_bd5f7e290760c344~g3",
+  "bark_be714a717a6ab325~g3": "bark_bd5f7e290760c344~g3",
+  "bark_91d7cef33e20569e~g3": "bark_bd5f7e290760c344~g3",
+  "bark_4d85d7c5ac825d96~g3": "bark_bd5f7e290760c344~g3",
+  "bark_9c6ea40fbbc35c49~g3": "bark_bd5f7e290760c344~g3",
+  "bark_1606b10c2f65bb60~g1": "bark_49ebc1b1263b25c2~g1",
+  "bark_44933f3365ce05e5~g1": "bark_49ebc1b1263b25c2~g1",
+  "bark_76aad3fbcf2578a7~g1": "bark_49ebc1b1263b25c2~g1",
+  "bark_4c07391c7df71242~g1": "bark_03c50dd27fb1ea1e~g1",
+  "bark_be714a717a6ab325~g1": "bark_03c50dd27fb1ea1e~g1",
+  "bark_91d7cef33e20569e~g1": "bark_03c50dd27fb1ea1e~g1",
+  "bark_fc6c6a88ab4befd6~g0": "bark_119845e55ac7aeeb~g0",
+  "bark_fc6c6a88ab4befd6~g1": "bark_119845e55ac7aeeb~g1",
+  "bark_4d85d7c5ac825d96~g1": "bark_119845e55ac7aeeb~g1",
+  "bark_9c6ea40fbbc35c49~g1": "bark_119845e55ac7aeeb~g1",
+  "bark_fc6c6a88ab4befd6~g2": "bark_119845e55ac7aeeb~g2",
+  "bark_fc6c6a88ab4befd6~g3": "bark_119845e55ac7aeeb~g3",
+  "bark_fc6c6a88ab4befd6~g4": "bark_119845e55ac7aeeb~g4",
+  "bark_4d85d7c5ac825d96~g4": "bark_119845e55ac7aeeb~g4",
+  "bark_9c6ea40fbbc35c49~g4": "bark_119845e55ac7aeeb~g4",
+  "bark_fc6c6a88ab4befd6~g5": "bark_119845e55ac7aeeb~g5",
+  "bark_4d85d7c5ac825d96~g5": "bark_119845e55ac7aeeb~g5",
+  "bark_9c6ea40fbbc35c49~g5": "bark_119845e55ac7aeeb~g5",
+  "bark_9c6ea40fbbc35c49~g0": "bark_4d85d7c5ac825d96~g0",
+  "bark_97220b9b62575ad5~g0": "bark_ddf03d91634f31c3~g0",
+  "bark_97220b9b62575ad5~g1": "bark_ddf03d91634f31c3~g1",
+  "bark_97220b9b62575ad5~g2": "bark_ddf03d91634f31c3~g2",
+  "bark_97220b9b62575ad5~g3": "bark_ddf03d91634f31c3~g3",
+  "bark_97220b9b62575ad5~g4": "bark_ddf03d91634f31c3~g4",
+  "bark_97220b9b62575ad5~g5": "bark_ddf03d91634f31c3~g5",
+  "bark_97220b9b62575ad5~g6": "bark_ddf03d91634f31c3~g6",
+  "bark_97220b9b62575ad5~g7": "bark_ddf03d91634f31c3~g7",
+  "bark_9ef0c5f65aa7d51d~g6": "bark_ddf03d91634f31c3~g7",
+  "bark_97e75896737b8712~g6": "bark_ddf03d91634f31c3~g7",
+  "bark_1ce8f59753c6c0af~g0": "bark_937ca1f07a45f0f6~g0",
+  "bark_1ce8f59753c6c0af~g1": "bark_937ca1f07a45f0f6~g1",
+  "bark_1ce8f59753c6c0af~g2": "bark_937ca1f07a45f0f6~g2",
+  "bark_4f5da681c19a0b0d~g2": "bark_937ca1f07a45f0f6~g2",
+  "bark_da61d8295fd983b5~g2": "bark_937ca1f07a45f0f6~g2",
+  "bark_1ce8f59753c6c0af~g3": "bark_937ca1f07a45f0f6~g3",
+  "bark_c1f101842c62bcdc~g4": "bark_937ca1f07a45f0f6~g3",
+  "bark_40a790e2a3223fc7~g4": "bark_937ca1f07a45f0f6~g3",
+  "bark_1ce8f59753c6c0af~g4": "bark_937ca1f07a45f0f6~g4",
+  "bark_1ce8f59753c6c0af~g5": "bark_937ca1f07a45f0f6~g5",
+  "bark_4f5da681c19a0b0d~g5": "bark_937ca1f07a45f0f6~g5",
+  "bark_da61d8295fd983b5~g5": "bark_937ca1f07a45f0f6~g5",
+  "bark_1ce8f59753c6c0af~g6": "bark_937ca1f07a45f0f6~g6",
+  "bark_4f5da681c19a0b0d~g6": "bark_937ca1f07a45f0f6~g6",
+  "bark_da61d8295fd983b5~g6": "bark_937ca1f07a45f0f6~g6",
+  "bark_da61d8295fd983b5~g0": "bark_4f5da681c19a0b0d~g0",
+  "bark_da61d8295fd983b5~g1": "bark_4f5da681c19a0b0d~g1",
+  "bark_da61d8295fd983b5~g3": "bark_4f5da681c19a0b0d~g3",
+  "bark_da61d8295fd983b5~g4": "bark_4f5da681c19a0b0d~g4",
+  "bark_40a790e2a3223fc7~g0": "bark_c1f101842c62bcdc~g0",
+  "bark_40a790e2a3223fc7~g1": "bark_c1f101842c62bcdc~g1",
+  "bark_40a790e2a3223fc7~g2": "bark_c1f101842c62bcdc~g2",
+  "bark_40a790e2a3223fc7~g3": "bark_c1f101842c62bcdc~g3",
+  "bark_40a790e2a3223fc7~g5": "bark_c1f101842c62bcdc~g5",
+  "bark_40a790e2a3223fc7~g6": "bark_c1f101842c62bcdc~g6",
+  "bark_40a790e2a3223fc7~g7": "bark_c1f101842c62bcdc~g7",
+  "bark_97e75896737b8712~g0": "bark_9ef0c5f65aa7d51d~g0",
+  "bark_97e75896737b8712~g1": "bark_9ef0c5f65aa7d51d~g1",
+  "bark_97e75896737b8712~g2": "bark_9ef0c5f65aa7d51d~g2",
+  "bark_97e75896737b8712~g3": "bark_9ef0c5f65aa7d51d~g3",
+  "bark_97e75896737b8712~g4": "bark_9ef0c5f65aa7d51d~g4",
+  "bark_97e75896737b8712~g5": "bark_9ef0c5f65aa7d51d~g5"
+ }
 }
