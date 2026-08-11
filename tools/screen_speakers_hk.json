@@ -478,7 +478,10 @@
    "id": "name_rollinthunder",
    "name": "ROLLINTHUNDER!",
    "kind": "bbs",
-   "posts": 1
+   "posts": 1,
+   "voiceId": "mag_521",
+   "voiceName": "Mike Rodent",
+   "note": "The same Shadowland handle posts in Dragonfall (as RollinTHUNDER); one board, one person, one voice. Martin, 2026-08-11."
   },
   "Snozzbert": {
    "id": "name_snozzbert",
