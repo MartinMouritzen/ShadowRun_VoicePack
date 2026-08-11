@@ -26891,23 +26891,15 @@
    ]
   },
   "527abf9e636134b83400302e_543": {
-   "selected": "narrator/takes/527abf9e636134b83400302e_543__0aXOy31Cjamp__1786204415.mp3",
+   "selected": "narrator/takes/527abf9e636134b83400302e_543__sapi_david__1786392239.mp3",
    "takes": [
     {
-     "file": "narrator/takes/527abf9e636134b83400302e_543__0aXOy31Cjamp__1786178191.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
+     "file": "narrator/takes/527abf9e636134b83400302e_543__sapi_david__1786392239.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
      "stability": 0,
-     "chars": 67,
-     "ts": 1786178191
-    },
-    {
-     "file": "narrator/takes/527abf9e636134b83400302e_543__0aXOy31Cjamp__1786204415.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
-     "stability": 0,
-     "chars": 62,
-     "ts": 1786204415
+     "chars": 60,
+     "ts": 1786392239
     }
    ]
   },
@@ -26925,15 +26917,23 @@
    ]
   },
   "527abf9e636134b83400302e_560": {
-   "selected": "narrator/takes/527abf9e636134b83400302e_560__0aXOy31Cjamp__1786178192.mp3",
+   "selected": "narrator/takes/527abf9e636134b83400302e_560__sapi_david__1786392298.mp3",
    "takes": [
     {
-     "file": "narrator/takes/527abf9e636134b83400302e_560__0aXOy31Cjamp__1786178192.mp3",
-     "voiceId": "0aXOy31Cjamp6gJcyqYu",
-     "voiceName": "Matt - Deep Authoritative Narrator",
+     "file": "narrator/takes/527abf9e636134b83400302e_560__sapi_david__1786392275.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
      "stability": 0,
      "chars": 36,
-     "ts": 1786178192
+     "ts": 1786392275
+    },
+    {
+     "file": "narrator/takes/527abf9e636134b83400302e_560__sapi_david__1786392298.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 40,
+     "ts": 1786392298
     }
    ]
   },
@@ -58791,6 +58791,19 @@
      "stability": 0,
      "chars": 80,
      "ts": 1786286828
+    }
+   ]
+  },
+  "527abf9e636134b83400302e_544": {
+   "selected": "narrator/takes/527abf9e636134b83400302e_544__sapi_david__1786392254.mp3",
+   "takes": [
+    {
+     "file": "narrator/takes/527abf9e636134b83400302e_544__sapi_david__1786392254.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 60,
+     "ts": 1786392254
     }
    ]
   }
@@ -204269,7 +204282,7 @@
    ]
   },
   "527abf9e636134b83400302e_539": {
-   "selected": "name_computer/takes/527abf9e636134b83400302e_539__sapi_david__1786203988.mp3",
+   "selected": "name_computer/takes/527abf9e636134b83400302e_539__sapi_david__1786392198.mp3",
    "takes": [
     {
      "file": "name_computer/takes/527abf9e636134b83400302e_539__sapi_david__1786157042.mp3",
@@ -204286,6 +204299,14 @@
      "stability": 0,
      "chars": 62,
      "ts": 1786203988
+    },
+    {
+     "file": "name_computer/takes/527abf9e636134b83400302e_539__sapi_david__1786392198.mp3",
+     "voiceId": "sapi_david",
+     "voiceName": "Microsoft David (SAPI)",
+     "stability": 0,
+     "chars": 60,
+     "ts": 1786392198
     }
    ]
   },
@@ -211532,9 +211553,17 @@
      "stability": 0,
      "chars": 348,
      "ts": 1786387896
+    },
+    {
+     "file": "name_lumens/takes/527abf9e636134b83400302e_408__mag267__1786392008.mp3",
+     "voiceId": "mag_267",
+     "voiceName": "Sophia Grace",
+     "stability": 0,
+     "chars": 388,
+     "ts": 1786392008
     }
    ],
-   "selected": "name_lumens/takes/527abf9e636134b83400302e_408__mag267__1786387896.mp3"
+   "selected": "name_lumens/takes/527abf9e636134b83400302e_408__mag267__1786392008.mp3"
   },
   "527abf9e636134b83400302e_413": {
    "takes": [
@@ -211561,6 +211590,14 @@
      "stability": 0,
      "chars": 294,
      "ts": 1786387903
+    },
+    {
+     "file": "name_lumens/takes/527abf9e636134b83400302e_413__mag267__1786392022.mp3",
+     "voiceId": "mag_267",
+     "voiceName": "Sophia Grace",
+     "stability": 0,
+     "chars": 291,
+     "ts": 1786392022
     }
    ],
    "selected": "name_lumens/takes/527abf9e636134b83400302e_413__mag267__1786387903.mp3"

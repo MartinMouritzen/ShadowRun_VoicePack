@@ -815,5 +815,17 @@
   "voiceId": "mag_584",
   "voiceName": "Titan Steele",
   "source": "quote-split"
+ },
+ "527abf9e636134b83400302e_543": {
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
+ },
+ "527abf9e636134b83400302e_544": {
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
+ },
+ "527abf9e636134b83400302e_560": {
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  }
 }

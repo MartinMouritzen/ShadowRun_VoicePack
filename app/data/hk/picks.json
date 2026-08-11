@@ -963,10 +963,6 @@
   "voiceId": "mag_586",
   "voiceName": "Dexter Glitch"
  },
- "name_outspokencivilian": {
-  "voiceId": "mag_589",
-  "voiceName": "Skryth the Withered"
- },
  "name_mrlin": {
   "voiceId": "mag_613",
   "voiceName": "Amber Hayes"
@@ -1550,5 +1546,9 @@
  "name_steelarmlu": {
   "voiceId": "mag_519",
   "voiceName": "Basil Thornecroft"
+ },
+ "name_outspokencivilian": {
+  "voiceId": "mag_338",
+  "voiceName": "Elijah Bennett"
  }
 }

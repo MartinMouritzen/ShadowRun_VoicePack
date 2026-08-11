@@ -10224,7 +10224,8 @@
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "Don't worry about us. We'll carry on just fine without you."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkfemale_gobbet.png"
   },
   {
    "id": "name_duncan",
@@ -19610,7 +19611,8 @@
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "Works for me. It's a pity that the others aren't here to say goodbye, but...\n\n{{GM}}He shrugs.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkmale_wu.png"
   },
   {
    "id": "name_is0bel",
@@ -28662,7 +28664,8 @@
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "This is it, $(l.name). This is where we part ways.\n\nWhen your medevac transport gets here, enjoy the flight. We won't be seeing each other again."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_dwarffemale_is0bel.png"
   },
   {
    "id": "name_gaichu",
@@ -35776,7 +35779,8 @@
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "You made your decision, $(l.name). Rather than accepting what you are, you have opted to flee back to what you were.\n\nOur time in the shadows together is done."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_gaichu.png"
   },
   {
    "id": "name_racter",
@@ -42840,7 +42844,8 @@
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "Congratulations, my friend. You are free to once again enjoy a \"normal\" life.\n\n{{GM}}He takes a drag on his cigarette, his eyes smoldering like coals.{{/GM}}\n\nAn ordinary, mundane, unexceptional life. Naturally, our time in the shadows together is done."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_racter.png"
   },
   {
    "id": "name_computer",
@@ -46870,7 +46875,8 @@
      "cn": "MC_Hub_Global-MissionComputer",
      "t": "For your part, the rules are the same as they were when we spoke on the comm. Stay alive. Don't trust the cops.\n\nAnd above all, don't fuck it up."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_kindlycheng.png"
   },
   {
    "id": "name_tenarmedambrose",
@@ -49243,7 +49249,8 @@
      "cn": "HK_Hub-Global_Ambrose",
      "t": "Cheers, $(L.name). Talk to you later."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_ambrose.png"
   },
   {
    "id": "name_erminekafai",
@@ -50812,7 +50819,8 @@
      "cn": "HK_Hub-Global_ErmineKaiFa",
      "t": "Would you care to browse the weapons I have today?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_trollfemale_hub_ermine.png"
   },
   {
    "id": "name_maximumlaw",
@@ -52386,7 +52394,8 @@
      "cn": "HK_Hub-Global_MissionComputer",
      "t": ">>>>>[archaeopteryx you don't know shit]<<<<<\n\n- Tin Helmet <11:45:25/06-04-56>"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_law.png"
   },
   {
    "id": "name_qiu",
@@ -53812,7 +53821,8 @@
      "cn": "MC_Hub_PirateBarge-TeamInSafeboat",
      "t": "The call was a bust, $(l.name). I've still got a few execs willing to go to bat for me, but the rest have already written us off as a failure. Nobody's gonna risk sparking off a corp war on my say-so, and I can't even tell them who they'd be fighting against.\n\nWe're gonna need a hell of a lot more than we've got if we're going to convince anyone to move on this."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elffemale_shadows_fiona.png"
   },
   {
    "id": "name_craftyxu",
@@ -55249,7 +55259,8 @@
      "cn": "HK_Hub-Global_MissionComputer",
      "t": "Anyway. This is all really arcane stuff, but I think that there might be something here. I can’t vouch for any of it, obviously... when you take a step back, it all sounds like crazy-talk. But one thing that I can tell you for certain: my mother believed it was true.\n\nIf anything else comes up, you’ll be the first to know.\n\n- Crafty"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_hub_yuanpei.png"
   },
   {
    "id": "name_inspectorqiu",
@@ -56485,7 +56496,8 @@
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "I'll submit the paperwork as soon as the recovery team gets here.\n\nYou and Duncan should officially be people again by the end of the day."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elffemale_shadows_fiona.png"
   },
   {
    "id": "name_reliablematthew",
@@ -57724,7 +57736,8 @@
      "cn": "HK_Hub-Global_ReliableMatthew",
      "t": "A scrawled note indicates that Matthew has gone to Chrome Alley."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_matthew.png"
   },
   {
    "id": "name_raymond",
@@ -59096,7 +59109,8 @@
      "cn": "MC_Hub_Global-MissionComputer",
      "t": "Take care of yourself, $(l.firstname). You and Duncan both.\n\nI will message again when I can. Until then, keep safe, and do your best to stay out of trouble.\n\nGoodbye."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_02hk_raymond.png"
   },
   {
    "id": "name_henrykafai",
@@ -60047,7 +60061,8 @@
      "cn": "HK_Hub-Global_HenryKaiFa",
      "t": "Did you need something from me?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_trollmale_nathandanner.png"
   },
   {
    "id": "name_frederickkafai",
@@ -60861,7 +60876,8 @@
      "cn": "HK_Hub-Global_FrederickKaiFa",
      "t": "I'm just watching the door."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_orkmale_karstenchu.png"
   },
   {
    "id": "name_callumkafai",
@@ -61602,7 +61618,8 @@
      "cn": "HK_Hub-Global_CallumKaiFa",
      "t": "Was there anything else you needed?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_trollmale_joshferguson.png"
   },
   {
    "id": "name_stephendynamite",
@@ -63074,7 +63091,8 @@
      "cn": "MC_Hub_Impound-InterrogationEnd",
      "t": "I suppose not. But I'm gonna make it up to you... I mean, it's only fair that you learn something in return.\n\n{{GM}}He casts you a sidelong glance.{{/GM}}\n\nWe recovered this at the scene. Take a look, and see what we saved you and your team from."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_trollmale_shadows_interrogatorsil.png"
   },
   {
    "id": "name_handsomelee",
@@ -64383,7 +64401,8 @@
      "cn": "a3_Showdown_s1-TransitionBldgConvo",
      "t": "I did. And I am. Of Repulse Bay.\n\nIn case you hadn't noticed, this place isn't Repulse Bay. It's a fetid hellhole with all the charm of a garbage dump."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_exitstageleft_kufeng.png"
   },
   {
    "id": "name_plasticfacedman",
@@ -64997,7 +65016,8 @@
      "cn": "a2_Extraction_s1-PlasticFacedManInterrogation",
      "t": "Yes. Although technically, there's more than one prosperity."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_extraction_plasticfacedman.png"
   },
   {
    "id": "name_spidershen",
@@ -65594,7 +65614,8 @@
      "cn": "HK_Hub-Global_SpiderShen",
      "t": "Is that it, or did you need anything else?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_spidershen.png"
   },
   {
    "id": "name_leung",
@@ -66759,7 +66780,8 @@
      "cn": "a3_Showdown_s2-Boss_SidedWithQianYa",
      "t": "You will not need to. We honor our promises.\n\nNow go, and do not return. This place is *ours,* now and forever."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_creature_01hk_qianyachi.png"
   },
   {
    "id": "name_captainutama",
@@ -67320,7 +67342,8 @@
      "cn": "MC_Hub_PirateBarge-CaptainUtama",
      "t": "Of course I am.\n\nMost people prefer life's simpler pleasures, and we have those here in spades."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_trollfemale_shadows_utama.png"
   },
   {
    "id": "name_stranglerbao",
@@ -67944,7 +67967,8 @@
      "t": "Bao stares at you over the rim of his glass as he drinks.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_stranglerbao.png"
   },
   {
    "id": "name_tigathwright",
@@ -68464,7 +68488,8 @@
      "cn": "a2_Whistleblower_s2-GarrettVideoDate",
      "t": "I'll do my job, Wright. That's what you're paying me for. You do yours. \n\nI want to get out of this forsaken pit and catch the next flight back home."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elfmale_chrisdietsch.png"
   },
   {
    "id": "name_cadmus",
@@ -68972,7 +68997,8 @@
      "cn": "a2_GobbetTrust_s1-LowerDeck_RatKingDeath",
      "t": "You've already helped us clean up, Gobbet. We'll always owe you for that."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_dwarfmale_gobbettrust_cadmus.png"
   },
   {
    "id": "name_janettang",
@@ -69461,7 +69487,8 @@
      "cn": "MC_a2_Plaguebearer_s1-PodTangCallsPost1stFight",
      "t": "Listen to me, please.\n\n{{GM}}She swallows hard.{{/GM}}\n\nYou... you don't know what you're doing - how *dangerous* this is. Your even being here is a huge breach of every lab safety protocol on the books. But you can *still* turn back."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_shadows_janet.png"
   },
   {
    "id": "name_lilylai",
@@ -69962,7 +69989,8 @@
      "cn": "MC_a2_Kidnapping_s1-PlazaBreakRoom",
      "t": "{{GM}}Lily gives you an incredulous look out of the corner of her eye, but begins smacking her lips together noisily.{{/GM}}\n\nWa...water... Please!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_shadows_lily.png"
   },
   {
    "id": "name_rhombus",
@@ -70425,7 +70453,8 @@
      "cn": "a2_Is0belTrust_s1-RhombusConvo",
      "t": "You're the muscle, I take it. She brought you along to beat the information out of me, didn't she?\n\n{{GM}}The guy is terrified, but he's doing his best to hide it. His best isn't very good.{{/GM}}\n\nTypical."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_is0beltrust_rhombus.png"
   },
   {
    "id": "name_jomo",
@@ -70932,7 +70961,8 @@
      "cn": "MC_a3_TaiPo_s1-FinalConvoWithTeam",
      "t": "Why, to the new home of the Yellow Lotus, my friend!\n\n{{GM}}His smile gleams.{{/GM}}\n\nCome, now - we must go. But trust Jomo... all will be made clear in time!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkmale_whistleblower_capjomo.png"
   },
   {
    "id": "name_compelledlocal1",
@@ -71355,7 +71385,8 @@
      "cn": "a2_GobbetTrust_s1-FirstDeck_LocalConfront",
      "t": "That's all right. I'd do the same in your place.\n\n{{GM}}She smiles reassuringly.{{/GM}}\n\nIt's all right. You don't need to worry about us."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elffemale_gobbettrust_kara.png"
   },
   {
    "id": "name_talker",
@@ -72111,7 +72142,8 @@
      "cn": "a2_Grendel_s1-Civ5Convo",
      "t": "Placeholder"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_orkmale_stevemitton.png"
   },
   {
    "id": "name_lam",
@@ -72481,7 +72513,8 @@
      "cn": "MC_Hub_Impound-InspectorBriefing_Pt2",
      "t": "Straight to the point. Good.\n\n{{GM}}He throws Qiu a sidelong glance.{{/GM}}\n\nYou wanna get us stared, Fiona?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_shadows_andy.png"
   },
   {
    "id": "name_sceneaptexecname",
@@ -72850,7 +72883,8 @@
      "cn": "MC_a2_Kidnapping_s1-AptExecutive",
      "t": "{{GM}}The exec makes a show of checking his designer wristwatch. He sighs, drawing out the noise.{{/GM}}\n\nCan we get *on* with this? I have a meeting in thirty-five minutes. If I miss it, I'll make sure that *you* miss all your marks on your next performance report."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_rickardjohansson.png"
   },
   {
    "id": "name_cherryignacio",
@@ -73546,7 +73580,8 @@
      "cn": "HK_Hub-Global_SeniorMahJongPlayers",
      "t": "Sooner rather than later. We're not aging in reverse, you know.\n\n{{GM}}He shoots Lau a look.{{/GM}}\n\nWell. Most of us, anyway."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_gin.png"
   },
   {
    "id": "name_desksergeant",
@@ -74236,7 +74271,8 @@
      "cn": "HK_Hub-Global_MissionComputer",
      "t": "dont care how u do it, just get me somethin i can use 2 get ahead of neville.\n\nu do good, im ur friend 4 life.\n\n-Dr. S. "
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_exitstageleft_shenyang.png"
   },
   {
    "id": "name_hui",
@@ -74896,7 +74932,8 @@
      "cn": "HK_Hub-Global_SeniorMahJongPlayers",
      "t": "You should practice your Go, $(l.name). Then someday we can all play together."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_shyu.png"
   },
   {
    "id": "name_raulcobbs",
@@ -75223,7 +75260,8 @@
      "cn": "MC_a2_StationRun_s1-BussinessManPrisioner",
      "t": "You're back! Have you reconsidered? Will you help me?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_rc.png"
   },
   {
    "id": "name_xfloh",
@@ -75544,7 +75582,8 @@
      "cn": "MC_a1_Intro_s1-CopsJustKilledCivvies",
      "t": "Let's try to find a way around these assholes, huh?\n\n{{GM}}She nodded toward the fresh corpses of the locals that the patrol had just gunned down.{{/GM}}\n\nIf we get too much closer, they'll probably fire on us, just like they did to those poor idiots."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elffemale_endrevarga.png"
   },
   {
    "id": "name_reporter",
@@ -75853,7 +75892,8 @@
      "cn": "a3_Epilogue_s1-Reporter",
      "t": "{{GM}}He winks at you.{{/GM}}\n\nI think it's *more* worth my while to keep my job. I start babbling about government or corporate cover-ups on camera and I'm finished here. And I know plenty of guys who got the strength of the righteous and then mysteriously disappeared.\n\n{{GM}}He picks up his gear and turns to go.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_adamdettman.png"
   },
   {
    "id": "name_elderng",
@@ -76151,7 +76191,8 @@
      "cn": "a2_Grendel_s1-WhamCombatComplete",
      "t": "So ends the terror of Whampoa Garden. After all that blood and death, it's finally over... We'll see that justice is meted out on this killer.\n\nThank you. Thank you for your service. I will ensure your payment is wired to your account, and that you will always be welcome here."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkfemale_grendel_elderng.png"
   },
   {
    "id": "name_securityguard",
@@ -76722,7 +76763,8 @@
      "cn": "a2_FalseFlag_s2-2ndFinalConvo",
      "t": "Hey, we both need better luck after tonight! Maybe a nice milk run to smooth it out..."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_orkmale_stevenratkovich.png"
   },
   {
    "id": "name_porterlam",
@@ -77001,7 +77043,8 @@
      "cn": "a2_Grendel_s1-WhamCombatComplete",
      "t": "So ends the terror of Whampoa Garden. After all that blood and death, it's finally over... We'll see that justice is meted out on this killer.\n\nThank you. Thank you for your service. I will ensure your payment is wired to your account, and that you will always be welcome here."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_grendel_porterlam.png"
   },
   {
    "id": "name_emilie",
@@ -77268,7 +77311,8 @@
      "cn": "a2_Extraction_s1-Dreamland",
      "t": "Yes. I can see that.\n\n{{GM}}Her tone is sharp. Her eyes flash daggers at Is0bel.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_extraction_emilie.png"
   },
   {
    "id": "name_storymchubcharnamedecker",
@@ -77535,7 +77579,8 @@
      "cn": "MC_Hub_Impound-Decker",
      "t": "Hey again. What can I do for you?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_malehuman_levicstolls.png"
   },
   {
    "id": "name_isanekonnair",
@@ -77790,7 +77835,8 @@
      "cn": "MC_a2_Kidnapping_s1-FinalConvo",
      "t": "Well, that's more of a choice than most of us get. People like your runner friend and I live and die on your dime. Isn't that right?\n\n{{GM}}Isane nods toward you.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanfemale_izzygilikin.png"
   },
   {
    "id": "name_krait",
@@ -78057,7 +78103,8 @@
      "cn": "MC_a1_Intro_s1-KraitBroadcast_2",
      "t": "All teams, ready your weapons and prepare for my mark.\n\nDo not, I repeat, DO NOT move before you are instructed to. Anyone who fails to obey this command will answer to me.\n\nAwait my instructions. Krait out."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_hub_krait.png"
   },
   {
    "id": "name_spikyhaireddecker",
@@ -78302,7 +78349,8 @@
      "cn": "a2_Is0belTrust_s1-DeckConGoerConvo",
      "t": "You again. What's up?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elfmale_02.png"
   },
   {
    "id": "name_eos",
@@ -78545,7 +78593,8 @@
      "cn": "HK_Hub-Global_Eos",
      "t": "{{GM}}Tapping a finger to her brow, Eos grins.{{/GM}}\n\nSee you. Don't be afraid to call!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elffemale_feliciaday.png"
   },
   {
    "id": "name_bloodiedwoman",
@@ -78788,7 +78837,8 @@
      "cn": "a1_WalledCity_s1-Streets_BloodiedRepairMan",
      "t": "Please hurry. I want to get the hell out of here."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanfemale_estherzinn.png"
   },
   {
    "id": "name_hkpfdataanalyst",
@@ -79262,7 +79312,8 @@
      "cn": "MC_a1_Intro_s1-CopsJustKilledCivvies",
      "t": "Let's try to find a way around these assholes, huh?\n\n{{GM}}He nodded toward the fresh corpses of the locals that the patrol had just gunned down.{{/GM}}\n\nIf we get too much closer, they'll probably fire on us, just like they did to those poor idiots."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_orkmale_kiluminatialabrad.png"
   },
   {
    "id": "name_fizz",
@@ -79493,7 +79544,8 @@
      "cn": "MC_a2_Plaguebearer_s1-PodSubjectsPostfight",
      "t": "Good luck. And thank you. Now, it's time I get out of here!"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanfemale_alisonmcgregor.png"
   },
   {
    "id": "name_lockupguard",
@@ -79955,7 +80007,8 @@
      "cn": "MC_Hub_PirateBarge-ChastityBlackwell",
      "t": "{{GM}}Chastity shrugs.{{/GM}}\n\nYour loss! You just missed out on the best fish story ever, but it's no skin off my back.\n\nAnyway. Something else you wanted?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanfemale_chastityblackwell.png"
   },
   {
    "id": "name_henry",
@@ -80400,7 +80453,8 @@
      "cn": "CREW TAGS PLACEHOLDER",
      "t": "Isobel"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_dwarffemale_is0bel.png"
   },
   {
    "id": "name_tsangvp",
@@ -80619,7 +80673,8 @@
      "cn": "a3_TsangTower_s1-Office_TsangVPWarns",
      "t": "Excellent. A pleasure doing business with you."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_tsangtower_businessman.png"
   },
   {
    "id": "name_thejarl",
@@ -80832,7 +80887,8 @@
      "cn": "a2_FalseFlag_s2-2ndFinalConvo",
      "t": "Thanks. I could always use some better luck.\n\nI hope yours changes, too. You seem like you could use a milk run, after that debacle."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_davidjarl.png"
   },
   {
    "id": "name_vipdecker",
@@ -81045,7 +81101,8 @@
      "cn": "a2_Is0belTrust_s1-VIPEncounter",
      "t": "Yes. There's something on the table over there that I want to see."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_alexanderbrown.png"
   },
   {
    "id": "name_huskytroll",
@@ -81252,7 +81309,8 @@
      "cn": "a1_Docks_s1-RunnersMeeting",
      "t": "{{GM}}The troll notes your action with a nod.{{/GM}}\n\nMaybe we got off on the wrong foot just now. Something we can do for you, officer?\n\n{{GM}}His mouth breaks into a patronizing grin.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_trollmale_docks_nightjar.png"
   },
   {
    "id": "name_maintenancemanager",
@@ -81460,7 +81518,8 @@
      "cn": "a3_TsangTower_s1-SubBasement_Turbine",
      "t": "Damn it! Get your ass over to security. They're going to want a statement."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_dwarffemale_02.png"
   },
   {
    "id": "name_brentshirkey",
@@ -81667,7 +81726,8 @@
      "cn": "HK_Hub-Global_BrentShirkey",
      "t": "Kinda prosaic, but... I'm really allergic to pollution. Intensely. Developed it during a stint in Kolkata a few years back. Something about all the crap they pump into the air just wrecked my lungs. I couldn't keep up on the job, so this spell alleviates the allergies.\n\nNot as flashy as mind reading or something, but still useful."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elfmale_brentshirkey.png"
   },
   {
    "id": "name_andreilukianov",
@@ -81874,7 +81934,8 @@
      "cn": "MC_Hub_PirateBarge-CyberwareVendor",
      "t": "{{GM}}Andrei's eyes widen. He takes a half-step back, his brow furrowing.{{/GM}}\n\nQuestions, huh? What *kind* of questions?\n\nHow long have you been watching me?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_andrewlukianoff.png"
   },
   {
    "id": "name_constablecheung",
@@ -82282,7 +82343,8 @@
      "cn": "a2_FalseFlag_s1-1stFrontDesk",
      "t": "I warned you not to enter the building without signing in!\n\n{{GM}}The receptionist slams his hand onto the panic button at his desk.{{/GM}}\n\nSecurity, we have intruders in the lobby!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_falseflag_receptionist.png"
   },
   {
    "id": "name_dizzy",
@@ -82483,7 +82545,8 @@
      "cn": "a2_FalseFlag_s2-2ndFinalConvo",
      "t": "Aww, thanks! Seems like we could both use some better luck after tonight, eh?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanfemale_ameliavonhaden.png"
   },
   {
    "id": "name_demergo",
@@ -82684,7 +82747,8 @@
      "cn": "a2_Grendel_s1-Civ1Convo",
      "t": "PLACEHOLDER"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_denniscochise.png"
   },
   {
    "id": "name_tsangresearcher",
@@ -82885,7 +82949,8 @@
      "cn": "a3_TsangTower_s1-MagicLabTech",
      "t": "Do you not see this very serious, very expensive, very important work that I'm doing? I told you to leave me alone, and now you've become an impediment to my research. One I need removed.\n\nSECURITYYY!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkmale_tsangscientist.png"
   },
   {
    "id": "name_cheungsingroosterlo",
@@ -83080,7 +83145,8 @@
      "cn": "a2_ShangriLa_s1-EscapingBoatTalk",
      "t": "{{GM}}Rooster flinches at your approach. When he speaks, he tries to sound confident, but his voice cracks.{{/GM}}\n\nThe 289s are gonna jam you up for this. And you just wait until the Talon recovers! You'll be dead by the end of the week."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elfmale_shangrila_rooster.png"
   },
   {
    "id": "name_compelledlocal2",
@@ -83275,7 +83341,8 @@
      "cn": "a2_GobbetTrust_s1-FirstDeck_LocalConfront",
      "t": "{{GM}}Her dwarf companion calls after you.{{/GM}}\n\nHurry back! We can't leave Malvina waiting..."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_dwarfmale_gobbettrust_patrick.png"
   },
   {
    "id": "name_sceneglobalnamelocal1",
@@ -83666,7 +83733,8 @@
      "cn": "MC_a1_Intro_s1-PengsCrewWeakened",
      "t": "I'm thinkin' that maybe I'll teach you a lesson instead. My boys need to see that I'm as strong as Eddie was.\n\n{{GM}}He made a hand signal, and the remaining gangers flung themselves back into the fray.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_dwarfmale_shadows_peng.png"
   },
   {
    "id": "name_opti",
@@ -83855,7 +83923,8 @@
      "cn": "a2_FalseFlag_s2-2ndFinalConvo",
      "t": "Hey, same to you! After this run, you could use it..."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_opti.png"
   },
   {
    "id": "name_rainbow",
@@ -84045,7 +84114,8 @@
      "cn": "a2_Grendel_s1-Wham2Convo",
      "t": "That's organized behavior. That means the culprit is precise and careful. Also, given that it wasn't stored in the... lair, I guess... would mean the it doesn't want to risk the eventual smell drawing people toward where it sleeps.\n\nThat's rather good, in terms of foresight, don't you think? Them that're killers are right crafty lot, if they've a mind better than that of a beast."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elffemale_christinamitton.png"
   },
   {
    "id": "name_tsangmanager",
@@ -84612,7 +84682,8 @@
      "cn": "MC_a2_Kidnapping_s1-PlazaWitchita",
      "t": "We've got storage rooms on site, but they're regularly restocked by outside suppliers. We see them in the cargo bay once or twice every week.\n\nWhy do you ask?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elffemale_jamesyoon.png"
   },
   {
    "id": "name_grocer",
@@ -84797,7 +84868,8 @@
      "cn": "a3_Showdown_s1-YangZizhuang_Convo",
      "t": "Sure. Right here."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_zizhuangyang.png"
   },
   {
    "id": "name_tsangworker",
@@ -85163,7 +85235,8 @@
      "cn": "MC_a2_Plaguebearer_s1-RailCarConvo",
      "t": "It's Shiawase security. I'm sure of it.\n\nThey're gonna pull us off to a side spur, where they've probably got a dozen guards and four or five turrets ready to open up on us the moment we arrive."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_adamdoochin.png"
   },
   {
    "id": "name_briancoats",
@@ -85346,7 +85419,8 @@
      "cn": "MC_a2_Kidnapping_s1-AptTechnicians",
      "t": "Sure is. There's a freight elevator, west of the executive elevators from the penthouse level.\n\nYou won't be able to use it, though. At least not without a Matrix override. And *that's* locked up tight."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_orkmale_briancoats.png"
   },
   {
    "id": "name_lau",
@@ -85524,7 +85598,8 @@
      "cn": "HK_Hub-Global_SeniorMahJongPlayers",
      "t": "I'm sorry, but we're still playing. Come back some other time."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_lau.png"
   },
   {
    "id": "name_moejnebi",
@@ -85702,7 +85777,8 @@
      "cn": "a2_Grendel_s1-Civ3Convo",
      "t": "PLACEHOLDER"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_moealjneibi.png"
   },
   {
    "id": "name_waiter",
@@ -85873,7 +85949,8 @@
      "cn": "a2_ExitStageLeft_s1-MezzanineWaiter",
      "t": "Good evening, $(l.sir). Welcome to the Veranda at... Oh, it's you again. What do you need this time?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_exitstageleft_waiter.png"
   },
   {
    "id": "name_kitchenworker",
@@ -86293,7 +86370,8 @@
      "cn": "MC_Hub_Global-MissionComputer",
      "t": ">>PENDING JOBS : ENTER QUERY<<\n\nWARNING: OUTBOUND MATRIX CONNECTION NOT FOUND.\n\nPLEASE STAND BY."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_shadows_lee.png"
   },
   {
    "id": "name_joneverist",
@@ -86464,7 +86542,8 @@
      "cn": "MC_Hub_PirateBarge-Teugh",
      "t": "Hey there. You need something from me?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elfmale_joneverist.png"
   },
   {
    "id": "name_carter",
@@ -86629,7 +86708,8 @@
      "cn": "a1_Docks_s1-ClosedExitGate",
      "t": "C'mon, Rookie. We can cut through the construction site."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elffemale_ericclough.png"
   },
   {
    "id": "name_nevillema",
@@ -86794,7 +86874,8 @@
      "cn": "a2_ExitStageLeft_s1-NevilleMa1st",
      "t": "Hello again, $(l.honorific) Argent. What can I do for you?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_exitstageleft_nevillema.png"
   },
   {
    "id": "name_wuxingemployee",
@@ -87126,7 +87207,8 @@
      "cn": "a2_Is0belTrust_s1-ShowFloor_Gamege",
      "t": "Oh, it's you again.\n\nCan I, uh... can I help you somehow?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_jasonflythe.png"
   },
   {
    "id": "name_eddynahas",
@@ -87291,7 +87373,8 @@
      "cn": "MC_Hub_PirateBarge-EddyNahas",
      "t": "Hey, thanks! If it happens, it happens. If not, at least I'll have an interesting trip.\n\nThat's the thing, really. Be where you are, live when you are. Make sense?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_orkmale_eddynahas.png"
   },
   {
    "id": "name_triplealpha",
@@ -87456,7 +87539,8 @@
      "cn": "MC_Hub_PirateBarge-TripleAlpha",
      "t": "{{GM}}Triple Alpha takes a long drag on her cigarette and exhales a plume of smoke out of the corner of her mouth.{{/GM}}\n\nHey again. What else can I do for you?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_shadows_aaasuperhero.png"
   },
   {
    "id": "name_smuggler",
@@ -87774,7 +87858,8 @@
      "cn": "a2_GobbetTrust_s1-MidDeck_FriendConvo",
      "t": "Look, I've already told that I've got work to do. Please... go bother someone else."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_gobbettrust_yasmin.png"
   },
   {
    "id": "name_cateringmanager",
@@ -87933,7 +88018,8 @@
      "cn": "a2_Is0belTrust_s1-CatererEncounter",
      "t": "And you fell for that?! You had *specific instructions* to stay on the show floor."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_is0beltrust_caterer.png"
   },
   {
    "id": "name_receptionist",
@@ -88245,7 +88331,8 @@
      "cn": "a2_Grendel_s1-VorySpotted",
      "t": "You think we get out a lot? I wouldn't have even known there were murders if I hadn't bothered to come out to get some soykaf last week. \n\nIt's none of our business, and isn't our problem, and I like it that way."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkfemale_grendel_vasilisa.png"
   },
   {
    "id": "name_redpoletriad",
@@ -88398,7 +88485,8 @@
      "cn": "a3_Showdown_s1-RedPoleConvo",
      "t": "Then why are you wasting my time?\n\n{{GM}}He bushes you away.{{/GM}}\n\nGet out of my hair, $(l.man)!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkfemale_showdown_triadredpole.png"
   },
   {
    "id": "name_localshaman",
@@ -88551,7 +88639,8 @@
      "cn": "a3_Showdown_s1-CivilianShaman",
      "t": "Back so soon? My wares are still here if you need another look."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_matthewdimalanta.png"
   },
   {
    "id": "name_kitchenmanager",
@@ -89011,7 +89100,8 @@
      "cn": "MC_a2_Kidnapping_s1-FinalConvo",
      "t": "I'm no scientist, Miss Lai, but I'm fairly certain that their medical facility in Kyoto is more advanced than any of Fuchi's.\n\nIf any megacorp can undo their damage, Yamatetsu can."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_victorvergara.png"
   },
   {
    "id": "name_hwangjaemin",
@@ -89483,7 +89573,8 @@
      "cn": "a2_Whistleblower_s2-FoughtForHwang",
      "t": "{{GM}}Hwang's face twists into an expression of boiling rage.{{/GM}}\n\nWhat?! You double-crossing bastard!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_whistleblower_hwangjaemin.png"
   },
   {
    "id": "name_david",
@@ -89924,7 +90015,8 @@
      "cn": "a2_Grendel_s1-WhamCombatComplete",
      "t": "So ends the terror of Whampoa Garden. After all that blood and death, it's finally over... We'll see that justice is meted out on this killer.\n\nThank you. Thank you for your service. I will ensure your payment is wired to your account, and that you will always be welcome here."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_grendel_elderip.png"
   },
   {
    "id": "name_sceneglobalnamelocal3",
@@ -90218,7 +90310,8 @@
      "cn": "MC_a2_Plaguebearer_s1-Lab2FinalFight",
      "t": "Not an option. See, I'm less afraid of you than I am of Shiawase.\n\nLet's be honest - all that *you* can do is kill me. Shiawase? Well, I shouldn't have to give examples. You've seen for yourself."
     }
-   ]
+   ],
+   "portraitFile": "hk/backerpc_elfmale_michaelpiantedosi.png"
   },
   {
    "id": "name_forlornspirit",
@@ -90360,7 +90453,8 @@
      "cn": "a1_WalledCity_s1-LotusDen_TalkDownSpirit",
      "t": "<NO TALK...ONLY BUTCHERY... ONLY BLOOD...>"
     }
-   ]
+   ],
+   "portraitFile": "hk/generic_spirit_walledcityvictim.png"
   },
   {
    "id": "name_humantransient",
@@ -90636,7 +90730,8 @@
      "cn": "a2_ExitStageLeft_s1-PenelopeWong",
      "t": "{{GM}}Penelope beams at you.{{/GM}}\n\nAlways happy to help where Neville's concerned."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_exitstageleft_penwong.png"
   },
   {
    "id": "name_chefyanlung",
@@ -91436,7 +91531,8 @@
      "cn": "a3_TsangTower_s1-MagicLabVP",
      "t": "At first, I thought you might just be stupid, since that paperwork you're waving around doesn't include access to the research offices. So I overlooked it.\n\nBut now, I don't give a shit. I want you out! SECURITY!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_tsangtower_mage.png"
   },
   {
    "id": "name_nobutashiro",
@@ -91565,7 +91661,8 @@
      "cn": "MC_a2_StationRun_s1-StreetThugPrisoner",
      "t": "{{GM}}He waves you away.{{/GM}}\n\nKeep walking, man. If you can't bust me out of here, you're wasting my time."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_evansperrin.png"
   },
   {
    "id": "name_eldertang",
@@ -91688,7 +91785,8 @@
      "cn": "a2_Grendel_s1-WhamCombatComplete",
      "t": "So ends the terror of Whampoa Garden. After all that blood and death, it's finally over... We'll see that justice is meted out on this killer.\n\nThank you. Thank you for your service. I will ensure your payment is wired to your account, and that you will always be welcome here."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elfmale_grendel_eldertang.png"
   },
   {
    "id": "name_redspearganger",
@@ -92057,7 +92155,8 @@
      "cn": "a2_Is0belTrust_s1-CatererEncounter",
      "t": "You'll live. Besides, you're *supposed* to be scoring us water bottles, remember? NovaHott is in dire need of refreshment."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkfemale_01.png"
   },
   {
    "id": "name_tsangcaptain",
@@ -93007,7 +93106,8 @@
      "cn": "a2_Extraction_s1-InfoBroker",
      "t": "Oh yes, I am! I definitely am! Nnn-nnn...\n\n{{GM}}Xiaozhi's eyes widen with the joy of her job and she hums her little hum.{{/GM}}\n\nVery timely intel. Verrry timely. I have his complete, up-to-the minute itinerary! Where he'll be, who he'll be with, security coverage - the deluxe dackage."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_dwarffemale_01.png"
   },
   {
    "id": "name_preternaturalcorpse",
@@ -93118,7 +93218,8 @@
      "cn": "a2_Museum_s1-MummyKing",
      "t": "Our exalted had the will to contain them. Wherever you intend to send them, I hope that an equally strong mind will keep them under control."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_creature_museum_mummy.png"
   },
   {
    "id": "name_aljernon",
@@ -93229,7 +93330,8 @@
      "cn": "HK_Hub-Global_Aljernon",
      "t": "{{GM}}$(scene.global_AljernonName) inclines his head politely.{{/GM}}\n\nHello again, my friend. Was there something else I could assist you with?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elfmale_magicdealer.png"
   },
   {
    "id": "name_dannyspanecki",
@@ -93340,7 +93442,8 @@
      "cn": "MC_a2_Kidnapping_s1-PlazaSpanecki",
      "t": "Sorry. Just the way it is.\n\nIs there anything else you need?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_trollmale_jamesherbert.png"
   },
   {
    "id": "name_tsangreconcommando",
@@ -93551,7 +93654,8 @@
      "cn": "a2_Is0belTrust_s1-CatererEncounter",
      "t": "It's true. I'm parched."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_01.png"
   },
   {
    "id": "name_angryconventiongoer",
@@ -93656,7 +93760,8 @@
      "cn": "a2_Is0belTrust_s1-CatererEncounter",
      "t": "{{GM}}You become dimly aware of a figure looming behind you in the convention hall.{{/GM}}\n\nYou didn't read the instructions? You must be joking, $(l.man).\n\nYou've been on that kiosk for twenty minutes now!"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_jeffreysampson.png"
   },
   {
    "id": "name_rowynshoremaker",
@@ -93761,7 +93866,8 @@
      "cn": "MC_a2_StationRun_s1-CrazedAddictPrisoner",
      "t": "Yes! Drugs! Uppers, specifically! Cram, jazz, you name it!\n\nHelp me out, and you will be richly rewarded!"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elfmale_rowynshoremaker.png"
   },
   {
    "id": "name_inspectorlam",
@@ -93890,7 +93996,8 @@
      "cn": "MC_a2_StationRun_s1-InspectorsAtTheTrap_2b",
      "t": "{{GM}}He turns to look at her, blinking.{{/GM}}\n\nWhat are you saying? How can she have no aur--"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_shadows_andy.png"
   },
   {
    "id": "name_yellowlotuscaptain",
@@ -94088,7 +94195,8 @@
      "cn": "a2_FalseFlag_s1-PowerCutInsideElevConvo",
      "t": "Nah. I guess one of us should go check ID badges or something over there, but people keep trying to use this damn elevator. We're too short-staffed to leave this post.\n\nJust don't go anywhere you're not supposed to."
     }
-   ]
+   ],
+   "portraitFile": "hk/generic_humanmale_knighterrant.png"
   },
   {
    "id": "name_tanjiro",
@@ -94187,7 +94295,8 @@
      "cn": "a2_GaichuTrust_s1-Tanjiro",
      "t": "{{GM}}Tanjiro shrinks back against the desk once again, hands instinctively raising to protect his face.{{/GM}}\n\nNo! No, you don't have to do that!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_01.png"
   },
   {
    "id": "name_turtle",
@@ -94286,7 +94395,8 @@
      "cn": "a2_Is0belTrust_s1-ShowFloor_Turtle",
      "t": "Hello again! Somethin' I can do for you?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_dwarfmale_chrisvangraas.png"
   },
   {
    "id": "name_grimson",
@@ -94386,7 +94496,8 @@
      "cn": "a2_Is0belTrust_s1-ShowFloor_Grimson",
      "t": "You're back. Need something?"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_dwarfmale_paulthorgrimson.png"
   },
   {
    "id": "name_irateresident",
@@ -94584,7 +94695,8 @@
      "cn": "MC_a2_Kidnapping_s1-FinalConvo",
      "t": "It is, Miss Lai. I can assure you of that.\n\nWhatever Yamatetsu promised you, you've been a Fuchi citizen for most of your life. We take care of our own."
     }
-   ]
+   ],
+   "portraitFile": "hk/backerpc_elfmale_haldorzaake-hertling.png"
   },
   {
    "id": "name_galina",
@@ -94677,7 +94789,8 @@
      "cn": "a2_Grendel_s1-VorySpotted",
      "t": "Like she said - we heard an empty shop was full of things we could fence easy enough, so we broke in and liberated anything we could sell. I have no idea what happened to her. I don't live in Whampoa Garden, and I don't want to."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_grendel_galina.png"
   },
   {
    "id": "name_captainjomo",
@@ -94770,7 +94883,8 @@
      "cn": "MC_a2_Plaguebearer_s1-IntroConvo",
      "t": "{{GM}}Jomo nods as you approach, his expression stern.{{/GM}}\n\nHad enough of kicking the hornets today? My radio sounds like a whole nest of them is after you."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkmale_whistleblower_capjomo.png"
   },
   {
    "id": "name_waitress",
@@ -95031,7 +95145,8 @@
      "cn": "HK_Hub-a3_PostRun_BriefingBeforeShowdown",
      "t": "Because this is a shot at distinguishing ourselves. Show Auntie that we have what it takes to rise in the organization. \n\n{{GM}}The soldier looks sidelong at his friends.{{/GM}}\n\nIt may be our best chance to provide for our families."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_dwarfmale_matthewto.png"
   },
   {
    "id": "name_heoismuggler",
@@ -95361,7 +95476,8 @@
      "cn": "a2_Is0belTrust_s1-DeckerGroupConvo",
      "t": "Look, $(l.he)'s back.\n\nWhat do you want? You're interrupting a serious conversation."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkmale_02.png"
   },
   {
    "id": "name_mfi",
@@ -95442,7 +95558,8 @@
      "cn": "MC_a2_Plaguebearer_s1-PodSubjectsWarning",
      "t": "Take cover!"
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elfmale_matthendrickson.png"
   },
   {
    "id": "name_resident",
@@ -95673,7 +95790,8 @@
      "cn": "a2_Extraction_s1-DrugDealer",
      "t": "Just don't tell anyone. You can keep this on the down low, right?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elfmale_zakkflash.png"
   },
   {
    "id": "name_conventionsecurityguard",
@@ -95748,7 +95866,8 @@
      "cn": "a2_Is0belTrust_s1-DrunkEncounter",
      "t": "{{GM}}Her hand moves towards her weapon.{{/GM}}\n\nWhat do you mean? What schedule?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_is0beltrust_securityguard.png"
   },
   {
    "id": "name_conventiongoerelevator",
@@ -95823,7 +95942,8 @@
      "cn": "a2_Is0belTrust_s1-AdminElevatorConvo",
      "t": "Yes. I didn't want any trouble from you in the first place.\n\nI'm just glad that it was all a misunderstanding. Please don't take this the wrong way, but I'll be happy if this is the last that I ever see of you."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_elfmale_andygoolsby.png"
   },
   {
    "id": "name_shadyman",
@@ -96336,7 +96456,8 @@
      "cn": "a2_Grendel_s1-Civ2Convo",
      "t": "PLACEHOLDER"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_trollmale_grendel_breakerhui.png"
   },
   {
    "id": "name_theratking",
@@ -96406,7 +96527,8 @@
      "t": "Malvina opens her mouth to speak, but you'll never know what she was going to say. The only sound that escapes from her throat is a long, ragged scream.\n\nWith a dawning horror, you come to realize what you're looking at. The devil rats that surround Malvina are turning inward.",
      "y": 6
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_creature_02hk_malvina.png"
   },
   {
    "id": "name_conventionstaffer",
@@ -96790,7 +96912,8 @@
      "cn": "HK_Hub-Global_MaximumLaw_WhampoanPuppet",
      "t": "I am the temporary merchant representative until a permanent replacement is assigned.\n\n{{GM}}The puppet's voice is soulless... its tones and inflection precise, but devoid of any feeling.{{/GM}}\n\nHow may I assist you?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_hub_lawpuppet.png"
   },
   {
    "id": "name_deputychiefinspector",
@@ -96967,7 +97090,8 @@
      "cn": "a2_ShangriLa_s1-TalonFinalFightConvo",
      "t": "{{GM}}Without hesitation, the Talon takes a step forward and spits on the ground.{{/GM}}\n\nTo hell with you, you spineless bit pusher. I'll bet you didn't even put up a fight. Just rolled over and played the captive. Coward!\n\nI'm going to enjoy planting a bullet in your soft, worthless skull.\n\n{{GM}}He readies his weapon.{{/GM}}"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkmale_shangrila_talon.png"
   },
   {
    "id": "name_armsdealer",
@@ -97197,7 +97321,8 @@
      "cn": "a2_Grendel_s1-Wham3Convo",
      "t": "{{GM}}Wing-Kei hands the armor piece back to you.{{/GM}}\n\nWhoever shot this off the owner came loaded with the right kind of weaponry to get the job done, that's for certain. And you don't carry that kind of ordnance around unless you're sure of what you're facing - it's just too expensive for common carry."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_grendel_wingkeikwok.png"
   },
   {
    "id": "name_sceneglobalnamecadmussupporter1",
@@ -97311,7 +97436,8 @@
      "cn": "a2_Is0belTrust_s1-DrunkEncounter",
      "t": "Security has the final say on all who CAN and CAN'T be on this floor!\n\n{{GM}}His voice rises into a scream.{{/GM}}\n\nNow TELL ME WHAT YOU'RE DOING HERE, or you're GOING TO REGRET IT!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_is0beltrust_securitycaptain.png"
   },
   {
    "id": "name_kowloonlocal",
@@ -97623,7 +97749,8 @@
      "cn": "a1_Docks_s1-Ambush",
      "t": "So something tells me you're not a cop. Or you're a cop from the UCAS, and you got no jurisdiction here.\n\n{{GM}}He grasps his rifle.{{/GM}}\n\nEither way, this ends the same."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_orkmale_01.png"
   },
   {
    "id": "name_ganger",
@@ -97854,7 +97981,8 @@
      "cn": "MC_a3_TaiPo_s1-SpiderTankTerminal",
      "t": "POWERDOCK 1.11a CHARGING/CONTROL STATION\n\n>>Searching for paired Slave device...\n...\n...\n...\n>>Device missing or out of range!"
     }
-   ]
+   ],
+   "portraitFile": "hk/generic_machine.png"
   },
   {
    "id": "name_fuchiemployee",
@@ -98017,7 +98145,8 @@
      "cn": "HK_Hub-a1_Kindly_PostNightmareVision",
      "t": "No one, Madam! I hadn't called it in yet - I wanted the kill for myself! \n\nNo one knows they're here. I swear it!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_bloodofficer.png"
   },
   {
    "id": "name_ishida",
@@ -98056,7 +98185,8 @@
      "cn": "a2_GaichuTrust_s1-GaichuMentor",
      "t": "{{GM}}At this, Ishida stiffens. His eyes go cold with resolution.{{/GM}}\n\nThen we shall see, Gaichu. And if you are wrong, I shall meet you again in my next life, and try to teach you to do better."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_gaichutrust_samuraicaptain.png"
   },
   {
    "id": "name_tsanghumanmaintenanceworker",
@@ -98233,7 +98363,8 @@
      "cn": "a2_Is0belTrust_s1-DrunkEncounter",
      "t": "You work at Uncle Tse's?\n\nThat place is a vomit factory."
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_trollfemale_is0beltrust_drunktroll.png"
   },
   {
    "id": "name_dwarftransient",
@@ -98705,7 +98836,8 @@
      "cn": "HK_Hub-Global_MissionComputer",
      "t": "Dr. Chou, getting down to business... what's your assessment of this announcement by Ms. Tsang?"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanfemale_docks_newsanchor.png"
   },
   {
    "id": "name_knighterrantcaptain",
@@ -98897,7 +99029,8 @@
      "cn": "a3_Showdown_s1-TsangCivilianShootout",
      "t": "This is for your OWN GOOD! We are here to PROTECT YOU!\n\n{{GM}}He gesticulates wildly, spittle flying from his mouth.{{/GM}}\n\nYOU CAN'T BE HERE! BACK AWAY! THIS IS YOUR LAST WARNING!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_humanmale_showdown_tsangcomleader.png"
   },
   {
    "id": "name_outspokencivilian",
@@ -99054,7 +99187,8 @@
      "cn": "a2_BadQi_s1-MageAmbush",
      "t": "On behalf of Wuxing, Inc., we've been instructed to prevent your further vandalizing of the company's property and assets.\n\nHowever, they never specified how. So I vote we do this the easy way.\n\n{{GM}}The mage motions to you with a flick of his wrist.{{/GM}}\n\nLeave no survivors!"
     }
-   ]
+   ],
+   "portraitFile": "hk/npc_elfmale_badqi_geoleader.png"
   },
   {
    "id": "name_minhvuong",
@@ -99074,7 +99208,7 @@
   {
    "id": "name_civilian",
    "name": "Civilian",
-   "portrait": null,
+   "portrait": "Backer_HumanMale_ZizhuangYang",
    "archetype": null,
    "bio": null,
    "lines": [
@@ -99084,7 +99218,8 @@
      "cn": "a3_Showdown_s1-TsangCivilianShootout",
      "t": "As you raise your weapon, the Tsang captain empties his magazine into the crowd."
     }
-   ]
+   ],
+   "portraitFile": "hk/backer_humanmale_zizhuangyang.png"
   },
   {
    "id": "name_tsangcommandocaptain",

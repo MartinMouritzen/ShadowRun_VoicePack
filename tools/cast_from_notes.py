@@ -53,9 +53,25 @@ by_id = {c["id"]: c for c in cast}
 by_name = {c["name"]: c["id"] for c in cast}
 
 # ---------------------------------------------------------------- who shares a room with whom
+# scene_actors.json records the roster under the names the SCENE files use, and Hong Kong's scenes
+# name a third of their cast through a template - "$(scene.Convention_ConGoer3Name)". The characters
+# get resolved by apply_hk_names.py, the roster never does (extract_extras_game.py rewrites it
+# afterwards), so 263 of 465 names matched nothing and those characters had no same-scene constraint
+# at all. Resolve through the same map the renamer uses.
+resolve = {k.strip(): v for k, v in
+           J(os.path.join(HERE, f"{GAME}_name_resolution.json"),
+             J(os.path.join(HERE, "hk_name_resolution.json"), {}) if GAME == "hk" else {}).items()
+           if not k.startswith("_")}
+
+
+def actor_id(name):
+    return by_name.get(name) or by_name.get(resolve.get(name.strip(), ""))
+
+
 neighbours = defaultdict(set)
 for scene, names in scene_actors.items():
-    ids = [by_name[n] for n in names if n in by_name]
+    ids = [actor_id(n) for n in names]
+    ids = [i for i in ids if i]
     for a in ids:
         neighbours[a].update(i for i in ids if i != a)
 
