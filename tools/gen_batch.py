@@ -116,6 +116,15 @@ def bark_jobs(speaker_query):
             text = re.sub(r"\s+", " ", text or "").strip()
             if not text or not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text)):
                 continue
+            # Same rule the inspect walk below applies, and it was missing here: a bark still
+            # holding a template variable would be generated with the token IN it, i.e. a voice
+            # reading "Ancient Vase: yen dollar-paren-scene-dot-Museum underscore Value..." aloud.
+            # Hong Kong's museum price tags are thirteen of these, and their values are runtime
+            # ints with no closed set, so there is nothing to substitute - silence is the only
+            # correct output until someone writes a spoken form in text_edits.json.
+            if re.search(r"\$\+*\(", text):
+                print(f"  SKIP {sk}: unresolved variable — {text[:60]}", file=sys.stderr)
+                continue
             # bark_overrides.json is the per-BARK voice, which is how one speaker's barks can be
             # split - the MKVI's system messages are a machine and its reactions are Blitz. It was
             # not consulted here at all, so every bark took the speaker's voice regardless.

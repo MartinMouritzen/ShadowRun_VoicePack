@@ -716,7 +716,7 @@
  },
  "bark_32f03a3dfbe49536": {
   "text": "Another swarm! Kill it!",
-  "speaker": "$(scene.Global_Name_CompelledLocal1)",
+  "speaker": "Compelled Local (1)",
   "sheetId": "Errant_Lv1_Human_Pistol",
   "archetype": null,
   "gender": "female",
@@ -727,7 +727,7 @@
  },
  "bark_787ed4ed3da9ccdd": {
   "text": "Got the bastards.",
-  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "speaker": "Compelled Local (2)",
   "sheetId": "Errant_Lv1_Human_Pistol",
   "archetype": null,
   "gender": "male",
@@ -738,7 +738,7 @@
  },
  "bark_86c7f8a510fe6e02": {
   "text": "Come join us by the fire and get warm.",
-  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "speaker": "Compelled Local (2)",
   "sheetId": "Errant_Lv1_Human_Pistol",
   "archetype": null,
   "gender": "male",
@@ -749,7 +749,7 @@
  },
  "bark_660043ff54f08280": {
   "text": "We don't want to do this, but we don't have a choice!",
-  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "speaker": "Compelled Local (2)",
   "sheetId": "Errant_Lv1_Human_Pistol",
   "archetype": null,
   "gender": "male",
@@ -760,7 +760,7 @@
  },
  "bark_ef078e6e9d58b70f": {
   "text": "It's just over here. Follow me.",
-  "speaker": "$(scene.Global_Name_CompelledLocal1)",
+  "speaker": "Compelled Local (1)",
   "sheetId": "Errant_Lv1_Human_Pistol",
   "archetype": null,
   "gender": "female",
@@ -804,7 +804,7 @@
  },
  "bark_57475e6ace008ee4": {
   "text": "Let's keep going!",
-  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "speaker": "Compelled Local (2)",
   "sheetId": "Errant_Lv1_Human_Pistol",
   "archetype": null,
   "gender": "male",
@@ -815,7 +815,7 @@
  },
  "bark_dd54c48dd9c691ee": {
   "text": "Down you go!",
-  "speaker": "$(scene.Global_Name_CompelledLocal2)",
+  "speaker": "Compelled Local (2)",
   "sheetId": "Errant_Lv1_Human_Pistol",
   "archetype": null,
   "gender": "male",
@@ -1046,7 +1046,7 @@
  },
  "bark_8094fa1eb0699e62": {
   "text": "I'm out of here!",
-  "speaker": "$(scene.Convention_DrunkTrollName)",
+  "speaker": "Drunk Troll",
   "sheetId": "Adept_Lv1_HtH",
   "archetype": null,
   "gender": "female",
@@ -1057,7 +1057,7 @@
  },
  "bark_c2084e1c9898c21f": {
   "text": "Let's get 'em!",
-  "speaker": "$(scene.Convention_DrunkTrollName)",
+  "speaker": "Drunk Troll",
   "sheetId": "Adept_Lv1_HtH",
   "archetype": null,
   "gender": "female",
@@ -1079,7 +1079,7 @@
  },
  "bark_39de327e8362016b": {
   "text": "...Of course, this year's model will feature our new \"Lightningwire\" jack interface technology!",
-  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "speaker": "Convention Goer 3",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "?",
@@ -1090,7 +1090,7 @@
  },
  "bark_955219f9feceb4e4": {
   "text": "Does that mean that it won't be compatible with older jack interfaces?",
-  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "speaker": "Convention Goer 3",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "?",
@@ -1101,7 +1101,7 @@
  },
  "bark_1ca460214af610d5": {
   "text": "Unfortunately, we couldn't bring you the ultimate in datajack uplink speeds without redesigning the interface.",
-  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "speaker": "Convention Goer 3",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "?",
@@ -1112,7 +1112,7 @@
  },
  "bark_7a41fb130f045ace": {
   "text": "You *will* have to update your datajack to take advantage of these exciting new features. But I have these vouchers to help you with that...",
-  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "speaker": "Convention Goer 3",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "?",
@@ -1123,7 +1123,7 @@
  },
  "bark_3da9380ed81a2b3c": {
   "text": "Excuse me! A presentation is underway, please walk around.",
-  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "speaker": "Convention Goer 3",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "?",
@@ -1134,7 +1134,7 @@
  },
  "bark_9effc39d1ad14b2e": {
   "text": "The food here is always drek. Why do we keep buying it?",
-  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "speaker": "Convention Goer 3",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "?",
@@ -1145,7 +1145,7 @@
  },
  "bark_20b969707530501c": {
   "text": "Because eating this is better than waiting in line to get back into the Con.",
-  "speaker": "$(scene.Convention_ConGoer3Name)",
+  "speaker": "Convention Goer 3",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "?",
@@ -1772,7 +1772,7 @@
  },
  "bark_be9f4f9273968890": {
   "text": "[In Cantonese] Give it now, or you die!",
-  "speaker": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "speaker": "Red Pole Triad",
   "sheetId": "Errant_Lv1_Captain",
   "archetype": null,
   "gender": "female",
@@ -1794,7 +1794,7 @@
  },
  "bark_0e749239185e6832": {
   "text": "Lead the way!",
-  "speaker": "$(scene.Global_KuFeng_Name)",
+  "speaker": "Ku Feng",
   "sheetId": "Vampire_Lv6_KuFeng",
   "archetype": "gumbo_Mage",
   "gender": "female",
@@ -1805,7 +1805,7 @@
  },
  "bark_675151473653319b": {
   "text": "So much for honor among theives!",
-  "speaker": "$(scene.OuterRing_LocalShaman_Name)",
+  "speaker": "Local Shaman",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "male",
@@ -1904,7 +1904,7 @@
  },
  "bark_810b9e7050871250": {
   "text": "Move it, boys!",
-  "speaker": "$(scene.OuterRing_RedPoleTriad_Name)",
+  "speaker": "Red Pole Triad",
   "sheetId": "Errant_Lv1_Captain",
   "archetype": null,
   "gender": "female",
@@ -1915,7 +1915,7 @@
  },
  "bark_214acaed551fd7cf": {
   "text": "Stop! Just stop, you can have it!",
-  "speaker": "$(scene.OuterRing_LocalShaman_Name)",
+  "speaker": "Local Shaman",
   "sheetId": "BaseCivilian",
   "archetype": null,
   "gender": "male",

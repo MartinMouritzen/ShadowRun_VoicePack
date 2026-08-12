@@ -290,7 +290,8 @@ def main():
 
     # Detect selected takes that no current line-segment references (stale keys from a previous
     # segmentation model — e.g. a line that became interleaved after the take was made). These are
-    # NOT included (playing them would be wrong order); report so the user can regenerate.
+    # NOT included: playing a whole-line take where the line is now interleaved would speak the
+    # narration and the speech in the wrong order. Classified below into harmless and harmful.
     reachable = set()
     for ch in chars["characters"]:
         for l in ch.get("lines", []):
@@ -316,10 +317,32 @@ def main():
     reachable |= reachable_extra
     orphans = [(b, k) for b, lns in takes.items() for k, v in lns.items()
                if v.get("selected") and (b, k) not in reachable]
-    if orphans:
-        print(f"  NOTE: {len(orphans)} selected take(s) use an obsolete segmentation and were "
-              f"SKIPPED (regenerate these lines in the lab):", file=sys.stderr)
-        for b, k in orphans[:20]:
+
+    # Two very different things end up in that list, and lumping them together made the message
+    # actively misleading: it said "regenerate these lines" about 55 lines that were already voiced
+    # correctly, and buried the 7 that genuinely shipped nothing.
+    #
+    #   SUPERSEDED   The line USED to be one whole-line take; it is now split, every ~cN segment has
+    #                its own keeper, and the pack ships those. The base-key take is just a leftover
+    #                keeper on a key nothing reads any more. Nothing to do - and deliberately not
+    #                "fixed" by clearing the flag, because a line that later becomes unsegmented
+    #                again would then have no keeper at all.
+    #   STRANDED     Nothing ships for this line. Real audio gap, needs attention. The seven
+    #                $(scene.CafeSpecial) inspect variants sat here because variants.json had been
+    #                rebuilt without SRR_CONTENT_PACKS, so their value set was missing entirely.
+    #
+    # "Does the pack ship this line?" is exactly `base key in lines`, so classify on that rather
+    # than re-deriving the segmentation a second way.
+    superseded = [(b, k) for b, k in orphans if k.split("#")[0].split("~")[0] in lines]
+    stranded = [(b, k) for b, k in orphans if (b, k) not in set(superseded)]
+    if superseded:
+        print(f"  note: {len(superseded)} superseded whole-line keeper(s) on pre-split keys — their "
+              f"lines ship from the segment takes, nothing to do.", file=sys.stderr)
+    if stranded:
+        print(f"  WARNING: {len(stranded)} selected take(s) are STRANDED — nothing ships for these "
+              f"lines (regenerate, or check variants.json / line_segments.json is current):",
+              file=sys.stderr)
+        for b, k in stranded[:20]:
             print(f"    {b} / {k}", file=sys.stderr)
 
     # Transcode unique source mp3s -> ogg (hash-named, deterministic, deduped), loudness-normalized.

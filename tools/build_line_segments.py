@@ -230,6 +230,15 @@ if CONTENT_PACKS and os.path.isdir(CONTENT_PACKS):
         _v = variants.scan_scene_values(CONTENT_PACKS, _tok)
         if _v:
             SCENE_SETS[_tok] = _v
+else:
+    # Loudly, because the failure is otherwise invisible and durable: without the scene blobs the
+    # scene-string axes simply do not exist, every line and inspect that varies only on one of them
+    # drops out of variants.json, and any variant takes already recorded for it become unreachable -
+    # the pack then ships NOTHING for that line, not even the generic clip. That is exactly how the
+    # seven $(scene.CafeSpecial) clips for "The special today is a ..." went silent.
+    print("  WARNING: SRR_CONTENT_PACKS is not set to a ContentPacks directory — the scene-string "
+          "variant axes (CafeSpecial, str_RedOrGreen) will be DROPPED from variants.json, which "
+          "strands any variant takes already recorded for them. Set it and re-run.", file=sys.stderr)
 
 def seg_keys_for(key, segs):
     """Segment keys in playback order - the same rule lab/spoken.py's segment_plan() uses."""
@@ -306,7 +315,13 @@ print(f"[{GAME}] variants: {len(var_out)} segments vary, {_clips} extra clips"
       + (f", {len(var_skipped)} skipped (beat mismatch)" if var_skipped else "")
       + (f", {len(var_dropped)} left generic (unbounded var in the same sentence)" if var_dropped else ""))
 
-json.dump(result, open(os.path.join(ROOT, f"app/data/{GAME}/line_segments.json"), "w"), ensure_ascii=False, indent=1)
+# sort_keys, because the insertion order here is not stable: the quote-split and screen-split passes
+# add their keys after the main walk, so a re-run with NO content change still rewrote the whole file
+# in a different order. That churns a 4,500-entry diff for nothing and, worse, flips the file's sha1 —
+# which is what dupes.json fingerprints, so a no-op rebuild reported the dedup as stale. Segment
+# ORDER inside each value is what matters for playback and is untouched by this.
+json.dump(result, open(os.path.join(ROOT, f"app/data/{GAME}/line_segments.json"), "w"),
+          ensure_ascii=False, indent=1, sort_keys=True)
 
 # Merge the quote voices into seg_overrides.json. Entries this script owns are tagged so it can
 # rewrite its own without disturbing a per-line voice chosen by hand in the lab.
@@ -317,7 +332,7 @@ if QUOTE_VOICES or True:
              if not (isinstance(v, dict) and v.get("source") in ("quote-split", "screen-split"))}
     for k, v in QUOTE_VOICES.items():
         segov[k] = dict(v, source="screen-split" if k.split("~")[0] in SCREEN_INLINE else "quote-split")
-    json.dump(segov, open(sp_path, "w"), ensure_ascii=False, indent=1)
+    json.dump(segov, open(sp_path, "w"), ensure_ascii=False, indent=1, sort_keys=True)
     if QUOTE_VOICES:
         print(f"[{GAME}] quote splits: {len(QUOTE_VOICES)} quoted segment(s) given their speaker's voice")
 multi = sum(1 for v in result.values() if sum(1 for s in v if s["who"] == "char") >= 2)
