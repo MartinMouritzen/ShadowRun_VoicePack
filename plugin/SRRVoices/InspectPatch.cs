@@ -1,4 +1,5 @@
 using System;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using HarmonyLib;
@@ -79,9 +80,18 @@ namespace SRRVoices
 
     // Loading screens: SceneLoader.setupLoadScreenData populates the load-screen UI from
     // sceneDef. The narration text is SceneDef.scene_synopsis (protobuf field 22) — it is scene
-    // DATA, not baked into the loadingImage_* art. Key = bark_<md5(synopsis.Trim())>, matching
-    // tools/extract_loadscreens.py. Patched manually (isolated try) from Plugin.Awake so a
+    // DATA, not baked into the loadingImage_* art. Key = bark_<md5(EXPANDED synopsis.Trim())>,
+    // matching tools/extract_loadscreens.py. Patched manually (isolated try) from Plugin.Awake so a
     // missing method in a sequel can't take down the core patches.
+    //
+    // "EXPANDED" is load-bearing: several screens store no words at all, only a story-variable
+    // reference the game substitutes before drawing (Dragonfall's THE KREUZBASAR is the single
+    // token "$(story.Global_HavenLoadingScreen)", and Hong Kong's Heoi hub is
+    // "$(story.HK_HubLoadingText)"). The game rewrites those variables at the end of every mission,
+    // so ONE synopsis is 22 different screens in Dragonfall and 41 in Hong Kong. Hashing the raw
+    // token collapsed them onto one key with one recording, and the Kreuzbasar therefore narrated
+    // the first-return text over every later return — 21 of 22 loads reading words that were not
+    // on screen. Expanding first gives one key per actual text.
     public static class Patch_LoadScreen
     {
         // token of the narration we started for the current load screen; -1 = none
@@ -159,6 +169,51 @@ namespace SRRVoices
             catch (Exception) { return false; }
         }
 
+        // Resolve a synopsis that stores a story-variable reference instead of words, using the
+        // game's OWN resolver: setupLoadScreenData calls Utilities.TextExpansion before writing
+        // tempLoadScene.bodyLabel, and that reads RunManager.storyVariables for the active project.
+        // For a plain synopsis (no '$') it is the identity, so every key that works today is
+        // untouched.
+        //
+        // Deliberately NOT reading tempLoadScene.bodyLabel.text, which would look more direct: that
+        // string has ALSO been through Utilities.HideSymbols, which ASCII-folds ' - ... . Hashing it
+        // would change the key of every loading screen whose text contains typographic punctuation
+        // and silently unvoice the 30 Dragonfall screens that are correct today.
+        static MethodInfo expandMethod;
+        static bool expandLookedUp;
+
+        static string Expand(string text)
+        {
+            if (text == null || text.IndexOf('$') < 0) return text;      // nothing to substitute
+            try
+            {
+                if (!expandLookedUp)
+                {
+                    expandLookedUp = true;
+                    Type u = HarmonyLib.AccessTools.TypeByName("Utilities");
+                    if (u != null)
+                    {
+                        MethodInfo[] all = u.GetMethods(BindingFlags.Public | BindingFlags.Static);
+                        for (int i = 0; i < all.Length; i++)
+                            if (all[i].Name == "TextExpansion" && all[i].ReturnType == typeof(string)
+                                && all[i].GetParameters().Length == 4)
+                            { expandMethod = all[i]; break; }
+                    }
+                    if (expandMethod == null && Plugin.Log != null)
+                        Plugin.Log.LogWarning("loadscreen: Utilities.TextExpansion(string,_,_,_) not "
+                            + "found — story-variable load screens will stay silent.");
+                }
+                if (expandMethod == null) return text;
+                string done = expandMethod.Invoke(null, new object[] { text, null, null, null }) as string;
+                return string.IsNullOrEmpty(done) ? text : done;
+            }
+            catch (Exception e)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("loadscreen expand: " + e.Message);
+                return text;
+            }
+        }
+
         public static void Postfix(object __instance)
         {
             if (Plugin.CfgEnabled == null || !Plugin.CfgEnabled.Value) return;
@@ -170,7 +225,10 @@ namespace SRRVoices
                 if (fld == null) return;
                 SceneDef def = fld.GetValue(__instance) as SceneDef;
                 if (def == null || string.IsNullOrEmpty(def.scene_synopsis)) return;
-                string text = def.scene_synopsis.Trim();
+                // A story-variable synopsis that fails to resolve stays a literal "$(...)" string,
+                // and its key is deliberately no longer in the pack — so it MISSes and the screen
+                // is silent, instead of confidently narrating some other mission's text.
+                string text = Expand(def.scene_synopsis).Trim();
                 if (text.Length < 4) return;
                 string key = "bark_" + Patch_Inspect.Md5Hex16(text);
                 bool log = Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value;
@@ -195,7 +253,11 @@ namespace SRRVoices
                 }
                 else if (log)
                 {
-                    Plugin.Log.LogInfo("loadscreen MISS " + key + " len=" + text.Length);
+                    // Quote the text, as the inspect MISS does: reconciling the md5 by hand is the
+                    // only way to tell "never extracted" from "extracted, but the runtime string
+                    // differs by a character" — which is exactly how the story-variable bug hid.
+                    Plugin.Log.LogInfo("loadscreen MISS " + key + " len=" + text.Length
+                                       + " text=<<" + text + ">>");
                 }
             }
             catch (Exception e)

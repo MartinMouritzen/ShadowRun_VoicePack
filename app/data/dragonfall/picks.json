@@ -312,8 +312,8 @@
   "voiceName": "Sophie Walker"
  },
  "name_kroner": {
-  "voiceId": "mag_522",
-  "voiceName": "Malgorn the Hollow"
+  "voiceId": "mag_585",
+  "voiceName": "Brad Spinner"
  },
  "name_kiezgatekeeper": {
   "voiceId": "mag_286",
@@ -966,5 +966,9 @@
  "name_vanguardmercenary": {
   "voiceId": "mag_38",
   "voiceName": "Cole Anderson"
+ },
+ "bark:Goon Boss": {
+  "voiceId": "mag_179",
+  "voiceName": "Grace O'Neil"
  }
 }

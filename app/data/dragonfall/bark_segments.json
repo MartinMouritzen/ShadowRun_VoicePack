@@ -1,7 +1,7 @@
 {
  "_fingerprint": {
-  "barks.json": "d2d763747e793216",
-  "text_edits.json": "e9403eeb9ebc4485"
+  "barks.json": "905ee5b5329fb94e",
+  "text_edits.json": "cf7852461f36de9a"
  },
  "beats": {
   "bark_9487139c4f5a251d": [
@@ -126,21 +126,10 @@
    "You continue through dimly lit halls, finally stepping into what appears to be another laboratory area. The corridor before you is deserted.",
    "Dr. Adrian Vauclair is somewhere within this facility… and with him, the answers you seek."
   ],
-  "bark_612321ee397959e6": [
-   "You squeeze through the narrow gap beneath the floor panels and climb down into a large space beneath the lab complex. Darkness surrounds you, and the air smells moldy and stale.",
-   "As your eyes slowly adjust to the light, you can make out the dim planes of cobweb-covered walls and scattered construction equipment. Judging by the dust and disrepair, this place appears to have been abandoned long ago.",
-   "Meanwhile, somewhere else beneath the Harfeld Manor, Paul Amsel's killer is preparing to wake a dragon and unleash it on an unsuspecting Berlin."
-  ],
   "bark_5303195008f32247": [
    "You exit the clean-room to find yourself at the threshold of a vast underground chamber. If the abandoned facility that you just fought through was purgatory, then you now stand at the gateway to hell. The heat emanating from ahead hits you like a hammer - the smell of sulphur and ozone is enough to make your lunch want to find somewhere to hide.",
    "Above the noise created by the whir of turbines, you can hear the deep rumble of something feral waking up. Something very, very big.",
    "You check your weapons and step into the vast chamber."
-  ],
-  "bark_321cdf2d4fe542da": [
-   "Kreuzberg. Home to nearly a half a million people and, until very recently, Monika Schäfer. Once a melting pot of cultural diversity, it's now a chaotic mess of wealth and poverty, crime and commerce, anarchy and control. It's also home to your own little slice of Berlin, a neighborhood that locals call \"the Kreuzbasar\" - a safe port in the eye of a storm.",
-   "The ride back to the Kreuzbasar is quiet. No one is in a talking mood. As the van veers past potholes and garbage piles, the glare of streetlights and neon signs plays across your window, painting the world in a kaleidoscope of garish colors.",
-   "Soon, the van rounds a corner and skids to a halt in a narrow, crumbling alley. This is as far as Berlin's chaotic streets will take you. Your team wordlessly debarks the vehicle and climbs down into a disused section of the U-Bahn tunnel system - a well-kept secret, providing your team safe passage into the Kreuzbasar.",
-   "Your safehouse waits on the other side."
   ],
   "bark_639e49e7e966e266": [
    "The tiny credstick feels heavy in your pocket, fat with the weight of hard-won nuyen. The U-bahn station swallows you up and sends you hurtling down the rabbit hole. Towards Alice. Towards the information you’ve bled for.",
@@ -282,6 +271,119 @@
    "The largest of these monstrosities hang impossibly in the sky above the ruins of the world's great cities, casting shadows that stretch miles across. These godlike leviathans gorge themselves on the residual misery of the long dead. Slowly but surely, they pick the carcass of mankind's reign clean.",
    "Hope is a thing of the past. Metahumanity has reached its end.",
    "But the scourge that has replaced it has just begun."
+  ],
+  "bark_ad7408620c5ef45d": [
+   "You squeeze through the narrow gap beneath the floor panels and climb down into a large space beneath the lab complex. Darkness surrounds you, and the air smells moldy and stale.",
+   "As your eyes slowly adjust to the light, you can make out the dim planes of cobweb-covered walls and scattered construction equipment. Judging by the dust and disrepair, this place appears to have been abandoned long ago.",
+   "Meanwhile, somewhere else beneath the Harfeld Manor, Paul Amsel's killer is preparing to wake a dragon and unleash it on an unsuspecting Berlin."
+  ],
+  "bark_38d2ce4320efae7b": [
+   "Your team makes its way back to the nearest U-Bahn station. Twenty minutes later, you're on a return trip to the Kreuzbasar, leaving the filth of Drogenkippe far behind. But the image of Green Winters' twisted corpse continues to linger in your mind.",
+   "You lift one of the discs that you pulled from Winters' safe to the light. Reflections dance off of its surface.",
+   "With luck, you'll soon have the answers that you've been looking for."
+  ],
+  "bark_bae08dde3f78fb61": [
+   "Kreuzberg. Home to nearly a half a million people and, until very recently, Monika Schäfer. Once a melting pot of cultural diversity, it's now a chaotic mess of wealth and poverty, crime and commerce, anarchy and control. It's also home to your own little slice of Berlin, a neighborhood that locals call \"the Kreuzbasar\" - a safe port in the eye of a storm.",
+   "The ride back to the Kreuzbasar is quiet. No one is in a talking mood. As the van veers past potholes and garbage piles, the glare of streetlights and neon signs plays across your window, painting the world in a kaleidoscope of garish colors.",
+   "Soon, the van rounds a corner and skids to a halt in a narrow, crumbling alley. This is as far as Berlin's chaotic streets will take you. Your team wordlessly debarks the vehicle and climbs down into a disused section of the U-Bahn tunnel system - a well-kept secret, providing your team safe passage into the Kreuzbasar.",
+   "Your safehouse waits on the other side."
+  ],
+  "bark_7966df07918e1fdc": [
+   "The U-Bahn trip back from the Adenauerplatz is a shaky one. Surprisingly, the train is packed - the only empty seats are at the very back of the car.",
+   "A haggard-looking young mother marches down the aisle, dragging her three screaming children behind her. Two boys and a girl, each around six years old. As the woman nears you, her eyes fix on the frozen pouches of bio-engineered meat that you liberated from Sutterlin's executive freezer.",
+   "She opens her mouth to say something, but at that moment, the little girl jams a finger into her brother's nose. The boy howls, and the young mother's shoulders slump. Slowly, robotically, she turns back toward her destination and begins to trundle forward, dragging her squalling offspring forward with the solemnity of a funeral procession.",
+   "Eventually, the train hums to a stop. You debark gratefully, lugging a freezer's worth of bioware samples behind you."
+  ],
+  "bark_a8e34bda6d37e465": [
+   "The U-Bahn feels especially cramped on your ride back to the Kreuzbasar. In your mind’s eye, you can still see the carnage that you left behind at the AG Chemie building. Memories replay themselves over and over in your mind - fleeting visions of a hulking thing made of muscle and chrome.",
+   "You put them aside. Shelve them for later. The job is over; it’s time to collect your pay."
+  ],
+  "bark_b14069046a97d3c2": [
+   "Memories of the explosion that toppled the Aztechnology facility keep you company on your ride back to the Kreuzbasar. You barely managed to outrun the blast. Now the facility lies buried under thousands of kilograms of twisted rebar and reinforced concrete, no doubt a considerable blow to Aztechnology’s activities here in Berlin.",
+   "Mission successful. It’s time to get paid."
+  ],
+  "bark_462c1c3a783ba1ab": [
+   "The U-Bahn ride home is smooth and uneventful. The high-ups at OTK International must be scrambling to try and recover their losses. It’s only a matter of time before they make the call and Amsel’s compromised data is uploaded to Knight Errant’s commlinks.",
+   "You’re going to be rolling into Aztechnology with one hell of an advantage. Not bad for a night’s work..."
+  ],
+  "bark_12774bb6023d8f94": [
+   "The U-Bahn ride home feels especially comforting today. The Berlin chapter of the Humanis Policlub has suffered a terrible blow, and you’re the one who dealt it. Volker Stahl’s plan to incite a wave of bloody violence across Berlin has been derailed.",
+   "It isn’t often that a shadowrunner gets to prevent an atrocity on the job."
+  ],
+  "bark_81332f55b8f006fd": [
+   "The rest of the trip home is uneventful, but one thing is clear: Someone is hunting you. This ambush was no chance gang warfare, but an organized attempt on your life. If Green Winters was right, then whoever killed him is now after you.",
+   "The PDA that you retrieved from your attackers may hold some answers. It’s time to return to your safehouse and consult Paul Amsel."
+  ],
+  "bark_6d55162b31f563d1": [
+   "Your return trip to the Kreuzbasar is a quiet one - the train from the Frankfurter Tor is empty, save for you. There’s nothing to distract you from your thoughts.",
+   "You’re finished with the first part of your “audition.” Luca Duerr is waiting at Cafe Cezve to administer the second."
+  ],
+  "bark_0f1f3f63e4ee2e23": [
+   "Your return trip to the Kreuzbasar is a lonely one.",
+   "You spend the ride in quiet contemplation. The bugs that you were meant to plant in Aleshire's penthouse rattle in your pocket; a cheerful sound, and an intangible reminder of your decision to scrub the run.",
+   "Your audition is over. The Lodge - whoever they are - are going to have to find themselves another shadowrunner."
+  ],
+  "bark_05c32f055b5d7901": [
+   "Your trip back to the Kreuzbasar is an unsettling one. Every time you close your eyes, horrible visions flash through your mind. Bodies torn apart and by surgical machines. Mouths frozen open in neverending screams. Walls coated floor-to-ceiling in congealing blood. And through it all, the smiling face of Thorvald Enstad.",
+   "You blink. Banish the visions. They’re behind you now. You’re on your way home."
+  ],
+  "bark_885d7302a06ca3f3": [
+   "The fresh-air of the Kreuzbasar is a welcome relief after your time in the sewers. A cool breeze drifts across the street, carrying with it the smells of food being prepared, cheap alcohol being poured, and fires being lit against the cold.",
+   "The stench of the sewers, however, still lingers in your nose, a bad olfactory aftertaste. At least the pumps are working again - sewage overflowing into the streets would certainly smell far worse."
+  ],
+  "bark_54642d75526a808a": [
+   "You emerge from the U-Bahn station and out onto the familiar streets of the Kreuzbasar. The energy here is a stark contrast to the weary, slowly-drowning mood of Gesundbrunnen. The Kreuzberg is an island of hope, afloat still amidst the dangerous currents of the Flux State. But it wouldn’t take much for it to capsize.",
+   "It’s time to find Gunari and tell him the news."
+  ],
+  "bark_884db3bc5928698a": [
+   "Your trip back to the Kreuzbasar is a restless one. Now that APEX has been dealt with, the window of opportunity that you’ve been waiting for has opened. The Harfeld Manor is vulnerable.",
+   "The video feed that the AI showed you circles over and over in your head. Vauclair, and Audran, and the strange woman in the containment device. The revelation that Vauclair runs the Harfeld estate. And his assertion that… *something*... was set to happen tonight.",
+   "The train glides to a stop. You push through the doors and onto the platform. There’s no time to waste."
+  ],
+  "bark_58a6883d170ffce0": [
+   "You step out of the van, climbing down into the tunnel leading back to your safehouse.",
+   "Just hours ago, you saved Berlin from fire and ash, from the would-be sacrifice of Dr. Adrian Vauclair. It feels strange now, returning in secret. In silence. The other residents of the Kreuzbasar go about their business, unaware of what almost happened here tonight.",
+   "It’s finally over. Your team, and your kiez, are safe once again."
+  ],
+  "bark_d90f02c116da4356": [
+   "You emerge from the foulness of the sewers only to be met with the equally dark stench of cordite and death. Although you’ve saved the kiez, it is far from unharmed. Residents wander the streets dazed, holding their wounds, tending to others, observing the damage. The look in their eyes tells the story - their illusion of safety has been shattered.",
+   "You enter Paul Amsel’s trade emporium already knowing what you’ll find there. The knowledge doesn’t make the discovery any easier."
+  ],
+  "bark_a69cdb188e610055": [
+   "The ride back to the Kreuzbasar is a lonely one. This train car smells a little better than the one you rode in on; it isn't great, but at least it doesn't leave you gagging. Still, things are looking up. You've helped Blitz pull himself out of hot water, and with any luck at all, you'll never have to set foot in Drogenkippe again.",
+   "After a long, boring trip, the car rattles to a stop. The doors slide open. You're home."
+  ],
+  "bark_5b31df97876aff14": [
+   "The U-Bahn whisks you back toward the Kreuzbasar, Eiger standing by your side. The image of the Engineer's body disintegrating in flame replays itself over and over in your mind; the bright flash, the shower of sparks, the overpowering stench of sizzling meat. A blue-green afterimage hangs suspended in the center of your field of vision, and it refuses to be blinked away.",
+   "From what Eiger told you, the Engineer was a menace. An international criminal at the top of his game. And as you watched, he was consumed from within by a device that marked him as disposable.",
+   "The rattle of your U-Bahn car coming to a halt shakes you from your reverie. You're home."
+  ],
+  "bark_f746880bf9d37d13": [
+   "The Kreuzbasar. Insulated from the rest of Berlin, an island of hope in a swamp of crime, chaos and misery. Your home, and the former home of Monika Schäfer.",
+   "Its uneven streets and familiar faces are a welcome sight."
+  ],
+  "bark_12e6fc43d8b62cd0": [
+   "You thread your way through the trees of the Schönbuch Forest, tracing your way back to the thicket where you and Glory hid the van. The inferno that consumed Feuerstelle is spreading, and the conflagration casts the forest around you in a sinister orange light.",
+   "The heat at your back is intense. Unbearable. Far ahead, Glory blazes a trail for you to follow, shredding the foliage in her path.",
+   "The fire is moving fast, but you're faster. You clamber into the van, put the vehicle in gear, and punch the accelerator. The burning ruin of Feuerstelle recedes into the distance, a glowing speck in the rear-view mirror. The peace and safety of the Kreuzbasar lie ahead."
+  ],
+  "bark_0670c3c5b5ef1260": [
+   "You thread your way through the trees of the Schönbuch Forest, tracing your way back to the thicket where you and Glory hid the van. The inferno that consumed Feuerstelle is spreading, and the conflagration casts the forest around you in a sinister orange light.",
+   "The heat at your back is intense. Unbearable. Far ahead, Glory blazes a trail for you to follow, shredding the foliage in her path. Marta shepherds the shellshocked initiates along behind you, doing what she can to keep them calm and moving.",
+   "The fire is moving fast, but you're faster. As Marta helps the last of the kids into the van, you put the vehicle in gear and punch the accelerator. The burning ruin of Feuerstelle recedes into the distance, a glowing speck in the rear-view mirror. The peace and safety of the Kreuzbasar lie ahead."
+  ],
+  "bark_ecc2e9a1f26fd243": [
+   "You thread your way through the trees of the Schönbuch Forest, tracing your way back to the thicket where you and Glory hid the van. The inferno that consumed Feuerstelle is spreading, and the conflagration casts the forest around you in a sinister orange light.",
+   "The heat at your back is intense. Unbearable. Far ahead, Glory blazes a trail for you to follow, shredding the foliage in her path. The liberated initiates teeter on the edge of panic as they struggle to keep pace behind you.",
+   "The fire is moving fast, but you're faster. As Glory helps the last of the kids into the van, you put the vehicle in gear and punch the accelerator. The burning ruin of Feuerstelle recedes into the distance, a glowing speck in the rear-view mirror. The peace and safety of the Kreuzbasar lie ahead."
+  ],
+  "bark_336589935462c94f": [
+   "As you lead your team through the shadows, your companions will continue to develop and learn new combat skills. Clicking the icon in the lower right-hand corner of the screen will open the Crew Advancement menu. When this icon is highlighted, one or more of your companions is eligible to learn a new combat skill.",
+   "At each advancement level, you may choose one of two possible combat skills for each of your runners. Choose wisely."
+  ],
+  "bark_a0a4d49d0f0683b2": [
+   "In addition to your team, your fixer has access to a small network of mercenaries in the Berlin area. These runners appear below your core team on the runner selection screen and can be hired on a mission-to-mission basis.",
+   "As you complete missions, both your team members and the available mercenaries will periodically gain access to new equipment and abilities. Any new items, spells, weapons, or weapon abilities that a runner gains will automatically be available for use the next time you take them on a mission."
   ]
  },
  "aliases": {
@@ -349,6 +451,8 @@
   "bark_c966f47604f877b9~g2": "bark_466efaa0639f2cdc~g2",
   "bark_c966f47604f877b9~g3": "bark_466efaa0639f2cdc~g3",
   "bark_c966f47604f877b9~g4": "bark_466efaa0639f2cdc~g4",
-  "bark_c966f47604f877b9~g5": "bark_466efaa0639f2cdc~g5"
+  "bark_c966f47604f877b9~g5": "bark_466efaa0639f2cdc~g5",
+  "bark_0670c3c5b5ef1260~g0": "bark_12e6fc43d8b62cd0~g0",
+  "bark_ecc2e9a1f26fd243~g0": "bark_12e6fc43d8b62cd0~g0"
  }
 }

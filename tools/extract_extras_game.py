@@ -142,6 +142,35 @@ BARK_KINDS = {
     "Display Text over Prop": "prop",
     "Display Text In Popup": "popup",
 }
+
+# WHICH string parameter is the words. A scene action's parameters are positional field-2 blocks,
+# and "the text" is not in the same slot for every action, so this cannot be one rule for all:
+#
+#   Display Text over Actor/Point/Prop   the target comes first, the words come after  -> LAST
+#   Display Text In Popup                (body, popupType, title)                      -> FIRST
+#
+# Taking the last string for a popup takes its TITLE. That is exactly what happened: Dragonfall's
+# "Crew Advancement Available" and "Hired Runners" were extracted, cast and VOICED as if they were
+# the narration, while the paragraphs the popup actually shows were never extracted at all. At
+# runtime the plugin hashes the first long string argument, i.e. the body, so the title clips could
+# never fire and the popup was silent (reported 2026-08-12). FIRST matches the plugin.
+POPUP_FIRST = {"popup"}
+
+def pick_text(strings, kind):
+    """The spoken words among an action's string parameters, plus the ones that are NOT words."""
+    if not strings: return None, []
+    i = 0 if kind in POPUP_FIRST else len(strings) - 1
+    return strings[i], [s for j, s in enumerate(strings) if j != i]
+
+# Default speaker per action kind, when no target actor resolves. "at Screen Position" is
+# narrator-style scene description; a popup is UI instruction text, which Dragonfall already casts
+# as Tutorial (the same part that reads the help screens) - defaulting it to Unknown is how the one
+# popup body that DID get extracted ended up needing hand attribution.
+FALLBACK_SPEAKER = {"screen": "Narrator", "popup": "Tutorial"}
+
+# md5 -> the header string, for every non-body popup parameter seen. Used at merge time to retire
+# title entries an earlier run of this script created and voiced.
+popup_titles = {}
 barks = {}
 for sf in scene_files():
     data = open(sf, 'rb').read()
@@ -164,16 +193,20 @@ for sf in scene_files():
                             except Exception: pass
                             collect(v, d + 1)
                 collect(act)
+                strs = []
                 for cont in subs(act, 2):
                     for f, wt, v in fields(cont):
                         if f == 4 and wt == 2:
                             try: t = v.decode('utf-8').strip()
                             except Exception: continue
-                            if len(t) >= 3 and not re.fullmatch(r'[0-9a-f]{16,32}', t): text = t
+                            if len(t) >= 3 and not re.fullmatch(r'[0-9a-f]{16,32}', t): strs.append(t)
+                text, others = pick_text(strs, kind)
                 if not text: continue
+                if kind == "popup":
+                    for o in others: popup_titles[md5_16(o)] = o
                 key = "bark_" + md5_16(text)
                 a = actors.get(ids[0] if ids else "", {})
-                fallback = "Narrator" if kind == "screen" else "Unknown"
+                fallback = FALLBACK_SPEAKER.get(kind, "Unknown")
                 e = barks.get(key)
                 if e: e["count"] += 1
                 else:
@@ -205,14 +238,17 @@ def walk_convo_barks(m, out, d=0):
         if wt != 2 or len(v) < 2: continue
         if BARK_KINDS.get(f1(v) or ""):
             kind = BARK_KINDS[f1(v)]
-            text = None; ids = []
+            strs = []; ids = []
             collect_hexids(v, ids)
             for cont in subs(v, 2):
                 for cf, cwt, cv in fields(cont):
                     if cf == 4 and cwt == 2:
                         try: t = cv.decode('utf-8').strip()
                         except Exception: continue
-                        if len(t) >= 3 and not re.fullmatch(r'[0-9a-f]{16,32}', t): text = t
+                        if len(t) >= 3 and not re.fullmatch(r'[0-9a-f]{16,32}', t): strs.append(t)
+            text, others = pick_text(strs, kind)          # same slot rule as the scene walk above
+            if kind == "popup":
+                for o in others: popup_titles[md5_16(o)] = o
             if text and not CONVO_BARK_JUNK.match(text):
                 out.append((kind, text, ids[0] if ids else None))
         walk_convo_barks(v, out, d + 1)
@@ -225,7 +261,7 @@ convo_new = 0
 for kind, text, aid in convo_found:
     key = "bark_" + md5_16(text)
     a = actors.get(aid or "", {})
-    fallback = "Narrator" if kind == "screen" else "Unknown"
+    fallback = FALLBACK_SPEAKER.get(kind, "Unknown")
     e = barks.get(key)
     if e:
         e["count"] += 1
@@ -258,15 +294,46 @@ for sc, names in scene_roster.items():
 
 os.makedirs(OUT, exist_ok=True)
 added_b = added_i = 0
+
+def retire_popup_titles(existing):
+    """Drop bark entries an earlier run created out of a popup's TITLE parameter.
+
+    Identified positively, not by shape: the key must be the md5 of a string this run saw in a
+    non-body popup slot, AND the entry's text must still be that string. A header cannot be voiced
+    by the plugin (it hashes the body), so such an entry is a clip that can never play; leaving it
+    in ships dead audio and shows a phantom line in the lab. Reported so the take records can be
+    dropped too (tools/rekey_barks.py).
+    """
+    gone = []
+    for md5, title in popup_titles.items():
+        k = "bark_" + md5
+        e = existing.get(k)
+        if e is not None and (e.get("text") or "").strip() == title:
+            del existing[k]
+            gone.append(k)
+            print(f"  RETIRE {k}: popup TITLE, not narration ({title[:50]!r})")
+    return gone
+
 if MERGE:
     # Existing entries win wholesale (hand-edited speakers/attribution); we only append new keys.
-    def merge_into(path, fresh):
+    def merge_into(path, fresh, retire=None):
         old = json.load(open(path)) if os.path.exists(path) else {}
+        dropped = retire(old) if retire else []
         new_keys = [k for k in fresh if k not in old]
         for k in new_keys: old[k] = fresh[k]
         json.dump(old, open(path, "w"), ensure_ascii=False, indent=1)
+        if dropped:
+            mp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "gen", "bark_rekey.json")
+            os.makedirs(os.path.dirname(mp), exist_ok=True)
+            doc = json.load(open(mp)) if os.path.exists(mp) else {}
+            game = os.path.basename(os.path.normpath(OUT))
+            slot = doc.setdefault(game, {})
+            slot["dropped"] = sorted(set((slot.get("dropped") or []) + dropped))
+            json.dump(doc, open(mp, "w"), ensure_ascii=False, indent=1)
+            print(f"  {len(dropped)} retired -> tools/gen/bark_rekey.json "
+                  f"(run tools/rekey_barks.py {game})")
         return len(new_keys)
-    added_b = merge_into(os.path.join(OUT, "barks.json"), barks)
+    added_b = merge_into(os.path.join(OUT, "barks.json"), barks, retire_popup_titles)
     added_i = merge_into(os.path.join(OUT, "inspect.json"), inspects)
     print(f"merge: +{added_b} new barks, +{added_i} new inspects (existing entries untouched)")
 else:
