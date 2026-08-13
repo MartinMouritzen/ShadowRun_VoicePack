@@ -64,8 +64,17 @@ namespace SRRVoices
         // .IndexChanged). Stat'ing one file every couple of seconds is free next to a frame.
         float nextPackCheck = 0f;
 
+        // The one hard boundary for barks. A bark belongs to an actor standing on a map; when the
+        // map goes, so does he. Everything else (conversation end, popup close, a node with no VO)
+        // only stops the main channel now — see StopVoice. Initialised on the first frame so the
+        // plugin loading does not count as a scene change.
+        int lastLevel = -1;
+
         void Update()
         {
+            int lvl = Application.loadedLevel;
+            if (lastLevel < 0) lastLevel = lvl;
+            else if (lvl != lastLevel) { lastLevel = lvl; StopBarks(); }
             // Stretched clips that were flushed while still audible get destroyed here once
             // their source lets go of them (see FlushStretched).
             if (deferredDestroy.Count > 0) SweepDeferred();
@@ -147,10 +156,28 @@ namespace SRRVoices
                     }
         }
 
-        public void StopAll()
+        // Stop whatever is on the MAIN channel (dialogue / narration / inspect), leaving the bark
+        // channel alone. This is what every "the thing I was voicing is over" hook wants: a
+        // conversation ending, a node with no VO, a popup or loadscreen closing. None of those are
+        // reasons to silence an actor shouting somewhere on the map.
+        //
+        // Killing barks here was a real bug, not a theoretical one. Petting Dante in the Haven runs
+        // the Global_PetDog trigger, which draws "Woof!" over him AND closes his conversation in the
+        // same beat. PlayBark starts a coroutine that must stream and decode the OGG before it can
+        // call Play(), so the clip is never audible in the frame it was requested — and
+        // EndConversation's StopAll bumped barkGen a frame later, cancelling it every single time.
+        // The bark was voiced, found, and dispatched (the log says so), and never made a sound.
+        public void StopVoice()
         {
             playToken++;
             if (src != null) src.Stop();
+        }
+
+        // Hard boundary: main channel AND barks. Scene change only — the actors that were shouting
+        // are gone with the map. See Update()'s level watch.
+        public void StopAll()
+        {
+            StopVoice();
             StopBarks();
         }
 
@@ -164,7 +191,7 @@ namespace SRRVoices
             // conversation auto-opens; stopping barks on every dialogue line cut them off a frame
             // after they fired, before they were ever audible. Barks live on their own overlapping
             // channel and are short (<=2s), so letting them play out under the opening line is fine.
-            // They are still cleared at hard boundaries by StopAll() (conversation end / no-VO node).
+            // They are only cleared on a scene change now (Update's level watch).
             StartCoroutine(PlaySeq(relPaths, myToken));
         }
 
@@ -196,8 +223,8 @@ namespace SRRVoices
         // Barks play on their own small pool of AudioSources so a new bark never truncates one
         // already playing: two actors shouting at once overlap, the same way their text bubbles
         // do on screen. Barks never preempt the main channel either. Per-line dialogue/inspect
-        // playback (PlaySequence) does NOT silence barks any more; they are only cleared at hard
-        // boundaries via StopBarks() inside StopAll() (conversation end / no-VO node / scene stop).
+        // playback (PlaySequence) does NOT silence barks, and neither does a conversation ending or
+        // a popup closing; the one thing that clears them is a scene change (Update's level watch).
         AudioSource[] barkSrcs;
         bool[] barkBusy;
         string[] barkRel;     // first clip of the bark each slot is voicing (echo suppression)
@@ -310,6 +337,11 @@ namespace SRRVoices
 
         IEnumerator PlayBarkSeq(int slot, string[] relPaths, int myGen)
         {
+            // A bark can never be audible in the frame it was requested: the clip has to be streamed
+            // and decoded first. So "cancelled before it played" is the failure mode to watch for -
+            // it means something bumped barkGen in that window and the bark was silent despite being
+            // found and dispatched. That is exactly how the Haven "Woof!" went missing.
+            bool played = false;
             try
             {
                 AudioSource s = barkSrcs[slot];
@@ -335,6 +367,7 @@ namespace SRRVoices
                     s.clip = toPlay;
                     s.pitch = Speed() / factor;
                     s.Play();
+                    played = true;
                     while (myGen == barkGen && s != null && s.isPlaying)
                         yield return null;
                     if (myGen != barkGen) yield break;
@@ -351,6 +384,9 @@ namespace SRRVoices
             finally
             {
                 barkBusy[slot] = false;
+                if (!played && myGen != barkGen && Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value
+                    && Plugin.Log != null)
+                    Plugin.Log.LogInfo("bark cancelled before it played: " + relPaths[0]);
             }
         }
 

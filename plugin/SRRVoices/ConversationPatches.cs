@@ -20,7 +20,7 @@ namespace SRRVoices
             if (Plugin.Pack == null || Plugin.Player == null || node == null) return;
 
             // Phantom/sentinel nodes (index < 0) fire immediately AFTER the first real node when a
-            // conversation opens. Their "no VO" branch would call StopAll() and cut off the first
+            // conversation opens. Their "no VO" branch would call StopVoice() and cut off the first
             // node's audio a frame after it started (which is exactly why the opening line was silent
             // on first display but played on navigate-back). Ignore them entirely.
             if (node.index < 0) return;
@@ -44,7 +44,7 @@ namespace SRRVoices
             {
                 if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value)
                     Plugin.Log.LogInfo("no VO " + key);
-                Plugin.Player.StopAll();
+                Plugin.Player.StopVoice();
             }
         }
     }
@@ -54,7 +54,10 @@ namespace SRRVoices
     {
         static void Postfix()
         {
-            if (Plugin.Player != null) Plugin.Player.StopAll();
+            // StopVoice, not StopAll: a bark can fire from the same click that closes the
+            // conversation (the Haven pet-the-dog trigger draws "Woof!" and ends the convo together),
+            // and it is still streaming its clip when we get here. StopAll cancelled it every time.
+            if (Plugin.Player != null) Plugin.Player.StopVoice();
             Patch_StartConversation.LastConvo = null;
         }
     }
