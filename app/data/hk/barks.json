@@ -1211,7 +1211,7 @@
  },
  "bark_e8bb8fd6dc6f10a2": {
   "text": "Ancient Vase: ¥$(scene.Museum_Value_VaseA)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1222,7 +1222,7 @@
  },
  "bark_ed87f5b2cdd9937d": {
   "text": "Neanderthal Skeleton: ¥$(scene.Museum_Value_BonesA)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1233,7 +1233,7 @@
  },
  "bark_140c9d7159f75037": {
   "text": "Valuable Urn: ¥$(scene.Museum_Value_VaseB)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1244,7 +1244,7 @@
  },
  "bark_553a6cbf26d3a6fa": {
   "text": "Royal Flowerpot: ¥$(scene.Museum_Value_VaseC)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1255,7 +1255,7 @@
  },
  "bark_0a4f5efc6253515a": {
   "text": "King's Ashes: ¥$(scene.Museum_Value_VaseD)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1266,7 +1266,7 @@
  },
  "bark_11dd697b460da6cf": {
   "text": "Replica Royal Vase: ¥$(scene.Museum_Value_VaseE)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1277,7 +1277,7 @@
  },
  "bark_7a3ca71f0c22566a": {
   "text": "Authentic Utahraptor Skull: ¥$(scene.Museum_Value_BonesB)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1288,7 +1288,7 @@
  },
  "bark_37d1fc421cf716e1": {
   "text": "Plesiosaur Jawbone: ¥$(scene.Museum_Value_BonesC)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1299,7 +1299,7 @@
  },
  "bark_ea979502506ff10b": {
   "text": "Dragon Scales: ¥$(scene.Museum_Value_Scales)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1310,7 +1310,7 @@
  },
  "bark_184fc86199d040b8": {
   "text": "Mummified Head: ¥$(scene.Museum_Value_Head)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1321,7 +1321,7 @@
  },
  "bark_1494e9f59a3377b1": {
   "text": "Replica Utahraptor Skull: ¥$(scene.Museum_Value_Skull)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1332,7 +1332,7 @@
  },
  "bark_adcc61e12739a401": {
   "text": "Imbued Pottery: ¥$(scene.Museum_Value_MagicUrn)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",
@@ -1343,7 +1343,7 @@
  },
  "bark_08cc5aed3bbfc96a": {
   "text": "Mystic's Staff: ¥$(scene.Museum_Value_MagicStaff)",
-  "speaker": "Unknown",
+  "speaker": "Narrator",
   "sheetId": null,
   "archetype": null,
   "gender": "?",

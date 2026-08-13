@@ -110,6 +110,11 @@ def bark_jobs(speaker_query):
         keys = [f"{key}~g{i}" for i in range(len(beats[key]))] if key in beats else [key]
         texts = beats.get(key) or [b.get("text") or ""]
         for sk, raw in zip(keys, texts):
+            # --keys was only ever applied to the cast walk, so a bark run silently ignored it and
+            # queued EVERY unvoiced bark of that speaker. Asking for 13 Hong Kong museum tags would
+            # have bought 220 segments / ~72k credits instead. Honour it here too.
+            if only is not None and sk not in only:
+                continue
             if aliases.get(sk):                      # the same words voiced under another key
                 continue
             text = edits.get(sk) if edits.get(sk) is not None else raw
