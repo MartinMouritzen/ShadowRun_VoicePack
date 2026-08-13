@@ -29,6 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Plugin.cs" />
+    <Compile Include="LightScriptFix.cs" />
     <Compile Include="VoicePack.cs" />
     <Compile Include="VoicePlayer.cs" />
     <Compile Include="ConversationPatches.cs" />
