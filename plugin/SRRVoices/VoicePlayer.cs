@@ -40,7 +40,7 @@ namespace SRRVoices
 
         // Swap in a freshly synced manifest without restarting the game. The swap is a single
         // reference assignment, which is atomic, so a patch reading Plugin.Pack mid-swap gets
-        // either the whole old pack or the whole new one — never a half-built dictionary. The
+        // either the whole old pack or the whole new one, never a half-built dictionary. The
         // decoded-clip cache is left alone on purpose: clips are named by content hash, so a
         // re-picked take is a new name and nothing cached can be wrong, only unused.
         void ReloadPackIfChanged()
@@ -52,7 +52,7 @@ namespace SRRVoices
             Plugin.Pack = next;
             if (Plugin.Log != null)
                 Plugin.Log.LogInfo("Voicepack reloaded: " + next.LineCount + " voiced nodes (was "
-                                   + cur.LineCount + ") — picked up a sync, no restart needed.");
+                                   + cur.LineCount + ") - picked up a sync, no restart needed.");
         }
 
         // Shift+Plus / Shift+Minus: live playback-speed adjustment. Persists via the config entry
@@ -66,7 +66,7 @@ namespace SRRVoices
 
         // The one hard boundary for barks. A bark belongs to an actor standing on a map; when the
         // map goes, so does he. Everything else (conversation end, popup close, a node with no VO)
-        // only stops the main channel now — see StopVoice. Initialised on the first frame so the
+        // only stops the main channel now (see StopVoice). Initialised on the first frame so the
         // plugin loading does not count as a scene change.
         int lastLevel = -1;
 
@@ -164,21 +164,13 @@ namespace SRRVoices
         // Killing barks here was a real bug, not a theoretical one. Petting Dante in the Haven runs
         // the Global_PetDog trigger, which draws "Woof!" over him AND closes his conversation in the
         // same beat. PlayBark starts a coroutine that must stream and decode the OGG before it can
-        // call Play(), so the clip is never audible in the frame it was requested — and
-        // EndConversation's StopAll bumped barkGen a frame later, cancelling it every single time.
+        // call Play(), so the clip is never audible in the frame it was requested, and
+        // EndConversation's old StopAll bumped barkGen a frame later, cancelling it every single time.
         // The bark was voiced, found, and dispatched (the log says so), and never made a sound.
         public void StopVoice()
         {
             playToken++;
             if (src != null) src.Stop();
-        }
-
-        // Hard boundary: main channel AND barks. Scene change only — the actors that were shouting
-        // are gone with the map. See Update()'s level watch.
-        public void StopAll()
-        {
-            StopVoice();
-            StopBarks();
         }
 
         public void PlaySequence(string[] relPaths)
@@ -707,7 +699,7 @@ namespace SRRVoices
             }
             string full = Path.Combine(root, rel);
             string url;
-            try { url = new Uri(full).AbsoluteUri; }        // file:///C:/...%20... — handles spaces
+            try { url = new Uri(full).AbsoluteUri; }        // file:///C:/...%20... handles spaces
             catch (Exception e)
             {
                 if (Plugin.Log != null) Plugin.Log.LogWarning("bad path " + full + ": " + e.Message);
