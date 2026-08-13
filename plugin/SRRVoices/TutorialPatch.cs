@@ -5,6 +5,61 @@ using isogame;
 
 namespace SRRVoices
 {
+    // Closing a popup stops its narration. Without this, dismissing a tutorial left the voice
+    // reading the rest of a paragraph over whatever came next — the text is gone from the screen,
+    // so the audio is talking about nothing.
+    //
+    // Same shape as Patch_LoadScreen's stop-on-close, and the same safety rule: stop ONLY if the
+    // popup's narration is still what the main channel is playing. Plugin.Player bumps its play
+    // token on every new line, so if a conversation or bark started while the popup was open, the
+    // token no longer matches and that audio survives. Closing a popup that never narrated (a save
+    // confirmation) is a no-op for the same reason.
+    //
+    // One hook covers every family: HelpScreenPopup, the character-creation panels and the scene
+    // "Display Text In Popup" action all build a FullscreenPopup, and FullscreenPopup.DestroyPopup()
+    // runs on any button press as well as on ClearAllPopups().
+    //
+    // KNOWN LIMIT, deliberately not engineered around: FullscreenPopup has a queue, and a queued
+    // popup's text is handed to CreateFullscreenPopup when it is CREATED, not when it reaches the
+    // screen — so two narrated popups in flight at once would mean the second one's audio starts
+    // early and closing the first silences it. Checked the shipped data before accepting that: no
+    // trigger branch in any of the three campaigns fires more than one "Display Text In Popup"
+    // (max = 1 in Dragonfall and Hong Kong, 0 in Dead Man's Switch), and the help-screen popups are
+    // player-initiated, so at most one narrated popup is ever in the air. Gating playback on a popup
+    // becoming ACTIVE — the loadscreen continue-gate pattern — is the fix if that ever changes.
+    public static class Patch_PopupClose
+    {
+        // Play token of the narration we started for the popup on screen; -1 = none.
+        internal static int NarrationToken = -1;
+
+        // Called by both play sites: the help-screen path (tut_ keys) and the scene-popup path
+        // (bark_ keys via Patch_FloatingText). Popups carry no Wait, so playback has already
+        // started and this token is exact.
+        internal static void Started()
+        {
+            NarrationToken = (Plugin.Player != null) ? Plugin.Player.CurrentToken() : -1;
+        }
+
+        public static void ClosePostfix()
+        {
+            try
+            {
+                if (Plugin.Player == null || NarrationToken < 0) return;
+                if (Plugin.Player.CurrentToken() == NarrationToken)
+                {
+                    Plugin.Player.StopAll();
+                    if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
+                        Plugin.Log.LogInfo("popup closed — narration stopped.");
+                }
+                NarrationToken = -1;
+            }
+            catch (Exception e)
+            {
+                if (Plugin.Log != null) Plugin.Log.LogWarning("popup close hook: " + e.Message);
+            }
+        }
+    }
+
     // The engine's own HELP SCREEN tutorials ("Spend your Karma", "Etiquette", the character
     // creation panels). These are NOT the scene popups: DisplayTextInPopup is authored per map and
     // is already covered by Patch_FloatingText, while these come from ShowHelpScreenPopup and their
@@ -185,6 +240,7 @@ namespace SRRVoices
                 {
                     if (log) Plugin.Log.LogInfo("play tutorial " + key + " (" + clips.Length + " clips)");
                     Plugin.Player.PlaySequence(clips);
+                    Patch_PopupClose.Started();          // so dismissing the popup silences it
                 }
                 else if (log)
                 {

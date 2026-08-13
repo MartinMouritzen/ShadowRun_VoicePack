@@ -391,9 +391,24 @@ namespace SRRVoices
                     float wait = WaitOf(__args, __originalMethod);
                     if (log) Plugin.Log.LogInfo("play FT[" + __originalMethod.Name + "] " + key + " (" + clips.Length + " clips)"
                                                 + (wait > 0f ? ", after the bubble's " + wait + "s wait" : ""));
+                    // A POPUP is not a bark, even though its text is extracted into barks.json and
+                    // therefore carries a bark_ key. It is modal: nothing else is talking, it can run
+                    // to several paragraphs, and the player can dismiss it mid-sentence. On the bark
+                    // channel it could be dropped outright ("all bark sources busy"), layered under a
+                    // combat shout, and — the reason this exists — could not be stopped when the
+                    // popup closed, because that channel has no per-playback handle. The main channel
+                    // has the play token, so it gets stop-on-close for free.
+                    //
+                    // DisplayTextInPopup carries no Wait (WaitOf runs short of the index and returns
+                    // 0), so this starts now and the token recorded below is exact.
+                    if (__originalMethod.Name == "DisplayTextInPopup")
+                    {
+                        Plugin.Player.PlaySequence(clips);
+                        Patch_PopupClose.Started();
+                    }
                     // Combat barks go to the bark channel: they never truncate an already-playing
                     // bark (simultaneous shouts overlap) and never preempt dialogue/narration.
-                    if (key[0] == 'b') Plugin.Player.PlayBark(clips, wait);
+                    else if (key[0] == 'b') Plugin.Player.PlayBark(clips, wait);
                     else Plugin.Player.PlaySequenceDelayed(clips, wait);
                 }
                 else if (log && text.Length > 12 && text.IndexOf(' ') > 0)

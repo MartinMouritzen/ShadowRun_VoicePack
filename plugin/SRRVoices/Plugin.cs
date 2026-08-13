@@ -139,6 +139,29 @@ namespace SRRVoices
                 Log.LogWarning("Help-screen patch setup failed: " + e.Message);
             }
 
+            // Stop popup narration when the popup is dismissed (isolated: one seam for every popup
+            // family, since HelpScreenPopup, the character-creation panels and the scene
+            // "Display Text In Popup" action all build a FullscreenPopup).
+            try
+            {
+                var fpType = typeof(ConversationManager).Assembly.GetType("FullscreenPopup");
+                var destroyM = (fpType == null) ? null
+                             : HarmonyLib.AccessTools.Method(fpType, "DestroyPopup", null, null);
+                if (destroyM != null)
+                {
+                    harmony.CreateProcessor(destroyM)
+                           .AddPostfix(new HarmonyMethod(typeof(Patch_PopupClose).GetMethod("ClosePostfix")))
+                           .Patch();
+                    Log.LogInfo("Popup close hook installed (FullscreenPopup.DestroyPopup).");
+                }
+                else Log.LogWarning("FullscreenPopup.DestroyPopup not found — popup narration will "
+                                    + "keep playing after the popup is dismissed.");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("Popup close patch failed: " + e.Message);
+            }
+
             // Load-screen narration hook (isolated: SceneLoader may differ in sequels).
             try
             {
