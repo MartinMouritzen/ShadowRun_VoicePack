@@ -13,7 +13,7 @@ Text is derived with lab/spoken.py - the same module the lab and the dedup use -
 generated is exactly what the lab shows. Repeated lines (dupes.json) and officially voiced lines
 are skipped, because the pack gets those from the canonical take and the game's own VO.
 """
-import argparse, json, math, os, queue, random, re, sys, threading, time, urllib.error, urllib.request
+import argparse, hashlib, json, math, os, queue, random, re, sys, threading, time, urllib.error, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))     # ~/dev/voices
@@ -69,6 +69,38 @@ def already_voiced(entry, voice=None):
     if a.recast and voice and voice.get("voiceId"):
         return any(str(t.get("voiceId")) == str(voice["voiceId"]) for t in ts)
     return True
+
+
+def text_hash(text):
+    """The server's hash of the words a take says (lab/server.py text_hash)."""
+    return hashlib.sha1(re.sub(r"\s+", " ", text or "").strip().encode()).hexdigest()[:10]
+
+
+promotions = []
+
+def needs_promoting(charId, key, entry, voice, text):
+    """A recast key that HAS a take in the new voice, but is not playing it.
+
+    already_voiced() calls such a key done, which is right - there is nothing to buy. But the
+    pack ships the KEEPER, so if the keeper is still the replaced voice the recast is inaudible
+    on that line, and nothing reports it: the line looks generated and the run looks complete.
+    That happens whenever the voice was auditioned on a line before the cast was changed, which
+    is the normal way of choosing one. Promote the existing take instead of buying a duplicate,
+    and only when it says the CURRENT words - otherwise selecting it would ship stale audio, and
+    the line is better off being regenerated.
+    """
+    if not a.recast or not voice or not voice.get("voiceId"):
+        return
+    ts = (entry or {}).get("takes") or []
+    sel = (entry or {}).get("selected")
+    cur = next((t for t in ts if t["file"] == sel), None)
+    if cur and str(cur.get("voiceId")) == str(voice["voiceId"]):
+        return
+    want = text_hash(text)
+    match = [t for t in ts
+             if str(t.get("voiceId")) == str(voice["voiceId"]) and t.get("textHash") == want]
+    if match:
+        promotions.append({"charId": charId, "lineKey": key, "file": match[-1]["file"]})
 
 gcfg = json.load(open(os.path.join(ROOT, "games", a.game, "game.json")))
 DATA = os.path.normpath(os.path.join(ROOT, "games", a.game, gcfg.get("dataDir") or "data"))
@@ -297,6 +329,8 @@ for owner in cast:
             if not already_voiced(done.get(sk), voice):
                 jobs.append({"charId": cid, "lineKey": sk, "text": text,
                              "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
+            else:
+                needs_promoting(cid, sk, done.get(sk), voice, text)
             # Template-variable variants: the same segment said once per value the game can
             # substitute (five metatypes, two genders...). Keyed "<segKey>#<variantId>"; the pack
             # ships them alongside the generic take and the plugin falls back to the generic when
@@ -317,8 +351,25 @@ if a.limit:
     jobs = jobs[:a.limit]
 
 est = sum(credits(len(j["text"]), j["voiceId"]) for j in jobs)
-print(f"{len(jobs)} segments, {sum(len(j['text']) for j in jobs):,} chars, ~{est:,} credits")
-if a.dry_run or not jobs:
+print(f"{len(jobs)} segments, {sum(len(j['text']) for j in jobs):,} chars, ~{est:,} credits"
+      + (f", {len(promotions)} already voiced but not selected" if promotions else ""))
+if a.dry_run:
+    for p in promotions:
+        print(f"  would promote {p['charId']} {p['lineKey']} -> {os.path.basename(p['file'])}")
+    sys.exit(0)
+
+# Costs nothing and must happen even when there is nothing to generate: these lines are the ones
+# that look finished and are not.
+for p in promotions:
+    try:
+        req = urllib.request.Request(f"{LAB}/api/take/select",
+                                     data=json.dumps({**p, "game": a.game}).encode(),
+                                     headers={"Content-Type": "application/json"})
+        urllib.request.urlopen(req, timeout=60).read()
+        print(f"  promoted {p['charId']} {p['lineKey']} -> {os.path.basename(p['file'])}")
+    except Exception as e:
+        print(f"  WARN: could not promote {p['lineKey']}: {e}", file=sys.stderr)
+if not jobs:
     sys.exit(0)
 
 q = queue.Queue()
