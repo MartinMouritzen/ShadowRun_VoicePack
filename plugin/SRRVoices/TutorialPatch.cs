@@ -40,6 +40,28 @@ namespace SRRVoices
             NarrationToken = (Plugin.Player != null) ? Plugin.Player.CurrentToken() : -1;
         }
 
+        // Is the main channel currently carrying narration that a popup ON SCREEN started?
+        //
+        // This exists because a popup is modal: while it is up, it is the only thing talking, so
+        // the conversation surface underneath has no business silencing it. The conversation hooks
+        // ask this before cancelling, and it is deliberately narrow — it is true only for the one
+        // playback a popup started and only until something else takes the channel, because
+        // playToken advances on every new line and ClosePostfix clears the token on close.
+        //
+        // The bug it fixes: DisplayTextInPopup fires on the same click that closes the travel
+        // conversation ("Where would you like to travel?" -> the crew screen and its Hired Runners
+        // popup). PlaySequence cannot sound in the frame it is called — the OGG has to stream and
+        // decode first — so EndConversation's StopVoice landed one frame later, bumped the play
+        // token and killed the narration before src.Play() was ever reached. Silently: the log
+        // said "play ... (2 clips)" and the clip made no sound. Exactly the Dante "Woof!" bug that
+        // was fixed for the bark channel, inherited by the popup when it was moved onto the main
+        // channel to get stop-on-close.
+        internal static bool OwnsCurrentNarration()
+        {
+            return NarrationToken >= 0 && Plugin.Player != null
+                   && Plugin.Player.CurrentToken() == NarrationToken;
+        }
+
         public static void ClosePostfix()
         {
             try

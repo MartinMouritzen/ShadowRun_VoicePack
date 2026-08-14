@@ -44,7 +44,11 @@ namespace SRRVoices
             {
                 if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value)
                     Plugin.Log.LogInfo("no VO " + key);
-                Plugin.Player.StopVoice("node has no VO");
+                // A popup on screen outranks the conversation underneath it (see
+                // Patch_PopupClose.OwnsCurrentNarration): silence here means this NODE has no
+                // clip, not that the modal narration should stop.
+                if (!Patch_PopupClose.OwnsCurrentNarration())
+                    Plugin.Player.StopVoice("node has no VO");
             }
         }
     }
@@ -57,7 +61,14 @@ namespace SRRVoices
             // StopVoice, not a full stop: a bark can fire from the same click that closes the
             // conversation (the Haven pet-the-dog trigger draws "Woof!" and ends the convo together),
             // and it is still streaming its clip when we get here. The old StopAll cancelled it every time.
-            if (Plugin.Player != null) Plugin.Player.StopVoice("conversation ended");
+            //
+            // ...and the same click can also OPEN a narrated popup, which lands on the main channel
+            // and is therefore not saved by that. Confirming a mission ends the travel conversation
+            // and raises the Hired Runners popup in one beat; this ran a frame after the popup
+            // dispatched its narration and killed it while the clip was still downloading. So the
+            // popup's own playback is exempt — it is modal, and it stops when the popup closes.
+            if (Plugin.Player != null && !Patch_PopupClose.OwnsCurrentNarration())
+                Plugin.Player.StopVoice("conversation ended");
             Patch_StartConversation.LastConvo = null;
         }
     }
