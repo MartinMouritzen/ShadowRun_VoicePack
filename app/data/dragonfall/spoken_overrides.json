@@ -2756,7 +2756,7 @@
  "527abf9e636134b83400302e_221": {
   "char": "Computer",
   "original": "CURRENT FUNDS: ¥$(story.Global_AliceFunds)\n\nREQUIRED FUNDS: ¥50,000\n",
-  "spoken": "CURRENT FUNDS: displayed on screen. REQUIRED FUNDS: ¥50,000",
+  "spoken": "CURRENT FUNDS: displayed on screen. REQUIRED FUNDS: 50,000 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_225": {
@@ -2768,67 +2768,67 @@
  "527abf9e636134b83400302e_229": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 3,750¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 3,750¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500 nuyen DEDUCTIONS FOR CREW SALARY: -6,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,500 nuyen AUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 3,750 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_237": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 36,000¥\nDEDUCTIONS FOR CREW SALARY: -9,600¥\nAMMUNITION AND RESUPPLY COSTS: -2,400¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -18,000¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 6,000¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 36,000¥ DEDUCTIONS FOR CREW SALARY: -9,600¥ AMMUNITION AND RESUPPLY COSTS: -2,400¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -18,000¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 6,000¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 36,000 nuyen DEDUCTIONS FOR CREW SALARY: -9,600 nuyen AMMUNITION AND RESUPPLY COSTS: -2,400 nuyen AUTOMATIC DEDUCTION FOR ALICE FUNDS: -18,000 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 6,000 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_241": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 2,500¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 2,500¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 15,000 nuyen DEDUCTIONS FOR CREW SALARY: -4,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,000 nuyen AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 2,500 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_244": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 2,500¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 2,500¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 15,000 nuyen DEDUCTIONS FOR CREW SALARY: -4,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,000 nuyen AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 2,500 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_249": {
   "char": "Computer",
   "original": "PAYMENT TRANSFERRED: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 2,500¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT TRANSFERRED: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 2,500¥ Payment transfer complete.",
+  "spoken": "PAYMENT TRANSFERRED: 15,000 nuyen DEDUCTIONS FOR CREW SALARY: -4,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,000 nuyen AUTOMATIC DEDUCTION FOR ALICE FUNDS: -7,500 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 2,500 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_253": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nAUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 3,750¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ AUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 3,750¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500 nuyen DEDUCTIONS FOR CREW SALARY: -6,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,500 nuyen AUTOMATIC DEDUCTION FOR ALICE FUNDS: -11,250 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 3,750 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_257": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 15,000¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 15,000¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500 nuyen DEDUCTIONS FOR CREW SALARY: -6,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,500 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 15,000 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_265": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 36,000¥\nDEDUCTIONS FOR CREW SALARY: -9,600¥\nAMMUNITION AND RESUPPLY COSTS: -2,400¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 24,000¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 36,000¥ DEDUCTIONS FOR CREW SALARY: -9,600¥ AMMUNITION AND RESUPPLY COSTS: -2,400¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 24,000¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 36,000 nuyen DEDUCTIONS FOR CREW SALARY: -9,600 nuyen AMMUNITION AND RESUPPLY COSTS: -2,400 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 24,000 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_269": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 10,000¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 10,000¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 15,000 nuyen DEDUCTIONS FOR CREW SALARY: -4,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,000 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 10,000 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_273": {
   "char": "Computer",
   "original": "PAYMENT TRANSFERRED: 15,000¥\nDEDUCTIONS FOR CREW SALARY: -4,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,000¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 10,000¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT TRANSFERRED: 15,000¥ DEDUCTIONS FOR CREW SALARY: -4,000¥ AMMUNITION AND RESUPPLY COSTS: -1,000¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 10,000¥ Payment transfer complete.",
+  "spoken": "PAYMENT TRANSFERRED: 15,000 nuyen DEDUCTIONS FOR CREW SALARY: -4,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,000 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 10,000 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_277": {
   "char": "Computer",
   "original": "PAYMENT FROM CLIENT: 22,500¥\nDEDUCTIONS FOR CREW SALARY: -6,000¥\nAMMUNITION AND RESUPPLY COSTS: -1,500¥\nREMAINDER SENT TO $++(l.name)'S ACCOUNT: 15,000¥\n\nPayment transfer complete.",
-  "spoken": "PAYMENT FROM CLIENT: 22,500¥ DEDUCTIONS FOR CREW SALARY: -6,000¥ AMMUNITION AND RESUPPLY COSTS: -1,500¥ REMAINDER FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 15,000¥ Payment transfer complete.",
+  "spoken": "PAYMENT FROM CLIENT: 22,500 nuyen DEDUCTIONS FOR CREW SALARY: -6,000 nuyen AMMUNITION AND RESUPPLY COSTS: -1,500 nuyen REMAINDER FUNDS SENT TO YOUR ACCOUNT: 15,000 nuyen Payment transfer complete.",
   "source": "hand"
  },
  "527abf9e636134b83400302e_278": {
@@ -2966,7 +2966,7 @@
  "527abf9e636134b83400302e_311": {
   "char": "Computer",
   "original": "GUEST: ¥15,000. This offer is non-negotiable.\n\nP_AMSEL: Very well. I will pass the offer on to my team.\n\nGUEST: Very good. Good day, Herr Amsel.",
-  "spoken": "¥15,000. This offer is non-negotiable. Very well. I will pass the offer on to my team. Very good. Good day, Herr Amsel.",
+  "spoken": "15,000 nuyen. This offer is non-negotiable. Very well. I will pass the offer on to my team. Very good. Good day, Herr Amsel.",
   "source": "screen-speaker"
  },
  "527abf9e636134b83400302e_314": {
@@ -3002,7 +3002,7 @@
  "527abf9e636134b83400302e_320": {
   "char": "Computer",
   "original": "GUEST: ¥15,000. This offer is non-negotiable.\n\nP_AMSEL: Very well. I will pass the offer on to my team.\n\nGUEST: Very good. Good day, Herr Amsel.",
-  "spoken": "¥15,000. This offer is non-negotiable. Very well. I will pass the offer on to my team. Very good. Good day, Herr Amsel.",
+  "spoken": "15,000 nuyen. This offer is non-negotiable. Very well. I will pass the offer on to my team. Very good. Good day, Herr Amsel.",
   "source": "screen-speaker"
  },
  "527abf9e636134b83400302e_326": {
@@ -3092,13 +3092,13 @@
  "527abf9e636134b83400302e_345": {
   "char": "Computer",
   "original": "GUEST: ¥15,000. This offer is non-negotiable.\n\nP_AMSEL: Very well. I will pass the offer on to my team.\n\nGUEST: Very good. Good day, Herr Amsel.",
-  "spoken": "¥15,000. This offer is non-negotiable. Very well. I will pass the offer on to my team. Very good. Good day, Herr Amsel.",
+  "spoken": "15,000 nuyen. This offer is non-negotiable. Very well. I will pass the offer on to my team. Very good. Good day, Herr Amsel.",
   "source": "screen-speaker"
  },
  "527abf9e636134b83400302e_351": {
   "char": "Computer",
   "original": "CURRENT FUNDS: ¥$(story.Global_AliceFunds)\n\nREQUIRED FUNDS: ¥50,000\n",
-  "spoken": "CURRENT FUNDS: displayed on screen. REQUIRED FUNDS: ¥50,000",
+  "spoken": "CURRENT FUNDS: displayed on screen. REQUIRED FUNDS: 50,000 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_352": {
@@ -3152,49 +3152,49 @@
  "527abf9e636134b83400302e_552": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 1250¥\nESCROW FEE (10%): -125¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 1125¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 1250¥ ESCROW FEE (10%): -125¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 1125¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 1250 nuyen ESCROW FEE (10%): -125 nuyen FUNDS SENT TO YOUR ACCOUNT: 1125 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_553": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 490¥\nESCROW FEE (10%): -49¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 441¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 490¥ ESCROW FEE (10%): -49¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 441¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 490 nuyen ESCROW FEE (10%): -49 nuyen FUNDS SENT TO YOUR ACCOUNT: 441 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_554": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 600¥\nESCROW FEE (10%): -60¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 540¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 600¥ ESCROW FEE (10%): -60¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 540¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 600 nuyen ESCROW FEE (10%): -60 nuyen FUNDS SENT TO YOUR ACCOUNT: 540 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_555": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 550¥\nESCROW FEE (10%): -55¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 495¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 550¥ ESCROW FEE (10%): -55¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 495¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 550 nuyen ESCROW FEE (10%): -55 nuyen FUNDS SENT TO YOUR ACCOUNT: 495 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_556": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 430¥\nESCROW FEE (10%): -43¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 387¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 430¥ ESCROW FEE (10%): -43¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 387¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 430 nuyen ESCROW FEE (10%): -43 nuyen FUNDS SENT TO YOUR ACCOUNT: 387 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_557": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 460¥\nESCROW FEE (10%): -46¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 414¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 460¥ ESCROW FEE (10%): -46¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 414¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 460 nuyen ESCROW FEE (10%): -46 nuyen FUNDS SENT TO YOUR ACCOUNT: 414 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_558": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 300¥\nESCROW FEE (10%): -30¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 270¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 300¥ ESCROW FEE (10%): -30¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 270¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 300 nuyen ESCROW FEE (10%): -30 nuyen FUNDS SENT TO YOUR ACCOUNT: 270 nuyen",
   "source": "hand"
  },
  "527abf9e636134b83400302e_559": {
   "char": "Computer",
   "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 420¥\nESCROW FEE (10%): -42¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 378¥",
-  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 420¥ ESCROW FEE (10%): -42¥ FUNDS SENT TO YOUR ACCOUNT'S ACCOUNT: 378¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 420 nuyen ESCROW FEE (10%): -42 nuyen FUNDS SENT TO YOUR ACCOUNT: 378 nuyen",
   "source": "hand"
  },
  "53b9efb63462385c1b00009a_1": {
@@ -4523,6 +4523,18 @@
   "spoken": "Of course they won't! Do what you must - you've earned it! Farewell, stalwart adventurers. We will remember you always!",
   "source": "hand"
  },
+ "53cd96c1323437c03b00323e_20": {
+  "char": "Philip Rex",
+  "original": "Abandoned?! This is my territory! My *home!*\n\nYou are an invader in my territory, $(scene.badfantasy), and you have *murdered* my peasantry!",
+  "spoken": "Abandoned?! This is my territory! My home! You are an invader in my territory, adventurer, and you have murdered my peasantry!",
+  "source": "hand"
+ },
+ "53cd96c1323437c03b00323e_62": {
+  "char": "Philip Rex",
+  "original": "Well, $(l.name), I am *not* pleased to meet you! You stand as a trespasser in my sovereign territory, and you have *murdered* my citizens!\n\nYou have invaded my home!",
+  "spoken": "Well, I am *not* pleased to meet you! You stand as a trespasser in my sovereign territory, and you have *murdered* my citizens! You have invaded my home!",
+  "source": "rules"
+ },
  "52376ac7303031a81700022b_0": {
   "char": "Luca Duerr",
   "original": "{{GM}}Your commlink crackles with static. A moment later, the sonorous voice of Luca Duerr begins speaking into your ear.{{/GM}}\n\nHello again, $(l.name). I have an opportunity for you.",
@@ -4847,6 +4859,12 @@
   "spoken": "No. There are more important things to do than argue about this. I'm sure that their heart is in the right place.",
   "source": "rules"
  },
+ "523bfbe4346238e41d007f96_114": {
+  "char": "Samuel Beckenbauer",
+  "original": "In any event, our shelter has some basic needs that desperately need to be filled. The walls of the shelter are not insulated, and new blankets would go a long way toward keeping our guests healthy and comfortable. Ideally, we'd like to purchase some space heaters as well.\n\nWith ¥250, we could make the purchase. Of course, I do not expect you - a relative stranger to our kiez - to contribute that much. Whatever you could spare would be most appreciated.",
+  "spoken": "In any event, our shelter has some basic needs that desperately need to be filled. The walls of the shelter are not insulated, and new blankets would go a long way toward keeping our guests healthy and comfortable. Ideally, we'd like to purchase some space heaters as well. With 250, nuyen we could make the purchase. Of course, I do not expect you - a relative stranger to our kiez - to contribute that much. Whatever you could spare would be most appreciated.",
+  "source": "rules"
+ },
  "523bfbe4346238e41d007f96_119": {
   "char": "Samuel Beckenbauer",
   "original": "Yes, she mentioned that you had sent her. \n\nI don't know what you told her, $(l.name), but whatever you said, it worked. Silke's determination is truly inspring.\n\nA cram habit is a difficult thing to beat. But I don't doubt that she will make it.",
@@ -4911,6 +4929,18 @@
   "char": "Altuğ Burakgazi",
   "original": "Ha... you are a funny $(l.man), efendim. Assumptions can be dangerous things.",
   "spoken": "Ha... you are a funny man, efendim. Assumptions can be dangerous things.",
+  "source": "rules"
+ },
+ "523bfc69346238e41d008008_109": {
+  "char": "Altuğ Burakgazi",
+  "original": "I would perhaps value that bottle at ¥400?",
+  "spoken": "I would perhaps value that bottle at 400 nuyen?",
+  "source": "rules"
+ },
+ "523bfc69346238e41d008008_111": {
+  "char": "Altuğ Burakgazi",
+  "original": "Eh, no. Not quite. I receive cases of this for less discerning clientèle. I could offer you maybe ¥10?",
+  "spoken": "Eh, no. Not quite. I receive cases of this for less discerning clientèle. I could offer you maybe 10 nuyen?",
   "source": "rules"
  },
  "523c8e7f346238e41d008a2d_1": {
@@ -6575,6 +6605,18 @@
   "spoken": "Hello... ah, welcome back. What can I do for you?",
   "source": "rules"
  },
+ "53cea3413030316c09001713_4": {
+  "char": "Tech Vendor",
+  "original": "{{GM}}Her face lights up.{{/GM}}\n\nA wonderful device - simply wonderful! And we're doing a special on it right now!\n\nAll yours for only ¥250.",
+  "spoken": "A wonderful device - simply wonderful! And we're doing a special on it right now! All yours for only 250 nuyen.",
+  "source": "rules"
+ },
+ "53cea3413030316c09001713_9": {
+  "char": "Tech Vendor",
+  "original": "We're doing a special right now. Yours for only ¥250.",
+  "spoken": "We're doing a special right now. Yours for only 250 nuyen.",
+  "source": "rules"
+ },
  "53cea3413030316c09001713_16": {
   "char": "Tech Vendor",
   "original": "Thank *you,* $(l.sir)! Have a great day!",
@@ -6989,18 +7031,6 @@
   "spoken": "*DeNeuf, Ingrid* to: Admin I just wanted to thank you for pushing to bring the new hermetic lab online. It's good to know that you're listening to our requests. The research that the hermetic researchers have been doing should make our work with the Panacea much more manageable. -DeNeuf",
   "source": "rules"
  },
- "53cd96c1323437c03b00323e_20": {
-  "char": "Ragged Man",
-  "original": "Abandoned?! This is my territory! My *home!*\n\nYou are an invader in my territory, $(scene.badfantasy), and you have *murdered* my peasantry!",
-  "spoken": "Abandoned?! This is my territory! My home! You are an invader in my territory, adventurer, and you have murdered my peasantry!",
-  "source": "hand"
- },
- "53cd96c1323437c03b00323e_62": {
-  "char": "Ragged Man",
-  "original": "Well, $(l.name), I am *not* pleased to meet you! You stand as a trespasser in my sovereign territory, and you have *murdered* my citizens!\n\nYou have invaded my home!",
-  "spoken": "Well, I am *not* pleased to meet you! You stand as a trespasser in my sovereign territory, and you have *murdered* my citizens! You have invaded my home!",
-  "source": "rules"
- },
  "52840d783030316417001290_0": {
   "char": "Drone Control Box",
   "original": ">>> ERROR: APEX CONTROL ENTITY OFFLINE\n>>>Drone Remote Control System Inactive\n>>>#ERROR 4ac43bc6\n>>>Drone(s) on standby 0\n",
@@ -7400,7 +7430,7 @@
  "527abf9e636134b83400302e_530": {
   "char": "BlueBeerd",
   "original": ">>>>>[Like it says. Good condition, clean. Got the turbocharged kit, addl. armor plating added to the front and sides. Trunk has a mounted Ares Autocannon, but you’ll need a rigger to operate it (no hand access). Looking for ¥80,000 OBO.]<<<<<\n\n- BlueBeerd <15:10:43/11-18-54>",
-  "spoken": "Like it says. Good condition, clean. Got the turbocharged kit, addl. armor plating added to the front and sides. Trunk has a mounted Ares Autocannon, but you’ll need a rigger to operate it (no hand access). Looking for ¥80,000 OBO.",
+  "spoken": "Like it says. Good condition, clean. Got the turbocharged kit, addl. armor plating added to the front and sides. Trunk has a mounted Ares Autocannon, but you’ll need a rigger to operate it (no hand access). Looking for 80,000 nuyen OBO.",
   "source": "screen-speaker"
  },
  "527abf9e636134b83400302e_533": {
@@ -8752,6 +8782,12 @@
   "original": "You place the extra fuse into a socket next to TRACK. The status light next to \"TRACK\" $(scene.str_RedOrGreen).",
   "spoken": "You place the extra fuse into a socket next to TRACK. The status light next to \"TRACK\" changes color.",
   "source": "hand"
+ },
+ "52c60aa13030319017000e62_0": {
+  "char": "Narrator",
+  "original": "You pick up a bloody credstick with ¥2000. More than likely this was the first half of the payment to deliver the goods to Humanis.",
+  "spoken": "You pick up a bloody credstick with 2000 nuyen. More than likely this was the first half of the payment to deliver the goods to Humanis.",
+  "source": "rules"
  },
  "52d44d6f3234379c0a00193c_0": {
   "char": "Narrator",

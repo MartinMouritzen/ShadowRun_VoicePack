@@ -4709,6 +4709,54 @@
   "spoken": "PENDING TRANSACTIONS...",
   "source": "rules"
  },
+ "54dcfec1303031bc0a006c6f_611": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 300¥\nESCROW FEE (10%): -30¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 270¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 300 nuyen ESCROW FEE (10%): -30 nuyen FUNDS SENT TO YOUR ACCOUNT: 270 nuyen",
+  "source": "hand"
+ },
+ "54dcfec1303031bc0a006c6f_612": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 389¥\nESCROW FEE (10%): -39¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 350¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 389 nuyen ESCROW FEE (10%): -39 nuyen FUNDS SENT TO YOUR ACCOUNT: 350 nuyen",
+  "source": "hand"
+ },
+ "54dcfec1303031bc0a006c6f_613": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 480¥\nESCROW FEE (10%): -48¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 432¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 480 nuyen ESCROW FEE (10%): -48 nuyen FUNDS SENT TO YOUR ACCOUNT: 432 nuyen",
+  "source": "hand"
+ },
+ "54dcfec1303031bc0a006c6f_614": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 880¥\nESCROW FEE (10%): -88¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 792¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 880 nuyen ESCROW FEE (10%): -88 nuyen FUNDS SENT TO YOUR ACCOUNT: 792 nuyen",
+  "source": "hand"
+ },
+ "54dcfec1303031bc0a006c6f_615": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 600¥\nESCROW FEE (10%): -60¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 540¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 600 nuyen ESCROW FEE (10%): -60 nuyen FUNDS SENT TO YOUR ACCOUNT: 540 nuyen",
+  "source": "hand"
+ },
+ "54dcfec1303031bc0a006c6f_616": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 167¥\nESCROW FEE (10%): -7¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 150¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 167 nuyen ESCROW FEE (10%): -7 nuyen FUNDS SENT TO YOUR ACCOUNT: 150 nuyen",
+  "source": "hand"
+ },
+ "54dcfec1303031bc0a006c6f_618": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 279¥\nESCROW FEE (10%): -29¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 250¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 279 nuyen ESCROW FEE (10%): -29 nuyen FUNDS SENT TO YOUR ACCOUNT: 250 nuyen",
+  "source": "hand"
+ },
+ "54dcfec1303031bc0a006c6f_619": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 334¥\nESCROW FEE (10%): -34¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 300¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 334 nuyen ESCROW FEE (10%): -34 nuyen FUNDS SENT TO YOUR ACCOUNT: 300 nuyen",
+  "source": "hand"
+ },
  "54ebb78f343061700700140c_5": {
   "char": "Computer",
   "original": "{{GM}}One note on a second floor order stands out.{{/GM}}\n\nFloor: 2, Private Room: 3\nVIP Party of Five\n>>Standard Seafood Buffet: 1\n>>Wine Sampler: 3\n>>Crab Rangoon: 6\n>>Shangri-La Prawns: 2\n>>Surf & Turf: 1 (NOTE: NO PRAWNS. AVOID CROSS CONTAMINATION WITH SHELLFISH. DINER IS ALLERGIC.)",
@@ -4780,6 +4828,12 @@
   "original": ">> ATTACH DATA TO ESCROW ACCOUNT...\n\n>>> DATA WILL BE AUTOMATICALLY SOLD TO THE HIGHEST BIDDER. \n\n> BOTH PARTIES WILL REMAIN ANONYMOUS THROUGHOUT TRANSACTION.",
   "spoken": "ATTACH DATA TO ESCROW ACCOUNT... DATA WILL BE AUTOMATICALLY SOLD TO THE HIGHEST BIDDER. BOTH PARTIES WILL REMAIN ANONYMOUS THROUGHOUT TRANSACTION.",
   "source": "rules"
+ },
+ "5601e315626632941e0014eb_194": {
+  "char": "Computer",
+  "original": ">> DATA SOLD SUCCESSFULLY!\n\nWINNING BID: 1444¥\nESCROW FEE (10%): -144¥\nFUNDS SENT TO $++(l.name)'S ACCOUNT: 1300¥",
+  "spoken": "DATA SOLD SUCCESSFULLY! WINNING BID: 1444 nuyen ESCROW FEE (10%): -144 nuyen FUNDS SENT TO YOUR ACCOUNT: 1300 nuyen",
+  "source": "hand"
  },
  "56200dc33063645c120042c6_1": {
   "char": "Computer",
@@ -8417,6 +8471,12 @@
   "spoken": "Attached are the passcodes for my department's core system terminal. You will access the system only under my direct supervision.",
   "source": "rules"
  },
+ "5595ddb430303184110076b4_11": {
+  "char": "Talker",
+  "original": "PROJECT RECEIVABLES: ¥943,410,184\nFUNDS REALLOCATION: ¥609,480,194\n_____________________________________\nDIVERSION PERCENTAGE: 35.4%",
+  "spoken": "PROJECT RECEIVABLES: 943,410,184 nuyen FUNDS REALLOCATION: 609,480,194 nuyen DIVERSION PERCENTAGE: 35.4%",
+  "source": "hand"
+ },
  "5595deaf30303184110076c7_1": {
   "char": "Talker",
   "original": ">>From: Josephine Tsang\n>>To: David Yu\n>>Subject: Progress Report  \n\nDr. Yu,\n\nAs I expressed in person, the ASIST-based security project is on an accelerated timetable. As such, I require regular updates to track progress. What is the status of the device?\n\n- JT",
@@ -11276,7 +11336,7 @@
  "54dcfec1303031bc0a006c6f_192": {
   "char": "H34v3nShot",
   "original": ">>>>>[Looks like there's a ¥50,000 reward for any information leading to their capture. The HKPF seems pretty nervous about letting these bastards walk freely around the streets.]<<<<<\n\n- H34v3nShot <08:31:42/08-12-56>",
-  "spoken": "Looks like there's a ¥50,000 reward for any information leading to their capture. The HKPF seems pretty nervous about letting these bastards walk freely around the streets.",
+  "spoken": "Looks like there's a 50,000 nuyen reward for any information leading to their capture. The HKPF seems pretty nervous about letting these bastards walk freely around the streets.",
   "source": "screen-speaker"
  },
  "54dcfec1303031bc0a006c6f_194": {
@@ -12980,7 +13040,7 @@
  "54dcfec1303031bc0a006c6f_228": {
   "char": "Wharf Rat",
   "original": ">>>>>[I know a lot of you are interested in that ¥50,000 the HKPF is promising in connection with the terrorist cell they're hunting, so I've been digging around for some better information. \n\nThink I've got some stuff of value.]<<<<<\n \n- Wharf Rat <04:29:55/08-13-56>",
-  "spoken": "I know a lot of you are interested in that ¥50,000 the HKPF is promising in connection with the terrorist cell they're hunting, so I've been digging around for some better information. Think I've got some stuff of value.",
+  "spoken": "I know a lot of you are interested in that 50,000 nuyen the HKPF is promising in connection with the terrorist cell they're hunting, so I've been digging around for some better information. Think I've got some stuff of value.",
   "source": "screen-speaker"
  },
  "54dcfec1303031bc0a006c6f_229": {
@@ -13623,6 +13683,12 @@
   "char": "Narrator",
   "original": ">>CHECKING_ENGRAMS\n...\n>>ENGRAM_INTEGRATION::SUCCESS!\n...\n...\n>>HOST_REINTEGRATION_PROCESS::INITIATED",
   "spoken": "CHECKING_ENGRAMS... ENGRAM_INTEGRATION::SUCCESS!...... HOST_REINTEGRATION_PROCESS::INITIATED",
+  "source": "rules"
+ },
+ "5595ddb430303184110076b4_3": {
+  "char": "Narrator",
+  "original": "The executive summary describes the finances of the Walled City construction contract.\n\nTsang Mechanical Services received about ¥950 million from other corporations, via the Executive Council. It then spent this money to build the Walled City.",
+  "spoken": "The executive summary describes the finances of the Walled City construction contract. Tsang Mechanical Services received about 950 million nuyen from other corporations, via the Executive Council. It then spent this money to build the Walled City.",
   "source": "rules"
  },
  "559b0021303031281d001b57_0": {

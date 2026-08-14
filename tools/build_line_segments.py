@@ -11,7 +11,7 @@ Hand files: tools/spoken_hand_rewrites.json + spoken_hand_segments.json (dms, le
             tools/spoken_hand_rewrites_<game>.json + spoken_hand_segments_<game>.json"""
 import json, re, sys, os
 import variants
-from spoken_rules import mechanical, resolve_speaker_vars, they_disagreement, beats, SEG_MAX
+from spoken_rules import mechanical, resolve_speaker_vars, they_disagreement, beats, nuyen, SEG_MAX
 
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
 if GAME not in ("dms", "dragonfall", "hk"):
@@ -153,7 +153,7 @@ def derive(raw_line, ch, g, key, line, record=True, bypass=False):
     if line.get("y") == 6 and "{{GM}}" not in raw_line:
         # GM_Speaker_Voice without markers: the whole node is narration -> narrator voices it
         if not bypass and key in HAND_SEG and "g0" in HAND_SEG[key]:
-            t = HAND_SEG[key]["g0"]
+            t = nuyen(HAND_SEG[key]["g0"])
         else:
             t = gm_text(raw_line, ch["name"], g)
         if record and ("$(" in t or they_disagreement(t, raw_line)):
@@ -165,8 +165,10 @@ def derive(raw_line, ch, g, key, line, record=True, bypass=False):
         # beats instead. The text MUST match what the lab derives for an unsegmented line
         # (spoken_overrides > hand rewrite > mechanical), or splitting would quietly change the
         # words as well as the keys.
-        base = (None if bypass else ((SPOKEN.get(key) or {}).get("spoken") or HAND.get(key))) \
-               or mechanical(clean(raw_line))
+        # nuyen() on the outside: the override is already clean, but a bare hand rewrite is used
+        # verbatim and would otherwise keep the yen sign the game text was written with.
+        base = nuyen((None if bypass else ((SPOKEN.get(key) or {}).get("spoken") or HAND.get(key)))
+                     or mechanical(clean(raw_line)))
         quoted = split_quotes(ch["id"], dict(line, t=raw_line), key, base) if record else []
         if quoted:
             for t_, voice in quoted:
@@ -183,7 +185,7 @@ def derive(raw_line, ch, g, key, line, record=True, bypass=False):
     for who, raw in segs:
         if who == "gm":
             if not bypass and key in HAND_SEG and f"g{gi}" in HAND_SEG[key]:
-                t = HAND_SEG[key][f"g{gi}"]
+                t = nuyen(HAND_SEG[key][f"g{gi}"])
             else:
                 t = gm_text(raw, ch["name"], g)
             if record and ("$(" in t or they_disagreement(t, raw)):
@@ -193,9 +195,9 @@ def derive(raw_line, ch, g, key, line, record=True, bypass=False):
             gi += 1
         else:
             if not bypass and key in HAND_SEG and f"c{ci}" in HAND_SEG[key]:
-                t = HAND_SEG[key][f"c{ci}"]
+                t = nuyen(HAND_SEG[key][f"c{ci}"])
             elif not bypass and nchar == 1 and key in HAND:
-                t = HAND[key]
+                t = nuyen(HAND[key])
             else:
                 t = mechanical(clean(raw))
             if record and ("$(" in t or they_disagreement(t, raw)):

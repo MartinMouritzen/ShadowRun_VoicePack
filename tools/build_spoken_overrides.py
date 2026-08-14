@@ -9,7 +9,7 @@ Hand files: tools/spoken_hand_rewrites.json (dms, legacy name) /
             tools/spoken_hand_rewrites_<game>.json (dragonfall, hk)
 Unresolved: tools/spoken_unresolved.json (dms) / tools/spoken_unresolved_<game>.json"""
 import json, re, sys, os
-from spoken_rules import mechanical, has_var, they_disagreement
+from spoken_rules import mechanical, has_var, they_disagreement, nuyen
 import re as _re
 
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
@@ -50,7 +50,10 @@ def process(cid, cname, lines, is_narrator=False):
         # Angle-bracket speech needs an override for the same reason a variable does: what is
         # on screen is not what should be spoken, and without an override an unsegmented line
         # falls through to the raw text and reaches the TTS with the brackets still on it.
-        hv = has_var(l['t']) or _re.search(r'[<>]', l['t'] or '') is not None
+        # A yen sign needs an override for the same reason: left alone the line has no override at
+        # all, the lab falls through to the raw text, and the TTS reads the glyph as "yen".
+        hv = (has_var(l['t']) or _re.search(r'[<>]', l['t'] or '') is not None
+              or '¥' in (l['t'] or ''))
         key = f"{l['c']}_{l['n']}"
         if key in SCREEN:
             s = mechanical(re.sub(r'\{\{/?[A-Za-z]*\}\}', '', strip_gm(SCREEN[key]))).strip()
@@ -66,7 +69,10 @@ def process(cid, cname, lines, is_narrator=False):
         if not hv and (is_narrator or '{{' not in l['t']):
             continue
         if key in HAND:
-            overrides[key] = {"char": cname, "original": l['t'], "spoken": HAND[key], "source": "hand"}
+            # nuyen(): a hand rewrite is used verbatim and never sees mechanical(), so the ones
+            # that were typed with the game's yen sign still carried it into the audio.
+            overrides[key] = {"char": cname, "original": l['t'], "spoken": nuyen(HAND[key]),
+                              "source": "hand"}
             continue
         if not hv:
             continue  # GM-span-only lines are handled at generation time, no override needed

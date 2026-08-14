@@ -162,10 +162,34 @@ def mechanical(t):
     s = re.sub(r'\$\(l\.him\)', _TOK_THEM, s, flags=re.I)
     s = re.sub(r'\$\(l\.(his|hisher)\)', _TOK_THEIR, s, flags=re.I)
     s = _cap_substituted(s)
+    s = nuyen(s)
     # tidy whitespace/punctuation artifacts
     s = re.sub(r'\s+', ' ', s).strip()
     s = re.sub(r'\s+([.!?,])', r'\1', s)
     return s
+
+# ---------------------------------------------------------------- currency
+# Shadowrun's money is the NUYEN, and the games write it with the yen sign - before the amount
+# ("¥50,000") in Hong Kong's prose, after it ("22,500¥") in Dragonfall's terminal printouts. The
+# glyph is a real currency symbol, so every TTS reads it as "yen": a different currency, in a
+# setting that never uses the word. The amount has to be spoken the way the setting says it,
+# which puts the unit AFTER the number in both writing orders: "50,000 nuyen".
+_AMOUNT = r'\d[\d,]*(?:\.\d+)?'
+# "about ¥950 million" must not become "950 nuyen million" - the scale word belongs to the number.
+_SCALE = r'(?:\s+(?:hundred|thousand|million|billion|trillion))*'
+
+def nuyen(t):
+    """Rewrite yen-sign amounts as spoken nuyen. Idempotent: text with no ¥ comes back unchanged."""
+    s = t or ""
+    if '¥' not in s:
+        return s
+    # symbol first, over a literal amount or over a variable that will hold one
+    # ("CURRENT FUNDS: ¥$(story.Global_AliceFunds)")
+    s = re.sub(r'¥\s*(' + _AMOUNT + r'|\$\+*\([^)]*\))(' + _SCALE + r')', r'\1\2 nuyen', s)
+    # symbol last, including the negative line items of a payout statement ("-1,500¥")
+    s = re.sub(r'(' + _AMOUNT + r')\s*¥', r'\1 nuyen', s)
+    return s.replace('¥', 'nuyen')          # anything left is a bare symbol
+
 
 def resolve_speaker_vars(t, speaker_name, gender=None):
     """Resolve $(s.*) variables: they refer to the SPEAKING character, whose name/gender we know
