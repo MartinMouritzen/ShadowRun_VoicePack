@@ -50,5 +50,9 @@
  "Tutorial": {
   "voiceId": "mag_503",
   "voiceName": "Rachel Monroe"
+ },
+ "Dietrich": {
+  "voiceId": "mag_307",
+  "voiceName": "Henry Fletcher"
  }
 }

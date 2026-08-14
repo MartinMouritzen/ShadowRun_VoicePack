@@ -47,7 +47,7 @@ namespace SRRVoices
                 if (Plugin.Player == null || NarrationToken < 0) return;
                 if (Plugin.Player.CurrentToken() == NarrationToken)
                 {
-                    Plugin.Player.StopVoice();
+                    Plugin.Player.StopVoice("popup closed");
                     if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
                         Plugin.Log.LogInfo("popup closed — narration stopped.");
                 }

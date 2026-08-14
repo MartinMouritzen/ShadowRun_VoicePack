@@ -169,8 +169,19 @@ namespace SRRVoices
         // The bark was voiced, found, and dispatched (the log says so), and never made a sound.
         public void StopVoice()
         {
+            StopVoice("unnamed");
+        }
+
+        // `why` names the hook that cancelled, so the log says which one silenced a line rather
+        // than leaving four candidates and no way to tell them apart.
+        public void StopVoice(string why)
+        {
+            bool live = (src != null && src.isPlaying);
             playToken++;
             if (src != null) src.Stop();
+            if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
+                Plugin.Log.LogInfo("StopVoice(" + why + ") token now " + playToken
+                                   + (live ? " — cut a clip that was audible" : " — nothing was audible yet"));
         }
 
         public void PlaySequence(string[] relPaths)
@@ -382,31 +393,56 @@ namespace SRRVoices
             }
         }
 
+        // A cancelled sequence used to be completely silent in the log: every abort below is a bare
+        // `yield break`, so "dispatched but never audible" and "played fine" produce identical
+        // logs. That is not a theoretical gap - it is the shape of the Dante "Woof!" bug, and it
+        // cost a whole session of looking at take records and voice pitch to establish that the
+        // clip which never sounded was the right clip all along. PlaySequence cannot make a sound
+        // in the frame it is called (the OGG has to be streamed and decoded first), so ANY main
+        // channel cancel in the frames that follow kills it before src.Play() is ever reached.
+        // Say so, with the stage it died at, so the next one of these is one log line instead of
+        // an investigation.
+        void CancelLog(string[] rel, int i, string stage, int myToken)
+        {
+            if (Plugin.CfgLogLines == null || !Plugin.CfgLogLines.Value || Plugin.Log == null) return;
+            Plugin.Log.LogInfo("narration CANCELLED " + stage + " (segment " + (i + 1) + "/" + rel.Length
+                               + ", token " + myToken + " -> " + playToken + ") " + rel[i]);
+        }
+
         IEnumerator PlaySeq(string[] relPaths, int myToken)
         {
             for (int i = 0; i < relPaths.Length; i++)
             {
-                if (myToken != playToken) yield break;
+                if (myToken != playToken) { CancelLog(relPaths, i, "before load", myToken); yield break; }
                 AudioClip clip = null;
                 if (!cache.TryGetValue(relPaths[i], out clip) || clip == null)
                 {
                     string capture = relPaths[i];
                     yield return StartCoroutine(LoadClip(capture, delegate(AudioClip c) { clip = c; }));
                 }
-                if (myToken != playToken) yield break;
+                if (myToken != playToken) { CancelLog(relPaths, i, "while loading the clip", myToken); yield break; }
                 if (clip == null) continue;      // failed load -> skip this segment, keep going
                 AudioClip toPlay = clip;
                 yield return StartCoroutine(StretchAsync(relPaths[i], clip, myToken,
                     delegate(AudioClip c) { toPlay = c; }));
-                if (myToken != playToken) yield break;
+                if (myToken != playToken) { CancelLog(relPaths, i, "while time-stretching", myToken); yield break; }
                 src.volume = Vol();
                 src.clip = toPlay;
                 src.pitch = Speed() / currentClipFactor;
                 src.Play();
+                // The other way a segment goes silent without a word in the log: Play() on a clip
+                // the streamer has not finished decoding is a no-op, isPlaying stays false, the
+                // wait below falls straight through and the sequence "completes" in one frame.
+                if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null
+                    && (src == null || !src.isPlaying))
+                    Plugin.Log.LogWarning("narration SILENT: Play() left the source stopped (segment "
+                                          + (i + 1) + "/" + relPaths.Length + ", vol=" + src.volume
+                                          + ", ready=" + (toPlay != null && toPlay.isReadyToPlay)
+                                          + ") " + relPaths[i]);
                 // Wait until this clip finishes or we get preempted (Unity 4 has no WaitWhile).
                 while (myToken == playToken && src != null && src.isPlaying)
                     yield return null;
-                if (myToken != playToken) yield break;
+                if (myToken != playToken) { CancelLog(relPaths, i, "mid-clip", myToken); yield break; }
                 // Natural beat between segments (narrator -> character, etc.) so the voice swap
                 // doesn't feel abrupt. Not before the first clip or after the last.
                 if (i < relPaths.Length - 1)

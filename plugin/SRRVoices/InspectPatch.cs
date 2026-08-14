@@ -142,7 +142,7 @@ namespace SRRVoices
                 if (Plugin.Player == null || NarrationToken < 0) return;
                 if (Plugin.Player.CurrentToken() == NarrationToken)
                 {
-                    Plugin.Player.StopVoice();
+                    Plugin.Player.StopVoice("inspect/loadscreen hook");
                     if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
                         Plugin.Log.LogInfo("loadscreen closed — narration stopped.");
                 }
@@ -568,7 +568,7 @@ namespace SRRVoices
                 if (Plugin.Player == null || NarrationToken < 0) return;
                 if (Plugin.Player.CurrentToken() == NarrationToken)
                 {
-                    Plugin.Player.StopVoice();
+                    Plugin.Player.StopVoice("inspect/loadscreen hook");
                     if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value && Plugin.Log != null)
                         Plugin.Log.LogInfo("epilogue closed — narration stopped.");
                 }

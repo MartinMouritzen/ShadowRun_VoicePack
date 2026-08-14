@@ -44,7 +44,7 @@ namespace SRRVoices
             {
                 if (Plugin.CfgLogLines != null && Plugin.CfgLogLines.Value)
                     Plugin.Log.LogInfo("no VO " + key);
-                Plugin.Player.StopVoice();
+                Plugin.Player.StopVoice("node has no VO");
             }
         }
     }
@@ -57,7 +57,7 @@ namespace SRRVoices
             // StopVoice, not a full stop: a bark can fire from the same click that closes the
             // conversation (the Haven pet-the-dog trigger draws "Woof!" and ends the convo together),
             // and it is still streaming its clip when we get here. The old StopAll cancelled it every time.
-            if (Plugin.Player != null) Plugin.Player.StopVoice();
+            if (Plugin.Player != null) Plugin.Player.StopVoice("conversation ended");
             Patch_StartConversation.LastConvo = null;
         }
     }
