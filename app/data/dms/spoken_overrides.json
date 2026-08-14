@@ -1330,5 +1330,35 @@
   "original": "Keycard printing for $(scene.FatherMother) $(l.name) ... \n\nKeycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
   "spoken": "Keycard printing... Keycard complete. WARNING: This keycard provides access to a high-security area. Approved uniforms are required in all high-security areas.",
   "source": "hand"
+ },
+ "2f4949143064348c090068d8_5": {
+  "char": "Narrator",
+  "original": "You slot the credstick into your PDA. 300¥ is added to your account.",
+  "spoken": "You slot the credstick into your PDA. 300 nuyen is added to your account.",
+  "source": "rules"
+ },
+ "8f2185e2623331ec35004893_5": {
+  "char": "Narrator",
+  "original": "Surprisingly, the credstick is still functional. You slot it into your PDA and 200¥ is added to your account.",
+  "spoken": "Surprisingly, the credstick is still functional. You slot it into your PDA and 200 nuyen is added to your account.",
+  "source": "rules"
+ },
+ "a45289676233311c0a003dd3_21": {
+  "char": "Jake Armitage",
+  "original": "Hard bargainer. Alright, ¥1,500 it is, but you’d better be worth it...",
+  "spoken": "Hard bargainer. Alright, 1,500 nuyen it is, but you’d better be worth it...",
+  "source": "rules"
+ },
+ "3cfae7f4623331601f0072af_5": {
+  "char": "Dr. Holmes",
+  "original": "Found a buyer for the first bunraku. A man in the Barrens offered me ¥20,000 for the female troll I've been modifying. He likes them big, he says. All that's left is to arrange delivery. He says he can put me in touch with some more buyers if I'll accommodate special orders. \n\nThese morons lives are already over anyway- the least they could do is line my pockets.",
+  "spoken": "Found a buyer for the first bunraku. A man in the Barrens offered me 20,000 nuyen for the female troll I've been modifying. He likes them big, he says. All that's left is to arrange delivery. He says he can put me in touch with some more buyers if I'll accommodate special orders. These morons lives are already over anyway- the least they could do is line my pockets.",
+  "source": "rules"
+ },
+ "51be3888623331200e003edf_9": {
+  "char": "Saada",
+  "original": "I can't beat that... Renraku froze all my personal funds while I'm here, for \"security.\" All I have on me is ¥5,000. Let me go, and it's yours.",
+  "spoken": "I can't beat that... Renraku froze all my personal funds while I'm here, for \"security.\" All I have on me is 5,000 nuyen. Let me go, and it's yours.",
+  "source": "rules"
  }
 }
