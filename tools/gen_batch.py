@@ -76,6 +76,29 @@ def text_hash(text):
     return hashlib.sha1(re.sub(r"\s+", " ", text or "").strip().encode()).hexdigest()[:10]
 
 
+def unreachable_fallback(bucket, skey):
+    """Is this segment's generic take dead code, so buying it buys silence?
+
+    A line with template variables ships one clip per value ("<key>#m", "<key>#f") and the plugin
+    plays the matching one, falling back to the plain key only when that variant was never
+    generated. Once EVERY variant has a keeper the generic can never be reached, so recasting a
+    character and regenerating only the variants is complete work (Martin, 2026-08-11 - the rule
+    that fa18620 gave the lab and audit_stale_takes.py). This driver never learned it, so a recast
+    kept listing voiced-out fallbacks as outstanding work and would have bought a clip nothing can
+    play: the Company Man recast read as one line short when it was finished.
+
+    Deliberately NOT applied under --redo or --voice. The fallback is not owed, but it stays
+    auditionable and regenerable when it is asked for by name.
+    """
+    if a.redo or a.voice:
+        return False
+    want = set(((variants_doc.get(skey) or {}).get("v") or {}))
+    if not want:
+        return False
+    bt = takes.get(bucket) or {}
+    return all((bt.get(f"{skey}#{v}") or {}).get("selected") for v in want)
+
+
 promotions = []
 
 def needs_promoting(charId, key, entry, voice, text):
@@ -255,8 +278,9 @@ def inspect_jobs():
             continue
         if not v:
             print("  WARN: no narrator voice for inspect lines", file=sys.stderr); break
-        out.append({"charId": "narrator", "lineKey": key, "text": text,
-                    "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
+        if not unreachable_fallback("narrator", key):
+            out.append({"charId": "narrator", "lineKey": key, "text": text,
+                        "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
         for vid, vtext in (variants_doc.get(key, {}).get("v") or {}).items():
             vk = f"{key}#{vid}"
             if already_voiced(done.get(vk), v):
@@ -326,7 +350,9 @@ for owner in cast:
                 break
             # A segment can need its variants even when its generic take is already made, so the
             # "already voiced" test is applied per KEY rather than skipping the segment outright.
-            if not already_voiced(done.get(sk), voice):
+            if unreachable_fallback(cid, sk):
+                pass          # every variant has a keeper: the generic clip can never play
+            elif not already_voiced(done.get(sk), voice):
                 jobs.append({"charId": cid, "lineKey": sk, "text": text,
                              "voiceId": voice["voiceId"], "voiceName": voice.get("voiceName")})
             else:
