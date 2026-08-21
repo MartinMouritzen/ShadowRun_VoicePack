@@ -356,8 +356,8 @@
   "voiceName": "Fenrir"
  },
  "name_techvendor": {
-  "voiceId": "mag_499",
-  "voiceName": "Tessa Morgan"
+  "voiceId": "mag_156",
+  "voiceName": "Sydney Brooks"
  },
  "name_lady": {
   "voiceId": "mag_159",
@@ -528,8 +528,8 @@
   "voiceName": "Oliver Whitmore"
  },
  "name_tailor": {
-  "voiceId": "mag_583",
-  "voiceName": "Reginald Ashworth"
+  "voiceId": "mag_154",
+  "voiceName": "Lexi Parker"
  },
  "name_voiceonphone": {
   "voiceId": "mag_44",
@@ -640,16 +640,16 @@
   "voiceName": "Microsoft Zira (SAPI)"
  },
  "name_bachmeier": {
-  "voiceId": "mag_350",
-  "voiceName": "Henry Beckett"
+  "voiceId": "mag_720",
+  "voiceName": "Umbriel"
  },
  "name_generatorcontrolpanel": {
   "voiceId": "sapi_zira",
   "voiceName": "Microsoft Zira (SAPI)"
  },
  "name_elevatorcontrols": {
-  "voiceId": "mag_807",
-  "voiceName": "Matthias Seidel"
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
  },
  "name_fromthedeskofwernerharding": {
   "voiceId": "mag_500",
@@ -680,8 +680,8 @@
   "voiceName": "Austin Lane"
  },
  "name_aleshire": {
-  "voiceId": "mag_385",
-  "voiceName": "Ethan Fraser"
+  "voiceId": "mag_350",
+  "voiceName": "Henry Beckett"
  },
  "name_heiner": {
   "voiceId": "mag_534",
@@ -876,8 +876,8 @@
   "voiceName": "Michael Johnson"
  },
  "name_rollinthunder": {
-  "voiceId": "mag_521",
-  "voiceName": "Mike Rodent"
+  "voiceId": "mag_276",
+  "voiceName": "Sipho Dlamini"
  },
  "name_bluebeerd": {
   "voiceId": "mag_720",
@@ -900,8 +900,8 @@
   "voiceName": "Ciaran Walsh"
  },
  "name_brewmeister": {
-  "voiceId": "mag_361",
-  "voiceName": "Olivia Roberts"
+  "voiceId": "mag_276",
+  "voiceName": "Sipho Dlamini"
  },
  "name_worriedmother004": {
   "voiceId": "mag_179",

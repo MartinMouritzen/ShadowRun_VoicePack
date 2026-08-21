@@ -827,5 +827,17 @@
  "53decaa6303031f80e007073_1": {
   "voiceId": "mag_712",
   "voiceName": "Orus"
+ },
+ "5253173d6261646817000122_0": {
+  "voiceId": "sapi_david",
+  "voiceName": "Microsoft David (SAPI)"
+ },
+ "5266f911663661b825003110_185": {
+  "voiceId": "mag_526",
+  "voiceName": "Eldros the Wise"
+ },
+ "528120256361344046004c8b_13": {
+  "voiceId": "mag_297",
+  "voiceName": "Henry Whitaker"
  }
 }

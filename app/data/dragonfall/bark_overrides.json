@@ -52,8 +52,8 @@
   "voiceName": "Microsoft David (SAPI)"
  },
  "bark_55ede4650ee1c901": {
-  "voiceId": "sapi_david",
-  "voiceName": "Microsoft David (SAPI)"
+  "voiceId": "0aXOy31Cjamp6gJcyqYu",
+  "voiceName": "Matt - Deep Authoritative Narrator"
  },
  "bark_ed71c34111a30061": {
   "voiceId": "0aXOy31Cjamp6gJcyqYu",
@@ -80,6 +80,38 @@
   "voiceName": "Matt - Deep Authoritative Narrator"
  },
  "bark_cb21efd76e602264": {
+  "voiceId": "mag_307",
+  "voiceName": "Henry Fletcher"
+ },
+ "bark_e5678c191fb50fd1": {
+  "voiceId": "mag_332",
+  "voiceName": "Charlotte Winslow"
+ },
+ "bark_666af3d4292d1c66": {
+  "voiceId": "mag_164",
+  "voiceName": "Maya Collins"
+ },
+ "bark_f344382b0d6bff26": {
+  "voiceId": "mag_711",
+  "voiceName": "Leda"
+ },
+ "bark_9c9c321226692bdb": {
+  "voiceId": "mag_319",
+  "voiceName": "Benjamin Walker"
+ },
+ "bark_17a8891475ed1b7a": {
+  "voiceId": "mag_35",
+  "voiceName": "Grant Walker"
+ },
+ "bark_bb597586feaf05b4": {
+  "voiceId": "mag_35",
+  "voiceName": "Grant Walker"
+ },
+ "bark_6c098dbbf0b32d3f": {
+  "voiceId": "mag_164",
+  "voiceName": "Maya Collins"
+ },
+ "bark_c21b526ae4c34307": {
   "voiceId": "mag_307",
   "voiceName": "Henry Fletcher"
  }
