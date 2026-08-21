@@ -1,0 +1,11 @@
+{
+ "_note": "Barks whose vanilla trigger fires far more often than the designer meant. The engine's 'On Conversation Complete' event takes NO conversation parameter - it fires when ANY conversation ends, and only the trigger's own conditions narrow it down. Where those conditions stay true for the rest of an act, the same floating text is redrawn after every conversation on the map. In vanilla nobody noticed: the bubble is anchored to an actor who is usually off-camera by then, so it drew off-screen and expired silently. Voiced, it becomes a line the player hears over and over with no bark on screen and no context. A gate names the conversation the bark is actually meant to follow; the plugin stays silent when that is not the conversation in play. Keys are bark_<md5(text)[:16]>, ids are conversation idRefs.",
+ "gates": {
+  "bark_cb21efd76e602264": {
+   "afterConvo": "523cc440346238d0260069af",
+   "speaker": "Dietrich",
+   "text": "I'm counting on you, boss.",
+   "why": "haven.srt trigger Act2_HumanisAccepted_PostDietrich: event 'On Conversation Complete' with no parameters, conditions Haven_hasHeardDietrichStory_Humanis IS true AND Global_MissionState_Humanis == 2, THEN 'Display Text over Actor' (Dietrich, style 0, wait 2s, duration 3s). Both conditions stay true for the whole Humanis mission and no action ever turns the trigger off, so it re-fires on EVERY conversation that ends in the Haven. The gating variable is set by convo 523cc440346238d0260069af (the Dietrich Humanis conversation, auto-started by the sibling trigger Act2_HumanisAccepted_DietrichConvo on region enter), so the intended firing is exactly the one that follows it."
+  }
+ }
+}

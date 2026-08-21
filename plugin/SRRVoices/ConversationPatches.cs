@@ -53,11 +53,47 @@ namespace SRRVoices
         }
     }
 
+    // Which conversation is "in play" right now, for gated barks (see VoicePack.TryGetGate).
+    public static class ConvoGate
+    {
+        public static string LastEnded;    // idRef.id of the conversation that most recently ended
+
+        public static string CurrentId()
+        {
+            Conversation c = Patch_StartConversation.LastConvo;
+            return (c != null && c.idRef != null) ? c.idRef.id : null;
+        }
+
+        // Both the running conversation and the one that just ended are accepted, deliberately.
+        // A gated bark is drawn by a scene trigger reacting to "On Conversation Complete", and
+        // whether ConversationManager.EndConversation has already run by that point decides which
+        // of the two holds the id — an ordering inside the engine that we would otherwise have to
+        // guess at. Testing both is correct under either order, and the log line records which one
+        // matched, so a real playthrough settles it without another build.
+        public static bool Allows(string[] wanted)
+        {
+            if (wanted == null || wanted.Length == 0) return true;
+            string cur = CurrentId(), last = LastEnded;
+            for (int i = 0; i < wanted.Length; i++)
+                if (wanted[i] == cur || wanted[i] == last) return true;
+            return false;
+        }
+
+        public static string Describe()
+        {
+            return "current=" + (CurrentId() ?? "-") + " lastEnded=" + (LastEnded ?? "-");
+        }
+    }
+
     [HarmonyPatch(typeof(ConversationManager), "EndConversation")]
     public static class Patch_EndConversation
     {
         static void Postfix()
         {
+            // Remember what just ended BEFORE LastConvo is cleared below — a bark gated on this
+            // conversation may be drawn a moment from now by a scene trigger.
+            ConvoGate.LastEnded = ConvoGate.CurrentId();
+
             // StopVoice, not a full stop: a bark can fire from the same click that closes the
             // conversation (the Haven pet-the-dog trigger draws "Woof!" and ends the convo together),
             // and it is still streaming its clip when we get here. The old StopAll cancelled it every time.

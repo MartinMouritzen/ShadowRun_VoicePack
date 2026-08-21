@@ -134,7 +134,8 @@ namespace SRRVoices
             string vpDir = Path.Combine(dir, "voicepack");
             Pack = VoicePack.Load(vpDir, Log);
             if (Pack != null)
-                Log.LogInfo("Voicepack loaded: " + Pack.LineCount + " voiced nodes from " + vpDir);
+                Log.LogInfo("Voicepack loaded: " + Pack.LineCount + " voiced nodes from " + vpDir
+                            + (Pack.GateCount > 0 ? " (" + Pack.GateCount + " gated bark(s))" : ""));
             else
                 Log.LogWarning("No voicepack found at " + vpDir + " — plugin will run but play nothing.");
 

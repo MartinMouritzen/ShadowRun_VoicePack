@@ -10,15 +10,26 @@ namespace SRRVoices
     public class VoicePack
     {
         readonly Dictionary<string, string[]> lines = new Dictionary<string, string[]>();
+        // bark key -> the conversation id(s) that bark is allowed to follow. See voicepack.gates.
+        readonly Dictionary<string, string[]> gates = new Dictionary<string, string[]>();
         public string Root;    // absolute dir containing voicepack.index and clips/
         // What the index looked like when this was loaded, so a later sync can be spotted.
         long stampTicks, stampLen;
 
         public int LineCount { get { return lines.Count; } }
 
+        public int GateCount { get { return gates.Count; } }
+
         public bool TryGet(string key, out string[] clips)
         {
             return lines.TryGetValue(key, out clips);
+        }
+
+        // Is this bark only meant to be heard after a particular conversation? Most are not, and
+        // this returns false for them.
+        public bool TryGetGate(string key, out string[] convoIds)
+        {
+            return gates.TryGetValue(key, out convoIds);
         }
 
         public static VoicePack Load(string vpDir, ManualLogSource log)
@@ -47,6 +58,43 @@ namespace SRRVoices
                 vp.lines[key] = clips;
             }
             if (bad > 0 && log != null) log.LogWarning("voicepack: skipped " + bad + " malformed rows");
+
+            // voicepack.gates (optional): barkKey<TAB>convoId<TAB>convoId...
+            //
+            // A few vanilla triggers redraw their floating text after EVERY conversation that ends
+            // on the map: the engine's "On Conversation Complete" event carries no conversation
+            // parameter, so it fires for all of them, and the trigger's own conditions are the only
+            // filter. Where those conditions stay true for the rest of an act, the same bubble is
+            // drawn again and again. Nobody ever noticed in vanilla, because the bubble is anchored
+            // to an actor who is normally off-camera once the conversation UI closes, so it drew
+            // off-screen and expired unread. Voiced, it is a line the player hears repeatedly with
+            // no bark on screen and no context — which is a regression this mod introduced, not
+            // behaviour worth preserving. A gate names the conversation the bark is meant to
+            // follow; Patch_FloatingText stays silent for the other firings.
+            //
+            // Missing file = no gates, which is exactly right for a pack built before this existed.
+            string gf = Path.Combine(vpDir, "voicepack.gates");
+            if (File.Exists(gf))
+            {
+                try
+                {
+                    foreach (string raw in File.ReadAllLines(gf))
+                    {
+                        if (raw.Length == 0 || raw[0] == '#') continue;
+                        string[] parts = raw.Split('\t');
+                        if (parts.Length < 2) continue;
+                        var ids = new string[parts.Length - 1];
+                        Array.Copy(parts, 1, ids, 0, ids.Length);
+                        vp.gates[parts[0]] = ids;
+                    }
+                }
+                catch (Exception e)
+                {
+                    // A broken gate file must not cost the whole pack: worst case we are back to
+                    // the un-gated behaviour, which is what shipped before.
+                    if (log != null) log.LogWarning("voicepack.gates unreadable: " + e.Message);
+                }
+            }
             return vp;
         }
 

@@ -387,6 +387,26 @@ namespace SRRVoices
                 {
                     if (key[0] == 'b' && Plugin.CfgBarks != null && !Plugin.CfgBarks.Value) return;      // bark_ disabled
                     if (key[0] == 'i' && Plugin.CfgInspect != null && !Plugin.CfgInspect.Value) return;  // insp_ disabled
+
+                    // Gated bark? A few vanilla triggers redraw their floating text after EVERY
+                    // conversation that ends on the map, because "On Conversation Complete" carries
+                    // no conversation parameter and the trigger's conditions stay true for the rest
+                    // of the act. Dragonfall's Haven is the clearest case: once you have heard
+                    // Dietrich's Humanis story, "I'm counting on you, boss." is redrawn every time
+                    // any conversation there ends. In vanilla that bubble hangs over Dietrich, who
+                    // is off-camera by then, so it expired unread and no player ever met it. Voiced,
+                    // it plays over and over with nothing on screen to explain it — an artefact of
+                    // adding audio, not part of the game we are voicing. So it is spoken only for
+                    // the conversation it was written to follow, and stays silent otherwise.
+                    string[] wantConvo;
+                    if (Plugin.Pack.TryGetGate(key, out wantConvo) && !ConvoGate.Allows(wantConvo))
+                    {
+                        if (log) Plugin.Log.LogInfo("gated FT[" + __originalMethod.Name + "] " + key
+                                                    + " — wants convo " + string.Join("/", wantConvo)
+                                                    + ", saw " + ConvoGate.Describe());
+                        return;
+                    }
+
                     if (Plugin.InspectDebounced(key)) return;
                     float wait = WaitOf(__args, __originalMethod);
                     if (log) Plugin.Log.LogInfo("play FT[" + __originalMethod.Name + "] " + key + " (" + clips.Length + " clips)"

@@ -63,7 +63,17 @@ fi
 mkdir -p "$PLUG/voicepack/clips"
 # cp -f (NOT -u): cp -u compares mtimes, which is unreliable across the WSL->NTFS boundary and
 # would silently skip installing a newer DLL. The DLL is tiny, so always overwrite.
-[ -f plugin/SRRVoices/bin/SRRVoices.dll ] && cp -f plugin/SRRVoices/bin/SRRVoices.dll "$PLUG/SRRVoices.dll" || true
+#
+# It is also the one file a running game can refuse: Windows keeps a loaded assembly mapped, so the
+# overwrite fails with a sharing violation. That used to be `|| true`, which swallowed it silently —
+# you would see "SYNCED", restart, and still be on the old plugin with no clue why the fix you just
+# built had no effect. Say so instead.
+if [ -f plugin/SRRVoices/bin/SRRVoices.dll ]; then
+  if ! cp -f plugin/SRRVoices/bin/SRRVoices.dll "$PLUG/SRRVoices.dll" 2>/dev/null; then
+    echo "WARNING: could not replace SRRVoices.dll — the game holds the loaded copy open."
+    echo "         Quit $GAME_ID and re-run this script, or the plugin stays at its old build."
+  fi
+fi
 # clips FIRST, then the manifest that names them: the plugin reloads the manifest when its mtime
 # changes (VoicePack.IndexChanged), so a live game can read it the instant it lands. Writing the
 # index before its clips arrive gives it a window where every new line resolves to a file that is
@@ -99,6 +109,9 @@ if removed: bits.append("-%d stale" % removed)
 print("  clips: " + (", ".join(bits) if bits else "unchanged"))
 CLIPS
 cp -f "$VP/voicepack.json"  "$PLUG/voicepack/voicepack.json" 2>/dev/null || true
+# Gates before the index, same reasoning as clips-before-index: the plugin re-reads everything when
+# voicepack.index changes mtime, so the gates it will consult must already be on disk by then.
+cp -f "$VP/voicepack.gates" "$PLUG/voicepack/voicepack.gates" 2>/dev/null || true
 cp -f "$VP/voicepack.index" "$PLUG/voicepack/voicepack.index"
 N=$(grep -vc '^#' "$PLUG/voicepack/voicepack.index" 2>/dev/null || echo 0)
 echo "SYNCED: $N voiced nodes installed to $GAME_ID. A running game picks this up within ~2s."

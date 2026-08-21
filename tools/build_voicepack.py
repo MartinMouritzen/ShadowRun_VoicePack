@@ -399,8 +399,29 @@ def main():
                       for k, v in lines.items()}
     manifest_lines = {k: v for k, v in manifest_lines.items() if v}
 
+    # Bark gates. A handful of vanilla triggers redraw their floating text after EVERY conversation
+    # that ends on the map, because the engine's "On Conversation Complete" event takes no
+    # conversation parameter and the trigger's conditions never stop being true. Silent in vanilla
+    # (the bubble is anchored to an actor who is off-camera by then), but a voiced line the player
+    # hears over and over. bark_gates.json names the conversation each such bark is meant to follow.
+    # Only gates whose bark actually has clips are emitted — a gate for an unvoiced bark is dead
+    # weight in the pack and would hide a keying mistake instead of showing it.
+    gate_doc = jload_opt("bark_gates.json", {})
+    gates = {}
+    for gkey, g in (gate_doc.get("gates") or {}).items():
+        after = g.get("afterConvo")
+        ids = [after] if isinstance(after, str) else list(after or ())
+        ids = [i for i in ids if i]
+        if not ids:
+            print(f"  WARN bark gate {gkey} names no conversation — ignored", file=sys.stderr)
+            continue
+        if gkey not in manifest_lines:
+            print(f"  NOTE bark gate {gkey} has no voiced clips — gate not emitted")
+            continue
+        gates[gkey] = ids
+
     os.makedirs(OUT, exist_ok=True)
-    manifest = {"version": 1, "game": f"srr-{GAME}", "lines": manifest_lines}
+    manifest = {"version": 1, "game": f"srr-{GAME}", "lines": manifest_lines, "gates": gates}
     with open(os.path.join(OUT, "voicepack.json"), "w") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
 
@@ -410,6 +431,14 @@ def main():
         f.write("# SRR voicepack index v1 — key<TAB>clip<TAB>clip...\n")
         for k in sorted(manifest_lines):
             f.write(k + "\t" + "\t".join(manifest_lines[k]) + "\n")
+
+    # Gates ride in their own TSV rather than in voicepack.index, so an older plugin reading the
+    # index cannot mistake a gate row for a line key with a clip named after a conversation.
+    # Always written, even empty: sync_to_game.sh and build_dist.sh then copy it unconditionally.
+    with open(os.path.join(OUT, "voicepack.gates"), "w", newline="\n") as f:
+        f.write("# SRR voicepack bark gates v1 — barkKey<TAB>convoId<TAB>convoId...\n")
+        for k in sorted(gates):
+            f.write(k + "\t" + "\t".join(gates[k]) + "\n")
 
     # Prune cache oggs no longer referenced by any line (replaced retakes, deleted takes) —
     # build_dist.sh copies clips/ wholesale, so stale files would ship to users otherwise.

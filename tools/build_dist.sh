@@ -43,6 +43,7 @@ cp "$PLUGIN_DLL" "$DIST/BepInEx/plugins/SRRVoices/SRRVoices.dll"
 cp "$ROOT/plugin/SRRVoices/options_panel.png" "$DIST/BepInEx/plugins/SRRVoices/" 2>/dev/null || true
 cp "$VP/voicepack.index" "$DIST/BepInEx/plugins/SRRVoices/voicepack/"
 cp "$VP/voicepack.json"  "$DIST/BepInEx/plugins/SRRVoices/voicepack/" 2>/dev/null || true
+cp "$VP/voicepack.gates" "$DIST/BepInEx/plugins/SRRVoices/voicepack/" 2>/dev/null || true
 cp "$VP/clips/"*.ogg "$DIST/BepInEx/plugins/SRRVoices/voicepack/clips/" 2>/dev/null || true
 
 # 3b. AI portrait pack (optional in-game): index + PNGs, served by the native portrait pipeline.
