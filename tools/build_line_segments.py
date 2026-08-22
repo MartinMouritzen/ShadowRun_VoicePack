@@ -17,6 +17,26 @@ GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else
 if GAME not in ("dms", "dragonfall", "hk"):
     print(f"ERROR: unknown game '{GAME}'", file=sys.stderr); sys.exit(1)
 
+# DMS IS RELEASED -- ITS SEGMENTATION IS FROZEN.
+# Segmentation exists to make the LAB workable: it lets a long line be auditioned and regenerated
+# one paragraph at a time instead of sitting through a 70-second take. It buys the shipped pack
+# nothing -- the plugin plays the segments back to back either way. So re-splitting a pack that is
+# already out is all risk and no gain: DMS's committed segmentation predates the current long-line
+# splitting, and simply re-running this tool re-splits six long lines and newly splits 37 more,
+# taking DMS from 0 segment keys without a take to 83. That ships as silence for existing users
+# until every one of them is regenerated.
+# This guard exists because the tool is easy to run reflexively as "just refresh the data" while
+# chasing something else entirely (it was, to fix ONE bracketed segment whose audio was already
+# correct). Pass --force only as a deliberate, budgeted re-segmentation of DMS.
+if GAME == "dms" and "--force" not in sys.argv:
+    print("REFUSING: DMS is released and its segmentation is frozen.\n"
+          "  Re-running this tool re-splits already-shipped lines into new segment keys that have\n"
+          "  no takes, which ships as silence. Segmentation is a lab-workflow convenience, not\n"
+          "  something the pack needs, so there is nothing to gain by refreshing it here.\n"
+          "  If you really mean to re-segment DMS (and to regenerate the ~83 segments it creates),\n"
+          "  pass --force.", file=sys.stderr)
+    sys.exit(2)
+
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 HERE = os.path.dirname(__file__)
 SUF = "" if GAME == "dms" else f"_{GAME}"
