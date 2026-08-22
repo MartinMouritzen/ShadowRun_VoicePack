@@ -25470,6 +25470,42 @@
      "n": 30,
      "cn": "a2_AbandonedLab_s1-Streets_PostCorpAttack",
      "t": "This is just sad.\n\nC'mon, boss. Those bioware samples aren't gonna stay frozen forever."
+    },
+    {
+     "c": "525f22003030315416006864",
+     "n": 4,
+     "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
+     "t": "{{GM}}Dietrich rolls his eyes.{{/GM}}\n\nSomehow, I doubt that."
+    },
+    {
+     "c": "5260462c303031e80f006131",
+     "n": 0,
+     "cn": "a2_Humanis_s1-IntroDeitrich",
+     "t": "Look, boss... I just wanted to thank you for bringing me along on this one.\n\nIt means a lot."
+    },
+    {
+     "c": "5260462c303031e80f006131",
+     "n": 1,
+     "cn": "a2_Humanis_s1-IntroDeitrich",
+     "t": "{{GM}}He nods.{{/GM}}\n\nAlexander... he's a good kid, y'know? \n\nIf I'd been there for him... if I hadn't run off to Berlin, left him with his worthless sack of a dad... he'd never have fallen in with those Humanis pigs in the first place."
+    },
+    {
+     "c": "5260462c303031e80f006131",
+     "n": 2,
+     "cn": "a2_Humanis_s1-IntroDeitrich",
+     "t": "{{GM}}The expression on Dietrich's face softens, and he claps you on the shoulder.{{/GM}}\n\nLet's go find my nephew. And let's crack all the Humanis skulls we can along the way.\n\nThe fuckers have it coming in more ways than I can count."
+    },
+    {
+     "c": "5260462c303031e80f006131",
+     "n": 3,
+     "cn": "a2_Humanis_s1-IntroDeitrich",
+     "t": "{{GM}}He nods.{{/GM}}\n\nYeah. The run comes first. No need to worry about me, boss... I've got your back, no matter what."
+    },
+    {
+     "c": "5260462c303031e80f006131",
+     "n": 4,
+     "cn": "a2_Humanis_s1-IntroDeitrich",
+     "t": "{{GM}}His lips part into a wolfish grin.{{/GM}}\n\nYou got it, boss. I'll just count it against the heap of favors that you owe me.\n\nHow many times have I saved your ass since we started down this road? I've lost count."
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_dietrich.png"
@@ -49712,6 +49748,48 @@
      "n": 13,
      "cn": "a2_Humanis_s3-DietrichOutro",
      "t": "Sorry, man. But your friend is right. We've gotta get the hell out of here, *now.*"
+    },
+    {
+     "c": "525f202330303154160067d0",
+     "n": 0,
+     "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+     "t": "{{GM}}Maxim glances at you, an eyebrow raised.{{/GM}}\n\nI'm starting to get the feeling Tuck was a little... less than forthcoming about you.\n\nYou're not run-of-the-mill muscle. What's your angle in all of this?"
+    },
+    {
+     "c": "525f202330303154160067d0",
+     "n": 1,
+     "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+     "t": "{{GM}}He pauses for a moment, regarding you with a critical eye. Then he shrugs.{{/GM}}\n\nWorks for me."
+    },
+    {
+     "c": "525f202330303154160067d0",
+     "n": 3,
+     "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+     "t": "It was a calculated risk. Humanis are racist scum, but they've paid us for our work in the past.\n\nWe rolled the dice, and we lost on this one. But something tells me that they're about to lose a whole lot more."
+    },
+    {
+     "c": "525f202330303154160067d0",
+     "n": 4,
+     "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+     "t": "You have no idea."
+    },
+    {
+     "c": "525f202330303154160067d0",
+     "n": 5,
+     "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+     "t": "Yeah... some of them came through us, and I recognize the stamps of a couple of other smuggling rings on the others.\n\nBetween what I see out here and what I know we've delivered, I'd say you're looking at nine recent shipments, at least."
+    },
+    {
+     "c": "525f202330303154160067d0",
+     "n": 6,
+     "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+     "t": "Yeah, I suppose... might not be a bad idea for you to look into that, $(l.name)."
+    },
+    {
+     "c": "525f202330303154160067d0",
+     "n": 7,
+     "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+     "t": "Fair enough."
     }
    ],
    "portraitFile": "dragonfall/backer_humanmale_dennisjandt.png"
@@ -54915,6 +54993,12 @@
      "n": 1,
      "cn": "a2_aztechnologyRaid_s3-BloodmagesSeeYouJackIn",
      "t": "{{GM}}He eyes you skeptically.{{/GM}}\n\nVery well... do your job. But do it quickly, and mind that you don't touch anything you're not supposed to. If you do, I will know it.\n\nAm I making myself clear?"
+    },
+    {
+     "c": "52e5f3b4346238941d0008bf",
+     "n": 1,
+     "cn": "a2_aztechnologyRaid_s3-BloodMagesGoHostile",
+     "t": "These aren't Knight Errant! They're intruders! KILL THEM!"
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_bloodmage.png"
@@ -62626,6 +62710,78 @@
      "n": 2,
      "cn": "a2_Humanis_s3-AnySmugglerOutro",
      "t": "{{GM}}$+(s.he) nods.{{/GM}}\n\nI can live with that."
+    },
+    {
+     "c": "525edc023030318015006801",
+     "n": 3,
+     "cn": "a2_Humanis_s1-IntroWithoutMax",
+     "t": "I knew it. With Maxim dead, they won't even *talk* to us."
+    },
+    {
+     "c": "525edc023030318015006801",
+     "n": 4,
+     "cn": "a2_Humanis_s1-IntroWithoutMax",
+     "t": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou think that maybe they had somethin' to do with that ambush back there?"
+    },
+    {
+     "c": "525edc023030318015006801",
+     "n": 5,
+     "cn": "a2_Humanis_s1-IntroWithoutMax",
+     "t": "If those monsters were workin' with Rammbock... if they did all of this...\n\n{{GM}}$+(s.hisher) face clouds.{{/GM}}\n\nSomeone's gotta put those pigs down."
+    },
+    {
+     "c": "525edc023030318015006801",
+     "n": 7,
+     "cn": "a2_Humanis_s1-IntroWithoutMax",
+     "t": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou ain't just hired muscle, are you?"
+    },
+    {
+     "c": "525edc023030318015006801",
+     "n": 8,
+     "cn": "a2_Humanis_s1-IntroWithoutMax",
+     "t": "You're serious, aren't you? You actually *want* to go in there.\n\n{{GM}}$+(s.he) takes a step back.{{/GM}}\n\nWell, be my guest... I won't get in your way. When you make it back - *if* you make it back - we'll be out here waiting for you."
+    },
+    {
+     "c": "525edc023030318015006801",
+     "n": 9,
+     "cn": "a2_Humanis_s1-IntroWithoutMax",
+     "t": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou serious? You're gonna walk in there?"
+    },
+    {
+     "c": "525edc023030318015006801",
+     "n": 10,
+     "cn": "a2_Humanis_s1-IntroWithoutMax",
+     "t": "Well, yeah. Of course. But I don't see how you gettin' yourself killed is gonna accomplish that."
+    },
+    {
+     "c": "525f22003030315416006864",
+     "n": 0,
+     "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
+     "t": "{{GM}}The smuggler glances at you, an eyebrow raised.{{/GM}}\n\nI'm gettin' the feelin' Maxim was a little... uh... wrong about you.\n\nYou're not run-of-the-mill muscle. What's your angle in all of this?"
+    },
+    {
+     "c": "525f22003030315416006864",
+     "n": 1,
+     "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
+     "t": "{{GM}}$+(s.he) pauses for a moment, regarding you with a critical eye. Then $(s.he) shrugs.{{/GM}}\n\nWorks for me."
+    },
+    {
+     "c": "525f22003030315416006864",
+     "n": 3,
+     "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
+     "t": "Maxim always took care of the deals before, an' they always went by the numbers.\n\nI dunno. Maybe he really was the only one they'd deal with. Maybe they just... liked him."
+    },
+    {
+     "c": "525f22003030315416006864",
+     "n": 5,
+     "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
+     "t": "Yeah... some of 'em came through us. I recognize the stamps of a couple of other smuggling rings on the others.\n\n{{GM}}$+(s.he) scans the jumble of crates and rapidly counts off on $(s.hisher) fingers.{{/GM}}\n\nI'm thinkin'... they've probably had about nine recent shipments, at least."
+    },
+    {
+     "c": "525f22003030315416006864",
+     "n": 6,
+     "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
+     "t": "Yeah. Uh, $(l.name)... maybe you should look into that."
     }
    ]
   },
@@ -79919,156 +80075,6 @@
     "t": "UR WIT WILL NOT SAVE U!"
    },
    {
-    "c": "525edc023030318015006801",
-    "n": 3,
-    "cn": "a2_Humanis_s1-IntroWithoutMax",
-    "t": "I knew it. With Maxim dead, they won't even *talk* to us."
-   },
-   {
-    "c": "525edc023030318015006801",
-    "n": 4,
-    "cn": "a2_Humanis_s1-IntroWithoutMax",
-    "t": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou think that maybe they had somethin' to do with that ambush back there?"
-   },
-   {
-    "c": "525edc023030318015006801",
-    "n": 5,
-    "cn": "a2_Humanis_s1-IntroWithoutMax",
-    "t": "If those monsters were workin' with Rammbock... if they did all of this...\n\n{{GM}}$+(s.hisher) face clouds.{{/GM}}\n\nSomeone's gotta put those pigs down."
-   },
-   {
-    "c": "525edc023030318015006801",
-    "n": 7,
-    "cn": "a2_Humanis_s1-IntroWithoutMax",
-    "t": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou ain't just hired muscle, are you?"
-   },
-   {
-    "c": "525edc023030318015006801",
-    "n": 8,
-    "cn": "a2_Humanis_s1-IntroWithoutMax",
-    "t": "You're serious, aren't you? You actually *want* to go in there.\n\n{{GM}}$+(s.he) takes a step back.{{/GM}}\n\nWell, be my guest... I won't get in your way. When you make it back - *if* you make it back - we'll be out here waiting for you."
-   },
-   {
-    "c": "525edc023030318015006801",
-    "n": 9,
-    "cn": "a2_Humanis_s1-IntroWithoutMax",
-    "t": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou serious? You're gonna walk in there?"
-   },
-   {
-    "c": "525edc023030318015006801",
-    "n": 10,
-    "cn": "a2_Humanis_s1-IntroWithoutMax",
-    "t": "Well, yeah. Of course. But I don't see how you gettin' yourself killed is gonna accomplish that."
-   },
-   {
-    "c": "525f202330303154160067d0",
-    "n": 0,
-    "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
-    "t": "{{GM}}Maxim glances at you, an eyebrow raised.{{/GM}}\n\nI'm starting to get the feeling Tuck was a little... less than forthcoming about you.\n\nYou're not run-of-the-mill muscle. What's your angle in all of this?"
-   },
-   {
-    "c": "525f202330303154160067d0",
-    "n": 1,
-    "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
-    "t": "{{GM}}He pauses for a moment, regarding you with a critical eye. Then he shrugs.{{/GM}}\n\nWorks for me."
-   },
-   {
-    "c": "525f202330303154160067d0",
-    "n": 3,
-    "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
-    "t": "It was a calculated risk. Humanis are racist scum, but they've paid us for our work in the past.\n\nWe rolled the dice, and we lost on this one. But something tells me that they're about to lose a whole lot more."
-   },
-   {
-    "c": "525f202330303154160067d0",
-    "n": 4,
-    "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
-    "t": "You have no idea."
-   },
-   {
-    "c": "525f202330303154160067d0",
-    "n": 5,
-    "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
-    "t": "Yeah... some of them came through us, and I recognize the stamps of a couple of other smuggling rings on the others.\n\nBetween what I see out here and what I know we've delivered, I'd say you're looking at nine recent shipments, at least."
-   },
-   {
-    "c": "525f202330303154160067d0",
-    "n": 6,
-    "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
-    "t": "Yeah, I suppose... might not be a bad idea for you to look into that, $(l.name)."
-   },
-   {
-    "c": "525f202330303154160067d0",
-    "n": 7,
-    "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
-    "t": "Fair enough."
-   },
-   {
-    "c": "525f22003030315416006864",
-    "n": 0,
-    "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
-    "t": "{{GM}}The smuggler glances at you, an eyebrow raised.{{/GM}}\n\nI'm gettin' the feelin' Maxim was a little... uh... wrong about you.\n\nYou're not run-of-the-mill muscle. What's your angle in all of this?"
-   },
-   {
-    "c": "525f22003030315416006864",
-    "n": 1,
-    "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
-    "t": "{{GM}}$+(s.he) pauses for a moment, regarding you with a critical eye. Then $(s.he) shrugs.{{/GM}}\n\nWorks for me."
-   },
-   {
-    "c": "525f22003030315416006864",
-    "n": 3,
-    "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
-    "t": "Maxim always took care of the deals before, an' they always went by the numbers.\n\nI dunno. Maybe he really was the only one they'd deal with. Maybe they just... liked him."
-   },
-   {
-    "c": "525f22003030315416006864",
-    "n": 4,
-    "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
-    "t": "{{GM}}Dietrich rolls his eyes.{{/GM}}\n\nSomehow, I doubt that."
-   },
-   {
-    "c": "525f22003030315416006864",
-    "n": 5,
-    "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
-    "t": "Yeah... some of 'em came through us. I recognize the stamps of a couple of other smuggling rings on the others.\n\n{{GM}}$+(s.he) scans the jumble of crates and rapidly counts off on $(s.hisher) fingers.{{/GM}}\n\nI'm thinkin'... they've probably had about nine recent shipments, at least."
-   },
-   {
-    "c": "525f22003030315416006864",
-    "n": 6,
-    "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
-    "t": "Yeah. Uh, $(l.name)... maybe you should look into that."
-   },
-   {
-    "c": "5260462c303031e80f006131",
-    "n": 0,
-    "cn": "a2_Humanis_s1-IntroDeitrich",
-    "t": "Look, boss... I just wanted to thank you for bringing me along on this one.\n\nIt means a lot."
-   },
-   {
-    "c": "5260462c303031e80f006131",
-    "n": 1,
-    "cn": "a2_Humanis_s1-IntroDeitrich",
-    "t": "{{GM}}He nods.{{/GM}}\n\nAlexander... he's a good kid, y'know? \n\nIf I'd been there for him... if I hadn't run off to Berlin, left him with his worthless sack of a dad... he'd never have fallen in with those Humanis pigs in the first place."
-   },
-   {
-    "c": "5260462c303031e80f006131",
-    "n": 2,
-    "cn": "a2_Humanis_s1-IntroDeitrich",
-    "t": "{{GM}}The expression on Dietrich's face softens, and he claps you on the shoulder.{{/GM}}\n\nLet's go find my nephew. And let's crack all the Humanis skulls we can along the way.\n\nThe fuckers have it coming in more ways than I can count."
-   },
-   {
-    "c": "5260462c303031e80f006131",
-    "n": 3,
-    "cn": "a2_Humanis_s1-IntroDeitrich",
-    "t": "{{GM}}He nods.{{/GM}}\n\nYeah. The run comes first. No need to worry about me, boss... I've got your back, no matter what."
-   },
-   {
-    "c": "5260462c303031e80f006131",
-    "n": 4,
-    "cn": "a2_Humanis_s1-IntroDeitrich",
-    "t": "{{GM}}His lips part into a wolfish grin.{{/GM}}\n\nYou got it, boss. I'll just count it against the heap of favors that you owe me.\n\nHow many times have I saved your ass since we started down this road? I've lost count."
-   },
-   {
     "c": "52af576d6161362808001bbe",
     "n": 3,
     "cn": "Haven-Global_Becks_01",
@@ -80855,12 +80861,6 @@
     "t": "Choose Mission Reward:"
    },
    {
-    "c": "52e5f3b4346238941d0008bf",
-    "n": 1,
-    "cn": "a2_aztechnologyRaid_s3-BloodMagesGoHostile",
-    "t": "These aren't Knight Errant! They're intruders! KILL THEM!"
-   },
-   {
     "c": "52f2de92323437e41d007c8d",
     "n": 2,
     "cn": "a2_SubwaySlums_s1-ScuffMarks",
@@ -80876,11 +80876,11 @@
  },
  "stats": {
   "nodes": 13492,
-  "attributed": 10931,
+  "attributed": 10957,
   "narrator": 1626,
   "input": 45,
   "empty": 725,
-  "unattributed": 165,
+  "unattributed": 139,
   "placeholder": 1
  },
  "sheets_indexed": 580,

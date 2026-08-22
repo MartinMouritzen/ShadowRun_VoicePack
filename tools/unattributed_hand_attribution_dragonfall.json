@@ -1,0 +1,62 @@
+{
+ "_comment": "Hand attribution for Dragonfall's unattributed bucket - lines the extractor could not bind to a speaker. Same shape and same applier as the DMS and Hong Kong files. A conversation is only listed with a target when the evidence is IN the lines: the speaker's own stage directions, a name they use, or a sibling conversation that attributes the same node slots. Everything else is marked review (needs a human call) or skip (not real dialogue), and stays unattributed on purpose. Dragonfall had never been through this tool at all, so all 165 of these lines were invisible in the lab and silent in the pack.",
+ "new_characters": [],
+ "convos": {
+  "5260462c303031e80f006131": {
+   "cn": "a2_Humanis_s1-IntroDeitrich",
+   "to": "name_dietrich",
+   "why": "Conversation name (misspelt Deitrich) plus node 2's own stage direction, 'The expression on Dietrich's face softens, and he claps you on the shoulder', and node 1's 'Alexander... he's a good kid' - Alexander is Dietrich's nephew."
+  },
+  "525f202330303154160067d0": {
+   "cn": "a2_Humanis_s2-PostBattleConversationWithMax",
+   "to": "name_maxim",
+   "why": "Node 0's stage direction names him: 'Maxim glances at you, an eyebrow raised.' Node 1 continues 'He pauses...' with fixed male pronouns, and the remaining nodes are the same speaker talking about his own smuggling ring."
+  },
+  "525f22003030315416006864": {
+   "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
+   "to": "name_smuggler",
+   "nodes": {"4": "name_dietrich"},
+   "why": "The Maxim-is-dead variant of the conversation above. Node 0 names the replacement speaker, 'The smuggler glances at you', and the rest use gender-variable $(s.he)/$(s.hisher), so the speaker is the generic smuggler rather than a named runner. Node 4 is the exception and is Dietrich by his own stage direction: 'Dietrich rolls his eyes.'"
+  },
+  "525edc023030318015006801": {
+   "cn": "a2_Humanis_s1-IntroWithoutMax",
+   "to": "name_smuggler",
+   "why": "The Maxim-is-dead variant of a2_Humanis_s1-IntroWithMax, which attributes node 3 to Maxim and node 7 to Dietrich. Here the same node slots are filled by a gender-variable speaker ($+(s.hisher) eyes widen), which rules out Dietrich (fixed male) and matches the generic smuggler who replaces Maxim in the PostBattle variant above."
+  },
+  "52e5f3b4346238941d0008bf": {
+   "cn": "a2_aztechnologyRaid_s3-BloodMagesGoHostile",
+   "to": "name_aztechnologybloodmage",
+   "why": "Single line, 'These aren't Knight Errant! They're intruders! KILL THEM!', spoken as the blood mages turn hostile in the conversation that names them."
+  },
+
+  "52af576d6161362808001bbe": {
+   "cn": "Haven-Global_Becks_01",
+   "review": true,
+   "why": "129 lines, and TWO speakers: an elderly couple who name themselves at nodes 38/39 as 'Kristian Beck, at your service. And this is my blushing bride, Karin.' Neither exists as a character, so this needs two new entries, a per-node split of all 129 lines between husband and wife, and two castings. Far too big to guess at - deliberately left for a human call."
+  },
+  "523c8ec3346238e41d008a3f": {
+   "cn": "Haven-Global_Seffi",
+   "review": true,
+   "why": "Single line, 'Hoi, $(l.name). What's shakin'?'. The Haven-Global_<Name> convention points at a character called Seffi, but nothing in the line itself names the speaker and no such character exists, so this would be a guess plus a new entry for one line."
+  },
+  "523b40e53030316412007a96": {
+   "cn": "a2_aztechnologyRaid_s3-QuietTimeOverRemark",
+   "review": true,
+   "why": "Single line, 'Well, it looks like at this point we have to do it the hard way.' Reads like a companion remark but names nobody, and any of the crew could be saying it."
+  },
+  "52f2de92323437e41d007c8d": {
+   "cn": "a2_SubwaySlums_s1-ScuffMarks",
+   "review": true,
+   "why": "Single line, 'Maybe we should ask around.' Same problem - a companion aside with no speaker evidence in it."
+  },
+
+  "52437cf33462388022000736": {
+   "cn": "a1_Intro_s2-BugOut",
+   "skip": true,
+   "why": "Developer placeholder, not dialogue: 'Mwa ha ha! I am villain! This is my villainous speech!', 'I SO VILLAINOUS!', 'RAAGH! I HAT U!'. Never shown to a player."
+  },
+  "52b9c834626164042000428c": {"cn": "ShopTestConvo", "skip": true, "why": "Test conversation - the single line is 'Shop Test'."},
+  "52c5dbd6626164c031004920": {"cn": "progressionTestConvo", "skip": true, "why": "Test conversation - 'Choose Mission Reward:' is UI furniture, not speech."},
+  "52fd38313361329c22001da5": {"cn": "StatsConvo", "skip": true, "why": "Debug stats readout of $(global.*) counters, not speech."}
+ }
+}
