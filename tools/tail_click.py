@@ -15,7 +15,7 @@ word), whereas an 8 ms ramp removes the discontinuity without removing any conte
   scan:  python3 tools/tail_click.py scan <game> [--all-takes] [--json out.json] [--top N]
   fix:   python3 tools/tail_click.py fix  <game> --threshold -24 [--dry-run] [--no-backup]
 """
-import argparse, json, os, subprocess, sys
+import argparse, json, os, re, subprocess, sys
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -23,7 +23,15 @@ APP  = os.path.join(os.path.dirname(HERE), "app")
 
 # Samples quieter than this are treated as digital silence / decoder padding, not audio.
 SILENCE_FLOOR = 10 ** (-80 / 20)
-FADE_S        = 0.008     # 8 ms: inaudible as a level change, kills the step and most of the smear
+FADE_S        = 0.060     # 60 ms, chosen by ear (see FADE NOTE below)
+# FADE NOTE: 8 ms is enough to kill the step itself, and for a clip that ends on a normal quiet
+# decay it is inaudible. But a minority of clips are cut off mid-word at full voice, and there an
+# 8 ms ramp still reads as a chop -- 60 ms reads as a decay instead. 60 ms is inaudible on the
+# clips that did not need it, so it is used everywhere rather than branching on clip class.
+MAX_FADE_FRAC = 0.25      # never fade more than a quarter of a clip (guards very short takes)
+SEG_FADE_S    = 0.008     # non-final segments: another ~g clip follows a beat later, so the ear is
+                          # still inside the sentence. 60 ms there is heard as the narrator swallowing
+                          # a word at every join; 8 ms is enough to kill the step and stays inaudible.
 BACKUP_DIR    = "_preclickfix"
 
 
@@ -69,12 +77,42 @@ def fix_file(path, out_path, audio_end_s, fade=FADE_S, bitrate="192k"):
     an MP3's reported duration includes encoder padding, so a duration-derived fade start
     can land past the real end and silently do nothing.
     """
+    fade = min(fade, audio_end_s * MAX_FADE_FRAC)
     st = max(0.0, audio_end_s - fade)
     r = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path,
                         "-af", f"afade=t=out:st={st:.6f}:d={fade}:curve=hsin",
                         "-c:a", "libmp3lame", "-b:a", bitrate, out_path],
                        capture_output=True)
     return r.returncode == 0, r.stderr.decode(errors="replace")[:300]
+
+
+SEG_RE = re.compile(r"^(.*)~g(\d+)(.*)$")
+
+
+def nonfinal_segment_files(game):
+    """Files whose line is a segment with a LATER segment after it (…~g0 when …~g1 exists).
+
+    These are not clip endings at all -- the plugin plays the next segment a beat later -- so they
+    get the short fade. Anything else (a whole line, a ~c variant, the last segment of a chain) is a
+    real ending and gets the full one.
+    """
+    takes = json.load(open(os.path.join(APP, "data", game, "takes.json")))
+    keys, out = {}, set()
+    for cid, lines in takes.items():
+        if isinstance(lines, dict):
+            keys[cid] = set(k for k, v in lines.items() if isinstance(v, dict))
+    for cid, lines in takes.items():
+        if not isinstance(lines, dict):
+            continue
+        for lk, rec in lines.items():
+            if not isinstance(rec, dict):
+                continue
+            m = SEG_RE.match(lk)
+            if not m or f"{m.group(1)}~g{int(m.group(2)) + 1}{m.group(3)}" not in keys[cid]:
+                continue
+            for tk in rec.get("takes") or []:
+                out.add(tk["file"])
+    return out
 
 
 def selected_takes(game, all_takes=False):
@@ -104,22 +142,27 @@ def main():
     ap.add_argument("--top", type=int, default=25)
     ap.add_argument("--jobs", type=int, default=3, help="parallel ffmpeg workers (keep low; this is CPU-heavy)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--from-json", help="reuse a previous scan's --json output instead of re-measuring")
     ap.add_argument("--no-backup", action="store_true")
     a = ap.parse_args()
 
     audio = os.path.join(APP, "audio", a.game)
-    rels = selected_takes(a.game, a.all_takes)
-    paths = [(r, os.path.join(audio, *r.split("/"))) for r in rels]
-    paths = [(r, p) for r, p in paths if os.path.exists(p)]
-    print(f"{len(paths)} clips", file=sys.stderr)
+    if a.from_json:
+        res = json.load(open(a.from_json))
+        print(f"{len(res)} clips (from {a.from_json})", file=sys.stderr)
+    else:
+        rels = selected_takes(a.game, a.all_takes)
+        paths = [(r, os.path.join(audio, *r.split("/"))) for r in rels]
+        paths = [(r, p) for r, p in paths if os.path.exists(p)]
+        print(f"{len(paths)} clips", file=sys.stderr)
 
-    from concurrent.futures import ThreadPoolExecutor
-    res = []
-    with ThreadPoolExecutor(max_workers=a.jobs) as pool:
-        for rel, m in zip([r for r, _ in paths], pool.map(lambda rp: measure(rp[1]), paths)):
-            if m:
-                m["rel"] = rel
-                res.append(m)
+        from concurrent.futures import ThreadPoolExecutor
+        res = []
+        with ThreadPoolExecutor(max_workers=a.jobs) as pool:
+            for rel, m in zip([r for r, _ in paths], pool.map(lambda rp: measure(rp[1]), paths)):
+                if m:
+                    m["rel"] = rel
+                    res.append(m)
 
     res.sort(key=lambda m: -m["step_db"])
     flagged = [m for m in res if m["step_db"] > a.threshold]
@@ -146,6 +189,9 @@ def main():
             print(f"  would fix {m['step_db']:7.1f} dBFS  {m['rel']}")
         return
 
+    seg = nonfinal_segment_files(a.game)
+    print(f"  ({len(seg & {m['rel'] for m in flagged})} of them are non-final segments -> {SEG_FADE_S*1000:.0f} ms fade)",
+          file=sys.stderr)
     ok = bad = 0
     for m in flagged:
         src = os.path.join(audio, *m["rel"].split("/"))
@@ -155,7 +201,8 @@ def main():
             if not os.path.exists(bak):
                 subprocess.run(["cp", "-p", src, bak], check=True)
         tmp = src + ".fix.mp3"
-        good, err = fix_file(src, tmp, m["audio_end_s"])
+        good, err = fix_file(src, tmp, m["audio_end_s"],
+                             fade=SEG_FADE_S if m["rel"] in seg else FADE_S)
         if not good:
             print(f"FAIL {m['rel']}: {err}", file=sys.stderr); bad += 1
             if os.path.exists(tmp): os.remove(tmp)
