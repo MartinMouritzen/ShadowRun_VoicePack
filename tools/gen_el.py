@@ -8,6 +8,8 @@ Deferred jobs (over budget) are written to tools/gen/el_deferred.json.
 Usage: gen_el.py [dms|dragonfall|hk]   (default dms) -- must match the game el_jobs.json was built for."""
 import json, os, sys, time, urllib.request, urllib.error
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # for tail_click
+
 GAME = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else "dms"
 if GAME not in ("dms", "dragonfall", "hk"):
     sys.exit(f"ERROR: unknown game '{GAME}' (expected dms|dragonfall|hk)")
@@ -56,7 +58,24 @@ for j in jobs:
         print(f"FAIL {j['segKey']}: {e.code} {msg}"); err += 1; continue
     ts = int(time.time())
     fname = f"{j['segKey']}__{j['voiceId'][:12]}__{ts}.mp3"
-    open(os.path.join(fn_dir, fname), "wb").write(audio)
+    take_path = os.path.join(fn_dir, fname)
+    open(take_path, "wb").write(audio)
+    # De-click here too. The lab server gates every take it writes, but this script talks to
+    # ElevenLabs directly and never goes through it, so without this the narrator segments are the
+    # one voice in the pack that still ends on a truncation click.
+    try:
+        import tail_click
+        m = tail_click.measure(take_path)
+        if m and m["env_db"] > -30.0:
+            tmp = take_path + ".declick.mp3"
+            ok, _ = tail_click.fix_file(take_path, tmp, m["audio_end_s"])
+            chk = tail_click.measure(tmp) if ok else None
+            if chk and chk["env_db"] <= -30.0:
+                os.replace(tmp, take_path)
+            elif os.path.exists(tmp):
+                os.remove(tmp)
+    except Exception as e:
+        print(f"  declick skipped for {fname}: {e}", file=sys.stderr)
     rel = f"{j['charId']}/takes/{fname}"
     out.write(json.dumps({"charId": j["charId"], "segKey": j["segKey"], "file": rel,
                           "voiceId": j["voiceId"], "voiceName": j["voiceName"],

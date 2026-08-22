@@ -140,6 +140,13 @@ def mechanical(t):
     # them out as "w"/"h". Strip only a bare marker at the very end of the text, which is where all
     # 47 sit -- never a mid-sentence parenthetical, which could be real dialogue.
     s = re.sub(r"\s*\((?:w|h)\)\s*$", "", s)
+    # A segment that is ENTIRELY one [bracketed] span is narration the writer punctuated with
+    # brackets ("[You point at a random object.]"), not an ElevenLabs v3 direction tag -- a tag
+    # directs speech, and here there is no speech outside it. v3 strips [...] as direction, so
+    # left alone the request carries no text at all and the API rejects it with "empty text": the
+    # segment silently never gets audio. Unwrap it so it is spoken. Only fires when the brackets
+    # wrap the WHOLE segment; inline [tags] beside real words are direction and are left alone.
+    s = re.sub(r"^\[([^\[\]]+)\]$", r"\1", s.strip())
     # canonical story strings (HK) — substitute BEFORE vocative logic so they read in character
     s = re.sub(r'\$\(story\.Global_Gobbet_Nickname\)', 'Seattle', s)
     s = re.sub(r'\$\(story\.Global_HK_Hub_SafeBoatName\)', 'Bolthole', s, flags=re.I)
