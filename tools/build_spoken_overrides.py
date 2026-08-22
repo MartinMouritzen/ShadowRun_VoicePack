@@ -52,8 +52,13 @@ def process(cid, cname, lines, is_narrator=False):
         # falls through to the raw text and reaches the TTS with the brackets still on it.
         # A yen sign needs an override for the same reason: left alone the line has no override at
         # all, the lab falls through to the raw text, and the TTS reads the glyph as "yen".
+        # A trailing (w)/(h) speaker marker needs an override for exactly the reason the brackets
+        # and the yen sign do: it is not speech, and without an override an unsegmented line falls
+        # through to the raw text and the TTS reads the marker out as "w"/"h". mechanical() strips
+        # it; this is what makes the line reach mechanical() at all.
         hv = (has_var(l['t']) or _re.search(r'[<>]', l['t'] or '') is not None
-              or '¥' in (l['t'] or ''))
+              or '¥' in (l['t'] or '')
+              or _re.search(r'\((?:w|h)\)\s*$', l['t'] or '') is not None)
         key = f"{l['c']}_{l['n']}"
         if key in SCREEN:
             s = mechanical(re.sub(r'\{\{/?[A-Za-z]*\}\}', '', strip_gm(SCREEN[key]))).strip()

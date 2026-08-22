@@ -1,6 +1,12 @@
 {
  "_comment": "Hand attribution for Dragonfall's unattributed bucket - lines the extractor could not bind to a speaker. Same shape and same applier as the DMS and Hong Kong files. A conversation is only listed with a target when the evidence is IN the lines: the speaker's own stage directions, a name they use, or a sibling conversation that attributes the same node slots. Everything else is marked review (needs a human call) or skip (not real dialogue), and stays unattributed on purpose. Dragonfall had never been through this tool at all, so all 165 of these lines were invisible in the lab and silent in the pack.",
- "new_characters": [],
+ "new_characters": [
+  {
+   "id": "name_kristianbeck",
+   "name": "Kristian Beck",
+   "note": "Karin's husband, the old man of the Kreuzbasar garden couple in Haven-Global_Becks_01. He names them both at node 39: 'My name is Kristian Beck, and this is my wife, Karin.' The extractor could not bind him: 17 of his nodes carry the tag isBecksHusband, which no scene prop declares, and the rest point at actor refs that exist in no scene file."
+  }
+ ],
  "convos": {
   "5260462c303031e80f006131": {
    "cn": "a2_Humanis_s1-IntroDeitrich",
@@ -15,7 +21,9 @@
   "525f22003030315416006864": {
    "cn": "a2_Humanis_s2-PostBattleConversationMaxDied",
    "to": "name_smuggler",
-   "nodes": {"4": "name_dietrich"},
+   "nodes": {
+    "4": "name_dietrich"
+   },
    "why": "The Maxim-is-dead variant of the conversation above. Node 0 names the replacement speaker, 'The smuggler glances at you', and the rest use gender-variable $(s.he)/$(s.hisher), so the speaker is the generic smuggler rather than a named runner. Node 4 is the exception and is Dietrich by his own stage direction: 'Dietrich rolls his eyes.'"
   },
   "525edc023030318015006801": {
@@ -28,11 +36,33 @@
    "to": "name_aztechnologybloodmage",
    "why": "Single line, 'These aren't Knight Errant! They're intruders! KILL THEM!', spoken as the blood mages turn hostile in the conversation that names them."
   },
-
   "52af576d6161362808001bbe": {
    "cn": "Haven-Global_Becks_01",
-   "review": true,
-   "why": "129 lines, and TWO speakers: an elderly couple who name themselves at nodes 38/39 as 'Kristian Beck, at your service. And this is my blushing bride, Karin.' Neither exists as a character, so this needs two new entries, a per-node split of all 129 lines between husband and wife, and two castings. Far too big to guess at - deliberately left for a human call."
+   "to": "name_kristianbeck",
+   "nodes": {
+    "92": "name_karinbeck",
+    "94": "name_karinbeck",
+    "95": "name_karinbeck",
+    "96": "name_karinbeck",
+    "98": "name_karinbeck",
+    "100": "name_karinbeck",
+    "102": "name_karinbeck",
+    "106": "name_karinbeck",
+    "108": "name_karinbeck",
+    "109": "name_karinbeck",
+    "110": "name_karinbeck",
+    "112": "name_karinbeck",
+    "119": "name_karinbeck",
+    "121": "name_karinbeck",
+    "123": "name_karinbeck",
+    "130": "name_karinbeck",
+    "131": "name_karinbeck",
+    "132": "name_karinbeck",
+    "133": "name_karinbeck",
+    "134": "name_karinbeck",
+    "135": "name_karinbeck"
+   },
+   "why": "Two speakers, split from the shipped conversation data rather than by ear. Three signals agree: per-node speaker refs, the tags isBecksWife/isBecksHusband, and the writers' own (w)/(h) markers left in the text. Nodes 88-135 are the one place they disagree - there BOTH actor refs carry a mix of (w) and (h), so the designer reused two slots and marked the real speaker in the text; the markers win in that block and the refs win everywhere else. That resolves all 129 with none left undetermined, and independently agrees with all 79 lines already filed under Karin. Default here is the husband (108 lines); the 21 nodes listed are Karin's."
   },
   "523c8ec3346238e41d008a3f": {
    "cn": "Haven-Global_Seffi",
@@ -49,14 +79,25 @@
    "review": true,
    "why": "Single line, 'Maybe we should ask around.' Same problem - a companion aside with no speaker evidence in it."
   },
-
   "52437cf33462388022000736": {
    "cn": "a1_Intro_s2-BugOut",
    "skip": true,
    "why": "Developer placeholder, not dialogue: 'Mwa ha ha! I am villain! This is my villainous speech!', 'I SO VILLAINOUS!', 'RAAGH! I HAT U!'. Never shown to a player."
   },
-  "52b9c834626164042000428c": {"cn": "ShopTestConvo", "skip": true, "why": "Test conversation - the single line is 'Shop Test'."},
-  "52c5dbd6626164c031004920": {"cn": "progressionTestConvo", "skip": true, "why": "Test conversation - 'Choose Mission Reward:' is UI furniture, not speech."},
-  "52fd38313361329c22001da5": {"cn": "StatsConvo", "skip": true, "why": "Debug stats readout of $(global.*) counters, not speech."}
+  "52b9c834626164042000428c": {
+   "cn": "ShopTestConvo",
+   "skip": true,
+   "why": "Test conversation - the single line is 'Shop Test'."
+  },
+  "52c5dbd6626164c031004920": {
+   "cn": "progressionTestConvo",
+   "skip": true,
+   "why": "Test conversation - 'Choose Mission Reward:' is UI furniture, not speech."
+  },
+  "52fd38313361329c22001da5": {
+   "cn": "StatsConvo",
+   "skip": true,
+   "why": "Debug stats readout of $(global.*) counters, not speech."
+  }
  }
 }

@@ -68,5 +68,13 @@
    "name": "Cadmus Supporter",
    "reason": "The scene fills this name from the Kickstarter backer list at runtime, so there is no value to resolve it to and apply_hk_names.py leaves the token standing. The lab showed the raw '$(...)' as the character's name and it would have been unlistenable to cast from. Renamed to what the character IS - taken from the portrait key where there is one, and from their own scene and stage directions where there is not."
   }
+ ],
+ "dragonfall": [
+  {
+   "from": "name_wanderer",
+   "to": "name_karinbeck",
+   "name": "Karin Beck",
+   "reason": "Not the player. This bucket is Kristian Beck's wife in Haven-Global_Becks_01, and it exists for that conversation alone. The extractor named her 'Wanderer' because her speaker actor sits on a chars_icon_playerIcon prop in scene a3_haven, whose CharacterInstance name is 'Wanderer' - a prop label, not a character. Her real name is in her husband's own line at node 39: 'My name is Kristian Beck, and this is my wife, Karin.' Renaming keeps the lab from re-casting her as a player stand-in later, and stops 'Wanderer' appearing as a speaker that does not exist."
+  }
  ]
 }

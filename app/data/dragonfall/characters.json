@@ -51812,8 +51812,8 @@
    "portraitFile": "dragonfall/npc_humanmale_quorin.png"
   },
   {
-   "id": "name_wanderer",
-   "name": "Wanderer",
+   "id": "name_karinbeck",
+   "name": "Karin Beck",
    "portrait": "\n\u0000",
    "archetype": null,
    "bio": null,
@@ -52159,6 +52159,264 @@
      "n": 179,
      "cn": "Haven-Global_Becks_01",
      "t": "Heaven forbid we put you in that situation."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 183,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Oh! It's you! We were wondering if we'd ever see you again."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 184,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And yes, we're fine. We've lived through worse in this city, and we had good people protecting us this time."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 186,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Any other kiez, we might not have fared so well. But people here are different. They stand together."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 194,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The Becks stand talking with each other in hushed tones. They would appear to be conspiring together, if not for their advanced age and friendly faces. They greet you with warm smiles as per their usual, even after everything that has happened.{{/GM}}\n\nWell then, have we recovered from the earlier troubles?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 196,
+     "cn": "Haven-Global_Becks_01",
+     "t": "What my husband is attempting to say is that we're fine, but we're trying to decide what to do next."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 198,
+     "cn": "Haven-Global_Becks_01",
+     "t": "But we also love it here. It is not an easy decision to make, especially at our age."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 199,
+     "cn": "Haven-Global_Becks_01",
+     "t": "If only we knew what was best. There is much uncertainty beyond the Kreuzbasar, and even more beyond the walls of Berlin."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 200,
+     "cn": "Haven-Global_Becks_01",
+     "t": "If you don't mind us asking, what is this place to you?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 204,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Thank you for everything, and be careful out there."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 205,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Few places in this world are."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 206,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I hope you're right, because we don't always feel so strong."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 208,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Welcome back, dear. I trust all things are settled?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 209,
+     "cn": "Haven-Global_Becks_01",
+     "t": "She would be so proud. Thank you."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 210,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And in case it wasn't already obvious, you should know that we've decided to stay."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 211,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We could never leave this place. We are as married to it as we are to each other."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 213,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Don't you start with me, mein Schatz."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 215,
+     "cn": "Haven-Global_Becks_01",
+     "t": "\"We\"? Mein Schatz, either we are in the presence of royalty, or $(l.he) has decided to keep on."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 217,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Kristian nods somewhat somberly, but Karin stays more upbeat.{{/GM}}\n\nWe'll take whatever we can get. Thank you."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 220,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Quick, Kristian. Get my purse."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 221,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I think the Flux may have $(l.him), mein Schatz."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 222,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I hope they got what they deserved for taking her from us."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 223,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I just know she's been watching over us. And you."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 92,
+     "cn": "Haven-Global_Becks_01",
+     "t": "He's not the type, Kristian. We know him. Zaak is hardly an angel, but he is not capable of that kind of violence. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 94,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Thank you. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 95,
+     "cn": "Haven-Global_Becks_01",
+     "t": "If you believe she chose that life, then you are the naive one. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 96,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I truly hope so. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 98,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And people say I am the naive one. Mein Schatz, we've seen life in the other kieze. Pimps and dealers who use fear and violence to cow others into submission. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 100,
+     "cn": "Haven-Global_Becks_01",
+     "t": "No resident of the Kreuzbasar would have done such a thing when Monika was in charge. To think those impulses ever existed and now are free to be expressed... (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 102,
+     "cn": "Haven-Global_Becks_01",
+     "t": "A human, to be specific. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 106,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Or he was trying to kill him, which would surely give Samuel cause to react. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 108,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Thank you, dear. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 109,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Few here do, thankfully. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 110,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We appreciate it. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 112,
+     "cn": "Haven-Global_Becks_01",
+     "t": "But he has made a vow. He will not take up arms again. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 119,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I remember hearing the reports of the anarchists burning City Hall, and seeing the smoke over the rooftops. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 121,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We were sure it was only a matter of time before the government or the corporations regained control. So we waited. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 123,
+     "cn": "Haven-Global_Becks_01",
+     "t": "The government did nothing! They wrote the city off as a loss. Probably figured the whole anarchist movement would bury itself in time, saving them the trouble. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 130,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Others we tried were worse. One even kicked us out because of our age. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 131,
+     "cn": "Haven-Global_Becks_01",
+     "t": "At times we regretted staying on this side of the walls. But then we found the Kreuzbasar, and we were home. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 132,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We understand. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 133,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Stay safe. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 134,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Few things appear to be routine these days. (w)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 135,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Oh, we're fine. Thanks for checking on us. (w)"
     }
    ]
   },
@@ -59042,147 +59300,6 @@
     }
    ],
    "portraitFile": "dragonfall/npc_humanmale_maintenanceworker.png"
-  },
-  {
-   "id": "name_oldwoman",
-   "name": "Old Woman",
-   "portrait": "\n\u0000",
-   "archetype": null,
-   "bio": null,
-   "lines": [
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 183,
-     "cn": "Haven-Global_Becks_01",
-     "t": "Oh! It's you! We were wondering if we'd ever see you again."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 184,
-     "cn": "Haven-Global_Becks_01",
-     "t": "And yes, we're fine. We've lived through worse in this city, and we had good people protecting us this time."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 186,
-     "cn": "Haven-Global_Becks_01",
-     "t": "Any other kiez, we might not have fared so well. But people here are different. They stand together."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 194,
-     "cn": "Haven-Global_Becks_01",
-     "t": "{{GM}}The Becks stand talking with each other in hushed tones. They would appear to be conspiring together, if not for their advanced age and friendly faces. They greet you with warm smiles as per their usual, even after everything that has happened.{{/GM}}\n\nWell then, have we recovered from the earlier troubles?"
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 196,
-     "cn": "Haven-Global_Becks_01",
-     "t": "What my husband is attempting to say is that we're fine, but we're trying to decide what to do next."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 198,
-     "cn": "Haven-Global_Becks_01",
-     "t": "But we also love it here. It is not an easy decision to make, especially at our age."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 199,
-     "cn": "Haven-Global_Becks_01",
-     "t": "If only we knew what was best. There is much uncertainty beyond the Kreuzbasar, and even more beyond the walls of Berlin."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 200,
-     "cn": "Haven-Global_Becks_01",
-     "t": "If you don't mind us asking, what is this place to you?"
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 204,
-     "cn": "Haven-Global_Becks_01",
-     "t": "Thank you for everything, and be careful out there."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 205,
-     "cn": "Haven-Global_Becks_01",
-     "t": "Few places in this world are."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 206,
-     "cn": "Haven-Global_Becks_01",
-     "t": "I hope you're right, because we don't always feel so strong."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 208,
-     "cn": "Haven-Global_Becks_01",
-     "t": "Welcome back, dear. I trust all things are settled?"
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 209,
-     "cn": "Haven-Global_Becks_01",
-     "t": "She would be so proud. Thank you."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 210,
-     "cn": "Haven-Global_Becks_01",
-     "t": "And in case it wasn't already obvious, you should know that we've decided to stay."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 211,
-     "cn": "Haven-Global_Becks_01",
-     "t": "We could never leave this place. We are as married to it as we are to each other."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 213,
-     "cn": "Haven-Global_Becks_01",
-     "t": "Don't you start with me, mein Schatz."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 215,
-     "cn": "Haven-Global_Becks_01",
-     "t": "\"We\"? Mein Schatz, either we are in the presence of royalty, or $(l.he) has decided to keep on."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 217,
-     "cn": "Haven-Global_Becks_01",
-     "t": "{{GM}}Kristian nods somewhat somberly, but Karin stays more upbeat.{{/GM}}\n\nWe'll take whatever we can get. Thank you."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 220,
-     "cn": "Haven-Global_Becks_01",
-     "t": "Quick, Kristian. Get my purse."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 221,
-     "cn": "Haven-Global_Becks_01",
-     "t": "I think the Flux may have $(l.him), mein Schatz."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 222,
-     "cn": "Haven-Global_Becks_01",
-     "t": "I hope they got what they deserved for taking her from us."
-    },
-    {
-     "c": "52af576d6161362808001bbe",
-     "n": 223,
-     "cn": "Haven-Global_Becks_01",
-     "t": "I just know she's been watching over us. And you."
-    }
-   ]
   },
   {
    "id": "name_meatgrinder",
@@ -68327,6 +68444,664 @@
    ],
    "screenSpeaker": "bbs",
    "gender": "male"
+  },
+  {
+   "id": "name_kristianbeck",
+   "name": "Kristian Beck",
+   "portrait": null,
+   "archetype": null,
+   "bio": "Karin's husband, the old man of the Kreuzbasar garden couple in Haven-Global_Becks_01. He names them both at node 39: 'My name is Kristian Beck, and this is my wife, Karin.' The extractor could not bind him: 17 of his nodes carry the tag isBecksHusband, which no scene prop declares, and the rest point at actor refs that exist in no scene file.",
+   "lines": [
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 3,
+     "cn": "Haven-Global_Becks_01",
+     "t": "My love, why would you say such a thing?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 5,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Friend? $+(l.he) is Monika's new friend. We don't judge their work. We are grateful."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 7,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The woman's warm smile fades as she reads the tone in your voice. The old man frowns.{{/GM}}\n\nWhat happened?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 12,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We appreciate it. Come, my love. We've done enough work for today."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 13,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Be well."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 14,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We know. And we'll be all right, won't we, my love?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 16,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The old man glares at your callous tone, but when he sees the expression on his woman's face, he can't maintain his anger.{{/GM}}\n\nI thought... I thought she'd make it. Long term, I mean. She was always so careful."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 20,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The elderly couple huddles together in the cool air, their hands cupped around their respective cups of coffee. Seeing you, they warm, if ever so slightly.{{/GM}}\n\nHello again."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 23,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And this place meant a lot to her."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 24,
+     "cn": "Haven-Global_Becks_01",
+     "t": "She made this neighborhood a sanctuary. A home. You ask anyone here why they came, and you'll get a hundred different reasons. But you ask them why they stayed, and you'll get one.\n\nMonika."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 25,
+     "cn": "Haven-Global_Becks_01",
+     "t": "This is different."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 26,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Monika was close with everyone here."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 28,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Indeed we are. Kristian and Karin."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 31,
+     "cn": "Haven-Global_Becks_01",
+     "t": "It's the nature of the city. Always changing. A kiez that is peaceful one year becomes a warzone the next. It kept us constantly moving, looking for somewhere safe."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 33,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And then we discovered the Kreuzbasar, and Monika. We could tell she had a good head on her shoulders. So we figured this could be a home for us."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 34,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Hard to say."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 35,
+     "cn": "Haven-Global_Becks_01",
+     "t": "The Flux sees to it that few things stay the same for long. Without Monika here to read it and react, I'm not sure what the future holds.\n\nOnly time will tell."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 36,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Maybe so."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 37,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I hope so, too. For all our sakes. But I do worry."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 38,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Kristian Beck, at your service. And this is my blushing bride, Karin."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 39,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Well, we are pleased to meet you, $(l.name). My name is Kristian Beck, and this is my wife, Karin."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 41,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Yes?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 42,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}When you next come across the Becks, they are back to work, this time bagging litter, slowly but surely. They seem grateful for an excuse to rest when you walk up.{{/GM}}\n\nGood to see you again."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 47,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The couple exchanges a look.{{/GM}}\n\nBy now, word has spread beyond the Kreuzbasar. There has been talk. Some have even seen strangers sniffing about."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 48,
+     "cn": "Haven-Global_Becks_01",
+     "t": "It was widely known that Monika protected this place. Not alone, of course. But she was the architect of the Kreuzbasar's alliances in peace time, and defenses in war time. She was our diplomat and our general."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 51,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Eiger might serve in a time of conflict, but she was not made for peace."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 52,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Glory needed Monika as much as any of us. Maybe more."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 53,
+     "cn": "Haven-Global_Becks_01",
+     "t": "He strikes me as one who shirks responsibility more often than not."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 54,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Agreed."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 58,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We had just moved back a few years prior. Karin and I met in the UCAS. Got married there. But I had always promised to bring her home to Berlin someday."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 59,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Seemed that no sooner had we settled than the Russians were invading."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 61,
+     "cn": "Haven-Global_Becks_01",
+     "t": "The assassinations. The Nightwraiths. We never saw any of it, mind you. I'm fairly certain that we slept through the whole thing."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 62,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And the next morning it was all over. The fighting, at least. There were still plenty of soldiers left in the city. German, Russian, Polish. But we had our lives back."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 63,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Those were dark days."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 64,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We weren't in any immediate danger here, of course. But the soldiers who had remained to restore order in Berlin were suddenly called away."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 66,
+     "cn": "Haven-Global_Becks_01",
+     "t": "But the bigger problem was their absence here in the city. It was anarchy, but without the F-State to keep parties in check."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 67,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We kept our heads down, worked our jobs, and waited for the day order would be restored."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 70,
+     "cn": "Haven-Global_Becks_01",
+     "t": "For years, the city had been devolving into chaos. Violence on the streets, unbridled corporate abuse, political corruption."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 72,
+     "cn": "Haven-Global_Becks_01",
+     "t": "By '39, metas outnumbered humans in almost every kiez. Groups like Humanis didn't like that. They held rallies, even tried to recruit us."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 74,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And some say that was the day the Flux was born."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 75,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Of course."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 79,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Back again?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 83,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We do appreciate your efforts around here. You seem to be adapting to the F-State rather well."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 85,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Karin looks ready to make a quick reply, but Kristian places a hand on her shoulder and gives her a look that says they should not dismiss the question lightly.{{/GM}}\n\nSince you ask, we do have some concerns."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 86,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Since we last spoke, there have been more reports of strangers in the Kreuzbasar. And with these visits, there have also come some unfortunate incidents. One with Miss Kim, and another with Mr. Laine."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 89,
+     "cn": "Haven-Global_Becks_01",
+     "t": "You're speculating, dear. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 91,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I think it's a possibility. With Monika gone, there's no one to keep that boy in line. And might just be that he's grown paranoid that he's losing his consumer base. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 93,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Only Kim knows the truth, but she won't speak of it. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 97,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Exactly my point. If someone wishes to steal Zaak's business, beating his customers isn't a smart way to go about it. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 99,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Maybe so. But if true, we have more to fear than we thought. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 101,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Only what we've heard. That he nearly killed a man who cornered him in an alley. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 103,
+     "cn": "Haven-Global_Becks_01",
+     "t": "We don't know that it was racially motivated, my dear. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 104,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Samuel is well known throughout the city. He could rally the orks and trolls of Berlin if he so chose. But before he'd ever rise for war, he would confer with Laine. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 105,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Could be that the man was trying to convince Laine to offer advice one way or the other. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 107,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Suffice it to say, war of any kind would not bode well for the Kreuzbasar. But should it come to pass, the presence or loss of the \"Arctic Fox\" would be significant. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 111,
+     "cn": "Haven-Global_Becks_01",
+     "t": "The mere suggestion of that might have been enough to provoke Laine. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 113,
+     "cn": "Haven-Global_Becks_01",
+     "t": "I hope you are right, my dear. But once a soldier, always a soldier. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 114,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Of all those in the Kreuzbasar, would Mr. Laine be your first choice of target? Crippled or no, he's still one of the most dangerous men here. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 115,
+     "cn": "Haven-Global_Becks_01",
+     "t": "It's far more likely that this was a targeted move. To recruit, dissuade, or eliminate. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 116,
+     "cn": "Haven-Global_Becks_01",
+     "t": "His experiences fighting in the Euro Wars could make all the difference in a conflict. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 117,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Indeed we will. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 118,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Not here in the Kreuzbasar, but in Berlin, yes. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 120,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And then came Schoneberg, and the Final Law. Few took it seriously at first. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 124,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Only it hasn't crumbled yet. Believers like Monika made it work. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 125,
+     "cn": "Haven-Global_Becks_01",
+     "t": "The corporations seemed to welcome the F-State. No regulations. No rules but the Final Law. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 126,
+     "cn": "Haven-Global_Becks_01",
+     "t": "All except for Saeder-Krupp. The Flux opened the door for outsiders to take a piece of Lofwyr's pie. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 127,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Many of those left in Berlin were the disenfranchised. The old ways of running things did little for them, so most embraced the F-State. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 128,
+     "cn": "Haven-Global_Becks_01",
+     "t": "It worked out well for some, less so for others. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 129,
+     "cn": "Haven-Global_Becks_01",
+     "t": "It took us quite some time to find a place within the F-State. Our first kiez changed so radically that we were compelled to leave. (h)"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 136,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Welcome back."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 137,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The Becks are listening to a local news feed on an ancient receiver patched into the telecomm grid. Seeing you approach, they dial down the volume.{{/GM}}\n\nSomething tells me you'd be a better source of the latest news."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 139,
+     "cn": "Haven-Global_Becks_01",
+     "t": "So what brings you by?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 141,
+     "cn": "Haven-Global_Becks_01",
+     "t": "You could say that."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 148,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Families just don't feel safe anymore."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 152,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Agitators. Targeting the younger, more brash members."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 155,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Easier said than done when you're young and feel immortal."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 156,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Also the best way to get good men killed."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 157,
+     "cn": "Haven-Global_Becks_01",
+     "t": "So long as he himself is not provoked."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 158,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Aggressive competition. It was well known that Monika favored the vendors who called the Kreuzbasar home. But now, outsiders are making inroads."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 160,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Some would say this is the way of the F-State. It is the ultimate free market. But there are those who would do great harm in the pursuit of profit."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 166,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Something big is happening, but nobody seems to understand what it all means."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 167,
+     "cn": "Haven-Global_Becks_01",
+     "t": "And if the F-State doesn't know how to react, everybody gets paranoid that they may be next."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 168,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Corporations, political groups, gangs. Everyone is on edge."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 170,
+     "cn": "Haven-Global_Becks_01",
+     "t": "More than a few have been hit recently."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 171,
+     "cn": "Haven-Global_Becks_01",
+     "t": "DeMeKo, EMC, Fuchi, Renraku, Teltech. The list goes on. No real rhyme or reason to it."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 172,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Nearly all of them, from the sounds of it."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 173,
+     "cn": "Haven-Global_Becks_01",
+     "t": "NAP, the Lisbians, ORC, Royal Blue. We even hear things about groups that aren't supposed to even exist."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 174,
+     "cn": "Haven-Global_Becks_01",
+     "t": "It's hard to tell with them, if they're being hit in the same fashion or just attacking each other out of fear."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 175,
+     "cn": "Haven-Global_Becks_01",
+     "t": "But the list is just as long. The Horde, Red Skins and White Skins, the Green Bards, and on and on and on."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 176,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Always."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 180,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Back again?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 185,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Thanks to you, no doubt."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 187,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Do we know yet who they were? What happened?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 188,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Best of luck then. Everyone here would sure appreciate knowing that the situation is being handled."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 190,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Good."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 191,
+     "cn": "Haven-Global_Becks_01",
+     "t": "All we ask is that this is the only time. I hope you can promise that."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 192,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Thank you. We can breathe easier knowing that it's being taken care of."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 195,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Well... I... I mean, we... We were just...\n\n{{GM}}The normally straightforward Kristian finds himself momentarily fumbling for words.{{/GM}}"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 197,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Kristian nods along with her, as if being convinced of something in this very moment.{{/GM}}\n\nYes. The truth is, we were discussing whether we should stay or go. Things are changing..."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 201,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Both Kristian and Karin grow pensive, and ultimately share a secret smile.{{/GM}}\n\nYes, I suppose it always has been."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 202,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Kristian and Karin exchange a look.{{/GM}}\n\nFor you, I suppose that is what it must be. Not so for us, of course."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 203,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Kristian and Karin look at each other, sharing a thought in the way old couples do.{{/GM}}\n\nThank you, $(l.name). Once again, you have helped more than you can know."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 207,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The unofficial grandparents of the Kreuzbasar greet you warmly on your return, with a hug from Karin and a firm handshake from Kristian.{{/GM}}\n\nI had a feeling we'd be seeing you again."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 212,
+     "cn": "Haven-Global_Becks_01",
+     "t": "Oh, are we now?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 214,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Kristian gives his wife a look that must have been in his eyes on their wedding day. He then composes himself and turns back to you.{{/GM}}\n\nAnd what about you, $(l.name)? What does the future hold now that your work here is done?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 216,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Kristian regards you more seriously.{{/GM}}\n\nIs this true? Will you be staying?"
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 218,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}The Becks appear deflated, but nod in understanding.{{/GM}}\n\nWe won't forget what you've done for us. Thank you."
+    },
+    {
+     "c": "52af576d6161362808001bbe",
+     "n": 219,
+     "cn": "Haven-Global_Becks_01",
+     "t": "{{GM}}Kristian takes his wife around the shoulders and hugs her close as she begins to tear up.{{/GM}}\n\nNeither can we. Thank you. Thank you for everything."
+    }
+   ],
+   "portraitFile": null
   }
  ],
  "narrator": {
@@ -80075,780 +80850,6 @@
     "t": "UR WIT WILL NOT SAVE U!"
    },
    {
-    "c": "52af576d6161362808001bbe",
-    "n": 3,
-    "cn": "Haven-Global_Becks_01",
-    "t": "My love, why would you say such a thing?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 5,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Friend? $+(l.he) is Monika's new friend. We don't judge their work. We are grateful."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 7,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}The woman's warm smile fades as she reads the tone in your voice. The old man frowns.{{/GM}}\n\nWhat happened?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 12,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We appreciate it. Come, my love. We've done enough work for today."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 13,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Be well."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 14,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We know. And we'll be all right, won't we, my love?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 16,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}The old man glares at your callous tone, but when he sees the expression on his woman's face, he can't maintain his anger.{{/GM}}\n\nI thought... I thought she'd make it. Long term, I mean. She was always so careful."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 20,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}The elderly couple huddles together in the cool air, their hands cupped around their respective cups of coffee. Seeing you, they warm, if ever so slightly.{{/GM}}\n\nHello again."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 23,
-    "cn": "Haven-Global_Becks_01",
-    "t": "And this place meant a lot to her."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 24,
-    "cn": "Haven-Global_Becks_01",
-    "t": "She made this neighborhood a sanctuary. A home. You ask anyone here why they came, and you'll get a hundred different reasons. But you ask them why they stayed, and you'll get one.\n\nMonika."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 25,
-    "cn": "Haven-Global_Becks_01",
-    "t": "This is different."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 26,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Monika was close with everyone here."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 28,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Indeed we are. Kristian and Karin."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 31,
-    "cn": "Haven-Global_Becks_01",
-    "t": "It's the nature of the city. Always changing. A kiez that is peaceful one year becomes a warzone the next. It kept us constantly moving, looking for somewhere safe."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 33,
-    "cn": "Haven-Global_Becks_01",
-    "t": "And then we discovered the Kreuzbasar, and Monika. We could tell she had a good head on her shoulders. So we figured this could be a home for us."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 34,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Hard to say."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 35,
-    "cn": "Haven-Global_Becks_01",
-    "t": "The Flux sees to it that few things stay the same for long. Without Monika here to read it and react, I'm not sure what the future holds.\n\nOnly time will tell."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 36,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Maybe so."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 37,
-    "cn": "Haven-Global_Becks_01",
-    "t": "I hope so, too. For all our sakes. But I do worry."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 38,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Kristian Beck, at your service. And this is my blushing bride, Karin."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 39,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Well, we are pleased to meet you, $(l.name). My name is Kristian Beck, and this is my wife, Karin."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 41,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Yes?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 42,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}When you next come across the Becks, they are back to work, this time bagging litter, slowly but surely. They seem grateful for an excuse to rest when you walk up.{{/GM}}\n\nGood to see you again."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 47,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}The couple exchanges a look.{{/GM}}\n\nBy now, word has spread beyond the Kreuzbasar. There has been talk. Some have even seen strangers sniffing about."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 48,
-    "cn": "Haven-Global_Becks_01",
-    "t": "It was widely known that Monika protected this place. Not alone, of course. But she was the architect of the Kreuzbasar's alliances in peace time, and defenses in war time. She was our diplomat and our general."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 51,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Eiger might serve in a time of conflict, but she was not made for peace."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 52,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Glory needed Monika as much as any of us. Maybe more."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 53,
-    "cn": "Haven-Global_Becks_01",
-    "t": "He strikes me as one who shirks responsibility more often than not."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 54,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Agreed."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 58,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We had just moved back a few years prior. Karin and I met in the UCAS. Got married there. But I had always promised to bring her home to Berlin someday."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 59,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Seemed that no sooner had we settled than the Russians were invading."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 61,
-    "cn": "Haven-Global_Becks_01",
-    "t": "The assassinations. The Nightwraiths. We never saw any of it, mind you. I'm fairly certain that we slept through the whole thing."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 62,
-    "cn": "Haven-Global_Becks_01",
-    "t": "And the next morning it was all over. The fighting, at least. There were still plenty of soldiers left in the city. German, Russian, Polish. But we had our lives back."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 63,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Those were dark days."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 64,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We weren't in any immediate danger here, of course. But the soldiers who had remained to restore order in Berlin were suddenly called away."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 66,
-    "cn": "Haven-Global_Becks_01",
-    "t": "But the bigger problem was their absence here in the city. It was anarchy, but without the F-State to keep parties in check."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 67,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We kept our heads down, worked our jobs, and waited for the day order would be restored."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 70,
-    "cn": "Haven-Global_Becks_01",
-    "t": "For years, the city had been devolving into chaos. Violence on the streets, unbridled corporate abuse, political corruption."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 72,
-    "cn": "Haven-Global_Becks_01",
-    "t": "By '39, metas outnumbered humans in almost every kiez. Groups like Humanis didn't like that. They held rallies, even tried to recruit us."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 74,
-    "cn": "Haven-Global_Becks_01",
-    "t": "And some say that was the day the Flux was born."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 75,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Of course."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 79,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Back again?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 83,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We do appreciate your efforts around here. You seem to be adapting to the F-State rather well."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 85,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Karin looks ready to make a quick reply, but Kristian places a hand on her shoulder and gives her a look that says they should not dismiss the question lightly.{{/GM}}\n\nSince you ask, we do have some concerns."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 86,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Since we last spoke, there have been more reports of strangers in the Kreuzbasar. And with these visits, there have also come some unfortunate incidents. One with Miss Kim, and another with Mr. Laine."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 89,
-    "cn": "Haven-Global_Becks_01",
-    "t": "You're speculating, dear. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 91,
-    "cn": "Haven-Global_Becks_01",
-    "t": "I think it's a possibility. With Monika gone, there's no one to keep that boy in line. And might just be that he's grown paranoid that he's losing his consumer base. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 92,
-    "cn": "Haven-Global_Becks_01",
-    "t": "He's not the type, Kristian. We know him. Zaak is hardly an angel, but he is not capable of that kind of violence. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 93,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Only Kim knows the truth, but she won't speak of it. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 94,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Thank you. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 95,
-    "cn": "Haven-Global_Becks_01",
-    "t": "If you believe she chose that life, then you are the naive one. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 96,
-    "cn": "Haven-Global_Becks_01",
-    "t": "I truly hope so. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 97,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Exactly my point. If someone wishes to steal Zaak's business, beating his customers isn't a smart way to go about it. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 98,
-    "cn": "Haven-Global_Becks_01",
-    "t": "And people say I am the naive one. Mein Schatz, we've seen life in the other kieze. Pimps and dealers who use fear and violence to cow others into submission. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 99,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Maybe so. But if true, we have more to fear than we thought. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 100,
-    "cn": "Haven-Global_Becks_01",
-    "t": "No resident of the Kreuzbasar would have done such a thing when Monika was in charge. To think those impulses ever existed and now are free to be expressed... (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 101,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Only what we've heard. That he nearly killed a man who cornered him in an alley. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 102,
-    "cn": "Haven-Global_Becks_01",
-    "t": "A human, to be specific. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 103,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We don't know that it was racially motivated, my dear. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 104,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Samuel is well known throughout the city. He could rally the orks and trolls of Berlin if he so chose. But before he'd ever rise for war, he would confer with Laine. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 105,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Could be that the man was trying to convince Laine to offer advice one way or the other. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 106,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Or he was trying to kill him, which would surely give Samuel cause to react. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 107,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Suffice it to say, war of any kind would not bode well for the Kreuzbasar. But should it come to pass, the presence or loss of the \"Arctic Fox\" would be significant. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 108,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Thank you, dear. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 109,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Few here do, thankfully. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 110,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We appreciate it. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 111,
-    "cn": "Haven-Global_Becks_01",
-    "t": "The mere suggestion of that might have been enough to provoke Laine. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 112,
-    "cn": "Haven-Global_Becks_01",
-    "t": "But he has made a vow. He will not take up arms again. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 113,
-    "cn": "Haven-Global_Becks_01",
-    "t": "I hope you are right, my dear. But once a soldier, always a soldier. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 114,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Of all those in the Kreuzbasar, would Mr. Laine be your first choice of target? Crippled or no, he's still one of the most dangerous men here. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 115,
-    "cn": "Haven-Global_Becks_01",
-    "t": "It's far more likely that this was a targeted move. To recruit, dissuade, or eliminate. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 116,
-    "cn": "Haven-Global_Becks_01",
-    "t": "His experiences fighting in the Euro Wars could make all the difference in a conflict. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 117,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Indeed we will. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 118,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Not here in the Kreuzbasar, but in Berlin, yes. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 119,
-    "cn": "Haven-Global_Becks_01",
-    "t": "I remember hearing the reports of the anarchists burning City Hall, and seeing the smoke over the rooftops. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 120,
-    "cn": "Haven-Global_Becks_01",
-    "t": "And then came Schoneberg, and the Final Law. Few took it seriously at first. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 121,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We were sure it was only a matter of time before the government or the corporations regained control. So we waited. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 123,
-    "cn": "Haven-Global_Becks_01",
-    "t": "The government did nothing! They wrote the city off as a loss. Probably figured the whole anarchist movement would bury itself in time, saving them the trouble. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 124,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Only it hasn't crumbled yet. Believers like Monika made it work. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 125,
-    "cn": "Haven-Global_Becks_01",
-    "t": "The corporations seemed to welcome the F-State. No regulations. No rules but the Final Law. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 126,
-    "cn": "Haven-Global_Becks_01",
-    "t": "All except for Saeder-Krupp. The Flux opened the door for outsiders to take a piece of Lofwyr's pie. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 127,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Many of those left in Berlin were the disenfranchised. The old ways of running things did little for them, so most embraced the F-State. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 128,
-    "cn": "Haven-Global_Becks_01",
-    "t": "It worked out well for some, less so for others. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 129,
-    "cn": "Haven-Global_Becks_01",
-    "t": "It took us quite some time to find a place within the F-State. Our first kiez changed so radically that we were compelled to leave. (h)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 130,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Others we tried were worse. One even kicked us out because of our age. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 131,
-    "cn": "Haven-Global_Becks_01",
-    "t": "At times we regretted staying on this side of the walls. But then we found the Kreuzbasar, and we were home. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 132,
-    "cn": "Haven-Global_Becks_01",
-    "t": "We understand. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 133,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Stay safe. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 134,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Few things appear to be routine these days. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 135,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Oh, we're fine. Thanks for checking on us. (w)"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 136,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Welcome back."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 137,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}The Becks are listening to a local news feed on an ancient receiver patched into the telecomm grid. Seeing you approach, they dial down the volume.{{/GM}}\n\nSomething tells me you'd be a better source of the latest news."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 139,
-    "cn": "Haven-Global_Becks_01",
-    "t": "So what brings you by?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 141,
-    "cn": "Haven-Global_Becks_01",
-    "t": "You could say that."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 148,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Families just don't feel safe anymore."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 152,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Agitators. Targeting the younger, more brash members."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 155,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Easier said than done when you're young and feel immortal."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 156,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Also the best way to get good men killed."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 157,
-    "cn": "Haven-Global_Becks_01",
-    "t": "So long as he himself is not provoked."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 158,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Aggressive competition. It was well known that Monika favored the vendors who called the Kreuzbasar home. But now, outsiders are making inroads."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 160,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Some would say this is the way of the F-State. It is the ultimate free market. But there are those who would do great harm in the pursuit of profit."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 166,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Something big is happening, but nobody seems to understand what it all means."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 167,
-    "cn": "Haven-Global_Becks_01",
-    "t": "And if the F-State doesn't know how to react, everybody gets paranoid that they may be next."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 168,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Corporations, political groups, gangs. Everyone is on edge."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 170,
-    "cn": "Haven-Global_Becks_01",
-    "t": "More than a few have been hit recently."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 171,
-    "cn": "Haven-Global_Becks_01",
-    "t": "DeMeKo, EMC, Fuchi, Renraku, Teltech. The list goes on. No real rhyme or reason to it."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 172,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Nearly all of them, from the sounds of it."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 173,
-    "cn": "Haven-Global_Becks_01",
-    "t": "NAP, the Lisbians, ORC, Royal Blue. We even hear things about groups that aren't supposed to even exist."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 174,
-    "cn": "Haven-Global_Becks_01",
-    "t": "It's hard to tell with them, if they're being hit in the same fashion or just attacking each other out of fear."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 175,
-    "cn": "Haven-Global_Becks_01",
-    "t": "But the list is just as long. The Horde, Red Skins and White Skins, the Green Bards, and on and on and on."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 176,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Always."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 180,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Back again?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 185,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Thanks to you, no doubt."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 187,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Do we know yet who they were? What happened?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 188,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Best of luck then. Everyone here would sure appreciate knowing that the situation is being handled."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 190,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Good."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 191,
-    "cn": "Haven-Global_Becks_01",
-    "t": "All we ask is that this is the only time. I hope you can promise that."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 192,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Thank you. We can breathe easier knowing that it's being taken care of."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 195,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Well... I... I mean, we... We were just...\n\n{{GM}}The normally straightforward Kristian finds himself momentarily fumbling for words.{{/GM}}"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 197,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Kristian nods along with her, as if being convinced of something in this very moment.{{/GM}}\n\nYes. The truth is, we were discussing whether we should stay or go. Things are changing..."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 201,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Both Kristian and Karin grow pensive, and ultimately share a secret smile.{{/GM}}\n\nYes, I suppose it always has been."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 202,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Kristian and Karin exchange a look.{{/GM}}\n\nFor you, I suppose that is what it must be. Not so for us, of course."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 203,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Kristian and Karin look at each other, sharing a thought in the way old couples do.{{/GM}}\n\nThank you, $(l.name). Once again, you have helped more than you can know."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 207,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}The unofficial grandparents of the Kreuzbasar greet you warmly on your return, with a hug from Karin and a firm handshake from Kristian.{{/GM}}\n\nI had a feeling we'd be seeing you again."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 212,
-    "cn": "Haven-Global_Becks_01",
-    "t": "Oh, are we now?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 214,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Kristian gives his wife a look that must have been in his eyes on their wedding day. He then composes himself and turns back to you.{{/GM}}\n\nAnd what about you, $(l.name)? What does the future hold now that your work here is done?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 216,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Kristian regards you more seriously.{{/GM}}\n\nIs this true? Will you be staying?"
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 218,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}The Becks appear deflated, but nod in understanding.{{/GM}}\n\nWe won't forget what you've done for us. Thank you."
-   },
-   {
-    "c": "52af576d6161362808001bbe",
-    "n": 219,
-    "cn": "Haven-Global_Becks_01",
-    "t": "{{GM}}Kristian takes his wife around the shoulders and hugs her close as she begins to tear up.{{/GM}}\n\nNeither can we. Thank you. Thank you for everything."
-   },
-   {
     "c": "52b9c834626164042000428c",
     "n": 0,
     "cn": "ShopTestConvo",
@@ -80876,11 +80877,11 @@
  },
  "stats": {
   "nodes": 13492,
-  "attributed": 10957,
+  "attributed": 11086,
   "narrator": 1626,
   "input": 45,
   "empty": 725,
-  "unattributed": 139,
+  "unattributed": 10,
   "placeholder": 1
  },
  "sheets_indexed": 580,

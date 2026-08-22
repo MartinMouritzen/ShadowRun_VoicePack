@@ -5669,6 +5669,12 @@
   "spoken": "Anyway, just thought you'd want to share in the good news. And thanks for your help back there... I don't think we'd've made it out of there without you. Take care.",
   "source": "rules"
  },
+ "525f202330303154160067d0_6": {
+  "char": "Maxim",
+  "original": "Yeah, I suppose... might not be a bad idea for you to look into that, $(l.name).",
+  "spoken": "Yeah, I suppose... might not be a bad idea for you to look into that.",
+  "source": "rules"
+ },
  "52ab4537643431431fd37135_8": {
   "char": "Goldfish",
   "original": "Nice to meet you, $(l.name).\n\t\nNow that I’ve said my bit, what are you doing in a place like this?",
@@ -5814,16 +5820,166 @@
   "source": "rules"
  },
  "52af576d6161362808001bbe_4": {
-  "char": "Wanderer",
+  "char": "Karin Beck",
   "original": "Well, what would you call $(l.him)?",
   "spoken": "Well, what would you call them?",
   "source": "rules"
  },
  "52af576d6161362808001bbe_27": {
-  "char": "Wanderer",
+  "char": "Karin Beck",
   "original": "Oh, there's no need. Word gets around. You're $(l.name).",
   "spoken": "Oh, there's no need. Word gets around. We know who you are.",
   "source": "hand"
+ },
+ "52af576d6161362808001bbe_88": {
+  "char": "Karin Beck",
+  "original": "{{GM}}Karin turns red in the face, positively fuming.{{/GM}}\n\nWe know she was beaten. Assaulted by some cowardly drug dealer. (w)",
+  "spoken": "We know she was beaten. Assaulted by some cowardly drug dealer.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_90": {
+  "char": "Karin Beck",
+  "original": "Fine. What we heard is that someone came advertising cheaper BTLs than what our resident Mr. Flash provides. It got Kim's attention. (w)",
+  "spoken": "Fine. What we heard is that someone came advertising cheaper BTLs than what our resident Mr. Flash provides. It got Kim's attention.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_215": {
+  "char": "Karin Beck",
+  "original": "\"We\"? Mein Schatz, either we are in the presence of royalty, or $(l.he) has decided to keep on.",
+  "spoken": "\"We\"? Mein Schatz, either we are in the presence of royalty, or they have decided to keep on.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_221": {
+  "char": "Karin Beck",
+  "original": "I think the Flux may have $(l.him), mein Schatz.",
+  "spoken": "I think the Flux may have them, mein Schatz.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_92": {
+  "char": "Karin Beck",
+  "original": "He's not the type, Kristian. We know him. Zaak is hardly an angel, but he is not capable of that kind of violence. (w)",
+  "spoken": "He's not the type, Kristian. We know him. Zaak is hardly an angel, but he is not capable of that kind of violence.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_94": {
+  "char": "Karin Beck",
+  "original": "Thank you. (w)",
+  "spoken": "Thank you.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_95": {
+  "char": "Karin Beck",
+  "original": "If you believe she chose that life, then you are the naive one. (w)",
+  "spoken": "If you believe she chose that life, then you are the naive one.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_96": {
+  "char": "Karin Beck",
+  "original": "I truly hope so. (w)",
+  "spoken": "I truly hope so.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_98": {
+  "char": "Karin Beck",
+  "original": "And people say I am the naive one. Mein Schatz, we've seen life in the other kieze. Pimps and dealers who use fear and violence to cow others into submission. (w)",
+  "spoken": "And people say I am the naive one. Mein Schatz, we've seen life in the other kieze. Pimps and dealers who use fear and violence to cow others into submission.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_100": {
+  "char": "Karin Beck",
+  "original": "No resident of the Kreuzbasar would have done such a thing when Monika was in charge. To think those impulses ever existed and now are free to be expressed... (w)",
+  "spoken": "No resident of the Kreuzbasar would have done such a thing when Monika was in charge. To think those impulses ever existed and now are free to be expressed...",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_102": {
+  "char": "Karin Beck",
+  "original": "A human, to be specific. (w)",
+  "spoken": "A human, to be specific.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_106": {
+  "char": "Karin Beck",
+  "original": "Or he was trying to kill him, which would surely give Samuel cause to react. (w)",
+  "spoken": "Or he was trying to kill him, which would surely give Samuel cause to react.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_108": {
+  "char": "Karin Beck",
+  "original": "Thank you, dear. (w)",
+  "spoken": "Thank you, dear.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_109": {
+  "char": "Karin Beck",
+  "original": "Few here do, thankfully. (w)",
+  "spoken": "Few here do, thankfully.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_110": {
+  "char": "Karin Beck",
+  "original": "We appreciate it. (w)",
+  "spoken": "We appreciate it.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_112": {
+  "char": "Karin Beck",
+  "original": "But he has made a vow. He will not take up arms again. (w)",
+  "spoken": "But he has made a vow. He will not take up arms again.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_119": {
+  "char": "Karin Beck",
+  "original": "I remember hearing the reports of the anarchists burning City Hall, and seeing the smoke over the rooftops. (w)",
+  "spoken": "I remember hearing the reports of the anarchists burning City Hall, and seeing the smoke over the rooftops.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_121": {
+  "char": "Karin Beck",
+  "original": "We were sure it was only a matter of time before the government or the corporations regained control. So we waited. (w)",
+  "spoken": "We were sure it was only a matter of time before the government or the corporations regained control. So we waited.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_123": {
+  "char": "Karin Beck",
+  "original": "The government did nothing! They wrote the city off as a loss. Probably figured the whole anarchist movement would bury itself in time, saving them the trouble. (w)",
+  "spoken": "The government did nothing! They wrote the city off as a loss. Probably figured the whole anarchist movement would bury itself in time, saving them the trouble.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_130": {
+  "char": "Karin Beck",
+  "original": "Others we tried were worse. One even kicked us out because of our age. (w)",
+  "spoken": "Others we tried were worse. One even kicked us out because of our age.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_131": {
+  "char": "Karin Beck",
+  "original": "At times we regretted staying on this side of the walls. But then we found the Kreuzbasar, and we were home. (w)",
+  "spoken": "At times we regretted staying on this side of the walls. But then we found the Kreuzbasar, and we were home.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_132": {
+  "char": "Karin Beck",
+  "original": "We understand. (w)",
+  "spoken": "We understand.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_133": {
+  "char": "Karin Beck",
+  "original": "Stay safe. (w)",
+  "spoken": "Stay safe.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_134": {
+  "char": "Karin Beck",
+  "original": "Few things appear to be routine these days. (w)",
+  "spoken": "Few things appear to be routine these days.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_135": {
+  "char": "Karin Beck",
+  "original": "Oh, we're fine. Thanks for checking on us. (w)",
+  "spoken": "Oh, we're fine. Thanks for checking on us.",
+  "source": "rules"
  },
  "521d44a83030319015005ab9_23": {
   "char": "Heimerich",
@@ -6449,18 +6605,6 @@
   "spoken": "I'll be waitin' right here. Let me know what happens.",
   "source": "hand"
  },
- "52af576d6161362808001bbe_215": {
-  "char": "Old Woman",
-  "original": "\"We\"? Mein Schatz, either we are in the presence of royalty, or $(l.he) has decided to keep on.",
-  "spoken": "\"We\"? Mein Schatz, either we are in the presence of royalty, or they have decided to keep on.",
-  "source": "rules"
- },
- "52af576d6161362808001bbe_221": {
-  "char": "Old Woman",
-  "original": "I think the Flux may have $(l.him), mein Schatz.",
-  "spoken": "I think the Flux may have them, mein Schatz.",
-  "source": "rules"
- },
  "536e83b43739378018006774_10": {
   "char": "Meat Grinder",
   "original": "I know that. But sadly, your friend Blitz is.\n\nI'm not gonna kill you, $(l.name). I won't even take your thumbs. But the Landenbergs' security... well, I can make no such promises about them.",
@@ -6759,6 +6903,54 @@
   "char": "Smuggler",
   "original": "{{GM}}$+(s.he) nods.{{/GM}}\n\nI can live with that.",
   "spoken": "I can live with that.",
+  "source": "rules"
+ },
+ "525edc023030318015006801_4": {
+  "char": "Smuggler",
+  "original": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou think that maybe they had somethin' to do with that ambush back there?",
+  "spoken": "You think that maybe they had somethin' to do with that ambush back there?",
+  "source": "rules"
+ },
+ "525edc023030318015006801_5": {
+  "char": "Smuggler",
+  "original": "If those monsters were workin' with Rammbock... if they did all of this...\n\n{{GM}}$+(s.hisher) face clouds.{{/GM}}\n\nSomeone's gotta put those pigs down.",
+  "spoken": "If those monsters were workin' with Rammbock... if they did all of this... Someone's gotta put those pigs down.",
+  "source": "rules"
+ },
+ "525edc023030318015006801_7": {
+  "char": "Smuggler",
+  "original": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou ain't just hired muscle, are you?",
+  "spoken": "You ain't just hired muscle, are you?",
+  "source": "rules"
+ },
+ "525edc023030318015006801_8": {
+  "char": "Smuggler",
+  "original": "You're serious, aren't you? You actually *want* to go in there.\n\n{{GM}}$+(s.he) takes a step back.{{/GM}}\n\nWell, be my guest... I won't get in your way. When you make it back - *if* you make it back - we'll be out here waiting for you.",
+  "spoken": "You're serious, aren't you? You actually *want* to go in there. Well, be my guest... I won't get in your way. When you make it back - *if* you make it back - we'll be out here waiting for you.",
+  "source": "rules"
+ },
+ "525edc023030318015006801_9": {
+  "char": "Smuggler",
+  "original": "{{GM}}$+(s.hisher) eyes widen.{{/GM}}\n\nYou serious? You're gonna walk in there?",
+  "spoken": "You serious? You're gonna walk in there?",
+  "source": "rules"
+ },
+ "525f22003030315416006864_1": {
+  "char": "Smuggler",
+  "original": "{{GM}}$+(s.he) pauses for a moment, regarding you with a critical eye. Then $(s.he) shrugs.{{/GM}}\n\nWorks for me.",
+  "spoken": "Works for me.",
+  "source": "rules"
+ },
+ "525f22003030315416006864_5": {
+  "char": "Smuggler",
+  "original": "Yeah... some of 'em came through us. I recognize the stamps of a couple of other smuggling rings on the others.\n\n{{GM}}$+(s.he) scans the jumble of crates and rapidly counts off on $(s.hisher) fingers.{{/GM}}\n\nI'm thinkin'... they've probably had about nine recent shipments, at least.",
+  "spoken": "Yeah... some of 'em came through us. I recognize the stamps of a couple of other smuggling rings on the others. I'm thinkin'... they've probably had about nine recent shipments, at least.",
+  "source": "rules"
+ },
+ "525f22003030315416006864_6": {
+  "char": "Smuggler",
+  "original": "Yeah. Uh, $(l.name)... maybe you should look into that.",
+  "spoken": "Yeah. Uh... maybe you should look into that.",
   "source": "rules"
  },
  "525c3d08303031d410005d43_15": {
@@ -8596,6 +8788,174 @@
   "original": ">>>>>[Anyone have a good backup plan for when you get stuck with a tracer? Barely managed to bug out of my apartment after a corp hitsquad came knocking.\n\nLesson learned - pat yourself down a couple times, and make sure you don’t have a tail. But if I miss something, I’d rather keep my safe houses, you know, safe.]<<<<<\n\n- WraithLike44 <04:19:59/11-14-54>",
   "spoken": "Anyone have a good backup plan for when you get stuck with a tracer? Barely managed to bug out of my apartment after a corp hitsquad came knocking. Lesson learned - pat yourself down a couple times, and make sure you don’t have a tail. But if I miss something, I’d rather keep my safe houses, you know, safe.",
   "source": "screen-speaker"
+ },
+ "52af576d6161362808001bbe_5": {
+  "char": "Kristian Beck",
+  "original": "Friend? $+(l.he) is Monika's new friend. We don't judge their work. We are grateful.",
+  "spoken": "Friend? They are Monika's new friend. We don't judge their work. We are grateful.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_39": {
+  "char": "Kristian Beck",
+  "original": "Well, we are pleased to meet you, $(l.name). My name is Kristian Beck, and this is my wife, Karin.",
+  "spoken": "Well, we are pleased to meet you. My name is Kristian Beck, and this is my wife, Karin.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_89": {
+  "char": "Kristian Beck",
+  "original": "You're speculating, dear. (h)",
+  "spoken": "You're speculating, dear.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_91": {
+  "char": "Kristian Beck",
+  "original": "I think it's a possibility. With Monika gone, there's no one to keep that boy in line. And might just be that he's grown paranoid that he's losing his consumer base. (h)",
+  "spoken": "I think it's a possibility. With Monika gone, there's no one to keep that boy in line. And might just be that he's grown paranoid that he's losing his consumer base.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_93": {
+  "char": "Kristian Beck",
+  "original": "Only Kim knows the truth, but she won't speak of it. (h)",
+  "spoken": "Only Kim knows the truth, but she won't speak of it.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_97": {
+  "char": "Kristian Beck",
+  "original": "Exactly my point. If someone wishes to steal Zaak's business, beating his customers isn't a smart way to go about it. (h)",
+  "spoken": "Exactly my point. If someone wishes to steal Zaak's business, beating his customers isn't a smart way to go about it.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_99": {
+  "char": "Kristian Beck",
+  "original": "Maybe so. But if true, we have more to fear than we thought. (h)",
+  "spoken": "Maybe so. But if true, we have more to fear than we thought.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_101": {
+  "char": "Kristian Beck",
+  "original": "Only what we've heard. That he nearly killed a man who cornered him in an alley. (h)",
+  "spoken": "Only what we've heard. That he nearly killed a man who cornered him in an alley.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_103": {
+  "char": "Kristian Beck",
+  "original": "We don't know that it was racially motivated, my dear. (h)",
+  "spoken": "We don't know that it was racially motivated, my dear.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_104": {
+  "char": "Kristian Beck",
+  "original": "Samuel is well known throughout the city. He could rally the orks and trolls of Berlin if he so chose. But before he'd ever rise for war, he would confer with Laine. (h)",
+  "spoken": "Samuel is well known throughout the city. He could rally the orks and trolls of Berlin if he so chose. But before he'd ever rise for war, he would confer with Laine.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_105": {
+  "char": "Kristian Beck",
+  "original": "Could be that the man was trying to convince Laine to offer advice one way or the other. (h)",
+  "spoken": "Could be that the man was trying to convince Laine to offer advice one way or the other.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_107": {
+  "char": "Kristian Beck",
+  "original": "Suffice it to say, war of any kind would not bode well for the Kreuzbasar. But should it come to pass, the presence or loss of the \"Arctic Fox\" would be significant. (h)",
+  "spoken": "Suffice it to say, war of any kind would not bode well for the Kreuzbasar. But should it come to pass, the presence or loss of the \"Arctic Fox\" would be significant.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_111": {
+  "char": "Kristian Beck",
+  "original": "The mere suggestion of that might have been enough to provoke Laine. (h)",
+  "spoken": "The mere suggestion of that might have been enough to provoke Laine.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_113": {
+  "char": "Kristian Beck",
+  "original": "I hope you are right, my dear. But once a soldier, always a soldier. (h)",
+  "spoken": "I hope you are right, my dear. But once a soldier, always a soldier.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_114": {
+  "char": "Kristian Beck",
+  "original": "Of all those in the Kreuzbasar, would Mr. Laine be your first choice of target? Crippled or no, he's still one of the most dangerous men here. (h)",
+  "spoken": "Of all those in the Kreuzbasar, would Mr. Laine be your first choice of target? Crippled or no, he's still one of the most dangerous men here.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_115": {
+  "char": "Kristian Beck",
+  "original": "It's far more likely that this was a targeted move. To recruit, dissuade, or eliminate. (h)",
+  "spoken": "It's far more likely that this was a targeted move. To recruit, dissuade, or eliminate.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_116": {
+  "char": "Kristian Beck",
+  "original": "His experiences fighting in the Euro Wars could make all the difference in a conflict. (h)",
+  "spoken": "His experiences fighting in the Euro Wars could make all the difference in a conflict.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_117": {
+  "char": "Kristian Beck",
+  "original": "Indeed we will. (h)",
+  "spoken": "Indeed we will.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_118": {
+  "char": "Kristian Beck",
+  "original": "Not here in the Kreuzbasar, but in Berlin, yes. (h)",
+  "spoken": "Not here in the Kreuzbasar, but in Berlin, yes.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_120": {
+  "char": "Kristian Beck",
+  "original": "And then came Schoneberg, and the Final Law. Few took it seriously at first. (h)",
+  "spoken": "And then came Schoneberg, and the Final Law. Few took it seriously at first.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_124": {
+  "char": "Kristian Beck",
+  "original": "Only it hasn't crumbled yet. Believers like Monika made it work. (h)",
+  "spoken": "Only it hasn't crumbled yet. Believers like Monika made it work.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_125": {
+  "char": "Kristian Beck",
+  "original": "The corporations seemed to welcome the F-State. No regulations. No rules but the Final Law. (h)",
+  "spoken": "The corporations seemed to welcome the F-State. No regulations. No rules but the Final Law.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_126": {
+  "char": "Kristian Beck",
+  "original": "All except for Saeder-Krupp. The Flux opened the door for outsiders to take a piece of Lofwyr's pie. (h)",
+  "spoken": "All except for Saeder-Krupp. The Flux opened the door for outsiders to take a piece of Lofwyr's pie.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_127": {
+  "char": "Kristian Beck",
+  "original": "Many of those left in Berlin were the disenfranchised. The old ways of running things did little for them, so most embraced the F-State. (h)",
+  "spoken": "Many of those left in Berlin were the disenfranchised. The old ways of running things did little for them, so most embraced the F-State.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_128": {
+  "char": "Kristian Beck",
+  "original": "It worked out well for some, less so for others. (h)",
+  "spoken": "It worked out well for some, less so for others.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_129": {
+  "char": "Kristian Beck",
+  "original": "It took us quite some time to find a place within the F-State. Our first kiez changed so radically that we were compelled to leave. (h)",
+  "spoken": "It took us quite some time to find a place within the F-State. Our first kiez changed so radically that we were compelled to leave.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_203": {
+  "char": "Kristian Beck",
+  "original": "{{GM}}Kristian and Karin look at each other, sharing a thought in the way old couples do.{{/GM}}\n\nThank you, $(l.name). Once again, you have helped more than you can know.",
+  "spoken": "Thank you. Once again, you have helped more than you can know.",
+  "source": "rules"
+ },
+ "52af576d6161362808001bbe_214": {
+  "char": "Kristian Beck",
+  "original": "{{GM}}Kristian gives his wife a look that must have been in his eyes on their wedding day. He then composes himself and turns back to you.{{/GM}}\n\nAnd what about you, $(l.name)? What does the future hold now that your work here is done?",
+  "spoken": "And what about you? What does the future hold now that your work here is done?",
+  "source": "rules"
  },
  "5228f3c06636610013000f4a_12": {
   "char": "Narrator",

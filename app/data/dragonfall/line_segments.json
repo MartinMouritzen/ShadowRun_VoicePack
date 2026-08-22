@@ -16647,6 +16647,128 @@
    "who": "char"
   }
  ],
+ "525edc023030318015006801_4": [
+  {
+   "t": "his eyes widen.",
+   "who": "gm"
+  },
+  {
+   "t": "You think that maybe they had somethin' to do with that ambush back there?",
+   "who": "char"
+  }
+ ],
+ "525edc023030318015006801_5": [
+  {
+   "t": "If those monsters were workin' with Rammbock... if they did all of this...",
+   "who": "char"
+  },
+  {
+   "t": "his face clouds.",
+   "who": "gm"
+  },
+  {
+   "t": "Someone's gotta put those pigs down.",
+   "who": "char"
+  }
+ ],
+ "525edc023030318015006801_7": [
+  {
+   "t": "his eyes widen.",
+   "who": "gm"
+  },
+  {
+   "t": "You ain't just hired muscle, are you?",
+   "who": "char"
+  }
+ ],
+ "525edc023030318015006801_8": [
+  {
+   "t": "You're serious, aren't you? You actually *want* to go in there.",
+   "who": "char"
+  },
+  {
+   "t": "he takes a step back.",
+   "who": "gm"
+  },
+  {
+   "t": "Well, be my guest... I won't get in your way. When you make it back - *if* you make it back - we'll be out here waiting for you.",
+   "who": "char"
+  }
+ ],
+ "525edc023030318015006801_9": [
+  {
+   "t": "his eyes widen.",
+   "who": "gm"
+  },
+  {
+   "t": "You serious? You're gonna walk in there?",
+   "who": "char"
+  }
+ ],
+ "525f202330303154160067d0_0": [
+  {
+   "t": "Maxim glances at you, an eyebrow raised.",
+   "who": "gm"
+  },
+  {
+   "t": "I'm starting to get the feeling Tuck was a little... less than forthcoming about you. You're not run-of-the-mill muscle. What's your angle in all of this?",
+   "who": "char"
+  }
+ ],
+ "525f202330303154160067d0_1": [
+  {
+   "t": "He pauses for a moment, regarding you with a critical eye. Then he shrugs.",
+   "who": "gm"
+  },
+  {
+   "t": "Works for me.",
+   "who": "char"
+  }
+ ],
+ "525f22003030315416006864_0": [
+  {
+   "t": "The smuggler glances at you, an eyebrow raised.",
+   "who": "gm"
+  },
+  {
+   "t": "I'm gettin' the feelin' Maxim was a little... uh... wrong about you. You're not run-of-the-mill muscle. What's your angle in all of this?",
+   "who": "char"
+  }
+ ],
+ "525f22003030315416006864_1": [
+  {
+   "t": "he pauses for a moment, regarding you with a critical eye. Then he shrugs.",
+   "who": "gm"
+  },
+  {
+   "t": "Works for me.",
+   "who": "char"
+  }
+ ],
+ "525f22003030315416006864_4": [
+  {
+   "t": "Dietrich rolls his eyes.",
+   "who": "gm"
+  },
+  {
+   "t": "Somehow, I doubt that.",
+   "who": "char"
+  }
+ ],
+ "525f22003030315416006864_5": [
+  {
+   "t": "Yeah... some of 'em came through us. I recognize the stamps of a couple of other smuggling rings on the others.",
+   "who": "char"
+  },
+  {
+   "t": "he scans the jumble of crates and rapidly counts off on his fingers.",
+   "who": "gm"
+  },
+  {
+   "t": "I'm thinkin'... they've probably had about nine recent shipments, at least.",
+   "who": "char"
+  }
+ ],
  "5260338a63613410230047f5_12": [
   {
    "t": "He looks at you suspiciously.",
@@ -16775,6 +16897,46 @@
   {
    "t": "Blitz turns his back on you and disappears into an alleyway.",
    "who": "gm"
+  }
+ ],
+ "5260462c303031e80f006131_1": [
+  {
+   "t": "He nods.",
+   "who": "gm"
+  },
+  {
+   "t": "Alexander... he's a good kid, y'know? If I'd been there for him... if I hadn't run off to Berlin, left him with his worthless sack of a dad... he'd never have fallen in with those Humanis pigs in the first place.",
+   "who": "char"
+  }
+ ],
+ "5260462c303031e80f006131_2": [
+  {
+   "t": "The expression on Dietrich's face softens, and he claps you on the shoulder.",
+   "who": "gm"
+  },
+  {
+   "t": "Let's go find my nephew. And let's crack all the Humanis skulls we can along the way. The fuckers have it coming in more ways than I can count.",
+   "who": "char"
+  }
+ ],
+ "5260462c303031e80f006131_3": [
+  {
+   "t": "He nods.",
+   "who": "gm"
+  },
+  {
+   "t": "Yeah. The run comes first. No need to worry about me, boss... I've got your back, no matter what.",
+   "who": "char"
+  }
+ ],
+ "5260462c303031e80f006131_4": [
+  {
+   "t": "His lips part into a wolfish grin.",
+   "who": "gm"
+  },
+  {
+   "t": "You got it, boss. I'll just count it against the heap of favors that you owe me. How many times have I saved your ass since we started down this road? I've lost count.",
+   "who": "char"
   }
  ],
  "52604be06361341023004911_10": [
@@ -30701,6 +30863,26 @@
    "who": "char"
   }
  ],
+ "52af576d6161362808001bbe_137": [
+  {
+   "t": "The Becks are listening to a local news feed on an ancient receiver patched into the telecomm grid. Seeing you approach, they dial down the volume.",
+   "who": "gm"
+  },
+  {
+   "t": "Something tells me you'd be a better source of the latest news.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_16": [
+  {
+   "t": "The old man glares at your callous tone, but when he sees the expression on his woman's face, he can't maintain his anger.",
+   "who": "gm"
+  },
+  {
+   "t": "I thought... I thought she'd make it. Long term, I mean. She was always so careful.",
+   "who": "char"
+  }
+ ],
  "52af576d6161362808001bbe_17": [
   {
    "t": "The old woman's thin shoulders slump, making her seem even smaller than she already is.",
@@ -30721,6 +30903,96 @@
    "who": "char"
   }
  ],
+ "52af576d6161362808001bbe_195": [
+  {
+   "t": "Well... I... I mean, we... We were just...",
+   "who": "char"
+  },
+  {
+   "t": "The normally straightforward Kristian finds himself momentarily fumbling for words.",
+   "who": "gm"
+  }
+ ],
+ "52af576d6161362808001bbe_197": [
+  {
+   "t": "Kristian nods along with her, as if being convinced of something in this very moment.",
+   "who": "gm"
+  },
+  {
+   "t": "Yes. The truth is, we were discussing whether we should stay or go. Things are changing...",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_20": [
+  {
+   "t": "The elderly couple huddles together in the cool air, their hands cupped around their respective cups of coffee. Seeing you, they warm, if ever so slightly.",
+   "who": "gm"
+  },
+  {
+   "t": "Hello again.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_201": [
+  {
+   "t": "Both Kristian and Karin grow pensive, and ultimately share a secret smile.",
+   "who": "gm"
+  },
+  {
+   "t": "Yes, I suppose it always has been.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_202": [
+  {
+   "t": "Kristian and Karin exchange a look.",
+   "who": "gm"
+  },
+  {
+   "t": "For you, I suppose that is what it must be. Not so for us, of course.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_203": [
+  {
+   "t": "Kristian and Karin look at each other, sharing a thought in the way old couples do.",
+   "who": "gm"
+  },
+  {
+   "t": "Thank you. Once again, you have helped more than you can know.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_207": [
+  {
+   "t": "The unofficial grandparents of the Kreuzbasar greet you warmly on your return, with a hug from Karin and a firm handshake from Kristian.",
+   "who": "gm"
+  },
+  {
+   "t": "I had a feeling we'd be seeing you again.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_214": [
+  {
+   "t": "Kristian gives his wife a look that must have been in his eyes on their wedding day. He then composes himself and turns back to you.",
+   "who": "gm"
+  },
+  {
+   "t": "And what about you? What does the future hold now that your work here is done?",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_216": [
+  {
+   "t": "Kristian regards you more seriously.",
+   "who": "gm"
+  },
+  {
+   "t": "Is this true? Will you be staying?",
+   "who": "char"
+  }
+ ],
  "52af576d6161362808001bbe_217": [
   {
    "t": "Kristian nods somewhat somberly, but Karin stays more upbeat.",
@@ -30728,6 +31000,56 @@
   },
   {
    "t": "We'll take whatever we can get. Thank you.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_218": [
+  {
+   "t": "The Becks appear deflated, but nod in understanding.",
+   "who": "gm"
+  },
+  {
+   "t": "We won't forget what you've done for us. Thank you.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_219": [
+  {
+   "t": "Kristian takes his wife around the shoulders and hugs her close as she begins to tear up.",
+   "who": "gm"
+  },
+  {
+   "t": "Neither can we. Thank you. Thank you for everything.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_42": [
+  {
+   "t": "When you next come across the Becks, they are back to work, this time bagging litter, slowly but surely. They seem grateful for an excuse to rest when you walk up.",
+   "who": "gm"
+  },
+  {
+   "t": "Good to see you again.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_47": [
+  {
+   "t": "The couple exchanges a look.",
+   "who": "gm"
+  },
+  {
+   "t": "By now, word has spread beyond the Kreuzbasar. There has been talk. Some have even seen strangers sniffing about.",
+   "who": "char"
+  }
+ ],
+ "52af576d6161362808001bbe_7": [
+  {
+   "t": "The woman's warm smile fades as she reads the tone in your voice. The old man frowns.",
+   "who": "gm"
+  },
+  {
+   "t": "What happened?",
    "who": "char"
   }
  ],
@@ -30751,13 +31073,23 @@
    "who": "char"
   }
  ],
+ "52af576d6161362808001bbe_85": [
+  {
+   "t": "Karin looks ready to make a quick reply, but Kristian places a hand on her shoulder and gives her a look that says they should not dismiss the question lightly.",
+   "who": "gm"
+  },
+  {
+   "t": "Since you ask, we do have some concerns.",
+   "who": "char"
+  }
+ ],
  "52af576d6161362808001bbe_88": [
   {
    "t": "Karin turns red in the face, positively fuming.",
    "who": "gm"
   },
   {
-   "t": "We know she was beaten. Assaulted by some cowardly drug dealer. (w)",
+   "t": "We know she was beaten. Assaulted by some cowardly drug dealer.",
    "who": "char"
   }
  ],

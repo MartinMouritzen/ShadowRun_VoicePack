@@ -134,6 +134,12 @@ def mechanical(t):
     # of them untouched and was read out as "dollar plus plus paren L dot name" - 54 segments of
     # it, 40 already generated. Fold the prefix here and match the player variables case-insensitively.
     s = re.sub(r"\$\++\(", "$(", s)
+    # Writers' speaker markers left in the shipped text: Dragonfall's Becks conversation tags 47
+    # lines with a trailing "(w)" or "(h)" for wife/husband, because in nodes 88-135 the two actor
+    # slots do not distinguish the couple. They are production notes, not speech, and TTS reads
+    # them out as "w"/"h". Strip only a bare marker at the very end of the text, which is where all
+    # 47 sit -- never a mid-sentence parenthetical, which could be real dialogue.
+    s = re.sub(r"\s*\((?:w|h)\)\s*$", "", s)
     # canonical story strings (HK) — substitute BEFORE vocative logic so they read in character
     s = re.sub(r'\$\(story\.Global_Gobbet_Nickname\)', 'Seattle', s)
     s = re.sub(r'\$\(story\.Global_HK_Hub_SafeBoatName\)', 'Bolthole', s, flags=re.I)

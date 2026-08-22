@@ -39,28 +39,6 @@
    ]
   ]
  },
- "name_wanderer": {
-  "files": [
-   "name_wanderer.png",
-   "name_wanderer_v2.png",
-   "name_oldwoman_v2.png",
-   "name_wanderer_v3.png",
-   "name_wanderer_v4.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_humanfemale_glory.png",
-    "npc_dwarffemale_mira.png",
-    "npc_humanfemale_alice.png"
-   ],
-   [
-    "npc_humanfemale_simmy.png",
-    "npc_elffemale_danni.png",
-    "npc_humanfemale_newsreporter2.png"
-   ]
-  ]
- },
  "name_marta": {
   "files": [
    "name_marta.png",
@@ -255,25 +233,6 @@
    ],
    [
     "generic_machine.png"
-   ]
-  ]
- },
- "name_oldwoman": {
-  "files": [
-   "name_oldwoman.png",
-   "name_oldwoman_v2.png"
-  ],
-  "usedRef": false,
-  "sourceArt": [
-   [
-    "npc_humanfemale_simmy.png",
-    "npc_orkfemale_silke.png",
-    "npc_humanfemale_goldfish.png"
-   ],
-   [
-    "npc_humanfemale_alice.png",
-    "npc_humanfemale_kami.png",
-    "npc_orkfemale_silke.png"
    ]
   ]
  },
@@ -2439,6 +2398,28 @@
     "npc_humanmale_newsreporter1.png",
     "npc_humanmale_harrow.png",
     "npc_humanmale_winters.png"
+   ]
+  ]
+ },
+ "name_karinbeck": {
+  "files": [
+   "name_wanderer.png",
+   "name_wanderer_v2.png",
+   "name_oldwoman_v2.png",
+   "name_wanderer_v3.png",
+   "name_wanderer_v4.png"
+  ],
+  "usedRef": false,
+  "sourceArt": [
+   [
+    "npc_humanfemale_glory.png",
+    "npc_dwarffemale_mira.png",
+    "npc_humanfemale_alice.png"
+   ],
+   [
+    "npc_humanfemale_simmy.png",
+    "npc_elffemale_danni.png",
+    "npc_humanfemale_newsreporter2.png"
    ]
   ]
  }

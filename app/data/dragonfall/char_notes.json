@@ -1832,53 +1832,6 @@
    }
   ]
  },
- "name_wanderer": {
-  "bio": "A genial German-accented figure haunting the forgotten places of Berlin, delighted to host a rare guest alongside his beloved Schatz and curious about Monika's new associate.",
-  "direction": "Soft, courtly, faintly otherworldly; an old-world German host whose gentle hospitality has something slightly off and out-of-time about it.",
-  "gender": "male",
-  "suggestions": [
-   {
-    "voice_id": "mag_526",
-    "name": "Eldros the Wise",
-    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
-   },
-   {
-    "voice_id": "mag_841",
-    "name": "Walter Hansen",
-    "why": "A resonant, well-articulated voice with gentle Midwestern character, delivering narration "
-   },
-   {
-    "voice_id": "mag_501",
-    "name": "Noah Bailey",
-    "why": "Soft and Timid, this young male voice is ideal for emotional character work. It also bring"
-   },
-   {
-    "voice_id": "mag_390",
-    "name": "James Carter",
-    "why": "Rugged and wise, this older American male voice carries the grit of a cowboy who’s lived a"
-   },
-   {
-    "voice_id": "mag_436",
-    "name": "Jamie Clarke",
-    "why": "A pleasant voice of a young male. Great for Social Media, Narrative & Story and Informativ"
-   },
-   {
-    "voice_id": "mag_522",
-    "name": "Malgorn the Hollow",
-    "why": "Dark and Ancient, this deep male voice is ideal for monstrous or villainous characters. It"
-   },
-   {
-    "voice_id": "mag_500",
-    "name": "Santa Claus",
-    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
-   },
-   {
-    "voice_id": "mag_276",
-    "name": "Sipho Dlamini",
-    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
-   }
-  ]
- },
  "name_heimerich": {
   "bio": "A worried Kreuzbasar local fretting with Mira over a loved one who went missing after tangling with Aztechnology.",
   "direction": "Anxious everyman, voice tight with worry; ordinary Berlin working-class warmth strained by fear he cannot hide.",
@@ -3427,53 +3380,6 @@
     "voice_id": "mag_319",
     "name": "Benjamin Walker",
     "why": "Rugged and intimate, this baritone voice carries the weight of experience and hardship. Pe"
-   }
-  ]
- },
- "name_oldwoman": {
-  "bio": "An elderly Kreuzbasar resident who has weathered every crisis Berlin could throw at her and credits the kiez's solidarity for pulling everyone through.",
-  "direction": "Warm, creaky, and unshakeable; a grandmother's voice with a survivor's steel and genuine fondness for the player.",
-  "gender": "female",
-  "suggestions": [
-   {
-    "voice_id": "mag_308",
-    "name": "Sophia Mitchell",
-    "why": "Kindness given, returns as warmth in unexpected ways."
-   },
-   {
-    "voice_id": "mag_303",
-    "name": "Isla Kensington",
-    "why": "A pleasant and cute voice, perfect for children's content. Ideal for cartoons, kids' shows"
-   },
-   {
-    "voice_id": "mag_587",
-    "name": "Luna Sprout",
-    "why": "A bright and bubbly animated voice bursting with warmth and curiosity. Luna brings storybo"
-   },
-   {
-    "voice_id": "mag_795",
-    "name": "Zuri Bennett",
-    "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
-   },
-   {
-    "voice_id": "mag_298",
-    "name": "Amelia Beckett",
-    "why": "A warm and engaging middle-aged British female voice, ideal for narration and storytelling"
-   },
-   {
-    "voice_id": "mag_291",
-    "name": "Emma Johnson",
-    "why": "Friendly and approachable, this middle-aged American female voice is perfect for narration"
-   },
-   {
-    "voice_id": "mag_664",
-    "name": "Evelyn Vale",
-    "why": "Evelyn’s smooth British tone blends sophistication with inviting warmth. Ideal for convers"
-   },
-   {
-    "voice_id": "mag_261",
-    "name": "Harper Olivia",
-    "why": "Velvety smooth voice exuding charm and sophistication. Playful yet wise, it captivates lis"
    }
   ]
  },
@@ -10618,6 +10524,53 @@
     "voice_id": "mag_795",
     "name": "Zuri Bennett",
     "why": "A genuinely realistic conversational voice with effortless natural cadence and lifelike pr"
+   }
+  ]
+ },
+ "name_karinbeck": {
+  "bio": "A genial German-accented figure haunting the forgotten places of Berlin, delighted to host a rare guest alongside his beloved Schatz and curious about Monika's new associate.",
+  "direction": "Soft, courtly, faintly otherworldly; an old-world German host whose gentle hospitality has something slightly off and out-of-time about it.",
+  "gender": "male",
+  "suggestions": [
+   {
+    "voice_id": "mag_526",
+    "name": "Eldros the Wise",
+    "why": "A timeless arcane voice echoing across centuries of magic and mystery.This 800+ year-old w"
+   },
+   {
+    "voice_id": "mag_841",
+    "name": "Walter Hansen",
+    "why": "A resonant, well-articulated voice with gentle Midwestern character, delivering narration "
+   },
+   {
+    "voice_id": "mag_501",
+    "name": "Noah Bailey",
+    "why": "Soft and Timid, this young male voice is ideal for emotional character work. It also bring"
+   },
+   {
+    "voice_id": "mag_390",
+    "name": "James Carter",
+    "why": "Rugged and wise, this older American male voice carries the grit of a cowboy who’s lived a"
+   },
+   {
+    "voice_id": "mag_436",
+    "name": "Jamie Clarke",
+    "why": "A pleasant voice of a young male. Great for Social Media, Narrative & Story and Informativ"
+   },
+   {
+    "voice_id": "mag_522",
+    "name": "Malgorn the Hollow",
+    "why": "Dark and Ancient, this deep male voice is ideal for monstrous or villainous characters. It"
+   },
+   {
+    "voice_id": "mag_500",
+    "name": "Santa Claus",
+    "why": "Jolly and Iconic, this elderly male voice is ideal for festive content. It also brings ele"
+   },
+   {
+    "voice_id": "mag_276",
+    "name": "Sipho Dlamini",
+    "why": "Authentic and captivating, this male South African voice excels in storytelling with warmt"
    }
   ]
  }

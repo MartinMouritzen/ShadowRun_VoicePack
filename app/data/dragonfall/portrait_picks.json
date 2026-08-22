@@ -1,7 +1,5 @@
 {
- "name_wanderer": "name_oldwoman_v2.png",
  "name_newsdayworldreport": "name_digitalarchiveterminal_v2.png",
- "name_oldwoman": "name_oldwoman_v2.png",
  "name_volunteerworker": "name_volunteerworker_eb5386bc.png",
  "name_partygirl": "name_partygirl.png",
  "name_companyman": "name_companyman_0718b4f4.png",
@@ -17,5 +15,6 @@
  "name_techvendor": "name_techvendor_1b73c2bd.png",
  "name_bodyguard": "name_bodyguard_20b47084.png",
  "name_gatekeeperic": "name_alertsystem_v3.png",
- "name_watcheric": "name_alertsystem_v2.png"
+ "name_watcheric": "name_alertsystem_v2.png",
+ "name_karinbeck": "name_oldwoman_v2.png"
 }

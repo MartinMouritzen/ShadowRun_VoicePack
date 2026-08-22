@@ -151,10 +151,6 @@
   "voiceId": "mag_168",
   "voiceName": "Friedrich Weber"
  },
- "name_wanderer": {
-  "voiceId": "mag_645",
-  "voiceName": "Ramona Weiss"
- },
  "name_heimerich": {
   "voiceId": "mag_266",
   "voiceName": "Aiden Samuel"
@@ -744,8 +740,8 @@
   "voiceName": "Sophia Brown"
  },
  "name_fromthedeskofjonbergfalk": {
-  "voiceId": "mag_174",
-  "voiceName": "Aidan Doyle"
+  "voiceId": "mag_706",
+  "voiceName": "Fenrir"
  },
  "name_malenewscaster": {
   "voiceId": "mag_42",
@@ -951,10 +947,6 @@
   "voiceId": "mag_347",
   "voiceName": "Eleanor Hastings"
  },
- "name_oldwoman": {
-  "voiceId": "mag_308",
-  "voiceName": "Sophia Mitchell"
- },
  "name_volunteerworker": {
   "voiceId": "mag_587",
   "voiceName": "Luna Sprout"
@@ -970,5 +962,13 @@
  "bark:Goon Boss": {
   "voiceId": "mag_179",
   "voiceName": "Grace O'Neil"
+ },
+ "name_karinbeck": {
+  "voiceId": "mag_645",
+  "voiceName": "Ramona Weiss"
+ },
+ "name_kristianbeck": {
+  "voiceId": "mag_810",
+  "voiceName": "Franz Mayr"
  }
 }

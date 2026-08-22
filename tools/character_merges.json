@@ -35,6 +35,11 @@
    "from": "name_mysterydecker",
    "to": "name_jurgenplotz",
    "reason": "Same portrait (NPC_HumanMale_EnemeyDeckerAvatar), same two conversations, and the line is verbatim identical in both buckets: 'I could ask the same of you. You're in *my* banking system, you little bastard.'"
+  },
+  {
+   "from": "name_oldwoman",
+   "to": "name_wanderer",
+   "reason": "One person: Kristian Beck's wife Karin, in Haven-Global_Becks_01. Both ids exist ONLY for this one conversation. The raw convo binds her lines two different ways - 22 by the tag isBecksWife (which resolves to a scene prop whose CharacterInstance name is 'Old Woman') and 57 by an actor ref whose prop is chars_icon_playerIcon, which the extractor names 'Wanderer'. Neither is the player. Split, she already speaks her own conversation in two voices: Ramona Weiss for 57 lines and Sophia Mitchell for 22. Merged into the larger id so Ramona Weiss (the 57) survives; the 22 Sophia takes are then regenerated. Renamed to Karin Beck by renames.json, since 'Wanderer' is a prop label, not her name."
   }
  ],
  "hk": [
