@@ -15,7 +15,7 @@ word), whereas an 8 ms ramp removes the discontinuity without removing any conte
   scan:  python3 tools/tail_click.py scan <game> [--all-takes] [--json out.json] [--top N]
   fix:   python3 tools/tail_click.py fix  <game> --threshold -24 [--dry-run] [--no-backup]
 """
-import argparse, json, os, re, subprocess, sys
+import argparse, json, os, re, shutil, subprocess, sys
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -137,7 +137,8 @@ def main():
     ap.add_argument("cmd", choices=["scan", "fix"])
     ap.add_argument("game")
     ap.add_argument("--all-takes", action="store_true", help="not just the selected take per line")
-    ap.add_argument("--threshold", type=float, default=-24.0, help="flag/fix clips whose step_db exceeds this")
+    ap.add_argument("--threshold", type=float, default=-30.0,
+                    help="flag/fix clips whose LEVEL AT THE CUT (env_db) exceeds this")
     ap.add_argument("--json")
     ap.add_argument("--top", type=int, default=25)
     ap.add_argument("--jobs", type=int, default=3, help="parallel ffmpeg workers (keep low; this is CPU-heavy)")
@@ -164,11 +165,16 @@ def main():
                     m["rel"] = rel
                     res.append(m)
 
-    res.sort(key=lambda m: -m["step_db"])
-    flagged = [m for m in res if m["step_db"] > a.threshold]
+    res.sort(key=lambda m: -m["env_db"])
+    # Flag on env_db (the signal level over the last millisecond), NOT step_db (the single final
+    # sample). The final sample can land near a zero crossing by luck while the waveform around it
+    # is still loud, so step_db UNDER-reports the click: across Dragonfall env_db runs a median
+    # 5.8 dB and a p90 19 dB above step_db. A take that measured step -24.3 (under a -24 step
+    # cutoff) but env -19.8 was still plainly audible, which is what exposed this.
+    flagged = [m for m in res if m["env_db"] > a.threshold]
 
     if a.cmd == "scan":
-        arr = np.array([m["step_db"] for m in res])
+        arr = np.array([m["env_db"] for m in res])
         print(f"\nend-of-audio step, {len(res)} clips:")
         for p in (50, 75, 90, 95, 99, 100):
             print(f"  p{p:<3d} {np.percentile(arr, p):7.1f} dBFS")
@@ -177,7 +183,7 @@ def main():
             print(f"  above {t:4d} dBFS: {n:5d}  ({n / len(arr) * 100:5.2f}%)")
         print(f"\nworst {a.top}:")
         for m in res[:a.top]:
-            print(f"  {m['step_db']:7.1f} dBFS  {m['dur']:6.2f}s  {m['rel']}")
+            print(f"  env {m['env_db']:7.1f} step {m['step_db']:7.1f} dBFS  {m['dur']:6.2f}s  {m['rel']}")
         if a.json:
             json.dump(res, open(a.json, "w"), indent=1)
             print(f"\nwrote {a.json}", file=sys.stderr)
@@ -186,35 +192,59 @@ def main():
     print(f"{len(flagged)} clips above {a.threshold} dBFS", file=sys.stderr)
     if a.dry_run:
         for m in flagged[:a.top]:
-            print(f"  would fix {m['step_db']:7.1f} dBFS  {m['rel']}")
+            print(f"  would fix env {m['env_db']:7.1f} dBFS  {m['rel']}")
         return
 
     seg = nonfinal_segment_files(a.game)
     print(f"  ({len(seg & {m['rel'] for m in flagged})} of them are non-final segments -> {SEG_FADE_S*1000:.0f} ms fade)",
           file=sys.stderr)
-    ok = bad = 0
-    for m in flagged:
+    def do_one(m):
+        # Everything in here is best-effort per file. The lab is a live process writing this same
+        # take store: regenerating a line in the UI writes a NEW timestamped file and drops the old
+        # one, so a path measured a minute ago can be gone by the time we reach it. That is normal,
+        # not an error -- but it used to raise out of the worker, and pool.map re-raises on the
+        # first failure, so ONE regenerated line aborted the entire sweep with thousands of clips
+        # left untouched.
+        try:
+            return _do_one(m)
+        except Exception as e:
+            print(f"SKIP {m.get('rel')}: {e}", file=sys.stderr)
+            return False
+
+    def _do_one(m):
         src = os.path.join(audio, *m["rel"].split("/"))
+        if not os.path.exists(src):
+            return False        # regenerated or deleted since the scan; the new file gets its own pass
         if not a.no_backup:
             bak = os.path.join(audio, BACKUP_DIR, *m["rel"].split("/"))
             os.makedirs(os.path.dirname(bak), exist_ok=True)
             if not os.path.exists(bak):
-                subprocess.run(["cp", "-p", src, bak], check=True)
+                shutil.copy2(src, bak)
         tmp = src + ".fix.mp3"
         good, err = fix_file(src, tmp, m["audio_end_s"],
                              fade=SEG_FADE_S if m["rel"] in seg else FADE_S)
         if not good:
-            print(f"FAIL {m['rel']}: {err}", file=sys.stderr); bad += 1
+            print(f"FAIL {m['rel']}: {err}", file=sys.stderr)
             if os.path.exists(tmp): os.remove(tmp)
-            continue
+            return False
         # verify the fade actually landed before replacing the original
+        # Verify against the SAME bar we flagged on. This used to be a hardcoded -45, left over
+        # from when flagging was step-based; once flagging moved to env at -30, a clip that faded
+        # to -35 was "fixed by the flag's own definition" yet failed verification, so the good
+        # result was thrown away and the CLICKY ORIGINAL kept. A stricter verify bar than the flag
+        # bar can only ever discard fixes.
         chk = measure(tmp)
-        if chk is None or chk["step_db"] > -45:
-            print(f"FAIL verify {m['rel']}: step still {chk and chk['step_db']:.1f} dBFS", file=sys.stderr)
-            os.remove(tmp); bad += 1
-            continue
+        if chk is None or chk["env_db"] > a.threshold:
+            print(f"FAIL verify {m['rel']}: env still {chk and chk['env_db']:.1f} dBFS "
+                  f"(needed <= {a.threshold})", file=sys.stderr)
+            os.remove(tmp); return False
         os.replace(tmp, src)
-        ok += 1
+        return True
+
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=a.jobs) as pool:
+        results = list(pool.map(do_one, flagged))
+    ok = sum(1 for r in results if r); bad = len(results) - ok
     print(f"fixed {ok}, failed {bad}", file=sys.stderr)
 
 
