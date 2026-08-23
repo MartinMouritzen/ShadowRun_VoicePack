@@ -143913,7 +143913,7 @@
  },
  "name_marta": {
   "53558fe830303114080016c6_8": {
-   "selected": "name_marta/takes/53558fe830303114080016c6_8__mag158__1786104774.mp3",
+   "selected": "name_marta/takes/53558fe830303114080016c6_8__mag316__1787491376.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53558fe830303114080016c6_8__mag158__1786104774.mp3",
@@ -143922,11 +143922,29 @@
      "stability": 0,
      "chars": 99,
      "ts": 1786104774
+    },
+    {
+     "file": "name_marta/takes/53558fe830303114080016c6_8__mag158__1787485950.mp3",
+     "voiceId": "mag_158",
+     "voiceName": "Taylor Morgan",
+     "stability": 0,
+     "chars": 117,
+     "textHash": "7e4500ae94",
+     "ts": 1787485950
+    },
+    {
+     "file": "name_marta/takes/53558fe830303114080016c6_8__mag316__1787491376.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 117,
+     "textHash": "7e4500ae94",
+     "ts": 1787491376
     }
    ]
   },
   "53558fe830303114080016c6_18": {
-   "selected": "name_marta/takes/53558fe830303114080016c6_18__mag158__1786126871.mp3",
+   "selected": "name_marta/takes/53558fe830303114080016c6_18__mag316__1787491380.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53558fe830303114080016c6_18__mag158__1786126871.mp3",
@@ -143935,24 +143953,61 @@
      "stability": 0,
      "chars": 225,
      "ts": 1786126871
+    },
+    {
+     "file": "name_marta/takes/53558fe830303114080016c6_18__mag158__1787485975.mp3",
+     "voiceId": "mag_158",
+     "voiceName": "Taylor Morgan",
+     "stability": 0,
+     "chars": 251,
+     "textHash": "2f9edca8f2",
+     "ts": 1787485975
+    },
+    {
+     "file": "name_marta/takes/53558fe830303114080016c6_18__mag316__1787491380.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 251,
+     "textHash": "2f9edca8f2",
+     "ts": 1787491380
     }
    ]
   },
   "53558fe830303114080016c6_20": {
-   "selected": "name_marta/takes/53558fe830303114080016c6_20__mag158__1786148263.mp3",
+   "selected": "name_marta/takes/53558fe830303114080016c6_20__mag316__1787491651.mp3",
    "takes": [
     {
-     "file": "name_marta/takes/53558fe830303114080016c6_20__mag158__1786148263.mp3",
+     "file": "name_marta/takes/53558fe830303114080016c6_20__mag158__1787486021.mp3",
      "voiceId": "mag_158",
      "voiceName": "Taylor Morgan",
      "stability": 0,
-     "chars": 41,
-     "ts": 1786148263
+     "chars": 44,
+     "textHash": "3d8606239c",
+     "ts": 1787486021
+    },
+    {
+     "file": "name_marta/takes/53558fe830303114080016c6_20__mag158__1787486035.mp3",
+     "voiceId": "mag_158",
+     "voiceName": "Taylor Morgan",
+     "stability": 0,
+     "chars": 40,
+     "textHash": "1f0ea7ee54",
+     "ts": 1787486035
+    },
+    {
+     "file": "name_marta/takes/53558fe830303114080016c6_20__mag316__1787491651.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 40,
+     "textHash": "1f0ea7ee54",
+     "ts": 1787491651
     }
    ]
   },
   "5356a321303031f00f0012f6_3~c0": {
-   "selected": "name_marta/takes/5356a321303031f00f0012f6_3~c0__mag158__1786148263.mp3",
+   "selected": "name_marta/takes/5356a321303031f00f0012f6_3~c0__mag316__1787491652.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356a321303031f00f0012f6_3~c0__mag158__1786148263.mp3",
@@ -143961,11 +144016,20 @@
      "stability": 0,
      "chars": 98,
      "ts": 1786148263
+    },
+    {
+     "file": "name_marta/takes/5356a321303031f00f0012f6_3~c0__mag316__1787491652.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 98,
+     "textHash": "98b6c19235",
+     "ts": 1787491652
     }
    ]
   },
   "5356a321303031f00f0012f6_5": {
-   "selected": "name_marta/takes/5356a321303031f00f0012f6_5__mag158__1786148267.mp3",
+   "selected": "name_marta/takes/5356a321303031f00f0012f6_5__mag316__1787491652.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356a321303031f00f0012f6_5__mag158__1786148267.mp3",
@@ -143974,11 +144038,20 @@
      "stability": 0,
      "chars": 47,
      "ts": 1786148267
+    },
+    {
+     "file": "name_marta/takes/5356a321303031f00f0012f6_5__mag316__1787491652.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 47,
+     "textHash": "13f4e94a07",
+     "ts": 1787491652
     }
    ]
   },
   "5356a321303031f00f0012f6_3~c1": {
-   "selected": "name_marta/takes/5356a321303031f00f0012f6_3~c1__mag158__1786148266.mp3",
+   "selected": "name_marta/takes/5356a321303031f00f0012f6_3~c1__mag316__1787491652.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356a321303031f00f0012f6_3~c1__mag158__1786148266.mp3",
@@ -143987,11 +144060,20 @@
      "stability": 0,
      "chars": 120,
      "ts": 1786148266
+    },
+    {
+     "file": "name_marta/takes/5356a321303031f00f0012f6_3~c1__mag316__1787491652.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 120,
+     "textHash": "de12124edc",
+     "ts": 1787491652
     }
    ]
   },
   "5356e2b23030312417004366_7": {
-   "selected": "name_marta/takes/5356e2b23030312417004366_7__mag158__1786148268.mp3",
+   "selected": "name_marta/takes/5356e2b23030312417004366_7__mag316__1787491657.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e2b23030312417004366_7__mag158__1786148268.mp3",
@@ -144000,11 +144082,20 @@
      "stability": 0,
      "chars": 120,
      "ts": 1786148268
+    },
+    {
+     "file": "name_marta/takes/5356e2b23030312417004366_7__mag316__1787491657.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 120,
+     "textHash": "273ed4651c",
+     "ts": 1787491657
     }
    ]
   },
   "5356e43c30303124170043af_2": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_2__mag158__1786148270.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_2__mag316__1787491658.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_2__mag158__1786148270.mp3",
@@ -144013,11 +144104,20 @@
      "stability": 0,
      "chars": 9,
      "ts": 1786148270
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_2__mag316__1787491658.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 9,
+     "textHash": "bc8058ffd0",
+     "ts": 1787491658
     }
    ]
   },
   "5356e43c30303124170043af_4~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_4~c0__mag158__1786148273.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_4~c0__mag316__1787491659.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_4~c0__mag158__1786148273.mp3",
@@ -144026,11 +144126,20 @@
      "stability": 0,
      "chars": 7,
      "ts": 1786148273
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_4~c0__mag316__1787491659.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 7,
+     "textHash": "5878165b65",
+     "ts": 1787491659
     }
    ]
   },
   "5356e43c30303124170043af_6~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_6~c0__mag158__1786148274.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_6~c0__mag316__1787491665.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_6~c0__mag158__1786148274.mp3",
@@ -144039,11 +144148,20 @@
      "stability": 0,
      "chars": 10,
      "ts": 1786148274
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_6~c0__mag316__1787491665.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 10,
+     "textHash": "495f762c55",
+     "ts": 1787491665
     }
    ]
   },
   "5356e43c30303124170043af_4~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_4~c1__mag158__1786148273.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_4~c1__mag316__1787491662.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_4~c1__mag158__1786148273.mp3",
@@ -144052,11 +144170,20 @@
      "stability": 0,
      "chars": 40,
      "ts": 1786148273
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_4~c1__mag316__1787491662.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 40,
+     "textHash": "72cd8b9176",
+     "ts": 1787491662
     }
    ]
   },
   "5356e43c30303124170043af_6~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_6~c1__mag158__1786148276.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_6~c1__mag316__1787491665.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_6~c1__mag158__1786148276.mp3",
@@ -144065,11 +144192,20 @@
      "stability": 0,
      "chars": 33,
      "ts": 1786148276
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_6~c1__mag316__1787491665.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 33,
+     "textHash": "9a63f0468d",
+     "ts": 1787491665
     }
    ]
   },
   "5356e43c30303124170043af_9": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_9__mag158__1786148278.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_9__mag316__1787491668.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_9__mag158__1786148278.mp3",
@@ -144078,11 +144214,20 @@
      "stability": 0,
      "chars": 60,
      "ts": 1786148278
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_9__mag316__1787491668.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 60,
+     "textHash": "744fc103c7",
+     "ts": 1787491668
     }
    ]
   },
   "5356e43c30303124170043af_11": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_11__mag158__1786148279.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_11__mag316__1787491668.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_11__mag158__1786148279.mp3",
@@ -144091,11 +144236,20 @@
      "stability": 0,
      "chars": 42,
      "ts": 1786148279
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_11__mag316__1787491668.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 42,
+     "textHash": "1f22d40630",
+     "ts": 1787491668
     }
    ]
   },
   "5356e43c30303124170043af_15": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_15__mag158__1786148281.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_15__mag316__1787491672.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_15__mag158__1786148281.mp3",
@@ -144104,11 +144258,20 @@
      "stability": 0,
      "chars": 77,
      "ts": 1786148281
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_15__mag316__1787491672.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 77,
+     "textHash": "f0d696092a",
+     "ts": 1787491672
     }
    ]
   },
   "5356e43c30303124170043af_13": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_13__mag158__1786148279.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_13__mag316__1787491671.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_13__mag158__1786148279.mp3",
@@ -144117,11 +144280,20 @@
      "stability": 0,
      "chars": 165,
      "ts": 1786148279
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_13__mag316__1787491671.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 165,
+     "textHash": "925607219e",
+     "ts": 1787491671
     }
    ]
   },
   "5356e43c30303124170043af_17": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_17__mag158__1786148284.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_17__mag316__1787491675.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_17__mag158__1786148284.mp3",
@@ -144130,11 +144302,20 @@
      "stability": 0,
      "chars": 183,
      "ts": 1786148284
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_17__mag316__1787491675.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 183,
+     "textHash": "ab9bc1cc4e",
+     "ts": 1787491675
     }
    ]
   },
   "5356e43c30303124170043af_22": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_22__mag158__1786148286.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_22__mag316__1787491680.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_22__mag158__1786148286.mp3",
@@ -144143,11 +144324,20 @@
      "stability": 0,
      "chars": 107,
      "ts": 1786148286
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_22__mag316__1787491680.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 107,
+     "textHash": "8094096dcc",
+     "ts": 1787491680
     }
    ]
   },
   "5356e43c30303124170043af_20": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_20__mag158__1786148285.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_20__mag316__1787491675.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_20__mag158__1786148285.mp3",
@@ -144156,11 +144346,20 @@
      "stability": 0,
      "chars": 190,
      "ts": 1786148285
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_20__mag316__1787491675.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 190,
+     "textHash": "bf866516db",
+     "ts": 1787491675
     }
    ]
   },
   "5356e43c30303124170043af_24~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_24~c0__mag158__1786442544.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_24~c0__mag316__1787491680.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_24~c0__mag158__1786148287.mp3",
@@ -144177,11 +144376,20 @@
      "stability": 0,
      "chars": 62,
      "ts": 1786442544
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_24~c0__mag316__1787491680.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 62,
+     "textHash": "375f3d3c16",
+     "ts": 1787491680
     }
    ]
   },
   "5356e43c30303124170043af_28": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_28__mag158__1786148291.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_28__mag316__1787491686.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_28__mag158__1786148291.mp3",
@@ -144190,11 +144398,20 @@
      "stability": 0,
      "chars": 81,
      "ts": 1786148291
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_28__mag316__1787491686.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 81,
+     "textHash": "5ceccd2acf",
+     "ts": 1787491686
     }
    ]
   },
   "5356e43c30303124170043af_25": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_25__mag158__1786148291.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_25__mag316__1787491684.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_25__mag158__1786148291.mp3",
@@ -144203,11 +144420,20 @@
      "stability": 0,
      "chars": 167,
      "ts": 1786148291
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_25__mag316__1787491684.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 167,
+     "textHash": "b5ef092a58",
+     "ts": 1787491684
     }
    ]
   },
   "5356e43c30303124170043af_24~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_24~c1__mag158__1786148291.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_24~c1__mag316__1787491684.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_24~c1__mag158__1786148291.mp3",
@@ -144216,11 +144442,20 @@
      "stability": 0,
      "chars": 142,
      "ts": 1786148291
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_24~c1__mag316__1787491684.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 142,
+     "textHash": "df5693b096",
+     "ts": 1787491684
     }
    ]
   },
   "5356e43c30303124170043af_31": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_31__mag158__1786148292.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_31__mag316__1787491687.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_31__mag158__1786148292.mp3",
@@ -144229,11 +144464,20 @@
      "stability": 0,
      "chars": 183,
      "ts": 1786148292
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_31__mag316__1787491687.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 183,
+     "textHash": "14fe93b72c",
+     "ts": 1787491687
     }
    ]
   },
   "5356e43c30303124170043af_35": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_35__mag158__1786148298.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_35__mag316__1787491692.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_35__mag158__1786148298.mp3",
@@ -144242,11 +144486,20 @@
      "stability": 0,
      "chars": 4,
      "ts": 1786148298
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_35__mag316__1787491692.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 4,
+     "textHash": "df85a64b2a",
+     "ts": 1787491692
     }
    ]
   },
   "5356e43c30303124170043af_33": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_33__mag158__1786148298.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_33__mag316__1787491692.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_33__mag158__1786148298.mp3",
@@ -144255,11 +144508,20 @@
      "stability": 0,
      "chars": 136,
      "ts": 1786148298
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_33__mag316__1787491692.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 136,
+     "textHash": "21b8f06ca5",
+     "ts": 1787491692
     }
    ]
   },
   "5356e43c30303124170043af_39": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_39__mag158__1786148299.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_39__mag316__1787491696.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_39__mag158__1786148299.mp3",
@@ -144268,11 +144530,20 @@
      "stability": 0,
      "chars": 113,
      "ts": 1786148299
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_39__mag316__1787491696.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 113,
+     "textHash": "dc9f3e2bc8",
+     "ts": 1787491696
     }
    ]
   },
   "5356e43c30303124170043af_37": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_37__mag158__1786148299.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_37__mag316__1787491693.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_37__mag158__1786148299.mp3",
@@ -144281,11 +144552,20 @@
      "stability": 0,
      "chars": 147,
      "ts": 1786148299
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_37__mag316__1787491693.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 147,
+     "textHash": "0033646473",
+     "ts": 1787491693
     }
    ]
   },
   "5356e43c30303124170043af_42~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_42~c0__mag158__1786442547.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_42~c0__mag316__1787491701.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_42~c0__mag158__1786148304.mp3",
@@ -144302,11 +144582,20 @@
      "stability": 0,
      "chars": 38,
      "ts": 1786442547
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_42~c0__mag316__1787491701.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 38,
+     "textHash": "4cafcbc951",
+     "ts": 1787491701
     }
    ]
   },
   "5356e43c30303124170043af_41": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_41__mag158__1786148302.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_41__mag316__1787491696.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_41__mag158__1786148302.mp3",
@@ -144315,11 +144604,20 @@
      "stability": 0,
      "chars": 197,
      "ts": 1786148302
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_41__mag316__1787491696.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 197,
+     "textHash": "b7aa3a001d",
+     "ts": 1787491696
     }
    ]
   },
   "5356e43c30303124170043af_42~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_42~c1__mag158__1786148305.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_42~c1__mag316__1787491701.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_42~c1__mag158__1786148305.mp3",
@@ -144328,11 +144626,20 @@
      "stability": 0,
      "chars": 37,
      "ts": 1786148305
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_42~c1__mag316__1787491701.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 37,
+     "textHash": "5e397f8152",
+     "ts": 1787491701
     }
    ]
   },
   "5356e43c30303124170043af_44": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_44__mag158__1786148308.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_44__mag316__1787491707.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_44__mag158__1786148308.mp3",
@@ -144341,11 +144648,20 @@
      "stability": 0,
      "chars": 54,
      "ts": 1786148308
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_44__mag316__1787491707.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 54,
+     "textHash": "5ac17e52b3",
+     "ts": 1787491707
     }
    ]
   },
   "5356e43c30303124170043af_43": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_43__mag158__1786148305.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_43__mag316__1787491706.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_43__mag158__1786148305.mp3",
@@ -144354,11 +144670,20 @@
      "stability": 0,
      "chars": 219,
      "ts": 1786148305
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_43__mag316__1787491706.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 219,
+     "textHash": "ef0e2c8074",
+     "ts": 1787491706
     }
    ]
   },
   "5356e43c30303124170043af_47": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_47__mag158__1786148309.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_47__mag316__1787491708.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_47__mag158__1786148309.mp3",
@@ -144367,11 +144692,20 @@
      "stability": 0,
      "chars": 155,
      "ts": 1786148309
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_47__mag316__1787491708.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 155,
+     "textHash": "bdc535a395",
+     "ts": 1787491708
     }
    ]
   },
   "5356e43c30303124170043af_46": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_46__mag158__1786148309.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_46__mag316__1787491707.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_46__mag158__1786148309.mp3",
@@ -144380,11 +144714,20 @@
      "stability": 0,
      "chars": 256,
      "ts": 1786148309
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_46__mag316__1787491707.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 256,
+     "textHash": "e43671e97f",
+     "ts": 1787491707
     }
    ]
   },
   "5356e43c30303124170043af_48": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_48__mag158__1786148313.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_48__mag316__1787491713.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_48__mag158__1786148313.mp3",
@@ -144393,11 +144736,20 @@
      "stability": 0,
      "chars": 213,
      "ts": 1786148313
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_48__mag316__1787491713.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 213,
+     "textHash": "27a52b998c",
+     "ts": 1787491713
     }
    ]
   },
   "5356e43c30303124170043af_50": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_50__mag158__1786148314.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_50__mag316__1787491715.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_50__mag158__1786148314.mp3",
@@ -144406,11 +144758,20 @@
      "stability": 0,
      "chars": 181,
      "ts": 1786148314
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_50__mag316__1787491715.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 181,
+     "textHash": "3252361ca7",
+     "ts": 1787491715
     }
    ]
   },
   "5356e43c30303124170043af_51": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_51__mag158__1786148316.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_51__mag316__1787491716.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_51__mag158__1786148316.mp3",
@@ -144419,11 +144780,20 @@
      "stability": 0,
      "chars": 220,
      "ts": 1786148316
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_51__mag316__1787491716.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 220,
+     "textHash": "6d5c6ca8a4",
+     "ts": 1787491716
     }
    ]
   },
   "5356e43c30303124170043af_52": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_52__mag158__1786442549.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_52__mag316__1787491720.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_52__mag158__1786148318.mp3",
@@ -144440,11 +144810,20 @@
      "stability": 0,
      "chars": 103,
      "ts": 1786442549
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_52__mag316__1787491720.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 103,
+     "textHash": "21ea99ed35",
+     "ts": 1787491720
     }
    ]
   },
   "5356e43c30303124170043af_53": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_53__mag158__1786148320.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_53__mag316__1787491723.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_53__mag158__1786148320.mp3",
@@ -144453,11 +144832,20 @@
      "stability": 0,
      "chars": 16,
      "ts": 1786148320
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_53__mag316__1787491723.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 16,
+     "textHash": "42af44093f",
+     "ts": 1787491723
     }
    ]
   },
   "5356e43c30303124170043af_55": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_55__mag158__1786148321.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_55__mag316__1787491725.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_55__mag158__1786148321.mp3",
@@ -144466,11 +144854,20 @@
      "stability": 0,
      "chars": 59,
      "ts": 1786148321
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_55__mag316__1787491725.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 59,
+     "textHash": "b8dab11fb3",
+     "ts": 1787491725
     }
    ]
   },
   "5356e43c30303124170043af_57~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_57~c1__mag158__1786148325.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_57~c1__mag316__1787491730.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_57~c1__mag158__1786148325.mp3",
@@ -144479,11 +144876,20 @@
      "stability": 0,
      "chars": 55,
      "ts": 1786148325
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_57~c1__mag316__1787491730.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 55,
+     "textHash": "73657e21a6",
+     "ts": 1787491730
     }
    ]
   },
   "5356e43c30303124170043af_56": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_56__mag158__1786148324.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_56__mag316__1787491726.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_56__mag158__1786148324.mp3",
@@ -144492,11 +144898,20 @@
      "stability": 0,
      "chars": 219,
      "ts": 1786148324
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_56__mag316__1787491726.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 219,
+     "textHash": "e99110d3bb",
+     "ts": 1787491726
     }
    ]
   },
   "5356e43c30303124170043af_57~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_57~c0__mag158__1786442550.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_57~c0__mag316__1787491729.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_57~c0__mag158__1786148324.mp3",
@@ -144513,11 +144928,20 @@
      "stability": 0,
      "chars": 174,
      "ts": 1786442550
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_57~c0__mag316__1787491729.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 174,
+     "textHash": "30a5833a89",
+     "ts": 1787491729
     }
    ]
   },
   "5356e43c30303124170043af_58": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_58__mag158__1786148326.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_58__mag316__1787491732.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_58__mag158__1786148326.mp3",
@@ -144526,11 +144950,20 @@
      "stability": 0,
      "chars": 148,
      "ts": 1786148326
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_58__mag316__1787491732.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 148,
+     "textHash": "9fc8f09c5d",
+     "ts": 1787491732
     }
    ]
   },
   "5356e43c30303124170043af_63": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_63__mag158__1786148332.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_63__mag316__1787491742.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_63__mag158__1786148332.mp3",
@@ -144539,11 +144972,20 @@
      "stability": 0,
      "chars": 169,
      "ts": 1786148332
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_63__mag316__1787491742.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 169,
+     "textHash": "9bd1cc85d3",
+     "ts": 1787491742
     }
    ]
   },
   "5356e43c30303124170043af_64": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_64__mag158__1786148332.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_64__mag316__1787491742.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_64__mag158__1786148332.mp3",
@@ -144552,11 +144994,20 @@
      "stability": 0,
      "chars": 185,
      "ts": 1786148332
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_64__mag316__1787491742.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 185,
+     "textHash": "28747591b0",
+     "ts": 1787491742
     }
    ]
   },
   "5356e43c30303124170043af_60": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_60__mag158__1786148329.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_60__mag316__1787491737.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_60__mag158__1786148329.mp3",
@@ -144565,11 +145016,20 @@
      "stability": 0,
      "chars": 242,
      "ts": 1786148329
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_60__mag316__1787491737.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 242,
+     "textHash": "5fe54e9c0a",
+     "ts": 1787491737
     }
    ]
   },
   "5356e43c30303124170043af_62": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_62__mag158__1786442552.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_62__mag316__1787491738.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_62__mag158__1786148332.mp3",
@@ -144586,11 +145046,20 @@
      "stability": 0,
      "chars": 277,
      "ts": 1786442552
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_62__mag316__1787491738.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 277,
+     "textHash": "3fedcf7482",
+     "ts": 1787491738
     }
    ]
   },
   "5356e43c30303124170043af_65": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_65__mag158__1786148338.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_65__mag316__1787491749.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_65__mag158__1786148338.mp3",
@@ -144599,11 +145068,20 @@
      "stability": 0,
      "chars": 153,
      "ts": 1786148338
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_65__mag316__1787491749.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 153,
+     "textHash": "83be28f369",
+     "ts": 1787491749
     }
    ]
   },
   "5356e43c30303124170043af_67": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_67__mag158__1786148338.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_67__mag316__1787491751.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_67__mag158__1786148338.mp3",
@@ -144612,11 +145090,20 @@
      "stability": 0,
      "chars": 171,
      "ts": 1786148338
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_67__mag316__1787491751.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 171,
+     "textHash": "a67e6b96d6",
+     "ts": 1787491751
     }
    ]
   },
   "5356e43c30303124170043af_68": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_68__mag158__1786148341.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_68__mag316__1787491753.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_68__mag158__1786148341.mp3",
@@ -144625,11 +145112,20 @@
      "stability": 0,
      "chars": 78,
      "ts": 1786148341
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_68__mag316__1787491753.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 78,
+     "textHash": "c6d0b8abda",
+     "ts": 1787491753
     }
    ]
   },
   "5356e43c30303124170043af_66": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_66__mag158__1786148338.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_66__mag316__1787491751.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_66__mag158__1786148338.mp3",
@@ -144638,11 +145134,20 @@
      "stability": 0,
      "chars": 342,
      "ts": 1786148338
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_66__mag316__1787491751.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 342,
+     "textHash": "1c40f42332",
+     "ts": 1787491751
     }
    ]
   },
   "5356e43c30303124170043af_74~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_74~c0__mag158__1786442555.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_74~c0__mag316__1787491761.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_74~c0__mag158__1786148346.mp3",
@@ -144659,11 +145164,20 @@
      "stability": 0,
      "chars": 100,
      "ts": 1786442555
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_74~c0__mag316__1787491761.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 100,
+     "textHash": "1892c4735e",
+     "ts": 1787491761
     }
    ]
   },
   "5356e43c30303124170043af_70": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_70__mag158__1786148346.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_70__mag316__1787491757.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_70__mag158__1786148346.mp3",
@@ -144672,11 +145186,20 @@
      "stability": 0,
      "chars": 167,
      "ts": 1786148346
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_70__mag316__1787491757.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 167,
+     "textHash": "a0eec59106",
+     "ts": 1787491757
     }
    ]
   },
   "5356e43c30303124170043af_74~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_74~c1__mag158__1786148348.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_74~c1__mag316__1787491762.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_74~c1__mag158__1786148348.mp3",
@@ -144685,11 +145208,20 @@
      "stability": 0,
      "chars": 80,
      "ts": 1786148348
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_74~c1__mag316__1787491762.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 80,
+     "textHash": "695aa1c82f",
+     "ts": 1787491762
     }
    ]
   },
   "5356e43c30303124170043af_72": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_72__mag158__1786148346.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_72__mag316__1787491760.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_72__mag158__1786148346.mp3",
@@ -144698,11 +145230,20 @@
      "stability": 0,
      "chars": 117,
      "ts": 1786148346
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_72__mag316__1787491760.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 117,
+     "textHash": "c18d77528c",
+     "ts": 1787491760
     }
    ]
   },
   "5356e43c30303124170043af_77": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_77__mag158__1786148353.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_77__mag316__1787491767.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_77__mag158__1786148353.mp3",
@@ -144711,11 +145252,20 @@
      "stability": 0,
      "chars": 36,
      "ts": 1786148353
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_77__mag316__1787491767.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 36,
+     "textHash": "69a5b3f37e",
+     "ts": 1787491767
     }
    ]
   },
   "5356e43c30303124170043af_75": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_75__mag158__1786442559.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_75__mag316__1787491766.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_75__mag158__1786148352.mp3",
@@ -144732,11 +145282,20 @@
      "stability": 0,
      "chars": 155,
      "ts": 1786442559
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_75__mag316__1787491766.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 155,
+     "textHash": "d5255f4199",
+     "ts": 1787491766
     }
    ]
   },
   "5356e43c30303124170043af_78": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_78__mag158__1786148353.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_78__mag316__1787491768.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_78__mag158__1786148353.mp3",
@@ -144745,11 +145304,20 @@
      "stability": 0,
      "chars": 176,
      "ts": 1786148353
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_78__mag316__1787491768.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 176,
+     "textHash": "dfad679987",
+     "ts": 1787491768
     }
    ]
   },
   "5356e43c30303124170043af_80": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_80__mag158__1786148353.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_80__mag316__1787491770.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_80__mag158__1786148353.mp3",
@@ -144758,11 +145326,20 @@
      "stability": 0,
      "chars": 249,
      "ts": 1786148353
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_80__mag316__1787491770.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 249,
+     "textHash": "0cbec28769",
+     "ts": 1787491770
     }
    ]
   },
   "5356e43c30303124170043af_81": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_81__mag158__1786148357.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_81__mag316__1787491774.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_81__mag158__1786148357.mp3",
@@ -144771,11 +145348,20 @@
      "stability": 0,
      "chars": 197,
      "ts": 1786148357
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_81__mag316__1787491774.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 197,
+     "textHash": "4f17545cd6",
+     "ts": 1787491774
     }
    ]
   },
   "5356e43c30303124170043af_85": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_85__mag158__1786148359.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_85__mag316__1787491778.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_85__mag158__1786148359.mp3",
@@ -144784,11 +145370,20 @@
      "stability": 0,
      "chars": 122,
      "ts": 1786148359
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_85__mag316__1787491778.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 122,
+     "textHash": "38373aa7f8",
+     "ts": 1787491778
     }
    ]
   },
   "5356e43c30303124170043af_83": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_83__mag158__1786442564.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_83__mag316__1787491775.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_83__mag158__1786148358.mp3",
@@ -144805,11 +145400,20 @@
      "stability": 0,
      "chars": 235,
      "ts": 1786442564
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_83__mag316__1787491775.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 235,
+     "textHash": "71b1869972",
+     "ts": 1787491775
     }
    ]
   },
   "5356e43c30303124170043af_86": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_86__mag158__1786442564.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_86__mag316__1787491781.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_86__mag158__1786148362.mp3",
@@ -144826,11 +145430,20 @@
      "stability": 0,
      "chars": 66,
      "ts": 1786442564
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_86__mag316__1787491781.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 66,
+     "textHash": "da7b5d257a",
+     "ts": 1787491781
     }
    ]
   },
   "5356e43c30303124170043af_90": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_90__mag158__1786148366.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_90__mag316__1787491785.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_90__mag158__1786148366.mp3",
@@ -144839,11 +145452,20 @@
      "stability": 0,
      "chars": 27,
      "ts": 1786148366
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_90__mag316__1787491785.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 27,
+     "textHash": "7027c7e7bb",
+     "ts": 1787491785
     }
    ]
   },
   "5356e43c30303124170043af_87": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_87__mag158__1786442570.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_87__mag316__1787491784.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_87__mag158__1786148365.mp3",
@@ -144860,11 +145482,20 @@
      "stability": 0,
      "chars": 192,
      "ts": 1786442570
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_87__mag316__1787491784.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 192,
+     "textHash": "9014347513",
+     "ts": 1787491784
     }
    ]
   },
   "5356e43c30303124170043af_91": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_91__mag158__1786148368.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_91__mag316__1787491788.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_91__mag158__1786148368.mp3",
@@ -144873,11 +145504,20 @@
      "stability": 0,
      "chars": 134,
      "ts": 1786148368
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_91__mag316__1787491788.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 134,
+     "textHash": "204e2d77fb",
+     "ts": 1787491788
     }
    ]
   },
   "5356e43c30303124170043af_93": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_93__mag158__1786148368.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_93__mag316__1787491788.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_93__mag158__1786148368.mp3",
@@ -144886,11 +145526,20 @@
      "stability": 0,
      "chars": 80,
      "ts": 1786148368
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_93__mag316__1787491788.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 80,
+     "textHash": "e187fa12f6",
+     "ts": 1787491788
     }
    ]
   },
   "5356e43c30303124170043af_95": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_95__mag158__1786148371.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_95__mag316__1787491790.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_95__mag158__1786148371.mp3",
@@ -144899,11 +145548,20 @@
      "stability": 0,
      "chars": 132,
      "ts": 1786148371
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_95__mag316__1787491790.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 132,
+     "textHash": "59abc55396",
+     "ts": 1787491790
     }
    ]
   },
   "5356e43c30303124170043af_100": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_100__mag158__1786442573.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_100__mag316__1787491795.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_100__mag158__1786148374.mp3",
@@ -144920,11 +145578,20 @@
      "stability": 0,
      "chars": 87,
      "ts": 1786442573
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_100__mag316__1787491795.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 87,
+     "textHash": "aac283f46d",
+     "ts": 1787491795
     }
    ]
   },
   "5356e43c30303124170043af_99": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_99__mag158__1786148373.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_99__mag316__1787491795.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_99__mag158__1786148373.mp3",
@@ -144933,11 +145600,20 @@
      "stability": 0,
      "chars": 133,
      "ts": 1786148373
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_99__mag316__1787491795.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 133,
+     "textHash": "0caa7b0491",
+     "ts": 1787491795
     }
    ]
   },
   "5356e43c30303124170043af_102": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_102__mag158__1786442576.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_102__mag316__1787491796.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_102__mag158__1786148374.mp3",
@@ -144954,11 +145630,20 @@
      "stability": 0,
      "chars": 114,
      "ts": 1786442576
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_102__mag316__1787491796.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 114,
+     "textHash": "45bc85c66a",
+     "ts": 1787491796
     }
    ]
   },
   "5356e43c30303124170043af_103": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_103__mag158__1786148379.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_103__mag316__1787491797.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_103__mag158__1786148379.mp3",
@@ -144967,11 +145652,20 @@
      "stability": 0,
      "chars": 104,
      "ts": 1786148379
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_103__mag316__1787491797.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 104,
+     "textHash": "9a9dbbdb31",
+     "ts": 1787491797
     }
    ]
   },
   "5356e43c30303124170043af_104": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_104__mag158__1786148380.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_104__mag316__1787491802.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_104__mag158__1786148380.mp3",
@@ -144980,11 +145674,20 @@
      "stability": 0,
      "chars": 16,
      "ts": 1786148380
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_104__mag316__1787491802.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 16,
+     "textHash": "218e0e2eba",
+     "ts": 1787491802
     }
    ]
   },
   "5356e43c30303124170043af_106": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_106__mag158__1786148380.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_106__mag316__1787491804.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_106__mag158__1786148380.mp3",
@@ -144993,11 +145696,20 @@
      "stability": 0,
      "chars": 75,
      "ts": 1786148380
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_106__mag316__1787491804.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 75,
+     "textHash": "0a4c184254",
+     "ts": 1787491804
     }
    ]
   },
   "5356e43c30303124170043af_109": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_109__mag158__1786442580.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_109__mag316__1787491805.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_109__mag158__1786148384.mp3",
@@ -145014,11 +145726,20 @@
      "stability": 0,
      "chars": 82,
      "ts": 1786442580
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_109__mag316__1787491805.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 82,
+     "textHash": "dd3fb5090d",
+     "ts": 1787491805
     }
    ]
   },
   "5356e43c30303124170043af_107": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_107__mag158__1786442579.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_107__mag316__1787491805.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_107__mag158__1786148384.mp3",
@@ -145035,11 +145756,20 @@
      "stability": 0,
      "chars": 148,
      "ts": 1786442579
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_107__mag316__1787491805.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 148,
+     "textHash": "76b0623de0",
+     "ts": 1787491805
     }
    ]
   },
   "5356e43c30303124170043af_112~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_112~c0__mag158__1786148387.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_112~c0__mag316__1787491811.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_112~c0__mag158__1786148387.mp3",
@@ -145048,11 +145778,20 @@
      "stability": 0,
      "chars": 8,
      "ts": 1786148387
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_112~c0__mag316__1787491811.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 8,
+     "textHash": "7bdf5d8dc1",
+     "ts": 1787491811
     }
    ]
   },
   "5356e43c30303124170043af_112~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_112~c1__mag158__1786148390.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_112~c1__mag316__1787491813.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_112~c1__mag158__1786148390.mp3",
@@ -145061,11 +145800,20 @@
      "stability": 0,
      "chars": 30,
      "ts": 1786148390
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_112~c1__mag316__1787491813.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 30,
+     "textHash": "e17a674565",
+     "ts": 1787491813
     }
    ]
   },
   "5356e43c30303124170043af_110": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_110__mag158__1786148387.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_110__mag316__1787491808.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_110__mag158__1786148387.mp3",
@@ -145074,11 +145822,20 @@
      "stability": 0,
      "chars": 187,
      "ts": 1786148387
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_110__mag316__1787491808.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 187,
+     "textHash": "d29d90ca8b",
+     "ts": 1787491808
     }
    ]
   },
   "5356e43c30303124170043af_113": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_113__mag158__1786148392.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_113__mag316__1787491814.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_113__mag158__1786148392.mp3",
@@ -145087,11 +145844,20 @@
      "stability": 0,
      "chars": 21,
      "ts": 1786148392
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_113__mag316__1787491814.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 21,
+     "textHash": "5ea40e4f4e",
+     "ts": 1787491814
     }
    ]
   },
   "5356e43c30303124170043af_116": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_116__mag158__1786148392.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_116__mag316__1787491817.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_116__mag158__1786148392.mp3",
@@ -145100,11 +145866,20 @@
      "stability": 0,
      "chars": 145,
      "ts": 1786148392
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_116__mag316__1787491817.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 145,
+     "textHash": "b89039b701",
+     "ts": 1787491817
     }
    ]
   },
   "5356e43c30303124170043af_120~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_120~c0__mag158__1786148395.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_120~c0__mag316__1787491817.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_120~c0__mag158__1786148395.mp3",
@@ -145113,11 +145888,20 @@
      "stability": 0,
      "chars": 165,
      "ts": 1786148395
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_120~c0__mag316__1787491817.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 165,
+     "textHash": "21639c1f11",
+     "ts": 1787491817
     }
    ]
   },
   "5356e43c30303124170043af_120~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_120~c1__mag158__1786148396.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_120~c1__mag316__1787491819.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_120~c1__mag158__1786148396.mp3",
@@ -145126,11 +145910,20 @@
      "stability": 0,
      "chars": 56,
      "ts": 1786148396
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_120~c1__mag316__1787491819.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 56,
+     "textHash": "96b073f0b7",
+     "ts": 1787491819
     }
    ]
   },
   "5356e43c30303124170043af_121~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_121~c0__mag158__1786148397.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_121~c0__mag316__1787491820.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_121~c0__mag158__1786148397.mp3",
@@ -145139,11 +145932,20 @@
      "stability": 0,
      "chars": 66,
      "ts": 1786148397
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_121~c0__mag316__1787491820.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 66,
+     "textHash": "d288846a52",
+     "ts": 1787491820
     }
    ]
   },
   "5356e43c30303124170043af_121~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_121~c1__mag158__1786148398.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_121~c1__mag316__1787491823.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_121~c1__mag158__1786148398.mp3",
@@ -145152,11 +145954,20 @@
      "stability": 0,
      "chars": 70,
      "ts": 1786148398
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_121~c1__mag316__1787491823.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 70,
+     "textHash": "061b5d1e52",
+     "ts": 1787491823
     }
    ]
   },
   "5356e43c30303124170043af_122~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_122~c0__mag158__1786148401.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_122~c0__mag316__1787491825.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_122~c0__mag158__1786148401.mp3",
@@ -145165,11 +145976,20 @@
      "stability": 0,
      "chars": 96,
      "ts": 1786148401
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_122~c0__mag316__1787491825.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 96,
+     "textHash": "8574df908d",
+     "ts": 1787491825
     }
    ]
   },
   "5356e43c30303124170043af_125~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_125~c1__mag158__1786148402.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_125~c1__mag316__1787491829.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_125~c1__mag158__1786148402.mp3",
@@ -145178,11 +145998,20 @@
      "stability": 0,
      "chars": 17,
      "ts": 1786148402
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_125~c1__mag316__1787491829.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 17,
+     "textHash": "d531a7e8bb",
+     "ts": 1787491829
     }
    ]
   },
   "5356e43c30303124170043af_125~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_125~c0__mag158__1786148402.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_125~c0__mag316__1787491828.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_125~c0__mag158__1786148402.mp3",
@@ -145191,11 +146020,20 @@
      "stability": 0,
      "chars": 67,
      "ts": 1786148402
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_125~c0__mag316__1787491828.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 67,
+     "textHash": "274630f34e",
+     "ts": 1787491828
     }
    ]
   },
   "5356e43c30303124170043af_124": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_124__mag158__1786148402.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_124__mag316__1787491825.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_124__mag158__1786148402.mp3",
@@ -145204,11 +146042,20 @@
      "stability": 0,
      "chars": 173,
      "ts": 1786148402
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_124__mag316__1787491825.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 173,
+     "textHash": "d62cbf5efc",
+     "ts": 1787491825
     }
    ]
   },
   "5356e43c30303124170043af_128~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_128~c1__mag158__1786148407.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_128~c1__mag316__1787491835.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_128~c1__mag158__1786148407.mp3",
@@ -145217,11 +146064,20 @@
      "stability": 0,
      "chars": 52,
      "ts": 1786148407
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_128~c1__mag316__1787491835.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 52,
+     "textHash": "0e40412bec",
+     "ts": 1787491835
     }
    ]
   },
   "5356e43c30303124170043af_128~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_128~c0__mag158__1786442583.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_128~c0__mag316__1787491834.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_128~c0__mag158__1786148407.mp3",
@@ -145238,11 +146094,20 @@
      "stability": 0,
      "chars": 42,
      "ts": 1786442583
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_128~c0__mag316__1787491834.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 42,
+     "textHash": "894970151c",
+     "ts": 1787491834
     }
    ]
   },
   "5356e43c30303124170043af_130": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_130__mag158__1786148408.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_130__mag316__1787491836.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_130__mag158__1786148408.mp3",
@@ -145251,11 +146116,20 @@
      "stability": 0,
      "chars": 27,
      "ts": 1786148408
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_130__mag316__1787491836.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 27,
+     "textHash": "6584951c69",
+     "ts": 1787491836
     }
    ]
   },
   "5356e43c30303124170043af_126": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_126__mag158__1786148406.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_126__mag316__1787491831.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_126__mag158__1786148406.mp3",
@@ -145264,11 +146138,20 @@
      "stability": 0,
      "chars": 123,
      "ts": 1786148406
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_126__mag316__1787491831.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 123,
+     "textHash": "74696de109",
+     "ts": 1787491831
     }
    ]
   },
   "5356e43c30303124170043af_131": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_131__mag158__1786148412.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_131__mag316__1787491841.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_131__mag158__1786148412.mp3",
@@ -145277,11 +146160,20 @@
      "stability": 0,
      "chars": 182,
      "ts": 1786148412
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_131__mag316__1787491841.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 182,
+     "textHash": "f9125d5183",
+     "ts": 1787491841
     }
    ]
   },
   "5356e43c30303124170043af_135": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_135__mag158__1786148413.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_135__mag316__1787491845.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_135__mag158__1786148413.mp3",
@@ -145290,11 +146182,20 @@
      "stability": 0,
      "chars": 122,
      "ts": 1786148413
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_135__mag316__1787491845.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 122,
+     "textHash": "501170ddfc",
+     "ts": 1787491845
     }
    ]
   },
   "5356e43c30303124170043af_133": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_133__mag158__1786148412.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_133__mag316__1787491842.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_133__mag158__1786148412.mp3",
@@ -145303,11 +146204,20 @@
      "stability": 0,
      "chars": 197,
      "ts": 1786148412
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_133__mag316__1787491842.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 197,
+     "textHash": "d5096c0678",
+     "ts": 1787491842
     }
    ]
   },
   "5356e43c30303124170043af_134": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_134__mag158__1786148412.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_134__mag316__1787491842.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_134__mag158__1786148412.mp3",
@@ -145316,11 +146226,20 @@
      "stability": 0,
      "chars": 211,
      "ts": 1786148412
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_134__mag316__1787491842.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 211,
+     "textHash": "5507441341",
+     "ts": 1787491842
     }
    ]
   },
   "5356e43c30303124170043af_136": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_136__mag158__1786148419.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_136__mag316__1787491852.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_136__mag158__1786148419.mp3",
@@ -145329,11 +146248,20 @@
      "stability": 0,
      "chars": 62,
      "ts": 1786148419
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_136__mag316__1787491852.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 62,
+     "textHash": "6d3f0f2bcd",
+     "ts": 1787491852
     }
    ]
   },
   "5356e43c30303124170043af_138~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_138~c1__mag158__1786148419.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_138~c1__mag316__1787491853.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_138~c1__mag158__1786148419.mp3",
@@ -145342,11 +146270,20 @@
      "stability": 0,
      "chars": 39,
      "ts": 1786148419
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_138~c1__mag316__1787491853.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 39,
+     "textHash": "941a0b407d",
+     "ts": 1787491853
     }
    ]
   },
   "5356e43c30303124170043af_138~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_138~c0__mag158__1786148419.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_138~c0__mag316__1787491852.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_138~c0__mag158__1786148419.mp3",
@@ -145355,11 +146292,20 @@
      "stability": 0,
      "chars": 96,
      "ts": 1786148419
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_138~c0__mag316__1787491852.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 96,
+     "textHash": "d03d3e6b02",
+     "ts": 1787491852
     }
    ]
   },
   "5356e43c30303124170043af_151": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_151__mag158__1786442585.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_151__mag316__1787491859.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_151__mag158__1786148424.mp3",
@@ -145376,11 +146322,20 @@
      "stability": 0,
      "chars": 35,
      "ts": 1786442585
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_151__mag316__1787491859.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 35,
+     "textHash": "e686ed03d6",
+     "ts": 1787491859
     }
    ]
   },
   "5356e43c30303124170043af_139": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_139__mag158__1786148421.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_139__mag316__1787491853.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_139__mag158__1786148421.mp3",
@@ -145389,11 +146344,20 @@
      "stability": 0,
      "chars": 143,
      "ts": 1786148421
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_139__mag316__1787491853.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 143,
+     "textHash": "6bde34f645",
+     "ts": 1787491853
     }
    ]
   },
   "5356e43c30303124170043af_142": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_142__mag158__1786148423.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_142__mag316__1787491859.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_142__mag158__1786148423.mp3",
@@ -145402,11 +146366,20 @@
      "stability": 0,
      "chars": 165,
      "ts": 1786148423
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_142__mag316__1787491859.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 165,
+     "textHash": "482805639d",
+     "ts": 1787491859
     }
    ]
   },
   "5356e43c30303124170043af_154~c0": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_154~c0__mag158__1786148425.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_154~c0__mag316__1787491860.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_154~c0__mag158__1786148425.mp3",
@@ -145415,11 +146388,20 @@
      "stability": 0,
      "chars": 50,
      "ts": 1786148425
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_154~c0__mag316__1787491860.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 50,
+     "textHash": "6ba046bf7f",
+     "ts": 1787491860
     }
    ]
   },
   "5356e43c30303124170043af_154~c1": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_154~c1__mag158__1786148428.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_154~c1__mag316__1787491863.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_154~c1__mag158__1786148428.mp3",
@@ -145428,11 +146410,20 @@
      "stability": 0,
      "chars": 69,
      "ts": 1786148428
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_154~c1__mag316__1787491863.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 69,
+     "textHash": "265cc51272",
+     "ts": 1787491863
     }
    ]
   },
   "53582818303031440600692f_3~c0": {
-   "selected": "name_marta/takes/53582818303031440600692f_3~c0__mag158__1786148430.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_3~c0__mag316__1787491867.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_3~c0__mag158__1786148430.mp3",
@@ -145441,11 +146432,20 @@
      "stability": 0,
      "chars": 11,
      "ts": 1786148430
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_3~c0__mag316__1787491867.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 11,
+     "textHash": "7e6d1b9f6b",
+     "ts": 1787491867
     }
    ]
   },
   "5356e43c30303124170043af_157": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_157__mag158__1786148428.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_157__mag316__1787491864.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_157__mag158__1786148428.mp3",
@@ -145454,11 +146454,20 @@
      "stability": 0,
      "chars": 98,
      "ts": 1786148428
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_157__mag316__1787491864.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 98,
+     "textHash": "284e82fde6",
+     "ts": 1787491864
     }
    ]
   },
   "5356e43c30303124170043af_161": {
-   "selected": "name_marta/takes/5356e43c30303124170043af_161__mag158__1786148430.mp3",
+   "selected": "name_marta/takes/5356e43c30303124170043af_161__mag316__1787491866.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5356e43c30303124170043af_161__mag158__1786148430.mp3",
@@ -145467,11 +146476,20 @@
      "stability": 0,
      "chars": 81,
      "ts": 1786148430
+    },
+    {
+     "file": "name_marta/takes/5356e43c30303124170043af_161__mag316__1787491866.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 81,
+     "textHash": "3e3915ffb1",
+     "ts": 1787491866
     }
    ]
   },
   "53582818303031440600692f_3~c1": {
-   "selected": "name_marta/takes/53582818303031440600692f_3~c1__mag158__1786148433.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_3~c1__mag316__1787491868.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_3~c1__mag158__1786148433.mp3",
@@ -145480,11 +146498,20 @@
      "stability": 0,
      "chars": 20,
      "ts": 1786148433
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_3~c1__mag316__1787491868.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 20,
+     "textHash": "220f6d1736",
+     "ts": 1787491868
     }
    ]
   },
   "53582818303031440600692f_8~c1": {
-   "selected": "name_marta/takes/53582818303031440600692f_8~c1__mag158__1786148435.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_8~c1__mag316__1787491872.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_8~c1__mag158__1786148435.mp3",
@@ -145493,11 +146520,20 @@
      "stability": 0,
      "chars": 59,
      "ts": 1786148435
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_8~c1__mag316__1787491872.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 59,
+     "textHash": "fa6f46cd5b",
+     "ts": 1787491872
     }
    ]
   },
   "53582818303031440600692f_6": {
-   "selected": "name_marta/takes/53582818303031440600692f_6__mag158__1786148434.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_6__mag316__1787491870.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_6__mag158__1786148434.mp3",
@@ -145506,11 +146542,20 @@
      "stability": 0,
      "chars": 90,
      "ts": 1786148434
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_6__mag316__1787491870.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 90,
+     "textHash": "ef95c43a31",
+     "ts": 1787491870
     }
    ]
   },
   "53582818303031440600692f_8~c0": {
-   "selected": "name_marta/takes/53582818303031440600692f_8~c0__mag158__1786148435.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_8~c0__mag316__1787491872.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_8~c0__mag158__1786148435.mp3",
@@ -145519,11 +146564,20 @@
      "stability": 0,
      "chars": 81,
      "ts": 1786148435
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_8~c0__mag316__1787491872.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 81,
+     "textHash": "0349c35091",
+     "ts": 1787491872
     }
    ]
   },
   "53582818303031440600692f_11": {
-   "selected": "name_marta/takes/53582818303031440600692f_11__mag158__1786148438.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_11__mag316__1787491875.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_11__mag158__1786148438.mp3",
@@ -145532,11 +146586,20 @@
      "stability": 0,
      "chars": 42,
      "ts": 1786148438
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_11__mag316__1787491875.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 42,
+     "textHash": "fbe2ea538c",
+     "ts": 1787491875
     }
    ]
   },
   "53582818303031440600692f_13": {
-   "selected": "name_marta/takes/53582818303031440600692f_13__mag158__1786148441.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_13__mag316__1787491881.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_13__mag158__1786148441.mp3",
@@ -145545,11 +146608,20 @@
      "stability": 0,
      "chars": 10,
      "ts": 1786148441
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_13__mag316__1787491881.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 10,
+     "textHash": "7bbf8de06c",
+     "ts": 1787491881
     }
    ]
   },
   "53582818303031440600692f_19": {
-   "selected": "name_marta/takes/53582818303031440600692f_19__mag158__1786148441.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_19__mag316__1787491881.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_19__mag158__1786148441.mp3",
@@ -145558,11 +146630,20 @@
      "stability": 0,
      "chars": 72,
      "ts": 1786148441
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_19__mag316__1787491881.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 72,
+     "textHash": "e6ab0bb1b2",
+     "ts": 1787491881
     }
    ]
   },
   "53582818303031440600692f_16": {
-   "selected": "name_marta/takes/53582818303031440600692f_16__mag158__1786148441.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_16__mag316__1787491881.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_16__mag158__1786148441.mp3",
@@ -145571,11 +146652,20 @@
      "stability": 0,
      "chars": 109,
      "ts": 1786148441
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_16__mag316__1787491881.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 109,
+     "textHash": "8fd2e48732",
+     "ts": 1787491881
     }
    ]
   },
   "53582818303031440600692f_22": {
-   "selected": "name_marta/takes/53582818303031440600692f_22__mag158__1786148443.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_22__mag316__1787491883.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_22__mag158__1786148443.mp3",
@@ -145584,11 +146674,20 @@
      "stability": 0,
      "chars": 82,
      "ts": 1786148443
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_22__mag316__1787491883.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 82,
+     "textHash": "4b11793b9b",
+     "ts": 1787491883
     }
    ]
   },
   "53582818303031440600692f_25": {
-   "selected": "name_marta/takes/53582818303031440600692f_25__mag158__1786148444.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_25__mag316__1787491889.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_25__mag158__1786148444.mp3",
@@ -145597,11 +146696,20 @@
      "stability": 0,
      "chars": 65,
      "ts": 1786148444
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_25__mag316__1787491889.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 65,
+     "textHash": "decced76d6",
+     "ts": 1787491889
     }
    ]
   },
   "53582818303031440600692f_29": {
-   "selected": "name_marta/takes/53582818303031440600692f_29__mag158__1786148446.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_29__mag316__1787491889.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_29__mag158__1786148446.mp3",
@@ -145610,11 +146718,20 @@
      "stability": 0,
      "chars": 78,
      "ts": 1786148446
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_29__mag316__1787491889.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 78,
+     "textHash": "50545a211d",
+     "ts": 1787491889
     }
    ]
   },
   "53582818303031440600692f_31": {
-   "selected": "name_marta/takes/53582818303031440600692f_31__mag158__1786148447.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_31__mag316__1787491891.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_31__mag158__1786148447.mp3",
@@ -145623,11 +146740,20 @@
      "stability": 0,
      "chars": 69,
      "ts": 1786148447
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_31__mag316__1787491891.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 69,
+     "textHash": "02bbe2d941",
+     "ts": 1787491891
     }
    ]
   },
   "53582818303031440600692f_39": {
-   "selected": "name_marta/takes/53582818303031440600692f_39__mag158__1786148449.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_39__mag316__1787491891.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_39__mag158__1786148449.mp3",
@@ -145636,11 +146762,20 @@
      "stability": 0,
      "chars": 54,
      "ts": 1786148449
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_39__mag316__1787491891.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 54,
+     "textHash": "7d58d80f16",
+     "ts": 1787491891
     }
    ]
   },
   "53582818303031440600692f_50": {
-   "selected": "name_marta/takes/53582818303031440600692f_50__mag158__1786148449.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_50__mag316__1787491896.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_50__mag158__1786148449.mp3",
@@ -145649,11 +146784,20 @@
      "stability": 0,
      "chars": 76,
      "ts": 1786148449
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_50__mag316__1787491896.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 76,
+     "textHash": "521e324f49",
+     "ts": 1787491896
     }
    ]
   },
   "53582818303031440600692f_56": {
-   "selected": "name_marta/takes/53582818303031440600692f_56__mag158__1786148453.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_56__mag316__1787491897.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_56__mag158__1786148453.mp3",
@@ -145662,11 +146806,20 @@
      "stability": 0,
      "chars": 6,
      "ts": 1786148453
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_56__mag316__1787491897.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 6,
+     "textHash": "c9dfc23f3b",
+     "ts": 1787491897
     }
    ]
   },
   "53582818303031440600692f_51~c1": {
-   "selected": "name_marta/takes/53582818303031440600692f_51~c1__mag158__1786148452.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_51~c1__mag316__1787491897.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_51~c1__mag158__1786148452.mp3",
@@ -145675,11 +146828,20 @@
      "stability": 0,
      "chars": 33,
      "ts": 1786148452
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_51~c1__mag316__1787491897.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 33,
+     "textHash": "ab2d9275f8",
+     "ts": 1787491897
     }
    ]
   },
   "53582818303031440600692f_51~c0": {
-   "selected": "name_marta/takes/53582818303031440600692f_51~c0__mag158__1786442588.mp3",
+   "selected": "name_marta/takes/53582818303031440600692f_51~c0__mag316__1787491896.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53582818303031440600692f_51~c0__mag158__1786148452.mp3",
@@ -145696,11 +146858,20 @@
      "stability": 0,
      "chars": 120,
      "ts": 1786442588
+    },
+    {
+     "file": "name_marta/takes/53582818303031440600692f_51~c0__mag316__1787491896.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 120,
+     "textHash": "e7a752ff73",
+     "ts": 1787491896
     }
    ]
   },
   "53585c083030314406006b0c_5~c1": {
-   "selected": "name_marta/takes/53585c083030314406006b0c_5~c1__mag158__1786148456.mp3",
+   "selected": "name_marta/takes/53585c083030314406006b0c_5~c1__mag316__1787491902.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53585c083030314406006b0c_5~c1__mag158__1786148456.mp3",
@@ -145709,11 +146880,20 @@
      "stability": 0,
      "chars": 32,
      "ts": 1786148456
+    },
+    {
+     "file": "name_marta/takes/53585c083030314406006b0c_5~c1__mag316__1787491902.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 32,
+     "textHash": "c58c740ace",
+     "ts": 1787491902
     }
    ]
   },
   "53585c083030314406006b0c_5~c0": {
-   "selected": "name_marta/takes/53585c083030314406006b0c_5~c0__mag158__1786148454.mp3",
+   "selected": "name_marta/takes/53585c083030314406006b0c_5~c0__mag316__1787491901.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53585c083030314406006b0c_5~c0__mag158__1786148454.mp3",
@@ -145722,11 +146902,20 @@
      "stability": 0,
      "chars": 149,
      "ts": 1786148454
+    },
+    {
+     "file": "name_marta/takes/53585c083030314406006b0c_5~c0__mag316__1787491901.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 149,
+     "textHash": "3a7f0c10b3",
+     "ts": 1787491901
     }
    ]
   },
   "53585c083030314406006b0c_7~c0": {
-   "selected": "name_marta/takes/53585c083030314406006b0c_7~c0__mag158__1786148457.mp3",
+   "selected": "name_marta/takes/53585c083030314406006b0c_7~c0__mag316__1787491903.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53585c083030314406006b0c_7~c0__mag158__1786148457.mp3",
@@ -145735,11 +146924,20 @@
      "stability": 0,
      "chars": 18,
      "ts": 1786148457
+    },
+    {
+     "file": "name_marta/takes/53585c083030314406006b0c_7~c0__mag316__1787491903.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 18,
+     "textHash": "7bab09f817",
+     "ts": 1787491903
     }
    ]
   },
   "53585c083030314406006b0c_7~c1": {
-   "selected": "name_marta/takes/53585c083030314406006b0c_7~c1__mag158__1786148458.mp3",
+   "selected": "name_marta/takes/53585c083030314406006b0c_7~c1__mag316__1787491909.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53585c083030314406006b0c_7~c1__mag158__1786148458.mp3",
@@ -145748,11 +146946,20 @@
      "stability": 0,
      "chars": 20,
      "ts": 1786148458
+    },
+    {
+     "file": "name_marta/takes/53585c083030314406006b0c_7~c1__mag316__1787491909.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 20,
+     "textHash": "853168448f",
+     "ts": 1787491909
     }
    ]
   },
   "53585c083030314406006b0c_10": {
-   "selected": "name_marta/takes/53585c083030314406006b0c_10__mag158__1786148461.mp3",
+   "selected": "name_marta/takes/53585c083030314406006b0c_10__mag316__1787491908.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53585c083030314406006b0c_10__mag158__1786148461.mp3",
@@ -145761,11 +146968,20 @@
      "stability": 0,
      "chars": 19,
      "ts": 1786148461
+    },
+    {
+     "file": "name_marta/takes/53585c083030314406006b0c_10__mag316__1787491908.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 19,
+     "textHash": "de807e4187",
+     "ts": 1787491908
     }
    ]
   },
   "53585c083030314406006b0c_12": {
-   "selected": "name_marta/takes/53585c083030314406006b0c_12__mag158__1786148461.mp3",
+   "selected": "name_marta/takes/53585c083030314406006b0c_12__mag316__1787491910.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53585c083030314406006b0c_12__mag158__1786148461.mp3",
@@ -145774,11 +146990,20 @@
      "stability": 0,
      "chars": 94,
      "ts": 1786148461
+    },
+    {
+     "file": "name_marta/takes/53585c083030314406006b0c_12__mag316__1787491910.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 94,
+     "textHash": "355a0b8596",
+     "ts": 1787491910
     }
    ]
   },
   "53585c083030314406006b0c_15": {
-   "selected": "name_marta/takes/53585c083030314406006b0c_15__mag158__1786442588.mp3",
+   "selected": "name_marta/takes/53585c083030314406006b0c_15__mag316__1787491911.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53585c083030314406006b0c_15__mag158__1786148461.mp3",
@@ -145795,11 +147020,20 @@
      "stability": 0,
      "chars": 61,
      "ts": 1786442588
+    },
+    {
+     "file": "name_marta/takes/53585c083030314406006b0c_15__mag316__1787491911.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 61,
+     "textHash": "6e6eee0ab7",
+     "ts": 1787491911
     }
    ]
   },
   "53594e5c303031b40a000145_44": {
-   "selected": "name_marta/takes/53594e5c303031b40a000145_44__mag158__1786148463.mp3",
+   "selected": "name_marta/takes/53594e5c303031b40a000145_44__mag316__1787491913.mp3",
    "takes": [
     {
      "file": "name_marta/takes/53594e5c303031b40a000145_44__mag158__1786148463.mp3",
@@ -145808,11 +147042,20 @@
      "stability": 0,
      "chars": 41,
      "ts": 1786148463
+    },
+    {
+     "file": "name_marta/takes/53594e5c303031b40a000145_44__mag316__1787491913.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 41,
+     "textHash": "a87950f9d4",
+     "ts": 1787491913
     }
    ]
   },
   "5359b1b030303168150008a7_8": {
-   "selected": "name_marta/takes/5359b1b030303168150008a7_8__mag158__1786442591.mp3",
+   "selected": "name_marta/takes/5359b1b030303168150008a7_8__mag316__1787491917.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5359b1b030303168150008a7_8__mag158__1786148465.mp3",
@@ -145829,11 +147072,20 @@
      "stability": 0,
      "chars": 81,
      "ts": 1786442591
+    },
+    {
+     "file": "name_marta/takes/5359b1b030303168150008a7_8__mag316__1787491917.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 81,
+     "textHash": "a3345ed889",
+     "ts": 1787491917
     }
    ]
   },
   "535eb6d93030319c17007576_7": {
-   "selected": "name_marta/takes/535eb6d93030319c17007576_7__mag158__1786148466.mp3",
+   "selected": "name_marta/takes/535eb6d93030319c17007576_7__mag316__1787491918.mp3",
    "takes": [
     {
      "file": "name_marta/takes/535eb6d93030319c17007576_7__mag158__1786148466.mp3",
@@ -145842,11 +147094,20 @@
      "stability": 0,
      "chars": 11,
      "ts": 1786148466
+    },
+    {
+     "file": "name_marta/takes/535eb6d93030319c17007576_7__mag316__1787491918.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 11,
+     "textHash": "7d7c85502d",
+     "ts": 1787491918
     }
    ]
   },
   "536a763a303031d404004926_2": {
-   "selected": "name_marta/takes/536a763a303031d404004926_2__mag158__1786148467.mp3",
+   "selected": "name_marta/takes/536a763a303031d404004926_2__mag316__1787491919.mp3",
    "takes": [
     {
      "file": "name_marta/takes/536a763a303031d404004926_2__mag158__1786148467.mp3",
@@ -145855,11 +147116,20 @@
      "stability": 0,
      "chars": 44,
      "ts": 1786148467
+    },
+    {
+     "file": "name_marta/takes/536a763a303031d404004926_2__mag316__1787491919.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 44,
+     "textHash": "337cf89b85",
+     "ts": 1787491919
     }
    ]
   },
   "536a763a303031d404004926_4": {
-   "selected": "name_marta/takes/536a763a303031d404004926_4__mag158__1786148467.mp3",
+   "selected": "name_marta/takes/536a763a303031d404004926_4__mag316__1787491919.mp3",
    "takes": [
     {
      "file": "name_marta/takes/536a763a303031d404004926_4__mag158__1786148467.mp3",
@@ -145868,11 +147138,20 @@
      "stability": 0,
      "chars": 136,
      "ts": 1786148467
+    },
+    {
+     "file": "name_marta/takes/536a763a303031d404004926_4__mag316__1787491919.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 136,
+     "textHash": "6552016ef3",
+     "ts": 1787491919
     }
    ]
   },
   "536a763a303031d404004926_6~c1": {
-   "selected": "name_marta/takes/536a763a303031d404004926_6~c1__mag158__1786148471.mp3",
+   "selected": "name_marta/takes/536a763a303031d404004926_6~c1__mag316__1787491924.mp3",
    "takes": [
     {
      "file": "name_marta/takes/536a763a303031d404004926_6~c1__mag158__1786148471.mp3",
@@ -145881,11 +147160,20 @@
      "stability": 0,
      "chars": 25,
      "ts": 1786148471
+    },
+    {
+     "file": "name_marta/takes/536a763a303031d404004926_6~c1__mag316__1787491924.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 25,
+     "textHash": "a9efe8e967",
+     "ts": 1787491924
     }
    ]
   },
   "536a763a303031d404004926_6~c0": {
-   "selected": "name_marta/takes/536a763a303031d404004926_6~c0__mag158__1786148470.mp3",
+   "selected": "name_marta/takes/536a763a303031d404004926_6~c0__mag316__1787491922.mp3",
    "takes": [
     {
      "file": "name_marta/takes/536a763a303031d404004926_6~c0__mag158__1786148470.mp3",
@@ -145894,11 +147182,20 @@
      "stability": 0,
      "chars": 76,
      "ts": 1786148470
+    },
+    {
+     "file": "name_marta/takes/536a763a303031d404004926_6~c0__mag316__1787491922.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 76,
+     "textHash": "21660a25a8",
+     "ts": 1787491922
     }
    ]
   },
   "536a763a303031d404004926_10~c0": {
-   "selected": "name_marta/takes/536a763a303031d404004926_10~c0__mag158__1786148472.mp3",
+   "selected": "name_marta/takes/536a763a303031d404004926_10~c0__mag316__1787491925.mp3",
    "takes": [
     {
      "file": "name_marta/takes/536a763a303031d404004926_10~c0__mag158__1786148472.mp3",
@@ -145907,11 +147204,20 @@
      "stability": 0,
      "chars": 19,
      "ts": 1786148472
+    },
+    {
+     "file": "name_marta/takes/536a763a303031d404004926_10~c0__mag316__1787491925.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 19,
+     "textHash": "2de1472edf",
+     "ts": 1787491925
     }
    ]
   },
   "536a763a303031d404004926_10~c1": {
-   "selected": "name_marta/takes/536a763a303031d404004926_10~c1__mag158__1786148473.mp3",
+   "selected": "name_marta/takes/536a763a303031d404004926_10~c1__mag316__1787491927.mp3",
    "takes": [
     {
      "file": "name_marta/takes/536a763a303031d404004926_10~c1__mag158__1786148473.mp3",
@@ -145920,11 +147226,20 @@
      "stability": 0,
      "chars": 79,
      "ts": 1786148473
+    },
+    {
+     "file": "name_marta/takes/536a763a303031d404004926_10~c1__mag316__1787491927.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 79,
+     "textHash": "58807751c3",
+     "ts": 1787491927
     }
    ]
   },
   "5387cc6d636134001b008359_2": {
-   "selected": "name_marta/takes/5387cc6d636134001b008359_2__mag158__1786442594.mp3",
+   "selected": "name_marta/takes/5387cc6d636134001b008359_2__mag316__1787491930.mp3",
    "takes": [
     {
      "file": "name_marta/takes/5387cc6d636134001b008359_2__mag158__1786148476.mp3",
@@ -145941,11 +147256,20 @@
      "stability": 0,
      "chars": 48,
      "ts": 1786442594
+    },
+    {
+     "file": "name_marta/takes/5387cc6d636134001b008359_2__mag316__1787491930.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 48,
+     "textHash": "28ed80632e",
+     "ts": 1787491930
     }
    ]
   },
   "536a763a303031d404004926_12": {
-   "selected": "name_marta/takes/536a763a303031d404004926_12__mag158__1786148475.mp3",
+   "selected": "name_marta/takes/536a763a303031d404004926_12__mag316__1787491928.mp3",
    "takes": [
     {
      "file": "name_marta/takes/536a763a303031d404004926_12__mag158__1786148475.mp3",
@@ -145954,6 +147278,15 @@
      "stability": 0,
      "chars": 34,
      "ts": 1786148475
+    },
+    {
+     "file": "name_marta/takes/536a763a303031d404004926_12__mag316__1787491928.mp3",
+     "voiceId": "mag_316",
+     "voiceName": "Merry Cooper",
+     "stability": 0,
+     "chars": 34,
+     "textHash": "eed878680e",
+     "ts": 1787491928
     }
    ]
   }
