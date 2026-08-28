@@ -375,7 +375,12 @@ def main():
     # 0.5 dB of extra headroom costs nothing audible and makes the pack provably peak-safe.
     CEILING   = -1.5     # dBFS, the limiter's ceiling
     MAX_LIMIT = 6.0      # dB; never ask the limiter for more gain reduction than this
-    VORBIS_Q  = "10"     # the source is 128 kbps mp3, so give the second encoder plenty of room
+    # q8, not q5 and not q10. q5 was a real second-generation loss (residual only ~23 dB below
+    # signal); q10 measures far cleaner but Martin could not hear it against q5 in a level-matched
+    # WAV comparison, and tripling a Nexus download for something nobody can hear is not a trade
+    # worth making. q8 sits comfortably above the 128 kbps mp3 source, and matters more now that
+    # gen_el.py requests 192 kbps: at q5 that source upgrade would be thrown away here.
+    VORBIS_Q  = "8"
     os.makedirs(CLIPS, exist_ok=True)
 
     def transcode(src, ogg_abs):
