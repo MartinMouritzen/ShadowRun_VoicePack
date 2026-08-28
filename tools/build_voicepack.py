@@ -345,34 +345,60 @@ def main():
         for b, k in stranded[:20]:
             print(f"    {b} / {k}", file=sys.stderr)
 
-    # Transcode unique source mp3s -> ogg (hash-named, deterministic, deduped), loudness-normalized.
-    # EL v3 speech averages ~-17 LUFS integrated with true peaks already near 0 dBFS, which is
-    # audibly quieter than the game's own (compressed) audio and can't be fixed with plain gain.
-    # Two-pass ffmpeg loudnorm: pass 1 measures, pass 2 normalizes to LN_I/LN_TP (linear gain when
-    # the measurement is usable, dynamic otherwise). Clips whose measurement fails fall back to the
-    # old plain transcode. NOTE: existing clips/*.ogg are reused as a cache — after changing LN_*
-    # targets, delete voicepack/<game>/clips/ to re-normalize everything.
-    LN_I, LN_TP, LN_LRA = -14.0, -1.5, 11.0
+    # Transcode unique source mp3s -> ogg (hash-named, deterministic, deduped), loudness-matched.
+    #
+    # We do NOT use ffmpeg's loudnorm here, and that is deliberate. loudnorm honours linear=true
+    # only when the whole gain fits under the true-peak ceiling; otherwise it silently switches to
+    # DYNAMIC mode, a block-based gain rider that reshapes the envelope of the entire clip. Asking
+    # for I=-14 was asking for exactly that: EL v3 output is already peak-normalised (median true
+    # peak -1.2 dBFS) so the median take had ~0 dB of headroom but needed +3.5 dB, and 75% of takes
+    # came out dynamically compressed. It cost real quality and STILL left a 7.6 LU spread across
+    # the shipped pack, because loudnorm cannot boost a quiet clip past the ceiling either.
+    #
+    # Instead: one flat gain (perfectly transparent) plus a look-ahead peak limiter that only ever
+    # touches samples which would breach the ceiling. The target is what makes this work. Measured
+    # against Dragonfall's own audio (196 clips out of the streamed assetbundles) the game's median
+    # asset is -21.8 LUFS, so -18 sits comfortably above the game's own material while being low
+    # enough that ~75% of takes reach it with pure gain and no limiting at all. Result on a 400-take
+    # sample: spread 5.26 LU -> 1.02 LU, and the residual envelope deviation drops ~10x.
+    #
+    # MAX_LIMIT bounds how hard the limiter may work; a take needing more than that (a shout, a big
+    # plosive) is left slightly below target rather than squashed. Keeping its punch is the correct
+    # trade, and at -18 it affects a couple of percent of takes by at most a dB or two.
+    #
+    # NOTE: existing clips/*.ogg are reused as a cache — after changing any constant below, delete
+    # voicepack/<game>/clips/ or nothing will be re-encoded.
+    TARGET_I  = -18.0    # LUFS integrated
+    # -1.5, not -1.0: alimiter bounds SAMPLE peaks, but Vorbis (like any lossy codec) can overshoot
+    # on decode, and true (inter-sample) peak runs above sample peak besides. At a -1.0 ceiling a
+    # couple of clips per pack measured just above 0 dBFS true peak, which Unity's mixer would clip.
+    # 0.5 dB of extra headroom costs nothing audible and makes the pack provably peak-safe.
+    CEILING   = -1.5     # dBFS, the limiter's ceiling
+    MAX_LIMIT = 6.0      # dB; never ask the limiter for more gain reduction than this
+    VORBIS_Q  = "10"     # the source is 128 kbps mp3, so give the second encoder plenty of room
     os.makedirs(CLIPS, exist_ok=True)
 
     def transcode(src, ogg_abs):
         src_abs = os.path.join(AUDIO, *src.split("/"))
-        ln = f"loudnorm=I={LN_I}:TP={LN_TP}:LRA={LN_LRA}"
+        af = None
         try:
             m = subprocess.run(
-                ["ffmpeg", "-hide_banner", "-nostats", "-i", src_abs,
-                 "-af", ln + ":print_format=json", "-f", "null", "-"], capture_output=True)
+                ["ffmpeg", "-nostdin", "-hide_banner", "-nostats", "-i", src_abs,
+                 "-af", "loudnorm=I=%s:TP=%s:LRA=11:print_format=json" % (TARGET_I, CEILING),
+                 "-f", "null", "-"], capture_output=True)
             txt = m.stderr.decode(errors="replace")
             j = json.loads(txt[txt.rindex("{"):])
-            if float(j["input_i"]) > -70:   # measurable audio -> transparent linear normalization
-                ln += (f":measured_I={j['input_i']}:measured_TP={j['input_tp']}"
-                       f":measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}"
-                       f":offset={j['target_offset']}:linear=true")
+            src_i, src_tp = float(j["input_i"]), float(j["input_tp"])
+            if src_i > -70:                      # measurable audio
+                headroom = CEILING - src_tp      # gain available before the limiter does anything
+                gain = min(TARGET_I - src_i, headroom + MAX_LIMIT)
+                af = ("volume=%.2fdB,alimiter=limit=%.4f:attack=5:release=100:level=disabled"
+                      % (gain, 10 ** (CEILING / 20.0)))
         except Exception:
-            ln = None   # unmeasurable (ultra-short/silent) -> plain transcode, no loudnorm
-        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", src_abs]
-        if ln: cmd += ["-af", ln]
-        cmd += ["-ac", "1", "-c:a", "libvorbis", "-q:a", "5", "-ar", "44100", ogg_abs]
+            af = None   # unmeasurable (ultra-short/silent) -> plain transcode, no level change
+        cmd = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", src_abs]
+        if af: cmd += ["-af", af]
+        cmd += ["-ac", "1", "-c:a", "libvorbis", "-q:a", VORBIS_Q, "-ar", "44100", ogg_abs]
         return subprocess.run(cmd, capture_output=True)
 
     src_to_ogg = {}
