@@ -46,7 +46,11 @@ for j in jobs:
     body = json.dumps({"text": j["text"], "model_id": "eleven_v3",
                        "voice_settings": {"stability": 0, "use_speaker_boost": True}}).encode()
     req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{j['voiceId']}?output_format=mp3_44100_128",
+        # 192 kbps, not 128: every later step (voicepack OGG transcode, segment concat) is a second
+        # lossy generation, and the source bitrate is the ceiling on what survives it. The
+        # Creator tier allows mp3_44100_192 and ElevenLabs bills per CHARACTER, not per
+        # bitrate, so the extra quality is free.
+        f"https://api.elevenlabs.io/v1/text-to-speech/{j['voiceId']}?output_format=mp3_44100_192",
         data=body, method="POST", headers={"xi-api-key": KEY, "Content-Type": "application/json"})
     try:
         audio = urllib.request.urlopen(req, timeout=120).read()
