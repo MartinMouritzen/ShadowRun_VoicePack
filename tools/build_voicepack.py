@@ -356,19 +356,32 @@ def main():
     # the shipped pack, because loudnorm cannot boost a quiet clip past the ceiling either.
     #
     # Instead: one flat gain (perfectly transparent) plus a look-ahead peak limiter that only ever
-    # touches samples which would breach the ceiling. The target is what makes this work. Measured
-    # against Dragonfall's own audio (196 clips out of the streamed assetbundles) the game's median
-    # asset is -21.8 LUFS, so -18 sits comfortably above the game's own material while being low
-    # enough that ~75% of takes reach it with pure gain and no limiting at all. Result on a 400-take
-    # sample: spread 5.26 LU -> 1.02 LU, and the residual envelope deviation drops ~10x.
+    # touches samples which would breach the ceiling. At the SAME loudness as the old loudnorm pack
+    # this measures 1.7x more transparent on average and 2.4x better worst-case, so the compression
+    # was never the price of being loud; loudnorm was just the wrong tool for it.
+    #
+    # On the target. This first shipped at -18, justified by measuring Dragonfall's own audio at a
+    # -21.8 LUFS median. That measurement was over the WRONG POPULATION: the sample was dominated by
+    # ambient loops and one-shot SFX (typing at -47 LUFS, insects at -46), none of which compete with
+    # dialogue. Music does, and the soundtrack measures -12.5 to -13.0 LUFS, with the loud ambient
+    # beds at -16.4 (p90) and layering on top of each other. At -18 the voices sat ~5 dB UNDER the
+    # music and Martin had to strain to hear them in the real mix.
+    #
+    # -14 lands the pack at about -14.6 median, roughly 1.6 dB under the music instead of 5, and
+    # matches the loudness of the pre-existing loudnorm pack while measuring cleaner than it. The
+    # cost is honest and worth stating: loudness and evenness genuinely pull against each other,
+    # because lifting a quiet take is the only operation that costs anything. -14 gives a ~4.5 LU
+    # spread where -18 gave ~1.4. Louder was the right call because the plugin's Volume config is
+    # clamped 0..1 by Unity, so players can turn voices DOWN but never UP: too quiet is the one
+    # error nobody downstream can correct.
     #
     # MAX_LIMIT bounds how hard the limiter may work; a take needing more than that (a shout, a big
-    # plosive) is left slightly below target rather than squashed. Keeping its punch is the correct
-    # trade, and at -18 it affects a couple of percent of takes by at most a dB or two.
+    # plosive) is left below target rather than squashed. Keeping its punch is the correct trade.
     #
     # NOTE: existing clips/*.ogg are reused as a cache — after changing any constant below, delete
-    # voicepack/<game>/clips/ or nothing will be re-encoded.
-    TARGET_I  = -18.0    # LUFS integrated
+    # voicepack/<game>/clips/ or nothing will be re-encoded. voicepack.stamp (written below) is what
+    # makes sync_to_game.sh notice and re-install them.
+    TARGET_I  = -14.0    # LUFS integrated
     # -1.5, not -1.0: alimiter bounds SAMPLE peaks, but Vorbis (like any lossy codec) can overshoot
     # on decode, and true (inter-sample) peak runs above sample peak besides. At a -1.0 ceiling a
     # couple of clips per pack measured just above 0 dBFS true peak, which Unity's mixer would clip.
