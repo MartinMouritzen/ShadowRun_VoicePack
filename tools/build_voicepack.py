@@ -507,9 +507,14 @@ def main():
     # the game plays audio the pack no longer contains. (That is exactly what happened on the
     # -14-loudnorm -> -18-flat-gain change: sync reported SYNCED in 1s having copied nothing.)
     # Writing the settings here lets the installer notice and force a full copy.
+    # CHAIN_REV covers changes to the ENCODER LOGIC that leave the four constants alone. The
+    # decode-peak retry was exactly that: same target, ceiling, limit and q, different audio out,
+    # so the stamp matched and sync skipped all 448 rebuilt hk clips a second time. Bump this
+    # whenever transcode() changes in a way that alters its output.
+    CHAIN_REV = 2
     with open(os.path.join(OUT, "voicepack.stamp"), "w", newline="\n") as f:
-        f.write("target_i=%s ceiling=%s max_limit=%s vorbis_q=%s\n"
-                % (TARGET_I, CEILING, MAX_LIMIT, VORBIS_Q))
+        f.write("rev=%s target_i=%s ceiling=%s max_limit=%s vorbis_q=%s\n"
+                % (CHAIN_REV, TARGET_I, CEILING, MAX_LIMIT, VORBIS_Q))
     manifest = {"version": 1, "game": f"srr-{GAME}", "lines": manifest_lines, "gates": gates}
     with open(os.path.join(OUT, "voicepack.json"), "w") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)

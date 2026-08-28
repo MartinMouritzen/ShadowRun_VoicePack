@@ -108,6 +108,23 @@ reencoded = built is not None and built != read_stamp(stamp_dst)
 
 have = set(os.listdir(dst))
 want = set(os.listdir(src)) if os.path.isdir(src) else set()
+
+# Backstop. The stamp only helps if the packer's CHAIN_REV was remembered; the decode-peak retry
+# changed the audio without touching any constant, so the stamp matched and a whole rebuilt pack
+# was skipped for a second time. Size-check a handful of clips that exist on both sides: a
+# re-encode always moves some of them. Eight stats is nothing next to the readdir we already did,
+# and it catches the case where the stamp is right but stale for a reason nobody predicted.
+if not reencoded and built is not None:
+    common = sorted(want & have)
+    probe = common[:: max(1, len(common) // 8)][:8]
+    for f in probe:
+        try:
+            if os.path.getsize(os.path.join(src, f)) != os.path.getsize(os.path.join(dst, f)):
+                reencoded = True
+                break
+        except OSError:
+            pass
+
 todo = want if reencoded else (want - have)
 added = 0
 for f in sorted(todo):
@@ -122,7 +139,7 @@ if not running:
         except OSError:
             pass
 bits = []
-if reencoded: bits.append("encoder settings changed -> full re-copy of %d" % added)
+if reencoded: bits.append("re-encoded pack -> full re-copy of %d" % added)
 elif added:   bits.append("+%d new" % added)
 if removed:   bits.append("-%d stale" % removed)
 print("  clips: " + (", ".join(bits) if bits else "unchanged"))
