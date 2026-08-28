@@ -452,6 +452,17 @@ def main():
         gates[gkey] = ids
 
     os.makedirs(OUT, exist_ok=True)
+
+    # Encoder fingerprint. Clip files are named sha1(SOURCE TAKE PATH), so a re-encode with
+    # different settings produces the SAME filename holding DIFFERENT audio. sync_to_game.sh
+    # installs clips by "missing by name", which is fast and was correct while these settings never
+    # moved; the moment they do, every already-installed clip silently keeps its old encoding and
+    # the game plays audio the pack no longer contains. (That is exactly what happened on the
+    # -14-loudnorm -> -18-flat-gain change: sync reported SYNCED in 1s having copied nothing.)
+    # Writing the settings here lets the installer notice and force a full copy.
+    with open(os.path.join(OUT, "voicepack.stamp"), "w", newline="\n") as f:
+        f.write("target_i=%s ceiling=%s max_limit=%s vorbis_q=%s\n"
+                % (TARGET_I, CEILING, MAX_LIMIT, VORBIS_Q))
     manifest = {"version": 1, "game": f"srr-{GAME}", "lines": manifest_lines, "gates": gates}
     with open(os.path.join(OUT, "voicepack.json"), "w") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)

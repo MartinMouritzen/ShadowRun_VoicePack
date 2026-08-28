@@ -83,16 +83,34 @@ fi
 # it. Across the WSL->NTFS boundary that costs ~1.5s per 500 files, so a no-op sync of 9,287 clips
 # spent 3.7 of its 4.4 seconds deciding to do nothing. One readdir of the same directory costs
 # 0.02s, so the difference is worked out in Python and only genuinely missing files are copied.
-# Clips are hash-named and immutable, so "missing by name" is the whole test. The prune shares
-# this listing instead of taking its own.
-python3 - "$VP/clips" "$PLUG/voicepack/clips" "$GAME_RUNNING" <<'CLIPS'
+# The prune shares this listing instead of taking its own.
+#
+# "Missing by name" is the whole test ONLY while the encoder settings are fixed. Clip files are
+# named sha1(SOURCE TAKE PATH), which says nothing about how the audio was encoded, so re-encoding
+# yields the same filename holding different bytes and every installed clip is skipped. That is not
+# hypothetical: the -14-loudnorm -> -18-flat-gain change reported "SYNCED" in 1s having copied
+# nothing at all, leaving three games playing audio the pack no longer contained. So the packer now
+# writes voicepack.stamp with its encoder settings, and a stamp mismatch forces a full re-copy.
+python3 - "$VP/clips" "$PLUG/voicepack/clips" "$GAME_RUNNING" "$VP/voicepack.stamp" "$PLUG/voicepack/voicepack.stamp" <<'CLIPS'
 import os, shutil, sys
 src, dst, running = sys.argv[1], sys.argv[2], sys.argv[3] == "1"
+stamp_src, stamp_dst = sys.argv[4], sys.argv[5]
 os.makedirs(dst, exist_ok=True)
+
+def read_stamp(p):
+    try:
+        with open(p) as fh: return fh.read().strip()
+    except OSError:
+        return None
+
+built = read_stamp(stamp_src)
+reencoded = built is not None and built != read_stamp(stamp_dst)
+
 have = set(os.listdir(dst))
 want = set(os.listdir(src)) if os.path.isdir(src) else set()
+todo = want if reencoded else (want - have)
 added = 0
-for f in sorted(want - have):
+for f in sorted(todo):
     shutil.copy2(os.path.join(src, f), os.path.join(dst, f))
     added += 1
 removed = 0
@@ -104,9 +122,12 @@ if not running:
         except OSError:
             pass
 bits = []
-if added: bits.append("+%d new" % added)
-if removed: bits.append("-%d stale" % removed)
+if reencoded: bits.append("encoder settings changed -> full re-copy of %d" % added)
+elif added:   bits.append("+%d new" % added)
+if removed:   bits.append("-%d stale" % removed)
 print("  clips: " + (", ".join(bits) if bits else "unchanged"))
+if built is not None:
+    with open(stamp_dst, "w", newline="\n") as fh: fh.write(built + "\n")
 CLIPS
 cp -f "$VP/voicepack.json"  "$PLUG/voicepack/voicepack.json" 2>/dev/null || true
 # Gates before the index, same reasoning as clips-before-index: the plugin re-reads everything when
