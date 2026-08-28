@@ -396,9 +396,23 @@ def main():
     VORBIS_Q  = "8"
     os.makedirs(CLIPS, exist_ok=True)
 
+    def peak_dbfs(path):
+        """Peak of the DECODED file in dBFS, which is what Unity's mixer sees. None if unmeasurable.
+
+        astats, NOT volumedetect. volumedetect converts to s16 internally and clamps, so it reports
+        max_volume: -0.0 dB for a clip that actually decodes to +0.46 dBFS - it can never see the
+        overshoot this check exists to catch. It also prints its stats at INFO level, so running it
+        under -v error silently yields no output at all and the check passes by accident. astats
+        reports the true float peak and is read the same way, at info level."""
+        r = subprocess.run(["ffmpeg", "-nostdin", "-hide_banner", "-nostats", "-i", path,
+                            "-af", "astats=measure_overall=Peak_level:measure_perchannel=none",
+                            "-f", "null", "-"], capture_output=True)
+        m = re.search(r"Peak level dB:\s*(-?\d+(?:\.\d+)?)", r.stderr.decode(errors="replace"))
+        return float(m.group(1)) if m else None
+
     def transcode(src, ogg_abs):
         src_abs = os.path.join(AUDIO, *src.split("/"))
-        af = None
+        gain = None
         try:
             m = subprocess.run(
                 ["ffmpeg", "-nostdin", "-hide_banner", "-nostats", "-i", src_abs,
@@ -410,14 +424,34 @@ def main():
             if src_i > -70:                      # measurable audio
                 headroom = CEILING - src_tp      # gain available before the limiter does anything
                 gain = min(TARGET_I - src_i, headroom + MAX_LIMIT)
-                af = ("volume=%.2fdB,alimiter=limit=%.4f:attack=5:release=100:level=disabled"
-                      % (gain, 10 ** (CEILING / 20.0)))
         except Exception:
-            af = None   # unmeasurable (ultra-short/silent) -> plain transcode, no level change
-        cmd = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", src_abs]
-        if af: cmd += ["-af", af]
-        cmd += ["-ac", "1", "-c:a", "libvorbis", "-q:a", VORBIS_Q, "-ar", "44100", ogg_abs]
-        return subprocess.run(cmd, capture_output=True)
+            gain = None   # unmeasurable (ultra-short/silent) -> plain transcode, no level change
+
+        # alimiter bounds SAMPLE peaks in the filter graph, but Vorbis is free to overshoot on
+        # DECODE, and it does: at TARGET_I=-14 two Hong Kong clips came back at +0.46 dBFS, which
+        # Unity's mixer would clip. Lowering CEILING for every clip would cost real loudness to fix
+        # a handful, so instead verify the encoded result and pull only the offenders down.
+        #
+        # Pull down the CEILING, not the gain. The limiter is what sets the peak, so reducing gain
+        # leaves the limited peaks exactly where they were and only quiets what sits below the
+        # threshold - measured, that moved a +0.46 dBFS clip to +0.22 and still clipped. Lowering
+        # the ceiling moves the peak one-for-one, which is the thing that has to change.
+        # Nearly every clip passes first time, so this costs one cheap decode and no loudness.
+        ceiling = CEILING
+        for _ in range(4):
+            cmd = ["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", src_abs]
+            if gain is not None:
+                cmd += ["-af", "volume=%.2fdB,alimiter=limit=%.4f:attack=5:release=100:level=disabled"
+                        % (gain, 10 ** (ceiling / 20.0))]
+            cmd += ["-ac", "1", "-c:a", "libvorbis", "-q:a", VORBIS_Q, "-ar", "44100", ogg_abs]
+            r = subprocess.run(cmd, capture_output=True)
+            if r.returncode != 0 or gain is None:
+                return r
+            pk = peak_dbfs(ogg_abs)
+            if pk is None or pk <= -0.1:
+                return r
+            ceiling -= (pk + 0.3)     # exactly the overshoot, plus a little margin
+        return r
 
     src_to_ogg = {}
     jobs = []
