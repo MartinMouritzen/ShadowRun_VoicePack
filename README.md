@@ -82,3 +82,12 @@ Or, from the running lab, hit **⇩ Sync to game** — it runs `sync_to_game.sh 
 - Voices generated at ElevenLabs `eleven_v3` stability 0 (Creative) for expressiveness, with retakes where needed.
 - The generated audio (raw takes + OGG voicepack) is **not** in git; grab it from each game's Release.
 - No API keys are included. `server.py` reads a local `.elevenlabs.key` (gitignored).
+
+## License
+
+The original source code, tooling, documentation, and project-authored metadata in this repository
+are available under the [MIT License](LICENSE).
+
+This license does not grant rights to Shadowrun game content, trademarks, third-party libraries or
+binaries, voice-provider models or services, or generated audio distributed separately from this
+repository. Those remain subject to their respective owners' licenses and terms.
