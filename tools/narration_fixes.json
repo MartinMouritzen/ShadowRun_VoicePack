@@ -1,5 +1,5 @@
 {
- "_comment": "Nodes or exact spans the extractor attributed to a CHARACTER but which are narration. Use nodes:[n,...] for a whole node and spans:[{node:n,text:'exact text'}] for narration embedded in a mixed node. Applied by apply_narration_fixes.py <game>, which adds {{GM}} markers inside app/data/<game>/characters.json. build_line_segments.py then routes those spans to the narrator and follows the narrator's casting - unlike a per-line voice override, which would pin one voice and silently stop tracking a recast. Idempotent: text already wrapped is skipped.",
+ "_comment": "Nodes or exact spans the extractor attributed to a CHARACTER but which are narration, plus exact replacements for malformed shipped GM markers. Use nodes:[n,...] for a whole node, spans:[{node:n,text:'exact text'}] for narration embedded in a mixed node, and replacements:[{node:n,before:'exact source',after:'exact correction'}] only when an existing bad marker swallows dialogue. Applied by apply_narration_fixes.py <game>, which updates {{GM}} markers inside app/data/<game>/characters.json. build_line_segments.py then routes those spans to the narrator and follows the narrator's casting - unlike a per-line voice override, which would pin one voice and silently stop tracking a recast. Idempotent: text already wrapped or repaired is skipped.",
  "dragonfall": [
   {
    "convo": "5258897d6636614001005b04",
@@ -629,12 +629,52 @@
    "reason": "The opening paragraph is stage direction, but the writers omitted its {{GM}} markers while marking the later 'She nods towards her son.' direction correctly. That made the segmenter merge the opening narration into Ermine's first spoken segment."
   },
   {
-   "convo": "557109403234316c1c0044d9",
-   "from": "name_rhombus",
-   "nodes": [
-    71
+   "convo": "54e3b9f43063640c0c00288f",
+   "from": "name_tigathwright",
+   "replacements": [
+    {
+     "node": 7,
+     "before": "{{GM}}Tigath's eyes narrow, and he grits his teeth.\n\nNo. No, I think not.\n\n{{GM}}",
+     "after": "{{GM}}Tigath's eyes narrow, and he grits his teeth.{{/GM}}\n\nNo. No, I think not.\n\n{{GM}}"
+    }
    ],
-   "reason": "'She nods mutely.' is a complete third-person action beat for Is0bel, not dialogue spoken by Rhombus. The source omitted its {{GM}} markers, so it otherwise becomes a one-sentence Rhombus performance."
+   "reason": "The source opens a second {{GM}} block instead of closing the first one, swallowing Tigath's spoken 'No. No, I think not.' into narration. Repair the exact bad marker after the ownership move; the trailing action is already closed correctly."
+  },
+  {
+   "convo": "5584c4ef623666c42b0054df",
+   "from": "name_raymond",
+   "replacements": [
+    {
+     "node": 37,
+     "before": "{{GM}}His lips start to tremble.{{/GM}\n\nThey began...",
+     "after": "{{GM}}His lips start to tremble.{{/GM}}\n\nThey began..."
+    }
+   ],
+   "reason": "A malformed closing marker makes Raymond's second spoken paragraph part of narrator g0 and leaves a bogus character segment containing only a brace. Restore the missing closing brace."
+  },
+  {
+   "convo": "5524518b3234376c45004dca",
+   "from": "name_melissasung",
+   "replacements": [
+    {
+     "node": 11,
+     "before": ">>to: Lao Zheng{{/GM}}\n>>RE:",
+     "after": ">>to: Lao Zheng\n>>RE:"
+    }
+   ],
+   "reason": "The mail header contains a stray GM closing tag with no opening tag. Remove it so the written message remains one coherent Melissa Sung record."
+  },
+  {
+   "convo": "54dbdd53653937cc15006c14",
+   "from": "narrator",
+   "replacements": [
+    {
+     "node": 0,
+     "before": "stupor.\n\n{{GM}}Between the swollen eyes",
+     "after": "stupor.\n\nBetween the swollen eyes"
+    }
+   ],
+   "reason": "This narrator-only description opens a nested GM block but has only one close. Remove the redundant inner open so the tag pair is balanced."
   }
  ]
 }

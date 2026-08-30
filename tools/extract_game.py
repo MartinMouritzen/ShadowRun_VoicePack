@@ -12,6 +12,8 @@ Schema (ShadowrunDTO, identical across SRR/Dragonfall/Hong Kong):
 """
 import glob, json, os, re, sys
 
+from speaker_registry import load_speaker_registry, resolve_node_actor
+
 args = [a for a in sys.argv[1:] if a != "--force"]
 FORCE = "--force" in sys.argv
 SR   = args[0]
@@ -201,6 +203,14 @@ def norm(t):
     t = unicodedata.normalize('NFKD', t or '')
     t = ''.join(c for c in t if not unicodedata.combining(c))
     return re.sub(r'[^a-z0-9]', '', t.lower())
+
+# Hong Kong (and some later content packs) carries a conversation speaker registry in addition to
+# scene actors. Node field 15 points into it, but it is active ONLY with field 14's override flag.
+# The current HK packs ship 890 field-15 values and zero active field-14 flags: every one is dormant
+# editor state. Registry records are therefore gated on the flag below and accepted only when name
+# or portrait resolves to one existing actor. Screen furniture such as "Terminal" and "Datastore"
+# retains the established fallback behavior.
+speaker_registry = load_speaker_registry(SR, PACKS, fields, s_)
 name_index = {}
 for aid, a in actors.items():
     if is_placeholder(a): continue   # else "a1_Intro_s2-AudranSeesThePlayer" matches the spawner "Player", not Audran
@@ -246,7 +256,9 @@ def resolve_owner(convo_id, convo_name):
     return cands[0]
 
 # 3. conversations
-GM_TYPES = {4}; INPUT_TYPES = {7, 8}
+# Type 6 is ConversationNodeType_GM_Speaker_Voice: narrator prose displayed alongside a character
+# identity/portrait. It is still narrator audio and must not inherit the conversation owner.
+GM_TYPES = {4, 6}; INPUT_TYPES = {7, 8}
 chars_out = {}
 narrator = {"id": "narrator", "name": "Narrator (GM)", "portrait": None, "lines": []}
 unattributed = {"id": "unattributed", "name": "(Unassigned)", "portrait": None, "lines": []}
@@ -259,8 +271,9 @@ def actor_key(aid):
     if not a: return None
     n = norm(a.get("name"))
     return ("name_" + n) if n else (a["sheet_id"] or ("actor_" + aid))
-def add_line(bucket_key, aid, convo_id, convo_name, node_idx, text, ntype):
-    rec = {"c": convo_id, "n": node_idx, "cn": convo_name, "t": text}
+def add_line(bucket_key, aid, convo_id, convo_name, node_idx, text, ntype, attribution):
+    rec = {"c": convo_id, "n": node_idx, "cn": convo_name, "t": text,
+           "attribution": attribution}
     if ntype != 1: rec["y"] = ntype
     if bucket_key == "narrator": narrator["lines"].append(rec); return
     if bucket_key is None: unattributed["lines"].append(rec); return
@@ -287,27 +300,39 @@ for cf in convo_files:
     for node in subs(data, 3):
         stats["nodes"] += 1
         idx = varint_field(node, 2, None); ntype = varint_field(node, 6, 1)
-        text = None; src_ref = None; src_tag = None
+        text = None; src_ref = None; src_tag = None; override_speaker = False; speaker_uid = None
         for f, wt, v in fields(node):
             if f == 4 and wt == 2: text = s_(v)
             elif f == 12 and wt == 2: src_ref = s_(sub(v, 1))
             elif f == 13 and wt == 2: src_tag = s_(v)
+            elif f == 14 and wt == 0: override_speaker = bool(v)
+            elif f == 15 and wt == 2: speaker_uid = s_(v)
         if not text or not text.strip(): stats["empty"] += 1; continue
         if ntype in GM_TYPES or ntype in INPUT_TYPES:
             stats["narrator" if ntype in GM_TYPES else "input"] += 1
-            add_line("narrator", None, convo_id, convo_name, idx, text, ntype); continue
-        aid = None
+            provenance = "gm-node-type" if ntype in GM_TYPES else "input-node-type"
+            add_line("narrator", None, convo_id, convo_name, idx, text, ntype, provenance); continue
         if src_ref and src_ref in actors and is_placeholder(actors[src_ref]):
             # explicit reference to a party slot: the speaker is runtime party state, not this prop
             placeholder_nodes.append((convo_name or convo_id, idx, actors[src_ref].get("name")))
             stats["unattributed"] += 1; stats["placeholder"] += 1   # placeholder is a subset of unattributed
-            add_line(None, None, convo_id, convo_name, idx, text, ntype); continue
-        if src_ref and src_ref in actors: aid = src_ref
-        elif src_tag:
+            add_line(None, None, convo_id, convo_name, idx, text, ntype,
+                     "party-slot-placeholder"); continue
+
+        def lookup_tag(tag):
             hit = None
             for (sc, t), a in tag_map.items():
-                if t == src_tag and sc and sc.lower().startswith(scene_prefix): hit = a; break
-            aid = hit or tag_map.get((None, src_tag))
+                if t == tag and sc and sc.lower().startswith(scene_prefix): hit = a; break
+            return hit or tag_map.get((None, tag))
+
+        # Explicit node source > active speaker override (fields 14+15) > descriptive/owner
+        # fallback. Field 15 by itself is stale editor state on many HK nodes; it is only meaningful
+        # when the DTO's field-14 override flag is true. The override is intentionally consulted
+        # only after the placeholder guard: a runtime party slot is not made static merely because
+        # the editor happened to leave a speaker portrait selected.
+        aid, provenance = resolve_node_actor(
+            src_ref, src_tag, override_speaker, speaker_uid, actors, lookup_tag,
+            speaker_registry, norm)
         if aid is None and convo_name:
             tail = norm(re.sub(r'^c?\d+-?s?\d*[_ ]?', '', re.sub(r'^a\d+_', '', convo_name), flags=re.I))
             tail = re.sub(r'\d+$', '', tail)
@@ -336,14 +361,19 @@ for cf in convo_files:
                 # already known to need a hand-fix), and nothing else.
                 if best and not default_owner:
                     aid = best[1]
+                    provenance = "conversation-name"
                 elif best and best[1] != default_owner:
                     name_vs_owner.append((convo_name or convo_id, actors[best[1]]["name"],
                                           actors[best[1]]["scene"], actors[default_owner]["name"]))
-        if aid is None and default_owner: aid = default_owner
+        if aid is None and default_owner:
+            aid = default_owner
+            provenance = "conversation-owner"
         if aid:
-            stats["attributed"] += 1; add_line(actor_key(aid), aid, convo_id, convo_name, idx, text, ntype)
+            stats["attributed"] += 1
+            add_line(actor_key(aid), aid, convo_id, convo_name, idx, text, ntype, provenance)
         else:
-            stats["unattributed"] += 1; add_line(None, None, convo_id, convo_name, idx, text, ntype)
+            stats["unattributed"] += 1
+            add_line(None, None, convo_id, convo_name, idx, text, ntype, "unresolved")
 
 merged = {}
 for c in chars_out.values():

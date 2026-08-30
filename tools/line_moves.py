@@ -14,6 +14,27 @@ import os
 import shutil
 
 
+def resolve_merge_target(char_id, merges):
+    """Return the live end of a recorded character-merge chain.
+
+    Correction files are intentionally durable: a reattribution may still name the identity that
+    existed in the raw extract even after ``merge_characters.py`` folded it into the canonical
+    cast entry.  Every writer must resolve that historical id before creating or looking up a
+    destination, otherwise re-running an older correction resurrects the alias that the merge
+    removed.  A cycle is invalid data; failing loudly is safer than choosing one member and
+    splitting the character again.
+    """
+    cur = char_id
+    seen = []
+    while cur in merges:
+        if cur in seen:
+            chain = " -> ".join(seen + [cur])
+            raise ValueError(f"character merge cycle: {chain}")
+        seen.append(cur)
+        cur = merges[cur]
+    return cur
+
+
 def take_keys(bucket, convo, nodes):
     """Every take key in `bucket` that belongs to these nodes of this conversation.
 

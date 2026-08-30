@@ -47,7 +47,30 @@ total = 0
 dropped = []
 for rule in rules:
     convo, nodes = rule["convo"], set(rule["nodes"])
-    src, dst = rule["from"], rule["to"]
+    src, requested_dst = rule["from"], rule["to"]
+    try:
+        dst = line_moves.resolve_merge_target(requested_dst, merges_map)
+    except ValueError as e:
+        sys.exit(f"ERROR: {e}")
+    if dst != requested_dst:
+        print(f"  {rule.get('convo_name', convo)}: resolved merged target "
+              f"{requested_dst} -> {dst}")
+
+    # A correction can name two raw-extract ids that were subsequently proven to be the same
+    # person (Raymond -> Raymond Tsang -> canonical Raymond). Once the destination is resolved,
+    # that rule is already satisfied. Do not run the ordinary move loop against the same list: it
+    # would append to the list while iterating it, duplicating records indefinitely.
+    if src == dst:
+        canonical_lines = [ln for ln in by_id.get(dst, {}).get("lines", [])
+                           if ln.get("c") == convo and ln.get("n") in nodes]
+        here = len(canonical_lines)
+        if here == len(nodes):
+            print(f"  {rule.get('convo_name', convo)}: already canonical "
+                  f"({requested_dst} resolves to {dst}, {here}/{len(nodes)} nodes there)")
+            continue
+        sys.exit(f"ERROR: reattribution {src} -> {requested_dst} resolves to the same character "
+                 f"'{dst}', but only {here}/{len(nodes)} expected nodes are there (convo {convo})")
+
     if dst not in by_id and "to_name" in rule:
         # The right speaker can be a character the shipped file never had, because the wrong
         # attribution was the only thing that ever created a bucket for those lines. Create it with
@@ -57,28 +80,17 @@ for rule in rules:
         ch["characters"].append(by_id[dst])
         print(f"  created target character {dst} ({rule['to_name']!r})")
     if dst not in by_id:
-        # The target may have been folded into someone else since: these rules deliberately compose
-        # with character_merges.json (Raymond's call is reattributed to 'Raymond Tsang', which is
-        # then merged back into Raymond, because it is the same stuttering man under a prop
-        # mislabel). Re-running after the merge must recognise that rather than die - and dying
-        # here is not harmless, it aborts the renames and the orphan sweep further down.
-        chain, seen_ids = dst, set()
-        while chain in merges_map and chain not in seen_ids:
-            seen_ids.add(chain)
-            chain = merges_map[chain]
-        if chain in by_id:
-            here = sum(1 for ln in by_id[chain]["lines"]
-                       if ln.get("c") == convo and ln.get("n") in nodes)
-            if here == len(nodes):
-                print(f"  {rule.get('convo_name', convo)}: already applied "
-                      f"({dst} merged into {chain}, {here}/{len(nodes)} nodes there)")
-                continue
         sys.exit(f"ERROR: target char '{dst}' not found (convo {convo})")
     if src not in by_id:
         # A previous run emptied the source and dropped it. That is only OK if the lines really
         # did land on the target; anything else means the file is not what this rule expects.
-        here = sum(1 for ln in by_id[dst]["lines"] if ln.get("c") == convo and ln.get("n") in nodes)
+        existing = [ln for ln in by_id[dst]["lines"]
+                    if ln.get("c") == convo and ln.get("n") in nodes]
+        here = len(existing)
         if here == len(nodes):
+            for ln in existing:
+                ln["attribution"] = "manual-reattribution"
+                ln["attributionReason"] = rule.get("reason")
             print(f"  {rule.get('convo_name', convo)}: already applied ({src} gone, "
                   f"{here}/{len(nodes)} nodes under {dst})")
             continue
@@ -87,17 +99,27 @@ for rule in rules:
     keep, moved = [], 0
     for ln in by_id[src]["lines"]:
         if ln.get("c") == convo and ln.get("n") in nodes:
+            ln["attribution"] = "manual-reattribution"
+            ln["attributionReason"] = rule.get("reason")
             by_id[dst]["lines"].append(ln); moved += 1
         else:
             keep.append(ln)
     by_id[src]["lines"] = keep
     total += moved
-    # A take made under the wrong CHARACTER voice is useful history/audition material, but it is
-    # never a valid keeper for the corrected owner. Preserve the file and clear its selection so
-    # the pack cannot silently ship it while the correct retake is still outstanding.
+    # A take made under the source character's voice is not a valid keeper after ownership moves
+    # to a different character. Keep it as useful audition history, but clear its selection by
+    # default so it cannot silently ship. The rare case where two ids deliberately share a
+    # performance must say so explicitly; an omitted flag must never preserve wrong-speaker audio.
+    clear_keeper = not bool(rule.get("preserve_selected"))
     tk_moved = move_takes(src, dst, convo, nodes,
-                          clear_selected=bool(rule.get("clear_selected"))) if moved else []
-    already = sum(1 for ln in by_id[dst]["lines"] if ln.get("c") == convo and ln.get("n") in nodes)
+                          clear_selected=clear_keeper) if moved else []
+    target_lines = [ln for ln in by_id[dst]["lines"]
+                    if ln.get("c") == convo and ln.get("n") in nodes]
+    # Idempotent reruns also refresh the audit explanation on rules that had already been applied.
+    for ln in target_lines:
+        ln["attribution"] = "manual-reattribution"
+        ln["attributionReason"] = rule.get("reason")
+    already = len(target_lines)
     print(f"  {rule.get('convo_name', convo)}: moved {moved} line(s) {src} -> {dst} "
           f"({already}/{len(nodes)} target nodes now under {dst})"
           + (f", carried {len(tk_moved)} take group(s)" if tk_moved else ""))

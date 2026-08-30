@@ -46,6 +46,9 @@ for rec in ch["unattributed"]["lines"]:
     if not target:
         kept.append(rec)
         continue
+    rec["attribution"] = "manual-unattributed-review"
+    rec["attributionReason"] = rule.get("why") or (
+        f"Hand-reviewed node assignment from {rec.get('cn') or rec['c']}.")
     if target == "narrator":
         ch["narrator"]["lines"].append(rec)
         moved["narrator"] += 1
@@ -68,5 +71,7 @@ for k, v in sorted(moved.items(), key=lambda x: -x[1]):
     print(f"  {v:3d} -> {k}")
 for rec in kept:
     rule = amap["convos"].get(rec["c"], {})
-    tag = "SKIP" if rule.get("skip") else "REVIEW" if rule.get("review") else "UNMAPPED"
+    node_target = (rule.get("nodes") or {}).get(str(rec["n"]))
+    tag = "SKIP" if rule.get("skip") or node_target == "skip" else \
+          "REVIEW" if rule.get("review") or node_target == "review" else "UNMAPPED"
     print(f"  [{tag}] {rec.get('cn')} n{rec['n']}: {rec['t'][:60]!r}")

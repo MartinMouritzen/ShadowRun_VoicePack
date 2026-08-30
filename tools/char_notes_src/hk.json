@@ -3102,5 +3102,89 @@
   "kw": ["male", "unstable", "panicked", "intense", "sinister"],
   "gender": "male",
   "age": "young"
+ },
+ "name_riotcontrolofficer": {
+  "bio": "A nervous HKPF riot-control constable paired with a hardline SDU captain during the crackdown in Heoi.",
+  "direction": "Young cop projecting authority through fear; clipped commands that falter whenever he looks to the SDU officer for guidance.",
+  "kw": ["male", "police", "nervous", "commanding", "young"],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_needlenose": {
+  "bio": "A troll thief nicknamed Needlenose who struggles with a door panel while his human partner pressures him.",
+  "direction": "Big, irritated working-class troll; defensive grunts, pained curses, and wounded pride when his partner mocks him.",
+  "kw": ["male", "troll", "gruff", "irritated", "comic"],
+  "gender": "male",
+  "age": "adult"
+ },
+ "name_keungha": {
+  "bio": "Reliable Matthew's abusive supplier, heard berating him remotely through a hovering drone.",
+  "direction": "Sharp, vicious remote intimidation; fast contempt and explosive threats distorted slightly by the drone connection.",
+  "kw": ["male", "abusive", "sharp", "threatening", "remote"],
+  "gender": "male",
+  "age": "adult"
+ },
+ "name_mengkaiseow": {
+  "bio": "An ailing elder named Meng-kai Seow who hires the team through a recorded mission briefing.",
+  "direction": "Elderly, deliberate and physically frail, with dignified urgency and the focus of someone spending limited time carefully.",
+  "kw": ["male", "elderly", "frail", "dignified", "deliberate"],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_wallacekoo": {
+  "bio": "Wallace Koo, a pockmarked SDU mage who recruited Lam and helps Krait's conspiracy dismantle Qiu's task force.",
+  "direction": "Smug veteran conspirator; controlled magical menace, acid condescension, and possessive authority over Lam.",
+  "kw": ["male", "mage", "smug", "menacing", "authoritative"],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_chorusofservitors": {
+  "bio": "The Yama Queen's gathered servitors, who echo her words together as a separate supernatural chorus.",
+  "direction": "Unnatural layered unison; reverent, hollow and inhuman, like many stolen voices forced through one cadence.",
+  "kw": ["chorus", "supernatural", "layered", "hollow", "inhuman"],
+  "gender": null,
+  "age": null
+ },
+ "name_drunkheoismuggler": {
+  "bio": "The visibly intoxicated companion of a Heoi smuggler during a transient dream conversation.",
+  "direction": "Loose, boozy interruption with slurred confidence and an alcohol-fogged edge distinct from his steadier companion.",
+  "kw": ["male", "drunk", "slurred", "rough", "loose"],
+  "gender": "male",
+  "age": "adult"
+ },
+ "name_chowsangtsui": {
+  "bio": "Chow-sang Tsui, an elderly Walled City shoemaker interviewed for Sunny Cheung's carefully sanitized news feature.",
+  "direction": "Warm elderly craftsman, modest and sincere; affectionate pride in his community despite the hardship around him.",
+  "kw": ["male", "elderly", "warm", "humble", "sincere"],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_tsunamicaptain": {
+  "bio": "The Tsunami mercenary captain commanding Tigath Wright's hired team during the whistleblower operation.",
+  "direction": "Professional mercenary commander; disciplined, transactional authority with restrained anger when Tigath challenges him.",
+  "kw": ["male", "mercenary", "commanding", "professional", "controlled"],
+  "gender": "male",
+  "age": "middle_aged"
+ },
+ "name_ambushsurvivor": {
+  "bio": "A bloodied Sinking Ship local who survives Malvina's compelled ambush and desperately warns Gobbet's team about the voice controlling them.",
+  "direction": "Breathless shock and helpless panic; apologies spill out between stammers as terror overwhelms any composure.",
+  "kw": ["frightened", "injured", "panicked", "stammering", "desperate"],
+  "gender": null,
+  "age": "adult"
+ },
+ "name_eldermagpie": {
+  "bio": "A deceased female Whampoa elder and decker whose surviving desk note warns others not to lose her stockroom keys.",
+  "direction": "Read written material as the memory of a salty, practical old decker: terse, competent and unsentimental.",
+  "kw": ["female", "elderly", "decker", "practical", "terse"],
+  "gender": "female",
+  "age": "old"
+ },
+ "name_arestechnicianlee": {
+  "bio": "An Ares Asia technician named Lee who leaves a frustrated maintenance warning on a temperamental power conduit.",
+  "direction": "Overworked technical irritation; precise workplace complaint escalating into exasperated disbelief.",
+  "kw": ["technician", "irritated", "precise", "overworked", "corporate"],
+  "gender": null,
+  "age": "adult"
  }
 }

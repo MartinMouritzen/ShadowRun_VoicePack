@@ -1,6 +1,17 @@
 {
  "_comment": "Hand attribution for Hong Kong's unattributed bucket - lines the extractor could not bind to a speaker. Same shape and same applier as the DMS file. A conversation is only listed when the evidence is IN the lines: the speaker's own stage directions, a name they use, or screen furniture with no actor at all. Everything else stays unattributed on purpose.",
- "new_characters": [],
+ "new_characters": [
+  {
+   "id": "name_eldermagpie",
+   "name": "Elder Magpie",
+   "note": "The deceased female Whampoa elder and decker whose shop is searched during Grendel. Other dialogue calls her a 'salty old woman' and says that she maintained the shadow-nets. Her one surviving written note is on her own desk."
+  },
+  {
+   "id": "name_arestechnicianlee",
+   "name": "Ares Technician Lee",
+   "note": "The Ares Asia employee who signed the maintenance warning on the first-floor power conduit '-Lee'. Kept separate from the unrelated Coda impound quartermaster named Lee."
+  }
+ ],
  "convos": {
   "54fdd9da3430610419004db9": {
    "cn": "a2_BadQi_s1-CheckInTerminal",
@@ -205,6 +216,261 @@
   "564400da643661941400696e": {
    "cn": "MC_a2_StationRun_s1-TrainingCourseSouth",
    "to": "name_computer"
+  },
+  "55411f7b303031e412004e47": {
+   "cn": "HK_Hub-Global_PlayerBed",
+   "skip": true,
+   "why": "Literal development placeholder: 'You have scary placeholder dreams.' It is not shipped dialogue."
+  },
+  "55241a7a303031fc22003b34": {
+   "cn": "HK_Hub-a1_PostDocksIntro_KnockOnKindlysLockedDoor",
+   "skip": true,
+   "why": "Both nodes are instructions from one designer to another about what dialogue should eventually be written, not in-world lines."
+  },
+  "5632a6be6266329803007ac9": {
+   "cn": "MC_a1_Intro_s1-GMIntro",
+   "to": "narrator",
+   "why": "Node 7 is an untagged continuation of the surrounding GM narration: 'With the pain comes a dream-image...'"
+  },
+  "5612e234643661d812004e92": {
+   "cn": "MC_a1_Intro_s1-SavedCivs",
+   "to": "name_frightenedresident",
+   "why": "The saved civilians are the same frightened resident actor(s) from PatrolAndCvs. The bread-holder is explicitly described in both conversations, and the existing Frightened Resident says that the bread was stolen to survive."
+  },
+  "56427fe9306364d81d007bd8": {
+   "cn": "MC_a2_Kidnapping_s1-PlazaDronePackage",
+   "to": "name_racter",
+   "why": "Node 2 continues Racter's node 1 explanation of the package system and his offer to override it; node 8 later shows him doing exactly that through his bracer."
+  },
+  "563be87a3063647015005eeb": {
+   "cn": "MC_a2_Kidnapping_s1-PlazaRatParty",
+   "to": "narrator",
+   "why": "Pure environmental description: the powered-down sensorium 'sits mutely'."
+  },
+  "5601d1fa3063640011003e09": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab2Phonecall",
+   "to": "name_janettang",
+   "why": "All eleven remaining lines are the female doctor on the lab telecom. Node 26 names her Tang, and the surrounding stage directions repeatedly call her the doctor and use she/her."
+  },
+  "5604464e3063648823004d0d": {
+   "cn": "MC_a2_Plaguebearer_s1-Lab3PostResearcher",
+   "to": "name_computer",
+   "why": "The spoken portion is explicitly a computer-generated sterilization announcement; the opening GM stage direction will split to the narrator."
+  },
+  "565515606436615412006c37": {
+   "cn": "MC_a2_StationRun_s1-Floor1Access",
+   "to": "name_computer"
+  },
+  "5642ad54643661bc130026f7": {
+   "cn": "MC_a2_StationRun_s1-Matrix_TrainingRoomSystem",
+   "to": "name_computer"
+  },
+  "56492cab6436617415001286": {
+   "cn": "MC_a2_StationRun_s1-MotorPoolChargingPanel",
+   "to": "name_computer"
+  },
+  "5644ebaf64366154110034fc": {
+   "cn": "MC_a2_StationRun_s1-NorthLauncherLoader",
+   "to": "narrator",
+   "why": "Environmental action describing a grenade rolling through the hopper, not a speaking machine."
+  },
+  "56395fef64366148100000bd": {
+   "cn": "MC_a2_StationRun_s1-Shelf",
+   "to": "narrator"
+  },
+  "564515a1643661e80600222b": {
+   "cn": "MC_a2_StationRun_s1-SouthLauncherLoader",
+   "to": "narrator",
+   "why": "Environmental action describing a grenade rolling through the hopper, not a speaking machine."
+  },
+  "56787587626632bc06006fa0": {
+   "cn": "MC_a3_Epilogue_s1-SubOrbital_2",
+   "to": "name_raymond",
+   "why": "Raymond's family call. Node 31 names him, the male stage directions match him, and he asks the player and Duncan to come home for breakfast."
+  },
+  "55931338323437243a000ee8": {
+   "cn": "a1_WalledCity_s1-Repair_SparkingWires",
+   "to": "narrator"
+  },
+  "54d2941f32343734920026a7": {
+   "cn": "a1_WalledCity_s1-Streets_TeamIntro",
+   "nodes": {
+    "8": "name_gobbet",
+    "10": "name_gobbet",
+    "17": "name_is0bel"
+   },
+   "why": "Nodes 8/10 continue Gobbet's branch from node 7; node 17 is the identical Is0bel-specific branch after node 16. Their respective follow-up nodes are already attributed to those companions."
+  },
+  "553fde68323437a42300787b": {
+   "cn": "a1_WalledCity_s1-Streets_TeamOutro",
+   "to": "name_duncan",
+   "why": "All five nodes are Duncan. The stage directions use he/him, node 8 names Wu, and the surrounding attributed Duncan lines continue the same 'Gun Show' exchange."
+  },
+  "551ddc55323431e012004958": {
+   "cn": "a2_BadQi_s1-Disruption50Complete",
+   "to": "narrator"
+  },
+  "55c38abd323431d40f002f15": {
+   "cn": "a2_BadQi_s1-ExitConvo",
+   "to": "narrator",
+   "why": "All four nodes describe second-person physical sensations caused by the disturbed qi; no character speaks."
+  },
+  "54fe411b343061c813005572": {
+   "cn": "a2_BadQi_s1-FireAlarmActivatedScene",
+   "nodes": {
+    "7": "skip"
+   },
+   "why": "The explicit source is runtime party slot Player 2. The actual companion, and therefore voice, changes with team composition; a fixed speaker would be wrong in valid playthroughs."
+  },
+  "550a1e62343061b40e00089b": {
+   "cn": "a2_BadQi_s1-OfficeConvo",
+   "nodes": {
+    "11": "name_gaichu",
+    "19": "name_racter"
+   },
+   "why": "Node 11 is Gaichu's formal qi-sensitive response in the companion-variant sequence; node 19 explicitly begins 'Racter turns to you'."
+  },
+  "557630cf323431480d002236": {
+   "cn": "a2_BadQi_s1-OfficeQiLeaving",
+   "nodes": {
+    "4": "name_duncan"
+   },
+   "why": "Node 4 continues Duncan's node 3 warning branch. The sibling alternatives are already attributed in order to Gobbet, Racter, Gaichu and Is0bel."
+  },
+  "54d00020306364a06a008a84": {
+   "cn": "a2_ExitStageLeft_s1-InfoUpdateConvo",
+   "skip": true,
+   "why": "All three explicit sources are two runtime New Actor party spawners. Their identities vary with the selected team, so no stable character voice exists for these keys."
+  },
+  "54bef3b9306364501c001580": {
+   "cn": "a2_ExitStageLeft_s1-KuFengSurrender",
+   "nodes": {
+    "38": "skip"
+   },
+   "why": "The explicit source is a runtime New Actor party spawner. The actual companion varies with team composition."
+  },
+  "54c02d75306364f416001cec": {
+   "cn": "a2_ExitStageLeft_s1-MatrixGuards",
+   "to": "name_computer"
+  },
+  "54b99f9a306364e41b0002be": {
+   "cn": "a2_ExitStageLeft_s1-MezzanineGuard2nd",
+   "to": "name_securityguard",
+   "why": "The same male mezzanine security guard and invitation check as the attributed first interaction."
+  },
+  "5522d0686266321c19008e8e": {
+   "cn": "a2_ExitStageLeft_s1-PenthouseSecurityDoor",
+   "nodes": {
+    "11": "name_racter",
+    "17": "name_racter"
+   },
+   "why": "Both are Racter's companion variants. 'My friend' is his distinctive address (used hundreds of times), and the surrounding alternatives cover the other named companions."
+  },
+  "54f741823063648c02004280": {
+   "cn": "a2_FalseFlag_s1-1stPowerConduit",
+   "to": "name_arestechnicianlee",
+   "why": "A maintenance warning signed '-Lee'. This Ares employee is not the unrelated Coda quartermaster Lee."
+  },
+  "553fd7533063642c19005772": {
+   "cn": "a2_FalseFlag_s1-2ndLockedSafe",
+   "to": "name_computer"
+  },
+  "54ff738f306364380e004946": {
+   "cn": "a2_FalseFlag_s1-2ndSecTermInteract",
+   "to": "name_computer"
+  },
+  "55be5bc8306364001b00a06f": {
+   "cn": "a2_FalseFlag_s1-SecuritySchedulerLocked",
+   "to": "name_computer"
+  },
+  "552fd5cf306364d01000702b": {
+   "cn": "a2_Grendel_s1-MagpieDesk",
+   "to": "name_eldermagpie",
+   "why": "A private stockroom-key reminder on Elder Magpie's own desk. Other source dialogue identifies Magpie as the deceased female owner and decker of this shop."
+  },
+  "5526a1423063648c15002707": {
+   "cn": "a2_Grendel_s1-TongSimSynth",
+   "to": "name_computer"
+  },
+  "55282e1e3234377c3100123a": {
+   "cn": "a2_Museum_s1-BothBooksObtained",
+   "to": "name_mrdrake",
+   "why": "Mr. Drake over the commlink, directing the museum run and referring to the custom log-doctoring program he wrote."
+  },
+  "556dfaad323437b837000801": {
+   "cn": "a2_Museum_s1-CEOBookshelf",
+   "to": "narrator"
+  },
+  "5524518b3234376c45004dca": {
+   "cn": "a2_Museum_s1-CEOComputer",
+   "nodes": {
+    "26": "skip"
+   },
+   "why": "The explicit source is a runtime New Actor party spawner. The companion who observes the disconnected Matrix varies with team composition."
+  },
+  "552bdfc2323437cc180066bd": {
+   "cn": "a2_Museum_s1-ChangeOfPlans",
+   "to": "name_mrdrake",
+   "why": "The familiar mission contact speaking over the communicator about his cameras and program; the mission debrief names Drake as the planner."
+  },
+  "552454603234376c45004dfa": {
+   "cn": "a2_Museum_s1-IntroParty",
+   "to": "name_mrdrake",
+   "why": "Mr. Drake opens the museum run over the commlink and describes his alarm-suppression plan."
+  },
+  "54dcf4a4653937481b00605e": {
+   "cn": "a2_ShangriLa_s1-EndPart1",
+   "to": "narrator"
+  },
+  "54ecfca8343061e01b00108f": {
+   "cn": "a2_ShangriLa_s1-EscapingBoatTalk",
+   "to": "narrator",
+   "why": "Both nodes are identical environmental transitions describing the boat engine starting."
+  },
+  "54f4d9223430612012004418": {
+   "cn": "a2_ShangriLa_s1-TalonChefConvo",
+   "to": "name_johnnythetalon",
+   "why": "All three nodes explicitly describe the male Talon arguing with Chef Yan-Lung about his shellfish allergy."
+  },
+  "54da5dae306364a88e0035e1": {
+   "cn": "a2_Whistleblower_s1-JohnsonCall",
+   "nodes": {
+    "1": "name_jomo",
+    "2": "name_jomo",
+    "23": "name_unknowncaller",
+    "66": "skip"
+   },
+   "why": "Nodes 1/2 name Jomo and show him on the commlink; node 23 continues the digitized Unknown Caller's nodes 22-26. Node 66 points at a runtime New Actor party slot, so its companion voice is not stable."
+  },
+  "54d5495c306364bc7300017a": {
+   "cn": "a2_Whistleblower_s1-TissueStorage",
+   "to": "name_computer"
+  },
+  "556c9bfd323431c403004932": {
+   "cn": "a3_Showdown_s1-ExitConvo",
+   "to": "narrator"
+  },
+  "555e6174323431b40a00673b": {
+   "cn": "a3_Showdown_s1-TsangKuFengConvo",
+   "to": "name_kufeng",
+   "why": "Every remaining node is Ku Feng. Node 4 is the hooded woman's hypnotic reply; nodes 25 and 44-46 continue her first-person Yama King negotiation and use her female stage directions."
+  },
+  "554158bb3234370819002cee": {
+   "cn": "a3_Showdown_s2-Boss_FortuneEngineControls",
+   "to": "name_raymond",
+   "why": "Raymond's farewell: he thanks the player for coming to Hong Kong when he called and the stage direction describes him smiling sadly."
+  },
+  "5578d424303031181c00695b": {
+   "cn": "a3_TsangTower_s1-Elevator",
+   "to": "name_computer"
+  },
+  "55cbe3ba6436615816001373": {
+   "cn": "a3_TsangTower_s1-MagicLab_EquipmentRoomKeyPad",
+   "to": "narrator"
+  },
+  "558c64d03030319409006988": {
+   "cn": "a3_TsangTower_s2-DoorPanel",
+   "to": "narrator"
   }
  },
  "_terminals_note": "Terminal conversations are attributed to the terminal bucket rather than left unattributed, because unattributed lines are invisible to the lab and silent in the pack. Once they are in a container, build_screen_splits.py parses them like any other screen and moves the human-written parts - Dr. Taylor's and Dr. Hardingham's lab notes, the Eastern Tiger development diaries - to the people who wrote them."

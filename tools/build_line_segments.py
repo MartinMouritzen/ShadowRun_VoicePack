@@ -145,6 +145,42 @@ def raw_segments(t):
     if tail.strip(): out.append(["char", tail])
     return out
 
+def gm_tag_issue(text):
+    """Return why GM markup is unsafe to segment, or None when balanced and non-nested."""
+    text = text or ""
+    exact = list(re.finditer(r"\{\{(/?)GM\}\}", text, re.I))
+    if text.lower().count("{{gm") != sum(not m.group(1) for m in exact):
+        return "malformed opening GM tag"
+    if text.lower().count("{{/gm") != sum(bool(m.group(1)) for m in exact):
+        return "malformed closing GM tag"
+    depth = 0
+    for match in exact:
+        if match.group(1):
+            if depth != 1:
+                return "closing GM tag without a matching open"
+            depth = 0
+        else:
+            if depth:
+                return "nested GM tags"
+            depth = 1
+    return "unclosed GM tag" if depth else None
+
+
+# Greedy fallback on malformed markup silently changes speaker routing. Refuse before writing any
+# generated file; apply_narration_fixes.py contains exact, reviewable source repairs.
+bad_gm_tags = []
+for _owner in list(c.get("characters") or []) + [c.get("narrator") or {}]:
+    for _line in _owner.get("lines") or []:
+        _issue = gm_tag_issue(_line.get("t"))
+        if _issue:
+            bad_gm_tags.append((f"{_line.get('c')}_{_line.get('n')}",
+                                _owner.get("id") or "narrator", _issue))
+if bad_gm_tags:
+    for _key, _owner, _issue in bad_gm_tags:
+        print(f"ERROR: {_key} under {_owner}: {_issue}", file=sys.stderr)
+    sys.exit(f"REFUSING: {len(bad_gm_tags)} line(s) have unsafe GM markup; run and review "
+             "apply_narration_fixes.py before segmentation")
+
 result = {}
 unresolved = []
 

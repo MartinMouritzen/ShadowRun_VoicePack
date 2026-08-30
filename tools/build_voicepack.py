@@ -10,8 +10,9 @@ voicepack.json schema:
   { "version":1, "game":"srr-<game>",
     "lines": { "<convoId>_<nodeIndex>": ["clips/<hash>.ogg", ...ordered...], ... } }
 
-Only lines with at least one selected keeper appear. Narrator/character ordering is encoded as
-list order; the plugin just plays the list. Deterministic output (hash-named clips, no timestamps).
+Only lines whose complete ordered segment list has selected keepers appear. Narrator/character
+ordering is encoded as list order; the plugin just plays the list. Deterministic output
+(hash-named clips, no timestamps).
 """
 import json, os, re, sys, hashlib, subprocess, shutil
 
@@ -53,6 +54,14 @@ def seg_keys(char_id, base_key, SEGS):
 def main():
     if not shutil.which("ffmpeg"):
         print("ERROR: ffmpeg not found on PATH", file=sys.stderr); sys.exit(1)
+    attribution_audit = subprocess.run(
+        [sys.executable, os.path.join(os.path.dirname(__file__), "audit_attribution.py"), GAME],
+        capture_output=True, text=True)
+    if attribution_audit.returncode:
+        print(attribution_audit.stdout, end="", file=sys.stderr)
+        print(attribution_audit.stderr, end="", file=sys.stderr)
+        sys.exit("REFUSING: speaker-attribution audit failed; voicepack was not changed")
+    print(attribution_audit.stdout.strip())
     chars = jload("characters.json")
     SEGS = jload_opt("line_segments.json", {})   # DMS-only manual multi-char segmentation
     takes = jload_opt("takes.json", {})          # empty until a game has generated takes
@@ -105,6 +114,7 @@ def main():
     lines = {}          # base_key -> [source_rel_mp3, ...] (ordered, only selected)
     reachable_extra = set()   # keys on surfaces the orphan check below cannot derive from lines
     stats = {"lines_total": 0, "lines_voiced": 0, "segments_voiced": 0, "missing_files": 0}
+    partial_dialogue = []
 
     # Template-variable variants. A line that says $(l.race) is shipped once per metatype under
     # "<key>#<variantId>"; the plugin resolves the playthrough's values, tries the matching key and
@@ -119,6 +129,7 @@ def main():
             stats["lines_total"] += 1
             ordered = []
             keys = seg_keys(char_id, base_key, SEGS)
+            complete = True
             vids = set()
             for _, seg_key in keys:
                 vids |= set((VARIANTS.get(seg_key) or {}).get("v") or {})
@@ -130,7 +141,16 @@ def main():
                         ordered.append(sel); stats["segments_voiced"] += 1
                     else:
                         stats["missing_files"] += 1
-            if ordered:
+                        complete = False
+                else:
+                    complete = False
+            # Never ship half of an interleaved narrator/character line. After a speaker fix the
+            # old owner's keeper is deliberately cleared, and emitting only the surviving narrator
+            # beats would sound like the dialogue stopped mid-node. Keep the node silent until all
+            # corrected segments have valid keepers.
+            if ordered and not complete:
+                partial_dialogue.append(f"{base_key} ({len(ordered)}/{len(keys)} segments)")
+            if ordered and complete:
                 lines[base_key] = ordered
                 stats["lines_voiced"] += 1
             for vid in sorted(vids):
@@ -164,6 +184,11 @@ def main():
     for ch in chars["characters"]:
         process(ch["id"], ch.get("lines", []))
     process("narrator", chars.get("narrator", {}).get("lines", []))
+    if partial_dialogue:
+        print(f"  NOTE: {len(partial_dialogue)} dialogue node(s) are only PARTLY voiced and were "
+              "SKIPPED (voice the remaining segments in the lab):", file=sys.stderr)
+        for item in partial_dialogue[:25]:
+            print(f"    {item}", file=sys.stderr)
 
     # Inspect one-liners: keyed "insp_<md5>" under the narrator bucket; the plugin looks them up by
     # hashing the runtime inspectText. Add any that have a selected take.
