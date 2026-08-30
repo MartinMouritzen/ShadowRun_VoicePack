@@ -1,5 +1,5 @@
 {
- "_comment": "Nodes the extractor attributed to a CHARACTER but which are narration: second-person description of what the player sees, with no speaker. The game gives them an actor slot (usually whoever the scene is about), so extraction has nothing to go on. Applied by apply_narration_fixes.py <game>, which wraps the node's whole text in {{GM}}...{{/GM}} inside app/data/<game>/characters.json. build_line_segments.py then emits it as a single 'gm' segment, so it is voiced by the narrator and follows the narrator's casting - unlike a per-line voice override, which would pin one voice and silently stop tracking a recast. Idempotent: a node already wrapped is skipped.",
+ "_comment": "Nodes or exact spans the extractor attributed to a CHARACTER but which are narration. Use nodes:[n,...] for a whole node and spans:[{node:n,text:'exact text'}] for narration embedded in a mixed node. Applied by apply_narration_fixes.py <game>, which adds {{GM}} markers inside app/data/<game>/characters.json. build_line_segments.py then routes those spans to the narrator and follows the narrator's casting - unlike a per-line voice override, which would pin one voice and silently stop tracking a recast. Idempotent: text already wrapped is skipped.",
  "dragonfall": [
   {
    "convo": "5258897d6636614001005b04",
@@ -614,6 +614,19 @@
     25
    ],
    "reason": "Narration attributed to Zaak Flash. The text names Zaak Flash in the third person and uses he/she/it for them, with no first person - nobody describes themselves that way, so it is the narrator describing the scene. Detected systematically, not line by line."
+  }
+ ],
+ "hk": [
+  {
+   "convo": "554693e9393936841900720a",
+   "from": "name_erminekafai",
+   "spans": [
+    {
+     "node": 0,
+     "text": "Ermine's eyes are bleary. Blood from a recent nosebleed speckles her upper lip."
+    }
+   ],
+   "reason": "The opening paragraph is stage direction, but the writers omitted its {{GM}} markers while marking the later 'She nods towards her son.' direction correctly. That made the segmenter merge the opening narration into Ermine's first spoken segment."
   }
  ]
 }

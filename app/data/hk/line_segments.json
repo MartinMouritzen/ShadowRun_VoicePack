@@ -45903,7 +45903,11 @@
  ],
  "554693e9393936841900720a_0": [
   {
-   "t": "Ermine's eyes are bleary. Blood from a recent nosebleed speckles her upper lip. You need armor? Ammunition? Painkillers?",
+   "t": "Ermine's eyes are bleary. Blood from a recent nosebleed speckles her upper lip.",
+   "who": "gm"
+  },
+  {
+   "t": "You need armor? Ammunition? Painkillers?",
    "who": "char"
   },
   {

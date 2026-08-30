@@ -654,21 +654,6 @@
    ]
   }
  },
- "name_erminekafai": {
-  "554693e9393936841900720a_0~c0": {
-   "selected": "name_erminekafai/takes/554693e9393936841900720a_0~c0__mag159__1786436112.mp3",
-   "takes": [
-    {
-     "file": "name_erminekafai/takes/554693e9393936841900720a_0~c0__mag159__1786436112.mp3",
-     "voiceId": "mag_159",
-     "voiceName": "Avery Grant",
-     "stability": 0,
-     "chars": 133,
-     "ts": 1786436112
-    }
-   ]
-  }
- },
  "name_maximumlaw": {
   "54d5743c3030314013003009_2": {
    "selected": "name_maximumlaw/takes/54d5743c3030314013003009_2__mag518__1786436117.mp3",

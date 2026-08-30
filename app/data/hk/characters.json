@@ -51040,7 +51040,7 @@
      "c": "554693e9393936841900720a",
      "n": 0,
      "cn": "HK_Hub-Global_ErmineKaiFa",
-     "t": "Ermine's eyes are bleary. Blood from a recent nosebleed speckles her upper lip.\n\n$(L.name). You need armor? Ammunition? Painkillers?\n\n{{GM}}She nods towards her son.{{/GM}}\n\nFor painkillers, talk to Callum."
+     "t": "{{GM}}Ermine's eyes are bleary. Blood from a recent nosebleed speckles her upper lip.{{/GM}}\n\n$(L.name). You need armor? Ammunition? Painkillers?\n\n{{GM}}She nods towards her son.{{/GM}}\n\nFor painkillers, talk to Callum."
     },
     {
      "c": "554693e9393936841900720a",
