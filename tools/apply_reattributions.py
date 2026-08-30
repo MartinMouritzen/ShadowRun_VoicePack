@@ -38,9 +38,10 @@ merges_map = json.load(open(os.path.join(ROOT, "app", "data", GAME, "merges.json
 by_id = {c["id"]: c for c in ch["characters"]}
 takes = json.load(open(TAKES_PATH)) if os.path.exists(TAKES_PATH) else {}
 
-def move_takes(src, dst, convo, nodes):
+def move_takes(src, dst, convo, nodes, clear_selected=False):
     """Carry every take for these nodes from bucket src to bucket dst; returns keys moved."""
-    return line_moves.move_takes(takes, AUDIO, src, dst, convo, nodes)
+    return line_moves.move_takes(takes, AUDIO, src, dst, convo, nodes,
+                                 clear_selected=clear_selected)
 
 total = 0
 dropped = []
@@ -91,7 +92,11 @@ for rule in rules:
             keep.append(ln)
     by_id[src]["lines"] = keep
     total += moved
-    tk_moved = move_takes(src, dst, convo, nodes) if moved else []
+    # A take made under the wrong CHARACTER voice is useful history/audition material, but it is
+    # never a valid keeper for the corrected owner. Preserve the file and clear its selection so
+    # the pack cannot silently ship it while the correct retake is still outstanding.
+    tk_moved = move_takes(src, dst, convo, nodes,
+                          clear_selected=bool(rule.get("clear_selected"))) if moved else []
     already = sum(1 for ln in by_id[dst]["lines"] if ln.get("c") == convo and ln.get("n") in nodes)
     print(f"  {rule.get('convo_name', convo)}: moved {moved} line(s) {src} -> {dst} "
           f"({already}/{len(nodes)} target nodes now under {dst})"

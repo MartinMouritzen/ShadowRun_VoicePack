@@ -1,0 +1,62 @@
+{
+ "5695567e643661dc1600166d_21": {
+  "owner": "name_racter",
+  "status": "confirmed",
+  "reason": "Racter's party-variant text is correctly attributed; the copied stage direction incorrectly says 'She shrugs'."
+ },
+ "5695567e643661dc1600166d_23": {
+  "owner": "name_gaichu",
+  "status": "confirmed",
+  "reason": "Gaichu's party-variant text is correctly attributed; the copied stage direction incorrectly says 'She shrugs'."
+ },
+ "56182456306364e415006ab9_22": {
+  "owner": "name_janettang",
+  "status": "confirmed",
+  "reason": "Tang is the speaker; the male pronouns in the action beat refer to Garra and his men, the targets of her turrets."
+ },
+ "563a7eb8306364fc140006b9_64": {
+  "owner": "name_apartmentexecutive",
+  "status": "confirmed",
+  "reason": "The executive speaks 'Welcome back'; the female pronoun in the setup describes the elevator guard facing him."
+ },
+ "555a76a5323431800800153f_33": {
+  "owner": "name_redpoletriad",
+  "status": "confirmed",
+  "reason": "Song is consistently established as a woman; this alternate branch contains a source-text pronoun typo."
+ },
+ "555a76a5323431800800153f_34": {
+  "owner": "name_redpoletriad",
+  "status": "confirmed",
+  "reason": "Song is consistently established as a woman; this alternate branch contains a source-text pronoun typo."
+ },
+ "555a76a5323431800800153f_36": {
+  "owner": "name_redpoletriad",
+  "status": "confirmed",
+  "reason": "Song is consistently established as a woman; this alternate branch contains a source-text pronoun typo."
+ },
+ "552f062b323431e41b0069fa_16": {
+  "owner": "name_compelledlocal1",
+  "status": "confirmed",
+  "reason": "Kara is the companion who cuts in; 'his' refers to Patrick, whose companion she is."
+ },
+ "555e6218626632302300162c_9": {
+  "owner": "name_compelledlocal2",
+  "status": "confirmed",
+  "reason": "Patrick is the dwarf companion calling after the player; 'her' refers to Kara."
+ },
+ "555e6218626632302300162c_10": {
+  "owner": "name_compelledlocal2",
+  "status": "confirmed",
+  "reason": "Patrick is the dwarf companion calling after the player; 'her' refers to Kara."
+ },
+ "555e6218626632302300162c_11": {
+  "owner": "name_compelledlocal2",
+  "status": "confirmed",
+  "reason": "Patrick is the dwarf companion calling after the player; 'her' refers to Kara."
+ },
+ "54dcfec1303031bc0a006c6f_220": {
+  "owner": "name_sunnycheung",
+  "status": "confirmed",
+  "reason": "Sunny delivers the introduction; the following action beat cuts away to the elderly male shoemaker before his separately attributed node."
+ }
+}

@@ -2627,6 +2627,191 @@
    "to_name": "Chief Inspector Krait",
    "to_portrait": "NPC_HumanFemale_Hub_Krait",
    "reason": "Conversation owner is 'Chief Inspector Krait'; the convo name matched 'Krait' instead. Same defect as the DMS Acolyte split: a conversation FILE name describes a role, not the speaker the designer bound it to."
+  },
+  {
+   "convo": "55369fa7323437682800451d",
+   "convo_name": "a2_Extraction_s1-PlasticFacedManInterrogation",
+   "nodes": [
+    65,
+    68,
+    70,
+    72,
+    75,
+    77,
+    79,
+    80,
+    107,
+    109,
+    111,
+    114,
+    116,
+    118,
+    119
+   ],
+   "from": "name_plasticfacedman",
+   "to": "name_josephinetsang",
+   "clear_selected": true,
+   "reason": "The interrogation conversation embeds a recording with three speakers. These nodes are Josephine Tsang: she addresses Edward as her son, he calls her Mother, and the stage directions identify her as the woman speaking. Actorless nodes inherited the Plastic-Faced Man conversation owner."
+  },
+  {
+   "convo": "55369fa7323437682800451d",
+   "convo_name": "a2_Extraction_s1-PlasticFacedManInterrogation",
+   "nodes": [
+    67,
+    71,
+    74,
+    78,
+    105,
+    110,
+    113,
+    117
+   ],
+   "from": "name_plasticfacedman",
+   "to": "name_raymond",
+   "clear_selected": true,
+   "reason": "The same embedded recording alternates to Raymond Black/Edward Tsang. These are the son's replies: he calls Josephine Mother or Momma, and several stage directions explicitly name Raymond. Actorless nodes inherited the Plastic-Faced Man conversation owner."
+  },
+  {
+   "convo": "5570e6b6323431541e005e1d",
+   "convo_name": "a2_Is0belTrust_s1-CatererEncounter",
+   "nodes": [88],
+   "from": "name_is0bel",
+   "to": "name_gaichu",
+   "clear_selected": true,
+   "reason": "Gaichu draws his katana and says that there is work to be done. This party-variant node was filed under Is0bel despite its explicitly male action beat and Gaichu's distinctive formal delivery."
+  },
+  {
+   "convo": "557109403234316c1c0044d9",
+   "convo_name": "a2_Is0belTrust_s1-RhombusConvo",
+   "nodes": [2, 4, 6, 8, 17, 19, 20, 22, 24, 29, 30, 32, 34, 36, 38, 39, 41, 51, 53, 55, 57, 60, 63, 65, 67, 69],
+   "from": "name_rhombus",
+   "to": "name_is0bel",
+   "clear_selected": true,
+   "reason": "This two-person conversation explicitly tags Rhombus's own nodes but leaves Is0bel's replies actorless. Those replies inherited Rhombus as the conversation owner even when the stage directions name Is0bel or describe her actions."
+  },
+  {
+   "convo": "55710bdc3234316c1c00455d",
+   "convo_name": "a2_Is0belTrust_s1-VIPEncounter",
+   "nodes": [1, 5, 9, 11, 12, 14, 16, 18, 20, 21, 23, 25, 28, 30, 31, 33, 35, 36],
+   "from": "name_vipdecker",
+   "to": "name_is0bel",
+   "clear_selected": true,
+   "reason": "The VIP Decker's nodes have an explicit actor reference; the alternating actorless nodes are Is0bel's infiltration dialogue. The previous whole-conversation correction moved both sides to the male VIP Decker."
+  },
+  {
+   "convo": "56156cc0306364981c00349a",
+   "convo_name": "MC_a2_Plaguebearer_s1-PodSubjectsPostfight",
+   "nodes": [1, 2, 5, 7, 16, 17, 20, 24, 25, 27, 32, 48],
+   "from": "name_fizz",
+   "to": "name_mfi",
+   "clear_selected": true,
+   "reason": "Fizz and MFI co-own this conversation. Fizz's nodes carry her explicit actor reference; these actorless male replies identify him as MFI or describe his actions, but the extractor selected Fizz as the default co-owner."
+  },
+  {
+   "convo": "56156cc0306364981c00349a",
+   "convo_name": "MC_a2_Plaguebearer_s1-PodSubjectsPostfight",
+   "nodes": [14],
+   "from": "name_fizz",
+   "to": "name_gobbet",
+   "clear_selected": true,
+   "reason": "This party response discusses Fizz in the third person and uses Gobbet's colloquial register; it is not Fizz describing her own implant. Its companion source tag was omitted in the game data, so it inherited Fizz."
+  },
+  {
+   "convo": "54bd886b323437742d0012df",
+   "convo_name": "a1_Docks_s1-RunnersMeeting",
+   "nodes": [37, 38, 39, 40, 43, 49, 50, 52, 56, 58],
+   "from": "name_huskytroll",
+   "to": "name_gobbet",
+   "clear_selected": true,
+   "reason": "These lines belong to the ork girl Gobbet: the stage directions identify her, her rats appear, and she describes the Walled City. Actorless nodes otherwise inherited the Husky Troll from the multi-speaker standoff."
+  },
+  {
+   "convo": "5530352a323431c41a003ddb",
+   "convo_name": "a2_GobbetTrust_s1-FirstDeck_TrashCanCrewConvo",
+   "nodes": [1, 4, 8, 9, 19, 24, 27, 30, 31, 32, 33, 34],
+   "from": "name_gobbet",
+   "to": "name_oldshipinhabitant",
+   "to_name": "Old Ship Inhabitant",
+   "clear_selected": true,
+   "reason": "Gobbet is the missing person being sought and is not present in this scene. These are the older man's replies, identified by the stage directions and by references to the younger local as 'he' or 'the kid'. The mission name's GobbetTrust token caused a cross-scene name match to Gobbet."
+  },
+  {
+   "convo": "5530352a323431c41a003ddb",
+   "convo_name": "a2_GobbetTrust_s1-FirstDeck_TrashCanCrewConvo",
+   "nodes": [6, 7, 11, 12, 13, 15, 16, 18, 21, 22, 23, 26, 28],
+   "from": "name_gobbet",
+   "to": "name_youngshipinhabitant",
+   "to_name": "Young Ship Inhabitant",
+   "clear_selected": true,
+   "reason": "The other actorless replies are the younger local's side of the trash-can crew exchange. The older man calls him 'he' or 'the kid', and the younger man looks to his older companion when pressured."
+  },
+  {
+   "convo": "5530352a323431c41a003ddb",
+   "convo_name": "a2_GobbetTrust_s1-FirstDeck_TrashCanCrewConvo",
+   "nodes": [25],
+   "from": "name_gobbet",
+   "to": "name_is0bel",
+   "clear_selected": true,
+   "reason": "Is0bel ends the interrogation and asks the player to leave. Gobbet is absent and is the friend Is0bel is searching for throughout this conversation."
+  },
+  {
+   "convo": "553548f0323431f0110041bc",
+   "convo_name": "a2_GobbetTrust_s1-MidDeck_EnterConvo",
+   "nodes": [20],
+   "from": "name_compelledlocal2",
+   "to": "name_compelledlocal1",
+   "clear_selected": true,
+   "reason": "Kara, the female compelled local, nods eagerly and answers 'Absolutely'. The actorless reply inherited Patrick's bucket."
+  },
+  {
+   "convo": "555a969132343180080015d2",
+   "convo_name": "a3_Showdown_s1-MedicalVendor",
+   "nodes": [14],
+   "from": "name_medicalvendor",
+   "to": "name_racter",
+   "clear_selected": true,
+   "reason": "Racter addresses the player as 'my friend' and smiles at the female drug peddler; this is the male companion response alongside the explicitly attributed Duncan, Gobbet, Gaichu and Is0bel alternatives."
+  },
+  {
+   "convo": "54fe12ff343061c813005052",
+   "convo_name": "a2_BadQi_s1-MaintenanceGuardConvo",
+   "nodes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+   "from": "name_securityguard",
+   "to": "name_maintenanceguard",
+   "to_name": "Maintenance Guard",
+   "clear_selected": true,
+   "reason": "The generic Security Guard bucket merged several male guards with this distinct female Wuxing maintenance guard. Every stage direction in this conversation consistently identifies her as female."
+  },
+  {
+   "convo": "555e6174323431b40a00673b",
+   "convo_name": "a3_Showdown_s1-TsangKuFengConvo",
+   "nodes": [3, 5],
+   "from": "name_tsangreconcommando",
+   "to": "name_femaletsangreconcommando",
+   "to_name": "Female Tsang Recon Commando",
+   "clear_selected": true,
+   "reason": "This Ku Feng encounter uses a female Tsang commando, while the other conversation merged into the generic bucket consistently describes its commando as male."
+  },
+  {
+   "convo": "5568f77f323431581b00491d",
+   "convo_name": "a3_Showdown_s1-CenterEnterConvo",
+   "nodes": [7, 10],
+   "from": "name_tsangsoldier",
+   "to": "name_tsangsoldieryang",
+   "to_name": "Tsang Soldier Yang",
+   "clear_selected": true,
+   "reason": "These are Yang's replies to Hu; the narration and stage directions consistently identify her as the female officer he attacks."
+  },
+  {
+   "convo": "5568f77f323431581b00491d",
+   "convo_name": "a3_Showdown_s1-CenterEnterConvo",
+   "nodes": [9, 12],
+   "from": "name_tsangsoldier",
+   "to": "name_tsangsoldierhu",
+   "to_name": "Tsang Soldier Hu",
+   "drop_source_when_empty": true,
+   "clear_selected": true,
+   "reason": "These are the deranged male officer Hu's replies; Yang explicitly calls him Hu and the stage directions consistently use he/his."
   }
  ]
 }

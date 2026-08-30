@@ -1502,7 +1502,7 @@
    "fearful",
    "low"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "middle_aged"
  },
  "name_sceneglobalnamecadmus": {
@@ -2211,7 +2211,7 @@
    "low",
    "streetwise"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "middle_aged"
  },
  "name_stallvendor": {
@@ -2295,7 +2295,7 @@
    "dry",
    "firm"
   ],
-  "gender": "male",
+  "gender": "female",
   "age": "middle_aged"
  },
  "name_tsangcommandocaptain": {
@@ -3060,5 +3060,47 @@
   ],
   "gender": "male",
   "age": "middle_aged"
+ },
+ "name_oldshipinhabitant": {
+  "bio": "The older of two wary men guarding a trash-pile fire on the Sinking Ship, protective of his younger companion and terrified of breaking the raft's rules.",
+  "direction": "Weathered, defensive, and increasingly forceful; an old survivor whose gruff dismissal turns into a frightened roar when his companion is pressed.",
+  "kw": ["old", "weathered", "gruff", "defensive", "fearful"],
+  "gender": "male",
+  "age": "old"
+ },
+ "name_youngshipinhabitant": {
+  "bio": "The younger man sharing a trash-pile fire on the Sinking Ship, nervous enough to look to his elder whenever Is0bel pushes for answers.",
+  "direction": "Young, rough, and evasive; hesitant street speech that frays into stammering fear under pressure.",
+  "kw": ["young", "nervous", "rough", "hesitant", "fearful"],
+  "gender": "male",
+  "age": "young"
+ },
+ "name_maintenanceguard": {
+  "bio": "A female Wuxing security guard controlling access to a Bad Qi maintenance room.",
+  "direction": "Professional and wary, lowering into conspiratorial nerves when persuaded to bend access rules.",
+  "kw": ["female", "professional", "wary", "nervous", "firm"],
+  "gender": "female",
+  "age": "middle_aged"
+ },
+ "name_femaletsangreconcommando": {
+  "bio": "A female Tsang recon commando who confronts Ku Feng in the Walled City and realizes too late that ordinary authority will not stop her.",
+  "direction": "Self-important command bark cracking into alarm as her target resists supernatural coercion.",
+  "kw": ["female", "commanding", "aggressive", "tense", "alarmed"],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_tsangsoldieryang": {
+  "bio": "Yang, a female Tsang soldier trying to hold off her deranged squadmate Hu as the Walled City unravels.",
+  "direction": "Hard military control breaking into disbelief and urgent fear as she calls for backup.",
+  "kw": ["female", "soldier", "urgent", "fearful", "commanding"],
+  "gender": "female",
+  "age": "young"
+ },
+ "name_tsangsoldierhu": {
+  "bio": "Hu, a male Tsang soldier driven mad by the Yama Queen and convinced that mutilating himself and Yang will keep them safe.",
+  "direction": "Panicked certainty turned eerily calm; a trained soldier speaking through a supernatural psychotic break.",
+  "kw": ["male", "unstable", "panicked", "intense", "sinister"],
+  "gender": "male",
+  "age": "young"
  }
 }

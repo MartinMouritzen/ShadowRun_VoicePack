@@ -627,6 +627,14 @@
     }
    ],
    "reason": "The opening paragraph is stage direction, but the writers omitted its {{GM}} markers while marking the later 'She nods towards her son.' direction correctly. That made the segmenter merge the opening narration into Ermine's first spoken segment."
+  },
+  {
+   "convo": "557109403234316c1c0044d9",
+   "from": "name_rhombus",
+   "nodes": [
+    71
+   ],
+   "reason": "'She nods mutely.' is a complete third-person action beat for Is0bel, not dialogue spoken by Rhombus. The source omitted its {{GM}} markers, so it otherwise becomes a one-sentence Rhombus performance."
   }
  ]
 }
