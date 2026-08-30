@@ -1,0 +1,7 @@
+{
+  "_comment": "Human-reviewed timing outliers, keyed by exact take path so any replacement is audited afresh.",
+  "hk": {
+    "name_tsangvp/takes/5588a592303031e827004f11_0__mag385__1786436266.mp3": "ASR verified the complete line 'Well? I'm waiting.'; the slow timing is a valid dramatic delivery.",
+    "narrator/takes/556f6b96323431a812000f9b_1__0aXOy31Cjamp__1788098444.mp3": "ASR verified the complete kiosk keycode; spelling an alphanumeric code is intentionally much slower than prose."
+  }
+}

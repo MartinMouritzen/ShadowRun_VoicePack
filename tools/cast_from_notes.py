@@ -126,7 +126,9 @@ def wanted_lang(cid):
 
 def fits(vid, cid):
     v, want = by_vid.get(vid), gender_of(cid)
-    if not v:
+    # Retired provider voices stay in the catalog so released casts remain understandable, but a
+    # new character cannot be cast with a voice that can no longer generate its first line.
+    if not v or v.get("legacy"):
         return False
     lang = wanted_lang(cid) or "English"
     if (v.get("lang") or "English") != lang:

@@ -19,6 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))     # ~/dev/voices
 sys.path.insert(0, os.path.join(ROOT, "lab"))
 import spoken                                                      # noqa: E402
+import attribution_guard                                            # noqa: E402
 
 LAB = os.environ.get("LAB_URL", "http://localhost:3719")
 def credits(n, voice_id=""):
@@ -129,7 +130,28 @@ gcfg = json.load(open(os.path.join(ROOT, "games", a.game, "game.json")))
 DATA = os.path.normpath(os.path.join(ROOT, "games", a.game, gcfg.get("dataDir") or "data"))
 J = lambda n, d: json.load(open(os.path.join(DATA, n))) if os.path.exists(os.path.join(DATA, n)) else d
 
+# Retired Magnific rows stay in the shared cache so released packs can display their historical
+# cast correctly, but they cannot produce new audio. Treat one exactly like an uncast voice here;
+# otherwise an unattended bulk run spends thousands of requests discovering the same provider
+# rejection one line at a time.
+_voice_catalog = {v.get("voice_id"): v for v in
+                  json.load(open(os.path.join(ROOT, "lab", "magnific_voices.json"))).get("voices", [])}
+def current_voice(voice):
+    if not voice:
+        return None
+    row = _voice_catalog.get(str(voice.get("voiceId") or ""))
+    return None if row and row.get("legacy") else voice
+
+_warned_no_voice = set()
+def warn_no_voice(bucket, message):
+    """One useful warning per uncast bucket, not one per line in a bulk run."""
+    if bucket not in _warned_no_voice:
+        print(message, file=sys.stderr)
+        _warned_no_voice.add(bucket)
+
 chars = J("characters.json", {"characters": []})
+attribution = attribution_guard.audit(chars, J("char_notes.json", {}), gcfg,
+                                      J("attribution_reviews.json", {}))
 segs, edits = J("line_segments.json", {}), J("text_edits.json", {})
 directed, spoken_ov = J("directed.json", {}), J("spoken_overrides.json", {})
 takes, picks = J("takes.json", {}), J("picks.json", {})
@@ -188,16 +210,16 @@ def bark_jobs(speaker_query):
             # bark_overrides.json is the per-BARK voice, which is how one speaker's barks can be
             # split - the MKVI's system messages are a machine and its reactions are Blitz. It was
             # not consulted here at all, so every bark took the speaker's voice regardless.
-            voice = (({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice else None)
+            voice = current_voice((({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice else None)
                      or bark_over.get(key) or bark_over.get(sk) or segov.get(sk)
                      or bark_picks.get(sp_name)
                      # A bark speaker is a NAME; when a character of that name exists, the bark is
                      # that character talking and belongs in their voice. Without this the fallback
                      # was the narrator, so Blitz's combat barks would have been read by Matt.
                      or picks.get(char_by_name.get(sp_name, ""))
-                     or picks.get("narrator"))
+                     or picks.get("narrator")))
             if not voice:
-                print(f"  WARN: no voice for bark speaker '{sp_name}'", file=sys.stderr)
+                warn_no_voice(f"bark:{sp_name}", f"  WARN: no current voice for bark speaker '{sp_name}'")
                 break
             # after the voice, not before it: whether this bark still needs generating depends on
             # which voice it was made in once --recast is in play
@@ -221,7 +243,7 @@ TUTORIAL_ID = "_tutorial"
 def tutorial_jobs():
     tut = J("tutorials.json", {})
     done = takes.get("narrator") or {}
-    voice = bark_picks.get("Tutorial") or picks.get("narrator")
+    voice = current_voice(bark_picks.get("Tutorial") or picks.get("narrator"))
     out = []
     for key, entry in tut.items():
         if entry.get("nonverbal"):
@@ -232,10 +254,10 @@ def tutorial_jobs():
         text = re.sub(r"\s+", " ", text or "").strip()
         if not text or not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text), re.UNICODE):
             continue
-        v = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
-             else segov.get(key) or voice)
+        v = current_voice({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
+                          else segov.get(key) or voice)
         if not v:
-            print("  WARN: no voice for tutorials", file=sys.stderr); break
+            warn_no_voice("tutorials", "  WARN: no current voice for tutorials"); break
         out.append({"charId": "narrator", "lineKey": key, "text": text,
                     "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
     return out
@@ -244,12 +266,12 @@ def tutorial_jobs():
 def inspect_jobs():
     insp = J("inspect.json", {})
     done = takes.get("narrator") or {}
-    voice = picks.get("narrator")
+    voice = current_voice(picks.get("narrator"))
     out = []
     for key, entry in insp.items():
         # the voice first: after a recast, whether a key still needs generating depends on it
-        v = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
-             else segov.get(key) or voice)
+        v = current_voice({"voiceId": a.voice, "voiceName": a.voice_name or a.voice} if a.voice
+                          else segov.get(key) or voice)
         if already_voiced(done.get(key), v):
             continue
         raw = entry.get("spoken") if isinstance(entry, dict) else entry
@@ -277,7 +299,7 @@ def inspect_jobs():
                             "voiceId": vv["voiceId"], "voiceName": vv.get("voiceName")})
             continue
         if not v:
-            print("  WARN: no narrator voice for inspect lines", file=sys.stderr); break
+            warn_no_voice("inspect", "  WARN: no current narrator voice for inspect lines"); break
         if not unreachable_fallback("narrator", key):
             out.append({"charId": "narrator", "lineKey": key, "text": text,
                         "voiceId": v["voiceId"], "voiceName": v.get("voiceName")})
@@ -322,7 +344,7 @@ for owner in cast:
     ocid = owner.get("id")
     for line in owner.get("lines") or []:
         key = spoken.line_key(line, pad)
-        if line.get("locked") or key.split("~")[0] in official:
+        if line.get("locked") or line.get("nonvoiceable") or key.split("~")[0] in official:
             continue
         for bucket, sk, raw in spoken.segments_for(ocid, key, line, segs, fmt, spoken_ov):
             if bucket not in wanted:
@@ -343,10 +365,10 @@ for owner in cast:
             # in Dragonfall and each was a hard failure that no number of retries could clear.
             if not re.search(r"[^\W_]", re.sub(r"\[[^\]]*\]", "", text), re.UNICODE):
                 continue
-            voice = ({"voiceId": a.voice, "voiceName": a.voice_name or a.voice}
-                     if a.voice else segov.get(sk) or picks.get(cid))
+            voice = current_voice({"voiceId": a.voice, "voiceName": a.voice_name or a.voice}
+                                  if a.voice else segov.get(sk) or picks.get(cid))
             if not voice:
-                print(f"  WARN: {cid} has no voice — skipped", file=sys.stderr)
+                warn_no_voice(cid, f"  WARN: {cid} has no current voice — skipped")
                 break
             # A segment can need its variants even when its generic take is already made, so the
             # "already voiced" test is applied per KEY rather than skipping the segment outright.
@@ -375,6 +397,22 @@ if os.environ.get("GEN_BREAKDOWN"):
     print(f"  breakdown: {len(jobs)-len(v)} generic, {len(v)} variant clips", file=sys.stderr)
 if a.limit:
     jobs = jobs[:a.limit]
+
+# Paid generation has two independent attribution gates: filter here so the estimate and queue are
+# truthful, and enforce again in lab/server.py so stale clients and hand-written requests cannot
+# bypass the preflight. A blocked job costs zero and stays visibly unfinished for human review.
+safe_jobs, blocked_jobs = [], []
+for job in jobs:
+    issue = attribution_guard.generation_issue(
+        attribution, job["charId"], job["lineKey"])
+    (blocked_jobs if issue else safe_jobs).append((job, issue) if issue else job)
+jobs = safe_jobs
+if blocked_jobs:
+    print(f"  BLOCKED {len(blocked_jobs)} segment(s) pending attribution review:", file=sys.stderr)
+    for job, issue in blocked_jobs[:25]:
+        print(f"    {job['charId']}/{job['lineKey']}: {issue}", file=sys.stderr)
+    if len(blocked_jobs) > 25:
+        print(f"    ...and {len(blocked_jobs) - 25} more", file=sys.stderr)
 
 est = sum(credits(len(j["text"]), j["voiceId"]) for j in jobs)
 print(f"{len(jobs)} segments, {sum(len(j['text']) for j in jobs):,} chars, ~{est:,} credits"

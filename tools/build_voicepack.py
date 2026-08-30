@@ -125,6 +125,10 @@ def main():
 
     def process(char_id, line_list):
         for l in line_list:
+            # Screen copy, corrupted terminal dumps, and similar visual-only text are dialogue
+            # nodes for extraction/context purposes, but must never become spoken audio.
+            if l.get("nonvoiceable"):
+                continue
             base_key = f'{l["c"]}_{l["n"]}'
             stats["lines_total"] += 1
             ordered = []
@@ -320,6 +324,8 @@ def main():
     reachable = set()
     for ch in chars["characters"]:
         for l in ch.get("lines", []):
+            if l.get("nonvoiceable"):
+                continue
             bk = f'{l["c"]}_{l["n"]}'
             for bucket, sk in seg_keys(ch["id"], bk, SEGS):
                 b = ch["id"] if bucket == "char_or_narr" else bucket

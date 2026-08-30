@@ -14,7 +14,7 @@ The band is calibrated on this pack: interactively generated takes sit at a medi
 with p05/p95 of 10.6/20.4, and 6..28 flags 0.2% of them while catching clips off by 3x and more.
 It cannot catch a wrong clip that happens to be the right LENGTH, so a clean report is not proof
 of correctness -- it is a floor, not a ceiling."""
-import json, os, subprocess, sys
+import json, os, re, subprocess, sys
 
 GAME = next((a for a in sys.argv[1:] if not a.startswith("-")), "dms")
 if GAME not in ("dms", "dragonfall", "hk"): sys.exit(f"ERROR: unknown game '{GAME}'")
@@ -41,6 +41,21 @@ def _load(name):
 # Non-speech barks are exempt: a sound effect has no chars/sec to speak of. The store's own
 # 'nonverbal' flag misses some, so asterisk-wrapped SFX text ("*BEEP BEEP BEEP*") counts too.
 BARKS = _load("barks.json")
+DIRECTED = _load("directed.json")
+EDITS = _load("text_edits.json")
+REVIEWS_PATH = os.path.join(os.path.dirname(__file__), "take_timing_reviews.json")
+REVIEWS = (json.load(open(REVIEWS_PATH)).get(GAME, {}) if os.path.exists(REVIEWS_PATH) else {})
+
+def spoken_chars(seg_key, stored_chars):
+    """Do not count non-spoken [direction] prefixes in the timing denominator.
+
+    Legacy takes have no text hash, so only use today's text when its full length exactly matches
+    the stored submitted length. That proves which prompt shape the historical record measured.
+    """
+    current = EDITS.get(seg_key) or DIRECTED.get(seg_key)
+    if current and len(current) == stored_chars:
+        return len(re.sub(r"\[[^\]]+\]", "", current).strip())
+    return stored_chars
 def exempt(seg_key):
     b = BARKS.get(seg_key)
     if not b: return False
@@ -48,13 +63,14 @@ def exempt(seg_key):
                                         and b.get("text", "").strip().endswith("*"))
 
 takes = json.load(open(os.path.join(DATA, "takes.json")))
-findings, checked, missing = [], 0, 0
+findings, checked, missing, reviewed = [], 0, 0, 0
 for bucket, segs in takes.items():
     for seg_key, entry in segs.items():
         for tk in entry.get("takes", []):
             keeper = entry.get("selected") == tk["file"]
             if not (ALL or keeper): continue
-            chars = tk.get("chars") or 0
+            stored_chars = tk.get("chars") or 0
+            chars = spoken_chars(seg_key, stored_chars)
             if chars < MIN_CHARS or exempt(seg_key): continue
             p = os.path.join(AUDIO, *tk["file"].split("/"))
             if not os.path.exists(p): missing += 1; continue
@@ -63,6 +79,9 @@ for bucket, segs in takes.items():
             checked += 1
             rate = chars / d if d > 0.05 else float("inf")
             if MIN_RATE <= rate <= MAX_RATE: continue
+            if tk["file"] in REVIEWS:
+                reviewed += 1
+                continue
             findings.append({"bucket": bucket, "seg": seg_key, "keeper": keeper, "chars": chars,
                              "seconds": round(d, 2), "chars_per_sec": round(rate, 2),
                              "file": tk["file"],
@@ -74,7 +93,8 @@ if AS_JSON:
     print(json.dumps(findings, ensure_ascii=False, indent=1))
 else:
     print(f"[{GAME}] checked {checked} take(s){' (keepers only)' if not ALL else ''}"
-          + (f", {missing} missing audio file(s)" if missing else ""))
+          + (f", {missing} missing audio file(s)" if missing else "")
+          + (f", {reviewed} exact-file timing exception(s) rechecked" if reviewed else ""))
     print(f"{len(findings)} take(s) whose length does not fit their text "
           f"({sum(1 for f in findings if f['keeper'])} of them the current keeper):\n")
     for f in findings:

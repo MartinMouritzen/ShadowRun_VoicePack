@@ -43,6 +43,13 @@ def move_takes(src, dst, convo, nodes, clear_selected=False):
     return line_moves.move_takes(takes, AUDIO, src, dst, convo, nodes,
                                  clear_selected=clear_selected)
 
+def stamp_attribution(line, rule):
+    """Persist both ownership evidence and any generation policy carried by the rule."""
+    line["attribution"] = "manual-reattribution"
+    line["attributionReason"] = rule.get("reason")
+    if rule.get("nonvoiceable"):
+        line["nonvoiceable"] = True
+
 total = 0
 dropped = []
 for rule in rules:
@@ -89,8 +96,7 @@ for rule in rules:
         here = len(existing)
         if here == len(nodes):
             for ln in existing:
-                ln["attribution"] = "manual-reattribution"
-                ln["attributionReason"] = rule.get("reason")
+                stamp_attribution(ln, rule)
             print(f"  {rule.get('convo_name', convo)}: already applied ({src} gone, "
                   f"{here}/{len(nodes)} nodes under {dst})")
             continue
@@ -99,8 +105,7 @@ for rule in rules:
     keep, moved = [], 0
     for ln in by_id[src]["lines"]:
         if ln.get("c") == convo and ln.get("n") in nodes:
-            ln["attribution"] = "manual-reattribution"
-            ln["attributionReason"] = rule.get("reason")
+            stamp_attribution(ln, rule)
             by_id[dst]["lines"].append(ln); moved += 1
         else:
             keep.append(ln)
@@ -117,8 +122,7 @@ for rule in rules:
                     if ln.get("c") == convo and ln.get("n") in nodes]
     # Idempotent reruns also refresh the audit explanation on rules that had already been applied.
     for ln in target_lines:
-        ln["attribution"] = "manual-reattribution"
-        ln["attributionReason"] = rule.get("reason")
+        stamp_attribution(ln, rule)
     already = len(target_lines)
     print(f"  {rule.get('convo_name', convo)}: moved {moved} line(s) {src} -> {dst} "
           f"({already}/{len(nodes)} target nodes now under {dst})"

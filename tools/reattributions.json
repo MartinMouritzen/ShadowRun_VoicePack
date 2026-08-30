@@ -3034,6 +3034,15 @@
    "from": "name_gobbet",
    "to": "name_oldshipinhabitant",
    "reason": "Gobbet is absent from this scene. 'You again? What do you want?' is the older local's repeat greeting after his node-34 greeting."
+  },
+  {
+   "convo": "554151b23234370831001a80",
+   "convo_name": "a3_Showdown_s2-Boss_SidedWithQianYa",
+   "nodes": [4],
+   "from": "name_qianya",
+   "to": "name_computer",
+   "nonvoiceable": true,
+   "reason": "Is0bel explicitly identifies this node as corrupted text on the still-powered terminal, and the node is a menu headed 'Tsang Mechanical Services / Special Projects Division.' It is screen output, not Qian Ya speaking before she appears at node 10."
   }
  ]
 }

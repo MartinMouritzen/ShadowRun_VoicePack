@@ -648,9 +648,14 @@
      "node": 37,
      "before": "{{GM}}His lips start to tremble.{{/GM}\n\nThey began...",
      "after": "{{GM}}His lips start to tremble.{{/GM}}\n\nThey began..."
+    },
+    {
+     "node": 37,
+     "before": "Raymond's eyes roll back in his head and he closes them tight.{{/GM}}}",
+     "after": "Raymond's eyes roll back in his head and he closes them tight.{{/GM}}"
     }
    ],
-   "reason": "A malformed closing marker makes Raymond's second spoken paragraph part of narrator g0 and leaves a bogus character segment containing only a brace. Restore the missing closing brace."
+   "reason": "A malformed first closing marker swallows Raymond's second spoken paragraph into narration, while an extra brace after the final marker creates a bogus character segment containing only '}'. Repair both exact source defects."
   },
   {
    "convo": "5524518b3234376c45004dca",

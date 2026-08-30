@@ -107,6 +107,19 @@ class ApplyReattributionsTests(unittest.TestCase):
         entry = self.read("app/data/hk/takes.json")["live"]["convo_1"]
         self.assertEqual(entry["takes"][0]["file"], entry["selected"])
 
+    def test_nonvoiceable_policy_survives_move_and_idempotent_rerun(self):
+        rule = {"convo": "convo", "nodes": [1], "from": "wrong", "to": "live",
+                "nonvoiceable": True, "reason": "Screen text, not speech."}
+        self.fixture(rule)
+        self.write("app/data/hk/merges.json", {})
+
+        self.run_tool()
+        self.run_tool()
+        live = next(c for c in self.read("app/data/hk/characters.json")["characters"]
+                    if c["id"] == "live")
+        self.assertTrue(live["lines"][0]["nonvoiceable"])
+        self.assertEqual("Screen text, not speech.", live["lines"][0]["attributionReason"])
+
 
 if __name__ == "__main__":
     unittest.main()
